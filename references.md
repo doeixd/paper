@@ -36,6 +36,8 @@ Kelly, Thomas. 2005. "The Epistemic Significance of Disagreement." In *Oxford St
 
 Kim, Jaegwon. 1988. "What Is 'Naturalized Epistemology'?" *Philosophical Perspectives* 2: 381–405. https://doi.org/10.2307/2214082.
 
+Kornblith, Hilary. 1993. *Knowledge and Its Place in Nature*. Oxford: Oxford University Press.
+
 Kitcher, Philip. 1993. *The Advancement of Science: Science without Legend, Objectivity without Illusions*. New York: Oxford University Press.
 
 Kuhn, Thomas S. 1996. *The Structure of Scientific Revolutions*. 3rd ed. Chicago: University of Chicago Press. Originally published 1962.
@@ -83,6 +85,8 @@ Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Ana
 Simon, Herbert A. 1972. "Theories of Bounded Rationality." In *Decision and Organization*, edited by C. B. McGuire and Roy Radner, 161–76. Amsterdam: North-Holland Publishing Company.
 
 Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91, no. 2: 430–48. https://doi.org/10.1017/psa.2023.104.
+
+Staffel, Julia. 2021. "Coherentism and Belief Fixation." In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press.
 
 Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House.
 

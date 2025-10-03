@@ -62,9 +62,12 @@ After every large edit. write a summary of the changes, and explanation behind i
 the paper is in paper.md
 
 
+ALWAYS FIRST CREATE A DETAILED PLAN / TODO LIST
 
 DONT REPEAT YOURSELF. CHECK FOR KEYWORDS / SECTIONS TO MAKE SURE
 
 WE DONT HAVE TO BE SCIENTIFIC, JUST LOGICAL, HOLD THE reader's hand down the logical path, these are our assumptions, then if this, then this
 
-BE HUMBLE, CAVEAT, Use plain language.
+DONT BE SCARED OF NUANCE AND FALIBILITY
+
+BE HUMBLE, CAVEAT, Use plain language where possible

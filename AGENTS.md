@@ -2,6 +2,8 @@ We are writing an ACADEMPIC PHILOSOPHY PAPER.
 
 Not a hard science paper. and not a manifesto or blog post. 
 
+ALWAYS FIRST CREATE A DETAILED PLAN / TODO LIST
+
 Things to remember:
 My writing style is simple, but clear & detailed.
 Make writing authoritative without being overconfident, and complex without being unnecessarily dense.
@@ -65,6 +67,6 @@ the paper is in paper.md
 
 DONT REPEAT YOURSELF. CHECK FOR KEYWORDS / SECTIONS TO MAKE SURE
 
-BE HUMBLE, CAVEAT, Use plain language where possible
+BE HUMBLE, CAVEAT, Use plain language where possible, DONT BE SCARED OF NUANCE AND FALIBILITY
 
 WE DONT HAVE TO BE SCIENTIFIC, JUST LOGICAL, HOLD THE reader's hand down the logical path, start with assumptions then, if this, then this, and so on.
