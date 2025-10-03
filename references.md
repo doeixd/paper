@@ -26,6 +26,8 @@ Brandom, Robert B. 1994. *Making It Explicit: Reasoning, Representing, and Discu
 
 Campbell, Donald T. 1974. "Evolutionary Epistemology." In *The Philosophy of Karl R. Popper*, edited by Paul A. Schilpp, 413–63. La Salle, IL: Open Court.
 
+Christensen, David. 2007. "Epistemology of Disagreement: The Good News." *Philosophical Review* 116 (2): 187–217.
+
 Carlson, Matthew. 2015. "Logic and the Structure of the Web of Belief." *Journal for the History of Analytical Philosophy* 3, no. 5: 1–27. https://doi.org/10.22329/jhap.v3i5.3142.
 
 El-Hani, Charbel N., and Sami Pihlström. 2002. "Emergence Theories and Pragmatic Realism." *Essays in Philosophy* 3, no. 2, article 3. http://commons.pacificu.edu/eip/vol3/iss2/3.
@@ -39,6 +41,8 @@ Hartmann, Stephan, and Borut Trpin. 2023. "Conjunctive Explanations: A Coherenti
 Harding, Sandra. 1991. *Whose Science? Whose Knowledge? Thinking from Women's Lives*. Ithaca, NY: Cornell University Press.
 
 Hodge, A. Trevor. 1992. *Roman Aqueducts & Water Supply*. London: Duckworth.
+
+Fricker, Elizabeth. 2007. *The Epistemology of Testimony*. Oxford: Oxford University Press.
 
 Henrich, Joseph. 2015. *The Secret of Our Success: How Culture Is Driving Human Evolution, Domesticating Our Species, and Making Us Smarter*. Princeton, NJ: Princeton University Press.
 
@@ -63,6 +67,8 @@ Lakatos, Imre. 1970. "Falsification and the Methodology of Scientific Research P
 Laudan, Larry. 1977. *Progress and Its Problems: Towards a Theory of Scientific Growth*. Berkeley: University of California Press.
 
 Longino, Helen E. 2002. *The Fate of Knowledge*. Princeton, NJ: Princeton University Press.
+
+Lugones, María. 2003. *Pilgrimages/Peregrinajes: Theorizing Coalition against Multiple Oppressions*. Lanham, MD: Rowman & Littlefield.
 
 Lynch, Michael P. 2009. *Truth as One and Many*. Oxford: Oxford University Press.
 
@@ -126,5 +132,7 @@ Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton
 
 Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica* 43, no. 1–2: 99–124. https://doi.org/10.1111/j.1746-8361.1989.tb00933.x.
 
-Zollman, Kevin J. S. 2013. "Network Epistemology: Communication in the History of Science." *Philosophy Compass* 8, no. 1: 15–27. https://doi.org/10.1111/phc3.12021.
+Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." *Proceedings of the Sixth International Congress of Genetics* 1: 356–66.
+
+Zollman, Kevin J. S. 2013. "Network Epistemology: Communication in the History of Science." *Philosophy Compass* 8, no. 1: 15–27. https://doi.org/10.1111/j.1746-8361.1989.tb00933.x.
 
