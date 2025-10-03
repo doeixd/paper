@@ -1,5 +1,5 @@
 
-# **Convergent Coherence: How Failure Forges the Emergent Structure of Objective Truth**
+# **The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth**
 
 ## **Abstract**
 
