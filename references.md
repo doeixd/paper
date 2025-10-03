@@ -96,11 +96,11 @@ Simon, Herbert A. 1972. "Theories of Bounded Rationality." In *Decision and Orga
 
 Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91, no. 2: 430–48. https://doi.org/10.1017/psa.2023.104.
 
-Staffel, Julia. 2021. "Reasons Fundamentalism and Rational Uncertainty: The Externalist Response." *Philosophy and Phenomenological Research* 103 (3): 555–73.
+Staffel, Julia. 2019. "Reasons Fundamentalism and Rational Uncertainty: The Externalist Response." *Philosophy and Phenomenological Research* 103 (3): 555–73.
 
 Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91, no. 2: 430–48. https://doi.org/10.1017/psa.2023.104.
 
-Staffel, Julia. 2021. "Coherentism and Belief Fixation." In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press.
+Staffel, Julia. 2019. "Coherentism and Belief Fixation." In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press.
 
 Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House.
 
