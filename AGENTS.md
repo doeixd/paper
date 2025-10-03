@@ -64,6 +64,7 @@ After every large edit. write a summary of the changes, and explanation behind i
 
 the paper is in paper.md
 
+Use good judgement when integrating specific suggestions. make sure they align with our preferences, and make sense in the paper.
 
 
 DONT REPEAT YOURSELF. CHECK FOR KEYWORDS / SECTIONS TO MAKE SURE
