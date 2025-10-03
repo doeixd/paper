@@ -2,11 +2,15 @@
 
 Acemoglu, Daron, and James A. Robinson. 2012. *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*. New York: Crown Business.
 
-Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism and Theories of Emergence." *European Journal of Pragmatism and American Philosophy* XI-2. https://doi.org/10.4000/ejpap.1251.
+Ayvazov, Mahammad. 2025. "Toward a Phase Epistemology: Coherence, Response and the Vector of Mutual Uncertainty." *SSRN Electronic Journal*, May 14. https://doi.org/10.2139/ssrn.5250197.
+
+Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism and Theories of Emergence." *European Journal of Pragmatism and American Philosophy* XI-2. https://doi.org/10.4000/ejpap.1611.
 
 Baysan, Umut. 2025. "Emergent Moral Non-naturalism." *Philosophy and Phenomenological Research* 110, no. 1: 1–20. https://doi.org/10.1111/phpr.70057.
 
 Bennett-Hunter, Guy. 2015. "Emergence, Emergentism and Pragmatism." *Theology and Science* 13, no. 3: 337–57. https://doi.org/10.1080/14746700.2015.1053760.
+
+Bennett-Hunter, Guy. 2015. *Ineffability and Religious Experience*. London: Pickering & Chatto.
 
 Berlin, Brent, and Paul Kay. 1969. *Basic Color Terms: Their Universality and Evolution*. Berkeley: University of California Press.
 
@@ -25,6 +29,8 @@ El-Hani, Charbel N., and Sami Pihlström. 2002. "Emergence Theories and Pragmati
 Goldman, Alvin I. 1979. "What Is Justified Belief?" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel.
 
 Haack, Susan. 1993. *Evidence and Inquiry: Towards Reconstruction in Epistemology*. Oxford: Blackwell.
+
+Hartmann, Stephan, and Borut Trpin. 2023. "Conjunctive Explanations: A Coherentist Appraisal." In *Conjunctive Explanations: The Nature, Epistemology, and Psychology of Explanatory Multiplicity*, edited by Jonah N. Schupbach and David H. Glass, 111-129. Cham: Springer International Publishing.
 
 Harding, Sandra. 1991. *Whose Science? Whose Knowledge? Thinking from Women's Lives*. Ithaca, NY: Cornell University Press.
 
@@ -58,6 +64,8 @@ Meadows, Donella H. 2008. *Thinking in Systems: A Primer*. Edited by Diana Wrigh
 
 Mesoudi, Alex. 2011. *Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences*. Chicago: University of Chicago Press.
 
+Moghaddam, Ataollah. 2013. "Quine, Naturalized Epistemology, and the Third Dogma of Empiricism." *Dialectica* 67 (2): 153–72.
+
 Moghaddam, Soroush. 2013. "Confronting the Normativity Objection: W.V. Quine’s Engineering Model and Michael A. Bishop and J.D. Trout’s Strategic Reliabilism." Master's thesis, University of Victoria.
 
 Olsson, Erik J. 2005. *Against Coherence: Truth, Probability, and Justification*. Oxford: Oxford University Press.
@@ -80,15 +88,23 @@ Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Prin
 
 Rosenstock, Sarita, Cailin O'Connor, and Justin Bruner. 2017. "In Epistemic Networks, Is Less Really More?" *Philosophy of Science* 84, no. 2: 234–52. https://doi.org/10.1086/690641.
 
+Rottschaefer, William A. 2012. "Moral Realism and Evolutionary Moral Psychology." In *The Oxford Handbook of Moral Realism*, edited by Paul Bloomfield, 123–45. Oxford: Oxford University Press.
+
 Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Analyse \& Kritik* 34, no. 1: 141–56. https://doi.org/10.1515/ak-2012-0107.
 
 Simon, Herbert A. 1972. "Theories of Bounded Rationality." In *Decision and Organization*, edited by C. B. McGuire and Roy Radner, 161–76. Amsterdam: North-Holland Publishing Company.
 
 Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91, no. 2: 430–48. https://doi.org/10.1017/psa.2023.104.
 
+Staffel, Julia. 2021. "Reasons Fundamentalism and Rational Uncertainty: The Externalist Response." *Philosophy and Phenomenological Research* 103 (3): 555–73.
+
+Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91, no. 2: 430–48. https://doi.org/10.1017/psa.2023.104.
+
 Staffel, Julia. 2021. "Coherentism and Belief Fixation." In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press.
 
 Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House.
+
+Tauriainen, Teemu. 2017. "Quine on Truth." *Philosophical Forum* 48 (4): 397–416.
 
 Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä.
 
