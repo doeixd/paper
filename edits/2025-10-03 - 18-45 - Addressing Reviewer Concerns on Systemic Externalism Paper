@@ -1,0 +1,36 @@
+## Summary of Edits: Addressing Reviewer Concerns on Systemic Externalism Paper
+
+### Major Changes and Rationale
+
+1. **Clarified Ambiguity in Core Mechanisms (Apex Network and Brittleness)**:
+   - Added formalization using network theory (Newman 2010) to explain how V(W_k) is computed via brittleness metrics, emphasizing graph resilience for convergence.
+   - Distinguished structural convergence (methods like experimentation) from propositional convergence, allowing for pluralism in content while unifying approaches.
+   - Rationale: Addresses reviewer's concern about under-specification by providing concrete mechanisms for maximal viability emergence across domains, engaging metaethical literature implicitly through normative extensions.
+
+2. **Mitigated Circularity in Brittleness Metrics**:
+   - Introduced "Minimal Viability Anchors" (resource sustainability, demographic stability) as cross-cultural baselines.
+   - Added falsifiability case: Climate policy models, where high M(t) predicts failures, demonstrating predictive utility.
+   - Rationale: Provides theory-neutral anchors to ground metrics, reducing bias, and shows how metrics predict collapse, enhancing defensibility.
+
+3. **Limited Scope Overreach**:
+   - Expanded mathematics section with examples (Russell's paradox, Euclidean vs. non-Euclidean geometries), using metrics like proof complexity.
+   - Integrated feminist epistemology (Harding 1991) on power in mathematics, showing how coercive overheads delay diagnostics.
+   - Rationale: Acknowledges limitations in pure math while justifying broader applicability, addressing power dynamics as central rather than exceptional.
+
+4. **Strengthened Empirical Underdevelopment**:
+   - Expanded pilot study on COVID-19 models (2020–2022), citing Mallapaty (2020) to show high M(t) correlates with predictive failures.
+   - Added historical data citation (Hodge 1992) for Roman aqueducts brittleness.
+   - Rationale: Provides concrete validation, counters claims of low empirical support, and supports brittleness-collapse link with falsifiable examples.
+
+5. **Minor Issues**:
+   - Added citation for miasma theory’s patch velocity (Snow 1855 already present).
+   - Restructured conclusion to include summary of implications for epistemology and future research, preventing abrupt ending.
+   - Structure: Section 3 flow improved by ensuring logical progression; no major relocation needed as subsections fit.
+
+### Overall Impact
+These revisions enhance clarity, rigor, and defensibility by preempting objections, adding empirical grounding, and maintaining philosophical precision. The paper now better anticipates reviewer criticism, uses appropriate citations, and qualifies claims without overreach. Total additions: ~500 words, focusing on depth over length.
+
+### Citations Added
+- Hodge, A. Trevor. 1992. *Roman Aqueducts & Water Supply*. London: Duckworth.
+- Mallapaty, Smriti. 2020. "The Coronavirus Is Mutating—Does It Matter?" *Nature*, August 27. https://doi.org/10.1038/d41586-020-02439-2.
+- Newman, Mark. 2010. *Networks: An Introduction*. Oxford: Oxford University Press.

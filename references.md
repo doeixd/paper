@@ -38,6 +38,8 @@ Hartmann, Stephan, and Borut Trpin. 2023. "Conjunctive Explanations: A Coherenti
 
 Harding, Sandra. 1991. *Whose Science? Whose Knowledge? Thinking from Women's Lives*. Ithaca, NY: Cornell University Press.
 
+Hodge, A. Trevor. 1992. *Roman Aqueducts & Water Supply*. London: Duckworth.
+
 Henrich, Joseph. 2015. *The Secret of Our Success: How Culture Is Driving Human Evolution, Domesticating Our Species, and Making Us Smarter*. Princeton, NJ: Princeton University Press.
 
 Holling, C. S. 1973. "Resilience and Stability of Ecological Systems." *Annual Review of Ecology and Systematics* 4: 1–23. https://doi.org/10.1146/annurev.es.04.110173.000245.
@@ -64,6 +66,8 @@ Longino, Helen E. 2002. *The Fate of Knowledge*. Princeton, NJ: Princeton Univer
 
 Lynch, Michael P. 2009. *Truth as One and Many*. Oxford: Oxford University Press.
 
+Mallapaty, Smriti. 2020. "The Coronavirus Is Mutating—Does It Matter?" *Nature*, August 27. https://doi.org/10.1038/d41586-020-02439-2.
+
 Meadows, Donella H. 2008. *Thinking in Systems: A Primer*. Edited by Diana Wright. White River Junction, VT: Chelsea Green Publishing.
 
 Mesoudi, Alex. 2011. *Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences*. Chicago: University of Chicago Press.
@@ -71,6 +75,8 @@ Mesoudi, Alex. 2011. *Cultural Evolution: How Darwinian Theory Can Explain Human
 Moghaddam, Ataollah. 2013. "Quine, Naturalized Epistemology, and the Third Dogma of Empiricism." *Dialectica* 67 (2): 153–72.
 
 Moghaddam, Soroush. 2013. "Confronting the Normativity Objection: W.V. Quine’s Engineering Model and Michael A. Bishop and J.D. Trout’s Strategic Reliabilism." Master's thesis, University of Victoria.
+
+Newman, Mark. 2010. *Networks: An Introduction*. Oxford: Oxford University Press.
 
 Olsson, Erik J. 2005. *Against Coherence: Truth, Probability, and Justification*. Oxford: Oxford University Press.
 
