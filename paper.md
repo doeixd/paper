@@ -1,11 +1,11 @@
 
 # **The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth**
 
-## **Abstract**
+## Abstract
 
 Coherentist theories of justification are vulnerable to the isolation objection: the possibility that a perfectly coherent belief system could be detached from reality. This paper develops Emergent Pragmatic Coherentism, a framework that grounds coherence in the demonstrated viability of knowledge systems. The framework introduces systemic brittleness, a diagnostic tool for measuring network health through the observable costs of applying propositions. We argue that selective pressure from these costs forces knowledge systems to converge on an emergent structure—the **Apex Network**—representing not pre-existing truth but a bottom-up pattern of maximally viable propositions surviving historical filtering. A claim's justification depends on both its internal coherence and the proven resilience of the public Consensus Network certifying it. This naturalistic theory redefines objective truth as alignment with the Apex Network's emergent structure, explains how Quine's web of belief undergoes pragmatic revision, and grounds a falsifiable research program for assessing epistemic system health. This program is illustrated through preliminary applications to historical cases, such as Ptolemaic astronomy and AI winters, using quantifiable proxies like citation patterns and resource allocation metrics.
 
-## **1. Introduction: From a Static Web to a Dynamic Process**
+## 1. Introduction: From a Static Web to a Dynamic Process
 
 Why did germ theory replace miasma theory? While a standard answer points to superior evidence, a deeper analysis reveals a story about systemic viability. Miasma theory generated catastrophic costs—thousands died in London because public health efforts were misdirected at odors rather than contaminated water—and required accelerating ad hoc modifications to explain anomalies. Miasma theory's brittleness can be illustrated through its high patch velocity (P(t)); historical analyses (e.g., Snow 1855) suggest the need for dozens of ad-hoc modifications by the mid-19th century to explain accumulating anomalies. Germ theory, by contrast, dramatically reduced these costs while explaining diverse phenomena with a unified conceptual framework.
 
@@ -312,13 +312,13 @@ Incommensurable paradigms present subtler difficulties. Direct theoretical compa
 
 
 
-### **7.3 Macro-Epistemology and Individual Justification**
+### **7.2 Macro-Epistemology and Individual Justification**
 
 As a macro-epistemology explaining long-term viability of public knowledge systems, the framework doesn't primarily solve micro-epistemological problems (Gettier cases, perceptual justification). Instead, it bridges levels through higher-order evidence: diagnosed system health provides powerful defeaters or corroborators for individual beliefs.
 
 Formally, diagnosed brittleness determines rational priors. Low-brittleness networks (IPCC reports) warrant high priors; high-brittleness networks (denialist documentaries) warrant low priors. Following Kelly (2005), source properties matter. Even powerful first-order evidence from high-brittleness sources yields low posterior confidence due to extremely low priors. Macro-level diagnosis thus provides rational, quantitative trust allocation.
 
-### **7.4 A Falsifiable Research Program**
+### **7.3 A Falsifiable Research Program**
 
 The framework grounds a concrete empirical research program with a falsifiable core hypothesis: *networks with high or rising measured brittleness carry statistically higher collapse probability when facing comparable external shocks.* Historical data on collapsed systems, such as Roman aqueduct failures due to brittleness in hydraulic engineering (Turchin 2003), support this link.
 
@@ -328,7 +328,7 @@ The framework grounds a concrete empirical research program with a falsifiable c
 
 **Falsifiability**: If broad, methodologically sound historical analysis revealed no significant correlation between systemic cost indicators and subsequent fragility, the theory's causal engine would be severely undermined. The framework's ultimate test lies in prospective application: diagnosing rising brittleness in current paradigms yields falsifiable predictions about statistical likelihood of supersession when facing novel challenges.
 
-### **7.5 Power, Contingency, and Diagnostic Challenges**
+### **7.4 Power, Contingency, and Diagnostic Challenges**
 
 An evolutionary model of knowledge must account for the complexities of history, not just an idealized linear progress. The landscape of viability is not smooth; knowledge systems can become entrenched in suboptimal but locally stable states, which we term "fitness traps." This section clarifies how the framework incorporates factors like path dependence and institutional power not as external exceptions, but as core variables that explain these historical dynamics. The model's claim is not deterministic prediction but probabilistic analysis: it proposes that beneath the surface-level contingency historians rightly emphasize, underlying structural pressures create statistical tendencies over long timescales. A system accumulating brittleness is not fated to collapse on a specific date, but it becomes progressively more vulnerable to contingent shocks. The model thus complements historical explanation by offering tools to understand why some systems prove more resilient than others.
 
