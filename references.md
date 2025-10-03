@@ -6,6 +6,10 @@ Ayvazov, Mahammad. 2025. "Toward a Phase Epistemology: Coherence, Response and t
 
 Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism and Theories of Emergence." *European Journal of Pragmatism and American Philosophy* XI-2. https://doi.org/10.4000/ejpap.1611.
 
+MLPerf Association. 2023. "MLPerf Training Results." https://mlperf.org/.
+
+Sevilla, Jaime, Lennart Heim, Marius Hobbhahn, and Anson Ho. 2022. "Compute Trends Across Three Eras of Machine Learning." arXiv preprint arXiv:2202.05924.
+
 Baysan, Umut. 2025. "Emergent Moral Non-naturalism." *Philosophy and Phenomenological Research* 110, no. 1: 1–20. https://doi.org/10.1111/phpr.70057.
 
 Bennett-Hunter, Guy. 2015. "Emergence, Emergentism and Pragmatism." *Theology and Science* 13, no. 3: 337–57. https://doi.org/10.1080/14746700.2015.1053760.
