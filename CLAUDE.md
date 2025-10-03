@@ -52,5 +52,19 @@ Be careful to always maintain existing qualifications / defenses, important deta
 - Is every claim as strong as the evidence allows without overreach?
 - Does the writing demonstrate mastery while remaining accessible?
 
+Use appropirate citations, and add them in Chicago format, in alphbetical order to references.md
 
 Focus on creating work that shows sophisticated philosophical thinking through clear, precise academic prose.
+
+
+After every large edit. write a summary of the changes, and explanation behind it. etc in a document in the edits/ directory, and preface the file name with the date YYYY-MM-DD - HH:MM - SUMMARY OF Edits Title
+
+the paper is in paper.md
+
+
+
+DONT REPEAT YOURSELF. CHECK FOR KEYWORDS / SECTIONS TO MAKE SURE
+
+WE DONT HAVE TO BE SCIENTIFIC, JUST LOGICAL, HOLD THE reader's hand down the logical path, these are our assumptions, then if this, then this
+
+BE HUMBLE, CAVEAT, Use plain language.
