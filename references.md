@@ -78,6 +78,8 @@ Popper, Karl. 1959. *The Logic of Scientific Discovery*. London: Hutchinson. Ori
 
 Price, Huw. 1992. "Metaphysical Pluralism." *Journal of Philosophy* 89, no. 8: 387–409. https://doi.org/10.2307/2940975.
 
+Pritchard, Duncan. 2016. "Epistemic Risk." *Journal of Philosophy* 113 (11): 550–71. https://doi.org/10.5840/jphil20161131135.
+
 Putnam, Hilary. 2002. *The Collapse of the Fact/Value Dichotomy and Other Essays*. Cambridge, MA: Harvard University Press.
 
 Quine, W. V. O. 1951. "Two Dogmas of Empiricism." *Philosophical Review* 60, no. 1: 20–43. https://doi.org/10.2307/2181906.
@@ -93,6 +95,8 @@ Rottschaefer, William A. 2012. "Moral Realism and Evolutionary Moral Psychology.
 Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Analyse \& Kritik* 34, no. 1: 141–56. https://doi.org/10.1515/ak-2012-0107.
 
 Simon, Herbert A. 1972. "Theories of Bounded Rationality." In *Decision and Organization*, edited by C. B. McGuire and Roy Radner, 161–76. Amsterdam: North-Holland Publishing Company.
+
+Snow, John. 1855. "On the Mode of Communication of Cholera." In *Snow on Cholera: Being a Reprint of Two Papers*, 1–74. London: John Churchill. Originally published in *London Medical Gazette*, 1855.
 
 Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91, no. 2: 430–48. https://doi.org/10.1017/psa.2023.104.
 

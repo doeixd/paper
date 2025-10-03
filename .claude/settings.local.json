@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-Date -Format \"yyyy-MM-dd - HH-mm\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

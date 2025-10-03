@@ -29,6 +29,7 @@ You are helping write a HIGH-QUALITY ACADEMIC PHILOSOPHY PAPER for peer review p
 - **Concision**: Keep writing concise without redundant or wordy phrases, while preserving maximum detail and clarity
 - Dont overuse boldface.
 - Dont use em dashes.
+- no footnotes, just explain in writing
 
 ## Content Standards:
 - **Anticipatory**: Pre-empt any misunderstandings or objections before they arise
@@ -70,3 +71,5 @@ DONT REPEAT YOURSELF. CHECK FOR KEYWORDS / SECTIONS TO MAKE SURE
 BE HUMBLE, CAVEAT, Use plain language where possible, DONT BE SCARED OF NUANCE AND FALIBILITY
 
 WE DONT HAVE TO BE SCIENTIFIC, JUST LOGICAL, HOLD THE reader's hand down the logical path, start with assumptions then, if this, then this, and so on.
+
+git commit with detaild summary / rational, etc after everything.
