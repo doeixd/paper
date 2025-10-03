@@ -59,7 +59,7 @@ Use appropirate citations, and add them in Chicago format, in alphbetical order 
 
 Focus on creating work that shows sophisticated philosophical thinking through clear, precise academic prose.
 
-After every large edit. write a summary of the changes, and explanation behind it. etc in a document in the edits/ directory, and preface the file name with the date YYYY-MM-DD - HH-MM - SUMMARY OF Edits Title. make sure to include any deleted information, so it can be referenced later.
+After every large edit. write a summary of the changes, and explanation behind it. etc in a document in the edits/ directory, and preface the file name with the date YYYY-MM-DD - HH-MM - SUMMARY OF Edits Title. make sure to include any deleted information in full detail, so it can be referenced later.
 
 
 the paper is in paper.md
