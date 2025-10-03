@@ -66,6 +66,7 @@ the paper is in paper.md
 
 Use good judgement when integrating specific suggestions. make sure they align with our preferences, and make sense in the paper.
 
+your edits might fail. make sure they succeed if you arent sure.
 
 DONT REPEAT YOURSELF. CHECK FOR KEYWORDS / SECTIONS TO MAKE SURE
 
