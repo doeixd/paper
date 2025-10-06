@@ -2,7 +2,7 @@
 
 ## **Abstract**
 
-Coherentist theories of justification face the isolation objection: a belief system could be perfectly coherent yet entirely detached from reality. This paper proposes Emergent Pragmatic Coherentism, grounding coherence in the demonstrated viability of knowledge systems. The framework introduces **systemic brittleness** as a diagnostic tool, measuring network health through observable costs incurred when applying propositions. We argue that mind-independent pragmatic constraints determine a **necessary structure of optimal solutions—the Apex Network**—which emerges from the topology of reality itself. Selective pressure forces knowledge systems to converge on this structure through historical filtering, a process of **discovery, not creation**. Justification thus requires both internal coherence and the certifying network's demonstrated resilience. This **naturalized proceduralism** redefines objective truth as alignment with the Apex Network and supports a **falsifiable research program** for assessing epistemic health, with preliminary applications to cases from Ptolemaic astronomy to contemporary AI.
+Coherentist theories of justification remain vulnerable to the isolation objection: a belief system could be perfectly coherent yet entirely detached from reality. This paper proposes Emergent Pragmatic Coherentism, grounding coherence in the demonstrated viability of knowledge systems. The framework introduces **systemic brittleness** as a diagnostic tool, measuring network health through observable costs incurred when applying propositions. We argue that mind-independent pragmatic constraints determine a **necessary structure of optimal solutions—the Apex Network**—which emerges from the topology of reality itself. Selective pressure forces knowledge systems to converge on this structure through historical filtering, a process of **discovery, not creation**. Justification thus requires both internal coherence and the certifying network's demonstrated resilience. This **naturalized proceduralism** redefines objective truth as alignment with the Apex Network and supports a **falsifiable research program** for assessing epistemic health, with preliminary applications to cases from Ptolemaic astronomy to contemporary AI.
 
 ## **1. Introduction: From a Static Web to a Dynamic Process**
 
@@ -16,7 +16,9 @@ This transforms the isolation objection: a coherent system detached from reality
 
 This paper models inquiry as an evolutionary process aimed at cultivating viable, less fragile public knowledge systems. It is a macro-epistemology—a theory about the long-term viability of cumulative systems like science and law. The model proposes a Lamarckian-style mechanism of directed adaptation through learning, rather than purely Darwinian selection, to account for the intentional nature of inquiry.
 
-To pre-empt a common misinterpretation, we distinguish viability from mere endurance. A brutal empire that persists through coercion is not viable but a textbook case of high brittleness; its longevity measures the immense energy wasted suppressing instability. Viability is relational: a system's capacity to solve problems with sustainably low systemic costs. This distinction is empirically measurable—the ratio of coercive to productive resources quantifies non-viability. Claims are probabilistic, not deterministic: brittleness increases vulnerability to shocks, but collapse is not inevitable. Power and path dependence are variables, not exceptions; coercive costs indicate non-viability.
+To pre-empt a common misinterpretation, we distinguish viability from mere endurance. A brutal empire that persists through coercion is not viable but a textbook case of high brittleness; its longevity measures the immense energy wasted suppressing instability. Viability is relational: a system's capacity to solve problems with sustainably low systemic costs. This distinction is empirically measurable—the ratio of coercive to productive resources quantifies non-viability.
+
+Furthermore, this framework incorporates power, path dependence, and historical contingency not as exceptions but as key variables. The exercise of power to maintain a brittle system is not a refutation of the model but a primary indicator of its non-viability, measured through high coercive costs. The framework's claims are therefore probabilistic, not deterministic: brittleness increases vulnerability to contingent shocks, but collapse is not inevitable.
 
 This failure-driven process grounds fallible realism. Knowledge systems converge on emergent structures determined by mind-independent constraints, yielding a falsifiable research program for historical dynamics.
 
@@ -26,7 +28,7 @@ To clarify its scope, this framework is not foundationalist nor a general theory
 
 This focus demonstrates unification under pragmatic selection. The framework is naturalized proceduralism: objectivity arises from historical brittleness assessment, not idealized discourse norms. Arguments are disciplined by systemic success data.
 
-The argument unfolds systematically: Section 2 develops brittleness diagnostics; Section 3 establishes viability logic; Section 4 introduces the Negative Canon and Apex Network; Section 5 animates Quine's web; Section 6 situates the framework in debates; Section 7 defends against objections.
+The argument proceeds systematically. Section 2 develops the diagnostic framework for assessing systemic brittleness; Section 3 establishes the logic of viability; Section 4 introduces the Negative Canon and the Apex Network; Section 5 animates Quine's web of belief; Section 6 situates the framework within contemporary epistemological debates; Section 7 defends against objections and clarifies principled limitations.
 
 ## **2. The Core Concepts: Units of Epistemic Selection**
 
@@ -128,6 +130,8 @@ A system that generates higher death or disease rates than viable alternatives u
   * **Proof Complexity Escalation:** Increasing proof length without explanatory gain (mathematics).
 
 While the interpretation of these costs is a normative matter for agents within a system, their existence and magnitude are empirical questions. The framework's core causal claim is falsifiable and descriptive: a network with high or rising brittleness across these tiers carries a statistically higher probability of systemic failure or major revision when faced with external shocks.
+
+While this tiered framework provides conceptual clarity on the different types of costs, robustly measuring them requires a disciplined methodology. We therefore turn to the triangulation method, which provides the practical protocol for achieving pragmatic objectivity.
 
 **Cost-Shifting as Diagnostic Signal**
 
@@ -398,7 +402,7 @@ Naturalistic epistemologies often treat mathematics as a boundary problem—how 
 - Measured as: average proof length for theorems of comparable scope over time
 - Rising M(t) signals degenerating research program
 
-**P(t): Conceptual Debt Accumulation (P(t): Axiom Proliferation)**
+**P(t): Conceptual Debt Accumulation (proxied by Axiom Proliferation)**
 - Ad-hoc modifications to patch paradoxes or anomalies
 - Measured as: ratio of new axioms added to resolve contradictions vs. axioms generating novel theorems
 - High P(t) indicates conceptual debt accumulation
@@ -414,8 +418,6 @@ Naturalistic epistemologies often treat mathematics as a boundary problem—how 
 - Declining R(t) signals fragmentation and loss of coherence
 
 The abstract costs in mathematics can be operationalized using our diagnostic toolkit.
-
-#### **5.2.2 Brittleness Reduction as Mathematical Progress**
 
 To illustrate these metrics in action, consider brief examples of mathematical progress as brittleness reduction:
 
@@ -435,7 +437,7 @@ To illustrate these metrics in action, consider brief examples of mathematical p
 - But lower brittleness for certain domains (algebraic topology, theoretical computer science)
 - Adoption follows domain-specific viability assessment
 
-#### **5.2.3 Case Study: The Crisis of Foundations and Russell's Paradox**
+#### **5.2.2 Case Study: Brittleness Reduction in Foundations—The Crisis of Russell's Paradox**
 
 **Naive Set Theory (pre-1901):**
 - M(t): Moderate—proofs reasonably concise
@@ -473,7 +475,7 @@ To illustrate these metrics in action, consider brief examples of mathematical p
 
 **Historical Outcome:** Mathematical community converged primarily on ZF, with Type Theory for specific domains. Paraconsistent approaches remain peripheral. This convergence reflects differential brittleness, not arbitrary preference.
 
-#### **5.2.4 Power and Suppression in Mathematical Practice**
+#### **5.2.3 Power and Suppression in Mathematical Practice**
 
 Engaging with insights from feminist epistemology (Harding 1991), we can see that even mathematics is not immune to power dynamics that generate brittleness. When a dominant mathematical community uses institutional power to suppress alternative approaches (e.g., career punishment, publication barriers for heterodox foundations), this incurs measurable **Coercive Overheads (C(t))**. These costs manifest as innovation lags, fragmentation into splinter communities, and delayed discoveries as useful insights are marginalized for sociological, not technical, reasons. The historical resistance to non-standard analysis, despite its applications, is a potential example of such a brittleness-inducing suppression.
 
@@ -684,11 +686,7 @@ Ultimately, this framework calls for a form of epistemic humility. The practical
 
 Furthermore, the brittleness toolkit isn't just for philosophers; it could and should be used by institutional designers, science funders, and policy analysts to assess the structural health of our most critical knowledge-producing institutions in real time. This positions the paper not just as a solution to an old philosophical puzzle, but as a practical and urgent research program for the 21st century.
 
-## **Appendix A: Operationalizing Brittleness Metrics**
-
-See Section 7.1 for the detailed falsifiable research program and methodology.
-
-## **Appendix B: Normative Brittleness as a Speculative Extension**
+## **Appendix A: Normative Brittleness as a Speculative Extension**
 
 The framework for assessing brittleness is general, but its application reveals two primary modalities of failure, corresponding to the different kinds of pragmatic constraints a network can violate. This distinction clarifies how our approach unifies descriptive and normative inquiry under a single explanatory mechanism.
 
