@@ -18,6 +18,8 @@ This paper models inquiry as an evolutionary process aimed at cultivating viable
 
 To pre-empt a common misinterpretation, we distinguish viability from mere endurance. A brutal empire that persists through coercion is not viable in these terms but a textbook case of high brittleness; its longevity measures the immense energy it wastes suppressing its own instability. Viability is therefore not an intrinsic property but a relational one: a system's capacity to solve problems within a given pragmatic environment with sustainably low systemic costs.
 
+This distinction is not merely conceptual; it is empirically measurable. As we will show, the ratio of a state's resources dedicated to coercive control versus productive investment serves as a primary, quantifiable indicator of this non-viability. The framework's claim is therefore probabilistic: while a system accumulating brittleness is not fated to collapse on a specific date, it becomes progressively more vulnerable to the very contingent shocks that historians study.
+
 However, any credible theory of knowledge evolution must account for the realities of power, path dependence, and historical contingency. This framework incorporates these factors not as exceptions but as key variables within the model. The exercise of power to maintain a brittle system is not a refutation of the model but a primary indicator of that system's non-viability, measured through its high coercive costs.
 
 This failure-driven, adaptive process grounds a robust but fallible realism. It explains how evolving knowledge systems are forced to converge on an emergent structure of workable solutions determined by mind-independent pragmatic constraints. The claim is probabilistic, not deterministic: beneath the surface noise of contingency and power, there are underlying structural pressures at work. A system accumulating brittleness—a system's vulnerability to collapse due to the accumulation of hidden, internal costs, a concept analogous to the notion of fragility developed by Taleb (2012)—is not fated to collapse on a specific date, but it becomes progressively more vulnerable to the very contingent shocks that historians study. This model does not offer a deterministic theory of history but rather proposes the foundation for a falsifiable, probabilistic research program for understanding the structural dynamics that shape the landscape upon which historical events unfold.
@@ -113,7 +115,38 @@ Brittleness assessment remains partially hermeneutic. The framework provides str
 
 This methodology provides pragmatic objectivity sufficient for comparative assessment. **A detailed protocol for operationalizing these metrics, including a worked example of inter-rater reliability, is provided in Appendix A.**
 
-### **3.3 A Protocol for Constrained Interpretation**
+### **3.2 A Tiered Diagnostic Framework for Cost Objectivity**
+
+To clarify how objective cost assessment is possible without appealing to contested values, we can organize brittleness indicators into a tiered diagnostic framework, moving from the most foundational and least contestable to the more domain-specific.
+
+* **Tier 1: Foundational Bio-Social Costs:** At the most fundamental level are the direct, material consequences of a network's misalignment with the conditions for its own persistence. These are not abstract values but objective bio-demographic facts, measurable through historical and bioarchaeological data. They include:
+  * Excess mortality and morbidity rates (relative to contemporaneous peers with similar constraints)
+  * Widespread malnutrition and resource depletion
+  * Demographic collapse or unsustainable fertility patterns
+  * Chronic physical suffering and injury rates
+
+* **Tier 2: Systemic Costs of Internal Friction:** The second tier measures the non-productive resources a system must expend on internal control rather than productive adaptation. These systemic costs are often directly quantifiable:
+  * **The Coercion Ratio (C(t)):** In socio-political networks, this can be measured by analyzing the ratio of a state's resources allocated to internal security and suppression versus resources for public health, infrastructure, and R&D.
+  * **Information Suppression Costs:** Resources dedicated to censorship or documented suppression of minority viewpoints, and resulting innovation lags when compared to more open rival systems.
+
+* **Tier 3: Domain-Specific Epistemic Costs:** The third tier addresses more abstract domains like theoretical science where "costs" are defined by the constitutive goals of the domain itself. They manifest not as mortality but as crippling inefficiency:
+  * **Patch Velocity (P(t)):** The rate at which non-generative auxiliary hypotheses must be produced to protect core theory (measurable through literature analysis).
+  * **Model Complexity Inflation (M(t)):** Theories requiring constant addition of free parameters to accommodate existing data without increasing novel predictive power (quantifiable through parameter-to-prediction ratios).
+  * **Proof Complexity Escalation:** In mathematics, increasing proof length without proportional explanatory gain.
+
+### **3.3 The Triangulation Method: A Protocol for Constrained Interpretation**
+
+No single indicator is immune to interpretive bias. Therefore, a robust diagnosis of brittleness requires **triangulation across independent baselines**. This protocol provides a concrete method for achieving pragmatic objectivity.
+
+* **Baseline 1: Comparative-Historical Analysis:** We compare a system's metrics against contemporaneous peers with similar technological, resource, and environmental constraints. For example, 17th-century France exhibited higher excess mortality from famine than England, not because of worse climate, but because of a more brittle political-economic system that hindered food distribution. The baseline is what was demonstrably achievable at the time.
+
+* **Baseline 2: Diachronic Trajectory Analysis:** We measure the direction and rate of change within a single system over time. A society where life expectancy is falling, or a research program where the ratio of ad-hoc patches to novel predictions is rising, is exhibiting increasing brittleness regardless of its performance relative to others.
+
+* **Baseline 3: Biological Viability Thresholds:** Some thresholds are determined by non-negotiable biological facts. A society with a Total Fertility Rate sustainably below 2.1 is, by definition, demographically unviable without immigration. A system generating chronic malnutrition in over 40% of its population is pushing against fundamental biological limits.
+
+**A diagnosis of high brittleness is only made when these independent methods converge.** For instance, a system is robustly diagnosed as brittle if it shows rising mortality over time (Baseline 2), performs worse than its peers (Baseline 1), and approaches biological stress thresholds (Baseline 3). This convergence makes the diagnosis difficult to dismiss as mere theoretical bias.
+
+### **3.4 A Protocol for Constrained Interpretation**
 
 Critics object that classifying spending as "productive" vs. "coercive" requires prior normative commitments, making the framework circular. The causal hierarchy provides an operational solution through trajectory analysis rather than categorical definition.
 
@@ -554,7 +587,15 @@ Naturalistic epistemologies often treat mathematics as a boundary problem—how 
 
 **The Core Insight:** Mathematical frameworks face pragmatic pushback through internal inefficiency rather than external falsification.
 
-#### **5.2.1 Mathematical Brittleness Indicators**
+#### **5.2.1 Operationalizing Mathematical Brittleness**
+
+The abstract costs in mathematics can be operationalized using our diagnostic toolkit.
+
+* **M(t) - Proof Complexity Escalation:** The historical shift from Newton's intuitive infinitesimals to the rigorous epsilon-delta formalism of Weierstrass can be seen as a response to rising brittleness. While initially more complex, the epsilon-delta method drastically reduced the long-term conceptual debt and paradoxes generated by the more brittle infinitesimal approach.
+
+* **P(t) - Axiom Proliferation:** The response to Russell's paradox provides a perfect case study. Naive set theory collapsed under infinite brittleness. Zermelo-Fraenkel set theory (ZF) can be seen as a principled "patch"—adding axioms like Replacement and Foundation to block the paradox. Competing systems, like Russell's own Type Theory, offered a different trade-off profile. The mathematical community's convergence on ZF reflects a collective, pragmatic assessment of which system offered greater long-term viability with lower maintenance costs.
+
+#### **5.2.2 Mathematical Brittleness Indicators**
 
 **M(t): Proof Complexity Escalation**
 - Increasing proof length without proportional explanatory gain
@@ -614,7 +655,11 @@ Naturalistic epistemologies often treat mathematics as a boundary problem—how 
 
 **Historical Outcome:** Mathematical community converged primarily on ZF, with Type Theory for specific domains. Paraconsistent approaches remain peripheral. This convergence reflects differential brittleness, not arbitrary preference.
 
-#### **5.2.3 Why Logic Occupies the Core**
+#### **5.2.3 Coercive Overheads in Mathematics: Power and Suppression**
+
+Engaging with insights from feminist epistemology (Harding 1991), we can see that even mathematics is not immune to power dynamics that generate brittleness. When a dominant mathematical community uses institutional power to suppress alternative approaches (e.g., career punishment, publication barriers for heterodox foundations), this incurs measurable **Coercive Overheads (C(t))**. These costs manifest as innovation lags, fragmentation into splinter communities, and delayed discoveries as useful insights are marginalized for sociological, not technical, reasons. The historical resistance to non-standard analysis, despite its applications, is a potential example of such a brittleness-inducing suppression.
+
+#### **5.2.4 Why Logic Occupies the Core**
 
 Logic isn't metaphysically privileged—it's functionally indispensable.
 
