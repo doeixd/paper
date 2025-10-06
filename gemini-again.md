@@ -4,11 +4,20 @@
 
 Coherentist theories face the isolation objection: internally consistent systems may detach from reality. This paper develops Emergent Pragmatic Coherentism, an externalist framework resolving this by grounding coherence in long-term viability. We introduce *systemic brittleness*—observable costs from applying principles—as a health diagnostic. Mind-independent constraints create selective pressure filtering brittle systems. This discovers an objective **Apex Network** of viable principles, emerging necessarily from reality's topology. Justification demands internal coherence and resilience against consequences. Systemic externalism offers naturalistic objectivity, truth aligning with this structure.
 
+### Glossary
+- **Apex Network**: Emergent structure of maximal viability.
+- **Brittleness**: Accumulated systemic costs.
+- **Emergent Pragmatic Coherentism**: Framework grounding coherence in demonstrated viability.
+- **Standing Predicate**: Reusable predicate for cost-reduction.
+- **Constrained Interpretation**: Methodology assessing brittleness via physical-biological anchors, comparative-diachronic analysis, and convergent evidence for pragmatic objectivity.
+- **Pragmatic Objectivity**: Objectivity for comparative assessment through convergent evidence, determined by mind-independent constraints.
+- **Modal Necessity (of Apex Network)**: Necessary structure from pragmatic constraints, counterfactually stable across histories.
+
 ### **1. Introduction: From a Static Web to a Dynamic Process**
 
 #### **1.1 The Isolation Objection and the Quinean Web**
 
-Why did germ theory replace miasma theory? Standard accounts cite superior evidence, but a deeper view reveals systemic viability. Miasma theory's sanitation focus yielded some benefits, yet its principles were failing. The miasma network proved brittle: it caused catastrophic costs—thousands died in London from misdirected efforts against odors—and demanded accelerating ad hoc fixes for anomalies, like why "bad air" killed only near certain pumps. Germ theory, however, was resilient and adaptive, slashing costs through effective interventions and explaining phenomena with one tool.
+Why did germ theory replace miasma theory? Standard accounts cite superior evidence, but a deeper view reveals systemic viability. Miasma theory's sanitation focus yielded some benefits, yet its principles were failing. The miasma network proved brittle: it caused catastrophic costs—thousands died in London from misdirected efforts against odors (Snow 1855)—and demanded accelerating ad hoc fixes for anomalies, like why "bad air" killed only near certain pumps. Germ theory, however, was resilient and adaptive, slashing costs through effective interventions and explaining phenomena with one tool.
 
 This historical dynamic illustrates a persistent challenge for coherentist theories of justification: the isolation objection. As Laurence BonJour (1985) influentially argued, a belief system could achieve perfect internal consistency while remaining entirely detached from reality, a problem that purely internalist resources seem unable to resolve. While some coherentists have developed sophisticated internalist responses (Olsson 2005; Kvanvig 2012), and others have argued for a functionally differentiated structure within Quine's web of belief where some beliefs are systematically fundamental (Carlson 2015), the question of what *external pressures* forge this structure in a non-circular way remains unanswered.
 
@@ -21,6 +30,8 @@ The framework's key claim is not just historical. Pragmatic filtering discovers,
 This reframes the isolation objection. A coherent system detached from reality is not just false but unstable, misaligned with constraint topology. Flat-earth cosmology incurs navigational costs; phlogiston chemistry builds conceptual debt. Inquiry filters out brittle systems, converging fallible knowledge on Apex Network approximations.
 
 To clarify, viability differs from mere endurance. A coercive empire persisting is not viable but brittle; its longevity measures wasted energy suppressing instability. Viability is relational: capacity to solve problems with sustainably low costs. The framework treats power and contingency as variables, not exceptions. Power maintaining brittleness indicates non-viability via high coercive costs.
+
+The framework's contribution is a form of **naturalized proceduralism**. It grounds objectivity in empirical pragmatic selection, not idealized discourse norms.
 
 #### **1.3 Roadmap of the Argument**
 
@@ -38,7 +49,7 @@ The process starts with *belief*, a private state inaccessible to public knowled
 
 Successful propositions become validated data. Exceptionally successful ones—dramatically cutting costs—gain status as **Standing Predicates**: reusable, trusted conceptual tools. Unlike formal logic predicates, these are pragmatic technologies unpacking proven actions. For example, validating 'cholera is infectious' created the predicate '...is infectious', mobilizing isolation, tracing, and pathogen searches. Standing is earned by historical cost reduction, turning tested data into testing tools.
 
-These predicates form **Shared Networks**, observable from Quine's holism in social groups. A Shared Network is the emergent public architecture of coherent propositions and predicates shared for collective problem-solving. Networks nest; germ theory is a subset of modern medicine. Individual belief revisions yield public networks under pragmatic pressure.
+These predicates form **Shared Networks**, observable from Quine's holism in social groups. A Shared Network is the emergent public architecture of coherent propositions and predicates shared for collective problem-solving. Networks nest; germ theory is a subset of modern medicine. Individual belief revisions yield public networks under pragmatic pressure, functioning as replicators of ideas (Mesoudi 2011).
 
 #### **2.2 Pragmatic Pushback and Systemic Costs**
 
@@ -131,7 +142,7 @@ Society B doubles police budget (year 1: 2% GDP → year 10: 4% GDP):
 
 **Why This Isn't Circular:**
 
-The classification emerges from empirical correlation patterns, not from a priori definitions. We don't need to know "what policing essentially is" before measuring; we observe what specific spending patterns do to measurable outcomes over time.
+The classification emerges from empirical trajectories, not a priori theory. We don't ask "what is policing's essential nature?" We ask "what measurable effects does this spending pattern have on systemic costs over time?"
 
 The robustness comes from convergent evidence. A single metric (e.g., crime rate) can be ambiguous, but when demographic indicators, economic output, innovation rates, stability metrics, and coercive spending ratios all move in the same direction, the diagnosis becomes robust to interpretive variation.
 
