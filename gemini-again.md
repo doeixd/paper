@@ -7,11 +7,14 @@ Coherentist theories face the isolation objection: internally consistent systems
 ### Glossary
 - **Apex Network**: Emergent structure of maximal viability.
 - **Brittleness**: Accumulated systemic costs.
-- **Emergent Pragmatic Coherentism**: Framework grounding coherence in demonstrated viability.
-- **Standing Predicate**: Reusable predicate for cost-reduction.
+- **Consensus Network**: Fallible, collective knowledge system.
 - **Constrained Interpretation**: Methodology assessing brittleness via physical-biological anchors, comparative-diachronic analysis, and convergent evidence for pragmatic objectivity.
-- **Pragmatic Objectivity**: Objectivity for comparative assessment through convergent evidence, determined by mind-independent constraints.
+- **Emergent Pragmatic Coherentism**: Framework grounding coherence in demonstrated viability.
 - **Modal Necessity (of Apex Network)**: Necessary structure from pragmatic constraints, counterfactually stable across histories.
+- **Negative Canon**: Catalogue of empirically invalidated principles generating catastrophic costs.
+- **Pragmatic Objectivity**: Objectivity for comparative assessment through convergent evidence, determined by mind-independent constraints.
+- **Standing Predicate**: Reusable predicate for cost-reduction.
+- **Systemic Externalism**: Externalist epistemology locating justification reliability in demonstrated viability of public systems.
 
 ### **1. Introduction: From a Static Web to a Dynamic Process**
 
@@ -209,7 +212,17 @@ This argument proceeds in four steps:
 3.  **Optimal Solutions Emerge Necessarily.** Given a constrained system, an optimal solution or a compact set of optimal solutions emerges necessarily from the constraint topology itself, existing whether or not anyone has calculated or discovered it. The most efficient design for a heat engine emerges from thermodynamic constraints; the shortest path between two points emerges from geometric constraints. These are not constructed by inquiry but are factual consequences of how the system is structured.
 4.  **The Apex Network *is* that Optimal Structure.** The Apex Network is the name we give to this complete configuration space of maximally viable solutions to the constraint problem that reality poses.
 
-The pragmatic constraints shaping the Apex Network are not merely biological imperatives like survival. At the most fundamental level, they include informational meta-constraints necessary for any system engaged in cumulative, inter-generational learning, regardless of biological substrate. These include computational efficiency (a system cannot spend infinite energy on finite problems), signal fidelity (knowledge must transmit with minimal degradation), and error-correction (failures must be detected and purged). A system violating these meta-constraints ceases to be cumulative—it collapses into chaos or stagnates. While Apex Network content is relative to species architecture, its deep structure is determined by these universal logical requirements for information persistence, providing a non-contingent anchor for objectivity.
+##### **4.2.1 The Modal Status of the Apex Network**
+
+The modal necessity of the Apex Network can be defended through a structured argument:
+
+**Premise 1: Reality Imposes Non-Negotiable Constraints.** These are mind-independent, including physical laws (thermodynamics), biological facts (nutritional needs), logical requirements (non-contradiction), and social coordination necessities (collective action solutions).
+
+**Premise 2: Constraints Generate a Solution Space (Fitness Landscape).** This landscape is not flat; its topology of peaks (viable, low-cost configurations) and valleys (brittle, high-cost failures) is an objective feature of reality's structure.
+
+**Premise 3: Optimal Solutions Emerge Necessarily.** Given constraints, optimal solutions emerge necessarily from the topology itself, existing independently. Like a molecule's lowest-energy state from quantum constraints, they are not invented but factual consequences.
+
+**Conclusion: The Apex Network IS that Optimal Structure.** It is the configuration space of maximally viable solutions determined by constraint topology. Historical filtering discovers, not creates, this emergent structure.
 
 #### **4.3 A Three-Level Framework for Truth**
 
