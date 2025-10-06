@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(Get-Date -Format \"yyyy-MM-dd - HH-mm\")"
+      "Bash(Get-Date -Format \"yyyy-MM-dd - HH-mm\")",
+      "Bash(git commit:*)",
+      "Bash(git add:*)",
+      "Bash(find:*)"
     ],
     "deny": [],
     "ask": []
