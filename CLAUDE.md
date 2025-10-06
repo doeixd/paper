@@ -39,12 +39,7 @@ You are helping write a HIGH-QUALITY ACADEMIC PHILOSOPHY PAPER for peer review p
 - **Minimal Terminology**: Don't introduce unneeded named concepts if it can be avoided
 - **Scholarly**: Use appropriate citations to support claims
 
-## Revision Protocol:
-Whenever suggesting specific edits, always provide:
-1. **Location**: Exact paragraph/sentence reference
-2. **Deletion**: What to delete (if needed)
-3. **Replacement**: Full copy-pasteable section for easy revision
-4. **Rationale**: Why this improves the text
+
 Be careful to always maintain existing qualifications / defenses, important details, and citations, when revising.
 
 ## Quality Standards:
@@ -77,3 +72,20 @@ BE HUMBLE, CAVEAT, Use plain language where possible
 
 
 git commit with detailed summary / rational, etc after you've complelted everything. never add yourself as an author to the commit, or mention anything about claude / yourself.
+
+if you have sub-agents. dont be scared of using them
+
+## Available Tools and Scripts
+
+### Citation Extraction Script (`citation_extractor.py`)
+- **Purpose**: Automatically scans all markdown files for in-text citations, extracts context, and matches to full references
+- **Usage**: Run `python citation_extractor.py` from the paper directory
+- **Output**: Appends results to `citations_found.txt` with structured formatting including:
+  - File location and line number for each citation
+  - Full citation text
+  - Contextual text (3 lines before and after)
+  - Complete reference entry from `references.md`
+- **Coverage**: Processes all `.md` files in the directory (excluding `references.md` and files starting with `citations_`)
+- **Citation Pattern**: Detects `(Author Year)` and `(Author Year, page)` formats
+- **Reference Matching**: Robust matching handles various author name formats and citation styles
+- **Use Case**: Comprehensive audit of all scholarly citations across paper versions for verification and consistency checking
