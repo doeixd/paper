@@ -1,33 +1,22 @@
-## Verified and Deduplicated References with Summaries
+# References
 
-After deduplicating the references from the provided lists (removing exact duplicates and resolving variations through verification), I identified 74 unique references. Duplicates were minimal, but inconsistencies (e.g., DOIs, publishers, editions) were resolved using reliable sources from the search results. For each unique reference, I provide the full, accurate citation based on verified bibliographic details, followed by a two-sentence summary derived from abstracts, descriptions, or key content snippets. Summaries focus on the core theme and significance of the work.
+Acemoglu, Daron, and James A. Robinson. 2012. *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*. New York: Crown Business.
 
-### 1. Acemoglu, Daron, and James A. Robinson. 2012. *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*. New York: Crown Business.
-This book argues that economic prosperity and poverty are determined by inclusive versus extractive political and economic institutions, using historical examples to show how nations with inclusive systems foster growth while extractive ones lead to stagnation. It challenges explanations based on geography, culture, or ignorance, emphasizing the role of institutional choices in shaping societal outcomes.
+Ayvazov, Mahammad. 2025. "Toward a Phase Epistemology: Coherence, Response and the Vector of Mutual Uncertainty." *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.5250197.
 
-### 2. Ayvazov, Mahammad. 2025. "Toward a Phase Epistemology: Coherence, Response and the Vector of Mutual Uncertainty." *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.5250197.
-This paper introduces phase epistemology, viewing knowledge as emerging from phase coherence between cognitive agents and environmental information, integrating quantum theory, systems biology, and philosophy to explain agency and meaning. It proposes that knowledge is a dynamic topology of coherence, redefining cognition beyond traditional models.
+Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism and Theories of Emergence." *European Journal of Pragmatism and American Philosophy* XI-2. https://doi.org/10.4000/ejpap.1611.
 
-### 3. Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism and Theories of Emergence." *European Journal of Pragmatism and American Philosophy* XI-2. https://doi.org/10.4000/ejpap.1611.
-This introduction explores the intersection of pragmatism and emergentism, highlighting how pragmatist philosophers like Dewey addressed emergence in natural and social contexts. It argues that pragmatism offers a non-reductive naturalistic framework for understanding complex processual phenomena.
+Baysan, Umut. 2025. "Emergent Moral Non-naturalism." *Philosophy and Phenomenological Research* 110(1): 1–20. https://doi.org/10.1111/phpr.70057.
 
-### 4. Baysan, Umut. 2025. "Emergent Moral Non-naturalism." *Philosophy and Phenomenological Research* 110(1): 1–20. https://doi.org/10.1111/phpr.70057.
-This paper introduces emergent moral non-naturalism, positing that moral properties depend on descriptive properties and normative bridge principles, reconciling non-causality and power conferral in ethics. It argues that moral properties are non-causal yet confer powers, advancing metaethical discussions.
+Bennett-Hunter, Guy. 2015. "Emergence, Emergentism and Pragmatism." *Theology and Science* 13(3): 337–57. https://doi.org/10.1080/14746700.2015.1053760.
 
-### 5. Bennett-Hunter, Guy. 2015. "Emergence, Emergentism and Pragmatism." *Theology and Science* 13(3): 337–57. https://doi.org/10.1080/14746700.2015.1053760.
-This article argues for pragmatism as a framework for theological applications of emergentism, addressing philosophical issues and circumventing problems through pragmatic traditions. It proposes that emergentism informed by pragmatism provides a viable theological perspective.
+Bennett-Hunter, Guy. 2015. *Ineffability and Religious Experience*. London: Routledge (originally Pickering & Chatto).
 
-### 6. Bennett-Hunter, Guy. 2015. *Ineffability and Religious Experience*. London: Routledge (originally Pickering & Chatto).
-This book explores ineffability in religious experience, arguing that it arises from an ineffable source of meaning, drawing on continental philosophers to bridge philosophy of religion gaps. It provides a starting point for contemporary debates on ineffability.
+Berlin, Brent, and Paul Kay. 1969. *Basic Color Terms: Their Universality and Evolution*. Berkeley: University of California Press.
 
-### 7. Berlin, Brent, and Paul Kay. 1969. *Basic Color Terms: Their Universality and Evolution*. Berkeley: University of California Press.
-This seminal study examines color terms across languages, revealing universal patterns in their evolution and suggesting that basic color categories are biologically constrained. It demonstrates cultural universality in color naming while acknowledging evolutionary stages.
+BonJour, Laurence. 1985. *The Structure of Empirical Knowledge*. Cambridge, MA: Harvard University Press.
 
-### 8. BonJour, Laurence. 1985. *The Structure of Empirical Knowledge*. Cambridge, MA: Harvard University Press.
-This book critiques foundationalism and defends coherentism, arguing that empirical knowledge is justified through coherent belief systems rather than foundational beliefs. It addresses epistemic regress and proposes a coherence theory for understanding justification.
-
-### 9. Bradie, Michael. 1986. "Assessing Evolutionary Epistemology." *Biology & Philosophy* 1(4): 401–59. https://doi.org/10.1007/BF00140962.
-This article evaluates evolutionary epistemology, discussing its potential to explain knowledge acquisition through natural selection while critiquing its limitations in addressing normative aspects. It argues for integrating evolutionary insights with traditional epistemology.
+Bradie, Michael. 1986. "Assessing Evolutionary Epistemology." *Biology & Philosophy* 1(4): 401–59. https://doi.org/10.1007/BF00140962.
 
 Brandom, Robert B. 1994. *Making It Explicit: Reasoning, Representing, and Discursive Commitment*. Cambridge, MA: Harvard University Press.
 This book develops inferentialism, arguing that meaning arises from discursive practices and commitments rather than representations. It emphasizes social norms in reasoning and knowledge.
