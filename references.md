@@ -6,15 +6,11 @@ Ayvazov, Mahammad. 2025. "Toward a Phase Epistemology: Coherence, Response and t
 
 Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism and Theories of Emergence." *European Journal of Pragmatism and American Philosophy* XI-2. https://doi.org/10.4000/ejpap.1611.
 
-MLPerf Association. 2023. "MLPerf Training Results." https://mlperf.org/.
-
-Sevilla, Jaime, Lennart Heim, Marius Hobbhahn, and Anson Ho. 2022. "Compute Trends Across Three Eras of Machine Learning." arXiv preprint arXiv:2202.05924.
-
 Baysan, Umut. 2025. "Emergent Moral Non-naturalism." *Philosophy and Phenomenological Research* 110, no. 1: 1–20. https://doi.org/10.1111/phpr.70057.
 
-Bennett-Hunter, Guy. 2015. "Emergence, Emergentism and Pragmatism." *Theology and Science* 13, no. 3: 337–57. https://doi.org/10.1080/14746700.2015.1053760.
+Bennett-Hunter, Guy. 2015a. "Emergence, Emergentism and Pragmatism." *Theology and Science* 13, no. 3: 337–57. https://doi.org/10.1080/14746700.2015.1053760.
 
-Bennett-Hunter, Guy. 2015. *Ineffability and Religious Experience*. London: Pickering & Chatto.
+Bennett-Hunter, Guy. 2015b. *Ineffability and Religious Experience*. London: Pickering & Chatto.
 
 Berlin, Brent, and Paul Kay. 1969. *Basic Color Terms: Their Universality and Evolution*. Berkeley: University of California Press.
 
@@ -26,29 +22,31 @@ Brandom, Robert B. 1994. *Making It Explicit: Reasoning, Representing, and Discu
 
 Campbell, Donald T. 1974. "Evolutionary Epistemology." In *The Philosophy of Karl R. Popper*, edited by Paul A. Schilpp, 413–63. La Salle, IL: Open Court.
 
-Christensen, David. 2007. "Epistemology of Disagreement: The Good News." *Philosophical Review* 116 (2): 187–217.
-
 Carlson, Matthew. 2015. "Logic and the Structure of the Web of Belief." *Journal for the History of Analytical Philosophy* 3, no. 5: 1–27. https://doi.org/10.22329/jhap.v3i5.3142.
 
+Christensen, David. 2007. "Epistemology of Disagreement: The Good News." *Philosophical Review* 116 (2): 187–217.
+
 El-Hani, Charbel N., and Sami Pihlström. 2002. "Emergence Theories and Pragmatic Realism." *Essays in Philosophy* 3, no. 2, article 3. http://commons.pacificu.edu/eip/vol3/iss2/3.
+
+Fricker, Elizabeth. 2007. *The Epistemology of Testimony*. Oxford: Oxford University Press.
 
 Gadamer, Hans-Georg. 1975. *Truth and Method*. 2nd rev. ed. Translated by Joel Weinsheimer and Donald G. Marshall. New York: Continuum. Originally published 1960.
 
 Goldman, Alvin I. 1979. "What Is Justified Belief?" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel.
 
+Goldman, Alvin I. 1999. *Knowledge in a Social World*. Oxford: Oxford University Press.
+
 Goodman, Nelson. 1983. *Fact, Fiction, and Forecast*. 4th ed. Cambridge, MA: Harvard University Press. Originally published 1954.
 
 Haack, Susan. 1993. *Evidence and Inquiry: Towards Reconstruction in Epistemology*. Oxford: Blackwell.
 
-Hartmann, Stephan, and Borut Trpin. 2023. "Conjunctive Explanations: A Coherentist Appraisal." In *Conjunctive Explanations: The Nature, Epistemology, and Psychology of Explanatory Multiplicity*, edited by Jonah N. Schupbach and David H. Glass, 111-129. Cham: Springer International Publishing.
-
 Harding, Sandra. 1991. *Whose Science? Whose Knowledge? Thinking from Women's Lives*. Ithaca, NY: Cornell University Press.
 
-Hodge, A. Trevor. 1992. *Roman Aqueducts & Water Supply*. London: Duckworth.
-
-Fricker, Elizabeth. 2007. *The Epistemology of Testimony*. Oxford: Oxford University Press.
+Hartmann, Stephan, and Borut Trpin. 2023. "Conjunctive Explanations: A Coherentist Appraisal." In *Conjunctive Explanations: The Nature, Epistemology, and Psychology of Explanatory Multiplicity*, edited by Jonah N. Schupbach and David H. Glass, 111-129. Cham: Springer International Publishing.
 
 Henrich, Joseph. 2015. *The Secret of Our Success: How Culture Is Driving Human Evolution, Domesticating Our Species, and Making Us Smarter*. Princeton, NJ: Princeton University Press.
+
+Hodge, A. Trevor. 1992. *Roman Aqueducts & Water Supply*. London: Duckworth.
 
 Holling, C. S. 1973. "Resilience and Stability of Ecological Systems." *Annual Review of Ecology and Systematics* 4: 1–23. https://doi.org/10.1146/annurev.es.04.110173.000245.
 
@@ -56,9 +54,9 @@ Kelly, Thomas. 2005. "The Epistemic Significance of Disagreement." In *Oxford St
 
 Kim, Jaegwon. 1988. "What Is 'Naturalized Epistemology'?" *Philosophical Perspectives* 2: 381–405. https://doi.org/10.2307/2214082.
 
-Kornblith, Hilary. 1993. *Knowledge and Its Place in Nature*. Oxford: Oxford University Press.
-
 Kitcher, Philip. 1993. *The Advancement of Science: Science without Legend, Objectivity without Illusions*. New York: Oxford University Press.
+
+Kornblith, Hilary. 1993. *Knowledge and Its Place in Nature*. Oxford: Oxford University Press.
 
 Kuhn, Thomas S. 1996. *The Structure of Scientific Revolutions*. 3rd ed. Chicago: University of Chicago Press. Originally published 1962.
 
@@ -76,11 +74,15 @@ Lugones, María. 2003. *Pilgrimages/Peregrinajes: Theorizing Coalition against M
 
 Lynch, Michael P. 2009. *Truth as One and Many*. Oxford: Oxford University Press.
 
-Mallapaty, Smriti. 2020. "The Coronavirus Is Mutating—Does It Matter?" *Nature*, August 27. https://doi.org/10.1038/d41586-020-02439-2.
+Mallapaty, Smriti. 2020a. "The Coronavirus Is Mutating—Does It Matter?" *Nature*, August 27. https://doi.org/10.1038/d41586-020-02439-2.
+
+Mallapaty, Smriti. 2020b. "What the COVID Pandemic Reveals About the Paper-Thin Line Between ‘Data’ and ‘Models’." *Nature* 583: 501–2. https://doi.org/10.1038/d41586-020-02276-1.
 
 Meadows, Donella H. 2008. *Thinking in Systems: A Primer*. Edited by Diana Wright. White River Junction, VT: Chelsea Green Publishing.
 
 Mesoudi, Alex. 2011. *Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences*. Chicago: University of Chicago Press.
+
+MLPerf Association. 2023. "MLPerf Training Results." https://mlperf.org/.
 
 Moghaddam, Ataollah. 2013. "Quine, Naturalized Epistemology, and the Third Dogma of Empiricism." *Dialectica* 67 (2): 153–72.
 
@@ -98,41 +100,41 @@ Popper, Karl. 1959. *The Logic of Scientific Discovery*. London: Hutchinson. Ori
 
 Price, Huw. 1992. "Metaphysical Pluralism." *Journal of Philosophy* 89, no. 8: 387–409. https://doi.org/10.2307/2940975.
 
-Pritchard, Duncan. 2016. "Epistemic Risk." *Journal of Philosophy* 113 (11): 550–71. https://doi.org/10.5840/jphil20161131135.
+Pritchard, Duncan. 2016. *Epistemic Risk*. Oxford: Oxford University Press.
 
 Putnam, Hilary. 2002. *The Collapse of the Fact/Value Dichotomy and Other Essays*. Cambridge, MA: Harvard University Press.
 
 Quine, W. V. O. 1951. "Two Dogmas of Empiricism." *Philosophical Review* 60, no. 1: 20–43. https://doi.org/10.2307/2181906.
 
-Rescher, Nicholas. 1996. *Process Metaphysics: An Introduction to Process Philosophy*. Albany: State University of New York Press.
-
 Quine, W. V. O. 1960. *Word and Object*. Cambridge, MA: MIT Press.
+
+Rescher, Nicholas. 1996. *Process Metaphysics: An Introduction to Process Philosophy*. Albany: State University of New York Press.
 
 Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press.
 
 Rosenstock, Sarita, Cailin O'Connor, and Justin Bruner. 2017. "In Epistemic Networks, Is Less Really More?" *Philosophy of Science* 84, no. 2: 234–52. https://doi.org/10.1086/690641.
 
-Rottschaefer, William A. 2012. "Moral Realism and Evolutionary Moral Psychology." In *The Oxford Handbook of Moral Realism*, edited by Paul Bloomfield, 123–45. Oxford: Oxford University Press.
+Rottschaefer, William A. 2012a. "Moral Realism and Evolutionary Moral Psychology." In *The Oxford Handbook of Moral Realism*, edited by Paul Bloomfield, 123–45. Oxford: Oxford University Press.
 
-Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Analyse \& Kritik* 34, no. 1: 141–56. https://doi.org/10.1515/ak-2012-0107.
+Rottschaefer, William A. 2012b. "The Moral Realism of Pragmatic Naturalism." *Analyse \& Kritik* 34, no. 1: 141–56. https://doi.org/10.1515/ak-2012-0107.
+
+Sevilla, Jaime, Lennart Heim, Marius Hobbhahn, and Anson Ho. 2022. "Compute Trends Across Three Eras of Machine Learning." arXiv preprint arXiv:2202.05924.
 
 Simon, Herbert A. 1972. "Theories of Bounded Rationality." In *Decision and Organization*, edited by C. B. McGuire and Roy Radner, 161–76. Amsterdam: North-Holland Publishing Company.
 
-Snow, John. 1855. "On the Mode of Communication of Cholera." In *Snow on Cholera: Being a Reprint of Two Papers*, 1–74. London: John Churchill. Originally published in *London Medical Gazette*, 1855.
-
 Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91, no. 2: 430–48. https://doi.org/10.1017/psa.2023.104.
 
-Staffel, Julia. 2019. "Reasons Fundamentalism and Rational Uncertainty: The Externalist Response." *Philosophy and Phenomenological Research* 103 (3): 555–73.
+Snow, John. 1855. *On the Mode of Communication of Cholera*. London: John Churchill.
 
-Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91, no. 2: 430–48. https://doi.org/10.1017/psa.2023.104.
+Staffel, Julia. 2019a. "Coherentism and Belief Fixation." In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press.
 
-Staffel, Julia. 2019. "Coherentism and Belief Fixation." In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press.
+Staffel, Julia. 2019b. "Reasons Fundamentalism and Rational Uncertainty: The Externalist Response." *Philosophy and Phenomenological Research* 103 (3): 555–73.
 
 Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House.
 
-Tauriainen, Teemu. 2017. "Quine on Truth." *Philosophical Forum* 48 (4): 397–416.
+Tauriainen, Teemu. 2017a. "Quine on Truth." *Philosophical Forum* 48 (4): 397–416.
 
-Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä.
+Tauriainen, Teemu. 2017b. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä.
 
 Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton, NJ: Princeton University Press.
 
@@ -140,5 +142,6 @@ Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica*
 
 Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." *Proceedings of the Sixth International Congress of Genetics* 1: 356–66.
 
-Zollman, Kevin J. S. 2013. "Network Epistemology: Communication in the History of Science." *Philosophy Compass* 8, no. 1: 15–27. https://doi.org/10.1111/j.1746-8361.1989.tb00933.x.
+Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind: An Inquiry into the Nature of Virtue and the Ethical Foundations of Knowledge*. Cambridge: Cambridge University Press.
 
+Zollman, Kevin J. S. 2013. "Network Epistemology: Communication in the History of Science." *Philosophy Compass* 8, no. 1: 15–27. https://doi.org/10.1111/phc3.12021.
