@@ -18,21 +18,17 @@ This paper models inquiry as an evolutionary process aimed at cultivating viable
 
 To pre-empt a common misinterpretation, we distinguish viability from mere endurance. A brutal empire that persists through coercion is not viable in these terms but a textbook case of high brittleness; its longevity measures the immense energy it wastes suppressing its own instability. Viability is therefore not an intrinsic property but a relational one: a system's capacity to solve problems within a given pragmatic environment with sustainably low systemic costs.
 
-This distinction proves not merely conceptual, but empirically measurable. As we will show, the ratio of a state's resources dedicated to coercive control versus productive investment serves as a primary, quantifiable indicator of this non-viability. The framework's claim is therefore probabilistic: while a system accumulating brittleness is not fated to collapse on a specific date, it becomes progressively more vulnerable to the very contingent shocks that historians study.
+This distinction is empirically measurable: the ratio of resources dedicated to coercive control versus productive investment quantifies non-viability. The framework's claims are probabilistic, not deterministic. Systems accumulating brittleness become progressively vulnerable to contingent shocks, but collapse is not inevitable. Power and path dependence are incorporated as variables: coercive costs to maintain brittleness indicate non-viability, not model exceptions.
 
-However, any credible theory of knowledge evolution must account for the realities of power, path dependence, and historical contingency. This framework incorporates these factors not as exceptions but as key variables within the model. The exercise of power to maintain a brittle system is not a refutation of the model but a primary indicator of that system's non-viability, measured through its high coercive costs.
+This failure-driven process grounds a fallible realism. Knowledge systems converge on emergent structures determined by mind-independent constraints, providing a falsifiable research program for structural dynamics in history.
 
-This failure-driven, adaptive process grounds a robust but fallible realism. It explains how evolving knowledge systems are forced to converge on an emergent structure of workable solutions determined by mind-independent pragmatic constraints. The claim is probabilistic, not deterministic: beneath the surface noise of contingency and power, there are underlying structural pressures at work. A system accumulating brittleness—a system's vulnerability to collapse due to the accumulation of hidden, internal costs, a concept analogous to the notion of fragility developed by Taleb (2012)—is not fated to collapse on a specific date, but it becomes progressively more vulnerable to the very contingent shocks that historians study. This model does not offer a deterministic theory of history but rather proposes the foundation for a falsifiable, probabilistic research program for understanding the structural dynamics that shape the landscape upon which historical events unfold.
+To clarify scope: this framework is not foundationalist nor a general theory of justification. It specializes in cumulative knowledge systems—science, law, engineering, policy, mathematics—where inter-generational claims and pragmatic feedback enable evaluation.¹
 
-To prevent misunderstanding about the framework's scope and ambitions, we must be precise about what this paper does and does not attempt. This is not a foundationalist epistemology that aims to ground all knowledge in indubitable starting points, nor is it a general theory of justification applicable to all domains of inquiry. Rather, it is a specialized framework for understanding the evolution and evaluation of cumulative knowledge systems—those engaged in ongoing, inter-generational projects where claims build upon previous work and where practical consequences provide feedback about systemic performance.¹
+¹It provides macro-level foundations for individual higher-order evidence (Section 7), not solutions to Gettier cases or basic perception (cf. Goldman 1979; Zagzebski 1996).
 
-¹While this framework does not primarily aim to solve traditional problems in individual justification, such as Gettier cases or the justification of basic perceptual beliefs (cf. Goldman 1979; Zagzebski 1996), it provides a macro-level foundation for the higher-order evidence an individual should use when evaluating testimony from a public knowledge system, as detailed in Section 7.
+This focus demonstrates unification under pragmatic selection. The framework is naturalized proceduralism: objectivity arises from historical brittleness assessment, not idealized discourse norms. Arguments are disciplined by systemic success data.
 
-The framework applies most directly to domains like empirical science, legal systems, engineering, public policy, and mathematics, where pragmatic pushback—whether external through failed predictions or internal through proof complexity and conceptual debt—provides measurable feedback about systemic performance. We present this focus not as a limitation but as a demonstration of the framework's power to unify apparently disparate domains under a single selective mechanism.
-
-The framework's contribution is best understood as a form of naturalized proceduralism. While sharing the proceduralist commitment to grounding objectivity in process rather than direct correspondence, it diverges sharply from rationalist accounts. Where they locate objectivity in the idealized norms of discourse, our model grounds it in the empirical, historical process of pragmatic selection. The ultimate arbiter is therefore not the internal coherence of our reasons, but the measurable, non-discursive brittleness of the systems our reasons produce. Our arguments are thus continuously disciplined not merely by other arguments, but by the non-negotiable data of systemic success and failure.
-
-The argument proceeds as a systematic construction. Section 2 introduces the diagnostic framework for assessing systemic viability through brittleness metrics and establishes operational protocols for managing circularity. Section 3 develops the logic of viability that drives this evolutionary process. Section 4 presents the Negative Canon and the Apex Network as the emergent necessary structure that grounds naturalistic objectivity. Section 5 explains how this process animates Quine's web of belief. Section 6 situates Systemic Externalism within contemporary debates, demonstrating how mathematics serves as a paradigm case of internal brittleness. Finally, Section 7 defends the framework against key objections while honestly acknowledging its principled limitations.
+The argument unfolds systematically: Section 2 develops brittleness diagnostics; Section 3 establishes viability logic; Section 4 introduces the Negative Canon and Apex Network; Section 5 animates Quine's web; Section 6 situates the framework in debates; Section 7 defends against objections.
 
 ## **2. The Core Concepts: Units of Epistemic Selection**
 
@@ -59,18 +55,18 @@ Next, a candidate proposition must pass a rigorous test for coherence. This is n
 
 Finally, propositions that not only pass the coherence test but do so with exceptional success—by dramatically reducing a network's systemic costs—undergo a profound status change. They are not merely stored as facts; their functional core is promoted and repurposed to become part of the network's core processing architecture.
 
-This process creates what we call a **Standing Predicate**: the reusable, action-guiding conceptual tool within a proposition that has earned a durable, trusted status. It is the functional "gene" of cultural evolution. For example, once the proposition "Cholera is an infectious disease" proved its immense pragmatic value, its functional component—the predicate `...is an infectious disease`—was promoted. It became a Standing Predicate in the network of medical science.
+This creates a **Standing Predicate**: a reusable, action-guiding conceptual tool that has earned durable status. It functions as the "gene" of cultural evolution. For instance, "Cholera is an infectious disease" promoted the predicate `...is an infectious disease` to a Standing Predicate in medical science.
 
-This Standing Predicate now functions as a durable piece of conceptual technology. Unlike a static causal claim (e.g., 'X causes Y'), a Standing Predicate is a dynamic, action-guiding tool that unpacks a suite of proven interventions and inferential heuristics. Applying it to a new phenomenon activates a rich sub-network of proven diagnostic heuristics, interventional policies, and licensed inferences. The original proposition has transitioned from *being-tested* data to a *tool-that-tests*. This promotion from data to a trusted, standing tool is the first and most crucial step in a network's ability to learn and upgrade its own architecture.
+Unlike static claims, Standing Predicates are dynamic tools. Applying one unpacks proven interventions, diagnostics, and inferences. The proposition evolves from tested data to a testing tool, enabling networks to learn and adapt.
 
 ### **2.2 The Units of Analysis: Predicates, Networks, and Replicators**
 
 Having established the journey from private belief to public tool, we can now define the model's core analytical units. Our analysis makes a deflationary move: we shift focus from the psychology of individual agents to the public, functional structures that emerge as a necessary consequence when multiple Quinean webs of belief are forced to align under pragmatic pressure.
 
 * **Standing Predicate:** This is the primary unit of cultural-epistemic selection: the validated, reusable, and action-guiding conceptual tool within a proposition (e.g., `...is an infectious disease`). Functioning as the generative "genes" of cultural evolution, a Standing Predicate is a highly compressed piece of conceptual technology. When applied, it unpacks a suite of previously validated knowledge, including causal models, diagnostic heuristics, and licensed interventions.
-* **Shared Network:** This concept is not a novel theoretical entity but an observable consequence of Quine's holism applied to social groups. A Shared Network is the emergent, public architecture formed by the coherent subset of propositions and predicates that must be shared across many individual webs of belief for agents to solve problems collectively. These networks are often nested: a specialized network like germ theory forms a coherent subset of propositions within the broader network of modern medicine, which itself must align with the predicates of empirical science. The emergence of these networks is not a conscious negotiation but a structural necessity. An individual craftsperson whose canoe capsizes will holistically revise their personal web of belief about hydrodynamics; when a group must build a fleet, only the shared principles that lead to non-capsizing canoes can become part of the public, transmissible craft. The Shared Network is the public residue of countless such private, failure-driven revisions under shared pragmatic pressure.
+* **Shared Network:** An emergent public architecture of coherent propositions and predicates shared across individual belief webs for collective problem-solving. Networks nest hierarchically (e.g., germ theory within medicine within science). Their emergence is structural necessity, not negotiation: failure-driven revisions converge on viable principles, forming transmissible public knowledge.
 
-To be precise about this evolutionary dynamic, we can adopt a distinction from generalized evolutionary theory, as synthesized for the social sciences by Mesoudi (2011). The network's abstract informational structure—its core Standing Predicates and their relations—functions as the **replicator**: the "code" that is copied and transmitted. The social group and its institutions (the scientific community, legal system, or society) function as the **interactor**: the physical "vessel" through which this informational code is expressed, applied, and tested against real-world consequences. This distinction explains how knowledge can persist even when the societies that created it do not; the rediscovery of Roman legal principles during the Renaissance is a prime example of a successful replicator outliving its original interactor. The existence of these countless, independently formed and often nested Shared Networks—all responding to the same landscape of physical and social constraints—supports a crucial inference: they collectively reveal an objective structure that underwrites all successful inquiry. This mosaic of survived predicates, biased toward low-brittleness solutions, anticipates the Apex Network: a constraint-determined structure of necessary optimal solutions that emerges from and is revealed by historical filtering (as detailed in Section 4).
+Drawing from evolutionary theory (Mesoudi 2011), networks' informational structure (Standing Predicates) acts as the **replicator**—copied code—while social groups are the **interactor**—physical vessels for testing. This explains knowledge persistence beyond societies (e.g., rediscovered Roman law). Independently formed networks reveal an objective structure underwriting successful inquiry, anticipating the Apex Network (Section 4).
 
 ### **2.3 Pragmatic Pushback and Systemic Costs**
 
@@ -128,21 +124,16 @@ A system that generates higher death or disease rates than viable alternatives u
   * **The Coercion Ratio (C(t)):** In socio-political networks, this can be measured by analyzing the ratio of a state's resources allocated to internal security and suppression versus resources for public health, infrastructure, and R&D.
   * **Information Suppression Costs:** Resources dedicated to censorship or documented suppression of minority viewpoints, and resulting innovation lags when compared to more open rival systems.
 
-* **Tier 3: Domain-Specific Epistemic Costs:** The third tier addresses more abstract domains like theoretical science where "costs" are defined by the constitutive goals of the domain itself. They manifest not as mortality but as crippling inefficiency, measured by brittleness indicators:
-  * **Conceptual Debt Accumulation (P(t)):** The rate at which non-generative auxiliary hypotheses must be produced to protect core theory (measurable through literature analysis).
-  * **Model Complexity Inflation (M(t)):** Theories requiring constant addition of free parameters to accommodate existing data without increasing novel predictive power (quantifiable through parameter-to-prediction ratios).
-  * **Proof Complexity Escalation:** In mathematics, increasing proof length without proportional explanatory gain.
-  * **Conceptual Debt Accumulation:** Rising cognitive load and descriptive inelegance without compensating unifying power.
+* **Tier 3: Domain-Specific Epistemic Costs:** The third tier addresses abstract domains like science and mathematics, where costs manifest as inefficiency:
+  * **Conceptual Debt Accumulation (P(t)):** Rate of auxiliary hypotheses to protect core theory (literature analysis).
+  * **Model Complexity Inflation (M(t)):** Parameter growth without predictive gains (parameter-to-prediction ratios).
+  * **Proof Complexity Escalation:** Increasing proof length without explanatory gain (mathematics).
 
 While the interpretation of these costs is a normative matter for agents within a system, their existence and magnitude are empirical questions. The framework's core causal claim is falsifiable and descriptive: a network with high or rising brittleness across these tiers carries a statistically higher probability of systemic failure or major revision when faced with external shocks.
 
-**The Diagnostic Power of Cost-Shifting**
+**Cost-Shifting as Diagnostic Signal**
 
-This tiered framework reveals a crucial diagnostic pattern: cost-shifting. A system might prove highly efficient at the epistemic level (Tier 3), generating immense technological progress, while simultaneously generating catastrophic bio-social costs (Tier 1), such as environmental degradation or demographic stress.
-
-The framework does not offer a simple formula for aggregating these heterogeneous costs. Instead, the tension itself is the diagnostic signal. A system that systematically optimizes for one type of cost by exporting massive costs to another domain is exhibiting hidden, long-term brittleness. Such a system is not holistically viable but merely defers costs onto its social or ecological substrate, making it vulnerable to collapse when those substrates can no longer absorb the burden.
-
-The goal of diagnosis is not to produce a single brittleness score but to identify these unsustainable trade-offs and rising trajectories of risk across all three tiers.
+This framework reveals cost-shifting: systems may excel in one tier (e.g., epistemic efficiency) while incurring catastrophic costs in another (e.g., bio-social harm). Such trade-offs signal hidden brittleness, as deferred costs accumulate vulnerability. Diagnosis identifies unsustainable patterns across tiers, not a single score.
 
 ### **3.3 The Method: Triangulation and Operational Protocols**
 
@@ -154,62 +145,20 @@ No single indicator is immune to interpretive bias. Therefore, a robust diagnosi
 
 * **Baseline 3: Biological Viability Thresholds:** Some thresholds are determined by non-negotiable biological facts. A society with a Total Fertility Rate sustainably below 2.1 is, by definition, demographically unviable without immigration. A system generating chronic malnutrition in over 40% of its population is pushing against fundamental biological limits.
 
-**A diagnosis of high brittleness is only made when these independent methods converge.** For instance, a system is robustly diagnosed as brittle if it shows rising mortality over time (Baseline 2), performs worse than its peers (Baseline 1), and approaches biological stress thresholds (Baseline 3). This convergence makes the diagnosis difficult to dismiss as mere theoretical bias.
+Diagnosis requires convergent baselines: e.g., rising mortality (diachronic), peer underperformance (comparative), and biological thresholds. This parallels climate science's multi-evidence convergence, achieving pragmatic objectivity for comparative evaluations.
 
-This methodology parallels how climate science establishes anthropogenic warming: no single measurement type is definitive, but convergence across ice cores, tree rings, direct temperature records, sea level rise, and atmospheric composition provides robust diagnosis despite measurement uncertainties in each stream.
+**Operational Protocol for Coercive Overheads**
 
-The framework achieves pragmatic objectivity: sufficient for comparative assessment and institutional evaluation without requiring view-from-nowhere neutrality or theory-neutral measurement.
+To avoid circularity, classify spending via empirical trajectories, not definitions.
 
-**The Operational Protocol for Coercive Overheads**
+**Protocol:**
+1. Track allocations: security/suppression (S) vs. productive (P).
+2. Correlate with outcomes: mortality, economic output, innovation, stability.
+3. Diagnose: Coercive if rising S correlates with worsening outcomes and diminishing returns; productive if correlated with improvement and spillovers.
 
-Critics object that classifying spending as "productive" vs. "coercive" requires prior normative commitments, making the framework circular. The causal hierarchy provides an operational solution through trajectory analysis rather than categorical definition.
+**Example:** Society A doubles police spending, crime falls 40%, trust rises—productive. Society B doubles spending, crime rises, instability increases—coercive.
 
-**Step 1: Measurement Without Classification**
-Track resource allocation over time without labeling it:
-- Proportion to internal security/surveillance/enforcement (S)
-- Proportion to infrastructure/health/education/R&D (P)
-- Total resource base (R)
-
-**Step 2: Correlate With First-Order Indicators**
-Measure demographic and economic trajectories:
-- Mortality rates (rising/stable/falling)
-- Morbidity indicators
-- Economic output per capita
-- Innovation metrics (patents, new technologies, productivity gains)
-- Population stability
-
-**Step 3: Apply Diagnostic Rules**
-
-A spending category functions as coercive overhead when increasing allocation correlates with rising First-Order Costs, the system requires accelerating investment to maintain baseline stability (diminishing returns), or reduction correlates with improved outcomes.
-
-A spending category functions as productive investment when increasing allocation correlates with falling First-Order Costs, returns are constant or increasing, and it generates positive spillovers to other domains.
-
-**Concrete Example: Criminal Justice Spending**
-
-Society A doubles police budget (year 1: 2% GDP → year 10: 4% GDP):
-- Crime rates: -40%
-- Incarceration rate: -20%
-- Homicide rate: -60%
-- Community survey trust: +35%
-- Recidivism: -25%
-**Diagnosis:** Productive investment. Rising S correlates with falling First-Order Costs.
-
-Society B doubles police budget (year 1: 2% GDP → year 10: 4% GDP):
-- Crime rates: +5%
-- Incarceration rate: +300%
-- Homicide rate: -10%
-- Community survey trust: -50%
-- Social instability indicators: +60%
-- By year 10, requires 6% GDP to maintain control
-**Diagnosis:** Coercive overhead. Rising S correlates with rising total systemic costs despite some metrics improving.
-
-**Why This Isn't Circular:**
-
-The classification emerges from empirical correlation patterns, not from a priori definitions. We don't need to know "what policing essentially is" before measuring; we observe what specific spending patterns do to measurable outcomes over time.
-
-The robustness comes from convergent evidence. A single metric (e.g., crime rate) can be ambiguous, but when demographic indicators, economic output, innovation rates, stability metrics, and coercive spending ratios all move in the same direction, the diagnosis becomes robust to interpretive variation.
-
-This is standard scientific methodology: identifying causal patterns through correlation across independent measurement streams, not through defining essences.
+Classification emerges from patterns, ensuring robustness through convergent metrics.
 
 
 
@@ -221,14 +170,12 @@ The logic of viability detailed in Section 3 provides the selective pressure tha
 
 The first step in constructing our reef chart is to systematically catalogue the shipwrecks. Our account of objectivity begins not with a speculative vision of a final truth, but with the most unambiguous form of empirical evidence available: large-scale systemic failure. Following a broadly Popperian insight, our most secure knowledge is often of what is demonstrably unworkable. While a single failed experiment can be debated, the collapse of an entire knowledge system—its descent into crippling inefficiency, intellectual stagnation, and institutional decay—provides a clear, non-negotiable data point.
 
-The systematic analysis of these failures allows us to build the **Negative Canon**: a robust, evidence-based catalogue of principles and network designs that have been empirically invalidated by the catastrophic systemic costs they reliably generate. This canon charts failures of both causal and normative alignment:
+Systematic failure analysis builds the **Negative Canon**: an evidence-based catalogue of invalidated principles. It distinguishes:
 
-* **Failures of Causal Alignment** are characteristic of what we term *Epistemic Brittleness*. Systems like scholastic physics, phlogiston chemistry, and Lysenkoist biology entered the canon because their core principles generated catastrophic causal failures, leading to chronically high rates of ad-hoc modification and predictive collapse. They represent failed blueprints for the causal world.
-* **Failures of Normative Alignment** are characteristic of *Normative Brittleness*. Systems like chattel slavery or totalitarianism entered the canon because their core principles violated emergent normative facts about human cooperation. Their unsustainability was demonstrated by the immense and ever-rising coercive overheads required to suppress the normative pushback they generated. These are not condemned by a modern moral judgment alone; they are failed engineering principles for a viable social world.
+* **Epistemic Brittleness:** Causal failures (e.g., scholastic physics, phlogiston) generating ad-hoc patches and predictive collapse.
+* **Normative Brittleness:** Social failures (e.g., slavery, totalitarianism) requiring rising coercive overheads to suppress dissent.
 
-By charting what demonstrably fails, whether in engineering or social organization, we are not merely learning what to avoid; we are effectively reverse-engineering the constraints of a real territory. The Negative Canon functions like a reef chart for inquiry. It is our empirically verified map of known hazards, marking the impassable terrain on the landscape of viability. This provides a hard, external boundary that disciplines all forms of inquiry and prevents a collapse into relativism.
-
-This process must be understood as eliminative, not teleological. It does not follow a lighthouse beam pulling inquiry toward a known destination. Instead, it is the painstaking construction of a **reef chart**. The Negative Canon is the record of shipwrecks—the empirical data of what has failed. Our knowledge of the safe channel (the Apex Network) is built retrospectively by mapping the hazards. Progress is measured not by our proximity to a distant light, but by the growing accuracy of our map of what to avoid.
+Charting failures reverse-engineers viability constraints, providing external discipline against relativism. This eliminative process constructs a reef chart: mapping hazards retrospectively, not pursuing a teleological goal. Progress accrues through better hazard maps.
 
 ### **4.2 The Apex Network: An Emergent Structure of Modal Necessity**
 
@@ -250,21 +197,11 @@ Thus, the Apex Network should not be misconstrued as a single, final theory of e
 
 #### **4.2.1 The Necessity Argument**
 
-**Premise 1: Reality Imposes Non-Negotiable Constraints**
+**Premise 1:** Reality imposes mind-independent constraints (physical laws, biological facts, logical requirements, coordination necessities).
 
-Physical laws (thermodynamics, resource scarcity, causation), biological facts (human needs, mortality, development timescales, pain), logical requirements (non-contradiction, inference rules), and coordination necessities (collective action problems, information asymmetries, trust requirements).
+**Premise 2:** Constraints generate a fitness landscape with peaks (viable solutions) and valleys (brittle failures), emerging necessarily from constraint interactions.
 
-These constraints are mind-independent. They exist whether we recognize them or not. A society can believe food is optional, but starvation will constrain them regardless.
-
-**Premise 2: Constraints Generate a Fitness Landscape**
-
-These constraints form a topology of possible configurations. This topology necessarily generates peaks and valleys: some paths through configuration space minimize energy expenditure and brittleness (viable, sustainable), while others lead to unsustainable cost accumulation (catastrophic, collapse-prone).
-
-This landscape emerges from constraint interaction with objective structure. Just as physical constraints generate the lowest-energy molecular configurations, pragmatic constraints generate optimal social/epistemic configurations. The structure isn't imposed from outside—it emerges necessarily from how the constraints are organized.
-
-**Premise 3: Optimal Solutions Emerge Necessarily**
-
-Given a constrained system, optimal solutions (or a compact set of them) emerge necessarily from the constraint topology, existing whether anyone has calculated them. The shortest path between two points emerges from geometric constraints whether anyone has walked it. The most efficient heat engine design emerges from thermodynamic constraints whether anyone has built it. These aren't constructed—they emerge as factual consequences of how the system is structured.
+**Premise 3:** Optimal solutions emerge necessarily from this topology, existing independently of discovery (e.g., shortest path from geometry, efficient engine from thermodynamics).
 
 **Premise 4: The Apex Network IS That Optimal Structure**
 
@@ -273,9 +210,7 @@ The Apex Network is the complete configuration space of maximally viable solutio
 - The relational structure that optimally navigates constraints
 - The "peaks" in the fitness landscape
 
-**Conclusion: The Apex Network Emerges Necessarily, Independent of Discovery**
-
-Just as π emerges necessarily from geometric constraints whether we've calculated it, and the lowest-energy molecular configuration emerges necessarily from quantum mechanics whether we've modeled it, the Apex Network emerges necessarily from pragmatic constraints whether we've discovered it. The structure isn't constructed by inquiry—it emerges as an objective fact from how reality's constraints are organized. Discovery reveals this emergent structure; it does not create it.
+**Conclusion:** The Apex Network emerges necessarily from constraints, independent of discovery—revealed, not created by inquiry.
 
 In short, the Apex Network is not constructed by inquiry but emerges as an objective, structural fact from the problem-space that reality's constraints impose. Inquiry discovers this structure; it does not invent it.
 
@@ -283,16 +218,7 @@ In short, the Apex Network is not constructed by inquiry but emerges as an objec
 
 Historical filtering is the **discovery process**, not the creation mechanism.
 
-**What History Does:**
-- Runs experiments exploring configuration space
-- Reveals where the landscape drops off (failed systems)
-- Triangulates toward peaks (successful systems)
-- Maps the constraint topology through trial and error
-
-**What History Doesn't Do:**
-- Create the constraint structure (constraints are mind-independent)
-- Determine which solutions are optimal (determined by constraints)
-- Make the Apex Network exist (it exists necessarily given constraints)
+History reveals the landscape: experiments map hazards (failures) and peaks (successes) through trial-and-error, but does not create constraints or optimal solutions.
 
 **Analogy:** Mathematical Discovery
 
@@ -482,13 +408,11 @@ Finally, it is necessary to distinguish this high-brittleness fitness trap from 
 
 ### **5.1 Animating the Web of Belief**
 
-Quine’s "Web of Belief" provided a powerful static model of a knowledge system, but it has been criticized for lacking a corresponding dynamic account of its formation and change. This section provides that dynamic physiology, detailing the naturalistic process by which a successful discovery migrates from the tentative "periphery" of the web to its load-bearing "core."
+Quine's static "Web of Belief" lacks dynamics; this section provides the physiology. Successful propositions migrate from periphery to core by reducing brittleness. For example, Conservation of Energy became entrenched after proving indispensable across domains, its revision now catastrophically costly.
 
-A proposition is promoted to the core by demonstrating its immense value in lowering the entire network’s systemic brittleness. The principle of the Conservation of Energy, for example, began as a contested hypothesis on the periphery of physics. It migrated inward as it proved its indispensable explanatory power across mechanics, chemistry, and electromagnetism, making its revision increasingly costly. Finally, it became a default assumption embedded in the very infrastructure of science—its formalisms, instruments, and pedagogy. Its position in the core is a direct measure of the catastrophic rise in systemic brittleness that its removal would cause.
+Driven by bounded rationality (Simon 1972), this "systemic caching" entrenches proven principles to avoid re-derivation costs. Core principles achieve Justified Truth (Level 2) via low-brittleness certification.
 
-This entire process is driven by a powerful, naturalistic pressure. As the cognitive scientist Herbert Simon argued, real-world agents and systems operate under bounded rationality; they have finite time, attention, and computational resources (Simon 1972). The migration of proven principles to the core is a form of systemic caching. By entrenching its most successful discoveries as default assumptions, a resource-constrained system avoids the crippling cost of re-deriving everything from first principles for every new problem. When a core principle is certified by a Consensus Network with low demonstrated brittleness, it achieves the status of Justified Truth (Level 2).
-
-This process provides the two missing mechanisms needed to animate Quine’s static web, transforming it from a purely confirmational holism into a system with a robust, functional structure (Carlson 2015). First, it supplies a robust externalist filter—pragmatic pushback—that grounds the web in a world of non-discursive consequences, solving the isolation objection. Second, it provides a directed learning mechanism—the entrenchment of pragmatically indispensable principles—that explains how the core of the web is systematically constructed over time, a process akin to what Imre Lakatos described in the development of a research programme's "hard core."
+This animates Quine's web: pragmatic pushback provides externalist grounding, entrenchment explains core construction (Carlson 2015).
 
 ### **5.2 Mathematics as a Paradigm Case of Internal Brittleness**
 
@@ -640,15 +564,11 @@ This paper has developed what can be termed **Systemic Externalism**—a form of
 
 While internalist coherentists like Carlson (2015) have successfully shown *that* the web must have a functionally indispensable core, they lack the resources to explain *why* that core is forged by external discipline. Systemic Externalism provides this missing causal engine, grounding Carlson's internal structure in an externalist history of pragmatic selection.
 
-This epistemological challenge is a precise structural analogue to a long-standing dilemma in metaphysics, articulated by Bennett-Hunter (2015). Emergentist theories must balance a property's *dependence* on its physical base with its genuine *novelty*. An overemphasis on dependence collapses into reductionism, while an overemphasis on novelty risks a slide into dualism. The core problem in both domains is the same: how can a system's internal architecture, whether of beliefs or properties, be reliably connected to a world outside that system?
-
-This paper's framework, which we term *Systemic Externalism*, offers a unified externalist solution to this structural problem. It provides the evolutionary backstory for the web's functional structure, arguing that a principle becomes functionally indispensable, as described by Carlson (2015), precisely because it has survived a historical filtering process based on pragmatic consequences. Justification is therefore a two-level property: it requires not only a proposition's internal coherence within a network but also the demonstrated reliability of the network itself, measured through its historical capacity to maintain low systemic brittleness. This dynamic, failure-driven approach also distinguishes our model from much of network epistemology, which often analyzes information flow within static network structures (Zollman 2013; Rosenstock et al. 2017). By examining how entire networks evolve under the selective pressure of pragmatic pushback, we ground the web’s internal structure in an objective, externalist history, thereby resolving the isolation objection.
+This epistemological challenge mirrors metaphysics' emergentist dilemma (Bennett-Hunter 2015): balancing dependence on base with genuine novelty. Systemic Externalism resolves it by grounding web structure in historical pragmatic selection. Justification requires coherence plus network reliability via low brittleness. Unlike static network epistemology (Zollman 2013; Rosenstock et al. 2017), our model examines evolving networks under pushback, providing objective externalist history.
 
 #### **6.1.1 A Naturalistic Engine for Structural Realism**
 
-The Apex Network shares affinities with scientific structural realism (Worrall 1989) while providing a naturalistic engine for structural realism by answering two key questions: how do our contingent historical practices reliably converge on objective relational structures, and what is the causal mechanism that drives this convergence? Structural realism persuasively argues that what survives paradigm shifts are relational structures, not descriptions of unobservable entities. However, it has struggled to explain the non-miraculous process by which our fallible inquiries converge on these structures.
-
-Our framework provides this missing engine. The eliminative process of pragmatic filtering is the naturalistic mechanism that forces our theories to align with the objective relational structure of the Apex Network. Theories fail not randomly but systematically when they accumulate brittleness, entering the Negative Canon. Low-brittleness networks survive and converge. This counters pessimistic induction: the pattern of failure is not arbitrary but reveals the constraint-determined structure that any viable theory must approximate.
+The Apex Network aligns with structural realism (Worrall 1989), providing its missing naturalistic engine. It explains convergence on objective structures via pragmatic filtering: brittle theories fail systematically, low-brittleness ones survive, countering pessimistic induction.
 
 This approach provides an evolutionary, pragmatic engine for the core claims of Ontic Structural Realism (OSR) (cf. Ladyman & Ross 2007). While OSR posits that the world is fundamentally structural, our framework explains how and why our scientific practices are forced to converge on these objective structures. The 'rainforest of structures' is selectively thinned by pragmatic filtering, with only the low-brittleness, viable structures (the Apex Network) surviving in the long run. Our framework thus naturalizes OSR's metaphysical claims by grounding them in a testable, historical process.
 
@@ -668,7 +588,7 @@ Similarly, our framework provides an evolutionary grounding for the core insight
 
 ### **6.3 Distinguishing from Lakatos and Laudan**
 
-While our framework shares a historical-diagnostic ambition with the work of Lakatos (1970) and Laudan (1977), its contribution is fundamentally different: where they provide retrospective *descriptions* of scientific change, we provide a forward-looking *causal engine* grounded in quantifiable risk. Brittleness is a measure of the accumulated systemic costs that *cause* a research programme to become degenerative in Lakatos's sense; it is a real-time diagnostic of a system's structural health, not just a historical description of its output. While Lakatos provides a brilliant historical description of a degenerating programme—one that relies on ad-hoc hypotheses and fails to make novel predictions—our framework aims to provide the underlying causal engine for this degeneration. Brittleness is a measure of the accumulated systemic costs that cause a programme to become degenerative. It is a diagnostic of a system's structural health, not just a historical description of its output.
+While our framework shares a historical-diagnostic ambition with Lakatos (1970) and Laudan (1977), it differs fundamentally: they provide retrospective descriptions of scientific change; we offer a forward-looking causal engine via quantifiable brittleness. Brittleness measures accumulated costs causing degeneration, serving as a real-time diagnostic of structural health, not merely historical output.
 
 Similarly, while Laudan's model evaluates a theory based on the number and importance of the empirical problems it solves, our approach is subtly different. Systemic brittleness is a forward-looking measure of risk and resilience. A system could have a high problem-solving score in Laudan's sense while simultaneously accumulating hidden systemic costs (like massive computational overheads or conceptual debt) that make it profoundly vulnerable to future shocks. Our framework is thus less a retrospective accounting of solved puzzles and more a real-time assessment of a system's long-term viability and adaptive efficiency.
 
