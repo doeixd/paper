@@ -16,7 +16,7 @@ This historical dynamic highlights a persistent challenge for contemporary coher
 
 This paper's response is distinctive: it grounds coherence not in historical accident but in emergent necessary structure. Reality's pragmatic constraints—physical laws, biological limits, logical requirements, coordination necessities—form a topology that necessarily generates optimal configurations for navigating those constraints. These optimal structures emerge from the constraint landscape itself, existing whether we've discovered them or not, just as the lowest-energy state of a molecule emerges from quantum mechanics whether we've calculated it. What we call "objective truth" is alignment with these emergent, constraint-determined structures. Historical filtering of failed systems is how we discover this emergent topology, not how we create it. Failed systems reveal where the constraint landscape drops off; successful systems triangulate toward the peaks that emerge necessarily from how reality is organized.
 
-This transforms the isolation objection: a coherent system detached from reality isn't truly possible because reality's constraints force convergence toward viable configurations. A perfectly coherent flat-earth cosmology generates catastrophic navigational costs. A coherent phlogiston chemistry generates accelerating conceptual debt. These aren't merely false—they're structurally unstable, misaligned with constraint topology. The Apex Network is the structure that remains when all such unstable configurations are eliminated.
+This transforms the isolation objection: a coherent system detached from reality isn't truly possible because reality's constraints force convergence toward viable configurations. A perfectly coherent flat-earth cosmology generates catastrophic navigational costs. A coherent phlogiston chemistry generates accelerating conceptual debt. These aren't merely false—they're structurally unstable, misaligned with constraint topology. Failed systems reveal where the constraint landscape drops off, allowing us to map its hazards. This process is not teleological; it does not follow a lighthouse beam toward a known destination. Rather, it is the painstaking construction of a **reef chart** from the empirical data of shipwrecks. Successful systems are those that navigate the safe channels revealed by this chart of failures, triangulating toward the viable peaks that emerge necessarily from how reality is organized. The Apex Network is the structure that remains when all such unstable configurations are eliminated.
 
 This paper models inquiry as an evolutionary process aimed at cultivating viable, less fragile public knowledge systems. It is a macro-epistemology—a theory about the long-term viability of cumulative systems like science and law. The model proposes a Lamarckian-style mechanism of directed adaptation through learning, rather than purely Darwinian selection, to account for the intentional nature of inquiry.
 
@@ -41,7 +41,7 @@ The framework's contribution is best understood as a form of naturalized procedu
 - Section 6 situates Systemic Externalism within contemporary epistemology, demonstrating how mathematics serves as a paradigm case of internal brittleness.
 - Section 7 defends the framework against key objections while honestly acknowledging scope limitations and bullets bitten.
 
-## **2. A Framework for Assessing Systemic Viability**
+## **2. The Core Concepts: Units of Epistemic Selection**
 
 To understand how some knowledge systems evolve and thrive while others stagnate and collapse, we need a way to assess their structural health. A naturalistic theory requires functional, precise tools for this analysis, moving beyond mere internal consistency to gauge a system's resilience against real-world pressures. In this, our approach shares a deep affinity with the diagnostic ethos of complex systems theory (Meadows 2008). This section develops such a framework by tracing how a private belief becomes a public, functional component of a knowledge system.
 
@@ -90,38 +90,7 @@ First-Order Costs are the direct, material consequences: failed predictions, was
 
 Pragmatic pushback is not limited to direct, material failures. In highly abstract domains like theoretical physics or pure mathematics, where direct empirical tests are deferred or unavailable, pushback primarily manifests through the accumulation of Systemic Costs. A research program that requires an accelerating rate of ad hoc modifications to maintain internal consistency, or that loses its unifying power, is experiencing a powerful form of pragmatic pushback. These epistemic inefficiencies are real costs that render a network brittle and unproductive, even if it has not been directly falsified by experiment. The framework's diagnostic lens thus applies to all forms of inquiry, measuring viability through either external, material consequences or internal, systemic dysfunction.
 
-### **2.4 Gauging Brittleness: An Empirical Toolkit**
 
-A system's brittleness is a measure of its accumulated systemic costs. The following table illustrates potential diagnostic indicators:
-
-| Indicator | Domain | Potential Proxy Metric | Data Sources |
-| :--- | :--- | :--- | :--- |
-| Rate of Ad-Hoc Modification | Scientific Paradigms | Ratio of auxiliary hypotheses vs. novel predictions | Academic databases |
-| Ratio of Coercion to Production | Socio-Political Networks | Internal security vs. R&D budget ratios | Budget data, Seshat Databank |
-| Increasing Model Complexity | Computational Systems | Resource escalation for marginal gains | arXiv trends, conference proceedings |
-
-The operationalization of brittleness faces a fundamental circularity problem: measuring systemic costs objectively requires neutral standards for "waste" or "dysfunction," yet establishing such standards appears to require the very epistemic framework our theory aims to provide.
-
-This circularity cannot be eliminated but can be managed through several strategies. First, we anchor measurements in basic biological and physical constraints: demographic collapse, resource depletion, infrastructure failure. These provide relatively theory-neutral indicators of breakdown. Second, we employ comparative rather than absolute measures, comparing brittleness trajectories across similar systems. Third, we require convergent evidence across multiple independent indicators before diagnosing brittleness.
-
-Brittleness assessment remains partially hermeneutic. The framework provides structured tools rather than mechanical algorithms, making judgments more systematic and accountable to evidence without eliminating interpretation. This constrains the framework's ambitions: it offers "structured fallibilism" rather than neutral assessment.
-
-We distinguish degenerative "patches" from progressive hypotheses by assessing explanatory return on investment. Progressive hypotheses offer high returns: small complexity investments yielding novel predictions or unifying phenomena. Degenerative patches offer low returns: high-cost fixes resolving only targeted anomalies while increasing overall complexity. The Higgs boson exemplifies the former—adding complexity but completing theoretical structure with confirmed predictions. Ptolemaic epicycles exemplify the latter—costly modifications saving specific failures without generating insights.
-
-To illustrate how this triangulation methodology works in practice, consider the diagnosis of rising brittleness in a hypothetical research program. We would not rely solely on bibliometric indicators (like an increasing ratio of auxiliary modifications to novel predictions) but would look for convergent evidence across multiple domains: institutional indicators (increasing resource allocation to managing dissent within the research community), empirical indicators (declining predictive accuracy or increasing reliance on immunizing strategies), and social indicators (growing difficulty in training new researchers or public support).
-
-Crucially, this convergence requirement does not eliminate the hermeneutic dimension but constrains it. Any single indicator might be explained away through alternative interpretations, but systematic convergence across independent measures becomes increasingly difficult to dismiss. The methodology thus provides what we might call "constrained interpretation"—structured judgment that remains accountable to multiple streams of evidence.
-
-We acknowledge this falls short of mechanical objectivity, but mechanical objectivity was never the goal. The framework aims to make evaluative judgments more systematic, transparent, and accountable to evidence, not to eliminate judgment entirely.
-
-### **2.5 Two Modalities of Systemic Brittleness**
-
-The framework for assessing brittleness is general, but its application reveals two primary modalities of failure, corresponding to the different kinds of pragmatic constraints a network can violate. This distinction clarifies how our approach unifies descriptive and normative inquiry under a single explanatory mechanism.
-
-* **Epistemic Brittleness:** This is the modality of failure resulting from a misalignment with the causal structure of the world. It is found in descriptive knowledge systems like scientific paradigms, whose primary function is to predict and manipulate physical reality. It is diagnosed through indicators of failed causal engagement: an accelerating rate of ad-hoc modification to explain away predictive failures, increasing model complexity without a corresponding increase in causal power, and high energetic inefficiency. The late-stage Ptolemaic network, accumulating epicycles to manage its failed causal predictions, is the canonical example of a system suffering from acute epistemic brittleness.
-* **Normative Brittleness:** This is the modality of failure resulting from a misalignment with the emergent normative structure of the world. It is found in socio-political and ethical networks whose primary function is to organize cooperative human action. The specific mechanism for this failure can be precisely articulated through a theory of emergent moral properties. Drawing on Baysan's (2025) account of emergent moral non-naturalism, we can understand objective moral properties as conferring noncausal powers. While a causal power manifests as a physical change, a noncausal power manifests as the obtaining of a normative fact. For example, the property of being unjust confers on an institution the noncausal power to justify resentment and require condemnation. A network's alignment with this structure is not optional. A society predicated on slavery, for instance, exhibits profound normative brittleness because it must expend immense real-world energy to counteract these noncausal powers. The immense coercive overheads required to maintain the institution are the direct, measurable, and causal signature of a system struggling to suppress the real normative fact that its core practices justify resistance. This account requires that we move beyond what Bennett-Hunter (2015) calls the 'causalist assumption'—the dictum that 'to be real is to have causal power'—and recognize that a causal vocabulary may not be appropriate for every explanatory domain (El-Hani and Pihlström 2002). This macro-level diagnosis finds a plausible correlate in agent-level moral psychology, where moral intuitions can be understood as evolved detectors for such "response-invoking" features of our environment (Rottschaefer 2012) that signal potential systemic costs if ignored, a direct experience of what Peter (2024) calls the "demands of fittingness."
-
-The central claim of this model is that these two modalities are not fundamentally different kinds of error but failures to align with different layers of reality. Both are symptoms of the same underlying condition: a misalignment between a network's core principles and the pragmatic constraints of the world. Whether the result is an epicycle or a secret police force, the underlying logic is the same: a brittle system must pay an ever-increasing price to insulate its flawed core from the consequences of its own application.
 
 ## **3. The Methodology of Brittleness Assessment**
 
@@ -133,7 +102,7 @@ This circularity cannot be eliminated but can be managed through several strateg
 
 Brittleness assessment remains partially hermeneutic. The framework provides structured tools rather than mechanical algorithms, making judgments more systematic and accountable to evidence without eliminating interpretation. This constrains the framework's ambitions: it offers "structured fallibilism" rather than neutral assessment.
 
-### **3.2 A Protocol for Constrained Interpretation**
+### **3.3 A Protocol for Constrained Interpretation**
 
 Critics object that classifying spending as "productive" vs. "coercive" requires prior normative commitments, making the framework circular. The causal hierarchy provides an operational solution through trajectory analysis rather than categorical definition.
 
@@ -204,6 +173,8 @@ Compare a system's metrics against contemporaneous peers with similar:
 - Same technology level, similar climate, comparable urbanization
 - **Diagnosis:** Society A exhibits excess mortality relative to demonstrated pragmatic constraints of the era
 
+### **3.4 The Triangulation Method for Assessing Costs**
+
 This baseline is theory-neutral regarding "optimal" mortality. It measures: what's achievable given constraint set X? Systems failing to achieve demonstrated performance under comparable constraints exhibit excess costs.
 
 **Baseline Type 2: Trajectory Analysis**
@@ -248,7 +219,7 @@ This methodology parallels how climate science establishes anthropogenic warming
 
 The framework achieves pragmatic objectivity: sufficient for comparative assessment and institutional evaluation without requiring view-from-nowhere neutrality or theory-neutral measurement.
 
-### **3.4 The Tiered Framework**
+### **3.5 The Tiered Diagnostic Framework and Cost-Shifting**
 
 To clarify how objective cost assessment is possible without appealing to contested values, we can organize brittleness indicators into a tiered diagnostic framework, moving from the most foundational and least contestable to the more domain-specific.
 
@@ -706,7 +677,7 @@ This paper has developed what can be termed **Systemic Externalism**—a form of
 
 ### **6.1 A Grounded Coherentism and a Naturalized Structural Realism**
 
-Contemporary coherentist theories face what Laurence BonJour (1985) identified as their most serious challenge: the isolation objection. A belief system could achieve perfect internal coherence while remaining entirely detached from reality, a problem Olsson (2005) terms that of "coherent but false systems." While internalist responses have refined accounts of coherence (Kvanvig 2012) or argued for a functionally differentiated structure within the web of belief (Carlson 2015), they ultimately lack a robust, non-circular mechanism for grounding the system in the world. They can explain *why* some beliefs are more central than others, but not how that centrality is earned through external discipline.
+While internalist coherentists like Carlson (2015) have successfully shown *that* the web must have a functionally indispensable core, they lack the resources to explain *why* that core is forged by external discipline. Systemic Externalism provides this missing causal engine, grounding Carlson's internal structure in an externalist history of pragmatic selection.
 
 This epistemological challenge is a precise structural analogue to a long-standing dilemma in metaphysics, articulated by Bennett-Hunter (2015). Emergentist theories must balance a property's *dependence* on its physical base with its genuine *novelty*. An overemphasis on dependence collapses into reductionism, while an overemphasis on novelty risks a slide into dualism. The core problem in both domains is the same: how can a system's internal architecture, whether of beliefs or properties, be reliably connected to a world outside that system?
 
