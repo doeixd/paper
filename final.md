@@ -68,7 +68,7 @@ Finally, propositions that not only pass the coherence test but do so with excep
 
 This process creates what we call a **Standing Predicate**: the reusable, action-guiding conceptual tool within a proposition that has earned a durable, trusted status. It is the functional "gene" of cultural evolution. For example, once the proposition "Cholera is an infectious disease" proved its immense pragmatic value, its functional component—the predicate `...is an infectious disease`—was promoted. It became a Standing Predicate in the network of medical science.
 
-This Standing Predicate now functions as a durable piece of conceptual technology. Applying it to a new phenomenon activates a rich sub-network of proven diagnostic heuristics, interventional policies, and licensed inferences. The original proposition has transitioned from *being-tested* data to a *tool-that-tests*. This promotion from data to a trusted, standing tool is the first and most crucial step in a network's ability to learn and upgrade its own architecture.
+This Standing Predicate now functions as a durable piece of conceptual technology. Unlike a static causal claim (e.g., 'X causes Y'), a Standing Predicate is a dynamic, action-guiding tool that unpacks a suite of proven interventions and inferential heuristics. Applying it to a new phenomenon activates a rich sub-network of proven diagnostic heuristics, interventional policies, and licensed inferences. The original proposition has transitioned from *being-tested* data to a *tool-that-tests*. This promotion from data to a trusted, standing tool is the first and most crucial step in a network's ability to learn and upgrade its own architecture.
 
 ### **2.2 The Units of Analysis: Predicates, Networks, and Replicators**
 
@@ -173,7 +173,7 @@ Compare a system's metrics against contemporaneous peers with similar:
 - Same technology level, similar climate, comparable urbanization
 - **Diagnosis:** Society A exhibits excess mortality relative to demonstrated pragmatic constraints of the era
 
-### **3.4 The Triangulation Method for Assessing Costs**
+### **3.4 Illustrating the Triangulation Method: Three Baselines**
 
 This baseline is theory-neutral regarding "optimal" mortality. It measures: what's achievable given constraint set X? Systems failing to achieve demonstrated performance under comparable constraints exhibit excess costs.
 
@@ -219,7 +219,7 @@ This methodology parallels how climate science establishes anthropogenic warming
 
 The framework achieves pragmatic objectivity: sufficient for comparative assessment and institutional evaluation without requiring view-from-nowhere neutrality or theory-neutral measurement.
 
-### **3.5 The Tiered Diagnostic Framework and Cost-Shifting**
+### **3.5 A Tiered Diagnostic Framework for Cost-Shifting**
 
 To clarify how objective cost assessment is possible without appealing to contested values, we can organize brittleness indicators into a tiered diagnostic framework, moving from the most foundational and least contestable to the more domain-specific.
 
@@ -322,7 +322,9 @@ The Apex Network is the complete configuration space of maximally viable solutio
 
 **Conclusion: The Apex Network Emerges Necessarily, Independent of Discovery**
 
-Just as π emerges necessarily from geometric constraints whether we've calculated it, and the lowest-energy molecular configuration emerges necessarily from quantum mechanics whether we've modeled it, the Apex Network emerges necessarily from pragmatic constraints whether we've discovered it. The structure isn't constructed by inquiry—it emerges as an objective fact from how reality's constraints are organized. Discovery reveals this emergent structure; it doesn't create it.
+Just as π emerges necessarily from geometric constraints whether we've calculated it, and the lowest-energy molecular configuration emerges necessarily from quantum mechanics whether we've modeled it, the Apex Network emerges necessarily from pragmatic constraints whether we've discovered it. The structure isn't constructed by inquiry—it emerges as an objective fact from how reality's constraints are organized. Discovery reveals this emergent structure; it does not create it.
+
+In short, the Apex Network is not constructed by inquiry but emerges as an objective, structural fact from the problem-space that reality's constraints impose. Inquiry discovers this structure; it does not invent it.
 
 #### **4.2.2 Discovery vs. Creation: Resolving the Ambiguity**
 
