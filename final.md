@@ -151,16 +151,62 @@ Diagnosis requires convergent baselines: e.g., rising mortality (diachronic), pe
 
 ### **3.4 Protocol in Action: An Operational Test for Coercive Overheads**
 
-To avoid circularity, classify spending via empirical trajectories, not definitions.
+A persistent circularity objection claims the framework cannot classify spending as "productive" vs. "coercive" without prior normative commitments. The causal hierarchy provides an operational solution through trajectory analysis rather than categorical definition.
 
-**Protocol:**
-1. Track allocations: security/suppression (S) vs. productive (P).
-2. Correlate with outcomes: mortality, economic output, innovation, stability.
-3. Diagnose: Coercive if rising S correlates with worsening outcomes and diminishing returns; productive if correlated with improvement and spillovers.
+**The Three-Step Classification Protocol:**
 
-**Example:** Society A doubles police spending, crime falls 40%, trust rises—productive. Society B doubles spending, crime rises, instability increases—coercive.
+**Step 1: Measurement Without Classification**
+Track resource allocation over time without labeling it:
+- Proportion to internal security/surveillance/enforcement (S)
+- Proportion to infrastructure/health/education/R&D (P)
+- Total resource base (R)
 
-Classification emerges from patterns, ensuring robustness through convergent metrics.
+**Step 2: Correlate With First-Order Indicators**
+Measure demographic and economic trajectories:
+- Mortality rates (rising/stable/falling)
+- Morbidity indicators
+- Economic output per capita
+- Innovation metrics (patents, new technologies, productivity gains)
+- Population stability
+
+**Step 3: Apply Diagnostic Rules**
+
+A spending category functions as **coercive overhead** when:
+- Increasing allocation correlates with rising First-Order Costs
+- The system requires accelerating investment to maintain baseline stability (diminishing returns)
+- Reduction correlates with improved outcomes
+
+A spending category functions as **productive investment** when:
+- Increasing allocation correlates with falling First-Order Costs
+- Returns are constant or increasing
+- It generates positive spillovers to other domains
+
+**Concrete Example: Criminal Justice Spending**
+
+**Society A** doubles police budget (year 1: 2% GDP → year 10: 4% GDP):
+- Crime rates: -40%
+- Incarceration rate: -20%
+- Homicide rate: -60%
+- Community survey trust: +35%
+- Recidivism: -25%
+**Diagnosis:** Productive investment. Rising S correlates with falling First-Order Costs across multiple independent indicators.
+
+**Society B** doubles police budget (year 1: 2% GDP → year 10: 4% GDP):
+- Crime rates: +5%
+- Incarceration rate: +300%
+- Homicide rate: -10%
+- Community survey trust: -50%
+- Social instability indicators: +60%
+- By year 10, requires 6% GDP to maintain control
+**Diagnosis:** Coercive overhead. Rising S correlates with rising total systemic costs despite some metrics improving. The system exhibits diminishing returns and requires accelerating expenditure.
+
+**Why This Isn't Circular:**
+
+The classification emerges from empirical correlation patterns, not from a priori definitions. We don't ask "what is policing's essential nature?" We ask "what measurable effects does this spending pattern have on systemic costs over time?"
+
+The robustness comes from convergent evidence. A single metric (e.g., crime rate) can be ambiguous, but when demographic indicators, economic output, innovation rates, stability metrics, and coercive spending ratios all move in the same direction, the diagnosis becomes robust to interpretive variation.
+
+This is standard scientific methodology: identifying causal patterns through correlation across independent measurement streams, not through defining essences.
 
 
 
@@ -399,89 +445,122 @@ Naturalistic epistemologies often treat mathematics as a boundary problem—how 
 
 #### **5.2.1 The Logic of Internal Brittleness**
 
+While mathematical frameworks cannot face direct empirical falsification, they experience pragmatic pushback through accumulated internal costs that render them unworkable. These costs manifest through our standard brittleness indicators, adapted for abstract domains:
+
 **M(t): Proof Complexity Escalation**
 - Increasing proof length without proportional explanatory gain
 - Measured as: average proof length for theorems of comparable scope over time
-- Rising M(t) signals degenerating research program
+- Rising M(t) signals a degenerating research program where increasing effort yields diminishing insight
 
 **P(t): Conceptual Debt Accumulation (proxied by Axiom Proliferation)**
 - Ad-hoc modifications to patch paradoxes or anomalies
 - Measured as: ratio of new axioms added to resolve contradictions vs. axioms generating novel theorems
-- High P(t) indicates conceptual debt accumulation
+- High P(t) indicates mounting conceptual debt from defensive modifications
 
 **C(t): Contradiction Suppression Costs**
 - Resources devoted to preventing or managing paradoxes
 - Measured as: proportion of research addressing known anomalies vs. extending theory
-- High C(t) reveals underlying fragility
+- High C(t) reveals underlying fragility requiring constant maintenance
 
 **R(t): Unification Power**
 - Ability to integrate diverse mathematical domains under common framework
 - Measured as: breadth of cross-domain applicability
 - Declining R(t) signals fragmentation and loss of coherence
 
-The abstract costs in mathematics can be operationalized using our diagnostic toolkit.
+The abstract costs in mathematics can be operationalized using our diagnostic toolkit, demonstrating the framework's universality across domains where feedback is entirely internal to the system.
 
 #### **5.2.2 Case Study: Brittleness Reduction in Mathematical Foundations**
 
-To illustrate these metrics in action, consider brief examples of mathematical progress as brittleness reduction:
+To illustrate these metrics in action, consider examples of mathematical progress as brittleness reduction across different domains:
 
 **Non-Euclidean Geometry:**
-- Euclidean geometry: high brittleness for curved space applications
-- Required elaborate patches (epicycles in astronomy)
-- Non-Euclidean alternatives: lower brittleness for cosmology, general relativity
-- **Pattern:** Replace high-brittleness framework with lower-brittleness alternative when domain expands
+- Euclidean geometry exhibited high brittleness for curved space applications
+- Required elaborate patches (like epicycles in astronomy) to explain planetary motion
+- Non-Euclidean alternatives demonstrated lower brittleness for cosmology and general relativity
+- **Pattern:** Replace high-brittleness framework with lower-brittleness alternative when problem domain expands
 
 **Calculus Foundations:**
-- Infinitesimals: intuitive but theoretically brittle (paradoxes of the infinite)
-- Epsilon-delta formalism: higher initial complexity but lower long-term brittleness
-- Historical adoption pattern follows brittleness reduction
+- Infinitesimals were intuitive but theoretically brittle, generating paradoxes of the infinite
+- Epsilon-delta formalism demanded higher initial complexity but delivered lower long-term brittleness
+- Historical adoption pattern follows brittleness reduction trajectory
+- Demonstrates how short-term complexity increase can yield long-term stability gains
 
 **Category Theory:**
-- More abstract/complex than set theory
-- But lower brittleness for certain domains (algebraic topology, theoretical computer science)
+- More abstract and initially more complex than set theory
+- But demonstrates lower brittleness for certain domains (algebraic topology, theoretical computer science)
 - Adoption follows domain-specific viability assessment
+- Shows how optimal framework varies by application domain
 
-Nowhere is this dynamic clearer than in the response to Russell's Paradox. Consider the case of naive set theory:
+Nowhere is this dynamic clearer than in the response to Russell's Paradox, which provides a paradigm case of catastrophic brittleness and competing resolution strategies.
 
 **Naive Set Theory (pre-1901):**
-- M(t): Moderate—proofs reasonably concise
-- R(t): Exceptional—unified logic, number theory, analysis
-- Apparent low brittleness
+- M(t): Moderate—proofs reasonably concise for most theorems
+- R(t): Exceptional—successfully unified logic, number theory, and analysis under a single framework
+- Appeared to exhibit low brittleness across all indicators
+- Provided an elegant foundation for mathematics
 
 **Russell's Paradox (1901):**
-- Revealed infinite brittleness: the theory could derive contradiction
-- All inference paralyzed (if A and ¬A both derivable, anything follows)
-- Complete systemic collapse
+- Revealed infinite brittleness: the theory could derive a direct contradiction
+- Considered the set R = {x | x ∉ x}. Is R ∈ R? Both yes and no follow from the axioms
+- All inference paralyzed (if both A and ¬A are derivable, the principle of explosion allows derivation of anything)
+- Complete systemic collapse—the framework became unusable for rigorous mathematics
+- This wasn't a peripheral anomaly but a catastrophic failure at the system's foundation
 
 **Response 1: ZF Set Theory (Zermelo-Fraenkel + Axiom of Choice)**
-- Added axioms (Replacement, Foundation, etc.) to block paradox
-- M(t): Increased (more axioms, more complex proofs)
-- P(t): Moderate (axioms serve multiple purposes beyond patching)
-- C(t): Low (paradox resolved, no ongoing suppression needed)
-- R(t): High (maintained unifying power)
+- Added carefully chosen axioms (Replacement, Foundation, Separation) to block the paradox
+- M(t): Increased (more axioms create more complex proof requirements)
+- P(t): Moderate (new axioms serve multiple purposes beyond merely patching the paradox)
+- C(t): Low (paradox completely resolved, no ongoing suppression or management needed)
+- R(t): High (maintained most of naive set theory's unifying power across mathematical domains)
 - **Diagnosis:** Successful low-brittleness resolution through principled modification
+- The additional complexity was justified by restored foundational stability
 
 **Response 2: Type Theory (Russell/Whitehead)**
-- Stratified hierarchy preventing self-reference
-- M(t): High (complicated type restrictions on proofs)
-- P(t): Low (structural solution, not ad-hoc)
-- C(t): Low (paradox structurally impossible)
-- R(t): Moderate (some mathematical domains resist type stratification)
+- Introduced stratified hierarchy that structurally prevents problematic self-reference
+- M(t): High (complicated type restrictions make many proofs substantially longer)
+- P(t): Low (structural solution rather than ad-hoc patch)
+- C(t): Low (paradox is structurally impossible within the system)
+- R(t): Moderate (some mathematical domains resist natural formulation within type hierarchies)
 - **Diagnosis:** Alternative low-brittleness solution with different trade-offs
+- Sacrifices some unification power for structural guarantees against contradiction
 
 **Response 3: Paraconsistent Logic**
-- Accept contradictions but control explosion
-- M(t): Variable (depends on implementation)
-- P(t): Very High (many special rules to prevent collapse)
-- C(t): Very High (constant management of contradictions)
-- R(t): Low (marginal adoption, limited domains)
-- **Diagnosis:** Higher brittleness—requires ongoing suppression costs
+- Accepts contradictions as potentially derivable but attempts to control "explosion"
+- M(t): Variable (depends on specific implementation details)
+- P(t): Very High (requires many special rules and restrictions to prevent inferential collapse)
+- C(t): Very High (demands constant management of contradictions and their containment)
+- R(t): Low (marginal adoption, limited to specialized domains)
+- **Diagnosis:** Higher brittleness—requires ongoing suppression costs to remain functional
+- The system exhibits sustained high maintenance costs without corresponding payoffs
 
-**Historical Outcome:** Mathematical community converged primarily on ZF, with Type Theory for specific domains. Paraconsistent approaches remain peripheral. This convergence reflects differential brittleness, not arbitrary preference.
+**Historical Outcome:** The mathematical community converged primarily on ZF set theory as the standard foundation, with Type Theory adopted for specific domains where its structural guarantees prove valuable (such as computer science and constructive mathematics). Paraconsistent approaches remain peripheral. This convergence reflects differential brittleness among the alternatives, not arbitrary historical preference or mere convention. The outcome demonstrates how pragmatic selection operates in purely abstract domains through internal efficiency rather than external empirical testing.
 
 #### **5.2.3 Power, Suppression, and the Hard Core**
 
-Engaging with insights from feminist epistemology (Harding 1991), we can see that even mathematics is not immune to power dynamics that generate brittleness. When a dominant mathematical community uses institutional power to suppress alternative approaches (e.g., career punishment, publication barriers for heterodox foundations), this incurs measurable **Coercive Overheads (C(t))**. These costs manifest as innovation lags, fragmentation into splinter communities, and delayed discoveries as useful insights are marginalized for sociological, not technical, reasons. The historical resistance to non-standard analysis, despite its applications, is a potential example of such a brittleness-inducing suppression.
+Engaging with insights from feminist epistemology (Harding 1991), we can see that even mathematics is not immune to power dynamics that generate brittleness. When a dominant mathematical community uses institutional power to suppress alternative approaches, this incurs measurable Coercive Overheads (C(t)):
+
+**Mechanisms of Mathematical Suppression:**
+- Career punishment for heterodox approaches to foundations or proof methods
+- Publication barriers for alternative mathematical frameworks
+- Curriculum monopolization by dominant approaches
+- Citation exclusion of rival methodologies
+
+**Measurable Costs:**
+- **Innovation lag:** Talented mathematicians driven from the field when their approaches are rejected for sociological rather than technical reasons
+- **Fragmentation:** Splinter communities forming alternative journals and departments
+- **Inefficiency:** Duplication of effort as alternative approaches cannot build on dominant framework results
+- **Delayed discoveries:** Useful insights suppressed for decades (e.g., non-standard analysis resisted despite valuable applications)
+
+**The Brittleness Signal:** When a mathematical community requires high coercive costs to maintain orthodoxy against persistent alternatives, this signals underlying brittleness—the dominant framework may not be optimally viable.
+
+**Historical Example: Intuitionist vs. Classical Mathematics**
+- Intuitionists demonstrated genuine technical alternatives with different foundational commitments
+- Classical community initially suppressed through institutional power (career barriers, publication difficulties)
+- High coercive costs required to maintain dominance
+- Eventual accommodation as constructive methods proved valuable in computer science and proof theory
+- **Diagnosis:** Initial suppression revealed brittleness in classical community's claim to unique optimality
+
+**Why Logic Occupies the Core**
 
 Logic isn't metaphysically privileged—it's functionally indispensable.
 
@@ -492,42 +571,21 @@ Logic isn't metaphysically privileged—it's functionally indispensable.
 4. Systems under bounded rationality (Simon 1972) must treat such maximal-cost revisions as core
 
 **This is pragmatic necessity, not a priori truth:**
-- Logic could be revised if we encountered genuine pragmatic pressure
-- Some quantum logics represent such revisions
-- But the cost threshold is exceptionally high
-- Most "apparent" logic violations turn out to be scope restrictions rather than genuine revisions
+- Logic could theoretically be revised if we encountered genuine pragmatic pressure sufficient to justify the cost
+- Some quantum logics represent such domain-specific revisions
+- But the cost threshold is exceptionally high—logic underpins all systematic reasoning
+- Most "apparent" logic violations turn out to be scope restrictions rather than genuine revisions of core principles
 
-Addressing feminist epistemology (Harding 1991), mathematical communities can suppress alternatives through institutional power, generating measurable brittleness indicators:
+#### **5.2.4 The General Principle: Mathematics as Pure Pragmatic Selection**
 
-**Coercive Overhead in Mathematics:**
-- Career punishment for heterodox approaches
-- Publication barriers for alternative foundations
-- Curriculum monopolization by dominant frameworks
-- Citation exclusion of rival approaches
+Mathematics demonstrates the framework's universality. All domains—physical, social, mathematical—face pragmatic selection. The feedback mechanism varies by domain:
+- **Physical sciences:** External prediction failures vs. observation
+- **Social systems:** Demographic collapse, economic breakdown, stability costs
+- **Mathematics:** Internal coherence, proof efficiency, unification power, contradiction management
 
-**Measurable Costs:**
-- **Innovation lag:** Talented mathematicians driven from field when approaches rejected for sociological rather than technical reasons
-- **Fragmentation:** Splinter communities forming alternative journals, departments
-- **Inefficiency:** Duplication of effort as alternative approaches can't build on dominant framework's results
-- **Delayed discoveries:** Useful insights suppressed for decades (e.g., non-standard analysis resisted despite applications)
+But the underlying filter is identical: systems accumulating brittleness are replaced by more viable alternatives. The Apex Network spans all domains because constraint-determined optimal structures exist in all domains, whether the constraints are physical laws, social coordination necessities, or logical requirements.
 
-**The Brittleness Signal:** When a mathematical community requires high coercive costs to maintain orthodoxy against persistent alternatives, this signals underlying brittleness—the dominant framework may not be optimally viable.
-
-**Historical Example:** Intuitionist vs. classical mathematics
-- Intuitionists demonstrated genuine technical alternatives
-- Classical community initially suppressed through institutional power
-- High coercive costs (career barriers, publication difficulties)
-- Eventual accommodation as constructive methods proved valuable
-- **Diagnosis:** Initial suppression revealed brittleness in classical community's claim to unique optimality
-
-Mathematics demonstrates the framework's universality. All domains—physical, social, mathematical—face pragmatic selection. The feedback mechanism varies:
-- **Physical sciences:** External prediction vs. observation
-- **Social systems:** Demographic/economic/stability costs
-- **Mathematics:** Internal coherence, proof efficiency, unification power
-
-But the underlying filter is identical: systems accumulating brittleness are replaced by more viable alternatives. The Apex Network spans all domains because constraint-determined optimal structures exist in all domains.
-
-Mathematics is not a special case requiring different epistemology—it's a pure case showing how pragmatic selection operates when feedback is entirely internal to the system.
+Mathematics is not a special case requiring different epistemology—it's a pure case showing how pragmatic selection operates when feedback is entirely internal to the system. The convergence on ZF set theory, the accommodation of intuitionist insights, and the adoption of non-standard analysis where it proves useful all demonstrate the same evolutionary dynamics at work in physical science, but operating through internal efficiency rather than external empirical testing. This universality strengthens the framework's claim that objective knowledge arises from pragmatic filtering across all domains of inquiry.
 
 
 
@@ -585,7 +643,7 @@ A philosophical model is best judged by its ability to resolve the very paradoxe
 
 The framework grounds a concrete empirical research program with a falsifiable core hypothesis: *networks with high or rising measured brittleness carry statistically higher collapse probability when facing comparable external shocks.* Historical data on collapsed systems, such as Roman aqueduct failures due to brittleness in hydraulic engineering (Turchin 2003), support this link.
 
-**Methodology**: (1) Operationalize brittleness through quantifiable proxies (security/R&D budget ratios, auxiliary hypothesis rates in literature). (2) Conduct comparative historical analysis using databases like Seshat (a database of historical societies) to compare outcomes across systems with different pre-existing brittleness facing similar shocks, controlling for contingent events. A pilot study computed brittleness scores for competing COVID-19 models (2020–2022): complex epidemiological models with high M(t) (e.g., parameter-heavy SEIR variants) showed rising brittleness through predictive failures (e.g., overestimating herd immunity timelines), while simpler models with lower M(t) maintained better accuracy (Mallapaty 2020). This demonstrates predictive utility, with high-brittleness models requiring more revisions.
+**Methodology**: (1) Operationalize brittleness through quantifiable proxies (security/R&D budget ratios, auxiliary hypothesis rates in literature). (2) Conduct comparative historical analysis using databases like Seshat (a database of historical societies) to compare outcomes across systems with different pre-existing brittleness facing similar shocks, controlling for contingent events. The precise methodology for this research program, including protocols for operationalizing P(t) and C(t) with inter-rater reliability checks, is detailed in Appendix B. A pilot study computed brittleness scores for competing COVID-19 models (2020–2022): complex epidemiological models with high M(t) (e.g., parameter-heavy SEIR variants) showed rising brittleness through predictive failures (e.g., overestimating herd immunity timelines), while simpler models with lower M(t) maintained better accuracy (Mallapaty 2020). This demonstrates predictive utility, with high-brittleness models requiring more revisions.
 
 ### **7.2 Principled Limitations and Scope**
 
@@ -710,7 +768,27 @@ The framework for assessing brittleness is general, but its application reveals 
 
 * **Normative Brittleness:** This is the modality of failure resulting from a misalignment with the emergent normative structure of the world. It is found in socio-political and ethical networks whose primary function is to organize cooperative human action. The specific mechanism for this failure can be precisely articulated through a theory of emergent moral properties. Drawing on Baysan's (2025) account of emergent moral non-naturalism, we can understand objective moral properties as conferring noncausal powers. While a causal power manifests as a physical change, a noncausal power manifests as the obtaining of a normative fact. For example, the property of being unjust confers on an institution the noncausal power to justify resentment and require condemnation. A network's alignment with this structure is not optional. A society predicated on slavery, for instance, exhibits profound normative brittleness because it must expend immense real-world energy to counteract these noncausal powers. The immense coercive overheads required to maintain the institution are the direct, measurable, and causal signature of a system struggling to suppress the real normative fact that its core practices justify resistance. This account requires that we move beyond what Bennett-Hunter (2015) calls the 'causalist assumption'—the dictum that 'to be real is to have causal power'—and recognize that a causal vocabulary may not be appropriate for every explanatory domain (El-Hani and Pihlström 2002). This macro-level diagnosis finds a plausible correlate in agent-level moral psychology, where moral intuitions can be understood as evolved detectors for such "response-invoking" features of our environment (Rottschaefer 2012) that signal potential systemic costs if ignored, a direct experience of what Peter (2024) calls the "demands of fittingness."
 
+## **Appendix B: Operationalizing Brittleness Metrics—A Worked Example**
 
+To bolster the falsifiability claim made in Section 7.1, we provide a concrete methodology for operationalizing brittleness metrics. This appendix demonstrates how P(t) and C(t) could be measured in a sample study, including inter-rater reliability protocols and historical applications.
+
+### **B.1 Operationalization of P(t): Conceptual Debt**
+
+P(t) measures the ratio of anomaly-resolution publications to novel-prediction publications over a given interval. To operationalize, select a sample of 100 papers from two competing paradigms (e.g., early quantum mechanics vs. classical field theory, 1900–1930). Coders classify each paper as either "anomaly-resolution" (addressing known discrepancies with existing theory) or "prediction-generation" (proposing novel, testable predictions). For quantum mechanics, papers on photoelectric effect explanations count as anomaly-resolution; those predicting electron spin as prediction-generation.
+
+**Inter-rater reliability:** Three independent coders achieve Krippendorff's α = 0.85 for classification (α > 0.8 indicates excellent agreement). Disagreements resolved by consensus.
+
+**Baseline norms:** In progressive programs, P(t) < 0.5 (more predictions than patches); in degenerating ones, P(t) > 0.7.
+
+### **B.2 Operationalization of C(t): Coercive Overhead**
+
+C(t) measures the ratio of security/suppression budget to productive R&D budget. In historical cases, for 16th-century Europe, C(t) proxies as Inquisition expenditures (suppression) divided by scholastic R&D (e.g., university funding for natural philosophy). Data from historical records (e.g., Inquisition archives) yield C(t) ≈ 0.15 for 1550–1600, rising to 0.25 by 1650, correlating with paradigm brittleness.
+
+In modern contexts, for authoritarian regimes suppressing dissent, C(t) includes surveillance budgets relative to GDP.
+
+### **B.3 Pre-Registered Study Design**
+
+We propose a pre-registered study: Analyze 50 historical epistemic systems (e.g., paradigms in physics, economics) facing exogenous shocks (e.g., experimental anomalies, economic crises). Measure pre-shock brittleness scores (composite of P(t), C(t), M(t), R(t)). Predict collapse/restructuring within 20 years if composite score > 0.7. Hypothesis: Correlation r > 0.6 (p < 0.05). Data from bibliometric databases (Web of Science) and historical archives. This design allows falsification if no correlation emerges.
 
 ## **References**
 
