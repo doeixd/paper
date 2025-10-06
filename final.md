@@ -211,15 +211,19 @@ Thus, the Apex Network should not be misconstrued as a single, final theory of e
 
 The Apex Network's objectivity stems not from historical contingency but from modal necessity. This can be established through a four-premise argument:
 
-**Premise 1:** Reality imposes mind-independent constraints (physical laws, biological facts, logical requirements, coordination necessities).
+**The Necessity Argument:**
 
-**Premise 2:** Constraints generate a fitness landscape with peaks (viable solutions) and valleys (brittle failures), emerging necessarily from constraint interactions.
+1. Reality imposes non-negotiable constraints: physical laws (thermodynamics, resource scarcity), biological facts (human needs, mortality, cooperation requirements), logical requirements (consistency), and coordination necessities (collective action problems).
 
-**Premise 3:** Optimal solutions emerge necessarily from this topology, existing independently of discovery (e.g., shortest path from geometry, efficient engine from thermodynamics).
+2. These constraints determine a fitness landscape of possible social configurations. A topology where some paths are viable and others catastrophic.
 
-**Premise 4:** The Apex Network is that optimal structure—the complete configuration space of maximally viable solutions.
+3. There exists an optimal configuration (or compact set of optimal configurations) for navigating these constraints, just as there exists an optimal solution to a constrained optimization problem whether anyone has calculated it.
+
+4. The Apex Network IS that optimal structure. The configuration space of maximally viable solutions. It exists whether we've discovered it or not, determined by constraints rather than by our beliefs about it.
 
 **Conclusion:** The Apex Network emerges necessarily from constraints, independent of discovery—revealed, not created by inquiry.
+
+**Historical filtering is how we discover this structure, not how we create it.** Failed systems are experiments revealing where the landscape drops off. The Negative Canon maps the canyons and cliffs. Over time, with sufficient experiments across diverse conditions, we triangulate toward the peaks.
 
 This crucial distinction—that historical filtering is a discovery process, not a creation mechanism—resolves the ambiguity. History reveals the landscape: experiments map hazards (failures) and peaks (successes) through trial-and-error, but does not create constraints or optimal solutions.
 
