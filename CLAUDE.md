@@ -76,4 +76,4 @@ DONT BE SCARED OF NUANCE AND FALIBILITY
 BE HUMBLE, CAVEAT, Use plain language where possible
 
 
-git commit with detaild summary / rational, etc after everything.
+git commit with detailed summary / rational, etc after you've complelted everything. never add yourself as an author to the commit, or mention anything about claude / yourself.

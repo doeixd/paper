@@ -32,7 +32,11 @@ Carlson, Matthew. 2015. "Logic and the Structure of the Web of Belief." *Journal
 
 El-Hani, Charbel N., and Sami Pihlström. 2002. "Emergence Theories and Pragmatic Realism." *Essays in Philosophy* 3, no. 2, article 3. http://commons.pacificu.edu/eip/vol3/iss2/3.
 
+Gadamer, Hans-Georg. 1975. *Truth and Method*. 2nd rev. ed. Translated by Joel Weinsheimer and Donald G. Marshall. New York: Continuum. Originally published 1960.
+
 Goldman, Alvin I. 1979. "What Is Justified Belief?" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel.
+
+Goodman, Nelson. 1983. *Fact, Fiction, and Forecast*. 4th ed. Cambridge, MA: Harvard University Press. Originally published 1954.
 
 Haack, Susan. 1993. *Evidence and Inquiry: Towards Reconstruction in Epistemology*. Oxford: Blackwell.
 
@@ -99,6 +103,8 @@ Pritchard, Duncan. 2016. "Epistemic Risk." *Journal of Philosophy* 113 (11): 550
 Putnam, Hilary. 2002. *The Collapse of the Fact/Value Dichotomy and Other Essays*. Cambridge, MA: Harvard University Press.
 
 Quine, W. V. O. 1951. "Two Dogmas of Empiricism." *Philosophical Review* 60, no. 1: 20–43. https://doi.org/10.2307/2181906.
+
+Rescher, Nicholas. 1996. *Process Metaphysics: An Introduction to Process Philosophy*. Albany: State University of New York Press.
 
 Quine, W. V. O. 1960. *Word and Object*. Cambridge, MA: MIT Press.
 

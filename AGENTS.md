@@ -74,4 +74,4 @@ BE HUMBLE, CAVEAT, Use plain language where possible, DONT BE SCARED OF NUANCE A
 
 WE DONT HAVE TO BE SCIENTIFIC, JUST LOGICAL, HOLD THE reader's hand down the logical path, start with assumptions then, if this, then this, and so on.
 
-git commit with detaild summary / rational, etc after everything.
+git commit with detaild summary / rational, etc after everything. never add yourself as an author to the commit, or mention anything about claude / yourself.
