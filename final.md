@@ -559,7 +559,7 @@ Philosophical honesty requires acknowledging not just what a framework can do, b
 
 **Why We Accept This:** Appropriate scope limitation. The framework does what it does well rather than overreaching. It identifies catastrophic failures and boundary conditions, leaving substantial space for legitimate value pluralism above the floor.
 
-**What This Implies:** The framework provides necessary but not sufficient conditions. Thick theories of the good life must build on this foundation. The Pluralist Periphery is real: multiple flourishing forms exist, but all must respect the floor (avoid Negative Canon predicates).
+**What This Implies:** The framework provides necessary but not sufficient conditions. Thick theories of the good life must build on this foundation. The Pluralist Frontier is real: multiple flourishing forms exist, but all must respect the floor (avoid Negative Canon predicates).
 
 #### 7.2.4 Expert Dependence and Democratic Legitimacy
 
@@ -599,7 +599,7 @@ To address the hindsight objection—that we can only diagnose brittleness after
 - Low enforcement costs
 - But intuitively morally repugnant
 
-**Why We Accept This:** Intellectual honesty. The framework is incomplete—it maps pragmatic viability, not all moral dimensions. If such a system existed (we doubt it does—internalization itself has costs), it would fall in Pluralist Periphery, not Negative Canon.
+**Why We Accept This:** Intellectual honesty. The framework is incomplete—it maps pragmatic viability, not all moral dimensions. If such a system existed (we doubt it does—internalization itself has costs), it would fall in Pluralist Frontier, not Negative Canon.
 
 **Empirical Bet:** We predict that such systems are not merely repugnant but are, in fact, inherently brittle. Critics might point to the apparent long-term stability of systems like the Ottoman Empire's devşirme system or historical caste systems in India as counterexamples. However, our framework predicts, and historical analysis confirms, that such systems exhibit high underlying brittleness masked by coercive power. Their apparent stability was purchased at the cost of massive **Coercive Overheads (C(t))**—such as the resources spent on enforcing purity laws, suppressing revolts, and managing internal dissent—and they consistently demonstrated innovation lags and fragility in the face of external shocks, confirming their position on the landscape of non-viability (cf. Acemoglu & Robinson 2012; Turchin 2003). True internalization without coercion is rare and resource-intensive, while oppression reliably generates hidden costs that emerge under stress.
 
