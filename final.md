@@ -12,7 +12,7 @@ This historical dynamic highlights a persistent challenge for contemporary coher
 
 This paper's response is distinctive: it grounds coherence not in historical accident but in emergent necessary structure. Reality's pragmatic constraints—physical laws, biological limits, logical requirements, coordination necessities—form a topology that necessarily generates optimal configurations for navigating those constraints. These optimal structures emerge from the constraint landscape itself, existing whether we've discovered them or not, just as the lowest-energy state of a molecule emerges from quantum mechanics whether we've calculated it. What we call "objective truth" is alignment with these emergent, constraint-determined structures. Historical filtering of failed systems is how we discover this emergent topology, not how we create it. Failed systems reveal where the constraint landscape drops off; successful systems triangulate toward the peaks that emerge necessarily from how reality is organized.
 
-This transforms the isolation objection: a coherent system detached from reality isn't truly possible because reality's constraints force convergence toward viable configurations. A perfectly coherent flat-earth cosmology generates catastrophic navigational costs. A coherent phlogiston chemistry generates accelerating conceptual debt. These aren't merely false—they're structurally unstable, misaligned with constraint topology. Failed systems reveal where the constraint landscape drops off, allowing us to map its hazards. This process is not teleological; it does not follow a lighthouse beam toward a known destination. Rather, it is the painstaking construction of a **reef chart** from the empirical data of shipwrecks. Successful systems are those that navigate the safe channels revealed by this chart of failures, triangulating toward the viable peaks that emerge necessarily from how reality is organized. This 'reef chart' epistemology is the central theme of our framework. The Apex Network is the structure that remains when all such unstable configurations are eliminated.
+This transforms the isolation objection: a coherent system detached from reality isn't truly possible because reality's constraints force convergence toward viable configurations. A perfectly coherent flat-earth cosmology generates catastrophic navigational costs. A coherent phlogiston chemistry generates accelerating conceptual debt. These aren't merely false—they're structurally unstable, misaligned with constraint topology. Failed systems reveal where the constraint landscape drops off, allowing us to map its hazards. This process is not teleological; it does not follow a lighthouse beam toward a known destination. Rather, it is the painstaking construction of a **reef chart** from the empirical data of shipwrecks—**the only external check a coherentist system can have**. Successful systems are those that navigate the safe channels revealed by this chart of failures, triangulating toward the viable peaks that emerge necessarily from how reality is organized. This 'reef chart' epistemology is the central theme of our framework. The Apex Network is the structure that remains when all such unstable configurations are eliminated.
 
 This paper models inquiry as an evolutionary process aimed at cultivating viable, less fragile public knowledge systems. It is a macro-epistemology—a theory about the long-term viability of cumulative systems like science and law. The model proposes a Lamarckian-style mechanism of directed adaptation through learning, rather than purely Darwinian selection, to account for the intentional nature of inquiry.
 
@@ -106,7 +106,7 @@ This circularity cannot be eliminated but can be managed through several strateg
 
 Brittleness assessment remains partially hermeneutic. The framework provides structured tools rather than mechanical algorithms, making judgments more systematic and accountable to evidence without eliminating interpretation. This constrains the framework's ambitions: it offers "structured fallibilism" rather than neutral assessment.
 
-This methodology provides pragmatic objectivity sufficient for comparative assessment. **A detailed protocol for operationalizing these metrics, including a worked example of inter-rater reliability, is provided in Appendix A.**
+This methodology provides pragmatic objectivity sufficient for comparative assessment. **The specific methodology for applying these metrics in a falsifiable research program is detailed in Section 7.1.**
 
 ### **3.2 The Solution: A Tiered Diagnostic Framework**
 
@@ -395,7 +395,7 @@ Naturalistic epistemologies often treat mathematics as a boundary problem—how 
 
 **The Core Insight:** Mathematical frameworks face pragmatic pushback through internal inefficiency rather than external falsification.
 
-#### **5.2.1 Diagnostic Indicators of Mathematical Brittleness**
+#### **5.2.1 The Logic of Internal Brittleness**
 
 **M(t): Proof Complexity Escalation**
 - Increasing proof length without proportional explanatory gain
@@ -419,6 +419,8 @@ Naturalistic epistemologies often treat mathematics as a boundary problem—how 
 
 The abstract costs in mathematics can be operationalized using our diagnostic toolkit.
 
+#### **5.2.2 Case Study: Brittleness Reduction in Mathematical Foundations**
+
 To illustrate these metrics in action, consider brief examples of mathematical progress as brittleness reduction:
 
 **Non-Euclidean Geometry:**
@@ -437,7 +439,7 @@ To illustrate these metrics in action, consider brief examples of mathematical p
 - But lower brittleness for certain domains (algebraic topology, theoretical computer science)
 - Adoption follows domain-specific viability assessment
 
-#### **5.2.2 Case Study: Brittleness Reduction in Foundations—The Crisis of Russell's Paradox**
+Nowhere is this dynamic clearer than in the response to Russell's Paradox. Consider the case of naive set theory:
 
 **Naive Set Theory (pre-1901):**
 - M(t): Moderate—proofs reasonably concise
@@ -475,7 +477,7 @@ To illustrate these metrics in action, consider brief examples of mathematical p
 
 **Historical Outcome:** Mathematical community converged primarily on ZF, with Type Theory for specific domains. Paraconsistent approaches remain peripheral. This convergence reflects differential brittleness, not arbitrary preference.
 
-#### **5.2.3 Power and Suppression in Mathematical Practice**
+#### **5.2.3 Power, Suppression, and the Hard Core**
 
 Engaging with insights from feminist epistemology (Harding 1991), we can see that even mathematics is not immune to power dynamics that generate brittleness. When a dominant mathematical community uses institutional power to suppress alternative approaches (e.g., career punishment, publication barriers for heterodox foundations), this incurs measurable **Coercive Overheads (C(t))**. These costs manifest as innovation lags, fragmentation into splinter communities, and delayed discoveries as useful insights are marginalized for sociological, not technical, reasons. The historical resistance to non-standard analysis, despite its applications, is a potential example of such a brittleness-inducing suppression.
 
@@ -684,7 +686,7 @@ We began with the challenge of distinguishing viable knowledge from brittle dogm
 
 Ultimately, this framework calls for a form of epistemic humility. The practical payoff of this framework is a more reliable method for navigating our epistemic landscape. It provides the tools to build a better reef chart, allowing us to steer clear of the hazards that have wrecked past inquiries and to more confidently explore the channels of viable knowledge.
 
-Furthermore, the brittleness toolkit isn't just for philosophers; it could and should be used by institutional designers, science funders, and policy analysts to assess the structural health of our most critical knowledge-producing institutions in real time. This positions the paper not just as a solution to an old philosophical puzzle, but as a practical and urgent research program for the 21st century.
+Moreover, the brittleness toolkit isn't just for philosophers; it could and should be used by institutional designers, science funders, and policy analysts to assess the structural health of our most critical knowledge-producing institutions in real time. This positions the paper not just as a solution to an old philosophical puzzle, but as a practical and urgent research program for the 21st century.
 
 ## **Appendix A: Normative Brittleness as a Speculative Extension**
 
