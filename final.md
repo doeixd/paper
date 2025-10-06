@@ -957,7 +957,11 @@ Carlson, Matthew. 2015. "Logic and the Structure of the Web of Belief." *Journal
 
 El-Hani, Charbel N., and Sami Pihlström. 2002. "Emergence Theories and Pragmatic Realism." *Essays in Philosophy* 3, no. 2, article 3. http://commons.pacificu.edu/eip/vol3/iss2/3.
 
+Gadamer, Hans-Georg. 1975. *Truth and Method*. New York: Seabury Press.
+
 Goldman, Alvin I. 1979. "What Is Justified Belief?" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel.
+
+Goldman, Alvin I. 1999. *Knowledge in a Social World*. Oxford: Oxford University Press.
 
 Haack, Susan. 1993. *Evidence and Inquiry: Towards Reconstruction in Epistemology*. Oxford: Blackwell.
 
@@ -987,9 +991,13 @@ Longino, Helen E. 2002. *The Fate of Knowledge*. Princeton, NJ: Princeton Univer
 
 Lynch, Michael P. 2009. *Truth as One and Many*. Oxford: Oxford University Press.
 
+Mallapaty, Smriti. 2020. "What the COVID Pandemic Reveals About the Paper-Thin Line Between ‘Data’ and ‘Models’." *Nature* 583: 501–2. https://doi.org/10.1038/d41586-020-02276-1.
+
 Meadows, Donella H. 2008. *Thinking in Systems: A Primer*. Edited by Diana Wright. White River Junction, VT: Chelsea Green Publishing.
 
 Mesoudi, Alex. 2011. *Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences*. Chicago: University of Chicago Press.
+
+Newman, Mark. 2010. *Networks: An Introduction*. Oxford: Oxford University Press.
 
 Moghaddam, Soroush. 2013. "Confronting the Normativity Objection: W.V. Quine’s Engineering Model and Michael A. Bishop and J.D. Trout’s Strategic Reliabilism." Master's thesis, University of Victoria.
 
@@ -998,6 +1006,8 @@ Olsson, Erik J. 2005. *Against Coherence: Truth, Probability, and Justification*
 Peirce, Charles S. 1992. "How to Make Our Ideas Clear." In *The Essential Peirce: Selected Philosophical Writings*, vol. 1 (1867–1893), edited by Nathan Houser and Christian Kloesel, 124–41. Bloomington: Indiana University Press. Originally published 1878.
 
 Peter, Fabienne. 2024. "Moral Affordances and the Demands of Fittingness." *Philosophical Psychology* 37, no. 7: 1948–70. https://doi.org/10.1080/09515089.2023.2236120.
+
+Pritchard, Duncan. 2016. *Epistemic Risk*. Oxford: Oxford University Press.
 
 Popper, Karl. 1959. *The Logic of Scientific Discovery*. London: Hutchinson. Originally published 1934.
 
@@ -1011,17 +1021,25 @@ Quine, W. V. O. 1960. *Word and Object*. Cambridge, MA: MIT Press.
 
 Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press.
 
+Rescher, Nicholas. 1996. *Process Metaphysics: An Introduction to Process Philosophy*. Albany: State University of New York Press.
+
 Rosenstock, Sarita, Cailin O'Connor, and Justin Bruner. 2017. "In Epistemic Networks, Is Less Really More?" *Philosophy of Science* 84, no. 2: 234–52. https://doi.org/10.1086/690641.
 
 Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Analyse \& Kritik* 34, no. 1: 141–56. https://doi.org/10.1515/ak-2012-0107.
 
 Simon, Herbert A. 1972. "Theories of Bounded Rationality." In *Decision and Organization*, edited by C. B. McGuire and Roy Radner, 161–76. Amsterdam: North-Holland Publishing Company.
 
+Snow, John. 1855. *On the Mode of Communication of Cholera*. London: John Churchill.
+
 Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91, no. 2: 430–48. https://doi.org/10.1017/psa.2023.104.
 
 Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House.
 
 Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä.
+
+Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding, and Selection in Evolution." In *Proceedings of the Sixth International Congress of Genetics*, edited by Donald F. Jones, 356–66. Ithaca, NY: Brooklyn Botanic Garden.
+
+Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind: An Inquiry into the Nature of Virtue and the Ethical Foundations of Knowledge*. Cambridge: Cambridge University Press.
 
 Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton, NJ: Princeton University Press.
 
