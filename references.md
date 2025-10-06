@@ -68,6 +68,8 @@ Lakatos, Imre. 1970. "Falsification and the Methodology of Scientific Research P
 
 Laudan, Larry. 1977. *Progress and Its Problems: Towards a Theory of Scientific Growth*. Berkeley: University of California Press.
 
+Lehrer, Keith. 1990. *Theory of Knowledge*. Boulder, CO: Westview Press.
+
 Longino, Helen E. 2002. *The Fate of Knowledge*. Princeton, NJ: Princeton University Press.
 
 Lugones, María. 2003. *Pilgrimages/Peregrinajes: Theorizing Coalition against Multiple Oppressions*. Lanham, MD: Rowman & Littlefield.
