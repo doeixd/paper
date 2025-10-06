@@ -29,7 +29,7 @@ The framework's key claim is not just historical. Pragmatic filtering discovers,
 
 This reframes the isolation objection. A coherent system detached from reality is not just false but unstable, misaligned with constraint topology. Flat-earth cosmology incurs navigational costs; phlogiston chemistry builds conceptual debt. Inquiry filters out brittle systems, converging fallible knowledge on Apex Network approximations.
 
-To clarify, viability differs from mere endurance. A coercive empire persisting is not viable but brittle—a system's vulnerability to collapse from accumulated hidden costs, analogous to fragility (Taleb 2012); its longevity measures wasted energy suppressing instability. Brittleness is a diachronic, systemic property of a research program in action, not a timeless property of a proposition; a new theory might be false but hasn't yet accumulated systemic costs like conceptual debt or coercive overheads. Psychologically "fit" but pragmatically brittle ideas, like conspiracy theories, are informational viruses—transmissible but not viable. Viability is relational: capacity to solve problems with sustainably low costs. The framework treats power and contingency as variables, not exceptions. Power maintaining brittleness indicates non-viability via high coercive costs.
+To clarify, viability differs from mere endurance. A coercive empire persisting is not viable but brittle—a system's vulnerability to collapse from accumulated hidden costs, analogous to fragility (Taleb 2012); its longevity measures wasted energy suppressing instability. Brittleness is a diachronic, systemic property of a research program in action, not a timeless property of a proposition; a new theory might be false but hasn't yet accumulated systemic costs like conceptual debt or coercive overheads. Psychologically "fit" but pragmatically brittle ideas, like conspiracy theories, are informational viruses—transmissible but not viable. Such informational viruses are diagnosed by their characteristic signatures of high brittleness—particularly the massive coercive overheads (C(t)) required to maintain adherence in the face of persistent pragmatic failure. Viability is relational: capacity to solve problems with sustainably low costs. The framework treats power and contingency as variables, not exceptions. Power maintaining brittleness indicates non-viability via high coercive costs.
 
 The framework's contribution is a form of **naturalized proceduralism**. It grounds objectivity in empirical pragmatic selection, not idealized discourse norms.
 
@@ -223,7 +223,7 @@ This emergent structure grounds a fallibilist but realist account of truth, reso
 
 This layered framework avoids a simplistic "Whig history." Newtonian mechanics earned its Level 2 status by being a maximally low-brittleness system for its problem-space for over two centuries. Its replacement by relativity does not retroactively invalidate that status; it shows the evolutionary process at work, where an expanding problem-space revealed pragmatic constraints that required a new, more viable system. A claim can thus be justifiably true in its time (Level 2) yet still be objectively false (not Level 1) when judged against the Apex Network from the perspective of a more resilient successor. To add epistemic humility, a system might achieve Level 2 status simply because it has not yet been tested against a sufficiently broad problem-space; even the highest practical justification remains provisional.
 
-This framework also predicts convergence in proportion to pragmatic constraint tightness. In domains with tight constraints (the "Convergent Core," e.g., thermodynamics, germ theory), pragmatic pressures lead to a single, stable consensus. In looser domains (the "Pluralist Frontier," e.g., quantum interpretations, consciousness models), multiple viable theories can coexist, reflecting legitimate pluralism rather than error.
+This framework also predicts convergence in proportion to pragmatic constraint tightness. In domains with tight constraints (the "Convergent Core," e.g., thermodynamics, germ theory), pragmatic pressures lead to a single, stable consensus—the rare, sharp peaks on the fitness landscape. In looser domains (the "Pluralist Frontier," e.g., quantum interpretations, consciousness models), multiple viable theories can coexist, like a high-altitude plateau where slightly different configurations achieve similar viability, reflecting legitimate pluralism rather than error.
 
 #### **4.4 How Propositions Become Truth Itself**
 
@@ -311,8 +311,6 @@ These limitations do not undermine the framework's contribution. Instead, they d
 #### **7.4 A Falsifiable Research Program**
 
 To demonstrate empirical grounding, we propose a pre-registered study: Analyze 50 historical knowledge systems, predict collapse based on brittleness indicators (P(t), C(t), M(t), R(t)), and test for correlation r > 0.6 (p < 0.05) between brittleness and failure. This transforms the framework into a foundation for diagnostic epistemology.
-
----
 
 ### **8. Conclusion**
 
