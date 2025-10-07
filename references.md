@@ -24,7 +24,13 @@ Campbell, Donald T. 1974. "Evolutionary Epistemology." In *The Philosophy of Kar
 
 Carlson, Matthew. 2015. "Logic and the Structure of the Web of Belief." *Journal for the History of Analytical Philosophy* 3(5): 1–27. https://doi.org/10.22329/jhap.v3i5.3142.
 
+Cartwright, Nancy. 1999. *The Dappled World: A Study of the Boundaries of Science*. Cambridge: Cambridge University Press.
+
 Christensen, David. 2007. "Epistemology of Disagreement: The Good News." *Philosophical Review* 116(2): 187–217. https://doi.org/10.1215/00318108-2006-035.
+
+Dewey, John. 1929. *The Quest for Certainty: A Study of the Relation of Knowledge and Action*. New York: Minton, Balch & Company.
+
+Dewey, John. 1938. *Logic: The Theory of Inquiry*. New York: Henry Holt and Company.
 
 El-Hani, Charbel Niño, and Sami Pihlström. 2002. "Emergence Theories and Pragmatic Realism." *Essays in Philosophy* 3(2): article 3. https://commons.pacificu.edu/eip/vol3/iss2/3.
 
@@ -76,7 +82,6 @@ Lugones, María. 2003. *Pilgrimages/Peregrinajes: Theorizing Coalition against M
 
 Lynch, Michael P. 2009. *Truth as One and Many*. Oxford: Clarendon Press.
 
-
 Meadows, Donella H. 2008. *Thinking in Systems: A Primer*. Edited by Diana Wright. White River Junction, VT: Chelsea Green Publishing.
 
 Mesoudi, Alex. 2011. *Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences*. Chicago: University of Chicago Press.
@@ -99,6 +104,8 @@ Price, Huw. 1992. "Metaphysical Pluralism." *Journal of Philosophy* 89(8): 387�
 
 Pritchard, Duncan. 2016. "Epistemic Risk." *Journal of Philosophy* 113(11): 550–571. https://doi.org/10.5840/jphil20161131135.
 
+Psillos, Stathis. 1999. *Scientific Realism: How Science Tracks Truth*. London: Routledge.
+
 Putnam, Hilary. 2002. *The Collapse of the Fact/Value Dichotomy and Other Essays*. Cambridge, MA: Harvard University Press.
 
 Quine, W. V. O. 1951. "Two Dogmas of Empiricism." *Philosophical Review* 60(1): 20–43. https://doi.org/10.2307/2181906.
@@ -109,17 +116,19 @@ Rescher, Nicholas. 1996. *Process Metaphysics: An Introduction to Process Philos
 
 Roda, Weston C., Marie B. Varughese, Donglin Han, and Michael Y. Li. 2020. "Why Is It Difficult to Accurately Predict the COVID-19 Epidemic?" *Infectious Disease Modelling* 5: 271–281. https://doi.org/10.1016/j.idm.2020.03.001.
 
-Russell, Bertrand. 1903. *The Principles of Mathematics*. Cambridge: Cambridge University Press. ISBN 9780521062749.
-
-Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press. ISBN 9780199573097.
-
-Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press.
+Rorty, Richard. 1989. *Contingency, Irony, and Solidarity*. Cambridge: Cambridge University Press.
 
 Rosenstock, Sarita, Cailin O'Connor, and Justin Bruner. 2017. "In Epistemic Networks, Is Less Really More?" *Philosophy of Science* 84(2): 234–52. https://doi.org/10.1086/690717.
 
 Rottschaefer, William A. 2012. "Moral Realism and Evolutionary Moral Psychology." In *The Oxford Handbook of Moral Realism*, edited by Paul Bloomfield, 123–45. Oxford: Oxford University Press.
 
 Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Analyse & Kritik* 34(1): 141–56. https://doi.org/10.1515/ak-2012-0107.
+
+Russell, Bertrand. 1903. *The Principles of Mathematics*. Cambridge: Cambridge University Press. ISBN 9780521062749.
+
+Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press. ISBN 9780199573097.
+
+Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press.
 
 Sevilla, Jaime, Lennart Heim, Anson Ho, Tamay Besiroglu, Marius Hobbhahn, and Pablo Villalobos. 2022. "Compute Trends Across Three Eras of Machine Learning." arXiv preprint arXiv:2202.05924.
 
