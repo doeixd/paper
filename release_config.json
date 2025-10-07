@@ -1,0 +1,26 @@
+{
+  "format": "typst",
+  "preamble": {
+    "typst": "typst_preamble.typ",
+    "latex": null
+  },
+  "output": {
+    "filename": null,
+    "directory": "releases"
+  },
+  "attachments": {
+    "front": [],
+    "end": []
+  },
+  "cleanup": {
+    "intermediate_files": true,
+    "temp_files": true,
+    "keep_logs": false
+  },
+  "metadata": {
+    "author": "Unknown",
+    "title": "Academic Paper",
+    "version": "1.0",
+    "date": "2025-10-07"
+  }
+}

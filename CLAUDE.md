@@ -181,3 +181,62 @@ if you have sub-agents. dont be scared of using them
 - **Error Handling**: Comprehensive error reporting for compilation and merging failures
 - **Use Cases**: Academic paper submission, adding title pages, appendices, combining multiple documents, final publication PDF creation
 - **Dependencies**: Requires `typst` and/or `pdflatex` for compilation, plus PDF merging tools
+
+### Release Script (`release.py`)
+- **Purpose**: Complete academic paper release pipeline that converts markdown to publication-ready PDFs with full customization
+- **Basic Usage**:
+  - `python release.py paper.md` - Basic release with defaults
+  - `python release.py paper.md --config release.json` - Custom config
+  - `python release.py paper.md --format latex` - LaTeX output
+  - `python release.py paper.md --output final.pdf` - Custom output
+  - `python release.py --create-config` - Create default config file
+- **Command-Line Options**:
+  - `--config FILE` - Configuration file (JSON/YAML)
+  - `--format {typst,latex}` - Output format (overrides config)
+  - `--output FILE` - Output PDF filename (overrides config)
+  - `--keep-temp` - Keep temporary files (overrides config)
+  - `--create-config` - Generate default config file and exit
+- **Configuration File Support**: JSON or YAML files for complete pipeline customization:
+  ```json
+  {
+    "format": "typst",
+    "preamble": {
+      "typst": "typst_preamble.typ",
+      "latex": null
+    },
+    "output": {
+      "filename": "my_paper",
+      "directory": "releases"
+    },
+    "attachments": {
+      "front": ["cover.pdf"],
+      "end": ["appendix.pdf"]
+    },
+    "cleanup": {
+      "intermediate_files": true,
+      "temp_files": true
+    },
+    "metadata": {
+      "author": "Your Name",
+      "title": "Paper Title",
+      "version": "1.0"
+    }
+  }
+  ```
+- **Automated Pipeline**:
+  1. **Citation Extraction**: Finds all citations in markdown
+  2. **Reference Filtering**: Creates filtered reference list with only cited works
+  3. **Document Assembly**: Combines paper with filtered references
+  4. **Format Conversion**: Converts to Typst/LaTeX with proper preamble
+  5. **PDF Compilation**: Generates PDF from target format
+  6. **Attachment Processing**: Adds front/end documents if specified
+  7. **Final Assembly**: Merges all PDFs into publication-ready document
+  8. **Cleanup**: Removes intermediate files (configurable)
+- **Format Support**: Automatic detection and conversion of:
+  - **Markdown (.md)**: Input format with citations
+  - **Typst (.typ)**: Modern typesetting with custom preamble
+  - **LaTeX (.tex)**: Traditional academic typesetting
+  - **PDF (.pdf)**: Direct inclusion for covers/appendices
+- **Error Handling**: Graceful failure with cleanup and detailed error messages
+- **Use Cases**: One-command academic publishing, consistent formatting across papers, automated journal submission preparation, version control integration
+- **Dependencies**: Requires `pandoc`, `typst` and/or `pdflatex`, plus PDF merging tools (pdfunite/pdftk/pypdf)

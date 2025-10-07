@@ -130,3 +130,33 @@ if you have sub-agents. dont be scared of using them
 - **Automatic Format Detection**: Detects file types by extension and content analysis
 - **Temporary File Management**: Automatically cleans up intermediate PDFs unless `--keep-temp` is specified
 - **Use Cases**: Journal submission preparation, adding cover pages/appendices, combining multiple documents, final PDF assembly for publication
+
+### Release Script (`release.py`)
+- **Purpose**: Complete academic paper release pipeline that converts markdown to publication-ready PDFs with full customization
+- **Usage**:
+  - `python release.py paper.md` - Basic release with defaults
+  - `python release.py paper.md --config release.json` - Custom config
+  - `python release.py paper.md --format latex` - LaTeX output
+  - `python release.py paper.md --output final.pdf` - Custom output
+  - `python release.py --create-config` - Create default config file
+- **Complete Pipeline**:
+  1. **Citation Processing**: Extracts citations and filters references
+  2. **Format Conversion**: Converts markdown to Typst/LaTeX with references
+  3. **PDF Generation**: Compiles to PDF with optional attachments
+  4. **Cleanup**: Removes intermediate files (configurable)
+- **Configuration Support**: JSON/YAML config files for complete customization:
+  - Output format (typst/latex)
+  - Preamble files
+  - Front/end attachments
+  - Output directory and filename
+  - Cleanup options
+  - Metadata (author, title, version)
+- **Command-Line Options**:
+  - `--config FILE` - Configuration file (JSON/YAML)
+  - `--format {typst,latex}` - Output format
+  - `--output FILE` - Output PDF filename
+  - `--keep-temp` - Keep temporary files
+  - `--create-config` - Generate default config file
+- **Integrated Workflow**: Combines `paper_converter.py` and `pdf_assembler.py` functionality
+- **Error Handling**: Comprehensive error reporting and cleanup on failure
+- **Use Cases**: One-command academic paper publication, journal submissions, consistent formatting, automated release process
