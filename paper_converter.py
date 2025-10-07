@@ -35,13 +35,13 @@ def extract_citations_from_file(filepath):
 
     lines = content.split('\n')
 
-    # Pattern 1: Parenthetical citations like (Author Year) or (Author Year, page)
-    parenthetical_pattern = r'\(([A-Za-z][A-Za-z\s,&\-\.]+?)\s+(\d{4})(?:[a-z])?(?:,\s*(?:p\.?\s*)?\d+(?:-\d+)?)?\)'
+    # Pattern 1: Parenthetical citations like (Author Year), (Author, Year), or (Author Year, page)
+    parenthetical_pattern = r'\(([A-Za-z][A-Za-z\s,&\-\.]*?)(?:\s+|,\s+)([A-Za-z]+|\d{4})(?:[a-z])?(?:,\s*(?:p\.?\s*)?\d+(?:-\d+)?)?\)'
 
     # Pattern 2: In-prose citations like "Author (Year)" or "Author et al. (Year)"
     # Matches: Goldman (1979), Quine (1951), Acemoglu and Robinson (2012),
     #          Sevilla et al. (2022), Bennett-Hunter (2015)
-    in_prose_pattern = r'\b([A-Z][a-z]+(?:-[A-Z][a-z]+)?(?:\s+(?:and|&)\s+[A-Z][a-z]+(?:-[A-Z][a-z]+)?)?(?:\s+et\s+al\.?)?)\s+\((\d{4})(?:[a-z])?\)'
+    in_prose_pattern = r'\b([A-Z][a-z]+(?:-[A-Z][a-z]+)?(?:\s+(?:and|&)\s+[A-Z][a-z]+(?:-[A-Z][a-z]+)?)?(?:\s+et\s+al\.?)?)\s+\(([A-Za-z]+|\d{4})(?:[a-z])?\)'
 
     for i, line in enumerate(lines):
         # Find parenthetical citations
@@ -102,8 +102,8 @@ def load_references():
 
         first_line = lines[0].strip()
 
-        # Match pattern like "Author. Year." or "Author1, Author2. Year."
-        match = re.search(r'^(.+?)\s+(\d{4})\.', first_line)
+        # Match pattern like "Author. Year." or "Author1, Author2. Year." or "Author. Forthcoming."
+        match = re.search(r'^(.+?)\s+(\d{4}|[A-Z][a-z]+)\.', first_line)
         if match:
             full_author = match.group(1).strip()
             year = match.group(2)
