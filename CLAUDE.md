@@ -77,15 +77,33 @@ if you have sub-agents. dont be scared of using them
 
 ## Available Tools and Scripts
 
-### Citation Extraction Script (`citation_extractor.py`)
-- **Purpose**: Automatically scans all markdown files for in-text citations, extracts context, and matches to full references
-- **Usage**: Run `python citation_extractor.py` from the paper directory
-- **Output**: Appends results to `citations_found.txt` with structured formatting including:
-  - File location and line number for each citation
+### Enhanced Citation Extraction Script (`citation_extractor.py`)
+- **Purpose**: Automatically scans markdown files for both parenthetical and in-prose citations, extracts context, and matches to full references
+- **Basic Usage**:
+  - `python citation_extractor.py` - Scans all .md files
+  - `python citation_extractor.py final.md` - Scans specific file
+  - `python citation_extractor.py final.md -o my_output.txt` - Custom output file
+- **Command-Line Options**:
+  - `-o, --output FILE` - Custom output filename (default: citations_found.txt)
+  - `-a, --append` - Append to existing file instead of overwriting
+  - `-q, --quiet` - Suppress progress messages
+  - `-h, --help` - Show usage help
+- **Citation Detection**: Finds TWO types of citations:
+  - **Parenthetical**: `(Author 2020)`, `(Author et al. 2020, p. 45)`
+  - **In-prose**: `Goldman (1979)`, `Acemoglu and Robinson (2012)`, `Sevilla et al. (2022)`
+- **Output**: Writes to specified file with structured formatting including:
+  - Citation type (PARENTHETICAL or IN-PROSE)
+  - File location and line number
   - Full citation text
   - Contextual text (3 lines before and after)
   - Complete reference entry from `references.md`
-- **Coverage**: Processes all `.md` files in the directory (excluding `references.md` and files starting with `citations_`)
-- **Citation Pattern**: Detects `(Author Year)` and `(Author Year, page)` formats
-- **Reference Matching**: Robust matching handles various author name formats and citation styles
-- **Use Case**: Comprehensive audit of all scholarly citations across paper versions for verification and consistency checking
+  - "NOT FOUND" warning if reference missing
+  - Results grouped by file for organization
+- **Reference Matching**: Intelligent matching handles:
+  - Primary author vs. full author names
+  - "et al." citations (strips and matches primary author)
+  - "and" vs. "&" variations
+  - Multiple citation formats for same source
+- **Coverage**: Processes specified files or all `.md` files (excluding `references.md` and files starting with `citations_`)
+- **Use Case**: Comprehensive audit of all scholarly citations for verification, consistency checking, and ensuring all citations have corresponding references
+- **Documentation**: See `CITATION_EXTRACTOR_README.md` for complete usage guide and examples
