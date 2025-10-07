@@ -56,7 +56,7 @@ Kim, Jaegwon. 1988. "What Is 'Naturalized Epistemology'?" *Philosophical Perspec
 
 Kitcher, Philip. 1993. *The Advancement of Science: Science without Legend, Objectivity without Illusions*. New York: Oxford University Press.
 
-Kornblith, Hilary. 1993. *Knowledge and Its Place in Nature*. Oxford: Clarendon Press (published 2002, but listed as 1993 in some sources; verified 2002).
+Kornblith, Hilary. 2002. *Knowledge and Its Place in Nature*. Oxford: Clarendon Press.
 
 Kuhn, Thomas S. 1996. *The Structure of Scientific Revolutions*. 3rd ed. Chicago: University of Chicago Press (originally 1962).
 
@@ -76,9 +76,9 @@ Lugones, María. 2003. *Pilgrimages/Peregrinajes: Theorizing Coalition against M
 
 Lynch, Michael P. 2009. *Truth as One and Many*. Oxford: Clarendon Press.
 
-Mallapaty, Smriti. 2020. "The Coronavirus Is Mutating—Does It Matter?" *Nature* 585(7824): 174–177. https://doi.org/10.1038/d41586-020-02544-6.
+Mallapaty, Smriti. 2020. "Special Report: The Simulations Driving the World's Response to COVID-19." *Nature* 580(7803): 316–318. https://doi.org/10.1038/d41586-020-01003-6.
 
-Mallapaty, Smriti. 2020. "What the COVID Pandemic Reveals About the Paper-Thin Line Between ‘Data’ and ‘Models’." *Nature* 583: 501–502. https://doi.org/10.1038/d41586-020-02276-1.
+NOTE: The in-text citation "(Mallapaty 2020)" on line 549 of final.md claims "simpler models with lower M(t) maintained better accuracy" but this specific claim could not be verified in any Mallapaty 2020 Nature article. This citation may need to be replaced with a more appropriate source such as Roda et al. (2020) "Why is it difficult to accurately predict the COVID-19 epidemic?" Infectious Disease Modelling 5:271-281, which directly addresses model complexity vs. accuracy.
 
 Meadows, Donella H. 2008. *Thinking in Systems: A Primer*. Edited by Diana Wright. White River Junction, VT: Chelsea Green Publishing.
 
@@ -102,7 +102,7 @@ Popper, Karl. 1959. *The Logic of Scientific Discovery*. London: Hutchinson (ori
 
 Price, Huw. 1992. "Metaphysical Pluralism." *Journal of Philosophy* 89(8): 387–409. https://doi.org/10.2307/2940975.
 
-Pritchard, Duncan. 2016. *Epistemic Risk*. Oxford: Oxford University Press (article; book 2016? Verified as 2016 article).
+Pritchard, Duncan. 2016. "Epistemic Risk." *Journal of Philosophy* 113(11): 550–571. https://doi.org/10.5840/jphil20161131135.
 
 Putnam, Hilary. 2002. *The Collapse of the Fact/Value Dichotomy and Other Essays*. Cambridge, MA: Harvard University Press.
 
@@ -120,7 +120,7 @@ Rottschaefer, William A. 2012. "Moral Realism and Evolutionary Moral Psychology.
 
 Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Analyse & Kritik* 34(1): 141–56. https://doi.org/10.1515/ak-2012-0107.
 
-Sevilla, Jaime, Lennart Heim, Marius Hobbhahn, and Anson Ho. 2022. "Compute Trends Across Three Eras of Machine Learning." arXiv preprint arXiv:2202.05924.
+Sevilla, Jaime, Lennart Heim, Anson Ho, Tamay Besiroglu, Marius Hobbhahn, and Pablo Villalobos. 2022. "Compute Trends Across Three Eras of Machine Learning." arXiv preprint arXiv:2202.05924.
 
 Simon, Herbert A. 1972. "Theories of Bounded Rationality." In *Decision and Organization*, edited by C. B. McGuire and Roy Radner, 161–76. Amsterdam: North-Holland Publishing Company.
 
