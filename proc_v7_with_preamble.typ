@@ -15,8 +15,7 @@
 
 #show heading.where(level: 1): set block(above: 0.1em, below: 2em)
 #show heading.where(level: 1): set text(size: 1.4em)
-#show heading.where(level: 1): set par(leading: 0.7em)
-= A Procedural and Naturalistic Model of Moral Objectivity
+#show heading.where(level: 1): set par(leading: 0.7em)= A Procedural and Naturalistic Model of Moral Objectivity
 <a-procedural-and-naturalistic-model-of-moral-objectivity>
 == Abstract
 <abstract>
