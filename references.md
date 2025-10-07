@@ -1,6 +1,6 @@
 # References
 
-Acemoglu, Daron, and James A. Robinson. 2012. *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*. New York: Crown Business.
+Acemoglu, Daron, and James A. Robinson. 2012. *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*. New York: Crown Business. ISBN 9780307719225.
 
 Ayvazov, Mahammad. 2025. "Toward a Phase Epistemology: Coherence, Response and the Vector of Mutual Uncertainty." *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.5250197.
 
@@ -32,7 +32,7 @@ Fricker, Elizabeth. 2007. *The Epistemology of Testimony*. Oxford: Oxford Univer
 
 Gadamer, Hans-Georg. 1975. *Truth and Method*. Translated by Joel Weinsheimer and Donald G. Marshall. New York: Continuum (originally Seabury Press; 2nd revised ed.).
 
-Goldman, Alvin I. 1979. "What Is Justified Belief?" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel.
+Goldman, Alvin I. 1979. "What Is Justified Belief?" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel. https://doi.org/10.1007/978-94-009-9493-5_1.
 
 Goldman, Alvin I. 1999. *Knowledge in a Social World*. Oxford: Oxford University Press.
 
@@ -54,7 +54,7 @@ Kelly, Thomas. 2005. "The Epistemic Significance of Disagreement." In *Oxford St
 
 Kim, Jaegwon. 1988. "What Is 'Naturalized Epistemology'?" *Philosophical Perspectives* 2: 381–405. https://doi.org/10.2307/2214082.
 
-Kitcher, Philip. 1993. *The Advancement of Science: Science without Legend, Objectivity without Illusions*. New York: Oxford University Press.
+Kitcher, Philip. 1993. *The Advancement of Science: Science without Legend, Objectivity without Illusions*. New York: Oxford University Press. ISBN 9780195046281.
 
 Kornblith, Hilary. 2002. *Knowledge and Its Place in Nature*. Oxford: Clarendon Press.
 
@@ -76,9 +76,6 @@ Lugones, María. 2003. *Pilgrimages/Peregrinajes: Theorizing Coalition against M
 
 Lynch, Michael P. 2009. *Truth as One and Many*. Oxford: Clarendon Press.
 
-Mallapaty, Smriti. 2020. "Special Report: The Simulations Driving the World's Response to COVID-19." *Nature* 580(7803): 316–318. https://doi.org/10.1038/d41586-020-01003-6.
-
-NOTE: The in-text citation "(Mallapaty 2020)" on line 549 of final.md claims "simpler models with lower M(t) maintained better accuracy" but this specific claim could not be verified in any Mallapaty 2020 Nature article. This citation may need to be replaced with a more appropriate source such as Roda et al. (2020) "Why is it difficult to accurately predict the COVID-19 epidemic?" Infectious Disease Modelling 5:271-281, which directly addresses model complexity vs. accuracy.
 
 Meadows, Donella H. 2008. *Thinking in Systems: A Primer*. Edited by Diana Wright. White River Junction, VT: Chelsea Green Publishing.
 
@@ -111,6 +108,8 @@ Quine, W. V. O. 1951. "Two Dogmas of Empiricism." *Philosophical Review* 60(1): 
 Quine, W. V. O. 1960. *Word and Object*. Cambridge, MA: MIT Press.
 
 Rescher, Nicholas. 1996. *Process Metaphysics: An Introduction to Process Philosophy*. Albany: State University of New York Press.
+
+Roda, Weston C., Marie B. Varughese, Donglin Han, and Michael Y. Li. 2020. "Why Is It Difficult to Accurately Predict the COVID-19 Epidemic?" *Infectious Disease Modelling* 5: 271–281. https://doi.org/10.1016/j.idm.2020.03.001.
 
 Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press.
 
