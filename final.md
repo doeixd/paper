@@ -67,7 +67,7 @@ Drawing from evolutionary epistemology (Campbell 1974; Bradie 1986) and cultural
 
 Shared networks are active systems under constant pressure from pragmatic pushback: the systemic analogue of Quine's "recalcitrant experience." It is the sum of concrete, non-negotiable consequences arising when network principles are applied—not argument but material outcome: a bridge collapses, a treatment fails, a society fragments. This generates two cost types.
 
-First-Order Costs are direct, material consequences: failed predictions, wasted resources, environmental degradation, systemic instability (e.g., excess mortality). These are objective dysfunction signals. Systemic Costs are secondary, internal costs a network incurs to manage, suppress, or explain away first-order costs. These non-productive expenditures reveal true fragility:¹ For a formal mathematical model of systemic brittleness and its dynamic evolution, see Appendix C.
+First-Order Costs are direct, material consequences: failed predictions, wasted resources, environmental degradation, systemic instability (e.g., excess mortality). These are objective dysfunction signals. Systemic Costs are secondary, internal costs a network incurs to manage, suppress, or explain away first-order costs. These non-productive expenditures reveal true fragility; for a formal mathematical model of systemic brittleness and its dynamic evolution, see Appendix C.
 
 **Conceptual Debt Accumulation:** Compounding fragility from flawed, complex patches protecting core principles.
 
