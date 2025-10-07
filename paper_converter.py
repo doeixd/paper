@@ -288,8 +288,8 @@ def generate_filtered_references_only(citations, references, output_file, config
 
 def generate_merged_references(citations, references, output_file, config):
     """Generate a references file containing all references, with cited ones marked."""
-    # Get all references from references.md
-    all_refs = list(references.values())
+    # Get unique references from references.md (deduplicate since dict has multiple keys per reference)
+    all_refs = list(set(references.values()))
 
     # Mark which references are cited
     cited_refs = set()
