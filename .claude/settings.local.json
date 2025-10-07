@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "WebSearch",
-      "WebFetch(domain:www.nature.com)"
+      "WebFetch(domain:www.nature.com)",
+      "Bash(typst compile:*)"
     ],
     "deny": [],
     "ask": []

@@ -590,3 +590,40 @@ AttributeError: 'str' object has no attribute 'exists'
 2025-10-07 12:02:13,630 - INFO - SUCCESS! Release complete in 0.4s
 2025-10-07 12:02:13,630 - INFO - Final PDF: releases\proc-v7.pdf (83544 bytes)
 2025-10-07 12:02:13,630 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-07 14:33:02,329 - INFO - Successfully imported paper_converter
+2025-10-07 14:33:02,329 - INFO - Successfully imported pdf_assembler
+2025-10-07 14:33:03,032 - WARNING - No PDF merging tools available - multi-file operations may require manual intervention
+2025-10-07 14:33:03,032 - INFO - Input validation passed: proc_v7.md (87697 bytes)
+2025-10-07 14:33:03,034 - INFO - Backed up existing file: releases\proc-v7.pdf -> backups\proc-v7_20251007_143303.pdf
+2025-10-07 14:33:03,034 - INFO - Starting Academic Paper Release Pipeline
+2025-10-07 14:33:03,034 - INFO - Input: proc_v7.md
+2025-10-07 14:33:03,034 - INFO - Output: releases\proc-v7.pdf
+2025-10-07 14:33:03,034 - INFO - Format: typst
+2025-10-07 14:33:03,034 - INFO - Config: 0 validation errors
+2025-10-07 14:33:03,034 - INFO - Converting markdown to target format...
+2025-10-07 14:33:03,035 - INFO - Extracting citations...
+2025-10-07 14:33:03,040 - INFO - Found 7 citations
+2025-10-07 14:33:03,040 - INFO - Loading and filtering references...
+2025-10-07 14:33:03,041 - INFO - Loaded 649 reference entries
+2025-10-07 14:33:03,041 - INFO - Generated 2 filtered references
+2025-10-07 14:33:03,041 - WARNING - 4 citations not found in references.md
+2025-10-07 14:33:03,042 - INFO - Combining paper with filtered references...
+2025-10-07 14:33:03,054 - INFO - Combined file created: 84698 bytes
+2025-10-07 14:33:03,054 - INFO - Converting to typst format...
+2025-10-07 14:33:03,320 - INFO - Target file created: 88041 bytes
+2025-10-07 14:33:03,320 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2025-10-07 14:33:03,320 - INFO - Generating PDF with attachments...
+2025-10-07 14:33:03,320 - INFO - Main document: proc_v7_combined.typst
+2025-10-07 14:33:03,334 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2025-10-07 14:33:03,548 - INFO - Converted to PDF: proc_v7_combined.pdf
+2025-10-07 14:33:03,549 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2025-10-07 14:33:03,550 - INFO - PDF generation successful: 147888 bytes
+2025-10-07 14:33:03,550 - INFO - Adding metadata to PDF...
+2025-10-07 14:33:03,550 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-07 14:33:03,550 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-07 14:33:03,550 - INFO - Validated final PDF: releases\proc-v7.pdf (147888 bytes)
+2025-10-07 14:33:03,550 - INFO - Starting cleanup...
+2025-10-07 14:33:03,551 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-07 14:33:03,551 - INFO - SUCCESS! Release complete in 0.5s
+2025-10-07 14:33:03,551 - INFO - Final PDF: releases\proc-v7.pdf (147888 bytes)
+2025-10-07 14:33:03,551 - INFO - Release completed successfully: releases\proc-v7.pdf

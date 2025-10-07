@@ -1,0 +1,118 @@
+
+================================================================================
+Citation Extraction Run - 2025-10-07 14:31:42
+Files scanned: proc_v7.md
+Total citations: 7
+================================================================================
+
+
+################################################################################
+FILE: proc_v7.md
+################################################################################
+
+Citation 1 [IN-PROSE]:
+Line: 139
+Citation: Virginia (1850)
+
+Context:
+- Insurance, bounties, and enforcement infrastructure: ~$400,000/year
+
+Total coercion costs: ~$5.5 million/year
+C(t) for Virginia (1850) ≈ 5.5/220 = **2.5%**
+
+Comparative Baseline:
+- Northern free states (1850): C(t) ≈ 0.8-1.2% (standard law enforcement and judicial costs)
+
+Reference: NOT FOUND for 'Virginia 1850'
+------------------------------------------------------------
+
+Citation 2 [IN-PROSE]:
+Line: 143
+Citation: Britain (1850)
+
+Context:
+Comparative Baseline:
+- Northern free states (1850): C(t) ≈ 0.8-1.2% (standard law enforcement and judicial costs)
+- Britain (1850): C(t) ≈ 1.0% (peacetime metropolitan police and courts)
+- Virginia's coercion ratio is 2-3× higher than peer societies, indicating a high-brittleness configuration requiring extraordinary maintenance costs.
+
+Trend Analysis (1820-1860):
+
+Reference: NOT FOUND for 'Britain 1850'
+------------------------------------------------------------
+
+Citation 3 [PARENTHETICAL]:
+Line: 409
+Citation: (Simon 1972)
+
+Context:
+Biological Constraints. These are empirical facts about human organisms, discoverable through physiology, nutrition science, and epidemiology without any prior normative commitments. Humans require minimum caloric intake (approximately 1,500-2,000 calories per day for adults to maintain basic functions). Chronic malnutrition produces immune dysfunction, elevated mortality, and demographic decline. Humans reproduce sexually with roughly nine-month gestation and extended childhood dependency requiring caregiver investment. Social isolation causes measurable psychological and physical harm. A normative system that systematically violates these requirements incurs costs-mortality, morbidity, demographic collapse-that are objective, measurable, and independent of anyone's values.
+
+Cognitive Constraints. From psychology, cognitive science, and behavioral economics, we discover that humans exhibit bounded rationality (Simon 1972): we cannot compute optimal solutions to complex problems in real-time. Working memory is limited (roughly seven items). We are vulnerable to coordination failures without institutional support. We possess specific social learning capacities that enable cultural transmission but also specific limitations that constrain what information can be effectively transmitted. These constraints shape what normative architectures are even implementable. A system requiring perfect rationality or unlimited information processing simply cannot function with human agents, regardless of its moral appeal. These are empirical facts about human cognition, not value judgments.
+
+Coordination Constraints. From game theory, mechanism design, and institutional economics, we learn that cooperation under conditions of potential defection requires enforcement mechanisms (Axelrod 1984). Common-pool resource management requires boundary rules and monitoring (Ostrom 1990). Large-scale coordination requires division of labor and information aggregation mechanisms. These are mathematical and logical facts about strategic interaction under specified conditions. They apply to any system where individuals have private information and potentially divergent incentives. They are derivable from formal models, not read off normative intuitions.
+
+Reference:
+Simon, Herbert A. 1972. "Theories of Bounded Rationality." In *Decision and Organization*, edited by C. B. McGuire and Roy Radner, 161–76. Amsterdam: North-Holland Publishing Company.
+------------------------------------------------------------
+
+Citation 4 [PARENTHETICAL]:
+Line: 411
+Citation: (Axelrod 1984)
+
+Context:
+Cognitive Constraints. From psychology, cognitive science, and behavioral economics, we discover that humans exhibit bounded rationality (Simon 1972): we cannot compute optimal solutions to complex problems in real-time. Working memory is limited (roughly seven items). We are vulnerable to coordination failures without institutional support. We possess specific social learning capacities that enable cultural transmission but also specific limitations that constrain what information can be effectively transmitted. These constraints shape what normative architectures are even implementable. A system requiring perfect rationality or unlimited information processing simply cannot function with human agents, regardless of its moral appeal. These are empirical facts about human cognition, not value judgments.
+
+Coordination Constraints. From game theory, mechanism design, and institutional economics, we learn that cooperation under conditions of potential defection requires enforcement mechanisms (Axelrod 1984). Common-pool resource management requires boundary rules and monitoring (Ostrom 1990). Large-scale coordination requires division of labor and information aggregation mechanisms. These are mathematical and logical facts about strategic interaction under specified conditions. They apply to any system where individuals have private information and potentially divergent incentives. They are derivable from formal models, not read off normative intuitions.
+
+Physical Constraints. From physics, ecology, and thermodynamics, we know that energy must be extracted from the environment to sustain organization. Entropy requires continuous work to maintain structured systems. Finite resources constrain population size and consumption patterns. These physical facts impose hard limits on what social organizations can achieve.
+
+Reference:
+Axelrod, Robert. 1984. *The Evolution of Cooperation*. New York: Basic Books.
+------------------------------------------------------------
+
+Citation 5 [PARENTHETICAL]:
+Line: 411
+Citation: (Ostrom 1990)
+
+Context:
+Cognitive Constraints. From psychology, cognitive science, and behavioral economics, we discover that humans exhibit bounded rationality (Simon 1972): we cannot compute optimal solutions to complex problems in real-time. Working memory is limited (roughly seven items). We are vulnerable to coordination failures without institutional support. We possess specific social learning capacities that enable cultural transmission but also specific limitations that constrain what information can be effectively transmitted. These constraints shape what normative architectures are even implementable. A system requiring perfect rationality or unlimited information processing simply cannot function with human agents, regardless of its moral appeal. These are empirical facts about human cognition, not value judgments.
+
+Coordination Constraints. From game theory, mechanism design, and institutional economics, we learn that cooperation under conditions of potential defection requires enforcement mechanisms (Axelrod 1984). Common-pool resource management requires boundary rules and monitoring (Ostrom 1990). Large-scale coordination requires division of labor and information aggregation mechanisms. These are mathematical and logical facts about strategic interaction under specified conditions. They apply to any system where individuals have private information and potentially divergent incentives. They are derivable from formal models, not read off normative intuitions.
+
+Physical Constraints. From physics, ecology, and thermodynamics, we know that energy must be extracted from the environment to sustain organization. Entropy requires continuous work to maintain structured systems. Finite resources constrain population size and consumption patterns. These physical facts impose hard limits on what social organizations can achieve.
+
+Reference: NOT FOUND for 'Ostrom 1990'
+------------------------------------------------------------
+
+Citation 6 [PARENTHETICAL]:
+Line: 465
+Citation: (Glenn, Forthcoming)
+
+Context:
+### 4.5. The Entrenchment of Moral Principles: From Hypothesis to Core Norm
+
+How does a normative principle like `innocent people should not be punished` achieve its foundational status? The entrenchment mechanism detailed in EPC (Glenn, Forthcoming) explains this journey of earning pragmatic indispensability:
+
+1. Peripheral Hypothesis: The principle begins as a contested proposal, a potential solution to the high costs of rival principles like collective punishment.
+2. Migration Inward: As it demonstrates immense value in lowering systemic brittleness (reducing C(t) by increasing legitimacy and stability), its revision becomes prohibitively costly. It becomes a Standing Predicate used to vet new laws and policies.
+
+Reference: NOT FOUND for 'Glenn Forthcoming'
+------------------------------------------------------------
+
+Citation 7 [PARENTHETICAL]:
+Line: 471
+Citation: (Simon 1972)
+
+Context:
+2. Migration Inward: As it demonstrates immense value in lowering systemic brittleness (reducing C(t) by increasing legitimacy and stability), its revision becomes prohibitively costly. It becomes a Standing Predicate used to vet new laws and policies.
+3. Core Principle (Systemic Caching): Its indispensability becomes so profound that it is embedded in the infrastructure of viable legal systems (constitutions, legal training, judicial review). This systemic caching is a rational response to bounded rationality; the system entrenches its most successful discoveries to avoid re-deriving them for every new case.
+
+A core moral principle is not a self-evident axiom but a piece of highly optimized social technology that has survived rigorous pragmatic stress-testing. Its justification is its proven, indispensable functional role in viable social architectures. This entrenchment reflects pragmatic indispensability driven by bounded rationality (Simon 1972). The costs of revision become effectively infinite. Revising basic justice principles requires abandoning the conceptual tools needed to coordinate social expectations, resolve disputes, or maintain legitimate authority. After centuries of implementation, legal systems worldwide presuppose core fairness principles. Revision would generate catastrophic first-order costs, undermining the stability and legitimacy on which functional governance depends.
+
+### 4.6. Relationship to Kitcher's Ethical Project
+
+Reference:
+Simon, Herbert A. 1972. "Theories of Bounded Rationality." In *Decision and Organization*, edited by C. B. McGuire and Roy Radner, 161–76. Amsterdam: North-Holland Publishing Company.
+------------------------------------------------------------
+

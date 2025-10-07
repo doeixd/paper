@@ -12,7 +12,7 @@ Bennett-Hunter, Guy. 2015. "Emergence, Emergentism and Pragmatism." *Theology an
 
 Bennett-Hunter, Guy. 2015. *Ineffability and Religious Experience*. London: Routledge (originally Pickering & Chatto).
 
-Blackburn, Simon. 1993. *Essays in Quasi-Realism*. New York: Oxford University Press.
+Blackburn, Simon. 1993. *Essays in Quasi-Realism*. New York: Oxford University Press. ISBN 978-0195072259.
 
 Berlin, Brent, and Paul Kay. 1969. *Basic Color Terms: Their Universality and Evolution*. Berkeley: University of California Press.
 
@@ -108,6 +108,8 @@ Newman, Mark. 2010. *Networks: An Introduction*. Oxford: Oxford University Press
 
 Olsson, Erik J. 2005. *Against Coherence: Truth, Probability, and Justification*. Oxford: Oxford University Press.
 
+Ostrom, Elinor. 1990. *Governing the Commons: The Evolution of Institutions for Collective Action*. Cambridge: Cambridge University Press. ISBN 978-0521405997.
+
 Patterson, Orlando. 1982. *Slavery and Social Death: A Comparative Study*. Cambridge, MA: Harvard University Press.
 
 Peirce, Charles S. 1992. "How to Make Our Ideas Clear." In *The Essential Peirce: Selected Philosophical Writings*, vol. 1 (1867–1893), edited by Nathan Houser and Christian Kloesel, 124–41. Bloomington: Indiana University Press (originally 1878).
@@ -122,11 +124,13 @@ Pritchard, Duncan. 2016. "Epistemic Risk." *Journal of Philosophy* 113(11): 550�
 
 Psillos, Stathis. 1999. *Scientific Realism: How Science Tracks Truth*. London: Routledge.
 
-Putnam, Hilary. 2002. *The Collapse of the Fact/Value Dichotomy and Other Essays*. Cambridge, MA: Harvard University Press.
+Putnam, Hilary. 2002. *The Collapse of the Fact/Value Dichotomy and Other Essays*. Cambridge, MA: Harvard University Press. ISBN 978-0674013803.
 
 Quine, W. V. O. 1951. "Two Dogmas of Empiricism." *Philosophical Review* 60(1): 20–43. https://doi.org/10.2307/2181906.
 
 Quine, W. V. O. 1960. *Word and Object*. Cambridge, MA: MIT Press. ISBN 9780262670012.
+
+Railton, Peter. 1986. "Moral Realism." *The Philosophical Review* 95(2): 163–207. https://doi.org/10.2307/2185599.
 
 Rescher, Nicholas. 1996. *Process Metaphysics: An Introduction to Process Philosophy*. Albany: State University of New York Press.
 
@@ -144,7 +148,7 @@ Russell, Bertrand. 1903. *The Principles of Mathematics*. Cambridge: Cambridge U
 
 Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press. ISBN 9780199573097.
 
-Mackie, J. L. 1977. *Ethics: Inventing Right and Wrong*. London: Penguin Books.
+Mackie, J. L. 1977. *Ethics: Inventing Right and Wrong*. London: Penguin Books. ISBN 978-0140135589.
 
 Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press.
 
@@ -166,7 +170,7 @@ Tauriainen, Teemu. 2017. "Quine on Truth." *Philosophical Forum* 48(4): 397–41
 
 Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä.
 
-Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton, NJ: Princeton University Press.
+Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton, NJ: Princeton University Press. ISBN 978-0691116693.
 
 Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica* 43(1–2): 99–124. https://doi.org/10.1111/j.1746-8361.1989.tb00933.x.
 
@@ -176,11 +180,11 @@ Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind: An Inquiry into the Natur
 
 Zollman, Kevin J. S. 2013. "Network Epistemology: Communication in the History of Science." *Philosophy Compass* 8(1): 15–27. https://doi.org/10.1111/phc3.12021.
 
-World Bank. 2012. *World Development Report 2012: Gender Equality and Development*. Washington, DC: World Bank.
+World Bank. 2012. *World Development Report 2012: Gender Equality and Development*. Washington, DC: World Bank. ISBN 978-0821387701.
 
-Duflo, Esther. 2012. "Women Empowerment and Economic Development." *Journal of Economic Literature* 50(4): 1051–79.
+Duflo, Esther. 2012. "Women Empowerment and Economic Development." *Journal of Economic Literature* 50(4): 1051–79. https://doi.org/10.1257/jel.50.4.1051.
 
-Axelrod, Robert. 1984. *The Evolution of Cooperation*. New York: Basic Books.
+Axelrod, Robert. 1984. *The Evolution of Cooperation*. New York: Basic Books. ISBN 978-0465005642.
 
 Bagnoli, Carla, ed. 2013. *Constructivism in Ethics*. Cambridge: Cambridge University Press.
 
@@ -198,13 +202,13 @@ Joyce, Richard. 2001. *The Myth of Morality*. Cambridge: Cambridge University Pr
 
 Kitcher, Philip. 2011. *The Ethical Project*. Cambridge, MA: Harvard University Press.
 
-Korsgaard, Christine M. 1996. *The Sources of Normativity*. Cambridge: Cambridge University Press.
+Korsgaard, Christine M. 1996. *The Sources of Normativity*. Cambridge: Cambridge University Press. ISBN 978-0521553648.
 
-Rawls, John. 1971. *A Theory of Justice*. Cambridge, MA: Harvard University Press.
+Rawls, John. 1971. *A Theory of Justice*. Cambridge, MA: Harvard University Press. ISBN 978-0674975642.
 
 Scott, James C. 1998. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press.
 
-Street, Sharon. 2006. "A Darwinian Dilemma for Realist Theories of Value." *Philosophical Studies* 127(1): 109–66.
+Street, Sharon. 2006. "A Darwinian Dilemma for Realist Theories of Value." *Philosophical Studies* 127(1): 109–66. https://doi.org/10.1007/s11098-005-9047-2.
 
 Streumer, Bart. 2025. "Quasi-Realism for Realists." *Philosophers' Imprint* 25(10): 1–17.
 
