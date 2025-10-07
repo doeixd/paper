@@ -1,15 +1,24 @@
 #!/usr/bin/env python3
 """
-Unit tests for the release script.
+Unit tests for the release script v2.0.
 """
 
 import unittest
 import tempfile
 import json
+import sys
 from pathlib import Path
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch, MagicMock, mock_open
 
-from release import ReleaseConfig, PaperRelease
+# Add the current directory to Python path for imports
+sys.path.insert(0, '.')
+
+try:
+    from release import ReleaseConfig, PaperRelease, check_dependencies, create_default_config
+except ImportError as e:
+    print(f"Failed to import release module: {e}")
+    print("Make sure release.py is in the same directory")
+    sys.exit(1)
 
 class TestReleaseConfig(unittest.TestCase):
     """Test the ReleaseConfig class."""
