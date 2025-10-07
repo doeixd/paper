@@ -87,3 +87,24 @@ if you have sub-agents. dont be scared of using them
 - **Citation Pattern**: Detects `(Author Year)` and `(Author Year, page)` formats
 - **Reference Matching**: Robust matching handles various author name formats and citation styles
 - **Use Case**: Comprehensive audit of all scholarly citations across paper versions for verification and consistency checking
+
+### Paper Converter Script (`paper_converter.py`)
+- **Purpose**: Converts markdown academic papers to LaTeX or Typst format with automatically filtered references
+- **Usage**:
+  - `python paper_converter.py paper.md` - Convert to LaTeX
+  - `python paper_converter.py paper.md --format typst` - Convert to Typst
+  - `python paper_converter.py paper.md --preamble preamble.tex` - Use custom LaTeX preamble
+  - `python paper_converter.py paper.md --output final.tex` - Custom output filename
+  - `python paper_converter.py paper.md --keep-temp` - Preserve temporary files for debugging
+- **Workflow**:
+  1. Extracts all citations from input markdown file
+  2. Filters `references.md` to include only cited works
+  3. Removes existing references section from paper
+  4. Combines paper with filtered references
+  5. Converts to LaTeX or Typst using pandoc
+- **Citation Support**: Handles both parenthetical `(Author Year)` and in-prose `Author (Year)` citations, including "et al." formats
+- **Output Formats**:
+  - **LaTeX**: Standard `.tex` files with optional custom preamble support
+  - **Typst**: Modern `.typ` files for Typst typesetting system
+- **Reference Processing**: Generates submission-ready reference lists containing only works actually cited
+- **Use Case**: Final paper preparation for journal submission, converting between typesetting systems, ensuring reference completeness

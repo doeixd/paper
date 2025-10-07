@@ -117,3 +117,36 @@ if you have sub-agents. dont be scared of using them
 - **Coverage**: Processes specified files or all `.md` files (excluding `references.md` and files starting with `citations_`)
 - **Use Case**: Comprehensive audit of all scholarly citations for verification, consistency checking, ensuring all citations have corresponding references, and generating submission-ready reference lists
 - **Documentation**: See `CITATION_EXTRACTOR_README.md` for complete usage guide and examples
+
+### Paper Converter Script (`paper_converter.py`)
+- **Purpose**: Converts markdown academic papers to LaTeX or Typst format with automatically filtered references
+- **Basic Usage**:
+  - `python paper_converter.py paper.md` - Convert to LaTeX (default)
+  - `python paper_converter.py paper.md --format typst` - Convert to Typst
+  - `python paper_converter.py paper.md --preamble preamble.tex` - Use custom LaTeX preamble
+  - `python paper_converter.py paper.md --output final.tex` - Custom output filename
+  - `python paper_converter.py paper.md --keep-temp` - Preserve temporary files for debugging
+- **Command-Line Options**:
+  - `--format {latex,typst}` - Output format (default: latex)
+  - `--preamble FILE` - Custom preamble file for LaTeX (ignored for Typst)
+  - `--output FILE` - Custom output filename (auto-generated if not specified)
+  - `--keep-temp` - Keep temporary files (filtered refs, combined markdown)
+  - `-h, --help` - Show usage help
+- **Automated Workflow**:
+  1. **Citation Extraction**: Finds all citations in markdown (parenthetical and in-prose)
+  2. **Reference Filtering**: Creates filtered reference list with only cited works
+  3. **Document Assembly**: Removes existing references section, appends filtered references
+  4. **Format Conversion**: Uses pandoc to convert to LaTeX or Typst
+- **Citation Detection**: Handles complex citation patterns:
+  - **Parenthetical**: `(Author 2020)`, `(Author et al. 2020, p. 45)`
+  - **In-prose**: `Goldman (1979)`, `Acemoglu and Robinson (2012)`
+- **Reference Processing**: Generates clean, submission-ready reference lists:
+  - Filters master `references.md` to include only cited works
+  - Sorts alphabetically by primary author
+  - Adds metadata (generation date, source file, reference count)
+  - Flags missing citations as comments
+- **Output Formats**:
+  - **LaTeX (.tex)**: Standard LaTeX with optional custom preamble support
+  - **Typst (.typ)**: Modern Typst markup for advanced typesetting
+- **Use Cases**: Journal submission preparation, format conversion, reference list cleanup, ensuring citation completeness
+- **Dependencies**: Requires pandoc for document conversion
