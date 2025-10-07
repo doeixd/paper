@@ -108,13 +108,21 @@ Prospective Application: For contemporary systems, we diagnose rising brittlenes
 
 To demonstrate empirical testability, we briefly operationalize brittleness metrics for the Antebellum South (1830-1860), a well-documented case with clear normative architecture ("slavery is acceptable") and known collapse (1861-1865).
 
-**Measuring C(t): The Coercion Ratio.** C(t) = (resources for internal coercion) / (total economic output). Virginia (1850): ~2.5% (vs. 0.8-1.2% in Northern states), rising from 1.8% (1820) to 3.1% (1860), indicating escalating maintenance costs.
+#### Measuring C(t): The Coercion Ratio
 
-**Measuring P(t): Patch Velocity.** P(t) = rate of new ideological justifications. Publication counts accelerated from ~12 treatises (1790-1800) to ~160 (1850-1860), with doctrinal shifts from "necessary evil" to scientific racism, signaling accumulating ideological debt.
+C(t) = (resources for internal coercion) / (total economic output). Virginia (1850): ~2.5% (vs. 0.8-1.2% in Northern states), rising from 1.8% (1820) to 3.1% (1860), indicating escalating maintenance costs.
 
-**Measuring Tier 1 Bio-Social Costs.** Excess mortality: enslaved population ~30-35/1,000 deaths (vs. 18-22 for free whites), infant mortality 35-40% (vs. 18-25%), with malnutrition and violence markers far exceeding viability thresholds.
+#### Measuring P(t): Patch Velocity
 
-**Triangulated Diagnosis.** Comparative, diachronic, and biological baselines converge: high C(t), accelerating P(t), catastrophic bio-social costs predicted fragility. Historical validation: system collapsed within 5 years of 1860 data, with brittleness explaining rigidity and catastrophic failure.
+P(t) = rate of new ideological justifications. Publication counts accelerated from ~12 treatises (1790-1800) to ~160 (1850-1860), with doctrinal shifts from "necessary evil" to scientific racism, signaling accumulating ideological debt.
+
+#### Measuring Tier 1 Bio-Social Costs
+
+Excess mortality: enslaved population ~30-35/1,000 deaths (vs. 18-22 for free whites), infant mortality 35-40% (vs. 18-25%), with malnutrition and violence markers far exceeding viability thresholds.
+
+#### Triangulated Diagnosis
+
+Comparative, diachronic, and biological baselines converge: high C(t), accelerating P(t), catastrophic bio-social costs predicted fragility. Historical validation: system collapsed within 5 years of 1860 data, with brittleness explaining rigidity and catastrophic failure.
 
 This demonstrates the framework's empirical testability, operationalizability, and validation against historical outcomes, far surpassing intuition-based moral philosophy.
 
