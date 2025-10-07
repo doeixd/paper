@@ -16,7 +16,7 @@ One might object that scientific and normative systems are fundamentally differe
 
 ### 1.2. Thesis: Moral Progress as Systemic Debugging
 
-At its heart, this project is based on a simple idea: **moral principles are like engineering designs for social worlds.** Like any design, they can be elegant in theory but flawed in practice. When a bridge design is flawed, it generates stress, cracks, and eventually collapses. When a normative design is flawed—such as one built on slavery—it generates social stress (dissent, rebellion), structural cracks (coercive costs, economic stagnation), and is likewise prone to collapse. Our project is to develop the diagnostic tools to detect these structural flaws in our normative architectures *before* they lead to catastrophic failure.
+At its heart, this project is based on a simple idea: moral principles are like engineering designs for social worlds. Like any design, they can be elegant in theory but flawed in practice. When a bridge design is flawed, it generates stress, cracks, and eventually collapses. When a normative design is flawed—such as one built on slavery—it generates social stress (dissent, rebellion), structural cracks (coercive costs, economic stagnation), and is likewise prone to collapse. Our project is to develop the diagnostic tools to detect these structural flaws in our normative architectures *before* they lead to catastrophic failure.
 
 Our central thesis is that moral progress is a real, observable process of systemic debugging, not teleological advance. Applying the SBI framework to history identifies brittle normative predicates—those generating catastrophic costs—and catalogs them in a Negative Canon of falsified moral principles. This reveals moral objectivity as an emergent procedural fact. Moral truths are reverse-engineered from systemic failures, like mapping reefs from shipwrecks.
 
@@ -40,11 +40,11 @@ Consider the normative predicate `...is a binding promise.` When a community tre
 
 To avoid circularity, we arrange costs hierarchically, from basic biological facts to complex systemic effects.
 
-*   **Tier 1: Bio-Social Costs** - Direct material consequences of friction with human persistence conditions, measured by objective proxies like excess mortality/morbidity rates, chronic malnutrition, and demographic decline. Systems generating these costs fail fundamentally.
+*   Tier 1: Bio-Social Costs - Direct material consequences of friction with human persistence conditions, measured by objective proxies like excess mortality/morbidity rates, chronic malnutrition, and demographic decline. Systems generating these costs fail fundamentally.
 
-*   **Tier 2: Systemic Friction Costs** - Resources expended managing dissent from Tier 1 costs, measured by the Coercion Ratio (C(t))—resources spent on suppression versus production—and information suppression costs like censorship. Rising C(t) indicates high maintenance costs for flawed designs.
+*   Tier 2: Systemic Friction Costs - Resources expended managing dissent from Tier 1 costs, measured by the Coercion Ratio (C(t))—resources spent on suppression versus production—and information suppression costs like censorship. Rising C(t) indicates high maintenance costs for flawed designs.
 
-*   **Tier 3: Ideological Costs** - Informational expenses justifying Tier 1 and 2 costs, measured by Patch Velocity (P(t))—rate of ad-hoc ideological justifications (e.g., divine mandates for suffering). High P(t) signals accumulating ideological debt in failing systems.
+*   Tier 3: Ideological Costs - Informational expenses justifying Tier 1 and 2 costs, measured by Patch Velocity (P(t))—rate of ad-hoc ideological justifications (e.g., divine mandates for suffering). High P(t) signals accumulating ideological debt in failing systems.
 
 These tiers are not merely a typology but a causal cascade: unaddressed Tier 1 costs (e.g., famine) generate popular dissent, forcing the system to incur Tier 2 costs (e.g., suppression via a higher C(t)). To justify these visible failures, the system must then generate Tier 3 costs (e.g., ideological patches at a higher P(t)). A high reading at Tier 3 is therefore a lagging indicator of deep, unresolved problems at Tier 1.
 
@@ -111,7 +111,7 @@ So, what is the 'procedure' in Pragmatic Procedural Realism? It is a multi-stage
 1. **Hypothesis Generation:** Communities propose normative principles ('predicates') as potential solutions to social coordination problems.
 2. **Empirical Testing:** These principles are implemented in social systems ('interactors'), where they are subjected to the non-negotiable filter of pragmatic consequences over historical time.
 3. **Data Collection & Diagnosis:** We, as inquirers, analyze the historical track record of these systems, using the tiered diagnostic toolkit to measure their brittleness (Tier 1 costs, C(t), P(t)).
-4. **Mapping the Landscape:** Through comparative analysis, we identify principles that reliably generate high costs and enter them into the **Negative Canon** (mapping the 'floor'). We also identify principles that repeatedly emerge in low-brittleness systems and add them to the **Convergent Core**.
+4. **Mapping the Landscape:** Through comparative analysis, we identify principles that reliably generate high costs and enter them into the Negative Canon (mapping the 'floor'). We also identify principles that repeatedly emerge in low-brittleness systems and add them to the Convergent Core.
 5. **Revision and Refinement:** Armed with this evolving map, we are better equipped to revise our current normative systems, debugging high-cost principles and engineering more viable alternatives.
 
 This procedure is empirical, fallible, and ongoing. It is the collective, scientific-historical method for discovering the objective contours of the viable normative landscape.
@@ -124,27 +124,27 @@ Our objectivity rests on the Apex Network: the complete set of maximally coheren
 
 This framework maps normativity's "floor"—non-negotiable viability conditions—not its "ceiling" of flourishing or aesthetics. Societies must secure the floor before pursuing higher goals.
 
-- **Negative Canon (Floor)**: Most secure objective knowledge—what is demonstrably unworkable. Provides boundaries preventing relativism, mapped from historical failures like a "reef chart."
-- **Convergent Core**: Principles (e.g., reciprocity) independently discovered across cultures, suggesting stable, low-cost coordination solutions.
-- **Pluralist Frontier**: Domain of multiple viable solutions (e.g., different organizational models). Accommodates cultural diversity and disagreement as empirical questions about boundaries.
+- Negative Canon (Floor): Most secure objective knowledge—what is demonstrably unworkable. Provides boundaries preventing relativism, mapped from historical failures like a "reef chart."
+- Convergent Core: Principles (e.g., reciprocity) independently discovered across cultures, suggesting stable, low-cost coordination solutions.
+- Pluralist Frontier: Domain of multiple viable solutions (e.g., different organizational models). Accommodates cultural diversity and disagreement as empirical questions about boundaries.
 
 ### 4.4. Three-Level Normative Justification
 
 This multi-level account of normative justification is a direct application of the general three-level framework for truth developed in EPC (see Glenn, Forthcoming, Section 4.3). EPC's truth theory distinguishes three levels of moral claims, resolving relativism-objectivity tension. Normativity ascends through justificatory levels, from local coherence to objective viability.
 
-#### Level 3: Contextual Rightness (Ought of Coherence)
+### 4.4.1 Contextual Rightness (Ought of Coherence)
 Baseline level: normativity as internal network rules. Realm of cultural relativity.
 
 - Right/Wrong: Conforms to a specific network's predicates (e.g., the honor code of a 17th-century aristocratic dueling society, where the predicate `insults must be met with a challenge to a duel` was contextually right. Failing to issue a challenge was 'wrong' according to the internal logic of the system). Procedural correctness, not objective justification.
 - Ought: Internal command—"If in this network, follow its rules." Binding locally but lacks external authority. Explains how abhorrent actions were once "right," but creates coherence traps overcome by externalist checks. The 'Ought of Coherence' commanded adherence to the dueling code.
 
-#### Level 2: Justified Rightness (Ought of Viability)
+### 4.4.2 Justified Rightness (Ought of Viability)
 Highest epistemic status: external, empirical justification.
 
 - Right/Wrong: Prescribed by demonstrably low-SBI networks. Wrong if reliably generates catastrophic Tier 1 Bio-Social Costs (Negative Canon membership). "Slavery is wrong" justified as high-SBI failure. However, we can diagnose the dueling system at a higher level. Historically, such honor codes generated catastrophic Tier 1 Bio-Social Costs (the premature deaths of valuable community members) and high Tier 2 Costs (resources spent on managing feuds and vendettas). Therefore, the predicate is justifiedly wrong, and its entry into the Negative Canon is warranted by the evidence.
 - Ought: Instrumental command—"If we aim for resilient cooperation, adopt low-brittleness principles, avoid Negative Canon predicates." The 'Ought of Viability' advises against the dueling code.
 
-#### Level 1: Objective Rightness (Ought of Optimal Design)
+### 4.4.3 Objective Rightness (Ought of Optimal Design)
 Regulative ideal: formal standard for Level 2 comparisons.
 
 - Right/Wrong: Core component of Apex Network—maximally viable predicates. Finally, this predicate is objectively wrong because its high-cost nature places it in direct conflict with the principles of efficient, low-cost cooperation that form the modally necessary structure of the Apex Network.
@@ -183,23 +183,23 @@ Making viability the standard appears circular, smuggling normative commitment t
 
 ### 5.5. Additional Objections and Replies
 
-**Objection: Cultural Relativism** - Different cultures have viable but incompatible norms. Reply: Compatible with pluralism in periphery while maintaining floor constraints. Cultural diversity exists within viability boundaries.
+Objection: Cultural Relativism - Different cultures have viable but incompatible norms. Reply: Compatible with pluralism in periphery while maintaining floor constraints. Cultural diversity exists within viability boundaries.
 
-**Objection: Moral Progress Skepticism** - Progress claims are Western bias. Reply: Framework predicts pluralist periphery but universal floor. Progress diagnosed empirically via SBI reduction, not cultural superiority.
+Objection: Moral Progress Skepticism - Progress claims are Western bias. Reply: Framework predicts pluralist periphery but universal floor. Progress diagnosed empirically via SBI reduction, not cultural superiority.
 
-**Objection: Scientific Imperialism** - Reducing ethics to science (cf. Putnam 2002). Reply: Not scientism but unified pragmatic filter. Moral claims remain normative but justified externally like scientific ones.
+Objection: Scientific Imperialism - Reducing ethics to science (cf. Putnam 2002). Reply: Not scientism but unified pragmatic filter. Moral claims remain normative but justified externally like scientific ones.
 
-**Objection: Evolutionary Debunking** - Evolutionary pressures shaped moral intuitions for survival, not truth (cf. Street 2006). Reply: EPC resolves Street's dilemma by collapsing one of its horns. The dilemma assumes that truth and adaptiveness are independent aims, making their alignment a coincidence. Our framework denies this premise. For us, moral truth *is* a specific, demanding form of long-term systemic adaptiveness (i.e., viability). Evolution is not a distorting influence that the realist must explain away; it is the broader category of filtering processes within which the specific, cost-based discovery of moral truth takes place. Pragmatic viability is what moral truth supervenes on.
+Objection: Evolutionary Debunking - Evolutionary pressures shaped moral intuitions for survival, not truth (cf. Street 2006). Reply: EPC resolves Street's dilemma by collapsing one of its horns. The dilemma assumes that truth and adaptiveness are independent aims, making their alignment a coincidence. Our framework denies this premise. For us, moral truth *is* a specific, demanding form of long-term systemic adaptiveness (i.e., viability). Evolution is not a distorting influence that the realist must explain away; it is the broader category of filtering processes within which the specific, cost-based discovery of moral truth takes place. Pragmatic viability is what moral truth supervenes on.
 
-**Objection: The Naturalistic Fallacy.** The framework seems to define 'the good' as 'the viable,' improperly deriving a value from a fact. Reply: This misinterprets the project. We are not deriving 'ought' from 'is' in the classic sense. Rather, we are offering a naturalistic reconstruction of the function of our normative practice. The claim is that what our successful moral discourse has actually been tracking all along are these facts about systemic viability. 'Wrongness' is not being defined as high-brittleness; rather, high-brittleness is the underlying natural property that the term 'wrongness' has been imperfectly latching onto. This naturalizes the reference of our moral terms, explaining their functional authority without committing a fallacy.
+Objection: The Naturalistic Fallacy. The framework seems to define 'the good' as 'the viable,' improperly deriving a value from a fact. Reply: This misinterprets the project. We are not deriving 'ought' from 'is' in the classic sense. Rather, we are offering a naturalistic reconstruction of the function of our normative practice. The claim is that what our successful moral discourse has actually been tracking all along are these facts about systemic viability. 'Wrongness' is not being defined as high-brittleness; rather, high-brittleness is the underlying natural property that the term 'wrongness' has been imperfectly latching onto. This naturalizes the reference of our moral terms, explaining their functional authority without committing a fallacy.
 
-**Objection: How does this differ from Kitcher's 'Ethical Project'?** Reply: Our project shares much with Kitcher's (2011) view of ethics as a social technology for solving problems of altruism. However, EPC offers two crucial advancements. First, it provides a more general diagnostic toolkit (the SBI) that applies equally to scientific and ethical 'technologies,' grounding the project in a unified theory of justification. Second, EPC's concept of the modally necessary Apex Network provides a more robustly realist foundation. Where Kitcher's progress is defined by functional enhancement relative to a historical starting point, our framework grounds progress in convergence toward an objective, mind-independent structure of viability. This offers a stronger defense against charges of historicism or relativism.
+Objection: How does this differ from Kitcher's 'Ethical Project'? Reply: Our project shares much with Kitcher's (2011) view of ethics as a social technology for solving problems of altruism. However, EPC offers two crucial advancements. First, it provides a more general diagnostic toolkit (the SBI) that applies equally to scientific and ethical 'technologies,' grounding the project in a unified theory of justification. Second, EPC's concept of the modally necessary Apex Network provides a more robustly realist foundation. Where Kitcher's progress is defined by functional enhancement relative to a historical starting point, our framework grounds progress in convergence toward an objective, mind-independent structure of viability. This offers a stronger defense against charges of historicism or relativism.
 
 ### 5.6. Principled Limitations
 
-**The Viable Evil Possibility:** If a deeply repugnant system achieved genuinely low brittleness (minimal coercive costs, stable demographics, innovation, adaptation), the framework would acknowledge it as viable, though not necessarily just by other standards.
+The Viable Evil Possibility: If a deeply repugnant system achieved genuinely low brittleness (minimal coercive costs, stable demographics, innovation, adaptation), the framework would acknowledge it as viable, though not necessarily just by other standards.
 
-**Example:** A hypothetical perfectly internalized caste system where lower castes genuinely accept their position (minimal coercion), with no demographic stress, stable innovation, and low enforcement costs—yet intuitively morally repugnant.
+Example: A hypothetical perfectly internalized caste system where lower castes genuinely accept their position (minimal coercion), with no demographic stress, stable innovation, and low enforcement costs—yet intuitively morally repugnant.
 
 **Why We Accept This:** Intellectual honesty. The framework maps pragmatic viability, not all moral dimensions. If such a system existed (we doubt it does—internalization has costs), it would fall in the Pluralist Frontier, not Negative Canon.
 
@@ -230,7 +230,7 @@ Pragmatic Procedural Realism reframes moral philosophy from a search for ultimat
 *   Standing Predicate: Reusable predicate for cost-reduction (applied here to normative claims)
 *   Systemic Debt: The accumulated, unaddressed costs of a brittle normative system, which are often paid suddenly during a crisis or revolution
 
-## **References**
+## References
 
 Acemoglu, Daron, and James A. Robinson. 2012. *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*. New York: Crown Business.
 
