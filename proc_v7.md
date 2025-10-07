@@ -646,6 +646,8 @@ Korsgaard, Christine M. 1996. The Sources of Normativity. Cambridge: Cambridge U
 
 Mackie, J. L. 1977. *Ethics: Inventing Right and Wrong*. London: Penguin Books.
 
+Ostrom, Elinor. 1990. *Governing the Commons: The Evolution of Institutions for Collective Action*. Cambridge: Cambridge University Press.
+
 Patterson, Orlando. 1982. *Slavery and Social Death: A Comparative Study*. Cambridge, MA: Harvard University Press.
 
 Popper, Karl. (1934) 1959. *The Logic of Scientific Discovery*. London: Hutchinson.
