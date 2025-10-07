@@ -68,11 +68,11 @@ Consider the normative predicate `...is a binding promise.` When a community tre
 
 To avoid circularity, we arrange costs hierarchically, from basic biological facts to complex systemic effects. The SBI is a composite index; our analysis focuses on three core tiers:
 
-*   **Tier 1: Bio-Social Costs.** Direct material consequences of friction with human persistence conditions, measured by objective proxies like excess mortality/morbidity rates, chronic malnutrition, and demographic decline. Systems generating these costs fail fundamentally.
+Tier 1: Bio-Social Costs. Direct material consequences of friction with human persistence conditions, measured by objective proxies like excess mortality/morbidity rates, chronic malnutrition, and demographic decline. Systems generating these costs fail fundamentally.
 
-*   **Tier 2: Systemic Friction Costs.** Resources expended managing dissent from Tier 1 costs, measured by the Coercion Ratio (C(t)), which tracks resources spent on suppression versus production. Rising C(t) indicates high maintenance costs for flawed designs.
+Tier 2: Systemic Friction Costs. Resources expended managing dissent from Tier 1 costs, measured by the Coercion Ratio (C(t)), which tracks resources spent on suppression versus production. Rising C(t) indicates high maintenance costs for flawed designs.
 
-*   **Tier 3: Ideological Costs.** Informational expenses justifying Tier 1 and 2 costs, measured by Patch Velocity (P(t)), the rate of ad-hoc ideological justifications (such as divine mandates for suffering). High P(t) signals accumulating ideological debt in failing systems.
+Tier 3: Ideological Costs. Informational expenses justifying Tier 1 and 2 costs, measured by Patch Velocity (P(t)), the rate of ad-hoc ideological justifications (such as divine mandates for suffering). High P(t) signals accumulating ideological debt in failing systems.
 
 These tiers form a causal cascade. Unaddressed Tier 1 costs (famine) generate dissent, forcing Tier 2 costs (higher C(t) through suppression). To justify these failures, the system generates Tier 3 costs (accelerating P(t)). High Tier 3 readings are lagging indicators of deep, unresolved Tier 1 problems.
 
@@ -98,11 +98,11 @@ Interconnectedness Effects. Isolated systems can persist in high-brittleness sta
 
 Equilibrium Brittleness versus Collapse Timing. A critical distinction. We predict brittleness-collapse correlation, not deterministic timing. High-brittleness systems: (1) always incur higher maintenance costs (by definition-that's what brittleness measures), (2) show characteristic warning signs (rising C(t), accelerating P(t), accumulating systemic debt), (3) are more vulnerable to shocks (external pressures, internal crises, succession problems), and (4) eventually collapse or fundamentally transform. Timing varies with scale, context, and shock magnitude, but the pattern holds.
 
-**Probabilistic Predictions**: Our predictions are conditional and probabilistic: "System X with brittleness profile Y has Z% probability of major crisis within W years, conditional on shocks of magnitude M." These are calibrated using historical base rates for comparable systems, with confidence intervals widening for longer predictions. We're not offering deterministic prophecy but epistemic risk assessment grounded in historical patterns.
+Probabilistic Predictions: Our predictions are conditional and probabilistic: "System X with brittleness profile Y has Z% probability of major crisis within W years, conditional on shocks of magnitude M." These are calibrated using historical base rates for comparable systems, with confidence intervals widening for longer predictions. We're not offering deterministic prophecy but epistemic risk assessment grounded in historical patterns.
 
-**The "Successful Coercion" Illusion**: Long persistence of high-coercion systems doesn't falsify our model if: (1) C(t) was rising over time (indicating increasing fragility), (2) the system underwent periodic collapses and reconstitutions (showing brittleness), (3) decline indicators preceded ultimate collapse, or (4) comparison to peers shows higher costs and greater vulnerability. What would falsify our claim: a system with sustainably low and stable C(t) and P(t) that nonetheless collapsed, while peers with high C(t) and P(t) proved more durable. The historical record provides no clear examples of this pattern.
+The "Successful Coercion" Illusion: Long persistence of high-coercion systems doesn't falsify our model if: (1) C(t) was rising over time (indicating increasing fragility), (2) the system underwent periodic collapses and reconstitutions (showing brittleness), (3) decline indicators preceded ultimate collapse, or (4) comparison to peers shows higher costs and greater vulnerability. What would falsify our claim: a system with sustainably low and stable C(t) and P(t) that nonetheless collapsed, while peers with high C(t) and P(t) proved more durable. The historical record provides no clear examples of this pattern.
 
-**Prospective Application**: For contemporary systems, we diagnose rising brittleness before collapse by identifying rising C(t) trends, tracking P(t) acceleration, monitoring bio-social cost indicators, and comparing to historical patterns. This provides actionable epistemic risk assessment. We cannot predict exact timing of collapse (too many variables), but we can assess relative fragility and identify systems requiring urgent debugging. This is analogous to earthquake science: we cannot predict when specific earthquakes will occur, but we can map fault lines and assess seismic risk.
+Prospective Application: For contemporary systems, we diagnose rising brittleness before collapse by identifying rising C(t) trends, tracking P(t) acceleration, monitoring bio-social cost indicators, and comparing to historical patterns. This provides actionable epistemic risk assessment. We cannot predict exact timing of collapse (too many variables), but we can assess relative fragility and identify systems requiring urgent debugging. This is analogous to earthquake science: we cannot predict when specific earthquakes will occur, but we can map fault lines and assess seismic risk.
 
 ### 2.4. Operationalizing Brittleness: A Worked Example
 
@@ -112,18 +112,18 @@ To demonstrate empirical testability, we provide a detailed worked example showi
 
 The slave system of the American South provides an ideal test case: abundant documentation, clear normative architecture centered on "slavery is acceptable," and known historical outcome (catastrophic collapse 1861-1865). We can retrospectively calculate brittleness metrics and assess whether they predicted the system's fragility.
 
-**A. Measuring C(t): The Coercion Ratio**
+A. Measuring C(t): The Coercion Ratio
 
-*Operational Definition*: C(t) = (Total resources dedicated to internal coercion and suppression) / (Total economic output)
+Operational Definition: C(t) = (Total resources dedicated to internal coercion and suppression) / (Total economic output)
 
-*Data Sources*:
+Data Sources:
 - State and local government budgets (militia, slave patrols, judicial systems)
 - Private expenditures on surveillance and enforcement (overseers, slave catchers, weaponry)
 - Opportunity costs of labor diverted to coercion (white men in patrol service, guard duty)
 - Insurance and compensation systems for captured fugitives
 - Infrastructure costs (jails, patrol stations, communication networks for suppression)
 
-*Sample Calculation for Virginia, 1850*:
+Sample Calculation for Virginia, 1850:
 
 Total economic output (1850): Approximately $220 million (agricultural and industrial production)
 
@@ -138,12 +138,12 @@ Coercion costs:
 Total coercion costs: ~$5.5 million/year
 C(t) for Virginia (1850) ≈ 5.5/220 = **2.5%**
 
-*Comparative Baseline*:
+Comparative Baseline:
 - Northern free states (1850): C(t) ≈ 0.8-1.2% (standard law enforcement and judicial costs)
 - Britain (1850): C(t) ≈ 1.0% (peacetime metropolitan police and courts)
 - Virginia's coercion ratio is 2-3× higher than peer societies, indicating a high-brittleness configuration requiring extraordinary maintenance costs.
 
-*Trend Analysis (1820-1860)*:
+Trend Analysis (1820-1860):
 Historical budget data shows C(t) rising over time:
 - 1820: C(t) ≈ 1.8%
 - 1840: C(t) ≈ 2.2%
@@ -151,18 +151,18 @@ Historical budget data shows C(t) rising over time:
 
 Rising C(t) indicates increasing brittleness as the system struggles to maintain stability despite growing internal resistance.
 
-**B. Measuring P(t): Patch Velocity**
+B. Measuring P(t): Patch Velocity
 
-*Operational Definition*: P(t) = Rate of new ideological justifications produced per decade, measured by publication counts, legislative preambles, and doctrinal innovations
+Operational Definition: P(t) = Rate of new ideological justifications produced per decade, measured by publication counts, legislative preambles, and doctrinal innovations
 
-*Data Sources*:
+Data Sources:
 - Pro-slavery treatises and pamphlets (bibliographic records)
 - Theological defenses published by Southern clergy
 - Scientific racism texts and articles
 - Legislative declarations and constitutional provisions
 - Shift in dominant justificatory frameworks
 
-*Quantitative Analysis*:
+Quantitative Analysis:
 
 Publication counts (pro-slavery justifications per decade):
 - 1790-1800: ~12 major treatises ("necessary evil" framework)
@@ -178,7 +178,7 @@ P(t) acceleration:
 - 1820-1850: Sharp acceleration (exponential growth phase)
 - 1850-1860: Peak velocity (system in crisis, generating maximum ideological output)
 
-*Qualitative Analysis*:
+Qualitative Analysis:
 
 Track the rapidity of doctrinal shifts:
 - Early period: Slavery as "necessary evil," temporary institution
@@ -189,17 +189,17 @@ Track the rapidity of doctrinal shifts:
 
 Each shift represents accumulated ideological debt. The system cannot maintain legitimacy with existing justifications and must generate new ones at accelerating rates. High P(t) is a lagging indicator of unresolved Tier 1 and Tier 2 costs.
 
-**C. Measuring Tier 1 Bio-Social Costs**
+C. Measuring Tier 1 Bio-Social Costs
 
-*Operational Definition*: Excess mortality, morbidity, and demographic stress beyond baseline human needs
+Operational Definition: Excess mortality, morbidity, and demographic stress beyond baseline human needs
 
-*Data Sources*:
+Data Sources:
 - Mortality records (parish registers, plantation records, census data)
 - Bioarchaeological evidence (skeletal remains showing nutritional stress, trauma)
 - Demographic analysis (birth rates, death rates, natural increase)
 - Contemporary medical and observer accounts
 
-*Quantitative Indicators*:
+Quantitative Indicators:
 
 Mortality differentials (deaths per 1,000 per year):
 - Enslaved population: ~30-35 per 1,000
@@ -224,28 +224,28 @@ Demographic sustainability:
 - Unlike Caribbean slave systems (which required continuous importation due to negative natural increase), the U.S. South achieved positive natural increase only through forcing reproduction
 - This masks underlying bio-social costs-the system "worked" only by violating reproductive autonomy
 
-**D. Triangulated Diagnosis**
+D. Triangulated Diagnosis
 
 The three baselines converge on a high-brittleness diagnosis:
 
-*1. Comparative-Historical*:
+1. Comparative-Historical:
 - Antebellum South vs. Northern free states: Higher C(t) (2.5-3% vs. 0.8-1.2%), vastly higher bio-social costs
 - Antebellum South vs. Britain: Similar differentials
 - Antebellum South vs. Caribbean slavery: Lower bio-social costs (positive natural increase) but still catastrophically high; higher P(t) (Caribbean systems didn't generate the same ideological apparatus)
 
-*2. Diachronic*:
+2. Diachronic:
 - 1820 vs. 1860 trajectory: All metrics worsening (rising C(t), accelerating P(t), sustained high bio-social costs)
 - System becoming more brittle over time despite apparent economic prosperity
 - The "Cotton Kingdom" prosperity was achieved through intensifying exploitation, raising maintenance costs
 
-*3. Biological Thresholds*:
+3. Biological Thresholds:
 - Excess mortality and malnutrition far exceed minimum viability thresholds
 - Chronic violence and trauma impose severe bio-social costs
 - System survives only through massive coercive expenditure
 
-**Diagnosis**: The slave system exhibited pathologically high brittleness across all three tiers. The system was a fitness trap: locally stable (economically profitable for stakeholders) but globally inefficient, maintained only through escalating coercive expenditure and ideological justification.
+Diagnosis: The slave system exhibited pathologically high brittleness across all three tiers. The system was a fitness trap: locally stable (economically profitable for stakeholders) but globally inefficient, maintained only through escalating coercive expenditure and ideological justification.
 
-**E. Historical Validation**
+E. Historical Validation
 
 The brittleness diagnosis predicts fragility under stress. Historical outcome:
 
@@ -258,21 +258,21 @@ The brittleness diagnosis predicts fragility under stress. Historical outcome:
 
 The framework successfully diagnoses brittleness retrospectively. High C(t), accelerating P(t), and catastrophic bio-social costs indicated a system under severe stress maintained through unsustainable coercion.
 
-**F. Methodological Notes**
+F. Methodological Notes
 
-*Inter-Rater Reliability*: Ideally, multiple historians would independently:
+Inter-Rater Reliability: Ideally, multiple historians would independently:
 - Code the same primary sources
 - Calculate C(t) using the same data categories
 - Assess P(t) using the same publication databases
 - Report confidence intervals rather than point estimates
 - Flag contested measurements for discussion
 
-*Uncertainty Quantification*: Our figures are estimates with significant uncertainty:
+Uncertainty Quantification: Our figures are estimates with significant uncertainty:
 - C(t) = 2.5% ± 0.5% (uncertainty from incomplete budget records, valuation disagreements)
 - P(t) acceleration is qualitatively robust but exact counts depend on inclusion criteria
 - Bio-social costs are most robust (demographic data is well-documented)
 
-*Replication*: Other scholars using this framework should be able to:
+Replication: Other scholars using this framework should be able to:
 - Access the same primary sources (government records, plantation documents, publications)
 - Apply the same operationalizations
 - Reach similar conclusions (within uncertainty bounds)
@@ -304,11 +304,11 @@ Transition to egalitarianism involves short-term friction costs from social conf
 
 The slavery and patriarchy cases provide clear examples where high brittleness correlates with eventual collapse or transformation. However, a robust framework must address apparent counterexamples. History provides cases that might challenge our brittleness model: long-lived empires with high coercive costs, and failed egalitarian experiments. How does the framework handle these without ad hoc modification?
 
-**Case 1: Imperial China and Long-Lived Hierarchical Systems**
+Case 1: Imperial China and Long-Lived Hierarchical Systems
 
-*The Challenge*: Imperial China persisted for roughly two millennia (221 BCE - 1911 CE) with hierarchical, often highly coercive governance. Significant resources were dedicated to bureaucratic control, military suppression, and maintaining rigid social hierarchies. If high C(t) indicates brittleness, why did these systems prove so durable?
+The Challenge: Imperial China persisted for roughly two millennia (221 BCE - 1911 CE) with hierarchical, often highly coercive governance. Significant resources were dedicated to bureaucratic control, military suppression, and maintaining rigid social hierarchies. If high C(t) indicates brittleness, why did these systems prove so durable?
 
-*Framework Response*: Several clarifications resolve this apparent counterexample.
+Framework Response: Several clarifications resolve this apparent counterexample.
 
 First, distinguish longevity of the *replicator* (the informational template) from stability of specific *interactors* (particular dynasties). What persisted was a cultural and institutional framework-Confucian bureaucratic governance-that was repeatedly reimplemented after catastrophic collapses. The "Chinese Empire" underwent multiple complete dynastic collapses (Han, Tang, Song, Yuan, Ming, Qing), foreign conquests, massive peasant rebellions, and mortality events killing millions. What endured was not a continuous stable system but a recurring pattern of rise, brittleness-driven decline, collapse, and reconstitution. The longevity of the template doesn't imply low brittleness of implementations.
 
@@ -318,13 +318,13 @@ Third, identify which elements persisted and which proved brittle. The durable c
 
 Fourth, calibrate for system scale and isolation. Large, geographically isolated systems have longer collapse timescales (centuries rather than decades) due to greater buffering capacity and reduced competitive pressure. But brittleness still predicts fragility and eventual transformation. The framework's timescale predictions must account for system characteristics.
 
-*Conclusion*: Imperial China confirms rather than contradicts the framework once we analyze at the appropriate granularity. The persistent template encoded low-brittleness coordination solutions. Specific implementations cycled through phases of lower and higher brittleness, with collapse following predictably from rising C(t).
+Conclusion: Imperial China confirms rather than contradicts the framework once we analyze at the appropriate granularity. The persistent template encoded low-brittleness coordination solutions. Specific implementations cycled through phases of lower and higher brittleness, with collapse following predictably from rising C(t).
 
-**Case 2: Failed Egalitarian Experiments**
+Case 2: Failed Egalitarian Experiments
 
-*The Challenge*: Some egalitarian, low-coercion societies collapsed rapidly despite apparently exhibiting low internal C(t). Examples include the Paris Commune (months), Spanish anarchist collectives during the Civil War (years), and various intentional communities (decades at most). If low coercion correlates with viability, why did these systems fail?
+The Challenge: Some egalitarian, low-coercion societies collapsed rapidly despite apparently exhibiting low internal C(t). Examples include the Paris Commune (months), Spanish anarchist collectives during the Civil War (years), and various intentional communities (decades at most). If low coercion correlates with viability, why did these systems fail?
 
-*Framework Response*: This conflates internal brittleness with external vulnerability.
+Framework Response: This conflates internal brittleness with external vulnerability.
 
 First, distinguish internal from external coercion costs. These systems often had genuinely low *internal* C(t)-participants cooperated voluntarily with minimal internal suppression. However, they faced overwhelming *external* coercive pressure: military attack, economic blockade, and deliberate destruction by threatened powers. Our framework measures internal systemic costs, not military vulnerability to external attack. A low-brittleness society can still be conquered by a high-brittleness military empire. This doesn't falsify the viability claim; it shows that viability is not identical to invincibility.
 
@@ -334,13 +334,13 @@ Third, recognize scale and context dependency. Small-scale communities face coor
 
 Fourth, the framework is not axiomatically committed to egalitarianism. If specific egalitarian configurations consistently fail (for example, "abolish all formal coordination mechanisms without replacement"), they enter the Negative Canon alongside authoritarianism. The brittleness framework empirically tests which configurations work, including which forms of egalitarianism prove viable. Some egalitarian principles (equal basic rights, democratic accountability) show low brittleness; others (absolute equality of outcome regardless of contribution) may prove brittle. This is an empirical question.
 
-*Conclusion*: Failed egalitarian experiments don't contradict the brittleness framework. They primarily demonstrate external vulnerability and transition difficulties, not high internal brittleness in equilibrium. Where internal brittleness exists, the framework should identify it.
+Conclusion: Failed egalitarian experiments don't contradict the brittleness framework. They primarily demonstrate external vulnerability and transition difficulties, not high internal brittleness in equilibrium. Where internal brittleness exists, the framework should identify it.
 
-**Case 3: The "Viable Evil" Scenario Revisited**
+Case 3: The "Viable Evil" Scenario Revisited
 
-*The Challenge*: Could a deeply morally repugnant system achieve genuinely low brittleness-minimal coercive costs, stable demographics, sustained innovation? If so, our framework would have to accept it as viable.
+The Challenge: Could a deeply morally repugnant system achieve genuinely low brittleness-minimal coercive costs, stable demographics, sustained innovation? If so, our framework would have to accept it as viable.
 
-*Framework Response*: We maintain intellectual honesty by accepting this implication while making an empirical bet.
+Framework Response: We maintain intellectual honesty by accepting this implication while making an empirical bet.
 
 First, intellectual honesty requires acknowledging that the framework maps pragmatic viability, not all dimensions of moral value. If a repugnant system achieved genuinely low C(t), low P(t), and minimal bio-social costs while sustaining innovation and adaptation, it would qualify as viable within our framework. Such a system would belong to the Pluralist Frontier, not the Negative Canon. The framework doesn't claim to capture every moral consideration-only the structural requirements of viability.
 
@@ -356,17 +356,17 @@ True, cost-free internalization of oppression would require eliminating the capa
 
 Third, measurement challenges exist but don't undermine the framework. For historical oppressive systems, data limitations may obscure costs. But absence of evidence isn't evidence of absence. The burden is on critics to demonstrate a genuinely low-C(t), low-P(t), low-bio-social-cost system that is morally repugnant. Historical record provides no clear examples.
 
-*Conclusion*: We accept the logical possibility while maintaining strong empirical skepticism. The framework's limitation is also its strength-it makes falsifiable empirical predictions rather than building in normative conclusions a priori.
+Conclusion: We accept the logical possibility while maintaining strong empirical skepticism. The framework's limitation is also its strength-it makes falsifiable empirical predictions rather than building in normative conclusions a priori.
 
-**General Lessons from Hard Cases**
+General Lessons from Hard Cases
 
 These challenging cases refine rather than refute the brittleness framework:
 
-1. **Distinguish replicators from interactors**: Template persistence doesn't imply implementation stability
-2. **Calibrate timescales by system characteristics**: Larger, isolated systems exhibit longer cycles
-3. **Separate internal from external pressures**: Viability is not invincibility
-4. **Distinguish transition from equilibrium**: Startup costs don't measure maintenance costs
-5. **Maintain empirical openness**: Framework tests which configurations work, not which we prefer
+1. Distinguish replicators from interactors: Template persistence doesn't imply implementation stability
+2. Calibrate timescales by system characteristics: Larger, isolated systems exhibit longer cycles
+3. Separate internal from external pressures: Viability is not invincibility
+4. Distinguish transition from equilibrium: Startup costs don't measure maintenance costs
+5. Maintain empirical openness: Framework tests which configurations work, not which we prefer
 
 The core claim survives: high systemic costs (C(t), P(t), bio-social) correlate with long-term fragility. Apparent counterexamples, upon analysis, typically confirm the framework at finer granularity or reveal crucial distinctions (internal vs. external costs, replicator vs. interactor persistence). Where genuine anomalies exist, they sharpen our understanding of boundary conditions and measurement challenges.
 
@@ -404,17 +404,17 @@ One might object that our procedure appears circular: we claim moral truths are 
 
 This objection misunderstands the relationship between the filtering process and the constraints that do the filtering. We must distinguish: (1) the filtering process itself (historical testing of normative principles), and (2) the constraints that do the filtering (biological, physical, cognitive, and logical necessities). The constraints are not products of the procedure; they are preconditions for any social organization whatsoever.
 
-**Biological Constraints.** These are empirical facts about human organisms, discoverable through physiology, nutrition science, and epidemiology without any prior normative commitments. Humans require minimum caloric intake (approximately 1,500-2,000 calories per day for adults to maintain basic functions). Chronic malnutrition produces immune dysfunction, elevated mortality, and demographic decline. Humans reproduce sexually with roughly nine-month gestation and extended childhood dependency requiring caregiver investment. Social isolation causes measurable psychological and physical harm. These facts obtain whether or not any particular society acknowledges them. A normative system that systematically violates these requirements incurs costs-mortality, morbidity, demographic collapse-that are objective, measurable, and independent of anyone's values.
+Biological Constraints. These are empirical facts about human organisms, discoverable through physiology, nutrition science, and epidemiology without any prior normative commitments. Humans require minimum caloric intake (approximately 1,500-2,000 calories per day for adults to maintain basic functions). Chronic malnutrition produces immune dysfunction, elevated mortality, and demographic decline. Humans reproduce sexually with roughly nine-month gestation and extended childhood dependency requiring caregiver investment. Social isolation causes measurable psychological and physical harm. A normative system that systematically violates these requirements incurs costs-mortality, morbidity, demographic collapse-that are objective, measurable, and independent of anyone's values.
 
-**Cognitive Constraints.** From psychology, cognitive science, and behavioral economics, we discover that humans exhibit bounded rationality (Simon 1972): we cannot compute optimal solutions to complex problems in real-time. Working memory is limited (roughly seven items). We are vulnerable to coordination failures without institutional support. We possess specific social learning capacities that enable cultural transmission but also specific limitations that constrain what information can be effectively transmitted. These constraints shape what normative architectures are even implementable. A system requiring perfect rationality or unlimited information processing simply cannot function with human agents, regardless of its moral appeal. These are empirical facts about human cognition, not value judgments.
+Cognitive Constraints. From psychology, cognitive science, and behavioral economics, we discover that humans exhibit bounded rationality (Simon 1972): we cannot compute optimal solutions to complex problems in real-time. Working memory is limited (roughly seven items). We are vulnerable to coordination failures without institutional support. We possess specific social learning capacities that enable cultural transmission but also specific limitations that constrain what information can be effectively transmitted. These constraints shape what normative architectures are even implementable. A system requiring perfect rationality or unlimited information processing simply cannot function with human agents, regardless of its moral appeal. These are empirical facts about human cognition, not value judgments.
 
-**Coordination Constraints.** From game theory, mechanism design, and institutional economics, we learn that cooperation under conditions of potential defection requires enforcement mechanisms (Axelrod 1984). Common-pool resource management requires boundary rules and monitoring (Ostrom 1990). Large-scale coordination requires division of labor and information aggregation mechanisms. These are mathematical and logical facts about strategic interaction under specified conditions. They apply to any system where individuals have private information and potentially divergent incentives. They are derivable from formal models, not read off normative intuitions.
+Coordination Constraints. From game theory, mechanism design, and institutional economics, we learn that cooperation under conditions of potential defection requires enforcement mechanisms (Axelrod 1984). Common-pool resource management requires boundary rules and monitoring (Ostrom 1990). Large-scale coordination requires division of labor and information aggregation mechanisms. These are mathematical and logical facts about strategic interaction under specified conditions. They apply to any system where individuals have private information and potentially divergent incentives. They are derivable from formal models, not read off normative intuitions.
 
-**Physical Constraints.** From physics, ecology, and thermodynamics, we know that energy must be extracted from the environment to sustain organization. Entropy requires continuous work to maintain structured systems. Finite resources constrain population size and consumption patterns. These physical facts impose hard limits on what social organizations can achieve.
+Physical Constraints. From physics, ecology, and thermodynamics, we know that energy must be extracted from the environment to sustain organization. Entropy requires continuous work to maintain structured systems. Finite resources constrain population size and consumption patterns. These physical facts impose hard limits on what social organizations can achieve.
 
-**The Critical Move: Constraints Are Not Values.** None of these constraints represent normative commitments we endorse-they are descriptive facts about what human bodies need to function, how human minds process information, what strategic interaction requires for cooperation, and what physical reality demands for maintaining organization. They are discoverable through standard empirical inquiry (physiology, psychology, economics, physics) without assuming any particular normative framework. A society committed to asceticism still faces biological caloric requirements. A society valuing hierarchy still faces coordination constraints. A society denying thermodynamics still must extract energy from its environment.
+The Critical Move: Constraints Are Not Values. None of these constraints represent normative commitments we endorse-they are descriptive facts about what human bodies need to function, how human minds process information, what strategic interaction requires for cooperation, and what physical reality demands for maintaining organization. They are discoverable through standard empirical inquiry (physiology, psychology, economics, physics) without assuming any particular normative framework. A society committed to asceticism still faces biological caloric requirements. A society valuing hierarchy still faces coordination constraints. A society denying thermodynamics still must extract energy from its environment.
 
-**How This Dissolves Circularity.** The historical filtering procedure discovers which normative principles successfully navigate these independently-specified constraints. This is no more circular than:
+How This Dissolves Circularity. The historical filtering procedure discovers which normative principles successfully navigate these independently-specified constraints. This is no more circular than:
 
 - Engineering, which tests which bridge designs withstand gravity (where gravity is an independent constraint discovered through physics)
 - Medicine, which tests which treatments reduce mortality (where biological health requirements are independent constraints discovered through physiology)
@@ -422,11 +422,11 @@ This objection misunderstands the relationship between the filtering process and
 
 In each case, there's a discovery procedure (testing) and independent constraints (physical laws, biological needs, strategic requirements) that determine success or failure. The procedure is legitimate precisely because it tracks these mind-independent constraints.
 
-**Anticipated Response**: "But you're still choosing to value persistence/survival by focusing on these constraints!"
+Anticipated Response: "But you're still choosing to value persistence/survival by focusing on these constraints!"
 
 We address this concern in §5.4's Constitutive Defense. Here the point is different: *given* that we're studying persistent systems (the only ones available in the historical record for analysis), the constraints that filter them are objective, empirical facts, not normative commitments. The choice of domain (persistent social systems) is methodological; the constraints operating within that domain are empirical. We don't assume persistence is good; we observe that persistent systems are the ones we can study, and we discover empirically what constraints they must satisfy.
 
-**The Analogy to Natural Selection.** Consider why natural selection isn't circular even though fitness is defined by reproductive success and which traits are fit is determined by which organisms reproduce. The answer: environmental constraints (resource availability, predation, climate, physical laws) that determine fitness are independent of the selection process. Similarly, viability in normative systems is defined by persistence, and which principles are viable is determined by which systems persist. But the pragmatic constraints (biology, cognition, coordination, physics) that determine viability are independent of the historical filtering process. The process discovers which architectures successfully navigate the constraints; it doesn't create the constraints themselves.
+The Analogy to Natural Selection. Consider why natural selection isn't circular even though fitness is defined by reproductive success and which traits are fit is determined by which organisms reproduce. The answer: environmental constraints (resource availability, predation, climate, physical laws) that determine fitness are independent of the selection process. Similarly, viability in normative systems is defined by persistence, and which principles are viable is determined by which systems persist. But the pragmatic constraints (biology, cognition, coordination, physics) that determine viability are independent of the historical filtering process. The process discovers which architectures successfully navigate the constraints; it doesn't create the constraints themselves.
 
 This independence is what grounds our realism. The pragmatic constraints that filter normative systems are objective, empirically discoverable features of the human condition. They are not products of our values or the historical process but preconditions that any viable social organization must accommodate. The historical filtering process reveals which normative architectures successfully navigate these constraints-it doesn't invent the constraints themselves. Moral inquiry discovers constraint-determined structures, just as science discovers physical laws and mathematics discovers logical necessities.
 
@@ -474,19 +474,19 @@ A core moral principle is not a self-evident axiom but a piece of highly optimiz
 
 Philip Kitcher's *The Ethical Project* (2011) represents the closest existing approach to Pragmatic Procedural Realism. Both views treat ethics as social technology that evolved to solve coordination problems, employ historical methods, embrace naturalism, and reject foundationalist approaches. Given these substantial similarities, what distinguishes PPR from Kitcher's pragmatic naturalism?
 
-**Core Similarities**: Kitcher and PPR share crucial commitments. Both reject the search for self-evident moral axioms, instead grounding ethics in its functional role solving practical problems of cooperation. Both employ historical analysis rather than a priori reasoning. Both are thoroughly naturalistic, explaining normativity within a scientific worldview. Both affirm that moral progress is real and explicable through functional improvement.
+Core Similarities: Kitcher and PPR share crucial commitments. Both reject the search for self-evident moral axioms, instead grounding ethics in its functional role solving practical problems of cooperation. Both employ historical analysis rather than a priori reasoning. Both are thoroughly naturalistic, explaining normativity within a scientific worldview. Both affirm that moral progress is real and explicable through functional improvement.
 
-**Critical Difference 1: Metaethical Status**. The most significant divergence concerns the robustness of moral objectivity. Kitcher endorses "practical/emotional realism"-a sophisticated quasi-realism where moral statements express commitments rather than beliefs about mind-independent facts. Progress is functional enhancement relative to a historical baseline. PPR, in contrast, endorses robust naturalistic realism: moral statements refer to objective facts about normative architectures' systemic brittleness. "Slavery is wrong" is true because slavery generates catastrophic costs incompatible with the constraint-determined structure of the Apex Network. For Kitcher, moral inquiry discovers what works for us given our starting point; for PPR, it discovers constraint-determined optimal structures that exist independently. PPR thus offers stronger objectivity claims and is less vulnerable to relativism.
+Critical Difference 1: Metaethical Status. The most significant divergence concerns the robustness of moral objectivity. Kitcher endorses "practical/emotional realism"-a sophisticated quasi-realism where moral statements express commitments rather than beliefs about mind-independent facts. Progress is functional enhancement relative to a historical baseline. PPR, in contrast, endorses robust naturalistic realism: moral statements refer to objective facts about normative architectures' systemic brittleness. "Slavery is wrong" is true because slavery generates catastrophic costs incompatible with the constraint-determined structure of the Apex Network. For Kitcher, moral inquiry discovers what works for us given our starting point; for PPR, it discovers constraint-determined optimal structures that exist independently. PPR thus offers stronger objectivity claims and is less vulnerable to relativism.
 
-**Critical Difference 2: Diagnostic Framework**. Kitcher evaluates normative changes by whether they reduce altruism failures relative to previous states, but provides no unified quantitative framework. PPR deploys the Systemic Brittleness Index with operationalizable metrics-C(t), P(t), bio-social costs-creating a unified diagnostic toolkit applicable across domains. Kitcher's functional assessment risks historicism (what counts as progress depends on starting point), while PPR's absolute brittleness metrics allow cross-cultural and cross-temporal comparison without privileging any baseline. This makes PPR more readily operationalized and empirically testable.
+Critical Difference 2: Diagnostic Framework. Kitcher evaluates normative changes by whether they reduce altruism failures relative to previous states, but provides no unified quantitative framework. PPR deploys the Systemic Brittleness Index with operationalizable metrics-C(t), P(t), bio-social costs-creating a unified diagnostic toolkit applicable across domains. Kitcher's functional assessment risks historicism (what counts as progress depends on starting point), while PPR's absolute brittleness metrics allow cross-cultural and cross-temporal comparison without privileging any baseline. This makes PPR more readily operationalized and empirically testable.
 
-**Critical Difference 3: Scope**. Kitcher focuses primarily on altruism problems-psychological failures of cooperation between individuals. PPR addresses all coordination problems, including institutional design, economic systems, and political structures. Where Kitcher emphasizes moral psychology and interpersonal morality, PPR treats moral psychology as one component of broader systemic analysis. This gives PPR wider applicability to questions of structural justice, institutional evaluation, and policy design.
+Critical Difference 3: Scope. Kitcher focuses primarily on altruism problems-psychological failures of cooperation between individuals. PPR addresses all coordination problems, including institutional design, economic systems, and political structures. Where Kitcher emphasizes moral psychology and interpersonal morality, PPR treats moral psychology as one component of broader systemic analysis. This gives PPR wider applicability to questions of structural justice, institutional evaluation, and policy design.
 
-**Critical Difference 4: Grounding**. Kitcher grounds ethics in its function of solving altruism problems-a pragmatic standard without deeper foundation. PPR grounds ethics in independently-specified pragmatic constraints (biological, cognitive, coordination requirements) that are empirical facts discoverable through standard science. These constraints aren't products of the historical process but preconditions any viable society must satisfy. This provides stronger anti-relativist grounding. Where Kitcher acknowledges a degree of historicism and contingency, PPR argues for practical necessity given actual human constraints.
+Critical Difference 4: Grounding. Kitcher grounds ethics in its function of solving altruism problems-a pragmatic standard without deeper foundation. PPR grounds ethics in independently-specified pragmatic constraints (biological, cognitive, coordination requirements) that are empirical facts discoverable through standard science. These constraints aren't products of the historical process but preconditions any viable society must satisfy. This provides stronger anti-relativist grounding. Where Kitcher acknowledges a degree of historicism and contingency, PPR argues for practical necessity given actual human constraints.
 
-**Critical Difference 5: The Apex Network**. Kitcher's framework lacks an equivalent to the Apex Network. Progress is trajectory-dependent movement away from dysfunction, with no ultimate target or optimal structure. PPR posits the Apex Network as both regulative ideal and discovered structure-the constraint-determined region of maximal viability. This provides a goal (approximate the Apex) not merely a direction (away from failure), enabling stronger claims about which systems are absolutely better, not just better than their historical baseline.
+Critical Difference 5: The Apex Network. Kitcher's framework lacks an equivalent to the Apex Network. Progress is trajectory-dependent movement away from dysfunction, with no ultimate target or optimal structure. PPR posits the Apex Network as both regulative ideal and discovered structure-the constraint-determined region of maximal viability. This provides a goal (approximate the Apex) not merely a direction (away from failure), enabling stronger claims about which systems are absolutely better, not just better than their historical baseline.
 
-**Complementary Projects**: Rather than competitors, these approaches are better understood as complementary with different emphases. Kitcher provides rich historical narrative explaining how ethics emerged from psychological and social needs. PPR provides a diagnostic framework for evaluating ethical systems' viability. If Kitcher explains the *origins* of ethics, PPR supplies *evaluation criteria* for ethical systems. A complete account might integrate both: Kitcher's historical psychology explains why certain problems arose; PPR's brittleness framework explains which solutions prove viable.
+Complementary Projects: Rather than competitors, these approaches are better understood as complementary with different emphases. Kitcher provides rich historical narrative explaining how ethics emerged from psychological and social needs. PPR provides a diagnostic framework for evaluating ethical systems' viability. If Kitcher explains the *origins* of ethics, PPR supplies *evaluation criteria* for ethical systems. A complete account might integrate both: Kitcher's historical psychology explains why certain problems arose; PPR's brittleness framework explains which solutions prove viable.
 
 We gratefully acknowledge our debt to Kitcher's pioneering work opening paths for naturalistic, historically-grounded metaethics. PPR builds on this foundation by adding a unified diagnostic toolkit (SBI, C(t), P(t)), providing stronger realist foundations through the Apex Network, extending scope beyond altruism to all normative coordination, and grounding in EPC's general theory of justification. Where Kitcher demonstrates that ethics can be naturalized without loss of normative force, we demonstrate that naturalized ethics can be robustly realist about constraint-determined structures of viability.
 
@@ -544,28 +544,31 @@ We're not opposed to idealized procedures in principle. Rawls's original positio
 
 ### 5.6. Principled Limitations
 
-**The Viable Evil Possibility.** If a deeply repugnant system achieved genuinely low brittleness (minimal coercive costs, stable demographics, sustained innovation, and adaptation), our framework would acknowledge it as viable, though not necessarily just by other moral standards. Consider a hypothetical perfectly internalized caste system where lower castes genuinely accept their position with minimal coercion, no demographic stress, stable innovation, and low enforcement costs, yet remains intuitively morally repugnant.
+The Viable Evil Possibility. If a deeply repugnant system achieved genuinely low brittleness (minimal coercive costs, stable demographics, sustained innovation, and adaptation), our framework would acknowledge it as viable, though not necessarily just by other moral standards. Consider a hypothetical perfectly internalized caste system where lower castes genuinely accept their position with minimal coercion, no demographic stress, stable innovation, and low enforcement costs, yet remains intuitively morally repugnant.
 
 We accept this implication for intellectual honesty. The framework maps pragmatic viability, not all moral dimensions. If such a system existed, it would fall in the Pluralist Frontier, not the Negative Canon.
 
 However, our empirical wager is that such systems are inherently brittle. Apparent stability in historical examples like Ottoman devşirme or Indian caste systems masked high coercive overheads, innovation lags, and fragility under shocks (cf. Acemoglu & Robinson 2012; Turchin 2003). True, cost-free internalization is likely a sociological impossibility. Oppression generates hidden costs that manifest under stress. Even systems like *Brave New World* that suppress cognitive capacities incur massive information suppression costs (Tier 2) that cripple long-term adaptation.
 
-- Species-Specific: Apex Network for cooperative primates like humans. Empirical discipline, not relativism.
-- Floor Not Ceiling: Maps viability necessities, not flourishing sufficiency.
-- Tragic Knowledge: Most reliable moral insights from catastrophic failures. Progress real but costly.
-- Fallibilism: Our assessments remain provisional; historical analysis can be contested, and new evidence may revise the Negative Canon.
+Species-Specific: Apex Network for cooperative primates like humans. Empirical discipline, not relativism.
+
+Floor Not Ceiling: Maps viability necessities, not flourishing sufficiency.
+
+Tragic Knowledge: Most reliable moral insights from catastrophic failures. Progress real but costly.
+
+Fallibilism: Our assessments remain provisional; historical analysis can be contested, and new evidence may revise the Negative Canon.
 
 ### 5.7. The Division of Moral Labor
 
 A final objection concerns epistemic accessibility. Applying this framework requires historical expertise, data analysis, brittleness calculations, and interdisciplinary collaboration. How can ordinary moral agents use it? Does PPR collapse into expert technocracy where philosophers and social scientists dictate moral truth to the masses?
 
-**The Division of Labor Is Standard**: In medicine, patients rely on researchers and doctors rather than analyzing trials themselves. In law, citizens rely on scholars and courts. In science, non-scientists accept relativity without deriving field equations. Each domain divides epistemic labor: specialists conduct technical analysis, practitioners apply findings, citizens consult experts and internalize established results. Moral inquiry operates similarly. Generating the Negative Canon and mapping the Convergent Core requires specialist work, but conclusions (slavery is wrong, reciprocity enables cooperation) are publicly accessible.
+The Division of Labor Is Standard: In medicine, patients rely on researchers and doctors rather than analyzing trials themselves. In law, citizens rely on scholars and courts. In science, non-scientists accept relativity without deriving field equations. Each domain divides epistemic labor: specialists conduct technical analysis, practitioners apply findings, citizens consult experts and internalize established results. Moral inquiry operates similarly. Generating the Negative Canon and mapping the Convergent Core requires specialist work, but conclusions (slavery is wrong, reciprocity enables cooperation) are publicly accessible.
 
-**Folk Morality Tracks Specialist Conclusions**: Historical filtering isn't exclusively academic. Ordinary people participate through practical testing, cultural transmission, social critique, and collective wisdom. Specialists systematize and validate what practical experience discovers, not replace folk moral knowledge. This parallels how physicists formalize principles engineers and builders have implicitly used for millennia.
+Folk Morality Tracks Specialist Conclusions: Historical filtering isn't exclusively academic. Ordinary people participate through practical testing, cultural transmission, social critique, and collective wisdom. Specialists systematize and validate what practical experience discovers, not replace folk moral knowledge. This parallels how physicists formalize principles engineers and builders have implicitly used for millennia.
 
-**Practical Reasoning Doesn't Require Calculations**: Ordinary moral agents rarely calculate C(t) or P(t). They consult cached results: the Negative Canon avoids catastrophic policies, Convergent Core principles guide cooperation. For peripheral questions, experts evaluate proposals while citizens participate democratically. For novel situations (AI ethics, climate institutions), specialists project systemic costs to inform public deliberation.
+Practical Reasoning Doesn't Require Calculations: Ordinary moral agents rarely calculate C(t) or P(t). They consult cached results: the Negative Canon avoids catastrophic policies, Convergent Core principles guide cooperation. For peripheral questions, experts evaluate proposals while citizens participate democratically. For novel situations (AI ethics, climate institutions), specialists project systemic costs to inform public deliberation.
 
-**Against Technocracy**: This isn't technocratic dictatorship because: (1) the framework is publicly explicable; (2) expert claims are falsifiable; (3) historical experience comes from lived practice, not elite imposition; (4) many questions admit multiple viable answers; (5) misdiagnoses are corrected by actual costs. Moral inquiry parallels scientific inquiry: collaborative truth-seeking with public access and openness to revision.
+Against Technocracy: This isn't technocratic dictatorship because: (1) the framework is publicly explicable; (2) expert claims are falsifiable; (3) historical experience comes from lived practice, not elite imposition; (4) many questions admit multiple viable answers; (5) misdiagnoses are corrected by actual costs. Moral inquiry parallels scientific inquiry: collaborative truth-seeking with public access and openness to revision.
 
 Ordinary moral agents needn't become historians to reason morally, any more than they need physics degrees to navigate the world. Just as we benefit from physics when building bridges, we benefit from systematic moral inquiry when building institutions. The division of labor enables democratic discourse.
 
@@ -575,17 +578,27 @@ Pragmatic Procedural Realism reframes moral philosophy from searching for ultima
 
 ## Glossary
 
-*   **Apex Network**: The complete set of maximally coherent, pragmatically viable normative predicates, existing as a necessary structure determined by pragmatic constraints rather than historical contingency
-*   **Brittleness**: Accumulated systemic costs indicating structural fragility
-*   **C(t) (Coercion Ratio)**: Proportion of a system's resources dedicated to internal coercion versus productive output
-*   **Emergent Pragmatic Coherentism (EPC)**: General theory of justification grounding coherence in demonstrated viability across all inquiry domains
-*   **Fitness Trap**: A locally stable but globally inefficient high-brittleness configuration maintained by high coercive costs
-*   **Floor vs. Ceiling**: The 'floor' comprises non-negotiable viability principles; the 'ceiling' comprises underdetermined dimensions of human flourishing
-*   **Negative Canon**: Catalogue of empirically falsified normative principles demonstrating high brittleness
-*   **Normative Patching**: Creation of ad-hoc ideological justifications masking Tier 1 and Tier 2 costs
-*   **P(t) (Patch Velocity)**: Rate at which a system generates ideological justifications to explain accumulating costs
-*   **Standing Predicate**: Reusable, action-guiding normative concept functioning as a unit of cultural transmission
-*   **Systemic Debt**: Accumulated, unaddressed costs of a brittle normative system, often paid suddenly during crisis
+Apex Network: The complete set of maximally coherent, pragmatically viable normative predicates, existing as a necessary structure determined by pragmatic constraints rather than historical contingency
+
+Brittleness: Accumulated systemic costs indicating structural fragility
+
+C(t) (Coercion Ratio): Proportion of a system's resources dedicated to internal coercion versus productive output
+
+Emergent Pragmatic Coherentism (EPC): General theory of justification grounding coherence in demonstrated viability across all inquiry domains
+
+Fitness Trap: A locally stable but globally inefficient high-brittleness configuration maintained by high coercive costs
+
+Floor vs. Ceiling: The 'floor' comprises non-negotiable viability principles; the 'ceiling' comprises underdetermined dimensions of human flourishing
+
+Negative Canon: Catalogue of empirically falsified normative principles demonstrating high brittleness
+
+Normative Patching: Creation of ad-hoc ideological justifications masking Tier 1 and Tier 2 costs
+
+P(t) (Patch Velocity): Rate at which a system generates ideological justifications to explain accumulating costs
+
+Standing Predicate: Reusable, action-guiding normative concept functioning as a unit of cultural transmission
+
+Systemic Debt: Accumulated, unaddressed costs of a brittle normative system, often paid suddenly during crisis
 
 ## References
 
@@ -606,6 +619,8 @@ Buchanan, Allen, and Russell Powell. 2018. *The Evolution of Moral Progress: A B
 Conquest, Robert. 1990. The Great Terror: A Reassessment. Oxford University Press.
 
 Dewey, John. (1929) 1960. *The Quest for Certainty: A Study of the Relation of Knowledge and Action*. New York: Capricorn Books.
+
+Duflo, Esther. 2012. "Women Empowerment and Economic Development." *Journal of Economic Literature* 50(4): 1051–79.
 
 Foot, Philippa. 2001. *Natural Goodness*. Oxford: Clarendon Press.
 
@@ -654,3 +669,5 @@ Streumer, Bart. 2025. "Quasi-Realism for Realists." Philosophers' Imprint 25 (10
 Tainter, Joseph A. 1988. *The Collapse of Complex Societies*. Cambridge: Cambridge University Press.
 
 Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton, NJ: Princeton University Press.
+
+World Bank. 2012. *World Development Report 2012: Gender Equality and Development*. Washington, DC: World Bank.
