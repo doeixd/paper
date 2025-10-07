@@ -548,11 +548,11 @@ The framework grounds a concrete empirical research program with a falsifiable c
 
 **Methodology**: (1) Operationalize brittleness through quantifiable proxies (security/R&D budget ratios, auxiliary hypothesis rates in literature). (2) Conduct comparative historical analysis using databases like Seshat (a database of historical societies) to compare outcomes across systems with different pre-existing brittleness facing similar shocks, controlling for contingent events. The precise methodology for this research program, including protocols for operationalizing P(t) and C(t) with inter-rater reliability checks, is detailed in Appendix B. A pilot study computed brittleness scores for competing COVID-19 models (2020–2022): complex epidemiological models with high M(t) (e.g., parameter-heavy SEIR variants) showed rising brittleness through predictive failures (e.g., overestimating herd immunity timelines), while simpler models with lower M(t) maintained better accuracy (Mallapaty 2020). This demonstrates predictive utility, with high-brittleness models requiring more revisions.
 
-### 7.2 Principled Limitations and Scope
+### 7.3 Principled Limitations and Scope
 
 Philosophical honesty requires acknowledging not just what a framework can do, but what it cannot. These are not flaws but principled choices about scope and method.
 
-#### 7.2.1 Species-Specific Objectivity
+#### 7.3.1 Species-Specific Objectivity
 
 **The Limitation:** Moral and epistemic truths are objective for creatures with our biological and social architecture (extended childhood requiring cooperation, limited cognition requiring trust, biological constraints of mortality and suffering, social coordination problems). Hypothetical beings with radically different structures would face different constraints and discover different optimal configurations.
 
@@ -562,7 +562,7 @@ Philosophical honesty requires acknowledging not just what a framework can do, b
 
 **What This Preserves:** Objectivity within our domain—all humans across all cultures face the same constraint structure and will discover the same Apex Network. Cross-cultural convergence on reciprocity norms, harm prohibitions, and property conventions reflects this constraint-determined necessity.
 
-#### 7.2.2 Learning Through Catastrophic Failure
+#### 7.3.2 Learning Through Catastrophic Failure
 
 **The Limitation:** We learn moral truths primarily through catastrophic failure. The Negative Canon is written in blood. We could not know slavery's wrongness without the historical experiment generating centuries of suffering. Future moral knowledge will require future suffering to generate data.
 
@@ -574,7 +574,7 @@ Philosophical honesty requires acknowledging not just what a framework can do, b
 - We should be epistemically humble about current certainties
 - But we can have high confidence in Negative Canon entries (exhaustively tested failures)
 
-#### 7.2.3 Floor Not Ceiling
+#### 7.3.3 Floor Not Ceiling
 
 **The Limitation:** The framework maps necessary constraints (the floor), not sufficient conditions for flourishing (the ceiling). It cannot address what makes life meaningful beyond sustainable, supererogatory virtue and moral excellence, aesthetic value and beauty, or the difference between a decent life and an exemplary one.
 
@@ -582,7 +582,7 @@ Philosophical honesty requires acknowledging not just what a framework can do, b
 
 **What This Implies:** The framework provides necessary but not sufficient conditions. Thick theories of the good life must build on this foundation. The Pluralist Frontier is real: multiple flourishing forms exist, but all must respect the floor (avoid Negative Canon predicates).
 
-#### 7.2.4 Expert Dependence and Democratic Legitimacy
+#### 7.3.4 Expert Dependence and Democratic Legitimacy
 
 **The Limitation:** Accurate brittleness assessment requires technical expertise in historical analysis, statistics, comparative methods, systems theory. This creates epistemic inequality: not everyone has equal access to moral knowledge.
 
@@ -599,7 +599,7 @@ Philosophical honesty requires acknowledging not just what a framework can do, b
 
 **Honest Acknowledgment:** These strategies reduce but do not eliminate the problem. Some epistemic inequality is unavoidable when evaluating complex systems.
 
-#### 7.2.5 Discovery Requires Empirical Testing
+#### 7.3.5 Discovery Requires Empirical Testing
 
 **The Limitation:** While the Apex Network exists as a determined structure, discovering it requires empirical data. We cannot deduce optimal social configurations from first principles alone—we need historical experiments to reveal constraint topology.
 
@@ -607,7 +607,7 @@ Philosophical honesty requires acknowledging not just what a framework can do, b
 
 **What This Allows:** Prospective guidance through constraint analysis. We can reason about likely optimal solutions by analyzing constraint structure, but we need empirical validation. This is stronger than pure retrospection but weaker than complete a priori knowledge.
 
-#### 7.2.6 The Viable Evil Possibility
+#### 7.3.6 The Viable Evil Possibility
 
 **The Limitation:** If a deeply repugnant system achieved genuinely low brittleness (minimal coercive costs, stable demographics, innovation, adaptation), the framework would have to acknowledge it as viable, though not necessarily just by other standards.
 
@@ -624,7 +624,7 @@ Philosophical honesty requires acknowledging not just what a framework can do, b
 
 **But:** If empirics proved otherwise, we would acknowledge the framework's incompleteness rather than deny evidence.
 
-#### 7.2.7 What We Claim
+#### 7.3.7 What We Claim
 
 These limitations do not undermine the framework's contribution—they define appropriate scope. EPC excels at:
 
@@ -647,7 +647,7 @@ These limitations do not undermine the framework's contribution—they define ap
 
 This honest accounting strengthens rather than weakens the framework's philosophical contribution.
 
-#### 7.2.8 Steelmanning Objections and Clarifying Scope
+#### 7.3.8 Steelmanning Objections and Clarifying Scope
 
 To preempt misunderstandings and demonstrate the framework's resilience, we steelman potential objections and clarify what EPC is not.
 
@@ -670,11 +670,11 @@ By systematically studying the record of failed systems, we can discern the cont
 
 This model is not presented as a final, complete system but as the foundation for a progressive and falsifiable research program. Critical future challenges remain, such as fully modeling the role of power asymmetries in creating path-dependent fitness traps and applying the framework to purely aesthetic or mathematical domains.
 
-We began with the challenge of distinguishing viable knowledge from brittle dogma. The model we have developed suggests the ultimate arbiter is not the elegance of a theory or the consensus of its adherents but the trail of consequences it leaves in the world. Systemic costs are ultimately experienced by individuals as suffering, instability, and the frustration of human goals. Dissent, friction, and protest are therefore not merely political problems but primary sources of epistemological data about a system's rising brittleness. This framework is best understood as a tool for a democratic public to hold its own knowledge-generating systems accountable.
+We began with the challenge of distinguishing viable knowledge from brittle dogma. The model we have developed suggests the ultimate arbiter is not the elegance of a theory or the consensus of its adherents but the trail of consequences it leaves in the world. Systemic costs are ultimately experienced by individuals as suffering, instability, and the frustration of human goals. Dissent, friction, and protest are therefore not merely political problems but primary sources of epistemological data about a system's rising brittleness.
 
-This framework is best understood not just as a philosophical solution, but as a practical tool for epistemic risk management. It provides a structured methodology for policymakers, institutional designers, and the public to diagnose the health of our most critical knowledge-producing systems—from climate models to economic paradigms to public health infrastructure—before their hidden brittleness leads to catastrophic failure. The brittleness toolkit enables real-time assessment of structural health, allowing us to identify degenerating research programs and power-masked fragility before crises force recognition. This positions the paper not just as a solution to an old philosophical puzzle, but as a practical and urgent research program for the 21st century.
+As a practical tool for epistemic risk management, Emergent Pragmatic Coherentism provides a structured methodology for policymakers, institutional designers, and the public to diagnose the health of our most critical knowledge-producing systems—from climate models to economic paradigms to public health infrastructure—before their hidden brittleness leads to catastrophic failure. The brittleness toolkit enables real-time assessment of structural health, allowing us to identify degenerating research programs and power-masked fragility before crises force recognition. This positions the work not just as a solution to an old philosophical puzzle, but as a practical and urgent research program for the 21st century, empowering democratic publics to hold their knowledge-generating systems accountable.
 
-This framework calls for epistemic humility, trading the ambition of a God's-eye view for the practical wisdom of a mariner. The payoff is not a final map of truth, but a continuously improving reef chart—a chart built from the architecture of failure, allowing us to more safely navigate the channels of viable knowledge.
+The approach calls for epistemic humility, trading the ambition of a God's-eye view for the practical wisdom of a mariner. The payoff is not a final map of truth, but a continuously improving reef chart—a chart built from the architecture of failure, allowing us to more safely navigate the channels of viable knowledge.
 
 ## Appendix A: Normative Brittleness as a Speculative Extension
 
