@@ -130,6 +130,13 @@ class ReleaseConfig:
                 "timeout": 300,  # seconds
                 "verbose": False
             },
+            "citations": {
+                "strategy": "filter",  # filter, merge, keep
+                "strict_matching": True,  # require exact matches for citations
+                "include_missing": False,  # include missing citations as comments
+                "case_sensitive": False,  # case sensitivity for author matching
+                "fuzzy_matching": True   # enable fuzzy/approximate matching
+            },
             "metadata": {
                 "author": "Unknown",
                 "title": "Academic Paper",
@@ -246,6 +253,23 @@ class ReleaseConfig:
                 self.errors.append("metadata.title must be a string")
             if 'author' in metadata and not isinstance(metadata['author'], str):
                 self.errors.append("metadata.author must be a string")
+
+        # Validate citations configuration
+        citations = self.get('citations', {})
+        if not isinstance(citations, dict):
+            self.errors.append("citations must be a dictionary")
+        else:
+            # Validate strategy
+            valid_strategies = ['filter', 'merge', 'keep']
+            strategy = citations.get('strategy', 'filter')
+            if strategy not in valid_strategies:
+                self.errors.append(f"citations.strategy must be one of: {', '.join(valid_strategies)}")
+
+            # Validate boolean options
+            bool_options = ['strict_matching', 'case_sensitive', 'fuzzy_matching', 'include_missing']
+            for option in bool_options:
+                if option in citations and not isinstance(citations[option], bool):
+                    self.errors.append(f"citations.{option} must be a boolean")
 
         # Cross-validation
         format_type = self.get('format')
@@ -524,14 +548,25 @@ class PaperRelease:
         else:
             print(f"OK: Output directory ready: {output_path.parent}")
 
+        # Check citation configuration
+        citations = self.config.get('citations', {})
+        strategy = citations.get('strategy', 'filter')
+        print(f"Citation Strategy: {strategy}")
+        if strategy == 'filter':
+            print("  -> Include only cited references")
+        elif strategy == 'merge':
+            print("  -> Include all references (mark cited ones)")
+        elif strategy == 'keep':
+            print("  -> Keep existing references section")
+
         # Check cleanup settings
         cleanup = self.config.get('cleanup', {})
         print(f"Cleanup: intermediate={cleanup.get('intermediate_files', True)}, temp={cleanup.get('temp_files', True)}")
 
         print("\nPipeline Steps:")
         print("1. Extract citations from markdown")
-        print("2. Filter references.md to cited works only")
-        print("3. Combine paper with filtered references")
+        print(f"2. Process references.md ({strategy} strategy)")
+        print("3. Combine paper with processed references")
         print("4. Convert to target format (Typst/LaTeX)")
         print("5. Generate PDF from formatted document")
         print("6. Attach front/end documents if specified")
@@ -575,8 +610,8 @@ class PaperRelease:
                 if not citations:
                     logger.warning("No citations found in input file - proceeding anyway")
 
-                # Step 2: Load and filter references with error handling
-                logger.info("Loading and filtering references...")
+                # Step 2: Load and process references with error handling
+                logger.info("Loading and processing references...")
                 try:
                     references = load_references()
                     logger.info(f"Loaded {len(references)} reference entries")
@@ -584,15 +619,25 @@ class PaperRelease:
                     logger.error(f"Failed to load references: {e}")
                     raise RuntimeError(f"Reference loading failed: {e}")
 
+                # Get citation configuration
+                citation_config = self.config.get('citations', {
+                    'strategy': 'filter',
+                    'strict_matching': True,
+                    'case_sensitive': False,
+                    'fuzzy_matching': True,
+                    'include_missing': False
+                })
+
                 filtered_refs_file = input_path.with_stem(f"{input_path.stem}_refs_filtered")
                 try:
-                    num_refs, num_missing = generate_filtered_references(citations, references, str(filtered_refs_file))
-                    logger.info(f"Generated {num_refs} filtered references")
+                    strategy = citation_config.get('strategy', 'filter')
+                    num_refs, num_missing = generate_filtered_references(citations, references, str(filtered_refs_file), strategy, citation_config)
+                    logger.info(f"Generated {num_refs} references (strategy: {strategy})")
                     if num_missing > 0:
                         logger.warning(f"{num_missing} citations not found in references.md")
                 except Exception as e:
-                    logger.error(f"Failed to generate filtered references: {e}")
-                    raise RuntimeError(f"Reference filtering failed: {e}")
+                    logger.error(f"Failed to generate references: {e}")
+                    raise RuntimeError(f"Reference processing failed: {e}")
 
                 # Verify filtered references file was created
                 if not Path(filtered_refs_file).exists():
@@ -1098,13 +1143,15 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 EXAMPLES:
-  python release.py paper.md                           # Basic release
-  python release.py paper.md --config release.json     # Custom config
-  python release.py paper.md --format latex            # LaTeX output
-  python release.py paper.md --output final.pdf        # Custom output
-  python release.py paper.md --dry-run                 # Preview actions
-  python release.py --create-config                    # Create default config
-  python release.py --check-deps                       # Check dependencies
+   python release.py paper.md                           # Basic release with defaults
+   python release.py paper.md --config release.json     # Custom config
+   python release.py paper.md --format latex            # LaTeX output
+   python release.py paper.md --output final.pdf        # Custom output
+   python release.py paper.md --citation-strategy merge # Include all references
+   python release.py paper.md --citation-strategy keep  # Keep existing references
+   python release.py paper.md --dry-run                 # Preview what would happen
+   python release.py --create-config                    # Create default config file
+   python release.py --check-deps                       # Check dependencies
 
 CONFIG FILE FORMAT (JSON):
 {
@@ -1144,6 +1191,8 @@ For more information, see the documentation in AGENTS.md and CLAUDE.md.
     parser.add_argument('--create-config', action='store_true', help='Create default config file and exit')
     parser.add_argument('--check-deps', action='store_true', help='Check system dependencies and exit')
     parser.add_argument('--keep-temp', action='store_true', help='Keep temporary files (overrides config)')
+    parser.add_argument('--citation-strategy', choices=['filter', 'merge', 'keep'],
+                        help='Citation/reference strategy: filter (cited only), merge (all), keep (existing)')
     parser.add_argument('--verbose', '-v', action='store_true', help='Enable verbose logging')
     parser.add_argument('--version', action='version', version=f'Academic Paper Release v{__version__}')
 
@@ -1201,6 +1250,8 @@ For more information, see the documentation in AGENTS.md and CLAUDE.md.
         config.set('output.filename', Path(args.output).stem)
     if args.keep_temp:
         config.set('cleanup.temp_files', False)
+    if args.citation_strategy:
+        config.set('citations.strategy', args.citation_strategy)
 
     # Execute release with comprehensive error handling
     try:

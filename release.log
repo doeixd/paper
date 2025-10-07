@@ -627,3 +627,18 @@ AttributeError: 'str' object has no attribute 'exists'
 2025-10-07 14:33:03,551 - INFO - SUCCESS! Release complete in 0.5s
 2025-10-07 14:33:03,551 - INFO - Final PDF: releases\proc-v7.pdf (147888 bytes)
 2025-10-07 14:33:03,551 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-07 15:02:10,086 - INFO - Successfully imported paper_converter
+2025-10-07 15:02:10,087 - INFO - Successfully imported pdf_assembler
+2025-10-07 15:02:10,798 - WARNING - No PDF merging tools available - multi-file operations may require manual intervention
+2025-10-07 15:02:10,799 - INFO - Input validation passed: paper.md (96821 bytes)
+2025-10-07 15:02:10,800 - INFO - Dry run completed successfully
+2025-10-07 15:02:13,189 - INFO - Successfully imported paper_converter
+2025-10-07 15:02:13,189 - INFO - Successfully imported pdf_assembler
+2025-10-07 15:02:13,883 - WARNING - No PDF merging tools available - multi-file operations may require manual intervention
+2025-10-07 15:02:13,884 - INFO - Input validation passed: paper.md (96821 bytes)
+2025-10-07 15:02:13,884 - INFO - Dry run completed successfully
+2025-10-07 15:02:15,529 - INFO - Successfully imported paper_converter
+2025-10-07 15:02:15,529 - INFO - Successfully imported pdf_assembler
+2025-10-07 15:02:16,221 - WARNING - No PDF merging tools available - multi-file operations may require manual intervention
+2025-10-07 15:02:16,222 - INFO - Input validation passed: paper.md (96821 bytes)
+2025-10-07 15:02:16,222 - INFO - Dry run completed successfully

@@ -158,19 +158,30 @@ def load_references():
 
     return references
 
-def match_citation_to_reference(author, year, references):
-    """Try multiple strategies to match a citation to a reference."""
+def match_citation_to_reference(author, year, references, config=None):
+    """Try multiple strategies to match a citation to a reference with configurable options."""
+    if config is None:
+        config = {
+            'strict_matching': True,
+            'case_sensitive': False,
+            'fuzzy_matching': True
+        }
+
+    # Normalize author based on config
+    normalized_author = author if config.get('case_sensitive', False) else author.lower()
+    normalized_references = references if config.get('case_sensitive', False) else {k.lower(): v for k, v in references.items()}
+
     # Try exact matches first
     possible_keys = [
-        f"{author} {year}",
-        author,
-        f"{author.replace(' and ', ', ')} {year}",
-        f"{author.replace(' & ', ', ')} {year}",
+        f"{normalized_author} {year}",
+        normalized_author,
+        f"{normalized_author.replace(' and ', ', ')} {year}",
+        f"{normalized_author.replace(' & ', ', ')} {year}",
     ]
 
     # Handle "et al." by stripping it and trying primary author
-    if 'et al' in author.lower():
-        primary = author.split('et al')[0].strip()
+    if 'et al' in normalized_author.lower():
+        primary = normalized_author.split('et al')[0].strip()
         possible_keys.extend([
             f"{primary} et al. {year}",
             f"{primary} et al {year}",
@@ -179,27 +190,74 @@ def match_citation_to_reference(author, year, references):
         ])
 
     # Handle "Author1 and Author2" by trying primary author
-    if ' and ' in author or ' & ' in author:
-        primary = author.split(' and ')[0].split(' & ')[0].strip()
+    if ' and ' in normalized_author or ' & ' in normalized_author:
+        primary = normalized_author.split(' and ')[0].split(' & ')[0].strip()
         possible_keys.extend([
             f"{primary} {year}",
             primary
         ])
 
+    # Try exact matches
     for key in possible_keys:
-        if key in references:
-            return references[key]
+        if key in normalized_references:
+            return references.get(key if config.get('case_sensitive', False) else next((k for k in references.keys() if k.lower() == key), None))
+
+    # If strict matching is disabled, try fuzzy matching
+    if not config.get('strict_matching', True) and config.get('fuzzy_matching', True):
+        return fuzzy_match_citation(normalized_author, year, references, config)
 
     return None
 
-def generate_filtered_references(citations, references, output_file):
+def fuzzy_match_citation(author, year, references, config):
+    """Perform fuzzy matching for citations when exact match fails."""
+    # Try partial author matches
+    author_parts = author.split()
+    if author_parts:
+        primary_author = author_parts[0]
+
+        # Try with just the primary author
+        for ref_key, ref_value in references.items():
+            normalized_key = ref_key.lower() if not config.get('case_sensitive', False) else ref_key
+            if primary_author.lower() in normalized_key and str(year) in normalized_key:
+                return ref_value
+
+        # Try with first few letters of primary author
+        if len(primary_author) >= 3:
+            prefix = primary_author[:3].lower()
+            for ref_key, ref_value in references.items():
+                normalized_key = ref_key.lower() if not config.get('case_sensitive', False) else ref_key
+                if normalized_key.startswith(prefix) and str(year) in normalized_key:
+                    return ref_value
+
+    return None
+
+def generate_filtered_references(citations, references, output_file, strategy='filter', config=None):
+    """Generate a references file based on the specified strategy."""
+    if config is None:
+        config = {
+            'strict_matching': True,
+            'case_sensitive': False,
+            'fuzzy_matching': True,
+            'include_missing': False
+        }
+
+    if strategy == 'filter':
+        return generate_filtered_references_only(citations, references, output_file, config)
+    elif strategy == 'merge':
+        return generate_merged_references(citations, references, output_file, config)
+    elif strategy == 'keep':
+        return generate_keep_references(citations, references, output_file, config)
+    else:
+        raise ValueError(f"Unknown reference strategy: {strategy}")
+
+def generate_filtered_references_only(citations, references, output_file, config):
     """Generate a filtered references file containing only cited references."""
     # Collect unique references
     unique_refs = {}
     missing_refs = []
 
     for citation in citations:
-        ref = match_citation_to_reference(citation['author'], citation['year'], references)
+        ref = match_citation_to_reference(citation['author'], citation['year'], references, config)
         if ref:
             # Use the first line as a key to avoid duplicates
             first_line = ref.split('\n')[0].strip()
@@ -215,17 +273,92 @@ def generate_filtered_references(citations, references, output_file):
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write("## References\n\n")
         f.write(f"<!-- Generated for paper conversion: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->\n")
+        f.write(f"<!-- Strategy: filter (cited references only) -->\n")
         f.write(f"<!-- Total references: {len(sorted_refs)} -->\n\n")
 
         for ref in sorted_refs:
             f.write(f"{ref}\n\n")
 
-        if missing_refs:
+        if missing_refs and config.get('include_missing', False):
             f.write("\n<!-- MISSING REFERENCES (Not found in references.md) -->\n")
             for missing in sorted(set(missing_refs)):
                 f.write(f"<!-- {missing} -->\n")
 
     return len(sorted_refs), len(set(missing_refs))
+
+def generate_merged_references(citations, references, output_file, config):
+    """Generate a references file containing all references, with cited ones marked."""
+    # Get all references from references.md
+    all_refs = list(references.values())
+
+    # Mark which references are cited
+    cited_refs = set()
+    missing_refs = []
+
+    for citation in citations:
+        ref = match_citation_to_reference(citation['author'], citation['year'], references, config)
+        if ref:
+            # Use the first line as a key to identify cited references
+            first_line = ref.split('\n')[0].strip()
+            cited_refs.add(first_line)
+        else:
+            missing_refs.append(f"{citation['author']} ({citation['year']})")
+
+    # Sort references alphabetically by primary author
+    sorted_refs = sorted(all_refs, key=lambda x: x.split('.')[0].strip().lower())
+
+    # Write to file
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write("## References\n\n")
+        f.write(f"<!-- Generated for paper conversion: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->\n")
+        f.write(f"<!-- Strategy: merge (all references) -->\n")
+        f.write(f"<!-- Total references: {len(sorted_refs)}, Cited: {len(cited_refs)} -->\n\n")
+
+        for ref in sorted_refs:
+            first_line = ref.split('\n')[0].strip()
+            if first_line in cited_refs:
+                f.write(f"{ref} <!-- CITED -->\n\n")
+            else:
+                f.write(f"{ref}\n\n")
+
+        if missing_refs and config.get('include_missing', False):
+            f.write("\n<!-- MISSING REFERENCES (Not found in references.md) -->\n")
+            for missing in sorted(set(missing_refs)):
+                f.write(f"<!-- {missing} -->\n")
+
+    return len(sorted_refs), len(set(missing_refs))
+
+def generate_keep_references(citations, references, output_file, config):
+    """Generate a references file by keeping existing references section unchanged."""
+    # For 'keep' strategy, we just copy the original references.md
+    # But we still validate citations and report missing ones
+    missing_refs = []
+
+    for citation in citations:
+        ref = match_citation_to_reference(citation['author'], citation['year'], references, config)
+        if not ref:
+            missing_refs.append(f"{citation['author']} ({citation['year']})")
+
+    # Copy references.md to output file
+    try:
+        with open('references.md', 'r', encoding='utf-8') as f:
+            refs_content = f.read()
+    except Exception as e:
+        raise RuntimeError(f"Could not read references.md: {e}")
+
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write("## References\n\n")
+        f.write(f"<!-- Generated for paper conversion: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->\n")
+        f.write(f"<!-- Strategy: keep (existing references section) -->\n")
+        f.write(f"<!-- Total references: {len(references)} -->\n\n")
+        f.write(refs_content)
+
+        if missing_refs and config.get('include_missing', False):
+            f.write("\n<!-- MISSING REFERENCES (Not found in references.md) -->\n")
+            for missing in sorted(set(missing_refs)):
+                f.write(f"<!-- {missing} -->\n")
+
+    return len(references), len(set(missing_refs))
 
 def remove_references_section(content):
     """Remove any existing references section from the content."""
@@ -334,12 +467,14 @@ def convert_with_pandoc(input_file, output_file, format_type, preamble_file=None
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Convert markdown paper to LaTeX or Typst with filtered references.',
+        description='Convert markdown paper to LaTeX or Typst with configurable reference handling.',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python paper_converter.py paper.md                           # Convert to LaTeX
+  python paper_converter.py paper.md                           # Convert to LaTeX (filter strategy)
   python paper_converter.py paper.md --format typst           # Convert to Typst
+  python paper_converter.py paper.md --strategy merge         # Include all references
+  python paper_converter.py paper.md --strategy keep          # Keep existing references
   python paper_converter.py paper.md --preamble preamble.tex  # Use custom preamble
   python paper_converter.py paper.md --output final.tex       # Custom output file
   python paper_converter.py paper.md --keep-temp              # Keep temporary files
@@ -351,6 +486,16 @@ Examples:
                         help='Output format (default: latex)')
     parser.add_argument('--output', '-o', help='Output file name (default: based on input)')
     parser.add_argument('--preamble', help='Preamble file to include (LaTeX only)')
+    parser.add_argument('--strategy', choices=['filter', 'merge', 'keep'], default='filter',
+                        help='Reference handling strategy: filter (cited only), merge (all), keep (existing)')
+    parser.add_argument('--strict-matching', action='store_true', default=True,
+                        help='Require exact matches for citations')
+    parser.add_argument('--no-strict-matching', action='store_false', dest='strict_matching',
+                        help='Allow fuzzy matching for citations')
+    parser.add_argument('--case-sensitive', action='store_true', default=False,
+                        help='Case sensitive author matching')
+    parser.add_argument('--include-missing', action='store_true', default=False,
+                        help='Include missing citations as comments')
     parser.add_argument('--keep-temp', action='store_true',
                         help='Keep temporary files (combined markdown)')
 
@@ -386,11 +531,19 @@ Examples:
     references = load_references()
     print(f"Loaded {len(references)} reference entries")
 
-    # Step 3: Generate filtered references
+    # Create config for citation matching
+    citation_config = {
+        'strict_matching': args.strict_matching,
+        'case_sensitive': args.case_sensitive,
+        'fuzzy_matching': True,  # Always enable fuzzy matching for now
+        'include_missing': args.include_missing
+    }
+
+    # Step 3: Generate references based on strategy
     filtered_refs_file = f"{input_path.stem}_refs_filtered.md"
-    print("Generating filtered references...")
-    num_refs, num_missing = generate_filtered_references(citations, references, filtered_refs_file)
-    print(f"Generated {num_refs} filtered references")
+    print(f"Generating references (strategy: {args.strategy})...")
+    num_refs, num_missing = generate_filtered_references(citations, references, filtered_refs_file, args.strategy, citation_config)
+    print(f"Generated {num_refs} references")
     if num_missing > 0:
         print(f"Warning: {num_missing} citations not found in references.md")
 
