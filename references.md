@@ -24,7 +24,7 @@ Campbell, Donald T. 1974. "Evolutionary Epistemology." In *The Philosophy of Kar
 
 Carlson, Matthew. 2015. "Logic and the Structure of the Web of Belief." *Journal for the History of Analytical Philosophy* 3(5): 1–27. https://doi.org/10.22329/jhap.v3i5.3142.
 
-Christensen, David. 2007. "Epistemology of Disagreement: The Good News." *Philosophical Review* 116(2): 187–217.
+Christensen, David. 2007. "Epistemology of Disagreement: The Good News." *Philosophical Review* 116(2): 187–217. https://doi.org/10.1215/00318108-2006-035.
 
 El-Hani, Charbel Niño, and Sami Pihlström. 2002. "Emergence Theories and Pragmatic Realism." *Essays in Philosophy* 3(2): article 3. https://commons.pacificu.edu/eip/vol3/iss2/3.
 
@@ -58,7 +58,7 @@ Kitcher, Philip. 1993. *The Advancement of Science: Science without Legend, Obje
 
 Kornblith, Hilary. 2002. *Knowledge and Its Place in Nature*. Oxford: Clarendon Press.
 
-Kuhn, Thomas S. 1996. *The Structure of Scientific Revolutions*. 3rd ed. Chicago: University of Chicago Press (originally 1962).
+Kuhn, Thomas S. 1996. *The Structure of Scientific Revolutions*. 3rd ed. Chicago: University of Chicago Press (originally 1962). ISBN 9780226458083.
 
 Kvanvig, Jonathan L. 2012. "Coherentism and Justified Inconsistent Beliefs: A Solution." *Southern Journal of Philosophy* 50(1): 21–41. https://doi.org/10.1111/j.2041-6962.2011.00090.x.
 
@@ -85,8 +85,6 @@ MLPerf Association. 2023. "MLPerf Training Results." https://mlcommons.org/bench
 
 Moghaddam, Ataollah. 2013. "Quine, Naturalized Epistemology, and the Third Dogma of Empiricism." *Dialectica* 67(2): 153–72. https://doi.org/10.1111/1746-8361.12011.
 
-Moghaddam, Soroush. 2013. "Confronting the Normativity Objection: W.V. Quine’s Engineering Model and Michael A. Bishop and J.D. Trout’s Strategic Reliabilism." Master's thesis, University of Victoria.
-
 Newman, Mark. 2010. *Networks: An Introduction*. Oxford: Oxford University Press.
 
 Olsson, Erik J. 2005. *Against Coherence: Truth, Probability, and Justification*. Oxford: Oxford University Press.
@@ -105,7 +103,7 @@ Putnam, Hilary. 2002. *The Collapse of the Fact/Value Dichotomy and Other Essays
 
 Quine, W. V. O. 1951. "Two Dogmas of Empiricism." *Philosophical Review* 60(1): 20–43. https://doi.org/10.2307/2181906.
 
-Quine, W. V. O. 1960. *Word and Object*. Cambridge, MA: MIT Press.
+Quine, W. V. O. 1960. *Word and Object*. Cambridge, MA: MIT Press. ISBN 9780262670012.
 
 Rescher, Nicholas. 1996. *Process Metaphysics: An Introduction to Process Philosophy*. Albany: State University of New York Press.
 
@@ -131,7 +129,7 @@ Staffel, Julia. 2019. "Coherentism and Belief Fixation." In *Reasons, Justificat
 
 Staffel, Julia. 2019. "Reasons Fundamentalism and Rational Uncertainty: The Externalist Response." *Philosophy and Phenomenological Research* 103(3): 555–73. https://doi.org/10.1111/phpr.12595.
 
-Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House.
+Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House. ISBN 9781400067824.
 
 Tauriainen, Teemu. 2017. "Quine on Truth." *Philosophical Forum* 48(4): 397–416. https://doi.org/10.1111/phil.12170.
 
