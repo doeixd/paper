@@ -1,19 +1,3 @@
-#set text(
-  font: "New Computer Modern"
-)
-
-#set page(margin: (top: 1.25cm, bottom: 1cm, left: 3.5cm, right: 3.5cm))
-
-#show heading.where(level: 3): set block(above: 2.2em, below: 1.125em)
-#show heading.where(level: 3): set text(size: 1.2em)
-
-#show heading.where(level: 2): set block(above: 3em, below: 1.2em)
-#show heading.where(level: 2): set text(size: 1.3em)
-
-#show heading.where(level: 1): set block(above: 0.1em, below: 2em)
-#show heading.where(level: 1): set text(size: 1.4em)
-#show heading.where(level: 1): set par(leading: 0.7em)
-
 = The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth
 <the-architecture-of-failure-how-systemic-brittleness-drives-convergent-coherence-to-forge-objective-truth>
 == Abstract
@@ -262,7 +246,7 @@ wasted resources, environmental degradation, systemic instability (e.g.,
 excess mortality). These are objective dysfunction signals. Systemic
 Costs are secondary, internal costs a network incurs to manage,
 suppress, or explain away first-order costs. These non-productive
-expenditures reveal true fragility:¹ For a formal mathematical model of
+expenditures reveal true fragility; for a formal mathematical model of
 systemic brittleness and its dynamic evolution, see Appendix C.
 
 #strong[Conceptual Debt Accumulation:] Compounding fragility from
@@ -967,15 +951,15 @@ claims at a given time.
   pluralism is therefore a sign of epistemic underdetermination: a
   feature of our map's current limitations, not reality's supposed
   indifference. This position resonates with pragmatist accounts of
-  functional pluralism (e.g., Price 1992), which treat different
-  conceptual frameworks as tools whose legitimacy is determined by their
-  utility within a specific practice. Within this frontier, the core
-  claims of each viable competing system can be granted the status of
-  Justified Truth (Level 2). This is also the zone where non-epistemic
-  factors, such as institutional power or contingent path dependencies,
-  can play their most significant role, sometimes artificially
-  constraining the range of options explored or creating temporary
-  monopolies on what is considered justified.
+  functional pluralism (Price 1992), which treat different conceptual
+  frameworks as tools whose legitimacy is determined by their utility
+  within a specific practice. Within this frontier, the core claims of
+  each viable competing system can be granted the status of Justified
+  Truth (Level 2). This is also the zone where non-epistemic factors,
+  such as institutional power or contingent path dependencies, can play
+  their most significant role, sometimes artificially constraining the
+  range of options explored or creating temporary monopolies on what is
+  considered justified.
 
 === 4.5 Illustrative Cases of Convergence and Brittleness
 <illustrative-cases-of-convergence-and-brittleness>
@@ -1166,13 +1150,14 @@ unified logic, number theory, and analysis under a single framework -
 Appeared to exhibit low brittleness across all indicators - Provided an
 elegant foundation for mathematics
 
-#strong[Russell's Paradox (1901):] - Revealed infinite brittleness: the
-theory could derive a direct contradiction - Considered the set R = {x |
-x ∉ x}. Is R ∈ R? Both yes and no follow from the axioms - All inference
-paralyzed (if both A and ¬A are derivable, the principle of explosion
-allows derivation of anything) - Complete systemic collapse---the
-framework became unusable for rigorous mathematics - This wasn't a
-peripheral anomaly but a catastrophic failure at the system's foundation
+#strong[Russell's Paradox (Russell 1903):] - Revealed infinite
+brittleness: the theory could derive a direct contradiction - Considered
+the set R = {x | x ∉ x}. Is R ∈ R? Both yes and no follow from the
+axioms - All inference paralyzed (if both A and ¬A are derivable, the
+principle of explosion allows derivation of anything) - Complete
+systemic collapse---the framework became unusable for rigorous
+mathematics - This wasn't a peripheral anomaly but a catastrophic
+failure at the system's foundation
 
 #strong[Response 1: ZF Set Theory (Zermelo-Fraenkel + Axiom of Choice)]
 \- Added carefully chosen axioms (Replacement, Foundation, Separation)
@@ -1338,7 +1323,7 @@ Negative Canon, provides positive inductive grounds for realism about
 the objective viability landscape our theories progressively map.
 
 This provides an evolutionary, pragmatic engine for Ontic Structural
-Realism (Ladyman & Ross 2007). While OSR posits that the world is
+Realism (Ladyman and Ross 2007). While OSR posits that the world is
 fundamentally structural, our framework explains how scientific
 practices are forced to converge on these objective structures through
 pragmatic filtering. The Apex Network is the complete set of viable
@@ -1977,6 +1962,17 @@ chance of crisis within Y years given current trajectory."
 
 = References
 <references>
+Acemoglu, Daron, and James A. Robinson. 2012. #emph[Why Nations Fail:
+The Origins of Power, Prosperity, and Poverty];. New York: Crown
+Business. ISBN 9780307719225.
+
+Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism
+and Theories of Emergence." #emph[European Journal of Pragmatism and
+American Philosophy] XI-2. https:\/\/doi.org/10.4000/ejpap.1611.
+
+Bennett-Hunter, Guy. 2015. #emph[Ineffability and Religious Experience];.
+London: Routledge (originally Pickering & Chatto).
+
 BonJour, Laurence. 1985. #emph[The Structure of Empirical Knowledge];.
 Cambridge, MA: Harvard University Press.
 
@@ -2007,6 +2003,10 @@ Gendler and John Hawthorne, 167--96. Oxford: Oxford University Press.
 Kuhn, Thomas S. 1996. #emph[The Structure of Scientific Revolutions];.
 3rd ed.~Chicago: University of Chicago Press (originally 1962). ISBN
 \9780226458083.
+
+Ladyman, James, and Don Ross. 2007. #emph[Every Thing Must Go:
+Metaphysics Naturalized];. Oxford: Oxford University Press. ISBN
+\9780199573097.
 
 Lakatos, Imre. 1970. "Falsification and the Methodology of Scientific
 Research Programmes." In #emph[Criticism and the Growth of Knowledge];,
@@ -2042,6 +2042,9 @@ https:\/\/doi.org/10.1080/09515089.2023.2236120.
 Popper, Karl. 1959. #emph[The Logic of Scientific Discovery];. London:
 Hutchinson (originally 1934).
 
+Price, Huw. 1992. "Metaphysical Pluralism." #emph[Journal of Philosophy]
+89(8): 387--409. https:\/\/doi.org/10.2307/2940975.
+
 Pritchard, Duncan. 2016. "Epistemic Risk." #emph[Journal of Philosophy]
 113(11): 550--571. https:\/\/doi.org/10.5840/jphil20161131135.
 
@@ -2062,6 +2065,9 @@ Princeton, NJ: Princeton University Press.
 Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic
 Naturalism." #emph[Analyse & Kritik] 34(1): 141--56.
 https:\/\/doi.org/10.1515/ak-2012-0107.
+
+Russell, Bertrand. 1903. #emph[The Principles of Mathematics];.
+Cambridge: Cambridge University Press. ISBN 9780521062749.
 
 Sevilla, Jaime, Lennart Heim, Anson Ho, Tamay Besiroglu, Marius
 Hobbhahn, and Pablo Villalobos. 2022. "Compute Trends Across Three Eras

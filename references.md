@@ -1,4 +1,4 @@
-# References
+## References
 
 Acemoglu, Daron, and James A. Robinson. 2012. *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*. New York: Crown Business. ISBN 9780307719225.
 
@@ -12,6 +12,8 @@ Bennett-Hunter, Guy. 2015. "Emergence, Emergentism and Pragmatism." *Theology an
 
 Bennett-Hunter, Guy. 2015. *Ineffability and Religious Experience*. London: Routledge (originally Pickering & Chatto).
 
+Blackburn, Simon. 1993. *Essays in Quasi-Realism*. New York: Oxford University Press.
+
 Berlin, Brent, and Paul Kay. 1969. *Basic Color Terms: Their Universality and Evolution*. Berkeley: University of California Press.
 
 BonJour, Laurence. 1985. *The Structure of Empirical Knowledge*. Cambridge, MA: Harvard University Press.
@@ -19,6 +21,8 @@ BonJour, Laurence. 1985. *The Structure of Empirical Knowledge*. Cambridge, MA: 
 Bradie, Michael. 1986. "Assessing Evolutionary Epistemology." *Biology & Philosophy* 1(4): 401–59. https://doi.org/10.1007/BF00140962.
 
 Brandom, Robert B. 1994. *Making It Explicit: Reasoning, Representing, and Discursive Commitment*. Cambridge, MA: Harvard University Press.
+
+Buchanan, Allen, and Russell Powell. 2018. *The Evolution of Moral Progress: A Biocultural Theory*. New York: Oxford University Press.
 
 Campbell, Donald T. 1974. "Evolutionary Epistemology." In *The Philosophy of Karl R. Popper*, edited by Paul A. Schilpp, 413–63. La Salle, IL: Open Court.
 
@@ -38,6 +42,10 @@ Fricker, Elizabeth. 2007. *The Epistemology of Testimony*. Oxford: Oxford Univer
 
 Gadamer, Hans-Georg. 1975. *Truth and Method*. Translated by Joel Weinsheimer and Donald G. Marshall. New York: Continuum (originally Seabury Press; 2nd revised ed.).
 
+Gaifman, Haim, and Marc Snir. 1982. "Probabilities over rich languages, testing and randomness." *Journal of Symbolic Logic* 47(3): 495-548.
+
+Gil Martín, Francisco Javier, and Jesús Vega Encabo. 2008. "Truth and Moral Objectivity: Procedural Realism in Putnam's Pragmatism." *Theoria: An International Journal for Theory, History and Foundations of Science* 23(3): 343-356.
+
 Goldman, Alvin I. 1979. "What Is Justified Belief?" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel. https://doi.org/10.1007/978-94-009-9493-5_1.
 
 Goldman, Alvin I. 1999. *Knowledge in a Social World*. Oxford: Oxford University Press.
@@ -55,6 +63,8 @@ Henrich, Joseph. 2015. *The Secret of Our Success: How Culture Is Driving Human 
 Hodge, A. Trevor. 1992. *Roman Aqueducts & Water Supply*. London: Duckworth.
 
 Holling, C. S. 1973. "Resilience and Stability of Ecological Systems." *Annual Review of Ecology and Systematics* 4: 1–23. https://doi.org/10.1146/annurev.es.04.110173.000245.
+
+Hull, David L. 1988. *Science as a Process: An Evolutionary Account of the Social and Conceptual Development of Science*. Chicago: University of Chicago Press.
 
 Kelly, Thomas. 2005. "The Epistemic Significance of Disagreement." In *Oxford Studies in Epistemology*, vol. 1, edited by Tamar Szabó Gendler and John Hawthorne, 167–96. Oxford: Oxford University Press.
 
@@ -76,9 +86,13 @@ Laudan, Larry. 1977. *Progress and Its Problems: Towards a Theory of Scientific 
 
 Lehrer, Keith. 1990. *Theory of Knowledge*. Boulder, CO: Westview Press.
 
+Li, Y., et al. 2025. "Pragmatics in the Era of Large Language Models: A Survey on Datasets, Evaluation, Opportunities and Challenges." arXiv preprint arXiv:2302.02689.
+
 Longino, Helen E. 2002. *The Fate of Knowledge*. Princeton, NJ: Princeton University Press.
 
 Lugones, María. 2003. *Pilgrimages/Peregrinajes: Theorizing Coalition against Multiple Oppressions*. Lanham, MD: Rowman & Littlefield.
+
+Mallapaty, Smriti. 2020. "AI models fail to capture the complexity of human language." *Nature* 588: 24. https://doi.org/10.1038/d41586-020-03359-2.
 
 Lynch, Michael P. 2009. *Truth as One and Many*. Oxford: Clarendon Press.
 
@@ -93,6 +107,8 @@ Moghaddam, Ataollah. 2013. "Quine, Naturalized Epistemology, and the Third Dogma
 Newman, Mark. 2010. *Networks: An Introduction*. Oxford: Oxford University Press.
 
 Olsson, Erik J. 2005. *Against Coherence: Truth, Probability, and Justification*. Oxford: Oxford University Press.
+
+Patterson, Orlando. 1982. *Slavery and Social Death: A Comparative Study*. Cambridge, MA: Harvard University Press.
 
 Peirce, Charles S. 1992. "How to Make Our Ideas Clear." In *The Essential Peirce: Selected Philosophical Writings*, vol. 1 (1867–1893), edited by Nathan Houser and Christian Kloesel, 124–41. Bloomington: Indiana University Press (originally 1878).
 
@@ -128,6 +144,8 @@ Russell, Bertrand. 1903. *The Principles of Mathematics*. Cambridge: Cambridge U
 
 Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press. ISBN 9780199573097.
 
+Mackie, J. L. 1977. *Ethics: Inventing Right and Wrong*. London: Penguin Books.
+
 Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press.
 
 Sevilla, Jaime, Lennart Heim, Anson Ho, Tamay Besiroglu, Marius Hobbhahn, and Pablo Villalobos. 2022. "Compute Trends Across Three Eras of Machine Learning." arXiv preprint arXiv:2202.05924.
@@ -157,3 +175,37 @@ Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Sele
 Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind: An Inquiry into the Nature of Virtue and the Ethical Foundations of Knowledge*. Cambridge: Cambridge University Press.
 
 Zollman, Kevin J. S. 2013. "Network Epistemology: Communication in the History of Science." *Philosophy Compass* 8(1): 15–27. https://doi.org/10.1111/phc3.12021.
+
+World Bank. 2012. *World Development Report 2012: Gender Equality and Development*. Washington, DC: World Bank.
+
+Duflo, Esther. 2012. "Women Empowerment and Economic Development." *Journal of Economic Literature* 50(4): 1051–79.
+
+Axelrod, Robert. 1984. *The Evolution of Cooperation*. New York: Basic Books.
+
+Bagnoli, Carla, ed. 2013. *Constructivism in Ethics*. Cambridge: Cambridge University Press.
+
+Bennett, Andrew, and Jeffrey T. Checkel, eds. 2014. *Process Tracing: From Metaphor to Analytic Tool*. Cambridge: Cambridge University Press.
+
+Conquest, Robert. 1990. *The Great Terror: A Reassessment*. Oxford: Oxford University Press.
+
+Foot, Philippa. 2001. *Natural Goodness*. Oxford: Clarendon Press.
+
+Habermas, Jürgen. 1990. *Moral Consciousness and Communicative Action*. Translated by Christian Lenhardt and Shierry Weber Nicholsen. Cambridge, MA: MIT Press.
+
+Harding, Sandra G. 2004. *The Feminist Standpoint Theory Reader*. New York: Routledge.
+
+Joyce, Richard. 2001. *The Myth of Morality*. Cambridge: Cambridge University Press.
+
+Kitcher, Philip. 2011. *The Ethical Project*. Cambridge, MA: Harvard University Press.
+
+Korsgaard, Christine M. 1996. *The Sources of Normativity*. Cambridge: Cambridge University Press.
+
+Rawls, John. 1971. *A Theory of Justice*. Cambridge, MA: Harvard University Press.
+
+Scott, James C. 1998. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press.
+
+Street, Sharon. 2006. "A Darwinian Dilemma for Realist Theories of Value." *Philosophical Studies* 127(1): 109–66.
+
+Streumer, Bart. 2025. "Quasi-Realism for Realists." *Philosophers' Imprint* 25(10): 1–17.
+
+Tainter, Joseph A. 1988. *The Collapse of Complex Societies*. Cambridge: Cambridge University Press.
