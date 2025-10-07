@@ -32,8 +32,8 @@ def extract_citations_from_file(filepath, verbose=True):
 
     lines = content.split('\n')
 
-    # Pattern 1: Parenthetical citations like (Author Year) or (Author Year, page)
-    parenthetical_pattern = r'\(([A-Za-z][A-Za-z\s,&\-\.]+?)\s+(\d{4})(?:[a-z])?(?:,\s*(?:p\.?\s*)?\d+(?:-\d+)?)?\)'
+    # Pattern 1: Parenthetical citations like (Author Year), (Author, Year), or (Author Year, page)
+    parenthetical_pattern = r'\(([A-Za-z][A-Za-z\s,&\-\.]*?)(?:\s+|,\s+)([A-Za-z]+|\d{4})(?:[a-z])?(?:,\s*(?:p\.?\s*)?\d+(?:-\d+)?)?\)'
 
     # Pattern 2: In-prose citations like "Author (Year)" or "Author et al. (Year)"
     # Matches: Goldman (1979), Quine (1951), Acemoglu and Robinson (2012),
@@ -115,14 +115,22 @@ def load_references():
 
         first_line = lines[0].strip()
 
-        # Match pattern like "Author. Year." or "Author1, Author2. Year."
-        match = re.search(r'^(.+?)\s+(\d{4})\.', first_line)
+        # Match pattern like "Author. Year." or "Author1, Author2. Year." or "Author. Forthcoming."
+        match = re.search(r'^(.+?)\s+(\d{4}|[A-Z][a-z]+)\.', first_line)
         if match:
             full_author = match.group(1).strip()
             year = match.group(2)
 
             # Extract primary author (last name before first comma)
             primary_author = full_author.split(',')[0].strip()
+
+            # Check for "originally" year in the block
+            original_year = None
+            for line in lines:
+                orig_match = re.search(r'\(originally (\d{4})\)', line)
+                if orig_match:
+                    original_year = orig_match.group(1)
+                    break
 
             # Handle "Author1, Author2" format
             # Also handle "Author et al." format
@@ -142,12 +150,19 @@ def load_references():
                             key_and = f"{primary_author} and {second_author}"
                             references[key_and] = block.strip()
                             references[f"{key_and} {year}"] = block.strip()
+                            if original_year:
+                                references[f"{key_and} {original_year}"] = block.strip()
 
             # Store multiple possible keys
             references[primary_author] = block.strip()
             references[f"{primary_author} {year}"] = block.strip()
             references[full_author] = block.strip()
             references[f"{full_author} {year}"] = block.strip()
+
+            # Store with original year if available
+            if original_year:
+                references[f"{primary_author} {original_year}"] = block.strip()
+                references[f"{full_author} {original_year}"] = block.strip()
 
     return references
 
@@ -380,5 +395,60 @@ Examples:
                 quiet=args.quiet
             )
 
+def test_citation_extraction():
+    """Test citation extraction and matching."""
+    # Test data
+    test_content = """
+    This is a test (Mackie 1977) and (Blackburn 1993).
+    Also (Glenn, Forthcoming) and Goldman (1979).
+    """
+
+    # Mock references
+    test_references = {
+        "Mackie": "Mackie, J. L. 1977. *Ethics: Inventing Right and Wrong*. London: Penguin Books.",
+        "Mackie 1977": "Mackie, J. L. 1977. *Ethics: Inventing Right and Wrong*. London: Penguin Books.",
+        "Blackburn": "Blackburn, Simon. 1993. *Essays in Quasi-Realism*. New York: Oxford University Press.",
+        "Blackburn 1993": "Blackburn, Simon. 1993. *Essays in Quasi-Realism*. New York: Oxford University Press.",
+        "Glenn": "Glenn, Patrick. Forthcoming. \"The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth.\"",
+        "Glenn Forthcoming": "Glenn, Patrick. Forthcoming. \"The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth.\"",
+        "Goldman": "Goldman, Alvin I. 1979. \"What Is Justified Belief?\" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel.",
+        "Goldman 1979": "Goldman, Alvin I. 1979. \"What Is Justified Belief?\" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel.",
+    }
+
+    # Test extraction
+    from pathlib import Path
+    import tempfile
+    import os
+
+    with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as f:
+        f.write(test_content)
+        temp_file = Path(f.name)
+
+    citations = extract_citations_from_file(temp_file, verbose=False)
+    os.unlink(temp_file)
+
+    print(f"Extracted {len(citations)} citations:")
+    for c in citations:
+        print(f"  {c['citation']} -> Author: '{c['author']}', Year: '{c['year']}'")
+
+    # Test matching
+    matched = 0
+    for c in citations:
+        ref = match_citation_to_reference(c['author'], c['year'], test_references)
+        if ref:
+            matched += 1
+            print(f"  MATCHED: {c['author']} {c['year']}")
+        else:
+            print(f"  NOT MATCHED: {c['author']} {c['year']}")
+
+    print(f"Matched {matched}/{len(citations)} citations")
+
+    # Expected: all 4 should match
+    assert matched == 4, f"Expected 4 matches, got {matched}"
+
 if __name__ == '__main__':
-    main()
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == 'test':
+        test_citation_extraction()
+    else:
+        main()
