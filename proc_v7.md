@@ -50,10 +50,7 @@ These tiers are not merely a typology but a causal cascade: unaddressed Tier 1 c
 
 ### 2.3. Core Metrics
 
-While SBI is composite, we focus on two key indicators:
-
-*   **Coercion Ratio (C(t))** - Measures reliance on force over legitimacy, quantifying energy needed to manage instability.
-*   **Patch Velocity (P(t))** - Measures accumulating ideological debt, tracking how quickly systems invent justifications for failures.
+While SBI is composite, we focus on two key indicators: Coercion Ratio (C(t))—measuring reliance on force over legitimacy—and Patch Velocity (P(t))—tracking accumulating ideological debt.
 
 ### 2.4. Triangulation Method
 
@@ -94,10 +91,7 @@ Abolition of chattel slavery exemplifies systemic debugging. Its status as objec
 
 EPC analyzes ongoing debates like patriarchy's decline. The predicate "women's roles are private and subordinate" proves profoundly inefficient: massive economic losses from excluding half the population; informational costs from silencing female perspectives; high coercive costs enforcing rigid roles.
 
-Transition to egalitarianism involves short-term friction costs from social conflict. However, this is investment paying down patriarchal debt. Feminist critique wagers that fully utilizing all human resources yields greater long-term innovation and resilience (lower SBI). This transforms value clashes into empirical questions about social design efficiency. This wager is increasingly supported by evidence from development economics, which finds strong correlations between gender equality in education and economic participation and metrics of national prosperity and stability (cf. World Bank 2012; Duflo 2012).
-
-
-
+Transition to egalitarianism involves short-term friction costs from social conflict. However, this is an investment that pays down patriarchal debt. Feminist critique wagers that fully utilizing all human resources yields greater long-term innovation and resilience (lower SBI). This transforms value clashes into empirical questions about social design efficiency. This wager is increasingly supported by evidence from development economics, which finds strong correlations between gender equality in education and economic participation and metrics of national prosperity and stability (cf. World Bank 2012; Duflo 2012).
 ## 4. Pragmatic Procedural Realism: The Metaethical Framework
 
 ### 4.1. Metaethical Position
@@ -141,20 +135,20 @@ This multi-level account of normative justification is a direct application of t
 #### Level 3: Contextual Rightness (Ought of Coherence)
 Baseline level: normativity as internal network rules. Realm of cultural relativity.
 
-- **Right/Wrong**: Conforms to a specific network's predicates (e.g., the honor code of a 17th-century aristocratic dueling society, where the predicate `insults must be met with a challenge to a duel` was **Contextually Right**. Failing to issue a challenge was 'wrong' according to the internal logic of the system). Procedural correctness, not objective justification.
-- **Ought**: Internal command—"If in this network, follow its rules." Binding locally but lacks external authority. Explains how abhorrent actions were once "right," but creates coherence traps overcome by externalist checks. The 'Ought of Coherence' commanded adherence to the dueling code.
+- Right/Wrong: Conforms to a specific network's predicates (e.g., the honor code of a 17th-century aristocratic dueling society, where the predicate `insults must be met with a challenge to a duel` was contextually right. Failing to issue a challenge was 'wrong' according to the internal logic of the system). Procedural correctness, not objective justification.
+- Ought: Internal command—"If in this network, follow its rules." Binding locally but lacks external authority. Explains how abhorrent actions were once "right," but creates coherence traps overcome by externalist checks. The 'Ought of Coherence' commanded adherence to the dueling code.
 
 #### Level 2: Justified Rightness (Ought of Viability)
 Highest epistemic status: external, empirical justification.
 
-- **Right/Wrong**: Prescribed by demonstrably low-SBI networks. Wrong if reliably generates catastrophic Tier 1 Bio-Social Costs (Negative Canon membership). "Slavery is wrong" justified as high-SBI failure. However, we can diagnose the dueling system at a higher level. Historically, such honor codes generated catastrophic **Tier 1 Bio-Social Costs** (the premature deaths of valuable community members) and high **Tier 2 Costs** (resources spent on managing feuds and vendettas). Therefore, the predicate is **Justifiedly Wrong**, and its entry into the Negative Canon is warranted by the evidence.
-- **Ought**: Instrumental command—"If we aim for resilient cooperation, adopt low-brittleness principles, avoid Negative Canon predicates." The 'Ought of Viability' advises against the dueling code.
+- Right/Wrong: Prescribed by demonstrably low-SBI networks. Wrong if reliably generates catastrophic Tier 1 Bio-Social Costs (Negative Canon membership). "Slavery is wrong" justified as high-SBI failure. However, we can diagnose the dueling system at a higher level. Historically, such honor codes generated catastrophic Tier 1 Bio-Social Costs (the premature deaths of valuable community members) and high Tier 2 Costs (resources spent on managing feuds and vendettas). Therefore, the predicate is justifiedly wrong, and its entry into the Negative Canon is warranted by the evidence.
+- Ought: Instrumental command—"If we aim for resilient cooperation, adopt low-brittleness principles, avoid Negative Canon predicates." The 'Ought of Viability' advises against the dueling code.
 
 #### Level 1: Objective Rightness (Ought of Optimal Design)
 Regulative ideal: formal standard for Level 2 comparisons.
 
-- **Right/Wrong**: Core component of Apex Network—maximally viable predicates. Finally, this predicate is **Objectively Wrong** because its high-cost nature places it in direct conflict with the principles of efficient, low-cost cooperation that form the modally necessary structure of the **Apex Network**.
-- **Ought**: Commands from perfect cooperation understanding. Mind-independent standard we approximate. Principles like reciprocity, passing independent convergence tests, are strongest candidates. The 'Ought of Optimal Design' reflects the commands of a system that has solved for maximal viability, a solution this dueling code demonstrably fails to achieve.
+- Right/Wrong: Core component of Apex Network—maximally viable predicates. Finally, this predicate is objectively wrong because its high-cost nature places it in direct conflict with the principles of efficient, low-cost cooperation that form the modally necessary structure of the Apex Network.
+- Ought: Commands from perfect cooperation understanding. Mind-independent standard we approximate. Principles like reciprocity, passing independent convergence tests, are strongest candidates. The 'Ought of Optimal Design' reflects the commands of a system that has solved for maximal viability, a solution this dueling code demonstrably fails to achieve.
 
 ### 4.5. The Entrenchment of Moral Principles: From Hypothesis to Core Norm
 
@@ -203,20 +197,13 @@ Making viability the standard appears circular, smuggling normative commitment t
 
 ### 5.6. Principled Limitations
 
-**The Viable Evil Possibility:** If a deeply repugnant system achieved genuinely low brittleness (minimal coercive costs, stable demographics, innovation, adaptation), the framework would have to acknowledge it as viable, though not necessarily just by other standards.
+**The Viable Evil Possibility:** If a deeply repugnant system achieved genuinely low brittleness (minimal coercive costs, stable demographics, innovation, adaptation), the framework would acknowledge it as viable, though not necessarily just by other standards.
 
-**Example:** Hypothetical perfectly internalized caste system where:
-- Lower castes genuinely accept their position (minimal coercion)
-- No measurable demographic stress
-- Stable innovation rates
-- Low enforcement costs
-- But intuitively morally repugnant
+**Example:** A hypothetical perfectly internalized caste system where lower castes genuinely accept their position (minimal coercion), with no demographic stress, stable innovation, and low enforcement costs—yet intuitively morally repugnant.
 
-**Why We Accept This:** Intellectual honesty. The framework is incomplete—it maps pragmatic viability, not all moral dimensions. If such a system existed (we doubt it does—internalization itself has costs), it would fall in Pluralist Frontier, not Negative Canon.
+**Why We Accept This:** Intellectual honesty. The framework maps pragmatic viability, not all moral dimensions. If such a system existed (we doubt it does—internalization has costs), it would fall in the Pluralist Frontier, not Negative Canon.
 
-**Empirical Bet:** We predict that such systems are not merely repugnant but are, in fact, inherently brittle. Critics might point to the apparent long-term stability of systems like the Ottoman Empire's devşirme system or historical caste systems in India as counterexamples. However, our framework predicts, and historical analysis confirms, that such systems exhibit high underlying brittleness masked by coercive power. Their apparent stability was purchased at the cost of massive Coercive Overheads (C(t))—such as the resources spent on enforcing purity laws, suppressing revolts, and managing internal dissent—and they consistently demonstrated innovation lags and fragility in the face of external shocks, confirming their position on the landscape of non-viability (cf. Acemoglu & Robinson 2012; Turchin 2003). True internalization without coercion is rare and resource-intensive, while oppression reliably generates hidden costs that emerge under stress.
-
-The framework wagers that a system like *Brave New World* is not genuinely low-brittleness. Its stability depends on the systematic suppression of cognitive and emotional capacities, which constitutes a massive Information Suppression Cost (a component of Tier 2) and cripples the system's long-term adaptive potential (its Resilience Reserve, R(t)). Its apparent lack of coercion is an illusion, replaced by a form of preemptive psychological control whose systemic costs would become apparent in the face of novel, unanticipated shocks.
+**Empirical Bet:** We predict such systems are inherently brittle. Apparent stability in historical examples like Ottoman devşirme or Indian caste systems masks high coercive overheads (C(t)), innovation lags, and fragility under shocks (cf. Acemoglu & Robinson 2012; Turchin 2003). True internalization without coercion is rare; oppression generates hidden costs. Systems like *Brave New World* suppress cognitive capacities, incurring massive information suppression costs (Tier 2) that cripple long-term adaptation.
 
 - **Species-Specific**: Apex Network for cooperative primates like humans. Empirical discipline, not relativism.
 - **Floor Not Ceiling**: Maps viability necessities, not flourishing sufficiency.
