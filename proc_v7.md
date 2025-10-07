@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This paper extends Emergent Pragmatic Coherentism (EPC) from our previous work to metaethics, developing Pragmatic Procedural Realism—a naturalistic theory of moral objectivity grounded in systems theory and historical analysis. Unlike Kantian proceduralism, which relies on idealized rational procedures, our approach identifies objectivity with the actual historical process of pragmatic selection. We operationalize EPC's Systemic Brittleness Index through measurable proxies like the Coercion Ratio (C(t)) and Patch Velocity (P(t)), showing how normative claims are filtered by their real-world costs. This enables construction of a Negative Canon of empirically falsified moral principles, framing moral progress as systemic debugging. Moral objectivity emerges as a procedural fact about which normative architectures prove resilient. The result is a fallibilist realism that naturalizes moral reference while decisively responding to error theory (Mackie 1977) and quasi-realism (Blackburn 1993).
+This paper extends Emergent Pragmatic Coherentism (EPC) from our previous work to metaethics, developing Pragmatic Procedural Realism—a naturalistic theory of moral objectivity grounded in systems theory and historical analysis. Unlike Kantian proceduralism, which relies on idealized rational procedures, our approach identifies objectivity with the actual historical process of pragmatic selection. We operationalize EPC's Systemic Brittleness Index through measurable proxies like the Coercion Ratio (C(t)) and Patch Velocity (P(t)), showing how normative claims are filtered by their real-world costs. This enables construction of a Negative Canon of empirically falsified moral principles, framing moral progress as systemic debugging. Moral objectivity emerges as a procedural fact about which normative architectures prove resilient. The result is a fallibilist realism that naturalizes moral reference while decisively responding to error theory (Mackie 1977) and quasi-realism (Blackburn 1993), reframing moral inquiry as an empirical, engineering discipline aimed at cultivating more viable social worlds.
 
 ## 1. Introduction: From Static Gaps to a Dynamic Filter
 
@@ -50,7 +50,7 @@ These tiers are not merely a typology but a causal cascade: unaddressed Tier 1 c
 
 ### 2.3. Core Metrics
 
-While SBI is composite, we focus on two key indicators: Coercion Ratio (C(t))—measuring reliance on force over legitimacy—and Patch Velocity (P(t))—tracking accumulating ideological debt.
+While the SBI is a composite index, our analysis focuses on two of its most powerful indicators: the **Coercion Ratio (C(t))**, which measures a system's reliance on force over legitimacy, and **Patch Velocity (P(t))**, which tracks its accumulation of ideological debt.
 
 ### 2.4. Triangulation Method
 
@@ -132,23 +132,11 @@ This framework maps normativity's "floor"—non-negotiable viability conditions�
 
 This multi-level account of normative justification is a direct application of the general three-level framework for truth developed in EPC (see Glenn, Forthcoming, Section 4.3). EPC's truth theory distinguishes three levels of moral claims, resolving relativism-objectivity tension. Normativity ascends through justificatory levels, from local coherence to objective viability.
 
-### 4.4.1 Contextual Rightness (Ought of Coherence)
-Baseline level: normativity as internal network rules. Realm of cultural relativity.
+First, at the baseline is **Contextual Rightness (the 'Ought' of Coherence).** This is the realm of cultural relativity, where normativity is a function of a network's internal rules. For example, in the honor code of a 17th-century dueling society, the predicate `insults must be met with a challenge to a duel` was contextually right. Failing to issue a challenge was 'wrong' according to the internal logic of the system. This level provides procedural correctness, not objective justification. The 'Ought of Coherence' is an internal command—"If in this network, follow its rules." It binds locally but lacks external authority, explaining how abhorrent actions were once "right" while creating coherence traps overcome by externalist checks.
 
-- Right/Wrong: Conforms to a specific network's predicates (e.g., the honor code of a 17th-century aristocratic dueling society, where the predicate `insults must be met with a challenge to a duel` was contextually right. Failing to issue a challenge was 'wrong' according to the internal logic of the system). Procedural correctness, not objective justification.
-- Ought: Internal command—"If in this network, follow its rules." Binding locally but lacks external authority. Explains how abhorrent actions were once "right," but creates coherence traps overcome by externalist checks. The 'Ought of Coherence' commanded adherence to the dueling code.
+Second, the highest achievable epistemic status is **Justified Rightness (the 'Ought' of Viability).** This level provides external, empirical justification. While the dueling code was contextually right, a historical diagnosis reveals its catastrophic Tier 1 Bio-Social Costs (the premature deaths of valuable community members) and high Tier 2 Costs (resources spent on managing feuds and vendettas). Therefore, the predicate is justifiedly wrong, and its entry into the Negative Canon is warranted by the evidence. The 'Ought of Viability' is an instrumental command—"If we aim for resilient cooperation, adopt low-brittleness principles, avoid Negative Canon predicates." It advises against the dueling code.
 
-### 4.4.2 Justified Rightness (Ought of Viability)
-Highest epistemic status: external, empirical justification.
-
-- Right/Wrong: Prescribed by demonstrably low-SBI networks. Wrong if reliably generates catastrophic Tier 1 Bio-Social Costs (Negative Canon membership). "Slavery is wrong" justified as high-SBI failure. However, we can diagnose the dueling system at a higher level. Historically, such honor codes generated catastrophic Tier 1 Bio-Social Costs (the premature deaths of valuable community members) and high Tier 2 Costs (resources spent on managing feuds and vendettas). Therefore, the predicate is justifiedly wrong, and its entry into the Negative Canon is warranted by the evidence.
-- Ought: Instrumental command—"If we aim for resilient cooperation, adopt low-brittleness principles, avoid Negative Canon predicates." The 'Ought of Viability' advises against the dueling code.
-
-### 4.4.3 Objective Rightness (Ought of Optimal Design)
-Regulative ideal: formal standard for Level 2 comparisons.
-
-- Right/Wrong: Core component of Apex Network—maximally viable predicates. Finally, this predicate is objectively wrong because its high-cost nature places it in direct conflict with the principles of efficient, low-cost cooperation that form the modally necessary structure of the Apex Network.
-- Ought: Commands from perfect cooperation understanding. Mind-independent standard we approximate. Principles like reciprocity, passing independent convergence tests, are strongest candidates. The 'Ought of Optimal Design' reflects the commands of a system that has solved for maximal viability, a solution this dueling code demonstrably fails to achieve.
+Finally, the regulative ideal is **Objective Rightness (the 'Ought' of Optimal Design).** This represents the formal standard for Level 2 comparisons. The dueling predicate is objectively wrong because its high-cost nature places it in direct conflict with the principles of efficient, low-cost cooperation that form the modally necessary structure of the Apex Network. The 'Ought of Optimal Design' commands from perfect cooperation understanding, a mind-independent standard we approximate. Principles like reciprocity, passing independent convergence tests, are strongest candidates. It reflects the commands of a system that has solved for maximal viability, a solution this dueling code demonstrably fails to achieve.
 
 ### 4.5. The Entrenchment of Moral Principles: From Hypothesis to Core Norm
 
@@ -203,7 +191,7 @@ Example: A hypothetical perfectly internalized caste system where lower castes g
 
 **Why We Accept This:** Intellectual honesty. The framework maps pragmatic viability, not all moral dimensions. If such a system existed (we doubt it does—internalization has costs), it would fall in the Pluralist Frontier, not Negative Canon.
 
-**Empirical Bet:** We predict such systems are inherently brittle. Apparent stability in historical examples like Ottoman devşirme or Indian caste systems masks high coercive overheads (C(t)), innovation lags, and fragility under shocks (cf. Acemoglu & Robinson 2012; Turchin 2003). True internalization without coercion is rare; oppression generates hidden costs. Systems like *Brave New World* suppress cognitive capacities, incurring massive information suppression costs (Tier 2) that cripple long-term adaptation.
+**Empirical Bet:** Our empirical wager is that such systems are inherently brittle. Apparent stability in historical examples like Ottoman devşirme or Indian caste systems masks high coercive overheads (C(t)), innovation lags, and fragility under shocks (cf. Acemoglu & Robinson 2012; Turchin 2003). True, cost-free internalization is a sociological unicorn; oppression always generates hidden costs that manifest under stress. Systems like *Brave New World* suppress cognitive capacities, incurring massive information suppression costs (Tier 2) that cripple long-term adaptation.
 
 - **Species-Specific**: Apex Network for cooperative primates like humans. Empirical discipline, not relativism.
 - **Floor Not Ceiling**: Maps viability necessities, not flourishing sufficiency.
