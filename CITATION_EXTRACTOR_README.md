@@ -16,6 +16,8 @@ Enhanced Python script to extract and verify citations in academic papers.
 
 - **Organized Results**: Groups citations by file with clear formatting
 
+- **🆕 Reference File Generation**: Automatically generates a filtered `references.md` file containing ONLY the references cited in your paper (perfect for submission-ready reference lists)
+
 ## Usage
 
 ### Basic Usage
@@ -40,13 +42,14 @@ python citation_extractor.py final.md -o final_cites.txt
 python citation_extractor.py [files...] [options]
 
 Arguments:
-  files              Specific .md files to scan (optional)
+  files                   Specific .md files to scan (optional)
 
 Options:
-  -o, --output FILE  Output file name (default: citations_found.txt)
-  -a, --append       Append to output instead of overwriting
-  -q, --quiet        Suppress progress messages
-  -h, --help         Show help message
+  -o, --output FILE       Output file name (default: citations_found.txt)
+  -r, --generate-references FILE   Generate filtered references.md with only cited refs
+  -a, --append            Append to output instead of overwriting
+  -q, --quiet             Suppress progress messages
+  -h, --help              Show help message
 ```
 
 ### Examples
@@ -54,6 +57,12 @@ Options:
 ```bash
 # Check only the main paper
 python citation_extractor.py final.md -o final_check.txt
+
+# 🆕 Generate submission-ready references file
+python citation_extractor.py final.md -r final_references.md
+
+# 🆕 Generate references quietly (no console output)
+python citation_extractor.py final.md -r final_refs.md -q
 
 # Scan multiple files
 python citation_extractor.py final.md paper.md -o combined.txt
@@ -63,6 +72,45 @@ python citation_extractor.py final.md -a
 
 # Silent mode (no console output)
 python citation_extractor.py -q
+```
+
+### Reference File Generation (New Feature!)
+
+The `-r` or `--generate-references` option creates a new references file containing ONLY the citations actually used in your paper:
+
+```bash
+python citation_extractor.py final.md -r final_references.md
+```
+
+**What it does:**
+1. Scans your paper for all citations
+2. Looks up each citation in your master `references.md`
+3. Generates a new file with only the cited references
+4. Sorts them alphabetically
+5. Adds metadata comments (source file, date, count)
+6. Lists any missing references as comments
+
+**Use cases:**
+- Creating submission-ready reference lists (no unused refs!)
+- Splitting papers and keeping references separate
+- Verifying all citations have corresponding references
+- Cleaning up after merging/editing
+
+**Example output:**
+```markdown
+# References
+
+<!-- Generated from: final.md -->
+<!-- Date: 2025-10-07 08:07:55 -->
+<!-- Total references: 32 -->
+
+Acemoglu, Daron, and James A. Robinson. 2012. *Why Nations Fail...
+
+[... 32 references used in final.md ...]
+
+<!-- MISSING REFERENCES (Not found in references.md) -->
+<!-- Please add these to references.md: -->
+<!-- Author (2020) -->
 ```
 
 ## Output Format

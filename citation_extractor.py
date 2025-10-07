@@ -181,6 +181,60 @@ def match_citation_to_reference(author, year, references):
 
     return None
 
+def generate_references_file(citations, references, output_file, paper_files, quiet=False):
+    """Generate a new references.md file containing only cited references."""
+    # Collect unique references
+    unique_refs = {}
+    missing_refs = []
+
+    for citation in citations:
+        ref = match_citation_to_reference(citation['author'], citation['year'], references)
+        if ref:
+            # Use the first line as a key to avoid duplicates
+            first_line = ref.split('\n')[0].strip()
+            if first_line not in unique_refs:
+                unique_refs[first_line] = ref
+        else:
+            missing_refs.append(f"{citation['author']} ({citation['year']})")
+
+    if not quiet:
+        print(f"\n{'='*60}")
+        print(f"Generating references file: {output_file}")
+        print(f"Found {len(unique_refs)} unique references")
+        if missing_refs:
+            print(f"WARNING: {len(missing_refs)} citations not found in references.md")
+        print(f"{'='*60}\n")
+
+    # Sort references alphabetically by primary author
+    sorted_refs = sorted(unique_refs.values(), key=lambda x: x.split('.')[0].strip().lower())
+
+    # Write to file
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write("# References\n\n")
+        f.write(f"<!-- Generated from: {', '.join(pf.name for pf in paper_files)} -->\n")
+        f.write(f"<!-- Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->\n")
+        f.write(f"<!-- Total references: {len(sorted_refs)} -->\n\n")
+
+        for ref in sorted_refs:
+            f.write(f"{ref}\n\n")
+
+        if missing_refs:
+            f.write("\n<!-- MISSING REFERENCES (Not found in references.md) -->\n")
+            f.write("<!-- Please add these to references.md: -->\n\n")
+            for missing in sorted(set(missing_refs)):
+                f.write(f"<!-- {missing} -->\n")
+
+    if not quiet:
+        print(f"[OK] References file generated: {output_file}")
+        print(f"  - {len(sorted_refs)} references included")
+        if missing_refs:
+            print(f"  - {len(set(missing_refs))} missing citations noted in comments")
+            print(f"\nMissing references:")
+            for missing in sorted(set(missing_refs)):
+                print(f"  - {missing}")
+
+    return len(sorted_refs), len(set(missing_refs))
+
 def main():
     """Main function to extract citations with command-line argument support."""
     parser = argparse.ArgumentParser(
@@ -192,6 +246,8 @@ Examples:
   python citation_extractor.py final.md          # Scan specific file
   python citation_extractor.py -o output.txt     # Custom output file
   python citation_extractor.py final.md -o citations.txt
+  python citation_extractor.py final.md -r final_references.md  # Generate references file
+  python citation_extractor.py final.md -r final_refs.md -q     # Quiet mode
         """
     )
 
@@ -203,6 +259,8 @@ Examples:
                        help='Suppress progress messages')
     parser.add_argument('-a', '--append', action='store_true',
                        help='Append to output file instead of overwriting')
+    parser.add_argument('-r', '--generate-references', metavar='REFFILE',
+                       help='Generate a references.md file containing only citations from scanned file(s)')
 
     args = parser.parse_args()
 
@@ -304,6 +362,19 @@ Examples:
 
     if not args.quiet:
         print(f"Results {'appended to' if args.append else 'written to'} {args.output}")
+
+    # Generate references file if requested
+    if args.generate_references:
+        if not all_citations:
+            print("Warning: No citations found, cannot generate references file")
+        else:
+            generate_references_file(
+                all_citations,
+                references,
+                args.generate_references,
+                paper_files,
+                quiet=args.quiet
+            )
 
 if __name__ == '__main__':
     main()

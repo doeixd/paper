@@ -78,13 +78,15 @@ if you have sub-agents. dont be scared of using them
 ## Available Tools and Scripts
 
 ### Enhanced Citation Extraction Script (`citation_extractor.py`)
-- **Purpose**: Automatically scans markdown files for both parenthetical and in-prose citations, extracts context, and matches to full references
+- **Purpose**: Automatically scans markdown files for both parenthetical and in-prose citations, extracts context, matches to full references, and can generate filtered reference lists
 - **Basic Usage**:
   - `python citation_extractor.py` - Scans all .md files
   - `python citation_extractor.py final.md` - Scans specific file
   - `python citation_extractor.py final.md -o my_output.txt` - Custom output file
+  - `python citation_extractor.py final.md -r final_references.md` - Generate filtered references file
 - **Command-Line Options**:
   - `-o, --output FILE` - Custom output filename (default: citations_found.txt)
+  - `-r, --generate-references FILE` - **🆕 Generate a references.md file with ONLY cited references**
   - `-a, --append` - Append to existing file instead of overwriting
   - `-q, --quiet` - Suppress progress messages
   - `-h, --help` - Show usage help
@@ -99,11 +101,19 @@ if you have sub-agents. dont be scared of using them
   - Complete reference entry from `references.md`
   - "NOT FOUND" warning if reference missing
   - Results grouped by file for organization
+- **🆕 Reference File Generation**: The `-r` flag creates a filtered references file containing ONLY citations used in the specified paper:
+  - Extracts all citations from your paper
+  - Looks up each in master `references.md`
+  - Generates new file with only used references
+  - Sorts alphabetically
+  - Adds metadata (source, date, count)
+  - Lists missing citations as comments
+  - **Use cases**: Submission-ready reference lists, splitting papers, verifying completeness, cleaning up after edits
 - **Reference Matching**: Intelligent matching handles:
   - Primary author vs. full author names
   - "et al." citations (strips and matches primary author)
   - "and" vs. "&" variations
   - Multiple citation formats for same source
 - **Coverage**: Processes specified files or all `.md` files (excluding `references.md` and files starting with `citations_`)
-- **Use Case**: Comprehensive audit of all scholarly citations for verification, consistency checking, and ensuring all citations have corresponding references
+- **Use Case**: Comprehensive audit of all scholarly citations for verification, consistency checking, ensuring all citations have corresponding references, and generating submission-ready reference lists
 - **Documentation**: See `CITATION_EXTRACTOR_README.md` for complete usage guide and examples
