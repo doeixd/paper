@@ -6,7 +6,9 @@
   },
   "output": {
     "filename": null,
-    "directory": "releases"
+    "directory": "releases",
+    "overwrite_existing": false,
+    "backup_existing": true
   },
   "attachments": {
     "front": [],
@@ -15,12 +17,20 @@
   "cleanup": {
     "intermediate_files": true,
     "temp_files": true,
-    "keep_logs": false
+    "keep_logs": false,
+    "backup_directory": "backups"
+  },
+  "processing": {
+    "max_retries": 2,
+    "timeout": 300,
+    "verbose": false
   },
   "metadata": {
     "author": "Unknown",
     "title": "Academic Paper",
     "version": "1.0",
-    "date": "2025-10-07"
+    "date": "2025-10-07",
+    "keywords": [],
+    "abstract": null
   }
 }

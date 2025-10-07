@@ -148,3 +148,9 @@ This book applies evolutionary theory to culture, explaining cultural change via
 ### 73. Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind: An Inquiry into the Nature of Virtue and the Ethical Foundations of Knowledge*. Cambridge: Cambridge University Press.
 
 ### 74. Zollman, Kevin J. S. 2013. "Network Epistemology: Communication in the History of Science." *Philosophy Compass* 8(1): 15–27. https://doi.org/10.1111/phc3.12021.
+
+### 75. Russell, Bertrand. 1903. *The Principles of Mathematics*. Cambridge: Cambridge University Press.
+The book develops a comprehensive logical foundation for mathematics, introducing the theory of types to resolve paradoxes like Russell's paradox. It argues that mathematics can be reduced to logic, laying the groundwork for modern mathematical logic and analytic philosophy.
+
+### 76. Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
+The book advocates for naturalizing metaphysics by eliminating traditional metaphysical concepts that lack scientific grounding. It proposes replacing them with scientifically informed alternatives based on physics, biology, and cognitive science.

@@ -1,6 +1,9 @@
 #set text(
   font: "New Computer Modern"
 )
+#set text(
+  weight: "light"
+)
 
 #set page(margin: (top: 1.25cm, bottom: 1cm, left: 3.5cm, right: 3.5cm))
 

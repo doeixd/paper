@@ -178,16 +178,28 @@ class ReleaseConfig:
             self.errors.append(f"Config file error: {e}")
 
     def _validate_config(self) -> None:
-        """Validate configuration values."""
+        """Validate configuration values with detailed error messages."""
         # Validate format
         valid_formats = ['typst', 'latex']
-        if self.get('format') not in valid_formats:
-            self.errors.append(f"Invalid format '{self.get('format')}'. Must be one of: {valid_formats}")
+        format_value = self.get('format')
+        if format_value not in valid_formats:
+            self.errors.append(f"Invalid format '{format_value}'. Must be one of: {', '.join(valid_formats)}")
 
         # Validate output directory
         output_dir = self.get('output.directory')
-        if output_dir and not isinstance(output_dir, str):
-            self.errors.append("output.directory must be a string")
+        if output_dir is not None:
+            if not isinstance(output_dir, str):
+                self.errors.append("output.directory must be a string")
+            elif output_dir.strip() == "":
+                self.errors.append("output.directory cannot be empty")
+
+        # Validate filename
+        filename = self.get('output.filename')
+        if filename is not None:
+            if not isinstance(filename, str):
+                self.errors.append("output.filename must be a string")
+            elif '/' in filename or '\\' in filename:
+                self.errors.append("output.filename should not contain path separators")
 
         # Validate attachments
         for attach_type in ['front', 'end']:
@@ -196,19 +208,55 @@ class ReleaseConfig:
                 self.errors.append(f"attachments.{attach_type} must be a list")
                 continue
 
-            for attachment in attachments:
+            for i, attachment in enumerate(attachments):
                 if not isinstance(attachment, str):
-                    self.errors.append(f"All attachments in {attach_type} must be strings (filenames)")
-                    break
+                    self.errors.append(f"Attachment {i} in {attach_type} must be a string (filename)")
+                elif attachment.strip() == "":
+                    self.errors.append(f"Attachment {i} in {attach_type} cannot be empty")
 
         # Validate processing options
         max_retries = self.get('processing.max_retries', 2)
         if not isinstance(max_retries, int) or max_retries < 0:
             self.errors.append("processing.max_retries must be a non-negative integer")
+        elif max_retries > 10:
+            self.errors.append("processing.max_retries seems too high (>10), may indicate configuration issue")
 
         timeout = self.get('processing.timeout', 300)
         if not isinstance(timeout, (int, float)) or timeout <= 0:
             self.errors.append("processing.timeout must be a positive number")
+        elif timeout > 3600:  # 1 hour
+            self.errors.append("processing.timeout seems too high (>3600s), may indicate configuration issue")
+
+        # Validate preamble files
+        for fmt in ['typst', 'latex']:
+            preamble = self.get(f'preamble.{fmt}')
+            if preamble is not None:
+                if not isinstance(preamble, str):
+                    self.errors.append(f"preamble.{fmt} must be a string (filename)")
+                elif preamble.strip() == "":
+                    self.errors.append(f"preamble.{fmt} cannot be empty")
+
+        # Validate metadata
+        metadata = self.get('metadata', {})
+        if not isinstance(metadata, dict):
+            self.errors.append("metadata must be a dictionary")
+        else:
+            # Check specific metadata fields
+            if 'title' in metadata and not isinstance(metadata['title'], str):
+                self.errors.append("metadata.title must be a string")
+            if 'author' in metadata and not isinstance(metadata['author'], str):
+                self.errors.append("metadata.author must be a string")
+
+        # Cross-validation
+        format_type = self.get('format')
+        preamble_file = self.get(f'preamble.{format_type}')
+        if preamble_file and not Path(preamble_file).exists():
+            self.errors.append(f"Preamble file for {format_type} not found: {preamble_file}")
+
+        # Check backup directory
+        backup_dir = self.get('cleanup.backup_directory')
+        if backup_dir and not isinstance(backup_dir, str):
+            self.errors.append("cleanup.backup_directory must be a string")
 
     def _deep_merge(self, base: Dict[str, Any], update: Dict[str, Any]) -> None:
         """Deep merge two dictionaries with type checking."""
@@ -341,7 +389,7 @@ class PaperRelease:
             raise
 
     def _validate_input(self, input_file: str) -> Path:
-        """Validate input file and return Path object."""
+        """Validate input file and return Path object with comprehensive checks."""
         input_path = Path(input_file)
 
         if not input_path.exists():
@@ -350,13 +398,56 @@ class PaperRelease:
         if not input_path.is_file():
             raise ValueError(f"Input path is not a file: {input_file}")
 
+        # Check file extension
         if input_path.suffix.lower() != '.md':
             logger.warning(f"Input file '{input_file}' does not have .md extension. Proceeding anyway.")
 
+        # Check file readability and encoding
+        try:
+            with open(input_path, 'r', encoding='utf-8') as f:
+                # Try to read first few lines to validate encoding
+                lines = f.readlines(1000)  # Read first 1000 chars worth of lines
+                if not lines:
+                    raise ValueError(f"Input file appears to be empty: {input_file}")
+        except UnicodeDecodeError:
+            # Try alternative encodings
+            for encoding in ['utf-8-sig', 'latin-1', 'cp1252']:
+                try:
+                    with open(input_path, 'r', encoding=encoding) as f:
+                        f.read(1000)
+                    logger.warning(f"File uses {encoding} encoding instead of UTF-8")
+                    break
+                except UnicodeDecodeError:
+                    continue
+            else:
+                raise ValueError(f"Cannot read input file with any supported encoding: {input_file}")
+        except PermissionError:
+            raise PermissionError(f"Cannot read input file (permission denied): {input_file}")
+        except Exception as e:
+            raise ValueError(f"Error reading input file: {e}")
+
+        # Check file size
+        file_size = input_path.stat().st_size
+        if file_size == 0:
+            raise ValueError(f"Input file is empty: {input_file}")
+
+        max_size = 100 * 1024 * 1024  # 100MB limit
+        if file_size > max_size:
+            raise ValueError(f"Input file too large ({file_size} bytes, max {max_size}): {input_file}")
+
         # Check if references.md exists
-        if not Path('references.md').exists():
+        refs_path = Path('references.md')
+        if not refs_path.exists():
             raise FileNotFoundError("references.md not found in current directory")
 
+        # Validate references.md readability
+        try:
+            with open(refs_path, 'r', encoding='utf-8') as f:
+                f.read(1000)  # Quick readability check
+        except Exception as e:
+            logger.warning(f"Warning: Cannot validate references.md readability: {e}")
+
+        logger.info(f"Input validation passed: {input_path} ({file_size} bytes)")
         return input_path
 
     def _prepare_output_path(self, input_path: Path, output_file: Optional[str]) -> Path:
@@ -451,78 +542,140 @@ class PaperRelease:
         return None
 
     def _convert_paper(self, input_path: Path) -> Path:
-        """Convert markdown to target format (Typst/LaTeX) with error handling."""
+        """Convert markdown to target format (Typst/LaTeX) with comprehensive error handling."""
         logger.info("Converting markdown to target format...")
+
+        # Validate input file
+        if not input_path.exists():
+            raise FileNotFoundError(f"Input file not found: {input_path}")
+
+        if not input_path.is_file():
+            raise ValueError(f"Input path is not a file: {input_path}")
+
+        # Check file size (reasonable limit)
+        file_size = input_path.stat().st_size
+        if file_size == 0:
+            raise ValueError(f"Input file is empty: {input_path}")
+        if file_size > 50 * 1024 * 1024:  # 50MB limit
+            raise ValueError(f"Input file too large ({file_size} bytes): {input_path}")
 
         max_retries = self.config.get('processing.max_retries', 2)
 
         for attempt in range(max_retries + 1):
             try:
-                # Step 1: Extract citations
+                # Step 1: Extract citations with error handling
                 logger.info("Extracting citations...")
-                citations = extract_citations_from_file(str(input_path))
-                logger.info(f"Found {len(citations)} citations")
+                try:
+                    citations = extract_citations_from_file(str(input_path))
+                    logger.info(f"Found {len(citations)} citations")
+                except Exception as e:
+                    logger.error(f"Failed to extract citations: {e}")
+                    raise RuntimeError(f"Citation extraction failed: {e}")
 
                 if not citations:
-                    logger.warning("No citations found in input file")
+                    logger.warning("No citations found in input file - proceeding anyway")
 
-                # Step 2: Load and filter references
+                # Step 2: Load and filter references with error handling
                 logger.info("Loading and filtering references...")
-                references = load_references()
-                logger.info(f"Loaded {len(references)} reference entries")
+                try:
+                    references = load_references()
+                    logger.info(f"Loaded {len(references)} reference entries")
+                except Exception as e:
+                    logger.error(f"Failed to load references: {e}")
+                    raise RuntimeError(f"Reference loading failed: {e}")
 
                 filtered_refs_file = input_path.with_stem(f"{input_path.stem}_refs_filtered")
-                num_refs, num_missing = generate_filtered_references(citations, references, str(filtered_refs_file))
+                try:
+                    num_refs, num_missing = generate_filtered_references(citations, references, str(filtered_refs_file))
+                    logger.info(f"Generated {num_refs} filtered references")
+                    if num_missing > 0:
+                        logger.warning(f"{num_missing} citations not found in references.md")
+                except Exception as e:
+                    logger.error(f"Failed to generate filtered references: {e}")
+                    raise RuntimeError(f"Reference filtering failed: {e}")
 
-                if num_missing > 0:
-                    logger.warning(f"{num_missing} citations not found in references.md")
+                # Verify filtered references file was created
+                if not Path(filtered_refs_file).exists():
+                    raise FileNotFoundError(f"Failed to create filtered references file: {filtered_refs_file}")
 
-                # Step 3: Combine paper and references
+                # Step 3: Combine paper and references with error handling
                 logger.info("Combining paper with filtered references...")
                 combined_file = input_path.with_stem(f"{input_path.stem}_combined")
-                combine_paper_and_references(str(input_path), str(filtered_refs_file), str(combined_file))
+                try:
+                    combine_paper_and_references(str(input_path), str(filtered_refs_file), str(combined_file))
+                except Exception as e:
+                    logger.error(f"Failed to combine paper and references: {e}")
+                    raise RuntimeError(f"File combination failed: {e}")
 
-                # Verify combined file was created
-                if not combined_file.exists():
+                # Verify combined file was created and has content
+                combined_path = Path(combined_file)
+                if not combined_path.exists():
                     raise FileNotFoundError(f"Failed to create combined file: {combined_file}")
 
-                # Step 4: Convert to target format
+                combined_size = combined_path.stat().st_size
+                if combined_size == 0:
+                    raise ValueError(f"Combined file is empty: {combined_file}")
+
+                logger.info(f"Combined file created: {combined_size} bytes")
+
+                # Step 4: Convert to target format with comprehensive error handling
                 format_type = self.config.get('format')
                 preamble_file = self.config.get(f'preamble.{format_type}')
 
                 logger.info(f"Converting to {format_type} format...")
-                target_file = combined_file.with_suffix(f'.{format_type}')
+                target_file = combined_path.with_suffix(f'.{format_type}')
 
                 # Check preamble file if specified
-                if preamble_file and not Path(preamble_file).exists():
-                    logger.warning(f"Preamble file not found: {preamble_file}")
-                    preamble_file = None
+                if preamble_file:
+                    preamble_path = Path(preamble_file)
+                    if not preamble_path.exists():
+                        logger.warning(f"Preamble file not found: {preamble_file}")
+                        preamble_file = None
+                    elif not preamble_path.is_file():
+                        logger.warning(f"Preamble path is not a file: {preamble_file}")
+                        preamble_file = None
 
-                # Use pandoc for conversion with timeout
+                # Use pandoc for conversion with timeout and error handling
                 timeout = self.config.get('processing.timeout', 300)
-                success, error = self._run_with_timeout(
-                    lambda: convert_with_pandoc(str(combined_file), str(target_file), format_type, preamble_file),
-                    timeout
-                )
+                try:
+                    success, error = self._run_with_timeout(
+                        lambda: convert_with_pandoc(str(combined_file), str(target_file), format_type, preamble_file),
+                        timeout
+                    )
+                except Exception as e:
+                    logger.error(f"Pandoc conversion timed out or failed: {e}")
+                    raise RuntimeError(f"Format conversion failed: {e}")
 
                 if not success:
-                    raise RuntimeError(f"Format conversion failed: {error}")
+                    error_msg = error.strip() if error else "Unknown error"
+                    logger.error(f"Pandoc conversion failed: {error_msg}")
+                    raise RuntimeError(f"Format conversion failed: {error_msg}")
 
-                # Verify target file was created
-                if not target_file.exists():
+                # Verify target file was created and has content
+                target_path = Path(target_file)
+                if not target_path.exists():
                     raise FileNotFoundError(f"Conversion did not create target file: {target_file}")
 
+                target_size = target_path.stat().st_size
+                if target_size == 0:
+                    raise ValueError(f"Target file is empty: {target_file}")
+
+                logger.info(f"Target file created: {target_size} bytes")
+
                 # Track intermediate files
-                self.intermediate_files.extend([filtered_refs_file, combined_file])
+                self.intermediate_files.extend([Path(filtered_refs_file), combined_path])
 
                 logger.info(f"Successfully converted to {format_type}: {target_file}")
-                return target_file
+                return target_path
 
             except Exception as e:
                 if attempt < max_retries:
                     logger.warning(f"Attempt {attempt + 1} failed: {e}. Retrying...")
                     # Clean up any partial files from this attempt
                     self._cleanup_attempt_files()
+                    # Add small delay before retry
+                    import time
+                    time.sleep(1)
                 else:
                     logger.error(f"All {max_retries + 1} attempts failed")
                     raise
@@ -559,62 +712,114 @@ class PaperRelease:
         return result
 
     def _generate_pdf(self, target_file: Path, output_path: Path) -> Path:
-        """Generate PDF from target file with attachments and error handling."""
+        """Generate PDF from target file with attachments and comprehensive error handling."""
         logger.info("Generating PDF with attachments...")
 
-        # Collect all files to merge
+        # Validate target file
+        if not target_file.exists():
+            raise FileNotFoundError(f"Target file not found: {target_file}")
+
+        if not target_file.is_file():
+            raise ValueError(f"Target path is not a file: {target_file}")
+
+        target_size = target_file.stat().st_size
+        if target_size == 0:
+            raise ValueError(f"Target file is empty: {target_file}")
+
+        # Collect all files to merge with validation
         files_to_merge = []
         missing_attachments = []
+        invalid_attachments = []
 
-        # Add front attachments
+        # Add front attachments with validation
         front_files = self.config.get('attachments.front', [])
         for front_file in front_files:
-            front_path = Path(front_file)
-            if front_path.exists():
+            try:
+                front_path = Path(front_file)
+                if not front_path.exists():
+                    missing_attachments.append(f"front: {front_file}")
+                    logger.warning(f"Front attachment not found: {front_file}")
+                    continue
+                if not front_path.is_file():
+                    invalid_attachments.append(f"front: {front_file} (not a file)")
+                    logger.warning(f"Front attachment is not a file: {front_file}")
+                    continue
                 files_to_merge.append(front_path)
                 logger.info(f"Adding front attachment: {front_file}")
-            else:
-                missing_attachments.append(f"front: {front_file}")
-                logger.warning(f"Front attachment not found: {front_file}")
+            except Exception as e:
+                logger.warning(f"Error processing front attachment {front_file}: {e}")
 
         # Add main file
         files_to_merge.append(target_file)
         logger.info(f"Main document: {target_file}")
 
-        # Add end attachments
+        # Add end attachments with validation
         end_files = self.config.get('attachments.end', [])
         for end_file in end_files:
-            end_path = Path(end_file)
-            if end_path.exists():
+            try:
+                end_path = Path(end_file)
+                if not end_path.exists():
+                    missing_attachments.append(f"end: {end_file}")
+                    logger.warning(f"End attachment not found: {end_file}")
+                    continue
+                if not end_path.is_file():
+                    invalid_attachments.append(f"end: {end_file} (not a file)")
+                    logger.warning(f"End attachment is not a file: {end_file}")
+                    continue
                 files_to_merge.append(end_path)
                 logger.info(f"Adding end attachment: {end_file}")
-            else:
-                missing_attachments.append(f"end: {end_file}")
-                logger.warning(f"End attachment not found: {end_file}")
+            except Exception as e:
+                logger.warning(f"Error processing end attachment {end_file}: {e}")
 
+        # Report attachment issues
         if missing_attachments:
             logger.warning(f"Missing attachments: {', '.join(missing_attachments)}")
+        if invalid_attachments:
+            logger.error(f"Invalid attachments: {', '.join(invalid_attachments)}")
+            if not self.config.get('processing.continue_on_attachment_errors', False):
+                raise ValueError(f"Invalid attachments found: {', '.join(invalid_attachments)}")
 
-        # Convert all to PDFs
+        if not files_to_merge:
+            raise ValueError("No valid files to process")
+
+        # Convert all to PDFs with comprehensive error handling
         pdf_files = []
         for file_path in files_to_merge:
             try:
-                if detect_file_format(file_path) == 'pdf':
+                format_type = detect_file_format(file_path)
+                if format_type == 'pdf':
                     pdf_files.append(file_path)
                     logger.debug(f"Using existing PDF: {file_path}")
-                else:
+                elif format_type in ['typst', 'latex']:
                     # Convert to PDF
-                    logger.info(f"Converting {file_path.name} to PDF...")
+                    logger.info(f"Converting {file_path.name} ({format_type}) to PDF...")
                     pdf_file = file_path.with_suffix('.pdf')
-                    convert_to_pdf(file_path, pdf_file)
-                    pdf_files.append(pdf_file)
-                    self.temp_files.append(pdf_file)
-                    logger.info(f"Converted to PDF: {pdf_file}")
+
+                    # Use timeout for conversion
+                    timeout = self.config.get('processing.timeout', 300)
+                    try:
+                        result_pdf = self._run_with_timeout(
+                            lambda: convert_to_pdf(file_path, pdf_file),
+                            timeout
+                        )
+                        pdf_files.append(result_pdf)
+                        self.temp_files.append(result_pdf)
+                        logger.info(f"Converted to PDF: {result_pdf}")
+                    except Exception as e:
+                        logger.error(f"PDF conversion failed for {file_path}: {e}")
+                        raise RuntimeError(f"Failed to convert {file_path} to PDF: {e}")
+                else:
+                    raise ValueError(f"Unsupported file format for {file_path}: {format_type}")
+
             except Exception as e:
                 logger.error(f"Failed to process {file_path}: {e}")
                 raise
 
-        # Merge PDFs
+        # Validate we have PDF files to work with
+        if not pdf_files:
+            raise ValueError("No PDF files were successfully prepared")
+
+        # Merge PDFs with error handling
         try:
             if len(pdf_files) == 1:
                 # Just copy single file
@@ -626,10 +831,19 @@ class PaperRelease:
                 merge_pdfs(pdf_files, output_path)
                 logger.info(f"Merged PDFs into: {output_path}")
 
+            # Validate output
+            if not output_path.exists():
+                raise FileNotFoundError(f"PDF generation did not create output file: {output_path}")
+
+            output_size = output_path.stat().st_size
+            if output_size == 0:
+                raise ValueError(f"Generated PDF is empty: {output_path}")
+
+            logger.info(f"PDF generation successful: {output_size} bytes")
             return output_path
 
         except Exception as e:
-            logger.error(f"PDF merging failed: {e}")
+            logger.error(f"PDF merging/generation failed: {e}")
             raise
 
     def _add_metadata(self, pdf_path: Path) -> None:
@@ -728,7 +942,7 @@ class PaperRelease:
                     pass
 
 def check_dependencies() -> Dict[str, bool]:
-    """Check for required system dependencies."""
+    """Check for required system dependencies with fallbacks."""
     deps = {}
 
     # Check Python modules
@@ -744,25 +958,63 @@ def check_dependencies() -> Dict[str, bool]:
     except ImportError:
         deps['pdf_assembler'] = False
 
-    # Check external tools
+    # Check external tools with timeout and error handling
     tools = ['pandoc', 'typst', 'pdflatex']
     for tool in tools:
         try:
-            result = subprocess.run([tool, '--version'],
-                                  capture_output=True, text=True, timeout=5)
+            # Use different version commands for different tools
+            if tool == 'pandoc':
+                cmd = [tool, '--version']
+            elif tool == 'typst':
+                cmd = [tool, '--version']
+            else:  # pdflatex
+                cmd = [tool, '--version']
+
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=10)
+            deps[tool] = result.returncode == 0
+        except subprocess.TimeoutExpired:
+            logger.warning(f"Timeout checking {tool}")
+            deps[tool] = False
+        except FileNotFoundError:
+            deps[tool] = False
+        except subprocess.SubprocessError as e:
+            logger.warning(f"Error checking {tool}: {e}")
+            deps[tool] = False
+        except Exception as e:
+            logger.warning(f"Unexpected error checking {tool}: {e}")
+            deps[tool] = False
+
+    # Check PDF tools with fallbacks
+    pdf_tools = ['pdftk', 'pdfunite']
+    pdf_tool_found = False
+    for tool in pdf_tools:
+        try:
+            if tool == 'pdftk':
+                cmd = [tool, '--version']
+            else:  # pdfunite
+                cmd = [tool, '--version']
+
+            result = subprocess.run(cmd, capture_output=True, timeout=10)
+            deps[tool] = result.returncode == 0
+            if deps[tool]:
+                pdf_tool_found = True
+        except (subprocess.TimeoutExpired, FileNotFoundError, subprocess.SubprocessError):
+            deps[tool] = False
+        except Exception as e:
+            logger.warning(f"Error checking {tool}: {e}")
+            deps[tool] = False
+
+    # Check for alternative PDF tools
+    alt_pdf_tools = ['gs', 'magick']  # Ghostscript, ImageMagick
+    for tool in alt_pdf_tools:
+        try:
+            result = subprocess.run([tool, '--version'], capture_output=True, timeout=10)
             deps[tool] = result.returncode == 0
         except (subprocess.TimeoutExpired, FileNotFoundError, subprocess.SubprocessError):
             deps[tool] = False
 
-    # Check PDF tools
-    pdf_tools = ['pdftk', 'pdfunite']
-    for tool in pdf_tools:
-        try:
-            result = subprocess.run([tool, '--help' if tool == 'pdftk' else '--version'],
-                                  capture_output=True, timeout=5)
-            deps[tool] = result.returncode == 0
-        except (subprocess.TimeoutExpired, FileNotFoundError, subprocess.SubprocessError):
-            deps[tool] = False
+    # Overall PDF capability
+    deps['pdf_tools_available'] = pdf_tool_found or any(deps.get(tool, False) for tool in alt_pdf_tools)
 
     return deps
 
@@ -798,11 +1050,30 @@ def print_dependency_status(deps: Dict[str, bool]) -> None:
         if deps.get(tool, False):
             pdf_tools_found += 1
 
-    if pdf_tools_found == 0:
+    # Check for PDF merging capability
+    pdf_capable = deps.get('pdf_tools_available', False)
+    if not pdf_capable:
         print("\nWARNING: No PDF merging tools found. Manual merging may be required.")
-        print("   Install pdftk or pdfunite for automatic PDF merging.")
+        print("   Install pdftk, pdfunite, or ensure pypdf is available for automatic PDF merging.")
+        print("   Alternative: Use 'pip install pypdf' for Python-based PDF handling.")
 
-    print(f"\n{'SUCCESS: All dependencies satisfied!' if all_good else 'ERROR: Some dependencies missing'}")
+    # Overall assessment
+    critical_missing = [dep for dep in ['paper_converter', 'pdf_assembler', 'pandoc'] if not deps.get(dep, False)]
+    recommended_missing = [dep for dep in ['typst', 'pdflatex'] if not deps.get(dep, False)]
+
+    if critical_missing:
+        print(f"\nERROR: Critical dependencies missing: {', '.join(critical_missing)}")
+        print("   These are required for basic functionality.")
+    elif not pdf_capable:
+        print(f"\nWARNING: PDF merging tools missing. Single-file processing will work,")
+        print("   but multi-file merging will require manual intervention.")
+    elif recommended_missing:
+        print(f"\nINFO: Some recommended tools missing: {', '.join(recommended_missing)}")
+        print("   Functionality will be limited but basic operations should work.")
+    else:
+        print("\nSUCCESS: All dependencies satisfied!")
+
+    return all_good and pdf_capable
 
 def create_default_config(output_file: str = "release_config.json") -> bool:
     """Create a default configuration file."""
@@ -895,7 +1166,7 @@ For more information, see the documentation in AGENTS.md and CLAUDE.md.
     if not args.input_file:
         parser.error("Input file is required (or use --create-config/--check-deps)")
 
-    # Check basic dependencies
+    # Check dependencies
     deps = check_dependencies()
     critical_deps = ['paper_converter', 'pdf_assembler', 'pandoc']
     missing_critical = [dep for dep in critical_deps if not deps.get(dep, False)]
@@ -904,6 +1175,10 @@ For more information, see the documentation in AGENTS.md and CLAUDE.md.
         print(f"ERROR: Critical dependencies missing: {', '.join(missing_critical)}")
         print("Run 'python release.py --check-deps' for detailed status.")
         return 1
+
+    # Warn about PDF capabilities
+    if not deps.get('pdf_tools_available', False):
+        logger.warning("No PDF merging tools available - multi-file operations may require manual intervention")
 
     # Load configuration
     try:
@@ -927,25 +1202,71 @@ For more information, see the documentation in AGENTS.md and CLAUDE.md.
     if args.keep_temp:
         config.set('cleanup.temp_files', False)
 
-    # Execute release
+    # Execute release with comprehensive error handling
     try:
         releaser = PaperRelease(config)
         final_pdf = releaser.release(args.input_file, args.output, dry_run=args.dry_run)
 
         if args.dry_run:
             print("\nSUCCESS: Dry run completed successfully")
+            logger.info("Dry run completed successfully")
         else:
             print(f"\nSUCCESS: Release completed successfully!")
             print(f"Final PDF: {final_pdf}")
+            logger.info(f"Release completed successfully: {final_pdf}")
 
         return 0
 
     except KeyboardInterrupt:
         print("\nWARNING: Release interrupted by user")
+        logger.warning("Release interrupted by user")
         return 130
+    except FileNotFoundError as e:
+        print(f"\nERROR: File not found: {e}")
+        logger.error(f"File not found: {e}")
+        return 1
+    except PermissionError as e:
+        print(f"\nERROR: Permission denied: {e}")
+        logger.error(f"Permission denied: {e}")
+        return 1
+    except ValueError as e:
+        print(f"\nERROR: Invalid input or configuration: {e}")
+        logger.error(f"Invalid input or configuration: {e}")
+        return 1
+    except subprocess.TimeoutExpired as e:
+        print(f"\nERROR: Operation timed out: {e}")
+        logger.error(f"Operation timed out: {e}")
+        return 1
+    except subprocess.CalledProcessError as e:
+        print(f"\nERROR: External command failed: {e}")
+        logger.error(f"External command failed: {e}")
+        return 1
     except Exception as e:
         print(f"\nERROR: Release failed: {e}")
-        logger.exception("Release failed with exception")
+        logger.exception("Release failed with unexpected exception")
+
+        # Provide recovery suggestions
+        print("\nRECOVERY SUGGESTIONS:")
+        if isinstance(e, FileNotFoundError):
+            print("- Check that all input files exist and paths are correct")
+            print("- Ensure references.md is in the current directory")
+        elif isinstance(e, PermissionError):
+            print("- Check file permissions")
+            print("- Ensure output directory is writable")
+        elif isinstance(e, subprocess.TimeoutExpired):
+            print("- Try increasing timeout in config (processing.timeout)")
+            print("- Check system resources and external tool performance")
+        elif "pandoc" in str(e).lower():
+            print("- Verify pandoc installation: pandoc --version")
+            print("- Check input file format and encoding")
+        elif "typst" in str(e).lower() or "latex" in str(e).lower():
+            print("- Verify typesetting tool installation")
+            print("- Check for syntax errors in generated files")
+        else:
+            print("- Run 'python release.py --check-deps' to verify system setup")
+            print("- Check release.log for detailed error information")
+            print("- Try with --dry-run to isolate the issue")
+
         return 1
 
     if not args.input_file:

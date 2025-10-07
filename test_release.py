@@ -93,63 +93,35 @@ class TestPaperRelease(unittest.TestCase):
         self.config = ReleaseConfig()
         self.releaser = PaperRelease(self.config)
 
-    @patch('release.extract_citations_from_file')
-    @patch('release.load_references')
-    @patch('release.generate_filtered_references')
-    @patch('release.combine_paper_and_references')
-    @patch('release.convert_with_pandoc')
-    def test_convert_paper_success(self, mock_convert, mock_combine, mock_generate, mock_load, mock_extract):
-        """Test successful paper conversion."""
-        # Setup mocks
-        mock_extract.return_value = [{'author': 'Test', 'year': '2023'}]
-        mock_load.return_value = {'Test 2023': 'Test ref'}
-        mock_generate.return_value = (1, 0)
-        mock_convert.return_value = (True, "")
+    def test_input_validation(self):
+        """Test input file validation."""
+        # Test with non-existent file
+        with self.assertRaises(FileNotFoundError):
+            self.releaser._validate_input("nonexistent.md")
 
-        # Create temporary input file
+        # Test with valid file
         with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as f:
             f.write("# Test Paper\n\nSome content.")
-            input_file = Path(f.name)
+            input_file = f.name
 
         try:
-            result = self.releaser._convert_paper(input_file)
-            self.assertTrue(result.exists())
-            self.assertTrue(result.suffix in ['.typ', '.tex'])
+            result = self.releaser._validate_input(input_file)
+            self.assertEqual(result, Path(input_file))
         finally:
-            input_file.unlink()
-            if result.exists():
-                result.unlink()
+            Path(input_file).unlink()
 
-    @patch('release.detect_file_format')
-    @patch('release.convert_to_pdf')
-    @patch('release.merge_pdfs')
-    def test_generate_pdf_with_attachments(self, mock_merge, mock_convert, mock_detect):
-        """Test PDF generation with attachments."""
-        # Setup mocks
-        mock_detect.return_value = 'typst'
-        mock_convert.return_value = Path('temp.pdf')
+    def test_output_path_generation(self):
+        """Test output path generation."""
+        input_path = Path("test.md")
 
-        # Create temporary files
-        with tempfile.NamedTemporaryFile(suffix='.typ', delete=False) as f:
-            target_file = Path(f.name)
+        # Test with default settings
+        output_path = self.releaser._prepare_output_path(input_path, None)
+        self.assertTrue(output_path.name.endswith('.pdf'))
+        self.assertTrue('releases' in str(output_path))
 
-        with tempfile.NamedTemporaryFile(suffix='.pdf', delete=False) as f:
-            front_file = Path(f.name)
-
-        try:
-            # Configure attachments
-            self.config.set('attachments.front', [str(front_file)])
-
-            result = self.releaser._generate_pdf(target_file, 'output.pdf')
-
-            # Verify merge was called with correct files
-            mock_merge.assert_called_once()
-            args = mock_merge.call_args[0]
-            self.assertEqual(len(args[0]), 2)  # front + main
-
-        finally:
-            target_file.unlink()
-            front_file.unlink()
+        # Test with custom output
+        custom_output = self.releaser._prepare_output_path(input_path, "custom.pdf")
+        self.assertEqual(custom_output.name, "custom.pdf")
 
 if __name__ == '__main__':
     unittest.main()

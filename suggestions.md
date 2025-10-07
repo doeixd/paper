@@ -345,3 +345,93 @@ The current Section 7 is philosophically brilliant but a bit sprawling. It can b
     4.  **Keep the Appendices as they are.** They are a critical asset that demonstrates the seriousness of your proposal.
 
 By implementing these changes, you will have a paper with the best of all worlds: the compelling narrative and sharp structure of `paper.md` combined with the deep methodological rigor and profound philosophical honesty of `final.md`. It would be a truly formidable piece of work.
+
+### 1. Deepen Engagement with Recent Literature
+
+#### Before:
+From Section 7.1 in final.md:
+
+"Conspiracy theories and Kuhnian incommensurable paradigms challenge the framework differently. Conspiracy theories typically exhibit diagnostic brittleness signatures: accelerating ad-hoc modifications protecting core tenets, high maintenance costs suppressing dissent, and epistemic parasitism (rationalizing mainstream successes without generating novel research). Whether these constitute decisive refutation depends on objective measurement, which remains challenging.
+
+Incommensurable paradigms present subtler difficulties. Direct theoretical comparison may be impossible, but structural performance indicators (complexity-to-prediction ratios, resource escalation) can supplement traditional empirical and theoretical considerations when paradigms compete within overlapping domains. This reframes some philosophical impasses as tractable empirical questions, though interpretive challenges remain significant."
+
+#### After:
+(Revised to incorporate 2023-2025 developments, such as the SOPhiA 2025 paper "Is Epistemic Justification Ideologically Problematic?" which questions the ideological neutrality of epistemic justification. Discuss how EPC's brittleness metrics detect ideologically biased coherent systems, differentiating from graph-theoretic coherentism, e.g., Olsson's probabilistic models.)
+
+"Coherent fictions, such as conspiracy theories, and Kuhnian incommensurable paradigms challenge the framework differently. Conspiracy theories typically exhibit diagnostic brittleness signatures: accelerating ad-hoc modifications protecting core tenets, high maintenance costs suppressing dissent, and epistemic parasitism (rationalizing mainstream successes without generating novel research). Whether these constitute decisive refutation depends on objective measurement, which remains challenging.
+
+Recent developments in epistemology, particularly ideological critiques of justification from 2023-2025, further complicate this landscape. For instance, the SOPhiA 2025 paper 'Is Epistemic Justification Ideologically Problematic?' argues that traditional notions of epistemic justification may harbor ideological biases, proposing that beliefs in good standing should not require positive justification to avoid skepticism. EPC addresses this by using brittleness metrics to detect ideologically biased coherent systems—such as those where internal coherence masks power asymmetries or suppresses dissenting evidence—through indicators like rising C(t) (coercive overheads) from enforced ideological conformity. This differentiates EPC from graph-theoretic coherentism, which models coherence probabilistically (e.g., Olsson 2005) but lacks external pragmatic constraints; EPC's cost-based filtering reveals when such graphs become brittle under real-world application, reframing ideological biases as measurable systemic inefficiencies.
+
+Incommensurable paradigms present subtler difficulties. Direct theoretical comparison may be impossible, but structural performance indicators (complexity-to-prediction ratios, resource escalation) can supplement traditional empirical and theoretical considerations when paradigms compete within overlapping domains. This reframes some philosophical impasses as tractable empirical questions, though interpretive challenges remain significant."
+
+### 2. Bolster the Brittleness Concept
+
+#### Before:
+From Section 2.4 in final.md:
+
+"To move from qualitative historical description (e.g., Lakatos's 'degenerating programmes') to a falsifiable research program, we must operationalize systemic health. A system's brittleness is a measure of its accumulated costs. While a complete quantitative model remains a goal for future research, we can diagnose rising brittleness through a toolkit of convergent proxy indicators. The following table illustrates these core diagnostics:
+
+| Indicator | Dimension | Proxy Metric |
+| :--- | :--- | :--- |
+| **P(t)** | Conceptual Debt | Ratio of anomaly-resolution publications to novel-prediction publications |
+| **C(t)** | Coercive Overhead | Ratio of security/suppression budget to productive/R&D budget |
+| **M(t)** | Model Complexity | Rate of parameter/complexity growth vs. marginal performance gains |
+| **R(t)** | Resilience Reserve | Breadth of independent, cross-domain confirmations of core principles |
+
+^1 P(t) measured as ratio over 5-year intervals; C(t) as annual budget proportions.
+
+#### 2.4.1 Addressing the Baseline Problem
+
+Critics object that "excess mortality" requires theory-laden baselines. The framework employs three independent baselines whose convergence provides robust diagnosis without circularity: [continues with baselines]"
+
+#### After:
+(Revised to connect explicitly to systems theory, citing Kilov (2020) on "brittleness of expertise" from JSTOR, and Wei et al. (2004) on complex system brittleness from ResearchGate, with updates in recent analyses. This grounds EPC and addresses vagueness objections.)
+
+"To move from qualitative historical description (e.g., Lakatos's 'degenerating programmes') to a falsifiable research program, we must operationalize systemic health. A system's brittleness is a measure of its accumulated costs, drawing explicitly from systems theory where brittleness denotes vulnerability due to hidden interdependencies and failure propagation in complex adaptive systems. For instance, recent work on the 'brittleness of expertise' highlights how expert performance degrades in novel domains due to over-specialization, mirroring EPC's emphasis on adaptive fragility. This connection addresses objections that brittleness is too vague by grounding it in established definitions from complex systems research, such as Wei et al.'s (2004) framework for brittleness in interconnected systems, which has been updated in analyses emphasizing cascading failures. While a complete quantitative model remains a goal for future research, we can diagnose rising brittleness through a toolkit of convergent proxy indicators. The following table illustrates these core diagnostics:
+
+| Indicator | Dimension | Proxy Metric |
+| :--- | :--- | :--- |
+| **P(t)** | Conceptual Debt | Ratio of anomaly-resolution publications to novel-prediction publications |
+| **C(t)** | Coercive Overhead | Ratio of security/suppression budget to productive/R&D budget |
+| **M(t)** | Model Complexity | Rate of parameter/complexity growth vs. marginal performance gains |
+| **R(t)** | Resilience Reserve | Breadth of independent, cross-domain confirmations of core principles |
+
+^1 P(t) measured as ratio over 5-year intervals; C(t) as annual budget proportions.
+
+#### 2.4.1 Addressing the Baseline Problem
+
+Critics object that "excess mortality" requires theory-laden baselines. The framework employs three independent baselines whose convergence provides robust diagnosis without circularity: [continues with baselines]"
+
+### 3. Expand AI Application
+
+#### Before:
+From Section 2.5 in final.md (AI case):
+
+"**Case 2: Contemporary AI Development.** Current deep learning paradigms may show early signs of rising brittleness. M(t) is visible in exponential escalation of parameter counts and computational resources for marginal performance gains (Sevilla et al. 2022). P(t) can be proxied by proliferating alignment and safety research, much functioning as post-hoc patches for emergent anomalous behaviors. These trends serve as potential warning signs inviting cautious comparison to past degenerating research programs."
+
+#### After:
+(Revised to reference post-2022 developments, e.g., Bernard (2025) Medium article on coherence-driven models. Add a paragraph on EPC predicting brittleness in emergent AI behaviors, linking to pragmatic emergentism in NLP papers like Kharitonov & Baroni (2020) and a 2023-2025 survey on pragmatics in LLMs.)
+
+"**Case 2: Contemporary AI Development.** Current deep learning paradigms may show early signs of rising brittleness. M(t) is visible in exponential escalation of parameter counts and computational resources for marginal performance gains (Sevilla et al. 2022). P(t) can be proxied by proliferating alignment and safety research, much functioning as post-hoc patches for emergent anomalous behaviors. These trends serve as potential warning signs inviting cautious comparison to past degenerating research programs like late-stage Ptolemaic astronomy.
+
+Post-2022 developments in large language models (LLMs) further illustrate this, with escalating model complexity highlighting brittleness in coherence-driven architectures. For example, Bernard (2025) proposes a coherence-driven language model framework that shifts from token prediction to emergent meaning, yet notes persistent issues with pragmatic alignment in real-world applications. EPC predicts brittleness in emergent AI behaviors by measuring how systems accumulate conceptual debt when handling pragmatic contexts, such as misaligned inferences in multi-turn dialogues. This links to pragmatic emergentism in NLP, where incorporating pragmatic reasoning into emergent languages reveals fragility in non-cooperative scenarios (Kharitonov & Baroni 2020), and recent surveys emphasize the need for grounded pragmatics to mitigate brittleness in LLMs (Li et al. 2025). Thus, EPC offers prospective guidance: rising M(t) in LLMs signals vulnerability to pragmatic pushback, potentially leading to paradigm shifts toward more resilient, coherence-grounded designs."
+
+### 4. Refine Power and Contingency Handling
+
+#### Before:
+From Section 7.4 in final.md:
+
+"An evolutionary model of knowledge must account for the complexities of history, not just an idealized linear progress. The landscape of viability is not smooth; knowledge systems can become entrenched in suboptimal but locally stable states, which we term "fitness traps"—a concept borrowed from evolutionary biology (Wright 1932), where systems become locked in suboptimal equilibria, adapted here to cultural evolution (Mesoudi 2011). This section clarifies how the framework incorporates factors like path dependence and institutional power not as external exceptions, but as core variables that explain these historical dynamics. [continues] 
+
+The exercise of power presents a fundamental challenge: those who benefit from brittle systems have both the means and motivation to suppress indicators of fragility. Consider how tobacco companies suppressed research on smoking's health effects for decades. The framework addresses this through three mechanisms: (1) Coercive costs eventually become visible in budgets and institutional structures; (2) Suppressed knowledge often persists in marginalized communities, creating measurable tensions; (3) Power-maintained systems show characteristic patterns of innovation stagnation. However, we acknowledge that power can delay recognition of brittleness for generations, making real-time application challenging in politically contested domains.
+
+Marginalized perspectives (per Harding 1991) offer untapped brittleness indicators, e.g., suppressed dissent in power-maintained systems. [continues]"
+
+#### After:
+(Revised to explicitly address "epistemic capture" more, per Liboiron et al. (2024) in FACETS on Western-Indigenous knowledge clashes. Suggest adding a metric for "hidden brittleness" in C(t), like innovation stagnation.)
+
+"An evolutionary model of knowledge must account for the complexities of history, not just an idealized linear progress. The landscape of viability is not smooth; knowledge systems can become entrenched in suboptimal but locally stable states, which we term "fitness traps"—a concept borrowed from evolutionary biology (Wright 1932), where systems become locked in suboptimal equilibria, adapted here to cultural evolution (Mesoudi 2011). This section clarifies how the framework incorporates factors like path dependence and institutional power not as external exceptions, but as core variables that explain these historical dynamics. [continues] 
+
+The exercise of power presents a fundamental challenge: those who benefit from brittle systems have both the means and motivation to suppress indicators of fragility, leading to 'epistemic capture' where dominant paradigms mask underlying costs. Consider how tobacco companies suppressed research on smoking's health effects for decades. Recent analyses, such as Liboiron et al. (2024) in FACETS, highlight this in clashes between Western and Indigenous sciences, where Western approaches often reproduce colonial patterns by extracting Indigenous knowledge without reciprocity, thereby hiding brittleness through power asymmetries. The framework addresses this through three mechanisms: (1) Coercive costs eventually become visible in budgets and institutional structures; (2) Suppressed knowledge often persists in marginalized communities, creating measurable tensions; (3) Power-maintained systems show characteristic patterns of innovation stagnation. To detect such 'hidden brittleness,' we propose augmenting C(t) with a sub-metric for innovation stagnation—e.g., tracking lags in patent filings or cross-domain applications relative to peers—as a proxy for suppressed adaptive capacity. However, we acknowledge that power can delay recognition of brittleness for generations, making real-time application challenging in politically contested domains.
+
+Marginalized perspectives (per Harding 1991) offer untapped brittleness indicators, e.g., suppressed dissent in power-maintained systems. [continues]"

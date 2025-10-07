@@ -1,0 +1,262 @@
+2025-10-07 08:32:25,592 - INFO - Successfully imported paper_converter
+2025-10-07 08:32:25,593 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:33:33,863 - INFO - Successfully imported paper_converter
+2025-10-07 08:33:33,864 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:33:38,644 - INFO - Successfully imported paper_converter
+2025-10-07 08:33:38,645 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:33:39,404 - ERROR - Release failed after 0.0s: 'charmap' codec can't encode character '\U0001f50d' in position 0: character maps to <undefined>
+2025-10-07 08:33:39,405 - INFO - Starting cleanup...
+2025-10-07 08:33:39,405 - INFO - Cleanup complete: 0 intermediate, 0 temp files removed
+2025-10-07 08:34:29,681 - INFO - Successfully imported paper_converter
+2025-10-07 08:34:29,682 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:34:34,468 - INFO - Successfully imported paper_converter
+2025-10-07 08:34:34,470 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:34:35,294 - INFO - Starting Academic Paper Release Pipeline
+2025-10-07 08:34:35,294 - INFO - Input: final.md
+2025-10-07 08:34:35,294 - INFO - Output: test_final_release.pdf
+2025-10-07 08:34:35,294 - INFO - Format: typst
+2025-10-07 08:34:35,294 - INFO - Config: 0 validation errors
+2025-10-07 08:34:35,294 - INFO - Converting markdown to target format...
+2025-10-07 08:34:35,295 - INFO - Extracting citations...
+2025-10-07 08:34:35,300 - INFO - Found 41 citations
+2025-10-07 08:34:35,300 - INFO - Loading and filtering references...
+2025-10-07 08:34:35,301 - INFO - Loaded 525 reference entries
+2025-10-07 08:34:35,302 - WARNING - 6 citations not found in references.md
+2025-10-07 08:34:35,302 - INFO - Combining paper with filtered references...
+2025-10-07 08:34:35,322 - INFO - Converting to typst format...
+2025-10-07 08:34:35,711 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-07 08:34:35,711 - INFO - Generating PDF with attachments...
+2025-10-07 08:34:35,711 - INFO - Main document: final_combined.typst
+2025-10-07 08:34:35,729 - INFO - Converting final_combined.typst to PDF...
+2025-10-07 08:34:35,729 - ERROR - Failed to process final_combined.typst: 'str' object has no attribute 'exists'
+2025-10-07 08:34:35,730 - ERROR - Release failed after 0.4s: 'str' object has no attribute 'exists'
+2025-10-07 08:34:35,730 - INFO - Starting cleanup...
+2025-10-07 08:34:35,730 - INFO - Cleanup complete: 2 intermediate, 0 temp files removed
+2025-10-07 08:34:35,730 - ERROR - Release failed with exception
+Traceback (most recent call last):
+  File "C:\Users\Patrick\paper\release.py", line 933, in main
+    final_pdf = releaser.release(args.input_file, args.output, dry_run=args.dry_run)
+  File "C:\Users\Patrick\paper\release.py", line 314, in release
+    final_pdf = self._generate_pdf(target_file, output_path)
+  File "C:\Users\Patrick\paper\release.py", line 609, in _generate_pdf
+    convert_to_pdf(str(file_path), str(pdf_file))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Patrick\paper\pdf_assembler.py", line 50, in convert_to_pdf
+    if not input_file.exists():
+           ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'exists'
+2025-10-07 08:35:02,939 - INFO - Successfully imported paper_converter
+2025-10-07 08:35:02,940 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:35:03,704 - INFO - Starting Academic Paper Release Pipeline
+2025-10-07 08:35:03,704 - INFO - Input: final.md
+2025-10-07 08:35:03,704 - INFO - Output: test_final_release.pdf
+2025-10-07 08:35:03,704 - INFO - Format: typst
+2025-10-07 08:35:03,704 - INFO - Config: 0 validation errors
+2025-10-07 08:35:03,704 - INFO - Converting markdown to target format...
+2025-10-07 08:35:03,705 - INFO - Extracting citations...
+2025-10-07 08:35:03,711 - INFO - Found 41 citations
+2025-10-07 08:35:03,711 - INFO - Loading and filtering references...
+2025-10-07 08:35:03,712 - INFO - Loaded 525 reference entries
+2025-10-07 08:35:03,713 - WARNING - 6 citations not found in references.md
+2025-10-07 08:35:03,713 - INFO - Combining paper with filtered references...
+2025-10-07 08:35:03,731 - INFO - Converting to typst format...
+2025-10-07 08:35:04,037 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-07 08:35:04,037 - INFO - Generating PDF with attachments...
+2025-10-07 08:35:04,037 - INFO - Main document: final_combined.typst
+2025-10-07 08:35:04,051 - INFO - Converting final_combined.typst to PDF...
+2025-10-07 08:35:04,291 - INFO - Converted to PDF: final_combined.pdf
+2025-10-07 08:35:04,293 - INFO - Copied single PDF to: test_final_release.pdf
+2025-10-07 08:35:04,293 - INFO - Adding metadata to PDF...
+2025-10-07 08:35:04,293 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-07 08:35:04,293 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-07 08:35:04,293 - INFO - Validated final PDF: test_final_release.pdf (191715 bytes)
+2025-10-07 08:35:04,293 - INFO - Starting cleanup...
+2025-10-07 08:35:04,294 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-07 08:35:04,295 - INFO - SUCCESS! Release complete in 0.6s
+2025-10-07 08:35:04,295 - INFO - Final PDF: test_final_release.pdf (191715 bytes)
+2025-10-07 08:39:02,481 - INFO - Successfully imported paper_converter
+2025-10-07 08:39:02,483 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:39:02,488 - INFO - Converting markdown to target format...
+2025-10-07 08:39:02,488 - INFO - Extracting citations...
+2025-10-07 08:39:02,488 - INFO - Found 1 citations
+2025-10-07 08:39:02,488 - INFO - Loading and filtering references...
+2025-10-07 08:39:02,488 - INFO - Loaded 1 reference entries
+2025-10-07 08:39:02,489 - INFO - Generated 1 filtered references
+2025-10-07 08:39:02,489 - WARNING - Attempt 1 failed: Failed to create filtered references file: C:\Users\Patrick\AppData\Local\Temp\tmpd9etswen_refs_filtered.md. Retrying...
+2025-10-07 08:39:03,489 - INFO - Extracting citations...
+2025-10-07 08:39:03,490 - INFO - Found 1 citations
+2025-10-07 08:39:03,490 - INFO - Loading and filtering references...
+2025-10-07 08:39:03,490 - INFO - Loaded 1 reference entries
+2025-10-07 08:39:03,490 - INFO - Generated 1 filtered references
+2025-10-07 08:39:03,490 - WARNING - Attempt 2 failed: Failed to create filtered references file: C:\Users\Patrick\AppData\Local\Temp\tmpd9etswen_refs_filtered.md. Retrying...
+2025-10-07 08:39:04,491 - INFO - Extracting citations...
+2025-10-07 08:39:04,491 - INFO - Found 1 citations
+2025-10-07 08:39:04,491 - INFO - Loading and filtering references...
+2025-10-07 08:39:04,491 - INFO - Loaded 1 reference entries
+2025-10-07 08:39:04,491 - INFO - Generated 1 filtered references
+2025-10-07 08:39:04,492 - ERROR - All 3 attempts failed
+2025-10-07 08:39:04,501 - INFO - Generating PDF with attachments...
+2025-10-07 08:39:04,513 - INFO - Loaded configuration from C:\Users\Patrick\AppData\Local\Temp\tmpp3_14d5a.json
+2025-10-07 08:39:28,056 - INFO - Successfully imported paper_converter
+2025-10-07 08:39:28,056 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:39:28,061 - INFO - Converting markdown to target format...
+2025-10-07 08:39:28,062 - INFO - Extracting citations...
+2025-10-07 08:39:28,073 - INFO - Found 0 citations
+2025-10-07 08:39:28,073 - WARNING - No citations found in input file - proceeding anyway
+2025-10-07 08:39:28,073 - INFO - Loading and filtering references...
+2025-10-07 08:39:28,074 - INFO - Loaded 525 reference entries
+2025-10-07 08:39:28,075 - INFO - Generated 0 filtered references
+2025-10-07 08:39:28,075 - INFO - Combining paper with filtered references...
+2025-10-07 08:39:28,085 - INFO - Combined file created: 143 bytes
+2025-10-07 08:39:28,085 - INFO - Converting to typst format...
+2025-10-07 08:39:28,182 - INFO - Target file created: 629 bytes
+2025-10-07 08:39:28,182 - INFO - Successfully converted to typst: C:\Users\Patrick\AppData\Local\Temp\tmpl1zp4oui_combined.typst
+2025-10-07 08:39:28,187 - INFO - Generating PDF with attachments...
+2025-10-07 08:39:28,191 - INFO - Loaded configuration from C:\Users\Patrick\AppData\Local\Temp\tmp7pnssnf8.json
+2025-10-07 08:39:46,075 - INFO - Successfully imported paper_converter
+2025-10-07 08:39:46,076 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:39:46,082 - INFO - Converting markdown to target format...
+2025-10-07 08:39:46,083 - INFO - Extracting citations...
+2025-10-07 08:39:46,083 - INFO - Found 1 citations
+2025-10-07 08:39:46,083 - INFO - Loading and filtering references...
+2025-10-07 08:39:46,083 - INFO - Loaded 1 reference entries
+2025-10-07 08:39:46,083 - INFO - Generated 1 filtered references
+2025-10-07 08:39:46,083 - WARNING - Attempt 1 failed: Failed to create filtered references file: C:\Users\Patrick\AppData\Local\Temp\tmpk6ahdz8v_refs_filtered.md. Retrying...
+2025-10-07 08:39:47,084 - INFO - Extracting citations...
+2025-10-07 08:39:47,084 - INFO - Found 1 citations
+2025-10-07 08:39:47,084 - INFO - Loading and filtering references...
+2025-10-07 08:39:47,084 - INFO - Loaded 1 reference entries
+2025-10-07 08:39:47,084 - INFO - Generated 1 filtered references
+2025-10-07 08:39:47,084 - WARNING - Attempt 2 failed: Failed to create filtered references file: C:\Users\Patrick\AppData\Local\Temp\tmpk6ahdz8v_refs_filtered.md. Retrying...
+2025-10-07 08:39:48,085 - INFO - Extracting citations...
+2025-10-07 08:39:48,085 - INFO - Found 1 citations
+2025-10-07 08:39:48,086 - INFO - Loading and filtering references...
+2025-10-07 08:39:48,086 - INFO - Loaded 1 reference entries
+2025-10-07 08:39:48,086 - INFO - Generated 1 filtered references
+2025-10-07 08:39:48,086 - ERROR - All 3 attempts failed
+2025-10-07 08:39:48,092 - INFO - Generating PDF with attachments...
+2025-10-07 08:39:48,097 - INFO - Loaded configuration from C:\Users\Patrick\AppData\Local\Temp\tmp2a7ooh__.json
+2025-10-07 08:40:07,168 - INFO - Successfully imported paper_converter
+2025-10-07 08:40:07,169 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:40:07,175 - INFO - Input validation passed: C:\Users\Patrick\AppData\Local\Temp\tmp8dra1k_p.md (29 bytes)
+2025-10-07 08:40:07,178 - INFO - Loaded configuration from C:\Users\Patrick\AppData\Local\Temp\tmpp5w1ko7v.json
+2025-10-07 08:40:08,752 - INFO - Successfully imported paper_converter
+2025-10-07 08:40:08,753 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:40:11,176 - INFO - Successfully imported paper_converter
+2025-10-07 08:40:11,176 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:40:11,178 - INFO - Configuration saved to release_config.json
+2025-10-07 08:40:12,761 - INFO - Successfully imported paper_converter
+2025-10-07 08:40:12,762 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:40:13,651 - WARNING - No PDF merging tools available - multi-file operations may require manual intervention
+2025-10-07 08:40:13,652 - INFO - Input validation passed: paper.md (96821 bytes)
+2025-10-07 08:40:13,652 - INFO - Dry run completed successfully
+2025-10-07 08:40:27,013 - INFO - Successfully imported paper_converter
+2025-10-07 08:40:27,015 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:40:27,753 - WARNING - No PDF merging tools available - multi-file operations may require manual intervention
+2025-10-07 08:40:27,754 - INFO - Input validation passed: paper.md (96821 bytes)
+2025-10-07 08:40:27,754 - INFO - Starting Academic Paper Release Pipeline
+2025-10-07 08:40:27,754 - INFO - Input: paper.md
+2025-10-07 08:40:27,754 - INFO - Output: test_release.pdf
+2025-10-07 08:40:27,754 - INFO - Format: typst
+2025-10-07 08:40:27,754 - INFO - Config: 0 validation errors
+2025-10-07 08:40:27,754 - INFO - Converting markdown to target format...
+2025-10-07 08:40:27,754 - INFO - Extracting citations...
+2025-10-07 08:40:27,759 - INFO - Found 39 citations
+2025-10-07 08:40:27,760 - INFO - Loading and filtering references...
+2025-10-07 08:40:27,761 - INFO - Loaded 525 reference entries
+2025-10-07 08:40:27,762 - INFO - Generated 26 filtered references
+2025-10-07 08:40:27,762 - WARNING - 6 citations not found in references.md
+2025-10-07 08:40:27,762 - INFO - Combining paper with filtered references...
+2025-10-07 08:40:27,782 - INFO - Combined file created: 101739 bytes
+2025-10-07 08:40:27,782 - INFO - Converting to typst format...
+2025-10-07 08:40:28,296 - INFO - Target file created: 107002 bytes
+2025-10-07 08:40:28,296 - INFO - Successfully converted to typst: paper_combined.typst
+2025-10-07 08:40:28,297 - INFO - Generating PDF with attachments...
+2025-10-07 08:40:28,297 - INFO - Main document: paper_combined.typst
+2025-10-07 08:40:28,313 - INFO - Converting paper_combined.typst (typst) to PDF...
+2025-10-07 08:40:28,543 - INFO - Converted to PDF: paper_combined.pdf
+2025-10-07 08:40:28,545 - INFO - Copied single PDF to: test_release.pdf
+2025-10-07 08:40:28,546 - INFO - PDF generation successful: 165364 bytes
+2025-10-07 08:40:28,546 - INFO - Adding metadata to PDF...
+2025-10-07 08:40:28,546 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-07 08:40:28,546 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-07 08:40:28,546 - INFO - Validated final PDF: test_release.pdf (165364 bytes)
+2025-10-07 08:40:28,546 - INFO - Starting cleanup...
+2025-10-07 08:40:28,547 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-07 08:40:28,547 - INFO - SUCCESS! Release complete in 0.8s
+2025-10-07 08:40:28,548 - INFO - Final PDF: test_release.pdf (165364 bytes)
+2025-10-07 08:40:28,548 - INFO - Release completed successfully: test_release.pdf
+2025-10-07 08:49:29,158 - INFO - Successfully imported paper_converter
+2025-10-07 08:49:29,159 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:49:29,871 - WARNING - No PDF merging tools available - multi-file operations may require manual intervention
+2025-10-07 08:49:29,871 - INFO - Loaded configuration from release_config.json
+2025-10-07 08:49:29,872 - INFO - Input validation passed: final.md (103096 bytes)
+2025-10-07 08:49:29,872 - INFO - Starting Academic Paper Release Pipeline
+2025-10-07 08:49:29,872 - INFO - Input: final.md
+2025-10-07 08:49:29,872 - INFO - Output: releases\final.pdf
+2025-10-07 08:49:29,872 - INFO - Format: typst
+2025-10-07 08:49:29,872 - INFO - Config: 0 validation errors
+2025-10-07 08:49:29,873 - INFO - Converting markdown to target format...
+2025-10-07 08:49:29,873 - INFO - Extracting citations...
+2025-10-07 08:49:29,879 - INFO - Found 41 citations
+2025-10-07 08:49:29,879 - INFO - Loading and filtering references...
+2025-10-07 08:49:29,880 - INFO - Loaded 525 reference entries
+2025-10-07 08:49:29,881 - INFO - Generated 32 filtered references
+2025-10-07 08:49:29,881 - WARNING - 6 citations not found in references.md
+2025-10-07 08:49:29,881 - INFO - Combining paper with filtered references...
+2025-10-07 08:49:29,901 - INFO - Combined file created: 109323 bytes
+2025-10-07 08:49:29,901 - INFO - Converting to typst format...
+2025-10-07 08:49:30,196 - INFO - Target file created: 114796 bytes
+2025-10-07 08:49:30,196 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-07 08:49:30,196 - INFO - Generating PDF with attachments...
+2025-10-07 08:49:30,196 - INFO - Main document: final_combined.typst
+2025-10-07 08:49:30,211 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-07 08:49:30,450 - INFO - Converted to PDF: final_combined.pdf
+2025-10-07 08:49:30,451 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-07 08:49:30,452 - INFO - PDF generation successful: 191558 bytes
+2025-10-07 08:49:30,452 - INFO - Adding metadata to PDF...
+2025-10-07 08:49:30,452 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-07 08:49:30,452 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-07 08:49:30,452 - INFO - Validated final PDF: releases\final.pdf (191558 bytes)
+2025-10-07 08:49:30,452 - INFO - Starting cleanup...
+2025-10-07 08:49:30,453 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-07 08:49:30,453 - INFO - SUCCESS! Release complete in 0.6s
+2025-10-07 08:49:30,454 - INFO - Final PDF: releases\final.pdf (191558 bytes)
+2025-10-07 08:49:30,454 - INFO - Release completed successfully: releases\final.pdf
+2025-10-07 08:58:46,554 - INFO - Successfully imported paper_converter
+2025-10-07 08:58:46,554 - INFO - Successfully imported pdf_assembler
+2025-10-07 08:58:48,521 - WARNING - No PDF merging tools available - multi-file operations may require manual intervention
+2025-10-07 08:58:48,522 - INFO - Input validation passed: final.md (103098 bytes)
+2025-10-07 08:58:48,525 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251007_085848.pdf
+2025-10-07 08:58:48,525 - INFO - Starting Academic Paper Release Pipeline
+2025-10-07 08:58:48,525 - INFO - Input: final.md
+2025-10-07 08:58:48,525 - INFO - Output: releases\final.pdf
+2025-10-07 08:58:48,525 - INFO - Format: typst
+2025-10-07 08:58:48,525 - INFO - Config: 0 validation errors
+2025-10-07 08:58:48,525 - INFO - Converting markdown to target format...
+2025-10-07 08:58:48,525 - INFO - Extracting citations...
+2025-10-07 08:58:48,530 - INFO - Found 41 citations
+2025-10-07 08:58:48,531 - INFO - Loading and filtering references...
+2025-10-07 08:58:48,531 - INFO - Loaded 533 reference entries
+2025-10-07 08:58:48,532 - INFO - Generated 32 filtered references
+2025-10-07 08:58:48,532 - WARNING - 6 citations not found in references.md
+2025-10-07 08:58:48,532 - INFO - Combining paper with filtered references...
+2025-10-07 08:58:48,556 - INFO - Combined file created: 109327 bytes
+2025-10-07 08:58:48,556 - INFO - Converting to typst format...
+2025-10-07 08:58:48,903 - INFO - Target file created: 114832 bytes
+2025-10-07 08:58:48,903 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-07 08:58:48,903 - INFO - Generating PDF with attachments...
+2025-10-07 08:58:48,903 - INFO - Main document: final_combined.typst
+2025-10-07 08:58:48,918 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-07 08:58:52,495 - INFO - Converted to PDF: final_combined.pdf
+2025-10-07 08:58:52,497 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-07 08:58:52,497 - INFO - PDF generation successful: 191559 bytes
+2025-10-07 08:58:52,497 - INFO - Adding metadata to PDF...
+2025-10-07 08:58:52,497 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-07 08:58:52,497 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-07 08:58:52,497 - INFO - Validated final PDF: releases\final.pdf (191559 bytes)
+2025-10-07 08:58:52,498 - INFO - Starting cleanup...
+2025-10-07 08:58:52,499 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-07 08:58:52,499 - INFO - SUCCESS! Release complete in 4.0s
+2025-10-07 08:58:52,499 - INFO - Final PDF: releases\final.pdf (191559 bytes)
+2025-10-07 08:58:52,499 - INFO - Release completed successfully: releases\final.pdf

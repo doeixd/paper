@@ -37,8 +37,8 @@ def extract_citations_from_file(filepath, verbose=True):
 
     # Pattern 2: In-prose citations like "Author (Year)" or "Author et al. (Year)"
     # Matches: Goldman (1979), Quine (1951), Acemoglu and Robinson (2012),
-    #          Sevilla et al. (2022)
-    in_prose_pattern = r'\b([A-Z][a-z]+(?:\s+(?:and|&)\s+[A-Z][a-z]+)?(?:\s+et\s+al\.?)?)\s+\((\d{4})(?:[a-z])?\)'
+    #          Sevilla et al. (2022), Bennett-Hunter (2015)
+    in_prose_pattern = r'\b([A-Z][a-z]+(?:-[A-Z][a-z]+)?(?:\s+(?:and|&)\s+[A-Z][a-z]+(?:-[A-Z][a-z]+)?)?(?:\s+et\s+al\.?)?)\s+\((\d{4})(?:[a-z])?\)'
 
     for i, line in enumerate(lines):
         # Find parenthetical citations
@@ -149,10 +149,6 @@ def load_references():
             references[full_author] = block.strip()
             references[f"{full_author} {year}"] = block.strip()
 
-            # Handle "et al." citations
-            references[f"{primary_author} et al"] = block.strip()
-            references[f"{primary_author} et al. {year}"] = block.strip()
-
     return references
 
 def match_citation_to_reference(author, year, references):
@@ -171,6 +167,14 @@ def match_citation_to_reference(author, year, references):
         possible_keys.extend([
             f"{primary} et al. {year}",
             f"{primary} et al {year}",
+            f"{primary} {year}",
+            primary
+        ])
+
+    # Handle "Author1 and Author2" by trying primary author
+    if ' and ' in author or ' & ' in author:
+        primary = author.split(' and ')[0].split(' & ')[0].strip()
+        possible_keys.extend([
             f"{primary} {year}",
             primary
         ])

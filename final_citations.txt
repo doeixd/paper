@@ -1,6 +1,6 @@
 
 ================================================================================
-Citation Extraction Run - 2025-10-07 08:58:42
+Citation Extraction Run - 2025-10-07 08:01:09
 Files scanned: final.md
 Total citations: 41
 ================================================================================
@@ -305,8 +305,7 @@ A system can become locked into a high-brittleness fitness trap by coercive inst
 
 Second, power plays a constitutive role by actively shaping the epistemic landscape. Powerful institutions can define what counts as a legitimate problem, control research funding to suppress rival networks, and entrench the very path dependencies that reinforce a fitness trap. This pattern of epistemic capture appears across domains: from tobacco companies suppressing health research to colonial knowledge systems that extracted Indigenous insights while denying reciprocal engagement, thereby masking brittleness through institutional dominance. While this can create a temporary monopoly on justification, the framework can still diagnose the system's underlying brittleness. The costs of this constitutive power often manifest as a lack of adaptability, suppressed innovation, and a growing inability to solve novel problems that fall outside the officially sanctioned domain. To detect such hidden brittleness, we can augment C(t) with sub-metrics for innovation stagnation, tracking lags in novel applications or cross-domain extensions relative to comparable systems as proxies for suppressed adaptive capacity. Over historical time, even the most entrenched systems face novel shocks, where the hidden costs of their power-induced rigidity are typically revealed.
 
-Reference:
-Acemoglu, Daron, and James A. Robinson. 2012. *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*. New York: Crown Business. ISBN 9780307719225.
+Reference: NOT FOUND for 'Acemoglu and Robinson 2012'
 ------------------------------------------------------------
 
 Citation 21 [IN-PROSE]:
@@ -397,7 +396,7 @@ Context:
 
 The Apex Network aligns with structural realism (Worrall 1989), providing its missing naturalistic engine. It explains convergence on objective structures via pragmatic filtering: brittle theories fail systematically, low-brittleness ones survive. The historical record shows systematic elimination of high-brittleness systems. The convergence toward low-brittleness structures, documented in the Negative Canon, provides positive inductive grounds for realism about the objective viability landscape our theories progressively map.
 
-This provides an evolutionary, pragmatic engine for Ontic Structural Realism (Ladyman and Ross 2007). While OSR posits that the world is fundamentally structural, our framework explains how scientific practices are forced to converge on these objective structures through pragmatic filtering. The Apex Network is the complete set of viable relational structures, an emergent fact about our world's constraint topology, discovered through pragmatic selection.
+This provides an evolutionary, pragmatic engine for Ontic Structural Realism (Ladyman & Ross 2007). While OSR posits that the world is fundamentally structural, our framework explains how scientific practices are forced to converge on these objective structures through pragmatic filtering. The Apex Network is the complete set of viable relational structures, an emergent fact about our world's constraint topology, discovered through pragmatic selection.
 
 Reference:
 Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica* 43(1–2): 99–124. https://doi.org/10.1111/j.1746-8361.1989.tb00933.x.
@@ -405,17 +404,16 @@ Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica*
 
 Citation 27 [PARENTHETICAL]:
 Line: 513
-Citation: (Ladyman and Ross 2007)
+Citation: (Ladyman & Ross 2007)
 
 Context:
 The Apex Network aligns with structural realism (Worrall 1989), providing its missing naturalistic engine. It explains convergence on objective structures via pragmatic filtering: brittle theories fail systematically, low-brittleness ones survive. The historical record shows systematic elimination of high-brittleness systems. The convergence toward low-brittleness structures, documented in the Negative Canon, provides positive inductive grounds for realism about the objective viability landscape our theories progressively map.
 
-This provides an evolutionary, pragmatic engine for Ontic Structural Realism (Ladyman and Ross 2007). While OSR posits that the world is fundamentally structural, our framework explains how scientific practices are forced to converge on these objective structures through pragmatic filtering. The Apex Network is the complete set of viable relational structures, an emergent fact about our world's constraint topology, discovered through pragmatic selection.
+This provides an evolutionary, pragmatic engine for Ontic Structural Realism (Ladyman & Ross 2007). While OSR posits that the world is fundamentally structural, our framework explains how scientific practices are forced to converge on these objective structures through pragmatic filtering. The Apex Network is the complete set of viable relational structures, an emergent fact about our world's constraint topology, discovered through pragmatic selection.
 
 #### 6.1.2 Distinguishing Systemic Externalism from Other Externalisms
 
-Reference:
-Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press. ISBN 9780199573097.
+Reference: NOT FOUND for 'Ladyman & Ross 2007'
 ------------------------------------------------------------
 
 Citation 28 [PARENTHETICAL]:
@@ -459,8 +457,7 @@ The framework developed here retains pragmatism's anti-foundationalist spirit an
 
 Our framework provides this missing external constraint through its analysis of systemic failure. The collapse of Lysenkoist biology in the Soviet Union, for instance, was not due to a breakdown in its internal "game of giving and asking for reasons"—indeed, that discourse was brutally enforced. Its failure was a matter of catastrophic first-order costs that no amount of conversational management could prevent. This focus on pragmatic consequence as a real, external filter allows us to distinguish our position from other forms of "pragmatic realism." El-Hani and Pihlström (2002), for example, resolve the emergentist dilemma by arguing that emergent properties "gain their ontological status from the practice-laden ontological commitments we make." While we agree that justification is tied to practice, our model grounds this process in a more robustly externalist manner. Pragmatic viability is not the source of objectivity; it is the primary empirical indicator of a system's alignment with the mind-independent, emergent structure of the Apex Network.
 
-Reference:
-Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism and Theories of Emergence." *European Journal of Pragmatism and American Philosophy* XI-2. https://doi.org/10.4000/ejpap.1611.
+Reference: NOT FOUND for 'Baggio and Parravicini 2019'
 ------------------------------------------------------------
 
 Citation 31 [IN-PROSE]:
@@ -600,7 +597,7 @@ Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Ana
 
 Citation 40 [IN-PROSE]:
 Line: 685
-Citation: Bennett-Hunter (2015)
+Citation: Hunter (2015)
 
 Context:
 The framework for assessing brittleness is general, but its application reveals two primary modalities of failure, corresponding to the different kinds of pragmatic constraints a network can violate. This distinction clarifies how our approach unifies descriptive and normative inquiry under a single explanatory mechanism.
@@ -609,8 +606,7 @@ The framework for assessing brittleness is general, but its application reveals 
 
 ## Appendix B: Operationalizing Brittleness Metrics—A Worked Example
 
-Reference:
-Bennett-Hunter, Guy. 2015. *Ineffability and Religious Experience*. London: Routledge (originally Pickering & Chatto).
+Reference: NOT FOUND for 'Hunter 2015'
 ------------------------------------------------------------
 
 Citation 41 [IN-PROSE]:

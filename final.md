@@ -510,7 +510,7 @@ While internalist coherentists like Carlson (2015) have successfully shown that 
 
 The Apex Network aligns with structural realism (Worrall 1989), providing its missing naturalistic engine. It explains convergence on objective structures via pragmatic filtering: brittle theories fail systematically, low-brittleness ones survive. The historical record shows systematic elimination of high-brittleness systems. The convergence toward low-brittleness structures, documented in the Negative Canon, provides positive inductive grounds for realism about the objective viability landscape our theories progressively map.
 
-This provides an evolutionary, pragmatic engine for Ontic Structural Realism (Ladyman & Ross 2007). While OSR posits that the world is fundamentally structural, our framework explains how scientific practices are forced to converge on these objective structures through pragmatic filtering. The Apex Network is the complete set of viable relational structures, an emergent fact about our world's constraint topology, discovered through pragmatic selection.
+This provides an evolutionary, pragmatic engine for Ontic Structural Realism (Ladyman and Ross 2007). While OSR posits that the world is fundamentally structural, our framework explains how scientific practices are forced to converge on these objective structures through pragmatic filtering. The Apex Network is the complete set of viable relational structures, an emergent fact about our world's constraint topology, discovered through pragmatic selection.
 
 #### 6.1.2 Distinguishing Systemic Externalism from Other Externalisms
 
