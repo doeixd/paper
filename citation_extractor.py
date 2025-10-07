@@ -18,6 +18,19 @@ import argparse
 from pathlib import Path
 from datetime import datetime
 
+def is_valid_citation(author, year):
+    """Check if a potential citation is valid (not an abbreviation or invalid format)."""
+    # Skip if author contains common abbreviations
+    invalid_words = ['cf.', 'e.g.', 'i.e.', 'cf', 'eg', 'ie', 'vs.', 'vs', 'etc.', 'etc', 'et al.', 'et al']
+    if any(word in author.lower() for word in invalid_words):
+        return False
+
+    # Skip if year is not a digit or 'Forthcoming'
+    if not (year.isdigit() or year == 'Forthcoming'):
+        return False
+
+    return True
+
 def extract_citations_from_file(filepath, verbose=True):
     """Extract both parenthetical and in-prose citations from a file."""
     citations = []
@@ -46,6 +59,10 @@ def extract_citations_from_file(filepath, verbose=True):
             citation = match.group(0)
             author = match.group(1).strip()
             year = match.group(2)
+
+            # Skip invalid citations
+            if not is_valid_citation(author, year):
+                continue
 
             # Extract context
             start_line = max(0, i - 3)
@@ -229,7 +246,7 @@ def generate_references_file(citations, references, output_file, paper_files, qu
 
     # Write to file
     with open(output_file, 'w', encoding='utf-8') as f:
-        f.write("# References\n\n")
+        f.write("## References\n\n")
         f.write(f"<!-- Generated from: {', '.join(pf.name for pf in paper_files)} -->\n")
         f.write(f"<!-- Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} -->\n")
         f.write(f"<!-- Total references: {len(sorted_refs)} -->\n\n")
