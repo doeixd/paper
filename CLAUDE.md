@@ -150,3 +150,34 @@ if you have sub-agents. dont be scared of using them
   - **Typst (.typ)**: Modern Typst markup for advanced typesetting
 - **Use Cases**: Journal submission preparation, format conversion, reference list cleanup, ensuring citation completeness
 - **Dependencies**: Requires pandoc for document conversion
+
+### PDF Assembler Script (`pdf_assembler.py`)
+- **Purpose**: Generates PDFs from Typst/LaTeX files and allows attaching additional documents to the front or end of the main document
+- **Basic Usage**:
+  - `python pdf_assembler.py main.typ` - Convert single file to PDF
+  - `python pdf_assembler.py main.typ --front cover.pdf` - Add cover page
+  - `python pdf_assembler.py main.typ --end appendix.pdf` - Add appendix
+  - `python pdf_assembler.py main.tex --output final.pdf` - Custom output name
+  - `python pdf_assembler.py main.typ --front title.pdf --end refs.pdf --output complete.pdf` - Multiple attachments
+- **Command-Line Options**:
+  - `--front FILES` - Files to attach to the front (space-separated list)
+  - `--end FILES` - Files to attach to the end (space-separated list)
+  - `--output FILE` - Output PDF filename (default: based on main file)
+  - `--keep-temp` - Keep temporary PDF files for debugging
+  - `-h, --help` - Show usage help
+- **Supported Formats**: Automatic detection and conversion of:
+  - **Typst (.typ)**: Uses `typst compile` command
+  - **LaTeX (.tex)**: Uses `pdflatex` with multiple passes for references
+  - **PDF (.pdf)**: Used directly without conversion
+- **PDF Assembly Process**:
+  1. Convert all input files to PDF format
+  2. Merge PDFs in specified order (front → main → end)
+  3. Clean up temporary files (unless `--keep-temp` specified)
+- **PDF Merging Tools**: Tries tools in order of preference:
+  - **pypdf**: Pure Python library (fastest, if installed)
+  - **pdfunite**: Command-line tool from poppler-utils
+  - **pdftk**: PDF Toolkit (widely available)
+  - **Manual**: Provides instructions if no tools available
+- **Error Handling**: Comprehensive error reporting for compilation and merging failures
+- **Use Cases**: Academic paper submission, adding title pages, appendices, combining multiple documents, final publication PDF creation
+- **Dependencies**: Requires `typst` and/or `pdflatex` for compilation, plus PDF merging tools

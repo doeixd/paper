@@ -108,3 +108,25 @@ if you have sub-agents. dont be scared of using them
   - **Typst**: Modern `.typ` files for Typst typesetting system
 - **Reference Processing**: Generates submission-ready reference lists containing only works actually cited
 - **Use Case**: Final paper preparation for journal submission, converting between typesetting systems, ensuring reference completeness
+
+### PDF Assembler Script (`pdf_assembler.py`)
+- **Purpose**: Generates PDFs from Typst/LaTeX files and allows attaching additional documents to the front or end of the main document
+- **Usage**:
+  - `python pdf_assembler.py main.typ` - Convert single file to PDF
+  - `python pdf_assembler.py main.typ --front cover.pdf` - Add cover page
+  - `python pdf_assembler.py main.typ --end appendix.pdf` - Add appendix
+  - `python pdf_assembler.py main.tex --output final.pdf` - Custom output name
+  - `python pdf_assembler.py main.typ --front title.pdf --end refs.pdf --output complete.pdf` - Multiple attachments
+- **Supported Input Formats**:
+  - **Typst (.typ)**: Compiled using `typst compile`
+  - **LaTeX (.tex)**: Compiled using `pdflatex`
+  - **PDF (.pdf)**: Used directly (no conversion needed)
+- **Document Assembly**: Automatically converts all input files to PDF and merges them in the specified order
+- **PDF Merging**: Uses available tools in order of preference:
+  - `pypdf` (Python library, if available)
+  - `pdfunite` (poppler-utils)
+  - `pdftk` (PDF Toolkit)
+  - Manual instructions if no tools available
+- **Automatic Format Detection**: Detects file types by extension and content analysis
+- **Temporary File Management**: Automatically cleans up intermediate PDFs unless `--keep-temp` is specified
+- **Use Cases**: Journal submission preparation, adding cover pages/appendices, combining multiple documents, final PDF assembly for publication
