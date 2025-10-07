@@ -2,7 +2,7 @@
 
 ## Abstract
 
-This paper extends Emergent Pragmatic Coherentism (EPC) from our previous work to metaethics, developing Pragmatic Procedural Realism, a naturalistic theory of moral objectivity grounded in systems theory and historical analysis. Unlike Kantian proceduralism, which relies on idealized rational procedures, our approach identifies objectivity with the actual historical process of pragmatic selection. We operationalize EPC's Systemic Brittleness Index through measurable proxies like the Coercion Ratio (C(t)) and Patch Velocity (P(t)), showing how normative claims are filtered by their real-world costs. This enables construction of a Negative Canon of empirically falsified moral principles, framing moral progress as systemic debugging. Moral objectivity emerges as a procedural fact about which normative architectures prove resilient. This objectivity rests not on historical accident but on the modal necessity of constraint-determined optimal solutions: the Apex Network exists as a structural fact about the viable normative landscape, discovered through pragmatic filtering rather than created by it. The result is a fallibilist realism that naturalizes moral reference while decisively responding to error theory (Mackie 1977) and quasi-realism (Blackburn 1993), reframing moral inquiry as an empirical, engineering discipline aimed at cultivating more viable social worlds.
+This paper develops Pragmatic Procedural Realism, a naturalistic theory of moral objectivity grounded in systems theory and historical analysis. We extend Emergent Pragmatic Coherentism to metaethics, treating moral progress as systemic debugging: identifying and removing normative principles that generate catastrophic costs. Unlike Kantian proceduralism's idealized rational procedures, we identify objectivity with actual historical filtering through pragmatic constraints. We operationalize this through measurable brittleness metrics, construct a Negative Canon of empirically falsified principles, and show that moral objectivity emerges as a procedural fact about which normative architectures prove resilient under real-world testing. This objectivity rests on practical necessity given human constraints, not historical accident. The Apex Network—the structure of viable norms—exists as a constraint-determined fact discovered through pragmatic filtering. The result is a fallibilist realism that naturalizes moral reference while responding to error theory and quasi-realism, reframing moral inquiry as an empirical discipline aimed at cultivating more viable social worlds.
 
 ## 1. Introduction: From Static Gaps to a Dynamic Filter
 
@@ -87,6 +87,22 @@ The core claim is that systemic costs predict long-term fragility. This would be
 3. Negative Canon Failure: High-cost predicates (e.g., "slavery acceptable") enhance long-term viability
 
 We acknowledge that measuring these costs is most straightforward in state-level societies with formal institutions. For informal normative systems, proxies must be more creative, relying on data from ethnographic studies, legal records of disputes, or bioarchaeological markers of stress within marginalized subgroups. The core principle remains: the costs are real and have empirical signatures, even when their measurement is indirect.
+
+#### Calibrating Timescales for Brittleness Predictions
+
+The brittleness framework makes predictions about system fragility, but the relevant timescale varies systematically with system characteristics. Specifying these timescales is essential for falsifiability.
+
+**Scale Effects**: Small-scale systems (city-states, local communities, organizations) exhibit faster feedback loops. Brittleness manifests in collapse timescales of decades to a century. Large-scale systems (empires, major civilizations, international orders) possess greater inertia and buffering capacity, with complete collapse timescales of centuries to millennia. However, decline indicators (rising C(t), accelerating P(t)) typically precede collapse by 50-150 years even in large systems. The Roman Empire's fall took centuries, but brittleness symptoms appeared generations earlier.
+
+**Interconnectedness Effects**: Isolated systems can persist in high-brittleness states longer because external competitive pressure is delayed. Pre-modern empires with geographic buffers (mountain ranges, deserts, oceans) could sustain inefficient configurations for extended periods. Interconnected systems face accelerated filtering—competitive pressure forces collapse or adaptation more quickly. Modern nation-states in a global economy cannot sustain high-brittleness configurations as long as geographically isolated historical empires.
+
+**Equilibrium Brittleness versus Collapse Timing**: A critical distinction. We predict brittleness-collapse correlation, not deterministic timing. High-brittleness systems: (1) always incur higher maintenance costs (by definition—that's what brittleness measures), (2) show characteristic warning signs (rising C(t), accelerating P(t), accumulating systemic debt), (3) are more vulnerable to shocks (external pressures, internal crises, succession problems), and (4) eventually collapse or fundamentally transform. Timing varies with scale, context, and shock magnitude, but the pattern holds.
+
+**Probabilistic Predictions**: Our predictions are conditional and probabilistic: "System X with brittleness profile Y has Z% probability of major crisis within W years, conditional on shocks of magnitude M." These are calibrated using historical base rates for comparable systems, with confidence intervals widening for longer predictions. We're not offering deterministic prophecy but epistemic risk assessment grounded in historical patterns.
+
+**The "Successful Coercion" Illusion**: Long persistence of high-coercion systems doesn't falsify our model if: (1) C(t) was rising over time (indicating increasing fragility), (2) the system underwent periodic collapses and reconstitutions (showing brittleness), (3) decline indicators preceded ultimate collapse, or (4) comparison to peers shows higher costs and greater vulnerability. What would falsify our claim: a system with sustainably low and stable C(t) and P(t) that nonetheless collapsed, while peers with high C(t) and P(t) proved more durable. The historical record provides no clear examples of this pattern.
+
+**Prospective Application**: For contemporary systems, we diagnose rising brittleness before collapse by identifying rising C(t) trends, tracking P(t) acceleration, monitoring bio-social cost indicators, and comparing to historical patterns. This provides actionable epistemic risk assessment. We cannot predict exact timing of collapse (too many variables), but we can assess relative fragility and identify systems requiring urgent debugging. This is analogous to earthquake science: we cannot predict when specific earthquakes will occur, but we can map fault lines and assess seismic risk.
 
 ### 2.4. Operationalizing Brittleness: A Worked Example
 
@@ -231,7 +247,7 @@ The three baselines converge on a high-brittleness diagnosis:
 
 **E. Historical Validation**
 
-The brittleness diagnosis predicts systemic fragility and vulnerability to collapse under stress. Historical outcome:
+The brittleness diagnosis predicts fragility under stress. Historical outcome:
 
 - System collapsed within 5 years of 1860 data endpoint
 - Collapse required external shock (Civil War), but internal brittleness explains:
@@ -240,7 +256,7 @@ The brittleness diagnosis predicts systemic fragility and vulnerability to colla
   - Why collapse was catastrophic rather than managed (no resilience, high brittleness)
 - Post-war attempts to reconstruct similar systems (sharecropping, convict leasing) also exhibited high brittleness and eventually failed
 
-The framework successfully diagnoses brittleness retrospectively. The high C(t), accelerating P(t), and catastrophic bio-social costs all indicated a system under severe stress, maintained only through unsustainable coercion.
+The framework successfully diagnoses brittleness retrospectively. High C(t), accelerating P(t), and catastrophic bio-social costs indicated a system under severe stress maintained through unsustainable coercion.
 
 **F. Methodological Notes**
 
@@ -353,6 +369,8 @@ These challenging cases refine rather than refute the brittleness framework:
 5. **Maintain empirical openness**: Framework tests which configurations work, not which we prefer
 
 The core claim survives: high systemic costs (C(t), P(t), bio-social) correlate with long-term fragility. Apparent counterexamples, upon analysis, typically confirm the framework at finer granularity or reveal crucial distinctions (internal vs. external costs, replicator vs. interactor persistence). Where genuine anomalies exist, they sharpen our understanding of boundary conditions and measurement challenges.
+
+Having operationalized the brittleness framework and demonstrated its application to historical cases, we can now articulate its metaethical implications. The diagnostic work establishes that moral progress is empirically observable as SBI reduction. But what does this tell us about the nature of moral truth itself? Section 4 develops the philosophical foundations of Pragmatic Procedural Realism.
 
 ## 4. Pragmatic Procedural Realism: The Metaethical Framework
 
@@ -510,6 +528,20 @@ Objection: How does this differ from Kitcher's 'Ethical Project'? Reply: Our pro
 
 Objection: Hindsight Rationalization. The framework can only diagnose brittleness after failure, making it merely retrospective rather than providing prospective guidance. Reply: This misunderstands the calibration process. We use clear historical data (the Negative Canon) to calibrate our diagnostic instruments, identifying the empirical signatures that reliably precede collapse. These calibrated instruments then enable prospective diagnosis, not deterministic prediction, but epistemic risk assessment for contemporary systems. This parallels medical science: we learn disease patterns from past cases to diagnose present patients before symptoms become catastrophic. The framework thus operates in two stages: retrospective calibration using historical failures to identify brittleness indicators, then prospective application of these calibrated metrics to assess current systems and identify degenerating research programs before collapse.
 
+Objection: Why Historical over Idealized Procedures? Contemporary constructivists (Rawls 1971; Korsgaard 1996) also ground normativity in procedures, but use idealized rational procedures (original position, categorical imperative procedure) rather than historical filtering. What makes PPR's historical procedure superior? Doesn't idealization avoid the contamination of actual history by power, ignorance, and bias?
+
+Reply: There are three problems with idealized procedures and corresponding advantages to historical ones.
+
+*First, the Epistemic Problem*: Idealized procedures generate conclusions only as reliable as the idealizations themselves. But how do we know which idealizations are appropriate? Why these constraints on the original position and not others? Why this formulation of the categorical imperative and not alternatives? The choice of idealizations typically encodes substantive normative commitments—but those commitments themselves need justification. We face a regress: idealizations need grounding, but that grounding requires prior normative principles. Historical procedures avoid this regress by grounding in independently-specifiable empirical constraints (biological, cognitive, coordination requirements). These aren't idealizations we stipulate but facts we discover through science.
+
+*Second, the Application Problem*: Idealized procedures generate principles for ideal agents under ideal conditions. But we are non-ideal agents in non-ideal conditions. The application gap is severe—we need "non-ideal theory" to bridge from idealized conclusions to actual practice, but this requires additional normative principles that aren't derived from the idealized procedure. Historical procedures operate in the actual world with actual agents from the start, so their conclusions directly apply to our situation. The filtering process already accounts for human cognitive limitations, informational constraints, and coordination problems because it tested principles under precisely those conditions.
+
+*Third, the Contamination Worry Is Overstated*: The objection assumes actual history is too contaminated by power and bias to provide objective normative knowledge. But this overlooks the power of convergent historical evidence. We're not simply reading off conclusions from one biased historical trajectory—we're synthesizing patterns across many historical experiments, looking for robust convergences and systematic failures. Multiple independent societies discovering the same principles (reciprocity, harm prohibition) provides triangulation that idealized procedures lack. The historical record, while imperfect, gives us convergent empirical data that armchair idealization cannot match. Moreover, negative results (the Negative Canon) are especially robust to bias—when a principle generates catastrophic costs across diverse contexts, that's strong evidence against it regardless of whose interests were served.
+
+*Fourth, Proceduralism Can Be Historical*: PPR is proceduralist—moral truths emerge from a procedure (historical filtering through pragmatic constraints)—but uses actual history rather than idealized reasoning. The procedure's legitimacy stems from: (a) independence of constraints (they're empirical facts, not value commitments), (b) convergent validation (multiple independent historical experiments), and (c) falsifiability (makes predictions about which systems prove viable). Idealized procedures lack these epistemic virtues. They trade testability for purity.
+
+We're not opposed to idealized procedures in principle. Rawls's original position and Korsgaard's categorical imperative procedure may well converge with our historical findings (indeed, we'd expect them to if properly constructed, since they aim at sustainable cooperation). But where they diverge, we trust historical evidence over armchair idealization. The historical record is messy, but it's data. Idealized procedures are elegant, but they're speculation. For naturalistic metaethics, data trumps speculation.
+
 ### 5.6. Principled Limitations
 
 **The Viable Evil Possibility.** If a deeply repugnant system achieved genuinely low brittleness (minimal coercive costs, stable demographics, sustained innovation, and adaptation), our framework would acknowledge it as viable, though not necessarily just by other moral standards. Consider a hypothetical perfectly internalized caste system where lower castes genuinely accept their position with minimal coercion, no demographic stress, stable innovation, and low enforcement costs, yet remains intuitively morally repugnant.
@@ -523,9 +555,23 @@ However, our empirical wager is that such systems are inherently brittle. Appare
 - Tragic Knowledge: Most reliable moral insights from catastrophic failures. Progress real but costly.
 - Fallibilism: Our assessments remain provisional; historical analysis can be contested, and new evidence may revise the Negative Canon.
 
+### 5.7. The Division of Moral Labor
+
+A final objection concerns epistemic accessibility. Applying this framework requires historical expertise, data analysis, brittleness calculations, and interdisciplinary collaboration. How can ordinary moral agents use it? Does PPR collapse into expert technocracy where philosophers and social scientists dictate moral truth to the masses?
+
+**The Division of Labor Is Standard**: In medicine, patients rely on researchers and doctors rather than analyzing trials themselves. In law, citizens rely on scholars and courts. In science, non-scientists accept relativity without deriving field equations. Each domain divides epistemic labor: specialists conduct technical analysis, practitioners apply findings, citizens consult experts and internalize established results. Moral inquiry operates similarly. Generating the Negative Canon and mapping the Convergent Core requires specialist work, but conclusions (slavery is wrong, reciprocity enables cooperation) are publicly accessible.
+
+**Folk Morality Tracks Specialist Conclusions**: Historical filtering isn't exclusively academic. Ordinary people participate through practical testing, cultural transmission, social critique, and collective wisdom. Specialists systematize and validate what practical experience discovers, not replace folk moral knowledge. This parallels how physicists formalize principles engineers and builders have implicitly used for millennia.
+
+**Practical Reasoning Doesn't Require Calculations**: Ordinary moral agents rarely calculate C(t) or P(t). They consult cached results: the Negative Canon avoids catastrophic policies, Convergent Core principles guide cooperation. For peripheral questions, experts evaluate proposals while citizens participate democratically. For novel situations (AI ethics, climate institutions), specialists project systemic costs to inform public deliberation.
+
+**Against Technocracy**: This isn't technocratic dictatorship because: (1) the framework is publicly explicable; (2) expert claims are falsifiable; (3) historical experience comes from lived practice, not elite imposition; (4) many questions admit multiple viable answers; (5) misdiagnoses are corrected by actual costs. Moral inquiry parallels scientific inquiry: collaborative truth-seeking with public access and openness to revision.
+
+Ordinary moral agents needn't become historians to reason morally, any more than they need physics degrees to navigate the world. Just as we benefit from physics when building bridges, we benefit from systematic moral inquiry when building institutions. The division of labor enables democratic discourse.
+
 ## 6. Conclusion: The Pragmatic Craft of Building a More Viable World
 
-Pragmatic Procedural Realism reframes moral philosophy from a search for ultimate metaphysical foundations to the ongoing, fallible craft of pragmatic navigation. It is a theory of the 'floor' of normativity, the necessary, evidence-based foundations upon which any successful cooperative system must be built. It does not dictate the final architecture of the 'ceiling,' the diverse forms of flourishing a viable society might choose to pursue. But by providing a naturalistic and falsifiable method for identifying the structural principles of systemic viability, it offers a solid, empirical foundation upon which those more aspirational projects can securely build, steering us by the light of humanity's most enduring successes and the hard-won lessons from the wreckage of its failures. It is a philosophy that learns from the architecture of failure to engineer more viable architectures of cooperation. This framework reframes moral inquiry as an essential form of collaborative engineering, requiring philosophers, social scientists, and policymakers to work together to diagnose and debug our most critical social systems. Its application to contemporary challenges, from the ethics of artificial intelligence to the design of institutions for global cooperation, represents a promising direction for future work with practical implications for policy and governance.
+Pragmatic Procedural Realism reframes moral philosophy from searching for ultimate metaphysical foundations to the ongoing, fallible craft of pragmatic navigation. It maps normativity's 'floor'—necessary, evidence-based foundations for successful cooperation—not its 'ceiling' of diverse forms of flourishing. By providing a naturalistic, falsifiable method for identifying structural principles of systemic viability, it offers empirical grounding for more aspirational projects, steering by humanity's enduring successes and hard-won lessons from failures. It learns from the architecture of failure to engineer more viable cooperation. This reframes moral inquiry as collaborative engineering among philosophers, social scientists, and policymakers to diagnose and debug critical social systems. Its application to contemporary challenges—from AI ethics to institutions for global cooperation—represents a promising direction with practical implications.
 
 ## Glossary
 
