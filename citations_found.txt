@@ -1,6 +1,6 @@
 
 ================================================================================
-Citation Extraction Run - 2025-10-07 09:14:37
+Citation Extraction Run - 2025-10-07 09:44:01
 Files scanned: AGENTS.md, ai.md, arch_v16.2.md, arch_v16.2_REVISED.md, assessment.md, CITATION_EXTRACTOR_README.md, CLAUDE.md, final.md, final_references.md, gemini-again.md, gemini.md, gemini_.md, grok_ref.md, late_notes.md, mathy.md, other - Copy.md, other.md, other_revisions.md, paper.md, popositions_predicates.md, reading_guide.md, README.md, revision.md, revision_guide.md, suggestions.md, summary.md, syn.md, synth_guide.md
 Total citations: 518
 ================================================================================
@@ -3141,57 +3141,57 @@ FILE: grok_ref.md
 ################################################################################
 
 Citation 1 [PARENTHETICAL]:
-Line: 39
+Line: 48
 Citation: (originally 1954)
 
 Context:
-### 18. Goldman, Alvin I. 1999. *Knowledge in a Social World*. Oxford: Oxford University Press.
+### 21. Goldman, Alvin I. 1999. *Knowledge in a Social World*. Oxford: Oxford University Press.
 
-### 19. Goodman, Nelson. 1983. *Fact, Fiction, and Forecast*. 4th ed. Cambridge, MA: Harvard University Press (originally 1954).
+### 22. Goodman, Nelson. 1983. *Fact, Fiction, and Forecast*. 4th ed. Cambridge, MA: Harvard University Press (originally 1954).
 
-### 20. Haack, Susan. 1993. *Evidence and Inquiry: Towards Reconstruction in Epistemology*. Oxford: Blackwell.
+### 23. Haack, Susan. 1993. *Evidence and Inquiry: Towards Reconstruction in Epistemology*. Oxford: Blackwell.
 
 Reference: NOT FOUND for 'originally 1954'
 ------------------------------------------------------------
 
 Citation 2 [PARENTHETICAL]:
-Line: 61
+Line: 70
 Citation: (originally 1962)
 
 Context:
-### 29. Kornblith, Hilary. 1993. *Knowledge and Its Place in Nature*. Oxford: Clarendon Press (published 2002, but listed as 1993 in some sources; verified 2002).
+### 32. Kornblith, Hilary. 1993. *Knowledge and Its Place in Nature*. Oxford: Clarendon Press (published 2002, but listed as 1993 in some sources; verified 2002).
 
-### 30. Kuhn, Thomas S. 1996. *The Structure of Scientific Revolutions*. 3rd ed. Chicago: University of Chicago Press (originally 1962).
+### 33. Kuhn, Thomas S. 1996. *The Structure of Scientific Revolutions*. 3rd ed. Chicago: University of Chicago Press (originally 1962).
 
-### 31. Kvanvig, Jonathan L. 2012. "Coherentism and Justified Inconsistent Beliefs: A Solution." *Southern Journal of Philosophy* 50(1): 21–41. https://doi.org/10.1111/j.2041-6962.2011.00090.x.
+### 34. Kvanvig, Jonathan L. 2012. "Coherentism and Justified Inconsistent Beliefs: A Solution." *Southern Journal of Philosophy* 50(1): 21–41. https://doi.org/10.1111/j.2041-6962.2011.00090.x.
 
 Reference: NOT FOUND for 'originally 1962'
 ------------------------------------------------------------
 
 Citation 3 [PARENTHETICAL]:
-Line: 98
+Line: 107
 Citation: (originally 1878)
 
 Context:
-### 47. Olsson, Erik J. 2005. *Against Coherence: Truth, Probability, and Justification*. Oxford: Oxford University Press.
+### 50. Olsson, Erik J. 2005. *Against Coherence: Truth, Probability, and Justification*. Oxford: Oxford University Press.
 
-### 48. Peirce, Charles S. 1992. "How to Make Our Ideas Clear." In *The Essential Peirce: Selected Philosophical Writings*, vol. 1 (1867–1893), edited by Nathan Houser and Christian Kloesel, 124–41. Bloomington: Indiana University Press (originally 1878).
+### 51. Peirce, Charles S. 1992. "How to Make Our Ideas Clear." In *The Essential Peirce: Selected Philosophical Writings*, vol. 1 (1867–1893), edited by Nathan Houser and Christian Kloesel, 124–41. Bloomington: Indiana University Press (originally 1878).
 
-### 49. Peter, Fabienne. 2024. "Moral Affordances and the Demands of Fittingness." *Philosophical Psychology* 37(7): 1948–70. https://doi.org/10.1080/09515089.2023.2236120.
+### 52. Peter, Fabienne. 2024. "Moral Affordances and the Demands of Fittingness." *Philosophical Psychology* 37(7): 1948–70. https://doi.org/10.1080/09515089.2023.2236120.
 
 Reference: NOT FOUND for 'originally 1878'
 ------------------------------------------------------------
 
 Citation 4 [PARENTHETICAL]:
-Line: 102
+Line: 111
 Citation: (originally 1934)
 
 Context:
-### 49. Peter, Fabienne. 2024. "Moral Affordances and the Demands of Fittingness." *Philosophical Psychology* 37(7): 1948–70. https://doi.org/10.1080/09515089.2023.2236120.
+### 52. Peter, Fabienne. 2024. "Moral Affordances and the Demands of Fittingness." *Philosophical Psychology* 37(7): 1948–70. https://doi.org/10.1080/09515089.2023.2236120.
 
-### 50. Popper, Karl. 1959. *The Logic of Scientific Discovery*. London: Hutchinson (originally 1934).
+### 53. Popper, Karl. 1959. *The Logic of Scientific Discovery*. London: Hutchinson (originally 1934).
 
-### 51. Price, Huw. 1992. "Metaphysical Pluralism." *Journal of Philosophy* 89(8): 387–409. https://doi.org/10.2307/2940975.
+### 54. Price, Huw. 1992. "Metaphysical Pluralism." *Journal of Philosophy* 89(8): 387–409. https://doi.org/10.2307/2940975.
 
 Reference: NOT FOUND for 'originally 1934'
 ------------------------------------------------------------
@@ -3837,7 +3837,8 @@ John Dewey (1938) saw inquiry as problem-solving. Beliefs are instruments for na
 
 Our SBI framework operationalizes this:
 
-Reference: NOT FOUND for 'Dewey 1938'
+Reference:
+Dewey, John. 1938. *Logic: The Theory of Inquiry*. New York: Henry Holt and Company.
 ------------------------------------------------------------
 
 Citation 41 [IN-PROSE]:
@@ -4542,7 +4543,8 @@ John Dewey (1938) saw inquiry as problem-solving. Beliefs are instruments for na
 
 Our SBI framework operationalizes this:
 
-Reference: NOT FOUND for 'Dewey 1938'
+Reference:
+Dewey, John. 1938. *Logic: The Theory of Inquiry*. New York: Henry Holt and Company.
 ------------------------------------------------------------
 
 Citation 3 [IN-PROSE]:

@@ -260,3 +260,113 @@ AttributeError: 'str' object has no attribute 'exists'
 2025-10-07 08:58:52,499 - INFO - SUCCESS! Release complete in 4.0s
 2025-10-07 08:58:52,499 - INFO - Final PDF: releases\final.pdf (191559 bytes)
 2025-10-07 08:58:52,499 - INFO - Release completed successfully: releases\final.pdf
+2025-10-07 09:44:47,806 - INFO - Successfully imported paper_converter
+2025-10-07 09:44:47,807 - INFO - Successfully imported pdf_assembler
+2025-10-07 09:44:48,558 - WARNING - No PDF merging tools available - multi-file operations may require manual intervention
+2025-10-07 09:44:48,558 - INFO - Input validation passed: final.md (103098 bytes)
+2025-10-07 09:44:48,560 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251007_094448.pdf
+2025-10-07 09:44:48,561 - INFO - Starting Academic Paper Release Pipeline
+2025-10-07 09:44:48,561 - INFO - Input: final.md
+2025-10-07 09:44:48,561 - INFO - Output: releases\final.pdf
+2025-10-07 09:44:48,561 - INFO - Format: typst
+2025-10-07 09:44:48,561 - INFO - Config: 0 validation errors
+2025-10-07 09:44:48,561 - INFO - Converting markdown to target format...
+2025-10-07 09:44:48,561 - INFO - Extracting citations...
+2025-10-07 09:44:48,567 - INFO - Found 41 citations
+2025-10-07 09:44:48,567 - INFO - Loading and filtering references...
+2025-10-07 09:44:48,568 - INFO - Loaded 565 reference entries
+2025-10-07 09:44:48,569 - INFO - Generated 32 filtered references
+2025-10-07 09:44:48,569 - WARNING - 6 citations not found in references.md
+2025-10-07 09:44:48,570 - INFO - Combining paper with filtered references...
+2025-10-07 09:44:48,592 - INFO - Combined file created: 109327 bytes
+2025-10-07 09:44:48,592 - INFO - Converting to typst format...
+2025-10-07 09:44:48,926 - INFO - Target file created: 114832 bytes
+2025-10-07 09:44:48,926 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-07 09:44:48,927 - INFO - Generating PDF with attachments...
+2025-10-07 09:44:48,927 - INFO - Main document: final_combined.typst
+2025-10-07 09:44:48,942 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-07 09:44:49,201 - INFO - Converted to PDF: final_combined.pdf
+2025-10-07 09:44:49,202 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-07 09:44:49,203 - INFO - PDF generation successful: 191559 bytes
+2025-10-07 09:44:49,203 - INFO - Adding metadata to PDF...
+2025-10-07 09:44:49,203 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-07 09:44:49,203 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-07 09:44:49,203 - INFO - Validated final PDF: releases\final.pdf (191559 bytes)
+2025-10-07 09:44:49,203 - INFO - Starting cleanup...
+2025-10-07 09:44:49,204 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-07 09:44:49,204 - INFO - SUCCESS! Release complete in 0.6s
+2025-10-07 09:44:49,204 - INFO - Final PDF: releases\final.pdf (191559 bytes)
+2025-10-07 09:44:49,205 - INFO - Release completed successfully: releases\final.pdf
+2025-10-07 09:45:57,824 - INFO - Successfully imported paper_converter
+2025-10-07 09:45:57,825 - INFO - Successfully imported pdf_assembler
+2025-10-07 09:45:58,593 - WARNING - No PDF merging tools available - multi-file operations may require manual intervention
+2025-10-07 09:45:58,594 - INFO - Input validation passed: final.md (103100 bytes)
+2025-10-07 09:45:58,605 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251007_094558.pdf
+2025-10-07 09:45:58,605 - INFO - Starting Academic Paper Release Pipeline
+2025-10-07 09:45:58,605 - INFO - Input: final.md
+2025-10-07 09:45:58,605 - INFO - Output: releases\final.pdf
+2025-10-07 09:45:58,605 - INFO - Format: typst
+2025-10-07 09:45:58,605 - INFO - Config: 0 validation errors
+2025-10-07 09:45:58,605 - INFO - Converting markdown to target format...
+2025-10-07 09:45:58,605 - INFO - Extracting citations...
+2025-10-07 09:45:58,611 - INFO - Found 41 citations
+2025-10-07 09:45:58,611 - INFO - Loading and filtering references...
+2025-10-07 09:45:58,612 - INFO - Loaded 565 reference entries
+2025-10-07 09:45:58,613 - INFO - Generated 35 filtered references
+2025-10-07 09:45:58,614 - WARNING - 3 citations not found in references.md
+2025-10-07 09:45:58,614 - INFO - Combining paper with filtered references...
+2025-10-07 09:45:58,636 - INFO - Combined file created: 109615 bytes
+2025-10-07 09:45:58,636 - INFO - Converting to typst format...
+2025-10-07 09:45:58,977 - INFO - Target file created: 115220 bytes
+2025-10-07 09:45:58,977 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-07 09:45:58,977 - INFO - Generating PDF with attachments...
+2025-10-07 09:45:58,978 - INFO - Main document: final_combined.typst
+2025-10-07 09:45:58,992 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-07 09:45:59,242 - INFO - Converted to PDF: final_combined.pdf
+2025-10-07 09:45:59,243 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-07 09:45:59,243 - INFO - PDF generation successful: 192216 bytes
+2025-10-07 09:45:59,243 - INFO - Adding metadata to PDF...
+2025-10-07 09:45:59,243 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-07 09:45:59,243 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-07 09:45:59,244 - INFO - Validated final PDF: releases\final.pdf (192216 bytes)
+2025-10-07 09:45:59,244 - INFO - Starting cleanup...
+2025-10-07 09:45:59,245 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-07 09:45:59,245 - INFO - SUCCESS! Release complete in 0.7s
+2025-10-07 09:45:59,245 - INFO - Final PDF: releases\final.pdf (192216 bytes)
+2025-10-07 09:45:59,245 - INFO - Release completed successfully: releases\final.pdf
+2025-10-07 09:46:18,801 - INFO - Successfully imported paper_converter
+2025-10-07 09:46:18,802 - INFO - Successfully imported pdf_assembler
+2025-10-07 09:46:19,667 - WARNING - No PDF merging tools available - multi-file operations may require manual intervention
+2025-10-07 09:46:19,668 - INFO - Input validation passed: final.md (103100 bytes)
+2025-10-07 09:46:19,670 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251007_094619.pdf
+2025-10-07 09:46:19,670 - INFO - Starting Academic Paper Release Pipeline
+2025-10-07 09:46:19,670 - INFO - Input: final.md
+2025-10-07 09:46:19,670 - INFO - Output: releases\final.pdf
+2025-10-07 09:46:19,670 - INFO - Format: typst
+2025-10-07 09:46:19,671 - INFO - Config: 0 validation errors
+2025-10-07 09:46:19,671 - INFO - Converting markdown to target format...
+2025-10-07 09:46:19,671 - INFO - Extracting citations...
+2025-10-07 09:46:19,677 - INFO - Found 41 citations
+2025-10-07 09:46:19,678 - INFO - Loading and filtering references...
+2025-10-07 09:46:19,679 - INFO - Loaded 565 reference entries
+2025-10-07 09:46:19,680 - INFO - Generated 38 filtered references
+2025-10-07 09:46:19,680 - INFO - Combining paper with filtered references...
+2025-10-07 09:46:19,699 - INFO - Combined file created: 109947 bytes
+2025-10-07 09:46:19,699 - INFO - Converting to typst format...
+2025-10-07 09:46:20,067 - INFO - Target file created: 115751 bytes
+2025-10-07 09:46:20,067 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-07 09:46:20,067 - INFO - Generating PDF with attachments...
+2025-10-07 09:46:20,068 - INFO - Main document: final_combined.typst
+2025-10-07 09:46:20,085 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-07 09:46:20,371 - INFO - Converted to PDF: final_combined.pdf
+2025-10-07 09:46:20,372 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-07 09:46:20,373 - INFO - PDF generation successful: 192790 bytes
+2025-10-07 09:46:20,373 - INFO - Adding metadata to PDF...
+2025-10-07 09:46:20,373 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-07 09:46:20,373 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-07 09:46:20,373 - INFO - Validated final PDF: releases\final.pdf (192790 bytes)
+2025-10-07 09:46:20,373 - INFO - Starting cleanup...
+2025-10-07 09:46:20,375 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-07 09:46:20,375 - INFO - SUCCESS! Release complete in 0.7s
+2025-10-07 09:46:20,375 - INFO - Final PDF: releases\final.pdf (192790 bytes)
+2025-10-07 09:46:20,375 - INFO - Release completed successfully: releases\final.pdf
