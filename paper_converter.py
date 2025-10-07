@@ -251,17 +251,16 @@ def combine_paper_and_references(paper_file, filtered_refs_file, output_file):
 
 def convert_with_pandoc(input_file, output_file, format_type, preamble_file=None):
     """Convert markdown to LaTeX or Typst using pandoc."""
-    cmd = ['pandoc', input_file, '-o', output_file]
+    cmd = ['pandoc', input_file]
 
     if format_type.lower() == 'latex':
-        cmd.extend(['--pdf-engine=pdflatex'])
+        cmd.extend(['--pdf-engine=pdflatex', '-o', output_file])
         if preamble_file:
             cmd.extend(['--include-in-header', preamble_file])
     elif format_type.lower() == 'typst':
-        cmd.extend(['--to', 'typst'])
-        # Note: Typst doesn't use preambles the same way, but we can handle it
-        if preamble_file:
-            print("Warning: Preamble files are not directly supported for Typst output")
+        # For Typst, convert to a temporary file first, then prepend preamble
+        temp_output = output_file + '.tmp'
+        cmd.extend(['--to', 'typst', '-o', temp_output])
     else:
         raise ValueError(f"Unsupported format: {format_type}")
 
@@ -270,6 +269,34 @@ def convert_with_pandoc(input_file, output_file, format_type, preamble_file=None
 
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+
+        # Handle Typst preamble by prepending it to the output
+        if format_type.lower() == 'typst':
+            temp_output = output_file + '.tmp'
+            with open(temp_output, 'r', encoding='utf-8') as f:
+                typst_content = f.read()
+
+            final_content = ""
+            if preamble_file:
+                try:
+                    with open(preamble_file, 'r', encoding='utf-8') as f:
+                        preamble_content = f.read()
+                    final_content = preamble_content + '\n\n' + typst_content
+                except Exception as e:
+                    print(f"Warning: Could not read preamble file {preamble_file}: {e}")
+                    final_content = typst_content
+            else:
+                final_content = typst_content
+
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.write(final_content)
+
+            # Clean up temp file
+            try:
+                os.remove(temp_output)
+            except OSError:
+                pass
+
         return True, result.stdout
     except subprocess.CalledProcessError as e:
         return False, e.stderr
