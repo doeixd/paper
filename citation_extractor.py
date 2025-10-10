@@ -21,7 +21,7 @@ from datetime import datetime
 def is_valid_citation(author, year):
     """Check if a potential citation is valid (not an abbreviation or invalid format)."""
     # Skip if author contains common abbreviations
-    invalid_words = ['cf.', 'e.g.', 'i.e.', 'cf', 'eg', 'ie', 'vs.', 'vs', 'etc.', 'etc', 'et al.', 'et al']
+    invalid_words = ['cf.', 'e.g.', 'i.e.', 'cf', 'eg', 'ie', 'vs.', 'vs', 'etc.', 'etc', 'et al.', 'et al', 'originally']
     if any(word in author.lower() for word in invalid_words):
         return False
 
@@ -45,8 +45,8 @@ def extract_citations_from_file(filepath, verbose=True):
 
     lines = content.split('\n')
 
-    # Pattern 1: Parenthetical citations like (Author Year), (Author, Year), or (Author Year, page)
-    parenthetical_pattern = r'\(([A-Za-z][A-Za-z\s,&\-\.]*?)(?:\s+|,\s+)([A-Za-z]+|\d{4})(?:[a-z])?(?:,\s*(?:p\.?\s*)?\d+(?:-\d+)?)?\)'
+    # Pattern 1: Parenthetical citations - find all text within parentheses that contains years
+    parenthetical_pattern = r'\(([^)]*?\d{4}[^)]*?)\)'
 
     # Pattern 2: In-prose citations like "Author (Year)" or "Author et al. (Year)"
     # Matches: Goldman (1979), Quine (1951), Acemoglu and Robinson (2012),
@@ -57,38 +57,43 @@ def extract_citations_from_file(filepath, verbose=True):
         # Find parenthetical citations
         for match in re.finditer(parenthetical_pattern, line):
             citation = match.group(0)
-            author = match.group(1).strip()
-            year = match.group(2)
+            citation_content = match.group(1)
 
-            # Extract context once (same for all years in multi-year citations)
+            # Extract context once
             start_line = max(0, i - 3)
             end_line = min(len(lines), i + 4)
             context = '\n'.join(lines[start_line:end_line]).strip()
 
-            # Handle multi-year citations like "(Plantinga 1993, 2011)"
-            # Extract ALL 4-digit years from the full citation string
-            year_pattern = r'\d{4}'
-            years = re.findall(year_pattern, citation)
+            # Parse the citation to extract all author-year pairs
+            # Handle both semicolon-separated and comma-separated citations
+            # First split by semicolons, then by commas for each part
+            all_parts = []
+            semicolon_parts = [part.strip() for part in citation_content.split(';')]
+            for semicolon_part in semicolon_parts:
+                comma_parts = [part.strip() for part in semicolon_part.split(',')]
+                all_parts.extend(comma_parts)
 
-            # If no years found via pattern (shouldn't happen), fall back to captured year
-            if not years:
-                years = [year]
+            for part in all_parts:
+                # Try to extract author and year from each part
+                # Pattern: "Author Year" or "Author et al. Year" or "Author1 and Author2 Year"
+                part_match = re.match(r'^(.+?)\s+(\d{4}[a-z]?)$', part.strip())
+                if part_match:
+                    author = part_match.group(1).strip()
+                    year = part_match.group(2)
 
-            # Create separate citation entries for each year
-            for individual_year in years:
-                # Skip invalid citations
-                if not is_valid_citation(author, individual_year):
-                    continue
+                    # Skip invalid citations
+                    if not is_valid_citation(author, year):
+                        continue
 
-                citations.append({
-                    'citation': f"({author} {individual_year})",
-                    'author': author,
-                    'year': individual_year,
-                    'type': 'parenthetical',
-                    'context': context,
-                    'file': filepath.name,
-                    'line': i + 1
-                })
+                    citations.append({
+                        'citation': f"({author} {year})",
+                        'author': author,
+                        'year': year,
+                        'type': 'parenthetical',
+                        'context': context,
+                        'file': filepath.name,
+                        'line': i + 1
+                    })
 
         # Find in-prose citations
         for match in re.finditer(in_prose_pattern, line):
@@ -152,6 +157,9 @@ def load_references():
 
             # Extract primary author (last name before first comma)
             primary_author = full_author.split(',')[0].strip()
+            # Strip trailing dots from institutional authors
+            primary_author = primary_author.rstrip('.')
+            full_author = full_author.rstrip('.')
 
             # Check for "originally" year in the block
             original_year = None
