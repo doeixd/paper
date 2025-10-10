@@ -2,13 +2,13 @@
 
 ## Abstract
 
-Coherentist theories of justification face the isolation objection: a belief system could be perfectly coherent yet entirely detached from reality. This paper proposes Emergent Pragmatic Coherentism (EPC), which grounds coherence in the demonstrated viability of knowledge systems. The framework uses systemic brittleness as a diagnostic tool, measuring network health through observable costs incurred when applying propositions. Selective pressure from these costs drives knowledge systems toward convergence on an emergent structure—the Apex Network—comprising maximally viable propositions shaped by historical filtering, not pre-existing truth. Justification requires both internal coherence within a Consensus Network and that network's demonstrated resilience. This naturalistic account redefines objective truth as alignment with the Apex Network, not a pre-existing metaphysical blueprint but the necessary structure of optimal solutions determined by mind-independent pragmatic constraints. The framework explains pragmatic revision in Quine's web of belief, provides prospective guidance through constraint analysis, and supports a falsifiable research program for assessing epistemic health. Preliminary applications to cases like Ptolemaic astronomy and AI development illustrate the approach, using proxies such as citation patterns and resource metrics.
+Coherentist theories of justification face the isolation objection: a belief system could be perfectly coherent yet entirely detached from reality. This paper proposes Emergent Pragmatic Coherentism (EPC), which grounds coherence in the demonstrated viability of knowledge systems. The framework uses systemic brittleness as a diagnostic tool, measuring network health through observable costs incurred when applying propositions. Selective pressure from these costs drives knowledge systems toward convergence on an emergent structure: the Apex Network. This network comprises maximally viable propositions discovered through historical filtering. Justification requires both internal coherence and a network's demonstrated resilience. Objective truth is redefined as alignment with the Apex Network, the necessary structure of optimal solutions determined by mind-independent pragmatic constraints. The framework explains pragmatic revision in Quine's web of belief, provides prospective guidance through constraint analysis, and supports a falsifiable research program for assessing epistemic health. Preliminary applications to cases like Ptolemaic astronomy and AI development illustrate the approach, using proxies such as citation patterns and resource metrics.
 
 ## 1. Introduction: From a Static Web to a Dynamic Process
 
-Why did germ theory replace miasma theory? A standard explanation cites superior evidence, but a deeper view reveals systemic viability. Miasma theory incurred catastrophic costs—thousands died in London from misdirected public health efforts targeting odors instead of contaminated water—and demanded accelerating ad hoc modifications to address anomalies. Its brittleness is evident in high patch velocity (P(t)); historical analyses (Snow 1855) indicate dozens of modifications by the mid-19th century. Germ theory, by contrast, reduced these costs while unifying diverse phenomena.
+Why did germ theory replace miasma theory? A standard explanation cites superior evidence, but a deeper view reveals systemic viability. Miasma theory incurred catastrophic costs, such as misdirected public health efforts in London, and demanded constant ad hoc modifications to address anomalies. Its brittleness is evident in high patch velocity (P(t)); historical analyses (Snow 1855) indicate dozens of modifications by the mid-19th century. Germ theory, by contrast, reduced these costs while unifying diverse phenomena.
 
-This shift exemplifies the isolation objection to coherentism: a belief system might be coherent yet detached from reality (BonJour 1985). Coherentists have offered responses (Olsson 2005; Kvanvig 2012; Krag 2015), but most rely on internalist resources that lack external constraints. This paper proposes an alternative, grounding coherence in the demonstrated viability of knowledge systems, measured by cost minimization (Quine 1960; Kitcher 1993).
+This shift exemplifies the isolation objection to coherentism: a belief system might be coherent yet detached from reality (BonJour 1985). Coherentists have offered responses (Olsson 2005; Kvanvig 2012; Krag 2015), but most rely on internalist resources lacking external constraints. We propose Emergent Pragmatic Coherentism, grounding coherence in demonstrated viability of knowledge systems measured by cost minimization (Quine 1960; Kitcher 1993).
 
 ### 1.1 Lineage and Departure
 
@@ -22,7 +22,7 @@ Our response is distinctive: coherence rests not on historical accident but on e
 
 Crucially, historical filtering is a discovery process, not a creation mechanism. The Apex Network is not simply what happened to survive; it is the optimal structure that must exist given the constraint space of reality. Our fallible history is how we produce the map; it is not what creates the territory. Failed systems reveal where the constraint landscape drops off; successful systems triangulate toward peaks emerging necessarily from reality's organization.
 
-This paper grounds coherence in demonstrated viability of entire knowledge systems, measured through their capacity to minimize systemic costs. Drawing from resilience theory (Holling 1973), we explain how individuals' holistic revisions to personal webs of belief in response to recalcitrant experiences, which we term pragmatic pushback, drive bottom-up formation of viable public knowledge systems.
+We ground coherence in demonstrated viability of entire knowledge systems, measured through their capacity to minimize systemic costs. Drawing from resilience theory (Holling 1973), we explain how individuals' holistic revisions to personal webs of belief in response to recalcitrant experiences, which we term pragmatic pushback, drive bottom-up formation of viable public knowledge systems.
 
 This transforms the isolation objection: a coherent system detached from reality isn't truly possible because constraints force convergence toward viable configurations. A perfectly coherent flat-earth cosmology generates catastrophic navigational costs. A coherent phlogiston chemistry generates accelerating conceptual debt. These aren't merely false but structurally unstable, misaligned with constraint topology. The process is painstaking construction of a reef chart from empirical data of shipwrecks. Successful systems navigate safe channels revealed by failures, triangulating toward viable peaks. The Apex Network is the structure remaining when all unstable configurations are eliminated.
 
@@ -34,15 +34,15 @@ The framework incorporates power, path dependence, and contingency as key variab
 
 The framework targets cumulative knowledge systems where inter-generational claims and pragmatic feedback enable evaluation. It provides macro-level foundations for individual higher-order evidence (Section 7), not solutions to Gettier cases or basic perception.
 
-Our argument unfolds systematically, building from foundational concepts to concrete applications. Section 2 forges our analytical toolkit, defining the functional units of knowledge systems and introducing the concept of 'systemic brittleness' as a diagnostic for epistemic health. Section 3 operationalizes these tools with a rigorous methodology for assessing brittleness without falling into circularity. Armed with this framework, Section 4 constructs our central thesis: the 'Apex Network,' an emergent structure of objectivity revealed through the mapping of systemic failures. Section 5 demonstrates the framework's versatility by applying it to mathematics, showing how pragmatic selection operates even in abstract domains. Section 6 situates our 'Systemic Externalism' within contemporary epistemology, while the final section defends the framework against objections and outlines its principled limitations.
+
 
 ### Glossary
 - Apex Network: Emergent structure of maximal viability
 - Brittleness: Accumulated systemic costs
 - Emergent Pragmatic Coherentism: Framework grounding coherence in demonstrated viability
 - Standing Predicate: Reusable predicate for cost-reduction
-- Constrained Interpretation: A methodology for assessing systemic brittleness that manages hermeneutic circularity through physical-biological anchors, comparative-diachronic analysis, and convergent evidence. It aims not for mechanical objectivity, but for pragmatic objectivity sufficient for comparative epistemic assessment.
-- Pragmatic Objectivity: Objectivity sufficient for comparative assessment and institutional evaluation, achieved through convergent evidence across independent metrics, without requiring view-from-nowhere neutrality or complete theory-independence. The framework's claims are objective in being determined by mind-independent constraints, though our knowledge of those constraints remains fallible and requires empirical triangulation.
+- Constrained Interpretation: A methodology for assessing brittleness by anchoring analysis in physical constraints, comparative history, and convergent evidence to achieve pragmatic objectivity.
+- Pragmatic Objectivity: Objectivity sufficient for comparative assessment, achieved through convergent evidence from independent metrics without assuming a neutral viewpoint.
 - Modal Necessity (of Apex Network): The Apex Network exists as a necessary structure determined by pragmatic constraints, not as a contingent product of which societies happened to survive. It would be discovered through any sufficiently comprehensive exploration of the constraint landscape, making it counterfactually stable across alternative histories.
 
 ## 2. The Core Concepts: Units of Epistemic Selection
@@ -120,11 +120,11 @@ Two brief examples illustrate this toolkit in action.
 
 Operationalizing brittleness faces a fundamental circularity: measuring systemic costs objectively requires neutral standards for "waste" or "dysfunction," yet establishing such standards appears to require the very epistemic framework our theory aims to provide.
 
-While this appears circular, the circularity is virtuous, not vicious. It is the standard method of reflective equilibrium, operationalized here with external checks. We break the circle by anchoring our analysis in three ways: First, we ground measurements in basic biological and physical constraints: demographic collapse, resource depletion, infrastructure failure. Second, we employ comparative rather than absolute measures, comparing brittleness trajectories across similar systems. Third, we require convergent evidence across multiple independent indicators before diagnosing brittleness.
+This circularity is virtuous, reflecting the method of reflective equilibrium. We anchor our analysis with external checks: grounding measurements in physical constraints, using comparative analysis, and requiring convergent evidence.
 
 Brittleness assessment remains partially hermeneutic. The framework provides structured tools rather than mechanical algorithms, offering "structured fallibilism" rather than neutral assessment. This methodology provides pragmatic objectivity sufficient for comparative assessment and institutional evaluation.
 
-This framing positions the framework as epistemic risk management: a rising trend in a system's brittleness indicators does not prove its core claims are false, but provides a strong, evidence-based signal that it is becoming a higher-risk, degenerating research program, making continued investment in it increasingly irrational. Just as financial risk management uses multiple converging indicators to assess portfolio health, epistemic risk management uses brittleness metrics to assess the health of knowledge systems before their hidden fragility leads to catastrophic failure.
+We frame the approach as epistemic risk management: a rising trend in a system's brittleness indicators does not prove its core claims are false, but strongly signals that it is becoming a higher-risk, degenerating research program, making continued investment increasingly irrational. Just as financial risk management uses multiple converging indicators to assess portfolio health, epistemic risk management uses brittleness metrics to assess the health of knowledge systems before their hidden fragility leads to catastrophic failure.
 
 ### 3.2 The Solution: A Tiered Diagnostic Framework
 
@@ -203,7 +203,7 @@ Society B doubles police budget (year 1: 2% GDP → year 10: 4% GDP): Crime rate
 
 ## 4. The Emergent Structure of Objectivity
 
-The logic of viability detailed in Section 3 provides selective pressure driving knowledge system evolution. This section builds the theory of objectivity this dynamic makes possible, showing how identifying high-brittleness systems provides rigorous, empirical, fundamentally negative methodology for charting pragmatically viable landscape.
+The logic of viability detailed in Section 3 selects for knowledge system evolution. We build the theory of objectivity this dynamic makes possible, showing how identifying high-brittleness systems provides rigorous, empirical, fundamentally negative methodology for charting pragmatically viable landscape.
 
 ### 4.1 A Negative Methodology: Charting What Fails
 
@@ -219,9 +219,7 @@ Charting failures reverse-engineers viability constraints, providing external di
 
 ### 4.2 The Apex Network: Ontological and Epistemic Status
 
-Filtering out high-brittleness systems is not merely destructive. As unviable designs enter the Negative Canon, pragmatic selection reveals contours of an objective structure all successful inquiry is forced to approximate: the Apex Network. This is not a pre-existing metaphysical blueprint, nor reality's territory itself, nor merely our current consensus. The Apex Network is the theoretical limit-point of convergence, resonating with the classical pragmatist notion of truth as the ideal end of inquiry (Peirce 1878). Our Consensus Network is a fallible, historically-situated attempt to chart this structure; the Apex Network is the objective structure being charted.
-
-Following Ladyman and Ross (2007), the Apex Network can be viewed as an emergent structural invariant: the asymptotic intersection of all low-brittleness models constrained by reality. Its nodes represent, in Cartwright's sense (1989), local capacities stabilized through adaptive feedback. As Mitchell (2009) argues, such plural stability is a virtue, not a vice—indicating resilience in complex systems rather than inconsistency. Luhmann (1984) supports our view of epistemic systems as self-referential yet environment-coupled through constraint feedback.
+As the Negative Canon catalogs failures, a process of pragmatic selection reveals the contours of the **Apex Network**: the objective structure of maximally viable solutions all successful inquiry must approximate. This network is not a pre-existing metaphysical blueprint but a structural emergent, the asymptotic intersection of all low-brittleness models (Ladyman and Ross 2007). Its status resonates with the pragmatist ideal end of inquiry (Peirce 1878). Our Consensus Network is our fallible map of this objective structure, which is stabilized through adaptive feedback from mind-independent constraints.
 
 The Apex Network's ontological status requires careful specification to avoid foundationalist overreach and relativist collapse. We propose understanding it as a "structural emergent": a real, objective pattern crystallizing from interaction between inquiry practices and environmental resistance. Consider how objective structural facts can emerge from seemingly subjective domains: while individual color preference is contingent, cross-cultural data shows striking convergence on blue. This pattern is not an accident but an emergent structural fact demanding naturalistic explanation. Pragmatic pushback shaping this landscape is evolutionary selection on shared biology. Human color vision was forged by navigating terrestrial environments, where efficiently tracking ecologically critical signals, such as safe water and ripe fruit, conferred viability advantage (Berlin and Kay 1969; Henrich 2015). The Apex Network has the same ontological status: not found but formed, the objective structural residue after pragmatic filtering has eliminated less viable alternatives.
 
@@ -550,12 +548,7 @@ Logic isn't metaphysically privileged—it's functionally indispensable.
 
 ### 5.4 The General Principle: Mathematics as Pure Pragmatic Selection
 
-Mathematics demonstrates the framework's universality. All domains—physical, social, mathematical—face pragmatic selection. The feedback mechanism varies by domain:
-- **Physical sciences:** External prediction failures vs. observation
-- **Social systems:** Demographic collapse, economic breakdown, stability costs
-- **Mathematics:** Internal coherence, proof efficiency, unification power, contradiction management
-
-But the underlying filter is identical: systems accumulating brittleness are replaced by more viable alternatives. The Apex Network spans all domains because constraint-determined optimal structures exist in all domains, whether the constraints are physical laws, social coordination necessities, or logical requirements.
+Mathematics demonstrates the framework's universality. All domains face pragmatic selection, though the feedback mechanism varies: external prediction failure for physics, social collapse for politics, or internal inefficiency for mathematics. The underlying filter is identical: brittle systems are replaced by more viable ones.
 
 Mathematics is not a special case requiring different epistemology—it's a pure case showing how pragmatic selection operates when feedback is entirely internal to the system. The convergence on ZF set theory, the accommodation of intuitionist insights, and the adoption of non-standard analysis where it proves useful all demonstrate the same evolutionary dynamics at work in physical science, but operating through internal efficiency rather than external empirical testing. This universality strengthens the framework's claim that objective knowledge arises from pragmatic filtering across all domains of inquiry.
 
@@ -675,13 +668,9 @@ Philosophical honesty requires acknowledging not just what a framework can do, b
 
 #### 7.3.1 Species-Specific Objectivity
 
-**The Limitation:** Moral and epistemic truths are objective for creatures with our biological and social architecture (extended childhood requiring cooperation, limited cognition requiring trust, biological constraints of mortality and suffering, social coordination problems). Hypothetical beings with radically different structures would face different constraints and discover different optimal configurations.
+**The Limitation:** Moral and epistemic truths are objective for creatures with our biological and social architecture. Hypothetical beings with radically different structures would face different constraints and discover different optimal configurations.
 
-**Example:** Beings that reproduce through fission (no childhood, no parenting), have perfect telepathic communication (no trust problems), experience no pain (no suffering to minimize), or have perfect memory (no institutional needs) would discover different Apex Network structure. Their moral truths would differ from ours.
-
-**Why We Accept This:** This is relativism at the species level, not cultural level: analogous to how chemistry is objective within baryonic matter but might differ for exotic matter. It's appropriate epistemic modesty. Claims are grounded in actual evidence about actual constraint structures we face, not speculation about hypothetical beings.
-
-**What This Preserves:** Objectivity within our domain—all humans across all cultures face the same constraint structure and will discover the same Apex Network. Cross-cultural convergence on reciprocity norms, harm prohibitions, and property conventions reflects this constraint-determined necessity.
+**Why We Accept This:** This is relativism at the species level, not cultural level. We accept it as appropriate epistemic modesty; our claims are grounded in constraints humans actually face. This preserves robust objectivity for humans, as all cultures share the same core constraints.
 
 #### 7.3.2 Learning Through Catastrophic Failure
 
@@ -785,9 +774,9 @@ To preempt misunderstandings and demonstrate the framework's resilience, we stee
 
 ## 8. Conclusion
 
-This paper has developed Emergent Pragmatic Coherentism as a response to the isolation objection facing coherentist theories of justification. By grounding coherence in the long-term viability of knowledge systems rather than internal consistency alone, the framework provides the external constraint that coherentism requires while preserving its holistic insights. The concept of systemic brittleness offers a naturalistic diagnostic tool for evaluating epistemic systems, while the notion of a constraint-determined Apex Network explains how objective knowledge can arise from fallible human practices.
+We develop Emergent Pragmatic Coherentism as a response to the isolation objection facing coherentist theories of justification. Grounding coherence in long-term viability of knowledge systems rather than internal consistency alone provides the external constraint coherentism requires while preserving its holistic insights. The concept of systemic brittleness offers a naturalistic diagnostic tool for evaluating epistemic systems, while the notion of a constraint-determined Apex Network explains how objective knowledge can arise from fallible human practices.
 
-By systematically studying the record of failed systems, we can discern the contours of the Apex Network: the emergent set of maximally convergent, pragmatically indispensable principles that successful inquiry is forced to discover. The result is a form of Systemic Externalism that offers a novel approach for resolving long-standing problems in post-Quinean epistemology by grounding justification in the non-discursive filter of systemic consequences.
+Systematically studying the record of failed systems discerns the contours of the Apex Network: the emergent set of maximally convergent, pragmatically indispensable principles that successful inquiry is forced to discover. This yields Systemic Externalism, a novel approach for resolving long-standing problems in post-Quinean epistemology by grounding justification in the non-discursive filter of systemic consequences.
 
 This model is not presented as a final, complete system but as the foundation for a progressive and falsifiable research program. Critical future challenges remain, such as fully modeling the role of power asymmetries in creating path-dependent fitness traps and applying the framework to purely aesthetic or mathematical domains.
 
