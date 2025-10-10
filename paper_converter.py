@@ -25,7 +25,7 @@ from datetime import datetime
 def is_valid_citation(author, year):
     """Check if a potential citation is valid (not an abbreviation or invalid format)."""
     # Skip if author contains common abbreviations
-    invalid_words = ['cf.', 'e.g.', 'i.e.', 'cf', 'eg', 'ie', 'vs.', 'vs', 'etc.', 'etc', 'et al.', 'et al']
+    invalid_words = ['cf.', 'e.g.', 'i.e.', 'cf', 'eg', 'ie', 'vs.', 'vs', 'etc.', 'etc', 'et al.', 'et al', 'originally']
     if any(word in author.lower() for word in invalid_words):
         return False
 
@@ -51,35 +51,55 @@ def extract_citations_from_file(filepath):
     # Pattern 1: Parenthetical citations like (Author Year), (Author, Year), or (Author Year, page)
     parenthetical_pattern = r'\(([A-Za-z][A-Za-z\s,&\-\.]*?)(?:\s+|,\s+)([A-Za-z]+|\d{4})(?:[a-z])?(?:,\s*(?:p\.?\s*)?\d+(?:-\d+)?)?\)'
 
-    # Pattern 2: In-prose citations like "Author (Year)" or "Author et al. (Year)"
-    # Matches: Goldman (1979), Quine (1951), Acemoglu and Robinson (2012),
+    # Pattern 2: In-prose citations like "Author (Year)", "Author's (Year)", or "Author et al. (Year)"
+    # Matches: Goldman (1979), Quine (1951), Kitcher's (2011), Acemoglu and Robinson (2012),
     #          Sevilla et al. (2022), Bennett-Hunter (2015)
-    in_prose_pattern = r'\b([A-Z][a-z]+(?:-[A-Z][a-z]+)?(?:\s+(?:and|&)\s+[A-Z][a-z]+(?:-[A-Z][a-z]+)?)?(?:\s+et\s+al\.?)?)\s+\(([A-Za-z]+|\d{4})(?:[a-z])?\)'
+    in_prose_pattern = r'\b([A-Z][a-z]+(?:-[A-Z][a-z]+)?(?:\'s)?(?:\s+(?:and|&)\s+[A-Z][a-z]+(?:-[A-Z][a-z]+)?)?(?:\s+et\s+al\.?)?)\s+\(([A-Za-z]+|\d{4})(?:[a-z])?\)'
 
     for i, line in enumerate(lines):
         # Find parenthetical citations
         for match in re.finditer(parenthetical_pattern, line):
             citation = match.group(0)
-            author = match.group(1).strip()
-            year = match.group(2)
+            citation_content = match.group(1) + ' ' + match.group(2)  # Combine author and year
 
-            # Skip invalid citations
-            if not is_valid_citation(author, year):
-                continue
+            # Parse the citation to extract all author-year pairs
+            # Handle both semicolon-separated and comma-separated citations
+            # First split by semicolons, then by commas for each part
+            all_parts = []
+            semicolon_parts = [part.strip() for part in citation_content.split(';')]
+            for semicolon_part in semicolon_parts:
+                comma_parts = [part.strip() for part in semicolon_part.split(',')]
+                all_parts.extend(comma_parts)
 
-            citations.append({
-                'citation': citation,
-                'author': author,
-                'year': year,
-                'type': 'parenthetical',
-                'line': i + 1
-            })
+            for part in all_parts:
+                # Try to extract author and year from each part
+                # Pattern: "Author Year" or "Author et al. Year" or "Author1 and Author2 Year"
+                part_match = re.match(r'^(.+?)\s+(\d{4}[a-z]?)$', part.strip())
+                if part_match:
+                    author = part_match.group(1).strip()
+                    year = part_match.group(2)
+
+                    # Skip invalid citations
+                    if not is_valid_citation(author, year):
+                        continue
+
+                    citations.append({
+                        'citation': f"({author} {year})",
+                        'author': author,
+                        'year': year,
+                        'type': 'parenthetical',
+                        'line': i + 1
+                    })
 
         # Find in-prose citations
         for match in re.finditer(in_prose_pattern, line):
             full_match = match.group(0)
             author = match.group(1).strip()
             year = match.group(2)
+
+            # Strip possessive 's from author name
+            if author.endswith("'s"):
+                author = author[:-2]
 
             # Skip invalid citations
             if not is_valid_citation(author, year):
