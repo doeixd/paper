@@ -575,6 +575,56 @@ While our framework shares a historical-diagnostic ambition with Lakatos (1970) 
 
 Similarly, while Laudan's model evaluates a theory based on the number and importance of the empirical problems it solves, our approach is subtly different. Systemic brittleness is a forward-looking measure of epistemic risk and resilience (Pritchard 2016). A system could have a high problem-solving score in Laudan's sense while simultaneously accumulating hidden systemic costs (like massive computational overheads or conceptual debt) that make it profoundly vulnerable to future shocks. Our framework is thus less a retrospective accounting of solved puzzles and more a real-time assessment of a system's long-term viability and adaptive efficiency.
 
+
+### 6.4 Plantinga's Challenge: Does Evolution Select for Truth or Mere Survival?
+
+Alvin Plantinga's Evolutionary Argument Against Naturalism (EAAN) poses a formidable challenge to any naturalistic epistemology: if our cognitive faculties are products of natural selection, and natural selection optimizes for reproductive success rather than true belief, then we have no reason to trust that our faculties reliably produce true beliefs (Plantinga 1993, 2011). Evolution could equip us with systematically false but adaptive beliefs—useful fictions that enhance survival without tracking reality. If naturalism is true, the very faculties we use to conclude naturalism is true are unreliable, rendering naturalism self-defeating.
+
+Our framework provides a novel response by collapsing Plantinga's proposed gap between adaptive success and truth-tracking. We argue that in domains where systematic misrepresentation generates costs, survival pressure and truth-tracking converge necessarily. This is not because evolution "cares about" truth, but because reality's constraint structure makes persistent falsehood unsustainable.
+
+**Systemic Brittleness as the Bridge**
+
+Plantinga's argument assumes survival and truth can come apart—that belief systems could be adaptively successful while systematically misrepresenting reality. Our framework challenges this through the concept of systemic brittleness. In any domain where actions have consequences constrained by objective features of reality, false beliefs accumulate costs. Navigation beliefs with systematic errors generate navigational failures, wasted energy, and increased predation risk. Causal beliefs that misunderstand cause-effect relationships lead to ineffective interventions and resource waste. Social beliefs that systematically misread social dynamics generate coordination failures and coalition instability.
+
+These costs compound. A single false belief might be offset by other advantages, but networks of mutually reinforcing falsehoods generate accelerating brittleness through our P(t) mechanism (conceptual debt accumulation). The phlogiston theorist does not just hold one false belief; they must continuously patch their system with ad-hoc modifications as each application reveals new anomalies. This brittleness makes the system vulnerable to displacement by more viable alternatives.
+
+**Domain Specificity: Where Truth-Tracking Matters**
+
+Our response is not that evolution always selects for true belief in all domains. Rather, we identify specific conditions under which survival pressure forces truth-tracking.
+
+High-cost domains show strong selection for truth-tracking: physical causation (misunderstanding gravity or thermodynamics is immediately costly), basic perception (systematically misperceiving predators is fatal), tool use and engineering (false beliefs about material properties lead to tool failures), and social coordination (certain misunderstandings about reciprocity undermine cooperation).
+
+Low-cost domains show weak selection: metaphysical speculation (believing in Zeus versus no gods has minimal direct costs if behavior is similar), aesthetic preferences (false beliefs about "objective beauty" do not accumulate brittleness), and remote historical claims (errors about events with no current causal impact).
+
+Systematically misleading domains present the strongest challenge: self-enhancement biases (overconfidence may be adaptive even if false), tribal epistemology (believing "my group is superior" coordinates action even if false), and certain evolved heuristics (some useful shortcuts systematically deviate from statistical optimality).
+
+This domain-specificity is crucial. Our framework concedes Plantinga's point for low-cost and systematically-misleading domains, but argues these are precisely the domains where the isolation objection has least force. A metaphysical belief system could be perfectly coherent yet false in these domains without accumulating brittleness. But in high-cost domains—the domains that matter most for science, engineering, and social coordination—the gap Plantinga identifies cannot persist across long timescales.
+
+**Convergence Through Cultural Evolution**
+
+Plantinga focuses on individual cognitive faculties shaped by biological evolution. Our framework operates at a different level: cultural evolution of public knowledge systems. This shift is crucial. Individual humans may harbor adaptive falsehoods, but knowledge systems competing in the marketplace of ideas face different selective pressures.
+
+Transmissibility matters: false systems that work in one context often fail when transmitted to new contexts, revealing hidden brittleness. Cumulative testing provides new opportunities: each generation's application of a knowledge system allows pragmatic pushback to expose misalignment. Inter-system competition allows reality to arbitrate: when rival systems make incompatible predictions, differential brittleness outcomes determine which survives.
+
+The Negative Canon provides overwhelming evidence for this process. Ptolemaic astronomy, phlogiston chemistry, miasma theory, and Lysenkoism were not merely false—they accumulated measurable, catastrophic systemic costs that forced their abandonment. The historical record shows systematic elimination of high-brittleness systems across cultures and eras, suggesting convergence toward a constraint-determined structure (the Apex Network) rather than persistent plurality of useful fictions.
+
+**Where Plantinga's Worry Remains**
+
+We acknowledge our response does not fully dissolve Plantinga's challenge at the individual level. An individual human's cognitive faculties might indeed harbor systematically false but adaptive beliefs in low-cost or systematically-misleading domains. Our claim is more modest: in domains where falsity accumulates brittleness, cumulative cultural evolution forces convergence toward truth-tracking systems, even if individual psychology remains imperfect.
+
+This leaves open several possibilities. Evolutionary debunking arguments retain force in low-cost domains (moral philosophy, metaphysics). Individual-level cognitive biases may persist even as system-level knowledge improves. Fundamental uncertainty about whether our most basic faculties (logic, perception) are reliable cannot be eliminated—this is acknowledged in our fallibilism.
+
+**The Self-Defeat Response Reversed**
+
+Plantinga argues naturalism is self-defeating: if naturalism is true, we should not trust the faculties that led us to believe it. Our framework reverses this concern: the very fact that naturalistic science has systematically driven down systemic brittleness across centuries—enabling unprecedented technological success, predictive power, and unification—provides higher-order evidence that the system tracks the Apex Network. The proof is in the low-brittleness pudding.
+
+If our cognitive faculties were fundamentally unreliable in the way Plantinga suggests, we would expect accelerating conceptual debt (P(t) rising) as anomalies accumulate, decreasing unification (R(t) falling) as patches proliferate, and catastrophic failures when theories are applied in novel domains. Instead, we observe the opposite pattern in mature sciences: decreasing P(t), increasing R(t), and successful cross-domain applications. This provides inductive grounds for trusting that our faculties, at least in high-cost domains, are tracking real constraint structures rather than generating useful fictions.
+
+Our response to Plantinga can be summarized: In any domain where systematic misrepresentation accumulates measurable costs, the supposed gap between adaptive success and truth-tracking collapses. Survival is not truth, but in a universe with stable constraints, surviving knowledge systems are forced to approximate truth (alignment with the Apex Network) because persistent falsehood generates brittleness that pragmatic selection eliminates. This is not metaphysical necessity but statistical regularity—an empirical claim about how knowledge systems evolve under pragmatic pressure, falsifiable through the research program outlined in Section 7.2.
+
+Plantinga is right that evolution per se does not guarantee reliability. But evolution plus pragmatic filtering in a constraint-rich environment does generate truth-tracking in precisely those domains where coherentism faces the isolation objection. Where Plantinga sees self-defeat, we see self-correction: the systematic reduction of brittleness over centuries is evidence that the process works, even if no individual step is guaranteed.
+
+
 ## 7. Final Defense and Principled Limitations
 
 As a macro-epistemology explaining the long-term viability of public knowledge systems, this framework does not primarily solve micro-epistemological problems like Gettier cases. Instead, it bridges the two levels through the concept of higher-order evidence: the diagnosed health of a public system provides a powerful defeater or corroborator for an individual's beliefs derived from that system.
