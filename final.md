@@ -118,7 +118,7 @@ Two brief examples illustrate this toolkit in action.
 
 Operationalizing brittleness faces a fundamental circularity: measuring systemic costs objectively requires neutral standards for "waste" or "dysfunction," yet establishing such standards appears to require the very epistemic framework our theory aims to provide.
 
-This circularity is virtuous, reflecting the method of reflective equilibrium. We anchor our analysis with external checks: grounding measurements in physical constraints, using comparative analysis, and requiring convergent evidence.
+While this appears circular, it is the standard method of reflective equilibrium, operationalized here with external checks. We break the circle by anchoring our analysis in three ways: grounding measurements in physical constraints, using comparative analysis, and requiring convergent evidence.
 
 Brittleness assessment remains partially hermeneutic. The framework provides structured tools rather than mechanical algorithms, offering "structured fallibilism" rather than neutral assessment. This methodology provides pragmatic objectivity sufficient for comparative assessment and institutional evaluation.
 
@@ -666,7 +666,7 @@ Philosophical honesty requires acknowledging not just what a framework can do, b
 
 #### 7.3.1 Species-Specific Objectivity
 
-**The Limitation:** Moral and epistemic truths are objective for creatures with our biological and social architecture. Hypothetical beings with radically different structures would face different constraints and discover different optimal configurations.
+**The Limitation:** Moral and epistemic truths are objective for creatures with our biological and social architecture. Hypothetical beings with radically different structures, for example, telepathic beings that reproduce by fission and feel no pain, would face different constraints and discover a different Apex Network.
 
 **Why We Accept This:** This is relativism at the species level, not cultural level. We accept it as appropriate epistemic modesty; our claims are grounded in constraints humans actually face. This preserves robust objectivity for humans, as all cultures share the same core constraints.
 
