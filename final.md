@@ -268,19 +268,17 @@ One might even charge that our framework simply rebrands the ancient Greek conce
 
 **Two Senses of "Pre-Existing"**
 
-The resolution lies in distinguishing two different senses of "pre-existing" that our framework carefully separates:
+The resolution lies in distinguishing two senses of "pre-existing":
 
-What we deny: The Apex Network is not a pre-existing metaphysical entity in the classical sense—not a Platonic Form, not a divine blueprint, not a cosmic purpose that reality "aims toward." There is no transcendent realm of normative facts, no designer's intention, no teleological pull. The constraints of reality—thermodynamics, biological limits, logical consistency—are not purposive. They simply are. In this sense, the Apex Network is not "out there" as an independent thing awaiting discovery, like a continent on an ancient map.
+What we deny: The Apex Network is not a pre-existing metaphysical entity—not a Platonic Form, divine blueprint, or cosmic purpose that reality "aims toward." There is no transcendent realm of normative facts, no designer's intention, no teleological pull. The constraints of reality (thermodynamics, biological limits, logical consistency) are not purposive. They simply are. The Apex Network is not "out there" as an independent thing awaiting discovery.
 
-What we affirm: The Apex Network is determined by constraints that are themselves features of reality prior to human existence. Just as π is not a "thing" that exists but rather an inevitable mathematical consequence of Euclidean geometry's constraint structure, the Apex Network is the inevitable consequence of reality's pragmatic constraint structure. The constraints existed first; the optimal structure they determine is a necessary implication of their organization. In this precise sense, the Apex Network "exists" before inquiry the way a theorem exists before its proof—it is true whether anyone demonstrates it or not.
+What we affirm: The Apex Network is determined by constraints that are themselves features of reality prior to human existence. Just as π is not a "thing" but an inevitable mathematical consequence of Euclidean geometry's constraint structure, the Apex Network is the inevitable consequence of reality's pragmatic constraint structure. The constraints exist first; the optimal structure they determine is a necessary implication. The Apex Network "exists" before inquiry the way a theorem exists before its proof—true whether anyone demonstrates it or not.
 
 **Modal Determinacy Without Metaphysical Necessity**
 
-We propose understanding the Apex Network's status through the concept of modal determinacy: given the actual constraint structure of our universe, the Apex Network is the necessary optimal configuration. It is modally necessary relative to those constraints, not metaphysically necessary in an absolute sense. This can be formalized as:
+We propose understanding the Apex Network's status through modal determinacy: given the actual constraint structure of our universe, the Apex Network is the necessary optimal configuration. It is modally necessary relative to those constraints, not metaphysically necessary in an absolute sense.
 
-In world W with constraint structure C, Apex Network A is necessarily determined such that: ∀W'[C(W') = C(W) → A(W') = A(W)]
-
-That is: across all possible worlds sharing our constraint structure, the same Apex Network would be determined, regardless of historical path. But across worlds with different fundamental physics or logical systems, different Apex Networks would emerge.
+Formally: In world W with constraint structure C, Apex Network A is necessarily determined such that ∀W'[C(W') = C(W) → A(W') = A(W)]. That is, across all possible worlds sharing our constraint structure, the same Apex Network would be determined regardless of historical path. But across worlds with different fundamental physics or logical systems, different Apex Networks would emerge.
 
 **The Logos Comparison: Naturalized Rational Order**
 
@@ -293,13 +291,13 @@ However, unlike classical conceptions of logos, our framework involves:
 - No transcendence: The Apex Network is not a separate realm but an immanent pattern—the negative space revealed when failures are systematically eliminated
 - Radical contingency on physical law: Had the universe operated under different fundamental constants or laws, a different Apex Network would be determined. There is no super-cosmic logos independent of physical reality itself
 
-If one insists on invoking logos to describe our framework, we accept the label with this specification: ours is a naturalized, contingent, non-purposive logos—rational order without cosmic reason, objective structure without divine blueprint, necessary implication without metaphysical foundation. The Apex Network is logos with the theology removed, leaving only the mathematical and physical necessity that minds-like-ours, operating in a universe-like-this, are forced to discover through the systematic elimination of unviable alternatives.
+If one insists on invoking logos to describe our framework, we accept the label with this specification: ours is a naturalized, contingent, non-purposive logos. Rational order without cosmic reason. Objective structure without divine blueprint. Necessary implication without metaphysical foundation. The Apex Network is logos with the theology removed, leaving only the mathematical and physical necessity that minds-like-ours, operating in a universe-like-this, discover through systematic elimination of unviable alternatives.
 
 **Implications**
 
-This clarification strengthens rather than weakens our response to the isolation objection. A coherent system detached from reality is impossible not because we have smuggled in metaphysical realism through the back door, but because the constraints generating pragmatic pushback are themselves features of the actual world. Our fallibilism remains intact—we never achieve certainty that our map matches the territory—but the territory itself possesses an objective structure determined by the constraints that constitute it. Discovery is not creation, but neither is it mystical access to a transcendent realm. It is the painstaking, error-driven triangulation toward the configuration space that physical, biological, and logical necessity jointly determine.
+This clarification strengthens our response to the isolation objection. A coherent system detached from reality is impossible not because we have smuggled in metaphysical realism, but because the constraints generating pragmatic pushback are themselves features of the actual world. Our fallibilism remains intact—we never achieve certainty that our map matches the territory—but the territory itself possesses an objective structure determined by the constraints that constitute it.
 
-In this sense, if the constraints of reality existed before humanity, and if these constraints determine an optimal structure, then that structure's determinacy preceded us. We are not discovering a pre-existing thing, but we are discovering a pre-determined implication. The distinction is subtle but philosophically significant, preserving naturalism while grounding genuine objectivity in the constraint topology of the actual world.
+Discovery is painstaking, error-driven triangulation toward the configuration space that physical, biological, and logical necessity jointly determine. We are discovering a pre-determined implication, not a pre-existing thing. The distinction is subtle but preserves naturalism while grounding genuine objectivity in the constraint topology of the actual world.
 
 
 ### 4.3 A Three-Level Framework for Truth
@@ -584,27 +582,29 @@ Our framework provides a novel response by collapsing Plantinga's proposed gap b
 
 **Systemic Brittleness as the Bridge**
 
-Plantinga's argument assumes survival and truth can come apart—that belief systems could be adaptively successful while systematically misrepresenting reality. Our framework challenges this through the concept of systemic brittleness. In any domain where actions have consequences constrained by objective features of reality, false beliefs accumulate costs. Navigation beliefs with systematic errors generate navigational failures, wasted energy, and increased predation risk. Causal beliefs that misunderstand cause-effect relationships lead to ineffective interventions and resource waste. Social beliefs that systematically misread social dynamics generate coordination failures and coalition instability.
+Plantinga's argument assumes survival and truth can come apart—that belief systems could be adaptively successful while systematically misrepresenting reality. Our framework challenges this through systemic brittleness. In any domain where actions have consequences constrained by objective features of reality, false beliefs accumulate costs:
+
+- Navigation beliefs with systematic errors generate failures, wasted energy, increased predation risk
+- Causal beliefs that misunderstand cause-effect relationships lead to ineffective interventions and resource waste
+- Social beliefs that misread dynamics generate coordination failures and coalition instability
 
 These costs compound. A single false belief might be offset by other advantages, but networks of mutually reinforcing falsehoods generate accelerating brittleness through our P(t) mechanism (conceptual debt accumulation). The phlogiston theorist does not just hold one false belief; they must continuously patch their system with ad-hoc modifications as each application reveals new anomalies. This brittleness makes the system vulnerable to displacement by more viable alternatives.
 
 **Domain Specificity: Where Truth-Tracking Matters**
 
-Our response is not that evolution always selects for true belief in all domains. Rather, we identify specific conditions under which survival pressure forces truth-tracking.
+Our response is not that evolution always selects for true belief. Rather, we identify specific conditions under which survival pressure forces truth-tracking. Domain structure determines whether falsity accumulates brittleness:
 
-High-cost domains show strong selection for truth-tracking: physical causation (misunderstanding gravity or thermodynamics is immediately costly), basic perception (systematically misperceiving predators is fatal), tool use and engineering (false beliefs about material properties lead to tool failures), and social coordination (certain misunderstandings about reciprocity undermine cooperation).
+High-cost domains (strong selection for truth-tracking): Physical causation, basic perception, tool use and engineering, social coordination. Misunderstanding gravity, systematically misperceiving predators, or holding false beliefs about material properties generates immediate, compounding costs.
 
-Low-cost domains show weak selection: metaphysical speculation (believing in Zeus versus no gods has minimal direct costs if behavior is similar), aesthetic preferences (false beliefs about "objective beauty" do not accumulate brittleness), and remote historical claims (errors about events with no current causal impact).
+Low-cost domains (weak selection): Metaphysical speculation, aesthetic preferences, remote historical claims. Believing in Zeus versus no gods has minimal direct costs if behavior is similar. False beliefs about "objective beauty" do not accumulate brittleness.
 
-Systematically misleading domains present the strongest challenge: self-enhancement biases (overconfidence may be adaptive even if false), tribal epistemology (believing "my group is superior" coordinates action even if false), and certain evolved heuristics (some useful shortcuts systematically deviate from statistical optimality).
+Systematically misleading domains (Plantinga's worry bites hardest): Self-enhancement biases, tribal epistemology, certain evolved heuristics. Here overconfidence or believing "my group is superior" may be adaptive even if false, because they coordinate action or provide psychological benefits.
 
-This domain-specificity is crucial. Our framework concedes Plantinga's point for low-cost and systematically-misleading domains, but argues these are precisely the domains where the isolation objection has least force. A metaphysical belief system could be perfectly coherent yet false in these domains without accumulating brittleness. But in high-cost domains—the domains that matter most for science, engineering, and social coordination—the gap Plantinga identifies cannot persist across long timescales.
+This domain-specificity is crucial. Our framework concedes Plantinga's point for low-cost and systematically-misleading domains—these are precisely where the isolation objection has least force. But in high-cost domains (those that matter most for science, engineering, and social coordination), the gap Plantinga identifies cannot persist across long timescales.
 
 **Convergence Through Cultural Evolution**
 
-Plantinga focuses on individual cognitive faculties shaped by biological evolution. Our framework operates at a different level: cultural evolution of public knowledge systems. This shift is crucial. Individual humans may harbor adaptive falsehoods, but knowledge systems competing in the marketplace of ideas face different selective pressures.
-
-Transmissibility matters: false systems that work in one context often fail when transmitted to new contexts, revealing hidden brittleness. Cumulative testing provides new opportunities: each generation's application of a knowledge system allows pragmatic pushback to expose misalignment. Inter-system competition allows reality to arbitrate: when rival systems make incompatible predictions, differential brittleness outcomes determine which survives.
+Plantinga focuses on individual cognitive faculties shaped by biological evolution. Our framework operates at a different level: cultural evolution of public knowledge systems. This shift is crucial. Individual humans may harbor adaptive falsehoods, but knowledge systems competing in the marketplace of ideas face different selective pressures: transmissibility (false systems that work in one context often fail when transmitted to new contexts), cumulative testing (each generation's application exposes misalignment), and inter-system competition (when rival systems make incompatible predictions, differential brittleness outcomes determine which survives).
 
 The Negative Canon provides overwhelming evidence for this process. Ptolemaic astronomy, phlogiston chemistry, miasma theory, and Lysenkoism were not merely false—they accumulated measurable, catastrophic systemic costs that forced their abandonment. The historical record shows systematic elimination of high-brittleness systems across cultures and eras, suggesting convergence toward a constraint-determined structure (the Apex Network) rather than persistent plurality of useful fictions.
 
@@ -618,9 +618,9 @@ This leaves open several possibilities. Evolutionary debunking arguments retain 
 
 Plantinga argues naturalism is self-defeating: if naturalism is true, we should not trust the faculties that led us to believe it. Our framework reverses this concern: the very fact that naturalistic science has systematically driven down systemic brittleness across centuries—enabling unprecedented technological success, predictive power, and unification—provides higher-order evidence that the system tracks the Apex Network. The proof is in the low-brittleness pudding.
 
-If our cognitive faculties were fundamentally unreliable in the way Plantinga suggests, we would expect accelerating conceptual debt (P(t) rising) as anomalies accumulate, decreasing unification (R(t) falling) as patches proliferate, and catastrophic failures when theories are applied in novel domains. Instead, we observe the opposite pattern in mature sciences: decreasing P(t), increasing R(t), and successful cross-domain applications. This provides inductive grounds for trusting that our faculties, at least in high-cost domains, are tracking real constraint structures rather than generating useful fictions.
+If our cognitive faculties were fundamentally unreliable in the way Plantinga suggests, we would expect accelerating conceptual debt (rising P(t)), decreasing unification (falling R(t)), and catastrophic failures when theories are applied in novel domains. Instead, mature sciences show the opposite: decreasing P(t), increasing R(t), and successful cross-domain applications. This provides inductive grounds for trusting that our faculties, at least in high-cost domains, track real constraint structures rather than generate useful fictions.
 
-Our response to Plantinga can be summarized: In any domain where systematic misrepresentation accumulates measurable costs, the supposed gap between adaptive success and truth-tracking collapses. Survival is not truth, but in a universe with stable constraints, surviving knowledge systems are forced to approximate truth (alignment with the Apex Network) because persistent falsehood generates brittleness that pragmatic selection eliminates. This is not metaphysical necessity but statistical regularity—an empirical claim about how knowledge systems evolve under pragmatic pressure, falsifiable through the research program outlined in Section 7.2.
+Our response to Plantinga: In domains where systematic misrepresentation accumulates measurable costs, the supposed gap between adaptive success and truth-tracking collapses. Survival is not truth, but in a universe with stable constraints, surviving knowledge systems are forced to approximate truth because persistent falsehood generates brittleness that pragmatic selection eliminates. This is not metaphysical necessity but statistical regularity—an empirical claim falsifiable through the research program outlined in Section 7.2.
 
 Plantinga is right that evolution per se does not guarantee reliability. But evolution plus pragmatic filtering in a constraint-rich environment does generate truth-tracking in precisely those domains where coherentism faces the isolation objection. Where Plantinga sees self-defeat, we see self-correction: the systematic reduction of brittleness over centuries is evidence that the process works, even if no individual step is guaranteed.
 
