@@ -600,3 +600,38 @@
 2025-10-10 10:57:13,902 - INFO - SUCCESS! Release complete in 0.7s
 2025-10-10 10:57:13,903 - INFO - Final PDF: releases\final.pdf (222727 bytes)
 2025-10-10 10:57:13,903 - INFO - Release completed successfully: releases\final.pdf
+2025-10-10 12:28:17,474 - INFO - Successfully imported paper_converter
+2025-10-10 12:28:17,475 - INFO - Successfully imported pdf_assembler
+2025-10-10 12:28:18,288 - INFO - Input validation passed: final.md (128927 bytes)
+2025-10-10 12:28:18,288 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 12:28:18,289 - INFO - Input: final.md
+2025-10-10 12:28:18,289 - INFO - Output: The_Architecture_of_Failure.pdf
+2025-10-10 12:28:18,289 - INFO - Format: typst
+2025-10-10 12:28:18,289 - INFO - Config: 0 validation errors
+2025-10-10 12:28:18,289 - INFO - Converting markdown to target format...
+2025-10-10 12:28:18,289 - INFO - Extracting citations...
+2025-10-10 12:28:18,297 - INFO - Found 84 citations
+2025-10-10 12:28:18,297 - INFO - Loading and processing references...
+2025-10-10 12:28:18,298 - INFO - Loaded 811 reference entries
+2025-10-10 12:28:18,310 - INFO - Generated 68 references (strategy: filter)
+2025-10-10 12:28:18,310 - WARNING - 2 citations not found in references.md
+2025-10-10 12:28:18,310 - INFO - Combining paper with filtered references...
+2025-10-10 12:28:18,333 - INFO - Combined file created: 128435 bytes
+2025-10-10 12:28:18,333 - INFO - Converting to typst format...
+2025-10-10 12:28:18,731 - INFO - Target file created: 134818 bytes
+2025-10-10 12:28:18,731 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-10 12:28:18,731 - INFO - Generating PDF with attachments...
+2025-10-10 12:28:18,731 - INFO - Main document: final_combined.typst
+2025-10-10 12:28:18,747 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-10 12:28:19,030 - INFO - Converted to PDF: final_combined.pdf
+2025-10-10 12:28:19,032 - INFO - Copied single PDF to: The_Architecture_of_Failure.pdf
+2025-10-10 12:28:19,032 - INFO - PDF generation successful: 217833 bytes
+2025-10-10 12:28:19,032 - INFO - Adding metadata to PDF...
+2025-10-10 12:28:19,032 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 12:28:19,032 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 12:28:19,032 - INFO - Validated final PDF: The_Architecture_of_Failure.pdf (217833 bytes)
+2025-10-10 12:28:19,032 - INFO - Starting cleanup...
+2025-10-10 12:28:19,033 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 12:28:19,034 - INFO - SUCCESS! Release complete in 0.7s
+2025-10-10 12:28:19,034 - INFO - Final PDF: The_Architecture_of_Failure.pdf (217833 bytes)
+2025-10-10 12:28:19,034 - INFO - Release completed successfully: The_Architecture_of_Failure.pdf
