@@ -60,24 +60,35 @@ def extract_citations_from_file(filepath, verbose=True):
             author = match.group(1).strip()
             year = match.group(2)
 
-            # Skip invalid citations
-            if not is_valid_citation(author, year):
-                continue
-
-            # Extract context
+            # Extract context once (same for all years in multi-year citations)
             start_line = max(0, i - 3)
             end_line = min(len(lines), i + 4)
             context = '\n'.join(lines[start_line:end_line]).strip()
 
-            citations.append({
-                'citation': citation,
-                'author': author,
-                'year': year,
-                'type': 'parenthetical',
-                'context': context,
-                'file': filepath.name,
-                'line': i + 1
-            })
+            # Handle multi-year citations like "(Plantinga 1993, 2011)"
+            # Extract ALL 4-digit years from the full citation string
+            year_pattern = r'\d{4}'
+            years = re.findall(year_pattern, citation)
+
+            # If no years found via pattern (shouldn't happen), fall back to captured year
+            if not years:
+                years = [year]
+
+            # Create separate citation entries for each year
+            for individual_year in years:
+                # Skip invalid citations
+                if not is_valid_citation(author, individual_year):
+                    continue
+
+                citations.append({
+                    'citation': f"({author} {individual_year})",
+                    'author': author,
+                    'year': individual_year,
+                    'type': 'parenthetical',
+                    'context': context,
+                    'file': filepath.name,
+                    'line': i + 1
+                })
 
         # Find in-prose citations
         for match in re.finditer(in_prose_pattern, line):
@@ -133,7 +144,8 @@ def load_references():
         first_line = lines[0].strip()
 
         # Match pattern like "Author. Year." or "Author1, Author2. Year." or "Author. Forthcoming."
-        match = re.search(r'^(.+?)\s+(\d{4}|[A-Z][a-z]+)\.', first_line)
+        # Use greedy match for author, then capture year (4 digits or "Forthcoming")
+        match = re.search(r'^(.+)\s+(\d{4}|Forthcoming)\.', first_line)
         if match:
             full_author = match.group(1).strip()
             year = match.group(2)
