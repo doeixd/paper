@@ -148,9 +148,12 @@ Rorty, Richard. 1989. *Contingency, Irony, and Solidarity*. Cambridge: Cambridge
 
 Rosenstock, Sarita, Cailin O'Connor, and Justin Bruner. 2017. "In Epistemic Networks, Is Less Really More?" *Philosophy of Science* 84(2): 234–52. https://doi.org/10.1086/690717.
 
-Rottschaefer, William A. 2012. "Moral Realism and Evolutionary Moral Psychology." In *The Oxford Handbook of Moral Realism*, edited by Paul Bloomfield, 123–45. Oxford: Oxford University Press.
+Rottschaefer, William A. 2012. "Moral Realism and Evolutionary Moral Psychology." In *The Oxford Handbook of Moral Realism*, edited by Paul Bloomfield, 123–45. Oxford: Oxford University Press. ISBN 978-0190068226.
 
-Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Analyse & Kritik* 34(1): 141–56. https://doi.org/10.1515/auk-2012-0107.
+Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Analyse & Kritik* 34(1): 141–156. https://doi.org/10.1515/auk-2012-0110.
+
+Sterelny, Kim. 2012. “Morality’s Dark Past.” *Analyse & Kritik* 34, no. 1: 95–116. https://doi.org/10.1515/auk-2012-0107.
+
 
 Russell, Bertrand. 1903. *The Principles of Mathematics*. Cambridge: Cambridge University Press. ISBN 978-1430476030.
 
@@ -162,7 +165,7 @@ Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Prin
 
 Sevilla, Jaime, Lennart Heim, Anson Ho, Tamay Besiroglu, Marius Hobbhahn, and Pablo Villalobos. 2022. "Compute Trends Across Three Eras of Machine Learning." arXiv preprint arXiv:2202.05924.
 
-Simon, Herbert A. 1972. "Theories of Bounded Rationality." In *Decision and Organization*, edited by C. B. McGuire and Roy Radner, 161–76. Amsterdam: North-Holland Publishing Company.
+March, James G. 1978. "Bounded Rationality, Ambiguity, and the Engineering of Choice." *The Bell Journal of Economics* 9, no. 2: 587–608. https://doi.org/10.2307/3003600.
 
 Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91(2): 430–48. https://doi.org/10.1017/psa.2023.104.
 

@@ -332,7 +332,7 @@ A proposition's journey to becoming truth itself follows a systematic progressio
 
 **Quine's Hard Core and Functional Entrenchment**
 
-Quine famously argued that no claim is immune to revision in principle, yet some claims are practically unrevisable because revising them would require dismantling too much of our knowledge structure. Our framework explains this tension through the concept of functional entrenchment driven by bounded rationality (Simon 1972).
+Quine famously argued that no claim is immune to revision in principle, yet some claims are practically unrevisable because revising them would require dismantling too much of our knowledge structure. Our framework explains this tension through the concept of functional entrenchment driven by bounded rationality (March 1978).
 
 A proposition migrates to the hard core not through metaphysical necessity but through pragmatic indispensability. The costs of revision become effectively infinite:
 
@@ -356,7 +356,7 @@ Quine's "Web of Belief" (Quine 1951, 1960) provided a powerful static model of c
 
 First, pragmatic pushback supplies the externalist filter that grounds the web in mind-independent reality, decisively solving the isolation objection that haunts purely internalist readings. This relentless, non-discursive filter of real-world consequences prevents the web from floating free of constraints.
 
-Second, the entrenchment of pragmatically indispensable principles in the system's core provides a directed learning mechanism. A proposition migrates to the core not by convention but because it has demonstrated immense value in lowering the entire network's systemic brittleness, making its revision catastrophically costly. This process, driven by bounded rationality (Simon 1972), functions as systemic caching: proven principles are preserved to avoid re-derivation costs. For example, Conservation of Energy became entrenched after proving indispensable across domains, its revision now prohibitively expensive.
+Second, the entrenchment of pragmatically indispensable principles in the system's core provides a directed learning mechanism. A proposition migrates to the core not by convention but because it has demonstrated immense value in lowering the entire network's systemic brittleness, making its revision catastrophically costly. This process, driven by bounded rationality (March 1978), functions as systemic caching: proven principles are preserved to avoid re-derivation costs. For example, Conservation of Energy became entrenched after proving indispensable across domains, its revision now prohibitively expensive.
 
 Together, these two mechanisms animate Quine's static web. Pragmatic pushback provides the external discipline, and the entrenchment of low-brittleness principles explains how the web's resilient core is systematically constructed over time (Carlson 2015). This transforms the web from a mere logical snapshot into a dynamic, evolving reef chart, where propositions earn their place through demonstrated navigational success. Core principles achieve Justified Truth (Level 2) through this process of systematic, externally-validated selection.
 
@@ -516,7 +516,7 @@ Logic isn't metaphysically privileged—it's functionally indispensable.
 1. Revising logic requires using logic to assess the revision
 2. This creates infinite regress or circularity
 3. Therefore logic exhibits infinite brittleness if removed
-4. Systems under bounded rationality (Simon 1972) must treat such maximal-cost revisions as core
+4. Systems under bounded rationality (March 1978) must treat such maximal-cost revisions as core
 
 **This is pragmatic necessity, not a priori truth:**
 - Logic could theoretically be revised if we encountered genuine pragmatic pressure sufficient to justify the cost
@@ -1037,7 +1037,7 @@ Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Prin
 
 Sevilla, Jaime, Lennart Heim, Anson Ho, Tamay Besiroglu, Marius Hobbhahn, and Pablo Villalobos. 2022. "Compute Trends Across Three Eras of Machine Learning." arXiv preprint arXiv:2202.05924.
 
-Simon, Herbert A. 1972. "Theories of Bounded Rationality." In *Decision and Organization*, edited by C. B. McGuire and Roy Radner, 161–76. Amsterdam: North-Holland Publishing Company.
+March, James G. 1978. "Bounded Rationality, Ambiguity, and the Engineering of Choice." *The Bell Journal of Economics* 9, no. 2: 587–608. https://doi.org/10.2307/3003600.
 
 Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91(2): 430–48. https://doi.org/10.1017/psa.2023.104.
 
