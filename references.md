@@ -169,11 +169,26 @@ March, James G. 1978. "Bounded Rationality, Ambiguity, and the Engineering of Ch
 
 Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91(2): 430–48. https://doi.org/10.1017/psa.2023.104.
 
-Snow, John. 1855. *On the Mode of Communication of Cholera*. London: John Churchill.
+Snow, John. 1855. *On the Mode of Communication of Cholera*. 2nd ed. London: John Churchill. Reprinted in *International Journal of Epidemiology* 42, no. 6 (2013): 1543–1552. https://doi.org/10.1093/ije/dyt193.
 
-Staffel, Julia. 2019. "Coherentism and Belief Fixation." In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press.
+Staffel, Julia. 2021. "Rational Judgment and the Structure of Defeat." In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press. ISBN 9780198847205.
 
-Staffel, Julia. 2019. "Reasons Fundamentalism and Rational Uncertainty: The Externalist Response." *Philosophy and Phenomenological Research* 103(3): 555–73. https://doi.org/10.1111/phpr.12595.
+Krag, Erik. 2015. "Coherentism and Belief Fixation." *Logos & Episteme* 6, no. 2: 187–199. https://doi.org/10.5840/logos-episteme20156211. ISSN 2069-0533.
+
+
+
+
+Staffel, Julia. 2020. "Reasons Fundamentalism and Rational Uncertainty – Comments on Lord, The Importance of Being Rational." *Philosophy and Phenomenological Research* 100, no. 2: 463–468. https://doi.org/10.1111/phpr.12675. ISSN 0031-8205.
+
+Hills, Alison. 2020. "Moral Testimony: Transmission Versus Propagation." *Philosophy and Phenomenological Research* 101, no. 2: 399–414. https://doi.org/10.1111/phpr.12595. ISSN 0031-8205.
+
+Staffel, Julia. 2025. "Unfinished Business: Rational Attitudes in Reasoning." Oxford: Oxford University Press. ISBN 0198916345, 9780198916345.
+
+Pollock, John L. 1994. "Justification and Defeat." *Artificial Intelligence* 67, no. 2: 377–407. https://doi.org/10.1016/0004-3702(94)90057-4. ISSN 0004-3702.
+
+Pollock, John L. 1987. "Defeasible Reasoning." *Cognitive Science* 11, no. 4: 481–518. https://doi.org/10.1207/s15516709cog1104_4. ISSN 0364-0213.
+
+
 
 Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House. ISBN 978-1400067824.
 

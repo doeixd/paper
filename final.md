@@ -1043,9 +1043,9 @@ Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for I
 
 Snow, John. 1855. *On the Mode of Communication of Cholera*. London: John Churchill.
 
-Staffel, Julia. 2019. "Coherentism and Belief Fixation." In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press.
+Krag, Erik. 2015. "Coherentism and Belief Fixation." *Logos & Episteme* 6, no. 2: 187–199. https://doi.org/10.5840/logos-episteme20156211.
 
-Staffel, Julia. 2019. "Reasons Fundamentalism and Rational Uncertainty: The Externalist Response." *Philosophy and Phenomenological Research* 103(3): 555–73. https://doi.org/10.1111/phpr.12595.
+Staffel, Julia. 2020. "Reasons Fundamentalism and Rational Uncertainty – Comments on Lord, The Importance of Being Rational." *Philosophy and Phenomenological Research* 100, no. 2: 463–468. https://doi.org/10.1111/phpr.12675.
 
 Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House. ISBN 9781400067824.
 
