@@ -42,7 +42,7 @@ Campbell, Donald T. 1974. "Evolutionary Epistemology." In *The Philosophy of Kar
 
 Carlson, Matthew. 2015. "Logic and the Structure of the Web of Belief." *Journal for the History of Analytical Philosophy* 3(5): 1–27. https://doi.org/10.15173/jhap.v3i5.28.
 
-Cartwright, Nancy. 1989. *Nature’s Capacities and Their Measurement*. Oxford: Clarendon Press. ISBN 978-0198244776.
+Cartwright, Nancy. 1989. *Nature's Capacities and Their Measurement*. Oxford: Clarendon Press. ISBN 978-0198244776.
 
 Cartwright, Nancy. 1999. *The Dappled World: A Study of the Boundaries of Science*. Cambridge: Cambridge University Press. ISBN 978-0521644112.
 
@@ -152,7 +152,7 @@ Lynch, Michael P. 2009. *Truth as One and Many*. Oxford: Clarendon Press. ISBN 9
 
 Mackie, J. L. 1977. *Ethics: Inventing Right and Wrong*. London: Penguin Books. ISBN 978-0140135589.
 
-Bolhuis, Johan J., Stephen Crain, Sandiway Fong, and Andrea Moro. 2024. "Three Reasons Why AI Doesn’t Model Human Language." *Nature* 627 (8004): 489. https://doi.org/10.1038/d41586-024-00824-z. ISSN 0028-0836.
+Bolhuis, Johan J., Stephen Crain, Sandiway Fong, and Andrea Moro. 2024. "Three Reasons Why AI Doesn't Model Human Language." *Nature* 627 (8004): 489. https://doi.org/10.1038/d41586-024-00824-z. ISSN 0028-0836.
 
 
 March, James G. 1978. "Bounded Rationality, Ambiguity, and the Engineering of Choice." *The Bell Journal of Economics* 9, no. 2: 587–608. https://doi.org/10.2307/3003600.
@@ -171,7 +171,7 @@ Olsson, Erik J. 2005. *Against Coherence: Truth, Probability, and Justification*
 
 Ostrom, Elinor. 1990. *Governing the Commons: The Evolution of Institutions for Collective Action*. Cambridge: Cambridge University Press. ISBN 978-0521405997.
 
-O’Connor, Cailin, and James Owen Weatherall. 2019. *The Misinformation Age: How False Beliefs Spread*. New Haven, CT: Yale University Press. ISBN 978-0300234015.
+O'Connor, Cailin, and James Owen Weatherall. 2019. *The Misinformation Age: How False Beliefs Spread*. New Haven, CT: Yale University Press. ISBN 978-0300234015.
 
 Patterson, Orlando. 1982. *Slavery and Social Death: A Comparative Study*. Cambridge, MA: Harvard University Press. ISBN 978-0674986909.
 
@@ -243,7 +243,7 @@ Staffel, Julia. 2021. "Rational Judgment and the Structure of Defeat." In *Reaso
 
 Staffel, Julia. 2025. "Unfinished Business: Rational Attitudes in Reasoning." Oxford: Oxford University Press. ISBN 0198916345, 9780198916345.
 
-Sterelny, Kim. 2012. “Morality’s Dark Past.” *Analyse & Kritik* 34, no. 1: 95–116. https://doi.org/10.1515/auk-2012-0107.
+Sterelny, Kim. 2012. “Morality's Dark Past.” *Analyse & Kritik* 34, no. 1: 95–116. https://doi.org/10.1515/auk-2012-0107.
 
 Street, Sharon. 2006. "A Darwinian Dilemma for Realist Theories of Value." *Philosophical Studies* 127(1): 109–66. https://doi.org/10.1007/s11098-005-1726-6.
 
@@ -259,9 +259,9 @@ Tauriainen, Teemu. 2017. "Quine on Truth." *Philosophical Forum* 48(4): 397–41
 
 Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä.
 
-Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master’s thesis, University of Jyväskylä, Department of Social Sciences and Philosophy. https://urn.fi/URN:NBN:fi:jyu-201705312584.
+Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä, Department of Social Sciences and Philosophy. https://urn.fi/URN:NBN:fi:jyu-201705312584.
 
-Tauriainen, Teemu. 2022. "Quine’s Conflicts with Truth Deflationism." *Asian Journal of Philosophy* 1 (46): 1–25. https://doi.org/10.1007/s44204-022-00047-x. ISSN 2731-6641.
+Tauriainen, Teemu. 2022. "Quine's Conflicts with Truth Deflationism." *Asian Journal of Philosophy* 1 (46): 1–25. https://doi.org/10.1007/s44204-022-00047-x. ISSN 2731-6641.
 
 Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton, NJ: Princeton University Press. ISBN 978-0691116693.
 

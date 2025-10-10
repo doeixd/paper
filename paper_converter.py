@@ -22,6 +22,14 @@ import subprocess
 from pathlib import Path
 from datetime import datetime
 
+# Import citation extraction functions from citation_extractor module
+try:
+    import citation_extractor
+    CITATION_EXTRACTOR_AVAILABLE = True
+except ImportError:
+    CITATION_EXTRACTOR_AVAILABLE = False
+    print("Warning: citation_extractor module not found, using fallback extraction")
+
 def is_valid_citation(author, year):
     """Check if a potential citation is valid (not an abbreviation or invalid format)."""
     # Skip if author contains common abbreviations
@@ -37,6 +45,11 @@ def is_valid_citation(author, year):
 
 def extract_citations_from_file(filepath):
     """Extract both parenthetical and in-prose citations from a file."""
+    # Use the updated citation_extractor module if available
+    if CITATION_EXTRACTOR_AVAILABLE:
+        return citation_extractor.extract_citations_from_file(Path(filepath), verbose=False)
+
+    # Fallback to basic extraction if module not available
     citations = []
 
     try:
@@ -48,23 +61,16 @@ def extract_citations_from_file(filepath):
 
     lines = content.split('\n')
 
-    # Pattern 1: Parenthetical citations - find all text within parentheses that contains years
+    # Pattern 1: Parenthetical citations
     parenthetical_pattern = r'\(([^)]*?\d{4}[^)]*?)\)'
 
-    # Pattern 2: In-prose citations like "Author (Year)", "Author's (Year)", or "Author et al. (Year)"
-    # Matches: Goldman (1979), Quine (1951), Kitcher's (2011), Acemoglu and Robinson (2012),
-    #          Sevilla et al. (2022), Bennett-Hunter (2015)
+    # Pattern 2: In-prose citations
     in_prose_pattern = r'\b([A-Z][a-z]+(?:-[A-Z][a-z]+)?(?:\'s)?(?:\s+(?:and|&)\s+[A-Z][a-z]+(?:-[A-Z][a-z]+)?)?(?:\s+et\s+al\.?)?)\s+\(([A-Za-z]+|\d{4})(?:[a-z])?\)'
 
     for i, line in enumerate(lines):
         # Find parenthetical citations
         for match in re.finditer(parenthetical_pattern, line):
-            citation = match.group(0)
             citation_content = match.group(1)
-
-            # Parse the citation to extract all author-year pairs
-            # Handle both semicolon-separated and comma-separated citations
-            # First split by semicolons, then by commas for each part
             all_parts = []
             semicolon_parts = [part.strip() for part in citation_content.split(';')]
             for semicolon_part in semicolon_parts:
@@ -72,14 +78,11 @@ def extract_citations_from_file(filepath):
                 all_parts.extend(comma_parts)
 
             for part in all_parts:
-                # Try to extract author and year from each part
-                # Pattern: "Author Year" or "Author et al. Year" or "Author1 and Author2 Year"
                 part_match = re.match(r'^(.+?)\s+(\d{4}[a-z]?)$', part.strip())
                 if part_match:
                     author = part_match.group(1).strip()
                     year = part_match.group(2)
 
-                    # Skip invalid citations
                     if not is_valid_citation(author, year):
                         continue
 
@@ -101,11 +104,9 @@ def extract_citations_from_file(filepath):
             if author.endswith("'s"):
                 author = author[:-2]
 
-            # Skip invalid citations
             if not is_valid_citation(author, year):
                 continue
 
-            # Skip if this looks like it's part of a reference list entry
             if i > 0 and re.match(r'^[A-Z][a-z]+.*\d{4}\.', line):
                 continue
 
@@ -121,6 +122,11 @@ def extract_citations_from_file(filepath):
 
 def load_references():
     """Load references from references.md into a dictionary."""
+    # Use the updated citation_extractor module if available
+    if CITATION_EXTRACTOR_AVAILABLE:
+        return citation_extractor.load_references()
+
+    # Fallback implementation
     references = {}
 
     try:
@@ -180,6 +186,11 @@ def load_references():
 
 def match_citation_to_reference(author, year, references, config=None):
     """Try multiple strategies to match a citation to a reference with configurable options."""
+    # Use the updated citation_extractor module if available (it doesn't use config)
+    if CITATION_EXTRACTOR_AVAILABLE:
+        return citation_extractor.match_citation_to_reference(author, year, references)
+
+    # Fallback implementation with config support
     if config is None:
         config = {
             'strict_matching': True,

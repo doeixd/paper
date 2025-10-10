@@ -48,10 +48,21 @@ def extract_citations_from_file(filepath, verbose=True):
     # Pattern 1: Parenthetical citations - find all text within parentheses that contains years
     parenthetical_pattern = r'\(([^)]*?\d{4}[^)]*?)\)'
 
-    # Pattern 2: In-prose citations like "Author (Year)" or "Author et al. (Year)"
+    # Pattern 2: Possessive citations like "Author's (Year)" or "Author1 and Author2's (Year)"
+    # Matches: Davidson's (1986), Kitcher's (1993), Longino's (1990), Ladyman and Ross's (2007), O'Connor's (2019)
+    # IMPORTANT: Check possessive BEFORE in-prose to avoid in-prose matching "Davidson's" as "Davidson's"
+    # Pattern uses [\w']* to allow internal apostrophes (O'Connor) but must end with \w to avoid capturing trailing apostrophe
+    possessive_pattern = r'\b([A-Z][\w\']*\w(?:\s+(?:and|&)\s+[A-Z][\w\']*\w)?)\'s\s+\((\d{4})(?:[a-z])?\)'
+
+    # Pattern 3: In-prose citations like "Author (Year)" or "Author et al. (Year)"
     # Matches: Goldman (1979), Quine (1951), Acemoglu and Robinson (2012),
-    #          Sevilla et al. (2022), Bennett-Hunter (2015)
-    in_prose_pattern = r'\b([A-Z][a-z]+(?:-[A-Z][a-z]+)?(?:\s+(?:and|&)\s+[A-Z][a-z]+(?:-[A-Z][a-z]+)?)?(?:\s+et\s+al\.?)?)\s+\((\d{4})(?:[a-z])?\)'
+    #          Sevilla et al. (2022), Bennett-Hunter (2015), O'Connor (2019)
+    # Updated to handle apostrophes in names like O'Connor, O'Neill, etc.
+    in_prose_pattern = r'\b([A-Z][\w\']+(?:-[A-Z][\w\']+)?(?:\s+(?:and|&)\s+[A-Z][\w\']+(?:-[A-Z][\w\']+)?)?(?:\s+et\s+al\.?)?)\s+\((\d{4})(?:[a-z])?\)'
+
+    # Track which citations have already been found to avoid duplicates
+    # Use (line_number, start_position) as key
+    found_citations = set()
 
     for i, line in enumerate(lines):
         # Find parenthetical citations
@@ -95,12 +106,45 @@ def extract_citations_from_file(filepath, verbose=True):
                         'line': i + 1
                     })
 
-        # Find in-prose citations
+        # Find possessive citations FIRST (before in-prose) to avoid conflicts
+        for match in re.finditer(possessive_pattern, line):
+            full_match = match.group(0)
+            author = match.group(1).strip()
+            year = match.group(2)
+
+            # Track this citation location
+            cite_key = (i, match.start())
+            if cite_key in found_citations:
+                continue
+            found_citations.add(cite_key)
+
+            # Extract context
+            start_line = max(0, i - 3)
+            end_line = min(len(lines), i + 4)
+            context = '\n'.join(lines[start_line:end_line]).strip()
+
+            citations.append({
+                'citation': full_match,
+                'author': author,
+                'year': year,
+                'type': 'possessive',
+                'context': context,
+                'file': filepath.name,
+                'line': i + 1
+            })
+
+        # Find in-prose citations (after possessive to avoid conflicts)
         for match in re.finditer(in_prose_pattern, line):
             # Get the full match including author name before parentheses
             full_match = match.group(0)
             author = match.group(1).strip()
             year = match.group(2)
+
+            # Skip if already found as possessive
+            cite_key = (i, match.start())
+            if cite_key in found_citations:
+                continue
+            found_citations.add(cite_key)
 
             # Skip if this looks like it's part of a reference list entry
             # (reference entries have author at start of line followed by year)
@@ -171,24 +215,54 @@ def load_references():
 
             # Handle "Author1, Author2" format
             # Also handle "Author et al." format
-            if ',' in full_author:
+            # Check if there's an "and" or "&" indicating multiple authors
+            # Format can be: "Author1, FirstName, and Author2, FirstName" or "Author1, FirstName and Author2, FirstName"
+            if ',' in full_author and (' and ' in full_author or ' & ' in full_author):
+                # Extract second author from "and" or "&" clause
+                and_part = None
+                if ' and ' in full_author:
+                    and_part = full_author.split(' and ')[-1].strip()
+                elif ' & ' in full_author:
+                    and_part = full_author.split(' & ')[-1].strip()
+
+                if and_part:
+                    # Get the last name from "FirstName LastName" or just "LastName"
+                    # Handle formats like "James Owen Weatherall" -> "Weatherall"
+                    second_author = and_part.split(',')[0].strip()  # Remove any trailing commas
+                    second_author = second_author.rstrip('.')  # Remove trailing period
+                    # Get last word as the last name
+                    second_author_lastname = second_author.split()[-1] if second_author.split() else second_author
+
+                    if second_author_lastname:
+                        # Store as both "Author1 and Author2" and "Author1 & Author2"
+                        key_and = f"{primary_author} and {second_author_lastname}"
+                        key_ampersand = f"{primary_author} & {second_author_lastname}"
+                        references[key_and] = block.strip()
+                        references[key_ampersand] = block.strip()
+                        references[f"{key_and} {year}"] = block.strip()
+                        references[f"{key_ampersand} {year}"] = block.strip()
+                        if original_year:
+                            references[f"{key_and} {original_year}"] = block.strip()
+                            references[f"{key_ampersand} {original_year}"] = block.strip()
+            elif ',' in full_author:
+                # Old logic for simple two-author format without "and"
                 parts = full_author.split(',')
                 if len(parts) >= 2:
-                    # Check if second part is another author (not initials)
                     second_part = parts[1].strip()
-                    if ' and ' in second_part or ' & ' in second_part:
-                        # "Author1, Author2 and Author3" -> get Author1
-                        pass
-                    elif not re.match(r'^[A-Z]\.\s*[A-Z]\.?', second_part):
-                        # Second author exists
+                    if not re.match(r'^[A-Z]\.\s*[A-Z]\.?', second_part):
+                        # Second author exists (not just initials)
                         second_author = second_part.split()[0] if second_part else ''
                         if second_author:
-                            # Store as "Author1 and Author2"
+                            # Store as both "Author1 and Author2" and "Author1 & Author2"
                             key_and = f"{primary_author} and {second_author}"
+                            key_ampersand = f"{primary_author} & {second_author}"
                             references[key_and] = block.strip()
+                            references[key_ampersand] = block.strip()
                             references[f"{key_and} {year}"] = block.strip()
+                            references[f"{key_ampersand} {year}"] = block.strip()
                             if original_year:
                                 references[f"{key_and} {original_year}"] = block.strip()
+                                references[f"{key_ampersand} {original_year}"] = block.strip()
 
             # Store multiple possible keys
             references[primary_author] = block.strip()
@@ -211,6 +285,11 @@ def match_citation_to_reference(author, year, references):
         author,
         f"{author.replace(' and ', ', ')} {year}",
         f"{author.replace(' & ', ', ')} {year}",
+        # Also try replacing "&" with "and" and vice versa
+        f"{author.replace(' and ', ' & ')} {year}",
+        f"{author.replace(' & ', ' and ')} {year}",
+        author.replace(' and ', ' & '),
+        author.replace(' & ', ' and '),
     ]
 
     # Handle "et al." by stripping it and trying primary author
@@ -358,15 +437,18 @@ Examples:
         if not args.quiet:
             parenthetical = sum(1 for c in citations if c['type'] == 'parenthetical')
             in_prose = sum(1 for c in citations if c['type'] == 'in-prose')
-            print(f"  Found {len(citations)} citations ({parenthetical} parenthetical, {in_prose} in-prose)")
+            possessive = sum(1 for c in citations if c['type'] == 'possessive')
+            print(f"  Found {len(citations)} citations ({parenthetical} parenthetical, {in_prose} in-prose, {possessive} possessive)")
 
     if not args.quiet:
         print(f"\n{'='*60}")
         print(f"Total citations found: {len(all_citations)}")
         total_parenthetical = sum(1 for c in all_citations if c['type'] == 'parenthetical')
         total_in_prose = sum(1 for c in all_citations if c['type'] == 'in-prose')
+        total_possessive = sum(1 for c in all_citations if c['type'] == 'possessive')
         print(f"  Parenthetical: {total_parenthetical}")
         print(f"  In-prose: {total_in_prose}")
+        print(f"  Possessive: {total_possessive}")
         print(f"{'='*60}\n")
 
     # Write results to file
