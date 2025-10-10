@@ -48,8 +48,8 @@ def extract_citations_from_file(filepath):
 
     lines = content.split('\n')
 
-    # Pattern 1: Parenthetical citations like (Author Year), (Author, Year), or (Author Year, page)
-    parenthetical_pattern = r'\(([A-Za-z][A-Za-z\s,&\-\.]*?)(?:\s+|,\s+)([A-Za-z]+|\d{4})(?:[a-z])?(?:,\s*(?:p\.?\s*)?\d+(?:-\d+)?)?\)'
+    # Pattern 1: Parenthetical citations - find all text within parentheses that contains years
+    parenthetical_pattern = r'\(([^)]*?\d{4}[^)]*?)\)'
 
     # Pattern 2: In-prose citations like "Author (Year)", "Author's (Year)", or "Author et al. (Year)"
     # Matches: Goldman (1979), Quine (1951), Kitcher's (2011), Acemoglu and Robinson (2012),
@@ -60,7 +60,7 @@ def extract_citations_from_file(filepath):
         # Find parenthetical citations
         for match in re.finditer(parenthetical_pattern, line):
             citation = match.group(0)
-            citation_content = match.group(1) + ' ' + match.group(2)  # Combine author and year
+            citation_content = match.group(1)
 
             # Parse the citation to extract all author-year pairs
             # Handle both semicolon-separated and comma-separated citations
