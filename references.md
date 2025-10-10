@@ -18,6 +18,8 @@ Berlin, Brent, and Paul Kay. 1969. *Basic Color Terms: Their Universality and Ev
 
 BonJour, Laurence. 1985. *The Structure of Empirical Knowledge*. Cambridge, MA: Harvard University Press.
 
+Boyd, Richard. 1988. "How to Be a Moral Realist." In *Essays on Moral Realism*, edited by Geoffrey Sayre-McCord, 181–228. Ithaca, NY: Cornell University Press.
+
 Bradie, Michael. 1986. "Assessing Evolutionary Epistemology." *Biology & Philosophy* 1(4): 401–59. https://doi.org/10.1007/BF00140962.
 
 Brandom, Robert B. 1994. *Making It Explicit: Reasoning, Representing, and Discursive Commitment*. Cambridge, MA: Harvard University Press.
@@ -45,6 +47,8 @@ Gadamer, Hans-Georg. 1975. *Truth and Method*. Translated by Joel Weinsheimer an
 Gaifman, Haim, and Marc Snir. 1982. "Probabilities over rich languages, testing and randomness." *Journal of Symbolic Logic* 47(3): 495-548.
 
 Gil Martín, Francisco Javier, and Jesús Vega Encabo. 2008. "Truth and Moral Objectivity: Procedural Realism in Putnam's Pragmatism." *Theoria: An International Journal for Theory, History and Foundations of Science* 23(3): 343-356.
+
+Glenn, Patrick. Forthcoming. "The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth."
 
 Goldman, Alvin I. 1979. "What Is Justified Belief?" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel. https://doi.org/10.1007/978-94-009-9493-5_1.
 
@@ -176,6 +180,8 @@ Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's th
 
 Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton, NJ: Princeton University Press. ISBN 978-0691116693.
 
+Fogel, Robert William, and Stanley L. Engerman. 1974. *Time on the Cross: The Economics of American Negro Slavery*. Boston: Little, Brown and Company.
+
 Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica* 43(1–2): 99–124. https://doi.org/10.1111/j.1746-8361.1989.tb00933.x.
 
 Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." *Proceedings of the Sixth International Congress of Genetics* 1: 356–66.
@@ -204,7 +210,7 @@ Harding, Sandra G. 2004. *The Feminist Standpoint Theory Reader*. New York: Rout
 
 Joyce, Richard. 2001. *The Myth of Morality*. Cambridge: Cambridge University Press.
 
-Kitcher, Philip. 2011. *The Ethical Project*. Cambridge, MA: Harvard University Press.
+Kitcher, Philip. 2011. *The Ethical Project*. Cambridge, MA: Harvard University Press. ISBN 9780674060195.
 
 Korsgaard, Christine M. 1996. *The Sources of Normativity*. Cambridge: Cambridge University Press. ISBN 978-0521553648.
 
