@@ -116,6 +116,10 @@ Peirce, Charles S. 1992. "How to Make Our Ideas Clear." In *The Essential Peirce
 
 Peter, Fabienne. 2024. "Moral Affordances and the Demands of Fittingness." *Philosophical Psychology* 37(7): 1948–70. https://doi.org/10.1080/09515089.2023.2236120.
 
+Plantinga, Alvin. 1993. *Warrant and Proper Function*. New York: Oxford University Press. ISBN 9780195078640.
+
+Plantinga, Alvin. 2011. *Where the Conflict Really Lies: Science, Religion, and Naturalism*. New York: Oxford University Press. ISBN 9780199812097.
+
 Popper, Karl. 1959. *The Logic of Scientific Discovery*. London: Hutchinson (originally 1934).
 
 Price, Huw. 1992. "Metaphysical Pluralism." *Journal of Philosophy* 89(8): 387–409. https://doi.org/10.2307/2940975.

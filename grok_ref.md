@@ -126,72 +126,78 @@ This seminal book argues that slavery is not primarily defined by property relat
 
 ### 58. Peter, Fabienne. 2024. "Moral Affordances and the Demands of Fittingness." *Philosophical Psychology* 37(7): 1948–70. https://doi.org/10.1080/09515089.2023.2236120.
 
-### 59. Popper, Karl. 1959. *The Logic of Scientific Discovery*. London: Hutchinson (originally 1934).
+### 59. Plantinga, Alvin. 1993. *Warrant and Proper Function*. New York: Oxford University Press.
+This book develops Plantinga's proper function theory of warrant, arguing that a belief is warranted if it is produced by cognitive faculties functioning properly in an appropriate environment according to a design plan successfully aimed at truth. This work is central to his Evolutionary Argument Against Naturalism (EAAN).
 
-### 60. Price, Huw. 1992. "Metaphysical Pluralism." *Journal of Philosophy* 89(8): 387–409. https://doi.org/10.2307/2940975.
+### 60. Plantinga, Alvin. 2011. *Where the Conflict Really Lies: Science, Religion, and Naturalism*. New York: Oxford University Press.
+Plantinga argues that there is superficial conflict but deep concord between science and theistic religion, while there is superficial concord but deep conflict between science and naturalism. The book extensively develops the Evolutionary Argument Against Naturalism (EAAN), arguing that naturalistic evolution undermines the reliability of our cognitive faculties.
 
-### 61. Pritchard, Duncan. 2016. *Epistemic Risk*. Oxford: Oxford University Press (article; book 2016? Verified as 2016 article).
+### 61. Popper, Karl. 1959. *The Logic of Scientific Discovery*. London: Hutchinson (originally 1934).
 
-### 62. Psillos, Stathis. 1999. *Scientific Realism: How Science Tracks Truth*. London: Routledge.
+### 62. Price, Huw. 1992. "Metaphysical Pluralism." *Journal of Philosophy* 89(8): 387–409. https://doi.org/10.2307/2940975.
+
+### 63. Pritchard, Duncan. 2016. *Epistemic Risk*. Oxford: Oxford University Press (article; book 2016? Verified as 2016 article).
+
+### 64. Psillos, Stathis. 1999. *Scientific Realism: How Science Tracks Truth*. London: Routledge.
 This book is a comprehensive study that defends scientific realism. Psillos argues that the history of science, rather than undermining scientific realism, supports it as the best philosophical account of science's empirical success, progress, and practice.
 
-### 63. Putnam, Hilary. 2002. *The Collapse of the Fact/Value Dichotomy and Other Essays*. Cambridge, MA: Harvard University Press.
+### 65. Putnam, Hilary. 2002. *The Collapse of the Fact/Value Dichotomy and Other Essays*. Cambridge, MA: Harvard University Press.
 
-### 64. Quine, W. V. O. 1951. "Two Dogmas of Empiricism." *Philosophical Review* 60(1): 20–43. https://doi.org/10.2307/2181906.
+### 66. Quine, W. V. O. 1951. "Two Dogmas of Empiricism." *Philosophical Review* 60(1): 20–43. https://doi.org/10.2307/2181906.
 
-### 65. Quine, W. V. O. 1960. *Word and Object*. Cambridge, MA: MIT Press.
+### 67. Quine, W. V. O. 1960. *Word and Object*. Cambridge, MA: MIT Press.
 
-### 66. Rescher, Nicholas. 1996. *Process Metaphysics: An Introduction to Process Philosophy*. Albany: State University of New York Press.
+### 68. Rescher, Nicholas. 1996. *Process Metaphysics: An Introduction to Process Philosophy*. Albany: State University of New York Press.
 
-### 67. Roda, Weston C., Marie B. Varughese, Donglin Han, and Michael Y. Li. 2020. "Why Is It Difficult to Accurately Predict the COVID-19 Epidemic?" *Infectious Disease Modelling* 5: 271–281. https://doi.org/10.1016/j.idm.2020.03.001.
+### 69. Roda, Weston C., Marie B. Varughese, Donglin Han, and Michael Y. Li. 2020. "Why Is It Difficult to Accurately Predict the COVID-19 Epidemic?" *Infectious Disease Modelling* 5: 271–281. https://doi.org/10.1016/j.idm.2020.03.001.
 
-### 68. Rorty, Richard. 1989. *Contingency, Irony, and Solidarity*. Cambridge: Cambridge University Press.
+### 70. Rorty, Richard. 1989. *Contingency, Irony, and Solidarity*. Cambridge: Cambridge University Press.
 This book explores how human solidarity is possible in a postmodern world that rejects objective truth and universal humanity. Rorty proposes that human solidarity can be built through imagination and empathy, rather than on metaphysical or objective foundations.
 
-### 69. Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press.
+### 71. Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press.
 
-### 70. Rosenstock, Sarita, Cailin O'Connor, and Justin Bruner. 2017. "In Epistemic Networks, Is Less Really More?" *Philosophy of Science* 84(2): 234–52. https://doi.org/10.1086/690717.
+### 72. Rosenstock, Sarita, Cailin O'Connor, and Justin Bruner. 2017. "In Epistemic Networks, Is Less Really More?" *Philosophy of Science* 84(2): 234–52. https://doi.org/10.1086/690717.
 
-### 71. Rottschaefer, William A. 2012. "Moral Realism and Evolutionary Moral Psychology." In *The Oxford Handbook of Moral Realism*, edited by Paul Bloomfield, 123–45. Oxford: Oxford University Press.
+### 73. Rottschaefer, William A. 2012. "Moral Realism and Evolutionary Moral Psychology." In *The Oxford Handbook of Moral Realism*, edited by Paul Bloomfield, 123–45. Oxford: Oxford University Press.
 
-### 72. Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Analyse & Kritik* 34(1): 141–56. https://doi.org/10.1515/ak-2012-0107.
+### 74. Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Analyse & Kritik* 34(1): 141–56. https://doi.org/10.1515/ak-2012-0107.
 
-### 73. Russell, Bertrand. 1903. *The Principles of Mathematics*. Cambridge: Cambridge University Press.
+### 75. Russell, Bertrand. 1903. *The Principles of Mathematics*. Cambridge: Cambridge University Press.
 The book develops a comprehensive logical foundation for mathematics, introducing the theory of types to resolve paradoxes like Russell's paradox. It argues that mathematics can be reduced to logic, laying the groundwork for modern mathematical logic and analytic philosophy.
 
-### 74. Sevilla, Jaime, Lennart Heim, Marius Hobbhahn, and Anson Ho. 2022. "Compute Trends Across Three Eras of Machine Learning." arXiv preprint arXiv:2202.05924.
+### 76. Sevilla, Jaime, Lennart Heim, Marius Hobbhahn, and Anson Ho. 2022. "Compute Trends Across Three Eras of Machine Learning." arXiv preprint arXiv:2202.05924.
 
-### 75. Simon, Herbert A. 1972. "Theories of Bounded Rationality." In *Decision and Organization*, edited by C. B. McGuire and Roy Radner, 161–76. Amsterdam: North-Holland Publishing Company.
+### 77. Simon, Herbert A. 1972. "Theories of Bounded Rationality." In *Decision and Organization*, edited by C. B. McGuire and Roy Radner, 161–76. Amsterdam: North-Holland Publishing Company.
 
-### 76. Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91(2): 430–48. https://doi.org/10.1017/psa.2023.104.
+### 78. Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91(2): 430–48. https://doi.org/10.1017/psa.2023.104.
 
-### 77. Snow, John. 1855. *On the Mode of Communication of Cholera*. London: John Churchill.
+### 79. Snow, John. 1855. *On the Mode of Communication of Cholera*. London: John Churchill.
 
-### 78. Staffel, Julia. 2019. "Coherentism and Belief Fixation." In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press.
+### 80. Staffel, Julia. 2019. "Coherentism and Belief Fixation." In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press.
 
-### 79. Staffel, Julia. 2019. "Reasons Fundamentalism and Rational Uncertainty: The Externalist Response." *Philosophy and Phenomenological Research* 103(3): 555–73. https://doi.org/10.1111/phpr.12595.
+### 81. Staffel, Julia. 2019. "Reasons Fundamentalism and Rational Uncertainty: The Externalist Response." *Philosophy and Phenomenological Research* 103(3): 555–73. https://doi.org/10.1111/phpr.12595.
 
-### 80. Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House.
+### 82. Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House.
 
-### 81. Tauriainen, Teemu. 2017. "Quine on Truth." *Philosophical Forum* 48(4): 397–416. https://doi.org/10.1111/phil.12170.
+### 83. Tauriainen, Teemu. 2017. "Quine on Truth." *Philosophical Forum* 48(4): 397–416. https://doi.org/10.1111/phil.12170.
 
-### 82. Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä.
+### 84. Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä.
 
-### 83. Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton, NJ: Princeton University Press.
+### 85. Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton, NJ: Princeton University Press.
 
-### 84. Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica* 43(1–2): 99–124. https://doi.org/10.1111/j.1746-8361.1989.tb00933.x.
+### 86. Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica* 43(1–2): 99–124. https://doi.org/10.1111/j.1746-8361.1989.tb00933.x.
 
-### 85. Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." *Proceedings of the Sixth International Congress of Genetics* 1: 356–66.
+### 87. Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." *Proceedings of the Sixth International Congress of Genetics* 1: 356–66.
 
-### 86. Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind: An Inquiry into the Nature of Virtue and the Ethical Foundations of Knowledge*. Cambridge: Cambridge University Press.
+### 88. Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind: An Inquiry into the Nature of Virtue and the Ethical Foundations of Knowledge*. Cambridge: Cambridge University Press.
 
-### 87. Zollman, Kevin J. S. 2013. "Network Epistemology: Communication in the History of Science." *Philosophy Compass* 8(1): 15–27. https://doi.org/10.1111/phc3.12021.
+### 89. Zollman, Kevin J. S. 2013. "Network Epistemology: Communication in the History of Science." *Philosophy Compass* 8(1): 15–27. https://doi.org/10.1111/phc3.12021.
 
-### 88. Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
+### 90. Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
 The book advocates for naturalizing metaphysics by eliminating traditional metaphysical concepts that lack scientific grounding. It proposes replacing them with scientifically informed alternatives based on physics, biology, and cognitive science.
 
-### 89. Blackburn, Simon. 1993. *Essays in Quasi-Realism*. New York: Oxford University Press.
+### 91. Blackburn, Simon. 1993. *Essays in Quasi-Realism*. New York: Oxford University Press.
 
-### 90. Glenn, Patrick. Forthcoming. "The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth."
+### 92. Glenn, Patrick. Forthcoming. "The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth."
 
-### 91. Mackie, J. L. 1977. *Ethics: Inventing Right and Wrong*. London: Penguin Books.
+### 93. Mackie, J. L. 1977. *Ethics: Inventing Right and Wrong*. London: Penguin Books.
