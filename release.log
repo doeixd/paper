@@ -1,1 +1,37 @@
 2025-10-10 07:41:03,914 - ERROR - Failed to import paper_converter: No module named 'paper_converter'
+2025-10-10 08:17:06,720 - ERROR - Failed to import paper_converter: No module named 'paper_converter'
+2025-10-10 08:17:22,782 - INFO - Successfully imported paper_converter
+2025-10-10 08:17:22,783 - INFO - Successfully imported pdf_assembler
+2025-10-10 08:17:24,817 - INFO - Input validation passed: proc_v7.md (74627 bytes)
+2025-10-10 08:17:24,817 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 08:17:24,817 - INFO - Input: proc_v7.md
+2025-10-10 08:17:24,817 - INFO - Output: releases\proc-v7.pdf
+2025-10-10 08:17:24,817 - INFO - Format: typst
+2025-10-10 08:17:24,818 - INFO - Config: 0 validation errors
+2025-10-10 08:17:24,818 - INFO - Converting markdown to target format...
+2025-10-10 08:17:24,818 - INFO - Extracting citations...
+2025-10-10 08:17:24,824 - INFO - Found 6 citations
+2025-10-10 08:17:24,824 - INFO - Loading and processing references...
+2025-10-10 08:17:24,825 - INFO - Loaded 667 reference entries
+2025-10-10 08:17:24,827 - INFO - Generated 3 references (strategy: filter)
+2025-10-10 08:17:24,827 - WARNING - 2 citations not found in references.md
+2025-10-10 08:17:24,827 - INFO - Combining paper with filtered references...
+2025-10-10 08:17:24,854 - INFO - Combined file created: 71532 bytes
+2025-10-10 08:17:24,854 - INFO - Converting to typst format...
+2025-10-10 08:17:25,148 - INFO - Target file created: 74821 bytes
+2025-10-10 08:17:25,149 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2025-10-10 08:17:25,149 - INFO - Generating PDF with attachments...
+2025-10-10 08:17:25,149 - INFO - Main document: proc_v7_combined.typst
+2025-10-10 08:17:25,163 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2025-10-10 08:17:25,401 - INFO - Converted to PDF: proc_v7_combined.pdf
+2025-10-10 08:17:25,404 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2025-10-10 08:17:25,405 - INFO - PDF generation successful: 132669 bytes
+2025-10-10 08:17:25,405 - INFO - Adding metadata to PDF...
+2025-10-10 08:17:25,406 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 08:17:25,406 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 08:17:25,406 - INFO - Validated final PDF: releases\proc-v7.pdf (132669 bytes)
+2025-10-10 08:17:25,406 - INFO - Starting cleanup...
+2025-10-10 08:17:25,407 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 08:17:25,408 - INFO - SUCCESS! Release complete in 0.6s
+2025-10-10 08:17:25,409 - INFO - Final PDF: releases\proc-v7.pdf (132669 bytes)
+2025-10-10 08:17:25,409 - INFO - Release completed successfully: releases\proc-v7.pdf
