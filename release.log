@@ -35,3 +35,532 @@
 2025-10-10 08:17:25,408 - INFO - SUCCESS! Release complete in 0.6s
 2025-10-10 08:17:25,409 - INFO - Final PDF: releases\proc-v7.pdf (132669 bytes)
 2025-10-10 08:17:25,409 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-10 08:25:59,867 - INFO - Successfully imported paper_converter
+2025-10-10 08:25:59,867 - INFO - Successfully imported pdf_assembler
+2025-10-10 08:26:00,649 - INFO - Input validation passed: proc_v7.md (74962 bytes)
+2025-10-10 08:26:00,652 - INFO - Backed up existing file: releases\proc-v7.pdf -> backups\proc-v7_20251010_082600.pdf
+2025-10-10 08:26:00,652 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 08:26:00,652 - INFO - Input: proc_v7.md
+2025-10-10 08:26:00,652 - INFO - Output: releases\proc-v7.pdf
+2025-10-10 08:26:00,652 - INFO - Format: typst
+2025-10-10 08:26:00,652 - INFO - Config: 0 validation errors
+2025-10-10 08:26:00,652 - INFO - Converting markdown to target format...
+2025-10-10 08:26:00,652 - INFO - Extracting citations...
+2025-10-10 08:26:00,657 - INFO - Found 6 citations
+2025-10-10 08:26:00,658 - INFO - Loading and processing references...
+2025-10-10 08:26:00,659 - INFO - Loaded 667 reference entries
+2025-10-10 08:26:00,661 - INFO - Generated 3 references (strategy: filter)
+2025-10-10 08:26:00,661 - WARNING - 2 citations not found in references.md
+2025-10-10 08:26:00,662 - INFO - Combining paper with filtered references...
+2025-10-10 08:26:00,678 - INFO - Combined file created: 71867 bytes
+2025-10-10 08:26:00,678 - INFO - Converting to typst format...
+2025-10-10 08:26:00,942 - INFO - Target file created: 75302 bytes
+2025-10-10 08:26:00,942 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2025-10-10 08:26:00,942 - INFO - Generating PDF with attachments...
+2025-10-10 08:26:00,943 - INFO - Main document: proc_v7_combined.typst
+2025-10-10 08:26:00,959 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2025-10-10 08:26:01,187 - INFO - Converted to PDF: proc_v7_combined.pdf
+2025-10-10 08:26:01,188 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2025-10-10 08:26:01,189 - INFO - PDF generation successful: 137475 bytes
+2025-10-10 08:26:01,189 - INFO - Adding metadata to PDF...
+2025-10-10 08:26:01,189 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 08:26:01,189 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 08:26:01,189 - INFO - Validated final PDF: releases\proc-v7.pdf (137475 bytes)
+2025-10-10 08:26:01,189 - INFO - Starting cleanup...
+2025-10-10 08:26:01,190 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 08:26:01,191 - INFO - SUCCESS! Release complete in 0.5s
+2025-10-10 08:26:01,191 - INFO - Final PDF: releases\proc-v7.pdf (137475 bytes)
+2025-10-10 08:26:01,191 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-10 08:27:10,827 - INFO - Successfully imported paper_converter
+2025-10-10 08:27:10,828 - INFO - Successfully imported pdf_assembler
+2025-10-10 08:27:11,719 - INFO - Input validation passed: proc_v7.md (74939 bytes)
+2025-10-10 08:27:11,721 - INFO - Backed up existing file: releases\proc-v7.pdf -> backups\proc-v7_20251010_082711.pdf
+2025-10-10 08:27:11,721 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 08:27:11,721 - INFO - Input: proc_v7.md
+2025-10-10 08:27:11,721 - INFO - Output: releases\proc-v7.pdf
+2025-10-10 08:27:11,721 - INFO - Format: typst
+2025-10-10 08:27:11,721 - INFO - Config: 0 validation errors
+2025-10-10 08:27:11,722 - INFO - Converting markdown to target format...
+2025-10-10 08:27:11,722 - INFO - Extracting citations...
+2025-10-10 08:27:11,727 - INFO - Found 6 citations
+2025-10-10 08:27:11,728 - INFO - Loading and processing references...
+2025-10-10 08:27:11,729 - INFO - Loaded 667 reference entries
+2025-10-10 08:27:11,730 - INFO - Generated 3 references (strategy: filter)
+2025-10-10 08:27:11,730 - WARNING - 2 citations not found in references.md
+2025-10-10 08:27:11,731 - INFO - Combining paper with filtered references...
+2025-10-10 08:27:11,748 - INFO - Combined file created: 71844 bytes
+2025-10-10 08:27:11,748 - INFO - Converting to typst format...
+2025-10-10 08:27:12,007 - INFO - Target file created: 75257 bytes
+2025-10-10 08:27:12,007 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2025-10-10 08:27:12,007 - INFO - Generating PDF with attachments...
+2025-10-10 08:27:12,007 - INFO - Main document: proc_v7_combined.typst
+2025-10-10 08:27:12,028 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2025-10-10 08:27:12,269 - INFO - Converted to PDF: proc_v7_combined.pdf
+2025-10-10 08:27:12,270 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2025-10-10 08:27:12,270 - INFO - PDF generation successful: 137334 bytes
+2025-10-10 08:27:12,270 - INFO - Adding metadata to PDF...
+2025-10-10 08:27:12,270 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 08:27:12,270 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 08:27:12,271 - INFO - Validated final PDF: releases\proc-v7.pdf (137334 bytes)
+2025-10-10 08:27:12,271 - INFO - Starting cleanup...
+2025-10-10 08:27:12,272 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 08:27:12,272 - INFO - SUCCESS! Release complete in 0.6s
+2025-10-10 08:27:12,272 - INFO - Final PDF: releases\proc-v7.pdf (137334 bytes)
+2025-10-10 08:27:12,273 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-10 08:30:37,447 - INFO - Successfully imported paper_converter
+2025-10-10 08:30:37,448 - INFO - Successfully imported pdf_assembler
+2025-10-10 08:30:38,244 - INFO - Input validation passed: proc_v7.md (75019 bytes)
+2025-10-10 08:30:38,245 - INFO - Backed up existing file: releases\proc-v7.pdf -> backups\proc-v7_20251010_083038.pdf
+2025-10-10 08:30:38,246 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 08:30:38,246 - INFO - Input: proc_v7.md
+2025-10-10 08:30:38,246 - INFO - Output: releases\proc-v7.pdf
+2025-10-10 08:30:38,246 - INFO - Format: typst
+2025-10-10 08:30:38,246 - INFO - Config: 0 validation errors
+2025-10-10 08:30:38,246 - INFO - Converting markdown to target format...
+2025-10-10 08:30:38,246 - INFO - Extracting citations...
+2025-10-10 08:30:38,251 - INFO - Found 6 citations
+2025-10-10 08:30:38,251 - INFO - Loading and processing references...
+2025-10-10 08:30:38,252 - INFO - Loaded 681 reference entries
+2025-10-10 08:30:38,254 - INFO - Generated 5 references (strategy: filter)
+2025-10-10 08:30:38,254 - INFO - Combining paper with filtered references...
+2025-10-10 08:30:38,269 - INFO - Combined file created: 72220 bytes
+2025-10-10 08:30:38,270 - INFO - Converting to typst format...
+2025-10-10 08:30:38,523 - INFO - Target file created: 75644 bytes
+2025-10-10 08:30:38,523 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2025-10-10 08:30:38,524 - INFO - Generating PDF with attachments...
+2025-10-10 08:30:38,524 - INFO - Main document: proc_v7_combined.typst
+2025-10-10 08:30:38,539 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2025-10-10 08:30:38,757 - INFO - Converted to PDF: proc_v7_combined.pdf
+2025-10-10 08:30:38,758 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2025-10-10 08:30:38,759 - INFO - PDF generation successful: 137749 bytes
+2025-10-10 08:30:38,759 - INFO - Adding metadata to PDF...
+2025-10-10 08:30:38,759 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 08:30:38,759 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 08:30:38,759 - INFO - Validated final PDF: releases\proc-v7.pdf (137749 bytes)
+2025-10-10 08:30:38,759 - INFO - Starting cleanup...
+2025-10-10 08:30:38,760 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 08:30:38,761 - INFO - SUCCESS! Release complete in 0.5s
+2025-10-10 08:30:38,761 - INFO - Final PDF: releases\proc-v7.pdf (137749 bytes)
+2025-10-10 08:30:38,761 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-10 08:33:25,576 - INFO - Successfully imported paper_converter
+2025-10-10 08:33:25,577 - INFO - Successfully imported pdf_assembler
+2025-10-10 08:33:26,379 - INFO - Input validation passed: proc_v7.md (75009 bytes)
+2025-10-10 08:33:26,381 - INFO - Backed up existing file: releases\proc-v7.pdf -> backups\proc-v7_20251010_083326.pdf
+2025-10-10 08:33:26,381 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 08:33:26,381 - INFO - Input: proc_v7.md
+2025-10-10 08:33:26,381 - INFO - Output: releases\proc-v7.pdf
+2025-10-10 08:33:26,381 - INFO - Format: typst
+2025-10-10 08:33:26,381 - INFO - Config: 0 validation errors
+2025-10-10 08:33:26,381 - INFO - Converting markdown to target format...
+2025-10-10 08:33:26,381 - INFO - Extracting citations...
+2025-10-10 08:33:26,386 - INFO - Found 8 citations
+2025-10-10 08:33:26,387 - INFO - Loading and processing references...
+2025-10-10 08:33:26,388 - INFO - Loaded 687 reference entries
+2025-10-10 08:33:26,389 - INFO - Generated 7 references (strategy: filter)
+2025-10-10 08:33:26,390 - INFO - Combining paper with filtered references...
+2025-10-10 08:33:26,408 - INFO - Combined file created: 72521 bytes
+2025-10-10 08:33:26,409 - INFO - Converting to typst format...
+2025-10-10 08:33:26,673 - INFO - Target file created: 75959 bytes
+2025-10-10 08:33:26,673 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2025-10-10 08:33:26,673 - INFO - Generating PDF with attachments...
+2025-10-10 08:33:26,673 - INFO - Main document: proc_v7_combined.typst
+2025-10-10 08:33:26,688 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2025-10-10 08:33:26,913 - INFO - Converted to PDF: proc_v7_combined.pdf
+2025-10-10 08:33:26,914 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2025-10-10 08:33:26,914 - INFO - PDF generation successful: 138083 bytes
+2025-10-10 08:33:26,914 - INFO - Adding metadata to PDF...
+2025-10-10 08:33:26,914 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 08:33:26,914 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 08:33:26,915 - INFO - Validated final PDF: releases\proc-v7.pdf (138083 bytes)
+2025-10-10 08:33:26,915 - INFO - Starting cleanup...
+2025-10-10 08:33:26,916 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 08:33:26,916 - INFO - SUCCESS! Release complete in 0.5s
+2025-10-10 08:33:26,916 - INFO - Final PDF: releases\proc-v7.pdf (138083 bytes)
+2025-10-10 08:33:26,917 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-10 08:35:36,512 - INFO - Successfully imported paper_converter
+2025-10-10 08:35:36,513 - INFO - Successfully imported pdf_assembler
+2025-10-10 08:35:37,315 - INFO - Input validation passed: proc_v7.md (75037 bytes)
+2025-10-10 08:35:37,318 - INFO - Backed up existing file: releases\proc-v7.pdf -> backups\proc-v7_20251010_083537.pdf
+2025-10-10 08:35:37,318 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 08:35:37,318 - INFO - Input: proc_v7.md
+2025-10-10 08:35:37,318 - INFO - Output: releases\proc-v7.pdf
+2025-10-10 08:35:37,318 - INFO - Format: typst
+2025-10-10 08:35:37,318 - INFO - Config: 0 validation errors
+2025-10-10 08:35:37,318 - INFO - Converting markdown to target format...
+2025-10-10 08:35:37,318 - INFO - Extracting citations...
+2025-10-10 08:35:37,323 - INFO - Found 8 citations
+2025-10-10 08:35:37,323 - INFO - Loading and processing references...
+2025-10-10 08:35:37,325 - INFO - Loaded 687 reference entries
+2025-10-10 08:35:37,326 - INFO - Generated 7 references (strategy: filter)
+2025-10-10 08:35:37,327 - INFO - Combining paper with filtered references...
+2025-10-10 08:35:37,345 - INFO - Combined file created: 72549 bytes
+2025-10-10 08:35:37,346 - INFO - Converting to typst format...
+2025-10-10 08:35:37,608 - INFO - Target file created: 76024 bytes
+2025-10-10 08:35:37,608 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2025-10-10 08:35:37,608 - INFO - Generating PDF with attachments...
+2025-10-10 08:35:37,608 - INFO - Main document: proc_v7_combined.typst
+2025-10-10 08:35:37,626 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2025-10-10 08:35:37,841 - INFO - Converted to PDF: proc_v7_combined.pdf
+2025-10-10 08:35:37,842 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2025-10-10 08:35:37,842 - INFO - PDF generation successful: 138389 bytes
+2025-10-10 08:35:37,842 - INFO - Adding metadata to PDF...
+2025-10-10 08:35:37,842 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 08:35:37,842 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 08:35:37,843 - INFO - Validated final PDF: releases\proc-v7.pdf (138389 bytes)
+2025-10-10 08:35:37,843 - INFO - Starting cleanup...
+2025-10-10 08:35:37,844 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 08:35:37,844 - INFO - SUCCESS! Release complete in 0.5s
+2025-10-10 08:35:37,844 - INFO - Final PDF: releases\proc-v7.pdf (138389 bytes)
+2025-10-10 08:35:37,844 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-10 08:36:13,837 - INFO - Successfully imported paper_converter
+2025-10-10 08:36:13,838 - INFO - Successfully imported pdf_assembler
+2025-10-10 08:36:14,625 - INFO - Input validation passed: proc_v7.md (75037 bytes)
+2025-10-10 08:36:14,627 - INFO - Backed up existing file: releases\proc-v7.pdf -> backups\proc-v7_20251010_083614.pdf
+2025-10-10 08:36:14,627 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 08:36:14,628 - INFO - Input: proc_v7.md
+2025-10-10 08:36:14,628 - INFO - Output: releases\proc-v7.pdf
+2025-10-10 08:36:14,628 - INFO - Format: typst
+2025-10-10 08:36:14,628 - INFO - Config: 0 validation errors
+2025-10-10 08:36:14,628 - INFO - Converting markdown to target format...
+2025-10-10 08:36:14,628 - INFO - Extracting citations...
+2025-10-10 08:36:14,633 - INFO - Found 9 citations
+2025-10-10 08:36:14,634 - INFO - Loading and processing references...
+2025-10-10 08:36:14,635 - INFO - Loaded 687 reference entries
+2025-10-10 08:36:14,636 - INFO - Generated 8 references (strategy: filter)
+2025-10-10 08:36:14,637 - INFO - Combining paper with filtered references...
+2025-10-10 08:36:14,657 - INFO - Combined file created: 72639 bytes
+2025-10-10 08:36:14,657 - INFO - Converting to typst format...
+2025-10-10 08:36:14,919 - INFO - Target file created: 76121 bytes
+2025-10-10 08:36:14,919 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2025-10-10 08:36:14,919 - INFO - Generating PDF with attachments...
+2025-10-10 08:36:14,919 - INFO - Main document: proc_v7_combined.typst
+2025-10-10 08:36:14,936 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2025-10-10 08:36:15,155 - INFO - Converted to PDF: proc_v7_combined.pdf
+2025-10-10 08:36:15,157 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2025-10-10 08:36:15,157 - INFO - PDF generation successful: 138476 bytes
+2025-10-10 08:36:15,157 - INFO - Adding metadata to PDF...
+2025-10-10 08:36:15,157 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 08:36:15,157 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 08:36:15,157 - INFO - Validated final PDF: releases\proc-v7.pdf (138476 bytes)
+2025-10-10 08:36:15,157 - INFO - Starting cleanup...
+2025-10-10 08:36:15,159 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 08:36:15,159 - INFO - SUCCESS! Release complete in 0.5s
+2025-10-10 08:36:15,159 - INFO - Final PDF: releases\proc-v7.pdf (138476 bytes)
+2025-10-10 08:36:15,159 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-10 08:37:06,156 - INFO - Successfully imported paper_converter
+2025-10-10 08:37:06,156 - INFO - Successfully imported pdf_assembler
+2025-10-10 08:37:06,942 - INFO - Input validation passed: proc_v7.md (75037 bytes)
+2025-10-10 08:37:06,944 - INFO - Backed up existing file: releases\proc-v7.pdf -> backups\proc-v7_20251010_083706.pdf
+2025-10-10 08:37:06,945 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 08:37:06,945 - INFO - Input: proc_v7.md
+2025-10-10 08:37:06,945 - INFO - Output: releases\proc-v7.pdf
+2025-10-10 08:37:06,945 - INFO - Format: typst
+2025-10-10 08:37:06,945 - INFO - Config: 0 validation errors
+2025-10-10 08:37:06,945 - INFO - Converting markdown to target format...
+2025-10-10 08:37:06,945 - INFO - Extracting citations...
+2025-10-10 08:37:06,955 - INFO - Found 9 citations
+2025-10-10 08:37:06,955 - INFO - Loading and processing references...
+2025-10-10 08:37:06,957 - INFO - Loaded 687 reference entries
+2025-10-10 08:37:06,960 - INFO - Generated 8 references (strategy: filter)
+2025-10-10 08:37:06,960 - INFO - Combining paper with filtered references...
+2025-10-10 08:37:06,975 - INFO - Combined file created: 72660 bytes
+2025-10-10 08:37:06,975 - INFO - Converting to typst format...
+2025-10-10 08:37:07,231 - INFO - Target file created: 76142 bytes
+2025-10-10 08:37:07,231 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2025-10-10 08:37:07,231 - INFO - Generating PDF with attachments...
+2025-10-10 08:37:07,231 - INFO - Main document: proc_v7_combined.typst
+2025-10-10 08:37:07,246 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2025-10-10 08:37:07,469 - INFO - Converted to PDF: proc_v7_combined.pdf
+2025-10-10 08:37:07,471 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2025-10-10 08:37:07,471 - INFO - PDF generation successful: 138483 bytes
+2025-10-10 08:37:07,471 - INFO - Adding metadata to PDF...
+2025-10-10 08:37:07,471 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 08:37:07,471 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 08:37:07,472 - INFO - Validated final PDF: releases\proc-v7.pdf (138483 bytes)
+2025-10-10 08:37:07,472 - INFO - Starting cleanup...
+2025-10-10 08:37:07,473 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 08:37:07,473 - INFO - SUCCESS! Release complete in 0.5s
+2025-10-10 08:37:07,474 - INFO - Final PDF: releases\proc-v7.pdf (138483 bytes)
+2025-10-10 08:37:07,474 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-10 08:38:30,328 - INFO - Successfully imported paper_converter
+2025-10-10 08:38:30,328 - INFO - Successfully imported pdf_assembler
+2025-10-10 08:38:31,271 - INFO - Input validation passed: proc_v7.md (75037 bytes)
+2025-10-10 08:38:31,273 - INFO - Backed up existing file: releases\proc-v7.pdf -> backups\proc-v7_20251010_083831.pdf
+2025-10-10 08:38:31,273 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 08:38:31,274 - INFO - Input: proc_v7.md
+2025-10-10 08:38:31,274 - INFO - Output: releases\proc-v7.pdf
+2025-10-10 08:38:31,274 - INFO - Format: typst
+2025-10-10 08:38:31,274 - INFO - Config: 0 validation errors
+2025-10-10 08:38:31,274 - INFO - Converting markdown to target format...
+2025-10-10 08:38:31,274 - INFO - Extracting citations...
+2025-10-10 08:38:31,281 - INFO - Found 9 citations
+2025-10-10 08:38:31,281 - INFO - Loading and processing references...
+2025-10-10 08:38:31,283 - INFO - Loaded 687 reference entries
+2025-10-10 08:38:31,285 - INFO - Generated 8 references (strategy: filter)
+2025-10-10 08:38:31,286 - INFO - Combining paper with filtered references...
+2025-10-10 08:38:31,305 - INFO - Combined file created: 72660 bytes
+2025-10-10 08:38:31,305 - INFO - Converting to typst format...
+2025-10-10 08:38:31,589 - INFO - Target file created: 76142 bytes
+2025-10-10 08:38:31,590 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2025-10-10 08:38:31,590 - INFO - Generating PDF with attachments...
+2025-10-10 08:38:31,590 - INFO - Main document: proc_v7_combined.typst
+2025-10-10 08:38:31,614 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2025-10-10 08:38:31,873 - INFO - Converted to PDF: proc_v7_combined.pdf
+2025-10-10 08:38:31,874 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2025-10-10 08:38:31,874 - INFO - PDF generation successful: 138480 bytes
+2025-10-10 08:38:31,875 - INFO - Adding metadata to PDF...
+2025-10-10 08:38:31,875 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 08:38:31,875 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 08:38:31,875 - INFO - Validated final PDF: releases\proc-v7.pdf (138480 bytes)
+2025-10-10 08:38:31,875 - INFO - Starting cleanup...
+2025-10-10 08:38:31,877 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 08:38:31,878 - INFO - SUCCESS! Release complete in 0.6s
+2025-10-10 08:38:31,878 - INFO - Final PDF: releases\proc-v7.pdf (138480 bytes)
+2025-10-10 08:38:31,878 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-10 08:40:20,339 - INFO - Successfully imported paper_converter
+2025-10-10 08:40:20,339 - INFO - Successfully imported pdf_assembler
+2025-10-10 08:40:21,279 - INFO - Input validation passed: proc_v7.md (75013 bytes)
+2025-10-10 08:40:21,281 - INFO - Backed up existing file: releases\proc-v7.pdf -> backups\proc-v7_20251010_084021.pdf
+2025-10-10 08:40:21,281 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 08:40:21,281 - INFO - Input: proc_v7.md
+2025-10-10 08:40:21,281 - INFO - Output: releases\proc-v7.pdf
+2025-10-10 08:40:21,281 - INFO - Format: typst
+2025-10-10 08:40:21,282 - INFO - Config: 0 validation errors
+2025-10-10 08:40:21,282 - INFO - Converting markdown to target format...
+2025-10-10 08:40:21,282 - INFO - Extracting citations...
+2025-10-10 08:40:21,288 - INFO - Found 9 citations
+2025-10-10 08:40:21,288 - INFO - Loading and processing references...
+2025-10-10 08:40:21,290 - INFO - Loaded 687 reference entries
+2025-10-10 08:40:21,292 - INFO - Generated 8 references (strategy: filter)
+2025-10-10 08:40:21,292 - INFO - Combining paper with filtered references...
+2025-10-10 08:40:21,311 - INFO - Combined file created: 72635 bytes
+2025-10-10 08:40:21,311 - INFO - Converting to typst format...
+2025-10-10 08:40:21,598 - INFO - Target file created: 76086 bytes
+2025-10-10 08:40:21,598 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2025-10-10 08:40:21,599 - INFO - Generating PDF with attachments...
+2025-10-10 08:40:21,599 - INFO - Main document: proc_v7_combined.typst
+2025-10-10 08:40:21,614 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2025-10-10 08:40:21,842 - INFO - Converted to PDF: proc_v7_combined.pdf
+2025-10-10 08:40:21,844 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2025-10-10 08:40:21,844 - INFO - PDF generation successful: 138335 bytes
+2025-10-10 08:40:21,844 - INFO - Adding metadata to PDF...
+2025-10-10 08:40:21,844 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 08:40:21,844 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 08:40:21,844 - INFO - Validated final PDF: releases\proc-v7.pdf (138335 bytes)
+2025-10-10 08:40:21,845 - INFO - Starting cleanup...
+2025-10-10 08:40:21,846 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 08:40:21,846 - INFO - SUCCESS! Release complete in 0.6s
+2025-10-10 08:40:21,846 - INFO - Final PDF: releases\proc-v7.pdf (138335 bytes)
+2025-10-10 08:40:21,846 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-10 10:01:10,952 - INFO - Successfully imported paper_converter
+2025-10-10 10:01:10,953 - INFO - Successfully imported pdf_assembler
+2025-10-10 10:01:13,349 - INFO - Input validation passed: final.md (128780 bytes)
+2025-10-10 10:01:13,351 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251010_100113.pdf
+2025-10-10 10:01:13,351 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 10:01:13,351 - INFO - Input: final.md
+2025-10-10 10:01:13,351 - INFO - Output: releases\final.pdf
+2025-10-10 10:01:13,351 - INFO - Format: typst
+2025-10-10 10:01:13,351 - INFO - Config: 0 validation errors
+2025-10-10 10:01:13,352 - INFO - Converting markdown to target format...
+2025-10-10 10:01:13,352 - INFO - Extracting citations...
+2025-10-10 10:01:13,364 - INFO - Found 50 citations
+2025-10-10 10:01:13,364 - INFO - Loading and processing references...
+2025-10-10 10:01:13,365 - INFO - Loaded 731 reference entries
+2025-10-10 10:01:13,375 - INFO - Generated 43 references (strategy: filter)
+2025-10-10 10:01:13,376 - WARNING - 4 citations not found in references.md
+2025-10-10 10:01:13,376 - INFO - Combining paper with filtered references...
+2025-10-10 10:01:13,402 - INFO - Combined file created: 124492 bytes
+2025-10-10 10:01:13,402 - INFO - Converting to typst format...
+2025-10-10 10:01:13,841 - INFO - Target file created: 130633 bytes
+2025-10-10 10:01:13,841 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-10 10:01:13,841 - INFO - Generating PDF with attachments...
+2025-10-10 10:01:13,841 - INFO - Main document: final_combined.typst
+2025-10-10 10:01:13,854 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-10 10:01:17,202 - INFO - Converted to PDF: final_combined.pdf
+2025-10-10 10:01:17,204 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-10 10:01:17,204 - INFO - PDF generation successful: 209424 bytes
+2025-10-10 10:01:17,204 - INFO - Adding metadata to PDF...
+2025-10-10 10:01:17,204 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 10:01:17,205 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 10:01:17,205 - INFO - Validated final PDF: releases\final.pdf (209424 bytes)
+2025-10-10 10:01:17,205 - INFO - Starting cleanup...
+2025-10-10 10:01:17,207 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 10:01:17,207 - INFO - SUCCESS! Release complete in 3.9s
+2025-10-10 10:01:17,207 - INFO - Final PDF: releases\final.pdf (209424 bytes)
+2025-10-10 10:01:17,208 - INFO - Release completed successfully: releases\final.pdf
+2025-10-10 10:05:12,574 - INFO - Successfully imported paper_converter
+2025-10-10 10:05:12,575 - INFO - Successfully imported pdf_assembler
+2025-10-10 10:05:13,361 - INFO - Input validation passed: final.md (128780 bytes)
+2025-10-10 10:05:13,364 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251010_100513.pdf
+2025-10-10 10:05:13,364 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 10:05:13,364 - INFO - Input: final.md
+2025-10-10 10:05:13,364 - INFO - Output: releases\final.pdf
+2025-10-10 10:05:13,364 - INFO - Format: typst
+2025-10-10 10:05:13,364 - INFO - Config: 0 validation errors
+2025-10-10 10:05:13,364 - INFO - Converting markdown to target format...
+2025-10-10 10:05:13,364 - INFO - Extracting citations...
+2025-10-10 10:05:13,374 - INFO - Found 50 citations
+2025-10-10 10:05:13,374 - INFO - Loading and processing references...
+2025-10-10 10:05:13,375 - INFO - Loaded 731 reference entries
+2025-10-10 10:05:13,383 - INFO - Generated 43 references (strategy: filter)
+2025-10-10 10:05:13,384 - WARNING - 4 citations not found in references.md
+2025-10-10 10:05:13,384 - INFO - Combining paper with filtered references...
+2025-10-10 10:05:13,408 - INFO - Combined file created: 124492 bytes
+2025-10-10 10:05:13,409 - INFO - Converting to typst format...
+2025-10-10 10:05:13,813 - INFO - Target file created: 130633 bytes
+2025-10-10 10:05:13,814 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-10 10:05:13,814 - INFO - Generating PDF with attachments...
+2025-10-10 10:05:13,814 - INFO - Main document: final_combined.typst
+2025-10-10 10:05:13,832 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-10 10:05:14,102 - INFO - Converted to PDF: final_combined.pdf
+2025-10-10 10:05:14,103 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-10 10:05:14,103 - INFO - PDF generation successful: 209424 bytes
+2025-10-10 10:05:14,103 - INFO - Adding metadata to PDF...
+2025-10-10 10:05:14,104 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 10:05:14,104 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 10:05:14,104 - INFO - Validated final PDF: releases\final.pdf (209424 bytes)
+2025-10-10 10:05:14,104 - INFO - Starting cleanup...
+2025-10-10 10:05:14,105 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 10:05:14,106 - INFO - SUCCESS! Release complete in 0.7s
+2025-10-10 10:05:14,106 - INFO - Final PDF: releases\final.pdf (209424 bytes)
+2025-10-10 10:05:14,106 - INFO - Release completed successfully: releases\final.pdf
+2025-10-10 10:06:53,123 - INFO - Successfully imported paper_converter
+2025-10-10 10:06:53,124 - INFO - Successfully imported pdf_assembler
+2025-10-10 10:06:53,995 - INFO - Input validation passed: final.md (128780 bytes)
+2025-10-10 10:06:53,997 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251010_100653.pdf
+2025-10-10 10:06:53,998 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 10:06:53,998 - INFO - Input: final.md
+2025-10-10 10:06:53,998 - INFO - Output: releases\final.pdf
+2025-10-10 10:06:53,998 - INFO - Format: typst
+2025-10-10 10:06:53,998 - INFO - Config: 0 validation errors
+2025-10-10 10:06:53,998 - INFO - Converting markdown to target format...
+2025-10-10 10:06:53,998 - INFO - Extracting citations...
+2025-10-10 10:06:54,007 - INFO - Found 46 citations
+2025-10-10 10:06:54,007 - INFO - Loading and processing references...
+2025-10-10 10:06:54,020 - INFO - Loaded 731 reference entries
+2025-10-10 10:06:54,027 - INFO - Generated 43 references (strategy: filter)
+2025-10-10 10:06:54,028 - INFO - Combining paper with filtered references...
+2025-10-10 10:06:54,051 - INFO - Combined file created: 124492 bytes
+2025-10-10 10:06:54,051 - INFO - Converting to typst format...
+2025-10-10 10:06:54,409 - INFO - Target file created: 130633 bytes
+2025-10-10 10:06:54,409 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-10 10:06:54,409 - INFO - Generating PDF with attachments...
+2025-10-10 10:06:54,409 - INFO - Main document: final_combined.typst
+2025-10-10 10:06:54,429 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-10 10:06:54,715 - INFO - Converted to PDF: final_combined.pdf
+2025-10-10 10:06:54,716 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-10 10:06:54,716 - INFO - PDF generation successful: 209424 bytes
+2025-10-10 10:06:54,717 - INFO - Adding metadata to PDF...
+2025-10-10 10:06:54,717 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 10:06:54,717 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 10:06:54,717 - INFO - Validated final PDF: releases\final.pdf (209424 bytes)
+2025-10-10 10:06:54,717 - INFO - Starting cleanup...
+2025-10-10 10:06:54,718 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 10:06:54,718 - INFO - SUCCESS! Release complete in 0.7s
+2025-10-10 10:06:54,719 - INFO - Final PDF: releases\final.pdf (209424 bytes)
+2025-10-10 10:06:54,719 - INFO - Release completed successfully: releases\final.pdf
+2025-10-10 10:08:07,188 - INFO - Successfully imported paper_converter
+2025-10-10 10:08:07,189 - INFO - Successfully imported pdf_assembler
+2025-10-10 10:08:07,953 - INFO - Input validation passed: proc_v7.md (75092 bytes)
+2025-10-10 10:08:07,955 - INFO - Backed up existing file: releases\proc-v7.pdf -> backups\proc-v7_20251010_100807.pdf
+2025-10-10 10:08:07,955 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 10:08:07,955 - INFO - Input: proc_v7.md
+2025-10-10 10:08:07,955 - INFO - Output: releases\proc-v7.pdf
+2025-10-10 10:08:07,955 - INFO - Format: typst
+2025-10-10 10:08:07,955 - INFO - Config: 0 validation errors
+2025-10-10 10:08:07,955 - INFO - Converting markdown to target format...
+2025-10-10 10:08:07,956 - INFO - Extracting citations...
+2025-10-10 10:08:07,961 - INFO - Found 7 citations
+2025-10-10 10:08:07,962 - INFO - Loading and processing references...
+2025-10-10 10:08:07,963 - INFO - Loaded 731 reference entries
+2025-10-10 10:08:07,965 - INFO - Generated 6 references (strategy: filter)
+2025-10-10 10:08:07,965 - INFO - Combining paper with filtered references...
+2025-10-10 10:08:07,985 - INFO - Combined file created: 72418 bytes
+2025-10-10 10:08:07,985 - INFO - Converting to typst format...
+2025-10-10 10:08:08,248 - INFO - Target file created: 75945 bytes
+2025-10-10 10:08:08,248 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2025-10-10 10:08:08,248 - INFO - Generating PDF with attachments...
+2025-10-10 10:08:08,248 - INFO - Main document: proc_v7_combined.typst
+2025-10-10 10:08:08,265 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2025-10-10 10:08:08,484 - INFO - Converted to PDF: proc_v7_combined.pdf
+2025-10-10 10:08:08,485 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2025-10-10 10:08:08,485 - INFO - PDF generation successful: 138414 bytes
+2025-10-10 10:08:08,485 - INFO - Adding metadata to PDF...
+2025-10-10 10:08:08,486 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 10:08:08,486 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 10:08:08,486 - INFO - Validated final PDF: releases\proc-v7.pdf (138414 bytes)
+2025-10-10 10:08:08,486 - INFO - Starting cleanup...
+2025-10-10 10:08:08,487 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 10:08:08,488 - INFO - SUCCESS! Release complete in 0.5s
+2025-10-10 10:08:08,488 - INFO - Final PDF: releases\proc-v7.pdf (138414 bytes)
+2025-10-10 10:08:08,488 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-10 10:10:22,327 - INFO - Successfully imported paper_converter
+2025-10-10 10:10:22,328 - INFO - Successfully imported pdf_assembler
+2025-10-10 10:10:23,188 - INFO - Input validation passed: proc_v7.md (75092 bytes)
+2025-10-10 10:10:23,190 - INFO - Backed up existing file: releases\proc-v7.pdf -> backups\proc-v7_20251010_101023.pdf
+2025-10-10 10:10:23,190 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 10:10:23,190 - INFO - Input: proc_v7.md
+2025-10-10 10:10:23,190 - INFO - Output: releases\proc-v7.pdf
+2025-10-10 10:10:23,190 - INFO - Format: typst
+2025-10-10 10:10:23,190 - INFO - Config: 0 validation errors
+2025-10-10 10:10:23,190 - INFO - Converting markdown to target format...
+2025-10-10 10:10:23,191 - INFO - Extracting citations...
+2025-10-10 10:10:23,198 - INFO - Found 17 citations
+2025-10-10 10:10:23,198 - INFO - Loading and processing references...
+2025-10-10 10:10:23,200 - INFO - Loaded 731 reference entries
+2025-10-10 10:10:23,208 - INFO - Generated 16 references (strategy: filter)
+2025-10-10 10:10:23,208 - INFO - Combining paper with filtered references...
+2025-10-10 10:10:23,226 - INFO - Combined file created: 73869 bytes
+2025-10-10 10:10:23,226 - INFO - Converting to typst format...
+2025-10-10 10:10:23,479 - INFO - Target file created: 77469 bytes
+2025-10-10 10:10:23,479 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2025-10-10 10:10:23,479 - INFO - Generating PDF with attachments...
+2025-10-10 10:10:23,480 - INFO - Main document: proc_v7_combined.typst
+2025-10-10 10:10:23,493 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2025-10-10 10:10:23,708 - INFO - Converted to PDF: proc_v7_combined.pdf
+2025-10-10 10:10:23,709 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2025-10-10 10:10:23,710 - INFO - PDF generation successful: 141439 bytes
+2025-10-10 10:10:23,710 - INFO - Adding metadata to PDF...
+2025-10-10 10:10:23,710 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 10:10:23,710 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 10:10:23,710 - INFO - Validated final PDF: releases\proc-v7.pdf (141439 bytes)
+2025-10-10 10:10:23,710 - INFO - Starting cleanup...
+2025-10-10 10:10:23,712 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 10:10:23,712 - INFO - SUCCESS! Release complete in 0.5s
+2025-10-10 10:10:23,712 - INFO - Final PDF: releases\proc-v7.pdf (141439 bytes)
+2025-10-10 10:10:23,712 - INFO - Release completed successfully: releases\proc-v7.pdf
+2025-10-10 10:10:56,193 - INFO - Successfully imported paper_converter
+2025-10-10 10:10:56,194 - INFO - Successfully imported pdf_assembler
+2025-10-10 10:10:56,983 - INFO - Input validation passed: final.md (128780 bytes)
+2025-10-10 10:10:56,985 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251010_101056.pdf
+2025-10-10 10:10:56,986 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 10:10:56,986 - INFO - Input: final.md
+2025-10-10 10:10:56,986 - INFO - Output: releases\final.pdf
+2025-10-10 10:10:56,986 - INFO - Format: typst
+2025-10-10 10:10:56,986 - INFO - Config: 0 validation errors
+2025-10-10 10:10:56,986 - INFO - Converting markdown to target format...
+2025-10-10 10:10:56,987 - INFO - Extracting citations...
+2025-10-10 10:10:57,000 - INFO - Found 67 citations
+2025-10-10 10:10:57,001 - INFO - Loading and processing references...
+2025-10-10 10:10:57,002 - INFO - Loaded 731 reference entries
+2025-10-10 10:10:57,013 - INFO - Generated 59 references (strategy: filter)
+2025-10-10 10:10:57,013 - INFO - Combining paper with filtered references...
+2025-10-10 10:10:57,036 - INFO - Combined file created: 126797 bytes
+2025-10-10 10:10:57,036 - INFO - Converting to typst format...
+2025-10-10 10:10:57,414 - INFO - Target file created: 133060 bytes
+2025-10-10 10:10:57,414 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-10 10:10:57,414 - INFO - Generating PDF with attachments...
+2025-10-10 10:10:57,414 - INFO - Main document: final_combined.typst
+2025-10-10 10:10:57,429 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-10 10:10:57,720 - INFO - Converted to PDF: final_combined.pdf
+2025-10-10 10:10:57,721 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-10 10:10:57,721 - INFO - PDF generation successful: 212998 bytes
+2025-10-10 10:10:57,721 - INFO - Adding metadata to PDF...
+2025-10-10 10:10:57,722 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 10:10:57,722 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 10:10:57,722 - INFO - Validated final PDF: releases\final.pdf (212998 bytes)
+2025-10-10 10:10:57,722 - INFO - Starting cleanup...
+2025-10-10 10:10:57,724 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 10:10:57,724 - INFO - SUCCESS! Release complete in 0.7s
+2025-10-10 10:10:57,724 - INFO - Final PDF: releases\final.pdf (212998 bytes)
+2025-10-10 10:10:57,724 - INFO - Release completed successfully: releases\final.pdf

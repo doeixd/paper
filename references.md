@@ -175,9 +175,6 @@ Staffel, Julia. 2021. "Rational Judgment and the Structure of Defeat." In *Reaso
 
 Krag, Erik. 2015. "Coherentism and Belief Fixation." *Logos & Episteme* 6, no. 2: 187–199. https://doi.org/10.5840/logos-episteme20156211. ISSN 2069-0533.
 
-
-
-
 Staffel, Julia. 2020. "Reasons Fundamentalism and Rational Uncertainty – Comments on Lord, The Importance of Being Rational." *Philosophy and Phenomenological Research* 100, no. 2: 463–468. https://doi.org/10.1111/phpr.12675. ISSN 0031-8205.
 
 Hills, Alison. 2020. "Moral Testimony: Transmission Versus Propagation." *Philosophy and Phenomenological Research* 101, no. 2: 399–414. https://doi.org/10.1111/phpr.12595. ISSN 0031-8205.
@@ -188,13 +185,17 @@ Pollock, John L. 1994. "Justification and Defeat." *Artificial Intelligence* 67,
 
 Pollock, John L. 1987. "Defeasible Reasoning." *Cognitive Science* 11, no. 4: 481–518. https://doi.org/10.1207/s15516709cog1104_4. ISSN 0364-0213.
 
-
-
 Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House. ISBN 978-1400067824.
 
 Tauriainen, Teemu. 2017. "Quine on Truth." *Philosophical Forum* 48(4): 397–416. https://doi.org/10.1111/phil.12170.
 
 Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä.
+
+Schwartz, Joshua. 2016. "Quine and the Problem of Truth." *Journal for the History of Analytical Philosophy* 4, no. 10. https://pdfs.semanticscholar.org/870d/383f9d0daf33b4a8d0fe8a4b79bd34e06e6c.pdf. ISSN 2159-0303.
+
+Tauriainen, Teemu. 2022. "Quine’s Conflicts with Truth Deflationism." *Asian Journal of Philosophy* 1 (46): 1–25. https://doi.org/10.1007/s44204-022-00047-x. ISSN 2731-6641.
+
+Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master’s thesis, University of Jyväskylä, Department of Social Sciences and Philosophy. https://urn.fi/URN:NBN:fi:jyu-201705312584.
 
 Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton, NJ: Princeton University Press. ISBN 978-0691116693.
 
@@ -214,9 +215,10 @@ Duflo, Esther. 2012. "Women Empowerment and Economic Development." *Journal of E
 
 Axelrod, Robert. 1984. *The Evolution of Cooperation*. New York: Basic Books. ISBN 978-0465021215.
 
-Bagnoli, Carla, ed. 2013. *Constructivism in Ethics*. Cambridge: Cambridge University Press. ISBN 978-1107019218. https://doi.org/10.1017/CBO9780511676314.
+Bagnoli, Carla, ed. 2013. *Constructivism in Ethics*. New York: Cambridge University Press. ISBN 9781107019218, 9781107540385.
 
-Bennett, Andrew, and Jeffrey T. Checkel, eds. 2014. *Process Tracing: From Metaphor to Analytic Tool*. Cambridge: Cambridge University Press. ISBN 978-1107044524. https://doi.org/10.1017/CBO9780511803123.
+Bennett, Andrew, and Jeffrey T. Checkel, eds. 2014. *Process Tracing: From Metaphor to Analytic Tool*. Cambridge: Cambridge University Press. https://doi.org/10.1017/CBO9781139858472. ISBN 9781139858472, 9781107042452.
+
 
 Conquest, Robert. 1990. *The Great Terror: A Reassessment*. Oxford: Oxford University Press. ISBN 978-0195055801.
 
@@ -241,3 +243,37 @@ Street, Sharon. 2006. "A Darwinian Dilemma for Realist Theories of Value." *Phil
 Streumer, Bart. 2025. "Quasi-Realism for Realists." *Philosophers' Imprint* 25(8): 1–17. https://doi.org/10.3998/phimp.4728.
 
 Tainter, Joseph A. 1988. *The Collapse of Complex Societies*. Cambridge: Cambridge University Press. ISBN 978-0521386739.
+
+Davidson, Donald. 1983. “A Coherence Theory of Truth and Knowledge.” In *Truth and Interpretation: Perspectives on the Philosophy of Donald Davidson*, edited by Ernest LePore, 137–158. Oxford: Clarendon Press. https://doi.org/10.1093/0198237537.003.0010.
+
+Zollman, Kevin J. S. 2010. “The Epistemic Benefit of Transient Diversity.” *Erkenntnis* 72 (1): 17–35. https://doi.org/10.1007/s10670-009-9216-4. 
+
+Quine, W. V. O. 1969. "Epistemology Naturalized." In *Ontological Relativity and Other Essays*, 69–90. New York: Columbia University Press. ISBN 978-0231032445.
+
+Popper, Karl R. 1972. *Objective Knowledge: An Evolutionary Approach*. Oxford: Clarendon Press. ISBN 978-0198750246.
+
+Davidson, Donald. 1986. "A Coherence Theory of Truth and Knowledge." In *Truth and Interpretation: Perspectives on the Philosophy of Donald Davidson*, edited by Ernest LePore, 307–319. Oxford: Blackwell. ISBN 978-0631158776.
+
+Kitcher, Philip. 1993. *The Advancement of Science: Science without Legend, Objectivity without Illusions*. New York: Oxford University Press. ISBN 978-0195096538.
+
+Longino, Helen E. 1990. *Science as Social Knowledge: Values and Objectivity in Scientific Inquiry*. Princeton, NJ: Princeton University Press. ISBN 978-0691020518.
+
+Cartwright, Nancy. 1989. *Nature’s Capacities and Their Measurement*. Oxford: Clarendon Press. ISBN 978-0198244776.
+
+Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press. ISBN 978-0199276196.
+
+Mitchell, Sandra D. 2009. *Unsimple Truths: Science, Complexity, and Policy*. Chicago: University of Chicago Press. ISBN 978-0226532622.
+
+O’Connor, Cailin, and James Owen Weatherall. 2019. *The Misinformation Age: How False Beliefs Spread*. New Haven, CT: Yale University Press. ISBN 978-0300234015.
+
+Henrich, Joseph. 2015. *The Secret of Our Success: How Culture Is Driving Human Evolution, Domesticating Our Species, and Making Us Smarter*. Princeton, NJ: Princeton University Press. ISBN 978-0691178431.
+
+Zollman, Kevin J. S. 2010. "The Epistemic Benefit of Transient Diversity." *Erkenntnis* 72 (1): 17–35. https://doi.org/10.1007/s10670-009-9216-4.
+
+Friston, Karl J. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11 (2): 127–138. https://doi.org/10.1038/nrn2787.
+
+O’Connor, Cailin, and James Owen Weatherall. 2019. *The Misinformation Age: How False Beliefs Spread*. New Haven, CT: Yale University Press. ISBN 978-0300234015.
+
+Strevens, Michael. 2020. *The Knowledge Machine: How Irrationality Created Modern Science*. New York: Liveright Publishing Corporation. ISBN 978-1631496429.
+
+O’Connor, Cailin, and James Owen Weatherall. 2019. *The Misinformation Age: How False Beliefs Spread*. New Haven, CT: Yale University Press. ISBN 978-0300234015.
