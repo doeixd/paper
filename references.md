@@ -4,6 +4,8 @@
 
 Acemoglu, Daron, and James A. Robinson. 2012. *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*. New York: Crown Business. ISBN 978-0307719225.
 
+Anderson, Elizabeth. 1996. "Knowledge, Human Interests, and Objectivity in Feminist Epistemology." *Philosophical Topics* 23(2): 27–58. https://doi.org/10.5840/philtopics199623214.
+
 Axelrod, Robert. 1984. *The Evolution of Cooperation*. New York: Basic Books. ISBN 978-0465021215.
 
 Ayvazov, Mahammad. 2025. "Toward a Phase Epistemology: Coherence, Response and the Vector of Mutual Uncertainty." *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.5250197.
@@ -26,6 +28,8 @@ Blackburn, Simon. 1993. *Essays in Quasi-Realism*. New York: Oxford University P
 
 BonJour, Laurence. 1985. *The Structure of Empirical Knowledge*. Cambridge, MA: Harvard University Press. ISBN 978-0674843813.
 
+Boyd, Richard. 1973. "Realism, Underdetermination, and a Causal Theory of Evidence." *Noûs* 7(1): 1–12. https://doi.org/10.2307/2214367.
+
 Boyd, Richard. 1988. "How to Be a Moral Realist." In *Essays on Moral Realism*, edited by Geoffrey Sayre-McCord, 181–228. Ithaca, NY: Cornell University Press.
 
 Bradie, Michael. 1986. "Assessing Evolutionary Epistemology." *Biology & Philosophy* 1(4): 401–59. https://doi.org/10.1007/BF00140962.
@@ -42,11 +46,15 @@ Cartwright, Nancy. 1989. *Nature’s Capacities and Their Measurement*. Oxford: 
 
 Cartwright, Nancy. 1999. *The Dappled World: A Study of the Boundaries of Science*. Cambridge: Cambridge University Press. ISBN 978-0521644112.
 
+Cartwright, Nancy, and Jeremy Hardie. 2012. *Evidence-Based Policy: A Practical Guide to Doing It Better*. Oxford: Oxford University Press.
+
 Christensen, David. 2007. "Epistemology of Disagreement: The Good News." *Philosophical Review* 116(2): 187–217. https://doi.org/10.1215/00318108-2006-035.
 
 Conquest, Robert. 1990. *The Great Terror: A Reassessment*. Oxford: Oxford University Press. ISBN 978-0195055801.
 
 Davidson, Donald. 1983. “A Coherence Theory of Truth and Knowledge.” In *Truth and Interpretation: Perspectives on the Philosophy of Donald Davidson*, edited by Ernest LePore, 137–158. Oxford: Clarendon Press. https://doi.org/10.1093/0198237537.003.0010.
+
+Davidson, Donald. 1986. "A Coherence Theory of Truth and Knowledge." In *Truth and Interpretation: Perspectives on the Philosophy of Donald Davidson*, edited by Ernest LePore, 307–19. Oxford: Blackwell.
 
 Dewey, John. 1929. *The Quest for Certainty: A Study of the Relation of Knowledge and Action*. New York: Minton, Balch & Company. https://doi.org/10.2307/2014669
 
@@ -63,6 +71,8 @@ Foot, Philippa. 2001. *Natural Goodness*. Oxford: Clarendon Press. ISBN 978-0198
 Fricker, Elizabeth. 2007. *The Epistemology of Testimony*. Oxford: Oxford University Press. ISBN 978-0199276011.
 
 Friston, Karl J. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11 (2): 127–138. https://doi.org/10.1038/nrn2787.
+
+Godfrey-Smith, Peter. 2003. *Theory and Reality: An Introduction to the Philosophy of Science*. Chicago: University of Chicago Press.
 
 Gadamer, Hans-Georg. 1975. *Truth and Method*. Translated by Joel Weinsheimer and Donald G. Marshall. New York: Continuum (originally Seabury Press; 2nd revised ed.). ISBN 978-0826400161.
 
@@ -124,6 +134,8 @@ Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalize
 
 Lakatos, Imre. 1970. "Falsification and the Methodology of Scientific Research Programmes." In *Criticism and the Growth of Knowledge*, edited by Imre Lakatos and Alan Musgrave, 91–196. Cambridge: Cambridge University Press.
 
+Luhmann, Niklas. 1984. *Social Systems*. Translated by John Bednarz Jr. and Dirk Baecker. Stanford, CA: Stanford University Press.
+
 Laudan, Larry. 1977. *Progress and Its Problems: Towards a Theory of Scientific Growth*. Berkeley: University of California Press. ISBN 978-0520037212.
 
 Lehrer, Keith. 1990. *Theory of Knowledge*. Boulder, CO: Westview Press. ISBN 978-0415054072.
@@ -140,7 +152,8 @@ Lynch, Michael P. 2009. *Truth as One and Many*. Oxford: Clarendon Press. ISBN 9
 
 Mackie, J. L. 1977. *Ethics: Inventing Right and Wrong*. London: Penguin Books. ISBN 978-0140135589.
 
-Mallapaty, Smriti. 2020. "AI models fail to capture the complexity of human language." *Nature* 588: 24. https://doi.org/10.1038/d41586-024-00824-z.
+Bolhuis, Johan J., Stephen Crain, Sandiway Fong, and Andrea Moro. 2024. "Three Reasons Why AI Doesn’t Model Human Language." *Nature* 627 (8004): 489. https://doi.org/10.1038/d41586-024-00824-z. ISSN 0028-0836.
+
 
 March, James G. 1978. "Bounded Rationality, Ambiguity, and the Engineering of Choice." *The Bell Journal of Economics* 9, no. 2: 587–608. https://doi.org/10.2307/3003600.
 
@@ -236,7 +249,7 @@ Street, Sharon. 2006. "A Darwinian Dilemma for Realist Theories of Value." *Phil
 
 Streumer, Bart. 2025. "Quasi-Realism for Realists." *Philosophers' Imprint* 25(8): 1–17. https://doi.org/10.3998/phimp.4728.
 
-Strevens, Michael. 2020. *The Knowledge Machine: How Irrationality Created Modern Science*. New York: Liveright Publishing Corporation. ISBN 978-1631496429.
+Strevens, Michael. 2020. *The Knowledge Machine: How Irrationality Created Modern Science*. New York: Liveright Publishing. ISBN 1631491377, 9781631491375.
 
 Tainter, Joseph A. 1988. *The Collapse of Complex Societies*. Cambridge: Cambridge University Press. ISBN 978-0521386739.
 
@@ -261,8 +274,6 @@ Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Sele
 Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind: An Inquiry into the Nature of Virtue and the Ethical Foundations of Knowledge*. Cambridge: Cambridge University Press. ISBN 978-0521570602. https://doi.org/10.1017/CBO9780511582233.
 
 Zollman, Kevin J. S. 2010. "The Epistemic Benefit of Transient Diversity." *Erkenntnis* 72: 17–35. https://doi.org/10.1007/s10670-009-9194-6. ISSN 0165-0106.
-
-Zollman, Kevin J. S. 2010. "The Epistemic Benefit of Transient Diversity." *Erkenntnis* 72 (1): 17–35. https://doi.org/10.1007/s10670-009-9216-4.
 
 Zollman, Kevin J. S. 2013. "Network Epistemology: Communication in Epistemic Communities." *Philosophy Compass* 8(1): 15–27. https://doi.org/10.1111/j.1747-9991.2012.00534.x.
 
