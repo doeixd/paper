@@ -991,7 +991,7 @@ Mesoudi, Alex. 2011. *Cultural Evolution: How Darwinian Theory Can Explain Human
 
 MLPerf Association. 2023. "MLPerf Training Results." https://mlcommons.org/benchmarks/training/.
 
-Moghaddam, Ataollah. 2013. "Quine, Naturalized Epistemology, and the Third Dogma of Empiricism." *Dialectica* 67(2): 153–72. https://doi.org/10.1111/1746-8361.12011.
+
 
 Newman, Mark. 2010. *Networks: An Introduction*. Oxford: Oxford University Press.
 

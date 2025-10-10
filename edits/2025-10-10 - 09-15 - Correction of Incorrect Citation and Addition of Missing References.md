@@ -19,6 +19,19 @@ Following Quine's engineering model (Sinclair 2007), epistemic norms function as
 
 **Rationale:** The original citation to Moghaddam (2013) was identified as a hallucination. The correct reference for discussion of Quine's naturalized epistemology and the third dogma of empiricism is Sinclair (2007).
 
+### 1b. Replaced Incorrect Citation in paper.md (Line 194)
+**Before:**
+```
+Following Quine, we treat normative epistemology as engineering (Moghaddam 2013). Epistemic norms are hypothetical imperatives—conditional recommendations for achieving specified ends.
+```
+
+**After:**
+```
+Following Quine, we treat normative epistemology as engineering (Sinclair 2007). Epistemic norms are hypothetical imperatives—conditional recommendations for achieving specified ends.
+```
+
+**Rationale:** Same hallucinated citation corrected in the alternative paper version.
+
 ### 2. Added Missing Citation in final.md (Appendix A, Line ~778)
 **Before:**
 ```
@@ -41,9 +54,10 @@ Moghaddam, Ataollah. 2013. "Quine, Naturalized Epistemology, and the Third Dogma
 **Rationale:** This reference was a hallucination and has been replaced with the correct Sinclair (2007) reference.
 
 ## Verification
-- Ran citation_extractor.py to confirm all citations in final.md are properly matched to references.md
+- Ran citation_extractor.py to confirm all citations in final.md, paper.md, and proc_v7.md are properly matched to references.md
 - Both Sinclair (2007) and Ingthorsson (2013) citations are correctly detected and matched
-- No unmatched citations remain
+- No problematic unmatched citations remain
+- proc_v7.md was verified to not contain the hallucinated citation
 
 ## Impact
 - Eliminates hallucinated reference that could undermine scholarly credibility

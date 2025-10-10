@@ -191,7 +191,7 @@ The framework for assessing systemic health detailed in Section 2 is not an arbi
 
 A standard objection to naturalistic epistemology is that descriptive accounts of how we *do* reason cannot ground prescriptive accounts of how we *ought* to reason (Kim 1988). Our framework answers this "normativity objection" by grounding its norms in structural conditions required for cumulative inquiry to succeed.
 
-Following Quine, we treat normative epistemology as engineering (Moghaddam 2013). Epistemic norms are hypothetical imperatives—conditional recommendations for achieving specified ends. Our framework makes this goal concrete: cultivating low-brittleness knowledge systems, aligning with recent discussions of epistemic risk (Pritchard 2016). Two arguments establish this norm's authority.
+Following Quine, we treat normative epistemology as engineering (Sinclair 2007). Epistemic norms are hypothetical imperatives—conditional recommendations for achieving specified ends. Our framework makes this goal concrete: cultivating low-brittleness knowledge systems, aligning with recent discussions of epistemic risk (Pritchard 2016). Two arguments establish this norm's authority.
 
 **Constitutive Argument**: Cumulative inquiry requires intergenerational stability. Any system that systematically undermines its own persistence cannot succeed at preserving and transmitting knowledge. Low brittleness is not an optional value but a structural constraint on cumulative inquiry itself. A system cannot be viable if it accumulates costs faster than it solves problems—it will exhaust resources or fragment before completing its project.
 
