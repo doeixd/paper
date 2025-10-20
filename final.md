@@ -16,7 +16,7 @@ This shift exemplifies the isolation objection to coherentism: a belief system m
 
 Emergent Pragmatic Coherentism extends a tradition beginning with Quine's (1969) naturalized epistemology, Davidson's (1986) coherence theory, Kitcher's (1993) evolutionary model, and Longino's (1990) social epistemology. EPC accepts this inheritance but makes a crucial departure: replacing static coherence with dynamic viability under constraint.
 
-Where Quine anchored epistemology in psychology and Davidson in internal coherence, EPC operationalizes Thagard's (1989) connectionist ECHO, modeling coherence as activation harmony in constraint networks and extending it with pragmatic inhibitory weights derived from brittleness. Unlike Zollman's (2007) abstract Bayesian graphs, which model topology effects on belief propagation, EPC injects real-world shocks (Tier 1 demographic collapse, institutional failure) to simulate paradigm fragility empirically.
+Where Quine anchored epistemology in psychology and Davidson in internal coherence, EPC operationalizes Thagard's (1989) connectionist ECHO. It models coherence as activation harmony in constraint networks and extends this with pragmatic inhibitory weights derived from brittleness. Unlike Zollman's (2007) abstract Bayesian graphs, which model topology effects on belief propagation, EPC injects real-world shocks to simulate paradigm fragility empirically. These shocks include Tier 1 demographic collapse and institutional failure.
 
 Rescher's (1973) systematicity criteria become quantified in our SBI(t) metrics, while Kitcher's (1993) credit-driven evolution gains failure diagnostics via the Negative Canon. Belief-formation and revision are adaptive processes that minimize brittleness under environmental feedback. Davidson's internal coherence becomes structural homeostasis maintained through pragmatic constraint. Kitcher's and Longino's insights into social calibration are operationalized: the intersubjective circulation of critique becomes a mechanism for reducing systemic fragility.
 
@@ -149,7 +149,7 @@ While this appears circular, it is the standard method of reflective equilibrium
 
 Brittleness assessment remains partially hermeneutic. The framework provides structured tools rather than mechanical algorithms, offering "structured fallibilism" rather than neutral assessment. This methodology provides pragmatic objectivity sufficient for comparative assessment and institutional evaluation.
 
-We frame the approach as epistemic risk management: a rising trend in a system's brittleness indicators does not prove its core claims are false, but strongly signals that it is becoming a higher-risk, degenerating research program, making continued investment increasingly irrational. Just as financial risk management uses multiple converging indicators to assess portfolio health, epistemic risk management uses brittleness metrics to assess the health of knowledge systems before their hidden fragility leads to catastrophic failure.
+We frame the approach as epistemic risk management. A rising trend in a system's brittleness indicators does not prove its core claims are false. Instead, it signals the system is becoming a higher-risk, degenerating research program, making continued investment increasingly irrational. Just as financial risk management uses multiple converging indicators to assess portfolio health, epistemic risk management uses brittleness metrics to assess knowledge systems before hidden fragility leads to catastrophic failure.
 
 ### 3.2 The Solution: A Tiered Diagnostic Framework
 
@@ -246,7 +246,9 @@ Charting failures reverse-engineers viability constraints, providing external di
 
 ### 4.2 The Apex Network: Ontological and Epistemic Status
 
-As the Negative Canon catalogs failures, pragmatic selection reveals the contours of the **Apex Network**: not a pre-existing blueprint, nor our current consensus, but the objective structure of maximally viable solutions all successful inquiry must approximate. The Apex maximizes Thagard's global constraint satisfaction under Zollman's optimal topology (sparse diversity bonus), emerging as Kitcher's adaptive peak on Rescher's systematicity landscape. This network is not a pre-existing metaphysical blueprint but a structural emergent, the asymptotic intersection of all low-brittleness models (Ladyman and Ross 2007). Its status resonates with the pragmatist ideal end of inquiry (Peirce 1878). Our Consensus Network is our fallible map of this objective structure, which is stabilized through adaptive feedback from mind-independent constraints.
+As the Negative Canon catalogs failures, pragmatic selection reveals the contours of the **Apex Network**. This is not a pre-existing blueprint, nor our current consensus, but the objective structure of maximally viable solutions all successful inquiry must approximate.
+
+The Apex maximizes Thagard's global constraint satisfaction under Zollman's optimal topology, emerging as Kitcher's adaptive peak on Rescher's systematicity landscape. It is not a pre-existing metaphysical blueprint but a structural emergent: the asymptotic intersection of all low-brittleness models (Ladyman and Ross 2007). Its status resonates with the pragmatist ideal end of inquiry (Peirce 1878). Our Consensus Network is our fallible map of this objective structure, stabilized through adaptive feedback from mind-independent constraints.
 
 The Apex Network's ontological status requires careful specification to avoid foundationalist overreach and relativist collapse. We propose understanding it as a "structural emergent": a real, objective pattern crystallizing from interaction between inquiry practices and environmental resistance. Consider how objective structural facts can emerge from seemingly subjective domains: while individual color preference is contingent, cross-cultural data shows striking convergence on blue. This pattern is not an accident but an emergent structural fact demanding naturalistic explanation.
 
@@ -331,17 +333,11 @@ We propose understanding the Apex Network's status through modal determinacy: gi
 
 Formally: In world W with constraint structure C, Apex Network A is necessarily determined such that ∀W'[C(W') = C(W) → A(W') = A(W)]. That is, across all possible worlds sharing our constraint structure, the same Apex Network would be determined regardless of historical path. But across worlds with different fundamental physics or logical systems, different Apex Networks would emerge.
 
-**The Logos Comparison: Naturalized Rational Order**
+**The Logos Comparison**
 
-The comparison to logos is both apt and importantly limited. Like logos, the Apex Network represents objective rational order determined by reality's constraints, a standard toward which inquiry converges. However, unlike classical logos, our framework involves no cosmic intelligence (necessity without purpose), no teleology (viable structures persist; brittle ones collapse), no transcendence (immanent pattern, not separate realm), and radical contingency on physical law (different constants would determine different Apex Networks).
+The comparison to logos is both apt and importantly limited. Like logos, the Apex Network represents objective rational order determined by reality's constraints. However, unlike classical logos, our framework involves no cosmic intelligence, no teleology, no transcendence, and radical contingency on physical law. Ours is naturalized logos: rational order without cosmic reason, objective structure without divine blueprint.
 
-If one insists on invoking logos, we accept with this specification: ours is naturalized, contingent, non-purposive logos. Rational order without cosmic reason. Objective structure without divine blueprint. The Apex Network is logos with theology removed, leaving only mathematical and physical necessity that minds-like-ours discover through systematic elimination of unviable alternatives.
-
-**Implications**
-
-A coherent system detached from reality is impossible not because we have smuggled in metaphysical realism, but because the constraints generating pragmatic pushback are themselves features of the actual world. Our fallibilism remains intact. We never achieve certainty that our map matches the territory, but the territory itself possesses an objective structure determined by the constraints that constitute it.
-
-Discovery is painstaking, error-driven triangulation toward the configuration space that physical, biological, and logical necessity jointly determine. We are discovering a pre-determined implication, not a pre-existing thing. The distinction is subtle but preserves naturalism while grounding genuine objectivity in the constraint topology of the actual world.
+The territory itself possesses an objective structure determined by the constraints that constitute it. We discover a pre-determined implication, not a pre-existing thing. This subtle distinction preserves naturalism while grounding genuine objectivity in the constraint topology of the actual world.
 
 
 ### 4.3 A Three-Level Framework for Truth
@@ -717,11 +713,11 @@ Philosophical honesty requires acknowledging not just what a framework can do, b
 
 #### 7.3.2 Learning Through Catastrophic Failure
 
-**The Limitation:** We learn moral truths primarily through catastrophic failure. The Negative Canon is written in blood. We could not know slavery's wrongness without the historical experiment generating centuries of suffering. Future moral knowledge will require future suffering to generate data.
+**The Limitation:** We learn moral truths primarily through catastrophic failure. The Negative Canon is written in blood. Future moral knowledge will require future suffering to generate data.
 
-**Why We Accept This:** Empirical knowledge in complex domains requires costly data. Medicine, engineering, and social systems all required catastrophic failures before developing safety mechanisms. Complex system behavior cannot be fully predicted from first principles alone.
+**Why We Accept This:** Empirical knowledge in complex domains requires costly data. Medicine, engineering, and social systems all required catastrophic failures before developing safety mechanisms.
 
-**What This Implies:** Moral learning is necessarily slow; each generation errs; we should be epistemically humble about current certainties yet confident in Negative Canon entries (exhaustively tested failures).
+**Implication:** Moral learning is necessarily slow. We should be epistemically humble about current certainties yet confident in Negative Canon entries.
 
 #### 7.3.3 Floor Not Ceiling
 
@@ -733,20 +729,11 @@ Philosophical honesty requires acknowledging not just what a framework can do, b
 
 #### 7.3.4 Expert Dependence and Democratic Legitimacy
 
-**The Limitation:** Accurate brittleness assessment requires technical expertise in historical analysis, statistics, comparative methods, systems theory. This creates epistemic inequality: not everyone has equal access to moral knowledge.
+**The Limitation:** Accurate brittleness assessment requires technical expertise in historical analysis, statistics, comparative methods, and systems theory. This creates epistemic inequality.
 
-**Why We Accept This:** Similar to scientific expertise generally. Complex systems require specialized knowledge to evaluate. Nuclear safety, climate science, and epidemiology all face the same challenge.
+**Why We Accept This:** Similar to scientific expertise generally. Complex systems require specialized knowledge to evaluate.
 
-**The Democratic Challenge:** If moral truth requires expert assessment, how do we maintain democratic legitimacy?
-
-**Partial Mitigation Strategies:**
-- Public accessibility of evidence (data transparency)
-- Distributed expertise (community-based participatory research)
-- Standpoint epistemology (marginalized groups as expert witnesses to brittleness)
-- Institutional design (independent assessment boards, adversarial review)
-- Education (improving general systems literacy)
-
-**Honest Acknowledgment:** These strategies reduce but do not eliminate the problem. Some epistemic inequality is unavoidable when evaluating complex systems.
+**Mitigation:** Data transparency, distributed expertise, standpoint epistemology (marginalized groups as expert witnesses to brittleness), institutional design (independent assessment boards), and education can reduce but not eliminate this challenge.
 
 #### 7.3.5 Discovery Requires Empirical Testing
 
@@ -758,58 +745,15 @@ Philosophical honesty requires acknowledging not just what a framework can do, b
 
 #### 7.3.6 The Viable Evil Possibility
 
-**The Limitation:** If a deeply repugnant system achieved genuinely low brittleness (minimal coercive costs, stable demographics, innovation, adaptation), the framework would have to acknowledge it as viable, though not necessarily just by other standards.
+**The Limitation:** If a deeply repugnant system achieved genuinely low brittleness, the framework would have to acknowledge it as viable, though not necessarily just by other standards.
 
-**Example:** Hypothetical perfectly internalized caste system where:
-- Lower castes genuinely accept their position (minimal coercion)
-- No measurable demographic stress
-- Stable innovation rates
-- Low enforcement costs
-- But intuitively morally repugnant
+**Why We Accept This:** Intellectual honesty. The framework maps pragmatic viability, not all moral dimensions.
 
-**Why We Accept This:** Intellectual honesty. The framework is incomplete—it maps pragmatic viability, not all moral dimensions. If such a system existed (we doubt it does—internalization itself has costs), it would fall in Pluralist Frontier, not Negative Canon.
-
-**Empirical Bet:** We predict that such systems are not merely repugnant but are, in fact, inherently brittle. Critics might point to the apparent long-term stability of systems like the Ottoman Empire's devşirme system or historical caste systems in India as counterexamples. However, our framework predicts, and historical analysis confirms, that such systems exhibit high underlying brittleness masked by coercive power. Their apparent stability was purchased at the cost of massive **Coercive Overheads (C(t))**—such as the resources spent on enforcing purity laws, suppressing revolts, and managing internal dissent—and they consistently demonstrated innovation lags and fragility in the face of external shocks, confirming their position on the landscape of non-viability (cf. Acemoglu & Robinson 2012; Turchin 2003). True internalization without coercion is rare and resource-intensive, while oppression reliably generates hidden costs that emerge under stress.
-
-**But:** If empirics proved otherwise, we would acknowledge the framework's incompleteness rather than deny evidence.
+**Empirical Bet:** We predict such systems are inherently brittle. Historical cases like the Ottoman devşirme system or Indian caste systems exhibited high coercive overheads, innovation lags, and fragility under external shocks (Acemoglu & Robinson 2012; Turchin 2003). True internalization without coercion is rare and resource-intensive. If empirics proved otherwise, we would acknowledge the framework's incompleteness rather than deny evidence.
 
 #### 7.3.7 What We Claim
 
-These limitations do not undermine the framework's contribution—they define appropriate scope. EPC excels at:
-
-**Strong Claims:**
-- Identifying catastrophic systemic failures
-- Explaining moral progress as empirically detectable debugging
-- Grounding realism naturalistically without non-natural properties
-- Providing empirical tools for institutional evaluation
-- Offering prospective guidance through constraint analysis
-- Unifying descriptive and normative epistemology
-
-**Modest Claims:**
-- Does not provide complete ethics
-- Does not solve all normative disagreements
-- Does not eliminate need for judgment
-- Does not achieve view-from-nowhere objectivity
-- Does not offer categorical imperatives independent of systemic goals
-
-**The Value Proposition:** A powerful but limited diagnostic tool for systemic health. Use it for what it does well. Supplement with other resources for what it cannot address. Do not expect a complete theory of human flourishing—expect robust tools for avoiding catastrophic failure and identifying progressive change.
-
-This honest accounting strengthens rather than weakens the framework's philosophical contribution.
-
-#### 7.3.8 Steelmanning Objections and Clarifying Scope
-
-To preempt misunderstandings and demonstrate the framework's resilience, we steelman potential objections and clarify what EPC is not.
-
-**What This Theory is NOT:**
-
-- **Not a Complete Ethics:** EPC maps necessary constraints (the floor) but not sufficient conditions for flourishing. It identifies catastrophic failures but leaves space for legitimate pluralism in values above the viability threshold.
-- **Not a Foundationalist Metaphysics:** It avoids positing non-natural properties or Platonic forms. Objectivity emerges from pragmatic selection, not metaphysical bedrock.
-- **Not Deterministic Prediction:** Claims are probabilistic; brittleness increases vulnerability but does not guarantee collapse.
-- **Not a Defense of Power:** Power can mask brittleness temporarily, but coercive costs are measurable indicators of non-viability.
-- **Not Relativist:** While species-specific, it defends robust objectivity within human constraints via convergent evidence.
-- **Not Anti-Realist:** It grounds fallibilist realism in the emergent Apex Network, discovered through elimination.
-
-**Steelmanned Defense of the Core:** The "Drive to Endure" is not a smuggled value but a procedural-transcendental filter. Any project of cumulative justification presupposes persistence as a constitutive condition. Systems failing this filter (e.g., apocalyptic cults) cannot sustain inquiry. The "ought" emerges instrumentally: favor low-SBI norms to minimize systemic costs like instability and suffering, providing evidence-based strategic advice for rational agents.
+These limitations define appropriate scope. EPC excels at identifying catastrophic systemic failures, grounding realism naturalistically, providing empirical tools for institutional evaluation, and offering prospective guidance through constraint analysis. It does not provide complete ethics, solve all normative disagreements, or achieve view-from-nowhere objectivity. The value proposition: a powerful but limited diagnostic tool for systemic health.
 
 ## 8. Conclusion
 
