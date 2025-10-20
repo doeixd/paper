@@ -988,6 +988,19 @@ The Ptolemaic case provides a template: with systematic bibliometric coding, we 
 
 Once parameters are empirically estimated, the formulation enables probabilistic predictions: "System X has P% chance of crisis within Y years given current trajectory." This transforms brittleness from retrospective diagnosis to prospective risk assessment. The framework's scientific credibility depends on executing this program and comparing predictions to outcomes.
 
+### C.4 Conceptualizing an Empirical Inquiry
+
+The existence of these distinct functional forms suggests a path for future empirical inquiry. A historian or sociologist of science could:
+1. Compile qualitative brittleness indicators for a set of historical knowledge systems.
+2. Code their outcomes (e.g., persistence, revision, collapse).
+3. Assess which of the conceptual models (multiplicative, additive, or threshold) best describes the observed historical patterns.
+
+Such a program would not be about fitting precise numerical data but about determining which conceptual dynamic—compounding interaction, linear addition, or tipping points—best accounts for the historical evolution of knowledge. The framework's value lies in its ability to generate such guiding questions for historical and scientific investigation.
+
+### C.5 The Role of Formalism in Philosophical Diagnosis
+
+Once a model like this were empirically calibrated, it would not function as a predictive algorithm but as a diagnostic tool. Its utility would be to translate complex historical dynamics into a structured formal language, allowing for more precise comparisons between the health of different knowledge systems. For example, it could help answer questions like: "Is system X accumulating costs primarily through conceptual debt (P(t)), or is its fragility masked by coercive power (C(t))?" This transforms brittleness from a retrospective metaphor into a conceptually structured diagnostic, which is the primary philosophical payoff of the formal exercise.
+
 ## References
 
 Acemoglu, Daron, and James A. Robinson. 2012. *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*. New York: Crown Business. ISBN 9780307719225.
