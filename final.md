@@ -219,11 +219,13 @@ Spending functions as coercive overhead when: increasing allocation correlates w
 
 Spending functions as productive investment when: increasing allocation correlates with falling First-Order Costs; returns are constant or increasing; it generates positive spillovers to other domains.
 
-**Concrete Example: Criminal Justice Spending**
+**Conceptual Illustration: Distinguishing Investment Patterns**
 
-Society A doubles police budget (year 1: 2% GDP → year 10: 4% GDP): Crime rates -40%, incarceration -20%, homicide -60%, community trust +35%, recidivism -25%. **Diagnosis:** Productive investment. Rising S correlates with falling First-Order Costs across multiple independent indicators.
+Consider two societies that both substantially increase spending on public order over a decade-long period:
 
-Society B doubles police budget (year 1: 2% GDP → year 10: 4% GDP): Crime rates +5%, incarceration +300%, homicide -10%, community trust -50%, social instability +60%, by year 10 requires 6% GDP to maintain control. **Diagnosis:** Coercive overhead. Rising S correlates with rising total systemic costs despite some metrics improving. The system exhibits diminishing returns and requires accelerating expenditure.
+**Society A (Productive Pattern):** The increased spending correlates with broad-based improvements across multiple independent indicators. Crime rates, incarceration rates, and violence all decline substantially. Community trust and cooperation with authorities increase. The system exhibits increasing or constant returns—the same level of spending maintains improving outcomes. **Diagnosis:** Productive investment. Rising allocation to public order (S) correlates with falling First-Order Costs across multiple independent indicators.
+
+**Society B (Coercive Pattern):** The increased spending correlates with mixed or worsening outcomes. While some metrics may show marginal improvement, others deteriorate significantly. Incarceration rates escalate dramatically while crime rates remain stable or increase. Community trust erodes, and social instability rises. The system exhibits diminishing returns—ever-larger expenditures are required simply to maintain baseline control. **Diagnosis:** Coercive overhead. Rising S correlates with rising total systemic costs despite some surface improvements. The spending functions as a secondary cost to suppress symptoms of a brittle primary system.
 
 **Why This Isn't Circular:** Classification emerges from empirical correlation patterns, not a priori definitions. We don't ask "what is policing's essential nature?" but "what measurable effects does this spending pattern have on systemic costs over time?" Robustness comes from convergent evidence. A single metric can be ambiguous, but when demographic indicators, economic output, innovation rates, stability metrics, and coercive spending ratios all move in the same direction, diagnosis becomes robust to interpretive variation. This is standard scientific methodology: identifying causal patterns through correlation across independent measurement streams, not through defining essences.
 
@@ -686,7 +688,7 @@ Plantinga is right that evolution per se does not guarantee reliability. But evo
 
 EPC synthesizes four computational/systematic frameworks, advancing each through externalist brittleness diagnostics.
 
-**Thagard's ECHO (1989, 2000):** Models explanatory coherence via 7 principles (symmetry, explanation, contradiction, etc.) as constraint satisfaction in connectionist networks. Activation spreads through excitatory/inhibitory weights until harmony maximizes. EPC extends this: Standing Predicates = high-activation nodes; propagation = ECHO dynamics. **Advance:** Brittleness adds dynamic weights—P(t) patches create inhibitory decay (-0.2 per ad-hoc fix), C(t) suppresses nodes via coercion. ECHO operates internally; EPC adds pragmatic pushback as external discipline, solving Thagard's isolation problem.
+**Thagard's ECHO (1989, 2000):** Models explanatory coherence via 7 principles (symmetry, explanation, contradiction, etc.) as constraint satisfaction in connectionist networks. Activation spreads through excitatory/inhibitory weights until harmony maximizes. EPC extends this: Standing Predicates = high-activation nodes; propagation = ECHO dynamics. **Advance:** Brittleness adds dynamic weights derived from pragmatic costs. Accumulating ad-hoc patches (rising P(t)) would create progressively stronger inhibitory effects on the core propositions they protect, while coercive overheads (rising C(t)) would suppress dissenting nodes. ECHO operates internally; EPC adds pragmatic pushback as external discipline, solving Thagard's isolation problem.
 
 **Zollman's Epistemic Graphs (2007, 2010):** Shows topology effects—sparse cycles preserve diversity (reliability bonus), complete graphs risk premature lock-in (speed/reliability trade-off). EPC's Pluralist Frontier operationalizes transient diversity. **Advance:** Zollman models abstract Bayesian updating; EPC injects historical shocks (Tier 1 demographic collapse, Negative Canon failures) enabling empirical calibration via Seshat-style databases.
 
@@ -710,9 +712,9 @@ To address the hindsight objection—that we can only diagnose brittleness after
 
 ### 7.2 A Falsifiable Research Program
 
-The framework grounds a concrete empirical research program with a falsifiable core hypothesis: *networks with high or rising measured brittleness carry statistically higher collapse probability when facing comparable external shocks.* Historical data on collapsed systems, such as Roman aqueduct failures due to brittleness in hydraulic engineering (Hodge 1992; Turchin 2003), support this link.² The specific metrics and dynamic equations underlying this research program are detailed in the Mathematical Appendix.
+The framework grounds a concrete empirical research program with a falsifiable core claim: *there should be a strong, observable correlation between a system's measured brittleness and its probability of collapse or major revision when faced with external shocks.* Historical patterns in collapsed systems, such as Roman aqueduct failures due to accumulating brittleness in hydraulic engineering (Hodge 1992; Turchin 2003), are consistent with this expectation.² The specific metrics and dynamic equations underlying this research program are detailed in the Mathematical Appendix.
 
-**Methodology**: (1) Operationalize brittleness through quantifiable proxies (security/R&D budget ratios, auxiliary hypothesis rates in literature). (2) Conduct comparative historical analysis using databases like Seshat (a database of historical societies) to compare outcomes across systems with different pre-existing brittleness facing similar shocks, controlling for contingent events. The precise methodology for this research program, including protocols for operationalizing P(t) and C(t) with inter-rater reliability checks, is detailed in Appendix B. A pilot study computed brittleness scores for competing COVID-19 models (2020–2022): complex epidemiological models with high M(t) (e.g., parameter-heavy SEIR variants) showed rising brittleness through predictive failures (e.g., overestimating herd immunity timelines), while simpler models with lower M(t) maintained better accuracy (Roda et al. 2020). This demonstrates predictive utility, with high-brittleness models requiring more revisions.
+**Methodology**: (1) Operationalize brittleness through observable proxies (resource allocation patterns, auxiliary hypothesis rates in literature). (2) Conduct comparative historical analysis using databases like Seshat (a database of historical societies) to compare outcomes across systems with different pre-existing brittleness facing similar shocks, controlling for contingent events. The conceptual approach to operationalization, including how one might develop protocols for assessing P(t) and C(t), is sketched in Appendix B. As a conceptual illustration, consider competing COVID-19 models (2020–2022): one might analyze whether highly complex epidemiological models with many parameters showed signs of rising brittleness through persistent predictive failures and required constant revision, while simpler models maintained better predictive alignment over time (Roda et al. 2020). Such analysis would illustrate the framework's diagnostic potential.
 
 ### 7.3 Principled Limitations and Scope
 
@@ -828,31 +830,33 @@ The framework for assessing brittleness is general, but its application reveals 
 
 * **Normative Brittleness:** This is the modality of failure resulting from a misalignment with the emergent normative structure of the world. It is found in socio-political and ethical networks whose primary function is to organize cooperative human action. The specific mechanism for this failure can be precisely articulated through a theory of emergent moral properties. Drawing on Baysan's (2025) account of emergent moral non-naturalism, we can understand objective moral properties as conferring noncausal powers (Ingthorsson 2013). While a causal power manifests as a physical change, a noncausal power manifests as the obtaining of a normative fact. For example, the property of being unjust confers on an institution the noncausal power to justify resentment and require condemnation. A network's alignment with this structure is not optional. A society predicated on slavery, for instance, exhibits profound normative brittleness because it must expend immense real-world energy to counteract these noncausal powers. The immense coercive overheads required to maintain the institution are the direct, measurable, and causal signature of a system struggling to suppress the real normative fact that its core practices justify resistance. This account requires that we move beyond what Bennett-Hunter (2015) calls the 'causalist assumption'—the dictum that 'to be real is to have causal power'—and recognize that a causal vocabulary may not be appropriate for every explanatory domain (El-Hani and Pihlström 2002). This macro-level diagnosis finds a plausible correlate in agent-level moral psychology, where moral intuitions can be understood as evolved detectors for such "response-invoking" features of our environment (Rottschaefer 2012) that signal potential systemic costs if ignored, a direct experience of what Peter (2024) calls the "demands of fittingness."
 
-## Appendix B: Operationalizing Brittleness Metrics—A Worked Example
+## Appendix B: A Conceptual Illustration of Operationalization
 
-To bolster the falsifiability claim made in Section 7.1, we provide a concrete methodology for operationalizing brittleness metrics. This appendix demonstrates how P(t) and C(t) could be measured in a sample study, including inter-rater reliability protocols and historical applications.
+To demonstrate that the framework is not merely metaphorical, this appendix offers a conceptual sketch of how one might approach the operationalization of brittleness metrics for a historical research program. This is an illustrative outline, not an empirical study.
 
-### B.1 Operationalization of P(t): Conceptual Debt
+### B.1 Conceptualizing P(t): Conceptual Debt
 
-P(t) measures the ratio of anomaly-resolution publications to novel-prediction publications over a given interval. To operationalize, select a sample of 100 papers from two competing paradigms (e.g., early quantum mechanics vs. classical field theory, 1900–1930). Coders classify each paper as either "anomaly-resolution" (addressing known discrepancies with existing theory) or "prediction-generation" (proposing novel, testable predictions). For quantum mechanics, papers on photoelectric effect explanations count as anomaly-resolution; those predicting electron spin as prediction-generation.
+P(t) measures the accumulation of conceptual debt. In a domain like early 20th-century physics, one could operationalize this by analyzing the research literature of competing paradigms (e.g., classical ether theories vs. early relativity).
 
-**Inter-rater reliability:** Three independent coders achieve Krippendorff's α = 0.85 for classification (α > 0.8 indicates excellent agreement). Disagreements resolved by consensus.
+**Methodology:** A researcher would classify publications over a given period. Papers primarily aimed at resolving known anomalies or patching inconsistencies in the existing theory would count towards rising P(t). In contrast, papers proposing novel, surprising, and subsequently confirmed predictions would signal a progressive, low-brittleness program.
 
-**Baseline norms:** In progressive programs, P(t) < 0.5 (more predictions than patches); in degenerating ones, P(t) > 0.7.
+**Qualitative Signal:** A degenerating program would show a clear trend where the proportion of "defensive" or "anomaly-resolving" publications grows, while a progressive program would consistently generate more novel predictions than it does patches.
 
-### B.2 Operationalization of C(t): Coercive Overhead
+### B.2 Conceptualizing C(t): Coercive Overhead
 
-C(t) measures the ratio of security/suppression budget to productive R&D budget. In historical cases, for 16th-century Europe, C(t) proxies as Inquisition expenditures (suppression) divided by scholastic R&D (e.g., university funding for natural philosophy). Data from historical records (e.g., Inquisition archives) yield C(t) ≈ 0.15 for 1550–1600, rising to 0.25 by 1650, correlating with paradigm brittleness.
+C(t) measures the resources a system expends on suppressing dissent and enforcing compliance.
 
-In modern contexts, for authoritarian regimes suppressing dissent, C(t) includes surveillance budgets relative to GDP.
+**Methodology:** For a historical case like the conflict between the Galilean and Ptolemaic systems, a researcher could proxy C(t) by examining institutional resource allocation. One could qualitatively assess the time, funds, and institutional energy the Church and allied universities dedicated to suppressing heliocentric views (e.g., through trials, censorship, and curriculum mandates) versus the resources allocated to productive research within the geocentric paradigm.
 
-### B.3 Pre-Registered Study Design
+**Qualitative Signal:** A high or rising C(t) is indicated when a system must dedicate significant and increasing resources to maintaining consensus, signaling that its core tenets are generating costly dissent that cannot be resolved through evidence or argument alone.
 
-We propose a pre-registered study: Analyze 50 historical knowledge systems (e.g., paradigms in physics, economics) facing exogenous shocks (e.g., experimental anomalies, economic crises). Measure pre-shock brittleness scores (composite of P(t), C(t), M(t), R(t)). Predict collapse/restructuring within 20 years if composite score > 0.7. Hypothesis: Correlation r > 0.6 (p < 0.05). Data from bibliometric databases (Web of Science) and historical archives. This design allows falsification if no correlation emerges.
+### B.3 The Logic of a Research Program
+
+A full empirical research program would involve applying such qualitative coding across numerous historical cases. The core philosophical claim is that a strong positive correlation would emerge: systems exhibiting high and rising P(t) and C(t) scores would consistently prove more fragile when faced with external shocks (e.g., novel empirical discoveries, political upheaval) than systems with low scores. The goal is not to create a predictive algorithm, but to demonstrate that brittleness is a real, historically observable property that has consistent pragmatic consequences.
 
 ## Appendix C: A Mathematical Model of Epistemic Viability
 
-This appendix formalizes the core concepts in EPC to demonstrate the theory's formalizability and ground a future empirical research program. The functional forms and parameter values presented here require empirical validation through historical analysis.
+This appendix provides a provisional formalization of core EPC concepts to illustrate the framework's logical structure and demonstrate that it is, in principle, formalizable. The specific functional forms, parameter values, and mathematical relationships presented here are illustrative candidates for future empirical research, not empirically validated claims. The paper's philosophical integrity remains independent of any particular mathematical formulation. This appendix serves to show that the framework's conceptual architecture can be given formal expression, not to present a completed empirical model.
 
 ### C.1 Set-Theoretic Foundation
 
@@ -882,7 +886,7 @@ A = ∩{W_k | V(W_k) = 1} over all possible contexts and times
 
 **Epistemic Status:** *A is unknowable directly*; it is inferred by mapping failures catalogued in the **Negative Canon** (the historical record of collapsed, high-SBI systems).
 
-**Formal ECHO Extension:** This formalizes Thagard's ECHO extension: net_j = Σ w_{ij} a_i - β·brittleness_j, where w = +0.1 (explanatory coherence, Principle 1), -0.2 (contradiction, Principle 5), and β derived from P(t), C(t) proxies. Zollman's cycle topology models Pluralist Frontier; complete graphs risk brittleness lock-in.
+**Formal ECHO Extension:** This formalizes Thagard's ECHO extension: net_j = Σ w_{ij} a_i - β·brittleness_j, where w represents positive weights for explanatory coherence (Principle 1) and negative weights for contradiction (Principle 5), with β derived from P(t), C(t) proxies. The specific weight magnitudes would require empirical calibration. Zollman's cycle topology models Pluralist Frontier; complete graphs risk brittleness lock-in.
 
 ### C.2 The Systemic Brittleness Index
 
