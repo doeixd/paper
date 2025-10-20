@@ -47,6 +47,20 @@ Be careful to always maintain existing qualifications / defenses, important deta
 - Would philosophy reviewers find the arguments compelling and well-defended?
 - Is every claim as strong as the evidence allows without overreach?
 - Does the writing demonstrate mastery while remaining accessible?
+*   **Crucially, does this revision make the core argument *more* resilient to criticism, or does it open up new, unnecessary lines of attack?**
+
+1.  **No Pseudo-Quantification:** Do not assign specific numbers, percentages, or calculated indices to historical or hypothetical examples (e.g., "P(t) ≈ 5.7" or "a ~38-fold increase"). Such claims create an illusion of precision while introducing empirical fragility. The argument becomes about the number, not the idea.
+2.  **Qualitative over Quantitative Descriptions:** When using examples, describe trends and patterns qualitatively.
+    *   **Weak (Vulnerable):** "Complexity doubled from ~40 to ~80 circles."
+    *   **Strong (Resilient):** "The system's initial elegance gave way to a dramatic escalation in complexity."
+3.  **Frame Examples as "Conceptual Illustrations," Not "Worked Examples" or "Case Studies":** The language used to introduce examples must signal their role as explanatory aids, not empirical evidence. This manages reviewer expectations and keeps the focus on the philosophical framework.
+4.  **Abstract Hypothetical Scenarios:** When creating a hypothetical to explain a protocol or concept, keep it abstract and general. Avoid using specific, politically charged, or overly detailed contemporary examples that could introduce confounding variables and distract the reader.
+5.  **Subordinate Formalism to Philosophy:** When presenting mathematical models or formal logic (e.g., in an appendix), explicitly state that they are *provisional, illustrative candidates* for future research. The paper's philosophical integrity must remain independent of any specific mathematical formulation.
+Primary Goal: The paper's strength is its novel philosophical framework. We must prioritize the clarity, coherence, and logical force of its concepts above all else.
+Conceptual Purity over Empirical Vulnerability: Avoid tying the framework's validity to contestable empirical data, specific numbers, or quasi-quantitative claims. An argument from first principles is more resilient than one resting on preliminary or estimated data.
+Scientific vs. Logical: We are not writing a scientific paper that proves a hypothesis with data. We are writing a philosophical paper that guides the reader down a logical path. The goal is persuasion through reason, not demonstration through measurement.
+Illustrate, Don't "Prove": Examples (historical, hypothetical, etc.) should serve as conceptual illustrations that clarify the meaning of a principle. They are tools for teaching, not data points for proving a claim. Their purpose is to make abstract ideas intuitive.
+
 
 
 Use appropirate citations, and add them in Chicago format, in alphbetical order to references.md
@@ -72,6 +86,21 @@ git commit with detaild summary / rational, etc after everything. never add your
 
 
 if you have sub-agents. dont be scared of using them
+
+Every decision, from word choice to argument structure, must be evaluated against this standard: does it make the core philosophical argument stronger and less vulnerable to bad-faith or superficial criticism?
+
+The Persuasive Path: Our goal is to guide the reader through a compelling logical progression. The paper should begin with plausible assumptions, and each subsequent step should follow clearly from the last. The structure of the argument is as important as its content.
+
+Clarity through Signposting: Use clear transitional phrases and topic sentences to ensure the reader always knows where they are in the argument, where they have been, and where they are going. A well-structured argument should feel inevitable, not surprising. But dont over do it either.
+
+Conceptual Parsimony: Do not introduce new named concepts (e.g., "The Brittleness Index," "Pragmatic Filtration") if the idea can be explained clearly with existing terminology. New terms should only be introduced if they do genuinely new and indispensable conceptual work.
+
+When in Doubt, Propose Options: If an instruction is ambiguous or a path forward is unclear, do not make a risky assumption. Instead, pause, articulate the ambiguity, and present two or three concrete, alternative paths forward with a brief analysis of the pros and cons of each. This keeps the human author in full control of the key decisions.
+
+Empirical Fragility: Avoid any claim whose validity depends on a contestable empirical fact, number, or measurement.
+Grandiose Tone: Avoid all forms of rhetorical overreach, hyperbole, or claims to have "solved" a perennial problem. Frame contributions as "offering a novel framework," "providing a new diagnostic tool," or "resolving a specific tension."
+Solution Aversion: Do not be overly timid. While qualifications are essential, the goal is still to make strong philosophical claims. Propose bold conceptual revisions where needed, not just minor line edits. The aim is to strengthen the paper, not just to avoid making errors.
+
 
 ## Available Tools and Scripts
 
