@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Coherentist theories of justification face the isolation objection: a belief system could be perfectly coherent yet entirely detached from reality. This paper resolves this challenge through Emergent Pragmatic Coherentism (EPC), which grounds coherence in demonstrated viability measured by systemic brittleness. The core insight: reality's constraints prevent isolation because brittle systems fail. The framework uses systemic brittleness as a diagnostic tool, measuring network health through observable costs incurred when applying propositions. Selective pressure from these costs drives knowledge systems toward convergence on an emergent structure: the Apex Network. This network comprises maximally viable propositions discovered through historical filtering. Justification requires both internal coherence and a network's demonstrated resilience. Objective truth is redefined as alignment with the Apex Network—not a metaphysical blueprint but the necessary structure of optimal solutions determined by mind-independent pragmatic constraints. The framework explains pragmatic revision in Quine's web of belief, provides prospective guidance through constraint analysis, and supports a falsifiable research program for assessing epistemic health. Preliminary applications to cases like Ptolemaic astronomy and AI development illustrate the approach, using proxies such as citation patterns and resource metrics.
+Coherentist theories of justification face the isolation objection: a belief system could be perfectly coherent yet entirely detached from reality. This paper resolves this challenge through Emergent Pragmatic Coherentism (EPC), which grounds coherence in demonstrated viability measured by systemic brittleness. EPC synthesizes Thagard's ECHO constraint networks, Zollman's epistemic graphs, Rescher's systematicity, and Kitcher's evolutionary dynamics, adding external brittleness diagnostics these precursors lacked. The core insight: reality's constraints prevent isolation because brittle systems fail. The framework uses systemic brittleness as a diagnostic tool, measuring network health through observable costs incurred when applying propositions. Selective pressure from these costs drives knowledge systems toward convergence on an emergent structure: the Apex Network. This network comprises maximally viable propositions discovered through historical filtering. Justification requires both internal coherence and a network's demonstrated resilience. Objective truth is redefined as alignment with the Apex Network—not a metaphysical blueprint but the necessary structure of optimal solutions determined by mind-independent pragmatic constraints. The framework explains pragmatic revision in Quine's web of belief, provides prospective guidance through constraint analysis, and supports a falsifiable research program for assessing epistemic health. Preliminary applications to cases like Ptolemaic astronomy and AI development illustrate the approach, using proxies such as citation patterns and resource metrics.
 
 ## 1. Introduction: From a Static Web to a Dynamic Process
 
@@ -16,7 +16,7 @@ This shift exemplifies the isolation objection to coherentism: a belief system m
 
 Emergent Pragmatic Coherentism extends a tradition beginning with Quine's (1969) naturalized epistemology, Davidson's (1986) coherence theory, Kitcher's (1993) evolutionary model, and Longino's (1990) social epistemology. EPC accepts this inheritance but makes a crucial departure: replacing static coherence with dynamic viability under constraint.
 
-Where Quine anchored epistemology in psychology and Davidson in internal coherence, EPC relocates justification within systems dynamics. Belief-formation and revision are adaptive processes that minimize brittleness under environmental feedback. Davidson's internal coherence becomes *structural homeostasis* maintained through pragmatic constraint. Kitcher's and Longino's insights into social calibration are operationalized: the intersubjective circulation of critique becomes a mechanism for reducing systemic fragility.
+Where Quine anchored epistemology in psychology and Davidson in internal coherence, EPC operationalizes Thagard's (1989) connectionist ECHO—activation harmony as coherence—adding pragmatic inhibitory weights from brittleness (P(t) decays contradictory nodes). Unlike Zollman's (2007) abstract Bayesian graphs showing topology effects, EPC injects real-world Tier 1 shocks to simulate paradigm fragility. Rescher's (1973) systematicity criteria become quantified in SBI(t), while Kitcher's credit evolution gains failure diagnostics via the Negative Canon. Belief-formation and revision are adaptive processes that minimize brittleness under environmental feedback. Davidson's internal coherence becomes structural homeostasis maintained through pragmatic constraint. Kitcher's and Longino's insights into social calibration are operationalized: the intersubjective circulation of critique becomes a mechanism for reducing systemic fragility.
 
 EPC thus transforms coherence from a metaphor of fit into a measurable function of cost and constraint. Its realism is not the correspondence of propositions to an independent world, but the emergent stability of constraint satisfaction across iterated cycles of error and repair. This is a post-Quinean naturalism that grounds justification in demonstrated viability. It provides the crucial, non-discursive external filter of systemic consequence that these otherwise powerful social, psychological, and internalist accounts ultimately require.
 
@@ -67,7 +67,7 @@ This progression can be visualized as a flowchart illustrating the deflationary 
 
 Having established the journey from private belief to public tool, we define the model's core analytical units. Our deflationary move shifts from individual agent psychology to public, functional structures emerging when multiple Quinean webs of belief align under pragmatic pressure.
 
-**Standing Predicate:** The primary unit of cultural-epistemic selection: validated, reusable, action-guiding conceptual tools within propositions (e.g., "...is an infectious disease"). Functioning as "genes" of cultural evolution, Standing Predicates are compressed conceptual technology. When applied, they unpack suites of validated knowledge: causal models, diagnostic heuristics, licensed interventions.
+**Standing Predicate:** The primary unit of cultural-epistemic selection: validated, reusable, action-guiding conceptual tools within propositions (e.g., "...is an infectious disease"). Functioning as "genes" of cultural evolution, Standing Predicates are compressed conceptual technology. When applied, they unpack suites of validated knowledge: causal models, diagnostic heuristics, licensed interventions. Functioning as high-centrality nodes in Thagard-style networks (2000), Standing Predicates maintain persistent activation through historical vindication, with propagation weighted by pragmatic utility rather than pure explanatory coherence.
 
 **Shared Network:** Emergent public architecture of coherent propositions and predicates shared across individual belief webs for collective problem-solving. Networks nest hierarchically (germ theory within medicine within science). Their emergence is a structural necessity, not negotiation: failure-driven revisions converge on viable principles, forming transmissible public knowledge.
 
@@ -97,7 +97,7 @@ First-Order Costs are direct, material consequences: failed predictions, wasted 
 
 Pragmatic pushback is not limited to material failures. In abstract domains like theoretical physics or mathematics, where direct empirical tests are deferred or unavailable, pushback manifests through Systemic Cost accumulation. Research programs requiring accelerating ad hoc modifications to maintain consistency, or losing unifying power, experience powerful pragmatic pushback. These epistemic inefficiencies are real costs rendering networks brittle and unproductive, even without direct experimental falsification. The diagnostic lens thus applies to all inquiry forms, measuring viability through external material consequences or internal systemic dysfunction.
 
-To operationalize these concepts, we introduce diagnostic indicators tracking brittleness over time. This concept draws from systems theory where brittleness denotes vulnerability arising from hidden interdependencies and cascading failures in complex adaptive systems. It parallels Taleb's (2012) fragility but offers a more precise diagnosis. Fragility describes a system's vulnerability to shocks, which is a symptom. Brittleness refers to the underlying, accumulated systemic weakness that produces this vulnerability, which is the structural cause. Recent work on brittleness in interconnected systems emphasizes how localized failures propagate through tight coupling, a pattern visible in both engineered systems and knowledge networks. Brittleness is thus a diagnosis of structural cause, not merely a symptom description.
+To operationalize these concepts, we introduce diagnostic indicators tracking brittleness over time. Drawing from systems theory, brittleness denotes vulnerability from hidden interdependencies and cascading failures. It parallels Taleb's (2012) fragility but diagnoses structural cause (accumulated systemic weakness) rather than symptom (vulnerability to shocks). This distinction enables predictive diagnosis rather than mere description.
 
 In evolutionary epistemology (Campbell 1974; Popper 1972), falsification acts as a selection pressure on beliefs. EPC extends this: brittleness functions analogously to free energy (Friston 2010), quantifying deviation between a network's internal model and its constraining environment. Reducing brittleness thus constitutes epistemic adaptation. Zollman (2010) shows how transient diversity increases long-term epistemic robustness, providing theoretical justification for our pluralist frontier.
 
@@ -188,7 +188,7 @@ Systems generating higher death or disease rates than viable alternatives under 
   - **Model Complexity Inflation (M(t)):** Parameter growth without predictive gains (parameter-to-prediction ratios).
   - **Proof Complexity Escalation:** Increasing proof length without explanatory gain (mathematics).
 
-While interpreting these costs is normative for agents within a system, their existence and magnitude are empirical questions. The framework's core causal claim is falsifiable and descriptive: networks with high or rising brittleness across these tiers carry statistically higher probability of systemic failure or major revision when faced with external shocks.
+While interpreting these costs is normative for agents within a system, their existence and magnitude are empirical questions. The framework's core causal claim is falsifiable and descriptive: networks with high or rising brittleness across these tiers carry statistically higher probability of systemic failure or major revision when faced with external shocks. This operationalizes Kitcher's (1993) 'significant problems' pragmatically: Tier 1 bio-costs define significance without credit cynicism, while C(t) measures coercive monopolies masking failures.
 
 Robustly measuring these costs requires disciplined methodology. The triangulation method provides practical protocol for achieving pragmatic objectivity.
 
@@ -262,7 +262,7 @@ Charting failures reverse-engineers viability constraints, providing external di
 
 ### 4.2 The Apex Network: Ontological and Epistemic Status
 
-As the Negative Canon catalogs failures, pragmatic selection reveals the contours of the **Apex Network**: not a pre-existing blueprint, nor our current consensus, but the objective structure of maximally viable solutions all successful inquiry must approximate. This network is not a pre-existing metaphysical blueprint but a structural emergent, the asymptotic intersection of all low-brittleness models (Ladyman and Ross 2007). Its status resonates with the pragmatist ideal end of inquiry (Peirce 1878). Our Consensus Network is our fallible map of this objective structure, which is stabilized through adaptive feedback from mind-independent constraints.
+As the Negative Canon catalogs failures, pragmatic selection reveals the contours of the **Apex Network**: not a pre-existing blueprint, nor our current consensus, but the objective structure of maximally viable solutions all successful inquiry must approximate. The Apex maximizes Thagard's global constraint satisfaction under Zollman's optimal topology (sparse diversity bonus), emerging as Kitcher's adaptive peak on Rescher's systematicity landscape. This network is not a pre-existing metaphysical blueprint but a structural emergent, the asymptotic intersection of all low-brittleness models (Ladyman and Ross 2007). Its status resonates with the pragmatist ideal end of inquiry (Peirce 1878). Our Consensus Network is our fallible map of this objective structure, which is stabilized through adaptive feedback from mind-independent constraints.
 
 The Apex Network's ontological status requires careful specification to avoid foundationalist overreach and relativist collapse. We propose understanding it as a "structural emergent": a real, objective pattern crystallizing from interaction between inquiry practices and environmental resistance. Consider how objective structural facts can emerge from seemingly subjective domains: while individual color preference is contingent, cross-cultural data shows striking convergence on blue. This pattern is not an accident but an emergent structural fact demanding naturalistic explanation. Pragmatic pushback shaping this landscape is evolutionary selection on shared biology. Human color vision was forged by navigating terrestrial environments, where efficiently tracking ecologically critical signals, such as safe water and ripe fruit, conferred viability advantage (Berlin and Kay 1969; Henrich 2015). The Apex Network has the same ontological status: not found but formed, the objective structural residue after pragmatic filtering has eliminated less viable alternatives.
 
@@ -327,9 +327,7 @@ This process can be conceptualized as a fitness landscape of inquiry. Peaks repr
 
 #### 4.2.3 Pre-Existing or Emergent? The Logos Question
 
-A careful reader might notice an apparent tension in our account. On one hand, we explicitly deny the Apex Network is a "pre-existing metaphysical blueprint" and insist it is "not found but formed." On the other hand, we assert it "exists whether we've discovered it or not, determined by constraints rather than by our beliefs about it," and we invoke the π analogy to establish counterfactual stability. These claims seem contradictory—simultaneously denying and affirming pre-existence.
-
-One might even charge that our framework simply rebrands the ancient Greek concept of logos—an objective rational order inhering in reality itself, existing timelessly and independently of human discovery—in naturalistic language while retaining its core metaphysical commitments. This section confronts this challenge directly, clarifying a subtle but crucial distinction that has been implicit throughout.
+Our account faces an apparent tension: we deny the Apex Network is a "pre-existing metaphysical blueprint" yet assert it "exists whether discovered or not." One might charge this simply rebrands logos—objective rational order existing timelessly—in naturalistic language while retaining its metaphysical commitments. This section clarifies the crucial distinction.
 
 **Two Senses of "Pre-Existing"**
 
@@ -349,16 +347,9 @@ Formally: In world W with constraint structure C, Apex Network A is necessarily 
 
 **The Logos Comparison: Naturalized Rational Order**
 
-The comparison to logos is therefore both apt and importantly limited. Like logos, the Apex Network represents an objective rational order, a structure determined by reality's constraints rather than human convention, a standard toward which inquiry necessarily converges, and a principle existing prior to and independent of human cognition.
+The comparison to logos is both apt and importantly limited. Like logos, the Apex Network represents objective rational order determined by reality's constraints, a standard toward which inquiry converges. However, unlike classical logos, our framework involves no cosmic intelligence (necessity without purpose), no teleology (viable structures persist; brittle ones collapse), no transcendence (immanent pattern, not separate realm), and radical contingency on physical law (different constants would determine different Apex Networks).
 
-However, unlike classical conceptions of logos, our framework involves:
-
-- No cosmic intelligence: The order is necessity without purpose, constraint without design
-- No teleology: Reality does not "aim at" optimal configurations; viable structures simply persist while brittle ones collapse
-- No transcendence: The Apex Network is not a separate realm but an immanent pattern—the negative space revealed when failures are systematically eliminated
-- Radical contingency on physical law: Had the universe operated under different fundamental constants or laws, a different Apex Network would be determined. There is no super-cosmic logos independent of physical reality itself
-
-If one insists on invoking logos to describe our framework, we accept the label with this specification: ours is a naturalized, contingent, non-purposive logos. Rational order without cosmic reason. Objective structure without divine blueprint. Necessary implication without metaphysical foundation. The Apex Network is logos with the theology removed, leaving only the mathematical and physical necessity that minds-like-ours, operating in a universe-like-this, discover through systematic elimination of unviable alternatives.
+If one insists on invoking logos, we accept with this specification: ours is naturalized, contingent, non-purposive logos. Rational order without cosmic reason. Objective structure without divine blueprint. The Apex Network is logos with theology removed, leaving only mathematical and physical necessity that minds-like-ours discover through systematic elimination of unviable alternatives.
 
 **Implications**
 
@@ -607,7 +598,7 @@ This paper has developed what can be termed **Systemic Externalism**—a form of
 
 ### 6.1 A Grounded Coherentism and a Naturalized Structural Realism
 
-While internalist coherentists like Carlson (2015) have successfully shown that the web must have a functionally indispensable core, they lack resources to explain why that core is forged by external discipline. Systemic Externalism provides this missing causal engine, grounding Carlson's internal structure in an externalist history of pragmatic selection. Justification requires coherence plus network reliability via low brittleness. Unlike static network epistemology (Zollman 2013; Rosenstock et al. 2017), our model examines evolving networks under pushback.
+While internalist coherentists like Carlson (2015) have successfully shown that the web must have a functionally indispensable core, they lack resources to explain why that core is forged by external discipline. Systemic Externalism provides this missing causal engine, grounding Carlson's internal structure in an externalist history of pragmatic selection. Justification requires coherence plus network reliability via low brittleness. Unlike Zollman's (2007, 2013) static network models and Rosenstock et al. (2017), EPC examines evolving networks under pushback, extending ECHO's harmony principle with external brittleness filters Thagard's internalism lacks.
 
 #### 6.1.1 A Naturalistic Engine for Structural Realism
 
@@ -690,6 +681,21 @@ Our response to Plantinga: In domains where systematic misrepresentation accumul
 
 Plantinga is right that evolution per se does not guarantee reliability. But evolution plus pragmatic filtering in a constraint-rich environment does generate truth-tracking in precisely those domains where coherentism faces the isolation objection. Where Plantinga sees self-defeat, we see self-correction: the systematic reduction of brittleness over centuries is evidence that the process works, even if no individual step is guaranteed.
 
+### 6.5 Computational and Systematic Precursors
+
+EPC synthesizes four computational/systematic frameworks, advancing each through externalist brittleness diagnostics.
+
+**Thagard's ECHO (1989, 2000):** Models explanatory coherence via 7 principles (symmetry, explanation, contradiction, etc.) as constraint satisfaction in connectionist networks. Activation spreads through excitatory/inhibitory weights until harmony maximizes. EPC extends this: Standing Predicates = high-activation nodes; propagation = ECHO dynamics. **Advance:** Brittleness adds dynamic weights—P(t) patches create inhibitory decay (-0.2 per ad-hoc fix), C(t) suppresses nodes via coercion. ECHO operates internally; EPC adds pragmatic pushback as external discipline, solving Thagard's isolation problem.
+
+**Zollman's Epistemic Graphs (2007, 2010):** Shows topology effects—sparse cycles preserve diversity (reliability bonus), complete graphs risk premature lock-in (speed/reliability trade-off). EPC's Pluralist Frontier operationalizes transient diversity. **Advance:** Zollman models abstract Bayesian updating; EPC injects historical shocks (Tier 1 demographic collapse, Negative Canon failures) enabling empirical calibration via Seshat-style databases.
+
+**Rescher's Systematicity (1973, 2001):** Defines truth as praxis-tested systematicity (completeness, consistency, functional efficacy) but lacks quantification. **Advance:** SBI(t) operationalizes—P(t) = consistency metric, R(t) = completeness breadth, enabling falsifiable predictions (brittleness-collapse correlations).
+
+**Kitcher's Evolutionary Progress (1993):** Models science as credit-driven selection with division of labor across 'significant problems.' **Advance:** Negative Canon provides failure engine, brittleness quantifies problem significance via coercive costs (C(t)), diagnosing degenerating programs without reducing to cynical credit-seeking.
+
+**Sims' Dynamic Holism (2024):** Ecological constraints drive diachronic cognitive revision in nonneuronal organisms. EPC parallels this at macro-cultural scale: pragmatic pushback = ecological variables. **Distinction:** Sims focuses on individual adaptation; EPC on intergenerational knowledge systems. Both emphasize context-sensitive, constraint-driven evolution; EPC adds synchronic diagnostics to Sims' diachronic methodology.
+
+These precursors provide micro-coherence (Thagard), meso-topology (Zollman), normative criteria (Rescher), macro-dynamics (Kitcher), and biological analogy (Sims). EPC unifies them through falsifiable brittleness assessment grounded in historical failure data.
 
 ## 7. Final Defense and Principled Limitations
 
@@ -721,13 +727,9 @@ Philosophical honesty requires acknowledging not just what a framework can do, b
 
 **The Limitation:** We learn moral truths primarily through catastrophic failure. The Negative Canon is written in blood. We could not know slavery's wrongness without the historical experiment generating centuries of suffering. Future moral knowledge will require future suffering to generate data.
 
-**Why We Accept This:** This is how empirical knowledge works in complex domains. Medicine required harmful experiments before ethical review boards. Engineering required catastrophic bridge failures before developing safety factors. There is no shortcut bypassing human cost—complex system behavior cannot be fully predicted from first principles.
+**Why We Accept This:** Empirical knowledge in complex domains requires costly data. Medicine, engineering, and social systems all required catastrophic failures before developing safety mechanisms. Complex system behavior cannot be fully predicted from first principles alone.
 
-**What This Implies:**
-- Moral learning is necessarily slow
-- Each generation will make errors future generations recognize
-- We should be epistemically humble about current certainties
-- But we can have high confidence in Negative Canon entries (exhaustively tested failures)
+**What This Implies:** Moral learning is necessarily slow; each generation errs; we should be epistemically humble about current certainties yet confident in Negative Canon entries (exhaustively tested failures).
 
 #### 7.3.3 Floor Not Ceiling
 
@@ -896,6 +898,8 @@ A = ∩{W_k | V(W_k) = 1} over all possible contexts and times
 **Ontological Status:** A is not pre-existing but an emergent structural fact about U, revealed by elimination through pragmatic selection.
 
 **Epistemic Status:** *A is unknowable directly*; it is inferred by mapping failures catalogued in the **Negative Canon** (the historical record of collapsed, high-SBI systems).
+
+**Formal ECHO Extension:** This formalizes Thagard's ECHO extension: net_j = Σ w_{ij} a_i - β·brittleness_j, where w = +0.1 (explanatory coherence, Principle 1), -0.2 (contradiction, Principle 5), and β derived from P(t), C(t) proxies. Zollman's cycle topology models Pluralist Frontier; complete graphs risk brittleness lock-in.
 
 ### C.2 The Systemic Brittleness Index
 

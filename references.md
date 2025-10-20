@@ -209,7 +209,11 @@ Railton, Peter. 1986. "Moral Realism." *The Philosophical Review* 95(2): 163–2
 
 Rawls, John. 1971. *A Theory of Justice*. Cambridge, MA: Harvard University Press. ISBN 978-0674880108.
 
+Rescher, Nicholas. 1973. *The Coherence Theory of Truth*. Oxford: Clarendon Press. ISBN 978-0198244011.
+
 Rescher, Nicholas. 1996. *Process Metaphysics: An Introduction to Process Philosophy*. Albany: State University of New York Press. ISBN 978-0791428184.
+
+Rescher, Nicholas. 2001. *Cognitive Pragmatism: The Theory of Knowledge in Pragmatic Perspective*. Pittsburgh, PA: University of Pittsburgh Press. ISBN 978-0822941538.
 
 Roda, Weston C., Marie B. Varughese, Donglin Han, and Michael Y. Li. 2020. "Why Is It Difficult to Accurately Predict the COVID-19 Epidemic?" *Infectious Disease Modelling* 5: 271–281. https://doi.org/10.1016/j.idm.2020.03.001.
 
@@ -255,6 +259,10 @@ Tainter, Joseph A. 1988. *The Collapse of Complex Societies*. Cambridge: Cambrid
 
 Taleb, Nassim Nicholas. 2012. *Antifragile: Things That Gain from Disorder*. New York: Random House. ISBN 978-1400067824.
 
+Thagard, Paul. 1989. "Explanatory Coherence." *Behavioral and Brain Sciences* 12(3): 435–502. https://doi.org/10.1017/S0140525X00057046.
+
+Thagard, Paul. 2000. *Coherence in Thought and Action*. Cambridge, MA: MIT Press. ISBN 978-0262201315.
+
 Tauriainen, Teemu. 2017. "Quine on Truth." *Philosophical Forum* 48(4): 397–416. https://doi.org/10.1111/phil.12170.
 
 Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä.
@@ -272,6 +280,8 @@ Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica*
 Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." *Proceedings of the Sixth International Congress of Genetics* 1: 356–66.
 
 Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind: An Inquiry into the Nature of Virtue and the Ethical Foundations of Knowledge*. Cambridge: Cambridge University Press. ISBN 978-0521570602. https://doi.org/10.1017/CBO9780511582233.
+
+Zollman, Kevin J. S. 2007. "The Communication Structure of Epistemic Communities." *Philosophy of Science* 74(5): 574–87. https://doi.org/10.1086/508684.
 
 Zollman, Kevin J. S. 2010. "The Epistemic Benefit of Transient Diversity." *Erkenntnis* 72: 17–35. https://doi.org/10.1007/s10670-009-9194-6. ISSN 0165-0106.
 
