@@ -703,9 +703,9 @@ EPC synthesizes four computational/systematic frameworks, advancing each through
 
 **Rescher's Systematicity (1973, 2001):** Defines truth as praxis-tested systematicity (completeness, consistency, functional efficacy) but lacks quantification. **Advance:** SBI(t) operationalizes—P(t) = consistency metric, R(t) = completeness breadth, enabling falsifiable predictions (brittleness-collapse correlations).
 
-**Kitcher's Evolutionary Progress (1993):** Models science as credit-driven selection with division of labor across 'significant problems.' **Advance:** Negative Canon provides failure engine, brittleness quantifies problem significance via coercive costs (C(t)), diagnosing degenerating programs without reducing to cynical credit-seeking.
+**Kitcher (1993) on Evolutionary Progress:** Models science as credit-driven selection with division of labor across 'significant problems.' **Advance:** Negative Canon provides failure engine, brittleness quantifies problem significance via coercive costs (C(t)), diagnosing degenerating programs without reducing to cynical credit-seeking.
 
-**Sims' Dynamic Holism (2024):** Ecological constraints drive diachronic cognitive revision in nonneuronal organisms. EPC parallels this at macro-cultural scale: pragmatic pushback = ecological variables. **Distinction:** Sims focuses on individual adaptation; EPC on intergenerational knowledge systems. Both emphasize context-sensitive, constraint-driven evolution; EPC adds synchronic diagnostics to Sims' diachronic methodology.
+**Sims (2024) on Dynamic Holism:** Ecological constraints drive diachronic cognitive revision in nonneuronal organisms. EPC parallels this at macro-cultural scale: pragmatic pushback = ecological variables. **Distinction:** Sims focuses on individual adaptation; EPC on intergenerational knowledge systems. Both emphasize context-sensitive, constraint-driven evolution; EPC adds synchronic diagnostics to Sims' diachronic methodology.
 
 These precursors provide micro-coherence (Thagard), meso-topology (Zollman), normative criteria (Rescher), macro-dynamics (Kitcher), and biological analogy (Sims). EPC unifies them through falsifiable brittleness assessment grounded in historical failure data.
 

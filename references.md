@@ -80,6 +80,8 @@ Gaifman, Haim, and Marc Snir. 1982. "Probabilities over rich languages, testing 
 
 Gil Martín, Francisco Javier, and Jesús Vega Encabo. 2008. "Truth and Moral Objectivity: Procedural Realism in Putnam's Pragmatism." *Theoria: An International Journal for Theory, History and Foundations of Science* 23(3): 343-356.
 
+Gingerich, Owen. 1993. *The Eye of Heaven: Ptolemy, Copernicus, Kepler*. New York: American Institute of Physics. ISBN 978-0883188637.
+
 Glenn, Patrick. Forthcoming. "The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth."
 
 Goldman, Alvin I. 1979. "What Is Justified Belief?" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel. https://doi.org/10.1007/978-94-009-9493-5_1.
