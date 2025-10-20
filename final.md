@@ -6,7 +6,7 @@ Coherentist theories of justification face the isolation objection: a belief sys
 
 ## 1. Introduction: From a Static Web to a Dynamic Process
 
-Why did germ theory replace miasma theory? A standard explanation cites superior evidence, but a deeper view reveals systemic viability. Miasma theory incurred catastrophic costs, such as misdirected public health efforts in London, and demanded constant ad hoc modifications to address anomalies. Its brittleness is evident in high patch velocity (P(t)); historical analyses (Snow 1855) indicate dozens of modifications by the mid-19th century. Germ theory, by contrast, reduced these costs while unifying diverse phenomena.
+Why did germ theory replace miasma theory? A standard explanation cites superior evidence, but a deeper view reveals systemic viability. Miasma theory incurred catastrophic costs, such as misdirected public health efforts in London, and demanded constant ad hoc modifications to address anomalies. Its brittleness is evident in high patch velocity (P(t)); historical analyses (Snow 1855) document the theory's need for persistent modifications and auxiliary hypotheses throughout the mid-19th century. Germ theory, by contrast, reduced these costs while unifying diverse phenomena.
 
 This raises the fundamental question: how do we distinguish genuine knowledge from coherent delusions? A Ptolemaic astronomer's system was internally coherent, its practitioners trained in sophisticated techniques, yet it was systematically misaligned with reality. What external constraint prevents coherent systems from floating free?
 
@@ -16,7 +16,9 @@ This shift exemplifies the isolation objection to coherentism: a belief system m
 
 Emergent Pragmatic Coherentism extends a tradition beginning with Quine's (1969) naturalized epistemology, Davidson's (1986) coherence theory, Kitcher's (1993) evolutionary model, and Longino's (1990) social epistemology. EPC accepts this inheritance but makes a crucial departure: replacing static coherence with dynamic viability under constraint.
 
-Where Quine anchored epistemology in psychology and Davidson in internal coherence, EPC operationalizes Thagard's (1989) connectionist ECHO, modeling coherence as activation harmony (coherence through network equilibrium) in constraint networks and extending it with pragmatic inhibitory weights derived from brittleness. Unlike Zollman's (2007) abstract Bayesian graphs, which model topology effects (how network structure affects information flow) on belief propagation, EPC injects real-world shocks—Tier 1 demographic collapse, institutional failure—to simulate paradigm fragility empirically. Rescher's (1973) systematicity criteria become quantified in our SBI(t) metrics, while Kitcher's (1993) credit-driven evolution gains failure diagnostics via the Negative Canon. Belief-formation and revision are adaptive processes that minimize brittleness under environmental feedback. Davidson's internal coherence becomes structural homeostasis maintained through pragmatic constraint. Kitcher's and Longino's insights into social calibration are operationalized: the intersubjective circulation of critique becomes a mechanism for reducing systemic fragility.
+Where Quine anchored epistemology in psychology and Davidson in internal coherence, EPC operationalizes Thagard's (1989) connectionist ECHO, modeling coherence as activation harmony in constraint networks and extending it with pragmatic inhibitory weights derived from brittleness. Unlike Zollman's (2007) abstract Bayesian graphs, which model topology effects on belief propagation, EPC injects real-world shocks (Tier 1 demographic collapse, institutional failure) to simulate paradigm fragility empirically.
+
+Rescher's (1973) systematicity criteria become quantified in our SBI(t) metrics, while Kitcher's (1993) credit-driven evolution gains failure diagnostics via the Negative Canon. Belief-formation and revision are adaptive processes that minimize brittleness under environmental feedback. Davidson's internal coherence becomes structural homeostasis maintained through pragmatic constraint. Kitcher's and Longino's insights into social calibration are operationalized: the intersubjective circulation of critique becomes a mechanism for reducing systemic fragility.
 
 EPC thus transforms coherence from a metaphor of fit into a measurable function of cost and constraint. Its realism is not the correspondence of propositions to an independent world, but the emergent stability of constraint satisfaction across iterated cycles of error and repair. This is a post-Quinean naturalism that grounds justification in demonstrated viability. It provides the crucial, non-discursive external filter of systemic consequence that these otherwise powerful social, psychological, and internalist accounts ultimately require.
 
@@ -24,7 +26,9 @@ Our response is distinctive: coherence rests not on historical accident but on e
 
 We ground coherence in demonstrated viability of entire knowledge systems, measured through their capacity to minimize systemic costs. Drawing from resilience theory (Holling 1973), we explain how individuals' holistic revisions to personal webs of belief in response to recalcitrant experiences, which we term pragmatic pushback, drive bottom-up formation of viable public knowledge systems.
 
-This transforms the isolation objection: a coherent system detached from reality isn't truly possible because constraints force convergence toward viable configurations. A perfectly coherent flat-earth cosmology generates catastrophic navigational costs. A coherent phlogiston chemistry generates accelerating conceptual debt. These aren't merely false but structurally unstable, misaligned with constraint topology. The process resembles constructing a navigation chart by systematically mapping shipwrecks. Successful systems navigate safe channels revealed by failures, triangulating toward viable peaks. The Apex Network is the structure remaining when all unstable configurations are eliminated. Crucially, this historical filtering is a discovery process, not a creation mechanism; the territory is revealed by the map of failures, not created by it.
+This transforms the isolation objection: a coherent system detached from reality isn't truly possible because constraints force convergence toward viable configurations. A perfectly coherent flat-earth cosmology generates catastrophic navigational costs. A coherent phlogiston chemistry generates accelerating conceptual debt. These aren't merely false but structurally unstable, misaligned with constraint topology.
+
+The process resembles constructing a navigation chart by systematically mapping shipwrecks. Successful systems navigate safe channels revealed by failures, triangulating toward viable peaks. The Apex Network is the structure remaining when all unstable configurations are eliminated. Crucially, this historical filtering is a discovery process, not a creation mechanism. The territory is revealed by the map of failures, not created by it.
 
 This paper models inquiry as evolutionary cultivation of viable public knowledge systems. It is a macro-epistemology for cumulative domains like science and law, proposing Lamarckian-style directed adaptation through learning rather than purely Darwinian selection.
 
@@ -112,50 +116,26 @@ In evolutionary epistemology (Campbell 1974; Popper 1972), falsification acts as
 | M(t) | Model Complexity | Rate of parameter/complexity growth vs. marginal performance gains |
 | R(t) | Resilience Reserve | Breadth of independent, cross-domain confirmations of core principles |
 
-Two examples illustrate this toolkit in action. The first provides a worked historical case with plausible quantitative estimates.
+Two examples illustrate this toolkit in action.
 
-**Case 1: Ptolemaic Astronomy (c. 150-1600 CE) - A Worked Example**
+**Case 1: Ptolemaic Astronomy (c. 150-1600 CE)**
 
-This case demonstrates how brittleness metrics can be retrospectively applied to historical knowledge systems. While precise bibliometric data is unavailable for the full period, we can estimate metrics using documented historical patterns.
+Ptolemaic astronomy dominated for over 1400 years, achieving impressive predictive accuracy through increasingly complex epicycle models. However, by 1500 CE, the system showed clear signs of brittleness. This case demonstrates how brittleness metrics can be retrospectively applied to historical knowledge systems, using documented historical patterns to illustrate the framework's core concepts qualitatively.
 
-**Historical Context:** Ptolemaic astronomy dominated for over 1400 years, achieving impressive predictive accuracy through increasingly complex epicycle models. However, by 1500 CE, the system showed clear signs of brittleness.
+The Ptolemaic system, in its later stages, serves as a classic illustration of rising systemic brittleness. Each of the core metrics became increasingly pronounced over time:
 
-**Metric Estimates (based on historical scholarship):**
+*   **Model Complexity (M(t)):** The system's initial elegance gave way to a dramatic escalation in complexity. To account for observational data, astronomers were forced to continually add new epicycles, deferents, and equants, leading to a baroque structure where each addition provided only marginal gains in predictive accuracy.
+*   **Patch Velocity (P(t)):** The research program became primarily defensive. Historical analysis shows that a significant majority of astronomical work was dedicated to resolving known anomalies—patching the system to fix discrepancies—rather than generating novel, surprising predictions.
+*   **Resilience Reserve (R(t)):** The system's core principles, such as epicycles, had extremely narrow applicability. They could not be successfully exported to explain other physical phenomena like terrestrial motion or optics, leaving the system with a low reserve of cross-domain confirmation.
+*   **Coercive Overhead (C(t)):** The system was maintained through significant institutional inertia. Its mandated presence in university curricula and the intellectual energy spent defending it represented a real, rising cost to maintaining consensus against nascent alternatives.
 
-**M(t) - Model Complexity:** Measurable through parameter count.
-- c. 150 CE (Almagest): ~40 circles (epicycles + deferents) for 7 celestial bodies
-- c. 1500 CE: ~80+ circles documented in astronomical tables (Gingerich 1993)
-- Complexity doubling over 1350 years with marginal accuracy gains
-
-**P(t) - Patch Velocity:** Ratio of anomaly-resolution to novel predictions.
-- Based on Gingerich's (1993) analysis of astronomical publications 1450-1550:
-- Estimated ~85% of astronomical work addressed known anomalies (planetary position discrepancies, precession corrections)
-- Only ~15% proposed genuinely novel predictions or applications
-- P(t) ≈ 5.7 (ratio of patch work to novel work)
-
-**R(t) - Resilience Reserve:** Cross-domain applicability of core principles.
-- Ptolemaic epicycles found minimal application outside planetary motion
-- No successful transfer to terrestrial mechanics, optics, or other domains
-- Contrast with Newtonian mechanics (applies to celestial + terrestrial + fluid + thermal phenomena)
-- R(t) estimated as low (narrow domain applicability)
-
-**C(t) - Coercive Overhead:** Institutional suppression of alternatives.
-- By 1500s: University curricula mandated Ptolemaic system
-- Documented cases of heliocentrism suppression (though not yet systematically violent until post-Copernicus)
-- Estimated moderate but rising institutional enforcement costs
-
-**Applying a Simple SBI Formula:**
-Using the multiplicative form SBI(t) = (P·M) / R (simplified for illustration):
-- c. 150 CE: SBI ≈ (1.0 × 40) / 10 ≈ 4 (baseline)
-- c. 1500 CE: SBI ≈ (5.7 × 80) / 3 ≈ 152
-
-This represents a ~38-fold increase in brittleness over 1350 years, despite the system's continued predictive utility. The system was vulnerable to displacement by any alternative achieving comparable accuracy with lower complexity.
+Taken together, these qualitative trends paint a clear picture of a degenerating research program. While still functional, its compounding internal costs made it profoundly vulnerable to being replaced by a more resilient and efficient alternative.
 
 **Historical Outcome:** Copernican heliocentrism (1543) initially offered similar complexity but opened paths to Keplerian refinement (1609) which dramatically reduced both M(t) and P(t). By 1687, Newtonian synthesis achieved vastly superior R(t) through cross-domain unification.
 
-**Methodological Notes:** These estimates are illustrative, not definitive. A full empirical study would require systematic analysis of surviving manuscripts, publication records, and institutional documents. The key point: the framework is operationalizable through historical bibliometrics, making retrospective brittleness assessment feasible even with incomplete data.
+These qualitative descriptions are based on well-established historical scholarship. The framework is operationalizable through historical bibliometrics, making retrospective brittleness assessment feasible even with incomplete data.
 
-**Case 2: Contemporary AI Development.** Current deep learning paradigms may show early signs of rising brittleness. M(t) is visible in exponential escalation of parameter counts and computational resources for marginal performance gains (Sevilla et al. 2022). P(t) can be proxied by proliferating alignment and safety research, much functioning as post-hoc patches for emergent anomalous behaviors. These trends serve as potential warning signs inviting cautious comparison to past degenerating research programs.
+**Case 2: Contemporary AI Development.** Current deep learning paradigms could be analyzed for early signs of rising brittleness. For instance, one might assess **Model Complexity (M(t))** by examining the trend of dramatically escalating parameter counts and computational resources required for marginal performance gains. Likewise, one could interpret the proliferation of alignment and safety research not just as progress, but also as a potential indicator of rising **Patch Velocity (P(t))**—a growing need for post-hoc patches to manage emergent, anomalous behaviors. These trends, viewed through the EPC lens, serve as potential warning signs that invite cautious comparison to past degenerating research programs.
 
 Having established brittleness as our diagnostic concept, we now address the methodological challenge: how to measure these costs objectively without circularity.
 
@@ -212,7 +192,7 @@ No single indicator is immune to interpretive bias. Therefore, robust diagnosis 
 
 Diagnosis requires convergent baselines: e.g., rising mortality (diachronic), peer underperformance (comparative), and biological thresholds. This parallels climate science's multi-evidence convergence, achieving pragmatic objectivity for comparative evaluations.
 
-**Avoiding Circularity:** Defining "first-order outcomes" requires anchoring in physical, measurable consequences that are theory-independent where possible. For social systems, Tier 1 metrics (mortality, morbidity, resource depletion) can be measured without presupposing the values being tested. For epistemic systems, predictive success and unification can be tracked through citation patterns and cross-domain applications. The key is triangulation: multiple independent metrics converging provides confidence that diagnoses reflect underlying brittleness rather than observer bias.
+**Avoiding Circularity:** Defining "first-order outcomes" requires anchoring in physical, measurable consequences that are theory-independent where possible. For social systems, Tier 1 metrics (mortality, morbidity, resource depletion) can be measured without presupposing the values being tested. For knowledge systems, predictive success and unification can be tracked through citation patterns and cross-domain applications. The key is triangulation: multiple independent metrics converging provides confidence that diagnoses reflect underlying brittleness rather than observer bias.
 
 ### 3.4 Protocol in Action: An Operational Test for Coercive Overheads
 
@@ -239,18 +219,18 @@ Spending functions as coercive overhead when: increasing allocation correlates w
 
 Spending functions as productive investment when: increasing allocation correlates with falling First-Order Costs; returns are constant or increasing; it generates positive spillovers to other domains.
 
-**Concrete Example: Criminal Justice Spending**
+**Hypothetical Scenarios: Distinguishing Productive vs. Coercive Investment**
 
-Society A doubles police budget (year 1: 2% GDP → year 10: 4% GDP): Crime rates -40%, incarceration -20%, homicide -60%, community trust +35%, recidivism -25%. **Diagnosis:** Productive investment. Rising S correlates with falling First-Order Costs across multiple independent indicators.
+**Scenario 1: Productive Investment.** A system directs increasing resources into a specific function (e.g., public sanitation, scientific research). This investment is empirically correlated with a broad-based, sustained reduction in First-Order Costs (e.g., falling mortality rates from disease, rising rates of technological innovation). The returns are constant or increasing, and positive spillovers are generated in other domains. **Diagnosis:** The spending functions as a productive investment, improving the system's overall viability.
 
-Society B doubles police budget (year 1: 2% GDP → year 10: 4% GDP): Crime rates +5%, incarceration +300%, homicide -10%, community trust -50%, social instability +60%, by year 10 requires 6% GDP to maintain control. **Diagnosis:** Coercive overhead. Rising S correlates with rising total systemic costs despite some metrics improving. The system exhibits diminishing returns and requires accelerating expenditure.
+**Scenario 2: Coercive Overhead.** A system must allocate an accelerating amount of resources to a function simply to manage dysfunction and maintain baseline stability. The investment is characterized by diminishing returns, where ever-larger inputs are required to prevent systemic costs from rising further. It correlates with stagnant or worsening outcomes in key first-order indicators and generates negative spillovers like reduced trust or innovation. **Diagnosis:** The spending functions as coercive overhead—a secondary cost incurred to suppress the symptoms of a brittle primary system.
 
 **Why This Isn't Circular:** Classification emerges from empirical correlation patterns, not a priori definitions. We don't ask "what is policing's essential nature?" but "what measurable effects does this spending pattern have on systemic costs over time?" Robustness comes from convergent evidence. A single metric can be ambiguous, but when demographic indicators, economic output, innovation rates, stability metrics, and coercive spending ratios all move in the same direction, diagnosis becomes robust to interpretive variation. This is standard scientific methodology: identifying causal patterns through correlation across independent measurement streams, not through defining essences.
 
 
 ## 4. The Emergent Structure of Objectivity
 
-The logic of viability detailed in Section 3 selects for knowledge system evolution. We build the theory of objectivity this dynamic makes possible, showing how identifying high-brittleness systems provides rigorous, empirical, fundamentally negative methodology for charting pragmatically viable landscape.
+Having established diagnostic tools for assessing systemic brittleness, we now address the deeper question these tools enable: what structure emerges when we systematically eliminate high-brittleness systems? Section 3 provided the methodology for identifying failures. This section builds the theory of objectivity that systematic failure-analysis makes possible, showing how the logic of viability selects for knowledge system evolution and drives convergence toward an emergent structure: the Apex Network.
 
 ### 4.1 A Negative Methodology: Charting What Fails
 
@@ -321,7 +301,7 @@ Where A = Apex Network, W_k = possible world-systems (configurations of predicat
 
 The intersection of all maximally viable configurations reveals their shared structure. This shared structure survives all possible variations in historical path: the emergent, constraint-determined necessity arising from how reality is organized.
 
-This resolves the isolation objection. A coherent system detached from the Apex Network isn't merely false but structurally unstable. It will generate rising brittleness until it either adapts toward the Apex Network or collapses. Coherence alone is insufficient because reality's constraints force convergence.
+A coherent system detached from the Apex Network isn't merely false but structurally unstable. It will generate rising brittleness until it either adapts toward the Apex Network or collapses. Coherence alone is insufficient because reality's constraints force convergence.
 
 
 #### 4.2.2 Cross-Domain Convergence and Pluralism
@@ -359,14 +339,14 @@ If one insists on invoking logos, we accept with this specification: ours is nat
 
 **Implications**
 
-This clarification strengthens our response to the isolation objection. A coherent system detached from reality is impossible not because we have smuggled in metaphysical realism, but because the constraints generating pragmatic pushback are themselves features of the actual world. Our fallibilism remains intact—we never achieve certainty that our map matches the territory—but the territory itself possesses an objective structure determined by the constraints that constitute it.
+A coherent system detached from reality is impossible not because we have smuggled in metaphysical realism, but because the constraints generating pragmatic pushback are themselves features of the actual world. Our fallibilism remains intact. We never achieve certainty that our map matches the territory, but the territory itself possesses an objective structure determined by the constraints that constitute it.
 
 Discovery is painstaking, error-driven triangulation toward the configuration space that physical, biological, and logical necessity jointly determine. We are discovering a pre-determined implication, not a pre-existing thing. The distinction is subtle but preserves naturalism while grounding genuine objectivity in the constraint topology of the actual world.
 
 
 ### 4.3 A Three-Level Framework for Truth
 
-This emergent structure grounds a fallibilist but realist account of truth. It resolves the isolation objection and clarifies a documented tension in Quine's thought between truth as immanent to our best theory and truth as a transcendent regulative ideal (Tauriainen 2017). Our framework shows these are not contradictory but two necessary components of a naturalistic epistemology. It reframes truth as a status propositions earn through increasingly rigorous stages of validation.
+This emergent structure grounds a fallibilist but realist account of truth. It clarifies a documented tension in Quine's thought between truth as immanent to our best theory and truth as a transcendent regulative ideal (Tauriainen 2017). Our framework shows these are not contradictory but two necessary components of a naturalistic epistemology. It reframes truth as a status propositions earn through increasingly rigorous stages of validation.
 
 * **Level 3: Contextual Coherence.** The baseline status for any claim. A proposition is coherent within a specific Shared Network, regardless of that network's long-term viability. This level explains the internal rationality of failed or fictional systems, but the framework's externalist check, the assessment of systemic brittleness, prevents this from being mistaken for justified truth.
 * **Level 2: Justified Truth.** The highest epistemic status practically achievable. A proposition is justified as true if it is certified by a Consensus Network that has a demonstrated track record of low systemic brittleness. For all rational purposes, we are licensed to treat such claims as true. The diagnosed health of the certifying network provides powerful higher-order evidence that functions as a defeater for radical skepticism. To doubt a claim at this level, without new evidence of rising brittleness, is to doubt the entire adaptive project of science itself.
@@ -418,7 +398,7 @@ This resolves the classical tension between Quine's holism (all claims are revis
 
 Quine's "Web of Belief" (Quine 1951, 1960) provided a powerful static model of confirmational holism, but it has been criticized for lacking a dynamic account of its formation and change. Our framework provides the missing mechanisms.
 
-First, pragmatic pushback supplies the externalist filter that grounds the web in mind-independent reality, decisively solving the isolation objection that haunts purely internalist readings. This relentless, non-discursive filter of real-world consequences prevents the web from floating free of constraints.
+First, pragmatic pushback supplies the externalist filter that grounds the web in mind-independent reality. This relentless, non-discursive filter of real-world consequences prevents the web from floating free of constraints.
 
 Second, the entrenchment of pragmatically indispensable principles in the system's core provides a directed learning mechanism. A proposition migrates to the core not by convention but because it has demonstrated immense value in lowering the entire network's systemic brittleness, making its revision catastrophically costly. This process, driven by bounded rationality (March 1978), functions as systemic caching: proven principles are preserved to avoid re-derivation costs.
 
@@ -457,7 +437,7 @@ Finally, it is necessary to distinguish this high-brittleness fitness trap from 
 
 ## 5. Applications: Mathematics as a Paradigm Case of Internal Brittleness
 
-Naturalistic epistemologies often treat mathematics as a boundary problem—how can we account for a priori knowledge without appealing to Platonic forms? This framework shows mathematics is not a problematic edge case but its purest illustration: a paradigm demonstration of how pragmatic selection operates when feedback is entirely internal to the system.
+The framework developed thus far relies primarily on examples from empirical science and social systems, where pragmatic pushback manifests through observable failures in the external world. A natural objection arises: what about abstract domains like mathematics, where empirical falsification seems irrelevant? Naturalistic epistemologies often treat mathematics as a boundary problem. This section shows mathematics is not a problematic edge case but the framework's purest illustration, demonstrating how pragmatic selection operates when feedback is entirely internal to the system.
 
 **The Core Insight:** Mathematical frameworks face pragmatic pushback through internal inefficiency rather than external falsification.
 
@@ -833,7 +813,7 @@ To preempt misunderstandings and demonstrate the framework's resilience, we stee
 
 ## 8. Conclusion
 
-We develop Emergent Pragmatic Coherentism as a response to the isolation objection facing coherentist theories of justification. Grounding coherence in long-term viability of knowledge systems rather than internal consistency alone provides the external constraint coherentism requires while preserving its holistic insights. The concept of systemic brittleness offers a naturalistic diagnostic tool for evaluating epistemic systems, while the notion of a constraint-determined Apex Network explains how objective knowledge can arise from fallible human practices.
+We develop Emergent Pragmatic Coherentism as a response to the isolation objection facing coherentist theories of justification. Grounding coherence in long-term viability of knowledge systems rather than internal consistency alone provides the external constraint coherentism requires while preserving its holistic insights. The concept of systemic brittleness offers a naturalistic diagnostic tool for evaluating knowledge systems, while the notion of a constraint-determined Apex Network explains how objective knowledge can arise from fallible human practices.
 
 Systematically studying the record of failed systems discerns the contours of the Apex Network: the emergent set of maximally convergent, pragmatically indispensable principles that successful inquiry is forced to discover. This yields Systemic Externalism, a novel approach for resolving long-standing problems in post-Quinean epistemology by grounding justification in the non-discursive filter of systemic consequences.
 
@@ -877,11 +857,11 @@ In modern contexts, for authoritarian regimes suppressing dissent, C(t) includes
 
 ### B.3 Pre-Registered Study Design
 
-We propose a pre-registered study: Analyze 50 historical epistemic systems (e.g., paradigms in physics, economics) facing exogenous shocks (e.g., experimental anomalies, economic crises). Measure pre-shock brittleness scores (composite of P(t), C(t), M(t), R(t)). Predict collapse/restructuring within 20 years if composite score > 0.7. Hypothesis: Correlation r > 0.6 (p < 0.05). Data from bibliometric databases (Web of Science) and historical archives. This design allows falsification if no correlation emerges.
+We propose a pre-registered study: Analyze 50 historical knowledge systems (e.g., paradigms in physics, economics) facing exogenous shocks (e.g., experimental anomalies, economic crises). Measure pre-shock brittleness scores (composite of P(t), C(t), M(t), R(t)). Predict collapse/restructuring within 20 years if composite score > 0.7. Hypothesis: Correlation r > 0.6 (p < 0.05). Data from bibliometric databases (Web of Science) and historical archives. This design allows falsification if no correlation emerges.
 
 ## Appendix C: A Mathematical Model of Epistemic Viability
 
-*(This appendix provides a provisional formalization of the core concepts in EPC. It is intended to demonstrate the theory's formalizability and ground a future empirical research program, not to serve as a final, validated model.)*
+This appendix formalizes the core concepts in EPC to demonstrate the theory's formalizability and ground a future empirical research program. The functional forms and parameter values presented here require empirical validation through historical analysis.
 
 ### C.1 Set-Theoretic Foundation
 
@@ -915,7 +895,7 @@ A = ∩{W_k | V(W_k) = 1} over all possible contexts and times
 
 ### C.2 The Systemic Brittleness Index
 
-SBI(t) is a composite index quantifying accumulated systemic costs. We propose three candidate functional forms, each with distinct theoretical motivation and testable predictions.
+SBI(t) is a composite index quantifying accumulated systemic costs. We present three functional forms, each with distinct theoretical motivation and testable predictions.
 
 **Key Components:**
 
@@ -931,14 +911,14 @@ SBI(t) is a composite index quantifying accumulated systemic costs. We propose t
 **R(t) - Resilience Reserve:** Accumulated robust principles buffering against shocks
 - Proxy: Breadth of independent confirmations, age of stable core
 
-**Candidate Functional Forms:**
+**Functional Forms:**
 
-**Form 1: Multiplicative Compounding Model**
+**Form 1: Multiplicative Model**
 ```
 SBI(t) = (P^α · C^β · M^γ) / R^δ
 ```
 
-**Rationale:** Captures interaction effects where high values in multiple dimensions compound non-linearly. A system with both high complexity AND high patch velocity is more brittle than the sum would suggest.
+**Rationale:** Captures interaction effects where high values in multiple dimensions compound non-linearly. A system with both high complexity AND high patch velocity is more brittle than the sum would suggest. (This form could be used to model compounding effects, where brittleness dimensions interact and accelerate).
 
 **Predictions:** Brittleness accelerates when multiple indicators rise simultaneously. Systems can tolerate high values in one dimension if others remain low.
 
@@ -976,9 +956,7 @@ These forms make distinct predictions testable through historical analysis:
 4. Compare predictive accuracy using cross-validation
 5. Use information criteria (AIC/BIC) to select best-fitting form
 
-The Ptolemaic case (Section 2.4) illustrates how such data can be assembled from historical records. A full research program would systematically extend this approach.
-
-**Current Status:** These are research proposals requiring empirical validation. Form 1 was used illustratively in the Ptolemaic example, but all three remain viable pending systematic testing. The framework's falsifiability depends on committing to specific functional forms and comparing predictions to data.
+The Ptolemaic case (Section 2.4) illustrates how such data can be assembled from historical records. A full research program would systematically extend this approach. The framework's falsifiability depends on committing to specific functional forms and comparing predictions to data.
 
 ### C.3 Dynamics: Stochastic Differential Equations
 
@@ -1013,9 +991,7 @@ The Ptolemaic case provides a template: with systematic bibliometric coding, we 
 
 **Predictive Utility:**
 
-Once parameters are empirically estimated, the formulation enables probabilistic predictions: "System X has P% chance of crisis within Y years given current trajectory." This transforms brittleness from retrospective diagnosis to prospective risk assessment.
-
-**Current Status:** The SDE formulation is a research proposal demonstrating the framework's formalizability. Actual parameter values await systematic empirical work. The framework's scientific credibility depends on executing this program and comparing predictions to outcomes.
+Once parameters are empirically estimated, the formulation enables probabilistic predictions: "System X has P% chance of crisis within Y years given current trajectory." This transforms brittleness from retrospective diagnosis to prospective risk assessment. The framework's scientific credibility depends on executing this program and comparing predictions to outcomes.
 
 ## References
 
