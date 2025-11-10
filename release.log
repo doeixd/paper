@@ -635,3 +635,286 @@
 2025-10-10 12:28:19,034 - INFO - SUCCESS! Release complete in 0.7s
 2025-10-10 12:28:19,034 - INFO - Final PDF: The_Architecture_of_Failure.pdf (217833 bytes)
 2025-10-10 12:28:19,034 - INFO - Release completed successfully: The_Architecture_of_Failure.pdf
+2025-10-10 12:30:56,484 - INFO - Successfully imported paper_converter
+2025-10-10 12:30:56,485 - INFO - Successfully imported pdf_assembler
+2025-10-10 12:30:57,256 - INFO - Input validation passed: final.md (128927 bytes)
+2025-10-10 12:30:57,258 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251010_123057.pdf
+2025-10-10 12:30:57,258 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 12:30:57,258 - INFO - Input: final.md
+2025-10-10 12:30:57,258 - INFO - Output: releases\final.pdf
+2025-10-10 12:30:57,258 - INFO - Format: typst
+2025-10-10 12:30:57,258 - INFO - Config: 0 validation errors
+2025-10-10 12:30:57,258 - INFO - Converting markdown to target format...
+2025-10-10 12:30:57,259 - INFO - Extracting citations...
+2025-10-10 12:30:57,267 - INFO - Found 84 citations
+2025-10-10 12:30:57,267 - INFO - Loading and processing references...
+2025-10-10 12:30:57,269 - INFO - Loaded 811 reference entries
+2025-10-10 12:30:57,280 - INFO - Generated 68 references (strategy: filter)
+2025-10-10 12:30:57,280 - WARNING - 2 citations not found in references.md
+2025-10-10 12:30:57,281 - INFO - Combining paper with filtered references...
+2025-10-10 12:30:57,306 - INFO - Combined file created: 128435 bytes
+2025-10-10 12:30:57,306 - INFO - Converting to typst format...
+2025-10-10 12:30:57,702 - INFO - Target file created: 134818 bytes
+2025-10-10 12:30:57,702 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-10 12:30:57,702 - INFO - Generating PDF with attachments...
+2025-10-10 12:30:57,702 - INFO - Main document: final_combined.typst
+2025-10-10 12:30:57,720 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-10 12:30:57,993 - INFO - Converted to PDF: final_combined.pdf
+2025-10-10 12:30:57,995 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-10 12:30:57,995 - INFO - PDF generation successful: 217833 bytes
+2025-10-10 12:30:57,995 - INFO - Adding metadata to PDF...
+2025-10-10 12:30:57,995 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 12:30:57,995 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 12:30:57,996 - INFO - Validated final PDF: releases\final.pdf (217833 bytes)
+2025-10-10 12:30:57,996 - INFO - Starting cleanup...
+2025-10-10 12:30:57,997 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 12:30:57,998 - INFO - SUCCESS! Release complete in 0.7s
+2025-10-10 12:30:57,998 - INFO - Final PDF: releases\final.pdf (217833 bytes)
+2025-10-10 12:30:57,998 - INFO - Release completed successfully: releases\final.pdf
+2025-10-10 12:39:33,097 - INFO - Successfully imported paper_converter
+2025-10-10 12:39:33,098 - INFO - Successfully imported pdf_assembler
+2025-10-10 12:39:33,879 - INFO - Input validation passed: final.md (128927 bytes)
+2025-10-10 12:39:33,884 - INFO - Backed up existing file: The_Architecture_of_Failure.pdf -> backups\The_Architecture_of_Failure_20251010_123933.pdf
+2025-10-10 12:39:33,884 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 12:39:33,884 - INFO - Input: final.md
+2025-10-10 12:39:33,885 - INFO - Output: The_Architecture_of_Failure.pdf
+2025-10-10 12:39:33,885 - INFO - Format: typst
+2025-10-10 12:39:33,885 - INFO - Config: 0 validation errors
+2025-10-10 12:39:33,885 - INFO - Converting markdown to target format...
+2025-10-10 12:39:33,885 - INFO - Extracting citations...
+2025-10-10 12:39:33,893 - INFO - Found 84 citations
+2025-10-10 12:39:33,893 - INFO - Loading and processing references...
+2025-10-10 12:39:33,894 - INFO - Loaded 811 reference entries
+2025-10-10 12:39:33,905 - INFO - Generated 69 references (strategy: filter)
+2025-10-10 12:39:33,906 - WARNING - 1 citations not found in references.md
+2025-10-10 12:39:33,906 - INFO - Combining paper with filtered references...
+2025-10-10 12:39:33,928 - INFO - Combined file created: 128598 bytes
+2025-10-10 12:39:33,928 - INFO - Converting to typst format...
+2025-10-10 12:39:34,295 - INFO - Target file created: 134991 bytes
+2025-10-10 12:39:34,295 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-10 12:39:34,295 - INFO - Generating PDF with attachments...
+2025-10-10 12:39:34,295 - INFO - Main document: final_combined.typst
+2025-10-10 12:39:34,311 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-10 12:39:34,576 - INFO - Converted to PDF: final_combined.pdf
+2025-10-10 12:39:34,577 - INFO - Copied single PDF to: The_Architecture_of_Failure.pdf
+2025-10-10 12:39:34,577 - INFO - PDF generation successful: 218047 bytes
+2025-10-10 12:39:34,577 - INFO - Adding metadata to PDF...
+2025-10-10 12:39:34,577 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 12:39:34,577 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 12:39:34,578 - INFO - Validated final PDF: The_Architecture_of_Failure.pdf (218047 bytes)
+2025-10-10 12:39:34,578 - INFO - Starting cleanup...
+2025-10-10 12:39:34,579 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 12:39:34,579 - INFO - SUCCESS! Release complete in 0.7s
+2025-10-10 12:39:34,579 - INFO - Final PDF: The_Architecture_of_Failure.pdf (218047 bytes)
+2025-10-10 12:39:34,579 - INFO - Release completed successfully: The_Architecture_of_Failure.pdf
+2025-10-10 12:54:48,229 - INFO - Successfully imported paper_converter
+2025-10-10 12:54:48,230 - INFO - Successfully imported pdf_assembler
+2025-10-10 12:54:49,015 - INFO - Input validation passed: final.md (128927 bytes)
+2025-10-10 12:54:49,017 - INFO - Backed up existing file: The_Architecture_of_Failure.pdf -> backups\The_Architecture_of_Failure_20251010_125449.pdf
+2025-10-10 12:54:49,017 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 12:54:49,017 - INFO - Input: final.md
+2025-10-10 12:54:49,017 - INFO - Output: The_Architecture_of_Failure.pdf
+2025-10-10 12:54:49,017 - INFO - Format: typst
+2025-10-10 12:54:49,017 - INFO - Config: 0 validation errors
+2025-10-10 12:54:49,017 - INFO - Converting markdown to target format...
+2025-10-10 12:54:49,017 - INFO - Extracting citations...
+2025-10-10 12:54:49,026 - INFO - Found 84 citations
+2025-10-10 12:54:49,026 - INFO - Loading and processing references...
+2025-10-10 12:54:49,027 - INFO - Loaded 811 reference entries
+2025-10-10 12:54:49,039 - INFO - Generated 69 references (strategy: filter)
+2025-10-10 12:54:49,039 - WARNING - 1 citations not found in references.md
+2025-10-10 12:54:49,039 - INFO - Combining paper with filtered references...
+2025-10-10 12:54:49,060 - INFO - Combined file created: 128598 bytes
+2025-10-10 12:54:49,060 - INFO - Converting to typst format...
+2025-10-10 12:54:49,429 - INFO - Target file created: 134991 bytes
+2025-10-10 12:54:49,429 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-10 12:54:49,429 - INFO - Generating PDF with attachments...
+2025-10-10 12:54:49,429 - INFO - Main document: final_combined.typst
+2025-10-10 12:54:49,446 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-10 12:54:49,711 - INFO - Converted to PDF: final_combined.pdf
+2025-10-10 12:54:49,712 - INFO - Copied single PDF to: The_Architecture_of_Failure.pdf
+2025-10-10 12:54:49,712 - INFO - PDF generation successful: 218047 bytes
+2025-10-10 12:54:49,712 - INFO - Adding metadata to PDF...
+2025-10-10 12:54:49,712 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 12:54:49,712 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 12:54:49,712 - INFO - Validated final PDF: The_Architecture_of_Failure.pdf (218047 bytes)
+2025-10-10 12:54:49,713 - INFO - Starting cleanup...
+2025-10-10 12:54:49,714 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 12:54:49,714 - INFO - SUCCESS! Release complete in 0.7s
+2025-10-10 12:54:49,714 - INFO - Final PDF: The_Architecture_of_Failure.pdf (218047 bytes)
+2025-10-10 12:54:49,714 - INFO - Release completed successfully: The_Architecture_of_Failure.pdf
+2025-10-10 12:56:52,390 - INFO - Successfully imported paper_converter
+2025-10-10 12:56:52,391 - INFO - Successfully imported pdf_assembler
+2025-10-10 12:56:53,150 - INFO - Input validation passed: final.md (128927 bytes)
+2025-10-10 12:56:53,150 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 12:56:53,150 - INFO - Input: final.md
+2025-10-10 12:56:53,151 - INFO - Output: The_Architecture_of_Failure.pdf
+2025-10-10 12:56:53,151 - INFO - Format: typst
+2025-10-10 12:56:53,151 - INFO - Config: 0 validation errors
+2025-10-10 12:56:53,151 - INFO - Converting markdown to target format...
+2025-10-10 12:56:53,151 - INFO - Extracting citations...
+2025-10-10 12:56:53,162 - INFO - Found 85 citations
+2025-10-10 12:56:53,163 - INFO - Loading and processing references...
+2025-10-10 12:56:53,164 - INFO - Loaded 978 reference entries
+2025-10-10 12:56:53,165 - INFO - Generated 69 references (strategy: filter)
+2025-10-10 12:56:53,165 - INFO - Combining paper with filtered references...
+2025-10-10 12:56:53,189 - INFO - Combined file created: 128729 bytes
+2025-10-10 12:56:53,189 - INFO - Converting to typst format...
+2025-10-10 12:56:53,554 - INFO - Target file created: 135124 bytes
+2025-10-10 12:56:53,555 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-10 12:56:53,555 - INFO - Generating PDF with attachments...
+2025-10-10 12:56:53,555 - INFO - Main document: final_combined.typst
+2025-10-10 12:56:53,570 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-10 12:56:53,842 - INFO - Converted to PDF: final_combined.pdf
+2025-10-10 12:56:53,844 - INFO - Copied single PDF to: The_Architecture_of_Failure.pdf
+2025-10-10 12:56:53,844 - INFO - PDF generation successful: 218196 bytes
+2025-10-10 12:56:53,844 - INFO - Adding metadata to PDF...
+2025-10-10 12:56:53,844 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 12:56:53,844 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 12:56:53,845 - INFO - Validated final PDF: The_Architecture_of_Failure.pdf (218196 bytes)
+2025-10-10 12:56:53,845 - INFO - Starting cleanup...
+2025-10-10 12:56:53,846 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 12:56:53,847 - INFO - SUCCESS! Release complete in 0.7s
+2025-10-10 12:56:53,847 - INFO - Final PDF: The_Architecture_of_Failure.pdf (218196 bytes)
+2025-10-10 12:56:53,847 - INFO - Release completed successfully: The_Architecture_of_Failure.pdf
+2025-10-10 13:22:35,517 - INFO - Successfully imported paper_converter
+2025-10-10 13:22:35,518 - INFO - Successfully imported pdf_assembler
+2025-10-10 13:22:36,295 - INFO - Input validation passed: final.md (130007 bytes)
+2025-10-10 13:22:36,297 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251010_132236.pdf
+2025-10-10 13:22:36,297 - INFO - Starting Academic Paper Release Pipeline
+2025-10-10 13:22:36,298 - INFO - Input: final.md
+2025-10-10 13:22:36,298 - INFO - Output: releases\final.pdf
+2025-10-10 13:22:36,298 - INFO - Format: typst
+2025-10-10 13:22:36,298 - INFO - Config: 0 validation errors
+2025-10-10 13:22:36,298 - INFO - Converting markdown to target format...
+2025-10-10 13:22:36,298 - INFO - Extracting citations...
+2025-10-10 13:22:36,310 - INFO - Found 86 citations
+2025-10-10 13:22:36,310 - INFO - Loading and processing references...
+2025-10-10 13:22:36,312 - INFO - Loaded 978 reference entries
+2025-10-10 13:22:36,323 - INFO - Generated 69 references (strategy: filter)
+2025-10-10 13:22:36,323 - INFO - Combining paper with filtered references...
+2025-10-10 13:22:36,351 - INFO - Combined file created: 129809 bytes
+2025-10-10 13:22:36,351 - INFO - Converting to typst format...
+2025-10-10 13:22:36,721 - INFO - Target file created: 136216 bytes
+2025-10-10 13:22:36,721 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-10 13:22:36,721 - INFO - Generating PDF with attachments...
+2025-10-10 13:22:36,722 - INFO - Main document: final_combined.typst
+2025-10-10 13:22:36,737 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-10 13:22:37,021 - INFO - Converted to PDF: final_combined.pdf
+2025-10-10 13:22:37,022 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-10 13:22:37,023 - INFO - PDF generation successful: 219376 bytes
+2025-10-10 13:22:37,023 - INFO - Adding metadata to PDF...
+2025-10-10 13:22:37,023 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-10 13:22:37,023 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-10 13:22:37,023 - INFO - Validated final PDF: releases\final.pdf (219376 bytes)
+2025-10-10 13:22:37,023 - INFO - Starting cleanup...
+2025-10-10 13:22:37,024 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-10 13:22:37,025 - INFO - SUCCESS! Release complete in 0.7s
+2025-10-10 13:22:37,025 - INFO - Final PDF: releases\final.pdf (219376 bytes)
+2025-10-10 13:22:37,025 - INFO - Release completed successfully: releases\final.pdf
+2025-10-20 10:59:53,064 - INFO - Successfully imported paper_converter
+2025-10-20 10:59:53,065 - INFO - Successfully imported pdf_assembler
+2025-10-20 10:59:55,807 - INFO - Input validation passed: final.md (141310 bytes)
+2025-10-20 10:59:55,810 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251020_105955.pdf
+2025-10-20 10:59:55,810 - INFO - Starting Academic Paper Release Pipeline
+2025-10-20 10:59:55,810 - INFO - Input: final.md
+2025-10-20 10:59:55,810 - INFO - Output: releases\final.pdf
+2025-10-20 10:59:55,810 - INFO - Format: typst
+2025-10-20 10:59:55,810 - INFO - Config: 0 validation errors
+2025-10-20 10:59:55,810 - INFO - Converting markdown to target format...
+2025-10-20 10:59:55,810 - INFO - Extracting citations...
+2025-10-20 10:59:55,824 - INFO - Found 96 citations
+2025-10-20 10:59:55,824 - INFO - Loading and processing references...
+2025-10-20 10:59:55,826 - INFO - Loaded 1002 reference entries
+2025-10-20 10:59:55,827 - INFO - Generated 73 references (strategy: filter)
+2025-10-20 10:59:55,827 - WARNING - 3 citations not found in references.md
+2025-10-20 10:59:55,827 - INFO - Combining paper with filtered references...
+2025-10-20 10:59:55,847 - INFO - Combined file created: 141734 bytes
+2025-10-20 10:59:55,847 - INFO - Converting to typst format...
+2025-10-20 10:59:56,757 - INFO - Target file created: 148550 bytes
+2025-10-20 10:59:56,757 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-20 10:59:56,757 - INFO - Generating PDF with attachments...
+2025-10-20 10:59:56,757 - INFO - Main document: final_combined.typst
+2025-10-20 10:59:56,771 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-20 10:59:59,079 - INFO - Converted to PDF: final_combined.pdf
+2025-10-20 10:59:59,080 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-20 10:59:59,080 - INFO - PDF generation successful: 234676 bytes
+2025-10-20 10:59:59,080 - INFO - Adding metadata to PDF...
+2025-10-20 10:59:59,080 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-20 10:59:59,080 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-20 10:59:59,080 - INFO - Validated final PDF: releases\final.pdf (234676 bytes)
+2025-10-20 10:59:59,081 - INFO - Starting cleanup...
+2025-10-20 10:59:59,081 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-20 10:59:59,082 - INFO - SUCCESS! Release complete in 3.3s
+2025-10-20 10:59:59,082 - INFO - Final PDF: releases\final.pdf (234676 bytes)
+2025-10-20 10:59:59,082 - INFO - Release completed successfully: releases\final.pdf
+2025-10-20 11:03:45,671 - INFO - Successfully imported paper_converter
+2025-10-20 11:03:45,672 - INFO - Successfully imported pdf_assembler
+2025-10-20 11:03:46,361 - INFO - Input validation passed: final.md (141313 bytes)
+2025-10-20 11:03:46,366 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251020_110346.pdf
+2025-10-20 11:03:46,366 - INFO - Starting Academic Paper Release Pipeline
+2025-10-20 11:03:46,366 - INFO - Input: final.md
+2025-10-20 11:03:46,366 - INFO - Output: releases\final.pdf
+2025-10-20 11:03:46,366 - INFO - Format: typst
+2025-10-20 11:03:46,366 - INFO - Config: 0 validation errors
+2025-10-20 11:03:46,367 - INFO - Converting markdown to target format...
+2025-10-20 11:03:46,367 - INFO - Extracting citations...
+2025-10-20 11:03:46,379 - INFO - Found 96 citations
+2025-10-20 11:03:46,379 - INFO - Loading and processing references...
+2025-10-20 11:03:46,380 - INFO - Loaded 1010 reference entries
+2025-10-20 11:03:46,381 - INFO - Generated 74 references (strategy: filter)
+2025-10-20 11:03:46,381 - INFO - Combining paper with filtered references...
+2025-10-20 11:03:46,401 - INFO - Combined file created: 141875 bytes
+2025-10-20 11:03:46,401 - INFO - Converting to typst format...
+2025-10-20 11:03:46,730 - INFO - Target file created: 148698 bytes
+2025-10-20 11:03:46,731 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-20 11:03:46,731 - INFO - Generating PDF with attachments...
+2025-10-20 11:03:46,731 - INFO - Main document: final_combined.typst
+2025-10-20 11:03:46,745 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-20 11:03:47,007 - INFO - Converted to PDF: final_combined.pdf
+2025-10-20 11:03:47,009 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-20 11:03:47,009 - INFO - PDF generation successful: 234846 bytes
+2025-10-20 11:03:47,009 - INFO - Adding metadata to PDF...
+2025-10-20 11:03:47,009 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-20 11:03:47,009 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-20 11:03:47,009 - INFO - Validated final PDF: releases\final.pdf (234846 bytes)
+2025-10-20 11:03:47,009 - INFO - Starting cleanup...
+2025-10-20 11:03:47,010 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-20 11:03:47,010 - INFO - SUCCESS! Release complete in 0.7s
+2025-10-20 11:03:47,010 - INFO - Final PDF: releases\final.pdf (234846 bytes)
+2025-10-20 11:03:47,010 - INFO - Release completed successfully: releases\final.pdf
+2025-10-20 15:07:07,305 - INFO - Successfully imported paper_converter
+2025-10-20 15:07:07,306 - INFO - Successfully imported pdf_assembler
+2025-10-20 15:07:08,165 - INFO - Input validation passed: final.md (144157 bytes)
+2025-10-20 15:07:08,168 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251020_150708.pdf
+2025-10-20 15:07:08,168 - INFO - Starting Academic Paper Release Pipeline
+2025-10-20 15:07:08,168 - INFO - Input: final.md
+2025-10-20 15:07:08,168 - INFO - Output: releases\final.pdf
+2025-10-20 15:07:08,168 - INFO - Format: typst
+2025-10-20 15:07:08,168 - INFO - Config: 0 validation errors
+2025-10-20 15:07:08,168 - INFO - Converting markdown to target format...
+2025-10-20 15:07:08,168 - INFO - Extracting citations...
+2025-10-20 15:07:08,182 - INFO - Found 94 citations
+2025-10-20 15:07:08,182 - INFO - Loading and processing references...
+2025-10-20 15:07:08,184 - INFO - Loaded 1010 reference entries
+2025-10-20 15:07:08,185 - INFO - Generated 72 references (strategy: filter)
+2025-10-20 15:07:08,185 - INFO - Combining paper with filtered references...
+2025-10-20 15:07:08,207 - INFO - Combined file created: 144349 bytes
+2025-10-20 15:07:08,207 - INFO - Converting to typst format...
+2025-10-20 15:07:08,630 - INFO - Target file created: 151308 bytes
+2025-10-20 15:07:08,630 - INFO - Successfully converted to typst: final_combined.typst
+2025-10-20 15:07:08,630 - INFO - Generating PDF with attachments...
+2025-10-20 15:07:08,630 - INFO - Main document: final_combined.typst
+2025-10-20 15:07:08,648 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-10-20 15:07:08,965 - INFO - Converted to PDF: final_combined.pdf
+2025-10-20 15:07:08,966 - INFO - Copied single PDF to: releases\final.pdf
+2025-10-20 15:07:08,966 - INFO - PDF generation successful: 236286 bytes
+2025-10-20 15:07:08,966 - INFO - Adding metadata to PDF...
+2025-10-20 15:07:08,966 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-10-20 15:07:08,967 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-10-20 15:07:08,967 - INFO - Validated final PDF: releases\final.pdf (236286 bytes)
+2025-10-20 15:07:08,967 - INFO - Starting cleanup...
+2025-10-20 15:07:08,968 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-10-20 15:07:08,968 - INFO - SUCCESS! Release complete in 0.8s
+2025-10-20 15:07:08,968 - INFO - Final PDF: releases\final.pdf (236286 bytes)
+2025-10-20 15:07:08,968 - INFO - Release completed successfully: releases\final.pdf

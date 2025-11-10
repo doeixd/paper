@@ -1,16 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git commit -m \"$(cat <<''EOF''\nAdd Plantinga references for section 6.4\n\nThis commit adds two new references by Alvin Plantinga to both references.md \nand grok_ref.md to support the newly added section 6.4 on the Evolutionary \nArgument Against Naturalism (EAAN).\n\nReferences added:\n\n1. Plantinga, Alvin. 1993. *Warrant and Proper Function*. New York: Oxford \nUniversity Press. ISBN 9780195078640.\n\nDevelops Plantinga''s proper function theory of warrant, arguing that beliefs \nare warranted when produced by cognitive faculties functioning properly in an \nappropriate environment according to a design plan successfully aimed at truth. \nCentral to his EAAN argument.\n\n2. Plantinga, Alvin. 2011. *Where the Conflict Really Lies: Science, Religion, \nand Naturalism*. New York: Oxford University Press. ISBN 9780199812097.\n\nArgues for superficial conflict but deep concord between science and theistic \nreligion, while showing superficial concord but deep conflict between science \nand naturalism. Extensively develops EAAN, arguing that naturalistic evolution \nundermines the reliability of our cognitive faculties.\n\nChanges to references.md:\n- Added both entries in alphabetical order between Peter (2024) and Popper (1959)\n- Included full bibliographic information with ISBNs\n\nChanges to grok_ref.md:\n- Added both entries as #59 and #60 with descriptive annotations\n- Renumbered all subsequent entries from 59-91 to 61-93\n- Maintained consistent formatting and numbering structure\n- Included explanatory notes about proper function theory and EAAN\n\nBoth references were verified through web search for accuracy of publication \ndetails, ISBNs, and content descriptions.\nEOF\n)\")",
-      "Bash(python:*)",
-      "Bash(tee:*)",
-      "Bash(pandoc:*)",
-      "Bash(for author in \"Plantinga, Alvin. 1993\" \"Plantinga, Alvin. 2011\" \"Goldman, Alvin\" \"Quine, W. V. O\" \"Kuhn, Thomas\" \"Lakatos, Imre\" \"Laudan, Larry\")",
-      "Bash(do if pdftotext releases/final.pdf -)",
-      "Bash(then echo \"✓ $author\")",
-      "Bash(else echo \"✗ MISSING: $author\")",
-      "Bash(fi)",
-      "Bash(done)"
+      "Bash(git add final.md \"edits/2025-10-20 - 15-01 - Appendix C Philosophical Framing Completed.md\")"
     ],
     "deny": [],
     "ask": []
