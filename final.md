@@ -40,87 +40,39 @@ The framework incorporates power, path dependence, and contingency as key variab
 
 The framework targets cumulative knowledge systems where inter-generational claims and pragmatic feedback enable evaluation. It provides macro-level foundations for individual higher-order evidence (Section 7), not solutions to Gettier cases or basic perception.
 
-### Glossary
-- Apex Network: The emergent, objective structure of maximally viable solutions determined by mind-independent pragmatic constraints.
-- Brittleness: Accumulated systemic costs; a measure of a system's vulnerability to cascading failures and inability to maintain viability under external or internal pressure.
-- Constrained Interpretation: A methodology for assessing brittleness by anchoring analysis in physical constraints, comparative history, and convergent evidence to achieve pragmatic objectivity.
-- Convergent Core: The load-bearing foundations of current knowledge comprising domains where pragmatic selection has eliminated all known rival formulations, leaving a single low-brittleness set of principles functionally unrevisable in practice.
-- Emergent Pragmatic Coherentism: Framework grounding coherence in demonstrated viability of entire knowledge systems rather than internal consistency alone.
-- Modal Necessity (of Apex Network): The Apex Network's necessity is functional rather than metaphysical. It is determined by reality's constraint structure such that any sufficiently comprehensive exploration of viable configurations must converge toward it, just as π is necessarily determined by Euclidean geometry's constraints. (See Section 4.2 for full discussion.)
-- Negative Canon: The historical record of invalidated principles and collapsed systems, cataloguing both epistemic brittleness (causal failures like phlogiston) and normative brittleness (social failures requiring rising coercive overheads like slavery).
-- Pluralist Frontier: Domains of active research where evidence is insufficient to eliminate all rival systems; each viable contender exhibits demonstrably low and stable brittleness yet multiple stable configurations remain possible.
-- Pragmatic Objectivity: Objectivity sufficient for comparative assessment, achieved through convergent evidence from independent metrics without assuming a neutral viewpoint.
-- Standing Predicate: Reusable, action-guiding conceptual tool within propositions (e.g., "...is an infectious disease"); a Standing Predicate functions as a "gene" of cultural evolution, unpacking validated suites of knowledge when applied.
+### 1.2 Key Terminology
+
+This paper develops several core concepts. **Systemic brittleness** refers to the accumulated costs that signal a knowledge system's vulnerability. A **disposition to assent** is a behavioral readiness to affirm a sentence. The conscious awareness of such a disposition is what we functionally identify as a **belief**. The articulated sentence that a disposition is about serves as a **functional proposition**. When such a claim is socially validated, it may become a **Standing Predicate**: a reusable conceptual tool. The **Apex Network** is the emergent, objective structure of maximally viable dispositional patterns. For a complete glossary, see Appendix B.
 
 ## 2. The Core Concepts: Units of Epistemic Selection
 
 Understanding how knowledge systems evolve and thrive while others collapse requires assessing their structural health. A naturalistic theory needs functional tools for this analysis, moving beyond internal consistency to gauge resilience against real-world pressures. Following complex systems theory (Meadows 2008), this section traces how private belief becomes a public, functional component of knowledge systems.
 
-### 2.1 Grounding Knowledge in Observable Behavior: The Quinean Foundation
+### 2.1 From Individual Dispositions to Functional Propositions: A Naturalistic Progression
 
-Following Quine's call to naturalize epistemology (Quine 1969), we ground our analysis in publicly observable patterns of linguistic behavior rather than in private mental states. This deflationary starting point makes knowledge tractable for empirical investigation while remaining fully naturalistic. By beginning with behavioral dispositions rather than mental representations, we avoid the foundationalist trap of positing "given" contents while providing a rigorous bridge from individual psychology to public knowledge systems.
+Following Quine's call to naturalize epistemology (Quine 1969), our framework is grounded not in private mental states with propositional content, but in publicly observable behavior. To bridge from individual behavior to public knowledge systems, however, requires a careful philosophical construction that avoids the metaphysical commitments Quine rightly rejected. The path from disposition to public knowledge is built in stages, with conscious awareness serving as the critical link.
 
-#### 2.1.1 Belief as Disposition to Assent
+#### 2.1.1 The Quinean Foundation: Disposition to Assent
 
-We begin with Quine's insight that belief is not a mental representation with propositional content but rather a disposition to assent: a stable pattern of linguistic and non-linguistic behavior (Quine 1960). When Sarah believes her bus comes at 8 AM, there is no additional mental entity beyond her reliable behavioral pattern. She asserts "yes" when asked about the schedule, leaves her house at 7:50, checks her watch near 8 AM at the bus stop, and reacts with surprise if the bus arrives significantly early or late. This behavioral pattern, shaped by repeated sensory stimulation (the bus's actual arrival times) and pragmatic feedback (success or failure in catching the bus), constitutes her belief.
+We begin with Quine's core insight: a belief is not an inner mental representation but a disposition to assent—a stable pattern of behavior (Quine 1960). To believe "it is raining" is to be disposed to say "yes" when asked, to take an umbrella, and so on. This provides a fully naturalistic starting point, free from abstract propositions.
 
-Crucially, this disposition is not isolated but embedded in a holistic web of related dispositions concerning time, transportation, schedules, and reliability. These dispositions mutually support and constrain each other. The Quinean web is not a static structure but a living pattern of coordinated dispositions maintained through ongoing interaction with the world. This is the foundation: belief as behavioral pattern, not mental content.
+#### 2.1.2 The Functional Bridge: Belief as Monitored Disposition
 
-#### 2.1.2 Conscious Awareness and the First-Person Dimension
+Here, we add a crucial functional layer to Quine's account. While a disposition is a third-person behavioral fact, humans possess a natural capacity for self-monitoring. We are not merely bundles of dispositions; we can become aware of our own dispositional states. This awareness is not a privileged glimpse into a Cartesian theater but a feedback mechanism, analogous to proprioception, that allows for self-report and deliberate revision. For the purposes of this framework, we functionally identify a "belief" with this state of being aware of one's own disposition to assent. When an agent reports, "I believe it is raining," they are not claiming access to an abstract proposition; they are reporting their awareness of their own readiness to assent to the sentence, "It is raining." This move acknowledges the functional importance of first-person access for coordinating and revising behavior, but does so within a fully naturalistic picture. The belief is not a non-physical mental content but a monitored, and therefore reportable, behavioral pattern.
 
-While Quine emphasized third-person behavioral criteria, human beings possess a distinctive capacity that warrants attention: conscious awareness and memory of their own dispositions to assent. Sarah does not merely have the disposition to say "my bus comes at 8 AM." Rather, she is aware that she has this disposition. This awareness is what we phenomenologically experience as "having a belief."
+#### 2.1.3 From Awareness to Public Claim: The Functional Proposition
 
-This first-person access is not privileged in the Cartesian sense. Sarah can be mistaken about her own dispositions through self-deception, unconscious bias, or confabulation. But it is functionally essential. Self-report capability enables individuals to communicate their dispositions without requiring external behavioral testing. Deliberate assertion transforms passive disposition into active claim-making. Reflective revision allows agents to examine and adjust their own dispositional patterns when faced with anomalies or costs. This awareness serves as a coordination signal, providing a basis for social alignment of individual webs into shared networks.
+This conscious awareness is what makes a disposition epistemically functional. It allows an agent to articulate the sentence (σ) they are disposed to assent to. This articulated sentence becomes the public, testable unit of analysis for our framework. We term this a functional proposition. It is not a timeless, abstract meaning, but a concrete linguistic object—a sentence-type—that has been made available for collective assessment. We are not extracting an abstract proposition from a belief; we are articulating the sentence that a disposition is about.
 
-This addition to strict Quinean behaviorism acknowledges phenomenological reality while maintaining naturalistic integrity. Conscious awareness of dispositions is itself a natural phenomenon, explicable through neuroscience and psychology, not an appeal to Cartesian mental substances. It is analogous to proprioception: awareness of body position, a natural capacity for self-monitoring rather than access to a Platonic realm. This minimal phenomenological machinery bridges individual psychology and public knowledge without reintroducing foundationalist mental contents.
+#### 2.1.4 Social Stabilization and the Emergence of Objectivity
 
-#### 2.1.3 From Individual Dispositions to Social Coordination
+When multiple agents articulate their functional propositions, they can coordinate their behavior. Through pragmatic feedback, communities converge on shared dispositions to assent to certain sentences in certain contexts because doing so has proven viable. "Water boils at 100°C" is not a discovered Platonic truth, but a sentence that our scientific community has become strongly and stably disposed to assent to because this disposition enables immense predictive success.
 
-Knowledge becomes public through a process of dispositional convergence. When multiple individuals, each consciously aware of their own dispositions, engage in linguistic exchange, patterns emerge through iterated interaction. Sarah asserts "My bus comes at 8 AM," making her disposition public. Others with similar or conflicting dispositions respond: "Mine comes at 8:05" or "Mine used to, but the schedule changed." These assertions face pragmatic testing through their consequences: successful or failed bus-catching, coordination successes or failures among groups. Individuals adjust their dispositions based on results and social calibration, updating their awareness of what patterns work. Through sustained exchange, certain dispositional patterns achieve functional stability across groups, not through negotiation about pre-existing mental contents but through mutual adjustment of behavioral patterns shaped by shared pragmatic pressures.
+This directly addresses Quine's indeterminacy thesis. While semantic reference may remain metaphysically indeterminate, a community can achieve functional determinacy. The shared disposition to assent to the sentence "Water is H₂O" is precise enough to ground the science of chemistry. The objectivity of the Apex Network, therefore, is not the objectivity of a Platonic realm, but the emergent objectivity of the optimal configurations of these functional, coordinated behavioral patterns.
 
-This coordination process generates no propositions in a Platonic sense. Instead, we see only coordinated linguistic behavior stabilizing under pragmatic pressure. The convergence is driven not by shared access to abstract meanings but by the simple fact that dispositions generating costs (missed buses, failed coordination) naturally give way to dispositions that work better. Reality's constraint structure, not social agreement, determines which patterns survive.
+**Standing Predicates as Evolved Tools.** Functional propositions that dramatically reduce network brittleness undergo profound status change. Their functional core is promoted into the network's processing architecture, creating a Standing Predicate: a reusable conceptual tool that functions as the "gene" of cultural evolution. When a doctor applies the Standing Predicate `...is an infectious disease` to a novel illness, it automatically mobilizes a cascade of validated, cost-reducing strategies: isolate the patient, trace transmission vectors, search for a pathogen, sterilize equipment. Its standing is earned historically, caching generations of pragmatic success into a single, efficient tool. Unlike static claims, Standing Predicates are dynamic tools that unpack proven interventions, diagnostics, and inferences.
 
-#### 2.1.4 Functional Extraction: From Dispositions to Propositions
-
-Only after social stabilization can we speak meaningfully of "propositions." A proposition, in our deflationary account, is not a mental entity extracted from private belief-states but a functionally stabilized linguistic formulation that captures a convergent pattern of dispositions across individuals in a community. "The bus comes at 8 AM" as a proposition is the crystallized, standardized linguistic form that multiple individuals reliably assent to under similar circumstances. This is a social achievement, not a mental discovery.
-
-This formulation serves as a coordination device, enabling efficient communication by compressing complex dispositional patterns into reusable linguistic units. It has no existence independent of the behavioral patterns it formalizes. Multiple semantically distinct interpretations might underlie the same functionally successful pattern (Quine's indeterminacy of translation), but this semantic indeterminacy does not undermine the proposition's functional role. What matters for knowledge is not determinate semantic content but reliable coordination in the face of pragmatic pressures.
-
-This deflationary account avoids the explanatory gap in traditional epistemology. We need not explain how propositions exist in minds or how they get extracted from mental states. Propositions emerge from social practice as pragmatic tools for managing coordinated behavior, discovered through convergence rather than invented through stipulation.
-
-#### 2.1.5 The Complete Naturalistic Progression
-
-We can now trace the full path from sensory experience to public epistemic tools, a progression fully naturalistic and empirically tractable:
-
-**Stage 1: Behavioral Pattern Formation.** Sensory stimulation generates and shapes dispositions to assent through repeated exposure and pragmatic feedback.
-
-**Stage 2: Conscious Monitoring.** Dispositions to assent become objects of conscious awareness and memory, experienced phenomenologically as "beliefs."
-
-**Stage 3: Social Stabilization.** Conscious awareness enables assertion, making dispositions public. Multiple assertions coordinate through exchange, converging on functionally stable patterns through pragmatic testing.
-
-**Stage 4: Propositional Crystallization.** Functionally stable patterns are formalized as propositions, which become standardized linguistic formulations serving as coordination devices.
-
-**Stage 5: Validation Through Testing.** Candidate propositions face rigorous pragmatic assessment within shared networks, which function as resource-constrained systems implicitly asking: will integrating this proposition increase or decrease long-term systemic brittleness? Propositions passing this test become validated data—reliable claims usable within the system.
-
-**Stage 6: Tool Formation.** Propositions dramatically reducing network brittleness undergo profound status change. Their functional core is promoted to become part of the network's processing architecture, creating a **Standing Predicate**: a reusable conceptual tool functioning as the "gene" of cultural evolution. The proposition's role inverts; it transforms from a hypothesis being tested by the world into a tool that tests new phenomena.
-
-When a doctor applies the **Standing Predicate** `...is an infectious disease` to a novel illness, it does not simply classify but automatically mobilizes a cascade of validated, cost-reducing strategies: isolate the patient, trace transmission vectors, search for a pathogen, sterilize equipment. Its standing is earned historically, caching generations of pragmatic success into a single, efficient tool. Unlike static claims, **Standing Predicates** are dynamic tools that unpack proven interventions, diagnostics, and inferences.
-
-This progression resolves what appears mysterious in traditional epistemology: the path from private mental contents to public knowledge. There are no private mental contents to begin with—only patterns of behavior that individuals are aware of, assert, coordinate on, and functionally stabilize through sustained pragmatic testing. By grounding epistemic norms in the demonstrated viability of these coordinated dispositional patterns, the framework addresses Kim's (1988) normativity objection (see Section 6.2): normative force emerges from the pragmatic consequences of misalignment with constraint-determined structures. Following Quine's engineering model (Sinclair 2007), epistemic norms function as hypothetical imperatives—if your goal is sustainable knowledge production, then minimize systemic brittleness in these dispositional patterns.
-
-#### 2.1.6 Indeterminacy and Functional Objectivity
-
-A careful reader familiar with Quine might object: if dispositions are semantically indeterminate (no precise fact about exactly what content someone believes), how can we extract determinate propositions for testing, let alone converge on objective truth? This apparent problem actually strengthens our account.
-
-Quine's indeterminacy thesis holds that there is no determinate fact about the exact semantic content of belief—multiple incompatible interpretations could equally well explain the same behavioral pattern (Quine 1960). Sarah's disposition to assent to "The bus comes at 8 AM" does not determine whether she believes in a vehicle arriving at a time, a collection of undetached bus-parts coexisting at 8, a public-transportation-event token instantiating at 8, or a social-coordination-point obtaining at 8. This indeterminacy is ineliminable at the level of semantic content—there is no fact of the matter about which "proposition" Sarah "really" believes.
-
-Traditional epistemology, committed to knowledge as accurate representation of determinate propositional contents, would find this fatal. But our framework does not need to resolve semantic indeterminacy because knowledge systems do not track propositional contents—they track functional success. What matters is not which interpretation is "correct" but whether the dispositional pattern generates low brittleness. Sarah's disposition, whatever its semantic content, functions successfully if it enables reliable bus-catching, coordinates with others' dispositions (they show up at similar times), adjusts appropriately when conditions change, and does not generate excessive cognitive costs (constant revision, confusion).
-
-When we say a proposition is "validated," we mean the coordinated dispositional pattern it formalizes has demonstrated functional viability—not that we have discovered its true semantic content. Multiple semantically distinct interpretations might underlie the same functionally successful pattern. This has a profound implication for objectivity: if knowledge were about representing true propositional contents, Quinean indeterminacy would be fatal—we could never know if we had the "right" content. But if knowledge is about convergence on functionally viable dispositional patterns, indeterminacy is irrelevant. The patterns that survive pragmatic selection do so regardless of how we interpret their semantic content.
-
-The Apex Network, therefore, is not a set of true propositions in the traditional sense but the constraint-determined topology of functionally optimal dispositional patterns. Its objectivity derives not from representing mind-independent propositions but from being determined by mind-independent pragmatic constraints that make certain patterns work and others fail. This constraint structure is fully objective—material reality does not care about our interpretations, only about whether our dispositions enable successful interaction with its structure. Convergence occurs not because agents discover pre-existing truths but because reality punishes some dispositional patterns and rewards others, driving a selection process toward patterns that minimize systemic brittleness.
-
-This resolves a tension in traditional epistemology: we can have objective knowledge without determinate propositional contents. Objectivity is functional, not semantic. The framework's departure from orthodox Quine becomes clear here—where Quine's deflationary stance on truth risked relativism, our account grounds objectivity in pragmatic constraints that operate independently of human interpretation. The Apex Network is objective not because it represents reality correctly but because it cannot be otherwise, given reality's constraint structure. Multiple semantic interpretations may coexist, but only certain functional patterns survive.
+By grounding epistemic norms in the demonstrated viability of coordinated dispositional patterns, the framework addresses normativity: epistemic force emerges from pragmatic consequences of misalignment with constraint-determined structures. Following Quine's engineering model, epistemic norms function as hypothetical imperatives—if your goal is sustainable knowledge production, minimize systemic brittleness in these patterns.
 
 ### 2.2 The Units of Analysis: Predicates, Networks, and Replicators
 
@@ -148,7 +100,7 @@ This flow illustrates how individual cognition becomes public knowledge through 
 
 Shared networks are active systems under constant pressure from pragmatic pushback: the systemic, macro-level analogue of Quine's "recalcitrant experience" at the individual level. Where Quine described how anomalous sensory stimulations force adjustments in an individual's dispositions to assent, we describe how accumulated systemic costs force adjustments in socially coordinated dispositional patterns. Pragmatic pushback is the sum of concrete, non-negotiable consequences arising when network principles are applied—not argument but material outcome: a bridge collapses, a treatment fails, a society fragments. This generates two cost types.
 
-First-Order Costs are direct, material consequences: failed predictions, wasted resources, environmental degradation, systemic instability (e.g., excess mortality). These are objective dysfunction signals. Systemic Costs are secondary, internal costs a network incurs to manage, suppress, or explain away first-order costs. These non-productive expenditures reveal true fragility; for a formal mathematical model of systemic brittleness and its dynamic evolution, see Appendix C.
+First-Order Costs are direct, material consequences: failed predictions, wasted resources, environmental degradation, systemic instability (e.g., excess mortality). These are objective dysfunction signals. Systemic Costs are secondary, internal costs a network incurs to manage, suppress, or explain away first-order costs. These non-productive expenditures reveal true fragility; for a formal mathematical model of systemic brittleness and its dynamic evolution, see Appendix A.
 
 Systemic brittleness, as used here, is a systems-theoretic measure of structural vulnerability—not a moral or political judgment. It applies uniformly across empirical domains (physics, medicine), abstract domains (mathematics, logic), and social domains (institutions, norms). The measure tracks failure sensitivity: how readily a system generates cascading costs when its principles encounter resistance. This diagnostic framework is evaluatively neutral regarding what kinds of systems should exist; it identifies which configurations are structurally sustainable given their constraint environment. A highly coercive political system exhibits brittleness not because coercion is morally wrong but because maintaining such systems against pragmatic resistance (demographic stress, coordination failures, resource depletion) generates measurable, escalating costs that signal structural unsustainability.
 
@@ -160,11 +112,7 @@ Pragmatic pushback is not limited to material failures. In abstract domains like
 
 These epistemic inefficiencies are real costs rendering networks brittle and unproductive, even without direct experimental falsification. The diagnostic lens thus applies to all inquiry forms, measuring viability through external material consequences or internal systemic dysfunction.
 
-To operationalize these concepts, we introduce diagnostic indicators that track brittleness over time. Drawing from systems theory, brittleness denotes a system's vulnerability that arises from hidden interdependencies and the risk of cascading failures. This concept parallels Taleb's (2012) notion of fragility but aims for a deeper diagnosis. Where fragility describes a system's vulnerability to shocks—the symptom—brittleness refers to the accumulated systemic weaknesses that constitute its underlying structural cause. This distinction allows the framework to move from mere description toward a more explanatory diagnosis.
-
-In evolutionary epistemology (Campbell 1974; Popper 1972), falsification acts as a selection pressure on beliefs. EPC extends this: brittleness functions analogously to free energy (Friston 2010), quantifying deviation between a network's internal model and its constraining environment. Reducing brittleness thus constitutes epistemic adaptation. Zollman (2010) shows how transient diversity increases long-term epistemic robustness, providing theoretical justification for our pluralist frontier.
-
-To make these concepts concrete, we introduce several diagnostic indicators. These are not proposed as literal metrics for a quantitative science but as conceptual lenses for philosophical analysis. They serve to illustrate what systemic costs look like in practice by identifying observable patterns of dysfunction.
+To give the abstract concept of brittleness more concrete philosophical content, we can identify several distinct types of systemic cost. The following indicators serve as conceptual lenses for diagnosing the health of a knowledge system by highlighting different ways in which brittleness can manifest. They are not intended as metrics for a quantitative science, but as analytical tools for identifying the observable patterns of dysfunction that signal accumulating systemic costs.
 
 | Indicator | Dimension | Proxy Metric (Illustrative) |
 | :--- | :--- | :--- |
@@ -314,7 +262,7 @@ The Apex Network's objectivity stems not from historical contingency but from mo
 
 **Historical filtering is how we discover this structure, not how we create it.** Failed systems are experiments revealing where the landscape drops off. The Negative Canon maps the canyons and cliffs. Over time, with sufficient experiments across diverse conditions, we triangulate toward the peaks.
 
-This crucial distinction—that historical filtering is a discovery process, not a creation mechanism—resolves the ambiguity. History reveals the landscape: experiments map hazards (failures) and peaks (successes) through trial-and-error, but does not create constraints or optimal solutions.
+This crucial distinction—that historical filtering is a discovery process, not a creation mechanism—resolves the ambiguity. The necessity of the Apex Network is functional and relational, not metaphysical. It is necessary given the constraints, in the same way that the solution to a chess problem is necessary given the rules of the game and the positions of the pieces. The solution does not exist in a Platonic heaven before the problem is posed. Rather, it is an implicit, determined consequence of the system's constraints. History, then, does not create the optimal solutions; it is the process through which we are forced to discover them by repeatedly running experiments that fail when they deviate from these determined paths.
 
 **Analogy: Mathematical Discovery.** Mathematicians in different cultures contingently discovered the same necessary truth (π) because it is determined by the objective constraints of geometry. Ancient Babylonians approximated it as 25/8, Archimedes used polygons to bound it, Indian mathematicians developed infinite series for it. Discovery processes varied radically across cultures and methods, yet all converged on the same value because π is a necessary feature of Euclidean space. Its value exists whether calculated or not, determined by geometric constraints rather than human choices.
 
@@ -453,7 +401,7 @@ Together, these two mechanisms animate Quine's static web. Pragmatic pushback pr
 
 While the above describes macro-level animation of the web, a complete account requires explaining the micro-level mechanism: how do individual agents actually revise their personal webs of belief? Quine's original formulation described recalcitrant experience forcing adjustment but did not explain the phenomenology of revision or why agents choose particular revision strategies when multiple options exist. Our disposition-based account of belief completes this picture.
 
-As established in Section 2.1.2, agents possess conscious awareness of their own dispositions to assent. This awareness functions as a natural feedback mechanism that enables belief revision. When an agent holds a disposition generating pragmatic costs, the revision cycle proceeds through several stages. First, dispositional conflict emerges: the agent's disposition produces failed predictions, wasted effort, coordination failures, or other measurable costs. Second, conscious recognition occurs as the agent becomes aware that holding this disposition correlates with these costs, either through direct experience or social signaling. Third, this awareness creates motivational pressure—the discomfort of cognitive dissonance, frustration at repeated failure, or pragmatic motivation to reduce costs. Fourth, the agent consciously explores alternative dispositions compatible with their core web commitments, testing adjustments mentally or through limited trials. Fifth, through repeated practice and positive reinforcement, a new disposition stabilizes, replacing the costly pattern. Finally, the agent's conscious model of their own belief system updates to reflect this revision, stored in memory for future reference.
+As established in Section 2.1, our framework identifies belief with the conscious awareness of one's dispositions to assent. This awareness functions as the natural feedback mechanism that enables deliberate revision. When an agent holds a disposition generating pragmatic costs, the revision cycle proceeds through several stages. First, dispositional conflict emerges: the agent's disposition produces failed predictions, wasted effort, coordination failures, or other measurable costs. Second, conscious recognition occurs as the agent becomes aware that holding this disposition correlates with these costs, either through direct experience or social signaling. Third, this awareness creates motivational pressure—the discomfort of cognitive dissonance, frustration at repeated failure, or pragmatic motivation to reduce costs. Fourth, the agent consciously explores alternative dispositions compatible with their core web commitments, testing adjustments mentally or through limited trials. Fifth, through repeated practice and positive reinforcement, a new disposition stabilizes, replacing the costly pattern. Finally, the agent's conscious model of their own belief system updates to reflect this revision, stored in memory for future reference.
 
 This cycle operates at the individual level but drives macro-level convergence when aggregated across populations. Multiple agents independently experiencing costs from similar dispositions will independently revise toward lower-cost alternatives. When these revisions are communicated through assertion and coordinated through social exchange, patterns of convergence emerge—not through central planning or mysterious coordination but through distributed pragmatic optimization. Each agent, responding to locally experienced costs, makes adjustments that happen to align with others' adjustments because they are all responding to the same underlying constraint structure.
 
@@ -464,6 +412,8 @@ Conscious awareness of dispositions includes awareness of their history—we rem
 Why does this matter for convergence on the Apex Network? The Apex is not a pre-existing target that agents consciously aim for. It is the emergent structure that must arise when millions of agents, each consciously aware of their own dispositions and the costs they generate, independently revise toward lower-brittleness patterns. Convergence is explained not by mysterious coordination or shared access to truth but by the simple fact that reality's constraint structure punishes certain dispositional patterns and rewards others, and conscious agents can detect and respond to this feedback. The conscious awareness component is what makes agents capable of systematic belief revision rather than random drift. Without it, we cannot explain deliberate adjustment, learning from experience, or the directedness of convergence toward viability.
 
 This transforms Quine's web from a passive logical structure into an active cognitive system capable of deliberate self-modification. Pragmatic pushback is not an abstract force but is experienced by individuals as the costs of holding unviable dispositions, motivating the revision process that drives knowledge toward the Apex Network.
+
+This individual revision cycle is the micro-engine of macro-level convergence. The process is not centrally coordinated, nor does it require that agents aim for a shared truth. Rather, convergence emerges as a result of distributed pragmatic optimization. Millions of agents, each independently experiencing and seeking to reduce the costs generated by their own unviable dispositions, make local adjustments. Because they are all interacting with the same underlying constraint structure of reality, their individual solutions are independently pushed toward the same basin of attraction. The shared constraint landscape is the coordinating force. Unviable patterns are punished with costs for everyone who adopts them, while viable patterns are rewarded with lower costs. Social communication accelerates this process by allowing agents to learn from the costly experiments of others, but the fundamental driver of convergence is the uniform selective pressure exerted by a shared, mind-independent reality.
 
 This three-level truth framework describes the justificatory status of claims at a given moment. Over historical time, pragmatic filtering produces a discernible two-zone structure in our evolving knowledge systems.
 
@@ -501,11 +451,7 @@ Finally, it is necessary to distinguish this high-brittleness fitness trap from 
 
 ## 5. Applications: Mathematics as a Paradigm Case of Internal Brittleness
 
-The account thus far has focused on domains where pragmatic pushback comes from external reality: empirical predictions fail, technologies malfunction, societies collapse. This naturally raises a challenge: does the framework apply only to empirically testable domains, or can it illuminate abstract knowledge systems like mathematics and logic?
-
-## 5. Applications: Mathematics as a Paradigm Case of Internal Brittleness
-
-Far from being a problematic boundary case, mathematics offers the framework's purest test and strongest confirmation. Where empirical science faces pragmatic constraints from external reality, mathematics reveals how brittleness operates through purely internal dynamics. This extension, developed in the next section, demonstrates the framework's scope extends to all domains of systematic inquiry.
+The account thus far has focused on domains where pragmatic pushback comes from external reality: empirical predictions fail, technologies malfunction, societies collapse. This naturally raises a challenge: does the framework apply only to empirically testable domains, or can it illuminate abstract knowledge systems like mathematics and logic? This section argues that it can. By examining mathematics, we can demonstrate the framework's generality, showing how the logic of brittleness operates through purely internal constraints of efficiency, consistency, and explanatory power.
 
 **The Core Insight:** Mathematical frameworks face pragmatic pushback through internal inefficiency rather than external falsification.
 
@@ -670,7 +616,17 @@ This provides an evolutionary, pragmatic engine for Ontic Structural Realism (La
 
 Systemic Externalism contrasts with Process Reliabilism (Goldman 1979) and Virtue Epistemology (Zagzebski 1996). Process Reliabilism locates justification in the reliability of individual cognitive processes; Systemic Externalism shifts focus to the demonstrated historical viability of the public knowledge system that certifies the claim. Virtue Epistemology grounds justification in individual intellectual virtues; Systemic Externalism attributes resilience and adaptability to the collective system. Systemic Externalism thus offers macro-level externalism, complementing these micro-level approaches.
 
-### 6.2 A Realist Corrective to Neopragmatism and Social Epistemology
+### 6.2 Reconciling with Quine: From Dispositions to Objective Structures
+
+While deeply indebted to Quine, our framework must address the apparent tension between his austere behaviorism and our seemingly realist claims. The resolution lies not in departing from Quine, but in building a multi-level structure upon his foundation.
+
+First, where Quine's indeterminacy thesis seems to preclude testable propositions, we show how conscious awareness of dispositions allows for the articulation of specific sentences that serve as functional propositions. This allows for public assessment and a robust epistemology without positing the abstract entities Quine rejected.
+
+Second, we provide a naturalistic engine for the convergence that Quine's underdetermination thesis leaves mysterious. The Apex Network is not a Platonic realm but an attractor basin in the space of possible dispositional patterns, determined by real-world pragmatic constraints. It explains why some webs of belief systematically outperform others without abandoning naturalism.
+
+Finally, we supplement Quine's micro-level external constraint of sensory stimulation with a macro-level constraint: systemic cost. A coherent system can always accommodate anomalous experiences, but it cannot indefinitely ignore the compounding costs its ad-hoc adjustments generate. This provides a robust, non-discursive filter that grounds the entire web of belief against the isolation objection. Our project, therefore, is not a rejection of Quine but an attempt to complete his naturalistic turn by integrating it with the dynamics of systems theory and cultural evolution.
+
+### 6.3 A Realist Corrective to Neopragmatism and Social Epistemology
 
 The framework developed here retains pragmatism's anti-foundationalist spirit and focus on inquiry as a social, problem-solving practice. Its core ambition aligns with the foundational project of classical pragmatism: to articulate a non-reductive naturalism that can explain the emergence of genuine novelty in the world (Baggio and Parravicini 2019). By grounding epistemology in dispositions to assent shaped by pragmatic feedback—following Quine's call to replace traditional epistemology with empirical psychology (Quine 1969)—we maintain naturalistic rigor while avoiding the foundationalist trap of positing privileged mental contents. Our disposition-based account provides precisely what Quine's naturalized epistemology promised but could not fully deliver: a bridge from individual cognitive behavior to social knowledge systems that remains fully naturalistic while accounting for external constraints.
 
@@ -686,14 +642,14 @@ Similarly, our framework provides an evolutionary grounding for the core insight
 
 Empirical models of social epistemic networks (O'Connor and Weatherall 2019) suggest that objectivity is a function of communication topology. EPC operationalizes this insight: calibration efficiency inversely correlates with brittleness. The more diverse the error signals integrated (Longino 1990; Anderson 1996), the more stable the Apex Network.
 
-### 6.3 Distinguishing from Lakatos and Laudan
+### 6.4 Distinguishing from Lakatos and Laudan
 
 While our framework shares a historical-diagnostic ambition with Lakatos (1970) and Laudan (1977), it differs fundamentally: they provide retrospective descriptions of scientific change; we offer a forward-looking causal engine via quantifiable brittleness. Brittleness measures accumulated costs causing degeneration, serving as a real-time diagnostic of structural health, not merely historical output.
 
 Similarly, while Laudan's model evaluates a theory based on the number and importance of the empirical problems it solves, our approach is subtly different. Systemic brittleness is a forward-looking measure of epistemic risk and resilience (Pritchard 2016). A system could have a high problem-solving score in Laudan's sense while simultaneously accumulating hidden systemic costs (like massive computational overheads or conceptual debt) that make it profoundly vulnerable to future shocks. Our framework is thus less a retrospective accounting of solved puzzles and more a real-time assessment of a system's long-term viability and adaptive efficiency.
 
 
-### 6.4 Plantinga's Challenge: Does Evolution Select for Truth or Mere Survival?
+### 6.5 Plantinga's Challenge: Does Evolution Select for Truth or Mere Survival?
 
 Alvin Plantinga's Evolutionary Argument Against Naturalism (EAAN) poses a formidable challenge to any naturalistic epistemology: if our cognitive faculties are products of natural selection, and natural selection optimizes for reproductive success rather than true belief, then we have no reason to trust that our faculties reliably produce true beliefs (Plantinga 1993, 2011). Evolution could equip us with systematically false but adaptive beliefs—useful fictions that enhance survival without tracking reality. If naturalism is true, the very faculties we use to conclude naturalism is true are unreliable, rendering naturalism self-defeating.
 
@@ -743,7 +699,7 @@ Our response to Plantinga: In domains where systematic misrepresentation accumul
 
 Plantinga is right that evolution per se does not guarantee reliability. But evolution plus pragmatic filtering in a constraint-rich environment does generate truth-tracking in precisely those domains where coherentism faces the isolation objection. Where Plantinga sees self-defeat, we see self-correction: the systematic reduction of brittleness over centuries is evidence that the process works, even if no individual step is guaranteed.
 
-### 6.5 Computational and Systematic Precursors
+### 6.6 Computational and Systematic Precursors
 
 EPC synthesizes four computational/systematic frameworks, advancing each through externalist brittleness diagnostics.
 
@@ -773,9 +729,9 @@ To address the hindsight objection—that we can only diagnose brittleness after
 
 ### 7.2 A Falsifiable Research Program
 
-The framework grounds a concrete empirical research program with a falsifiable core causal claim: *a system exhibiting high and rising brittleness across multiple indicators should, over historical time, prove more vulnerable to major revision or collapse when faced with external shocks than a system with low and stable brittleness.* "Collapse" is operationally defined as either (1) institutional fragmentation requiring fundamental restructuring; (2) wholesale paradigm shift in the domain; or (3) substantial reduction in problem-solving capacity requiring external intervention. Historical patterns in collapsed systems, such as Roman aqueduct failures due to accumulating brittleness in hydraulic engineering (Hodge 1992; Turchin 2003), are consistent with this expectation. The specific metrics and dynamic equations underlying this research program are detailed in the Mathematical Appendix.
+The framework grounds a concrete empirical research program with a falsifiable core causal claim: *a system exhibiting high and rising brittleness across multiple indicators should, over historical time, prove more vulnerable to major revision or collapse when faced with external shocks than a system with low and stable brittleness.* "Collapse" is operationally defined as either (1) institutional fragmentation requiring fundamental restructuring; (2) wholesale paradigm shift in the domain; or (3) substantial reduction in problem-solving capacity requiring external intervention. Historical patterns in collapsed systems, such as Roman aqueduct failures due to accumulating brittleness in hydraulic engineering (Hodge 1992; Turchin 2003), are consistent with this expectation. The specific metrics and dynamic equations underlying this research program are detailed in Appendix A.
 
-**Methodology**: (1) Operationalize brittleness through observable proxies (resource allocation patterns, auxiliary hypothesis rates in literature). (2) Conduct comparative historical analysis using databases like Seshat (a database of historical societies) to compare outcomes across systems with different pre-existing brittleness facing similar shocks, controlling for contingent events. The conceptual approach to operationalization, including how one might develop protocols for assessing P(t) and C(t), is sketched in Appendix B. As a conceptual illustration, consider competing COVID-19 models (2020–2022): one might analyze whether highly complex epidemiological models with many parameters showed signs of rising brittleness through persistent predictive failures and required constant revision, while simpler models maintained better predictive alignment over time (Roda et al. 2020). Such analysis would illustrate the framework's diagnostic potential.
+**Methodology**: (1) Operationalize brittleness through observable proxies (resource allocation patterns, auxiliary hypothesis rates in literature). (2) Conduct comparative historical analysis using databases like Seshat (a database of historical societies) to compare outcomes across systems with different pre-existing brittleness facing similar shocks, controlling for contingent events. As a conceptual illustration, consider competing COVID-19 models (2020–2022): one might analyze whether highly complex epidemiological models with many parameters showed signs of rising brittleness through persistent predictive failures and required constant revision, while simpler models maintained better predictive alignment over time (Roda et al. 2020). Such analysis would illustrate the framework's diagnostic potential.
 
 ### 7.3 Principled Limitations and Scope
 
@@ -863,57 +819,23 @@ This honest accounting strengthens rather than weakens the framework's philosoph
 
 ## 8. Conclusion
 
-We develop Emergent Pragmatic Coherentism as a response to the isolation objection facing coherentist theories of justification. Grounding coherence in long-term viability of knowledge systems rather than internal consistency alone provides the external constraint coherentism requires while preserving its holistic insights. The concept of systemic brittleness offers a naturalistic diagnostic tool for evaluating knowledge systems, while the notion of a constraint-determined Apex Network explains how objective knowledge can arise from fallible human practices.
+Grounding coherence in long-term viability of knowledge systems rather than internal consistency alone provides the external constraint coherentism requires while preserving its holistic insights. The concept of systemic brittleness offers a naturalistic diagnostic tool for evaluating knowledge systems, while the notion of a constraint-determined Apex Network explains how objective knowledge can arise from fallible human practices.
 
-Systematically studying the record of failed systems discerns the contours of the Apex Network: the emergent set of maximally convergent, pragmatically indispensable principles that successful inquiry is forced to discover. This yields Systemic Externalism, a novel approach for resolving long-standing problems in post-Quinean epistemology by grounding justification in the non-discursive filter of systemic consequences.
+Systematically studying the record of failed systems discerns the contours of the Apex Network: the emergent set of maximally convergent, pragmatically indispensable principles that successful inquiry is forced to discover.
 
 This model is not presented as a final, complete system but as the foundation for a progressive and falsifiable research program. Critical future challenges remain, such as fully modeling the role of power asymmetries in creating path-dependent fitness traps and applying the framework to purely aesthetic or mathematical domains.
 
 We began with the challenge of distinguishing viable knowledge from brittle dogma. The model we have developed suggests the ultimate arbiter is not the elegance of a theory or the consensus of its adherents but the trail of consequences it leaves in the world. Systemic costs are not abstract accounting measures; they are ultimately experienced by individuals as suffering, instability, and the frustration of human goals. From this perspective, dissent, friction, and protest function as primary sources of epistemological data. They are the system's own real-time signals, indicating where First-Order Costs are accumulating and foreshadowing the rising Coercive Overheads (C(t)) that will be required to maintain stability against those pressures.
 
-As a **practical diagnostic tool for epistemic risk management**, EPC empowers agents to assess the structural health of critical knowledge systems—from scientific paradigms to economic models—before hidden brittleness leads to catastrophic failure. The framework enables the identification of degenerating research programs and power-masked fragility, positioning this work as an urgent research program for the 21st century.
+It provides the external constraint that coherentism has long needed, but it does so without resorting to foundationalism. It accounts for the convergence that motivates scientific realism, but it does so within a fallibilist and naturalistic picture of inquiry.
 
-EPC shares the realist's conviction that convergence reflects constraint, not convention. It treats truth as an emergent structural attractor—an Apex Network stabilized through evolutionary filtration, grounding fallibilist realism in observable systemic viability.
+Ultimately, Emergent Pragmatic Coherentism shares the realist's conviction that convergence reflects constraint, not convention. It reframes truth as an emergent structural attractor—the Apex Network—stabilized through an evolutionary process of eliminating failure. The approach calls for epistemic humility, trading the ambition of a God's-eye view for the practical wisdom of a mariner. The payoff is not a final map of truth, but a continuously improving reef chart—a chart built from the architecture of failure, allowing us to more safely navigate the channels of viable knowledge.
 
-The approach calls for epistemic humility, trading the ambition of a God's-eye view for the practical wisdom of a mariner. The payoff is not a final map of truth, but a continuously improving reef chart—a chart built from the architecture of failure, allowing us to more safely navigate the channels of viable knowledge.
-
-## Appendix A: Normative Brittleness as a Speculative Extension
-
-Note: This appendix presents a speculative extension of the core framework, integrating it with recent work in meta-ethics. It is not essential to the main argument of the paper.
-
-The framework for assessing brittleness is general, but its application reveals two primary modalities of failure, corresponding to the different kinds of pragmatic constraints a network can violate. This distinction clarifies how our approach unifies descriptive and normative inquiry under a single explanatory mechanism.
-
-* **Normative Brittleness:** This is the modality of failure resulting from a misalignment with the emergent normative structure of the world. It is found in socio-political and ethical networks whose primary function is to organize cooperative human action. The specific mechanism for this failure can be precisely articulated through a theory of emergent moral properties. Drawing on Baysan's (2025) account of emergent moral non-naturalism, we can understand objective moral properties as conferring noncausal powers (Ingthorsson 2013). While a causal power manifests as a physical change, a noncausal power manifests as the obtaining of a normative fact. For example, the property of being unjust confers on an institution the noncausal power to justify resentment and require condemnation. A network's alignment with this structure is not optional. A society predicated on slavery, for instance, exhibits profound normative brittleness because it must expend immense real-world energy to counteract these noncausal powers. The immense coercive overheads required to maintain the institution are the direct, measurable, and causal signature of a system struggling to suppress the real normative fact that its core practices justify resistance. This account requires that we move beyond what Bennett-Hunter (2015) calls the 'causalist assumption'—the dictum that 'to be real is to have causal power'—and recognize that a causal vocabulary may not be appropriate for every explanatory domain (El-Hani and Pihlström 2002). This macro-level diagnosis finds a plausible correlate in agent-level moral psychology, where moral intuitions can be understood as evolved detectors for such "response-invoking" features of our environment (Rottschaefer 2012) that signal potential systemic costs if ignored, a direct experience of what Peter (2024) calls the "demands of fittingness."
-
-## Appendix B: A Conceptual Illustration of Operationalization
-
-To demonstrate that the framework is not merely metaphorical, this appendix offers a conceptual sketch of how one might approach the operationalization of brittleness metrics for a historical research program. This is an illustrative outline, not an empirical study.
-
-### B.1 Conceptualizing P(t): Conceptual Debt
-
-P(t) measures the accumulation of conceptual debt. In a domain like early 20th-century physics, one could operationalize this by analyzing the research literature of competing paradigms (e.g., classical ether theories vs. early relativity).
-
-**Methodology:** A researcher would classify publications over a given period. Papers primarily aimed at resolving known anomalies or patching inconsistencies in the existing theory would count towards rising P(t). In contrast, papers proposing novel, surprising, and subsequently confirmed predictions would signal a progressive, low-brittleness program.
-
-**Qualitative Signal:** A degenerating program would show a clear trend where the proportion of "defensive" or "anomaly-resolving" publications grows, while a progressive program would consistently generate more novel predictions than it does patches.
-
-### B.2 Conceptualizing C(t): Coercive Overhead
-
-C(t) measures the resources a system expends on suppressing dissent and enforcing compliance.
-
-**Methodology:** For a historical case like the conflict between the Galilean and Ptolemaic systems, a researcher could proxy C(t) by examining institutional resource allocation. One could qualitatively assess the time, funds, and institutional energy the Church and allied universities dedicated to suppressing heliocentric views (e.g., through trials, censorship, and curriculum mandates) versus the resources allocated to productive research within the geocentric paradigm.
-
-**Qualitative Signal:** A high or rising C(t) is indicated when a system must dedicate significant and increasing resources to maintaining consensus, signaling that its core tenets are generating costly dissent that cannot be resolved through evidence or argument alone.
-
-### B.3 The Logic of a Research Program
-
-A full empirical research program would involve applying such qualitative coding across numerous historical cases. The core philosophical claim is that a strong positive correlation would emerge: systems exhibiting high and rising P(t) and C(t) scores would consistently prove more fragile when faced with external shocks (e.g., novel empirical discoveries, political upheaval) than systems with low scores. The goal is not to create a predictive algorithm, but to demonstrate that brittleness is a real, historically observable property that has consistent pragmatic consequences.
-
-## Appendix C: A Mathematical Model of Epistemic Viability
+## Appendix A: A Mathematical Model of Epistemic Viability
 
 This appendix provides a provisional formalization of core EPC concepts to show that the framework is, in principle, amenable to formal expression. It is crucial to note that these models are illustrative and speculative. **The philosophical argument presented in the main body of the paper is self-contained and does not depend on the validity of any specific mathematical formulation presented here.** The purpose of this appendix is to explore one possible path for future research, not to provide empirical validation for the paper's central claims.
 
-### C.1 Set-Theoretic Foundation
+### A.1 Set-Theoretic Foundation
 
 Let **U** be the universal set of all possible atomic predicates. An individual's **Web of Belief (W)** is a subset W ⊆ U satisfying internal coherence condition C_internal:
 
@@ -943,7 +865,7 @@ A = ∩{W_k | V(W_k) = 1} over all possible contexts and times
 
 **Formal ECHO Extension:** This formalizes Thagard's ECHO extension: net_j = Σ w_{ij} a_i - β·brittleness_j, where w represents positive weights for explanatory coherence (Principle 1) and negative weights for contradiction (Principle 5), with β derived from P(t), C(t) proxies. The specific weight magnitudes would require empirical calibration. Zollman's cycle topology models Pluralist Frontier; complete graphs risk brittleness lock-in.
 
-### C.2 The Systemic Brittleness Index
+### A.2 The Systemic Brittleness Index
 
 SBI(t) is a composite index quantifying accumulated systemic costs. We present three functional forms, each with distinct theoretical motivation and testable predictions.
 
@@ -1008,7 +930,7 @@ These forms make distinct predictions testable through historical analysis:
 
 The Ptolemaic case (Section 2.4) illustrates how such data can be assembled from historical records. A full research program would systematically extend this approach. The framework's falsifiability depends on committing to specific functional forms and comparing predictions to data.
 
-### C.3 Dynamics: Stochastic Differential Equations
+### A.3 Dynamics: Stochastic Differential Equations
 
 Knowledge evolution is not deterministic. We model SBI dynamics as:
 
@@ -1043,7 +965,7 @@ The Ptolemaic case provides a template: with systematic bibliometric coding, we 
 
 Once parameters are empirically estimated, the formulation enables probabilistic predictions: "System X has P% chance of crisis within Y years given current trajectory." This transforms brittleness from retrospective diagnosis to prospective risk assessment. The framework's scientific credibility depends on executing this program and comparing predictions to outcomes.
 
-### C.4 Conceptualizing an Empirical Inquiry
+### A.4 Conceptualizing an Empirical Inquiry
 
 The existence of these distinct functional forms suggests a path for future empirical inquiry. A historian or sociologist of science could:
 1. Compile qualitative brittleness indicators for a set of historical knowledge systems.
@@ -1052,9 +974,22 @@ The existence of these distinct functional forms suggests a path for future empi
 
 Such a program would not be about fitting precise numerical data but about determining which conceptual dynamic—compounding interaction, linear addition, or tipping points—best accounts for the historical evolution of knowledge. The framework's value lies in its ability to generate such guiding questions for historical and scientific investigation.
 
-### C.5 The Role of Formalism in Philosophical Diagnosis
+### A.5 The Role of Formalism in Philosophical Diagnosis
 
 Once a model like this were empirically calibrated, it would not function as a predictive algorithm but as a diagnostic tool. Its utility would be to translate complex historical dynamics into a structured formal language, allowing for more precise comparisons between the health of different knowledge systems. For example, it could help answer questions like: "Is system X accumulating costs primarily through conceptual debt (P(t)), or is its fragility masked by coercive power (C(t))?" This transforms brittleness from a retrospective metaphor into a conceptually structured diagnostic, which is the primary philosophical payoff of the formal exercise.
+
+## Appendix B: Glossary of Key Terms
+
+- **Apex Network:** The emergent, objective structure of maximally viable solutions determined by mind-independent pragmatic constraints.
+- **Brittleness:** Accumulated systemic costs; a measure of a system's vulnerability to cascading failures and inability to maintain viability under external or internal pressure.
+- **Constrained Interpretation:** A methodology for assessing brittleness by anchoring analysis in physical constraints, comparative history, and convergent evidence to achieve pragmatic objectivity.
+- **Convergent Core:** The load-bearing foundations of current knowledge comprising domains where pragmatic selection has eliminated all known rival formulations, leaving a single low-brittleness set of principles functionally unrevisable in practice.
+- **Emergent Pragmatic Coherentism:** Framework grounding coherence in demonstrated viability of entire knowledge systems rather than internal consistency alone.
+- **Modal Necessity (of Apex Network):** The Apex Network's necessity is functional rather than metaphysical. It is determined by reality's constraint structure such that any sufficiently comprehensive exploration of viable configurations must converge toward it, just as π is necessarily determined by Euclidean geometry's constraints. (See Section 4.2 for full discussion.)
+- **Negative Canon:** The historical record of invalidated principles and collapsed systems, cataloguing both epistemic brittleness (causal failures like phlogiston) and normative brittleness (social failures requiring rising coercive overheads like slavery).
+- **Pluralist Frontier:** Domains of active research where evidence is insufficient to eliminate all rival systems; each viable contender exhibits demonstrably low and stable brittleness yet multiple stable configurations remain possible.
+- **Pragmatic Objectivity:** Objectivity sufficient for comparative assessment, achieved through convergent evidence from independent metrics without assuming a neutral viewpoint.
+- **Standing Predicate:** Reusable, action-guiding conceptual tool within propositions (e.g., "...is an infectious disease"); a Standing Predicate functions as a "gene" of cultural evolution, unpacking validated suites of knowledge when applied.
 
 ## References
 
