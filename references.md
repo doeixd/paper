@@ -207,6 +207,8 @@ Quine, W. V. O. 1960. *Word and Object*. Cambridge, MA: MIT Press. ISBN 978-0262
 
 Quine, W. V. 1969. "Epistemology Naturalized." In *Ontological Relativity and Other Essays*, 69–90. New York: Columbia University Press. https://doi.org/10.7312/quin92204-004. ISBN 9780231083577, 9780231171991.
 
+Quine, W. V. O. 1990. *Pursuit of Truth*. Cambridge, MA: Harvard University Press. ISBN 978-0674739512.
+
 Railton, Peter. 1986. "Moral Realism." *The Philosophical Review* 95(2): 163–207. https://doi.org/10.2307/2185589.
 
 Rawls, John. 1971. *A Theory of Justice*. Cambridge, MA: Harvard University Press. ISBN 978-0674880108.
