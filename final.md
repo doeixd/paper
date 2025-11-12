@@ -20,7 +20,7 @@ Emergent Pragmatic Coherentism extends and naturalizes a tradition beginning wit
 
 Where Quine anchored epistemology in psychology, EPC relocates it within systems dynamics: belief-formation and revision are continuous with adaptive systems that minimize brittleness under environmental feedback. Where Davidson focused on internal coherence, EPC operationalizes Thagard's (1989) connectionist ECHO, modeling coherence as activation harmony in constraint networks and extending this with pragmatic inhibitory weights derived from brittleness. Unlike Zollman's (2007) abstract Bayesian graphs, which model the effects of network topology on belief propagation, EPC's framework is designed to account for how knowledge systems respond to real-world pragmatic pressures.
 
-Rescher's (1973) systematicity criteria become quantified in our SBI(t) metrics, while Kitcher's (1993) credit-driven evolution gains failure diagnostics via the Negative Canon. Davidson's internal coherence becomes *structural homeostasis* maintained through pragmatic constraint. Kitcher's and Longino's insights into social calibration are operationalized: the intersubjective circulation of critique becomes a mechanism for reducing systemic fragility.
+Rescher's (1973) abstract criteria for systematicity are given concrete diagnostic form through our brittleness indicators, while Kitcher's (1993) credit-driven evolution gains a failure-driven engine via the Negative Canon. Davidson's internal coherence becomes *structural homeostasis* maintained through pragmatic constraint. Kitcher's and Longino's insights into social calibration are operationalized: the intersubjective circulation of critique becomes a mechanism for reducing systemic fragility.
 
 EPC thus transforms coherence from a metaphor of fit into a measurable function of cost and constraint. Its realism is not the correspondence of propositions to an independent world, but the emergent stability of constraint satisfaction across iterated cycles of error and repair. This is a post-Quinean naturalism that grounds justification in demonstrated viability. It provides the crucial, non-discursive external filter of systemic consequence that these otherwise powerful social, psychological, and internalist accounts ultimately require.
 
@@ -40,6 +40,8 @@ The framework incorporates power, path dependence, and contingency as key variab
 
 The framework targets cumulative knowledge systems where inter-generational claims and pragmatic feedback enable evaluation. It provides macro-level foundations for individual higher-order evidence (Section 7), not solutions to Gettier cases or basic perception.
 
+Ultimately, this paper develops a framework for a form of epistemic risk management. A rising trend in a system's brittleness indicators does not prove its core claims are false. Instead, it signals that the system is becoming a higher-risk, degenerating research program, making continued adherence or investment in it increasingly irrational. The goal is to provide the diagnostic tools to assess the structural health of our knowledge systems before their hidden fragilities lead to catastrophic failure.
+
 ### 1.2 Key Terminology
 
 This paper develops several core concepts to execute its argument. Systemic brittleness refers to the accumulated costs that signal a knowledge system's vulnerability to failure. We argue that through a process of pragmatic selection, validated claims can become Standing Predicates: reusable, action-guiding conceptual tools. This evolutionary process drives knowledge systems toward the Apex Network, which we define as the emergent, objective structure of maximally viable solutions determined by mind-independent constraints. A complete glossary is available in Appendix B.
@@ -56,9 +58,9 @@ Following Quine's call to naturalize epistemology (Quine 1969), our framework is
 
 We begin with Quine's core insight: a belief is not an inner mental representation but a disposition to assent—a stable pattern of behavior (Quine 1960). To believe "it is raining" is to be disposed to say "yes" when asked, to take an umbrella, and so on. This provides a fully naturalistic starting point, free from abstract propositions.
 
-#### 2.1.2 The Phenomenological Bridge: Belief as Conscious Awareness of Disposition
+#### 2.1.2 The Functional Bridge: Belief as Monitored Disposition
 
-Here, we introduce a crucial clarification. While a disposition is a third-person, behavioral fact, humans possess a capacity for first-person, conscious awareness of their own dispositions. This awareness is what we phenomenologically experience and report as "having a belief." When an agent says, "I believe it's raining," they are not reporting access to a proposition. They are reporting their conscious recognition of their own readiness to assent to the sentence, "It is raining." This acknowledges the reality of first-person experience without positing non-physical mental contents. The "belief," for our purposes, is this awareness of the disposition.
+Here, we add a crucial functional layer to Quine's account. While a disposition is a third-person behavioral fact, humans possess a natural capacity for self-monitoring. We are not merely bundles of dispositions; we can become aware of our own dispositional states. This awareness is not a privileged glimpse into a Cartesian theater but a feedback mechanism, analogous to proprioception, that allows for self-report and deliberate revision. For the purposes of this framework, we functionally identify a "belief" with this state of being aware of one's own disposition to assent. When an agent reports, "I believe it is raining," they are not claiming access to an abstract proposition; they are reporting their awareness of their own readiness to assent to the sentence, "It is raining." This move acknowledges the functional importance of first-person access for coordinating and revising behavior, but does so within a fully naturalistic picture. The belief is not a non-physical mental content but a monitored, and therefore reportable, behavioral pattern.
 
 #### 2.1.3 From Awareness to Public Claim: The Functional Proposition
 
@@ -112,9 +114,9 @@ Pragmatic pushback is not limited to material failures. In abstract domains like
 
 These epistemic inefficiencies are real costs rendering networks brittle and unproductive, even without direct experimental falsification. The diagnostic lens thus applies to all inquiry forms, measuring viability through external material consequences or internal systemic dysfunction.
 
-To give the abstract concept of brittleness more concrete philosophical content, we can identify several distinct types of systemic cost. The following indicators serve as conceptual lenses for diagnosing the health of a knowledge system by highlighting different ways in which brittleness can manifest. They are not intended as metrics for a quantitative science, but as analytical tools for identifying the observable patterns of dysfunction that signal accumulating systemic costs.
+To give the abstract concept of brittleness more concrete philosophical content, we can identify several distinct types of systemic cost. The following indicators serve as conceptual lenses for diagnosing the health of a knowledge system, linking the abstract theory to observable patterns of dysfunction. These are analytical categories for historical and philosophical analysis, not metrics for a quantitative science.
 
-| Indicator | Dimension | Proxy Metric (Illustrative) |
+| Conceptual Indicator | Dimension of Brittleness | Illustrative Manifestation |
 | :--- | :--- | :--- |
 | P(t) | Conceptual Debt Accumulation | Ratio of anomaly-resolution publications to novel-prediction publications |
 | C(t) | Coercive Overhead | Ratio of security/suppression budget to productive/R&D budget |
@@ -335,7 +337,7 @@ Inquiry is therefore a painstaking, error-driven process of triangulation. It co
 
 ### 4.3 A Three-Level Framework for Truth
 
-This emergent structure grounds a fallibilist but realist account of truth. It clarifies a documented tension in Quine's thought between truth as immanent to our best theory and truth as a transcendent regulative ideal (Tauriainen 2017). Our framework shows these are not contradictory but two necessary components of a naturalistic epistemology. It reframes truth as a status propositions earn through increasingly rigorous stages of validation.
+This emergent structure grounds a fallibilist but realist account of truth. It clarifies a documented tension in Quine's thought between truth as immanent to our best theory and truth as a transcendent regulative ideal (Tauriainen 2017). Our framework shows these are not contradictory but two necessary components of a naturalistic epistemology. It reframes truth as a status propositions earn through increasingly rigorous stages of validation. Crucially, in this model, a demonstrated track record of low systemic brittleness functions as our primary fallible evidence for a system's alignment with the Apex Network; it is not, itself, constitutive of that alignment.
 
 * **Level 3: Contextual Coherence.** The baseline status for any claim. A proposition is coherent within a specific Shared Network, regardless of that network's long-term viability. This level explains the internal rationality of failed or fictional systems, but the framework's externalist check, the assessment of systemic brittleness, prevents this from being mistaken for justified truth.
 * **Level 2: Justified Truth.** The highest epistemic status practically achievable. A proposition is justified as true if it is certified by a **Consensus Network** that has a demonstrated track record of low systemic brittleness. For all rational purposes, we are licensed to treat such claims as true. The diagnosed health of the certifying network provides powerful higher-order evidence that functions as a defeater for radical skepticism. To doubt a claim at this level, without new evidence of rising brittleness, is to doubt the entire adaptive project of science itself.
@@ -542,7 +544,7 @@ Nowhere is this dynamic clearer than in the response to Russell's Paradox, which
 - P(t): Very High (requires many special rules and restrictions to prevent inferential collapse)
 - C(t): Very High (demands constant management of contradictions and their containment)
 - R(t): Low (marginal adoption, limited to specialized domains)
-- **Diagnosis:** Higher brittleness (requires ongoing suppression costs to remain functional)
+- **Diagnosis:** A higher-brittleness resolution, as it requires sustained, complex, and costly mechanisms to manage contradictions rather than eliminating them
 - The system exhibits sustained high maintenance costs without corresponding payoffs
 
 **Historical Outcome:** The mathematical community converged primarily on ZF set theory as the standard foundation, with Type Theory adopted for specific domains where its structural guarantees prove valuable (such as computer science and constructive mathematics). Paraconsistent approaches remain peripheral. This convergence reflects differential brittleness among the alternatives, not arbitrary historical preference or mere convention. The outcome demonstrates how pragmatic selection operates in purely abstract domains through internal efficiency rather than external empirical testing.
@@ -624,7 +626,7 @@ First, where Quine's indeterminacy thesis seems to preclude testable proposition
 
 Second, we provide a naturalistic engine for the convergence that Quine's underdetermination thesis leaves mysterious. The Apex Network is not a Platonic realm but an attractor basin in the space of possible dispositional patterns, determined by real-world pragmatic constraints. It explains why some webs of belief systematically outperform others without abandoning naturalism.
 
-Finally, we supplement Quine's micro-level external constraint of sensory stimulation with a macro-level constraint: systemic cost. A coherent system can always accommodate anomalous experiences, but it cannot indefinitely ignore the compounding costs its ad-hoc adjustments generate. This provides a robust, non-discursive filter that grounds the entire web of belief against the isolation objection. Our project, therefore, is not a rejection of Quine but an attempt to complete his naturalistic turn by integrating it with the dynamics of systems theory and cultural evolution.
+Finally, we supplement Quine's micro-level external constraint of sensory stimulation with a macro-level constraint: systemic cost. A coherent system can always accommodate anomalous experiences, but it cannot indefinitely ignore the compounding costs its ad-hoc adjustments generate. This provides a robust, non-discursive filter that grounds the entire web of belief against the isolation objection. Our project, therefore, is not a rejection of Quine but an attempt to complete his naturalistic turn by integrating it with the dynamics of systems theory and cultural evolution. Crucially, it supplements his external constraint of individual sensory stimulation with a novel, macro-level external constraint: the non-discursive, systemic costs generated by the web as a whole.
 
 ### 6.3 A Realist Corrective to Neopragmatism and Social Epistemology
 
@@ -829,7 +831,7 @@ We began with the challenge of distinguishing viable knowledge from brittle dogm
 
 It provides the external constraint that coherentism has long needed, but it does so without resorting to foundationalism. It accounts for the convergence that motivates scientific realism, but it does so within a fallibilist and naturalistic picture of inquiry.
 
-Ultimately, Emergent Pragmatic Coherentism shares the realist's conviction that convergence reflects constraint, not convention. It reframes truth as an emergent structural attractor (the Apex Network) stabilized through an evolutionary process of eliminating failure. The approach calls for epistemic humility, trading the ambition of a God's-eye view for the practical wisdom of a mariner. The payoff is not a final map of truth, but a continuously improving reef chart: a chart built from the architecture of failure, allowing us to more safely navigate the channels of viable knowledge.
+Ultimately, Emergent Pragmatic Coherentism shares the realist's conviction that convergence reflects constraint, not convention. It reframes truth as an emergent structural attractor (the Apex Network) stabilized through an evolutionary process of eliminating failure. The approach calls for epistemic humility, trading the ambition of a God's-eye view for the practical wisdom of a mariner. The payoff is not a final map of truth, but a continuously improving reef chart: a chart built from the architecture of failure, helping us to distinguish the channels of viable knowledge from the hazards of brittle dogma.
 
 ## Appendix A: A Mathematical Model of Epistemic Viability
 
