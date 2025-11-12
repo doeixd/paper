@@ -66,6 +66,8 @@ We begin with Quine's insight that belief is not a mental representation with pr
 
 Crucially, this disposition is not isolated but embedded in a holistic web of related dispositions—about time, transportation, schedules, and reliability—that mutually support and constrain each other. The Quinean web is not a static structure but a living pattern of coordinated dispositions maintained through ongoing interaction with the world. This is the foundation: belief as behavioral pattern, not mental content.
 
+
+
 #### 2.1.2 Conscious Awareness and the First-Person Dimension
 
 While Quine emphasized third-person behavioral criteria, human beings possess a distinctive capacity that warrants attention: conscious awareness and memory of their own dispositions to assent. Sarah does not merely have the disposition to say "my bus comes at 8 AM"—she is aware that she has this disposition. This awareness is what we phenomenologically experience as "having a belief."
