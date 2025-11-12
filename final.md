@@ -47,7 +47,7 @@ The framework targets cumulative knowledge systems where inter-generational clai
 - Standing Predicate: Reusable predicate for cost-reduction
 - Constrained Interpretation: A methodology for assessing brittleness by anchoring analysis in physical constraints, comparative history, and convergent evidence to achieve pragmatic objectivity.
 - Pragmatic Objectivity: Objectivity sufficient for comparative assessment, achieved through convergent evidence from independent metrics without assuming a neutral viewpoint.
-- Modal Necessity (of Apex Network): The Apex Network exists as a necessary structure determined by pragmatic constraints, not as a contingent product of which societies happened to survive. It would be discovered through any sufficiently comprehensive exploration of the constraint landscape, making it counterfactually stable across alternative histories.
+- Modal Necessity (of Apex Network): The Apex Network is a constraint-determined attractor in the landscape of viable knowledge systems—a structural endpoint emerging from invariants of survival, logic, and coordination rather than a pre-existing Platonic form. Its "necessity" is not metaphysical but functional: given reality's constraint structure, any sufficiently comprehensive exploration of viable configurations must converge toward this region of solution-space. It is necessary in the sense that π is necessary in Euclidean geometry—determined by structural relationships, not existing timelessly apart from those relationships.
 
 ## 2. The Core Concepts: Units of Epistemic Selection
 
@@ -147,6 +147,8 @@ Shared networks are active systems under constant pressure from pragmatic pushba
 
 First-Order Costs are direct, material consequences: failed predictions, wasted resources, environmental degradation, systemic instability (e.g., excess mortality). These are objective dysfunction signals. Systemic Costs are secondary, internal costs a network incurs to manage, suppress, or explain away first-order costs. These non-productive expenditures reveal true fragility; for a formal mathematical model of systemic brittleness and its dynamic evolution, see Appendix C.
 
+Systemic brittleness, as used here, is a systems-theoretic measure of structural vulnerability—not a moral or political judgment. It applies uniformly across empirical domains (physics, medicine), abstract domains (mathematics, logic), and social domains (institutions, norms). The measure tracks failure sensitivity: how readily a system generates cascading costs when its principles encounter resistance. This diagnostic framework is evaluatively neutral regarding what kinds of systems should exist; it identifies which configurations are structurally sustainable given their constraint environment. A highly coercive political system exhibits brittleness not because coercion is morally wrong but because maintaining such systems against pragmatic resistance (demographic stress, coordination failures, resource depletion) generates measurable, escalating costs that signal structural unsustainability.
+
 **Conceptual Debt Accumulation:** Compounding fragility from flawed, complex patches protecting core principles.
 
 **Coercive Overheads:** Measurable resources allocated to enforcing compliance and managing dissent. Coercive overheads are the primary mechanism for power dynamics in our model: resources maintaining brittle systems against pressures become direct, measurable non-viability indicators. Dissent is a critical data stream signaling systems generating costs for members.
@@ -159,14 +161,16 @@ To operationalize these concepts, we introduce diagnostic indicators that track 
 
 In evolutionary epistemology (Campbell 1974; Popper 1972), falsification acts as a selection pressure on beliefs. EPC extends this: brittleness functions analogously to free energy (Friston 2010), quantifying deviation between a network's internal model and its constraining environment. Reducing brittleness thus constitutes epistemic adaptation. Zollman (2010) shows how transient diversity increases long-term epistemic robustness, providing theoretical justification for our pluralist frontier.
 
-| Indicator | Dimension | Proxy Metric |
+To illustrate how brittleness manifests empirically, we introduce diagnostic indicators. These are heuristic tools for conceptual illustration, not literal instruments for generating quantitative data. Their purpose is to make the abstract concept of systemic viability tractable by identifying observable patterns that signal accumulated structural costs. These indicators guide philosophical analysis of historical cases and help clarify what we mean by "brittleness" in different domains; they are not proposed as metrics for empirical research programs or policy evaluation. The distinction is crucial: the framework's philosophical validity rests on the coherence of the brittleness concept and its explanatory power, not on the precision of these provisional operationalizations.
+
+| Indicator | Dimension | Proxy Metric (Illustrative) |
 | :--- | :--- | :--- |
 | P(t) | Conceptual Debt Accumulation | Ratio of anomaly-resolution publications to novel-prediction publications |
 | C(t) | Coercive Overhead | Ratio of security/suppression budget to productive/R&D budget |
 | M(t) | Model Complexity | Rate of parameter/complexity growth vs. marginal performance gains |
 | R(t) | Resilience Reserve | Breadth of independent, cross-domain confirmations of core principles |
 
-Two examples illustrate this toolkit in action.
+The following examples use these indicators as conceptual lenses for retrospective philosophical analysis of historical knowledge systems, illustrating how the abstract notion of brittleness could manifest as observable patterns. These are not worked empirical studies but conceptual illustrations that make the framework's diagnostic approach concrete.
 
 **Case 1: Ptolemaic Astronomy (c. 150-1600 CE)**
 
@@ -318,7 +322,7 @@ The Apex Network's status is dual, a distinction critical to our fallibilist rea
 
 Thus, the Apex Network should not be misconstrued as a single, final theory of everything. Rather, it is the complete set of maximally viable configurations—a high-altitude plateau on the fitness landscape. While some domains may have single sharp peaks, others may permit constrained pluralism of equally low-brittleness systems. Convergence is away from vast valleys of failure documented in the Negative Canon, and toward this resilient plateau of viable solutions.
 
-The Apex Network's objectivity stems not from historical contingency but from modal necessity. This can be established through a four-premise argument:
+The Apex Network's objectivity stems not from historical contingency but from modal necessity. However, "necessity" here must be understood carefully to avoid foundationalist or Platonic connotations. The Apex Network is not a timeless structure existing independently of the constraint-generating world—it is better understood as a constraint-determined attractor: the structural endpoint that must emerge given reality's invariant features. Its necessity is functional rather than metaphysical, analogous to how the structure of a river delta is "necessary" given water flow, gravity, and sediment dynamics. The delta does not exist apart from these forces but emerges necessarily from their operation.
 
 **The Necessity Argument:**
 
@@ -328,9 +332,9 @@ The Apex Network's objectivity stems not from historical contingency but from mo
 
 3. Constraints determine a fitness landscape where some configurations are more viable than others. While multiple locally optimal solutions may exist (pluralism at the Pluralist Frontier), vast regions generate catastrophic costs (the Negative Canon). The Apex Network comprises the set of maximally viable configurations—the high-altitude plateau, not necessarily a single peak.
 
-4. The Apex Network IS that optimal structure. The configuration space of maximally viable solutions. It exists whether we've discovered it or not, determined by constraints rather than by our beliefs about it.
+4. The Apex Network IS that optimal structure. The configuration space of maximally viable solutions. It exists whether we've discovered it or not, determined by constraints rather than by our beliefs about it—but its existence is the existence of a structural pattern emergent from those constraints, not a Platonic form existing timelessly outside them.
 
-**Conclusion:** The Apex Network emerges necessarily from constraints, independent of discovery—revealed, not created by inquiry.
+**Conclusion:** The Apex Network emerges necessarily from constraints, independent of discovery—revealed, not created by inquiry. But "emerges necessarily" means the pattern is determined by invariant relationships, not that it exists as a pre-temporal blueprint.
 
 **Historical filtering is how we discover this structure, not how we create it.** Failed systems are experiments revealing where the landscape drops off. The Negative Canon maps the canyons and cliffs. Over time, with sufficient experiments across diverse conditions, we triangulate toward the peaks.
 
