@@ -227,6 +227,8 @@ Rescher, Nicholas. 2001. *Cognitive Pragmatism: The Theory of Knowledge in Pragm
 
 Roda, Weston C., Marie B. Varughese, Donglin Han, and Michael Y. Li. 2020. "Why Is It Difficult to Accurately Predict the COVID-19 Epidemic?" *Infectious Disease Modelling* 5: 271–281. https://doi.org/10.1016/j.idm.2020.03.001.
 
+Rosas, Fernando E., Bernhard C. Geiger, Andrea I Luppi, Anil K. Seth, Daniel Polani, Michael Gastpar, and Pedro A.M. Mediano. 2024. "Software in the natural world: A computational approach to emergence in complex multi-level systems." arXiv preprint arXiv:2402.09090.
+
 Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press. ISBN 978-0691020167.
 
 Rorty, Richard. 1989. *Contingency, Irony, and Solidarity*. Cambridge: Cambridge University Press. ISBN 978-0521367813.

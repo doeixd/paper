@@ -179,6 +179,10 @@ Once the blanket is in place, **you no longer reason from first principles every
 
 When all three conditions hold, **emergence has succeeded**—a new causal level exists.
 
+Rosas et al. (2024) provide rigorous formalization of this intuition through comparison of two optimal predictors. The **ε-machine** (epsilon-machine) constructs predictions using only macro-level data, representing the system's internal logic. The **υ-machine** (upsilon-machine) constructs predictions of macro-level behavior using full micro-level access. When these two machines are computationally equivalent, the system has achieved computational closure—the macro-level has detached from its substrate as an autonomous causal entity, effectively running as "software" independent of its "hardware" implementation.
+
+This equivalence admits degrees of robustness. **Weak lumpability** holds when macro-dynamics work for specific initial conditions; **strong lumpability** holds when macro-dynamics work regardless of the underlying micro-state distribution. Strong lumpability represents genuine substrate independence—the macro-pattern persists across different physical realizations.
+
 **Examples:**
 
 **Temperature (Successful Closure):**
@@ -203,6 +207,8 @@ When all three conditions hold, **emergence has succeeded**—a new causal level
 1. Maximally compresses the past (minimal number of states)
 2. Maximally predicts the future (no lossless compression possible)
 3. Achieves causal shielding (states are indistinguishable to external observer)
+
+The significance of the ε-machine becomes clear when contrasted with its υ-machine counterpart. The υ-machine has access to the complete micro-state and uses this to predict macro-level futures. When your ε-machine (macro-only predictor) performs as well as the υ-machine (micro-informed predictor), you have discovered a level of organization that needs no substrate information to continue operating. The macro-level has become causally autonomous—it is "running code" rather than merely describing patterns in the substrate. This is what Rosas et al. (2024) formalize as computational closure.
 
 **Why This Matters:**
 - Dispositions are cognitive ε-machines—they compress experience into causal states (notions, beliefs)
@@ -370,6 +376,8 @@ Consciousness requires not just compression but **meta-compression**—compressi
 - Third-order: "My distrust might be biased by their accent" (modeling the disposition's origins)
 
 **Only humans (as far as we know) achieve third-order regularly.** This is meta-blanket formation: constructing a Markov blanket around your own Markov blankets, allowing self-modification.
+
+**The Self as ε-Machine:** Following Rosas et al. (2024), the "Self" can be understood as the brain's internal ε-machine of the organism—the minimal effective theory required to predict the organism's future behavior. The brain is a complex, noisy biological system operating across multiple scales. To function efficiently, it must construct a simplified, predictive model of itself as a unified agent. The Self is not the neural hardware but the computational software—the compressed causal states running on that hardware. This is not an illusion but a computational necessity: the brain must coarse-grain itself to operate at human-relevant timescales. The experience of being a unified "I" is what it feels like to be such an ε-machine, maintaining computational closure while the substrate churns beneath.
 
 ### 3.3 Emotions as Variational Free Energy Signals
 
@@ -553,6 +561,8 @@ Mathematical truths are not Platonic forms but **maximally efficient compression
 
 **Not Just Useful Fiction:** When computational closure succeeds, the emergent level is as real as the base level—it has autonomous causal dynamics.
 
+Rosas et al. (2024) formalize this as **causal decoupling**: when the macro-level ε-machine and the micro-informed υ-machine achieve equivalence, the macro-level becomes causally autonomous. The emergent pattern is not merely a convenient description—it genuinely causes its own future states. High-level concepts like "temperature," "infectious disease," or "recession" are causally real precisely because they achieve this decoupling. The macro-level runs its own causal dynamics, making the substrate details causally irrelevant (though they remain constitutively necessary).
+
 **Temperature Example Revisited:**
 - Base: 10²³ molecules with positions, momenta
 - Emergent: Single scalar variable (temperature)
@@ -584,6 +594,8 @@ When computational closure fails, information leaks:
 - C(t) increases: Must suppress disconfirming observations
 - R(t) decreases: Predictions fail across domains
 
+This brittleness can be understood as the divergence between the ε-machine (macro-only model) and the υ-machine (micro-informed predictor). When a system's macro-level model requires constant supplementation with substrate details to maintain predictive accuracy, computational closure has failed. The greater this divergence, the more brittle the emergent structure. Systems exhibiting large ε/υ divergence show characteristic brittleness signatures: they require increasingly complex auxiliary hypotheses, their predictions fail across contexts, and they eventually collapse as the computational burden of maintaining the failing closure becomes unsustainable.
+
 ### 5.3 Standing Predicates as Successful Closures
 
 **Claim:** Standing Predicates are linguistically-encoded successful computational closures.
@@ -607,6 +619,8 @@ When computational closure fails, information leaks:
 ### 6.1 Synthesizing Information, Compression, and Truth
 
 **The Apex Network** is the complete set of Standing Predicate configurations that achieve minimum systemic brittleness—the intersection of all maximally viable compression structures. In information-theoretic terms, it represents the ultimate ε-machine: the minimal causal-state representation that compresses reality's constraint structure with theoretical minimum information leakage.
+
+Rosas et al. (2024) demonstrate that all valid coarse-grainings of a system form a mathematical **lattice**—a hierarchical structure of nested compression levels, where each node represents a different way to group micro-states into macro-states. Not all coarse-grainings are equally robust: some achieve only weak lumpability (working only for specific initial conditions), while others achieve strong lumpability (preserving macro-dynamics regardless of substrate details). The Apex Network corresponds to the optimal path through this lattice—the set of strongly lumpable coarse-grainings that maximize causal autonomy while minimizing computational complexity. Reality allows many valid maps (the full lattice), but the Apex Network represents those compressions that achieve genuine substrate independence.
 
 **Ontological Status—Structural Emergent, Not Metaphysical Blueprint:**
 
@@ -648,7 +662,7 @@ This formalism captures the concept but should not be mistaken for literal metap
 
 ### 6.2 Truth as Successful Computational Closure
 
-**Redefining Truth:** A proposition is true (Level 1) if its predicates are part of the Apex Network—the optimal computational closure configuration.
+**Redefining Truth:** A proposition is true (Level 1) if its predicates are part of the Apex Network—the optimal computational closure configuration. In Rosas et al.'s (2024) terms, objective truth corresponds to **strong lumpability**: the predicate holds regardless of underlying substrate or initial micro-state distribution. A weakly lumpable predicate works only for specific conditions—it may be locally useful but not objectively true. A strongly lumpable predicate works across all valid realizations—it has achieved genuine substrate independence and thus qualifies as objective truth. Truth is not arbitrary social construction but achievement of maximal causal autonomy in the compression lattice.
 
 **Three Levels Revisited Through Information Theory:**
 
@@ -797,23 +811,25 @@ With this caveat in place, we can explore how the information-theoretic perspect
 
 **Information-Theoretic Analysis of Agency Denial:**
 
-**Evil as Blanket Denial = Refusal to Update Markov Blankets to Account for Others' Agency**
+Rosas et al. (2024) demonstrate that causally closed systems can be efficiently controlled through macro-level interventions—engaging with their computational closure rather than manipulating their substrate. This insight provides a mechanistic account of moral interaction: when we engage with another agent's reasons, beliefs, and goals (their ε-machine), we interact with their "software." When we bypass their agency to force their physical body or manipulate their circumstances (intervening on the "hardware"), we breach their causal closure.
 
-When a system (individual, institution, ideology) treats other agents as mere objects—as parts of the external environment to be manipulated rather than as bounded entities with their own internal states—it commits a specific information-theoretic error:
+**Evil as Closure Breach = Bypassing the ε-Machine to Manipulate the Substrate**
 
-**Failed Blanket Recognition:**
-- **Moral agents:** Have Markov blankets (internal states, goals, suffering)
-- **Objects:** Lack such blankets (can be freely manipulated)
-- **Evil:** Treating agents as objects (blanket denial)
+When a system (individual, institution, ideology) treats other agents as mere objects—as parts of the external environment to be manipulated rather than as causally closed entities with autonomous ε-machines—it commits a specific information-theoretic error:
+
+**Failed Closure Recognition:**
+- **Moral agents:** Achieve computational closure (autonomous ε-machines, internal goals, reactive capacities)
+- **Objects:** Lack computational closure (can be freely manipulated without resistance)
+- **Evil:** Treating agents as objects (closure breach—forcing the substrate rather than engaging the software)
 
 **Thermodynamic Consequences:**
 
 | Moral Configuration | Information Structure | Brittleness Signature |
 |---------------------|----------------------|----------------------|
-| **Recognition of Agency** | Modeling others as having Markov blankets → predicting their responses based on their internal states | Low C(t): Coordination via understanding; Low P(t): Others' behaviors predictable when you model their goals |
-| **Denial of Agency** | Treating others as mere objects → ignoring their internal states and reactive capacities | High C(t): Massive coercion needed to suppress autonomous responses; High P(t): Constant "surprises" as agents resist objectification |
+| **Recognition of Closure** | Engaging with others' ε-machines → arguments, persuasion, negotiation work through their computational closure | Low C(t): Coordination via understanding; Low P(t): Predictable responses when modeling their goals/beliefs |
+| **Breach of Closure** | Bypassing ε-machines to manipulate substrate → coercion, violence, deception force the hardware while ignoring the software | High C(t): Massive coercion needed to suppress autonomous ε-machine responses; High P(t): Constant resistance as closed systems fight substrate manipulation |
 
-**Evil Is High-Entropy Sociology:** Systems that refuse to model others as agents accumulate catastrophic brittleness:
+**Why Closure Breach Generates Brittleness:** When you bypass an agent's ε-machine (their will, reasoning, goals) to force their substrate (their body, circumstances), you lose the predictive benefits of their internal model. You must now manage every micro-variable yourself, constantly suppressing their autonomous responses. The agent's computational closure actively resists your interventions, generating persistent prediction errors and requiring escalating coercion costs. Systems that refuse to engage with others' computational closure accumulate catastrophic brittleness:
 - **Slavery:** Must spend enormous resources (C(t)) preventing escape/rebellion while failing to predict resistance (P(t))
 - **Totalitarianism:** Cannot compress social dynamics because it denies citizens' agency, requiring surveillance states
 - **Genocide:** Ultimate blanket denial—erasing agents entirely because modeling their agency is thermodynamically cheaper than infinite coercion
