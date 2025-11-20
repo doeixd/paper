@@ -236,9 +236,9 @@ The significance of the ε-machine becomes clear when contrasted with its υ-mac
 | Culinary purists | "Requires two separate bread pieces" | Preserving fine-grained distinctions | Hot dog is NOT a sandwich |
 | Structural engineers | "Continuous base with vertical walls" | Engineering load distribution | Context-dependent |
 
-**Key Insight:** Each community draws the boundary where it reduces brittleness for their purposes. The information hasn't changed—the coarse-graining has. This is not arbitrary (each blanket faces pragmatic testing) but it is pluralistic (multiple viable configurations exist).
+**Key Insight—Epistemic Equifinality:** In Systems Theory, *equifinality* describes how different structural configurations can achieve the same steady state. The Hot Dog Paradox illustrates **epistemic equifinality**: different Markov Blankets (definitions) can achieve comparable levels of computational closure depending on the system's goal (taxation vs. cuisine vs. engineering). Each community draws the boundary where it reduces brittleness for their purposes. The information hasn't changed—the coarse-graining has. This is not arbitrary (each blanket faces pragmatic testing) but it is pluralistic (multiple viable configurations exist).
 
-**Connection to Truth:** The Apex Network doesn't dictate "the one true hot dog ontology" but rather the set of boundary-drawing strategies that achieve genuine computational closure with minimal brittleness. Different purposes require different closures.
+**Connection to Truth:** The Apex Network doesn't dictate "the one true hot dog ontology" but rather the set of boundary-drawing strategies that achieve genuine computational closure with minimal brittleness. Different purposes require different closures. The Pluralist Frontier of the Apex Network is the zone where the constraint landscape is flat enough to support multiple, equally viable coarse-grainings—regions where equifinality holds.
 
 **Implication:** Ontological disputes often aren't about facts but about which coarse-graining serves which purpose. The universe doesn't care if a hot dog is a sandwich, but food safety inspectors might need to draw that blanket for regulatory coherence.
 
@@ -379,7 +379,7 @@ Consciousness requires not just compression but **meta-compression**—compressi
 
 **Only humans (as far as we know) achieve third-order regularly.** This is meta-blanket formation: constructing a Markov blanket around your own Markov blankets, allowing self-modification.
 
-**The Self as ε-Machine:** Following Rosas et al. (2024), the "Self" can be understood as the brain's internal ε-machine of the organism—the minimal effective theory required to predict the organism's future behavior. The brain is a complex, noisy biological system operating across multiple scales. To function efficiently, it must construct a simplified, predictive model of itself as a unified agent. The Self is not the neural hardware but the computational software—the compressed causal states running on that hardware. This is not an illusion but a computational necessity: the brain must coarse-grain itself to operate at human-relevant timescales. The experience of being a unified "I" is what it feels like to be such an ε-machine, maintaining computational closure while the substrate churns beneath.
+**The Self as User Interface:** Following Rosas et al. (2024), the "Self" is not a ghost in the machine but a user interface—the brain's own lossy compression of its massive, distributed neural activity. Just as a computer operating system represents billions of transistor states as a single "folder" icon, the brain compresses its complex somatic and cognitive states into a single variable: "I". This variable is an ε-machine state—a simplified causal token that allows the system to predict its own future actions without tracking the firing of every individual neuron. The Self is not the neural hardware but the computational software running on that hardware, the minimal effective theory required to predict the organism's future behavior. This is not an illusion but a computational necessity: the brain must coarse-grain itself to operate at human-relevant timescales. The experience of being a unified "I" is what it feels like from inside this compression process, maintaining computational closure while billions of neural events churn beneath conscious awareness.
 
 ### 3.3 Emotions as Variational Free Energy Signals
 
@@ -837,12 +837,16 @@ When a system (individual, institution, ideology) treats other agents as mere ob
 
 **Why Closure Breach Generates Brittleness:** When you bypass an agent's ε-machine (their will, reasoning, goals) to force their substrate (their body, circumstances), you lose the predictive benefits of their internal model. You must now manage every micro-variable yourself, constantly suppressing their autonomous responses. The agent's computational closure actively resists your interventions, generating persistent prediction errors and requiring escalating coercion costs.
 
-**Metastability and Timescales:** A critical qualification: coercive systems can achieve local stability (metastability) by successfully suppressing agency through overwhelming force or breaking the oppressed population's capacity for resistance. Historically, slavery, totalitarian regimes, and colonial systems have persisted for generations, not mere moments. The thermodynamic constraint operates on longer timescales than immediate collapse. The claim is not that evil systems fail instantly, but that they accumulate higher brittleness costs than recognition-based alternatives—they require more resources to maintain, adapt more slowly to environmental changes, and face higher vulnerability to perturbations. Eventually, the thermodynamic gradient asserts itself, but "eventually" can span centuries. This is a long-run structural constraint, not a guarantee of swift moral justice.
+**Metastability Through Parasitic Endurance:** A critical qualification: coercive systems can achieve local stability (metastability) by successfully suppressing agency through overwhelming force or breaking the oppressed population's capacity for resistance. Historically, slavery, totalitarian regimes, and colonial systems have persisted for generations, not mere moments. The thermodynamic constraint operates on longer timescales than immediate collapse.
 
-Systems that refuse to engage with others' computational closure accumulate elevated brittleness:
-- **Slavery:** Required enormous enforcement resources (C(t)) and faced persistent resistance (P(t)), though many systems maintained metastability for generations before collapse
-- **Totalitarianism:** Requires surveillance states to compress social dynamics while denying citizens' agency—thermodynamically costly but historically metastable
-- **Genocide:** Ultimate closure denial—erasing agents entirely when modeling their agency becomes perceived as thermodynamically cheaper than infinite coercion
+The key mechanism is **parasitic endurance**: these systems survive not through structural viability but by extracting surplus energy to pay the massive coercion costs. They appear stable only because they burn external resources—extracting surplus from the oppressed, exploiting resource windfalls (oil wealth, foreign aid), or cannibalizing their own future—to mask the entropy generated by their internal friction. This is energetic insolvency maintained through extraction, not genuine thermodynamic efficiency.
+
+The claim is not that evil systems fail instantly, but that they accumulate higher brittleness costs than recognition-based alternatives—they require more resources to maintain, adapt more slowly to environmental changes, and face higher vulnerability to perturbations. These systems are **metastable, not viable**—appearing stable only while the subsidy lasts. Eventually, when external resources are exhausted or resistance accumulates beyond suppression capacity, the thermodynamic gradient asserts itself. But "eventually" can span centuries. This is a long-run structural constraint, not a guarantee of swift moral justice.
+
+Systems that refuse to engage with others' computational closure accumulate elevated brittleness through parasitic endurance:
+- **Slavery:** Survived not through structural stability but by extracting surplus labor to pay the massive enforcement costs (C(t)), though this created persistent resistance (P(t)) and eventually collapsed when extraction could no longer cover coercion costs
+- **Totalitarianism:** Achieves "zombie stability" by burning external resources (oil revenue, international subsidies, or the cannibalization of internal capital) to fund surveillance states while denying citizens' agency—thermodynamically insolvent but can maintain metastability while resources last
+- **Genocide:** Ultimate closure denial—erasing agents entirely when the energetic cost of modeling their agency becomes perceived as exceeding the extraction capacity
 
 **Not Moral Relativism:** Different cultures may draw different boundaries around "who counts as an agent" (children? animals? ecosystems?), but systems that catastrophically misalign with the actual distribution of agency in their environment pay thermodynamic costs. The Apex Network includes the recognition that other humans are agents—not because of moral axioms but because any other blanket configuration generates unsustainable brittleness.
 
@@ -875,7 +879,7 @@ This appendix has developed an information-theoretic framework connecting raw in
 7. **Brittleness** measures information leakage when closures fail
 8. **Pragmatic Selection** eliminates high-brittleness compressions
 9. **The Apex Network** is the constraint-determined optimal compression structure
-10. **Truth** is alignment with this optimal compression
+10. **Truth** is not correspondence to static propositions but **thermodynamic resonance** with the Apex Network—the state where a system's enacted boundaries perfectly map the environment's causal constraints, achieving maximal computational closure with minimal information leakage
 
 **Conceptual Scaffolding, Not Dogmatic Mechanism:**
 
