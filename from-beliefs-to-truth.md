@@ -82,6 +82,44 @@ Section 2 establishes foundations by distinguishing beliefs, propositions, and p
 
 The central claim bears repeating: truth is architectural achievement. Beliefs become true by achieving certain functional positions within viable knowledge systems organized as holistic, hierarchical webs. Even logic itself—the paradigm of necessary truth—earned its foundational status through pragmatic success, not metaphysical fiat. Understanding how web architecture enables this transformation illuminates both the structure of knowledge and the naturalistic basis of truth.
 
+### 1.6 Relation to Quine's Framework
+
+This paper builds fundamentally on Quine's naturalistic epistemology, but extends his framework in specific ways that warrant explicit clarification. We take the web metaphor seriously—perhaps more literally than Quine intended—by making its structure and dynamics mechanistically precise. This section distinguishes what we draw directly from Quine from our systematic elaborations, explaining why these additions serve rather than betray his philosophical project.
+
+**What We Take from Quine**
+
+Our framework inherits several core Quinean commitments. First, thoroughgoing naturalism: beliefs are dispositions to assent (Quine 1960, Word and Object), grounded in observable behavior rather than unobservable mental states or abstract propositions. Second, holism: beliefs form interconnected webs where no proposition is tested in isolation; empirical challenges engage entire belief clusters (Quine 1951, "Two Dogmas of Empiricism"). Third, the center-periphery structure: beliefs organize along a gradient from observational periphery to abstract core, with logic occupying the center (Quine and Ullian 1978, The Web of Belief). Fourth, pragmatic revision: when experience conflicts with theory, adjustments can occur anywhere in the web, guided by considerations of minimal disruption and maximum simplicity. Fifth, revisability in principle: no belief enjoys absolute immunity from revision, including logic and mathematics—though pragmatic costs make some revisions effectively prohibitive. Sixth, recalcitrant experience as driver of change: observations that resist accommodation force network restructuring (Quine 1960).
+
+These commitments structure our entire approach. We are thoroughly Quinean in rejecting analytic/synthetic distinctions, embracing epistemological naturalism, and treating even logic as fallible in principle while practically entrenched.
+
+**What We Add Beyond Quine**
+
+Our extensions make Quine's metaphor mechanistically explicit while preserving his philosophical insights. First, we propose an explicit five-tier architecture (Sections 3.2-3.3) distinguishing logic (Tier 1), mathematics (Tier 2), domain-general predicates (Tier 3), domain-specific predicates (Tier 4), and observational reports (periphery). Quine described a center-periphery gradient but deliberately avoided sharp boundaries to preserve holism. We acknowledge this tension: our tiers are analytical tools with porous boundaries, not ontological categories. The systematization enables empirical predictions about revision patterns while risking over-rigidification of Quine's flexible framework.
+
+Second, we introduce Standing Predicates (Section 2.4)—our terminology for what Quine might have called "well-entrenched beliefs." The term emphasizes their functional role as reusable programs that structure inquiry rather than merely their degree of entrenchment. This highlights the status change from tested-data to tool-that-tests, which Quine noted but didn't systematically develop.
+
+Third, we articulate a five-stage functional transformation mechanism (Section 5.1) explicating how predicates migrate from hypothesis to core infrastructure. While Quine recognized that beliefs can become entrenched through use, he didn't provide a stage-by-stage account of this process. Our mechanism makes his insights testable by specifying criteria for each stage.
+
+Fourth, we distinguish three levels of truth (Section 5.3): contextual coherence, justified truth, and objective truth. Quine's deflationary approach to truth emphasized that "is true" serves primarily logical functions rather than denoting a substantive property. We preserve this deflation while adding structure to track different degrees of pragmatic validation—from mere internal consistency to convergent discovery across independent inquiry traditions.
+
+Fifth, we develop differential activation dynamics (Section 4) showing which predicates activate in response to which experiences. While Quine noted that core beliefs are harder to revise than peripheral ones, we make this explicit through activation patterns: logic remains constantly active (operating system), domain predicates activate contextually, observational predicates activate episodically. This extends Quine's cost-benefit analysis of revision into a dynamic framework.
+
+Sixth, we employ information-theoretic concepts unavailable to Quine: computational closure via Markov blankets (Section 3.4-3.5), drawing on Pearl (1988) and Friston (2010). These formalize Quine's intuition that successful predicates enable efficient reasoning by shielding us from lower-level complexity. The formalism is modern, but the insight is Quinean.
+
+**Why These Additions**
+
+These extensions serve three purposes compatible with Quine's naturalistic project. First, they make the web metaphor empirically testable by generating specific predictions: brain damage should selectively affect predicates by tier; scientific revisions should typically preserve deeper layers; AI systems should independently discover logical structure. Second, they resolve problems Quine acknowledged but left open—particularly coherentism's isolation objection. By grounding coherence in demonstrated viability measured through brittleness accumulation, we provide the external constraint coherentism needs without reintroducing foundationalism. Third, they systematize Quine's scattered insights about entrenchment, revision costs, and pragmatic filtering into a unified account of how beliefs become truth.
+
+**One Tension: System vs. Holism**
+
+Our five-tier structure might seem to violate Quine's resistance to sharp boundaries. Quine deliberately kept the web flexible precisely to avoid the kind of systematization we propose. We acknowledge this tension but defend our approach as analytical rather than ontological. The tiers are not discrete categories but regions along continua of scope, dependencies, entrenchment, and revision cost. Boundaries are porous—predicates occupy positions on gradients rather than belonging exclusively to one tier. We view this as making Quine's gradient explicit for analytical purposes rather than replacing his holism with rigid categories.
+
+The systematization enables questions Quine's framework left vague: exactly how entrenched is mathematics compared to logic? What makes revision costs "prohibitive" for some beliefs but manageable for others? When does a belief migrate from periphery toward core? Our framework provides answers while preserving Quine's core insight that these are pragmatic matters of degree, not metaphysical facts about belief categories.
+
+**Continuity with Quine's Project**
+
+Despite these extensions, we remain faithful to Quine's naturalistic vision. We reject correspondence theories of truth, embrace thoroughgoing fallibilism, ground epistemology in empirical practice, and explain even logic's centrality through pragmatic success rather than metaphysical necessity. Where Quine provided the metaphor and philosophical foundations, we supply mechanical details. Where he emphasized flexibility, we add structure for empirical testing. Where he noted patterns qualitatively, we measure them quantitatively. But the philosophical project—naturalizing epistemology while avoiding relativism—remains Quinean throughout.
+
 ---
 
 ## 2. Foundations: Beliefs, Propositions, Predicates
