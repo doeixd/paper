@@ -8,6 +8,8 @@ Anderson, Elizabeth. 1996. "Knowledge, Human Interests, and Objectivity in Femin
 
 Axelrod, Robert. 1984. *The Evolution of Cooperation*. New York: Basic Books. ISBN 978-0465021215.
 
+Ayvazov, Mahammad. 2025. "Beyond Likelihood: Improbability as a Quantifiable Field in Quantum Epistemology." Preprint, April 2025.
+
 Ayvazov, Mahammad. 2025. "Toward a Phase Epistemology: Coherence, Response and the Vector of Mutual Uncertainty." *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.5250197.
 
 Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism and Theories of Emergence." *European Journal of Pragmatism and American Philosophy* XI-2. https://doi.org/10.4000/ejpap.1611.
