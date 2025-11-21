@@ -12,11 +12,11 @@ The central thesis: **Consciousness is what it feels like from the inside of a h
 
 ### 1.1 The Primacy of Information
 
-At the most basic level, all physical systems process information. A rock sitting in sunlight absorbs photons (information input) and radiates heat (information output). However, most systems are informationally transparent—information flows through without creating persistent structure.
+All physical systems process information. A rock in sunlight absorbs photons (information input) and radiates heat (information output). Most systems, however, are informationally transparent: information flows through without creating persistent internal structure. The rock does not build a model of sunlight patterns or predict tomorrow's weather. It simply responds mechanically to immediate inputs.
 
-Living and cognitive systems are different: they **compress** information, building internal models that predict future sensory states. This compression is not metaphorical but literal in Shannon's sense: reducing surprise by encoding regularities.
+Living and cognitive systems differ fundamentally. They compress information, building internal models that predict future sensory states. This compression is literal in Shannon's sense, not metaphorical: reducing surprise by encoding regularities into reusable patterns.
 
-**Key Principle:** Existence as a bounded entity requires information processing. A "thing" exists to the extent it maintains statistical boundaries that distinguish its internal states from external states.
+Existence as a bounded entity requires information processing. A "thing" exists to the extent it maintains statistical boundaries distinguishing its internal states from external states.
 
 ### 1.2 The Free Energy Principle
 
@@ -31,26 +31,19 @@ All self-organizing systems minimize free energy by:
 
 This is not teleological but thermodynamic: systems that fail to minimize free energy dissipate. Those that succeed persist as bounded entities.
 
-**Connection to EPC:** Systemic brittleness is accumulated free energy. When a knowledge system's predictions consistently fail (information leakage), it must either:
-- Patch the model (increase M(t) - complexity)
-- Suppress disconfirming evidence (increase C(t) - coercion)
-- Accept falsification and revise (pragmatic pushback forces update)
+**Connection to Epistemic Brittleness:** Systemic brittleness is accumulated free energy. When a knowledge system's predictions consistently fail (information leakage), it must either patch the model with ad-hoc additions, suppress disconfirming evidence through coercion, or accept falsification and revise. The brittleness metrics developed in the main text (patch velocity, coercive overhead, model complexity, resilience reserve) measure these information-theoretic costs directly.
 
 ### 1.3 Dispositions as Compression Algorithms
 
 Returning to the Quinean foundation: a disposition to assent is a compressed encoding of regularities.
 
-**Example:** After encountering many dogs, an organism develops a "dog-detecting" disposition—a neural pattern that fires when dog-relevant features are present. This disposition:
-- Compresses thousands of dog-observations into a single reusable pattern
-- Predicts future dog-behavior (minimizes surprise when encountering new dogs)
-- Enables efficient action (approach friendly dogs, avoid aggressive ones)
-- Stores mutual information between multiple sensory streams (visual, olfactory, auditory)
+After encountering many dogs, an organism develops a "dog-detecting" disposition—a neural pattern that fires when dog-relevant features appear. This disposition compresses thousands of observations into a single reusable pattern, predicts future behavior (minimizing surprise when encountering new dogs), enables efficient action (approach friendly dogs, avoid aggressive ones), and stores mutual information across sensory streams (visual, olfactory, auditory).
 
-**Compression Ratio as Understanding:** The better the compression (fewer parameters, better predictions), the deeper the "understanding." A child who learns "all dogs bark" has a simple but lossy compression. An ethologist who understands canine communication has a complex but high-fidelity compression.
+Better compression means deeper understanding. A child learning "all dogs bark" has simple but lossy compression. An ethologist understanding canine communication has complex but high-fidelity compression. The compression ratio—how much information is preserved with how few parameters—tracks what we intuitively recognize as understanding.
 
 ### 1.4 Information Complexes and Mutual Information
 
-**Mutual Information** measures how much knowing one variable tells you about another. Dispositions storing high mutual information across multiple domains form **information complexes**—stable attractors in the space of possible compressions.
+Mutual information measures how much knowing one variable tells you about another. Dispositions storing high mutual information across multiple domains form information complexes: stable attractors in the space of possible compressions.
 
 **Example: The "Fire" Complex**
 - Visual (flames, light patterns)
@@ -60,9 +53,9 @@ Returning to the Quinean foundation: a disposition to assent is a compressed enc
 - Social (warnings, stories about danger)
 - Practical (cooking, destruction, tool-making)
 
-These information streams share latent structure (they co-vary reliably). A disposition that compresses their mutual information—the concept "fire"—achieves massive compression efficiency. This is why "fire" feels like a unified thing: it is a genuine compression joint in reality's information structure.
+These information streams share latent structure: they co-vary reliably. A disposition that compresses their mutual information (the concept "fire") achieves massive compression efficiency. This is why "fire" feels like a unified thing: it is a genuine compression joint in reality's information structure.
 
-**Not All Compressions Are Equal:** Some compressions are artifacts (rain dances cause rain), others track genuine causal structure (dry wood causes fire). Reality selects for the latter through differential brittleness.
+Not all compressions are equal. Some compressions are artifacts (rain dances cause rain), others track genuine causal structure (dry wood causes fire). Reality selects for the latter through differential brittleness.
 
 ### 1.5 Two Types of Patterns: Statistical Regularities and Structural Coherence
 
@@ -87,7 +80,7 @@ These aren't separate facts that happen to co-occur; they're aspects of a unifie
 - "F=ma" (structural—mathematical necessity once the concepts are understood)
 - "Swans are white" (statistical—inductively generalized from frequency, famously failed)
 
-**Ayvazov's Conceptual Framework:** This distinction receives formal treatment in Ayvazov's (2025) recent work on quantum epistemology, where he distinguishes between classical probability (frequency-based likelihood) and what he terms "improbabilistic coherence" (structural integrity that exists independent of repetition). While Ayvazov proposes a speculative quantum-mechanical formalism for this distinction, we employ it here purely as an epistemic category without committing to his physical interpretation. Whether this distinction maps onto fundamental physics or serves primarily as a useful conceptual tool remains an open question.
+Recent work in phase epistemology provides formal treatment of this distinction. Ayvazov (2025) distinguishes between classical probability (frequency-based likelihood) and what he terms "improbabilistic coherence" (structural integrity that exists independent of repetition), defining it as "the generative condition for epistemic emergence." While Ayvazov proposes a speculative quantum-mechanical formalism for this distinction, we employ it here purely as an epistemic category without committing to his physical interpretation.
 
 **Implications for Information Compression:**
 - Statistical compressions require large ensembles to stabilize (high sample complexity)
@@ -95,7 +88,7 @@ These aren't separate facts that happen to co-occur; they're aspects of a unifie
 - The brain appears capable of detecting both types, but conscious reasoning particularly engages with structural patterns
 - Innovation often involves recognizing structural coherence before statistical validation
 
-**Not Arbitrary:** Structural patterns aren't subjectively imposed but constrained by reality. You cannot validly infer that "ice produces heat" from a single encounter because thermodynamics forbids this relationship. The structural constraints are objective, even if recognizable from limited data.
+Structural patterns are not subjectively imposed but constrained by reality. You cannot validly infer that "ice produces heat" from a single encounter because thermodynamics forbids this relationship. The structural constraints are objective, even if recognizable from limited data.
 
 This distinction becomes essential for understanding how notions (proto-Standing Predicates) can form before extensive empirical testing, and why some singular experiences carry immediate epistemic weight while others require statistical accumulation.
 
@@ -130,16 +123,18 @@ With this methodological clarification in place, we can proceed to develop the f
 
 ### 2.1 What Is a Markov Blanket?
 
-A **Markov blanket** is a statistical boundary that creates conditional independence. Formally, for a system with states partitioned into:
-- **Internal states (μ):** The "inside" of the entity
-- **External states (η):** The "outside" world
-- **Sensory states (s):** Detecting external changes
-- **Active states (a):** Affecting external world
+Consider a living cell. Its membrane separates "inside" (genes, metabolism) from "outside" (hostile chemistry). The membrane has sensors (receptors detecting nutrients) and actuators (secretions affecting environment). Crucially, the cell's internal processes depend only on what crosses the membrane, not directly on the external world. This is a Markov blanket: a statistical boundary creating conditional independence.
+
+Formally, for a system with states partitioned into:
+- Internal states (μ): The "inside" of the entity
+- External states (η): The "outside" world
+- Sensory states (s): Detecting external changes
+- Active states (a): Affecting the external world
 
 A Markov blanket exists when:
-**P(μ | s, a, η) = P(μ | s, a)**
+P(μ | s, a, η) = P(μ | s, a)
 
-The internal states depend only on the blanket (sensory and active states), not directly on the external world. This creates **conditional independence**—the hallmark of an autonomous entity.
+Internal states depend only on the blanket (sensory and active states), not directly on the external world. This creates conditional independence—the hallmark of autonomous existence.
 
 ### 2.2 Blankets Create "Things"
 
@@ -147,25 +142,39 @@ Markov blankets are not discovered but **enacted**—they emerge when certain co
 
 **Examples Across Scales:**
 
-| Scale | Entity | Markov Blanket | Internal States | Sensory/Active States |
-|-------|--------|----------------|-----------------|----------------------|
-| Molecular | Cell | Phospholipid membrane | Genes, metabolism, proteins | Ion channels, receptors, secretions |
-| Neural | Brain region | Synaptic connections | Local processing circuits | Axonal inputs/outputs |
-| Cognitive | Concept | Attentional filter | Compressed representation | Pattern recognition triggers, behavioral outputs |
-| Social | Institution | Bureaucratic procedures | Internal decision-making | Public-facing policies, enforcement |
+| Scale | Entity | Markov Blanket | Internal States | Sensory/Active States |\r
+|-------|--------|----------------|-----------------|----------------------|\r
+| Molecular | Cell | Phospholipid membrane | Genes, metabolism, proteins | Ion channels, receptors, secretions |\r
+| Neural | Brain region | Synaptic connections | Local processing circuits | Axonal inputs/outputs |\r
+| Cognitive | Concept | Attentional filter | Compressed representation | Pattern recognition triggers, behavioral outputs |\r
+| Social | Institution | Bureaucratic procedures | Internal decision-making | Public-facing policies, enforcement |\r
 | Epistemic | Standing Predicate | Definitional boundaries | Compressed causal model | Recognition criteria, licensed inferences |
 
 **The Radical Implication:** What "exists" is not mind-independent but blanket-relative. Cells exist for systems with cell-detecting blankets. Quarks exist for systems with quark-detecting blankets. Gods exist for systems with god-detecting blankets.
 
-**But This Isn't Pure Relativism:** Some blanket configurations achieve genuine computational closure (stable, predictive, low-complexity dynamics), while others leak information catastrophically. Reality constrains which blankets are viable.
+**Defending Blanket-Relative Ontology:**
+
+This claim may seem to collapse into pure relativism or idealism, but it doesn't. The key is understanding that while blankets are enacted rather than discovered, not all enactments succeed. Reality imposes severe constraints on which blanket configurations achieve computational closure.
+
+Consider three cases:
+
+1. **Cells** (successful blanket): The phospholipid membrane creates genuine conditional independence. Internal metabolic dynamics can be predicted from membrane states alone, without tracking every external molecule. The blanket achieves computational closure—it works. This is why cells persist across billions of years and countless environments.
+
+2. **Phlogiston** (failed blanket): Attempts to draw a blanket around "phlogiston content" fail catastrophically. You cannot predict combustion outcomes using only phlogiston-level variables—oxygen levels, molecular structure, and thermodynamic conditions leak through constantly. The blanket never closes. This is why phlogiston was abandoned.
+
+3. **Quarks** (successful but scale-dependent blanket): For particle physicists, quarks form a viable blanket—the Standard Model achieves computational closure at that scale. For ecologists studying predator-prey dynamics, quarks are irrelevant; the blanket is drawn at the organism level. Both blankets work for their respective purposes.
+
+The crucial insight: **blanket-relativity is not arbitrariness**. You cannot successfully draw a blanket anywhere you please. Reality's constraint structure determines which coarse-grainings achieve closure and which leak information. The cell membrane works because lipid bilayers genuinely create conditional independence in aqueous environments—this is a fact about chemistry, not about our beliefs. Phlogiston fails because combustion genuinely requires oxygen—this is a fact about thermodynamics, not about our preferences.
+
+**Ontological Pluralism with Objective Constraints:** Different purposes require different blankets (quarks for physics, organisms for ecology, institutions for sociology), but within each domain, reality ruthlessly selects which blankets persist. This is neither naive realism (there is no single correct ontology) nor pure relativism (most attempted blankets fail). It is constrained pluralism: multiple viable ontologies exist, but viability is determined by reality's structure, not by our choices.
 
 **The Biological-Epistemic Isomorphism:** The parallel between biological and cultural-epistemic Markov blankets is not metaphorical but structural:
 
-| Biological Example | Cultural-Epistemic Example | Shared Mechanism |
-|--------------------|---------------------------|------------------|
-| **Cell membrane** (phospholipid bilayer) blankets the interior from hostile chemistry outside → new causal level emerges (genes, metabolism, reproduction) | **"...is an infectious disease"** draws blanket around pathogen-host interactions, insulating public health reasoning from miasmas, humors, spirits → new causal level emerges (transmission chains, sterilization protocols, vaccines) | Both are coarse-grainings that minimize prediction error/free energy/brittleness at the higher level |
-| Cell receptor proteins = sensory states detecting nutrients/threats | Recognition criteria = sensory states detecting instances ("has pathogen?") | Both detect relevant features across blanket boundary |
-| Cell secretions/flagella = active states affecting environment | Licensed inferences/interventions = active states affecting world | Both enable action based on internal model |
+| Biological Example | Cultural-Epistemic Example | Shared Mechanism |\r
+|--------------------|---------------------------|------------------|\r
+| **Cell membrane** (phospholipid bilayer) blankets the interior from hostile chemistry outside → new causal level emerges (genes, metabolism, reproduction) | **"...is an infectious disease"** draws blanket around pathogen-host interactions, insulating public health reasoning from miasmas, humors, spirits → new causal level emerges (transmission chains, sterilization protocols, vaccines) | Both are coarse-grainings that minimize prediction error/free energy/brittleness at the higher level |\r
+| Cell receptor proteins = sensory states detecting nutrients/threats | Recognition criteria = sensory states detecting instances ("has pathogen?") | Both detect relevant features across blanket boundary |\r
+| Cell secretions/flagella = active states affecting environment | Licensed inferences/interventions = active states affecting world | Both enable action based on internal model |\r
 | Homeostasis = maintaining internal states despite external fluctuations | Functional entrenchment = maintaining predicate despite anomalies | Both resist dissolution through active maintenance |
 
 Once the blanket is in place, **you no longer reason from first principles every time**. Saying "COVID-19 is an infectious disease" instantly inherits isolation protocols, PCR testing, ventilation engineering—just as a cell membrane instantly inherits billions of years of evolved receptor/secretion machinery. This is what a Markov blanket achieves: it lets the interior evolve under its own (much simpler) dynamics.
@@ -181,7 +190,9 @@ Once the blanket is in place, **you no longer reason from first principles every
 
 When all three conditions hold, **emergence has succeeded**—a new causal level exists.
 
-Rosas et al. (2024) provide rigorous formalization of this intuition through comparison of two optimal predictors. The **ε-machine** (epsilon-machine) constructs predictions using only macro-level data, representing the system's internal logic. The **υ-machine** (upsilon-machine) constructs predictions of macro-level behavior using full micro-level access. When these two machines are computationally equivalent, the system has achieved computational closure—the macro-level has detached from its substrate as an autonomous causal entity, effectively running as "software" independent of its "hardware" implementation.
+Rosas et al. (2024) formalize this intuition by comparing two optimal predictors. Imagine you want to predict how temperature will change. The ε-machine (epsilon-machine) uses only current temperature and pressure—macro-level data. The υ-machine (upsilon-machine) tracks every molecule's position and momentum—full micro-level access.
+
+When these two predictors perform equally well, something remarkable has happened: the macro-level has become causally autonomous. You have discovered a level of organization that needs no substrate information to continue operating. The macro-level is "running code" rather than merely describing patterns in the substrate. This is computational closure.
 
 This equivalence admits degrees of robustness. **Weak lumpability** holds when macro-dynamics work for specific initial conditions; **strong lumpability** holds when macro-dynamics work regardless of the underlying micro-state distribution. Strong lumpability represents genuine substrate independence—the macro-pattern persists across different physical realizations.
 
@@ -210,7 +221,17 @@ This equivalence admits degrees of robustness. **Weak lumpability** holds when m
 2. Maximally predicts the future (no lossless compression possible)
 3. Achieves causal shielding (states are indistinguishable to external observer)
 
-The significance of the ε-machine becomes clear when contrasted with its υ-machine counterpart. The υ-machine has access to the complete micro-state and uses this to predict macro-level futures. When your ε-machine (macro-only predictor) performs as well as the υ-machine (micro-informed predictor), you have discovered a level of organization that needs no substrate information to continue operating. The macro-level has become causally autonomous—it is "running code" rather than merely describing patterns in the substrate. This is what Rosas et al. (2024) formalize as computational closure.
+**Concrete Analogy: Chess Positions**
+
+Imagine two chess players trying to predict the outcome of a game:
+
+- **The υ-machine player** has access to the complete history: every move made, how long each player thought, what openings they studied, their heart rates, neuron firings in their brains. This player uses all micro-level information to predict the next move.
+
+- **The ε-machine player** sees only the current board position—the macro-state. No history, no neural data, just the pieces and their locations.
+
+When both players predict equally well, the board position has achieved computational closure. The macro-level (piece arrangement) contains all the information needed to predict future macro-states (subsequent positions). The history of how you arrived at this position doesn't matter—only the current configuration does. The game has "detached" from its substrate (the players' brains, their training, their moods) and runs purely on positional logic.
+
+This is what Rosas et al. (2024) formalize: when your ε-machine (macro-only predictor) performs as well as the υ-machine (micro-informed predictor), you have discovered a level of organization that needs no substrate information to continue operating. The macro-level has become causally autonomous—it is "running code" rather than merely describing patterns in the substrate.
 
 **Why This Matters:**
 - Dispositions are cognitive ε-machines—they compress experience into causal states (notions, beliefs)
@@ -244,11 +265,13 @@ The significance of the ε-machine becomes clear when contrasted with its υ-mac
 
 ### 2.6 From Notion to Standing Predicate: The Blanket Formation Process
 
-**Notions as Proto-Markov Blankets:** Before a belief crystallizes into explicit form, it exists as a tentative boundary-drawing attempt—what we call a notion. A notion is the brain's exploratory effort to see if a statistical boundary can be successfully maintained around certain patterns.
+#### 2.6.1 Notions as Proto-Markov Blankets
+
+Before a belief crystallizes into explicit form, it exists as a tentative boundary-drawing attempt—what we call a notion. A notion is the brain's exploratory effort to see if a statistical boundary can be successfully maintained around certain patterns.
 
 **The Robinson Crusoe Insight:** Standing Predicates don't require social coordination to form—they require only multimodal integration within a single agent navigating a constraint-rich environment.
 
-**Two Pathways to Valid Notions:**
+#### 2.6.2 Two Pathways to Valid Notions
 
 The distinction between statistical and structural regularities (Section 1.5) explains why some notions can achieve validity from limited evidence while others require extensive testing:
 
@@ -265,7 +288,7 @@ The distinction between statistical and structural regularities (Section 1.5) ex
 3. **Immediate validity:** The pattern's internal coherence validates it without requiring repetition
 4. **Example:** Touching fire once → permanent valid belief "fire burns"
 
-**Why Singular Instances Can Suffice:**
+#### 2.6.3 Why Singular Instances Can Suffice
 
 When Crusoe first encounters fire, he doesn't need hundreds of trials because fire exhibits structural coherence:
 - Combustion necessarily releases energy (thermodynamic constraint)
@@ -279,7 +302,7 @@ These constraints are mutually reinforcing. Recognizing any subset activates exp
 
 Not all patterns have this structural character. "Ravens are black" is a statistical regularity without structural necessity—there's no thermodynamic or logical reason ravens couldn't be white. Such compressions require extensive sampling to distinguish genuine patterns from accidents of limited experience.
 
-**The Solitary Agent Formation Process (Revised):**
+#### 2.6.4 The Solitary Agent Formation Process
 1. **Sensory encounter:** Pattern presents across multiple modalities
 2. **Pattern type detection:** Brain assesses whether components show:
    - **Mere correlation** (statistical) → requires repetition
@@ -308,6 +331,8 @@ But the fundamental process—drawing boundaries, testing them against reality, 
 ### 3.1 The Phenomenology of Compression
 
 **Core Hypothesis:** Consciousness is the subjective experience of high-level information compression happening in real-time, with particular salience for patterns exhibiting structural coherence rather than mere statistical regularity.
+
+**Central Distinction:** Consciousness appears particularly engaged when the brain detects or attempts to detect structural coherence—when patterns present themselves as having internal necessity rather than mere correlation. Unconscious processing handles statistical pattern matching efficiently in the background, while conscious attention engages when structural relationships demand explicit reasoning.
 
 **Two Modes of Pattern Processing:**
 
@@ -408,7 +433,7 @@ From this perspective, emotions are not bugs but features—they make the costs 
 
 **Traditional Formulation:** Why is there "something it is like" to process information? Why aren't we zombies? This is Chalmers' hard problem of consciousness—the explanatory gap between physical processes and subjective experience.
 
-**The Challenge:** We must acknowledge this remains a genuine philosophical challenge. Our information-theoretic framework doesn't eliminate the hard problem, but it may help clarify what needs explaining and identify relevant functional distinctions.
+**Correlates, Not Causes:** A crucial clarification. We have identified a functional correlate of consciousness—structural pattern recognition appears to track the phenomenological boundary. But correlation is not causation. The explanatory challenge remains: why should detecting mutual constraints feel like *understanding* while detecting statistical correlations feels like nothing (or mere *familiarity*)? We have narrowed the space of functional properties to examine, but we have not explained why this particular functional property should generate subjective experience. The distinction between conscious and unconscious processing is functional, but the explanandum—why there is "something it is like" to perform one function but not the other—remains experiential and unresolved.
 
 **Our Contribution—A Working Hypothesis:**
 
@@ -454,9 +479,7 @@ That's still a hard problem, but it's a more precise one. And it suggests consci
 
 We're not denying consciousness exists (eliminativism) nor claiming it's forever inexplicable (mysterianism). We're offering a naturalistic framework that respects both the reality of phenomenology and the difficulty of explaining it. Consciousness may be the subjective signature of structural pattern recognition—what mutual constraint detection feels like from inside the system performing it.
 
-**Correlates, Not Causes:** A crucial clarification. We have identified a functional correlate of consciousness—structural pattern recognition appears to track the phenomenological boundary. But correlation is not causation. The explanatory challenge remains: why should detecting mutual constraints feel like *understanding* while detecting statistical correlations feels like nothing (or mere *familiarity*)? We have narrowed the space of functional properties to examine, but we have not explained why this particular functional property should generate subjective experience. The distinction between conscious and unconscious processing is functional, but the explanandum—why there is "something it is like" to perform one function but not the other—remains experiential and unresolved.
-
-But why detecting structural constraints should feel like anything remains an open question this framework doesn't fully answer. We've identified a relevant functional distinction; we haven't solved the hard problem.
+Why detecting structural constraints should feel like anything remains an open question this framework doesn't fully answer. We've identified a relevant functional distinction; we haven't solved the hard problem.
 
 ### 3.5 Agency and Free Will as Information-Driven Variation
 
@@ -498,12 +521,12 @@ But why detecting structural constraints should feel like anything remains an op
 **Information-Theoretic View:** Logic is the minimal compression structure required for any system capable of error-correction.
 
 **The Transcendental Argument:**
-1. Error-correction requires distinguishing success from failure
-2. This requires the structure A ≠ ¬A (non-contradiction)
-3. Chains of inference require transitivity (if A→B and B→C, then A→C)
-4. Together, these are classical logic's core
 
-**Not Metaphysical Necessity but Functional Prerequisite:** Any system that learns (compresses experience, updates on prediction error) must implement logical structure. Logic is not selected BY systems; it's the operating system OF selection.
+Any system capable of error-correction must be able to distinguish success from failure. This requires recognizing when A and not-A cannot both be true (non-contradiction).
+
+Chains of inference require transitivity: if believing A leads you to believe B, and believing B leads you to believe C, then believing A should lead you to believe C. Otherwise, your compressions fragment into isolated islands.
+
+Together, these minimal requirements—non-contradiction and transitivity—form the core of classical logic. Logic is not metaphysically necessary in some Platonic sense, but functionally prerequisite: any system that learns (compresses experience, updates on prediction error) must implement logical structure. Logic is not selected by systems; it is the operating system of selection itself.
 
 **Information-Theoretic Grounding:**
 - Non-contradiction: Same input cannot compress to contradictory outputs
@@ -539,7 +562,7 @@ Mathematical truths are not Platonic forms but **maximally efficient compression
 
 ### 4.3 The Unreasonable Effectiveness of Mathematics
 
-**Wigner's Puzzle:** Why do mathematical structures discovered purely abstractly apply to physical reality with uncanny accuracy?
+**Wigner's Puzzle:** Physicist Eugene Wigner famously asked why mathematical structures discovered purely abstractly apply to physical reality with uncanny accuracy. Why should group theory, developed to study symmetries in abstract algebra, perfectly describe particle physics?
 
 **Information-Theoretic Answer:** Mathematics and physics are exploring the same compression landscape from different angles:
 - Physics: Compress experimental observations
@@ -583,14 +606,17 @@ When computational closure fails, information leaks:
 
 **Examples:**
 
-**Phlogiston:** Attempted to create emergent "combustion substance"
-- Lumpability failed: Couldn't group observations into coherent patterns
-- Markovianness failed: Had to track material composition, oxygen, etc.
-- Shielding failed: Internal mechanism (oxidation) kept leaking through
+**Phlogiston (Failed Closure):**
+- Attempted compression: "Phlogiston content" explains combustion
+- Lumpability failed: Cannot predict outcomes without oxygen levels, molecular structure
+- Information leaked: Every experiment revealed porous blanket
+- Result: Brittleness accumulated until abandonment
 
-**Elan Vital:** Attempted to create emergent "life force"
-- Failed same ways as phlogiston
-- Modern answer: Life emerges from organizational principles (metabolism, reproduction, evolution), not substance
+**Élan Vital (Failed Closure):**
+- Attempted compression: "Life force" explains biological organization
+- Lumpability failed: Cannot predict outcomes without metabolism, genetics, evolution
+- Information leaked: Every discovery revealed mechanistic processes
+- Result: Brittleness accumulated until abandonment
 
 **Connection to Brittleness:** Information leakage IS systemic brittleness:
 - P(t) increases: More patches needed as closure fails
@@ -712,12 +738,6 @@ But because:
 - Mechanistic: Blanket porosity increasing, closure failing
 - Phenomenology: Constant "but wait..." moments as predictions fail
 
-**C(t) - Coercive Overhead (Information Blindness):**
-- Information-theoretic: Energy spent suppressing disconfirming information—creates **information blindness**
-- Mechanistic: Maintaining rigid blanket against thermodynamic gradient while **severing the error signal**
-- Critical insight: Coercion isn't just energetically costly but epistemically catastrophic—it eliminates the feedback loop needed to update the Markov blanket. By suppressing dissent (the primary data stream signaling misalignment), the system goes blind to reality's gradient, guaranteeing eventual collapse regardless of resources available
-- Phenomenology: Effortful belief maintenance ("I must avoid thinking about X"), defensiveness when challenged
-
 **M(t) - Model Complexity:**
 - Information-theoretic: Compression efficiency decreasing (more parameters, worse predictions)
 - Mechanistic: Failed lumpability forcing micro-tracking
@@ -728,7 +748,19 @@ But because:
 - Mechanistic: Breadth of computational closure across domains
 - Phenomenology: Confidence from multi-source convergence
 
-### 7.2 Pragmatic Pushback as Thermodynamic Necessity
+### 7.2 Coercion as Information Blindness
+
+**C(t) - Coercive Overhead** deserves special attention:
+
+Information-theoretic: Energy spent suppressing disconfirming information—creates information blindness
+
+Mechanistic: Maintaining rigid blanket against thermodynamic gradient while severing the error signal
+
+Critical insight: Coercion is not just energetically costly but epistemically catastrophic. It eliminates the feedback loop needed to update the Markov blanket. By suppressing dissent (the primary data stream signaling misalignment), the system goes blind to reality's gradient, guaranteeing eventual collapse regardless of available resources.
+
+Phenomenology: Effortful belief maintenance ("I must avoid thinking about X"), defensiveness when challenged
+
+### 7.3 Pragmatic Pushback as Thermodynamic Necessity
 
 **Information Can't Be Suppressed Indefinitely:** Systems that maintain blankets misaligned with reality face thermodynamic costs:
 1. Prediction errors accumulate (free energy increases)
@@ -740,7 +772,7 @@ But because:
 
 **The Ratchet Effect:** Once a better compression is found (lower brittleness), reverting becomes thermodynamically unfavorable—you'd have to re-pay all the information costs the compression solved.
 
-### 7.3 The Negative Canon as Compression Failure Archive
+### 7.4 The Negative Canon as Compression Failure Archive
 
 Every entry in the Negative Canon represents a failed computational closure:
 - Phlogiston: Combustion blanket leaked
@@ -750,7 +782,7 @@ Every entry in the Negative Canon represents a failed computational closure:
 
 **Educational Value:** Studying failed compressions teaches the shape of constraint space—where the cliff edges are in the landscape of viable blankets.
 
-### 7.4 Individual Agency Recovered Through Meta-Blankets
+### 7.5 Individual Agency Recovered Through Meta-Blankets
 
 **How Free Will Emerges:**
 1. **First-order blankets:** Automatic dispositions (reflexes, habits)
@@ -861,10 +893,10 @@ How do separate blankets integrate into unified experience? What determines whic
 How do genuinely new compressions arise? Is all creativity just recombination, or can systems generate truly novel blanket configurations?
 
 **The Value Problem (Partially Addressed):**
-Section 8.4 shows how evil can be understood as high-entropy sociology—denying others' Markov blankets. But open questions remain: Can all moral truths be reduced to thermodynamic efficiency? What about irreducibly normative dimensions (beauty, meaning, sacred values) that resist compression-theoretic analysis?
+Section 8.4 shows how evil can be understood as high-entropy sociology—denying others' Markov blankets. But open questions remain: Can all moral truths be reduced to thermodynamic efficiency? What about irreducibly normative dimensions (beauty, meaning, sacred values) that resist compression-theoretic analysis? These questions require further development beyond this appendix's scope.
 
 **The Limits Problem:**
-Are there hard limits to what can be compressed? Incompleteness theorems suggest some truths resist finite compression. What are the implications?
+Are there hard limits to what can be compressed? Gödel's incompleteness theorems suggest some truths resist finite compression. Exploring the implications for the Apex Network framework remains important future work.
 
 ## 9. Conclusion: A Naturalistic Framework (With Acknowledged Limits)
 
@@ -879,7 +911,7 @@ This appendix has developed an information-theoretic framework connecting raw in
 7. **Brittleness** measures information leakage when closures fail
 8. **Pragmatic Selection** eliminates high-brittleness compressions
 9. **The Apex Network** is the constraint-determined optimal compression structure
-10. **Truth** is not correspondence to static propositions but **thermodynamic resonance** with the Apex Network—the state where a system's enacted boundaries perfectly map the environment's causal constraints, achieving maximal computational closure with minimal information leakage
+10. **Truth** is not correspondence to static propositions but alignment with the Apex Network—the state where a system's enacted boundaries map the environment's causal constraints, achieving maximal computational closure with minimal information leakage
 
 **Conceptual Scaffolding, Not Dogmatic Mechanism:**
 
@@ -895,16 +927,17 @@ We've identified relevant functional distinctions without solving all foundation
 
 **What the Framework Achieves:**
 
-Despite these open questions, the framework provides:
-- A mechanistic account of how notions form and validate (statistical vs. structural patterns)
-- An explanation of why some singular experiences carry immediate epistemic weight
-- A naturalistic grounding for why knowledge systems converge across cultures
-- A functional account of consciousness that narrows (if not closes) the explanatory gap
+This framework provides:
+- A mechanistic account of how notions form and validate through statistical vs. structural pattern recognition
+- An explanation of why singular experiences can carry immediate epistemic weight
+- A naturalistic grounding for cross-cultural convergence in knowledge systems
+- A functional account of consciousness that narrows the explanatory gap
 - A framework for understanding truth as constraint-determined structure rather than correspondence to Platonic forms
+- An information-theoretic analysis of why coercion generates systemic brittleness
 
 **Phenomenology Preserved:** Consciousness, agency, and truth remain real within this framework—not eliminated or reduced away, but understood as emerging from information processing under constraint. The framework is naturalistic without being eliminativist.
 
-**Integration Complete:** The main paper's claims about Standing Predicates as Markov Blankets, brittleness as information leakage, and the Apex Network as thermodynamic attractor now have theoretical grounding in information theory, computational closure, and constraint-driven selection. The conceptual apparatus developed here supports and clarifies the central framework while acknowledging its limits and remaining open to empirical revision.
+**Integration Complete:** The main paper's claims about Standing Predicates as Markov Blankets, brittleness as information leakage, and the Apex Network as thermodynamic attractor now have theoretical grounding in information theory, computational closure, and constraint-driven selection.
 
 We are not passive observers of a pre-existing Platonic reality but active participants in discovering the constraint structure of our universe—exploring the landscape of viable compressions, mapping the Apex Network through systematic elimination of configurations that generate unsustainable brittleness.
 
