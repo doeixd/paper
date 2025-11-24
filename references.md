@@ -88,6 +88,10 @@ Friston, Karl J. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nat
 
 Friston, Karl J. 2013. "Life as We Know It." *Journal of the Royal Society Interface* 10 (86): 20130475. https://doi.org/10.1098/rsif.2013.0475.
 
+Friston, Karl J., and Stefan Kiebel. 2009. "Predictive Coding under the Free-Energy Principle." *Philosophical Transactions of the Royal Society B: Biological Sciences* 364(1521): 1211–1221. https://doi.org/10.1098/rstb.2008.0300.
+
+Friston, Karl J., et al. 2017. "The Desiderata of Life." *Interface Focus* 7(5): 20160099. https://doi.org/10.1098/rsfs.2016.0099.
+
 Friston, Karl, Michael Levin, Christopher Buckley, and Maxwell Ramstead. 2018. "The Markov Blankets of Life: Autonomy, Active Inference and the Free Energy Principle." *Journal of the Royal Society Interface* 15(138): 20170792. https://doi.org/10.1098/rsif.2017.0792.
 
 Godfrey-Smith, Peter. 2003. *Theory and Reality: An Introduction to the Philosophy of Science*. Chicago: University of Chicago Press.
@@ -159,6 +163,8 @@ Lakatos, Imre. 1970. "Falsification and the Methodology of Scientific Research P
 Luhmann, Niklas. 1984. *Social Systems*. Translated by John Bednarz Jr. and Dirk Baecker. Stanford, CA: Stanford University Press.
 
 Laudan, Larry. 1977. *Progress and Its Problems: Towards a Theory of Scientific Growth*. Berkeley: University of California Press. ISBN 978-0520037212.
+
+Laukkonen, Ruben, et al. 2025. "A Beautiful Loop: An Active Inference Theory of Consciousness." *Neuroscience & Biobehavioral Reviews* 176: 106296. https://doi.org/10.1016/j.neubiorev.2025.106296.
 
 Lehrer, Keith. 1990. *Theory of Knowledge*. Boulder, CO: Westview Press. ISBN 978-0415054072.
 

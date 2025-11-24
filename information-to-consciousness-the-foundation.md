@@ -31,7 +31,9 @@ All self-organizing systems minimize free energy by:
 
 This is not teleological but thermodynamic: systems that fail to minimize free energy dissipate. Those that succeed persist as bounded entities.
 
-The FEP builds on broader predictive processing frameworks in cognitive science, where brains are understood as hierarchical prediction machines constantly minimizing prediction error through bidirectional cortical processing (Clark 2013). This perspective reframes perception not as passive reception but as active inference—testing predictions against sensory input and revising models when mismatches occur.
+The FEP builds on broader predictive processing frameworks in cognitive science, where brains are understood as hierarchical prediction machines constantly minimizing prediction error through bidirectional cortical processing (Clark 2013). This perspective reframes perception not as passive reception but as active inference—testing predictions against sensory input and revising models when mismatches occur. Neurobiologically, this is implemented through predictive coding: hierarchical brain organization where higher levels generate predictions about lower-level activity, and lower levels signal back prediction errors when inputs deviate from expectations (Friston and Kiebel 2009). This architecture provides a plausible mechanistic account of how variational free energy minimization could be realized in cortical circuits.
+
+The FEP's scope extends beyond brain function to encompass fundamental properties of all self-organizing systems. Any system that maintains its integrity against the second law of thermodynamics must possess a statistical boundary (Markov blanket) separating internal from external states, and must minimize the free energy associated with that boundary (Friston et al. 2017). This connects information-theoretic principles directly to the basic requirements for life itself—autopoiesis, allostasis, and goal-directed behavior all emerge as consequences of free energy minimization in bounded systems.
 
 **Connection to Epistemic Brittleness:** Systemic brittleness is accumulated free energy. When a knowledge system's predictions consistently fail (information leakage), it must either patch the model with ad-hoc additions, suppress disconfirming evidence through coercion, or accept falsification and revise. The brittleness metrics developed in the main text (patch velocity, coercive overhead, model complexity, resilience reserve) measure these information-theoretic costs directly.
 
@@ -114,6 +116,8 @@ We can distinguish three levels of commitment:
 3. **Strong Claim (Mechanistic):** Brains literally implement variational free energy minimization; Standing Predicates are actually encoded as Markov blankets in neural tissue; the Apex Network exists as a definite information structure.
 
 **Our Position:** This appendix primarily makes claims at levels 1 and 2. Whether the strong mechanistic claims (level 3) are literally true remains an empirical question for neuroscience and cognitive science. Our philosophical insights about Standing Predicates, compression, and truth don't depend on resolving this empirical question. Even if the brain's actual mechanisms differ significantly from Free Energy minimization, the functional analysis of what makes a predicate successful (low brittleness, high compression, computational closure) retains its philosophical force.
+
+**Acknowledging Fundamental Critiques:** Recent work has challenged the FEP's scientific status directly. Mangalam (2025) argues that the FEP operates as an unfalsifiable pseudo-theory—its high level of abstraction and mathematical formalism make it difficult to test empirically, and it may not generate novel predictions that simpler theories cannot explain. This critique, if valid, would undermine level 3 mechanistic claims. However, it would not invalidate our level 1-2 framework: the conceptual insight that successful knowledge systems minimize information leakage, achieve computational closure, and face differential selection pressure based on brittleness does not depend on whether brains literally implement variational free energy calculations. The functional constraints we identify (prediction error, model complexity, causal closure) would remain operative even if the FEP's specific mathematical apparatus proves to be explanatorily vacuous.
 
 **Connecting Functional Constraints to Normative Claims:** Readers may wonder how later sections derive substantive claims about objective truth (Section 6) and ethics (Section 8) from what we've framed as "conceptual scaffolding." The answer: these claims rely on level 2 (functional) constraints, not level 3 (mechanistic) implementation. The argument is not "brains compute Shannon entropy, therefore truth exists," but rather "whatever systems successfully compress reality must satisfy certain functional constraints (computational closure, minimal information leakage, strong lumpability), and these constraints determine which predicates persist." The Apex Network is "objective" not because it exists as a Platonic form or neural structure, but because the functional requirements for successful compression are determined by reality's constraint structure, not by our beliefs about them. Similarly, the claim that coercion generates brittleness doesn't require literal free energy calculations—it requires only that systems refusing to model agents' autonomous responses must bear higher coordination costs. The normative force comes from functional necessity, not mechanistic implementation.
 
@@ -200,11 +204,11 @@ When all three conditions hold, **emergence has succeeded**—a new causal level
 
 Simulations demonstrate that hierarchical self-organization emerges naturally when microscopic elements have prior beliefs that they participate in macroscopic Markov blankets (Palacios et al. 2020). This suggests nested blanket hierarchies are not imposed from outside but arise spontaneously when components minimize free energy under appropriate constraints—providing a mechanistic account of how computational closure forms across levels.
 
-Rosas et al. (2024) formalize this intuition by comparing two optimal predictors. Imagine you want to predict how temperature will change. The ε-machine (epsilon-machine) uses only current temperature and pressure—macro-level data. The υ-machine (upsilon-machine) tracks every molecule's position and momentum—full micro-level access.
+**Formalizing Causal Autonomy:** Rosas et al. (2024) provide a rigorous framework for determining when emergence genuinely succeeds by comparing two optimal predictors. The ε-machine (epsilon-machine) uses only macro-level variables to predict future macro-states. The υ-machine (upsilon-machine) has full access to micro-level details and uses them to predict the same macro-states.
 
-When these two predictors perform equally well, something remarkable has happened: the macro-level has become causally autonomous. You have discovered a level of organization that needs no substrate information to continue operating. The macro-level is "running code" rather than merely describing patterns in the substrate. This is computational closure.
+When these two predictors perform equally well—when ε-machine accuracy equals υ-machine accuracy—something remarkable has happened: the macro-level has achieved causal decoupling from the micro-level. The macro-variables contain all the information needed to predict their own future behavior. Substrate details have become causally irrelevant (though they remain constitutively necessary). This is computational closure: the macro-level is "running code" rather than merely describing patterns in the substrate.
 
-This equivalence admits degrees of robustness. **Weak lumpability** holds when macro-dynamics work for specific initial conditions; **strong lumpability** holds when macro-dynamics work regardless of the underlying micro-state distribution. Strong lumpability represents genuine substrate independence—the macro-pattern persists across different physical realizations.
+This equivalence admits degrees of robustness, formalized as lumpability. **Weak lumpability** holds when macro-dynamics work only for specific initial micro-state distributions—the compression succeeds in limited contexts. **Strong lumpability** holds when macro-dynamics work regardless of underlying micro-details—the compression achieves genuine substrate independence and persists across different physical realizations. Only strongly lumpable compressions qualify as objective features of reality; weakly lumpable ones are context-dependent approximations.
 
 **Examples:**
 
@@ -241,7 +245,7 @@ Imagine two chess players trying to predict the outcome of a game:
 
 When both players predict equally well, the board position has achieved computational closure. The macro-level (piece arrangement) contains all the information needed to predict future macro-states (subsequent positions). The history of how you arrived at this position doesn't matter—only the current configuration does. The game has "detached" from its substrate (the players' brains, their training, their moods) and runs purely on positional logic.
 
-This is what Rosas et al. (2024) formalize: when your ε-machine (macro-only predictor) performs as well as the υ-machine (micro-informed predictor), you have discovered a level of organization that needs no substrate information to continue operating. The macro-level has become causally autonomous—it is "running code" rather than merely describing patterns in the substrate.
+Rosas et al. (2024) formalize exactly this criterion: when your ε-machine (macro-only predictor) performs as well as the υ-machine (micro-informed predictor), you have discovered a level of organization that has achieved causal decoupling. The macro-level is "running code" rather than merely describing patterns in the substrate. This is the formal signature of successful emergence.
 
 **Why This Matters:**
 - Dispositions are cognitive ε-machines—they compress experience into causal states (notions, beliefs)
@@ -268,6 +272,8 @@ This is what Rosas et al. (2024) formalize: when your ε-machine (macro-only pre
 | Structural engineers | "Continuous base with vertical walls" | Engineering load distribution | Context-dependent |
 
 **Key Insight—Epistemic Equifinality:** In Systems Theory, *equifinality* describes how different structural configurations can achieve the same steady state. The Hot Dog Paradox illustrates **epistemic equifinality**: different Markov Blankets (definitions) can achieve comparable levels of computational closure depending on the system's goal (taxation vs. cuisine vs. engineering). Each community draws the boundary where it reduces brittleness for their purposes. The information hasn't changed—the coarse-graining has. This is not arbitrary (each blanket faces pragmatic testing) but it is pluralistic (multiple viable configurations exist).
+
+Rosas et al. (2024) formalize this insight: valid coarse-grainings form a mathematical lattice structure, where multiple macro-level compressions can achieve strong lumpability for the same underlying system. The existence of this lattice explains epistemic equifinality—different purposes may select different points in the space of viable compressions, all of which genuinely achieve computational closure.
 
 **Connection to Truth:** The Apex Network doesn't dictate "the one true hot dog ontology" but rather the set of boundary-drawing strategies that achieve genuine computational closure with minimal brittleness. Different purposes require different closures. The Pluralist Frontier of the Apex Network is the zone where the constraint landscape is flat enough to support multiple, equally viable coarse-grainings—regions where equifinality holds.
 
@@ -383,6 +389,8 @@ If consciousness tracks structural pattern recognition while unconscious process
 3. **Aha! moments:** Sudden recognition of structural relationships (Section 3.1 table below)
 4. **Automation through practice:** Once structural understanding achieved, execution becomes statistical refinement (unconscious)
 
+**Connection to Active Inference Theories of Consciousness:** Recent work grounds consciousness directly in Active Inference mechanisms. Laukkonen et al. (2025) propose that consciousness arises from a recursive self-evidencing loop in hierarchical systems, requiring three functional conditions: simulation of an epistemic field (world model), Bayesian binding (inferential competition to enter the world model), and epistemic depth (recurrent sharing of beliefs across levels). Their framework aligns with our structural pattern recognition hypothesis: consciousness may engage specifically when patterns exhibit sufficient internal constraint structure to support these recursive operations. Statistical regularities can be processed automatically without activating the full recursive loop, while structural coherence—precisely because components mutually constrain each other—demands the kind of inferential integration their theory describes.
+
 **Phenomenological Correspondences (Revised):**
 
 | Conscious Experience | Information-Theoretic Process | Pattern Type |
@@ -413,6 +421,8 @@ Consciousness requires not just compression but **meta-compression**—compressi
 - Third-order: "My distrust might be biased by their accent" (modeling the disposition's origins)
 
 **Only humans (as far as we know) achieve third-order regularly.** This is meta-blanket formation: constructing a Markov blanket around your own Markov blankets, allowing self-modification.
+
+**Inner Screens and Imaginative Experience:** Parr and Friston (2025) model this meta-level capacity through "inner screens"—internal boundaries with Markov blanket structure that function as classical information channels. These inner screens enable imaginative experience (planning, episodic memory, counterfactual reasoning) by allowing internally-generated content to employ the same spatial and conceptual reference frames used in ordinary perception. This provides a mechanistic account of how meta-awareness operates: the system constructs internal Markov blankets to model its own modeling processes, enabling the kind of third-order reflection that distinguishes human cognition.
 
 **The Self as User Interface:** Following Rosas et al. (2024), the "Self" is not a ghost in the machine but a user interface—the brain's own lossy compression of its massive, distributed neural activity. Just as a computer operating system represents billions of transistor states as a single "folder" icon, the brain compresses its complex somatic and cognitive states into a single variable: "I". This variable is an ε-machine state—a simplified causal token that allows the system to predict its own future actions without tracking the firing of every individual neuron. The Self is not the neural hardware but the computational software running on that hardware, the minimal effective theory required to predict the organism's future behavior. This is not an illusion but a computational necessity: the brain must coarse-grain itself to operate at human-relevant timescales. The experience of being a unified "I" is what it feels like from inside this compression process, maintaining computational closure while billions of neural events churn beneath conscious awareness.
 
@@ -450,6 +460,8 @@ From this perspective, emotions are not bugs but features—they make the costs 
 We propose that consciousness relates to detecting and representing structural coherence rather than merely tracking statistical correlations. This isn't a solution to the hard problem, but it identifies a functional distinction that may map onto the phenomenological boundary between conscious and unconscious processing.
 
 Recent work applies the Free Energy Principle directly to the hard problem, identifying affect (the feeling dimension of consciousness) as the subjective signature of free energy minimization—where decreases and increases in expected uncertainty are experienced as pleasure and unpleasure (Solms 2019). This suggests consciousness may track information-theoretic processes in a way that gives them phenomenological character, though why minimizing prediction error should feel like anything remains unexplained.
+
+**Alternative Formalization—Integrated Information Theory:** A different approach starts from phenomenological axioms rather than functional principles. Oizumi et al. (2014) formalize Integrated Information Theory (IIT) by beginning with intrinsic properties of experience (it is structured, integrated, definite) and deriving physical postulates about the mechanisms that could instantiate these properties. IIT identifies consciousness with the maximally irreducible conceptual structure generated by systems with high integrated information. While our framework emphasizes information compression and computational closure, IIT emphasizes irreducibility and integration. These approaches are not necessarily incompatible—both recognize that consciousness involves information processing at emergent levels—but they emphasize different functional properties as fundamental.
 
 **The Distinction:**
 - **Unconscious processing:** Statistical pattern matching—extracting correlations through frequency
@@ -600,7 +612,11 @@ Mathematical truths are not Platonic forms but **maximally efficient compression
 
 **Not Just Useful Fiction:** When computational closure succeeds, the emergent level is as real as the base level—it has autonomous causal dynamics.
 
-Rosas et al. (2024) formalize this as **causal decoupling**: when the macro-level ε-machine and the micro-informed υ-machine achieve equivalence, the macro-level becomes causally autonomous. The emergent pattern is not merely a convenient description—it genuinely causes its own future states. High-level concepts like "temperature," "infectious disease," or "recession" are causally real precisely because they achieve this decoupling. The macro-level runs its own causal dynamics, making the substrate details causally irrelevant (though they remain constitutively necessary).
+**Causal Decoupling as Emergence Criterion:** Rosas et al. (2024) formalize this as causal decoupling: when the macro-level ε-machine and the micro-informed υ-machine achieve equivalence, the macro-level becomes causally autonomous. This provides a precise criterion for when emergence genuinely succeeds versus when we merely have convenient but reducible description.
+
+The key insight: if adding substrate information to your macro-level predictor doesn't improve its accuracy, then the macro-level has achieved causal independence. The emergent pattern is not merely a useful fiction—it genuinely causes its own future states. High-level concepts like "temperature," "infectious disease," or "recession" are causally real precisely because they achieve this decoupling. The macro-level runs its own causal dynamics, making substrate details causally irrelevant (though they remain constitutively necessary).
+
+This framework distinguishes strong from weak emergence rigorously. **Weak emergence** occurs when macro-patterns are predictable from micro-details but the compression works only in limited contexts (weak lumpability). **Strong emergence** occurs when macro-dynamics persist across different substrate realizations (strong lumpability). Only strongly emergent properties qualify as objectively real features of nature rather than observer-relative conveniences.
 
 This connects to a broader information-theoretic understanding of emergence: coarse-graining can convert information from one type to another, where macroscales reduce total information but may increase certain dependency structures (Varley and Hoel 2022). Emergence succeeds when this information conversion creates synergistic relationships at the macro-level that don't exist at the micro-level—when the whole genuinely exhibits causal properties absent from mere aggregation of parts.
 
@@ -863,7 +879,9 @@ With this caveat in place, we can explore how the information-theoretic perspect
 
 **Information-Theoretic Analysis of Agency Denial:**
 
-Rosas et al. (2024) demonstrate that causally closed systems can be efficiently controlled through macro-level interventions—engaging with their computational closure rather than manipulating their substrate. This insight provides a mechanistic account of moral interaction: when we engage with another agent's reasons, beliefs, and goals (their ε-machine), we interact with their "software." When we bypass their agency to force their physical body or manipulate their circumstances (intervening on the "hardware"), we breach their causal closure.
+Rosas et al. (2024) demonstrate that causally closed systems can be efficiently controlled through macro-level interventions—engaging with their computational closure rather than manipulating their substrate. This insight provides a mechanistic account of moral interaction: when we engage with another agent's reasons, beliefs, and goals (their ε-machine), we interact efficiently with the causally autonomous level. We work through their computational closure, allowing their internal dynamics to determine outcomes. When we bypass their agency to force their physical body or manipulate their circumstances (intervening on the substrate), we breach their causal closure and must manage all the micro-level resistance their autonomous system generates.
+
+This explains why persuasion is thermodynamically cheaper than coercion: persuasion operates at the ε-machine level (engaging autonomous macro-dynamics), while coercion operates at the substrate level (fighting against those dynamics). The computational closure Rosas et al. identify is precisely what moral recognition respects and evil violations ignore.
 
 **Evil as Closure Breach = Bypassing the ε-Machine to Manipulate the Substrate**
 
@@ -959,12 +977,19 @@ We are not passive observers of a pre-existing Platonic reality but active parti
 
 The following sources develop the information-theoretic foundations:
 
-- Friston, Karl J. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11(2): 127–138.
-- Friston, Karl J. 2013. "Life as We Know It." *Journal of the Royal Society Interface* 10(86): 20130475.
-- Pearl, Judea. 1988. *Probabilistic Reasoning in Intelligent Systems*. San Mateo, CA: Morgan Kaufmann.
+- Clark, Andy. 2016. *Surfing Uncertainty: Prediction, Action, and the Embodied Mind*. Oxford: Oxford University Press.
 - Crutchfield, James P. 1994. "The Calculi of Emergence: Computation, Dynamics and Induction." *Physica D* 75(1-3): 11-54.
 - Crutchfield, James P., and David P. Feldman. 2003. "Regularities Unseen, Randomness Observed: Levels of Entropy Convergence." *Chaos* 13(1): 25-54.
-- Tononi, Giulio. 2008. "Consciousness as Integrated Information: A Provisional Manifesto." *Biological Bulletin* 215(3): 216-242.
-- Clark, Andy. 2016. *Surfing Uncertainty: Prediction, Action, and the Embodied Mind*. Oxford: Oxford University Press.
+- Friston, Karl J. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11(2): 127–138.
+- Friston, Karl J. 2013. "Life as We Know It." *Journal of the Royal Society Interface* 10(86): 20130475.
+- Friston, Karl J., and Stefan Kiebel. 2009. "Predictive Coding under the Free-Energy Principle." *Philosophical Transactions of the Royal Society B: Biological Sciences* 364(1521): 1211–1221.
+- Friston, Karl J., et al. 2017. "The Desiderata of Life." *Interface Focus* 7(5): 20160099.
 - Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
+- Laukkonen, Ruben, et al. 2025. "A Beautiful Loop: An Active Inference Theory of Consciousness." *Neuroscience & Biobehavioral Reviews* 176: 106296.
+- Mangalam, Madhur. 2025. "The Emperor's New Pseudo-Theory: How the Free Energy Principle Ransacked Neuroscience." Preprint. DOI: 10.31234/osf.io/azkgc.
+- Oizumi, Masafumi, et al. 2014. "From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0." *PLOS Computational Biology* 10(5): e1003588.
+- Parr, Thomas, and Karl J. Friston. 2025. "How Do Inner Screens Enable Imaginative Experience? Applying the Free-Energy Principle to Attention." *Neuroscience of Consciousness* 2025(1): niaf009.
+- Pearl, Judea. 1988. *Probabilistic Reasoning in Intelligent Systems*. San Mateo, CA: Morgan Kaufmann.
+- Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104.
 - Shannon, Claude E. 1948. "A Mathematical Theory of Communication." *Bell System Technical Journal* 27(3): 379-423.
+- Tononi, Giulio. 2008. "Consciousness as Integrated Information: A Provisional Manifesto." *Biological Bulletin* 215(3): 216-242.
