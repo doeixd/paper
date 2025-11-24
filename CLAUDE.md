@@ -88,6 +88,10 @@ git commit with detailed summary / rational, etc after you've complelted everyth
 
 if you have sub-agents. dont be scared of using them
 
+if you have any questions about the specifics of the philosophy, or what we're trying to communicate, dont be scared to ask me.
+
+never add yourself as an author to the paper, or on a git commit.
+
 ## Available Tools and Scripts
 
 ### Enhanced Citation Extraction Script (`citation_extractor.py`)

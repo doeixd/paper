@@ -1,9 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git add final.md \"edits/2025-10-20 - 15-01 - Appendix C Philosophical Framing Completed.md\")",
-      "Bash(git add:*)",
-      "Bash(the very parameters of a fitness trap\"\n- Added explicit link to diagnostic indicators: suppressed innovation (low I(t)) and\n  escalating ideological enforcement (rising C(t))\n- Better integration of abstract power analysis with concrete measurement tools\n\nRationale: Demonstrates framework provides practical diagnostic capabilities for\ndetecting power-masked brittleness, not just descriptive analysis.\n\nVERIFICATION:\n- No broken internal references (checked for citations to deleted subsections)\n- Section 2.2 reference to \"Section 2.1\" remains accurate\n- Glossary (Appendix B) remains consistent\n- All downstream content verified for coherence\n\nImpact: These changes reduce vulnerability to tangential criticism while maintaining\nall substantive philosophical claims. The paper now presents a more resilient argument\nthat reviewers can engage with on its strongest terms.\nEOF\n)\")"
+      "Bash(powershell -Command \"Get-Date -Format ''yyyy-MM-dd - HH-mm''\")",
+      "WebSearch"
     ],
     "deny": [],
     "ask": []

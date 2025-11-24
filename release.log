@@ -1058,3 +1058,72 @@
 2025-11-12 13:12:43,649 - INFO - SUCCESS! Release complete in 3.7s
 2025-11-12 13:12:43,649 - INFO - Final PDF: releases\final.pdf (243037 bytes)
 2025-11-12 13:12:43,649 - INFO - Release completed successfully: releases\final.pdf
+2025-11-17 15:10:14,665 - INFO - Successfully imported paper_converter
+2025-11-17 15:10:14,666 - INFO - Successfully imported pdf_assembler
+2025-11-17 15:10:17,494 - INFO - Input validation passed: final.md (159545 bytes)
+2025-11-17 15:10:17,496 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251117_151017.pdf
+2025-11-17 15:10:17,497 - INFO - Starting Academic Paper Release Pipeline
+2025-11-17 15:10:17,497 - INFO - Input: final.md
+2025-11-17 15:10:17,497 - INFO - Output: releases\final.pdf
+2025-11-17 15:10:17,497 - INFO - Format: typst
+2025-11-17 15:10:17,497 - INFO - Config: 0 validation errors
+2025-11-17 15:10:17,497 - INFO - Converting markdown to target format...
+2025-11-17 15:10:17,497 - INFO - Extracting citations...
+2025-11-17 15:10:17,511 - INFO - Found 77 citations
+2025-11-17 15:10:17,511 - INFO - Loading and processing references...
+2025-11-17 15:10:17,513 - INFO - Loaded 1012 reference entries
+2025-11-17 15:10:17,514 - INFO - Generated 59 references (strategy: filter)
+2025-11-17 15:10:17,514 - INFO - Combining paper with filtered references...
+2025-11-17 15:10:17,533 - INFO - Combined file created: 157854 bytes
+2025-11-17 15:10:17,533 - INFO - Converting to typst format...
+2025-11-17 15:10:18,518 - INFO - Target file created: 165141 bytes
+2025-11-17 15:10:18,518 - INFO - Successfully converted to typst: final_combined.typst
+2025-11-17 15:10:18,519 - INFO - Generating PDF with attachments...
+2025-11-17 15:10:18,519 - INFO - Main document: final_combined.typst
+2025-11-17 15:10:18,535 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-11-17 15:10:19,588 - INFO - Converted to PDF: final_combined.pdf
+2025-11-17 15:10:19,589 - INFO - Copied single PDF to: releases\final.pdf
+2025-11-17 15:10:19,590 - INFO - PDF generation successful: 249894 bytes
+2025-11-17 15:10:19,590 - INFO - Adding metadata to PDF...
+2025-11-17 15:10:19,590 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-11-17 15:10:19,590 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-11-17 15:10:19,590 - INFO - Validated final PDF: releases\final.pdf (249894 bytes)
+2025-11-17 15:10:19,590 - INFO - Starting cleanup...
+2025-11-17 15:10:19,591 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-11-17 15:10:19,591 - INFO - SUCCESS! Release complete in 2.1s
+2025-11-17 15:10:19,591 - INFO - Final PDF: releases\final.pdf (249894 bytes)
+2025-11-17 15:10:19,591 - INFO - Release completed successfully: releases\final.pdf
+2025-11-21 12:48:57,214 - INFO - Successfully imported paper_converter
+2025-11-21 12:48:57,215 - INFO - Successfully imported pdf_assembler
+2025-11-21 12:48:59,966 - INFO - Input validation passed: information-to-consciousness-the-foundation.md (85641 bytes)
+2025-11-21 12:48:59,967 - INFO - Starting Academic Paper Release Pipeline
+2025-11-21 12:48:59,967 - INFO - Input: information-to-consciousness-the-foundation.md
+2025-11-21 12:48:59,967 - INFO - Output: releases\information-to-consciousness-the-foundation.pdf
+2025-11-21 12:48:59,967 - INFO - Format: typst
+2025-11-21 12:48:59,967 - INFO - Config: 0 validation errors
+2025-11-21 12:48:59,967 - INFO - Converting markdown to target format...
+2025-11-21 12:48:59,967 - INFO - Extracting citations...
+2025-11-21 12:48:59,975 - INFO - Found 7 citations
+2025-11-21 12:48:59,975 - INFO - Loading and processing references...
+2025-11-21 12:48:59,977 - INFO - Loaded 1069 reference entries
+2025-11-21 12:48:59,977 - INFO - Generated 2 references (strategy: filter)
+2025-11-21 12:48:59,978 - INFO - Combining paper with filtered references...
+2025-11-21 12:48:59,991 - INFO - Combined file created: 85044 bytes
+2025-11-21 12:48:59,991 - INFO - Converting to typst format...
+2025-11-21 12:49:00,905 - INFO - Target file created: 90529 bytes
+2025-11-21 12:49:00,906 - INFO - Successfully converted to typst: information-to-consciousness-the-foundation_combined.typst
+2025-11-21 12:49:00,906 - INFO - Generating PDF with attachments...
+2025-11-21 12:49:00,906 - INFO - Main document: information-to-consciousness-the-foundation_combined.typst
+2025-11-21 12:49:00,919 - INFO - Converting information-to-consciousness-the-foundation_combined.typst (typst) to PDF...
+2025-11-21 12:49:01,247 - INFO - Converted to PDF: information-to-consciousness-the-foundation_combined.pdf
+2025-11-21 12:49:01,250 - INFO - Copied single PDF to: releases\information-to-consciousness-the-foundation.pdf
+2025-11-21 12:49:01,250 - INFO - PDF generation successful: 148127 bytes
+2025-11-21 12:49:01,250 - INFO - Adding metadata to PDF...
+2025-11-21 12:49:01,250 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-11-21 12:49:01,250 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-11-21 12:49:01,250 - INFO - Validated final PDF: releases\information-to-consciousness-the-foundation.pdf (148127 bytes)
+2025-11-21 12:49:01,251 - INFO - Starting cleanup...
+2025-11-21 12:49:01,251 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-11-21 12:49:01,251 - INFO - SUCCESS! Release complete in 1.3s
+2025-11-21 12:49:01,252 - INFO - Final PDF: releases\information-to-consciousness-the-foundation.pdf (148127 bytes)
+2025-11-21 12:49:01,252 - INFO - Release completed successfully: releases\information-to-consciousness-the-foundation.pdf

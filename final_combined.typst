@@ -28,7 +28,12 @@ Coherentism (EPC), which grounds coherence in demonstrated viability
 measured by systemic brittleness. EPC synthesizes constraint network
 theory (Thagard 1989), network epistemology (Zollman 2007), Rescher's
 systematicity, and Kitcher's evolutionary dynamics, adding external
-brittleness diagnostics these internalist precursors lacked.
+brittleness diagnostics these internalist precursors lacked. The
+framework inherits Quine's holistic, pragmatically-revised web
+architecture as essential infrastructure: systemic brittleness,
+pragmatic pushback, and convergence all require this structure, though
+the systems-level analysis remains neutral on specific metaphysics of
+belief.
 
 The framework uses systemic brittleness as a diagnostic tool, measuring
 network health through observable costs incurred when applying
@@ -93,6 +98,17 @@ inhibitory weights derived from brittleness. Unlike Zollman's (2007)
 abstract Bayesian graphs, which model the effects of network topology on
 belief propagation, EPC's framework is designed to account for how
 knowledge systems respond to real-world pragmatic pressures.
+
+The Quinean inheritance is architectural, not merely methodological. Our
+framework requires knowledge structured as holistic webs subject to
+pragmatic revision, coordinating into public systems converging toward
+constraint-determined objectivity. This architecture is non-negotiable:
+systemic brittleness requires interconnected networks; pragmatic
+pushback requires revision mechanisms; convergence requires overlapping
+webs aligning toward an objective standard. Quine's account provides
+this in thoroughly naturalized form. Alternative foundations preserving
+these features remain compatible with our systems-level analysis, though
+the specific dispositional semantics remains optional.
 
 Rescher's (1973) abstract criteria for systematicity are given concrete
 diagnostic form through our brittleness indicators, while Kitcher's
@@ -201,15 +217,58 @@ consistency to gauge resilience against real-world pressures. Following
 complex systems theory (Meadows 2008), this section traces how private
 belief becomes a public, functional component of knowledge systems.
 
-=== 2.1 From Individual Dispositions to Functional Propositions: A Naturalistic Progression
-<from-individual-dispositions-to-functional-propositions-a-naturalistic-progression>
-Following Quine's call to naturalize epistemology (Quine 1969), our
-framework is grounded not in private mental states with propositional
-content, but in publicly observable behavior. To bridge from individual
-behavior to public knowledge systems, however, requires a careful
-philosophical construction that avoids the metaphysical commitments
-Quine rightly rejected. The path from disposition to public knowledge is
-built in stages, with conscious awareness serving as the critical link.
+=== 2.1 From Individual Dispositions to Functional Propositions: Architectural Requirements and One Naturalistic Foundation
+<from-individual-dispositions-to-functional-propositions-architectural-requirements-and-one-naturalistic-foundation>
+Understanding how knowledge systems evolve requires clarifying their
+architectural prerequisites. The framework's core claims (systemic
+brittleness, pragmatic pushback, convergent evolution toward the Apex
+Network) presuppose a specific knowledge structure, not a collection of
+atomic beliefs or deductions from axioms. Four features prove essential.
+
+First, holism: knowledge forms interconnected webs where adjustments
+ripple through the system. Brittleness accumulates systemically because
+modifications create cascading costs. An isolated false belief is simply
+false; a false belief embedded in a holistic web generates conceptual
+debt as the system patches around it.
+
+Second, pragmatic revision: external feedback causally modifies
+knowledge structures. Without revision mechanisms, pragmatic pushback
+becomes inert. Systems could acknowledge costs without adjusting,
+rendering our entire framework toothless.
+
+Third, social coordination: individual knowledge structures can overlap
+and align, forming public knowledge systems. This explains how Standing
+Predicates become shared conceptual tools and how convergence occurs
+across communities rather than remaining trapped in individual minds.
+
+Fourth, constraint-determined objectivity: knowledge systems converge
+toward an objective structure (the Apex Network) determined by
+mind-independent pragmatic constraints. This structure exists whether
+discovered or not, providing the standard for truth, but it is revealed
+through elimination of failures rather than known a priori. This is
+foundational realism without traditional foundationalism: there IS an
+objective foundation, but it must be discovered through extensive
+inquiry rather than stipulated by reason. Our fallibilism concerns
+epistemic access (we never achieve certainty our map matches the
+territory), not ontological status (the territory has objective
+structure).
+
+These architectural features are non-negotiable. What follows sketches
+one naturalistic foundation that provides this architecture in
+integrated form. Following Quine's call to naturalize epistemology
+(Quine 1969), we ground knowledge in dispositions to assent: publicly
+observable behavioral patterns. Alternative accounts (coherentist
+epistemology, inferentialist semantics, social practice theories) remain
+compatible provided they preserve holism, pragmatic revision,
+coordination, and constraint-determined objectivity. We develop the
+Quinean version because it offers thoroughgoing naturalism with all
+required components. However, the systems-level analysis beginning in
+Section 2.2 does not depend on Quine's specific metaphysics of mental
+content, only on the architectural features just outlined.
+
+The path from individual disposition to public knowledge proceeds in
+stages, with conscious awareness serving as the bridge from private
+behavior to coordinated public claims.
 
 ==== 2.1.1 The Quinean Foundation: Disposition to Assent
 <the-quinean-foundation-disposition-to-assent>
@@ -291,16 +350,54 @@ epistemic norms function as hypothetical imperatives---if your goal is
 sustainable knowledge production, minimize systemic brittleness in these
 patterns.
 
+==== 2.1.5 Why This Architecture Matters: Non-Negotiable Features
+<why-this-architecture-matters-non-negotiable-features>
+These architectural requirements are structural prerequisites, not
+arbitrary choices. Holism matters because brittleness accumulates
+through cascading costs across interconnected networks. Atomistic
+beliefs cannot exhibit systemic brittleness; only in holistic webs do
+adjustments create ripple effects, generating the conceptual debt (P(t))
+and complexity inflation (M(t)) our diagnostics track.
+
+Pragmatic revision matters because external costs must causally modify
+knowledge structures. Without revision mechanisms, pragmatic pushback
+becomes inert---systems could acknowledge costs without adjusting. The
+Quinean architecture ensures costs drive actual restructuring.
+
+Social coordination matters because the Apex Network emerges through
+alignment of individual webs under shared pragmatic constraints.
+Atomistic beliefs can only aggregate statistically, not coordinate
+structurally. Overlapping web structure enables the emergent convergence
+our framework predicts.
+
+Constraint-determined objectivity matters for realism. The framework's
+response to the isolation objection requires that reality impose an
+objective structure. The Apex Network must exist as an objective feature
+of the constraint landscape, discovered through elimination rather than
+created by consensus. This distinguishes viable knowledge from coherent
+fiction.
+
+These features work together as a package: holism without revision
+yields stasis; revision without coordination yields isolated
+adjustments; coordination without objective constraints yields mere
+consensus, vulnerable to the isolation objection. Alternative
+foundations preserving these features remain compatible with our
+analysis.
+
 === 2.2 The Units of Analysis: Predicates, Networks, and Replicators
 <the-units-of-analysis-predicates-networks-and-replicators>
-Having established the journey from private belief to public tool, we
-define the model's core analytical units. Our deflationary move shifts
-from individual agent psychology to public, functional structures
-emerging when multiple individuals' dispositions to assent (their
-Quinean webs of belief) coordinate and align under pragmatic pressure.
-This alignment occurs not through shared access to mental contents but
-through convergence of behavioral patterns shaped by sustained pragmatic
-feedback, as detailed in Section 2.1.
+Having established the architectural requirements (holistic,
+pragmatically-revised, overlapping networks converging toward
+constraint-determined objectivity) and sketched one naturalistic
+foundation (Quinean dispositions), we now shift to the systems level
+where the framework's distinctive contributions emerge. Our deflationary
+move redirects attention from individual agent psychology to public,
+functional structures. The units of analysis that follow (Standing
+Predicates, Shared Networks, and their evolutionary dynamics) depend on
+the required architecture but remain neutral on metaphysics of belief.
+The alignment of individual webs into public knowledge occurs through
+convergence of behavioral patterns shaped by sustained pragmatic
+feedback.
 
 Standing Predicate: The primary unit of cultural-epistemic selection:
 validated, reusable, action-guiding conceptual tools within propositions
@@ -1173,14 +1270,19 @@ describe different aspects of the same evolutionary process through
 which propositions earn their status by proving their viability under
 relentless pragmatic pressure.
 
-=== 4.3.2 Animating Quine's Web and the Individual Revision Mechanism
-<animating-quines-web-and-the-individual-revision-mechanism>
+=== 4.3.2 Why Quine's Architecture Matters: Animating the Web
+<why-quines-architecture-matters-animating-the-web>
 #strong[Animating Quine's Web: From Static Structure to Dynamic Process]
 
-Quine's "Web of Belief" (Quine 1951, 1960) provided a powerful static
-model of confirmational holism, but it has been criticized for lacking a
-dynamic account of its formation and change. Our framework provides the
-missing mechanisms.
+Quine's "Web of Belief" (Quine 1951, 1960) provides the essential
+architecture for our framework: holistic structure, pragmatic revision,
+and overlapping coordination. However, Quine's account has been
+criticized for lacking dynamic mechanisms explaining web formation and
+change. This section shows how our brittleness diagnostics and
+entrenchment mechanisms complete Quine's architecture. The Quinean
+architecture is not merely compatible with our framework but essential
+to it---systemic brittleness, pragmatic pushback, and convergence all
+require this structure. Our framework provides the missing causal story.
 
 First, pragmatic pushback supplies the externalist filter that grounds
 the web in mind-independent reality. This relentless, non-discursive
@@ -1765,6 +1867,16 @@ externalism, complementing these micro-level approaches.
 
 === 6.2 Reconciling with Quine: From Dispositions to Objective Structures
 <reconciling-with-quine-from-dispositions-to-objective-structures>
+Our relationship to Quine is one of architectural inheritance rather
+than metaphysical commitment. We adopt his holistic,
+pragmatically-revised, coordinative web structure as essential
+infrastructure for our framework. The specific dispositional semantics,
+indeterminacy thesis, and debates about analyticity remain orthogonal to
+our core claims about systemic brittleness, pragmatic pushback, and
+convergence toward the Apex Network. This section clarifies how we build
+on Quine's architecture while remaining agnostic about contested
+metaphysical details.
+
 While deeply indebted to Quine, our framework must address the apparent
 tension between his austere behaviorism and our seemingly realist
 claims. The resolution lies not in departing from Quine, but in building
@@ -2622,6 +2734,17 @@ payoff of the formal exercise.
 <appendix-b-glossary-of-key-terms>
 - #strong[Apex Network:] The emergent, objective structure of maximally
   viable solutions determined by mind-independent pragmatic constraints.
+- #strong[Architectural Requirements:] The non-negotiable structural
+  features knowledge systems must possess for the framework to apply:
+  (1) holism (interconnected webs where adjustments create cascading
+  effects), (2) pragmatic revision (external costs causally modify
+  structures), (3) social coordination (individual webs can overlap and
+  align into public systems), and (4) constraint-determined objectivity
+  (convergence toward the Apex Network as objective standard). Multiple
+  metaphysical foundations (Quinean dispositions, social practices,
+  linguistic conventions) can provide this architecture, but these
+  features are essential for systemic brittleness, pragmatic pushback,
+  and convergent evolution.
 - #strong[Brittleness:] Accumulated systemic costs; a measure of a
   system's vulnerability to cascading failures and inability to maintain
   viability under external or internal pressure.
