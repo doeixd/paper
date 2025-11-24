@@ -31,6 +31,8 @@ All self-organizing systems minimize free energy by:
 
 This is not teleological but thermodynamic: systems that fail to minimize free energy dissipate. Those that succeed persist as bounded entities.
 
+The FEP builds on broader predictive processing frameworks in cognitive science, where brains are understood as hierarchical prediction machines constantly minimizing prediction error through bidirectional cortical processing (Clark 2013). This perspective reframes perception not as passive reception but as active inference—testing predictions against sensory input and revising models when mismatches occur.
+
 **Connection to Epistemic Brittleness:** Systemic brittleness is accumulated free energy. When a knowledge system's predictions consistently fail (information leakage), it must either patch the model with ad-hoc additions, suppress disconfirming evidence through coercion, or accept falsification and revise. The brittleness metrics developed in the main text (patch velocity, coercive overhead, model complexity, resilience reserve) measure these information-theoretic costs directly.
 
 ### 1.3 Dispositions as Compression Algorithms
@@ -89,6 +91,8 @@ Recent work in phase epistemology provides formal treatment of this distinction.
 - Innovation often involves recognizing structural coherence before statistical validation
 
 Structural patterns are not subjectively imposed but constrained by reality. You cannot validly infer that "ice produces heat" from a single encounter because thermodynamics forbids this relationship. The structural constraints are objective, even if recognizable from limited data.
+
+Empirical work in cognitive science supports this distinction. Statistical learning operates implicitly through mere exposure to input patterns, extracting regularities from repeated encounters (Aslin and Newport 2012). However, the same mechanisms that enable learning from frequency distributions also support generalization to novel instances when structural relationships are detected—suggesting a unified learning system capable of both statistical pattern matching and structural inference.
 
 This distinction becomes essential for understanding how notions (proto-Standing Predicates) can form before extensive empirical testing, and why some singular experiences carry immediate epistemic weight while others require statistical accumulation.
 
@@ -150,6 +154,8 @@ Markov blankets are not discovered but **enacted**—they emerge when certain co
 | Social | Institution | Bureaucratic procedures | Internal decision-making | Public-facing policies, enforcement |\r
 | Epistemic | Standing Predicate | Definitional boundaries | Compressed causal model | Recognition criteria, licensed inferences |
 
+Recent neurobiological work identifies Markov blankets operating in canonical microcircuits and nested neural hierarchies (Hipólito et al. 2021), providing empirical grounding for the claim that blankets form across multiple organizational levels. These findings suggest the blanket architecture is not merely a useful mathematical abstraction but reflects actual partitions in biological self-organizing systems.
+
 **The Radical Implication:** What "exists" is not mind-independent but blanket-relative. Cells exist for systems with cell-detecting blankets. Quarks exist for systems with quark-detecting blankets. Gods exist for systems with god-detecting blankets.
 
 **Defending Blanket-Relative Ontology:**
@@ -167,6 +173,8 @@ Consider three cases:
 The crucial insight: **blanket-relativity is not arbitrariness**. You cannot successfully draw a blanket anywhere you please. Reality's constraint structure determines which coarse-grainings achieve closure and which leak information. The cell membrane works because lipid bilayers genuinely create conditional independence in aqueous environments—this is a fact about chemistry, not about our beliefs. Phlogiston fails because combustion genuinely requires oxygen—this is a fact about thermodynamics, not about our preferences.
 
 **Ontological Pluralism with Objective Constraints:** Different purposes require different blankets (quarks for physics, organisms for ecology, institutions for sociology), but within each domain, reality ruthlessly selects which blankets persist. This is neither naive realism (there is no single correct ontology) nor pure relativism (most attempted blankets fail). It is constrained pluralism: multiple viable ontologies exist, but viability is determined by reality's structure, not by our choices.
+
+A methodological clarification: we distinguish between "Pearl blankets" (instrumental tools for statistical inference about systems) and "Friston blankets" (claims about the ontological boundaries of self-organizing systems) (Bruineberg et al. 2022). Our framework operates primarily at the functional level—Markov blankets characterize how systems achieve computational closure and maintain conditional independence, whether or not they correspond to specific physical boundaries. This functional interpretation avoids metaphysical overreach while preserving explanatory power.
 
 **The Biological-Epistemic Isomorphism:** The parallel between biological and cultural-epistemic Markov blankets is not metaphorical but structural:
 
@@ -189,6 +197,8 @@ Once the blanket is in place, **you no longer reason from first principles every
 - **Causally closed:** Macro-variables shield internal implementation from external observation
 
 When all three conditions hold, **emergence has succeeded**—a new causal level exists.
+
+Simulations demonstrate that hierarchical self-organization emerges naturally when microscopic elements have prior beliefs that they participate in macroscopic Markov blankets (Palacios et al. 2020). This suggests nested blanket hierarchies are not imposed from outside but arise spontaneously when components minimize free energy under appropriate constraints—providing a mechanistic account of how computational closure forms across levels.
 
 Rosas et al. (2024) formalize this intuition by comparing two optimal predictors. Imagine you want to predict how temperature will change. The ε-machine (epsilon-machine) uses only current temperature and pressure—macro-level data. The υ-machine (upsilon-machine) tracks every molecule's position and momentum—full micro-level access.
 
@@ -437,7 +447,9 @@ From this perspective, emotions are not bugs but features—they make the costs 
 
 **Our Contribution—A Working Hypothesis:**
 
-We propose that consciousness relates to detecting and representing structural coherence rather than merely tracking statistical correlations. This isn't a solution to the hard problem, but it identifies a functional distinction that may map onto the phenomenological boundary between conscious and unconscious processing:
+We propose that consciousness relates to detecting and representing structural coherence rather than merely tracking statistical correlations. This isn't a solution to the hard problem, but it identifies a functional distinction that may map onto the phenomenological boundary between conscious and unconscious processing.
+
+Recent work applies the Free Energy Principle directly to the hard problem, identifying affect (the feeling dimension of consciousness) as the subjective signature of free energy minimization—where decreases and increases in expected uncertainty are experienced as pleasure and unpleasure (Solms 2019). This suggests consciousness may track information-theoretic processes in a way that gives them phenomenological character, though why minimizing prediction error should feel like anything remains unexplained.
 
 **The Distinction:**
 - **Unconscious processing:** Statistical pattern matching—extracting correlations through frequency
@@ -589,6 +601,8 @@ Mathematical truths are not Platonic forms but **maximally efficient compression
 **Not Just Useful Fiction:** When computational closure succeeds, the emergent level is as real as the base level—it has autonomous causal dynamics.
 
 Rosas et al. (2024) formalize this as **causal decoupling**: when the macro-level ε-machine and the micro-informed υ-machine achieve equivalence, the macro-level becomes causally autonomous. The emergent pattern is not merely a convenient description—it genuinely causes its own future states. High-level concepts like "temperature," "infectious disease," or "recession" are causally real precisely because they achieve this decoupling. The macro-level runs its own causal dynamics, making the substrate details causally irrelevant (though they remain constitutively necessary).
+
+This connects to a broader information-theoretic understanding of emergence: coarse-graining can convert information from one type to another, where macroscales reduce total information but may increase certain dependency structures (Varley and Hoel 2022). Emergence succeeds when this information conversion creates synergistic relationships at the macro-level that don't exist at the micro-level—when the whole genuinely exhibits causal properties absent from mere aggregation of parts.
 
 **Temperature Example Revisited:**
 - Base: 10²³ molecules with positions, momenta

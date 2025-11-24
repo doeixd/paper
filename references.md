@@ -6,6 +6,8 @@ Acemoglu, Daron, and James A. Robinson. 2012. *Why Nations Fail: The Origins of 
 
 Anderson, Elizabeth. 1996. "Knowledge, Human Interests, and Objectivity in Feminist Epistemology." *Philosophical Topics* 23(2): 27–58. https://doi.org/10.5840/philtopics199623214.
 
+Aslin, Richard N., and Elissa L. Newport. 2012. "Statistical learning: From acquiring specific items to forming general rules." *Current Directions in Psychological Science* 21(3): 170–176. https://doi.org/10.1177/0963721412436806.
+
 Axelrod, Robert. 1984. *The Evolution of Cooperation*. New York: Basic Books. ISBN 978-0465021215.
 
 Ayvazov, Mahammad. 2025. "Beyond Likelihood: Improbability as a Quantifiable Field in Quantum Epistemology." Preprint, April 2025.
@@ -17,6 +19,8 @@ Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism and The
 Bagnoli, Carla, ed. 2013. *Constructivism in Ethics*. New York: Cambridge University Press. ISBN 9781107019218, 9781107540385.
 
 Baysan, Umut. 2025. "Emergent Moral Non-naturalism." *Philosophy and Phenomenological Research* 110(1): 1–20. https://doi.org/10.1111/phpr.70057.
+
+Bedau, Mark A. 1997. "Weak Emergence." *Philosophical Perspectives* 11: 375–99. https://doi.org/10.1111/0029-4624.31.s11.17.
 
 Bennett, Andrew, and Jeffrey T. Checkel, eds. 2014. *Process Tracing: From Metaphor to Analytic Tool*. Cambridge: Cambridge University Press. https://doi.org/10.1017/CBO9781139858472. ISBN 9781139858472, 9781107042452.
 
@@ -38,6 +42,8 @@ Bradie, Michael. 1986. "Assessing Evolutionary Epistemology." *Biology & Philoso
 
 Brandom, Robert B. 1994. *Making It Explicit: Reasoning, Representing, and Discursive Commitment*. Cambridge, MA: Harvard University Press. ISBN 978-0674543195.
 
+Bruineberg, Jelle, Krzysztof Dołęga, Joe Dewhurst, and Manuel Baltieri. 2022. "The Emperor's New Markov Blankets." *Behavioral and Brain Sciences* 45: e183. https://doi.org/10.1017/S0140525X21002351.
+
 Buchanan, Allen, and Russell Powell. 2018. *The Evolution of Moral Progress: A Biocultural Theory*. New York: Oxford University Press. ISBN 978-0190868413.
 
 Campbell, Donald T. 1974. "Evolutionary Epistemology." In *The Philosophy of Karl R. Popper*, edited by Paul A. Schilpp, 413–63. La Salle, IL: Open Court.
@@ -50,7 +56,13 @@ Cartwright, Nancy. 1999. *The Dappled World: A Study of the Boundaries of Scienc
 
 Cartwright, Nancy, and Jeremy Hardie. 2012. *Evidence-Based Policy: A Practical Guide to Doing It Better*. Oxford: Oxford University Press.
 
+Chalmers, David J. 2006. "Strong and Weak Emergence." In *The Re-Emergence of Emergence: The Emergentist Hypothesis from Science to Religion*, edited by Philip Clayton and Paul Davies, 244–54. Oxford: Oxford University Press. ISBN 9780199287147. https://doi.org/10.1093/acprof:oso/9780199287147.003.0011.
+
+Clark, Andy. 2013. "Whatever next? Predictive brains, situated agents, and the future of cognitive science." *Behavioral and Brain Sciences* 36(3): 181–204. https://doi.org/10.1017/S0140525X12000477.
+
 Christensen, David. 2007. "Epistemology of Disagreement: The Good News." *Philosophical Review* 116(2): 187–217. https://doi.org/10.1215/00318108-2006-035.
+
+Cogitate Consortium. 2025. "Adversarial testing of global neuronal workspace and integrated information theories of consciousness." *Nature* 642(8066): 133–142. https://doi.org/10.1038/s41586-025-08888-1.
 
 Conquest, Robert. 1990. *The Great Terror: A Reassessment*. Oxford: Oxford University Press. ISBN 978-0195055801.
 
@@ -75,6 +87,8 @@ Fricker, Elizabeth. 2007. *The Epistemology of Testimony*. Oxford: Oxford Univer
 Friston, Karl J. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11 (2): 127–138. https://doi.org/10.1038/nrn2787.
 
 Friston, Karl J. 2013. "Life as We Know It." *Journal of the Royal Society Interface* 10 (86): 20130475. https://doi.org/10.1098/rsif.2013.0475.
+
+Friston, Karl, Michael Levin, Christopher Buckley, and Maxwell Ramstead. 2018. "The Markov Blankets of Life: Autonomy, Active Inference and the Free Energy Principle." *Journal of the Royal Society Interface* 15(138): 20170792. https://doi.org/10.1098/rsif.2017.0792.
 
 Godfrey-Smith, Peter. 2003. *Theory and Reality: An Introduction to the Philosophy of Science*. Chicago: University of Chicago Press.
 
@@ -107,6 +121,8 @@ Hartmann, Stephan, and Borut Trpin. 2023. "Conjunctive Explanations: A Coherenti
 Henrich, Joseph. 2015. *The Secret of Our Success: How Culture Is Driving Human Evolution, Domesticating Our Species, and Making Us Smarter*. Princeton, NJ: Princeton University Press. ISBN 978-0691178431.
 
 Hills, Alison. 2020. "Moral Testimony: Transmission Versus Propagation." *Philosophy and Phenomenological Research* 101, no. 2: 399–414. https://doi.org/10.1111/phpr.12595. ISSN 0031-8205.
+
+Hipólito, Inês, Maxwell J. D. Ramstead, Laura Convertino, Anjali Bhat, Karl Friston, and Thomas Parr. 2021. "Markov blankets in the brain." *Neuroscience & Biobehavioral Reviews* 125: 88–97. https://doi.org/10.1016/j.neubiorev.2021.02.003.
 
 Hodge, A. Trevor. 1992. *Roman Aqueducts & Water Supply*. London: Duckworth. ISBN 978-0715631713.
 
@@ -178,6 +194,8 @@ Olsson, Erik J. 2005. *Against Coherence: Truth, Probability, and Justification*
 Ostrom, Elinor. 1990. *Governing the Commons: The Evolution of Institutions for Collective Action*. Cambridge: Cambridge University Press. ISBN 978-0521405997.
 
 O'Connor, Cailin, and James Owen Weatherall. 2019. *The Misinformation Age: How False Beliefs Spread*. New Haven, CT: Yale University Press. ISBN 978-0300234015.
+
+Palacios, Ensor Rafael, Adeel Razi, Thomas Parr, Michael Kirchhoff, and Karl Friston. 2020. "On Markov blankets and hierarchical self-organisation." *Journal of Theoretical Biology* 486: 110089. https://doi.org/10.1016/j.jtbi.2019.110089.
 
 Pearl, Judea. 1988. *Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference*. San Mateo, CA: Morgan Kaufmann. ISBN 978-0934613736.
 
@@ -253,6 +271,8 @@ Sinclair, Robert. 2007. "Quine's Naturalized Epistemology and the Third Dogma of
 
 Snow, John. 1855. *On the Mode of Communication of Cholera*. 2nd ed. London: John Churchill. Reprinted in *International Journal of Epidemiology* 42, no. 6 (2013): 1543–1552. https://doi.org/10.1093/ije/dyt193.
 
+Solms, Mark. 2019. "The Hard Problem of Consciousness and the Free Energy Principle." *Frontiers in Psychology* 9: 2714. https://doi.org/10.3389/fpsyg.2018.02714.
+
 Staffel, Julia. 2020. "Reasons Fundamentalism and Rational Uncertainty – Comments on Lord, The Importance of Being Rational." *Philosophy and Phenomenological Research* 100, no. 2: 463–468. https://doi.org/10.1111/phpr.12675. ISSN 0031-8205.
 
 Staffel, Julia. 2021. "Rational Judgment and the Structure of Defeat." In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press. ISBN 9780198847205.
@@ -283,7 +303,11 @@ Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's th
 
 Tauriainen, Teemu. 2022. "Quine's Conflicts with Truth Deflationism." *Asian Journal of Philosophy* 1 (46): 1–25. https://doi.org/10.1007/s44204-022-00047-x. ISSN 2731-6641.
 
+Tononi, Giulio, Melanie Boly, Marcello Massimini, and Christof Koch. 2016. "Integrated Information Theory: From Consciousness to Its Physical Substrate." *Nature Reviews Neuroscience* 17(7): 450–61. https://doi.org/10.1038/nrn.2016.44.
+
 Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton, NJ: Princeton University Press. ISBN 978-0691116693.
+
+Varley, Thomas F., and Erik Hoel. 2022. "Emergence as the conversion of information: a unifying theory." *Philosophical Transactions of the Royal Society A* 380(2227): 20210150. https://doi.org/10.1098/rsta.2021.0150.
 
 World Bank. 2012. *World Development Report 2012: Gender Equality and Development*. Washington, DC: World Bank. ISBN 978-0821388105.
 
