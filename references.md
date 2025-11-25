@@ -94,6 +94,8 @@ Friston, Karl J., et al. 2017. "The Desiderata of Life." *Interface Focus* 7(5):
 
 Friston, Karl, Michael Levin, Christopher Buckley, and Maxwell Ramstead. 2018. "The Markov Blankets of Life: Autonomy, Active Inference and the Free Energy Principle." *Journal of the Royal Society Interface* 15(138): 20170792. https://doi.org/10.1098/rsif.2017.0792.
 
+Friston, Karl J., Thomas Parr, Conor Heins, Axel Constant, Daniel Friedman, Takuya Isomura, Chris Fields, Tim Verbelen, Maxwell Ramstead, John Clippinger, and Christopher Frith. 2025. "What the Flock Knows That the Birds Do Not: Exploring the Emergence of Joint Agency in Multi-Agent Active Inference." *arXiv* preprint arXiv:2511.10835. https://arxiv.org/abs/2511.10835.
+
 Godfrey-Smith, Peter. 2003. *Theory and Reality: An Introduction to the Philosophy of Science*. Chicago: University of Chicago Press.
 
 Gadamer, Hans-Georg. 1975. *Truth and Method*. Translated by Joel Weinsheimer and Donald G. Marshall. New York: Continuum (originally Seabury Press; 2nd revised ed.). ISBN 978-0826400161.
@@ -186,6 +188,8 @@ Bolhuis, Johan J., Stephen Crain, Sandiway Fong, and Andrea Moro. 2024. "Three R
 
 
 March, James G. 1978. "Bounded Rationality, Ambiguity, and the Engineering of Choice." *The Bell Journal of Economics* 9, no. 2: 587–608. https://doi.org/10.2307/3003600.
+
+Marcus, Gary F. 2001. *The Algebraic Mind: Integrating Connectionism and Cognitive Science*. Cambridge, MA: MIT Press. ISBN 978-0262632683.
 
 Meadows, Donella H. 2008. *Thinking in Systems: A Primer*. Edited by Diana Wright. White River Junction, VT: Chelsea Green Publishing. ISBN 978-1603580557.
 
