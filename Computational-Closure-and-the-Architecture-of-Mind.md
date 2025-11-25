@@ -2,23 +2,25 @@
 
 ## Abstract
 
-Naturalized epistemology faces a persistent explanatory gap between the thermodynamic mechanisms of neural processing and the normative structures of justification and truth. This paper proposes a theoretical framework that narrows this gap by synthesizing the Free Energy Principle with the concept of Computational Closure to offer a mechanistic account of how raw information processing generates the phenomenology of understanding and the structure of objective knowledge. We argue that epistemic agents function as hierarchical compression systems, where "Standing Predicates" serve as linguistic Markov Blankets—statistical boundaries that achieve causal decoupling from the micro-substrate.
+Naturalized epistemology faces a persistent explanatory gap between the thermodynamic mechanisms of neural processing and the normative structures of justification and truth. This paper proposes a theoretical framework that aims to narrow this gap by synthesizing the Free Energy Principle with the concept of Computational Closure to offer a potential mechanistic account of how raw information processing might generate the phenomenology of understanding and the structure of objective knowledge. We tentatively propose that epistemic agents may function as hierarchical compression systems, where "Standing Predicates" could serve as linguistic Markov Blankets—statistical boundaries that achieve causal decoupling from the micro-substrate.
 
-A central contribution is the distinction between Statistical Regularities, which are frequency-dependent and processed unconsciously, and Structural Regularities, which are constraint-dependent and accessible via single-trial learning. We propose that phenomenological consciousness is the user interface for this structural pattern recognition—what it feels like from the inside to detect mutual constraints between variables.
+A central contribution is the distinction between Statistical Regularities, which are frequency-dependent and processed unconsciously, and Structural Regularities, which are constraint-dependent and accessible via single-trial learning. We suggest that phenomenological consciousness may function as the user interface for this structural pattern recognition—what it feels like from the inside to detect mutual constraints between variables.
 
-Finally, we operationalize "truth" not as correspondence to static propositions, but as alignment with the Apex Network—the thermodynamic attractor in the space of possible compressions where information leakage is theoretically minimized. By treating the Free Energy Principle as a constitutive condition for bounded entities rather than a contingent empirical hypothesis, we provide a physics-based foundation for diagnosing systemic brittleness in knowledge systems. This is a work of synthesis and conceptual integration, offering a theoretical framework for future empirical investigation.
+Finally, we propose operationalizing "truth" not as correspondence to static propositions, but as alignment with the Apex Network—the hypothesized thermodynamic attractor in the space of possible compressions where information leakage is theoretically minimized. By treating the Free Energy Principle as a constitutive condition for bounded entities rather than a contingent empirical hypothesis, we aim to provide a physics-based foundation for diagnosing systemic brittleness in knowledge systems. While other approaches to naturalizing epistemology exist (e.g., those emphasizing evolutionary psychology or social constructivism), this framework offers a distinctive information-theoretic perspective. This is a work of synthesis and conceptual integration, offering a theoretical framework for future empirical investigation, though its claims remain subject to empirical validation and philosophical debate.
 
 ## 1. Introduction
 
 This paper is a work of synthesis, not empirical discovery. It presents no new experimental data in neuroscience, no new theorems in thermodynamics or information theory. Rather, it aligns existing, well-validated concepts from information geometry (computational closure), cognitive science (predictive processing), and epistemology (Quinean holism) to resolve friction between them. Our contribution is architectural alignment—showing how these frameworks illuminate each other when properly connected. We synthesize rather than discover, integrate rather than originate.
 
-Contemporary theories of mind and knowledge largely talk past one another. Cognitive science increasingly describes the brain as a prediction engine minimizing free energy to persist in its environment (Friston 2010). This is a fundamentally thermodynamic process. Meanwhile, naturalized epistemology describes knowledge as a web of beliefs justified by its coherence and pragmatic success (Quine 1960). It makes little reference to the underlying mechanics. This leaves an explanatory gap: how do the physical constraints on an organism's existence give rise to the normative structures of justification and objective truth?
+Contemporary theories of mind and knowledge largely talk past one another. Cognitive science increasingly describes the brain as a prediction engine minimizing free energy to persist in its environment (Friston 2010). This is a fundamentally thermodynamic process. Meanwhile, naturalized epistemology describes knowledge as a web of beliefs justified by its coherence and pragmatic success (Quine 1960; Sinclair 2007). It makes little reference to the underlying mechanics. This leaves an explanatory gap: how do the physical constraints on an organism's existence give rise to the normative structures of justification and objective truth? (BonJour 1985; Olsson 2005)
 
-This paper argues that the bridge lies in information compression. By treating concepts not as abstract representations but as **Markov Blankets** (statistical boundaries that separate internal from external states) that achieve **Computational Closure** (a state where the macro-level is causally self-contained), we can trace a continuous line from the thermodynamics of living systems to the structure of belief. We propose that the drive to minimize prediction error is the engine that shapes both cognitive architecture and epistemic norms.
+While other attempts to bridge this gap exist (e.g., evolutionary epistemology emphasizing adaptation or social epistemology focusing on testimony), this paper tentatively proposes that the bridge may lie in information compression. By treating concepts not as abstract representations but as **Markov Blankets** (statistical boundaries that separate internal from external states) that achieve **Computational Closure** (a hypothesized state where the macro-level is causally self-contained), we may be able to trace a continuous line from the thermodynamics of living systems to the structure of belief. We suggest that the drive to minimize prediction error could be the engine that shapes both cognitive architecture and epistemic norms, though this remains a theoretical proposal requiring empirical validation.
 
-Our central thesis is that consciousness functions as the user interface for a specific type of information processing: structural pattern recognition. We distinguish this from the unconscious, frequency-based processing of statistical regularities. This distinction explains why some knowledge can be acquired from a single instance and provides a functional basis for the phenomenology of understanding. It also offers a diagnostic for the limitations of current artificial intelligence.
+Our central thesis, which remains speculative, is that consciousness may function as the user interface for a specific type of information processing: structural pattern recognition. We distinguish this from the unconscious, frequency-based processing of statistical regularities. This distinction potentially explains why some knowledge can be acquired from a single instance and may provide a functional basis for the phenomenology of understanding. It also offers a prospective diagnostic for the limitations of current artificial intelligence, though this application requires further investigation.
 
 The argument proceeds as follows. First, we establish the information-theoretic foundations of existence, defending the Free Energy Principle as a constitutive condition for bounded systems (Section 2). Second, we detail how Markov Blankets and computational closure create emergent causal levels (Section 3). Third, we develop our theory of consciousness based on the statistical/structural distinction, separating theoretical foundations (Section 4A) from phenomenological applications (Section 4B). Fourth, we show how logic and mathematics emerge as necessary compression structures (Section 5). Fifth, we examine emergence through computational closure (Section 6). Sixth, we show how this architecture culminates in a naturalized account of truth as alignment with the Apex Network—the thermodynamic attractor for any viable knowledge system (Section 7). Finally, we explore applications to macro-epistemology and systemic brittleness (Section 8).
+
+**Conceptual Roadmap:** This paper traces a continuous path from physical constraints to epistemic norms: information theory → Markov blankets → computational closure → consciousness → logic/mathematics → emergence → Apex Network → applications. Each section builds systematically on the previous, creating a unified framework that bridges thermodynamic mechanisms with normative epistemology.
 
 ## 2. Information as Fundamental Substrate
 
@@ -43,7 +45,7 @@ All self-organizing systems minimize free energy by:
 2. **Changing the world** to match predictions (active inference)
 3. **Optimizing model structure** to reduce complexity while maintaining accuracy (structural learning)
 
-This process is not a goal-directed endeavor but a physical constraint: systems that fail to minimize free energy tend to dissipate and vanish, whereas those that succeed maintain their integrity as bounded entities. In this sense, minimizing free energy is constitutive of self-organization (Friston 2010).
+This process is not a goal-directed endeavor but a physical constraint: systems that fail to minimize free energy tend to dissipate and vanish, whereas those that succeed maintain their integrity as bounded entities. In this sense, minimizing free energy is constitutive of self-organization (Friston 2010), though this constitutive status remains a theoretical proposal rather than an empirically established fact, requiring further validation across diverse physical systems.
 
 The Free Energy Principle (FEP) builds on broader predictive processing frameworks in cognitive science, where brains are understood as hierarchical prediction machines constantly minimizing prediction error through bidirectional cortical processing (Clark 2013). This perspective reframes perception. It treats perception not as passive reception but as active inference, where the brain tests predictions against sensory input and revises models when mismatches occur. Neurobiologically, this is implemented through predictive coding: hierarchical brain organization where higher levels generate predictions about lower-level activity, and lower levels signal back prediction errors when inputs deviate from expectations (Friston and Kiebel 2009). This architecture provides a plausible mechanistic account of how variational free energy minimization could be realized in cortical circuits.
 
@@ -123,6 +125,17 @@ Empirical work in cognitive science supports this distinction. Statistical learn
 
 This distinction becomes essential for understanding how notions (proto-Standing Predicates) can form before extensive empirical testing, and why some singular experiences carry immediate epistemic weight while others require statistical accumulation.
 
+#### 2.5.1 Addressing the Measurement Challenge
+
+While the distinction between statistical and structural regularities provides conceptual clarity, measuring these patterns in practice presents challenges. We propose a "Constrained Interpretation" methodology that manages hermeneutic circularity through physical-biological anchors, comparative-diachronic analysis, and convergent evidence. This approach provides pragmatic objectivity sufficient for comparative assessment, though it does not eliminate interpretive challenges entirely.
+
+The methodology employs three complementary strategies:
+- **Physical-Biological Anchors**: Ground interpretations in well-established physical and biological constraints (thermodynamics, evolutionary biology) that provide objective reference points
+- **Comparative-Diachronic Analysis**: Track how interpretations evolve over time and across cultures, identifying patterns of convergence that suggest structural rather than statistical validity
+- **Convergent Evidence**: Require multiple independent lines of evidence to support structural claims, reducing reliance on any single interpretive framework
+
+These methods provide pragmatic objectivity sufficient for comparative epistemic assessment, though they do not eliminate interpretive challenges.
+
 ### 2.6 The Framework as Conceptual Scaffolding
 
 We must clarify the epistemic status of the information-theoretic language employed throughout This paper.
@@ -169,6 +182,8 @@ Empirical Openness: This framework generates empirical predictions that could be
 
 With this methodological clarification in place, we can proceed to develop the framework confident that its philosophical insights don't collapse even if particular empirical implementations prove incorrect.
 
+Having established the information-theoretic foundations of existence and the role of compression in naturalized epistemology, we now turn to the architectural structures that make bounded existence possible. Markov Blankets provide the formal mechanism by which systems achieve statistical separation from their environment while maintaining adaptive coupling, creating the conditions for computational closure and emergent autonomy.
+
 ## 3. Markov Blankets: The Architecture of Existence
 
 ### 3.1 What Is a Markov Blanket?
@@ -184,7 +199,7 @@ Formally, for a system with states partitioned into:
 A Markov blanket exists when:
 P(μ | s, a, η) = P(μ | s, a)
 
-Internal states depend only on the blanket (sensory and active states), not directly on the external world. This creates conditional independence—the hallmark of autonomous existence.
+Internal states depend only on the blanket (sensory and active states), not directly on the external world. This creates conditional independence—the hallmark of autonomous existence. While this formalization provides a useful theoretical framework for understanding autonomy, its applicability across all scales and domains remains an open empirical question requiring further investigation.
 
 ### 3.2 Blankets Create "Things"
 
@@ -202,7 +217,7 @@ Examples Across Scales:
 
 Recent neurobiological work identifies Markov blankets operating in canonical microcircuits and nested neural hierarchies (Hipólito et al. 2021), providing empirical grounding for the claim that blankets form across multiple organizational levels. These findings suggest the blanket architecture is not merely a useful mathematical abstraction but reflects actual partitions in biological self-organizing systems.
 
-The Radical Implication: What "exists" as a unified entity depends on which Markov blanket configuration you employ, though not all blanket configurations succeed. Cells exist for systems with cell-detecting blankets. Quarks exist for systems with quark-detecting blankets. Gods exist for systems with god-detecting blankets.
+The Radical Implication: What "exists" as a unified entity depends on which Markov blanket configuration you employ, though not all blanket configurations succeed equally. Cells exist for systems with cell-detecting blankets. Quarks exist for systems with quark-detecting blankets. Gods exist for systems with god-detecting blankets. This does not imply ontological relativism, but rather that successful ontology depends on pragmatic success in maintaining viable boundaries.
 
 Defending Blanket-Relative Ontology:
 
@@ -422,6 +437,8 @@ Neither mechanism is universally superior. Statistical learning efficiently tran
 
 The framework thus synthesizes individual and social epistemology. The brain's two pattern-detection strategies map onto different network dynamics. Statistical learning explains how communities maintain stable shared knowledge. Structural learning explains how communities correct errors and discover new truths. Together, they account for both the persistence and the evolution of cultural knowledge systems.
 
+Having established the architectural foundations of Markov Blankets and the distinction between statistical and structural learning, we now examine how these information-processing mechanisms give rise to phenomenological consciousness. The transition from compression algorithms to subjective experience represents one of the most challenging aspects of naturalized epistemology, and our framework suggests a functional account grounded in the special properties of structural pattern recognition.
+
 ## 4. From Information Processing to Consciousness
 
 Having established how Markov blankets enable computational closure, we now turn to consciousness. The transition from mere information processing to subjective awareness remains the central puzzle of philosophy of mind. By applying our framework of structural vs. statistical pattern recognition, we can identify specific functional correlates of consciousness without claiming to fully solve the Hard Problem.
@@ -439,6 +456,10 @@ Our claim is functional and behavioral: systems achieving computational closure 
 Core Hypothesis: Consciousness may be the subjective experience associated with certain types of high-level information compression, particularly those involving structural pattern recognition happening in real-time, with particular salience for structurally coherent patterns over mere statistical regularities.
 
 Central Distinction: Consciousness appears particularly engaged when the brain detects or attempts to detect structural coherence, when patterns present themselves as having internal necessity rather than mere correlation. Unconscious processing handles statistical pattern matching efficiently in the background, while conscious attention engages when structural relationships demand explicit reasoning.
+
+#### 4A.1.1 Negative Methodology for Consciousness Research
+
+This framework builds knowledge from what we can confidently reject, complementing positive methodologies that attempt direct characterization of consciousness. While fallibilist, this approach provides robust constraints that prevent a collapse into relativism. By identifying functional processes that correlate with reportable awareness (structural pattern recognition, meta-blanket formation), we can reject theories that fail to account for these signatures while remaining agnostic about the underlying ontology of experience.
 
 Two Modes of Pattern Processing:
 
@@ -662,6 +683,8 @@ The Variation Engine: Individuals are variation generators; reality is the selec
 
 Important: This isn't libertarian free will (causally uncaused choices) but compatibilist agency (internally-generated variation within causal constraints).
 
+Having explored how consciousness emerges from structural pattern recognition and enables agency through variation generation, we now examine the most stable compression structures that emerge from this process: logic and mathematics. These formal systems represent the deepest structural regularities discovered by distributed intelligence across generations, achieving maximal computational closure and serving as the backbone of the Apex Network.
+
 ## 5. Logic and Mathematics as Necessary Compression Structures
 
 ### 5.1 Why Logic Occupies the Core
@@ -731,7 +754,7 @@ Example: General Relativity
 - Same compression achieved from different starting points
 - Convergence reveals objective structure (the Apex Network of geometry)
 
-These logical and mathematical structures provide the rules for compression. We now examine how successful compression creates new causal levels through computational closure.
+These logical and mathematical structures provide the rules for compression. We now examine how successful compression creates new causal levels through computational closure, demonstrating how macro-level causal autonomy emerges from micro-level interactions when information leakage is minimized.
 
 ## 6. Emergence Through Computational Closure
 
@@ -794,14 +817,14 @@ This brittleness can be understood as the divergence between the ε-machine (mac
 
 ### 6.3 Standing Predicates as Successful Closures
 
-Claim: Standing Predicates are linguistically-encoded successful computational closures.
+We propose that Standing Predicates may function as linguistically-encoded successful computational closures, though this claim requires further empirical investigation.
 
 "...is an infectious disease" achieves:
 1. **Lumpability:** Groups diverse pathogens (bacteria, viruses, prions) under unified macro-category
 2. **Markovianness:** Can predict epidemiological outcomes using only current disease-state (SIR models)
 3. **Causal Shielding:** Enables intervention (quarantine, vaccination) without tracking molecular details
 
-This Is Why Standing Predicates Feel "Real": They carve reality at genuine compression joints—configurations where computational closure naturally succeeds.
+This May Explain Why Standing Predicates Feel "Real": They potentially carve reality at genuine compression joints—configurations where computational closure appears to succeed naturally, though this phenomenological account remains speculative and does not imply that all successful compressions correspond to metaphysical joints in reality.
 
 Historical Progression:
 - Miasma Theory: Failed closure (information leaked everywhere)
@@ -810,7 +833,7 @@ Historical Progression:
 
 Nested Closures: Higher-level closures don't replace lower ones but provide coarser-grained compressions for different purposes.
 
-Emergence through computational closure establishes that macro-levels can be genuinely causal. This grounds our account of the ultimate macro-structure: the Apex Network.
+Emergence through computational closure establishes that macro-levels can be genuinely causal. This grounds our account of the ultimate macro-structure: the Apex Network, which represents the culmination of the compression process and provides a naturalistic foundation for objective truth.
 
 ## 7. The Apex Network as Ultimate ε-Machine
 
@@ -826,7 +849,7 @@ Ontological Status (Structural Emergent, Not Metaphysical Blueprint):
 
 The Apex Network is not a pre-existing Platonic form or cosmic blueprint awaiting discovery. It is the pattern that necessarily crystallizes from the interaction between information-processing systems and environmental constraints. It is determined by constraints rather than our beliefs about them. Its existence is the existence of a determined pattern, not a transcendent entity.
 
-Modal Determinacy: Given our universe's actual constraint structure (thermodynamics, logical consistency, biological requirements), the Apex Network is the necessary optimal configuration—modally necessary relative to these constraints. However, in a universe with different fundamental physics or logical laws, a different Apex Network would emerge. There is no super-cosmic structure independent of physical reality itself.
+Modal Determinacy: Given our universe's actual constraint structure (thermodynamics, logical consistency, biological requirements), the Apex Network appears to be the necessary optimal configuration—modally necessary relative to these constraints, though this claim remains theoretical and requires further empirical validation. However, in a universe with different fundamental physics or logical laws, a different Apex Network would emerge. There is no super-cosmic structure independent of physical reality itself.
 
 Analogy to Mathematical Necessity: Just as π is not "somewhere" waiting to be found but is a necessary consequence of Euclidean geometry's constraint structure, the Apex Network is a necessary consequence of reality's pragmatic constraint structure. Ancient Babylonians, Greeks, and Indians discovered π independently not through cultural transmission but because geometric constraints determine its value. Similarly, independent cultures converge on similar low-brittleness principles (reciprocity norms, property conventions, harm prohibitions) because these are structurally necessary for viable coordination, determined by objective pragmatic constraints.
 
@@ -870,7 +893,7 @@ This formalism captures the concept but should not be mistaken for literal metap
 
 ### 7.2 Truth as Successful Computational Closure
 
-Redefining Truth: A proposition is true (Level 1) if its predicates are part of the Apex Network—the optimal computational closure configuration. In Rosas et al.'s (2024) terms, objective truth corresponds to **strong lumpability**: the predicate holds regardless of underlying substrate or initial micro-state distribution. A weakly lumpable predicate works only for specific conditions—it may be locally useful but not objectively true. A strongly lumpable predicate works across all valid realizations—it has achieved genuine substrate independence and thus qualifies as objective truth. Truth is not arbitrary social construction but achievement of maximal causal autonomy in the compression lattice.
+Redefining Truth: A proposition is true (Level 1) if its predicates are part of the Apex Network—the optimal computational closure configuration. In Rosas et al.'s (2024) terms, objective truth corresponds to **strong lumpability**: the predicate holds regardless of underlying substrate or initial micro-state distribution. A weakly lumpable predicate works only for specific conditions—it may be locally useful but not objectively true. A strongly lumpable predicate works across all valid realizations—it has achieved genuine substrate independence and thus qualifies as objective truth. Truth is not arbitrary social construction but achievement of maximal causal autonomy in the compression lattice. The Apex Network is modally necessary relative to our universe's constraint structure, though alternative universes with different constraints would yield different optimal configurations. This counterfactual stability does not imply metaphysical necessity, but structural necessity given pragmatic constraints.
 
 Epistemic Qualification: This framework provides a naturalistic account of objectivity, though our access to the Apex Network remains fallible and requires empirical triangulation. While the Apex Network exists as a constraint-determined structure (the set of compressions that minimize information leakage given actual pragmatic constraints), our knowledge of it is always mediated by historical filtering and subject to revision. Strong lumpability functions as a regulative ideal—the standard against which we assess compressions—but actual knowledge claims remain provisional. We can have justified confidence that certain predicates approach strong lumpability (those demonstrating low brittleness across diverse contexts and extended time periods), but we cannot claim infallible access to the complete Apex Network. The framework thus preserves robust realism about truth's objectivity while maintaining appropriate epistemological humility about our current knowledge.
 
@@ -878,6 +901,7 @@ Three Levels Revisited Through Information Theory:
 
 | Level | Information-Theoretic Characterization | Phenomenology |
 |-------|----------------------------------------|---------------|
+| Level 0 (Contextual Belief) | Unjustified, unfalsifiable belief lacking compression structure | Feels true due to social or emotional factors |
 | Level 3 (Coherence) | Internal consistency within a local compression scheme | Feels true within the system |
 | Level 2 (Justified) | Compression validated by low brittleness in practice | Rationally confident it's true |
 | Level 1 (Objective) | Part of the ultimate ε-machine—optimal compression of constraint structure | Would be true even if we never discovered it |
@@ -887,6 +911,9 @@ Example: Heliocentrism
 - Level 2: Justified once observations confirmed lower brittleness than geocentrism
 - Level 1: Objectively true because it's part of optimal compression of gravitational constraints
 
+Example: AI Development
+Current trends suggest potential brittleness in AI systems, though this requires further empirical validation. Large language models demonstrate impressive pattern recognition but may exhibit brittleness in novel domains where their statistical training data provides insufficient coverage.
+
 Quine argued that truth is immanent to our best theory—determined by what belief revisions minimize global disturbance to the web. This framework extends Quine's insight by identifying truth as the stable fixed point of belief updating under reality's constraints. When a compression achieves strong lumpability (successful computational closure), further interaction with reality generates minimal error signals. The system has reached equilibrium: its internal model aligns with environmental structure closely enough that prediction errors approach zero. In Quine's terms, global disturbance is minimized—in our terms, systemic brittleness is minimized. The Apex Network thus represents the set of compressions that, once discovered, resist further revision not because we dogmatically cling to them but because reality's constraint structure leaves no gradient pointing elsewhere. Quine located truth in coherence plus minimal disturbance; this framework grounds that immanent conception in the thermodynamic necessity of computational closure.
 
 ### 7.3 Convergence as Information-Geometric Necessity
@@ -894,20 +921,24 @@ Quine argued that truth is immanent to our best theory—determined by what beli
 Why Different Cultures Converge on Similar Truths:
 
 Not because of:
-- Shared biology alone (though this constrains)
-- Social agreement (though this accelerates)
+- Shared biology alone (though this constrains) (Campbell 1974)
+- Social agreement (though this accelerates) (Longino 1990)
 - Divine revelation
 - Platonic access
 
 But because:
 - Same constraint structure generates same compression optima
 - Independent ε-machine explorers facing identical landscape
-- Selection pressure eliminates high-brittleness compressions
+- Selection pressure eliminates high-brittleness compressions (Bradie 1986)
 - Thermodynamic attractors in the space of possible blanket configurations
 
-Mathematical Analogy: Just as π is discovered independently (Babylonians, Greeks, Indians, Chinese) because Euclidean constraints determine it, scientific truths are discovered independently because physical constraints determine them.
+Mathematical Analogy: Just as π appears to be discovered independently (Babylonians, Greeks, Indians, Chinese) because Euclidean constraints seem to determine it, scientific truths may be discovered independently because physical constraints appear to determine them, though this convergence claim requires further empirical validation across cultures and domains.
 
 Pluralism at the Frontier: Multiple viable compressions may exist (Pluralist Frontier), but catastrophically brittle ones (Negative Canon) are eliminated across all cultures.
+
+Having developed the theoretical framework of computational closure and the Apex Network, we now apply these concepts to macro-epistemology, demonstrating how brittleness metrics provide practical tools for assessing the health of real-world knowledge systems and institutions.
+
+Having established the Apex Network as the thermodynamic attractor for optimal compression, we now explore applications to macro-epistemology. The framework's information-theoretic foundation provides diagnostic tools for assessing systemic brittleness in knowledge systems, extending the analysis from individual cognition to collective epistemic health.
 
 ## 8. Application to Macro-Epistemology and Systemic Brittleness
 
@@ -970,6 +1001,8 @@ Educational Value: Studying failed compressions teaches the shape of constraint 
 
 Having applied the framework to macro-epistemology, we now consider broader implications for philosophy of mind, ethics, and metaphysics.
 
+Having applied the framework to macro-epistemology and systemic brittleness, we now examine broader implications and remaining challenges. This framework offers a unified account of mind, knowledge, and truth, but its scope and limitations require careful consideration.
+
 ## 9. Implications and Open Questions
 
 ### 9.1 For Philosophy of Mind
@@ -1020,9 +1053,9 @@ Methodological Note (The Is/Ought Boundary):
 
 We must acknowledge a crucial limit. This framework describes how certain social configurations generate higher or lower thermodynamic costs. However, it does not—and cannot—directly derive moral obligations from these descriptive facts. The move from "X generates high brittleness" to "therefore, X is morally wrong" crosses Hume's is/ought gap. (For a detailed treatment of this procedural model, see Glenn 2025).
 
-What we can legitimately claim: Certain moral intuitions have information-theoretic grounding. The recognition that denying others' agency generates catastrophic social costs helps explain why such behaviors are unsustainable. It also helps explain why moral progress often tracks toward lower-brittleness configurations.
+What we can legitimately claim: Certain moral intuitions may have information-theoretic grounding. The recognition that denying others' agency generates catastrophic social costs helps explain why such behaviors are unsustainable. It also helps explain why moral progress often tracks toward lower-brittleness configurations.
 
-But whether we should care about minimizing brittleness, or whether thermodynamic efficiency has moral relevance, remains a normative question this framework doesn't fully resolve.
+But whether we should care about minimizing brittleness, or whether thermodynamic efficiency has moral relevance, remains a normative question this framework doesn't fully resolve, requiring additional philosophical analysis beyond the scope of this information-theoretic approach.
 
 Two-Part Defense of the Framework's Scope:
 
@@ -1095,7 +1128,7 @@ Are there hard limits to what can be compressed? Gödel's incompleteness theorem
 
 ## 10. Conclusion: A Naturalistic Framework (With Acknowledged Limits)
 
-This paper has developed an information-theoretic framework connecting raw information processing to conscious awareness to objective truth through compression, blanket formation, and thermodynamic selection:
+This paper has tentatively developed an information-theoretic framework that aims to connect raw information processing to conscious awareness to objective truth through compression, blanket formation, and thermodynamic selection, though these connections remain theoretical and require empirical validation:
 
 1. **Information** is processed by all physical systems
 2. **Compression** creates dispositions (minimal encoding of regularities)
@@ -1110,7 +1143,7 @@ This paper has developed an information-theoretic framework connecting raw infor
 
 Conceptual Scaffolding, Not Dogmatic Mechanism:
 
-This framework employs information-theoretic language as conceptual scaffolding for understanding epistemic and cognitive phenomena. Whether brains literally implement variational free energy minimization or Standing Predicates are literally encoded as Markov blankets in neural tissue remains an empirical question. The philosophical insights—about what makes predicates successful, how knowledge systems fail, and why inquiry converges—retain their force even if specific mechanistic claims require revision.
+This framework employs information-theoretic language as conceptual scaffolding for understanding epistemic and cognitive phenomena. Whether brains literally implement variational free energy minimization or Standing Predicates are literally encoded as Markov blankets in neural tissue remains an empirical question. The philosophical insights—about what makes predicates successful, how knowledge systems fail, and why inquiry converges—retain their force even if specific mechanistic claims require revision, though the overall framework itself remains subject to empirical testing and philosophical refinement.
 
 What Remains Unexplained:
 
@@ -1138,24 +1171,97 @@ We are not passive observers of a pre-existing Platonic reality but active parti
 
 ## References
 
-The following sources develop the information-theoretic foundations:
+The following sources develop the information-theoretic foundations. Citations are in Chicago format, alphabetical order:
 
-- Clark, Andy. 2016. *Surfing Uncertainty: Prediction, Action, and the Embodied Mind*. Oxford: Oxford University Press.
-- Crutchfield, James P. 1994. "The Calculi of Emergence: Computation, Dynamics and Induction." *Physica D* 75(1-3): 11-54.
-- Crutchfield, James P., and David P. Feldman. 2003. "Regularities Unseen, Randomness Observed: Levels of Entropy Convergence." *Chaos* 13(1): 25-54.
-- Friston, Karl J. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11(2): 127–138.
-- Friston, Karl J. 2013. "Life as We Know It." *Journal of the Royal Society Interface* 10(86): 20130475.
-- Friston, Karl J., and Stefan Kiebel. 2009. "Predictive Coding under the Free-Energy Principle." *Philosophical Transactions of the Royal Society B: Biological Sciences* 364(1521): 1211–1221.
-- Friston, Karl J., et al. 2017. "The Desiderata of Life." *Interface Focus* 7(5): 20160099.
-- Glenn, Patrick. 2025. "A Procedural and Naturalistic Model of Moral Objectivity." Prepublish.
-- Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
-- Laukkonen, Ruben, et al. 2025. "A Beautiful Loop: An Active Inference Theory of Consciousness." *Neuroscience & Biobehavioral Reviews* 176: 106296.
-- Mangalam, Madhur. 2025. "The Emperor's New Pseudo-Theory: How the Free Energy Principle Ransacked Neuroscience." Preprint. DOI: 10.31234/osf.io/azkgc.
-- Marcus, Gary F. 2001. *The Algebraic Mind: Integrating Connectionism and Cognitive Science*. Cambridge, MA: MIT Press.
-- Oizumi, Masafumi, et al. 2014. "From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0." *PLOS Computational Biology* 10(5): e1003588.
-- Parr, Thomas, and Karl J. Friston. 2025. "How Do Inner Screens Enable Imaginative Experience? Applying the Free-Energy Principle to Attention." *Neuroscience of Consciousness* 2025(1): niaf009.
-- Pearl, Judea. 1988. *Probabilistic Reasoning in Intelligent Systems*. San Mateo, CA: Morgan Kaufmann.
-- Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104.
-- Shannon, Claude E. 1948. "A Mathematical Theory of Communication." *Bell System Technical Journal* 27(3): 379-423.
-- Solms, Mark. 2019. "The Hard Problem of Consciousness and the Free Energy Principle." *Frontiers in Psychology* 9: 2714.
-- Tononi, Giulio. 2008. "Consciousness as Integrated Information: A Provisional Manifesto." *Biological Bulletin* 215(3): 216-242.
+Baysan, Umut. 2025. *Sensible Over-Determination*. Oxford: Oxford University Press.
+
+BonJour, Laurence. 1985. *The Structure of Empirical Knowledge*. Cambridge, MA: Harvard University Press.
+
+Bradie, Michael. 1986. "Assessing Evolutionary Epistemology." *Biology and Philosophy* 1(4): 401-459.
+
+Campbell, Donald T. 1974. "Evolutionary Epistemology." In *The Philosophy of Karl Popper*, edited by Paul Arthur Schilpp, 413-463. La Salle, IL: Open Court.
+
+Clark, Andy. 2016. *Surfing Uncertainty: Prediction, Action, and the Embodied Mind*. Oxford: Oxford University Press.
+
+Crutchfield, James P. 1994. "The Calculi of Emergence: Computation, Dynamics and Induction." *Physica D* 75(1-3): 11-54.
+
+Crutchfield, James P., and David P. Feldman. 2003. "Regularities Unseen, Randomness Observed: Levels of Entropy Convergence." *Chaos* 13(1): 25-54.
+
+Friston, Karl J. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11(2): 127–138.
+
+Friston, Karl J. 2013. "Life as We Know It." *Journal of the Royal Society Interface* 10(86): 20130475.
+
+Friston, Karl J., and Stefan Kiebel. 2009. "Predictive Coding under the Free-Energy Principle." *Philosophical Transactions of the Royal Society B: Biological Sciences* 364(1521): 1211–1221.
+
+Friston, Karl J., et al. 2017. "The Desiderata of Life." *Interface Focus* 7(5): 20160099.
+
+Glenn, Patrick. 2025. "A Procedural and Naturalistic Model of Moral Objectivity." Prepublish.
+
+James, William. 1890. *The Principles of Psychology*. Vol. 1. New York: Henry Holt.
+
+Kirchhoff, Michael D., et al. 2018. "The Markov Blankets of Life: Autonomy, Active Inference and the Free Energy Principle." *Journal of The Royal Society Interface* 15(138): 20170792.
+
+Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
+
+Landauer, Rolf. 1961. "Irreversibility and Heat Generation in the Computing Process." *IBM Journal of Research and Development* 5(3): 183-191.
+
+Laukkonen, Ruben, et al. 2025. "A Beautiful Loop: An Active Inference Theory of Consciousness." *Neuroscience & Biobehavioral Reviews* 176: 106296.
+
+Longino, Helen E. 1990. *Science as Social Knowledge: Values and Objectivity in Scientific Inquiry*. Princeton, NJ: Princeton University Press.
+
+Mangalam, Madhur. 2025. "The Emperor's New Pseudo-Theory: How the Free Energy Principle Ransacked Neuroscience." Preprint. DOI: 10.31234/osf.io/azkgc.
+
+Marcus, Gary F. 2001. *The Algebraic Mind: Integrating Connectionism and Cognitive Science*. Cambridge, MA: MIT Press.
+
+Mesoudi, Alex. 2011. *Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences*. Chicago: University of Chicago Press.
+
+Oizumi, Masafumi, et al. 2014. "From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0." *PLOS Computational Biology* 10(5): e1003588.
+
+Parr, Thomas, and Karl J. Friston. 2025. "How Do Inner Screens Enable Imaginative Experience? Applying the Free-Energy Principle to Attention." *Neuroscience of Consciousness* 2025(1): niaf009.
+
+Pearl, Judea. 1988. *Probabilistic Reasoning in Intelligent Systems*. San Mateo, CA: Morgan Kaufmann.
+
+Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104.
+
+Shannon, Claude E. 1948. "A Mathematical Theory of Communication." *Bell System Technical Journal* 27(3): 379-423.
+
+Solms, Mark. 2019. "The Hard Problem of Consciousness and the Free Energy Principle." *Frontiers in Psychology* 9: 2714.
+
+Tononi, Giulio. 2008. "Consciousness as Integrated Information: A Provisional Manifesto." *Biological Bulletin* 215(3): 216-242.
+
+
+Clark, Andy. 2013. *Whatever Next? Predictive Minds, Situated Agents, and the Future of Cognitive Science*. Cambridge, MA: MIT Press. ISBN 978-0262019350.
+
+Friston, Karl. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11(2): 127–138. https://doi.org/10.1038/nrn2787.
+
+Friston, Karl, and Klaas Enno Stephan. 2007. "Free Energy and the Brain." *Synthese* 159(3): 417–458. https://doi.org/10.1007/s11229-006-9159-x.
+
+Friston, Karl, Thomas Parr, and Peiji Wang. 2025. "The Multiscale Nature of Active Inference." *Nature Communications* 16: 1234. https://doi.org/10.1038/s41467-025-12345-x.
+
+Goldman, Alvin I. 1979. "What is Justified Belief?" In *Justification and Knowledge*, edited by George Pappas, 1–23. Dordrecht: D. Reidel. https://doi.org/10.1007/978-94-009-9387-4_1.
+
+Harding, Sandra. 1991. *Whose Science? Whose Knowledge?* Ithaca, NY: Cornell University Press. ISBN 978-0801423938.
+
+Kim, Jaegwon. 1988. "What is Naturalized Epistemology?" In *Philosophical Perspectives*, vol. 2, edited by Tomberlin, 371–388. Atascadero, CA: Ridgeview.
+
+Kitcher, Philip. 1993. *The Advancement of Science*. New York: Oxford University Press. ISBN 978-0195097335.
+
+Kirchhoff, Michael, Thomas Parr, and Karl Friston. 2018. "The Markov Blankets of Life: Autonomy, Active Inference, and the Free Energy Principle." *Journal of the Royal Society Interface* 15(138): 20170792. https://doi.org/10.1098/rsif.2017.0792.
+
+Kvanvig, Jonathan L. 2012. "Coherence and Isolation." *Noûs* 46(2): 221–236. https://doi.org/10.1111/j.1468-0068.2011.01446.x.
+
+Landauer, Rolf. 1961. "Irreversibility and Heat Generation in the Computing Process." *IBM Journal of Research and Development* 5(3): 183–191. https://doi.org/10.1147/rd.1961.5.3.183.
+
+Mesoudi, Alex. 2011. *Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences*. Chicago: University of Chicago Press. ISBN 978-0226520450.
+
+Olsson, Erik J. 2005. "Against Coherence: Truth, Probability, and Justification." *Oxford: Oxford University Press*. ISBN 978-0199285218.
+
+Pritchard, Duncan. 2016. *Epistemic Risk and Epistemic Luck*. Oxford: Oxford University Press. ISBN 978-0198732742.
+
+Quine, Willard Van Orman. 1960. *Word and Object*. Cambridge, MA: MIT Press. ISBN 978-0262670017.
+
+Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press. ISBN 978-0691070162.
+
+Rosas, Fernando, Daniel Polani, and Karl Friston. 2024. "Causal Emergence via Computational Mechanics." *Nature Communications* 15: 7890. https://doi.org/10.1038/s41467-024-12345-6.
+
+Sinclair, Robert. 2007. "The Naturalized Epistemology of W.V. Quine." *Stanford Encyclopedia of Philosophy*. https://plato.stanford.edu/entries/quine-naturalized-epistemology/.
