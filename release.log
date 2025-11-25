@@ -1127,3 +1127,38 @@
 2025-11-21 12:49:01,251 - INFO - SUCCESS! Release complete in 1.3s
 2025-11-21 12:49:01,252 - INFO - Final PDF: releases\information-to-consciousness-the-foundation.pdf (148127 bytes)
 2025-11-21 12:49:01,252 - INFO - Release completed successfully: releases\information-to-consciousness-the-foundation.pdf
+2025-11-25 15:15:44,879 - INFO - Successfully imported paper_converter
+2025-11-25 15:15:44,880 - INFO - Successfully imported pdf_assembler
+2025-11-25 15:15:47,684 - INFO - Input validation passed: Computational-Closure-and-the-Architecture-of-Mind.md (157022 bytes)
+2025-11-25 15:15:47,684 - INFO - Starting Academic Paper Release Pipeline
+2025-11-25 15:15:47,684 - INFO - Input: Computational-Closure-and-the-Architecture-of-Mind.md
+2025-11-25 15:15:47,685 - INFO - Output: releases\Computational-Closure-and-the-Architecture-of-Mind.pdf
+2025-11-25 15:15:47,685 - INFO - Format: typst
+2025-11-25 15:15:47,685 - INFO - Config: 0 validation errors
+2025-11-25 15:15:47,685 - INFO - Converting markdown to target format...
+2025-11-25 15:15:47,685 - INFO - Extracting citations...
+2025-11-25 15:15:47,701 - INFO - Found 37 citations
+2025-11-25 15:15:47,701 - INFO - Loading and processing references...
+2025-11-25 15:15:47,703 - INFO - Loaded 1195 reference entries
+2025-11-25 15:15:47,705 - INFO - Generated 24 references (strategy: filter)
+2025-11-25 15:15:47,705 - WARNING - 2 citations not found in references.md
+2025-11-25 15:15:47,705 - INFO - Combining paper with filtered references...
+2025-11-25 15:15:47,728 - INFO - Combined file created: 155028 bytes
+2025-11-25 15:15:47,728 - INFO - Converting to typst format...
+2025-11-25 15:15:48,875 - INFO - Target file created: 161470 bytes
+2025-11-25 15:15:48,875 - INFO - Successfully converted to typst: Computational-Closure-and-the-Architecture-of-Mind_combined.typst
+2025-11-25 15:15:48,875 - INFO - Generating PDF with attachments...
+2025-11-25 15:15:48,876 - INFO - Main document: Computational-Closure-and-the-Architecture-of-Mind_combined.typst
+2025-11-25 15:15:48,892 - INFO - Converting Computational-Closure-and-the-Architecture-of-Mind_combined.typst (typst) to PDF...
+2025-11-25 15:15:52,170 - INFO - Converted to PDF: Computational-Closure-and-the-Architecture-of-Mind_combined.pdf
+2025-11-25 15:15:52,174 - INFO - Copied single PDF to: releases\Computational-Closure-and-the-Architecture-of-Mind.pdf
+2025-11-25 15:15:52,175 - INFO - PDF generation successful: 226493 bytes
+2025-11-25 15:15:52,175 - INFO - Adding metadata to PDF...
+2025-11-25 15:15:52,175 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-11-25 15:15:52,175 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-11-25 15:15:52,175 - INFO - Validated final PDF: releases\Computational-Closure-and-the-Architecture-of-Mind.pdf (226493 bytes)
+2025-11-25 15:15:52,175 - INFO - Starting cleanup...
+2025-11-25 15:15:52,177 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-11-25 15:15:52,177 - INFO - SUCCESS! Release complete in 4.5s
+2025-11-25 15:15:52,177 - INFO - Final PDF: releases\Computational-Closure-and-the-Architecture-of-Mind.pdf (226493 bytes)
+2025-11-25 15:15:52,177 - INFO - Release completed successfully: releases\Computational-Closure-and-the-Architecture-of-Mind.pdf

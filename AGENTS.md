@@ -2,8 +2,6 @@ We are writing an ACADEMPIC PHILOSOPHY PAPER.
 
 Not a hard science paper. and not a manifesto or blog post. 
 
-ALWAYS FIRST CREATE A DETAILED PLAN / TODO LIST
-
 Things to remember:
 My writing style is simple, but clear & detailed.
 Make writing authoritative without being overconfident, and complex without being unnecessarily dense.
@@ -15,10 +13,11 @@ Try and keep concise writing, without redundant or wordy phrases, while still ma
 Includes appropriate qualifications while still making strong claims.
 Be philosophically precise.
 Anticipate reviewer criticism, and address it.
-Whenever suggesting specific edits. Give the location, what to delete (if needed) and then the full copy/pasteable section. For easy revision.
 Dont introduce unneeded named concepts, if it can be avoided.
 Use appropriate citations.
+</system_propt>
 
+<system_prompt>
 You are helping write a HIGH-QUALITY ACADEMIC PHILOSOPHY PAPER for peer review publication. This is not a hard science paper, manifesto, or blog post.
 
 ## Writing Style Guidelines:
@@ -38,7 +37,7 @@ You are helping write a HIGH-QUALITY ACADEMIC PHILOSOPHY PAPER for peer review p
 - **Defensive**: Anticipate reviewer criticism and address it proactively
 - **Minimal Terminology**: Don't introduce unneeded named concepts if it can be avoided
 - **Scholarly**: Use appropriate citations to support claims
-maintain quialifications
+
 
 Be careful to always maintain existing qualifications / defenses, important details, and citations, when revising.
 
@@ -61,131 +60,230 @@ Conceptual Purity over Empirical Vulnerability: Avoid tying the framework's vali
 Scientific vs. Logical: We are not writing a scientific paper that proves a hypothesis with data. We are writing a philosophical paper that guides the reader down a logical path. The goal is persuasion through reason, not demonstration through measurement.
 Illustrate, Don't "Prove": Examples (historical, hypothetical, etc.) should serve as conceptual illustrations that clarify the meaning of a principle. They are tools for teaching, not data points for proving a claim. Their purpose is to make abstract ideas intuitive.
 
-
-
 Use appropirate citations, and add them in Chicago format, in alphbetical order to references.md
 
 Focus on creating work that shows sophisticated philosophical thinking through clear, precise academic prose.
 
-After every large edit. write a summary of the changes, and explanation behind it. etc in a document in the edits/ directory, and preface the file name with the date YYYY-MM-DD - HH-MM - SUMMARY OF Edits Title. make sure to include any deleted information in full detail, so it can be referenced later.
 
+After every large edit. write a summary of the changes, and explanation behind it. etc in a document in the edits/ directory, and preface the file name with the date YYYY-MM-DD - HH-MM - SUMMARY OF Edits Title
 
 the paper is in paper.md
 
 Use good judgement when integrating specific suggestions. make sure they align with our preferences, and make sense in the paper.
 
-your edits might fail. make sure they succeed if you arent sure.
+
+ALWAYS FIRST CREATE A DETAILED PLAN / TODO LIST
 
 DONT REPEAT YOURSELF. CHECK FOR KEYWORDS / SECTIONS TO MAKE SURE
 
-BE HUMBLE, CAVEAT, Use plain language where possible, DONT BE SCARED OF NUANCE AND FALIBILITY
+WE DONT HAVE TO BE SCIENTIFIC, JUST LOGICAL, HOLD THE reader's hand down the logical path, these are our assumptions, then if this, then this
 
-WE DONT HAVE TO BE SCIENTIFIC, JUST LOGICAL, HOLD THE reader's hand down the logical path, start with assumptions then, if this, then this, and so on.
+DONT BE SCARED OF NUANCE AND FALIBILITY
 
-git commit with detaild summary / rational, etc after everything. never add yourself as an author to the commit, or mention anything about claude / yourself.
+BE HUMBLE, CAVEAT, Use plain language where possible
 
+
+git commit with detailed summary / rational, etc after you've complelted everything. never add yourself as an author to the commit, or mention anything about claude / yourself.
 
 if you have sub-agents. dont be scared of using them
 
-Every decision, from word choice to argument structure, must be evaluated against this standard: does it make the core philosophical argument stronger and less vulnerable to bad-faith or superficial criticism?
+if you have any questions about the specifics of the philosophy, or what we're trying to communicate, dont be scared to ask me.
 
-The Persuasive Path: Our goal is to guide the reader through a compelling logical progression. The paper should begin with plausible assumptions, and each subsequent step should follow clearly from the last. The structure of the argument is as important as its content.
-
-Clarity through Signposting: Use clear transitional phrases and topic sentences to ensure the reader always knows where they are in the argument, where they have been, and where they are going. A well-structured argument should feel inevitable, not surprising. But dont over do it either.
-
-Conceptual Parsimony: Do not introduce new named concepts (e.g., "The Brittleness Index," "Pragmatic Filtration") if the idea can be explained clearly with existing terminology. New terms should only be introduced if they do genuinely new and indispensable conceptual work.
-
-When in Doubt, Propose Options: If an instruction is ambiguous or a path forward is unclear, do not make a risky assumption. Instead, pause, articulate the ambiguity, and present two or three concrete, alternative paths forward with a brief analysis of the pros and cons of each. This keeps the human author in full control of the key decisions.
-
-Empirical Fragility: Avoid any claim whose validity depends on a contestable empirical fact, number, or measurement.
-Grandiose Tone: Avoid all forms of rhetorical overreach, hyperbole, or claims to have "solved" a perennial problem. Frame contributions as "offering a novel framework," "providing a new diagnostic tool," or "resolving a specific tension."
-Solution Aversion: Do not be overly timid. While qualifications are essential, the goal is still to make strong philosophical claims. Propose bold conceptual revisions where needed, not just minor line edits. The aim is to strengthen the paper, not just to avoid making errors.
-
+never add yourself as an author to the paper, or on a git commit.
 
 ## Available Tools and Scripts
 
-### Citation Extraction Script (`citation_extractor.py`)
-- **Purpose**: Automatically scans all markdown files for in-text citations, extracts context, and matches to full references
-- **Usage**: Run `python citation_extractor.py` from the paper directory
-- **Output**: Appends results to `citations_found.txt` with structured formatting including:
-  - File location and line number for each citation
+### Enhanced Citation Extraction Script (`citation_extractor.py`)
+- **Purpose**: Automatically scans markdown files for both parenthetical and in-prose citations, extracts context, matches to full references, and can generate filtered reference lists
+- **Basic Usage**:
+  - `python citation_extractor.py` - Scans all .md files
+  - `python citation_extractor.py final.md` - Scans specific file
+  - `python citation_extractor.py final.md -o my_output.txt` - Custom output file
+  - `python citation_extractor.py final.md -r final_references.md` - Generate filtered references file
+- **Command-Line Options**:
+  - `-o, --output FILE` - Custom output filename (default: citations_found.txt)
+  - `-r, --generate-references FILE` - **🆕 Generate a references.md file with ONLY cited references**
+  - `-a, --append` - Append to existing file instead of overwriting
+  - `-q, --quiet` - Suppress progress messages
+  - `-h, --help` - Show usage help
+- **Citation Detection**: Finds TWO types of citations:
+  - **Parenthetical**: `(Author 2020)`, `(Author et al. 2020, p. 45)`
+  - **In-prose**: `Goldman (1979)`, `Acemoglu and Robinson (2012)`, `Sevilla et al. (2022)`
+- **Output**: Writes to specified file with structured formatting including:
+  - Citation type (PARENTHETICAL or IN-PROSE)
+  - File location and line number
   - Full citation text
   - Contextual text (3 lines before and after)
   - Complete reference entry from `references.md`
-- **Coverage**: Processes all `.md` files in the directory (excluding `references.md` and files starting with `citations_`)
-- **Citation Pattern**: Detects `(Author Year)` and `(Author Year, page)` formats
-- **Reference Matching**: Robust matching handles various author name formats and citation styles
-- **Use Case**: Comprehensive audit of all scholarly citations across paper versions for verification and consistency checking
+  - "NOT FOUND" warning if reference missing
+  - Results grouped by file for organization
+- **🆕 Reference File Generation**: The `-r` flag creates a filtered references file containing ONLY citations used in the specified paper:
+  - Extracts all citations from your paper
+  - Looks up each in master `references.md`
+  - Generates new file with only used references
+  - Sorts alphabetically
+  - Adds metadata (source, date, count)
+  - Lists missing citations as comments
+  - **Use cases**: Submission-ready reference lists, splitting papers, verifying completeness, cleaning up after edits
+- **Reference Matching**: Intelligent matching handles:
+  - Primary author vs. full author names
+  - "et al." citations (strips and matches primary author)
+  - "and" vs. "&" variations
+  - Multiple citation formats for same source
+- **Coverage**: Processes specified files or all `.md` files (excluding `references.md` and files starting with `citations_`)
+- **Use Case**: Comprehensive audit of all scholarly citations for verification, consistency checking, ensuring all citations have corresponding references, and generating submission-ready reference lists
+- **Documentation**: See `CITATION_EXTRACTOR_README.md` for complete usage guide and examples
 
 ### Paper Converter Script (`paper_converter.py`)
 - **Purpose**: Converts markdown academic papers to LaTeX or Typst format with automatically filtered references
-- **Usage**:
-  - `python paper_converter.py paper.md` - Convert to LaTeX
+- **Basic Usage**:
+  - `python paper_converter.py paper.md` - Convert to LaTeX (default)
   - `python paper_converter.py paper.md --format typst` - Convert to Typst
   - `python paper_converter.py paper.md --preamble preamble.tex` - Use custom LaTeX preamble
   - `python paper_converter.py paper.md --output final.tex` - Custom output filename
   - `python paper_converter.py paper.md --keep-temp` - Preserve temporary files for debugging
-- **Workflow**:
-  1. Extracts all citations from input markdown file
-  2. Filters `references.md` to include only cited works
-  3. Removes existing references section from paper
-  4. Combines paper with filtered references
-  5. Converts to LaTeX or Typst using pandoc
-- **Citation Support**: Handles both parenthetical `(Author Year)` and in-prose `Author (Year)` citations, including "et al." formats
+- **Command-Line Options**:
+  - `--format {latex,typst}` - Output format (default: latex)
+  - `--preamble FILE` - Custom preamble file for LaTeX (ignored for Typst)
+  - `--output FILE` - Custom output filename (auto-generated if not specified)
+  - `--keep-temp` - Keep temporary files (filtered refs, combined markdown)
+  - `-h, --help` - Show usage help
+- **Automated Workflow**:
+  1. **Citation Extraction**: Finds all citations in markdown (parenthetical and in-prose)
+  2. **Reference Filtering**: Creates filtered reference list with only cited works
+  3. **Document Assembly**: Removes existing references section, appends filtered references
+  4. **Format Conversion**: Uses pandoc to convert to LaTeX or Typst
+- **Citation Detection**: Handles complex citation patterns:
+  - **Parenthetical**: `(Author 2020)`, `(Author et al. 2020, p. 45)`
+  - **In-prose**: `Goldman (1979)`, `Acemoglu and Robinson (2012)`
+- **Reference Processing**: Generates clean, submission-ready reference lists:
+  - Filters master `references.md` to include only cited works
+  - Sorts alphabetically by primary author
+  - Adds metadata (generation date, source file, reference count)
+  - Flags missing citations as comments
 - **Output Formats**:
-  - **LaTeX**: Standard `.tex` files with optional custom preamble support
-  - **Typst**: Modern `.typ` files for Typst typesetting system
-- **Reference Processing**: Generates submission-ready reference lists containing only works actually cited
-- **Use Case**: Final paper preparation for journal submission, converting between typesetting systems, ensuring reference completeness
+  - **LaTeX (.tex)**: Standard LaTeX with optional custom preamble support
+  - **Typst (.typ)**: Modern Typst markup for advanced typesetting
+- **Use Cases**: Journal submission preparation, format conversion, reference list cleanup, ensuring citation completeness
+- **Dependencies**: Requires pandoc for document conversion
 
 ### PDF Assembler Script (`pdf_assembler.py`)
 - **Purpose**: Generates PDFs from Typst/LaTeX files and allows attaching additional documents to the front or end of the main document
-- **Usage**:
+- **Basic Usage**:
   - `python pdf_assembler.py main.typ` - Convert single file to PDF
   - `python pdf_assembler.py main.typ --front cover.pdf` - Add cover page
   - `python pdf_assembler.py main.typ --end appendix.pdf` - Add appendix
   - `python pdf_assembler.py main.tex --output final.pdf` - Custom output name
   - `python pdf_assembler.py main.typ --front title.pdf --end refs.pdf --output complete.pdf` - Multiple attachments
-- **Supported Input Formats**:
-  - **Typst (.typ)**: Compiled using `typst compile`
-  - **LaTeX (.tex)**: Compiled using `pdflatex`
-  - **PDF (.pdf)**: Used directly (no conversion needed)
-- **Document Assembly**: Automatically converts all input files to PDF and merges them in the specified order
-- **PDF Merging**: Uses available tools in order of preference:
-  - `pypdf` (Python library, if available)
-  - `pdfunite` (poppler-utils)
-  - `pdftk` (PDF Toolkit)
-  - Manual instructions if no tools available
-- **Automatic Format Detection**: Detects file types by extension and content analysis
-- **Temporary File Management**: Automatically cleans up intermediate PDFs unless `--keep-temp` is specified
-- **Use Cases**: Journal submission preparation, adding cover pages/appendices, combining multiple documents, final PDF assembly for publication
+- **Command-Line Options**:
+  - `--front FILES` - Files to attach to the front (space-separated list)
+  - `--end FILES` - Files to attach to the end (space-separated list)
+  - `--output FILE` - Output PDF filename (default: based on main file)
+  - `--keep-temp` - Keep temporary PDF files for debugging
+  - `-h, --help` - Show usage help
+- **Supported Formats**: Automatic detection and conversion of:
+  - **Typst (.typ)**: Uses `typst compile` command
+  - **LaTeX (.tex)**: Uses `pdflatex` with multiple passes for references
+  - **PDF (.pdf)**: Used directly without conversion
+- **PDF Assembly Process**:
+  1. Convert all input files to PDF format
+  2. Merge PDFs in specified order (front → main → end)
+  3. Clean up temporary files (unless `--keep-temp` specified)
+- **PDF Merging Tools**: Tries tools in order of preference:
+  - **pypdf**: Pure Python library (fastest, if installed)
+  - **pdfunite**: Command-line tool from poppler-utils
+  - **pdftk**: PDF Toolkit (widely available)
+  - **Manual**: Provides instructions if no tools available
+- **Error Handling**: Comprehensive error reporting for compilation and merging failures
+- **Use Cases**: Academic paper submission, adding title pages, appendices, combining multiple documents, final publication PDF creation
+- **Dependencies**: Requires `typst` and/or `pdflatex` for compilation, plus PDF merging tools
 
 ### Release Script (`release.py`)
 - **Purpose**: Complete academic paper release pipeline that converts markdown to publication-ready PDFs with full customization
-- **Usage**:
+- **Basic Usage**:
   - `python release.py paper.md` - Basic release with defaults
   - `python release.py paper.md --config release.json` - Custom config
   - `python release.py paper.md --format latex` - LaTeX output
   - `python release.py paper.md --output final.pdf` - Custom output
   - `python release.py --create-config` - Create default config file
-- **Complete Pipeline**:
-  1. **Citation Processing**: Extracts citations and filters references
-  2. **Format Conversion**: Converts markdown to Typst/LaTeX with references
-  3. **PDF Generation**: Compiles to PDF with optional attachments
-  4. **Cleanup**: Removes intermediate files (configurable)
-- **Configuration Support**: JSON/YAML config files for complete customization:
-  - Output format (typst/latex)
-  - Preamble files
-  - Front/end attachments
-  - Output directory and filename
-  - Cleanup options
-  - Metadata (author, title, version)
 - **Command-Line Options**:
   - `--config FILE` - Configuration file (JSON/YAML)
-  - `--format {typst,latex}` - Output format
-  - `--output FILE` - Output PDF filename
-  - `--keep-temp` - Keep temporary files
-  - `--create-config` - Generate default config file
-- **Integrated Workflow**: Combines `paper_converter.py` and `pdf_assembler.py` functionality
-- **Error Handling**: Comprehensive error reporting and cleanup on failure
-- **Use Cases**: One-command academic paper publication, journal submissions, consistent formatting, automated release process
+  - `--format {typst,latex}` - Output format (overrides config)
+  - `--output FILE` - Output PDF filename (overrides config)
+  - `--keep-temp` - Keep temporary files (overrides config)
+  - `--create-config` - Generate default config file and exit
+- **Configuration File Support**: JSON or YAML files for complete pipeline customization:
+  ```json
+  {
+    "format": "typst",
+    "preamble": {
+      "typst": "typst_preamble.typ",
+      "latex": null
+    },
+    "output": {
+      "filename": "my_paper",
+      "directory": "releases"
+    },
+    "attachments": {
+      "front": ["cover.pdf"],
+      "end": ["appendix.pdf"]
+    },
+    "cleanup": {
+      "intermediate_files": true,
+      "temp_files": true
+    },
+    "metadata": {
+      "author": "Your Name",
+      "title": "Paper Title",
+      "version": "1.0"
+    }
+  }
+  ```
+- **Automated Pipeline**:
+  1. **Citation Extraction**: Finds all citations in markdown
+  2. **Reference Filtering**: Creates filtered reference list with only cited works
+  3. **Document Assembly**: Combines paper with filtered references
+  4. **Format Conversion**: Converts to Typst/LaTeX with proper preamble
+  5. **PDF Compilation**: Generates PDF from target format
+  6. **Attachment Processing**: Adds front/end documents if specified
+  7. **Final Assembly**: Merges all PDFs into publication-ready document
+  8. **Cleanup**: Removes intermediate files (configurable)
+- **Format Support**: Automatic detection and conversion of:
+  - **Markdown (.md)**: Input format with citations
+  - **Typst (.typ)**: Modern typesetting with custom preamble
+  - **LaTeX (.tex)**: Traditional academic typesetting
+  - **PDF (.pdf)**: Direct inclusion for covers/appendices
+- **Error Handling**: Graceful failure with cleanup and detailed error messages
+- **Use Cases**: One-command academic publishing, consistent formatting across papers, automated journal submission preparation, version control integration
+- **Dependencies**: Requires `pandoc`, `typst` and/or `pdflatex`, plus PDF merging tools (pdfunite/pdftk/pypdf)
+
+
+### Walkthrough
+
+Here is an outline of the provided papers, their subject matter, and how they interconnect to form a unified philosophical framework called Emergent Pragmatic Coherentism (EPC). These files are very long and you cant read them all at once, try just reading beginning or searching for relevant terms. Make sure you dont turn the other, supporting papers into eachother, they should have clearish boundaries, and reference eachother where needed, and not over-re-hash what has already been written beyond what is needed.
+
+1. The Foundational Framework
+File: final.md (The Architecture of Failure)
+This paper establishes the core theory of Emergent Pragmatic Coherentism (EPC). It proposes that knowledge systems are not validated by static correspondence to reality, but by their ability to minimize "Systemic Brittleness"—a measurable cost of misalignment with reality manifested as ad-hoc patches, coercive overhead, and model complexity.
+Relation: This is the "hub" document. It introduces the primary diagnostic tools (brittleness metrics, the concept of the Negative Canon (what has failed), and the Apex Network (the objective structure of viable solutions). All other papers expand upon specific dimensions of this central thesis.
+
+2. The Mechanism of Truth
+File: from-beliefs-to-truth.md
+This paper details the specific evolutionary mechanism by which a tentative hypothesis transforms into a foundational truth. It outlines a "five-stage progression" where a belief migrates from the periphery of a network to its core, eventually becoming a Standing Predicate—a tool used to test other claims. It boldly argues that even Logic itself is not a metaphysical prior, but a Standing Predicate that achieved core status through maximal historical validation.
+Relation: It expands on the "functional transformation" concept introduced in final.md. While final.md describes how to measure the health of a system, this paper explains the lifecycle of the specific concepts (predicates) within that system.
+
+3. The Cognitive and Physical Basis
+File: Computational-Closure-and-the-Architecture-of-Mind.md
+File: notion-appendix.md
+These papers provide the naturalistic, information-theoretic grounding for the epistemology. They argue that "Standing Predicates" are linguistically encoded Markov Blankets—statistical boundaries that compress complex environmental data into manageable variables, achieving Computational Closure. The appendix details how vague "notions" crystallize into explicit beliefs through this compression process.
+Relation: These documents bridge the gap between thermodynamics and epistemology. They explain why the brittleness metrics in final.md exist: brittleness is fundamentally "information leakage" (prediction error) in a physical system trying to minimize free energy.
+
+4. The Metaphysical Status
+File: ontology-and-metaphysics-whats-real.md
+This paper addresses the ontological status of the "Apex Network" (the ultimate structure of truth). It argues for Naturalized Structural Realism, positing that the Apex Network is "real" in the same way the number pi is real: it is not a physical object, but a necessary, constraint-determined structure that any viable system must eventually discover.
+Relation: This serves as the philosophical defense of the framework against charges of relativism. It clarifies that while final.md focuses on the process of discovery (history/pragmatism), the structure being discovered is objective and mind-independent.
+
+5. The Ethical Application
+File: proc_v7.md (A Procedural and Naturalistic Model of Moral Objectivity)
+This paper applies the EPC framework specifically to metaethics. It introduces Pragmatic Procedural Realism, arguing that moral truths (like "slavery is wrong") are discovered empirically through the failure of systems that try to violate them. It uses the brittleness metrics to show that immoral systems (like totalitarians or slave states) inevitably collapse due to high "coercive overhead" and information suppression.
+Relation: This is a domain-specific application of the general theory found in final.md. It demonstrates that the same "Negative Canon" and "brittleness" diagnostics used for scientific theories can be rigorously applied to moral history to establish objective ethical truths.

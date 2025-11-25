@@ -1128,46 +1128,19 @@ Are there hard limits to what can be compressed? Gödel's incompleteness theorem
 
 ## 10. Conclusion: A Naturalistic Framework (With Acknowledged Limits)
 
-This paper has tentatively developed an information-theoretic framework that aims to connect raw information processing to conscious awareness to objective truth through compression, blanket formation, and thermodynamic selection, though these connections remain theoretical and require empirical validation:
+This paper has tentatively developed an information-theoretic framework that aims to connect raw information processing to conscious awareness to objective truth through compression, blanket formation, and thermodynamic selection, though these connections remain theoretical and require empirical validation. The framework posits that information is processed by all physical systems, compression creates dispositions as minimal encodings of regularities, Markov blankets emerge when compressions achieve statistical boundaries, and computational closure succeeds when blankets create autonomous causal levels. Consciousness may relate to meta-blanket hierarchies and structural pattern recognition, while standing predicates are culturally transmitted successful closures. Brittleness measures information leakage when closures fail, and pragmatic selection eliminates high-brittleness compressions. The apex network is the constraint-determined optimal compression structure, and truth is not correspondence to static propositions but alignment with the apex network—the state where a system's enacted boundaries map the environment's causal constraints, achieving maximal computational closure with minimal information leakage.
 
-1. **Information** is processed by all physical systems
-2. **Compression** creates dispositions (minimal encoding of regularities)
-3. **Markov Blankets** emerge when compressions achieve statistical boundaries
-4. **Computational Closure** succeeds when blankets create autonomous causal levels
-5. **Consciousness** may relate to meta-blanket hierarchies and structural pattern recognition
-6. **Standing Predicates** are culturally-transmitted successful closures
-7. **Brittleness** measures information leakage when closures fail
-8. **Pragmatic Selection** eliminates high-brittleness compressions
-9. **The Apex Network** is the constraint-determined optimal compression structure
-10. **Truth** is not correspondence to static propositions but alignment with the Apex Network—the state where a system's enacted boundaries map the environment's causal constraints, achieving maximal computational closure with minimal information leakage
+This framework employs information-theoretic language as conceptual scaffolding for understanding epistemic and cognitive phenomena. Whether brains literally implement variational free energy minimization or standing predicates are literally encoded as Markov blankets in neural tissue remains an empirical question. The philosophical insights—about what makes predicates successful, how knowledge systems fail, and why inquiry converges—retain their force even if specific mechanistic claims require revision, though the overall framework itself remains subject to empirical testing and philosophical refinement.
 
-Conceptual Scaffolding, Not Dogmatic Mechanism:
+We've identified relevant functional distinctions without solving all foundational problems. The hard problem of consciousness—why structural pattern recognition feels like anything—remains open. The is/ought gap, or why thermodynamic efficiency should matter morally, is not derived from the framework. The plurality question, concerning how much genuine pluralism exists versus forced convergence, remains empirical. Finally, the limits of compression, such as whether some truths resist finite compression due to incompleteness theorems, are not fully addressed.
 
-This framework employs information-theoretic language as conceptual scaffolding for understanding epistemic and cognitive phenomena. Whether brains literally implement variational free energy minimization or Standing Predicates are literally encoded as Markov blankets in neural tissue remains an empirical question. The philosophical insights—about what makes predicates successful, how knowledge systems fail, and why inquiry converges—retain their force even if specific mechanistic claims require revision, though the overall framework itself remains subject to empirical testing and philosophical refinement.
+This framework provides a mechanistic account of how notions form and validate through statistical versus structural pattern recognition. It explains why singular experiences can carry immediate epistemic weight and offers a naturalistic grounding for cross-cultural convergence in knowledge systems. It also delivers a functional account of consciousness that narrows the explanatory gap, a framework for understanding truth as constraint-determined structure rather than correspondence to Platonic forms, and an information-theoretic analysis of why coercion generates systemic brittleness.
 
-What Remains Unexplained:
+Consciousness, agency, and truth remain real within this framework—not eliminated or reduced away, but understood as emerging from information processing under constraint. The framework is naturalistic without being eliminativist.
 
-We've identified relevant functional distinctions without solving all foundational problems:
-- **The hard problem of consciousness:** Why structural pattern recognition feels like anything remains open
-- **The is/ought gap:** Why thermodynamic efficiency should matter morally isn't derived from the framework
-- **The plurality question:** How much genuine pluralism exists versus forced convergence remains empirical
-- **The limits of compression:** Whether some truths resist finite compression (incompleteness theorems)
+The main paper's claims about standing predicates as Markov blankets, brittleness as information leakage, and the apex network as thermodynamic attractor now have theoretical grounding in information theory, computational closure, and constraint-driven selection.
 
-What the Framework Achieves:
-
-This framework provides:
-- A mechanistic account of how notions form and validate through statistical vs. structural pattern recognition
-- An explanation of why singular experiences can carry immediate epistemic weight
-- A naturalistic grounding for cross-cultural convergence in knowledge systems
-- A functional account of consciousness that narrows the explanatory gap
-- A framework for understanding truth as constraint-determined structure rather than correspondence to Platonic forms
-- An information-theoretic analysis of why coercion generates systemic brittleness
-
-Phenomenology Preserved: Consciousness, agency, and truth remain real within this framework—not eliminated or reduced away, but understood as emerging from information processing under constraint. The framework is naturalistic without being eliminativist.
-
-Integration Complete: The main paper's claims about Standing Predicates as Markov Blankets, brittleness as information leakage, and the Apex Network as thermodynamic attractor now have theoretical grounding in information theory, computational closure, and constraint-driven selection.
-
-We are not passive observers of a pre-existing Platonic reality but active participants in discovering the constraint structure of our universe—exploring the landscape of viable compressions, mapping the Apex Network through systematic elimination of configurations that generate unsustainable brittleness.
+This framework positions us not as passive observers of a pre-existing Platonic reality, but as active participants in discovering the constraint-determined structure of our universe. Knowledge advances through the systematic elimination of configurations that generate unsustainable brittleness, gradually mapping the apex network.
 
 ## References
 
