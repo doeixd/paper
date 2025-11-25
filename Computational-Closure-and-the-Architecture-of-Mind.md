@@ -617,7 +617,7 @@ Why detecting structural constraints should feel like anything remains an open q
 
 Determinism Concern: If beliefs are compressions shaped by information, where is agency?
 
-Resolution: Agency is not freedom from causation but self-caused variation within constraint space.
+Resolution: Agency is not freedom from causation but internally-generated variation within constraint space. The variation originates from the system's own dynamics rather than external perturbation, though it remains causally constrained by the system's structure and history.
 
 Three Senses of Agency:
 
@@ -642,7 +642,7 @@ Free Will Recovered: The capacity to generate novel compressions (new functional
 
 The Variation Engine: Individuals are variation generators; reality is the selection mechanism. The Apex Network is discovered through distributed exploration, not centrally imposed.
 
-Important: This isn't libertarian free will (causally uncaused choices) but compatibilist agency (self-generated variation within causal constraints).
+Important: This isn't libertarian free will (causally uncaused choices) but compatibilist agency (internally-generated variation within causal constraints).
 
 ## 5. Logic and Mathematics as Necessary Compression Structures
 
@@ -693,6 +693,8 @@ Group Theory:
 - Unreasonable effectiveness because it captures genuine compression joints
 
 Connection to Apex Network: Mathematics is part of the Apex Network—the maximally compressed representation of structural constraints that any sufficiently thorough compression must discover.
+
+Philosophical Positioning: This view differs from Mathematical Platonism in key respects. Platonism holds that mathematical objects exist independently in an abstract realm, which our minds somehow access. We claim instead that mathematical structures are optimal compression protocols for describing constraint relationships—they are discovered rather than invented, but what is being discovered is the structure of the constraint space itself, not objects in a separate ontological realm. This aligns more closely with ontic structural realism (Ladyman and Ross 2007), which holds that structure rather than objects is ontologically fundamental. The "necessity" of mathematics derives not from inhabiting a timeless Platonic heaven but from the fact that certain compression strategies are uniquely optimal given the axioms and constraints. Independent discovery of π across cultures evidences objective structure, but what makes π necessary is the relationship it compresses (circumference to diameter in Euclidean space), not its existence as an abstract entity. This framework preserves mathematical objectivity without requiring a separate realm of mathematical objects.
 
 ### 5.3 The Unreasonable Effectiveness of Mathematics
 
@@ -907,6 +909,8 @@ Information-theoretic: Energy spent suppressing disconfirming information—crea
 Mechanistic: Maintaining rigid blanket against thermodynamic gradient while severing the error signal
 
 Critical insight: Coercion is not just energetically costly but epistemically catastrophic. It eliminates the feedback loop needed to update the Markov blanket. By suppressing dissent (the primary data stream signaling misalignment), the system goes blind to reality's gradient, guaranteeing eventual collapse regardless of available resources.
+
+Viability versus Persistence: Critics may object that coercive systems often persist for decades. This conflates persistence with viability. High-brittleness systems can maintain metastability by consuming resources faster than they replenish them—burning through accumulated social capital, natural resource wealth, or international subsidies to fund the coercive apparatus while the underlying model deteriorates. Such systems exhibit what we might call parasitic endurance: they persist not because their compressions align with reality but because they extract energy from external sources or internal reserves to subsidize the mounting costs of information suppression. This explains both the apparent stability of coercive regimes and their characteristic pattern of delayed but catastrophic collapse when the subsidy terminates. The Soviet Union maintained coherence for seventy years not through successful compression but through resource extraction and coercion, collapsing rapidly once those mechanisms could no longer mask the accumulated brittleness.
 
 Phenomenology: Effortful belief maintenance ("I must avoid thinking about X"), defensiveness when challenged
 
