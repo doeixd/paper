@@ -43,7 +43,7 @@ All self-organizing systems minimize free energy by:
 2. **Changing the world** to match predictions (active inference)
 3. **Optimizing model structure** to reduce complexity while maintaining accuracy (structural learning)
 
-This is thermodynamic, not teleological: systems that fail to minimize free energy dissipate. Those that succeed persist as bounded entities.
+This process is not a goal-directed endeavor but a physical constraint: systems that fail to minimize free energy tend to dissipate and vanish, whereas those that succeed maintain their integrity as bounded entities. In this sense, minimizing free energy is constitutive of self-organization (Friston 2010).
 
 The Free Energy Principle (FEP) builds on broader predictive processing frameworks in cognitive science, where brains are understood as hierarchical prediction machines constantly minimizing prediction error through bidirectional cortical processing (Clark 2013). This perspective reframes perception. It treats perception not as passive reception but as active inference, where the brain tests predictions against sensory input and revises models when mismatches occur. Neurobiologically, this is implemented through predictive coding: hierarchical brain organization where higher levels generate predictions about lower-level activity, and lower levels signal back prediction errors when inputs deviate from expectations (Friston and Kiebel 2009). This architecture provides a plausible mechanistic account of how variational free energy minimization could be realized in cortical circuits.
 
@@ -744,8 +744,8 @@ Temperature Example Revisited:
 - Base: 10²³ molecules with positions, momenta
 - Emergent: Single scalar variable (temperature)
 - Real Causation: "High temperature causes ice to melt"
-- This is NOT shorthand for molecular dynamics
-- It's a genuine macro-level causal law operating in the emergent ontology
+
+This indicates a genuine macro-level causal relationship, not just a convenient shorthand. In other words, when we say "high temperature causes ice to melt," the causation is real at the temperature level, because temperature displays causal closure independent of individual molecules.
 
 ### 6.2 Failed Emergence = Information Leakage
 
