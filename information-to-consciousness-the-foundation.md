@@ -39,6 +39,8 @@ This connects information-theoretic principles directly to the basic requirement
 
 Connection to Epistemic Brittleness: Systemic brittleness is accumulated free energy. When a knowledge system's predictions consistently fail (information leakage), it must either patch the model with ad-hoc additions, suppress disconfirming evidence through coercion, or accept falsification and revise. The brittleness metrics developed in the main text (patch velocity, coercive overhead, model complexity, resilience reserve) measure these information-theoretic costs directly.
 
+Reality functions as the constraint landscape that shapes belief revision. Each failed prediction generates an error signal—a mismatch between expected and actual outcomes that drives the system to update its compression. In Quine's terms, beliefs form a web where central propositions (those encoding high structural compression, like logic and mathematics) resist revision because changing them would require massive reorganization of the entire system. The brittleness metrics track exactly these revision costs: when reality's constraints conflict with a system's compressions, the accumulated prediction errors manifest as increasing patch velocity, rising model complexity, and declining resilience. The system faces a choice—revise the compression to align with constraints, or expend energy suppressing the error signals through coercion.
+
 ### 1.3 Dispositions as Compression Algorithms
 
 Returning to the Quinean foundation: a disposition to assent is a compressed encoding of regularities.
@@ -46,6 +48,8 @@ Returning to the Quinean foundation: a disposition to assent is a compressed enc
 After encountering many dogs, an organism develops a "dog-detecting" disposition—a neural pattern that fires when dog-relevant features appear. This disposition compresses thousands of observations into a single reusable pattern, predicts future behavior (minimizing surprise when encountering new dogs), enables efficient action (approach friendly dogs, avoid aggressive ones), and stores mutual information across sensory streams (visual, olfactory, auditory).
 
 Better compression means deeper understanding. A child learning "all dogs bark" has simple but lossy compression. An ethologist understanding canine communication has complex but high-fidelity compression. The compression ratio—how much information is preserved with how few parameters—tracks what we intuitively recognize as understanding.
+
+Quine's insight that beliefs rest on dispositions to assent finds mechanistic grounding here. For Quine, these dispositions are not static logical axioms but dynamic tendencies that shift when experience contradicts expectations. This framework makes the mechanism explicit: dispositions function as parameters in a predictive compression system, continuously adjusted to minimize surprise. When a prediction fails (the friendly-looking dog bites), the disposition updates—not through conscious deliberation but through the same information-theoretic process by which any learning system revises its internal model to reduce future error. The parallel to how adaptive systems adjust their parameters to improve predictions is not coincidental—Quine's naturalized epistemology anticipated what information theory later formalized.
 
 ### 1.4 Information Complexes and Mutual Information
 
@@ -257,6 +261,8 @@ Why This Matters:
 - The Apex Network is the ultimate ε-machine—the minimal compression of reality's constraint structure
 
 The Search Process: Organisms, communities, and species are ε-machine explorers, trying different compressions. The ones that achieve genuine computational closure while minimizing brittleness survive. This is not random but hill-climbing on the landscape of viable blanket configurations.
+
+Quine's "web of belief" metaphor finds precise formalization in the ε-machine lattice structure described by Rosas et al. (2024). Each belief is a node in this lattice—a compression of experience with specific causal relationships to other beliefs. Central beliefs (logic, mathematics, basic thermodynamics) occupy positions of high structural compression: they encode fundamental constraints that many other beliefs depend upon. Revising them requires massive reorganization, changing prediction patterns throughout the entire system. Peripheral beliefs (today's weather forecast, a stranger's name) are shallow compressions with minimal dependencies. This explains Quine's observation that we revise peripheral beliefs readily when evidence conflicts, but resist changing core commitments. The resistance is not psychological stubbornness but information-theoretic necessity—central nodes bear higher revision costs. The web metaphor thus captures genuine computational structure: beliefs form a network where some compressions are load-bearing and others decorative.
 
 ### 2.5 Pragmatic Ontology: Same Information, Different Blankets
 
@@ -757,6 +763,8 @@ Example: Heliocentrism
 - Level 2: Justified once observations confirmed lower brittleness than geocentrism
 - Level 1: Objectively true because it's part of optimal compression of gravitational constraints
 
+Quine argued that truth is immanent to our best theory—determined by what belief revisions minimize global disturbance to the web. This framework extends Quine's insight by identifying truth as the stable fixed point of belief updating under reality's constraints. When a compression achieves strong lumpability (successful computational closure), further interaction with reality generates minimal error signals. The system has reached equilibrium: its internal model aligns with environmental structure closely enough that prediction errors approach zero. In Quine's terms, global disturbance is minimized—in our terms, systemic brittleness is minimized. The Apex Network thus represents the set of compressions that, once discovered, resist further revision not because we dogmatically cling to them but because reality's constraint structure leaves no gradient pointing elsewhere. Quine located truth in coherence plus minimal disturbance; this framework grounds that immanent conception in the thermodynamic necessity of computational closure.
+
 ### 6.3 Convergence as Information-Geometric Necessity
 
 Why Different Cultures Converge on Similar Truths:
@@ -780,6 +788,8 @@ Pluralism at the Frontier: Multiple viable compressions may exist (Pluralist Fro
 ## 7. Integrating With the Main Framework
 
 ### 7.1 Brittleness Metrics as Information Leakage Measures
+
+These brittleness metrics formalize the accumulated cost of misalignment between a system's internal compressions and reality's constraint structure. Each metric tracks a different signature of prediction error: P(t) measures how frequently predictions fail (requiring patches), M(t) measures how bloated the model becomes in attempting to maintain failed compressions, R(t) measures how few independent streams validate the compression, and C(t) measures the energy spent suppressing error signals. Together, they quantify what Quine called "global disturbance"—the systemic strain when beliefs conflict with experience.
 
 P(t) (Patch Velocity):
 - Information-theoretic: Rate of local compression failures requiring ad-hoc fixes
@@ -870,6 +880,8 @@ Justification Naturalized:
 - Internal coherence (Level 3) necessary but insufficient
 - External validation (pragmatic testing) required
 - Truth tracks optimal compression, not correspondence to pre-existing propositions
+
+This framework naturalizes Quine's epistemological holism. Beliefs do not stand alone as isolated justified-true-belief atoms but form an interconnected web where revision in one area propagates throughout the system. The brittleness metrics formalize what Quine described informally as "global disturbance"—the cost of revising beliefs when they conflict with experience. Central beliefs resist revision not because they are metaphysically privileged but because changing them requires reorganizing vast portions of the web. Truth, in this framework, extends Quine's pragmatist insight: it is not static correspondence to Platonic propositions but the stable configuration that minimizes brittleness under reality's constraints—what Quine would recognize as the limit of inquiry where further revisions generate more disturbance than they resolve.
 
 ### 8.3 For Metaphysics
 
