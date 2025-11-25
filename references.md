@@ -180,6 +180,8 @@ Lynch, Michael P. 2009. *Truth as One and Many*. Oxford: Clarendon Press. ISBN 9
 
 Mackie, J. L. 1977. *Ethics: Inventing Right and Wrong*. London: Penguin Books. ISBN 978-0140135589.
 
+Mangalam, Madhur. 2025. "The Emperor's New Pseudo-Theory: How the Free Energy Principle Ransacked Neuroscience." Preprint. DOI: 10.31234/osf.io/azkgc. https://osf.io/azkgc.
+
 Bolhuis, Johan J., Stephen Crain, Sandiway Fong, and Andrea Moro. 2024. "Three Reasons Why AI Doesn't Model Human Language." *Nature* 627 (8004): 489. https://doi.org/10.1038/d41586-024-00824-z. ISSN 0028-0836.
 
 
@@ -195,6 +197,8 @@ MLPerf Association. 2023. "MLPerf Training Results." https://mlcommons.org/bench
 
 Newman, Mark. 2010. *Networks: An Introduction*. Oxford: Oxford University Press. ISBN 978-0199206650.
 
+Oizumi, Masafumi, et al. 2014. "From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0." *PLOS Computational Biology* 10(5): e1003588. https://doi.org/10.1371/journal.pcbi.1003588.
+
 Olsson, Erik J. 2005. *Against Coherence: Truth, Probability, and Justification*. Oxford: Oxford University Press. ISBN 978-0199279999.
 
 Ostrom, Elinor. 1990. *Governing the Commons: The Evolution of Institutions for Collective Action*. Cambridge: Cambridge University Press. ISBN 978-0521405997.
@@ -202,6 +206,8 @@ Ostrom, Elinor. 1990. *Governing the Commons: The Evolution of Institutions for 
 O'Connor, Cailin, and James Owen Weatherall. 2019. *The Misinformation Age: How False Beliefs Spread*. New Haven, CT: Yale University Press. ISBN 978-0300234015.
 
 Palacios, Ensor Rafael, Adeel Razi, Thomas Parr, Michael Kirchhoff, and Karl Friston. 2020. "On Markov blankets and hierarchical self-organisation." *Journal of Theoretical Biology* 486: 110089. https://doi.org/10.1016/j.jtbi.2019.110089.
+
+Parr, Thomas, and Karl J. Friston. 2025. "How Do Inner Screens Enable Imaginative Experience? Applying the Free-Energy Principle to Attention." *Neuroscience of Consciousness* 2025(1): niaf009. https://doi.org/10.1093/nc/niaf009.
 
 Pearl, Judea. 1988. *Probabilistic Reasoning in Intelligent Systems: Networks of Plausible Inference*. San Mateo, CA: Morgan Kaufmann. ISBN 978-0934613736.
 
@@ -251,7 +257,7 @@ Rescher, Nicholas. 2001. *Cognitive Pragmatism: The Theory of Knowledge in Pragm
 
 Roda, Weston C., Marie B. Varughese, Donglin Han, and Michael Y. Li. 2020. "Why Is It Difficult to Accurately Predict the COVID-19 Epidemic?" *Infectious Disease Modelling* 5: 271–281. https://doi.org/10.1016/j.idm.2020.03.001.
 
-Rosas, Fernando E., Bernhard C. Geiger, Andrea I Luppi, Anil K. Seth, Daniel Polani, Michael Gastpar, and Pedro A.M. Mediano. 2024. "Software in the natural world: A computational approach to emergence in complex multi-level systems." arXiv preprint arXiv:2402.09090.
+Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104. https://doi.org/10.1038/s41567-024-02477-4.
 
 Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press. ISBN 978-0691020167.
 
