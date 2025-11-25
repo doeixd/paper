@@ -261,7 +261,7 @@ never add yourself as an author to the paper, or on a git commit.
 
 ### Walkthrough
 
-Here is an outline of the provided papers, their subject matter, and how they interconnect to form a unified philosophical framework called Emergent Pragmatic Coherentism (EPC). These files are very long and you cant read them all at once, try just reading beginning or searching for relevant terms.
+Here is an outline of the provided papers, their subject matter, and how they interconnect to form a unified philosophical framework called Emergent Pragmatic Coherentism (EPC). These files are very long and you cant read them all at once, try just reading beginning or searching for relevant terms. Make sure you dont turn the other, supporting papers into eachother, they should have clearish boundaries, and reference eachother where needed, and not over-re-hash what has already been written beyond what is needed.
 
 1. The Foundational Framework
 File: final.md (The Architecture of Failure)

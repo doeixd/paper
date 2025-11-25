@@ -1,5 +1,20 @@
 # Revision Plan: Integrating AI Suggestions into Computational Closure Paper
 
+  Todos
+  ☒ Priority 1: Revise Abstract for proper framing and qualification
+  ☒ Priority 1: Strengthen Section 2.2 FEP defense against Mangalam critique
+  ☒ Priority 1: Add qualifications to Section 7.2 truth claims
+  ☒ Priority 1: Add comprehensive is/ought defense to Section 9.4
+  ☐ Priority 2: Split Section 4 into 4A (theory) and 4B (applications)
+  ☐ Priority 2: Add transition paragraphs between major sections
+  ☐ Priority 3: Moderate tone throughout (soften strong claims)
+  ☐ Priority 4: Refine existing examples for clarity
+  ☐ Priority 5: Citation check and scholarly positioning
+  ☐ Priority 6-7: Final polish (conceptual clarity, conclusion, numbering)
+  ☐ Write summary document in edits/ directory
+  ☐ Git commit with detailed rationale
+
+
 ## Strategic Approach
 - **Qualification Level**: Moderate - add qualifications only where claims are genuinely tentative or empirical
 - **Section 4**: Expand and split into 4A (theory) and 4B (applications)
@@ -123,7 +138,7 @@
 - Section 4.2: Verify Parr & Friston (2025) citation is correct
 - Section 4.3: Add Solms (2019) or similar for affect and free energy
 - Section 5.2: Verify Ladyman & Ross (2007) citation for structural realism
-- Section 9.4: Add brief citation to proc_v7.md concepts if published
+- Section 9.4: Add brief citation to proc_v7.md concepts if published they are (https://philpapers.org/rec/GLEAPA  Glenn, Patrick, A Procedural and Naturalistic Model of Moral Objectivity. Prepublish 2025)
 
 ### 15. Section 2.2 - Expand Mangalam Response
 **Current**: Brief mention at line 80
