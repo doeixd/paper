@@ -106,7 +106,7 @@ Gil Martín, Francisco Javier, and Jesús Vega Encabo. 2008. "Truth and Moral Ob
 
 Gingerich, Owen. 1993. *The Eye of Heaven: Ptolemy, Copernicus, Kepler*. New York: American Institute of Physics. ISBN 978-0883188637.
 
-Glenn, Patrick. Forthcoming. "The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth."
+Glenn, Patrick. Forthcoming. "The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth." PhilPapers. https://philpapers.org/rec/GLETAO.
 
 Goldman, Alvin I. 1979. "What Is Justified Belief?" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel. https://doi.org/10.1007/978-94-009-9493-5_1.
 
