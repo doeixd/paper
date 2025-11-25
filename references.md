@@ -92,7 +92,7 @@ Friston, Karl J., and Stefan Kiebel. 2009. "Predictive Coding under the Free-Ene
 
 Friston, Karl J., et al. 2017. "The Desiderata of Life." *Interface Focus* 7(5): 20160099. https://doi.org/10.1098/rsfs.2016.0099.
 
-Friston, Karl, Michael Levin, Christopher Buckley, and Maxwell Ramstead. 2018. "The Markov Blankets of Life: Autonomy, Active Inference and the Free Energy Principle." *Journal of the Royal Society Interface* 15(138): 20170792. https://doi.org/10.1098/rsif.2017.0792.
+Kirchhoff, Michael, Thomas Parr, Ensor Palacios, Karl Friston, and Julian Kiverstein. 2018. "The Markov Blankets of Life: Autonomy, Active Inference and the Free Energy Principle." *Journal of the Royal Society Interface* 15(138): 20170792. https://doi.org/10.1098/rsif.2017.0792.
 
 Friston, Karl J., Thomas Parr, Conor Heins, Axel Constant, Daniel Friedman, Takuya Isomura, Chris Fields, Tim Verbelen, Maxwell Ramstead, John Clippinger, and Christopher Frith. 2025. "What the Flock Knows That the Birds Do Not: Exploring the Emergence of Joint Agency in Multi-Agent Active Inference." *arXiv* preprint arXiv:2511.10835. https://arxiv.org/abs/2511.10835.
 
@@ -137,6 +137,8 @@ Holling, C. S. 1973. "Resilience and Stability of Ecological Systems." *Annual R
 Hull, David L. 1988. *Science as a Process: An Evolutionary Account of the Social and Conceptual Development of Science*. Chicago: University of Chicago Press. ISBN 978-0226360508.
 
 Ingthorsson, Rögnvaldur D. 2013. "Properties: Qualities, Powers, or Both?" *Dialectica* 67, no. 1: 55–80. https://doi.org/10.1111/1746-8361.12011.
+
+James, William. 1890. *The Principles of Psychology*. 2 vols. New York: Henry Holt and Company.
 
 Joyce, Richard. 2001. *The Myth of Morality*. Cambridge: Cambridge University Press. ISBN 978-0521808064. https://doi.org/10.1017/CBO9780511487101.
 
