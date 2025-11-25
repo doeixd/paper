@@ -257,3 +257,34 @@ never add yourself as an author to the paper, or on a git commit.
 - **Error Handling**: Graceful failure with cleanup and detailed error messages
 - **Use Cases**: One-command academic publishing, consistent formatting across papers, automated journal submission preparation, version control integration
 - **Dependencies**: Requires `pandoc`, `typst` and/or `pdflatex`, plus PDF merging tools (pdfunite/pdftk/pypdf)
+
+
+### Walkthrough
+
+Here is an outline of the provided papers, their subject matter, and how they interconnect to form a unified philosophical framework called Emergent Pragmatic Coherentism (EPC). These files are very long and you cant read them all at once, try just reading beginning or searching for relevant terms.
+
+1. The Foundational Framework
+File: final.md (The Architecture of Failure)
+This paper establishes the core theory of Emergent Pragmatic Coherentism (EPC). It proposes that knowledge systems are not validated by static correspondence to reality, but by their ability to minimize "Systemic Brittleness"—a measurable cost of misalignment with reality manifested as ad-hoc patches, coercive overhead, and model complexity.
+Relation: This is the "hub" document. It introduces the primary diagnostic tools (brittleness metrics, the concept of the Negative Canon (what has failed), and the Apex Network (the objective structure of viable solutions). All other papers expand upon specific dimensions of this central thesis.
+
+2. The Mechanism of Truth
+File: from-beliefs-to-truth.md
+This paper details the specific evolutionary mechanism by which a tentative hypothesis transforms into a foundational truth. It outlines a "five-stage progression" where a belief migrates from the periphery of a network to its core, eventually becoming a Standing Predicate—a tool used to test other claims. It boldly argues that even Logic itself is not a metaphysical prior, but a Standing Predicate that achieved core status through maximal historical validation.
+Relation: It expands on the "functional transformation" concept introduced in final.md. While final.md describes how to measure the health of a system, this paper explains the lifecycle of the specific concepts (predicates) within that system.
+
+3. The Cognitive and Physical Basis
+File: Computational-Closure-and-the-Architecture-of-Mind.md
+File: notion-appendix.md
+These papers provide the naturalistic, information-theoretic grounding for the epistemology. They argue that "Standing Predicates" are linguistically encoded Markov Blankets—statistical boundaries that compress complex environmental data into manageable variables, achieving Computational Closure. The appendix details how vague "notions" crystallize into explicit beliefs through this compression process.
+Relation: These documents bridge the gap between thermodynamics and epistemology. They explain why the brittleness metrics in final.md exist: brittleness is fundamentally "information leakage" (prediction error) in a physical system trying to minimize free energy.
+
+4. The Metaphysical Status
+File: ontology-and-metaphysics-whats-real.md
+This paper addresses the ontological status of the "Apex Network" (the ultimate structure of truth). It argues for Naturalized Structural Realism, positing that the Apex Network is "real" in the same way the number pi is real: it is not a physical object, but a necessary, constraint-determined structure that any viable system must eventually discover.
+Relation: This serves as the philosophical defense of the framework against charges of relativism. It clarifies that while final.md focuses on the process of discovery (history/pragmatism), the structure being discovered is objective and mind-independent.
+
+5. The Ethical Application
+File: proc_v7.md (A Procedural and Naturalistic Model of Moral Objectivity)
+This paper applies the EPC framework specifically to metaethics. It introduces Pragmatic Procedural Realism, arguing that moral truths (like "slavery is wrong") are discovered empirically through the failure of systems that try to violate them. It uses the brittleness metrics to show that immoral systems (like totalitarians or slave states) inevitably collapse due to high "coercive overhead" and information suppression.
+Relation: This is a domain-specific application of the general theory found in final.md. It demonstrates that the same "Negative Canon" and "brittleness" diagnostics used for scientific theories can be rigorously applied to moral history to establish objective ethical truths.
