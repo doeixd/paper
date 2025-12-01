@@ -10,7 +10,6 @@ We develop the five-stage progression of functional transformation (initial hypo
 
 The germ theory case study illustrates the framework in action: miasma theory accumulated brittleness through mounting anomalies, germ theory entered as a competing hypothesis, pragmatic validation drove functional transformation, and new activation patterns stabilized with logic remaining constantly operative as the inferential machinery for theory evaluation. The framework dissolves traditional epistemological dichotomies (*a priori*/*a posteriori*, analytic/synthetic), naturalizes epistemic norms without relativism, and generates testable predictions for cognitive science and evolutionary epistemology. Truth emerges as thermodynamically stable, pragmatically validated, computationally closed architectural achievement.
 
----
 
 ## 1. Introduction
 
@@ -142,7 +141,6 @@ The systematization enables questions Quine's framework left vague: exactly how 
 
 Despite these extensions, we remain faithful to Quine's naturalistic vision. We reject correspondence theories of truth, embrace thoroughgoing fallibilism, ground epistemology in empirical practice, and explain even logic's centrality through pragmatic success rather than metaphysical necessity. Where Quine provided the metaphor and philosophical foundations, we supply mechanical details. Where he emphasized flexibility, we add structure for empirical testing. Where he noted patterns qualitatively, we measure them quantitatively. But the philosophical project—naturalizing epistemology while avoiding relativism—remains Quinean throughout.
 
----
 
 ## 2. Foundations: Beliefs, Propositions, Predicates
 
@@ -241,7 +239,6 @@ Second, convergent discovery: When multiple independent inquiry paths reach the 
 
 The mechanism of Standing Predicate emergence is therefore thoroughly naturalistic while avoiding relativism. Predicates don't achieve Standing status through social consensus or arbitrary convention. They earn it through demonstrated capacity to compress reality's structure efficiently, validated through pragmatic success and convergent discovery. The next section examines how these predicates organize architecturally into layered networks.
 
----
 
 ## 3. The Architecture: Layered Networks
 
@@ -412,7 +409,6 @@ The emergence story thus dissolves the mystery while preserving the phenomenon. 
 
 Understanding how core programs achieved their position illuminates both the architecture's structure and its genesis. The layered organization we observe today emerged gradually through pragmatic filtering, with successful predicates migrating toward the core while failed ones were abandoned. The next section examines how this architecture functions dynamically, with predicates activating differentially in response to experience.
 
----
 
 ## 4. Activation Dynamics: Responding to Recalcitrant Experience
 
@@ -582,7 +578,6 @@ Truth at Level 1 (objective truth) represents the attractor points in this lands
 
 The architecture thus transforms truth from a metaphysical puzzle into a thermodynamic achievement: truth is what remains when pragmatic filtering eliminates high-brittleness configurations while entrenchment locks in low-brittleness solutions. Logic's truth is its proven position as the minimal-cost foundation for inquiry, validated through maximal scope and timescale.
 
----
 
 ## 5. Functional Transformation: How Predicates Become Truth
 
@@ -764,7 +759,6 @@ Coherence builds closure through pragmatic filtering: predicates that maintain i
 
 Truth emerges when coherence builds closure: predicates become true by achieving stable positions where they maintain coherence under sustained pragmatic testing while enabling computational closure that supports further inquiry. Logic achieved truth by reaching the position of maximal closure—the boundary conditions for reasoning itself—through maximal coherence maintained across maximal scope and timescale. The architecture thus enables truth not as correspondence but as thermodynamically stable, pragmatically validated, computationally closed architectural achievement.
 
----
 
 ## 6. The Mechanics of Coherence-as-Truth
 
@@ -905,7 +899,6 @@ The necessity is therefore pragmatic, not metaphysical. Logic feels necessary be
 
 Truth, from this perspective, is maximized coherence: predicates become true by achieving stable positions where they maintain maximal internal consistency while demonstrating maximal viability under maximal pressure across maximal scope, achieving maximal computational closure, and (ideally) being convergently discovered. Logic exemplifies this maximization—it's what truth looks like at the extreme limit of coherence-under-pressure.
 
----
 
 ## 7. Worked Example: Germ Theory
 
@@ -988,7 +981,6 @@ This pattern holds for all scientific revisions: domain-specific predicates (Tie
 
 The germ theory case thus demonstrates the full framework in microcosm: activation dynamics (which predicates are questioned), functional transformation (from hypothesis to tool), coherence-under-pressure (maintaining viability), computational closure (achieving stable causal levels), and logic's constant background role (the operating system for inquiry). Understanding this mechanism illuminates how truth emerges through architectural position rather than metaphysical correspondence.
 
----
 
 ## 8. Objections and Responses
 
@@ -1080,11 +1072,9 @@ The architecture thus accommodates both observation's epistemic importance (it's
 
 This resolves traditional epistemological puzzles about the "given" in experience. There is no incorrigible observational foundation—even perceptual reports are theory-laden and revisable. But there is pragmatic constraint—observations that persistently conflict with theory generate brittleness that forces revision somewhere in the network. The constraint is real without requiring foundational certainty.
 
----
 
 These responses clarify the framework's position: it avoids relativism through objective pragmatic constraints, explains logic's special status through degree rather than kind, accommodates innovation while maintaining stability, and handles perception without requiring foundational certainty. The next section explores the framework's implications across multiple philosophical domains.
 
----
 
 ## 9. Implications and Future Directions
 
@@ -1144,11 +1134,9 @@ Extending the framework to artificial intelligence suggests predictions: AI syst
 
 Future work should trace knowledge system evolution across cultures: Do independent traditions converge on similar Standing Predicates when addressing similar problems? What mechanisms enable convergent discovery without communication? Can we identify universal cognitive attractors that all viable knowledge systems must reach?
 
----
 
 These implications demonstrate the framework's breadth: it reconceptualizes scientific change, naturalizes epistemic norms, explains logical necessity pragmatically, predicts neural implementation patterns, and extends evolutionary epistemology. The common thread is understanding truth as architectural achievement earned through pragmatic filtering within hierarchically organized knowledge systems. The final section synthesizes these insights.
 
----
 
 ## 10. Conclusion
 
@@ -1220,7 +1208,6 @@ Understanding this mechanism—how web architecture enables functional transform
 
 This is truth as we actually encounter it: hard-won, pragmatically validated, hierarchically organized, enabling cumulative progress, and objective without requiring metaphysical foundations. The architecture of the web doesn't merely organize knowledge—it builds truth from coherence through sustained pragmatic filtering. Understanding this architectural achievement is understanding truth itself.
 
----
 
 ## References
 

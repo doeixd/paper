@@ -3,7 +3,10 @@
     "allow": [
       "Bash(powershell -Command \"Get-Date -Format ''yyyy-MM-dd - HH-mm''\")",
       "WebSearch",
-      "WebFetch(domain:psychclassics.yorku.ca)"
+      "WebFetch(domain:psychclassics.yorku.ca)",
+      "Skill(mgrep:mgrep)",
+      "Bash(mgrep:*)",
+      "Bash(powershell -Command:*)"
     ],
     "deny": [],
     "ask": []

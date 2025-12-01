@@ -21,40 +21,34 @@
 <computational-closure-and-the-architecture-of-mind-an-information-theoretic-foundation-for-naturalized-epistemology>
 == Abstract
 <abstract>
-Naturalized epistemology faces a persistent explanatory gap between the
-thermodynamic mechanisms of neural processing and the normative
-structures of justification and truth. This paper proposes a theoretical
-framework that aims to narrow this gap by synthesizing the Free Energy
-Principle with the concept of Computational Closure to offer a potential
-mechanistic account of how raw information processing might generate the
-phenomenology of understanding and the structure of objective knowledge.
-We tentatively propose that epistemic agents may function as
-hierarchical compression systems, where "Standing Predicates" could
-serve as linguistic Markov Blankets---statistical boundaries that
-achieve causal decoupling from the micro-substrate.
+Naturalized epistemology seeks to explain how physical processes in the
+brain give rise to norms of justification and truth. This paper explores
+whether information processing might bridge this gap. We examine how
+living systems compress information to maintain themselves, and suggest
+this compression could explain both cognitive architecture and epistemic
+standards.
 
-A central contribution is the distinction between Statistical
-Regularities, which are frequency-dependent and processed unconsciously,
-and Structural Regularities, which are constraint-dependent and
-accessible via single-trial learning. We suggest that phenomenological
-consciousness may function as the user interface for this structural
-pattern recognition---what it feels like from the inside to detect
-mutual constraints between variables.
+We distinguish two types of pattern recognition: statistical patterns
+learned through repetition, and structural patterns grasped immediately.
+Consciousness, we propose, may serve as the interface for detecting
+structural patterns---what it feels like to recognize necessary
+relationships between things.
 
-Finally, we propose operationalizing "truth" not as correspondence to
-static propositions, but as alignment with the Apex Network---the
-hypothesized thermodynamic attractor in the space of possible
-compressions where information leakage is theoretically minimized. By
-treating the Free Energy Principle as a constitutive condition for
-bounded entities rather than a contingent empirical hypothesis, we aim
-to provide a physics-based foundation for diagnosing systemic
-brittleness in knowledge systems. While other approaches to naturalizing
-epistemology exist (e.g., those emphasizing evolutionary psychology or
-social constructivism), this framework offers a distinctive
-information-theoretic perspective. This is a work of synthesis and
-conceptual integration, offering a theoretical framework for future
-empirical investigation, though its claims remain subject to empirical
-validation and philosophical debate.
+Truth, we suggest, might be understood not as matching static facts, but
+as alignment with the most stable possible compression of reality. This
+perspective draws on the Free Energy Principle, which describes how
+systems minimize prediction error to persist. While this framework
+remains speculative and requires empirical testing, it offers a way to
+connect physical constraints with epistemic norms without assuming
+consciousness is epiphenomenal.
+
+The account avoids strong claims about consciousness being necessary for
+intelligence, acknowledges that current evidence supports rather than
+proves these ideas, and recognizes that alternative explanations (such
+as evolutionary or social accounts of knowledge) remain viable. Our
+contribution is conceptual integration rather than empirical discovery,
+providing a framework for future investigation rather than definitive
+answers.
 
 == 1. Introduction
 <introduction>
@@ -2819,79 +2813,67 @@ This paper has tentatively developed an information-theoretic framework
 that aims to connect raw information processing to conscious awareness
 to objective truth through compression, blanket formation, and
 thermodynamic selection, though these connections remain theoretical and
-require empirical validation:
-
-+ #strong[Information] is processed by all physical systems
-+ #strong[Compression] creates dispositions (minimal encoding of
-  regularities)
-+ #strong[Markov Blankets] emerge when compressions achieve statistical
-  boundaries
-+ #strong[Computational Closure] succeeds when blankets create
-  autonomous causal levels
-+ #strong[Consciousness] may relate to meta-blanket hierarchies and
-  structural pattern recognition
-+ #strong[Standing Predicates] are culturally-transmitted successful
-  closures
-+ #strong[Brittleness] measures information leakage when closures fail
-+ #strong[Pragmatic Selection] eliminates high-brittleness compressions
-+ #strong[The Apex Network] is the constraint-determined optimal
-  compression structure
-+ #strong[Truth] is not correspondence to static propositions but
-  alignment with the Apex Network---the state where a system's enacted
-  boundaries map the environment's causal constraints, achieving maximal
-  computational closure with minimal information leakage
-
-Conceptual Scaffolding, Not Dogmatic Mechanism:
+require empirical validation. The framework posits that information is
+processed by all physical systems, compression creates dispositions as
+minimal encodings of regularities, Markov blankets emerge when
+compressions achieve statistical boundaries, and computational closure
+succeeds when blankets create autonomous causal levels. Consciousness
+may relate to meta-blanket hierarchies and structural pattern
+recognition, while standing predicates are culturally transmitted
+successful closures. Brittleness measures information leakage when
+closures fail, and pragmatic selection eliminates high-brittleness
+compressions. The apex network is the constraint-determined optimal
+compression structure, and truth is not correspondence to static
+propositions but alignment with the apex network---the state where a
+system's enacted boundaries map the environment's causal constraints,
+achieving maximal computational closure with minimal information
+leakage.
 
 This framework employs information-theoretic language as conceptual
 scaffolding for understanding epistemic and cognitive phenomena. Whether
 brains literally implement variational free energy minimization or
-Standing Predicates are literally encoded as Markov blankets in neural
+standing predicates are literally encoded as Markov blankets in neural
 tissue remains an empirical question. The philosophical insights---about
 what makes predicates successful, how knowledge systems fail, and why
 inquiry converges---retain their force even if specific mechanistic
 claims require revision, though the overall framework itself remains
 subject to empirical testing and philosophical refinement.
 
-What Remains Unexplained:
-
 We've identified relevant functional distinctions without solving all
-foundational problems: - #strong[The hard problem of consciousness:] Why
-structural pattern recognition feels like anything remains open -
-#strong[The is/ought gap:] Why thermodynamic efficiency should matter
-morally isn't derived from the framework - #strong[The plurality
-question:] How much genuine pluralism exists versus forced convergence
-remains empirical - #strong[The limits of compression:] Whether some
-truths resist finite compression (incompleteness theorems)
+foundational problems. The hard problem of consciousness---why
+structural pattern recognition feels like anything---remains open. The
+is/ought gap, or why thermodynamic efficiency should matter morally, is
+not derived from the framework. The plurality question, concerning how
+much genuine pluralism exists versus forced convergence, remains
+empirical. Finally, the limits of compression, such as whether some
+truths resist finite compression due to incompleteness theorems, are not
+fully addressed.
 
-What the Framework Achieves:
+This framework provides a mechanistic account of how notions form and
+validate through statistical versus structural pattern recognition. It
+explains why singular experiences can carry immediate epistemic weight
+and offers a naturalistic grounding for cross-cultural convergence in
+knowledge systems. It also delivers a functional account of
+consciousness that narrows the explanatory gap, a framework for
+understanding truth as constraint-determined structure rather than
+correspondence to Platonic forms, and an information-theoretic analysis
+of why coercion generates systemic brittleness.
 
-This framework provides: - A mechanistic account of how notions form and
-validate through statistical vs.~structural pattern recognition - An
-explanation of why singular experiences can carry immediate epistemic
-weight - A naturalistic grounding for cross-cultural convergence in
-knowledge systems - A functional account of consciousness that narrows
-the explanatory gap - A framework for understanding truth as
-constraint-determined structure rather than correspondence to Platonic
-forms - An information-theoretic analysis of why coercion generates
-systemic brittleness
+Consciousness, agency, and truth remain real within this framework---not
+eliminated or reduced away, but understood as emerging from information
+processing under constraint. The framework is naturalistic without being
+eliminativist.
 
-Phenomenology Preserved: Consciousness, agency, and truth remain real
-within this framework---not eliminated or reduced away, but understood
-as emerging from information processing under constraint. The framework
-is naturalistic without being eliminativist.
+The main paper's claims about standing predicates as Markov blankets,
+brittleness as information leakage, and the apex network as
+thermodynamic attractor now have theoretical grounding in information
+theory, computational closure, and constraint-driven selection.
 
-Integration Complete: The main paper's claims about Standing Predicates
-as Markov Blankets, brittleness as information leakage, and the Apex
-Network as thermodynamic attractor now have theoretical grounding in
-information theory, computational closure, and constraint-driven
-selection.
-
-We are not passive observers of a pre-existing Platonic reality but
-active participants in discovering the constraint structure of our
-universe---exploring the landscape of viable compressions, mapping the
-Apex Network through systematic elimination of configurations that
-generate unsustainable brittleness.
+This framework positions us not as passive observers of a pre-existing
+Platonic reality, but as active participants in discovering the
+constraint-determined structure of our universe. Knowledge advances
+through the systematic elimination of configurations that generate
+unsustainable brittleness, gradually mapping the apex network.
 
 == References
 <references>
@@ -2932,7 +2914,7 @@ the Birds Do Not: Exploring the Emergence of Joint Agency in Multi-Agent
 Active Inference." #emph[arXiv] preprint arXiv:2511.10835.
 https:\/\/arxiv.org/abs/2511.10835.
 
-Glenn, Patrick. Forthcoming. "The Architecture of Failure: How Systemic
+Glenn, Patrick. 2025. "The Architecture of Failure: How Systemic
 Brittleness Drives Convergent Coherence to Forge Objective Truth."
 PhilPapers. https:\/\/philpapers.org/rec/GLETAO.
 
@@ -2946,7 +2928,11 @@ Society Interface] 15(138): 20170792.
 https:\/\/doi.org/10.1098/rsif.2017.0792.
 
 Ladyman, James, and Don Ross. 2007. #emph[Every Thing Must Go:
-Metaphysics Naturalized];. Oxford: Oxford University Press. ISBN
+Metaphysics Naturalized];. Oxford: Oxford University Press.
+
+Landauer, Rolf. 1961. "Irreversibility and Heat Generation in the
+Computing Process." #emph[IBM Journal of Research and Development] 5(3):
+183--191. https:\/\/doi.org/10.1147/rd.1961.5.3.183. ISBN
 978-0199276196.
 
 Laukkonen, Ruben, et al.~2025. "A Beautiful Loop: An Active Inference
