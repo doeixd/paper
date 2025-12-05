@@ -688,6 +688,18 @@ Similarly, our framework provides an evolutionary grounding for the core insight
 
 Empirical models of social epistemic networks (O'Connor and Weatherall 2019) suggest that objectivity is a function of communication topology. EPC operationalizes this insight: calibration efficiency inversely correlates with brittleness. The more diverse the error signals integrated (Longino 1990; Anderson 1996), the more stable the Apex Network.
 
+#### 6.3.1 Grounding Epistemic Norms in Systemic Viability
+
+A standard objection to naturalistic epistemology is that a descriptive account of how we reason cannot ground a prescriptive account of how we ought to reason (Kim 1988). As noted above, pragmatist approaches face a similar charge of conflating epistemic values with merely practical ones like efficiency or survival (Putnam 2002; Lynch 2009). Our framework answers this "normativity objection" by grounding its norms not in chosen values, but in the structural conditions required for any cumulative inquiry to succeed over time.
+
+Following Quine's later work, we treat normative epistemology as a form of engineering (Moghaddam 2013), where epistemic norms are hypothetical imperatives directed at a practical goal. Our framework makes this goal concrete: the cultivation of low-brittleness knowledge systems. The authority for this approach rests on two arguments.
+
+First, a constitutive argument: any system engaged in a cumulative, inter-generational project, such as science, must maintain sufficient stability to preserve and transmit knowledge. A system that systematically undermines its own persistence cannot, by definition, succeed at this project. The pressure to maintain a low-brittleness design is therefore not an optional value but an inescapable structural constraint on the practice of cumulative inquiry itself.
+
+Second, an instrumental argument: the framework makes a falsifiable, empirical claim that networks with a high and rising degree of measured brittleness are statistically more likely to collapse or require radical revision. From this descriptive claim follows a conditional recommendation: if an agent or institution has the goal of ensuring its long-term stability and problem-solving capacity, then it has a powerful, evidence-based reason to adopt principles that demonstrably lower its systemic brittleness.
+
+This reframes the paper's normative language. When this model describes one network as "better" or identifies "epistemic progress," these are not subjective value judgments but technical descriptions of systemic performance. A "better" network is one with lower measured brittleness and thus a higher predicted resilience against failure. Viability is not an optional norm to be adopted; it is a structural precondition for any system that manages to become part of the historical record at all.
+
 ### 6.4 Distinguishing from Lakatos and Laudan
 
 While our framework shares a historical-diagnostic ambition with Lakatos (1970) and Laudan (1977), it differs fundamentally: they provide retrospective descriptions of scientific change; we offer a forward-looking causal engine via quantifiable brittleness. Brittleness measures accumulated costs causing degeneration, serving as a real-time diagnostic of structural health, not merely historical output.
@@ -1153,7 +1165,7 @@ Mesoudi, Alex. 2011. *Cultural Evolution: How Darwinian Theory Can Explain Human
 
 MLPerf Association. 2023. "MLPerf Training Results." https://mlcommons.org/benchmarks/training/.
 
-
+Moghaddam, Soroush. 2013. "Confronting the Normativity Objection: W.V. Quine's Engineering Model and Michael A. Bishop and J.D. Trout's Strategic Reliabilism." Master's thesis, University of Victoria.
 
 Newman, Mark. 2010. *Networks: An Introduction*. Oxford: Oxford University Press.
 

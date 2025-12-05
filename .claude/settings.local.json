@@ -6,7 +6,8 @@
       "WebFetch(domain:psychclassics.yorku.ca)",
       "Skill(mgrep:mgrep)",
       "Bash(mgrep:*)",
-      "Bash(powershell -Command:*)"
+      "Bash(powershell -Command:*)",
+      "Bash(python release.py:*)"
     ],
     "deny": [],
     "ask": []

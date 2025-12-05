@@ -163,8 +163,8 @@ from external states.
 
 === 2.2 The Free Energy Principle
 <the-free-energy-principle>
-Karl Friston's Free Energy Principle provides the mathematical
-foundation:
+Karl Friston's Free Energy Principle provides one well-developed
+formalization of these dynamics:
 
 Variational Free Energy = Surprise (unpredicted sensory input) +
 Divergence (model complexity)
@@ -242,6 +242,29 @@ coercion.
 
 === 2.3 Dispositions as Compression Algorithms
 <dispositions-as-compression-algorithms>
+Recent formal work provides rigorous information-theoretic foundations
+for this compression imperative. Dittrich and Kinne (2024) demonstrate
+that any system persisting under uncertainty must compress information
+to minimize what they term "epistemic entropy." This is the
+Information-Theoretic Imperative (ITI): bounded existence requires
+efficient compression as a constitutive condition, not merely a useful
+strategy. Their Compression Efficiency Principle (CEP) further shows
+that efficient compression mechanically selects for generative, causal
+models over superficial correlations. Non-causal compressions
+"accumulate exceptions" as novel cases fail to fit the pattern,
+eventually becoming unsustainable. The drive to compress is thus a
+physical necessity for bounded systems. This mechanism explains why
+systems are forced to seek computational closure: only compressions
+achieving genuine causal structure can sustain efficiency without
+catastrophic exception accumulation.
+
+This convergence of independent formalizations, including classical
+information theory (Shannon 1948), thermodynamic cost analysis (Landauer
+1961), and evolutionary epistemology (Campbell 1974; Bradie 1986),
+suggests that these principles capture genuine structural features of
+how bounded systems interact with constrained environments, not
+artifacts of any particular theoretical framework.
+
 Returning to the Quinean foundation: a disposition to assent functions
 analogously to a compressed encoding of regularities.
 
@@ -523,6 +546,46 @@ statistical boundary requires minimizing divergence between internal
 model and environmental structure), then it functions as the grammar of
 viable self-organization.
 
+#strong[Why Constitutive Principles Are Not Vacuous:] The objection that
+"survivors survive" is explanatorily empty confuses logical form with
+explanatory content. Consider what evolutionary theory actually
+delivers: it explains why eyes evolved independently across dozens of
+lineages (optical physics constrains viable light-detection
+architectures), why certain body plans recur across unrelated taxa
+(biomechanical constraints limit viable solutions), why antibiotic
+resistance emerges predictably (mutation-selection dynamics under
+specific pressures). The tautological core ("survivors survive")
+generates these substantive predictions because it identifies the
+#emph[selection mechanism] that filters the space of possible
+configurations.
+
+Similarly, the FEP's constitutive status generates non-trivial
+constraints. If bounded systems must minimize prediction error to
+persist, then: (1) hierarchical predictive architectures should be
+ubiquitous across viable cognitive systems (they are); (2) systems
+should exhibit characteristic failure modes when prediction error
+accumulates faster than revision can accommodate (they do---this is
+precisely what brittleness metrics track); (3) the compression landscape
+should exhibit convergent structure across independent systems facing
+similar constraints (it does---mathematics, logic, and basic physical
+ontologies are discovered independently across cultures). The principle
+is "tautological" in that it describes what persistence requires, but
+the architectural constraints it generates are substantive and
+falsifiable. A world where cognitive systems succeeded through random
+response rather than predictive modeling would falsify the framework's
+implications, even if the constitutive principle itself remained
+logically necessary.
+
+The vacuity objection proves too much. By its logic, thermodynamics is
+vacuous ("systems that dissipate energy dissipate energy"), logic is
+vacuous ("coherent reasoning is coherent"), and mathematics is vacuous
+("valid proofs are valid"). These domains are constitutively structured
+by principles that cannot be violated without exiting the domain
+entirely. This does not make them uninformative---it makes them
+foundational. The FEP, on our reading, belongs to this class: not a
+contingent hypothesis about what happens, but a constitutive constraint
+on what #emph[can] happen for bounded systems.
+
 Crucially, we distinguish the principle from its implementation. While
 specific mechanistic claims (predictive coding in cortical circuits,
 exact Bayesian updating in neurons) are empirical hypotheses subject to
@@ -556,6 +619,15 @@ when they capture genuine necessities, provide the most reliable
 foundations. We accept the critique and pivot: the FEP's value for this
 framework lies precisely in describing what any viable knowledge system
 must do, not in predicting what neurons happen to do.
+
+Even if future research supersedes the Free Energy Principle as
+empirical neuroscience, the philosophical framework developed here would
+transfer to any replacement formalization. Our claims about compression,
+computational closure, and the Apex Network follow from basic
+constraints on bounded systems navigating finite resources, not from
+FEP's specific mathematical apparatus. What matters is that some
+formalization captures these functional necessities; the FEP provides a
+currently well-developed vocabulary for articulating them.
 
 #strong[Connecting Functional Constraints to Normative Claims:] Readers
 may wonder how later sections derive substantive claims about objective
@@ -611,6 +683,67 @@ information leakage, we should be able to quantify it in failing belief
 systems. But even if specific empirical predictions fail, the conceptual
 framework for thinking about knowledge, truth, and existence retains
 value as a philosophical contribution.
+
+#strong[Addressing the Framework-to-Payoff Concern:] A legitimate worry
+about FEP-based frameworks concerns the ratio of elaborate formalism to
+novel predictions. Evolution's tautological core is tiny relative to its
+predictive machinery; the concern is whether this framework inverts that
+ratio. We acknowledge this challenge and offer three responses.
+
+#emph[First];, we identify a specific, surprising prediction:
+#strong[the coercion-before-collapse signature];. The framework predicts
+that knowledge systems approaching brittleness thresholds should exhibit
+a characteristic temporal pattern: coercive overhead (resources devoted
+to suppressing disconfirming information) should rise #emph[before]
+model complexity explodes and #emph[before] patch velocity accelerates.
+This is because coercion is the cheapest initial response to prediction
+error accumulation, becoming insufficient only as errors compound. This
+prediction is non-obvious: one might expect complexity increases or
+accelerating patches to come first. If historical analysis of collapsing
+paradigms (Ptolemaic astronomy, phlogiston chemistry, Lysenkoist
+biology) fails to show this coercion-first signature, the framework's
+brittleness dynamics would be disconfirmed.
+
+#emph[Second];, #strong[AI convergence provides a natural experiment];.
+As artificial systems achieve genuine reasoning (not merely statistical
+pattern matching), the framework predicts they should converge on
+compression structures resembling formal logic and mathematics, not
+through training on human-generated data, but because these represent
+optimal compression of constraint relationships. If AI systems developed
+in isolation from human mathematical traditions achieve robust
+performance through radically different logical frameworks that don't
+reduce to or translate into human mathematics, this would constitute
+strong evidence against compression-driven convergence. The framework
+predicts substrate-independent convergence; radical divergence would
+disconfirm it.
+
+#emph[Third];, we distinguish convergence sources more carefully.
+Cross-cultural convergence in mathematics might reflect shared biology
+rather than compression optimality. But the framework makes a sharper
+prediction: #strong[structural learning should show asymmetric ease];.
+Concepts that represent genuine compression joints (thermodynamic
+constraints, logical necessities, mathematical structures) should be
+easier to learn, more resistant to forgetting, and more reliably
+transmitted across generations than concepts of equal complexity that
+represent arbitrary conventions or false compressions. This predicts
+measurable cognitive asymmetries: learning that "fire produces heat"
+should show different retention curves than learning that "Thursday is
+named after Thor." If no such asymmetries exist, the distinction between
+structural and statistical patterns loses empirical grounding.
+
+#strong[What Would Disconfirm the Apex Network?] We state explicitly:
+the Apex Network concept would be disconfirmed by evidence that
+successful knowledge systems can achieve sustained low brittleness
+through compression strategies that do not converge. If independent
+civilizations (or AI systems, or future human cultures) developed
+equally robust, equally low-brittleness epistemic frameworks built on
+fundamentally incompatible logical or mathematical foundations, this
+would falsify the claim that compression optimality under shared
+constraints produces convergent structure. The Apex Network is not
+merely "whatever works"; it is the claim that what works converges
+because optimal compression of shared constraint landscapes has unique
+solutions. Radical, stable pluralism in foundational frameworks would
+refute this.
 
 With this methodological clarification in place, we can proceed to
 develop the framework confident that its philosophical insights don't
@@ -2026,6 +2159,21 @@ the failing closure becomes unsustainable.
 
 === 6.3 Standing Predicates as Successful Closures
 <standing-predicates-as-successful-closures>
+The Compression Efficiency Principle (Dittrich and Kinne 2024) provides
+the micro-level mechanism underlying this brittleness. CEP identifies
+"exception accumulation" as the characteristic failure mode of
+non-generative models: systems relying on superficial correlations
+rather than causal structure exhibit linear growth in exceptions as
+novel cases fail to fit the pattern. This exception growth is precisely
+what our brittleness metrics track at the system level. High patch
+velocity P(t) operationalizes the rate of exception accumulation. Rising
+model complexity M(t) reflects the computational burden of managing
+these exceptions. Declining resilience R(t) signals that the compression
+is failing across contexts. The systemic brittleness quantified by these
+metrics directly corresponds to what CEP identifies as characteristic of
+correlational models that cannot achieve sustainable efficiency because
+they lack genuine causal structure.
+
 We propose that Standing Predicates may function as
 linguistically-encoded successful computational closures, though this
 claim requires further empirical investigation.
@@ -2136,6 +2284,21 @@ collective "knows" the predator's location and optimal escape direction
 through the coordination of individual responses, even though no single
 bird detects or represents this information. The flock exhibits genuine
 collective knowledge that emerges from distributed processing.
+
+This constraint-determined structure aligns with what Dittrich and Kinne
+(2024) call "reality-filtered data." Information produced by surviving
+agents already embeds causal structure because only causally accurate
+compressions enable the agents generating that data to persist. The Apex
+Network can thus be understood as the attractor state in the space of
+possible compressions where information-theoretic efficiency is
+maximized. It represents the set of Standing Predicates that constitute
+sustainable, generative models (in CEP's terms), discovered through
+distributed exploration of reality's constraint structure. This
+convergence mechanism explains how cultural and historical processes can
+approach objective truth without requiring direct access to a Platonic
+realm: agents exploring reality under survival pressure necessarily
+generate data reflecting causal constraints, and compressions of that
+data necessarily track those constraints.
 
 This formalizes how the Apex Network operates. Just as a flock possesses
 information about environmental gradients that individual birds do not,
@@ -2903,6 +3066,11 @@ Clark, Andy. 2013. "Whatever next? Predictive brains, situated agents,
 and the future of cognitive science." #emph[Behavioral and Brain
 Sciences] 36(3): 181--204. https:\/\/doi.org/10.1017/S0140525X12000477.
 
+Dittrich, Christian, and Jennifer Flygare Kinne. "The
+Information-Theoretic Imperative: Compression and the Epistemic
+Foundations of Intelligence." Preprint, submitted October 30, 2024.
+arXiv:2510.25883 \[cs.AI\]. https:\/\/doi.org/10.48550/arXiv.2510.25883.
+
 Friston, Karl J. 2010. "The Free-Energy Principle: A Unified Brain
 Theory?" #emph[Nature Reviews Neuroscience] 11 (2): 127--138.
 https:\/\/doi.org/10.1038/nrn2787.
@@ -2970,6 +3138,10 @@ ISBN 978-0262670012.
 Rosas, Fernando E., et al.~2024. "Disentangling High-Order Mechanisms
 and High-Order Behaviours in Complex Systems." #emph[Nature Physics] 20:
 1095--1104. https:\/\/doi.org/10.1038/s41567-024-02477-4.
+
+Shannon, Claude E. 1948. "A Mathematical Theory of Communication."
+#emph[Bell System Technical Journal] 27(3): 379--423.
+https:\/\/doi.org/10.1002/j.1538-7305.1948.tb01338.x.
 
 Sinclair, Robert. 2007. "Quine's Naturalized Epistemology and the Third
 Dogma of Empiricism." #emph[Southern Journal of Philosophy] 45, no. 3:

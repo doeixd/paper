@@ -1,8 +1,8 @@
 
 ================================================================================
-Citation Extraction Run - 2025-12-05 08:18:52
+Citation Extraction Run - 2025-12-05 07:52:35
 Files scanned: Computational-Closure-and-the-Architecture-of-Mind.md
-Total citations: 43
+Total citations: 40
 ================================================================================
 
 
@@ -170,58 +170,14 @@ Context:
 
 Recent formal work provides rigorous information-theoretic foundations for this compression imperative. Dittrich and Kinne (2024) demonstrate that any system persisting under uncertainty must compress information to minimize what they term "epistemic entropy." This is the Information-Theoretic Imperative (ITI): bounded existence requires efficient compression as a constitutive condition, not merely a useful strategy. Their Compression Efficiency Principle (CEP) further shows that efficient compression mechanically selects for generative, causal models over superficial correlations. Non-causal compressions "accumulate exceptions" as novel cases fail to fit the pattern, eventually becoming unsustainable. The drive to compress is thus a physical necessity for bounded systems. This mechanism explains why systems are forced to seek computational closure: only compressions achieving genuine causal structure can sustain efficiency without catastrophic exception accumulation.
 
-This convergence of independent formalizations, including classical information theory (Shannon 1948), thermodynamic cost analysis (Landauer 1961), and evolutionary epistemology (Campbell 1974; Bradie 1986), suggests that these principles capture genuine structural features of how bounded systems interact with constrained environments, not artifacts of any particular theoretical framework.
+Returning to the Quinean foundation: a disposition to assent functions analogously to a compressed encoding of regularities.
 
 Reference:
 Dittrich, Christian, and Jennifer Flygare Kinne. "The Information-Theoretic Imperative: Compression and the Epistemic Foundations of Intelligence." Preprint, submitted October 30, 2024. arXiv:2510.25883 [cs.AI]. https://doi.org/10.48550/arXiv.2510.25883.
 ------------------------------------------------------------
 
-Citation 12 [PARENTHETICAL]:
-Line: 68
-Citation: (Shannon 1948)
-
-Context:
-Recent formal work provides rigorous information-theoretic foundations for this compression imperative. Dittrich and Kinne (2024) demonstrate that any system persisting under uncertainty must compress information to minimize what they term "epistemic entropy." This is the Information-Theoretic Imperative (ITI): bounded existence requires efficient compression as a constitutive condition, not merely a useful strategy. Their Compression Efficiency Principle (CEP) further shows that efficient compression mechanically selects for generative, causal models over superficial correlations. Non-causal compressions "accumulate exceptions" as novel cases fail to fit the pattern, eventually becoming unsustainable. The drive to compress is thus a physical necessity for bounded systems. This mechanism explains why systems are forced to seek computational closure: only compressions achieving genuine causal structure can sustain efficiency without catastrophic exception accumulation.
-
-This convergence of independent formalizations, including classical information theory (Shannon 1948), thermodynamic cost analysis (Landauer 1961), and evolutionary epistemology (Campbell 1974; Bradie 1986), suggests that these principles capture genuine structural features of how bounded systems interact with constrained environments, not artifacts of any particular theoretical framework.
-
-Returning to the Quinean foundation: a disposition to assent functions analogously to a compressed encoding of regularities.
-
-Reference: NOT FOUND for 'Shannon 1948'
-------------------------------------------------------------
-
-Citation 13 [PARENTHETICAL]:
-Line: 68
-Citation: (Landauer 1961)
-
-Context:
-Recent formal work provides rigorous information-theoretic foundations for this compression imperative. Dittrich and Kinne (2024) demonstrate that any system persisting under uncertainty must compress information to minimize what they term "epistemic entropy." This is the Information-Theoretic Imperative (ITI): bounded existence requires efficient compression as a constitutive condition, not merely a useful strategy. Their Compression Efficiency Principle (CEP) further shows that efficient compression mechanically selects for generative, causal models over superficial correlations. Non-causal compressions "accumulate exceptions" as novel cases fail to fit the pattern, eventually becoming unsustainable. The drive to compress is thus a physical necessity for bounded systems. This mechanism explains why systems are forced to seek computational closure: only compressions achieving genuine causal structure can sustain efficiency without catastrophic exception accumulation.
-
-This convergence of independent formalizations, including classical information theory (Shannon 1948), thermodynamic cost analysis (Landauer 1961), and evolutionary epistemology (Campbell 1974; Bradie 1986), suggests that these principles capture genuine structural features of how bounded systems interact with constrained environments, not artifacts of any particular theoretical framework.
-
-Returning to the Quinean foundation: a disposition to assent functions analogously to a compressed encoding of regularities.
-
-Reference:
-Landauer, Rolf. 1961. "Irreversibility and Heat Generation in the Computing Process." *IBM Journal of Research and Development* 5(3): 183–191. https://doi.org/10.1147/rd.1961.5.3.183. ISBN 978-0199276196.
-------------------------------------------------------------
-
-Citation 14 [PARENTHETICAL]:
-Line: 68
-Citation: (Campbell 1974)
-
-Context:
-Recent formal work provides rigorous information-theoretic foundations for this compression imperative. Dittrich and Kinne (2024) demonstrate that any system persisting under uncertainty must compress information to minimize what they term "epistemic entropy." This is the Information-Theoretic Imperative (ITI): bounded existence requires efficient compression as a constitutive condition, not merely a useful strategy. Their Compression Efficiency Principle (CEP) further shows that efficient compression mechanically selects for generative, causal models over superficial correlations. Non-causal compressions "accumulate exceptions" as novel cases fail to fit the pattern, eventually becoming unsustainable. The drive to compress is thus a physical necessity for bounded systems. This mechanism explains why systems are forced to seek computational closure: only compressions achieving genuine causal structure can sustain efficiency without catastrophic exception accumulation.
-
-This convergence of independent formalizations, including classical information theory (Shannon 1948), thermodynamic cost analysis (Landauer 1961), and evolutionary epistemology (Campbell 1974; Bradie 1986), suggests that these principles capture genuine structural features of how bounded systems interact with constrained environments, not artifacts of any particular theoretical framework.
-
-Returning to the Quinean foundation: a disposition to assent functions analogously to a compressed encoding of regularities.
-
-Reference:
-Campbell, Donald T. 1974. "Evolutionary Epistemology." In *The Philosophy of Karl R. Popper*, edited by Paul A. Schilpp, 413–63. La Salle, IL: Open Court.
-------------------------------------------------------------
-
-Citation 15 [IN-PROSE]:
-Line: 120
+Citation 12 [IN-PROSE]:
+Line: 118
 Citation: Ayvazov (2025)
 
 Context:
@@ -237,8 +193,8 @@ Reference:
 Ayvazov, Mahammad. 2025. "Toward a Phase Epistemology: Coherence, Response and the Vector of Mutual Uncertainty." *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.5250197.
 ------------------------------------------------------------
 
-Citation 16 [PARENTHETICAL]:
-Line: 130
+Citation 13 [PARENTHETICAL]:
+Line: 128
 Citation: (Aslin and Newport 2012)
 
 Context:
@@ -252,8 +208,8 @@ Reference:
 Aslin, Richard N., and Elissa L. Newport. 2012. "Statistical learning: From acquiring specific items to forming general rules." *Current Directions in Psychological Science* 21(3): 170–176. https://doi.org/10.1177/0963721412436806.
 ------------------------------------------------------------
 
-Citation 17 [IN-PROSE]:
-Line: 163
+Citation 14 [IN-PROSE]:
+Line: 161
 Citation: Mangalam (2025)
 
 Context:
@@ -267,8 +223,8 @@ Reference:
 Mangalam, Madhur. 2025. "The Emperor's New Pseudo-Theory: How the Free Energy Principle Ransacked Neuroscience." Preprint. DOI: 10.31234/osf.io/azkgc. https://osf.io/azkgc.
 ------------------------------------------------------------
 
-Citation 18 [PARENTHETICAL]:
-Line: 185
+Citation 15 [PARENTHETICAL]:
+Line: 181
 Citation: (Glenn 2025)
 
 Context:
@@ -282,8 +238,8 @@ Reference:
 Glenn, Patrick. 2025. "The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth." PhilPapers. https://philpapers.org/rec/GLETAO.
 ------------------------------------------------------------
 
-Citation 19 [IN-PROSE]:
-Line: 274
+Citation 16 [IN-PROSE]:
+Line: 270
 Citation: Kirchhoff et al. (2018)
 
 Context:
@@ -297,8 +253,8 @@ Reference:
 Kirchhoff, Michael, Thomas Parr, Ensor Palacios, Karl Friston, and Julian Kiverstein. 2018. "The Markov Blankets of Life: Autonomy, Active Inference and the Free Energy Principle." *Journal of the Royal Society Interface* 15(138): 20170792. https://doi.org/10.1098/rsif.2017.0792.
 ------------------------------------------------------------
 
-Citation 20 [IN-PROSE]:
-Line: 276
+Citation 17 [IN-PROSE]:
+Line: 272
 Citation: Rosas et al. (2024)
 
 Context:
@@ -312,8 +268,8 @@ Reference:
 Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104. https://doi.org/10.1038/s41567-024-02477-4.
 ------------------------------------------------------------
 
-Citation 21 [IN-PROSE]:
-Line: 317
+Citation 18 [IN-PROSE]:
+Line: 313
 Citation: Rosas et al. (2024)
 
 Context:
@@ -328,8 +284,8 @@ Reference:
 Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104. https://doi.org/10.1038/s41567-024-02477-4.
 ------------------------------------------------------------
 
-Citation 22 [IN-PROSE]:
-Line: 326
+Citation 19 [IN-PROSE]:
+Line: 322
 Citation: Rosas et al. (2024)
 
 Context:
@@ -343,8 +299,8 @@ Reference:
 Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104. https://doi.org/10.1038/s41567-024-02477-4.
 ------------------------------------------------------------
 
-Citation 23 [IN-PROSE]:
-Line: 347
+Citation 20 [IN-PROSE]:
+Line: 343
 Citation: Rosas et al. (2024)
 
 Context:
@@ -358,8 +314,8 @@ Reference:
 Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104. https://doi.org/10.1038/s41567-024-02477-4.
 ------------------------------------------------------------
 
-Citation 24 [IN-PROSE]:
-Line: 416
+Citation 21 [IN-PROSE]:
+Line: 412
 Citation: Glenn (2025)
 
 Context:
@@ -373,8 +329,8 @@ Reference:
 Glenn, Patrick. 2025. "The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth." PhilPapers. https://philpapers.org/rec/GLETAO.
 ------------------------------------------------------------
 
-Citation 25 [PARENTHETICAL]:
-Line: 454
+Citation 22 [PARENTHETICAL]:
+Line: 450
 Citation: (Chalmers 1996)
 
 Context:
@@ -388,8 +344,8 @@ Reference:
 Chalmers, David J. 2006. "Strong and Weak Emergence." In *The Re-Emergence of Emergence: The Emergentist Hypothesis from Science to Religion*, edited by Philip Clayton and Paul Davies, 244–54. Oxford: Oxford University Press. ISBN 9780199287147. https://doi.org/10.1093/acprof:oso/9780199287147.003.0011.
 ------------------------------------------------------------
 
-Citation 26 [IN-PROSE]:
-Line: 511
+Citation 23 [IN-PROSE]:
+Line: 507
 Citation: Laukkonen et al. (2025)
 
 Context:
@@ -404,8 +360,8 @@ Reference:
 Laukkonen, Ruben, et al. 2025. "A Beautiful Loop: An Active Inference Theory of Consciousness." *Neuroscience & Biobehavioral Reviews* 176: 106296. https://doi.org/10.1016/j.neubiorev.2025.106296.
 ------------------------------------------------------------
 
-Citation 27 [IN-PROSE]:
-Line: 517
+Citation 24 [IN-PROSE]:
+Line: 513
 Citation: Marcus (2001)
 
 Context:
@@ -419,8 +375,8 @@ Reference:
 Marcus, Gary F. 2001. *The Algebraic Mind: Integrating Connectionism and Cognitive Science*. Cambridge, MA: MIT Press. ISBN 978-0262632683.
 ------------------------------------------------------------
 
-Citation 28 [IN-PROSE]:
-Line: 541
+Citation 25 [IN-PROSE]:
+Line: 537
 Citation: Parr and Friston (2025)
 
 Context:
@@ -434,8 +390,8 @@ Reference:
 Parr, Thomas, and Karl J. Friston. 2025. "How Do Inner Screens Enable Imaginative Experience? Applying the Free-Energy Principle to Attention." *Neuroscience of Consciousness* 2025(1): niaf009. https://doi.org/10.1093/nc/niaf009.
 ------------------------------------------------------------
 
-Citation 29 [IN-PROSE]:
-Line: 545
+Citation 26 [IN-PROSE]:
+Line: 541
 Citation: Rosas et al. (2024)
 
 Context:
@@ -449,8 +405,8 @@ Reference:
 Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104. https://doi.org/10.1038/s41567-024-02477-4.
 ------------------------------------------------------------
 
-Citation 30 [PARENTHETICAL]:
-Line: 563
+Citation 27 [PARENTHETICAL]:
+Line: 559
 Citation: (Solms 2019)
 
 Context:
@@ -464,8 +420,8 @@ Reference:
 Solms, Mark. 2019. "The Hard Problem of Consciousness and the Free Energy Principle." *Frontiers in Psychology* 9: 2714. https://doi.org/10.3389/fpsyg.2018.02714.
 ------------------------------------------------------------
 
-Citation 31 [IN-PROSE]:
-Line: 565
+Citation 28 [IN-PROSE]:
+Line: 561
 Citation: Oizumi et al. (2014)
 
 Context:
@@ -479,8 +435,8 @@ Reference:
 Oizumi, Masafumi, et al. 2014. "From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0." *PLOS Computational Biology* 10(5): e1003588. https://doi.org/10.1371/journal.pcbi.1003588.
 ------------------------------------------------------------
 
-Citation 32 [PARENTHETICAL]:
-Line: 746
+Citation 29 [PARENTHETICAL]:
+Line: 742
 Citation: (Ladyman and Ross 2007)
 
 Context:
@@ -494,8 +450,8 @@ Reference:
 Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
 ------------------------------------------------------------
 
-Citation 33 [IN-PROSE]:
-Line: 780
+Citation 30 [IN-PROSE]:
+Line: 776
 Citation: Rosas et al. (2024)
 
 Context:
@@ -509,8 +465,8 @@ Reference:
 Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104. https://doi.org/10.1038/s41567-024-02477-4.
 ------------------------------------------------------------
 
-Citation 34 [PARENTHETICAL]:
-Line: 786
+Citation 31 [PARENTHETICAL]:
+Line: 782
 Citation: (Varley and Hoel 2022)
 
 Context:
@@ -525,8 +481,8 @@ Reference:
 Varley, Thomas F., and Erik Hoel. 2022. "Emergence as the conversion of information: a unifying theory." *Philosophical Transactions of the Royal Society A* 380(2227): 20210150. https://doi.org/10.1098/rsta.2021.0150.
 ------------------------------------------------------------
 
-Citation 35 [PARENTHETICAL]:
-Line: 828
+Citation 32 [PARENTHETICAL]:
+Line: 824
 Citation: (Dittrich and Kinne 2024)
 
 Context:
@@ -540,8 +496,8 @@ Reference:
 Dittrich, Christian, and Jennifer Flygare Kinne. "The Information-Theoretic Imperative: Compression and the Epistemic Foundations of Intelligence." Preprint, submitted October 30, 2024. arXiv:2510.25883 [cs.AI]. https://doi.org/10.48550/arXiv.2510.25883.
 ------------------------------------------------------------
 
-Citation 36 [IN-PROSE]:
-Line: 854
+Citation 33 [IN-PROSE]:
+Line: 850
 Citation: Rosas et al. (2024)
 
 Context:
@@ -555,8 +511,8 @@ Reference:
 Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104. https://doi.org/10.1038/s41567-024-02477-4.
 ------------------------------------------------------------
 
-Citation 37 [IN-PROSE]:
-Line: 868
+Citation 34 [IN-PROSE]:
+Line: 864
 Citation: Friston et al. (2025)
 
 Context:
@@ -570,8 +526,8 @@ Reference:
 Friston, Karl J., Thomas Parr, Conor Heins, Axel Constant, Daniel Friedman, Takuya Isomura, Chris Fields, Tim Verbelen, Maxwell Ramstead, John Clippinger, and Christopher Frith. 2025. "What the Flock Knows That the Birds Do Not: Exploring the Emergence of Joint Agency in Multi-Agent Active Inference." *arXiv* preprint arXiv:2511.10835. https://arxiv.org/abs/2511.10835.
 ------------------------------------------------------------
 
-Citation 38 [IN-PROSE]:
-Line: 870
+Citation 35 [IN-PROSE]:
+Line: 866
 Citation: Dittrich and Kinne (2024)
 
 Context:
@@ -585,8 +541,8 @@ Reference:
 Dittrich, Christian, and Jennifer Flygare Kinne. "The Information-Theoretic Imperative: Compression and the Epistemic Foundations of Intelligence." Preprint, submitted October 30, 2024. arXiv:2510.25883 [cs.AI]. https://doi.org/10.48550/arXiv.2510.25883.
 ------------------------------------------------------------
 
-Citation 39 [PARENTHETICAL]:
-Line: 936
+Citation 36 [PARENTHETICAL]:
+Line: 932
 Citation: (Campbell 1974)
 
 Context:
@@ -602,8 +558,8 @@ Reference:
 Campbell, Donald T. 1974. "Evolutionary Epistemology." In *The Philosophy of Karl R. Popper*, edited by Paul A. Schilpp, 413–63. La Salle, IL: Open Court.
 ------------------------------------------------------------
 
-Citation 40 [PARENTHETICAL]:
-Line: 937
+Citation 37 [PARENTHETICAL]:
+Line: 933
 Citation: (Longino 1990)
 
 Context:
@@ -617,8 +573,8 @@ Reference:
 Longino, Helen E. 1990. *Science as Social Knowledge: Values and Objectivity in Scientific Inquiry*. Princeton, NJ: Princeton University Press. ISBN 978-0691020518.
 ------------------------------------------------------------
 
-Citation 41 [PARENTHETICAL]:
-Line: 1031
+Citation 38 [PARENTHETICAL]:
+Line: 1027
 Citation: (James 1890)
 
 Context:
@@ -633,8 +589,8 @@ Reference:
 James, William. 1890. *The Principles of Psychology*. 2 vols. New York: Henry Holt and Company.
 ------------------------------------------------------------
 
-Citation 42 [PARENTHETICAL]:
-Line: 1066
+Citation 39 [PARENTHETICAL]:
+Line: 1062
 Citation: (see Glenn 2025)
 
 Context:
@@ -647,8 +603,8 @@ What we can legitimately claim: Certain moral intuitions may have information-th
 Reference: NOT FOUND for 'see Glenn 2025'
 ------------------------------------------------------------
 
-Citation 43 [IN-PROSE]:
-Line: 1086
+Citation 40 [IN-PROSE]:
+Line: 1082
 Citation: Rosas et al. (2024)
 
 Context:
