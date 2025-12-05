@@ -74,6 +74,8 @@ Dewey, John. 1929. *The Quest for Certainty: A Study of the Relation of Knowledg
 
 Dewey, John. 1938. *Logic: The Theory of Inquiry*. New York: Henry Holt and Company. ISBN 978-1406731804.
 
+Dittrich, Christian, and Jennifer Flygare Kinne. "The Information-Theoretic Imperative: Compression and the Epistemic Foundations of Intelligence." Preprint, submitted October 30, 2024. arXiv:2510.25883 [cs.AI]. https://doi.org/10.48550/arXiv.2510.25883.
+
 Duflo, Esther. 2012. "Women Empowerment and Economic Development." *Journal of Economic Literature* 50(4): 1051–79. https://doi.org/10.1257/jel.50.4.1051.
 
 El-Hani, Charbel Niño, and Sami Pihlström. 2002. "Emergence Theories and Pragmatic Realism." *Essays in Philosophy* 3(2): article 3. https://doi.org/10.5840/eip2002325.
@@ -284,6 +286,8 @@ Schwartz, Joshua. 2016. "Quine and the Problem of Truth." *Journal for the Histo
 Scott, James C. 1998. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press. ISBN 978-0300070163.
 
 Sevilla, Jaime, Lennart Heim, Anson Ho, Tamay Besiroglu, Marius Hobbhahn, and Pablo Villalobos. 2022. "Compute Trends Across Three Eras of Machine Learning." arXiv preprint arXiv:2202.05924.
+
+Shannon, Claude E. 1948. "A Mathematical Theory of Communication." *Bell System Technical Journal* 27(3): 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x.
 
 Sims, Matthew. 2024. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91(2): 430–48. https://doi.org/10.1017/psa.2023.104.
 
