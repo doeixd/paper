@@ -1165,7 +1165,7 @@ Mesoudi, Alex. 2011. *Cultural Evolution: How Darwinian Theory Can Explain Human
 
 MLPerf Association. 2023. "MLPerf Training Results." https://mlcommons.org/benchmarks/training/.
 
-Moghaddam, Soroush. 2013. "Confronting the Normativity Objection: W.V. Quine's Engineering Model and Michael A. Bishop and J.D. Trout's Strategic Reliabilism." Master's thesis, University of Victoria.
+Moghaddam, Soroush. 2013. "Confronting the Normativity Objection: W.V. Quine's Engineering Model and Michael A. Bishop and J.D. Trout's Strategic Reliabilism." Master's thesis, University of Victoria. http://hdl.handle.net/1828/4915.
 
 Newman, Mark. 2010. *Networks: An Introduction*. Oxford: Oxford University Press.
 

@@ -205,6 +205,8 @@ Mitchell, Sandra D. 2009. *Unsimple Truths: Science, Complexity, and Policy*. Ch
 
 MLPerf Association. 2023. "MLPerf Training Results." https://mlcommons.org/benchmarks/training/.
 
+Moghaddam, Soroush. 2013. "Confronting the Normativity Objection: W.V. Quine's Engineering Model and Michael A. Bishop and J.D. Trout's Strategic Reliabilism." Master's thesis, University of Victoria. http://hdl.handle.net/1828/4915.
+
 Newman, Mark. 2010. *Networks: An Introduction*. Oxford: Oxford University Press. ISBN 978-0199206650.
 
 Oizumi, Masafumi, et al. 2014. "From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0." *PLOS Computational Biology* 10(5): e1003588. https://doi.org/10.1371/journal.pcbi.1003588.
