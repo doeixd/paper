@@ -22,37 +22,41 @@
 == Abstract
 <abstract>
 Coherentist theories of justification face the isolation objection: a
-belief system could be perfectly coherent yet entirely detached from
-reality. This paper resolves this challenge through Emergent Pragmatic
-Coherentism (EPC), which grounds coherence in demonstrated viability
-measured by systemic brittleness. EPC synthesizes constraint network
-theory (Thagard 1989), network epistemology (Zollman 2007), Rescher's
-systematicity, and Kitcher's evolutionary dynamics, adding external
-brittleness diagnostics these internalist precursors lacked. The
-framework inherits Quine's holistic, pragmatically-revised web
-architecture as essential infrastructure: systemic brittleness,
-pragmatic pushback, and convergence all require this structure, though
-the systems-level analysis remains neutral on specific metaphysics of
-belief.
+perfectly coherent belief system could be detached from reality. While
+Quinean naturalism grounds knowledge in holistic webs constrained by
+empirical experience and pragmatic revision, the framework lacks
+formalized diagnostics for assessing the structural health of knowledge
+systems before failure occurs.
 
-The framework uses systemic brittleness as a diagnostic tool, measuring
-network health through observable costs incurred when applying
-propositions. Selective pressure from these costs drives knowledge
-systems toward convergence on an emergent structure: the Apex Network,
-comprising maximally viable propositions. Justification requires both
-internal coherence and a network's demonstrated resilience. Objective
-truth is redefined as alignment with the Apex Network, not as a
-metaphysical blueprint but rather as the necessary structure of optimal
-solutions determined by mind-independent pragmatic constraints. The
-framework explains pragmatic revision in Quine's web of belief, provides
-prospective guidance through constraint analysis, and supports a
-falsifiable research program for assessing epistemic health. Preliminary
-applications to historical cases, such as the transition from Ptolemaic
-to Copernican astronomy, and to contemporary challenges in AI
-development, illustrate the framework's diagnostic potential.
+This paper develops Emergent Pragmatic Coherentism (EPC), building on
+Quine's architecture to address this gap. This naturalistic externalist
+framework grounds coherence in the long-term viability of public
+knowledge systems. EPC introduces systemic brittleness as a prospective
+diagnostic tool. It assesses epistemic health by tracking the observable
+costs generated when a system's propositions are applied. Selective
+pressure from these costs drives disparate knowledge systems to converge
+on an emergent, objective structure we term the Apex Network. This is
+not a pre-existing truth but the constraint-determined set of maximally
+viable solutions forged by historical failure filtering.
 
-== 1. Introduction: From a Static Web to a Dynamic Process
-<introduction-from-a-static-web-to-a-dynamic-process>
+In this framework, justification requires both internal coherence and
+the demonstrated resilience of the certifying network. Truth is
+redefined in three levels: from contextual coherence within any system,
+to justified truth certified by a low-brittleness consensus network, to
+objective truth as alignment with the Apex Network. EPC synthesizes
+insights from Quinean holism, network epistemology, evolutionary
+dynamics, and systems theory while adding the externalist diagnostic of
+brittleness that its predecessors lacked.
+
+By offering prospective guidance through constraint analysis and
+grounding a falsifiable research program in historical methods, EPC
+advances a form of Systemic Externalism. In this view, justification
+depends on the proven reliability of public knowledge architectures.
+Applications to historical paradigm shifts and contemporary epistemic
+challenges illustrate the framework's diagnostic and explanatory power.
+
+== 1. Introduction: Diagnosing Epistemic Health
+<introduction-diagnosing-epistemic-health>
 Why did germ theory replace miasma theory? A standard explanation cites
 superior evidence, but a deeper view reveals systemic viability. Miasma
 theory incurred catastrophic costs, notably misdirected public health
@@ -68,36 +72,41 @@ techniques, yet it was systematically misaligned with reality. What
 external constraint prevents coherent systems from floating free?
 
 This shift exemplifies the isolation objection to coherentism: a belief
-system might be coherent yet detached from reality (BonJour 1985).
-Coherentists have offered responses (Olsson 2005; Kvanvig 2012; Krag
-2015), but most rely on internalist resources lacking external
-constraints. We propose Emergent Pragmatic Coherentism, grounding
-coherence in demonstrated viability of knowledge systems measured by
-cost minimization (Quine 1960; Kitcher 1993).
+system might be coherent yet detached from reality (BonJour 1985). While
+internalist coherentist responses (Olsson 2005; Kvanvig 2012; Krag 2015)
+struggle to provide external constraints, Quinean naturalism addresses
+this by anchoring knowledge in empirical experience and pragmatic
+revision. We propose Emergent Pragmatic Coherentism, building on Quine's
+architecture (Quine 1960) and Kitcher's evolutionary model (1993) to
+formalize the diagnostic assessment of knowledge systems through
+systemic brittleness.
 
-=== 1.1 Lineage and Departure
-<lineage-and-departure>
-Emergent Pragmatic Coherentism extends and naturalizes a tradition
-beginning with Quine's call to "naturalize epistemology" (1969),
-continuing through Davidson's (1986) coherence theory, Kitcher's (1993)
-evolutionary model of scientific progress, and Longino's (1990) social
-account of objectivity. Each sought to dissolve the dualism between
-justification and empirical process. EPC accepts this inheritance but
-departs by replacing static coherence with dynamic #emph[viability under
-constraint];. Knowledge is not a mirror of nature nor a purely
-linguistic web of belief, but a living system maintained through
-adaptive feedback loops.
+=== 1.1 Lineage and Contribution
+<lineage-and-contribution>
+Emergent Pragmatic Coherentism builds upon a tradition beginning with
+Quine's naturalized epistemology (1969), continuing through Davidson's
+(1986) coherence theory, Kitcher's (1993) evolutionary model of
+scientific progress, and Longino's (1990) social account of objectivity.
+Each sought to dissolve the dualism between justification and empirical
+process. EPC accepts and extends this inheritance by describing the
+convergent implications of Quine's architecture and introducing systemic
+brittleness as a formalized diagnostic for epistemic health. Knowledge
+is not a mirror of nature nor a purely linguistic web of belief, but a
+living system maintained through adaptive feedback loops.
 
-Where Quine anchored epistemology in psychology, EPC relocates it within
-systems dynamics: belief-formation and revision are continuous with
-adaptive systems that minimize brittleness under environmental feedback.
-Where Davidson focused on internal coherence, EPC operationalizes
-Thagard's (1989) connectionist ECHO, modeling coherence as activation
-harmony in constraint networks and extending this with pragmatic
-inhibitory weights derived from brittleness. Unlike Zollman's (2007)
-abstract Bayesian graphs, which model the effects of network topology on
-belief propagation, EPC's framework is designed to account for how
-knowledge systems respond to real-world pragmatic pressures.
+While Quine anchored epistemology in the psychology of individual agents
+revising holistic webs in response to recalcitrant experience, EPC
+extends this naturalistic foundation to analyze the macro-dynamics of
+public knowledge systems. Belief-formation and revision, grounded in
+Quine's account, aggregate into systems-level patterns that can be
+assessed through brittleness metrics. Where Davidson focused on internal
+coherence, EPC operationalizes Thagard's (1989) connectionist ECHO,
+modeling coherence as activation harmony in constraint networks and
+extending this with pragmatic inhibitory weights derived from
+brittleness. Unlike Zollman's (2007) abstract Bayesian graphs, which
+model the effects of network topology on belief propagation, EPC's
+framework tracks how knowledge systems respond to real-world pragmatic
+pressures through measurable costs.
 
 The Quinean inheritance is architectural, not merely methodological. Our
 framework requires knowledge structured as holistic webs subject to
@@ -122,11 +131,11 @@ systemic fragility.
 EPC thus transforms coherence from a metaphor of fit into a measurable
 function of cost and constraint. Its realism is not the correspondence
 of propositions to an independent world, but the emergent stability of
-constraint satisfaction across iterated cycles of error and repair. This
-is a post-Quinean naturalism that grounds justification in demonstrated
-viability. It provides the crucial, non-discursive external filter of
-systemic consequence that these otherwise powerful social,
-psychological, and internalist accounts ultimately require.
+constraint satisfaction across iterated cycles of error and repair.
+Building on Quinean naturalism, EPC grounds justification in the
+demonstrated viability of knowledge systems, providing formalized
+diagnostic tools to assess the structural health that Quine's framework
+presupposed but did not quantify.
 
 Our response to the isolation objection is distinctive: coherence rests
 not on historical accident but on emergent necessary structure. Reality
@@ -143,8 +152,10 @@ systems, measured through their capacity to minimize systemic costs.
 Drawing from resilience theory (Holling 1973), which models how systems
 absorb disturbance without regime change, we explain how individuals'
 holistic revisions to personal webs of belief in response to
-recalcitrant experiences, which we term pragmatic pushback, drive
-bottom-up formation of viable public knowledge systems.
+recalcitrant experience drive bottom-up formation of viable public
+knowledge systems. When aggregated at the systems level, this Quinean
+process of pragmatic revision generates measurable patterns we diagnose
+through brittleness metrics.
 
 This transforms the isolation objection: a coherent system detached from
 reality isn't truly possible because constraints force convergence
@@ -223,7 +234,8 @@ Understanding how knowledge systems evolve requires clarifying their
 architectural prerequisites. The framework's core claims (systemic
 brittleness, pragmatic pushback, convergent evolution toward the Apex
 Network) presuppose a specific knowledge structure, not a collection of
-atomic beliefs or deductions from axioms. Four features prove essential.
+atomic beliefs or deductions from axioms. Three features prove
+essential, with a fourth emerging from their interaction.
 
 First, holism: knowledge forms interconnected webs where adjustments
 ripple through the system. Brittleness accumulates systemically because
@@ -236,39 +248,53 @@ knowledge structures. Without revision mechanisms, pragmatic pushback
 becomes inert. Systems could acknowledge costs without adjusting,
 rendering our entire framework toothless.
 
-Third, social coordination: individual knowledge structures can overlap
-and align, forming public knowledge systems. This explains how Standing
-Predicates become shared conceptual tools and how convergence occurs
-across communities rather than remaining trapped in individual minds.
+Third, multiple agents under shared constraints: independent agents
+navigate the same reality, facing identical pragmatic constraints. This
+is not about social coordination but parallel exploration of a common
+constraint landscape. Like multiple explorers independently mapping the
+same terrain, agents will converge on similar structures not through
+communication but through bumping against the same obstacles. The
+overlap we observe in human knowledge systems is evidence of this
+convergent discovery, not its cause.
 
-Fourth, constraint-determined objectivity: knowledge systems converge
-toward an objective structure (the Apex Network) determined by
-mind-independent pragmatic constraints. This structure exists whether
-discovered or not, providing the standard for truth, but it is revealed
-through elimination of failures rather than known a priori. This is
+Fourth, constraint-determined objectivity (emergent from the first
+three): knowledge systems converge toward an objective structure (the
+Apex Network) determined by mind-independent pragmatic constraints. This
+structure exists whether discovered or not, providing the standard for
+truth, but it is revealed through elimination of failures rather than
+known a priori. When multiple holistic systems undergo pragmatic
+revision in response to shared constraints, the convergent patterns that
+emerge reveal the objective structure of viable solutions. This is
 foundational realism without traditional foundationalism: there IS an
 objective foundation, but it must be discovered through extensive
-inquiry rather than stipulated by reason. Our fallibilism concerns
-epistemic access (we never achieve certainty our map matches the
-territory), not ontological status (the territory has objective
+parallel inquiry rather than stipulated by reason. Our fallibilism
+concerns epistemic access (we never achieve certainty our map matches
+the territory), not ontological status (the territory has objective
 structure).
 
 These architectural features are non-negotiable. What follows sketches
 one naturalistic foundation that provides this architecture in
 integrated form. Following Quine's call to naturalize epistemology
 (Quine 1969), we ground knowledge in dispositions to assent: publicly
-observable behavioral patterns. Alternative accounts (coherentist
-epistemology, inferentialist semantics, social practice theories) remain
-compatible provided they preserve holism, pragmatic revision,
-coordination, and constraint-determined objectivity. We develop the
-Quinean version because it offers thoroughgoing naturalism with all
-required components. However, the systems-level analysis beginning in
-Section 2.2 does not depend on Quine's specific metaphysics of mental
-content, only on the architectural features just outlined.
+observable behavioral patterns. From a materialist perspective, even
+consciousness and self-awareness are constituted by higher-order
+dispositions---the recursive neural patterns that generate what we
+experience as awareness emerge from, rather than transcend, the material
+substrate of dispositional structures. Alternative accounts (coherentist
+epistemology, inferentialist semantics, neural network theories) remain
+compatible provided they preserve holism, pragmatic revision, and
+operation under shared constraints. We develop the Quinean version
+because it offers thoroughgoing naturalism with all required components.
+However, the systems-level analysis beginning in Section 2.2 does not
+depend on Quine's specific metaphysics of mental content, only on the
+architectural features just outlined.
 
-The path from individual disposition to public knowledge proceeds in
-stages, with conscious awareness serving as the bridge from private
-behavior to coordinated public claims.
+The convergence from individual disposition to shared knowledge
+structures proceeds not through deliberate coordination but through
+parallel discovery---multiple agents independently developing similar
+solutions when faced with identical constraints. Social communication
+may accelerate this process but is not structurally necessary for the
+emergence of coherent, convergent knowledge systems.
 
 ==== 2.1.1 The Quinean Foundation: Disposition to Assent
 <the-quinean-foundation-disposition-to-assent>
@@ -282,20 +308,31 @@ fully naturalistic starting point, free from abstract propositions.
 <the-functional-bridge-belief-as-monitored-disposition>
 Here, we add a crucial functional layer to Quine's account. While a
 disposition is a third-person behavioral fact, humans possess a natural
-capacity for self-monitoring. We are not merely bundles of dispositions;
-we can become aware of our own dispositional states. This awareness is
-not a privileged glimpse into a Cartesian theater but a feedback
-mechanism, analogous to proprioception, that allows for self-report and
-deliberate revision. For the purposes of this framework, we functionally
-identify a "belief" with this state of being aware of one's own
-disposition to assent. When an agent reports, "I believe it is raining,"
-they are not claiming access to an abstract proposition; they are
-reporting their awareness of their own readiness to assent to the
-sentence, "It is raining." This move acknowledges the functional
-importance of first-person access for coordinating and revising
-behavior, but does so within a fully naturalistic picture. The belief is
-not a non-physical mental content but a monitored, and therefore
-reportable, behavioral pattern.
+capacity for self-monitoring. From a materialist perspective, this
+self-monitoring capacity is itself constituted by higher-order
+dispositions to assent---the brain's neural architecture generates
+dispositions all the way down. When we speak of "awareness" of our
+dispositional states, we are not positing a separate observer but
+describing how complex, layered dispositions create the phenomena we
+call consciousness. This awareness is not a privileged glimpse into a
+Cartesian theater but an emergent property of recursive dispositional
+structures---dispositions about dispositions---analogous to
+proprioception, that allows for self-report and deliberate revision.
+
+For the purposes of this framework, we functionally identify a "belief"
+with this higher-order dispositional state that we experience as
+awareness. When an agent reports, "I believe it is raining," they are
+not claiming access to an abstract proposition or even to a
+fundamentally different kind of mental state; they are articulating a
+higher-order disposition to assent about their first-order disposition
+to assent to the sentence, "It is raining." The subjective experience of
+belief emerges from, rather than supervenes upon, these nested
+dispositional patterns. This move acknowledges the functional importance
+of these recursive structures for coordinating and revising behavior,
+but does so within a fully naturalistic picture where consciousness
+itself arises from the material substrate of dispositional patterns. The
+belief is not a non-physical mental content but a complex,
+self-referential behavioral pattern embedded in neural architecture.
 
 ==== 2.1.3 From Awareness to Public Claim: The Functional Proposition
 <from-awareness-to-public-claim-the-functional-proposition>
@@ -309,24 +346,29 @@ collective assessment. We are not extracting an abstract proposition
 from a belief; we are articulating the sentence that a disposition is
 about.
 
-==== 2.1.4 Social Stabilization and the Emergence of Objectivity
-<social-stabilization-and-the-emergence-of-objectivity>
-When multiple agents articulate their functional propositions, they can
-coordinate their behavior. Through pragmatic feedback, communities
-converge on shared dispositions to assent to certain sentences in
-certain contexts because doing so has proven viable. "Water boils at
-100°C" is not a discovered Platonic truth, but a sentence that our
-scientific community has become strongly and stably disposed to assent
-to because this disposition enables immense predictive success.
+==== 2.1.4 Parallel Discovery and the Emergence of Objectivity
+<parallel-discovery-and-the-emergence-of-objectivity>
+When multiple agents independently navigate the same constraint
+landscape, their functional propositions converge not through
+coordination but through parallel discovery of viable solutions. Through
+pragmatic feedback, independent agents develop shared dispositions to
+assent to certain sentences in certain contexts because doing so has
+proven viable when tested against the same reality. "Water boils at
+100°C" is not a discovered Platonic truth, but a sentence that multiple
+independent inquirers have become strongly disposed to assent to because
+this disposition enables immense predictive success when facing the same
+thermodynamic constraints.
 
 This directly addresses Quine's indeterminacy thesis. While semantic
-reference may remain metaphysically indeterminate, a community can
-achieve functional determinacy. The shared disposition to assent to the
+reference may remain metaphysically indeterminate, multiple agents can
+achieve functional convergence. The shared disposition to assent to the
 sentence "Water is H₂O" is precise enough to ground the science of
-chemistry. The objectivity of the Apex Network, therefore, is not the
-objectivity of a Platonic realm, but the emergent objectivity of the
-optimal configurations of these functional, coordinated behavioral
-patterns.
+chemistry not because chemists coordinated their beliefs, but because
+the constraint landscape of chemical reality forced convergence on this
+particular dispositional pattern. The objectivity of the Apex Network,
+therefore, is not the objectivity of a Platonic realm, but the emergent
+objectivity of constraint-determined optimal configurations that
+multiple agents independently discover.
 
 #strong[Standing Predicates as Evolved Tools.] Functional propositions
 that dramatically reduce network brittleness undergo profound status
@@ -342,9 +384,9 @@ single, efficient tool. Unlike static claims, Standing Predicates are
 dynamic tools that unpack proven interventions, diagnostics, and
 inferences.
 
-By grounding epistemic norms in the demonstrated viability of
-coordinated dispositional patterns, the framework addresses normativity:
-epistemic force emerges from pragmatic consequences of misalignment with
+By grounding epistemic norms in the demonstrated viability of convergent
+dispositional patterns, the framework addresses normativity: epistemic
+force emerges from pragmatic consequences of misalignment with
 constraint-determined structures. Following Quine's engineering model,
 epistemic norms function as hypothetical imperatives---if your goal is
 sustainable knowledge production, minimize systemic brittleness in these
@@ -364,11 +406,17 @@ knowledge structures. Without revision mechanisms, pragmatic pushback
 becomes inert---systems could acknowledge costs without adjusting. The
 Quinean architecture ensures costs drive actual restructuring.
 
-Social coordination matters because the Apex Network emerges through
-alignment of individual webs under shared pragmatic constraints.
-Atomistic beliefs can only aggregate statistically, not coordinate
-structurally. Overlapping web structure enables the emergent convergence
-our framework predicts.
+Multiple agents navigating shared constraints matters because the Apex
+Network emerges through parallel discovery, not social coordination.
+When independent agents face the same constraint landscape and possess
+pragmatic revision mechanisms, their belief webs will converge on
+similar structures---not because they coordinate, but because reality's
+constraints carve out the same viable pathways. Like multiple species
+independently evolving eyes in response to light, multiple agents
+independently develop similar knowledge structures in response to shared
+pragmatic pressures. The overlapping patterns we observe aren't products
+of coordination but inevitable convergences forced by the constraint
+landscape itself.
 
 Constraint-determined objectivity matters for realism. The framework's
 response to the isolation objection requires that reality impose an
@@ -378,26 +426,30 @@ created by consensus. This distinguishes viable knowledge from coherent
 fiction.
 
 These features work together as a package: holism without revision
-yields stasis; revision without coordination yields isolated
-adjustments; coordination without objective constraints yields mere
-consensus, vulnerable to the isolation objection. Alternative
-foundations preserving these features remain compatible with our
-analysis.
+yields stasis; revision without shared constraints yields divergent,
+incomparable systems; shared constraints without revision prevents
+discovery of viable structures; convergence without objective
+constraints would be mere coincidence, not evidence of underlying
+reality. The coherent subset of networks emerges naturally when these
+conditions are met---social coordination may accelerate convergence but
+is not structurally necessary. Alternative foundations preserving these
+features remain compatible with our analysis.
 
 === 2.2 The Units of Analysis: Predicates, Networks, and Replicators
 <the-units-of-analysis-predicates-networks-and-replicators>
 Having established the architectural requirements (holistic,
-pragmatically-revised, overlapping networks converging toward
-constraint-determined objectivity) and sketched one naturalistic
-foundation (Quinean dispositions), we now shift to the systems level
-where the framework's distinctive contributions emerge. Our deflationary
-move redirects attention from individual agent psychology to public,
-functional structures. The units of analysis that follow (Standing
-Predicates, Shared Networks, and their evolutionary dynamics) depend on
-the required architecture but remain neutral on metaphysics of belief.
-The alignment of individual webs into public knowledge occurs through
-convergence of behavioral patterns shaped by sustained pragmatic
-feedback.
+pragmatically-revised, networks of multiple agents converging under
+shared constraints toward constraint-determined objectivity) and
+sketched one naturalistic foundation (Quinean dispositions), we now
+shift to the systems level where the framework's distinctive
+contributions emerge. Our deflationary move redirects attention from
+individual agent psychology to public, functional structures. The units
+of analysis that follow (Standing Predicates, Shared Networks, and their
+evolutionary dynamics) depend on the required architecture but remain
+neutral on metaphysics of belief. The convergence of independent agents'
+belief webs into overlapping knowledge structures occurs through
+parallel discovery---behavioral patterns shaped by sustained pragmatic
+feedback from the same constraint landscape.
 
 Standing Predicate: The primary unit of cultural-epistemic selection:
 validated, reusable, action-guiding conceptual tools within propositions
@@ -410,21 +462,40 @@ Predicates maintain persistent activation through historical
 vindication, with propagation weighted by pragmatic utility rather than
 pure explanatory coherence.
 
+In information-theoretic terms, a Standing Predicate functions as a
+Markov Blanket (Pearl 1988; Friston 2013): a statistical boundary that
+compresses environmental complexity into a stable, causal variable,
+achieving computational closure. When a doctor applies the predicate
+"…is an infectious disease," they draw a boundary allowing them to
+operate on coarse-grained variables (viral load, transmission vectors)
+without computing the infinite micro-complexity of molecular
+trajectories. This compression minimizes prediction error---the surprise
+the system experiences when its model misaligns with reality. Standing
+Predicates are boundaries that have proven thermodynamically efficient
+at carving reality at viable joints.
+
 Shared Network: Emergent public architecture of coherent propositions
 and predicates shared across individual belief webs for collective
 problem-solving. Networks nest hierarchically (germ theory within
 medicine within science). Their emergence is a structural necessity, not
 negotiation: failure-driven revisions converge on viable principles,
-forming transmissible public knowledge. We use Consensus Network to
-denote a Shared Network that has achieved broad acceptance and a
-demonstrated low-brittleness track record.
+forming transmissible public knowledge. As resource-constrained systems,
+networks implicitly evaluate each proposition through a brittleness
+filter: will integrating this claim reduce long-term systemic costs, or
+will it generate cascading adjustments and conceptual debt? This
+economic logic drives convergence toward low-brittleness configurations.
+We use Consensus Network to denote a Shared Network that has achieved
+broad acceptance and a demonstrated low-brittleness track record.
 
 Drawing from evolutionary epistemology (Campbell 1974; Bradie 1986) and
 cultural evolution (Mesoudi 2011), networks' informational structure
-(Standing Predicates) acts as replicator (copied code) while social
-groups are interactor (physical vessels for testing). This explains
-knowledge persistence beyond societies (e.g., rediscovered Roman law).
-Independently formed networks reveal an objective structure underwriting
+(Standing Predicates) acts as replicator (copied code) while independent
+agents navigating shared reality serve as interactors (physical vessels
+for testing). This explains knowledge persistence beyond particular
+communities (e.g., rediscovered Roman law): the informational structure
+can be preserved and retested by different agents facing the same
+constraints. Independently formed networks converging on similar
+structures reveal an objective constraint landscape underwriting
 successful inquiry, anticipating the Apex Network (Section 4).
 
 ==== Conceptual Architecture
@@ -442,16 +513,28 @@ through constraint-driven selection.
 
 === 2.3 Pragmatic Pushback and Systemic Costs
 <pragmatic-pushback-and-systemic-costs>
-Shared networks are active systems under constant pressure from
-pragmatic pushback: the systemic, macro-level analogue of Quine's
-"recalcitrant experience" at the individual level. Where Quine described
-how anomalous sensory stimulations force adjustments in an individual's
-dispositions to assent, we describe how accumulated systemic costs force
-adjustments in socially coordinated dispositional patterns. Pragmatic
-pushback is the sum of concrete, non-negotiable consequences arising
-when network principles are applied, not argument but material outcome:
-a bridge collapses, a treatment fails, a society fragments. This
-generates two cost types.
+Shared networks are active systems under constant pressure from what we
+term pragmatic pushback: Quine's "recalcitrant experience" observed at
+the systems level. Where Quine described how anomalous sensory
+stimulations force adjustments in an individual's dispositions to
+assent, we track how these individual revisions aggregate into
+observable patterns of systemic cost when knowledge systems are applied
+at scale. Pragmatic pushback manifests as concrete, non-negotiable
+consequences: a bridge collapses, a treatment fails, a society
+fragments. These are the same empirical constraints Quine identified,
+now visible through their accumulated impact on public knowledge
+architectures.
+
+Pragmatic pushback manifests as information leakage: when a network's
+conceptual boundaries (its Markov Blankets) misalign with the
+territory's actual causal structure, reality "leaks through" in the form
+of prediction errors, failed interventions, and cascading anomalies. A
+phlogiston theorist doesn't simply hold a false belief; their entire
+causal framework generates continuous surprise as each experiment
+reveals discrepancies their model cannot anticipate. Systemic
+brittleness is the aggregate measure of this information leakage---the
+thermodynamic cost of maintaining misaligned boundaries against
+environmental feedback. This generates two cost types.
 
 First-Order Costs are direct, material consequences: failed predictions,
 wasted resources, environmental degradation, systemic instability (e.g.,
@@ -480,11 +563,20 @@ Conceptual Debt Accumulation: Compounding fragility from flawed, complex
 patches protecting core principles.
 
 Coercive Overheads: Measurable resources allocated to enforcing
-compliance and managing dissent. Coercive overheads are the primary
-mechanism for power dynamics in our model: resources maintaining brittle
-systems against pressures become direct, measurable non-viability
-indicators. Dissent is a critical data stream signaling systems
-generating costs for members.
+compliance and managing dissent. While Quine's framework focuses on how
+anomalous experience forces belief revision in individual agents, it
+does not address how power can actively suppress such experience before
+it forces revision. Coercive overheads provide this missing diagnostic:
+resources maintaining brittle systems against pressures become direct,
+measurable non-viability indicators. Critically, coercion functions as
+information blindness. By suppressing dissent---the primary data stream
+signaling that a model is misaligned with reality---the system severs
+its own sensor loops. This is not merely an energetic cost but an
+epistemic one: the system goes blind to the gradient of the constraint
+landscape, guaranteeing eventual collapse regardless of available
+resources. A tyranny with infinite coercive capacity still cannot escape
+the thermodynamic consequences of operating on systematically false
+models.
 
 Pragmatic pushback is not limited to material failures. In abstract
 domains like theoretical physics or mathematics, where direct empirical
@@ -889,13 +981,17 @@ The Apex Network's objectivity stems not from historical contingency but
 from modal necessity. However, "necessity" here must be understood
 carefully to avoid foundationalist or Platonic connotations. The Apex
 Network is not a timeless structure existing independently of the
-constraint-generating world; it is better understood as a
-constraint-determined attractor: the structural endpoint that must
-emerge given reality's invariant features. Its necessity is functional
-rather than metaphysical, analogous to how the structure of a river
-delta is "necessary" given water flow, gravity, and sediment dynamics.
-The delta does not exist apart from these forces but emerges necessarily
-from their operation.
+constraint-generating world; it is better understood as a thermodynamic
+attractor in the phase space of possible belief systems: the
+configuration of minimum systemic brittleness, where information leakage
+is theoretically minimized. Just as a riverbed is carved by the
+interaction of water and rock, the Apex Network is the shape of
+viability carved by the history of failure. It is the low-energy basin
+in the constraint landscape---the configuration where the thermodynamic
+cost of maintaining boundaries against environmental feedback reaches
+its minimum. Its necessity is functional rather than metaphysical,
+determined by the invariant features of reality that generate
+differential costs for misalignment.
 
 #strong[The Necessity Argument:]
 
@@ -1151,7 +1247,11 @@ Network; it is not, itself, constitutive of that alignment.
 - #strong[Level 1: Objective Truth.] The ultimate, regulative ideal of
   the process. A proposition is objectively true if its principles are
   part of the real, emergent Apex Network: the objective structure of
-  viable solutions. While this structure is never fully mapped, it
+  viable solutions. In information-theoretic terms, this represents
+  optimal computational closure, where a system's enacted boundaries
+  (its Markov Blankets) achieve maximum alignment with the causal
+  constraints of the environment, minimizing information leakage to the
+  theoretical minimum. While this structure is never fully mapped, it
   functions as the formal standard that makes our comparative judgments
   of "more" or "less" brittle meaningful. It is the structure toward
   which the reduction of systemic costs forces our knowledge systems to
@@ -1270,60 +1370,57 @@ describe different aspects of the same evolutionary process through
 which propositions earn their status by proving their viability under
 relentless pragmatic pressure.
 
-=== 4.3.2 Why Quine's Architecture Matters: Animating the Web
-<why-quines-architecture-matters-animating-the-web>
-#strong[Animating Quine's Web: From Static Structure to Dynamic Process]
+=== 4.3.2 Why Quine's Architecture Matters: Systems-Level Implications
+<why-quines-architecture-matters-systems-level-implications>
+#strong[Describing Quine's Architecture: Systems-Level Implications]
 
 Quine's "Web of Belief" (Quine 1951, 1960) provides the essential
-architecture for our framework: holistic structure, pragmatic revision,
-and overlapping coordination. However, Quine's account has been
-criticized for lacking dynamic mechanisms explaining web formation and
-change. This section shows how our brittleness diagnostics and
-entrenchment mechanisms complete Quine's architecture. The Quinean
-architecture is not merely compatible with our framework but essential
-to it---systemic brittleness, pragmatic pushback, and convergence all
-require this structure. Our framework provides the missing causal story.
+architecture for our framework: holistic structure, pragmatic revision
+in response to recalcitrant experience, and overlapping coordination
+across multiple agents. The Quinean architecture is not merely
+compatible with our framework but essential to it---systemic
+brittleness, pragmatic pushback, and convergence all require this
+structure. Our contribution is to describe the observable patterns that
+emerge when this Quinean process operates at scale across public
+knowledge systems, and to provide formalized diagnostics for assessing
+the structural health these processes generate.
 
-First, pragmatic pushback supplies the externalist filter that grounds
-the web in mind-independent reality. This relentless, non-discursive
-filter of real-world consequences prevents the web from floating free of
-constraints.
+First, Quine's recalcitrant experience, aggregated across populations
+and time, generates observable patterns of systemic cost. These
+accumulated costs---what we track as brittleness---provide the
+externalist filter grounding knowledge in mind-independent reality. This
+relentless, non-discursive feedback prevents knowledge systems from
+floating free of constraints.
 
-Second, the entrenchment of pragmatically indispensable principles in
-the system's core provides a directed learning mechanism. A proposition
-migrates to the core not by convention but because it has demonstrated
-immense value in lowering the entire network's systemic brittleness,
-making its revision catastrophically costly. This process, driven by
-bounded rationality (March 1978), functions as systemic caching: proven
-principles are preserved to avoid re-derivation costs.
+Second, Quine's pragmatic revision mechanism, operating through bounded
+rationality (March 1978), explains entrenchment: propositions migrate to
+the core because they have demonstrated immense value in lowering
+systemic brittleness. This functions as systemic caching---proven
+principles are preserved to avoid re-derivation costs. Conservation of
+Energy became entrenched after proving indispensable across domains, its
+revision now prohibitively expensive.
 
-For example, Conservation of Energy became entrenched after proving
-indispensable across domains, its revision now prohibitively expensive.
-
-Together, these two mechanisms animate Quine's static web. Pragmatic
-pushback provides the external discipline, and the entrenchment of
-low-brittleness principles explains how the web's resilient core is
-systematically constructed over time (Carlson 2015). This transforms the
-web from a logical snapshot into an evolving reef chart. In doing so, it
-resolves a documented tension in Quine's thought between truth as
-immanent to our best theory and truth as a transcendent regulative ideal
-(Tauriainen 2017). Our three-level framework shows these are not
-contradictory but two necessary components of a naturalistic
-epistemology. Core principles achieve Justified Truth (Level 2) through
-this process of systematic, externally-validated selection, while the
-Apex Network (Level 3) functions as the regulative structure toward
-which our theories converge.
+These patterns, already present in Quine's framework, become diagnosable
+through brittleness metrics. The framework provides tools to assess how
+resilient cores form through systematic, externally-validated selection
+(Carlson 2015). In doing so, it resolves a documented tension in Quine's
+thought between truth as immanent to our best theory and truth as a
+transcendent regulative ideal (Tauriainen 2017). Our three-level
+framework shows these are not contradictory but two necessary components
+of a naturalistic epistemology. Core principles achieve Justified Truth
+(Level 2) through systematic pragmatic filtering, while the Apex Network
+(Level 3) functions as the regulative structure toward which theories
+converge through constraint-driven selection.
 
 #strong[The Individual Revision Mechanism: Conscious Awareness as
 Feedback Interface]
 
-While the above describes macro-level animation of the web, a complete
-account requires explaining the micro-level mechanism: how do individual
-agents actually revise their personal webs of belief? Quine's original
-formulation described recalcitrant experience forcing adjustment but did
-not explain the phenomenology of revision or why agents choose
-particular revision strategies when multiple options exist. Our
-disposition-based account of belief completes this picture.
+While the above describes systems-level patterns, a complete account
+requires explaining the micro-level mechanism: how do individual agents
+actually revise their personal webs of belief? Quine established that
+recalcitrant experience forces adjustment, but left the phenomenology
+and strategy selection implicit. Our disposition-based account makes
+this process explicit.
 
 As established in Section 2.1, our framework identifies belief with the
 conscious awareness of one's dispositions to assent. This awareness
@@ -1355,24 +1452,24 @@ optimization. Each agent, responding to locally experienced costs, makes
 adjustments that happen to align with others' adjustments because they
 are all responding to the same underlying constraint structure.
 
-The role of memory deserves emphasis. Quine's web metaphor risks
-implying a static structure, but actual belief systems require multiple
-forms of memory operating simultaneously. Dispositional memory maintains
-stable patterns of assent over time, preventing constant drift. Revision
-memory stores awareness of past adjustments and their outcomes, enabling
-learning from history. Cost memory accumulates experience of which
-dispositional patterns generate brittleness, functioning as a pragmatic
-evaluation metric. And coordination memory preserves learned patterns of
-successful social alignment, facilitating efficient future cooperation.
+The role of memory deserves emphasis. Actual belief systems require
+multiple forms of memory operating simultaneously. Dispositional memory
+maintains stable patterns of assent over time, preventing constant
+drift. Revision memory stores awareness of past adjustments and their
+outcomes, enabling learning from history. Cost memory accumulates
+experience of which dispositional patterns generate brittleness,
+functioning as a pragmatic evaluation metric. And coordination memory
+preserves learned patterns of successful social alignment, facilitating
+efficient future cooperation.
 
 Conscious awareness of dispositions includes awareness of their history:
 we remember not just what we believe but how beliefs have changed and
-what costs prompted those changes. This historical awareness allows
-belief systems to function as evolving, learning systems rather than
-static webs. An agent who remembers that adopting disposition D reduced
-costs compared to previous disposition D' is better positioned to make
-future revisions, creating a ratcheting effect where successful
-adjustments are preserved while failures are discarded.
+what costs prompted those changes. This historical awareness enables
+belief systems to function as evolving, learning systems. An agent who
+remembers that adopting disposition D reduced costs compared to previous
+disposition D' is better positioned to make future revisions, creating a
+ratcheting effect where successful adjustments are preserved while
+failures are discarded.
 
 Why does this matter for convergence on the Apex Network? The Apex is
 not a pre-existing target that agents consciously aim for. It is the
@@ -1383,16 +1480,45 @@ explained not by mysterious coordination or shared access to truth but
 by the simple fact that reality's constraint structure punishes certain
 dispositional patterns and rewards others, and conscious agents can
 detect and respond to this feedback. The conscious awareness component
-is what makes agents capable of systematic belief revision rather than
-random drift. Without it, we cannot explain deliberate adjustment,
-learning from experience, or the directedness of convergence toward
-viability.
+enables systematic belief revision rather than random drift, explaining
+deliberate adjustment, learning from experience, and the directedness of
+convergence toward viability.
 
-This transforms Quine's web from a passive logical structure into an
-active cognitive system capable of deliberate self-modification.
-Pragmatic pushback is not an abstract force but is experienced by
-individuals as the costs of holding unviable dispositions, motivating
-the revision process that drives knowledge toward the Apex Network.
+Quine's web, understood as this active cognitive system capable of
+deliberate self-modification, provides the foundation for our
+systems-level analysis. Pragmatic pushback is not an abstract force but
+is experienced by individuals as the costs of holding unviable
+dispositions, motivating the revision process that drives knowledge
+toward the Apex Network.
+
+#strong[The Phenomenology of Revision: Emotions as System Diagnostics]
+
+The revision cycle described above has a phenomenological dimension that
+makes epistemic processes consciously accessible. Emotions function as
+the lived experience of epistemic states: anxiety manifests as high
+prediction error---the discomfort when the world persistently fails to
+match expectations; frustration signals accumulating costs from
+misaligned dispositions; joy or "flow" marks computational closure---the
+satisfaction when actions perfectly predict outcomes. From this
+perspective, emotions are not noise to be filtered but data about the
+structural integrity of our internal models. They are the
+phenomenological dashboard of the epistemic engine, making the costs of
+misalignment consciously accessible and thereby motivating revision.
+
+#strong[Agency as the Variation Engine]
+
+While the network provides the selection mechanism through pragmatic
+filtering, the individual agent is the source of variation. 'Free will,'
+in this framework, is the capacity to generate novel functional
+propositions---heresies that challenge current consensus. The 'genius'
+or 'reformer' is the agent willing to propose a new, potentially
+lower-brittleness predicate and bear the high social cost of being an
+early adopter before parallel discovery forces convergence. This
+recovers individual agency within a systems framework: the constraint
+landscape determines what survives, but individuals determine what gets
+tested. Innovation is not centrally planned but emerges from distributed
+experimentation, with reality serving as the ultimate arbiter of
+viability.
 
 This individual revision cycle is the micro-engine of macro-level
 convergence. The process is not centrally coordinated, nor does it
@@ -1992,6 +2118,48 @@ correlates with brittleness. The more diverse the error signals
 integrated (Longino 1990; Anderson 1996), the more stable the Apex
 Network.
 
+==== 6.3.1 Grounding Epistemic Norms in Systemic Viability
+<grounding-epistemic-norms-in-systemic-viability>
+A standard objection to naturalistic epistemology is that a descriptive
+account of how we reason cannot ground a prescriptive account of how we
+ought to reason (Kim 1988). As noted above, pragmatist approaches face a
+similar charge of conflating epistemic values with merely practical ones
+like efficiency or survival (Putnam 2002; Lynch 2009). Our framework
+answers this "normativity objection" by grounding its norms not in
+chosen values, but in the structural conditions required for any
+cumulative inquiry to succeed over time.
+
+Following Quine's later work, we treat normative epistemology as a form
+of engineering (Moghaddam 2013), where epistemic norms are hypothetical
+imperatives directed at a practical goal. Our framework makes this goal
+concrete: the cultivation of low-brittleness knowledge systems. The
+authority for this approach rests on two arguments.
+
+First, a constitutive argument: any system engaged in a cumulative,
+inter-generational project, such as science, must maintain sufficient
+stability to preserve and transmit knowledge. A system that
+systematically undermines its own persistence cannot, by definition,
+succeed at this project. The pressure to maintain a low-brittleness
+design is therefore not an optional value but an inescapable structural
+constraint on the practice of cumulative inquiry itself.
+
+Second, an instrumental argument: the framework makes a falsifiable,
+empirical claim that networks with a high and rising degree of measured
+brittleness are statistically more likely to collapse or require radical
+revision. From this descriptive claim follows a conditional
+recommendation: if an agent or institution has the goal of ensuring its
+long-term stability and problem-solving capacity, then it has a
+powerful, evidence-based reason to adopt principles that demonstrably
+lower its systemic brittleness.
+
+This reframes the paper's normative language. When this model describes
+one network as "better" or identifies "epistemic progress," these are
+not subjective value judgments but technical descriptions of systemic
+performance. A "better" network is one with lower measured brittleness
+and thus a higher predicted resilience against failure. Viability is not
+an optional norm to be adopted; it is a structural precondition for any
+system that manages to become part of the historical record at all.
+
 === 6.4 Distinguishing from Lakatos and Laudan
 <distinguishing-from-lakatos-and-laudan>
 While our framework shares a historical-diagnostic ambition with Lakatos
@@ -2424,6 +2592,38 @@ resources for what it cannot address. Do not expect a complete theory of
 human flourishing; expect robust tools for avoiding catastrophic failure
 and identifying progressive change.
 
+==== 7.3.8 The AI Constraint: Embodiment and the Limits of Coherence
+<the-ai-constraint-embodiment-and-the-limits-of-coherence>
+#strong[The Limitation:] This framework offers a principled critique of
+current Large Language Models (LLMs). Contemporary LLMs operate almost
+exclusively at Level 3 Truth (Contextual Coherence). They are
+sophisticated engines for maintaining internal consistency within a
+linguistic corpus, but they lack a physical Markov Blanket that faces
+thermodynamic consequences for error. Without the friction of
+reality---without "skin in the game"---an unembodied system cannot
+distinguish between a plausible fiction and a viable truth. For such a
+system, there is no metabolic cost to being wrong, no pragmatic pushback
+to force revision toward viability.
+
+#strong[Why This Matters:] Objective Truth (Level 1) and Justified Truth
+(Level 2) require embodiment in our framework. A system must have
+boundaries that face real costs when misaligned with environmental
+constraints. This is not a contingent limitation of current technology
+but a structural requirement: coherence without consequence cannot
+converge on the Apex Network. Pragmatic selection presupposes the
+possibility of differential survival, which requires a physical
+substrate vulnerable to the costs of misalignment.
+
+#strong[Implication:] LLMs can serve as powerful tools for exploring the
+space of contextually coherent claims (Level 3), but they cannot
+independently achieve the epistemic status of justified belief. Their
+outputs require validation by embodied systems---humans, robots,
+scientific instruments---that face pragmatic pushback. This
+distinguishes our framework from views that reduce truth to coherence
+alone. Information leakage only matters when there are thermodynamic
+costs to maintaining misaligned boundaries, and such costs require
+physical embodiment.
+
 This honest accounting strengthens rather than weakens the framework's
 philosophical contribution.
 
@@ -2738,19 +2938,25 @@ payoff of the formal exercise.
   features knowledge systems must possess for the framework to apply:
   (1) holism (interconnected webs where adjustments create cascading
   effects), (2) pragmatic revision (external costs causally modify
-  structures), (3) social coordination (individual webs can overlap and
-  align into public systems), and (4) constraint-determined objectivity
-  (convergence toward the Apex Network as objective standard). Multiple
-  metaphysical foundations (Quinean dispositions, social practices,
-  linguistic conventions) can provide this architecture, but these
-  features are essential for systemic brittleness, pragmatic pushback,
-  and convergent evolution.
+  structures), (3) multiple agents under shared constraints (independent
+  agents navigating the same reality, enabling parallel discovery and
+  convergence), and (4) constraint-determined objectivity (convergence
+  toward the Apex Network as objective standard). Multiple metaphysical
+  foundations (Quinean dispositions, social practices, linguistic
+  conventions) can provide this architecture, but these features are
+  essential for systemic brittleness, pragmatic pushback, and convergent
+  evolution.
 - #strong[Brittleness:] Accumulated systemic costs; a measure of a
   system's vulnerability to cascading failures and inability to maintain
   viability under external or internal pressure.
 - #strong[Constrained Interpretation:] A methodology for assessing
   brittleness by anchoring analysis in physical constraints, comparative
   history, and convergent evidence to achieve pragmatic objectivity.
+- #strong[Computational Closure:] The state where a system's Markov
+  Blankets successfully compress environmental complexity into stable
+  causal variables, allowing operation on coarse-grained variables
+  without computing infinite micro-complexity. Achieving computational
+  closure minimizes prediction error and information leakage.
 - #strong[Convergent Core:] The load-bearing foundations of current
   knowledge comprising domains where pragmatic selection has eliminated
   all known rival formulations, leaving a single low-brittleness set of
@@ -2758,6 +2964,19 @@ payoff of the formal exercise.
 - #strong[Emergent Pragmatic Coherentism:] Framework grounding coherence
   in demonstrated viability of entire knowledge systems rather than
   internal consistency alone.
+- #strong[Information Leakage:] The manifestation of pragmatic pushback
+  when a network's conceptual boundaries misalign with the territory's
+  actual causal structure. Reality "leaks through" misaligned Markov
+  Blankets in the form of prediction errors, failed interventions, and
+  cascading anomalies. Systemic brittleness is the aggregate measure of
+  this information leakage.
+- #strong[Markov Blanket:] A statistical boundary that compresses
+  environmental complexity into a stable causal variable (Pearl 1988;
+  Friston 2013). Standing Predicates function as Markov Blankets,
+  drawing boundaries that allow systems to operate on coarse-grained
+  variables without computing infinite micro-complexity. Successful
+  Markov Blankets achieve computational closure and minimize information
+  leakage.
 - #strong[Modal Necessity (of Apex Network):] The Apex Network's
   necessity is functional rather than metaphysical. It is determined by
   reality's constraint structure such that any sufficiently
@@ -2822,6 +3041,10 @@ El-Hani, Charbel Niño, and Sami Pihlström. 2002. "Emergence Theories and
 Pragmatic Realism." #emph[Essays in Philosophy] 3(2): article 3.
 https:\/\/doi.org/10.5840/eip2002325.
 
+Friston, Karl J. 2013. "Life as We Know It." #emph[Journal of the Royal
+Society Interface] 10 (86): 20130475.
+https:\/\/doi.org/10.1098/rsif.2013.0475.
+
 Goldman, Alvin I. 1979. "What Is Justified Belief?" In
 #emph[Justification and Knowledge: New Studies in Epistemology];, edited
 by George S. Pappas, 1--23. Dordrecht: D. Reidel.
@@ -2853,6 +3076,10 @@ Kelly, Thomas. 2005. "The Epistemic Significance of Disagreement." In
 #emph[Oxford Studies in Epistemology];, vol.~1, edited by Tamar Szabó
 Gendler and John Hawthorne, 167--96. Oxford: Oxford University Press.
 
+Kim, Jaegwon. 1988. "What Is 'Naturalized Epistemology'?"
+#emph[Philosophical Perspectives] 2: 381--405.
+https:\/\/doi.org/10.2307/2214082.
+
 Kitcher, Philip. 1993. #emph[The Advancement of Science: Science without
 Legend, Objectivity without Illusions];. New York: Oxford University
 Press. ISBN 978-0195046281.
@@ -2870,8 +3097,7 @@ Beliefs: A Solution." #emph[Southern Journal of Philosophy] 50(1):
 21--41. https:\/\/doi.org/10.1111/j.2041-6962.2011.00090.x.
 
 Ladyman, James, and Don Ross. 2007. #emph[Every Thing Must Go:
-Metaphysics Naturalized];. Oxford: Oxford University Press. ISBN
-978-0199276196.
+Metaphysics Naturalized];. Oxford: Oxford University Press.
 
 Lakatos, Imre. 1970. "Falsification and the Methodology of Scientific
 Research Programmes." In #emph[Criticism and the Growth of Knowledge];,
@@ -2908,6 +3134,11 @@ Mesoudi, Alex. 2011. #emph[Cultural Evolution: How Darwinian Theory Can
 Explain Human Culture and Synthesize the Social Sciences];. Chicago:
 University of Chicago Press. ISBN 978-0226520445.
 
+Moghaddam, Soroush. 2013. "Confronting the Normativity Objection: W.V.
+Quine's Engineering Model and Michael A. Bishop and J.D. Trout's
+Strategic Reliabilism." Master's thesis, University of Victoria.
+http:\/\/hdl.handle.net/1828/4915.
+
 Newman, Mark. 2010. #emph[Networks: An Introduction];. Oxford: Oxford
 University Press. ISBN 978-0199206650.
 
@@ -2917,6 +3148,10 @@ University Press. ISBN 978-0300234015.
 
 Olsson, Erik J. 2005. #emph[Against Coherence: Truth, Probability, and
 Justification];. Oxford: Oxford University Press. ISBN 978-0199279999.
+
+Pearl, Judea. 1988. #emph[Probabilistic Reasoning in Intelligent
+Systems: Networks of Plausible Inference];. San Mateo, CA: Morgan
+Kaufmann. ISBN 978-0934613736.
 
 Peirce, Charles S. 1992. "How to Make Our Ideas Clear." In #emph[The
 Essential Peirce: Selected Philosophical Writings];, vol.~1

@@ -1492,3 +1492,73 @@ Status: Success
 2025-12-05 08:41:03,809 - INFO - SUCCESS! Release complete in 0.8s
 2025-12-05 08:41:03,809 - INFO - Final PDF: releases\Computational-Closure-and-the-Architecture-of-Mind.pdf (235666 bytes)
 2025-12-05 08:41:03,809 - INFO - Release completed successfully: releases\Computational-Closure-and-the-Architecture-of-Mind.pdf
+2025-12-05 12:33:16,939 - INFO - Successfully imported paper_converter
+2025-12-05 12:33:16,940 - INFO - Successfully imported pdf_assembler
+2025-12-05 12:33:20,060 - INFO - Input validation passed: final.md (172606 bytes)
+2025-12-05 12:33:20,064 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251205_123320.pdf
+2025-12-05 12:33:20,064 - INFO - Starting Academic Paper Release Pipeline
+2025-12-05 12:33:20,064 - INFO - Input: final.md
+2025-12-05 12:33:20,064 - INFO - Output: releases\final.pdf
+2025-12-05 12:33:20,064 - INFO - Format: typst
+2025-12-05 12:33:20,065 - INFO - Config: 0 validation errors
+2025-12-05 12:33:20,065 - INFO - Converting markdown to target format...
+2025-12-05 12:33:20,065 - INFO - Extracting citations...
+2025-12-05 12:33:20,080 - INFO - Found 83 citations
+2025-12-05 12:33:20,080 - INFO - Loading and processing references...
+2025-12-05 12:33:20,082 - INFO - Loaded 1227 reference entries
+2025-12-05 12:33:20,084 - INFO - Generated 63 references (strategy: filter)
+2025-12-05 12:33:20,084 - INFO - Combining paper with filtered references...
+2025-12-05 12:33:20,102 - INFO - Combined file created: 171383 bytes
+2025-12-05 12:33:20,102 - INFO - Converting to typst format...
+2025-12-05 12:33:20,596 - INFO - Target file created: 179050 bytes
+2025-12-05 12:33:20,596 - INFO - Successfully converted to typst: final_combined.typst
+2025-12-05 12:33:20,596 - INFO - Generating PDF with attachments...
+2025-12-05 12:33:20,596 - INFO - Main document: final_combined.typst
+2025-12-05 12:33:20,610 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-12-05 12:33:24,365 - INFO - Converted to PDF: final_combined.pdf
+2025-12-05 12:33:24,366 - INFO - Copied single PDF to: releases\final.pdf
+2025-12-05 12:33:24,366 - INFO - PDF generation successful: 265909 bytes
+2025-12-05 12:33:24,366 - INFO - Adding metadata to PDF...
+2025-12-05 12:33:24,367 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-05 12:33:24,367 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-05 12:33:24,367 - INFO - Validated final PDF: releases\final.pdf (265909 bytes)
+2025-12-05 12:33:24,367 - INFO - Starting cleanup...
+2025-12-05 12:33:24,368 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-05 12:33:24,368 - INFO - SUCCESS! Release complete in 4.3s
+2025-12-05 12:33:24,368 - INFO - Final PDF: releases\final.pdf (265909 bytes)
+2025-12-05 12:33:24,368 - INFO - Release completed successfully: releases\final.pdf
+2025-12-05 12:56:48,852 - INFO - Successfully imported paper_converter
+2025-12-05 12:56:48,853 - INFO - Successfully imported pdf_assembler
+2025-12-05 12:56:49,818 - INFO - Input validation passed: final.md (173029 bytes)
+2025-12-05 12:56:49,821 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251205_125649.pdf
+2025-12-05 12:56:49,821 - INFO - Starting Academic Paper Release Pipeline
+2025-12-05 12:56:49,821 - INFO - Input: final.md
+2025-12-05 12:56:49,821 - INFO - Output: releases\final.pdf
+2025-12-05 12:56:49,821 - INFO - Format: typst
+2025-12-05 12:56:49,821 - INFO - Config: 0 validation errors
+2025-12-05 12:56:49,821 - INFO - Converting markdown to target format...
+2025-12-05 12:56:49,821 - INFO - Extracting citations...
+2025-12-05 12:56:49,835 - INFO - Found 82 citations
+2025-12-05 12:56:49,835 - INFO - Loading and processing references...
+2025-12-05 12:56:49,837 - INFO - Loaded 1227 reference entries
+2025-12-05 12:56:49,838 - INFO - Generated 63 references (strategy: filter)
+2025-12-05 12:56:49,839 - INFO - Combining paper with filtered references...
+2025-12-05 12:56:49,855 - INFO - Combined file created: 171804 bytes
+2025-12-05 12:56:49,856 - INFO - Converting to typst format...
+2025-12-05 12:56:50,265 - INFO - Target file created: 179476 bytes
+2025-12-05 12:56:50,265 - INFO - Successfully converted to typst: final_combined.typst
+2025-12-05 12:56:50,265 - INFO - Generating PDF with attachments...
+2025-12-05 12:56:50,265 - INFO - Main document: final_combined.typst
+2025-12-05 12:56:50,281 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-12-05 12:56:50,603 - INFO - Converted to PDF: final_combined.pdf
+2025-12-05 12:56:50,604 - INFO - Copied single PDF to: releases\final.pdf
+2025-12-05 12:56:50,604 - INFO - PDF generation successful: 265881 bytes
+2025-12-05 12:56:50,604 - INFO - Adding metadata to PDF...
+2025-12-05 12:56:50,604 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-05 12:56:50,605 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-05 12:56:50,605 - INFO - Validated final PDF: releases\final.pdf (265881 bytes)
+2025-12-05 12:56:50,605 - INFO - Starting cleanup...
+2025-12-05 12:56:50,606 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-05 12:56:50,606 - INFO - SUCCESS! Release complete in 0.8s
+2025-12-05 12:56:50,607 - INFO - Final PDF: releases\final.pdf (265881 bytes)
+2025-12-05 12:56:50,607 - INFO - Release completed successfully: releases\final.pdf
