@@ -70,6 +70,8 @@ Davidson, Donald. 1983. “A Coherence Theory of Truth and Knowledge.” In *Tru
 
 Davidson, Donald. 1986. "A Coherence Theory of Truth and Knowledge." In *Truth and Interpretation: Perspectives on the Philosophy of Donald Davidson*, edited by Ernest LePore, 307–19. Oxford: Blackwell.
 
+Dennett, Daniel C. 1991. "Real Patterns." *Journal of Philosophy* 88(1): 27-51. https://doi.org/10.2307/2027085.
+
 Dewey, John. 1929. *The Quest for Certainty: A Study of the Relation of Knowledge and Action*. New York: Minton, Balch & Company. https://doi.org/10.2307/2014669
 
 Dewey, John. 1938. *Logic: The Theory of Inquiry*. New York: Henry Holt and Company. ISBN 978-1406731804.
@@ -280,6 +282,8 @@ Rosenstock, Sarita, Cailin O'Connor, and Justin Bruner. 2017. "In Epistemic Netw
 Rottschaefer, William A. 2012. "Moral Realism and Evolutionary Moral Psychology." In *The Oxford Handbook of Moral Realism*, edited by Paul Bloomfield, 123–45. Oxford: Oxford University Press. ISBN 978-0190068226.
 
 Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Analyse & Kritik* 34(1): 141–156. https://doi.org/10.1515/auk-2012-0110.
+
+Russell, Bertrand. 1913. "On the Notion of Cause." *Proceedings of the Aristotelian Society* 13(1): 1-26. https://doi.org/10.1093/aristotelian/13.1.1.
 
 Russell, Bertrand. 1903. *The Principles of Mathematics*. Cambridge: Cambridge University Press. ISBN 978-1430476030.
 

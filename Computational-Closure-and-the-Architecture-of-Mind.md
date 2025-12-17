@@ -18,6 +18,8 @@ Contemporary theories of mind and knowledge largely talk past one another. Cogni
 
 While other attempts to bridge this gap exist (e.g., evolutionary epistemology emphasizing adaptation or social epistemology focusing on testimony), this paper tentatively proposes that the bridge may lie in information compression. By treating concepts not as abstract representations but as **Markov Blankets** (statistical boundaries that separate internal from external states) that achieve **Computational Closure** (a hypothesized state where the macro-level is causally self-contained), we may be able to trace a continuous line from the thermodynamics of living systems to the structure of belief. We suggest that the drive to minimize prediction error could be the engine that shapes both cognitive architecture and epistemic norms, though this remains a theoretical proposal requiring empirical validation.
 
+Methodologically, this framework adheres to what Ladyman and Ross (2007) term the *Principle of Naturalistic Closure*: we reject a priori intuition as a guide to metaphysics and instead require that epistemological claims unify the special sciences with fundamental physics without contradiction. The Standing Predicates and Markov blankets described herein are not merely psychological heuristics but are motivated by the convergence of thermodynamics and information theory—a convergence that grounds cognition in the physical constraints any bounded system must satisfy.
+
 Our central thesis, which remains speculative, is that consciousness may function as the user interface for a specific type of information processing: structural pattern recognition. We distinguish this from the unconscious, frequency-based processing of statistical regularities. This distinction potentially explains why some knowledge can be acquired from a single instance and may provide a functional basis for the phenomenology of understanding. It also offers a prospective diagnostic for the limitations of current artificial intelligence, though this application requires further investigation.
 
 The argument proceeds as follows. First, we establish the information-theoretic foundations of existence, defending the Free Energy Principle as a constitutive condition for bounded systems (Section 2). Second, we detail how Markov Blankets and computational closure create emergent causal levels (Section 3). Third, we develop our theory of consciousness based on the statistical/structural distinction, separating theoretical foundations (Section 4A) from phenomenological applications (Section 4B). Fourth, we show how logic and mathematics emerge as necessary compression structures (Section 5). Fifth, we examine emergence through computational closure (Section 6). Sixth, we show how this architecture culminates in a naturalized account of truth as alignment with the Apex Network—the thermodynamic attractor for any viable knowledge system (Section 7). Finally, we explore applications to macro-epistemology and systemic brittleness (Section 8).
@@ -34,7 +36,7 @@ Living and cognitive systems differ fundamentally. They compress information, bu
 
 A Note on Entropy and Energy: Throughout this paper, we distinguish between information-theoretic quantities (Shannon entropy as average surprise, measured in bits) and thermodynamic quantities (energy required to process or erase bits). However, these quantities are not merely analogous. Landauer's Principle establishes that information processing has irreducible physical costs: erasing one bit of information requires dissipating at least kT ln(2) joules of energy (Landauer 1961). This means high information leakage (persistent prediction error) implies tangible thermodynamic costs to any physical system, whether in metabolic expenditure to revise models or in kinetic energy wasted on maladaptive action. The link between epistemic brittleness and physical dissipation is therefore causal, not merely metaphorical. When we speak of "information costs" in cognitive systems, we refer to functional constraints that have, at bottom, thermodynamic grounding.
 
-Existence as a persistent bounded entity (rather than a transient pattern) requires information processing. A "thing" exists to the extent it maintains statistical boundaries distinguishing its internal states from external states.
+Existence as a persistent bounded pattern (rather than a transient fluctuation) requires information processing. What we call "things" are better understood as *Real Patterns* in the sense of Dennett (1991) and Ladyman and Ross (2007): they exist to the extent they compress information—maintaining statistical boundaries that distinguish internal from external states while achieving genuine projectibility (predictive purchase on future states).
 
 ### 2.2 The Free Energy Principle
 
@@ -225,9 +227,9 @@ P(μ | s, a, η) = P(μ | s, a)
 
 Internal states depend only on the blanket (sensory and active states), not directly on the external world. This creates conditional independence—the hallmark of autonomous existence. While this formalization provides a useful theoretical framework for understanding autonomy, its applicability across all scales and domains remains an open empirical question requiring further investigation.
 
-### 3.2 Blankets Create "Things"
+### 3.2 Rainforest Realism: Blankets Delineate Real Patterns
 
-Markov blankets are enacted, not discovered. They emerge when certain configurations of matter successfully maintain statistical boundaries against entropic dissolution.
+Markov blankets are enacted, not discovered. They emerge when certain configurations of matter successfully maintain statistical boundaries against entropic dissolution. This perspective aligns with what Ladyman and Ross (2007) call *Rainforest Realism*: the ontology of the world is not a sparse desert of fundamental particles but a rich layering of Real Patterns at every scale where information can be compressed. A Markov blanket does not invent a useful fiction; it isolates a Real Pattern that carries genuine information load—what survives the compression process because it enables prediction.
 
 Examples Across Scales:
 
@@ -572,6 +574,8 @@ Traditional formulation: Why is there "something it is like" to process informat
 
 Correlates, not causes: A crucial clarification. We have identified a functional correlate of consciousness—structural pattern recognition appears to track the phenomenological boundary. But correlation is not causation. The explanatory challenge remains: why should detecting mutual constraints feel like *understanding* while detecting statistical correlations feels like nothing (or mere *familiarity*)? We have narrowed the space of functional properties to examine, but we have not explained why this particular functional property should generate subjective experience. The distinction between conscious and unconscious processing is functional, but the explanandum—why there is "something it is like" to perform one function but not the other—remains experiential and unresolved.
 
+From the perspective of Ontic Structural Realism, this framing may itself be too concessive. If structure is ontologically fundamental—if there are no "things-in-themselves" beyond the relations they participate in—then a complete structural description of the compression process may exhaust the phenomenon rather than merely correlate with it. On this view, phenomenology is not a ghostly residue but the *informational view-from-within* of a Real Pattern maintaining its structural integrity. We remain agnostic on whether OSR fully dissolves the Hard Problem, but note that the "explanatory gap" may presuppose the very substance metaphysics that structural realism rejects.
+
 Our Contribution (A Working Hypothesis):
 
 We propose that consciousness relates to detecting and representing structural coherence rather than merely tracking statistical correlations. This isn't a solution to the hard problem, but it identifies a functional distinction that may map onto the phenomenological boundary between conscious and unconscious processing.
@@ -795,6 +799,8 @@ Not Just Useful Fiction: When computational closure succeeds, the emergent level
 
 Causal Decoupling as Emergence Criterion: Rosas et al. (2024) formalize this as causal decoupling: when the macro-level ε-machine and the micro-informed υ-machine achieve equivalence, the macro-level becomes causally autonomous. This provides a precise criterion for when emergence genuinely succeeds versus when we merely have convenient but reducible description.
 
+A clarification on "causation": following Russell (1913) and Ladyman and Ross (2007), we acknowledge that fundamental physics describes functional dependencies rather than discrete causal "bangs." The "causation" that emerges at macro-levels is therefore best understood as *information-theoretic projectibility*—a macro-state is "causal" not because it exerts a metaphysical force, but because it maximizes mutual information with future states, effectively screening off micro-history. This protects the framework from the objection that we are smuggling metaphysically loaded causation into domains where physics reveals only functional structure.
+
 The key insight: if adding substrate information to your macro-level predictor doesn't improve its accuracy, then the macro-level has achieved causal independence. The emergent pattern is not merely a useful fiction—it genuinely causes its own future states. High-level concepts like "temperature," "infectious disease," or "recession" are causally real precisely because they achieve this decoupling. The macro-level runs its own causal dynamics, making substrate details causally irrelevant (though they remain constitutively necessary).
 
 This framework distinguishes strong from weak emergence rigorously. **Weak emergence** occurs when macro-patterns are predictable from micro-details but the compression works only in limited contexts (weak lumpability). **Strong emergence** occurs when macro-dynamics persist across different substrate realizations (strong lumpability). Only strongly emergent properties qualify as objectively real features of nature rather than observer-relative conveniences.
@@ -874,6 +880,8 @@ Terminological Note: While the mathematical structure is technically a lattice (
 Ontological Status (Structural Emergent, Not Metaphysical Blueprint):
 
 The Apex Network is not a pre-existing Platonic form or cosmic blueprint awaiting discovery. It is the pattern that necessarily crystallizes from the interaction between information-processing systems and environmental constraints. It is determined by constraints rather than our beliefs about them. Its existence is the existence of a determined pattern, not a transcendent entity.
+
+The Apex Network is constrained by the Principle of Naturalistic Closure: a Standing Predicate cannot achieve Apex status through mere internal coherence (Level 3 truth) but must unify special-science hypotheses without contradicting fundamental physics. This is why the Apex Network is not merely "what works for us" (pragmatism) or "what our community agrees upon" (social constructivism), but the set of Real Patterns that achieve genuine integration across the hierarchy of sciences—from thermodynamics to biology to psychology. The constraint is not just thermodynamic viability but consistency with the mathematical structure of our universe.
 
 Modal Determinacy: Given our universe's actual constraint structure (thermodynamics, logical consistency, biological requirements), the Apex Network appears to be the necessary optimal configuration—modally necessary relative to these constraints, though this claim remains theoretical and requires further empirical validation. However, in a universe with different fundamental physics or logical laws, a different Apex Network would emerge. There is no super-cosmic structure independent of physical reality itself.
 
@@ -1188,6 +1196,8 @@ Crutchfield, James P. 1994. "The Calculi of Emergence: Computation, Dynamics and
 
 Crutchfield, James P., and David P. Feldman. 2003. "Regularities Unseen, Randomness Observed: Levels of Entropy Convergence." *Chaos* 13(1): 25-54.
 
+Dennett, Daniel C. 1991. "Real Patterns." *Journal of Philosophy* 88(1): 27-51.
+
 Friston, Karl J. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11(2): 127–138.
 
 Friston, Karl J. 2013. "Life as We Know It." *Journal of the Royal Society Interface* 10(86): 20130475.
@@ -1223,6 +1233,8 @@ Parr, Thomas, and Karl J. Friston. 2025. "How Do Inner Screens Enable Imaginativ
 Pearl, Judea. 1988. *Probabilistic Reasoning in Intelligent Systems*. San Mateo, CA: Morgan Kaufmann.
 
 Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104.
+
+Russell, Bertrand. 1913. "On the Notion of Cause." *Proceedings of the Aristotelian Society* 13: 1-26.
 
 Shannon, Claude E. 1948. "A Mathematical Theory of Communication." *Bell System Technical Journal* 27(3): 379-423.
 
