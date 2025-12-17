@@ -330,8 +330,6 @@ A system achieves computational closure when coarse-grained macro-states form a 
 
 When all three conditions hold, the macro-level constitutes an autonomous causal level. The ε-machine (using only macro-variables) and the υ-machine (with full micro-level access) achieve equivalent predictive accuracy.
 
----
-
 This aligns with Dennett's definition of a real pattern as one that allows for descriptive efficiency better than a bit-map, but we add a crucial physical constraint: the universe itself must produce the boundary. The higher-level system becomes self-contained when you can predict future macro-states using only current macro-states, without tracking micro-details.
 
 This hierarchical emergence arises through self-assembly. Kirchhoff et al. (2018) demonstrate that collectives of Markov blankets can self-assemble into global systems that themselves possess Markov blankets, creating nested boundaries from cells to organisms to social systems. Simulations demonstrate that hierarchical self-organization emerges naturally when microscopic elements have prior beliefs that they participate in macroscopic Markov blankets (Palacios et al. 2020). This suggests nested blanket hierarchies are not imposed from outside but arise spontaneously when components minimize free energy under appropriate constraints—providing a mechanistic account of how computational closure forms across levels.

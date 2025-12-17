@@ -21,36 +21,33 @@
 <computational-closure-and-the-architecture-of-mind-an-information-theoretic-foundation-for-naturalized-epistemology>
 == Abstract
 <abstract>
-Naturalized epistemology seeks to explain how physical processes in the
-brain give rise to norms of justification and truth. This paper explores
-whether information processing might bridge this gap. We examine how
-living systems compress information to maintain themselves, and suggest
-this compression could explain both cognitive architecture and epistemic
-standards.
+This paper proposes that consciousness may track a specific mode of
+information processing: structural pattern recognition, which detects
+necessary relationships between mutually constraining components. We
+distinguish this from statistical pattern matching, which extracts
+correlations through frequency. This distinction explains why some
+knowledge requires extensive sampling (ravens are black) while other
+knowledge achieves validity from singular encounters (fire burns).
+Consciousness, we suggest, serves as the cognitive interface for
+grasping structural coherence.
 
-We distinguish two types of pattern recognition: statistical patterns
-learned through repetition, and structural patterns grasped immediately.
-Consciousness, we propose, may serve as the interface for detecting
-structural patterns: a mechanism for sensing necessary relationships
-between things.
+Drawing on the Free Energy Principle and computational mechanics, we
+argue that cognition compresses information through Markov blankets
+(statistical boundaries) that achieve computational closure when
+macro-level dynamics become causally autonomous from micro-level
+substrates. Truth, we suggest, is alignment with the Optimal Constraint
+Configuration: the set of compression structures that minimize
+information leakage against reality's constraints. This represents a
+thermodynamic attractor for viable knowledge systems.
 
-Truth, we suggest, might be understood not as matching static facts, but
-as alignment with the Optimal Constraint Configuration: the
-thermodynamic attractor where a system's internal model minimizes
-information leakage against the structure of reality. This perspective
-draws on the Free Energy Principle, which describes how systems minimize
-prediction error to persist. While this framework remains speculative
-and requires empirical testing, it offers a way to connect physical
-constraints with epistemic norms without assuming consciousness is
-epiphenomenal.
-
-The account avoids strong claims about consciousness being necessary for
-intelligence, acknowledges that current evidence supports rather than
-proves these ideas, and recognizes that alternative explanations (such
-as evolutionary or social accounts of knowledge) remain viable. Our
-contribution is conceptual integration rather than empirical discovery,
-providing a framework for future investigation rather than definitive
-answers.
+The framework remains speculative and does not solve the hard problem of
+consciousness. However, it identifies functional correlates that narrow
+the explanatory target and offers a naturalistic account of how physical
+constraints give rise to epistemic norms. Our contribution is conceptual
+integration across information theory, cognitive science, and
+epistemology, showing how these frameworks illuminate each other when
+properly connected. Alternative explanations remain viable, and the
+account requires further development and testing.
 
 == 1. Introduction
 <introduction>
@@ -200,9 +197,7 @@ This process is not a goal-directed endeavor but a physical constraint:
 systems that fail to minimize free energy tend to dissipate and vanish,
 whereas those that succeed maintain their integrity as bounded entities.
 In this sense, minimizing free energy is constitutive of
-self-organization (Friston 2010), though this constitutive status
-remains a theoretical proposal rather than an empirically established
-fact, requiring further validation across diverse physical systems.
+self-organization (Friston 2010).
 
 The Free Energy Principle (FEP) builds on broader predictive processing
 frameworks in cognitive science, where brains are understood as
@@ -500,6 +495,61 @@ be represented entirely at the macro-level. A pattern that disappears
 under intervention is merely statistical; a pattern that survives
 intervention is causal; a pattern whose causal structure closes at its
 own boundary is a real whole.
+
+==== 2.5.3 The Cognitive Signature of Structural Recognition
+<the-cognitive-signature-of-structural-recognition>
+The interventional diagnostic provides a retrospective test for
+structural patterns, but cognitive systems must make real-time
+discriminations before extensive testing. How does a mind encountering
+fire for the first time recognize it as a structural pattern worthy of
+immediate trust, while treating raven coloration as requiring further
+sampling?
+
+We propose that structural patterns exhibit a characteristic cognitive
+signature: they generate bidirectional expectations. Recognizing that
+fire produces heat simultaneously generates expectations that heat
+sources may involve combustion, that removing fuel will extinguish
+flame, that nearby objects will warm, that moisture will resist
+ignition. The components constrain each other mutually. This
+bidirectionality---the sense that elements mutually necessitate rather
+than merely predict---may be the functional marker triggering conscious
+engagement.
+
+Statistical patterns, by contrast, generate unidirectional expectations.
+Observing a raven generates the prediction "probably black," but
+observing blackness generates no particular expectation about ravens.
+The pattern runs one way. There is correlation without mutual
+constraint.
+
+This distinction is not merely subjective. The bidirectional constraint
+structure reflects genuine differences in the underlying causal
+topology. Structural patterns exhibit what graph theory calls "dense
+connectivity"---multiple causal paths linking components in reciprocal
+relationships. Statistical patterns exhibit "sparse connectivity"---few
+or one-way linkages vulnerable to confounding. The phenomenological
+difference (the "felt necessity" of structural patterns versus the
+tentative quality of statistical generalizations) may track this
+topological difference.
+
+Implications for knowledge acquisition: This explains why some singular
+experiences carry immediate epistemic weight while others require
+accumulation. When multimodal information streams converge on mutually
+constraining relationships (visual flame + thermal radiation + auditory
+crackling + olfactory combustion products), the brain detects structural
+coherence. The pattern "explains itself" through internal constraint
+relationships, requiring minimal external validation. When information
+streams merely correlate without mutual constraint (black appearance +
+raven shape), the brain requires extensive sampling to distinguish
+genuine pattern from accident.
+
+This account remains functionalist rather than mechanistic. We identify
+what successful structural recognition must accomplish (detecting
+bidirectional constraint networks) and what phenomenological markers
+appear to track this detection (felt necessity, immediate validity,
+conscious awareness). We do not specify neural implementation. Whether
+this involves specific cortical circuits, particular neurotransmitter
+dynamics, or distributed network properties remains an empirical
+question for cognitive neuroscience.
 
 === 2.6 The Framework as Conceptual Scaffolding
 <the-framework-as-conceptual-scaffolding>
@@ -840,10 +890,7 @@ A Markov blanket exists when: P(μ | s, a, η) = P(μ | s, a)
 
 Internal states depend only on the blanket (sensory and active states),
 not directly on the external world. This creates conditional
-independence---the hallmark of autonomous existence. While this
-formalization provides a useful theoretical framework for understanding
-autonomy, its applicability across all scales and domains remains an
-open empirical question requiring further investigation.
+independence---the hallmark of autonomous existence.
 
 This boundary formation is not merely a biological accident but a
 consequence of basic physical constraints. In any system where causes
@@ -1081,23 +1128,32 @@ simpler) dynamics.
 
 === 3.3 Computational Closure: When Emergence Succeeds
 <computational-closure-when-emergence-succeeds>
-Computational closure occurs when coarse-grained states at the higher
-level form a complete, self-contained dynamical system. This aligns with
-Dennett's definition of a real pattern as one that allows for
-descriptive efficiency better than a bit-map, but we add a crucial
-physical constraint: the universe itself must produce the boundary. The
-higher-level system becomes self-contained when you can predict future
-macro-states using only current macro-states, without tracking
-micro-details.
+#strong[Definition: Computational Closure]
 
-Lumpability: Can we group micro-states into macro-states such that the
-macro-dynamics are: - #strong[Deterministic:] Same macro-state always
-transitions to same next macro-state - #strong[Markovian:] Next state
-depends only on current state, not history - #strong[Causally closed:]
-Macro-variables shield internal implementation from external observation
+A system achieves computational closure when coarse-grained macro-states
+form a complete, self-contained dynamical system. This requires three
+conditions:
 
-When all three conditions hold, emergence has succeeded: a new causal
-level exists.
++ #strong[Lumpability:] Micro-states can be grouped into macro-states
+  such that macro-dynamics are deterministic (same macro-state always
+  transitions to the same next macro-state)
++ #strong[Markovianness:] Future macro-states depend only on current
+  macro-state, not on historical trajectory
++ #strong[Causal shielding:] The macro-level is informationally closed
+  from micro-implementation. Adding micro-level information does not
+  improve macro-level prediction
+
+When all three conditions hold, the macro-level constitutes an
+autonomous causal level. The ε-machine (using only macro-variables) and
+the υ-machine (with full micro-level access) achieve equivalent
+predictive accuracy.
+
+This aligns with Dennett's definition of a real pattern as one that
+allows for descriptive efficiency better than a bit-map, but we add a
+crucial physical constraint: the universe itself must produce the
+boundary. The higher-level system becomes self-contained when you can
+predict future macro-states using only current macro-states, without
+tracking micro-details.
 
 This hierarchical emergence arises through self-assembly. Kirchhoff et
 al.~(2018) demonstrate that collectives of Markov blankets can
@@ -1520,14 +1576,13 @@ shared knowledge. Structural learning explains how communities correct
 errors and discover new truths. Together, they account for both the
 persistence and the evolution of cultural knowledge systems.
 
-Having established the architectural foundations of Markov Blankets and
-the distinction between statistical and structural learning, we now
-examine how these information-processing mechanisms give rise to
-phenomenological consciousness. The transition from compression
-algorithms to subjective experience represents one of the most
-challenging aspects of naturalized epistemology, and our framework
-suggests a functional account grounded in the special properties of
-structural pattern recognition.
+Having established how Markov blankets enable computational closure and
+create autonomous causal levels, a question arises: which cognitive
+processes achieve conscious awareness? The statistical/structural
+distinction developed in Section 2.5 becomes crucial here. We propose
+that consciousness specifically tracks structural pattern
+recognition---the detection of bidirectional constraints---while
+statistical processing operates unconsciously.
 
 == 4. From Information Processing to Consciousness
 <from-information-processing-to-consciousness>
@@ -1539,14 +1594,29 @@ vs.~statistical pattern recognition, we can identify specific functional
 correlates of consciousness without claiming to fully solve the Hard
 Problem.
 
-Scope of Claims: We must distinguish the Hard Problem from the
-Structural Problem. The Hard Problem (Chalmers 1996) asks why
-qualitative experience exists at all---why there is "something it is
-like" to see red, why phenomenology has the specific character it does.
-The Structural Problem asks why specific functional processes correlate
-with reportable awareness---why we can introspect on some cognitive
-states but not others, why understanding feels different from mere
-familiarity.
+Scope of Claims: To be precise about our explanatory target, we
+distinguish three problems in consciousness research:
+
++ #strong[The Hard Problem] (Chalmers 1996): Why does any information
+  processing have phenomenal character at all? Why is there "something
+  it is like" to see red rather than mere information processing without
+  subjective experience?
+
++ #strong[The Access Problem];: Which cognitive processes become
+  available for conscious awareness, verbal report, and deliberate
+  reasoning? Why can we introspect on some mental states but not others?
+
++ #strong[The Functional Correlation Problem];: What functional or
+  computational properties distinguish processes that reach
+  consciousness from those that remain unconscious?
+
+Our account addresses problems 2 and 3, not problem 1. We propose that
+structural pattern recognition (detecting mutual constraints between
+components) is the functional process that correlates with access
+consciousness. Processes implementing statistical pattern matching, by
+contrast, operate automatically and transparently. This explains which
+information processing has phenomenal character, not why any processing
+has phenomenal character.
 
 The following two sections address consciousness from complementary
 angles. Section 4A develops the theoretical framework, identifying
@@ -1565,10 +1635,10 @@ Our claim is functional and behavioral: systems achieving computational
 closure regarding their own structural inference processes will exhibit
 the reportable signatures of consciousness. This narrows the explanatory
 target without solving the Hard Problem. We are not asking "why does any
-information processing feel like something?" but rather "why does
-detecting structural constraints feel like something?" That remains
-difficult, but it is a more precise question grounded in a genuine
-functional distinction.
+information processing feel like something?" but rather "which
+information processing becomes accessible to awareness, and why?" This
+question admits functional answers grounded in computational differences
+between pattern recognition modes.
 
 == 4A. Consciousness as Structural Pattern Recognition (Theory)
 <a.-consciousness-as-structural-pattern-recognition-theory>
@@ -1586,6 +1656,16 @@ present themselves as having internal necessity rather than mere
 correlation. Unconscious processing handles statistical pattern matching
 efficiently in the background, while conscious attention engages when
 structural relationships demand explicit reasoning.
+
+Scope of Claim: We are not explaining why any information processing has
+phenomenal character (the hard problem). We are explaining which
+information processing correlates with reportable conscious access---the
+access problem. Our claim: structural pattern recognition is necessary
+for access consciousness. Processes detecting mutual constraints become
+available for verbal report and flexible behavioral control; statistical
+processing operates transparently. This generates testable predictions:
+disrupting structural inference circuits should selectively impair
+conscious access while leaving implicit pattern recognition intact.
 
 ==== 4A.1.1 Negative Methodology for Consciousness Research
 <a.1.1-negative-methodology-for-consciousness-research>
@@ -1624,7 +1704,7 @@ structure is detected
 The Conscious/Unconscious Boundary:
 
 This distinction maps roughly onto the statistical/structural divide
-from Section 1.5. Consciousness appears particularly engaged when the
+from Section 2.5. Consciousness appears particularly engaged when the
 brain detects or attempts to detect structural coherence---when patterns
 present themselves as having internal necessity rather than mere
 correlation.
@@ -2244,177 +2324,29 @@ information leakage is minimized.
 
 == 6. Emergence Through Computational Closure
 <emergence-through-computational-closure>
-=== 6.1 The Mechanism of Emergence Revealed
-<the-mechanism-of-emergence-revealed>
 Classical mystery: How do qualitatively new properties (liquidity, life,
 consciousness) emerge from mere rearrangement of parts?
 
-Computational Closure Answer: Emergence succeeds when a Markov blanket
-configuration achieves: 1. #strong[Lumpability:] Micro-states group into
-stable macro-states 2. #strong[Markovianness:] Macro-dynamics depend
-only on current macro-state 3. #strong[Causal Shielding:] Macro-level is
-informationally closed from micro-implementation
+The answer follows from Section 3.3: emergence succeeds when a Markov
+blanket configuration achieves computational closure---lumpability,
+Markovianness, and causal shielding. When these conditions hold, the
+emergent level is as causally real as the base level.
 
-Not Just Useful Fiction: When computational closure succeeds, the
-emergent level is as real as the base level---it has autonomous causal
-dynamics.
+Rosas et al.~(2024) formalize this as causal decoupling: when the
+macro-level ε-machine achieves equivalent predictive accuracy to the
+micro-informed υ-machine, the macro-level has achieved genuine autonomy.
+This is strong emergence---not merely useful description but
+substrate-independent causal dynamics.
 
-Causal Decoupling as Emergence Criterion: Rosas et al.~(2024) formalize
-this as causal decoupling: when the macro-level ε-machine and the
-micro-informed υ-machine achieve equivalence, the macro-level becomes
-causally autonomous. This provides a precise criterion for when
-emergence genuinely succeeds versus when we merely have convenient but
-reducible description.
+Failed emergence equals information leakage. Phlogiston's attempted
+macro-variable ("phlogiston content") failed lumpability---predicting
+combustion required oxygen levels, molecular structure, and other
+substrate details the macro-variable couldn't capture. The blanket was
+porous; brittleness accumulated until abandonment.
 
-A clarification on "causation": following Russell (1913) and Ladyman and
-Ross (2007), we acknowledge that fundamental physics describes
-functional dependencies rather than discrete causal "bangs." The
-"causation" that emerges at macro-levels is therefore best understood as
-#emph[information-theoretic projectibility];: a macro-state is "causal"
-not because it exerts a metaphysical force, but because it maximizes
-mutual information with future states, effectively screening off
-micro-history. This protects the framework from the objection that we
-are smuggling metaphysically loaded causation into domains where physics
-reveals only functional structure.
-
-The key insight: if adding substrate information to your macro-level
-predictor doesn't improve its accuracy, then the macro-level has
-achieved causal independence. The emergent pattern is not merely a
-useful fiction---it genuinely causes its own future states. High-level
-concepts like "temperature," "infectious disease," or "recession" are
-causally real precisely because they achieve this decoupling. The
-macro-level runs its own causal dynamics, making substrate details
-causally irrelevant (though they remain constitutively necessary).
-
-This framework distinguishes strong from weak emergence rigorously.
-#emph[Weak emergence] occurs when macro-patterns are predictable from
-micro-details but the compression works only in limited contexts (weak
-lumpability). #emph[Strong emergence] occurs when macro-dynamics persist
-across different substrate realizations (strong lumpability). Only
-strongly emergent properties qualify as objectively real features of
-nature rather than observer-relative conveniences.
-
-This connects to a broader information-theoretic understanding of
-emergence: coarse-graining can convert information from one type to
-another, where macroscales reduce total information but may increase
-certain dependency structures (Varley and Hoel 2022). Emergence succeeds
-when this information conversion creates synergistic relationships at
-the macro-level that don't exist at the micro-level---when the whole
-genuinely exhibits causal properties absent from mere aggregation of
-parts.
-
-A common objection holds that emergent entities are simply "fundamental
-particles arranged structure-wise," implying that arrangement language
-is ontologically neutral. This conflates material substrate with causal
-structure. The arrangement is not neutral; it creates new constraints on
-information flow. When a boundary condition creates conditional
-independence---such that intervening on the boundary controls interior
-dynamics---the arrangement has achieved causal autonomy. To deny the
-existence of wholes at this point is to claim that causal efficacy is
-insufficient for existence, a standard that would render even
-fundamental particles (defined by their causal roles) non-existent.
-
-Temperature Example Revisited: - Base: 10²³ molecules with positions,
-momenta - Emergent: Single scalar variable (temperature) -
-#strong[Lumpability:] We can compress 10²³ variables into one without
-losing predictive power for thermodynamic work. -
-#strong[Markovianness:] Future temperature depends on current
-temperature/pressure, not on the specific collision history of
-individual molecules. - #strong[Causal Shielding:] Adding information
-about specific molecular trajectories does not improve the prediction of
-the ice melting rate. The macro-variable shields the mechanism.
-
-This indicates a genuine macro-level causal relationship. When we say
-"high temperature causes ice to melt," the causation is real at the
-temperature level because the macro-description achieves computational
-closure. The micro-details are constitutively necessary but causally
-screened off.
-
-=== 6.2 Failed Emergence = Information Leakage
-<failed-emergence-information-leakage>
-When computational closure fails, information leaks: - Macro-predictions
-require micro-details (lumpability fails) - History matters
-(Markovianness fails) - Internal mechanism observable from outside
-(causal shielding fails)
-
-#strong[Examples:]
-
-Phlogiston (Failed Closure): - Attempted compression: "Phlogiston
-content" explains combustion - Lumpability failed: Cannot predict
-outcomes without oxygen levels, molecular structure - Information
-leaked: Every experiment revealed porous blanket - Result: Brittleness
-accumulated until abandonment
-
-Élan Vital (Failed Closure): - Attempted compression: "Life force"
-explains biological organization - Lumpability failed: Cannot predict
-outcomes without metabolism, genetics, evolution - Information leaked:
-Every discovery revealed mechanistic processes - Result: Brittleness
-accumulated until abandonment
-
-Connection to Brittleness: Information leakage IS systemic brittleness:
-\- P(t) increases: More patches needed as closure fails - M(t)
-increases: Complexity inflates trying to maintain failing blanket - C(t)
-increases: Must suppress disconfirming observations - R(t) decreases:
-Predictions fail across domains
-
-This brittleness can be understood as the divergence between the
-ε-machine (macro-only model) and the υ-machine (micro-informed
-predictor). When a system's macro-level model requires constant
-supplementation with substrate details to maintain predictive accuracy,
-computational closure has failed. The greater this divergence, the more
-brittle the emergent structure. Systems exhibiting large ε/υ divergence
-show characteristic brittleness signatures: they require increasingly
-complex auxiliary hypotheses, their predictions fail across contexts,
-and they eventually collapse as the computational burden of maintaining
-the failing closure becomes unsustainable.
-
-=== 6.3 Generative Priors as Successful Closures
-<generative-priors-as-successful-closures>
-The Compression Efficiency Principle (Dittrich and Kinne 2024) provides
-the micro-level mechanism underlying this brittleness. CEP identifies
-"exception accumulation" as the characteristic failure mode of
-non-generative models: systems relying on superficial correlations
-rather than causal structure exhibit linear growth in exceptions as
-novel cases fail to fit the pattern. This exception growth is precisely
-what our brittleness metrics track at the system level. High patch
-velocity P(t) operationalizes the rate of exception accumulation. Rising
-model complexity M(t) reflects the computational burden of managing
-these exceptions. Declining resilience R(t) signals that the compression
-is failing across contexts. The systemic brittleness quantified by these
-metrics directly corresponds to what CEP identifies as characteristic of
-correlational models that cannot achieve sustainable efficiency because
-they lack genuine causal structure.
-
-We propose that linguistically-encoded predicates serve as carriers for
-successful generative priors, cultural tools that allow individuals to
-adopt computational closures they did not personally derive.
-
-"…is an infectious disease" achieves: 1. #strong[Lumpability:] Groups
-diverse pathogens (bacteria, viruses, prions) under unified
-macro-category 2. #strong[Markovianness:] Can predict epidemiological
-outcomes using only current disease-state (SIR models) 3. #strong[Causal
-Shielding:] Enables intervention (quarantine, vaccination) without
-tracking molecular details
-
-This May Explain Why Generative Priors Feel "Real": They potentially
-carve reality at genuine compression joints---configurations where
-computational closure appears to succeed naturally, though this
-phenomenological account remains speculative and does not imply that all
-successful compressions correspond to metaphysical joints in reality.
-
-Historical Progression: - Miasma Theory: Failed closure (information
-leaked everywhere) - Germ Theory: Successful closure (created new causal
-level) - Molecular Biology: Deeper closure (but germ theory remains
-valid at its scale)
-
-Nested Closures: Higher-level closures don't replace lower ones but
-provide coarser-grained compressions for different purposes.
-
-Emergence through computational closure establishes that macro-levels
-can be genuinely causal. This grounds our account of the ultimate
-macro-structure: the Apex Network, which represents the culmination of
-the compression process and provides a naturalistic foundation for
-objective truth.
+This grounds the transition to Section 7: the Optimal Constraint
+Configuration represents the set of compressions that achieve maximally
+robust computational closure across domains.
 
 == 7. The Optimal Constraint Configuration as Ultimate ε-Machine
 <the-optimal-constraint-configuration-as-ultimate-ε-machine>
@@ -2618,6 +2550,79 @@ constraints equally well). What matters is that systems occupy the
 high-altitude terrain where brittleness is minimized, not which specific
 coordinates they inhabit on that plateau.
 
+==== 7.1.2 What the Optimal Constraint Configuration Is and Is Not
+<what-the-optimal-constraint-configuration-is-and-is-not>
+To prevent misunderstanding, we distinguish the OCC from several
+alternatives:
+
+The OCC is not a single final theory. Multiple compression strategies
+may achieve equally minimal brittleness for different purposes (the hot
+dog taxonomy example in Section 3.5 illustrates this). The OCC is the
+envelope of all such viable strategies---the boundary separating
+sustainable compressions from catastrophically brittle ones. It
+represents the constraint landscape's viable region, not a unique point
+within it.
+
+The OCC is not observer-independent in configuration but is
+observer-independent in constraint. Which specific compressions a system
+adopts depends on its purposes (particle physics versus ecology, tax
+codes versus culinary traditions). But which compressions are viable at
+all is determined by reality's constraint structure, not by choice or
+convention. We are free to attempt any compression we wish; reality
+determines which attempts achieve computational closure.
+
+The OCC is defined negatively rather than positively. We cannot specify
+in advance what the OCC contains, as this would require complete
+knowledge of reality's constraint structure. Instead, we discover it by
+eliminating what it excludes---the Negative Canon of compressions that
+generate unsustainable brittleness. The OCC is the residual structure
+that survives this elimination, revealed through historical filtering
+rather than deductive proof.
+
+Reconciling "Plateau" and "Intersection" Characterizations: These
+descriptions are compatible when properly understood. The OCC is an
+intersection in the sense that it represents constraints shared across
+all viable systems---no viable system can violate thermodynamic laws,
+logical consistency, or basic coordination requirements without
+accumulating catastrophic brittleness. The intersection defines the
+boundary between viable and nonviable compression spaces. The OCC is a
+plateau in the sense that within these shared constraints, multiple
+specific configurations may achieve equally minimal brittleness. The
+intersection defines the plateau's boundaries; the plateau's surface
+represents the space of viable variation within those boundaries. The
+formal characterization $C_(o p t) = sect { W_k \| V \( W_k \) = 1 }$
+captures the intersection of all maximally viable configurations, which
+collectively form the high-altitude plateau where brittleness is
+minimized.
+
+Addressing the Circularity Objection: A circularity worry arises: if
+truth is alignment with viable compressions, and viability is measured
+by persistence, haven't we defined truth as "whatever survives"? This
+would make truth hostage to power, historical accident, or mere
+stubbornness.
+
+The response distinguishes contingent persistence from structural
+viability. A compression can persist contingently through resource
+extraction, coercive suppression of alternatives, or isolation from
+disconfirming evidence. But these strategies generate characteristic
+brittleness signatures (high $C \( t \)$, accelerating $P \( t \)$,
+rising $M \( t \)$) that predict eventual failure. Structural viability
+means persistence under open epistemic conditions---where error signals
+are not suppressed and alternatives can compete freely. The OCC is
+defined not by what happens to persist under arbitrary conditions, but
+by what would persist under idealized conditions of free inquiry and
+pragmatic testing.
+
+This parallels how evolutionary fitness is not "whatever survives" but
+"whatever would survive under selection pressure in a given
+environment." A species artificially protected from predators may
+persist without being fit. A belief system maintained through censorship
+may persist without being true. The OCC represents the attractor under
+selection, not the current census of survivors. The circularity
+dissolves when we recognize that viability is defined by a
+counterfactual standard (persistence under open conditions) rather than
+actual historical persistence.
+
 Ontologically Real, Epistemically Regulative:
 
 A crucial distinction: The optimal constraint configuration is
@@ -2762,9 +2767,7 @@ configurations
 Mathematical Analogy: Just as π appears to be discovered independently
 (Babylonians, Greeks, Indians, Chinese) because Euclidean constraints
 seem to determine it, scientific truths may be discovered independently
-because physical constraints appear to determine them, though this
-convergence claim requires further empirical validation across cultures
-and domains.
+because physical constraints appear to determine them.
 
 Pluralism at the Frontier: Multiple viable compressions may exist
 (Pluralist Frontier), but catastrophically brittle ones (Negative Canon)
@@ -3485,10 +3488,6 @@ Rosas, Fernando E., et al.~2024. "Disentangling High-Order Mechanisms
 and High-Order Behaviours in Complex Systems." #emph[Nature Physics] 20:
 1095--1104. https:\/\/doi.org/10.1038/s41567-024-02477-4.
 
-Russell, Bertrand. 1913. "On the Notion of Cause." #emph[Proceedings of
-the Aristotelian Society] 13(1): 1-26.
-https:\/\/doi.org/10.1093/aristotelian/13.1.1.
-
 Shannon, Claude E. 1948. "A Mathematical Theory of Communication."
 #emph[Bell System Technical Journal] 27(3): 379--423.
 https:\/\/doi.org/10.1002/j.1538-7305.1948.tb01338.x.
@@ -3500,8 +3499,3 @@ Dogma of Empiricism." #emph[Southern Journal of Philosophy] 45, no. 3:
 Solms, Mark. 2019. "The Hard Problem of Consciousness and the Free
 Energy Principle." #emph[Frontiers in Psychology] 9: 2714.
 https:\/\/doi.org/10.3389/fpsyg.2018.02714.
-
-Varley, Thomas F., and Erik Hoel. 2022. "Emergence as the conversion of
-information: a unifying theory." #emph[Philosophical Transactions of the
-Royal Society A] 380(2227): 20210150.
-https:\/\/doi.org/10.1098/rsta.2021.0150.
