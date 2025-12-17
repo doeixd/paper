@@ -510,7 +510,7 @@ Neither mechanism is universally superior. Statistical learning efficiently tran
 
 The framework thus synthesizes individual and social epistemology. The brain's two pattern-detection strategies map onto different network dynamics. Statistical learning explains how communities maintain stable shared knowledge. Structural learning explains how communities correct errors and discover new truths. Together, they account for both the persistence and the evolution of cultural knowledge systems.
 
-Having established the architectural foundations of Markov Blankets and the distinction between statistical and structural learning, we now examine how these information-processing mechanisms give rise to phenomenological consciousness. The transition from compression algorithms to subjective experience represents one of the most challenging aspects of naturalized epistemology, and our framework suggests a functional account grounded in the special properties of structural pattern recognition.
+Having established how Markov blankets enable computational closure and create autonomous causal levels, a question arises: which cognitive processes achieve conscious awareness? The statistical/structural distinction developed in Section 2.5 becomes crucial here. We propose that consciousness specifically tracks structural pattern recognition—the detection of bidirectional constraints—while statistical processing operates unconsciously.
 
 ## 4. From Information Processing to Consciousness
 
@@ -537,6 +537,8 @@ Our claim is functional and behavioral: systems achieving computational closure 
 Core Hypothesis: Consciousness may be the subjective experience associated with certain types of high-level information compression, particularly those involving structural pattern recognition happening in real-time, with particular salience for structurally coherent patterns over mere statistical regularities.
 
 Central Distinction: Consciousness appears particularly engaged when the brain detects or attempts to detect structural coherence, when patterns present themselves as having internal necessity rather than mere correlation. Unconscious processing handles statistical pattern matching efficiently in the background, while conscious attention engages when structural relationships demand explicit reasoning.
+
+Scope of Claim: We are not explaining why any information processing has phenomenal character (the hard problem). We are explaining which information processing correlates with reportable conscious access—the access problem. Our claim: structural pattern recognition is necessary for access consciousness. Processes detecting mutual constraints become available for verbal report and flexible behavioral control; statistical processing operates transparently. This generates testable predictions: disrupting structural inference circuits should selectively impair conscious access while leaving implicit pattern recognition intact.
 
 #### 4A.1.1 Negative Methodology for Consciousness Research
 
@@ -841,71 +843,15 @@ These logical and mathematical structures provide the rules for compression. We 
 
 ## 6. Emergence Through Computational Closure
 
-### 6.1 The Mechanism of Emergence Revealed
-
 Classical mystery: How do qualitatively new properties (liquidity, life, consciousness) emerge from mere rearrangement of parts?
 
-Computational Closure Answer: Emergence succeeds when a Markov blanket configuration achieves the three conditions of computational closure defined in Section 3.3 (lumpability, Markovianness, and causal shielding). When these conditions hold, the emergent level is as real as the base level—it has autonomous causal dynamics, not merely a useful fiction.
+The answer follows from Section 3.3: emergence succeeds when a Markov blanket configuration achieves computational closure—lumpability, Markovianness, and causal shielding. When these conditions hold, the emergent level is as causally real as the base level.
 
-Causal Decoupling as Emergence Criterion: Rosas et al. (2024) formalize this as causal decoupling: when the macro-level ε-machine and the micro-informed υ-machine achieve equivalence, the macro-level becomes causally autonomous. This provides a precise criterion for when emergence genuinely succeeds versus when we merely have convenient but reducible description.
+Rosas et al. (2024) formalize this as causal decoupling: when the macro-level ε-machine achieves equivalent predictive accuracy to the micro-informed υ-machine, the macro-level has achieved genuine autonomy. This is strong emergence—not merely useful description but substrate-independent causal dynamics.
 
-A clarification on "causation": following Russell (1913) and Ladyman and Ross (2007), we acknowledge that fundamental physics describes functional dependencies rather than discrete causal "bangs." The "causation" that emerges at macro-levels is therefore best understood as *information-theoretic projectibility*: a macro-state is "causal" not because it exerts a metaphysical force, but because it maximizes mutual information with future states, effectively screening off micro-history. This protects the framework from the objection that we are smuggling metaphysically loaded causation into domains where physics reveals only functional structure.
+Failed emergence equals information leakage. Phlogiston's attempted macro-variable ("phlogiston content") failed lumpability—predicting combustion required oxygen levels, molecular structure, and other substrate details the macro-variable couldn't capture. The blanket was porous; brittleness accumulated until abandonment.
 
-The key insight: if adding substrate information to your macro-level predictor doesn't improve its accuracy, then the macro-level has achieved causal independence. The emergent pattern is not merely a useful fiction—it genuinely causes its own future states. High-level concepts like "temperature," "infectious disease," or "recession" are causally real precisely because they achieve this decoupling. The macro-level runs its own causal dynamics, making substrate details causally irrelevant (though they remain constitutively necessary).
-
-This framework distinguishes strong from weak emergence rigorously. *Weak emergence* occurs when macro-patterns are predictable from micro-details but the compression works only in limited contexts (weak lumpability). *Strong emergence* occurs when macro-dynamics persist across different substrate realizations (strong lumpability). Only strongly emergent properties qualify as objectively real features of nature rather than observer-relative conveniences.
-
-This connects to a broader information-theoretic understanding of emergence: coarse-graining can convert information from one type to another, where macroscales reduce total information but may increase certain dependency structures (Varley and Hoel 2022). Emergence succeeds when this information conversion creates synergistic relationships at the macro-level that don't exist at the micro-level—when the whole genuinely exhibits causal properties absent from mere aggregation of parts.
-
-A common objection holds that emergent entities are simply "fundamental particles arranged structure-wise," implying that arrangement language is ontologically neutral. This conflates material substrate with causal structure. The arrangement is not neutral; it creates new constraints on information flow. When a boundary condition creates conditional independence—such that intervening on the boundary controls interior dynamics—the arrangement has achieved causal autonomy. To deny the existence of wholes at this point is to claim that causal efficacy is insufficient for existence, a standard that would render even fundamental particles (defined by their causal roles) non-existent.
-
-Temperature Example Revisited:
-- Base: 10²³ molecules with positions, momenta
-- Emergent: Single scalar variable (temperature)
-- **Lumpability:** We can compress 10²³ variables into one without losing predictive power for thermodynamic work.
-- **Markovianness:** Future temperature depends on current temperature/pressure, not on the specific collision history of individual molecules.
-- **Causal Shielding:** Adding information about specific molecular trajectories does not improve the prediction of the ice melting rate. The macro-variable shields the mechanism.
-
-This indicates a genuine macro-level causal relationship. When we say "high temperature causes ice to melt," the causation is real at the temperature level because the macro-description achieves computational closure. The micro-details are constitutively necessary but causally screened off.
-
-### 6.2 Failed Emergence = Information Leakage
-
-When computational closure fails, information leaks:
-- Macro-predictions require micro-details (lumpability fails)
-- History matters (Markovianness fails)
-- Internal mechanism observable from outside (causal shielding fails)
-
-**Examples:**
-
-Phlogiston (Failed Closure):
-- Attempted compression: "Phlogiston content" explains combustion
-- Lumpability failed: Cannot predict outcomes without oxygen levels, molecular structure
-- Information leaked: Every experiment revealed porous blanket
-- Result: Brittleness accumulated until abandonment
-
-Élan Vital (Failed Closure):
-- Attempted compression: "Life force" explains biological organization
-- Lumpability failed: Cannot predict outcomes without metabolism, genetics, evolution
-- Information leaked: Every discovery revealed mechanistic processes
-- Result: Brittleness accumulated until abandonment
-
-Connection to Brittleness: Information leakage IS systemic brittleness:
-- P(t) increases: More patches needed as closure fails
-- M(t) increases: Complexity inflates trying to maintain failing blanket
-- C(t) increases: Must suppress disconfirming observations
-- R(t) decreases: Predictions fail across domains
-
-This brittleness can be understood as the divergence between the ε-machine (macro-only model) and the υ-machine (micro-informed predictor). When a system's macro-level model requires constant supplementation with substrate details to maintain predictive accuracy, computational closure has failed. The greater this divergence, the more brittle the emergent structure. Systems exhibiting large ε/υ divergence show characteristic brittleness signatures: they require increasingly complex auxiliary hypotheses, their predictions fail across contexts, and they eventually collapse as the computational burden of maintaining the failing closure becomes unsustainable.
-
-### 6.3 Generative Priors as Successful Closures
-
-The Compression Efficiency Principle (Dittrich and Kinne 2024) identifies "exception accumulation" as the characteristic failure mode of non-generative models: systems relying on superficial correlations rather than causal structure exhibit linear growth in exceptions as novel cases fail to fit the pattern. This exception growth is precisely what our brittleness metrics track. High patch velocity $P(t)$ operationalizes the rate of exception accumulation; rising model complexity $M(t)$ reflects the computational burden of managing these exceptions; declining resilience $R(t)$ signals that the compression is failing across contexts.
-
-Linguistically-encoded predicates serve as carriers for successful generative priors—cultural tools that allow individuals to adopt computational closures they did not personally derive. For instance, "...is an infectious disease" achieves computational closure by grouping diverse pathogens under a unified macro-category that enables epidemiological prediction and intervention without tracking molecular details. This may explain why successful generative priors feel "real": they potentially carve reality at genuine compression joints where computational closure succeeds naturally.
-
-Historical progression illustrates nested closures: Miasma Theory failed (information leaked everywhere), Germ Theory succeeded (creating a new causal level), and Molecular Biology provided deeper closure (though germ theory remains valid at its scale). Higher-level closures don't replace lower ones but provide coarser-grained compressions for different purposes.
-
-Emergence through computational closure establishes that macro-levels can be genuinely causal. This grounds our account of the ultimate macro-structure: the Apex Network, which represents the culmination of the compression process and provides a naturalistic foundation for objective truth.
+This grounds the transition to Section 7: the Optimal Constraint Configuration represents the set of compressions that achieve maximally robust computational closure across domains.
 
 ## 7. The Optimal Constraint Configuration as Ultimate ε-Machine
 
