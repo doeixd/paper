@@ -22,7 +22,7 @@ Before showing why boundaries are inevitable, let's confront the challenge. Alex
 
 This feels scientific. But it conflates material substrate with causal structure. The three givens don't just allow boundaries—they *require* them in certain configurations. The cup's boundary isn't "cup-ness"; it's the measurable fact that walls screen off the coffee's temperature from the factory's atoms.
 
-Here's the tu quoque: The nihilist assumes particles are self-subsistent objects in the soup. But quantum mechanics (entanglement, indistinguishability) shows particles lack self-identity. You cannot tag an electron and track it like a billiard ball. They are nodes in a relational structure. If the "parts" are themselves just mathematical structure, they have no ontological privilege over the "wholes." Both are Real Patterns in the formalism. The "soup" isn't made of things—it's made of constraints.
+Here's the tu quoque: The nihilist assumes particles are self-subsistent objects in the soup. But quantum mechanics (entanglement, indistinguishability) shows particles lack self-identity. You cannot tag an electron and track it like a billiard ball. They are nodes in a relational structure. This means they have no ontological privilege over "wholes." Both are Real Patterns in the formalism. The "soup" isn't made of things; it's made of constraints.
 
 
 ### Part 1: The Necessity of Statistical Boundaries
@@ -37,7 +37,7 @@ This is a Markov blanket, a boundary that emerges from local causality:
 P(inside | walls, outside) = P(inside | walls)
 ```
 
-The equality is exact. The nihilist objects: "It's simply particles arranged box-wise!" But arrangement isn't neutral. This property, a screen between regions, didn't exist before the box. The boundary is a new causal constraint on information flow. (Part 4 formalizes this as computational closure: when macro-variables predict the future as well as micro-variables, the micro-details become redundant.)
+The equality is exact. The nihilist objects: "It's particles arranged box-wise." But arrangement isn't neutral. This property, a screen between regions, didn't exist before the box. The boundary is a new causal constraint on information flow. (Part 4 formalizes this as computational closure: when macro-variables predict the future as well as micro-variables, the micro-details become redundant.)
 
 Think of the landscape of possible boundaries like a topographical map: certain "valleys" in configuration space guarantee boundary formation. Self-reinforcing feedback loops are one valley. Lipid bilayers are another. Evolution searches this landscape and finds boundaries because they work.
 
@@ -55,7 +55,7 @@ Consider an *E. coli* bacterium. Its membrane proteins:
 
 Over time, the internal state becomes predictable from boundary states alone. External chemistry becomes irrelevant for predicting internals, *given* what's crossing the membrane.
 
-The Nihilist Objects: "But it's only lipids obeying chemistry!"  
+The Nihilist Objects: "But it's lipids obeying chemistry!"  
 Response: True. But that arrangement satisfies the Markov condition. The membrane now has conditional independence, a measurable property raw soup chemistry lacks. You don't *choose* where to draw the boundary; you *discover* it by measuring whether screening-off holds.
 
 But which boundaries count? Not all mathematical boundaries are equal. The cell membrane is a joint in nature because it corresponds to a self-maintaining feedback loop that evolution discovered independently many times. Phlogiston, by contrast, was a failed attempt at such a joint; no stable closure ever emerged. The cell membrane, by contrast, achieves robust closure. That's the difference between a natural boundary and a gerrymandered surface.
@@ -82,6 +82,8 @@ When does composition occur? When Markov conditions are satisfied to the degree 
 This explains why doctors treat organs, not cells. Heart failure isn't fixed by adjusting cardiomyocyte ion channels. Cardiologists alter organ-level dynamics. The heart's boundary creates causal autonomy.
 
 Evolution selects for boundaries, not particles. The nihilist's flat ontology can't explain why life builds hierarchies.
+
+But showing that boundaries *can* exist isn't enough. We need a test for when they *do* exist.
 
 
 ### Part 4: The Information-Theoretic Test: ε-Machine vs. υ-Machine
@@ -110,6 +112,8 @@ If facts about arrangements do causal work, denying objecthood is empty language
 
 The boundary isn't a fact *about* particles; it's a new causal constraint that *changes what would happen* if you intervened. If the boundary is real and does causal work, what could it mean to deny the objecthood of what it bounds? The boundary *defines* the object.
 
+If the nihilist retreats to facts, we must ask: what kind of thing is a fact that does causal work?
+
 
 ### Part 6: Where Is the Triangle? A Computational Answer
 
@@ -134,12 +138,15 @@ The triangle exists at the **ε-level**, not the υ-level. It's not *in* the neu
 
 The debate becomes semantic. Ladyman and Ross propose Rainforest Realism: existence is lush with entities at every scale where patterns achieve projectibility (support counterfactuals) and information compression.
 
-Scale Relativity of Ontology: At scale A (micro), the cup does not exist. At scale B (macro), the cup *does* exist. Both scales are equally real; physics doesn't grant the micro-scale ontological privilege. Consider: a human being exists simultaneously as a quantum field, a cellular colony, and a voting citizen. None of these descriptions is "more real" than the others. Each level achieves closure at its own scale. The voter is a valid object because you can predict election outcomes using "voters" without knowing anything about their mitochondria.
+#### 7a. Scale Relativity
+At scale A (micro), the cup does not exist. At scale B (macro), the cup *does* exist. Both scales are equally real; physics doesn't grant the micro-scale ontological privilege. Consider: a human being exists simultaneously as a quantum field, a cellular colony, and a voting citizen. None of these descriptions is "more real" than the others. Each level achieves closure at its own scale. The voter is a valid object because you can predict election outcomes using "voters" without knowing anything about their mitochondria.
 
 The nihilist says, "The cell is just atoms." But we can reply: "Atoms are just quantum fields." The "just" is a category error. It confuses one scale of description with the only reality. Cells are Real Patterns at a scale where intervention works.
 
+#### 7b. The Reality of Invariants
 Consider an analogy from mathematics: π is not a physical object, nor is it a mere invention. It is a constraint-determined invariant. Given the axioms of geometry, any intelligence working with circles must eventually discover π. It is forced into existence by the constraints of the problem. Biological and social objects are similar: they are not arbitrary labels but stable solutions to the constraints of survival and coordination. To exist, in any meaningful sense, is to be an invariant solution to a constraint problem.
 
+#### 7c. The Fallacy of Microbangings
 What's left of the nihilist's "microbangings"? The belief that "real" causation is little things hitting other little things. But fundamental physics doesn't describe particles banging into each other; it describes mathematical constraints. Causation is an interventionist concept that mostly applies to special sciences (biology, medicine), not fundamental physics.
 
 
