@@ -1,6 +1,6 @@
 # The Reality of Wholes: When Parts Are Not Enough
 
-*Is a hurricane "real," or is it merely air molecules in motion?* While the question may initially appear trivial—we name hurricanes, track them, and flee from them—mereological nihilism challenges this intuition. It claims there are no hurricanes, only molecules arranged hurricane-wise; no cells, only particles arranged cell-wise.
+*Is a hurricane "real," or is it merely air molecules in motion?* While the question may initially appear trivial, we name hurricanes, track them, and flee from them—mereological nihilism challenges this intuition. It claims there are no hurricanes, only molecules arranged hurricane-wise; no cells, only particles arranged cell-wise.
 
 The hurricane's boundary is not a label; it is a statistical screen that makes the interior conditionally independent of the exterior. And boundaries like this are not optional features of reality; they are mathematical consequences of four facts even nihilists accept.
 
