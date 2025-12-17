@@ -564,7 +564,7 @@ Conscious Processing (Structural Pattern Recognition):
 
 The Conscious/Unconscious Boundary:
 
-This distinction maps roughly onto the statistical/structural divide from Section 1.5. Consciousness appears particularly engaged when the brain detects or attempts to detect structural coherence—when patterns present themselves as having internal necessity rather than mere correlation.
+This distinction maps roughly onto the statistical/structural divide from Section 2.5. Consciousness appears particularly engaged when the brain detects or attempts to detect structural coherence—when patterns present themselves as having internal necessity rather than mere correlation.
 
 Examples:
 - Learning to ride a bike (initially conscious structural analysis → becomes unconscious statistical refinement)
