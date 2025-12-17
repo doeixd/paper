@@ -31,8 +31,8 @@ standards.
 We distinguish two types of pattern recognition: statistical patterns
 learned through repetition, and structural patterns grasped immediately.
 Consciousness, we propose, may serve as the interface for detecting
-structural patterns---what it feels like to recognize necessary
-relationships between things.
+structural patterns---a mechanism for sensing necessary relationships
+between things.
 
 Truth, we suggest, might be understood not as matching static facts, but
 as alignment with the most stable possible compression of reality. This
@@ -52,14 +52,14 @@ answers.
 
 == 1. Introduction
 <introduction>
-This paper is a work of synthesis, not empirical discovery. It presents
-no new experimental data in neuroscience, no new theorems in
+This paper is a work of synthesis rather than empirical discovery. It
+presents no new experimental data in neuroscience, nor new theorems in
 thermodynamics or information theory. Rather, it aligns existing,
 well-validated concepts from information geometry (computational
 closure), cognitive science (predictive processing), and epistemology
 (Quinean holism) to resolve friction between them. Our contribution is
-architectural alignment---showing how these frameworks illuminate each
-other when properly connected. We synthesize rather than discover,
+architectural alignment: showing how these frameworks illuminate each
+other when properly connected. We synthesize rather than discover;
 integrate rather than originate.
 
 Contemporary theories of mind and knowledge largely talk past one
@@ -77,25 +77,24 @@ While other attempts to bridge this gap exist (e.g., evolutionary
 epistemology emphasizing adaptation or social epistemology focusing on
 testimony), this paper tentatively proposes that the bridge may lie in
 information compression. By treating concepts not as abstract
-representations but as #strong[Markov Blankets] (statistical boundaries
+representations but as #emph[Markov blankets] (statistical boundaries
 that separate internal from external states) that achieve
-#strong[Computational Closure] (a hypothesized state where the
-macro-level is causally self-contained), we may be able to trace a
-continuous line from the thermodynamics of living systems to the
-structure of belief. We suggest that the drive to minimize prediction
-error could be the engine that shapes both cognitive architecture and
-epistemic norms, though this remains a theoretical proposal requiring
-empirical validation.
+#emph[computational closure] (a hypothesized state where the macro-level
+is causally self-contained), we may be able to trace a continuous line
+from the thermodynamics of living systems to the structure of belief. We
+suggest that the drive to minimize prediction error could be the engine
+that shapes both cognitive architecture and epistemic norms, though this
+remains a theoretical proposal requiring empirical validation.
 
 Methodologically, this framework adheres to what Ladyman and Ross (2007)
 term the #emph[Principle of Naturalistic Closure];: we reject a priori
 intuition as a guide to metaphysics and instead require that
 epistemological claims unify the special sciences with fundamental
-physics without contradiction. The Standing Predicates and Markov
-blankets described herein are not merely psychological heuristics but
-are motivated by the convergence of thermodynamics and information
-theory---a convergence that grounds cognition in the physical
-constraints any bounded system must satisfy.
+physics without contradiction. The generative priors and Markov blankets
+described herein are not merely psychological heuristics but are
+motivated by the convergence of thermodynamics and information theory, a
+convergence that grounds cognition in the physical constraints any
+bounded system must satisfy.
 
 Our central thesis, which remains speculative, is that consciousness may
 function as the user interface for a specific type of information
@@ -108,26 +107,27 @@ for the limitations of current artificial intelligence, though this
 application requires further investigation.
 
 The argument proceeds as follows. First, we establish the
-information-theoretic foundations of existence, defending the Free
-Energy Principle as a constitutive condition for bounded systems
-(Section 2). Second, we detail how Markov Blankets and computational
-closure create emergent causal levels (Section 3). Third, we develop our
-theory of consciousness based on the statistical/structural distinction,
-separating theoretical foundations (Section 4A) from phenomenological
-applications (Section 4B). Fourth, we show how logic and mathematics
-emerge as necessary compression structures (Section 5). Fifth, we
-examine emergence through computational closure (Section 6). Sixth, we
-show how this architecture culminates in a naturalized account of truth
-as alignment with the Apex Network---the thermodynamic attractor for any
+information-theoretic foundations of bounded systems, defending the Free
+Energy Principle as a constitutive condition (Section 2). Second, we
+detail how Markov Blankets and computational closure create emergent
+causal levels (Section 3). Third, we develop our theory of consciousness
+based on the statistical/structural distinction, separating theoretical
+foundations (Section 4A) from phenomenological applications (Section
+4B). Fourth, we show how logic and mathematics emerge as necessary
+compression structures (Section 5). Fifth, we examine emergence through
+computational closure (Section 6). Sixth, we show how this architecture
+culminates in a naturalized account of truth as alignment with the
+optimal constraint configuration---the thermodynamic attractor for any
 viable knowledge system (Section 7). Finally, we explore applications to
 macro-epistemology and systemic brittleness (Section 8).
 
-#strong[Conceptual Roadmap:] This paper traces a continuous path from
-physical constraints to epistemic norms: information theory → Markov
-blankets → computational closure → consciousness → logic/mathematics →
-emergence → Apex Network → applications. Each section builds
-systematically on the previous, creating a unified framework that
-bridges thermodynamic mechanisms with normative epistemology.
+#emph[Conceptual Roadmap:] This paper traces a continuous path from
+physical constraints to epistemic norms: from information theory and
+Markov blankets to computational closure, consciousness,
+logic/mathematics, emergence, the optimal constraint configuration, and
+finally to applications. Each section builds systematically on the
+previous one, creating a unified framework that bridges thermodynamic
+mechanisms with normative epistemology.
 
 == 2. Information as Fundamental Substrate
 <information-as-fundamental-substrate>
@@ -155,30 +155,30 @@ between information-theoretic quantities (Shannon entropy as average
 surprise, measured in bits) and thermodynamic quantities (energy
 required to process or erase bits). However, these quantities are not
 merely analogous. Landauer's Principle establishes that information
-processing has irreducible physical costs: erasing one bit of
-information requires dissipating at least kT ln(2) joules of energy
-(Landauer 1961). This means high information leakage (persistent
+processing has irreducible physical costs. Erasing one bit of
+information requires dissipating at least $k T ln \( 2 \)$ joules of
+energy (Landauer 1961). This means high information leakage (persistent
 prediction error) implies tangible thermodynamic costs to any physical
 system, whether in metabolic expenditure to revise models or in kinetic
 energy wasted on maladaptive action. The link between epistemic
 brittleness and physical dissipation is therefore causal, not merely
 metaphorical. When we speak of "information costs" in cognitive systems,
-we refer to functional constraints that have, at bottom, thermodynamic
+we refer to functional constraints that have, at bottom, a thermodynamic
 grounding.
 
-Existence as a persistent bounded pattern requires information
-processing. What we call "things" are better understood as #emph[Real
-Patterns] in the sense of Dennett (1991) and Ladyman and Ross (2007).
-Crucially, we must distinguish between material substrate (the
-underlying physical constituents) and causal structure (the constraints
-that shape outcomes). A Real Pattern exists not by virtue of what it is
-made of, but by what it does to a probability distribution. If a pattern
-reduces uncertainty and supports counterfactual interventions (if
-heating this boundary causes the interior to produce heat shock
-proteins), it constitutes an ontological unit. Real Patterns compress
-information, maintaining statistical boundaries that distinguish
-internal from external states while achieving genuine projectibility
-(predictive purchase on future states).
+Persistence as a bounded pattern requires information processing. What
+we call "things" are better understood as #emph[real patterns] in the
+sense of Dennett (1991) and Ladyman and Ross (2007). Crucially, we must
+distinguish between material substrate (the underlying physical
+constituents) and causal structure (the constraints that shape
+outcomes). A real pattern exists not by virtue of what it is made of,
+but by what it does to a probability distribution. If a pattern reduces
+uncertainty and supports counterfactual interventions (if heating this
+boundary causes the interior to produce heat shock proteins), it
+constitutes an ontological unit. Real patterns compress information,
+maintaining statistical boundaries that distinguish internal from
+external states while achieving genuine projectibility (predictive
+purchase on future states).
 
 === 2.2 The Free Energy Principle
 <the-free-energy-principle>
@@ -428,7 +428,7 @@ learning system capable of both statistical pattern matching and
 structural inference.
 
 This distinction becomes essential for understanding how notions
-(proto-Standing Predicates) can form before extensive empirical testing,
+(proto-Generative Priors) can form before extensive empirical testing,
 and why some singular experiences carry immediate epistemic weight while
 others require statistical accumulation.
 
@@ -458,6 +458,45 @@ These methods provide pragmatic objectivity sufficient for comparative
 epistemic assessment, though they do not eliminate interpretive
 challenges.
 
+==== 2.5.2 The Interventional Diagnostic
+<the-interventional-diagnostic>
+How does a cognitive system distinguish a robust structural constraint
+from a brittle statistical regularity? We propose the mechanism lies in
+the capacity for interventional counterfactuals (formally, the
+distinction between P(Y|X) and P(Y|do(X)) (Pearl 2000)).
+
+Statistical patterns capture passive observations: seeing #emph[X]
+predicts #emph[Y] (conditioning on #emph[X];). Structural patterns
+capture interventional truths: #emph[causing] #emph[X] necessitates
+#emph[Y] (intervening on #emph[X];). This latter operation, the
+"dictator" or "do-operator," involves "graph surgery"; it severs the
+incoming causal arrows to #emph[X] to isolate its downstream effects
+from confounding variables.
+
+Consider a barometer. Observing the needle drop predicts rain
+(P(Rain|Needle Drop) is high). But manually forcing the needle down
+(intervention, do(Needle Drop)) breaks the correlation; it yields no
+rain (P(Rain|do(Needle Drop)) is low). The pattern was merely
+statistical, dependent on a common hidden cause (atmospheric pressure).
+By contrast, igniting fuel is structural: causing the fire (do(Fire))
+invariably produces heat. The relationship is invariant under
+intervention.
+
+Consciousness generally tracks this distinction. While not all systems
+that represent causal structure are conscious, conscious systems must be
+capable of representing this difference between seeing and doing. The
+"Aha!" moment of understanding corresponds to the validation of a
+pattern under simulated intervention, confirming that the relationship
+holds not just in the observed distribution, but in the counterfactual
+space of actions.
+
+The Do-operator is the test for whether a model has captured causal
+structure; computational closure occurs when that causal structure can
+be represented entirely at the macro-level. A pattern that disappears
+under intervention is merely statistical; a pattern that survives
+intervention is causal; a pattern whose causal structure closes at its
+own boundary is a real whole.
+
 === 2.6 The Framework as Conceptual Scaffolding
 <the-framework-as-conceptual-scaffolding>
 We must clarify the epistemic status of the information-theoretic
@@ -466,7 +505,7 @@ language employed throughout This paper.
 Metaphor or Mechanism? Information theory provides conceptual
 scaffolding for understanding cognitive and epistemic processes, but we
 need not claim the brain literally computes Shannon entropy or that
-Standing Predicates are implemented as explicit ε-machines. The
+generative priors are implemented as explicit ε-machines. The
 framework's value is primarily conceptual---it captures functional
 relationships and constraints that appear to govern how knowledge
 systems operate, regardless of specific implementation details.
@@ -496,14 +535,14 @@ of commitment:
   systems persist.
 
 + #strong[Strong Claim (Mechanistic):] Brains literally implement
-  variational free energy minimization; Standing Predicates are actually
-  encoded as Markov blankets in neural tissue; the Apex Network exists
-  as a definite information structure.
+  variational free energy minimization; generative priors are actually
+  encoded as Markov blankets in neural tissue; the optimal constraint
+  configuration exists as a definite information structure.
 
 Our Position: This paper primarily makes claims at levels 1 and 2.
 Whether the strong mechanistic claims (level 3) are literally true
 remains an empirical question for neuroscience and cognitive science.
-Our philosophical insights about Standing Predicates, compression, and
+Our philosophical insights about generative priors, compression, and
 truth don't depend on resolving this empirical question. Even if the
 brain's actual mechanisms differ significantly from Free Energy
 minimization, the functional analysis of what makes a predicate
@@ -624,12 +663,12 @@ closure to form stable boundaries, and face selection pressure based on
 how well their compressions align with reality's constraint structure.
 
 If the FEP is tautological, it describes structural necessities rather
-than contingent mechanisms. Standing Predicates, on this reading, are
+than contingent mechanisms. Generative priors, on this reading, are
 linguistic handles for configurations that satisfy these necessary
-constraints. The Apex Network represents the pattern that necessarily
-crystallizes when bounded systems optimize their compressions under
-thermodynamic pressure. Brittleness measures departures from these
-structural necessities.
+constraints. The optimal constraint configuration represents the pattern
+that necessarily crystallizes when bounded systems optimize their
+compressions under thermodynamic pressure. Brittleness measures
+departures from these structural necessities.
 
 The philosophical insight remains: even if Mangalam's critique succeeds
 as a challenge to FEP's status as empirical neuroscience, it
@@ -642,11 +681,11 @@ must do, not in predicting what neurons happen to do.
 Even if future research supersedes the Free Energy Principle as
 empirical neuroscience, the philosophical framework developed here would
 transfer to any replacement formalization. Our claims about compression,
-computational closure, and the Apex Network follow from basic
-constraints on bounded systems navigating finite resources, not from
-FEP's specific mathematical apparatus. What matters is that some
-formalization captures these functional necessities; the FEP provides a
-currently well-developed vocabulary for articulating them.
+computational closure, and the optimal constraint configuration follow
+from basic constraints on bounded systems navigating finite resources,
+not from FEP's specific mathematical apparatus. What matters is that
+some formalization captures these functional necessities; the FEP
+provides a currently well-developed vocabulary for articulating them.
 
 #strong[Connecting Functional Constraints to Normative Claims:] Readers
 may wonder how later sections derive substantive claims about objective
@@ -657,15 +696,15 @@ argument is not "brains compute Shannon entropy, therefore truth
 exists," but rather "whatever systems successfully compress reality must
 satisfy certain functional constraints (computational closure, minimal
 information leakage, strong lumpability), and these constraints
-determine which predicates persist." The Apex Network is "objective" not
-because it exists as a Platonic form or neural structure, but because
-the functional requirements for successful compression are determined by
-reality's constraint structure, not by our beliefs about them.
-Similarly, the claim that coercion generates brittleness doesn't require
-literal free energy calculations---it requires only that systems
-refusing to model agents' autonomous responses must bear higher
-coordination costs. The normative force comes from functional necessity,
-not mechanistic implementation.
+determine which predicates persist." The Optimal Constraint
+Configuration is "objective" not because it exists as a Platonic form or
+neural structure, but because the functional requirements for successful
+compression are determined by reality's constraint structure, not by our
+beliefs about them. Similarly, the claim that coercion generates
+brittleness doesn't require literal free energy calculations---it
+requires only that systems refusing to model agents' autonomous
+responses must bear higher coordination costs. The normative force comes
+from functional necessity, not mechanistic implementation.
 
 #strong[Operationalizing Brittleness:] The concept of systemic
 brittleness plays a central role in this framework as the diagnostic
@@ -686,7 +725,7 @@ philosophical coherence and practical diagnostic capacity without
 requiring the mechanistic claims of level 3.
 
 Preserving the Insights: When we say "dispositions are compression
-algorithms" or "Standing Predicates are Markov blankets," read these as
+algorithms" or "generative priors are Markov blankets," read these as
 capturing functional roles rather than ontological identities. A
 disposition functions like a compression algorithm---it reduces
 redundancy, encodes regularities, enables prediction. Whether it
@@ -750,19 +789,19 @@ should show different retention curves than learning that "Thursday is
 named after Thor." If no such asymmetries exist, the distinction between
 structural and statistical patterns loses empirical grounding.
 
-#strong[What Would Disconfirm the Apex Network?] We state explicitly:
-the Apex Network concept would be disconfirmed by evidence that
-successful knowledge systems can achieve sustained low brittleness
-through compression strategies that do not converge. If independent
-civilizations (or AI systems, or future human cultures) developed
-equally robust, equally low-brittleness epistemic frameworks built on
-fundamentally incompatible logical or mathematical foundations, this
-would falsify the claim that compression optimality under shared
-constraints produces convergent structure. The Apex Network is not
-merely "whatever works"; it is the claim that what works converges
-because optimal compression of shared constraint landscapes has unique
-solutions. Radical, stable pluralism in foundational frameworks would
-refute this.
+#strong[What Would Disconfirm the Optimal Constraint Configuration?] We
+state explicitly: the Optimal Constraint Configuration concept would be
+disconfirmed by evidence that successful knowledge systems can achieve
+sustained low brittleness through compression strategies that do not
+converge. If independent civilizations (or AI systems, or future human
+cultures) developed equally robust, equally low-brittleness epistemic
+frameworks built on fundamentally incompatible logical or mathematical
+foundations, this would falsify the claim that compression optimality
+under shared constraints produces convergent structure. The Optimal
+Constraint Configuration is not merely "whatever works"; it is the claim
+that what works converges because optimal compression of shared
+constraint landscapes has unique solutions. Radical, stable pluralism in
+foundational frameworks would refute this.
 
 With this methodological clarification in place, we can proceed to
 develop the framework confident that its philosophical insights don't
@@ -819,10 +858,53 @@ configurations of matter successfully maintain statistical boundaries
 against entropic dissolution. This perspective aligns with what Ladyman
 and Ross (2007) call #emph[Rainforest Realism];: the ontology of the
 world is not a sparse desert of fundamental particles but a rich
-layering of Real Patterns at every scale where information can be
+layering of real patterns at every scale where information can be
 compressed. A Markov blanket does not invent a useful fiction; it
-isolates a Real Pattern that carries genuine information load---what
+isolates a real pattern that carries genuine information load---what
 survives the compression process because it enables prediction.
+
+==== 3.2.1 Explicit Ontological Criterion: What Earns Existence?
+<explicit-ontological-criterion-what-earns-existence>
+This framework provides a clear answer to the fundamental metaphysical
+question: #emph[What earns existence?] The answer is #strong[causal
+autonomy via computational closure];.
+
+A system exists as a distinct entity when it achieves a statistical
+boundary that makes its internal dynamics conditionally independent of
+its exterior. This is not merely about epistemic usefulness; it is about
+causal power. While Dennett (1991) rightly identified reliable
+compression as the hallmark of #emph[real patterns];, we contend that
+nature itself enforces these compressions through thermodynamic
+constraints. #emph[Causal Autonomy] occurs when a system's future states
+are fully predictable and controllable, to a specified tolerance, using
+only variables defined at its own boundary.
+
+==== 3.2.2 Engagement with Mereology: Why Nihilism is Obsolete
+<engagement-with-mereology-why-nihilism-is-obsolete>
+This definition directly confronts mereological nihilism---the view that
+composite objects (like tables, cells, or hurricanes) do not exist, and
+that only fundamental particles arranged table-wise exist. The nihilist
+argues: #emph["When did this glass begin? No new matter was created,
+just rearranged soup. The 'glass' is just a mental label we project onto
+the atoms."]
+
+Our response frames nihilism as obsolete rather than merely false. The
+"arrangement" of particles is not a neutral fact; specific arrangements
+create new causal constraints on information flow. When a boundary
+condition creates conditional independence---such that intervening on
+the boundary controls interior dynamics---the arrangement has achieved
+causal autonomy. To deny the existence of wholes at this point is to
+claim that causal efficacy is insufficient for existence, a standard
+that would render even fundamental particles (defined solely by their
+causal roles in field theory) non-existent.
+
+The "soup" is not made of self-subsistent things; it is made of
+constraints. Particles themselves are just nodes in relational
+structures (quantum fields). Thus, there is no "fundamental" level of
+particles that is more real than the "emergent" level of wholes. Both
+are #emph[real patterns] that achieve computational closure at their
+respective scales. The universe is not flat; it is layered. And those
+layers are as real as the bedrock.
 
 Examples Across Scales:
 
@@ -841,7 +923,7 @@ Examples Across Scales:
     representation], [Pattern recognition triggers, behavioral outputs],
     [Social], [Institution], [Bureaucratic procedures], [Internal
     decision-making], [Public-facing policies, enforcement],
-    [Epistemic], [Standing Predicate], [Definitional
+    [Epistemic], [Generative Prior], [Definitional
     boundaries], [Compressed causal model], [Recognition criteria,
     licensed inferences],
   )]
@@ -981,10 +1063,10 @@ structural insight that both biological and epistemic systems solve the
 same abstract problem: maintaining stable boundaries that enable
 higher-level causal dynamics to decouple from substrate details.
 
-Once the blanket is in place, #strong[you no longer reason from first
+Once the blanket is in place, #emph[you no longer reason from first
 principles every time];. Saying "COVID-19 is an infectious disease"
-instantly inherits isolation protocols, PCR testing, ventilation
-engineering---just as a cell membrane instantly inherits billions of
+instantly inherits isolation protocols, PCR testing, and ventilation
+engineering, just as a cell membrane instantly inherits billions of
 years of evolved receptor/secretion machinery. This is what a Markov
 blanket achieves: it lets the interior evolve under its own (much
 simpler) dynamics.
@@ -992,9 +1074,13 @@ simpler) dynamics.
 === 3.3 Computational Closure: When Emergence Succeeds
 <computational-closure-when-emergence-succeeds>
 Computational closure occurs when coarse-grained states at the higher
-level form a complete, self-contained dynamical system. The higher-level
-system becomes self-contained when you can predict future macro-states
-using only current macro-states, without tracking micro-details.
+level form a complete, self-contained dynamical system. This aligns with
+Dennett's definition of a real pattern as one that allows for
+descriptive efficiency better than a bit-map, but we add a crucial
+physical constraint: the universe itself must produce the boundary. The
+higher-level system becomes self-contained when you can predict future
+macro-states using only current macro-states, without tracking
+micro-details.
 
 Lumpability: Can we group micro-states into macro-states such that the
 macro-dynamics are: - #strong[Deterministic:] Same macro-state always
@@ -1032,21 +1118,20 @@ future behavior. Substrate details have become causally irrelevant
 (though they remain constitutively necessary). This is computational
 closure: the macro-level is "running code" rather than merely describing
 patterns in the substrate. This equivalence provides the rigorous
-criterion for a "Real Pattern" in Dennett's sense: a compression that
-loses nothing of predictive value. When adding micro-level details
-yields zero additional information about the macro-future, the
-macro-level description has captured genuine structure in reality rather
-than imposing convenient fiction.
-
-This equivalence admits degrees of robustness, formalized as
-lumpability. #strong[Weak lumpability] holds when macro-dynamics work
-only for specific initial micro-state distributions---the compression
-succeeds in limited contexts. #strong[Strong lumpability] holds when
-macro-dynamics work regardless of underlying micro-details---the
-compression achieves genuine substrate independence and persists across
-different physical realizations. Only strongly lumpable compressions
-qualify as objective features of reality; weakly lumpable ones are
-context-dependent approximations.
+criterion for a "Real Pattern" in Dennett's sense, transforming his
+"nontrivial compression" from a qualitative judgment into a quantifiable
+test. When adding micro-level details yields zero additional information
+about the macro-future, the macro-level description has captured genuine
+structure in reality rather than imposing convenient fiction. This
+equivalence admits degrees of robustness, formalized as lumpability.
+#strong[Weak lumpability] holds when macro-dynamics work only for
+specific initial micro-state distributions---the compression succeeds in
+limited contexts. #strong[Strong lumpability] holds when macro-dynamics
+work regardless of underlying micro-details---the compression achieves
+genuine substrate independence and persists across different physical
+realizations. Only strongly lumpable compressions qualify as objective
+features of reality; weakly lumpable ones are context-dependent
+approximations.
 
 Examples:
 
@@ -1062,7 +1147,7 @@ without knowing oxygen levels, molecular structure, etc. - Information
 leaks through: Every new experiment reveals the blanket is porous -
 Brittleness accumulates: High P(t) from constant patches
 
-Connection to Standing Predicates: "…is an infectious disease" achieves
+Connection to Generative Priors: "…is an infectious disease" achieves
 computational closure. Once you apply the predicate, you can reason
 about transmission, quarantine, sterilization---the higher-level causal
 dynamics---without tracking viral proteins, immune responses, etc. The
@@ -1077,7 +1162,7 @@ needed to predict the future.
 Formal Definition: An ε-machine is a hidden Markov model that: 1.
 Maximally compresses the past (minimal number of states) 2. Maximally
 predicts the future (no lossless compression possible) 3. Achieves
-causal shielding (states are indistinguishable to external observer)
+causal shielding (states are indistinguishable to the external observer)
 
 Concrete Analogy: Chess Positions
 
@@ -1100,7 +1185,11 @@ history of how the game arrived there is irrelevant for predicting legal
 moves. The game has "detached" from its substrate (the players' brains,
 their training, their moods) and runs purely on positional logic. This
 exemplifies causal shielding---the macro-state (board position) screens
-off historical details, achieving genuine computational closure.
+off historical details, achieving genuine computational closure. This
+effectively formalizes the #emph[intentional stance] (Dennett 1987):
+treating the system as a macro-agent works not because it is a
+convenient fiction, but because the macro-dynamics have genuinely
+decoupled from the micro-details.
 
 Rosas et al.~(2024) formalize exactly this criterion: when your
 ε-machine (macro-only predictor) performs as well as the υ-machine
@@ -1121,10 +1210,11 @@ but causally redundant---they have been screened off by the macro-level
 dynamics.
 
 Why This Matters: - Dispositions are cognitive ε-machines---they
-compress experience into causal states (notions, beliefs) - Standing
-Predicates are cultural ε-machines---they compress collective experience
-into reusable causal tools - The Apex Network is the ultimate
-ε-machine---the minimal compression of reality's constraint structure
+compress experience into causal states (notions, beliefs) - Generative
+priors are cultural ε-machines---they compress collective experience
+into reusable causal tools - The optimal constraint configuration is the
+ultimate ε-machine---the minimal compression of reality's constraint
+structure
 
 The Search Process: Organisms, communities, and species are ε-machine
 explorers, trying different compressions. The ones that achieve genuine
@@ -1184,9 +1274,9 @@ steady state. The Hot Dog Paradox illustrates epistemic equifinality:
 different Markov Blankets (definitions) can achieve comparable levels of
 computational closure depending on the system's goal (taxation
 vs.~cuisine vs.~engineering). Each community draws the boundary where it
-reduces brittleness for their purposes. The information hasn't
-changed---the coarse-graining has. This is not arbitrary: each blanket
-faces pragmatic testing. However, it is pluralistic: multiple viable
+reduces brittleness for their purposes. The information hasn't changed;
+the coarse-graining has. This is not arbitrary: each blanket faces
+pragmatic testing. However, it is pluralistic: multiple viable
 configurations exist.
 
 Rosas et al.~(2024) formalize this insight: valid coarse-grainings form
@@ -1210,21 +1300,21 @@ achieve computational closure. A "hot dog" is a valid object only if the
 hot dog variable predicts its own future behavior better than the noise
 floor of tracking bread molecules separately.
 
-Connection to Truth: The Apex Network doesn't dictate "the one true hot
-dog ontology" but rather the set of boundary-drawing strategies that
-achieve genuine computational closure with minimal brittleness.
-Different purposes require different closures. The Pluralist Frontier of
-the Apex Network is the zone where the constraint landscape is flat
-enough to support multiple, equally viable coarse-grainings---regions
-where equifinality holds.
+Connection to Truth: The optimal constraint configuration doesn't
+dictate "the one true hot dog ontology" but rather the set of
+boundary-drawing strategies that achieve genuine computational closure
+with minimal brittleness. Different purposes require different closures.
+The Pluralist Frontier of the optimal constraint configuration is the
+zone where the constraint landscape is flat enough to support multiple,
+equally viable coarse-grainings---regions where equifinality holds.
 
 Implication: Ontological disputes often aren't about facts but about
 which coarse-graining serves which purpose. The universe doesn't care if
 a hot dog is a sandwich, but food safety inspectors might need to draw
 that blanket for regulatory coherence.
 
-=== 3.6 From Notion to Standing Predicate: The Blanket Formation Process
-<from-notion-to-standing-predicate-the-blanket-formation-process>
+=== 3.6 From Notion to Generative Prior: The Blanket Formation Process
+<from-notion-to-generative-prior-the-blanket-formation-process>
 ==== 3.6.1 Notions as Proto-Markov Blankets
 <notions-as-proto-markov-blankets>
 Before crystallizing explicitly, a belief exists as a tentative
@@ -1232,14 +1322,14 @@ boundary-drawing attempt---what we call a notion. A notion is the
 brain's exploratory effort to see if a statistical boundary can be
 successfully maintained around certain patterns.
 
-The Robinson Crusoe Insight: Standing Predicates don't require social
+The Robinson Crusoe Insight: Generative priors don't require social
 coordination to form---they require only multimodal integration within a
 single agent navigating a constraint-rich environment.
 
 ==== 3.6.2 Two Pathways to Valid Notions
 <two-pathways-to-valid-notions>
 The distinction between statistical and structural regularities (Section
-1.5) explains why some notions can achieve validity from limited
+2.5) explains why some notions can achieve validity from limited
 evidence while others require extensive testing:
 
 Statistical Path (Requires Repetition): 1. #strong[Multiple encounters:]
@@ -1312,7 +1402,7 @@ analysis before extensive empirical testing.
 
 The Network Begins Inside: Even Crusoe alone has a "network"---his
 visual, tactile, olfactory, and thermal subsystems must agree on "fire."
-The Standing Predicate emerges when these internal streams achieve
+The generative prior emerges when these internal streams achieve
 computational closure around a shared boundary. For structural patterns,
 this closure can succeed rapidly; for statistical patterns, it requires
 iterative refinement.
@@ -1331,7 +1421,7 @@ permits rapid validation or demands extensive statistical accumulation.
 === 3.6.5 From Cognitive Mechanisms to Social Truth
 <from-cognitive-mechanisms-to-social-truth>
 A potential confusion must be addressed. Glenn (2025) distinguishes
-Standing Predicates by their relationship to networks (Consensus Network
+generative priors by their relationship to networks (Consensus Network
 versus Apex Network). This paper distinguishes patterns by their
 cognitive processing requirements (statistical versus structural). Are
 these competing typologies?
@@ -2003,8 +2093,8 @@ high-cost positions to test them - Bear brittleness costs to explore the
 compression landscape
 
 The Variation Engine: Individuals are variation generators; reality is
-the selection mechanism. The Apex Network is discovered through
-distributed exploration, not centrally imposed.
+the selection mechanism. The optimal constraint configuration is
+discovered through distributed exploration, not centrally imposed.
 
 Important: This isn't libertarian free will (causally uncaused choices)
 but compatibilist agency (internally-generated variation within causal
@@ -2039,8 +2129,8 @@ believe B, and believing B leads you to believe C, then believing A
 should lead you to believe C. Otherwise, your compressions fragment into
 isolated islands.
 
-Together, these minimal requirements---non-contradiction and
-transitivity---form the core of classical logic. Logic is not
+Together, these minimal requirements (non-contradiction and
+transitivity) form the core of classical logic. Logic is not
 metaphysically necessary in some Platonic sense. It is functionally
 prerequisite.
 
@@ -2094,15 +2184,16 @@ particles, equations) - One framework compresses structure in chemistry,
 physics, music, cryptography - Unreasonable effectiveness because it
 captures genuine compression joints
 
-Connection to Apex Network: Mathematics is part of the Apex
-Network---the maximally compressed representation of structural
-constraints that any sufficiently thorough compression must discover.
+Connection to Optimal Structure: Mathematics is part of the optimal
+constraint configuration---the maximally compressed representation of
+structural constraints that any sufficiently thorough compression must
+discover.
 
 Philosophical Positioning: This view differs from Mathematical Platonism
 in key respects. Platonism holds that mathematical objects exist
 independently in an abstract realm, which our minds somehow access. We
 claim instead that mathematical structures are optimal compression
-protocols for describing constraint relationships---they are discovered
+protocols for describing constraint relationships; they are discovered
 rather than invented, but what is being discovered is the structure of
 the constraint space itself, not objects in a separate ontological
 realm. This aligns more closely with ontic structural realism (Ladyman
@@ -2118,7 +2209,7 @@ objectivity without requiring a separate realm of mathematical objects.
 
 Mathematical Fallibility: Even mathematics has its Negative Canon. Naive
 Set Theory, which allowed sets to contain themselves, generated
-Russell's Paradox---a contradiction revealing that the blanket had
+Russell's Paradox, a contradiction revealing that the blanket had
 leaked. The mathematical community didn't simply choose to revise set
 theory; they were forced to by the internal incoherence the system
 produced. Failed mathematical definitions, like failed scientific
@@ -2159,9 +2250,9 @@ Classical mystery: How do qualitatively new properties (liquidity, life,
 consciousness) emerge from mere rearrangement of parts?
 
 Computational Closure Answer: Emergence succeeds when a Markov blanket
-configuration achieves: 1. #strong[Lumpability:] Micro-states group into
-stable macro-states 2. #strong[Markovianness:] Macro-dynamics depend
-only on current macro-state 3. #strong[Causal Shielding:] Macro-level is
+configuration achieves: 1. #emph[Lumpability];: Micro-states group into
+stable macro-states 2. #emph[Markovianness];: Macro-dynamics depend only
+on current macro-state 3. #emph[Causal Shielding];: Macro-level is
 informationally closed from micro-implementation
 
 Not Just Useful Fiction: When computational closure succeeds, the
@@ -2196,12 +2287,12 @@ macro-level runs its own causal dynamics, making substrate details
 causally irrelevant (though they remain constitutively necessary).
 
 This framework distinguishes strong from weak emergence rigorously.
-#strong[Weak emergence] occurs when macro-patterns are predictable from
+#emph[Weak emergence] occurs when macro-patterns are predictable from
 micro-details but the compression works only in limited contexts (weak
-lumpability). #strong[Strong emergence] occurs when macro-dynamics
-persist across different substrate realizations (strong lumpability).
-Only strongly emergent properties qualify as objectively real features
-of nature rather than observer-relative conveniences.
+lumpability). #emph[Strong emergence] occurs when macro-dynamics persist
+across different substrate realizations (strong lumpability). Only
+strongly emergent properties qualify as objectively real features of
+nature rather than observer-relative conveniences.
 
 This connects to a broader information-theoretic understanding of
 emergence: coarse-graining can convert information from one type to
@@ -2294,9 +2385,9 @@ metrics directly corresponds to what CEP identifies as characteristic of
 correlational models that cannot achieve sustainable efficiency because
 they lack genuine causal structure.
 
-We propose that Standing Predicates may function as
-linguistically-encoded successful computational closures, though this
-claim requires further empirical investigation.
+We propose that generative priors may function as linguistically-encoded
+successful computational closures, though this claim requires further
+empirical investigation.
 
 "…is an infectious disease" achieves: 1. #strong[Lumpability:] Groups
 diverse pathogens (bacteria, viruses, prions) under unified
@@ -2305,7 +2396,7 @@ outcomes using only current disease-state (SIR models) 3. #strong[Causal
 Shielding:] Enables intervention (quarantine, vaccination) without
 tracking molecular details
 
-This May Explain Why Standing Predicates Feel "Real": They potentially
+This May Explain Why Generative Priors Feel "Real": They potentially
 carve reality at genuine compression joints---configurations where
 computational closure appears to succeed naturally, though this
 phenomenological account remains speculative and does not imply that all
@@ -2325,12 +2416,12 @@ macro-structure: the Apex Network, which represents the culmination of
 the compression process and provides a naturalistic foundation for
 objective truth.
 
-== 7. The Apex Network as Ultimate ε-Machine
-<the-apex-network-as-ultimate-ε-machine>
+== 7. The Optimal Constraint Configuration as Ultimate ε-Machine
+<the-optimal-constraint-configuration-as-ultimate-ε-machine>
 === 7.1 Synthesizing Information, Compression, and Truth
 <synthesizing-information-compression-and-truth>
-The Apex Network is the complete set of Standing Predicate
-configurations that achieve minimum systemic brittleness---the
+The optimal constraint configuration is the complete set of generative
+prior configurations that achieve minimum systemic brittleness---the
 intersection of all maximally viable compression structures. In
 information-theoretic terms, it represents the "ultimate"
 ε-machine---using the term to denote the limit of maximal compression
@@ -2343,66 +2434,66 @@ of nested compression levels, where each node represents a different way
 to group micro-states into macro-states. Not all coarse-grainings are
 equally robust: some achieve only weak lumpability (working only for
 specific initial conditions), while others achieve strong lumpability
-(preserving macro-dynamics regardless of substrate details). The Apex
-Network corresponds to the optimal path through this lattice---the set
-of strongly lumpable coarse-grainings that maximize causal autonomy
-while minimizing computational complexity. Reality allows many valid
-maps (the full lattice), but the Apex Network represents those
-compressions that achieve genuine substrate independence. This is why
-objective truth is not correspondence to a single privileged description
-but the achievement of strong lumpability: the predicate holds
-regardless of the underlying micro-state distribution, making it a
-genuine feature of reality rather than an artifact of our perspective.
+(preserving macro-dynamics regardless of substrate details). The optimal
+constraint configuration corresponds to the optimal path through this
+lattice---the set of strongly lumpable coarse-grainings that maximize
+causal autonomy while minimizing computational complexity. Reality
+allows many valid maps (the full lattice), but the optimal constraint
+configuration represents those compressions that achieve genuine
+substrate independence. This is why objective truth is not
+correspondence to a single privileged description but the achievement of
+strong lumpability: the predicate holds regardless of the underlying
+micro-state distribution, making it a genuine feature of reality rather
+than an artifact of our perspective.
 
 Terminological Note: While the mathematical structure is technically a
 lattice (a partially ordered set with strict hierarchical derivation),
-we use "Apex Network" to emphasize the socially shared and collectively
-discovered nature of these optimal compressions. The term "network"
-highlights that this structure emerges through distributed exploration
-by communities of knowers, rather than individual deduction. Both terms
-capture important aspects: "lattice" emphasizes the rigorous
-mathematical relationships between valid compressions, while "network"
-emphasizes the epistemic process by which we discover them.
+we use "optimal constraint configuration" to emphasize the socially
+shared and collectively discovered nature of these optimal compressions.
+This configuration emerges through distributed exploration by
+communities of knowers rather than individual deduction.
 
 Ontological Status (Structural Emergent, Not Metaphysical Blueprint):
 
-The Apex Network is not a pre-existing Platonic form or cosmic blueprint
-awaiting discovery. It is the pattern that necessarily crystallizes from
-the interaction between information-processing systems and environmental
-constraints. It is determined by constraints rather than our beliefs
-about them. Its existence is the existence of a determined pattern, not
-a transcendent entity.
+The optimal constraint configuration is not a pre-existing Platonic form
+or cosmic blueprint awaiting discovery. It is the pattern that
+necessarily crystallizes from the interaction between
+information-processing systems and environmental constraints. It is
+determined by constraints rather than our beliefs about them. Its
+existence is the existence of a determined pattern, not a transcendent
+entity.
 
-The Apex Network is constrained by the Principle of Naturalistic
-Closure: a Standing Predicate cannot achieve Apex status through mere
-internal coherence (Level 3 truth) but must unify special-science
-hypotheses without contradicting fundamental physics. This is why the
-Apex Network is not merely "what works for us" (pragmatism) or "what our
-community agrees upon" (social constructivism), but the set of Real
-Patterns that achieve genuine integration across the hierarchy of
-sciences---from thermodynamics to biology to psychology. The constraint
-is not just thermodynamic viability but consistency with the
-mathematical structure of our universe.
+The optimal constraint configuration is constrained by the Principle of
+Naturalistic Closure: a generative prior cannot achieve optimal status
+through mere internal coherence (Level 3 truth) but must unify
+special-science hypotheses without contradicting fundamental physics.
+This is why the optimal constraint configuration is not merely "what
+works for us" (pragmatism) or "what our community agrees upon" (social
+constructivism), but the set of real patterns that achieve genuine
+integration across the hierarchy of sciences---from thermodynamics to
+biology to psychology. The constraint is not just thermodynamic
+viability but consistency with the mathematical structure of our
+universe.
 
 Modal Determinacy: Given our universe's actual constraint structure
-(thermodynamics, logical consistency, biological requirements), the Apex
-Network appears to be the necessary optimal configuration---modally
-necessary relative to these constraints, though this claim remains
-theoretical and requires further empirical validation. However, in a
-universe with different fundamental physics or logical laws, a different
-Apex Network would emerge. There is no super-cosmic structure
-independent of physical reality itself.
+(thermodynamics, logical consistency, biological requirements), the
+optimal constraint configuration appears to be the necessary optimal
+configuration---modally necessary relative to these constraints, though
+this claim remains theoretical and requires further empirical
+validation. However, in a universe with different fundamental physics or
+logical laws, a different optimal configuration would emerge. There is
+no super-cosmic structure independent of physical reality itself.
 
 Analogy to Mathematical Necessity: Just as π is not "somewhere" waiting
 to be found but is a necessary consequence of Euclidean geometry's
-constraint structure, the Apex Network is a necessary consequence of
-reality's pragmatic constraint structure. Ancient Babylonians, Greeks,
-and Indians discovered π independently not through cultural transmission
-but because geometric constraints determine its value. Similarly,
-independent cultures converge on similar low-brittleness principles
-(reciprocity norms, property conventions, harm prohibitions) because
-these are structurally necessary for viable coordination, determined by
-objective pragmatic constraints.
+constraint structure, the optimal constraint configuration is a
+necessary consequence of reality's pragmatic constraint structure.
+Ancient Babylonians, Greeks, and Indians discovered π independently not
+through cultural transmission but because geometric constraints
+determine its value. Similarly, independent cultures converge on similar
+low-brittleness principles (reciprocity norms, property conventions,
+harm prohibitions) because these are structurally necessary for viable
+coordination, determined by objective pragmatic constraints.
 
 The constraints exist first; the optimal structure they determine is a
 necessary implication. Historical filtering is how we discover this
@@ -2410,53 +2501,75 @@ structure, not how we create it.
 
 Collective Intelligence and Emergent Knowledge: Recent work on
 multi-agent active inference provides a concrete mechanism for
-understanding how the Apex Network emerges through distributed
-exploration rather than centralized design. Friston et al.~(2025)
-demonstrate that collectives can be treated as emergent agents with
-their own Markov blankets, possessing synergistic information that no
-individual member encodes. In their model of flocking birds, the
-collective "knows" the predator's location and optimal escape direction
-through the coordination of individual responses, even though no single
-bird detects or represents this information. The flock exhibits genuine
-collective knowledge that emerges from distributed processing.
+understanding how the optimal constraint configuration emerges through
+distributed exploration rather than centralized design. Friston et
+al.~(2025) demonstrate that collectives can be treated as emergent
+agents with their own Markov blankets, possessing synergistic
+information that no individual member encodes. In their model of
+flocking birds, the collective "knows" the predator's location and
+optimal escape direction through the coordination of individual
+responses, even though no single bird detects or represents this
+information. The flock exhibits genuine collective knowledge that
+emerges from distributed processing.
 
 This constraint-determined structure aligns with what Dittrich and Kinne
 (2024) call "reality-filtered data." Information produced by surviving
 agents already embeds causal structure because only causally accurate
-compressions enable the agents generating that data to persist. The Apex
-Network can thus be understood as the attractor state in the space of
-possible compressions where information-theoretic efficiency is
-maximized. It represents the set of Standing Predicates that constitute
-sustainable, generative models (in CEP's terms), discovered through
-distributed exploration of reality's constraint structure. This
+compressions enable the agents generating that data to persist. The
+optimal constraint configuration can thus be understood as the attractor
+state in the space of possible compressions where information-theoretic
+efficiency is maximized. It represents the set of generative priors that
+constitute sustainable, generative models (in CEP's terms), discovered
+through distributed exploration of reality's constraint structure. This
 convergence mechanism explains how cultural and historical processes can
 approach objective truth without requiring direct access to a Platonic
 realm: agents exploring reality under survival pressure necessarily
 generate data reflecting causal constraints, and compressions of that
 data necessarily track those constraints.
 
-This formalizes how the Apex Network operates. Just as a flock possesses
-information about environmental gradients that individual birds do not,
-a culture's network of Standing Predicates can encode compressions that
-no individual fully grasps. The Apex Network represents the collective
-computational closure achieved when communities of knowers, each
-exploring different regions of the compression landscape, generate a
-distributed set of predicates whose interactions reveal constraint
-structures invisible to isolated inquiry. It is neither a pre-existing
-blueprint awaiting discovery nor an arbitrary social construction, but
-the emergent pattern of collective intelligence navigating reality's
-constraints. The "network" metaphor captures this essential feature:
-optimal compressions crystallize through the interaction of many
-explorers facing common thermodynamic pressures, not through individual
-revelation or social agreement alone.
+This formalizes how the optimal constraint configuration operates. Just
+as a flock possesses information about environmental gradients that
+individual birds do not, a culture's network of generative priors can
+encode compressions that no individual fully grasps. The optimal
+constraint configuration represents the collective computational closure
+achieved when communities of knowers, each exploring different regions
+of the compression landscape, generate a distributed set of predicates
+whose interactions reveal constraint structures invisible to isolated
+inquiry. It is neither a pre-existing blueprint awaiting discovery nor
+an arbitrary social construction, but the emergent pattern of collective
+intelligence navigating reality's constraints.
+
+==== 7.1.1 Logical Depth as Epistemic Capital
+<logical-depth-as-epistemic-capital>
+We must distinguish between mere compressibility (Kolmogorov complexity)
+and the value of the compression. A random string is incompressible; a
+string of a million zeros is highly compressible but trivial. The
+optimal constraint configuration consists of compressions that exhibit
+high #emph[logical depth] (Bennett 1988). Logical depth measures the
+computational work (time and energy) required to generate a pattern from
+its minimal description.
+
+Generative priors function as batteries of stored computational work.
+The predicate "F=ma" is brief, but its Logical Depth is immense---it
+encodes the integrated output of centuries of astronomical observation
+and calculus development. When an agent adopts a high-depth predicate
+from the consensus network, they inherit the result of this
+thermodynamic expenditure without performing the computation themselves.
+This formalizes the function of a generative prior: it encapsulates the
+computational history required to derive it. Truth, in this framework,
+is not merely efficient compression; it is the maximization of Logical
+Depth---the ratio of explanatory power to the thermodynamic cost of
+derivation. This explains why the optimal constraint configuration is an
+attractor: it represents the path of least resistance for minimizing
+future metabolic costs via the inheritance of past computational work.
 
 Maximum Computational Closure as Thermodynamic Minimum:
 
-In information-theoretic terms, the Apex Network represents the
-thermodynamic attractor in the phase space of possible compression
-systems---the configuration where information leakage is theoretically
-minimized. This is the limit state where Markov blankets achieve maximum
-alignment with environmental causal structure:
+In information-theoretic terms, the optimal constraint configuration
+represents the thermodynamic attractor in the phase space of possible
+compression systems---the configuration where information leakage is
+theoretically minimized. This is the limit state where Markov blankets
+achieve maximum alignment with environmental causal structure:
 
 The Limit State: Maximum computational closure occurs when the internal
 model predicts the external environment with such accuracy that
@@ -2468,20 +2581,20 @@ joints in reality.
 Analogy: A perfect mirror doesn't eliminate the boundary between object
 and reflection, but the information crossing that boundary is
 transmitted with such fidelity that operationally, the distinction
-disappears. Similarly, the Apex Network is where conceptual boundaries
-(Markov blankets) achieve such high-fidelity compression that they
-mirror reality's constraint structure exactly.
+disappears. Similarly, the optimal constraint configuration is where
+conceptual boundaries (Markov blankets) achieve such high-fidelity
+compression that they mirror reality's constraint structure exactly.
 
 Plateau, Not Necessarily Single Peak:
 
-The Apex Network should not be understood as a single, final theory of
-everything. Rather, it is the complete set of maximally viable
-configurations---a high-altitude plateau on the fitness landscape. While
-some domains may have single sharp peaks (basic thermodynamics, core
-logic), others may permit constrained pluralism of equally
-low-brittleness systems (hot dog taxonomy, aesthetic frameworks).
-Convergence is away from vast valleys of failure (the Negative Canon)
-and toward this resilient plateau of viable solutions.
+The optimal constraint configuration should not be understood as a
+single, final theory of everything. Rather, it is the complete set of
+maximally viable configurations---a high-altitude plateau on the fitness
+landscape. While some domains may have single sharp peaks (basic
+thermodynamics, core logic), others may permit constrained pluralism of
+equally low-brittleness systems (hot dog taxonomy, aesthetic
+frameworks). Convergence is away from vast valleys of failure (the
+Negative Canon) and toward this resilient plateau of viable solutions.
 
 Consider how this plateau manifests across different domains. In ethics,
 reciprocity norms exhibit striking cross-cultural convergence---the
@@ -2506,12 +2619,13 @@ coordinates they inhabit on that plateau.
 
 Ontologically Real, Epistemically Regulative:
 
-A crucial distinction: The Apex Network is ontologically real---the
-objective, mind-independent structure of viability that exists whether
-we correctly perceive it or not, determined by constraints rather than
-our beliefs. However, epistemically it remains a regulative ideal. We
-can never achieve final confirmation that our Consensus Network
-perfectly maps it; our knowledge is necessarily incomplete and fallible.
+A crucial distinction: The optimal constraint configuration is
+ontologically real---the objective, mind-independent structure of
+viability that exists whether we correctly perceive it or not,
+determined by constraints rather than our beliefs. However,
+epistemically it remains a regulative ideal. We can never achieve final
+confirmation that our consensus models perfectly map it; our knowledge
+is necessarily incomplete and fallible.
 
 This dual status grounds a form of structural realism (there is an
 objective constraint structure) while preserving epistemic humility (we
@@ -2520,23 +2634,23 @@ theoretical model for how objective knowledge is possible in a physical
 universe, acknowledging that the extent to which human knowledge systems
 actually achieve this alignment remains an open empirical question.
 
-The Apex Network exists as π exists---determined by constraints,
-counterfactually stable across possible histories, discoverable through
-systematic exploration. But unlike a Platonic form, it is an immanent
-pattern. It is the negative space revealed when systematic pragmatic
-filtering eliminates unviable alternatives.
+The optimal constraint configuration exists as π exists---determined by
+constraints, counterfactually stable across possible histories,
+discoverable through systematic exploration. But unlike a Platonic form,
+it is an immanent pattern. It is the negative space revealed when
+systematic pragmatic filtering eliminates unviable alternatives.
 
 Formal Characterization (With Appropriate Caveats):
 
-We can characterize the Apex Network as the intersection of all
-maximally viable world-systems:
+We can characterize the optimal constraint configuration as the
+intersection of all maximally viable world-systems:
 
-A = ∩{W\_k | V(W\_k) = 1}
+C\_{opt} = ∩{W\_k | V(W\_k) = 1}
 
-Where A = Apex Network, W\_k = possible configurations of Standing
-Predicates, V(W\_k) = viability function (inversely related to
-brittleness metrics), and ∩ = intersection (common structure across all
-viable systems).
+Where C\_{opt} = Optimal Constraint Configuration, W\_k = possible
+configurations of generative priors, V(W\_k) = viability function
+(inversely related to brittleness metrics), and ∩ = intersection (common
+structure across all viable systems).
 
 This formalism captures the concept but should not be mistaken for
 literal metaphysics. It represents the structural pattern that emerges
@@ -2546,25 +2660,26 @@ object.
 === 7.2 Truth as Successful Computational Closure
 <truth-as-successful-computational-closure>
 Redefining Truth: A proposition is true (Level 1) if its predicates are
-part of the Apex Network---the optimal computational closure
-configuration. In Rosas et al.'s (2024) terms, objective truth
-corresponds to #strong[strong lumpability];: the predicate holds
+part of the optimal constraint configuration---the optimal computational
+closure configuration. In Rosas et al.'s (2024) terms, objective truth
+corresponds to #emph[strong lumpability];: the predicate holds
 regardless of underlying substrate or initial micro-state distribution.
 A weakly lumpable predicate works only for specific conditions---it may
 be locally useful but not objectively true. A strongly lumpable
 predicate works across all valid realizations---it has achieved genuine
 substrate independence and thus qualifies as objective truth. Truth is
 not arbitrary social construction but achievement of maximal causal
-autonomy in the compression lattice. The Apex Network is modally
-necessary relative to our universe's constraint structure, though
-alternative universes with different constraints would yield different
-optimal configurations. This counterfactual stability does not imply
-metaphysical necessity, but structural necessity given pragmatic
-constraints.
+autonomy in the compression lattice. The optimal constraint
+configuration is modally necessary relative to our universe's constraint
+structure, though alternative universes with different constraints would
+yield different optimal configurations. This counterfactual stability
+does not imply metaphysical necessity, but structural necessity given
+pragmatic constraints.
 
 Epistemic Qualification: This framework provides a naturalistic account
-of objectivity, though our access to the Apex Network remains fallible
-and requires empirical triangulation. While the Apex Network exists as a
+of objectivity, though our access to the optimal constraint
+configuration remains fallible and requires empirical triangulation.
+While the optimal constraint configuration exists as a
 constraint-determined structure (the set of compressions that minimize
 information leakage given actual pragmatic constraints), our knowledge
 of it is always mediated by historical filtering and subject to
@@ -2573,10 +2688,10 @@ standard against which we assess compressions---but actual knowledge
 claims remain provisional. We can have justified confidence that certain
 predicates approach strong lumpability (those demonstrating low
 brittleness across diverse contexts and extended time periods), but we
-cannot claim infallible access to the complete Apex Network. The
-framework thus preserves robust realism about truth's objectivity while
-maintaining appropriate epistemological humility about our current
-knowledge.
+cannot claim infallible access to the complete optimal constraint
+configuration. The framework thus preserves robust realism about truth's
+objectivity while maintaining appropriate epistemological humility about
+our current knowledge.
 
 Three Levels Revisited Through Information Theory:
 
@@ -2594,9 +2709,9 @@ Three Levels Revisited Through Information Theory:
     compression scheme], [Feels true within the system],
     [Level 2 (Justified)], [Compression validated by low brittleness in
     practice], [Rationally confident it's true],
-    [Level 1 (Objective)], [Part of the ultimate ε-machine---optimal
-    compression of constraint structure], [Would be true even if we
-    never discovered it],
+    [Level 1 (Objective)], [Part of the optimal constraint
+    configuration---optimal compression of constraint structure], [Would
+    be true even if we never discovered it],
   )]
   , kind: table
   )
@@ -2621,13 +2736,13 @@ closure), further interaction with reality generates minimal error
 signals. The system has reached equilibrium: its internal model aligns
 with environmental structure closely enough that prediction errors
 approach zero. In Quine's terms, global disturbance is minimized---in
-our terms, systemic brittleness is minimized. The Apex Network thus
-represents the set of compressions that, once discovered, resist further
-revision not because we dogmatically cling to them but because reality's
-constraint structure leaves no gradient pointing elsewhere. Quine
-located truth in coherence plus minimal disturbance; this framework
-grounds that immanent conception in the thermodynamic necessity of
-computational closure.
+our terms, systemic brittleness is minimized. The optimal constraint
+configuration thus represents the set of compressions that, once
+discovered, resist further revision not because we dogmatically cling to
+them but because reality's constraint structure leaves no gradient
+pointing elsewhere. Quine located truth in coherence plus minimal
+disturbance; this framework grounds that immanent conception in the
+thermodynamic necessity of computational closure.
 
 === 7.3 Convergence as Information-Geometric Necessity
 <convergence-as-information-geometric-necessity>
@@ -2659,14 +2774,15 @@ the Apex Network, we now apply these concepts to macro-epistemology,
 demonstrating how brittleness metrics provide practical tools for
 assessing the health of real-world knowledge systems and institutions.
 
-Having established the Apex Network as the thermodynamic attractor for
-optimal compression, we now explore applications to macro-epistemology.
-The framework's information-theoretic foundation provides diagnostic
-tools for assessing systemic brittleness in knowledge systems, extending
-the analysis from individual cognition to collective epistemic health.
+Having established the optimal constraint configuration as the
+thermodynamic attractor for optimal compression, we now explore
+applications to macro-epistemology. The framework's
+information-theoretic foundation provides diagnostic tools for assessing
+systemic brittleness in knowledge systems, extending the analysis from
+individual cognition to collective epistemic health.
 
-== 8. Application to Macro-Epistemology and Systemic Brittleness
-<application-to-macro-epistemology-and-systemic-brittleness>
+== 8. Applications: From Epistemology to Real-World Systems
+<applications-from-epistemology-to-real-world-systems>
 === 8.1 Brittleness Metrics as Information Leakage Measures
 <brittleness-metrics-as-information-leakage-measures>
 These brittleness metrics formalize the accumulated cost of misalignment
@@ -2731,7 +2847,45 @@ brittleness, not by structural viability.
 Phenomenology: Effortful belief maintenance ("I must avoid thinking
 about X"), defensiveness when challenged
 
-=== 8.3 Pragmatic Pushback as Thermodynamic Necessity
+=== 8.3 The Real-World Necessity of Wholes
+<the-real-world-necessity-of-wholes>
+Reducing reality exclusively to particles isn't just metaphysically
+arid; it carries significant explanatory risks in practice. When we
+ignore computational closure and attempt to reason locally about parts,
+we fail to predict outcomes that are determined by boundary constraints.
+
+#strong[Medicine (Atrial Fibrillation):] Cardiologists do not treat
+atrial fibrillation by attempting to influence individual
+cardiomyocytes. The condition is an organ-level dynamical breakdown---a
+"rotor" or chaotic wave front. Effective treatment involves ablation,
+which alters the geometry of the heart's electrical boundary. The
+heart's macro-properties possess causal powers (sustaining or breaking
+the wave) that individual cells lack. The "whole" (the organ's geometry)
+is the causally effective intervention point.
+
+#strong[Ecology (Salmon Collapse):] Efforts to save salmon populations
+by focusing solely on the fish (hatcheries) often fail. The collapse is
+frequently a system-level failure involving river flow patterns,
+temperature gradients, and predator-balance. Restoring the population
+requires restoring the ecosystem's boundaries. The system possesses
+emergent stability properties invisible at the species level.
+
+#strong[Technology (Internet Robustness):] The internet exhibits traffic
+patterns and robustness properties that individual routers do not
+possess. Optimizing individual routers while ignoring network-level
+properties (like scale-free topology) can lead to cascading failures.
+The network is a computational machine with its own closure; treating it
+as a pile of routers is an informational error.
+
+#strong[Quantum Physics (Entanglement):] The challenge "Does
+entanglement not violate locality?" is resolved by recognizing that
+locality holds at the macroscopic scales where wholes emerge. Even if
+the substrate allows non-local correlations, the statistical boundaries
+that define objects (like lab equipment or observers) preserve effective
+locality. Our argument applies where objects exist---above the quantum
+decoherence threshold where computational closure becomes possible.
+
+=== 8.4 Pragmatic Pushback as Thermodynamic Necessity
 <pragmatic-pushback-as-thermodynamic-necessity>
 Information Can't Be Suppressed Indefinitely: Systems that maintain
 blankets misaligned with reality face thermodynamic costs: 1. Prediction
@@ -2747,7 +2901,7 @@ The Ratchet Effect: Once a better compression is found (lower
 brittleness), reverting becomes thermodynamically unfavorable---you'd
 have to re-pay all the information costs the compression solved.
 
-=== 8.4 The Negative Canon as Compression Failure Archive
+=== 8.5 The Negative Canon as Compression Failure Archive
 <the-negative-canon-as-compression-failure-archive>
 Every entry in the Negative Canon represents a failed computational
 closure: - Phlogiston: Combustion blanket leaked - Miasma: Disease
@@ -2786,7 +2940,7 @@ problem:
   blankets)
 - Unity of consciousness: Integrated information across blanket
   hierarchies
-- #strong[Institutional Minds Without Phenomenology:] While social
+- #emph[Institutional Minds Without Phenomenology];: While social
   institutions possess Markov blankets and exhibit information
   processing (they minimize surprise, maintain boundaries, adapt to
   environments), this framework does not imply they possess phenomenal
@@ -2841,9 +2995,9 @@ computational closure - Not mysterious or epiphenomenal but
 thermodynamically real - The universe is layered compression hierarchies
 all the way up
 
-=== 9.4 For Ethics: Evil as High-Entropy Sociology
-<for-ethics-evil-as-high-entropy-sociology>
-The Markov Blanket View of Moral Agency: If Standing Predicates are
+=== 9.4 For Ethics: The Thermodynamic Costs of Coercion
+<for-ethics-the-thermodynamic-costs-of-coercion>
+The Markov Blanket View of Moral Agency: If generative priors are
 successful Markov blankets, then ethics concerns how we draw boundaries
 around the agency of others.
 
@@ -3004,14 +3158,6 @@ suppressing their autonomous responses. The agent's computational
 closure actively resists your interventions, generating persistent
 prediction errors and requiring escalating coercion costs.
 
-Metastability Through Parasitic Endurance: A critical qualification:
-coercive systems can achieve local stability (metastability) by
-successfully suppressing agency through overwhelming force or breaking
-the oppressed population's capacity for resistance. Historically,
-slavery, totalitarian regimes, and colonial systems have persisted for
-generations, not mere moments. The thermodynamic constraint operates on
-longer timescales than immediate collapse.
-
 The key mechanism is parasitic endurance: these systems survive not
 through structural viability but by extracting surplus energy to pay the
 massive coercion costs. They appear stable only because they burn
@@ -3020,6 +3166,26 @@ resource windfalls (oil wealth, foreign aid), or cannibalizing their own
 future---to mask the entropy generated by their internal friction. This
 is energetic insolvency maintained through extraction, not genuine
 thermodynamic efficiency.
+
+#strong[Metastability Through Information Cannibalization:] How do
+high-brittleness systems like totalitarian regimes persist? They engage
+in #emph[information cannibalization];. Viable systems invest energy in
+sensors (dissent, market prices, free speech) to update their Markov
+blankets. Coercive systems consume that sensory infrastructure to fuel
+immediate stability. By destroying the error-generating mechanisms
+(purging experts, fixing prices, censoring press), they artificially
+lower free energy in the short term (internal surprise is minimized
+because no one dares report bad news).
+
+This is the equivalent of a cell digesting its own membrane receptors to
+generate ATP. It creates a temporary illusion of low brittleness (high
+internal coherence) while actual misalignment with reality accelerates.
+This clarifies the normative judgment: such systems are "evil" not
+merely because they cause pain, but because they are engaged in the
+systemic consumption of their own resilience reserve ($R \( t \)$). They
+trade the capacity to adapt to the future for the capacity to control
+the present, a thermodynamic strategy that is mathematically guaranteed
+to terminate in catastrophic failure.
 
 The claim is not that coercive systems fail instantly, nor that
 thermodynamic efficiency is identical to moral goodness. It is possible,
@@ -3066,10 +3232,10 @@ the extraction capacity
 Not Moral Relativism: Different cultures may draw different boundaries
 around "who counts as an agent" (children? animals? ecosystems?), but
 systems that catastrophically misalign with the actual distribution of
-agency in their environment pay thermodynamic costs. The Apex Network
-includes the recognition that other humans are agents---not because of
-moral axioms but because any other blanket configuration generates
-unsustainable brittleness.
+agency in their environment pay thermodynamic costs. The optimal
+constraint configuration includes the recognition that other humans are
+agents---not because of moral axioms but because any other blanket
+configuration generates unsustainable brittleness.
 
 Connection to Expansion of Moral Circle: Historical moral progress often
 involves recognizing previously-objectified groups as agents (women,
@@ -3106,8 +3272,8 @@ entanglement and superposition challenge this classical architecture.
 Whether computational closure can be meaningfully extended to quantum
 systems, or whether quantum phenomena represent a fundamental boundary
 for blanket-based ontology, remains an open theoretical question.
-Exploring the implications for the Apex Network framework remains
-important future work.
+Exploring the implications for the optimal constraint configuration
+framework remains important future work.
 
 == 10. Conclusion: A Naturalistic Framework (With Acknowledged Limits)
 <conclusion-a-naturalistic-framework-with-acknowledged-limits>
@@ -3121,20 +3287,20 @@ minimal encodings of regularities, Markov blankets emerge when
 compressions achieve statistical boundaries, and computational closure
 succeeds when blankets create autonomous causal levels. Consciousness
 may relate to meta-blanket hierarchies and structural pattern
-recognition, while standing predicates are culturally transmitted
+recognition, while generative priors are culturally transmitted
 successful closures. Brittleness measures information leakage when
 closures fail, and pragmatic selection eliminates high-brittleness
-compressions. The apex network is the constraint-determined optimal
-compression structure, and truth is not correspondence to static
-propositions but alignment with the apex network---the state where a
-system's enacted boundaries map the environment's causal constraints,
-achieving maximal computational closure with minimal information
-leakage.
+compressions. The optimal constraint configuration is the
+constraint-determined optimal compression structure, and truth is not
+correspondence to static propositions but alignment with the optimal
+constraint configuration---the state where a system's enacted boundaries
+map the environment's causal constraints, achieving maximal
+computational closure with minimal information leakage.
 
 This framework employs information-theoretic language as conceptual
 scaffolding for understanding epistemic and cognitive phenomena. Whether
 brains literally implement variational free energy minimization or
-standing predicates are literally encoded as Markov blankets in neural
+generative priors are literally encoded as Markov blankets in neural
 tissue remains an empirical question. The philosophical insights---about
 what makes predicates successful, how knowledge systems fail, and why
 inquiry converges---retain their force even if specific mechanistic
@@ -3142,14 +3308,13 @@ claims require revision, though the overall framework itself remains
 subject to empirical testing and philosophical refinement.
 
 We've identified relevant functional distinctions without solving all
-foundational problems. The hard problem of consciousness---why
-structural pattern recognition feels like anything---remains open. The
-is/ought gap, or why thermodynamic efficiency should matter morally, is
-not derived from the framework. The plurality question, concerning how
-much genuine pluralism exists versus forced convergence, remains
-empirical. Finally, the limits of compression, such as whether some
-truths resist finite compression due to incompleteness theorems, are not
-fully addressed.
+foundational problems. The hard problem of consciousness (why structural
+pattern recognition feels like anything) remains open. The is/ought gap,
+or why thermodynamic efficiency should matter morally, is not derived
+from the framework. The plurality question, concerning how much genuine
+pluralism exists versus forced convergence, remains empirical. Finally,
+the limits of compression, such as whether some truths resist finite
+compression due to incompleteness theorems, are not fully addressed.
 
 This framework provides a mechanistic account of how notions form and
 validate through statistical versus structural pattern recognition. It
@@ -3166,16 +3331,26 @@ eliminated or reduced away, but understood as emerging from information
 processing under constraint. The framework is naturalistic without being
 eliminativist.
 
-The main paper's claims about standing predicates as Markov blankets,
-brittleness as information leakage, and the apex network as
-thermodynamic attractor now have theoretical grounding in information
-theory, computational closure, and constraint-driven selection.
+The main paper's claims about generative priors as Markov blankets,
+brittleness as information leakage, and the optimal constraint
+configuration as thermodynamic attractor now have theoretical grounding
+in information theory, computational closure, and constraint-driven
+selection.
+
+Ultimately, this framework suggests a unification of metaphysics and
+information theory. Reality is not a flat soup of particles where only
+the smallest things are real. It is a #strong[lattice of computational
+machines];, nested within one another. Each machine---a cell, a mind, a
+society---maintains its own closure and runs its own causal code.
+Science is not the reduction of these machines to their parts, but the
+discovery of which machine correctly predicts the phenomenon at hand.
 
 This framework positions us not as passive observers of a pre-existing
 Platonic reality, but as active participants in discovering the
 constraint-determined structure of our universe. Knowledge advances
 through the systematic elimination of configurations that generate
-unsustainable brittleness, gradually mapping the apex network.
+unsustainable brittleness, gradually mapping the optimal constraint
+configuration.
 
 == References
 <references>
@@ -3187,6 +3362,10 @@ https:\/\/doi.org/10.1177/0963721412436806.
 Ayvazov, Mahammad. 2025. "Toward a Phase Epistemology: Coherence,
 Response and the Vector of Mutual Uncertainty." #emph[SSRN Electronic
 Journal];. https:\/\/doi.org/10.2139/ssrn.5250197.
+
+Bennett, Charles H. 1988. "Logical Depth and Physical Complexity." In
+#emph[The Universal Turing Machine: A Half-Century Survey];, edited by
+Rolf Herken, 227--257. Oxford: Oxford University Press.
 
 BonJour, Laurence. 1985. #emph[The Structure of Empirical Knowledge];.
 Cambridge, MA: Harvard University Press. ISBN 978-0674843813.
@@ -3207,6 +3386,9 @@ Sciences] 36(3): 181--204. https:\/\/doi.org/10.1017/S0140525X12000477.
 
 Dennett, Daniel C. 1991. "Real Patterns." #emph[Journal of Philosophy]
 88(1): 27-51. https:\/\/doi.org/10.2307/2027085.
+
+Dennett, Daniel C. 1987. #emph[The Intentional Stance];. Cambridge, MA:
+MIT Press. ISBN 978-0262540537.
 
 Dittrich, Christian, and Jennifer Flygare Kinne. "The
 Information-Theoretic Imperative: Compression and the Epistemic
@@ -3273,6 +3455,9 @@ Parr, Thomas, and Karl J. Friston. 2025. "How Do Inner Screens Enable
 Imaginative Experience? Applying the Free-Energy Principle to
 Attention." #emph[Neuroscience of Consciousness] 2025(1): niaf009.
 https:\/\/doi.org/10.1093/nc/niaf009.
+
+Pearl, Judea. 2000. #emph[Causality: Models, Reasoning, and Inference];.
+Cambridge: Cambridge University Press. ISBN 978-0521773621.
 
 Quine, W. V. O. 1960. #emph[Word and Object];. Cambridge, MA: MIT Press.
 ISBN 978-0262670012.
