@@ -87,6 +87,16 @@ error could be the engine that shapes both cognitive architecture and
 epistemic norms, though this remains a theoretical proposal requiring
 empirical validation.
 
+Methodologically, this framework adheres to what Ladyman and Ross (2007)
+term the #emph[Principle of Naturalistic Closure];: we reject a priori
+intuition as a guide to metaphysics and instead require that
+epistemological claims unify the special sciences with fundamental
+physics without contradiction. The Standing Predicates and Markov
+blankets described herein are not merely psychological heuristics but
+are motivated by the convergence of thermodynamics and information
+theory---a convergence that grounds cognition in the physical
+constraints any bounded system must satisfy.
+
 Our central thesis, which remains speculative, is that consciousness may
 function as the user interface for a specific type of information
 processing: structural pattern recognition. We distinguish this from the
@@ -156,10 +166,19 @@ metaphorical. When we speak of "information costs" in cognitive systems,
 we refer to functional constraints that have, at bottom, thermodynamic
 grounding.
 
-Existence as a persistent bounded entity (rather than a transient
-pattern) requires information processing. A "thing" exists to the extent
-it maintains statistical boundaries distinguishing its internal states
-from external states.
+Existence as a persistent bounded pattern requires information
+processing. What we call "things" are better understood as #emph[Real
+Patterns] in the sense of Dennett (1991) and Ladyman and Ross (2007).
+Crucially, we must distinguish between material substrate (the
+underlying physical constituents) and causal structure (the constraints
+that shape outcomes). A Real Pattern exists not by virtue of what it is
+made of, but by what it does to a probability distribution. If a pattern
+reduces uncertainty and supports counterfactual interventions (if
+heating this boundary causes the interior to produce heat shock
+proteins), it constitutes an ontological unit. Real Patterns compress
+information, maintaining statistical boundaries that distinguish
+internal from external states while achieving genuine projectibility
+(predictive purchase on future states).
 
 === 2.2 The Free Energy Principle
 <the-free-energy-principle>
@@ -783,11 +802,27 @@ formalization provides a useful theoretical framework for understanding
 autonomy, its applicability across all scales and domains remains an
 open empirical question requiring further investigation.
 
-=== 3.2 Blankets Create "Things"
-<blankets-create-things>
+This boundary formation is not merely a biological accident but a
+consequence of basic physical constraints. In any system where causes
+have effects, interactions propagate through neighbors, and states carry
+information about one another, statistical screening-off becomes
+inevitable. Certain configurations of matter will necessarily screen off
+interior from exterior states, such that the boundary becomes the sole
+causal mediator. Thus, the Markov blanket is not a label applied by an
+observer but a causal structure that naturally emerges from local
+interaction constraints.
+
+=== 3.2 Rainforest Realism: Blankets Delineate Real Patterns
+<rainforest-realism-blankets-delineate-real-patterns>
 Markov blankets are enacted, not discovered. They emerge when certain
 configurations of matter successfully maintain statistical boundaries
-against entropic dissolution.
+against entropic dissolution. This perspective aligns with what Ladyman
+and Ross (2007) call #emph[Rainforest Realism];: the ontology of the
+world is not a sparse desert of fundamental particles but a rich
+layering of Real Patterns at every scale where information can be
+compressed. A Markov blanket does not invent a useful fiction; it
+isolates a Real Pattern that carries genuine information load---what
+survives the compression process because it enables prediction.
 
 Examples Across Scales:
 
@@ -996,7 +1031,12 @@ macro-variables contain all the information needed to predict their own
 future behavior. Substrate details have become causally irrelevant
 (though they remain constitutively necessary). This is computational
 closure: the macro-level is "running code" rather than merely describing
-patterns in the substrate.
+patterns in the substrate. This equivalence provides the rigorous
+criterion for a "Real Pattern" in Dennett's sense: a compression that
+loses nothing of predictive value. When adding micro-level details
+yields zero additional information about the macro-future, the
+macro-level description has captured genuine structure in reality rather
+than imposing convenient fiction.
 
 This equivalence admits degrees of robustness, formalized as
 lumpability. #strong[Weak lumpability] holds when macro-dynamics work
@@ -1068,6 +1108,17 @@ Rosas et al.~(2024) formalize exactly this criterion: when your
 that has achieved causal decoupling. The macro-level is "running code"
 rather than merely describing patterns in the substrate. This is the
 formal signature of successful emergence.
+
+A different example illustrates continuous dynamical systems. Consider a
+traffic jam. A υ-machine attempting to predict when the jam clears by
+tracking every car's velocity and position faces an intractable
+computational task. An ε-machine tracking only traffic density and
+average flow rate achieves equivalent predictive accuracy with vastly
+fewer variables. When the ε-machine succeeds, the macro-variable
+"traffic density" has achieved computational closure. The micro-details
+of individual vehicles are constitutively necessary (no cars, no jam)
+but causally redundant---they have been screened off by the macro-level
+dynamics.
 
 Why This Matters: - Dispositions are cognitive ε-machines---they
 compress experience into causal states (notions, beliefs) - Standing
@@ -1145,6 +1196,19 @@ system. The existence of this lattice explains epistemic
 equifinality---different purposes may select different points in the
 space of viable compressions, all of which genuinely achieve
 computational closure.
+
+This lattice structure also provides the formal justification for
+Rainforest Realism. Because different physical substrates can realize
+computationally equivalent ε-machines, reality genuinely supports
+multiple valid ontologies enacted at different scales. However, this is
+not relativism. The constraint is strong lumpability: you can draw
+boundaries in various ways, but only those configurations that yield
+self-contained, Markovian macro-dynamics qualify as genuine
+compressions. Most arbitrary groupings fail this test. The "rainforest"
+of real patterns consists precisely of those coarse-grainings that
+achieve computational closure. A "hot dog" is a valid object only if the
+hot dog variable predicts its own future behavior better than the noise
+floor of tracking bread molecules separately.
 
 Connection to Truth: The Apex Network doesn't dictate "the one true hot
 dog ontology" but rather the set of boundary-drawing strategies that
@@ -1654,6 +1718,18 @@ distinction between conscious and unconscious processing is functional,
 but the explanandum---why there is "something it is like" to perform one
 function but not the other---remains experiential and unresolved.
 
+From the perspective of Ontic Structural Realism, this framing may
+itself be too concessive. If structure is ontologically fundamental---if
+there are no "things-in-themselves" beyond the relations they
+participate in---then a complete structural description of the
+compression process may exhaust the phenomenon rather than merely
+correlate with it. On this view, phenomenology is not a ghostly residue
+but the #emph[informational view-from-within] of a Real Pattern
+maintaining its structural integrity. We remain agnostic on whether OSR
+fully dissolves the Hard Problem, but note that the "explanatory gap"
+may presuppose the very substance metaphysics that structural realism
+rejects.
+
 Our Contribution (A Working Hypothesis):
 
 We propose that consciousness relates to detecting and representing
@@ -1740,6 +1816,16 @@ representing constraint relationships---grasping that components must
 relate in certain ways. Perhaps phenomenology is what representing
 structural constraints feels like, while mere statistical correlation
 tracking proceeds unconsciously.
+
+Consider the puzzle of mental representation: when one visualizes a
+triangle, a neuroscientist observing the brain sees only distributed
+firing patterns. The question "where is the triangle?" is a category
+error. The triangle exists at the level of the ε-machine---a
+coarse-grained macro-state that achieves computational closure over the
+neural substrate. The subjective experience of the triangle is the view
+from within that closure. It is "real" because it supports geometric
+inferences that the raw neural firing patterns cannot explicitly
+represent without the macro-level compression.
 
 A functional clarification may help: phenomenology appears to function
 as the system's method of distinguishing between routine prediction
@@ -1965,6 +2051,18 @@ compressions. This is not a claim about metaphysical necessity but about
 functional prerequisites given the constraints of bounded information
 processing.
 
+This requirement has a precise information-theoretic interpretation:
+logic ensures that operations at different scales remain consistent. If
+you perform a computation at the micro-level and then compress the
+result, you should get the same answer as if you compressed first and
+then computed at the macro-level. When this consistency fails, the
+macro-level description no longer tracks the underlying dynamics, and
+the compression breaks down. Logical laws (like transitivity and
+non-contradiction) are thus the structural requirements for valid
+coarse-graining. They are not Platonic impositions but the conditions
+under which any "software layer" can reliably run on its physical
+"hardware."
+
 Information-Theoretic Grounding: - Non-contradiction: Same input cannot
 compress to contradictory outputs - Excluded middle: Compression
 requires binary decision boundaries - Modus ponens: Compression chains
@@ -2077,6 +2175,17 @@ causally autonomous. This provides a precise criterion for when
 emergence genuinely succeeds versus when we merely have convenient but
 reducible description.
 
+A clarification on "causation": following Russell (1913) and Ladyman and
+Ross (2007), we acknowledge that fundamental physics describes
+functional dependencies rather than discrete causal "bangs." The
+"causation" that emerges at macro-levels is therefore best understood as
+#emph[information-theoretic projectibility];---a macro-state is "causal"
+not because it exerts a metaphysical force, but because it maximizes
+mutual information with future states, effectively screening off
+micro-history. This protects the framework from the objection that we
+are smuggling metaphysically loaded causation into domains where physics
+reveals only functional structure.
+
 The key insight: if adding substrate information to your macro-level
 predictor doesn't improve its accuracy, then the macro-level has
 achieved causal independence. The emergent pattern is not merely a
@@ -2102,6 +2211,17 @@ when this information conversion creates synergistic relationships at
 the macro-level that don't exist at the micro-level---when the whole
 genuinely exhibits causal properties absent from mere aggregation of
 parts.
+
+A common objection holds that emergent entities are simply "fundamental
+particles arranged structure-wise," implying that arrangement language
+is ontologically neutral. This conflates material substrate with causal
+structure. The arrangement is not neutral; it creates new constraints on
+information flow. When a boundary condition creates conditional
+independence---such that intervening on the boundary controls interior
+dynamics---the arrangement has achieved causal autonomy. To deny the
+existence of wholes at this point is to claim that causal efficacy is
+insufficient for existence, a standard that would render even
+fundamental particles (defined by their causal roles) non-existent.
 
 Temperature Example Revisited: - Base: 10²³ molecules with positions,
 momenta - Emergent: Single scalar variable (temperature) -
@@ -2228,7 +2348,11 @@ Network corresponds to the optimal path through this lattice---the set
 of strongly lumpable coarse-grainings that maximize causal autonomy
 while minimizing computational complexity. Reality allows many valid
 maps (the full lattice), but the Apex Network represents those
-compressions that achieve genuine substrate independence.
+compressions that achieve genuine substrate independence. This is why
+objective truth is not correspondence to a single privileged description
+but the achievement of strong lumpability: the predicate holds
+regardless of the underlying micro-state distribution, making it a
+genuine feature of reality rather than an artifact of our perspective.
 
 Terminological Note: While the mathematical structure is technically a
 lattice (a partially ordered set with strict hierarchical derivation),
@@ -2248,6 +2372,17 @@ the interaction between information-processing systems and environmental
 constraints. It is determined by constraints rather than our beliefs
 about them. Its existence is the existence of a determined pattern, not
 a transcendent entity.
+
+The Apex Network is constrained by the Principle of Naturalistic
+Closure: a Standing Predicate cannot achieve Apex status through mere
+internal coherence (Level 3 truth) but must unify special-science
+hypotheses without contradicting fundamental physics. This is why the
+Apex Network is not merely "what works for us" (pragmatism) or "what our
+community agrees upon" (social constructivism), but the set of Real
+Patterns that achieve genuine integration across the hierarchy of
+sciences---from thermodynamics to biology to psychology. The constraint
+is not just thermodynamic viability but consistency with the
+mathematical structure of our universe.
 
 Modal Determinacy: Given our universe's actual constraint structure
 (thermodynamics, logical consistency, biological requirements), the Apex
@@ -2817,9 +2952,13 @@ micro-level resistance their autonomous system generates.
 This explains why persuasion is thermodynamically cheaper than coercion:
 persuasion operates at the ε-machine level (engaging autonomous
 macro-dynamics), while coercion operates at the substrate level
-(fighting against those dynamics). The computational closure Rosas et
-al.~identify is precisely what moral recognition respects and evil
-violations ignore.
+(fighting against those dynamics). Substrate interference is
+thermodynamically expensive in a specific way: by discarding the
+efficient causal structure of the agent's computational closure, the
+coercer must manage the full complexity of the micro-states directly.
+Persuasion leverages the agent's own compression architecture; coercion
+fights against it. The computational closure Rosas et al.~identify is
+precisely what moral recognition respects and evil violations ignore.
 
 Evil as Closure Breach (Bypassing the ε-Machine to Manipulate the
 Substrate):
@@ -3066,6 +3205,9 @@ Clark, Andy. 2013. "Whatever next? Predictive brains, situated agents,
 and the future of cognitive science." #emph[Behavioral and Brain
 Sciences] 36(3): 181--204. https:\/\/doi.org/10.1017/S0140525X12000477.
 
+Dennett, Daniel C. 1991. "Real Patterns." #emph[Journal of Philosophy]
+88(1): 27-51. https:\/\/doi.org/10.2307/2027085.
+
 Dittrich, Christian, and Jennifer Flygare Kinne. "The
 Information-Theoretic Imperative: Compression and the Epistemic
 Foundations of Intelligence." Preprint, submitted October 30, 2024.
@@ -3138,6 +3280,10 @@ ISBN 978-0262670012.
 Rosas, Fernando E., et al.~2024. "Disentangling High-Order Mechanisms
 and High-Order Behaviours in Complex Systems." #emph[Nature Physics] 20:
 1095--1104. https:\/\/doi.org/10.1038/s41567-024-02477-4.
+
+Russell, Bertrand. 1913. "On the Notion of Cause." #emph[Proceedings of
+the Aristotelian Society] 13(1): 1-26.
+https:\/\/doi.org/10.1093/aristotelian/13.1.1.
 
 Shannon, Claude E. 1948. "A Mathematical Theory of Communication."
 #emph[Bell System Technical Journal] 27(3): 379--423.
