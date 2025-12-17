@@ -24,6 +24,8 @@ Bedau, Mark A. 1997. "Weak Emergence." *Philosophical Perspectives* 11: 375–99
 
 Bennett, Andrew, and Jeffrey T. Checkel, eds. 2014. *Process Tracing: From Metaphor to Analytic Tool*. Cambridge: Cambridge University Press. https://doi.org/10.1017/CBO9781139858472. ISBN 9781139858472, 9781107042452.
 
+Bennett, Charles H. 1988. "Logical Depth and Physical Complexity." In *The Universal Turing Machine: A Half-Century Survey*, edited by Rolf Herken, 227–257. Oxford: Oxford University Press.
+
 Bennett-Hunter, Guy. 2015. "Emergence, Emergentism and Pragmatism." *Theology and Science* 13(3): 337–57. https://doi.org/10.1080/14746700.2015.1053760.
 
 Bennett-Hunter, Guy. 2015. *Ineffability and Religious Experience*. London: Routledge (originally Pickering & Chatto). ISBN 978-1848934719.
@@ -69,6 +71,8 @@ Conquest, Robert. 1990. *The Great Terror: A Reassessment*. Oxford: Oxford Unive
 Davidson, Donald. 1983. “A Coherence Theory of Truth and Knowledge.” In *Truth and Interpretation: Perspectives on the Philosophy of Donald Davidson*, edited by Ernest LePore, 137–158. Oxford: Clarendon Press. https://doi.org/10.1093/0198237537.003.0010.
 
 Davidson, Donald. 1986. "A Coherence Theory of Truth and Knowledge." In *Truth and Interpretation: Perspectives on the Philosophy of Donald Davidson*, edited by Ernest LePore, 307–19. Oxford: Blackwell.
+
+Dennett, Daniel C. 1987. *The Intentional Stance*. Cambridge, MA: MIT Press. ISBN 978-0262540537.
 
 Dennett, Daniel C. 1991. "Real Patterns." *Journal of Philosophy* 88(1): 27-51. https://doi.org/10.2307/2027085.
 
