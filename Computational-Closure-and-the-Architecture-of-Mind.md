@@ -145,9 +145,16 @@ The methodology employs three complementary strategies:
 These methods provide pragmatic objectivity sufficient for comparative epistemic assessment, though they do not eliminate interpretive challenges.
 
 #### 2.5.2 The Interventional Diagnostic
-How does a cognitive system distinguish a robust structural constraint from a brittle statistical regularity? We propose the mechanism lies in the capacity for interventional counterfactuals—formally, the distinction between $P(y|x)$ and $P(y|do(x))$ (Pearl 2000).
 
-Statistical patterns are passive observations: seeing *X* predicts *Y*. Structural patterns are interventional: *causing* *X* necessitates *Y*. A child observing a barometer sees that a drop in pressure correlates with rain (statistical). However, clamping the barometer needle (intervention) breaks the correlation, revealing the lack of structural necessity. By contrast, igniting fuel (intervention) invariably produces heat. Consciousness may function as the simulation engine for the $do(x)$ operator—mentally detaching a variable from its statistical parents to test its structural autonomy. This suggests that the "Aha!" moment of structural recognition corresponds to the successful invariance of a pattern under simulated intervention. The brain validates the "fire/heat" blanket not by counting instances, but by simulating the intervention "if I produce fire, will heat necessarily follow?" and finding the linkage invariant.
+How does a cognitive system distinguish a robust structural constraint from a brittle statistical regularity? We propose the mechanism lies in the capacity for interventional counterfactuals (formally, the distinction between P(Y|X) and P(Y|do(X)) (Pearl 2000)).
+
+Statistical patterns capture passive observations: seeing *X* predicts *Y* (conditioning on *X*). Structural patterns capture interventional truths: *causing* *X* necessitates *Y* (intervening on *X*). This latter operation, the "dictator" or "do-operator," involves "graph surgery"; it severs the incoming causal arrows to *X* to isolate its downstream effects from confounding variables.
+
+Consider a barometer. Observing the needle drop predicts rain (P(Rain|Needle Drop) is high). But manually forcing the needle down (intervention, do(Needle Drop)) breaks the correlation; it yields no rain (P(Rain|do(Needle Drop)) is low). The pattern was merely statistical, dependent on a common hidden cause (atmospheric pressure). By contrast, igniting fuel is structural: causing the fire (do(Fire)) invariably produces heat. The relationship is invariant under intervention.
+
+Consciousness generally tracks this distinction. While not all systems that represent causal structure are conscious, conscious systems must be capable of representing this difference between seeing and doing. The "Aha!" moment of understanding corresponds to the validation of a pattern under simulated intervention, confirming that the relationship holds not just in the observed distribution, but in the counterfactual space of actions.
+
+The Do-operator is the test for whether a model has captured causal structure; computational closure occurs when that causal structure can be represented entirely at the macro-level. A pattern that disappears under intervention is merely statistical; a pattern that survives intervention is causal; a pattern whose causal structure closes at its own boundary is a real whole.
 
 ### 2.6 The Framework as Conceptual Scaffolding
 
