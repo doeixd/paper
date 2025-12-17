@@ -14,7 +14,6 @@ From these three givens—undeniable even to mereological nihilists—we can *pr
 
 This creates a dilemma for the nihilist: either accept that "facts about arrangements" do everything objects were supposed to do (making their denial of objects empty verbalism), or explain why causal efficacy isn't sufficient for existence. They have no principled alternative criterion. The universe isn't flat. It's layered. And those layers are as real as the bedrock.
 
----
 
 ### **What the Nihilist Actually Says (And Why Their Foundation Is Shaky)**
 
@@ -24,7 +23,6 @@ This feels scientific. But it conflates **material substrate** with **causal str
 
 **Here's the tu quoque:** The nihilist assumes particles are self-subsistent objects in the soup. But quantum mechanics (entanglement, indistinguishability) shows particles lack self-identity. You cannot tag an electron and track it like a billiard ball. They are nodes in a relational structure. If the "parts" are themselves just mathematical structure, they have no ontological privilege over the "wholes." Both are **Real Patterns** in the formalism. The "soup" isn't made of things—it's made of constraints.
 
----
 
 ### **Part 1: The Necessity of Statistical Boundaries**
 
@@ -44,7 +42,6 @@ Think of the landscape of possible boundaries like a topographical map: certain 
 
 Not every arrangement works—some attempted boundaries leak information constantly, like **phlogiston**'s failed attempt to screen off combustion. The blanket never closed, which is why we abandoned it, not because we chose to stop believing.
 
----
 
 ### **Part 2: When Boundaries Become Causal Firewalls**
 
@@ -64,7 +61,6 @@ Over time, the internal state becomes predictable from boundary states alone. Ex
 
 Nature brims with natural boundaries: cell membranes, organ systems, ecosystem edges. They aren't labels we impose; they're **discoverable features** of causal networks.
 
----
 
 ### **Part 3: The Birth of Causal Autonomy**
 
@@ -86,7 +82,6 @@ This explains why doctors treat **organs**, not cells. Heart failure isn't fixed
 
 Evolution selects for boundaries, not particles. The nihilist's flat ontology can't explain why life builds hierarchies.
 
----
 
 ### **Part 4: The Information-Theoretic Test: ε-Machine vs. υ-Machine**
 
@@ -103,7 +98,6 @@ When both predict equally well, the macro-level has achieved **computational clo
 
 **Think of it like traffic:** The υ-machine tries to predict jams by tracking every car's velocity. The ε-machine predicts equally well using only "traffic density" and "flow rate." When density alone works, traffic density is causally real.
 
----
 
 ### **Part 5: The Nihilist's Retreat to Facts**
 
@@ -115,7 +109,6 @@ If facts about arrangements do causal work, denying objecthood is empty language
 
 The boundary isn't a fact *about* particles—it's a new causal constraint that *changes what would happen* if you intervened. If the boundary is real and does causal work, what could it mean to deny the objecthood of what it bounds? The boundary *defines* the object.
 
----
 
 ### **Part 6: Where Is the Triangle? A Computational Answer**
 
@@ -135,7 +128,6 @@ When both predict your ability to rotate the triangle, calculate its area, or co
 
 The triangle exists at the **ε-level**, not the υ-level. It's not *in* the neurons any more than Python code is *in* silicon. It's a constraint-determined pattern that runs on the substrate.
 
----
 
 ### **Part 7: Rainforest Realism and Scale Relativity**
 
@@ -147,7 +139,6 @@ The nihilist says, "The cell is just atoms." But we can reply: "Atoms are just q
 
 **What's left of the nihilist's "microbangings"?** The belief that "real" causation is little things hitting other little things. But fundamental physics doesn't describe particles banging into each other—it describes mathematical constraints. Causation is an interventionist concept that mostly applies to special sciences (biology, medicine), not fundamental physics.
 
----
 
 ### **Part 8: Why This Matters in the Real World**
 
@@ -162,7 +153,6 @@ Flattening reality to particles is dangerous.
 **Quantum Challenge:** "But entanglement violates locality!"  
 **Response:** Locality holds at macroscopic scales where wholes emerge. Even quantum mechanics preserves statistical locality thermodynamically—no information can be sent faster than light. Our argument applies where objects exist: above the quantum decoherence threshold.
 
----
 
 ### **Conclusion: Outgrowing Nihilism**
 
