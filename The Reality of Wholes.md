@@ -9,8 +9,8 @@ If you accept four things, a fifth follows:
 1. Causality: Events have causes and effects  
 2. Locality: Causes operate through local interactions  
 3. Information: Systems carry information about other systems  
-4. Thermodynamics: Processing information costs energy; complete micro-tracking is physically impossible
-
+4. Thermodynamics: Processing information costs energy; complete tracking of all micro information is physically expensive
+   
 From these four givens, undeniable even to mereological nihilists, we can *prove* that certain arrangements of matter necessarily create statistical boundaries. These aren't optional or projected; they're mathematical consequences. And once they emerge, they do causal work particles alone cannot.
 
 This creates a dilemma for the nihilist: either accept that "facts about arrangements" do everything objects were supposed to do (making their denial of objects empty verbalism), or explain why causal efficacy isn't sufficient for existence. They have no principled alternative criterion. The universe isn't flat. It's layered. And those layers are as real as the bedrock.
