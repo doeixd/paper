@@ -2,7 +2,7 @@
 
 *Is a hurricane "real," or is it merely air molecules in motion?* While the question may initially appear trivial, we name hurricanes, track them, and flee from them—mereological nihilism challenges this intuition. It claims there are no hurricanes, only molecules arranged hurricane-wise; no cells, only particles arranged cell-wise.
 
-The hurricane's boundary is not a label; it is a statistical screen that makes the interior conditionally independent of the exterior. And boundaries like this are not optional features of reality; they are mathematical consequences of four facts even nihilists accept.
+The hurricane's boundary is not a label; it is a statistical screen that makes the interior conditionally independent of the exterior. And boundaries like this are not optional features of reality; they are mathematical consequences of any dynamical system satisfying locality, finite information capacity, and energetic cost of computation.
 
 If we accept four premises, a fifth conclusion follows:
 
@@ -17,6 +17,8 @@ Definition (**Causal Autonomy**):
 A system is causally autonomous when its future states are fully predictable and controllable, to a specified tolerance, using only variables defined at its own boundary.
 
 This creates a dilemma for the nihilist: either accept that "facts about arrangements" do everything objects were supposed to do (making their denial of objects empty verbalism), or explain why causal efficacy is not sufficient for existence. They have no principled alternative criterion. The universe is not flat; it is layered. And those layers are as real as the bedrock.
+
+Crucially, this is not a denial of microphysical completeness, nor an argument for "spooky" emergence. It is an account of why causal units appear at multiple scales in a universe constrained by locality, information flow, and thermodynamics.
 
 ### What the Nihilist Actually Says (And Why Their Foundation Is Shaky)
 
@@ -135,7 +137,7 @@ The triangle exists at the ε-level, not the υ-level. It is not *in* the neuron
 
 ### Part 7: Rainforest Realism and Scale Relativity
 
-The debate becomes semantic. Ladyman and Ross propose Rainforest Realism: existence is lush with entities at every scale where patterns achieve projectibility (support counterfactuals) and information compression. A hard-nosed metaphysician might insist this is an account of explanation, not existence. We accept the charge but deny the distinction. There is no principled gap between "what exists" and "what plays an indispensable causal role in the best explanation of reality."
+The debate becomes semantic. Ladyman and Ross propose Rainforest Realism: existence is lush with entities at every scale where patterns achieve projectibility (support counterfactuals) and information compression. A hard-nosed metaphysician might insist this is an account of explanation, not existence. We accept the charge but deny the distinction. There is no principled gap between "what exists" and "what plays an indispensable causal role in the best explanation of reality." Fundamentality without an autonomous causal role is an honorific, not an explanatory category.
 
 #### 7a. Scale Relativity
 At scale A (micro), the cup does not exist. At scale B (macro), the cup *does* exist. Both scales are equally real; physics does not grant the micro-scale ontological privilege. Consider: a human being exists simultaneously as a quantum field, a cellular colony, and a voting citizen. None of these descriptions is "more real" than the others. Each level achieves closure at its own scale. The voter is a valid object because you can predict election outcomes using "voters" without knowing anything about their mitochondria.
@@ -152,7 +154,7 @@ What is left of the nihilist's "microbangings"? The belief that "real" causation
 
 Physicists often mock Superdeterminism: the idea that the universe is fully deterministic and that our choices are correlated with particle histories. It is often dismissed as a "cosmic conspiracy," implying atoms must magically coordinate to trick us.
 
-However, the computational perspective flips this. If the universe is a deterministic system that is strongly lumpable (meaning it can be compressed into stable macro-states without loss of predictive power), then high-level agents like us naturally emerge as computationally closed entities.
+However, the computational perspective flips this. If the universe is a deterministic system that is strongly lumpable (meaning it can be compressed into stable macro-states without loss of predictive power), then high-level agents like us naturally emerge as computationally closed entities. That the universe is richly lumpable is not an assumption of the argument but an empirical discovery of the special sciences; without it, science itself would be impossible.
 
 This explains "Measurement Independence" without magic. When a physicist chooses a detector setting, that choice is determined by their macroscopic 'software.' Because of information closure, this software is shielded from the specific microscopic history of the universe. To the macro-observer, the choice is independent. To the micro-universe, it is determined. Both are true at their respective levels. There is no conspiracy; there is just a hierarchy of computational machines. We are agents running on a superdeterministic substrate.
 
@@ -177,7 +179,7 @@ What this argument really establishes is that ontology ignoring causal-informati
 
 A committed nihilist can still bite the bullet: "Yes, these arrangements have causal autonomy. Yes, they are indispensable. Still: only particles exist." This position is unattractive, scientifically idle, and explanatorily parasitic, but not strictly inconsistent. The argument does not *force* concession; it makes nihilism obsolete.
 
-We have not so much refuted nihilism as outgrown it. The relevant question is not "Do wholes exist?" but "What earns causal autonomy?" This is the question that matters for science and survival. Wholes are inevitable where prediction, control, and compression converge. Any agent, human or otherwise, interacting with the atmosphere's constraints must eventually adopt a concept like "hurricane" to predict efficiently. This is what it means to be real: to be the kind of pattern that any sufficiently capable intelligence is forced to discover.
+We have not so much refuted nihilism as outgrown it. The relevant question is not "Do wholes exist?" but "What earns causal autonomy?" This is the question that matters for science and survival. Wholes are inevitable where prediction, control, and compression converge. Any agent, human or otherwise, interacting with the atmosphere's constraints must eventually adopt a concept like "hurricane" to predict efficiently. To be real is to be a pattern that any sufficiently capable intelligence, constrained by this universe’s physics, is forced to discover.
 
 ---
 
