@@ -1,6 +1,6 @@
 # The Reality of Wholes: When Parts Are Not Enough
 
-*Is a hurricane "real," or is it merely air molecules in motion?* While the question may initially appear trivial, we name hurricanes, track them, and flee from them—mereological nihilism challenges this intuition. It claims there are no hurricanes, only molecules arranged hurricane-wise; no cells, only particles arranged cell-wise.
+*Is a hurricane "real," or is it merely air molecules in motion?* While the question may initially appear trivial, we name hurricanes, track them, and flee from them. Mereological nihilism challenges this intuition. It claims there are no hurricanes, only molecules arranged hurricane-wise; no cells, only particles arranged cell-wise.
 
 The hurricane's boundary is not a label; it is a statistical screen that makes the interior conditionally independent of the exterior. And boundaries like this are not optional features of reality; they are mathematical consequences of any dynamical system satisfying locality, finite information capacity, and energetic cost of computation.
 
@@ -17,6 +17,10 @@ Definition (**Causal Autonomy**):
 A system is causally autonomous when its future states are fully predictable and controllable, to a specified tolerance, using only variables defined at its own boundary.
 
 This creates a dilemma for the nihilist: either accept that "facts about arrangements" do everything objects were supposed to do (making their denial of objects empty verbalism), or explain why causal efficacy is not sufficient for existence. They have no principled alternative criterion. The universe is not flat; it is layered. And those layers are as real as the bedrock.
+
+Here we adopt the interventionist theory of causation (Woodward 2003; Pearl 2009): $X$ causes $Y$ if intervening on $X$ changes $Y$, holding other factors fixed. On this view, causation is not about "little things banging into other things" but about which variables make a difference under intervention. When macro-variables support successful intervention (steering a hurricane by seeding clouds, curing a disease by targeting a pathway, crashing a market by changing interest rates), those variables are doing causal work in the only sense that matters scientifically. Predictive equivalence matters because it reveals which level of description captures the intervention-relevant structure. If macro-variables predict as well as micro-variables, then the macro-level *is* the causal level for that phenomenon; adding micro-detail changes nothing about what interventions will succeed.
+
+The Ptolemaic objection (that epicycles predicted planetary motion without being real) actually supports our case. Epicycles failed precisely because they did not support intervention: you could not steer a planet by manipulating its epicycle. The macro-objects we defend (cells, hurricanes, economies) pass the interventionist test that epicycles fail.
 
 Crucially, this is not a denial of microphysical completeness, nor an argument for "spooky" emergence. It is an account of why causal units appear at multiple scales in a universe constrained by locality, information flow, and thermodynamics.
 
@@ -125,15 +129,34 @@ If the nihilist retreats to facts, we must ask: what kind of thing is a fact tha
 
 A significant challenge arises from consciousness. A critic might ask: *"When I visualize a triangle, where is it? If I open the brain, I see only neurons firing. The triangle I'm experiencing isn't identical to those neurons."*
 
-The paper by Rosas et al. validates the analogy of the mind as software. They define software physically: a system runs software when its macroscopic state determines its future state irrespective of the hardware details.
+This question contains two distinct puzzles, and intellectual honesty requires separating them:
 
-When you visualize a triangle, that pattern is substrate independent. It is a valid causal entity because it is the effective theory of that cognitive process. The 'Triangle' is the $\epsilon$-machine. The firing neurons are the hardware implementation. The reason you cannot find the triangle by looking at atoms is the same reason you cannot find Microsoft Word by looking at silicon voltage gates. The triangle exists because the system is computationally closed.
+1. **The location problem**: What kind of thing is mental content, and how does it relate to neural activity?
+2. **The phenomenal problem**: Why is there *something it is like* to visualize a triangle?
 
-We bracket the hard problem of consciousness. We are not explaining subjective *feel*, but functional *content*. The triangle is real because it guides reasoning, influences behavior, and can be reported, all without accessing individual neurons. Nothing in this framework denies that phenomenology may require additional principles; it only establishes that representational and cognitive contents are Real Patterns (Ladyman & Ross, 2007) in exactly the same sense as biological and physical wholes. This is the same principle as temperature or the cell membrane: a real pattern that achieves closure.
+Our framework addresses the first problem directly. The paper by Rosas et al. provides formal support for the analogy of the mind as software: a system runs software when its macroscopic state determines its future state irrespective of hardware details. When you visualize a triangle, that representational pattern is substrate-independent (a valid causal entity because it is the effective theory of that cognitive process). The "triangle" (as functional content) is the $\epsilon$-machine; the firing neurons are the hardware implementation. The reason you cannot find the triangle by dissecting neurons is the same reason you cannot find Microsoft Word by examining silicon: you are looking at the wrong level of description. Mental content exists at the level where cognitive patterns achieve causal closure.
 
-The "screen" objection: O'Connor argues computer analogies fail because there is no 'screen' in the brain. But the ε-machine *is* the screen: it is the level at which the pattern becomes computationally closed and self-predicting. No external observer is needed because the system itself operates at that level.
+The "screen" objection (O'Connor argues computer analogies fail because there is no screen in the brain) misses this point: the $\epsilon$-machine *is* the screen. It is the level at which the pattern becomes computationally closed and self-predicting. No external observer is needed because the system itself operates at that level. The triangle exists at the $\epsilon$-level, not the $\upsilon$-level. It is not *in* the neurons any more than Python code is *in* silicon. It is a constraint-determined pattern that runs on the substrate.
 
-The triangle exists at the ε-level, not the υ-level. It is not *in* the neurons any more than Python code is *in* silicon. It is a constraint-determined pattern that runs on the substrate.
+But what about phenomenal experience (the redness of red, the felt quality of visualizing that triangle)?
+
+Here we must be honest about what our framework implies and where it struggles. The logic of this paper pushes toward a strong conclusion: if real patterns at macro levels are genuine existents, and if mental content is such a pattern, then phenomenal consciousness *should* be explicable as a feature of computational organization. The framework does not permit us to bracket the hard problem as someone else's puzzle. It is *our* puzzle, because our own premises seem to demand that experience, too, is "just" a real pattern achieving closure.
+
+Some philosophers embrace this implication. Dennett argues that phenomenal consciousness *is* functional organization (that once you have explained all the cognitive functions like discrimination, reporting, integration, and access, there is no residual "experience" left unexplained). The intuition that something is missing, on this view, is itself a cognitive illusion explicable in functional terms.
+
+We are not confident this is correct. The explanatory gap between "this system processes information in a self-modeling way" and "there is something it is like to be this system" remains vertiginous. A philosophical zombie (a system with identical $\epsilon$-machines but no inner experience) seems conceptually coherent, even if metaphysically impossible. If it is coherent, then functional organization alone does not *logically* entail phenomenal experience, and something more must be said.
+
+Three possibilities remain open:
+
+1. **Dennett is right**: Phenomenal consciousness is functional organization, and the explanatory gap is an illusion generated by our cognitive architecture. The hard problem dissolves upon sufficiently careful analysis of what we mean by "experience."
+
+2. **The framework is incomplete**: Computational closure is necessary but not sufficient for consciousness. Something additional (perhaps a particular *type* of information integration like Tononi's Φ, or a specific physical substrate, or a feature of reality we do not yet understand) must be present. The framework captures the *structure* of mind but not the *light* of experience.
+
+3. **Panpsychism or neutral monism**: Phenomenal properties are fundamental features of reality, present (in some form) at all levels. What computational closure does is *organize* or *integrate* these proto-phenomenal properties into unified experience. The framework is correct about structure but wrong to assume structure is all there is.
+
+We do not adjudicate between these options. What we insist on is this: the location problem and the phenomenal problem, while distinct, are not independent. If our framework is right that minds are real patterns achieving causal closure, then we inherit an obligation to explain why such patterns are accompanied by experience (or to argue convincingly that no such explanation is needed). We have not yet discharged that obligation.
+
+This is not a minor gap. Consciousness is the phenomenon that makes all other phenomena *matter*. A framework for the reality of wholes that cannot yet account for the one whole each of us knows most intimately (our own experiencing self) remains, in a deep sense, unfinished.
 
 ### Part 7: Rainforest Realism and Scale Relativity
 
@@ -154,9 +177,13 @@ What is left of the nihilist's "microbangings"? The belief that "real" causation
 
 Physicists often mock Superdeterminism: the idea that the universe is fully deterministic and that our choices are correlated with particle histories. It is often dismissed as a "cosmic conspiracy," implying atoms must magically coordinate to trick us.
 
-However, the computational perspective flips this. If the universe is a deterministic system that is strongly lumpable (meaning it can be compressed into stable macro-states without loss of predictive power), then high-level agents like us naturally emerge as computationally closed entities. That the universe is richly lumpable is not an assumption of the argument but an empirical discovery of the special sciences; without it, science itself would be impossible.
+The computational perspective does not *resolve* this tension, but it clarifies what is at stake. If the universe is a deterministic system that is strongly lumpable (compressible into stable macro-states without loss of predictive power), then high-level agents like us naturally emerge as computationally closed entities. This lumpability is not an *a priori* assumption but an empirical discovery: the special sciences work. Chemistry reduces to physics; biology to chemistry; the reductions succeed. This success is evidence that the universe has the hierarchical structure we describe.
 
-This explains "Measurement Independence" without magic. When a physicist chooses a detector setting, that choice is determined by their macroscopic 'software.' Because of information closure, this software is shielded from the specific microscopic history of the universe. To the macro-observer, the choice is independent. To the micro-universe, it is determined. Both are true at their respective levels. There is no conspiracy; there is just a hierarchy of computational machines. We are agents running on a superdeterministic substrate.
+Does this vindicate superdeterminism? Not entirely. Here is what it does and does not establish:
+
+*What it establishes*: If superdeterminism is true, it need not involve "conspiracy." The correlation between measurement choices and particle histories would be mediated by the same computational closure that makes agents possible in the first place. The physicist's choice is determined by their macroscopic "software," which (because of information closure) is shielded from arbitrary micro-details. The correlation is not spooky; it is structural.
+
+*What it does not establish*: That this structural shielding is *sufficient* for scientific inference. The critic may press: if hidden correlations exist between settings and outcomes, how do we know our statistical methods track real regularities rather than artifacts of the correlation? This is a genuine open problem. Our framework suggests where to look for an answer (in the formal conditions under which coarse-graining preserves causal structure), but we do not claim to have provided one. The point is narrower: superdeterminism, if true, is compatible with the emergence of genuine agents. Whether it is compatible with the epistemology of science remains contested.
 
 ### Part 9: Why This Matters in the Real World
 
@@ -173,7 +200,7 @@ Response: Locality holds at the macroscopic scales where wholes emerge. Even qua
 
 ### Conclusion: The Hierarchy of Truth
 
-Reality is not a flat soup of particles, nor is it an unordered jungle of patterns. It is a lattice of computational machines. Science is the process of discovering which machine—which level of the lattice—effectively predicts the phenomenon at hand. When we find a level that is causally closed, we have hit bedrock. We have found a Whole that is as real as its Parts.
+Reality is not a flat soup of particles, nor is it an unordered jungle of patterns. It is a lattice of computational machines. Science is the process of discovering which machine (which level of the lattice) effectively predicts the phenomenon at hand. When we find a level that is causally closed, we have hit bedrock. We have found a Whole that is as real as its Parts.
 
 What this argument really establishes is that ontology ignoring causal-informational structure is incomplete. Once you accept that science tracks real patterns, that patterns support intervention, and that interventions would fail without treating wholes as units, then whether we *call* them objects becomes secondary.
 

@@ -349,6 +349,8 @@ Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton
 
 Varley, Thomas F., and Erik Hoel. 2022. "Emergence as the conversion of information: a unifying theory." *Philosophical Transactions of the Royal Society A* 380(2227): 20210150. https://doi.org/10.1098/rsta.2021.0150.
 
+Woodward, James. 2003. *Making Things Happen: A Theory of Causal Explanation*. Oxford: Oxford University Press. ISBN 978-0195155273.
+
 World Bank. 2012. *World Development Report 2012: Gender Equality and Development*. Washington, DC: World Bank. ISBN 978-0821388105.
 
 Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica* 43(1–2): 99–124. https://doi.org/10.1111/j.1746-8361.1989.tb00933.x.
