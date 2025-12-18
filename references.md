@@ -168,6 +168,8 @@ Kuhn, Thomas S. 1996. *The Structure of Scientific Revolutions*. 3rd ed. Chicago
 
 Kvanvig, Jonathan L. 2012. "Coherentism and Justified Inconsistent Beliefs: A Solution." *Southern Journal of Philosophy* 50(1): 21–41. https://doi.org/10.1111/j.2041-6962.2011.00090.x.
 
+Kahneman, Daniel. 2011. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux. ISBN 978-0374275631.
+
 Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
 
 Landauer, Rolf. 1961. "Irreversibility and Heat Generation in the Computing Process." *IBM Journal of Research and Development* 5(3): 183–191. https://doi.org/10.1147/rd.1961.5.3.183. ISBN 978-0199276196.

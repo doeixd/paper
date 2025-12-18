@@ -55,18 +55,19 @@ The Free Energy Principle (FEP) builds on broader predictive processing framewor
 
 The FEP's scope extends beyond brain function to encompass fundamental properties of all self-organizing systems. Any system that maintains its integrity against the second law of thermodynamics must possess a statistical boundary. This boundary (a Markov blanket) separates internal from external states. It must minimize the free energy associated with that boundary (Friston et al. 2017).
 
-Kirchhoff et al. (2018) demonstrate that living systems are characterized by Markov blankets enabling autonomous organization, and that "autonomous systems are hierarchically composed of Markov blankets of Markov blankets—all the way down to individual cells, all the way up to you and me." However, macro-social blankets differ in implementation. While a cell uses a lipid bilayer to screen off chemistry, a knowledge network uses **Institutional Filtering** to screen off information.
-
-For example, 'Peer Review' functions as the sensory blanket for the 'Science' super-organism. It is a physical mechanism that allows specific signals (data) to pass into the interior (the Consensus Network) while rejecting others (noise/error). When an institution captures this macro-state (e.g., 'Inflation Rate' or 'Public Sentiment') without tracking every individual citizen, it achieves **Social Computational Closure**. The institution becomes a distinct causal agent because it has successfully screened off the micro-states of its constituents. This hierarchical assembly occurs through adaptive active inference, distinguishing living systems (capable of inferring future states) from non-living systems exhibiting mere active inference without adaptive capacity.
+Kirchhoff et al. (2018) demonstrate that living systems are characterized by Markov blankets enabling autonomous organization, and that "autonomous systems are hierarchically composed of Markov blankets of Markov blankets—all the way down to individual cells, all the way up to you and me." This hierarchical assembly occurs through adaptive active inference, distinguishing living systems (capable of inferring future states) from non-living systems exhibiting mere active inference without adaptive capacity.
 
 This connects information-theoretic principles directly to the basic requirements for life itself. Autopoiesis, allostasis, and goal-directed behavior all emerge as consequences of free energy minimization in bounded systems.
 
-We can formally derive the brittleness metrics from the decomposition of Variational Free Energy ($F$):
+We can tentatively derive the brittleness metrics from the decomposition of Variational Free Energy ($F$), assuming this framework applies to epistemic systems:
+
 $$F = \underbrace{D_{KL}(Q(\mu) || P(\mu))}_{\text{Complexity (Divergence)}} + \underbrace{E_Q[-\ln P(s|\mu)]}_{\text{Accuracy (Surprise)}}$$
 
 1. **Patch Velocity ($P(t)$) as Complexity Penalty:** $P(t)$ tracks the rate of change in the model structure ($Q(\mu)$) required to keep the Accuracy term constant. When a system lacks structural alignment, it must continuously expand the complexity of its internal states (adding epicycles/patches) to suppress surprise. Thus, rising $P(t)$ is the first derivative of the Complexity term.
 
 2. **Coercive Overhead ($C(t)$) as Pathological Active Inference:** Systems minimize $F$ not just by updating beliefs, but by acting to change sensory data ($s$). Coercion is a specific high-energy subset of action: rather than changing the world to align with the model, it suppresses the transmission of the error signal ($s$). $C(t)$ measures the thermodynamic work required to block the sensory channel, artificially lowering the Surprise term without improving the model.
+
+This derivation is illustrative; it shows logical consistency between the brittleness metrics and the Free Energy Principle, without proving that epistemic systems literally minimize variational free energy. Alternative frameworks for understanding brittleness remain viable.
 
 Reality functions as the constraint landscape that shapes belief revision. Each failed prediction generates an error signal: a mismatch between expected and actual outcomes that drives the system to update its compression. In Quine's terms, beliefs form a web where central propositions (those encoding high structural compression, like logic and mathematics) resist revision because changing them would require massive reorganization of the entire system. The brittleness metrics track these revision costs. When reality's constraints conflict with a system's compressions, accumulated prediction errors manifest as increasing patch velocity, rising model complexity, and declining resilience. The system faces a choice: revise the compression to align with constraints, or expend energy suppressing the error signals through coercion.
 
@@ -161,11 +162,7 @@ Consider a barometer. Observing the needle drop predicts rain ($P(Rain|Needle Dr
 
 Phenomenologically, the do-operator captures the cognitive difference between watching and poking. When a child switches from merely observing a spinning top to spinning it themselves, they move from statistical observation to structural intervention. The transition is not just behavioral but epistemic: passive observation reveals correlations, while active manipulation reveals causal structure. This is why hands-on learning often produces deeper understanding than passive instruction. The child who spins the top grasps its dynamics in a way the mere observer does not.
 
-In the architecture of inquiry, consciousness functions as the **System Administrator for Structural Breaks**.
-
-Unconscious processing (statistical inference) handles routine error minimization. However, when the system encounters **Structural Prediction Error**—a violation of the core generative prior (e.g., pain, dissonance, total model failure)—routine minimization fails.
-
-Phenomenology (the 'feeling' of suffering or confusion) is the user-interface representation of **High Free Energy**. It is an interrupt signal that forces the system to abandon automatic processing and engage in **Model Revision**. This links directly to the 'Bio-Social Costs' of Paper 1: suffering is not merely a moral negative; it is the algorithmic signal of system failure (objective). The "Aha!" moment of understanding corresponds to the validation of a pattern under simulated intervention, confirming that the relationship holds not just in the observed distribution, but in the counterfactual space of actions.
+We propose that consciousness functions as the User Interface for this structural recognition. While it may be possible in principle to compute the 'Do-operator' unconsciously (as a zombie might), in humans, the phenomenology of the 'Aha!' moment acts as the system's flag that a structural constraint has been found. It is the 'save icon' for causal necessity. The "Aha!" moment of understanding corresponds to the validation of a pattern under simulated intervention, confirming that the relationship holds not just in the observed distribution, but in the counterfactual space of actions.
 
 The Do-operator is the test for whether a model has captured causal structure; computational closure occurs when that causal structure can be represented entirely at the macro-level. A pattern that disappears under intervention is merely statistical; a pattern that survives intervention is causal; a pattern whose causal structure closes at its own boundary is a real whole.
 
@@ -298,6 +295,8 @@ Examples Across Scales:
 | Social | Institution | Bureaucratic procedures | Internal decision-making | Public-facing policies, enforcement |
 | Epistemic | Stable Concept | Definitional boundaries | Compressed causal model | Recognition criteria, licensed inferences |
 
+This hierarchical composition extends to social systems, though their implementation differs. While a cell uses a lipid bilayer to screen off chemistry, a social system uses institutional filtering to screen off information. For instance, peer review serves as the sensory blanket for the scientific community, allowing validated data to enter the consensus while blocking noise or error. When institutions capture macro-states like inflation rates without monitoring every citizen, they achieve a form of social computational closure, becoming distinct causal agents by screening off individual micro-states. This remains a tentative proposal; alternative accounts of social organization are possible.
+
 Recent neurobiological work identifies Markov blankets operating in canonical microcircuits and nested neural hierarchies (Hipólito et al. 2021), providing empirical grounding for the claim that blankets form across multiple organizational levels. These findings suggest the blanket architecture is not merely a useful mathematical abstraction but reflects actual partitions in biological self-organizing systems.
 
 The Radical Implication: What "exists" as a unified entity depends on which Markov blanket configuration you employ, though not all blanket configurations succeed. Cells exist for systems with cell-detecting blankets. Quarks exist for systems with quark-detecting blankets. Gods exist for systems with god-detecting blankets.
@@ -355,13 +354,21 @@ Formalizing Causal Autonomy: Rosas et al. (2024) provide a rigorous framework fo
 
 When these two predictors perform equally well (when ε-machine accuracy equals υ-machine accuracy), something remarkable has happened: the macro-level has achieved causal decoupling from the micro-level. The macro-variables contain all the information needed to predict their own future behavior. Substrate details have become causally irrelevant (though they remain constitutively necessary). This is computational closure: the macro-level is "running code" rather than merely describing patterns in the substrate. This equivalence provides the rigorous criterion for a "Real Pattern" in Dennett's sense, transforming his "nontrivial compression" from a qualitative judgment into a quantifiable test. When adding micro-level details yields zero additional information about the macro-future, the macro-level description has captured genuine structure in reality rather than imposing convenient fiction. This equivalence admits degrees of robustness, formalized as lumpability. **Weak lumpability** holds when macro-dynamics work only for specific initial micro-state distributions: the compression succeeds in limited contexts. **Strong lumpability** holds when macro-dynamics work regardless of underlying micro-details: the compression achieves genuine substrate independence and persists across different physical realizations. Only strongly lumpable compressions qualify as objective features of reality; weakly lumpable ones are context-dependent approximations.
 
-Consider the Ptolemaic Geocentric model. In our framework, this was a failed attempt to construct an ε-machine.
+Examples:
 
-Ptolemy achieved low prediction error (high accuracy), but failed the test of **Strong Lumpability**. The macro-variable 'Epicycle' did not screen off the micro-details; to maintain accuracy, the model required constant parameter expansion (adding more epicycles). In Computational Mechanics, this is the signature of a non-Markovian process being forced into a finite-state model. The system was **Overfitting**: the complexity of the model ($M(t)$) grew faster than the predictive gain.
+Temperature (Successful Closure):
+- Micro: Positions and momenta of 10²³ molecules
+- Macro: Single scalar (temperature)
+- The macro-variable (temperature) predicts thermodynamic behavior without tracking individual molecules
+- Causal closure: Heating water increases temperature increases pressure; the mechanism is shielded
 
-Heliocentrism succeeded not just because it was 'simpler,' but because it identified the true Causal States (Gravity/Mass). Once these states were identified, the system achieved **Causal Shielding**: the orbit of Mars could be predicted purely from macro-variables without infinite corrections. This confirms that 'Truth' (Level 1) is the identification of the optimal ε-machine state space.
-- Information leaks through: Every new experiment reveals the blanket is porous
-- Brittleness accumulates: High $P(t)$ from constant patches
+Ptolemaic Geocentric Model (Failed Closure):
+- Attempted macro-variable: "Epicycle configuration"
+- Failed strong lumpability: Cannot predict planetary orbits without adding epicycles for each observed irregularity
+- Information leaks through: Anomalies in motion reveal the model boundary is permeable, requiring continuous adjustments
+- Brittleness accumulates: Patch velocity rises as model complexity grows faster than predictive improvements
+
+In contrast, the Copernican heliocentric model achieved closure by identifying true causal states (gravitational forces), allowing orbits to be predicted from macro-variables alone without infinite corrections. This illustrates how successful closure depends on aligning with reality's constraints, not merely simplicity.
 
 Connection to Generative Priors: "...is an infectious disease" achieves computational closure. Once you apply the predicate, you can reason about transmission, quarantine, sterilization (the higher-level causal dynamics) without tracking viral proteins, immune responses, etc. The predicate creates a new causal level.
 
@@ -547,7 +554,7 @@ Our claim is functional and behavioral: systems achieving computational closure 
 
 ### 4A.1 The Core Distinction: Conscious vs. Unconscious Processing
 
-Core Hypothesis: Consciousness may be the subjective experience associated with certain types of high-level information compression, particularly those involving structural pattern recognition happening in real-time, with particular salience for structurally coherent patterns over mere statistical regularities.
+Core Hypothesis: In the architecture of inquiry, consciousness functions as the system administrator for structural breaks. Unconscious processing handles routine error minimization through statistical inference. However, when the system encounters structural prediction error—violations of core generative priors, such as pain, dissonance, or total model failure. Routine minimization fails. Phenomenology (the feeling of suffering or confusion) serves as the user-interface representation of high free energy, an interrupt signal that forces the system to abandon automatic processing and engage in model revision. This links suffering directly to objective signs of system failure, not merely subjective negatives. Consciousness thus correlates with structural pattern recognition, where detecting mutual constraints between components demands explicit attention, while statistical regularities operate transparently. This remains a functional proposal; alternative accounts of consciousness are viable, and we do not claim to solve the hard problem of why any processing feels phenomenal.
 
 Central Distinction: Consciousness appears particularly engaged when the brain detects or attempts to detect structural coherence, when patterns present themselves as having internal necessity rather than mere correlation. Unconscious processing handles statistical pattern matching efficiently in the background, while conscious attention engages when structural relationships demand explicit reasoning.
 
@@ -1127,7 +1134,7 @@ The Markov Blanket View of Moral Agency: If generative priors are successful Mar
 
 Methodological Note (The Is/Ought Boundary):
 
-We must acknowledge a crucial limit. This framework describes how certain social configurations generate higher or lower thermodynamic costs. However, it does not (and cannot) directly derive moral obligations from these descriptive facts. The move from "X generates high brittleness" to "therefore, X is morally wrong" crosses Hume's is/ought gap. (For a detailed treatment of this procedural model, see Glenn 2025).
+We must acknowledge a crucial limit. This framework describes how certain social configurations generate higher or lower thermodynamic costs. However, it does not (and cannot) directly derive moral obligations from these descriptive facts. The move from "X generates high brittleness" to "therefore, X is morally wrong" crosses Hume's is/ought gap. (Glenn 2025).
 
 What we can legitimately claim: Certain moral intuitions may have information-theoretic grounding. The recognition that denying others' agency generates catastrophic social costs helps explain why such behaviors are unsustainable. It also helps explain why moral progress often tracks toward lower-brittleness configurations.
 
