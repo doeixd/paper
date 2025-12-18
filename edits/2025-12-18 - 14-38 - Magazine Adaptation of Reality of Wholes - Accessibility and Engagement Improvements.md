@@ -319,8 +319,35 @@ Despite accessibility improvements, the article maintains:
 
 ---
 
+## Stylistic Polish (December 18, 2025, 14:45)
+
+**Additional improvements:**
+- Removed all em dashes (replaced with colons, parentheses, or restructured sentences)
+- Eliminated AI-sounding phrases like "Here's" (replaced with more direct constructions)
+- Reduced overuse of "something profound/remarkable happens"
+- Made transitions more natural and less formulaic
+- Improved sentence variety and rhythm
+
+**Em dash replacements:**
+- "arbitrary—a label" → "arbitrary, a label"
+- "cup-ness"—it's" → "cup-ness." It's"
+- "configurations—attractor states" → "configurations (attractor states)"
+- "solid wall—it's" → "solid wall but"
+- "independence—a measurable" → "independence, a measurable"
+- Many others throughout
+
+**Phrase improvements:**
+- "Here's the deeper problem" → "The deeper problem"
+- "Here's a simple example" → "Take a simple example"
+- "Here's what matters" → "This independence..."
+- "At this point, the sophisticated nihilist" → "The sophisticated nihilist might now"
+- "This is where the debate becomes" → "The debate has become"
+- "Here's the deeper point" → "The deeper point"
+
+**Final word count**: 3,714 (within target range of 3,500-4,000)
+
 ## Final Assessment
 
 The magazine adaptation successfully transforms dense academic philosophy into engaging public philosophy without sacrificing intellectual integrity. The argument is clearer, the examples more vivid, and the stakes more apparent. A reader unfamiliar with mereological nihilism or information theory can follow the reasoning and appreciate why it matters. The piece demonstrates that accessibility and rigor are not in tension—removing jargon and defensive moves often reveals the argument's strength more clearly.
 
-Most importantly: the adaptation makes you want to read it. The original was philosophically rigorous but exhausting. The magazine version is philosophically rigorous and compelling.
+Most importantly: the adaptation makes you want to read it. The original was philosophically rigorous but exhausting. The magazine version is philosophically rigorous and compelling. The stylistic polish removes AI-sounding constructions and creates more natural, human-feeling prose.
