@@ -392,6 +392,8 @@ The Search Process: Organisms, communities, and species are ε-machine explorers
 
 We must tilt Quine's 'Web of Belief' on its side. It is not just a flat network of connections; it is a vertical Lattice of coarse-grainings. At the bottom are the micro-states (pixels); at the top are the macro-truths (pictures). Science is the climb up this lattice. The 'Web' connects beliefs at the same altitude; the 'Lattice' connects the physics of the basement to the sociology of the penthouse. Truth is finding the stable rungs.
 
+Each belief is a node in this lattice: a compression of experience with specific causal relationships to other beliefs. Central beliefs (logic, mathematics, basic thermodynamics) occupy positions of high structural compression: they encode fundamental constraints that many other beliefs depend upon. Revising them requires massive reorganization, changing prediction patterns throughout the entire system. Peripheral beliefs (today's weather forecast, a stranger's name) are shallow compressions with minimal dependencies. This explains Quine's observation that we revise peripheral beliefs readily when evidence conflicts, but resist changing core commitments. The resistance is not psychological stubbornness but information-theoretic necessity: central nodes bear higher revision costs. The web metaphor thus captures genuine computational structure: beliefs form a network where some compressions are load-bearing and others decorative.
+
 ### 3.5 Pragmatic Ontology: Same Information, Different Blankets
 
 The Hot Dog Paradox: This illustrates how Markov blankets enact ontologies rather than discovering them.
