@@ -4,7 +4,7 @@
 
 The hurricane's boundary is not a label; it is a statistical screen that makes the interior conditionally independent of the exterior. And boundaries like this are not optional features of reality; they are mathematical consequences of any dynamical system satisfying locality, finite information capacity, and energetic cost of computation.
 
-If we accept four premises, a fifth conclusion follows:
+The boundary is not optional. It emerges from the constraints governing any physical system. Let us make this precise. If we accept four premises—premises that even most mereological nihilists grant—a fifth conclusion follows with mathematical necessity.
 
 1.  **Causality**: Events have causes and effects
 2.  **Locality**: Causes operate through local interactions
@@ -13,16 +13,21 @@ If we accept four premises, a fifth conclusion follows:
 
 From these four premises, accepted even by most mereological nihilists, we can *demonstrate* that certain arrangements of matter necessarily create statistical boundaries. By "demonstrate," we refer not to a logical theorem, but to an inevitability inherent in the physical constraints of the universe. These boundaries are neither optional nor projected; they are mathematical consequences. Once they emerge, they perform causal work that particles lacking a boundary-level description cannot.
 
-Definition (**Causal Autonomy**):
-A system is causally autonomous when its future states are fully predictable and controllable, to a specified tolerance, using only variables defined at its own boundary.
+This property requires a definition:
+
+**Causal Autonomy**: A system is causally autonomous when its future states are fully predictable and controllable, to a specified tolerance, using only variables defined at its own boundary.
 
 This creates a dilemma for the nihilist: either accept that "facts about arrangements" do everything objects were supposed to do (making their denial of objects empty verbalism), or explain why causal efficacy is not sufficient for existence. They have no principled alternative criterion. The universe is not flat; it is layered. And those layers are as real as the bedrock.
+
+Before proceeding, we must clarify what we mean by "causal work." This matters because the nihilist might grant that boundaries are useful while denying they are real.
 
 Here we adopt the interventionist theory of causation (Woodward 2003; Pearl 2009): $X$ causes $Y$ if intervening on $X$ changes $Y$, holding other factors fixed. On this view, causation is not about "little things banging into other things" but about which variables make a difference under intervention. When macro-variables support successful intervention (steering a hurricane by seeding clouds, curing a disease by targeting a pathway, crashing a market by changing interest rates), those variables are doing causal work in the only sense that matters scientifically. Predictive equivalence matters because it reveals which level of description captures the intervention-relevant structure. If macro-variables predict as well as micro-variables, then the macro-level *is* the causal level for that phenomenon; adding micro-detail changes nothing about what interventions will succeed.
 
 The Ptolemaic objection (that epicycles predicted planetary motion without being real) actually supports our case. Epicycles failed precisely because they did not support intervention: you could not steer a planet by manipulating its epicycle. The macro-objects we defend (cells, hurricanes, economies) pass the interventionist test that epicycles fail.
 
 Crucially, this is not a denial of microphysical completeness, nor an argument for "spooky" emergence. It is an account of why causal units appear at multiple scales in a universe constrained by locality, information flow, and thermodynamics.
+
+The argument proceeds in four stages. First, we demonstrate that statistical boundaries are inevitable consequences of these four premises (Parts 1-2). Second, we show these boundaries create causal autonomy, allowing systems to be predicted and controlled through their boundaries alone (Part 3). Third, we formalize a rigorous test for when boundaries constitute genuine objects (Part 4). Finally, we address objections and show why this matters practically (Parts 5-9). At each stage, we ask: can the nihilist consistently accept the step while maintaining their position?
 
 ### What the Nihilist Actually Says (And Why Their Foundation Is Shaky)
 
@@ -48,11 +53,13 @@ The equality is exact. The nihilist objects: "It is particles arranged box-wise.
 
 Think of the landscape of possible boundaries like a topographical map: certain "valleys" in configuration space guarantee boundary formation. Self-reinforcing feedback loops are one valley. Lipid bilayers are another. Evolution searches this landscape and finds boundaries because they work.
 
-Not every arrangement succeeds. Phlogiston was a failed boundary; it never achieved stable closure. Every new experiment required ad-hoc patching (such as explaining why metals *gained* weight when burned, or inventing "negative phlogiston"). The constant need for theoretical maintenance revealed that no real screening-off was occurring. By contrast, successful boundaries require little patching; they simply work.
+Not every arrangement achieves this stability; we will see examples of failure when we formalize the test.
+
+Physical walls are straightforward cases. But the profound question is: can statistical boundaries alone create causal autonomy?
 
 ### Part 2: When Boundaries Become Causal Firewalls
 
-Physical walls are straightforward. More profound are statistical boundaries that emerge from interaction patterns.
+More profound than physical walls are statistical boundaries that emerge from interaction patterns alone.
 
 Consider an *E. coli* bacterium. Its membrane proteins:
 -   Sense external glucose
@@ -62,11 +69,13 @@ Consider an *E. coli* bacterium. Its membrane proteins:
 Over time, the internal state becomes predictable from boundary states alone. External chemistry becomes irrelevant for predicting internals, *given* what is crossing the membrane.
 
 The nihilist might object: "But this is simply lipids obeying chemistry!"
-Response: This is true, but the specific arrangement relies on the Markov condition. The membrane achieves conditional independence, a measurable property that raw chemical "soup" lacks. We do not *choose* where to draw the boundary; we *discover* it by measuring whether this screening-off effect holds.
+Response: This is true, but the specific arrangement achieves the Markov condition we saw in Part 1. The membrane creates conditional independence, a measurable property that raw chemical "soup" lacks. We do not *choose* where to draw the boundary; we *discover* it by measuring whether this screening-off effect holds.
 
-However, which boundaries count? Not all mathematical boundaries are equal. The cell membrane represents a "joint" in nature because it corresponds to a self-maintaining feedback loop that evolution has independently discovered multiple times. By contrast, "phlogiston" was a failed attempt to identify such a joint; no stable closure ever emerged. The cell membrane, by contrast, achieves robust closure. That is the difference between a natural boundary and a gerrymandered surface.
+However, which boundaries count? Not all mathematical boundaries are equal. The cell membrane represents a "joint" in nature because it corresponds to a self-maintaining feedback loop that evolution has independently discovered multiple times. By contrast, failed boundaries are gerrymandered attempts that never achieve stable closure. The cell membrane achieves robust closure. That is the difference between a natural boundary and a gerrymandered surface.
 
 Nature brims with natural boundaries: cell membranes, organ systems, ecosystem edges. They are not labels we impose; they are discoverable features of causal networks.
+
+Statistical boundaries exist and achieve screening-off. But what do they actually *do*?
 
 ### Part 3: The Birth of Causal Autonomy
 
@@ -84,7 +93,7 @@ This is not computational convenience. It is a new causal architecture. You can 
 
 When does composition occur? It occurs when Markov conditions are satisfied to the degree that intervention on the boundary reliably controls the interior. Biological boundaries are leaky, but they achieve robust closure across relevant timescales and perturbations.
 
-Critics might argue this makes reality interest-relative, since closure depends on an error tolerance. But interest-relative is not subjective. Nature itself enforces which compressions work; we do not decide that the cell membrane works as a boundary, the universe does. Projectibility is objective. Approximate closure does not undermine reality; it is precisely what allows robustness across noise, perturbation, and scale.
+Critics might argue this makes reality interest-relative, since closure depends on an error tolerance. But interest-relative is not subjective. Nature itself enforces which compressions work. We do not decide that the cell membrane works as a boundary; experiments converge on the same boundaries regardless of investigator or theoretical commitment. Projectibility (support for counterfactual predictions) is objective. Approximate closure does not undermine reality; it is precisely what allows robustness across noise, perturbation, and scale.
 
 This explains why doctors treat organs, not cells. Heart failure is not fixed by adjusting cardiomyocyte ion channels. Cardiologists alter organ-level dynamics. The heart's boundary creates causal autonomy.
 
@@ -102,16 +111,20 @@ A skeptic might say no; we have not described the *wires* or the *electrons*. We
 
 But the Rosas et al. framework offers a rebuttal: If the system is causally closed, the 'Trumpet Formula' is not merely a description; it constitutes the *maximal explanation* possible.
 
-Here is the formal test (Rosas et al. 2024):
+Here is the formal test (Rosas et al. 2024). Two types of prediction machines capture this distinction:
 
--   **υ-machine (Upsilon)**: The best possible prediction of the macro-future using complete micro-data (every molecule's exact position).
--   **ε-machine (Epsilon)**: The best prediction of the macro-future using only macro-data (temperature, membrane state, note played).
+-   **υ-machine (Upsilon)**: The complete micro-story—the best possible prediction of the macro-future using every molecule's exact position and velocity.
+-   **ε-machine (Epsilon)**: The compressed macro-story—the best prediction of the macro-future using only macro-data like temperature, membrane state, or the note played.
 
-When both predict equally well, the macro-level has achieved computational closure. Adding substrate information yields zero predictive improvement. The whole is not a convenient fiction; it genuinely causes its own future states. If knowing the position of every electron ($\upsilon$) adds *zero* predictive power over simply knowing the note ($\epsilon$), then the mechanism is informationally redundant. The 'why' is fully contained in the macro-rule. The trumpet playing *is* the cause.
+When both predict equally well, the macro-level has achieved computational closure. **Computational closure** is the condition where macro-variables fully determine future macro-states without needing micro-details. The system becomes informationally self-contained at the macro-level.
 
-Phlogiston failed this test: every experiment revealed information leakage, requiring ad-hoc theoretical patches to maintain coherence. The cell membrane passes without such maintenance. This is the operational difference between natural joints and gerrymandered surfaces: real patterns are low-maintenance; fake ones require constant propping up.
+Adding substrate information yields zero predictive improvement. The whole is not a convenient fiction; it genuinely causes its own future states. If knowing the position of every electron ($\upsilon$) adds *zero* predictive power over simply knowing the note ($\epsilon$), then the mechanism is informationally redundant. The 'why' is fully contained in the macro-rule. The trumpet playing *is* the cause.
+
+Consider phlogiston theory in eighteenth-century chemistry. It failed this test decisively: every new experiment revealed information leakage. When metals gained weight upon burning (instead of losing phlogiston as predicted), theorists invented "negative phlogiston." When different substances showed different weight changes, more ad-hoc parameters appeared. The constant theoretical maintenance signaled that no real screening-off was occurring—phlogiston was not a natural boundary but a failed attempt to carve one. By contrast, the cell membrane passes the ε/υ test without such maintenance. This is the operational difference between natural joints and gerrymandered surfaces: real patterns are low-maintenance; fake ones require constant propping up.
 
 Think of it like traffic: The υ-machine tries to predict jams by tracking every car's velocity. The ε-machine predicts equally well using only "traffic density" and "flow rate." When density alone works, traffic density is causally real.
+
+The nihilist might concede the test is rigorous but deny its ontological significance.
 
 ### Part 5: The Nihilist's Retreat to Facts
 
@@ -121,9 +134,13 @@ A sophisticated nihilist might respond:
 
 If facts about arrangements perform causal work, denying their objecthood becomes an exercise in empty language. The nihilist has effectively conceded the core point. What remains is a verbal dispute regarding whether "real" denotes "fundamental particle" or "constraint-determined pattern."
 
-The boundary changes what would happen if you intervened. If the boundary is real and does causal work, what could it mean to deny the objecthood of what it bounds? The boundary *defines* the object.
+The boundary changes what would happen if you intervened. If the boundary is real and does causal work, what could it mean to deny the objecthood of what it bounds? In a meaningful sense, the boundary defines the object.
+
+Consider what it means for a boundary to "define" an object. The hurricane's boundary is not a label we apply to existing molecules; it is a causal constraint that changes what those molecules collectively can do. Before the boundary forms, particle #57's trajectory depends on all other particles in the region. After the boundary forms, particle #57's trajectory depends only on boundary conditions. The boundary has created a new causal architecture. That architecture is the object.
 
 If the nihilist retreats to facts, we must ask: what kind of thing is a fact that does causal work?
+
+This raises a deeper question about the relationship between physical structure and higher-order properties. Nowhere is this more pressing than in understanding consciousness.
 
 ### Part 6: Where Is the Triangle? A Computational Answer
 
@@ -140,71 +157,70 @@ The "screen" objection (O'Connor argues computer analogies fail because there is
 
 But what about phenomenal experience (the redness of red, the felt quality of visualizing that triangle)?
 
-Here we must be honest about what our framework implies and where it struggles. The logic of this paper pushes toward a strong conclusion: if real patterns at macro levels are genuine existents, and if mental content is such a pattern, then phenomenal consciousness *should* be explicable as a feature of computational organization. The framework does not permit us to bracket the hard problem as someone else's puzzle. It is *our* puzzle, because our own premises seem to demand that experience, too, is "just" a real pattern achieving closure.
+Here we must acknowledge our framework's current limitations. The explanatory gap between "this system processes information in a self-modeling way" and "there is something it is like to be this system" remains open. Perhaps phenomenal consciousness is functional organization (Dennett), perhaps computational closure is necessary but not sufficient, or perhaps proto-phenomenal properties are fundamental. We do not adjudicate between these options, but we recognize the obligation our framework creates: if minds are real patterns achieving causal closure, we must eventually explain why such patterns are accompanied by experience.
 
-Some philosophers embrace this implication. Dennett argues that phenomenal consciousness *is* functional organization (that once you have explained all the cognitive functions like discrimination, reporting, integration, and access, there is no residual "experience" left unexplained). The intuition that something is missing, on this view, is itself a cognitive illusion explicable in functional terms.
-
-We are not confident this is correct. The explanatory gap between "this system processes information in a self-modeling way" and "there is something it is like to be this system" remains vertiginous. A philosophical zombie (a system with identical $\epsilon$-machines but no inner experience) seems conceptually coherent, even if metaphysically impossible. If it is coherent, then functional organization alone does not *logically* entail phenomenal experience, and something more must be said.
-
-Three possibilities remain open:
-
-1. **Dennett is right**: Phenomenal consciousness is functional organization, and the explanatory gap is an illusion generated by our cognitive architecture. The hard problem dissolves upon sufficiently careful analysis of what we mean by "experience."
-
-2. **The framework is incomplete**: Computational closure is necessary but not sufficient for consciousness. Something additional (perhaps a particular *type* of information integration like Tononi's Φ, or a specific physical substrate, or a feature of reality we do not yet understand) must be present. The framework captures the *structure* of mind but not the *light* of experience.
-
-3. **Panpsychism or neutral monism**: Phenomenal properties are fundamental features of reality, present (in some form) at all levels. What computational closure does is *organize* or *integrate* these proto-phenomenal properties into unified experience. The framework is correct about structure but wrong to assume structure is all there is.
-
-We do not adjudicate between these options. What we insist on is this: the location problem and the phenomenal problem, while distinct, are not independent. If our framework is right that minds are real patterns achieving causal closure, then we inherit an obligation to explain why such patterns are accompanied by experience (or to argue convincingly that no such explanation is needed). We have not yet discharged that obligation.
-
-This is not a minor gap. Consciousness is the phenomenon that makes all other phenomena *matter*. A framework for the reality of wholes that cannot yet account for the one whole each of us knows most intimately (our own experiencing self) remains, in a deep sense, unfinished.
+Setting aside the phenomenal problem's unresolved status, these considerations point toward a specific metaphysical picture.
 
 ### Part 7: Rainforest Realism and Scale Relativity
 
 The debate becomes semantic. Ladyman and Ross propose Rainforest Realism: existence is lush with entities at every scale where patterns achieve projectibility (support counterfactuals) and information compression. A hard-nosed metaphysician might insist this is an account of explanation, not existence. We accept the charge but deny the distinction. There is no principled gap between "what exists" and "what plays an indispensable causal role in the best explanation of reality." Fundamentality without an autonomous causal role is an honorific, not an explanatory category.
 
-#### 7a. Scale Relativity
-At scale A (micro), the cup does not exist. At scale B (macro), the cup *does* exist. Both scales are equally real; physics does not grant the micro-scale ontological privilege. Consider: a human being exists simultaneously as a quantum field, a cellular colony, and a voting citizen. None of these descriptions is "more real" than the others. Each level achieves closure at its own scale. The voter is a valid object because you can predict election outcomes using "voters" without knowing anything about their mitochondria.
+This position has three implications for how we understand reality.
+
+First, scale relativity. At scale A (micro), the cup does not exist. At scale B (macro), the cup *does* exist. Both scales are equally real; physics does not grant the micro-scale ontological privilege. Consider: a human being exists simultaneously as a quantum field, a cellular colony, and a voting citizen. None of these descriptions is "more real" than the others. Each level achieves closure at its own scale. The voter is a valid object because you can predict election outcomes using "voters" without knowing anything about their mitochondria. This predictive independence demonstrates causal autonomy at the civic scale.
 
 The nihilist says, "The cell is just atoms." We reply: "Atoms are just quantum fields." The "just" is a category error. It confuses one scale of description with the only reality. Cells are Real Patterns at a scale where intervention works.
 
-#### 7b. The Reality of Invariants
-Consider an analogy from mathematics: $\pi$ is not a physical object, nor is it a mere invention. It is a constraint-determined invariant. Given the axioms of geometry, any intelligence working with circles must eventually discover $\pi$. It is forced into existence by the constraints of the problem. Biological and social objects are similar: they are not arbitrary labels but stable solutions to the constraints of survival and coordination. To exist, in any meaningful sense, is to be an invariant solution to a constraint problem.
+This scale relativity points to something deeper about the nature of invariants. Consider an analogy from mathematics: $\pi$ is not a physical object, nor is it a mere invention. It is a constraint-determined invariant. Given the axioms of geometry, any intelligence working with circles must eventually discover $\pi$. It is forced into existence by the constraints of the problem. Biological and social boundaries are similar: they are not arbitrary labels but stable solutions to the constraints of survival and coordination. To exist, in any meaningful sense, is to be an invariant solution to a constraint problem.
 
-#### 7c. The Fallacy of Microbangings
-What is left of the nihilist's "microbangings"? The belief that "real" causation is little things hitting other little things. But fundamental physics does not describe particles banging into each other; it describes mathematical constraints. Causation is an interventionist concept that mostly applies to special sciences (biology, medicine), not fundamental physics.
+And this explains why the nihilist's alternative fails. What is left of the nihilist's "microbangings"? The belief that "real" causation is little things hitting other little things. This reveals the deeper confusion underlying nihilism. Fundamental physics does not describe particles banging into each other; it describes mathematical constraints. Causation is an interventionist concept that mostly applies to special sciences (biology, medicine), not fundamental physics.
+
+These considerations have implications for long-standing debates in physics.
 
 ### Part 8: The Problem of Free Will and Superdeterminism
 
-Physicists often mock Superdeterminism: the idea that the universe is fully deterministic and that our choices are correlated with particle histories. It is often dismissed as a "cosmic conspiracy," implying atoms must magically coordinate to trick us.
+Physicists often mock Superdeterminism as requiring "cosmic conspiracy," implying atoms must magically coordinate to trick us. But the computational perspective we have developed clarifies what is at stake.
 
-The computational perspective does not *resolve* this tension, but it clarifies what is at stake. If the universe is a deterministic system that is strongly lumpable (compressible into stable macro-states without loss of predictive power), then high-level agents like us naturally emerge as computationally closed entities. This lumpability is not an *a priori* assumption but an empirical discovery: the special sciences work. Chemistry reduces to physics; biology to chemistry; the reductions succeed. This success is evidence that the universe has the hierarchical structure we describe.
+If the universe is a deterministic system that is compressible into stable macro-states without loss of predictive power, then high-level agents like us naturally emerge as computationally closed entities. This compressibility is not an *a priori* assumption but an empirical discovery: the special sciences work. Chemistry reduces to physics; biology to chemistry; the reductions succeed. This success is evidence that the universe has the hierarchical structure we describe.
 
 Does this vindicate superdeterminism? Not entirely. Here is what it does and does not establish:
 
-*What it establishes*: If superdeterminism is true, it need not involve "conspiracy." The correlation between measurement choices and particle histories would be mediated by the same computational closure that makes agents possible in the first place. The physicist's choice is determined by their macroscopic "software," which (because of information closure) is shielded from arbitrary micro-details. The correlation is not spooky; it is structural.
+*What it establishes*: If superdeterminism is true, it need not involve "conspiracy." The correlation between measurement choices and particle histories would be mediated by the same computational closure that makes agents possible in the first place. The physicist's choice is determined by their macroscopic "software," which (because of information closure) is shielded from arbitrary micro-details by Markov boundaries. The correlation is not spooky; it is structural—the same boundary-based shielding we have described throughout.
 
 *What it does not establish*: That this structural shielding is *sufficient* for scientific inference. The critic may press: if hidden correlations exist between settings and outcomes, how do we know our statistical methods track real regularities rather than artifacts of the correlation? This is a genuine open problem. Our framework suggests where to look for an answer (in the formal conditions under which coarse-graining preserves causal structure), but we do not claim to have provided one. The point is narrower: superdeterminism, if true, is compatible with the emergence of genuine agents. Whether it is compatible with the epistemology of science remains contested.
 
+Beyond physics, these ideas matter for practical intervention.
+
 ### Part 9: Why This Matters in the Real World
 
-Reducing reality exclusively to particles carries significant explanatory risks.
+These are not mere philosophical niceties. Mistaking the relevant causal level leads to predictable failures.
 
-**Medicine**: Atrial fibrillation is an organ-level dynamical breakdown. Effective treatment involves ablating the heart's electrical boundary. The heart's macro-properties possess causal powers that individual cells lack.
+**Medicine**: Atrial fibrillation is an organ-level dynamical breakdown—the heart's electrical boundary loses coherence, creating chaotic rhythms. Effective treatment involves ablating tissue to restore boundary integrity. Cardiologists do not manipulate individual cardiomyocyte ion channels; they alter organ-level dynamics. The heart's Markov boundary creates causal autonomy that makes organ-level intervention possible. A nihilist ontology that recognizes only cells would literally not know where to intervene.
+
+The pattern repeats across domains.
 
 **Ecology**: Salmon collapse required restoring ecosystem boundaries: river flows, predator balances. The system has emergent stability invisible at the species level.
 
 **Technology**: The internet has traffic patterns and robustness routers lack. Optimize routers while ignoring network properties, and you get cascading failures.
 
+Each case demonstrates what we have formalized: intervention succeeds when targeting computationally closed levels.
+
 **Quantum Challenge**: "Does entanglement not violate locality?"
 Response: Locality holds at the macroscopic scales where wholes emerge. Even quantum mechanics preserves statistical locality thermodynamically, as no information can be transmitted faster than light. Our argument applies where objects exist: above the quantum decoherence threshold.
 
+These practical examples point toward a broader philosophical conclusion.
+
 ### Conclusion: The Hierarchy of Truth
 
-Reality is not a flat soup of particles, nor is it an unordered jungle of patterns. It is a lattice of computational machines. Science is the process of discovering which machine (which level of the lattice) effectively predicts the phenomenon at hand. When we find a level that is causally closed, we have hit bedrock. We have found a Whole that is as real as its Parts.
+We began with a hurricane and asked whether it was real. From four premises about causality, locality, information, and thermodynamics, we derived the inevitability of statistical boundaries. We showed these boundaries create causal autonomy, formalized the test for genuine wholes via computational closure, and demonstrated their practical indispensability. What picture of reality emerges?
 
-What this argument really establishes is that ontology ignoring causal-informational structure is incomplete. Once you accept that science tracks real patterns, that patterns support intervention, and that interventions would fail without treating wholes as units, then whether we *call* them objects becomes secondary.
+Reality is not a flat soup of particles, nor an unordered jungle of patterns. It is a *hierarchy*—a lattice of computational machines stratified by scale. Science is the process of discovering which machine (which level of the lattice) effectively predicts the phenomenon at hand. When we find a level that is causally closed, we have hit bedrock. We have found a Whole that is as real as its Parts.
 
-A committed nihilist can still bite the bullet: "Yes, these arrangements have causal autonomy. Yes, they are indispensable. Still: only particles exist." This position is unattractive, scientifically idle, and explanatorily parasitic, but not strictly inconsistent. The argument does not *force* concession; it makes nihilism obsolete.
+What this argument establishes is that ontology ignoring causal-informational structure is incomplete. Once you accept that science tracks real patterns, that patterns support intervention, and that interventions would fail without treating wholes as units, then whether we *call* them objects becomes secondary.
+
+The nihilist position remains formally consistent but explanatorily barren. To deny the hurricane's reality after accepting its causal autonomy is to privilege etymological tradition over scientific practice. This position is not strictly inconsistent, but it is scientifically idle and explanatorily parasitic.
+
+The hurricane we named, tracked, and fled was not a linguistic convenience. It was a pattern this universe's constraints forced into existence.
 
 We have not so much refuted nihilism as outgrown it. The relevant question is not "Do wholes exist?" but "What earns causal autonomy?" This is the question that matters for science and survival. Wholes are inevitable where prediction, control, and compression converge. Any agent, human or otherwise, interacting with the atmosphere's constraints must eventually adopt a concept like "hurricane" to predict efficiently. To be real is to be a pattern that any sufficiently capable intelligence, constrained by this universe’s physics, is forced to discover.
 
