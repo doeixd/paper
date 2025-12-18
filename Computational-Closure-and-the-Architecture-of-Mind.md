@@ -584,7 +584,7 @@ If consciousness tracks structural pattern recognition while unconscious process
 
 1. **Novelty salience:** New structural patterns demand conscious attention (potential compression improvement)
 2. **Contradiction salience:** Structural incoherence can't be ignored (breaks assumed constraints)
-3. **Aha! moments:** Sudden recognition of structural relationships (Section 3.1 table below)
+3. **Aha! moments:** Sudden recognition of structural relationships (see Section 4B.1 phenomenology table)
 4. **Automation through practice:** Once structural understanding achieved, execution becomes statistical refinement (unconscious)
 
 Connection to Active Inference Theories of Consciousness: Recent work grounds consciousness directly in Active Inference mechanisms. Laukkonen et al. (2025) propose that consciousness arises from a recursive self-evidencing loop in hierarchical systems. This requires three functional conditions: simulation of an epistemic field (world model), Bayesian binding (inferential competition to enter the world model), and epistemic depth (recurrent sharing of beliefs across levels).
