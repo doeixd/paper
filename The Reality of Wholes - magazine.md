@@ -66,6 +66,8 @@ Natural boundaries correspond to self-maintaining feedback loops that evolution 
 
 Nature brims with these natural boundaries: cell membranes, organ systems, ecosystem edges, storm systems. They are discoverable features of causal networks, not labels imposed on reality.
 
+Closure is rarely perfect; it is a matter of degree. We can grade reality by the leakiness of the boundary. A granite boulder has extremely tight closure; very little external information (short of a sledgehammer) disrupts its macro-state prediction. A social category like class or race is leakier; its predictive power fluctuates based on context. The boulder is more real only in the sense that its closure is more robust across a wider range of perturbations. But leakiness does not equal non-existence; so long as the boundary screens off enough noise to allow intervention, the entity is real.
+
 So statistical boundaries exist and create screening-off. But what do they actually *do*?
 
 ### The Power of Causal Autonomy
@@ -90,6 +92,12 @@ Return to the heart. When treating atrial fibrillation, cardiologists don't adju
 This explains why evolution builds hierarchies. Natural selection operates on boundaries, not particles. A mutation that stabilizes the cell membrane gets selected. A mutation affecting one protein in one cell rarely does. Life builds upward in layers because boundaries create new levels where selection can act.
 
 The nihilist's flat ontology (where only particles exist) cannot explain this hierarchical structure. If composition is just a label, why does biology care so much about getting the labels right?
+
+### Orthogonal Dimensions
+
+We must distinguish between scale and dimension. A corporation has no causal closure in physics. It is just people and paper. But in the dimension of law, it has a tight, impenetrable boundary. It can sue, be sued, and hold assets.
+
+Consider the hotdog dilemma: Is a hotdog a sandwich? In the culinary dimension, the boundary is drawn by texture and expectation, perhaps excluding the hotdog. In the regulatory dimension (tax law), the boundary may explicitly include it. Both boundaries are real because both allow for perfect prediction within their respective domains (predicting a tax bill versus predicting a culinary experience). Reality is not just layered vertically; it is dimensional. An entity exists in whichever dimension it achieves computational closure.
 
 But I need more than examples. I need a rigorous test for when boundaries create genuine objects.
 
@@ -130,6 +138,14 @@ Think of traffic flow. You could try to predict traffic jams by tracking every c
 The sophisticated nihilist might now retreat: "Fine. Particles arranged membrane-wise create boundaries that enable prediction and control. But that doesn't make the membrane an object. There are particles, and there are facts about particles. Facts aren't objects."
 
 The debate has become semantic. If facts about arrangements do causal work (if they change what happens when you intervene), what could it mean to deny their objecthood? The dispute is no longer about reality. It's about what you're willing to call "real."
+
+The nihilist makes a category error by conflating fundamentality with reality.
+
+Fundamentality refers to the abstraction hierarchy and the implementation substrate (e.g., silicon is fundamental to software).
+
+Reality refers to the tightness of causal closure (e.g., the software bug causes the crash, not the silicon).
+
+Physical reality has a special status not because it is more real, but because it is the implementation layer for everything else. Legal reality runs on physical reality (documents, buildings) just as software runs on hardware. But treating the implementation layer as the only reality is like saying Microsoft Word does not exist because it is just electricity. The rock is more fundamental than the corporation, but the corporation is just as real within its causal domain.
 
 Consider what a boundary actually does. A hurricane's boundary is not a label applied to existing molecules. It's a causal constraint that changes what those molecules can collectively do. Before the boundary forms, particle #57's trajectory depends on all other particles in the region. After the boundary forms, particle #57's trajectory depends only on boundary conditions. The boundary has created a new causal architecture.
 
@@ -176,6 +192,10 @@ Restoration required targeting the ecosystem boundary: restoring river flow patt
 Optimize routers individually while ignoring network properties, and you get cascading failures. The 2021 Facebook outage happened precisely because engineers made a change that looked safe at the individual-configuration level but broke network-level routing. The network's boundary properties matter causally.
 
 Each case demonstrates the principle I've formalized: intervention succeeds when it targets the causally closed level. Science finds these levels by testing where prediction stops improving when you add lower-level detail. Medicine discovered the organ level, ecology discovered the ecosystem level, and network engineering discovered the protocol level through empirical trial and error, by seeing where interventions work.
+
+Consider a child drawing a dragon. Biologically, the dragon does not exist (it has no DNA). But in representational space, the dragon is a compression of predator, a high-fidelity symbol that predicts fear responses, narrative structures, and cultural transmission.
+
+If we ask "Is the dragon real?", we must ask "In what dimension?" In biology: No. In the causal architecture of human psychology: Yes. It achieves closure because intervening on the symbol (showing a picture of a dragon) reliably produces a predictable macro-state (fear/awe) without the subject needing to process the micro-details of actual lions or snakes. The dragon is a real psychological interface for a dangerous world.
 
 ### Conclusion: Patterns Forced Into Existence
 
