@@ -4,7 +4,7 @@
 
 The hurricane's boundary is not a label; it is a statistical screen that makes the interior conditionally independent of the exterior. And boundaries like this are not optional features of reality; they are mathematical consequences of any dynamical system satisfying locality, finite information capacity, and energetic cost of computation.
 
-The boundary is not optional. It emerges from the constraints governing any physical system. Let us make this precise. If we accept four premises—premises that even most mereological nihilists grant—a fifth conclusion follows with mathematical necessity.
+The boundary is not optional. It emerges from the constraints governing any physical system. Let us make this precise. If we accept four premises, premises that even most mereological nihilists grant, a fifth conclusion follows with mathematical necessity.
 
 1.  **Causality**: Events have causes and effects
 2.  **Locality**: Causes operate through local interactions
@@ -103,7 +103,7 @@ Evolution selects for boundaries, not particles. The nihilist's flat ontology ca
 
 ### Part 3.5: Orthogonal Dimensions
 
-We must distinguish between scale and dimension. A corporation has no causal closure in physics—it is just people and paper. But in the dimension of law, it has a tight, impenetrable boundary. It can sue, be sued, and hold assets.
+We must distinguish between scale and dimension. A corporation has no causal closure in physics. It is just people and paper. But in the dimension of law, it has a tight, impenetrable boundary. It can sue, be sued, and hold assets.
 
 Consider the hotdog dilemma: Is a hotdog a sandwich? In the culinary dimension, the boundary is drawn by texture and expectation, perhaps excluding the hotdog. In the regulatory dimension (tax law), the boundary may explicitly include it. Both boundaries are real because both allow for perfect prediction within their respective domains (predicting a tax bill versus predicting a culinary experience). Reality is not just layered vertically; it is dimensional. An entity exists in whichever dimension it achieves computational closure.
 
@@ -121,14 +121,14 @@ But the Rosas et al. framework offers a rebuttal: If the system is causally clos
 
 Here is the formal test (Rosas et al. 2024). Two types of prediction machines capture this distinction:
 
--   **υ-machine (Upsilon)**: The complete micro-story—the best possible prediction of the macro-future using every molecule's exact position and velocity.
--   **ε-machine (Epsilon)**: The compressed macro-story—the best prediction of the macro-future using only macro-data like temperature, membrane state, or the note played.
+-   **υ-machine (Upsilon)**: The complete micro-story, the best possible prediction of the macro-future using every molecule's exact position and velocity.
+-   **ε-machine (Epsilon)**: The compressed macro-story, the best prediction of the macro-future using only macro-data like temperature, membrane state, or the note played.
 
 When both predict equally well, the macro-level has achieved computational closure. **Computational closure** is the condition where macro-variables fully determine future macro-states without needing micro-details. The system becomes informationally self-contained at the macro-level.
 
 Adding substrate information yields zero predictive improvement. The whole is not a convenient fiction; it genuinely causes its own future states. If knowing the position of every electron ($\upsilon$) adds *zero* predictive power over simply knowing the note ($\epsilon$), then the mechanism is informationally redundant. The 'why' is fully contained in the macro-rule. The trumpet playing *is* the cause.
 
-Consider phlogiston theory in eighteenth-century chemistry. It failed this test decisively: every new experiment revealed information leakage. When metals gained weight upon burning (instead of losing phlogiston as predicted), theorists invented "negative phlogiston." When different substances showed different weight changes, more ad-hoc parameters appeared. The constant theoretical maintenance signaled that no real screening-off was occurring—phlogiston was not a natural boundary but a failed attempt to carve one. By contrast, the cell membrane passes the ε/υ test without such maintenance. This is the operational difference between natural joints and gerrymandered surfaces: real patterns are low-maintenance; fake ones require constant propping up.
+Consider phlogiston theory in eighteenth-century chemistry. It failed this test decisively: every new experiment revealed information leakage. When metals gained weight upon burning (instead of losing phlogiston as predicted), theorists invented "negative phlogiston." When different substances showed different weight changes, more ad-hoc parameters appeared. The constant theoretical maintenance signaled that no real screening-off was occurring. Phlogiston was not a natural boundary but a failed attempt to carve one. By contrast, the cell membrane passes the ε/υ test without such maintenance. This is the operational difference between natural joints and gerrymandered surfaces: real patterns are low-maintenance; fake ones require constant propping up.
 
 Think of it like traffic: The υ-machine tries to predict jams by tracking every car's velocity. The ε-machine predicts equally well using only "traffic density" and "flow rate." When density alone works, traffic density is causally real.
 
@@ -171,7 +171,7 @@ Our framework addresses the first problem directly. The paper by Rosas et al. pr
 
 The "screen" objection (O'Connor argues computer analogies fail because there is no screen in the brain) misses this point: the $\epsilon$-machine *is* the screen. It is the level at which the pattern becomes computationally closed and self-predicting. No external observer is needed because the system itself operates at that level. The triangle exists at the $\epsilon$-level, not the $\upsilon$-level. It is not *in* the neurons any more than Python code is *in* silicon. It is a constraint-determined pattern that runs on the substrate.
 
-Consider a child drawing a dragon. Biologically, the dragon does not exist (it has no DNA). But in representational space, the dragon is a compression of predator—a high-fidelity symbol that predicts fear responses, narrative structures, and cultural transmission.
+Consider a child drawing a dragon. Biologically, the dragon does not exist (it has no DNA). But in representational space, the dragon is a compression of predator, a high-fidelity symbol that predicts fear responses, narrative structures, and cultural transmission.
 
 If we ask "Is the dragon real?", we must ask "In what dimension?" In biology: No. In the causal architecture of human psychology: Yes. It achieves closure because intervening on the symbol (showing a picture of a dragon) reliably produces a predictable macro-state (fear/awe) without the subject needing to process the micro-details of actual lions or snakes. The dragon is a real psychological interface for a dangerous world.
 
@@ -205,7 +205,7 @@ If the universe is a deterministic system that is compressible into stable macro
 
 Does this vindicate superdeterminism? Not entirely. Here is what it does and does not establish:
 
-*What it establishes*: If superdeterminism is true, it need not involve "conspiracy." The correlation between measurement choices and particle histories would be mediated by the same computational closure that makes agents possible in the first place. The physicist's choice is determined by their macroscopic "software," which (because of information closure) is shielded from arbitrary micro-details by Markov boundaries. The correlation is not spooky; it is structural—the same boundary-based shielding we have described throughout.
+*What it establishes*: If superdeterminism is true, it need not involve "conspiracy." The correlation between measurement choices and particle histories would be mediated by the same computational closure that makes agents possible in the first place. The physicist's choice is determined by their macroscopic "software," which (because of information closure) is shielded from arbitrary micro-details by Markov boundaries. The correlation is not spooky; it is structural, the same boundary-based shielding we have described throughout.
 
 *What it does not establish*: That this structural shielding is *sufficient* for scientific inference. The critic may press: if hidden correlations exist between settings and outcomes, how do we know our statistical methods track real regularities rather than artifacts of the correlation? This is a genuine open problem. Our framework suggests where to look for an answer (in the formal conditions under which coarse-graining preserves causal structure), but we do not claim to have provided one. The point is narrower: superdeterminism, if true, is compatible with the emergence of genuine agents. Whether it is compatible with the epistemology of science remains contested.
 
@@ -215,7 +215,7 @@ Beyond physics, these ideas matter for practical intervention.
 
 These are not mere philosophical niceties. Mistaking the relevant causal level leads to predictable failures.
 
-**Medicine**: Atrial fibrillation is an organ-level dynamical breakdown—the heart's electrical boundary loses coherence, creating chaotic rhythms. Effective treatment involves ablating tissue to restore boundary integrity. Cardiologists do not manipulate individual cardiomyocyte ion channels; they alter organ-level dynamics. The heart's Markov boundary creates causal autonomy that makes organ-level intervention possible. A nihilist ontology that recognizes only cells would literally not know where to intervene.
+**Medicine**: Atrial fibrillation is an organ-level dynamical breakdown. The heart's electrical boundary loses coherence, creating chaotic rhythms. Effective treatment involves ablating tissue to restore boundary integrity. Cardiologists do not manipulate individual cardiomyocyte ion channels; they alter organ-level dynamics. The heart's Markov boundary creates causal autonomy that makes organ-level intervention possible. A nihilist ontology that recognizes only cells would literally not know where to intervene.
 
 The pattern repeats across domains.
 
@@ -234,7 +234,7 @@ These practical examples point toward a broader philosophical conclusion.
 
 We began with a hurricane and asked whether it was real. From four premises about causality, locality, information, and thermodynamics, we derived the inevitability of statistical boundaries. We showed these boundaries create causal autonomy, formalized the test for genuine wholes via computational closure, and demonstrated their practical indispensability. What picture of reality emerges?
 
-Reality is not a flat soup of particles, nor an unordered jungle of patterns. It is a *hierarchy*—a lattice of computational machines stratified by scale. Science is the process of discovering which machine (which level of the lattice) effectively predicts the phenomenon at hand. When we find a level that is causally closed, we have hit bedrock. We have found a Whole that is as real as its Parts.
+Reality is not a flat soup of particles, nor an unordered jungle of patterns. It is a hierarchy, a lattice of computational machines stratified by scale. Science is the process of discovering which machine (which level of the lattice) effectively predicts the phenomenon at hand. When we find a level that is causally closed, we have hit bedrock. We have found a Whole that is as real as its Parts.
 
 What this argument establishes is that ontology ignoring causal-informational structure is incomplete. Once you accept that science tracks real patterns, that patterns support intervention, and that interventions would fail without treating wholes as units, then whether we *call* them objects becomes secondary.
 
