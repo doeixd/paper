@@ -32,7 +32,7 @@ The skeptic's position sounds scientifically rigorous. But it confuses substrate
 
 The deeper problem with the nihilist position: it assumes particles are self-subsistent objects floating in the substrate. But quantum mechanics undermines this picture entirely. You cannot tag an electron and track it like a billiard ball. Particles are entangled, indistinguishable, fundamentally relational. They have no more inherent "objecthood" than the wholes they compose. If you follow the nihilist's logic all the way down, you find not fundamental things but fundamental constraints. The substrate is not made of objects; it's made of mathematical relationships.
 
-This reveals the paradox at the heart of nihilism: it privileges the micro-scale while quantum mechanics shows that scale has no such privilege.
+This reveals the paradox at the heart of nihilism: it privileges the micro-scale, but quantum mechanics shows that scale has no such privilege. If nothing is an inherently "separate" object at the base level, the nihilist's attempt to deny higher-order objects based on their composition loses its anchor.
 
 ### When Arrangements Create Boundaries
 
@@ -118,7 +118,7 @@ This gives us a test. For any system, you can ask two questions:
 
 When both predictions are equally good, the system has achieved what's called informational self-sufficiency at the macro-level. The macro-variables fully determine the future macro-state. Knowing the micro-details adds nothing.
 
-This isn't mere convenience. When this condition holds, the whole genuinely causes its own future. The macro-level has become causally closed.
+This isn't mere convenience. When this condition holds, the whole genuinely causes its own future. The macro-level has become causally closed. Causal closure here does not mean the macro-level is independent of microphysics, but rather that it is sufficient for prediction and intervention over the target variables without needing to look "down."
 
 Consider why phlogiston failed in eighteenth-century chemistry. Every new experiment revealed the theory's incompleteness. When metals gained weight upon burning (instead of losing phlogiston as predicted), theorists invented "negative phlogiston." When different substances showed different weight changes, more ad-hoc patches appeared. This constant theoretical maintenance signaled that no real screening-off was occurring. Phlogiston was a failed boundary, a gerrymandered attempt to carve nature where no joint existed.
 
@@ -170,7 +170,7 @@ Consider what a boundary actually does. A hurricane's boundary is not a label ap
 
 That architecture is the object.
 
-The nihilist has effectively conceded the substance of the debate. What remains is a verbal dispute about which words to use.
+The nihilist has reached a position that is formally consistent but doing no explanatory or predictive work. What remains is a purely verbal distinction about which words to use.
 
 ### The Layered Universe
 
