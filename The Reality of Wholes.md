@@ -75,6 +75,8 @@ However, which boundaries count? Not all mathematical boundaries are equal. The 
 
 Nature brims with natural boundaries: cell membranes, organ systems, ecosystem edges. They are not labels we impose; they are discoverable features of causal networks.
 
+Closure is rarely perfect; it is a matter of degree. We can grade reality by the leakiness of the boundary. A granite boulder has extremely tight closure; very little external information (short of a sledgehammer) disrupts its macro-state prediction. A social category like class or race is leakier; its predictive power fluctuates based on context. The boulder is more real only in the sense that its closure is more robust across a wider range of perturbations. But leakiness does not equal non-existence; so long as the boundary screens off enough noise to allow intervention, the entity is real.
+
 Statistical boundaries exist and achieve screening-off. But what do they actually *do*?
 
 ### Part 3: The Birth of Causal Autonomy
@@ -98,6 +100,12 @@ Critics might argue this makes reality interest-relative, since closure depends 
 This explains why doctors treat organs, not cells. Heart failure is not fixed by adjusting cardiomyocyte ion channels. Cardiologists alter organ-level dynamics. The heart's boundary creates causal autonomy.
 
 Evolution selects for boundaries, not particles. The nihilist's flat ontology cannot explain why life builds hierarchies.
+
+### Part 3.5: Orthogonal Dimensions
+
+We must distinguish between scale and dimension. A corporation has no causal closure in physics—it is just people and paper. But in the dimension of law, it has a tight, impenetrable boundary. It can sue, be sued, and hold assets.
+
+Consider the hotdog dilemma: Is a hotdog a sandwich? In the culinary dimension, the boundary is drawn by texture and expectation, perhaps excluding the hotdog. In the regulatory dimension (tax law), the boundary may explicitly include it. Both boundaries are real because both allow for perfect prediction within their respective domains (predicting a tax bill versus predicting a culinary experience). Reality is not just layered vertically; it is dimensional. An entity exists in whichever dimension it achieves computational closure.
 
 But showing that boundaries *can* exist is not enough. We need a test for when they *do* exist.
 
@@ -134,6 +142,14 @@ A sophisticated nihilist might respond:
 
 If facts about arrangements perform causal work, denying their objecthood becomes an exercise in empty language. The nihilist has effectively conceded the core point. What remains is a verbal dispute regarding whether "real" denotes "fundamental particle" or "constraint-determined pattern."
 
+The nihilist makes a category error by conflating fundamentality with reality.
+
+Fundamentality refers to the abstraction hierarchy and the implementation substrate (e.g., silicon is fundamental to software).
+
+Reality refers to the tightness of causal closure (e.g., the software bug causes the crash, not the silicon).
+
+Physical reality has a special status not because it is more real, but because it is the implementation layer for everything else. Legal reality runs on physical reality (documents, buildings) just as software runs on hardware. But treating the implementation layer as the only reality is like saying Microsoft Word does not exist because it is just electricity. The rock is more fundamental than the corporation, but the corporation is just as real within its causal domain.
+
 The boundary changes what would happen if you intervened. If the boundary is real and does causal work, what could it mean to deny the objecthood of what it bounds? In a meaningful sense, the boundary defines the object.
 
 Consider what it means for a boundary to "define" an object. The hurricane's boundary is not a label we apply to existing molecules; it is a causal constraint that changes what those molecules collectively can do. Before the boundary forms, particle #57's trajectory depends on all other particles in the region. After the boundary forms, particle #57's trajectory depends only on boundary conditions. The boundary has created a new causal architecture. That architecture is the object.
@@ -154,6 +170,10 @@ This question contains two distinct puzzles, and intellectual honesty requires s
 Our framework addresses the first problem directly. The paper by Rosas et al. provides formal support for the analogy of the mind as software: a system runs software when its macroscopic state determines its future state irrespective of hardware details. When you visualize a triangle, that representational pattern is substrate-independent (a valid causal entity because it is the effective theory of that cognitive process). The "triangle" (as functional content) is the $\epsilon$-machine; the firing neurons are the hardware implementation. The reason you cannot find the triangle by dissecting neurons is the same reason you cannot find Microsoft Word by examining silicon: you are looking at the wrong level of description. Mental content exists at the level where cognitive patterns achieve causal closure.
 
 The "screen" objection (O'Connor argues computer analogies fail because there is no screen in the brain) misses this point: the $\epsilon$-machine *is* the screen. It is the level at which the pattern becomes computationally closed and self-predicting. No external observer is needed because the system itself operates at that level. The triangle exists at the $\epsilon$-level, not the $\upsilon$-level. It is not *in* the neurons any more than Python code is *in* silicon. It is a constraint-determined pattern that runs on the substrate.
+
+Consider a child drawing a dragon. Biologically, the dragon does not exist (it has no DNA). But in representational space, the dragon is a compression of predator—a high-fidelity symbol that predicts fear responses, narrative structures, and cultural transmission.
+
+If we ask "Is the dragon real?", we must ask "In what dimension?" In biology: No. In the causal architecture of human psychology: Yes. It achieves closure because intervening on the symbol (showing a picture of a dragon) reliably produces a predictable macro-state (fear/awe) without the subject needing to process the micro-details of actual lions or snakes. The dragon is a real psychological interface for a dangerous world.
 
 But what about phenomenal experience (the redness of red, the felt quality of visualizing that triangle)?
 
