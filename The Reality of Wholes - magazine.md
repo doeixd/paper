@@ -26,7 +26,7 @@ This isn't a denial that physics is complete, nor an argument for "spooky" emerg
 
 The skeptic's argument seems compelling at first. When did this glass begin to exist? No new matter was created when the glass formed. Atoms were simply rearranged. The boundary between "glass" and "not-glass" appears arbitrary, a label imposed for convenience. Beneath it all lies only the quantum soup of fundamental particles. The soup is all that's real.
 
-To be fair, this reductionist view has been spectacularly successful in smashing atoms. If your goal is to understand the fundamental forces of the cosmos, looking at the parts is the only way to go. But most of science—and all of life—isn't about smashing atoms.
+To be fair, this reductionist view has been spectacularly successful in smashing atoms. If your goal is to understand the fundamental forces of the cosmos, looking at the parts is the only way to go. But most of science and all of life isn't about smashing atoms.
 
 The skeptic's position sounds scientifically rigorous. But it confuses substrate with structure. A cup's boundary is not an abstract essence of "cup-ness." It's the measurable fact that its walls screen off the liquid's temperature from external atoms. The arrangement doesn't merely *allow* boundaries; under the right conditions, it *creates* them.
 
@@ -36,7 +36,7 @@ This reveals the paradox at the heart of nihilism: it privileges the micro-scale
 
 ### When Arrangements Create Boundaries
 
-Given basic facts about causality, locality, and information, you can trace out the consequences. Particles interact locally. These interactions form causal networks. And inevitably, certain configurations **screen off** some parts of the network from others—rendering the microscopic details irrelevant for predicting the macro-future.
+Given basic facts about causality, locality, and information, you can trace out the consequences. Particles interact locally. These interactions form causal networks. And inevitably, certain configurations **screen off** some parts of the network from others, rendering the microscopic details irrelevant for predicting the macro-future.
 
 Take a simple example. Imagine 100 particles bouncing inside a perfectly insulated box. External particles can only affect the interior through wall collisions. Once you know exactly what's happening at the walls (the momentum, angle, and timing of collisions), knowing about external particles adds zero predictive power. The walls create a screen: what happens outside becomes irrelevant for predicting what happens inside.
 
@@ -89,7 +89,7 @@ This isn't mere computational convenience. It represents a new causal architectu
 
 Return to the heart. When treating atrial fibrillation, cardiologists don't adjust individual ion channels in cell membranes. They ablate tissue to restore organ-level electrical boundaries. Why? Because the heart's boundary creates causal autonomy. The intervention that works operates at the organ level, not the cellular level.
 
-This explains why evolution builds hierarchies. Natural selection operates on boundaries, not particles. A mutation that stabilizes the cell membrane gets selected. A mutation affecting one protein in one cell rarely does. Life builds upward in layers because boundaries create new levels where selection can act. Evolution acts as a blind computational engine, testing arrangements against reality and selecting the ones that achieve causal autonomy—they're the only ones that survive thermodynamic decay.
+This explains why evolution builds hierarchies. Natural selection operates on boundaries, not particles. A mutation that stabilizes the cell membrane gets selected. A mutation affecting one protein in one cell rarely does. Life builds upward in layers because boundaries create new levels where selection can act. Evolution acts as a blind computational engine, testing arrangements against reality and selecting the ones that achieve causal autonomy. They're the only ones that survive thermodynamic decay.
 
 The nihilist's flat ontology (where only particles exist) cannot explain this hierarchical structure. If composition is just a label, why does biology care so much about getting the labels right?
 
@@ -108,7 +108,7 @@ A skeptic might say no. You haven't described the wires, the circuit, the electr
 
 But the key question: what if knowing every microscopic detail (every electron's position, every vibration in the wire) doesn't improve your prediction? What if tracking the note played predicts the light's brightness just as well as tracking the physics of the entire circuit?
 
-Here is the crux: The bulb doesn't care *how* the note is produced. It doesn't care about the specific vibrational micro-state of the brass or the exact velocity of the air molecules. It cares only about the frequency profile—the pattern. The macro-variable (the note "C") screens off the micro-details. The specific arrangement of electrons is noise; the note is the signal. And in a causal sense, the signal is what matters.
+Here is the crux: The bulb doesn't care *how* the note is produced. It doesn't care about the specific vibrational micro-state of the brass or the exact velocity of the air molecules. It cares only about the frequency profile, the pattern. The macro-variable (the note "C") screens off the micro-details. The specific arrangement of electrons is noise; the note is the signal. And in a causal sense, the signal is what matters.
 
 This gives us a test. For any system, you can ask two questions:
 
@@ -158,11 +158,11 @@ Reality refers to the tightness of causal closure (e.g., the software bug causes
 
 Physical reality has a special status not because it is more real, but because it is the implementation layer for everything else. Legal reality runs on physical reality (documents, buildings) just as software runs on hardware. But treating the implementation layer as the only reality is like saying Microsoft Word does not exist because it is just electricity.
 
-This even resolves the famous 'China Brain' puzzle. Philosophers have asked: if a billion people used walkie-talkies to simulate the firing of neurons, would a collective mind exist? Our framework says yes—*if, and only if,* the system achieves closure. If the collective output (the 'thought') allows you to predict the system's future behavior better than tracking the billion individual citizens, then a mind has emerged. It is simply software running on a substrate of people, just as Excel runs on a substrate of transistors.
+This even resolves the famous 'China Brain' puzzle. Philosophers have asked: if a billion people used walkie-talkies to simulate the firing of neurons, would a collective mind exist? Our framework says yes, if and only if the system achieves closure. If the collective output (the 'thought') allows you to predict the system's future behavior better than tracking the billion individual citizens, then a mind has emerged. It is simply software running on a substrate of people, just as Excel runs on a substrate of transistors.
 
 This distinction clarifies how dimensions interact without magic. How can a legal concept (a warrant) cause a physical event (an arrest)?
 
-They interact through the implementation layer. Legal reality "runs on" physical reality—paper, servers, brains—just as software runs on silicon. A change in the legal dimension (a signed warrant) changes the physical state of the paper. That physical input changes the brain state of the police officer, leading to the physical arrest. We aren't positing ghosts in the machine; we are describing software processes driving hardware action.
+They interact through the implementation layer. Legal reality "runs on" physical reality, paper, servers, brains, just as software runs on silicon. A change in the legal dimension (a signed warrant) changes the physical state of the paper. That physical input changes the brain state of the police officer, leading to the physical arrest. We aren't positing ghosts in the machine; we are describing software processes driving hardware action.
 
 This logic applies recursively across every level of the universe.
 
