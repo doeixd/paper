@@ -75,7 +75,7 @@ However, which boundaries count? Not all mathematical boundaries are equal. The 
 
 Nature brims with natural boundaries: cell membranes, organ systems, ecosystem edges. They are not labels we impose; they are discoverable features of causal networks.
 
-Closure is rarely perfect; it is a matter of degree. We can grade reality by the leakiness of the boundary. A granite boulder has extremely tight closure; very little external information (short of a sledgehammer) disrupts its macro-state prediction. A social category like class or race is leakier; its predictive power fluctuates based on context. The boulder is more real only in the sense that its closure is more robust across a wider range of perturbations. But leakiness does not equal non-existence; so long as the boundary screens off enough noise to allow intervention, the entity is real.
+However, these boundaries are not binary walls; they are statistical gradients. Closure is rarely perfect; it is a matter of degree. We can grade reality by the leakiness of the boundary. A granite boulder has extremely tight closure; very little external information (short of a sledgehammer) disrupts its macro-state prediction. A social category like class or race is leakier; its predictive power fluctuates based on context. The boulder is more real only in the sense that its closure is more robust across a wider range of perturbations. But leakiness does not equal non-existence; so long as the boundary screens off enough noise to allow intervention, the entity is real.
 
 Statistical boundaries exist and achieve screening-off. But what do they actually *do*?
 
@@ -101,9 +101,7 @@ This explains why doctors treat organs, not cells. Heart failure is not fixed by
 
 Evolution selects for boundaries, not particles. The nihilist's flat ontology cannot explain why life builds hierarchies.
 
-### Part 3.5: Orthogonal Dimensions
-
-We must distinguish between scale and dimension. A corporation has no causal closure in physics. It is just people and paper. But in the dimension of law, it has a tight, impenetrable boundary. It can sue, be sued, and hold assets.
+But hierarchy is not the only structure. Reality is also dimensional. We must distinguish between scale and dimension. A corporation has no causal closure in physics. It is just people and paper. But in the dimension of law, it has a tight, impenetrable boundary. It can sue, be sued, and hold assets.
 
 Consider the hotdog dilemma: Is a hotdog a sandwich? In the culinary dimension, the boundary is drawn by texture and expectation, perhaps excluding the hotdog. In the regulatory dimension (tax law), the boundary may explicitly include it. Both boundaries are real because both allow for perfect prediction within their respective domains (predicting a tax bill versus predicting a culinary experience). Reality is not just layered vertically; it is dimensional. An entity exists in whichever dimension it achieves computational closure.
 
@@ -127,6 +125,8 @@ Here is the formal test (Rosas et al. 2024). Two types of prediction machines ca
 When both predict equally well, the macro-level has achieved computational closure. **Computational closure** is the condition where macro-variables fully determine future macro-states without needing micro-details. The system becomes informationally self-contained at the macro-level.
 
 Adding substrate information yields zero predictive improvement. The whole is not a convenient fiction; it genuinely causes its own future states. If knowing the position of every electron ($\upsilon$) adds *zero* predictive power over simply knowing the note ($\epsilon$), then the mechanism is informationally redundant. The 'why' is fully contained in the macro-rule. The trumpet playing *is* the cause.
+
+Crucially, this test applies across dimensions. In the dimension of tax law, an ε-machine tracking 'corporate assets' predicts legal outcomes perfectly, while a υ-machine tracking the physical location of every employee adds nothing. The corporate entity achieves computational closure in legal space, satisfying the test just as robustly as the trumpet does in acoustic space.
 
 Consider phlogiston theory in eighteenth-century chemistry. It failed this test decisively: every new experiment revealed information leakage. When metals gained weight upon burning (instead of losing phlogiston as predicted), theorists invented "negative phlogiston." When different substances showed different weight changes, more ad-hoc parameters appeared. The constant theoretical maintenance signaled that no real screening-off was occurring. Phlogiston was not a natural boundary but a failed attempt to carve one. By contrast, the cell membrane passes the ε/υ test without such maintenance. This is the operational difference between natural joints and gerrymandered surfaces: real patterns are low-maintenance; fake ones require constant propping up.
 
@@ -242,7 +242,7 @@ The nihilist position remains formally consistent but explanatorily barren. To d
 
 The hurricane we named, tracked, and fled was not a linguistic convenience. It was a pattern this universe's constraints forced into existence.
 
-We have not so much refuted nihilism as outgrown it. The relevant question is not "Do wholes exist?" but "What earns causal autonomy?" This is the question that matters for science and survival. Wholes are inevitable where prediction, control, and compression converge. Any agent, human or otherwise, interacting with the atmosphere's constraints must eventually adopt a concept like "hurricane" to predict efficiently. To be real is to be a pattern that any sufficiently capable intelligence, constrained by this universe’s physics, is forced to discover.
+We have not so much refuted nihilism as outgrown it. The relevant question is not "Do wholes exist?" but "What earns causal autonomy?" This is the question that matters for science and survival. Wholes are inevitable where prediction, control, and compression converge. Any agent, human or otherwise, interacting with the atmosphere's constraints must eventually adopt a concept like "hurricane" to predict efficiently. To be real is to be a pattern that any sufficiently capable intelligence, constrained by this universe's physics, is forced to discover, whether that pattern is the physical wall of a hurricane, the legal boundary of a corporation, or the psychological reality of a dragon. Each is a discoverable invariant in its own domain.
 
 ---
 
