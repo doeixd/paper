@@ -231,6 +231,18 @@ Robustly measuring these costs requires disciplined methodology. The triangulati
 
 This framework reveals cost-shifting: systems may excel in one tier (epistemic efficiency) while incurring catastrophic costs in another (bio-social harm). Such trade-offs signal hidden brittleness, as deferred costs accumulate vulnerability. Diagnosis identifies unsustainable patterns across tiers, not a single score.
 
+#### 3.2.2 Model Complexity as Compression Failure
+
+Before examining how to measure these costs objectively, we should clarify why Model Complexity $M(t)$ functions as a brittleness indicator at the conceptual level, not merely as an operational metric. The deeper insight is that viable theories function as compression: they reduce vast empirical data into compact, generative principles that enable prediction beyond the original observations.
+
+Consider Newton's laws of motion: three concise equations that compress countless observations of falling apples, planetary orbits, and projectile trajectories into a unified framework. This compression is not merely elegant; it is epistemically powerful because only a genuinely compressed theory can extrapolate reliably to novel cases. A theory that has captured the underlying causal structure can generate predictions for situations never before encountered. This is the hallmark of deep compression.
+
+Contrast this with a system approaching what we might call the incompressibility trap. Late Ptolemaic astronomy required hundreds of epicycles, deferents, and equants, each calibrated to specific observational data. As the system's complexity grew to match the complexity of the phenomena it described, it ceased to function as a theory and became instead a sophisticated lookup table: a catalog of past observations with minimal generative power. When a theory requires as many parameters as it has data points, it has lost the capacity for genuine prediction. It can reproduce what it has seen but cannot reliably anticipate what it has not.
+
+This is why rising $M(t)$ signals brittleness. It indicates that a system is losing its compression ratio, requiring more and more internal complexity to maintain performance. This is not a subjective aesthetic preference for simplicity. It reflects a fundamental epistemic constraint: theories that approach the complexity of their subject matter lose the capacity to guide action in novel circumstances. They become brittle because they cannot compress reality's patterns, only mirror them.
+
+This conceptual grounding also clarifies the philosophical status of Occam's Razor. Parsimony is not an arbitrary methodological preference but a necessary condition for viable knowledge systems. A theory cluttered with parameters and special cases is not merely inelegant; it is structurally incapable of the predictive compression that allows knowledge systems to extend beyond their training data. The principle of parsimony, understood through this lens, is a constraint imposed by the very nature of viable inquiry.
+
 ### 3.3 The Triangulation Method
 
 No single indicator is immune to interpretive bias. Therefore, robust diagnosis of brittleness requires triangulation across independent baselines. This protocol provides a concrete method for achieving pragmatic objectivity.
