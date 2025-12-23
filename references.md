@@ -34,6 +34,8 @@ Berlin, Brent, and Paul Kay. 1969. *Basic Color Terms: Their Universality and Ev
 
 Blackburn, Simon. 1993. *Essays in Quasi-Realism*. New York: Oxford University Press. ISBN 978-0195082241.
 
+Block, Ned. 1978. "Troubles with Functionalism." In *Minnesota Studies in the Philosophy of Science*, vol. 9, edited by C. Wade Savage, 261-325. Minneapolis: University of Minnesota Press.
+
 BonJour, Laurence. 1985. *The Structure of Empirical Knowledge*. Cambridge, MA: Harvard University Press. ISBN 978-0674843813.
 
 Boyd, Richard. 1973. "Realism, Underdetermination, and a Causal Theory of Evidence." *Noûs* 7(1): 1–12. https://doi.org/10.2307/2214367.
