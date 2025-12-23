@@ -42,13 +42,15 @@ Given causality, locality, and information, we can analyze the consequences of l
 
 Imagine a set of 100 particles bouncing in a perfectly insulated box. External particles can only affect the interior through wall collisions. Once you know *exactly* what is happening at the walls (momentum, angle, timing), knowing about external particles adds zero predictive power.
 
-This is a Markov blanket: a boundary that emerges from local causality.
+This represents a Markov blanket, a boundary where knowing the state of the barrier renders the exterior irrelevant for predicting the interior. Think of a castle with thick stone walls. To predict the temperature inside the great hall, you only need to know the temperature of the stones on the inner surface of the wall. The weather five miles away is irrelevant except insofar as it has already affected those stones. The wall screens off the rest of the universe.
+
+Formally:
 
 ```latex
 $P(\text{inside} \mid \text{walls}, \text{outside}) = P(\text{inside} \mid \text{walls})$
 ```
 
-The equality is exact. The nihilist objects: "It is particles arranged box-wise." But arrangement is not neutral. This property, a screen between regions, did not exist before the box. The boundary is a new causal constraint on information flow. (Part 5 formalizes this as computational closure: when macro-variables predict the future as well as micro-variables, the micro-details become redundant.)
+When this equality holds, the "outside" variable becomes mathematically redundant. The nihilist objects: "It is particles arranged box-wise." But arrangement is not neutral. This property, a screen between regions, did not exist before the box. The boundary is a new causal constraint on information flow. (Part 5 formalizes this as computational closure: when macro-variables predict the future as well as micro-variables, the micro-details become redundant.)
 
 Think of the landscape of possible boundaries like a topographical map: certain "valleys" in configuration space guarantee boundary formation. Self-reinforcing feedback loops are one valley. Lipid bilayers are another. Evolution searches this landscape and finds boundaries because they work.
 
@@ -100,7 +102,11 @@ This shift from particle soup to proto-cell illustrates a specific mathematical 
 
 When does composition occur? It occurs when Markov conditions are satisfied to the degree that intervention on the boundary reliably controls the interior. Biological boundaries are leaky, but they achieve robust closure across relevant timescales and perturbations.
 
-Critics might argue this makes reality interest-relative, since closure depends on an error tolerance. But interest-relative is not subjective. Nature itself enforces which compressions work. We do not decide that the cell membrane works as a boundary; experiments converge on the same boundaries regardless of investigator or theoretical commitment. Projectibility (support for counterfactual predictions) is objective. Approximate closure does not undermine reality; it is precisely what allows robustness across noise, perturbation, and scale.
+Critics might argue this makes reality interest-relative, since closure depends on an error tolerance. Who decides how much "leakage" is acceptable?
+
+The answer is thermodynamics and survival. The tolerance is not arbitrary; it is the threshold of disintegration. If an organism sets its tolerance too loose (ignoring dangerous external variables), it dies. If it sets it too tight (trying to track every atom), it starves from the computational cost of prediction. The "correct" tolerance is an objective survival parameter discovered by evolution, not chosen by observers. The boundaries we observe are not the ones we like; they are the ones that successfully balanced predictive accuracy against metabolic cost over billions of years.
+
+Nature itself enforces which compressions work. We do not decide that the cell membrane works as a boundary; experiments converge on the same boundaries regardless of investigator or theoretical commitment. Projectibility (support for counterfactual predictions) is objective. Approximate closure does not undermine reality; it is precisely what allows robustness across noise, perturbation, and scale.
 
 This explains why doctors treat organs, not cells. Heart failure is not fixed by adjusting cardiomyocyte ion channels. Cardiologists alter organ-level dynamics. The heart's boundary creates causal autonomy.
 
@@ -175,6 +181,10 @@ A sophisticated objection must be addressed here. The nihilist might grant that 
 2. **Causal Independence**: The causal trajectory of the macro-entity is determined by macro-variables, with micro-fluctuations screened off.
 
 The nihilist error is to assume that (1) implies the negation of (2). However, in systems achieving computational closure, the specific micro-trajectory becomes chemically irrelevant to the macro-outcome, provided it remains within the manifold of states compatible with the macro-description. The implementation layer provides the *capacity* for the system to exist, but the macro-structural constraints determine the *direction* of its future states. Supervenience establishes a dependency relation, not an identity relation. The software bug supervenes on silicon states but is not reducible to them; the causal explanation operates at the software level.
+
+Consider the phenomenon of **Multiple Realizability**. You can run the exact same spreadsheet calculation on silicon transistors, on vacuum tubes, or with a room full of people using abacuses. If the spreadsheet crashes due to a logic error (division by zero), the crash is caused by the algorithmic structure, not by the voltage of the silicon, the filaments in the tubes, or the wood of the abacuses. Because the crash can occur on three totally different physical substrates, the *cause* cannot be physical; the cause must be at the algorithmic level.
+
+The physical layer provides the capacity for existence, but the structural layer dictates the outcome. The nihilist who insists on reducing everything to the substrate is like a hardware engineer trying to find a spelling error by inspecting the motherboard with a microscope. They are examining the reality of the implementation while missing the reality of the dynamic.
 
 This even resolves the "China Brain" puzzle (Block 1978). If a population of a billion people used walkie-talkies to simulate the firing of neurons, would a collective mind exist? Our framework suggests that if the macro-pattern achieves computational closure, enabling predictions and interventions that tracking the individual citizens cannot, then that "mind" is a valid causal entity. It is software running on a substrate of people, just as Excel runs on a substrate of transistors.
 
