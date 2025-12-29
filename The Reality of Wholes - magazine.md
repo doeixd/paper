@@ -259,4 +259,6 @@ The relevant question isn’t “Do wholes exist?” The question is “What ear
 
 The universe is not flat. It is gloriously, necessarily layered. And those layers are as real as bedrock.
 
+_Something is real to the degree that you can act on it at its boundary—treating it as one thing rather than manipulating its parts individually—and outcomes follow predictably from that. The less you need to know about what's happening inside for your predictions to work, the more real it is._
+
 _Note: The skeptical position discussed here draws from contemporary debates in analytic metaphysics, particularly Alex O’Connor’s articulation of mereological nihilism. The information-theoretic framework for testing causal closure is based on Rosas et al. (2024). The broader metaphysical picture is influenced by Ladyman and Ross’s scientific realism in “Every Thing Must Go” (2007)._

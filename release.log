@@ -2109,3 +2109,259 @@ RuntimeError: Failed to convert Computational-Closure-and-the-Architecture-of-Mi
 2025-12-18 11:00:09,819 - INFO - SUCCESS! Release complete in 2.5s
 2025-12-18 11:00:09,819 - INFO - Final PDF: releases\Computational-Closure-and-the-Architecture-of-Mind.pdf (279591 bytes)
 2025-12-18 11:00:09,819 - INFO - Release completed successfully: releases\Computational-Closure-and-the-Architecture-of-Mind.pdf
+2025-12-29 09:17:50,869 - INFO - Successfully imported paper_converter
+2025-12-29 09:17:50,871 - INFO - Successfully imported pdf_assembler
+2025-12-29 09:17:54,124 - INFO - Input validation passed: The Reality of Wholes.md (47432 bytes)
+2025-12-29 09:17:54,125 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 09:17:54,125 - INFO - Input: The Reality of Wholes.md
+2025-12-29 09:17:54,125 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-29 09:17:54,125 - INFO - Format: typst
+2025-12-29 09:17:54,125 - INFO - Config: 0 validation errors
+2025-12-29 09:17:54,125 - INFO - Converting markdown to target format...
+2025-12-29 09:17:54,125 - INFO - Extracting citations...
+2025-12-29 09:17:54,130 - INFO - Found 6 citations
+2025-12-29 09:17:54,130 - INFO - Loading and processing references...
+2025-12-29 09:17:54,133 - INFO - Loaded 1278 reference entries
+2025-12-29 09:17:54,135 - INFO - Generated 5 references (strategy: filter)
+2025-12-29 09:17:54,135 - INFO - Combining paper with filtered references...
+2025-12-29 09:17:54,154 - INFO - Combined file created: 48462 bytes
+2025-12-29 09:17:54,154 - INFO - Converting to typst format...
+2025-12-29 09:17:55,055 - INFO - Target file created: 50452 bytes
+2025-12-29 09:17:55,056 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-29 09:17:55,056 - INFO - Generating PDF with attachments...
+2025-12-29 09:17:55,056 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-29 09:17:55,070 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-29 09:17:58,279 - ERROR - PDF conversion failed for The Reality of Wholes_combined.typst: Command '['typst', 'compile', 'The Reality of Wholes_combined.typst', 'The Reality of Wholes_combined.pdf']' returned non-zero exit status 1.
+2025-12-29 09:17:58,279 - ERROR - Failed to process The Reality of Wholes_combined.typst: Failed to convert The Reality of Wholes_combined.typst to PDF: Command '['typst', 'compile', 'The Reality of Wholes_combined.typst', 'The Reality of Wholes_combined.pdf']' returned non-zero exit status 1.
+2025-12-29 09:17:58,280 - ERROR - Release failed after 4.2s: Failed to convert The Reality of Wholes_combined.typst to PDF: Command '['typst', 'compile', 'The Reality of Wholes_combined.typst', 'The Reality of Wholes_combined.pdf']' returned non-zero exit status 1.
+2025-12-29 09:17:58,280 - INFO - Starting cleanup...
+2025-12-29 09:17:58,280 - INFO - Cleanup complete: 2 intermediate, 0 temp files removed
+2025-12-29 09:17:58,280 - ERROR - Release failed with unexpected exception
+Traceback (most recent call last):
+  File "C:\Users\Patrick\paper\release.py", line 846, in _generate_pdf
+    result_pdf = self._run_with_timeout(
+        lambda: convert_to_pdf(file_path, pdf_file),
+        timeout
+    )
+  File "C:\Users\Patrick\paper\release.py", line 755, in _run_with_timeout
+    raise result
+  File "C:\Users\Patrick\paper\release.py", line 737, in wrapper
+    result = func()
+  File "C:\Users\Patrick\paper\release.py", line 847, in <lambda>
+    lambda: convert_to_pdf(file_path, pdf_file),
+            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Patrick\paper\pdf_assembler.py", line 72, in convert_to_pdf
+    result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+  File "C:\Users\Patrick\AppData\Local\Programs\Python\Python314\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['typst', 'compile', 'The Reality of Wholes_combined.typst', 'The Reality of Wholes_combined.pdf']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Patrick\paper\release.py", line 1259, in main
+    final_pdf = releaser.release(args.input_file, args.output, dry_run=args.dry_run)
+  File "C:\Users\Patrick\paper\release.py", line 386, in release
+    final_pdf = self._generate_pdf(target_file, output_path)
+  File "C:\Users\Patrick\paper\release.py", line 855, in _generate_pdf
+    raise RuntimeError(f"Failed to convert {file_path} to PDF: {e}")
+RuntimeError: Failed to convert The Reality of Wholes_combined.typst to PDF: Command '['typst', 'compile', 'The Reality of Wholes_combined.typst', 'The Reality of Wholes_combined.pdf']' returned non-zero exit status 1.
+2025-12-29 09:18:09,216 - INFO - Successfully imported paper_converter
+2025-12-29 09:18:09,217 - INFO - Successfully imported pdf_assembler
+2025-12-29 09:18:10,043 - INFO - Input validation passed: The Reality of Wholes.md (47432 bytes)
+2025-12-29 09:18:10,043 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 09:18:10,043 - INFO - Input: The Reality of Wholes.md
+2025-12-29 09:18:10,044 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-29 09:18:10,044 - INFO - Format: typst
+2025-12-29 09:18:10,044 - INFO - Config: 0 validation errors
+2025-12-29 09:18:10,044 - INFO - Converting markdown to target format...
+2025-12-29 09:18:10,044 - INFO - Extracting citations...
+2025-12-29 09:18:10,047 - INFO - Found 6 citations
+2025-12-29 09:18:10,048 - INFO - Loading and processing references...
+2025-12-29 09:18:10,049 - INFO - Loaded 1278 reference entries
+2025-12-29 09:18:10,050 - INFO - Generated 5 references (strategy: filter)
+2025-12-29 09:18:10,051 - INFO - Combining paper with filtered references...
+2025-12-29 09:18:10,067 - INFO - Combined file created: 48462 bytes
+2025-12-29 09:18:10,067 - INFO - Converting to typst format...
+2025-12-29 09:18:10,294 - INFO - Target file created: 50452 bytes
+2025-12-29 09:18:10,294 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-29 09:18:10,294 - INFO - Generating PDF with attachments...
+2025-12-29 09:18:10,294 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-29 09:18:10,308 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-29 09:18:10,466 - ERROR - PDF conversion failed for The Reality of Wholes_combined.typst: Command '['typst', 'compile', 'The Reality of Wholes_combined.typst', 'The Reality of Wholes_combined.pdf']' returned non-zero exit status 1.
+2025-12-29 09:18:10,466 - ERROR - Failed to process The Reality of Wholes_combined.typst: Failed to convert The Reality of Wholes_combined.typst to PDF: Command '['typst', 'compile', 'The Reality of Wholes_combined.typst', 'The Reality of Wholes_combined.pdf']' returned non-zero exit status 1.
+2025-12-29 09:18:10,466 - ERROR - Release failed after 0.4s: Failed to convert The Reality of Wholes_combined.typst to PDF: Command '['typst', 'compile', 'The Reality of Wholes_combined.typst', 'The Reality of Wholes_combined.pdf']' returned non-zero exit status 1.
+2025-12-29 09:18:10,466 - INFO - Starting cleanup...
+2025-12-29 09:18:10,467 - INFO - Cleanup complete: 2 intermediate, 0 temp files removed
+2025-12-29 09:18:10,467 - ERROR - Release failed with unexpected exception
+Traceback (most recent call last):
+  File "C:\Users\Patrick\paper\release.py", line 846, in _generate_pdf
+    result_pdf = self._run_with_timeout(
+        lambda: convert_to_pdf(file_path, pdf_file),
+        timeout
+    )
+  File "C:\Users\Patrick\paper\release.py", line 755, in _run_with_timeout
+    raise result
+  File "C:\Users\Patrick\paper\release.py", line 737, in wrapper
+    result = func()
+  File "C:\Users\Patrick\paper\release.py", line 847, in <lambda>
+    lambda: convert_to_pdf(file_path, pdf_file),
+            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Patrick\paper\pdf_assembler.py", line 72, in convert_to_pdf
+    result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+  File "C:\Users\Patrick\AppData\Local\Programs\Python\Python314\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['typst', 'compile', 'The Reality of Wholes_combined.typst', 'The Reality of Wholes_combined.pdf']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Patrick\paper\release.py", line 1259, in main
+    final_pdf = releaser.release(args.input_file, args.output, dry_run=args.dry_run)
+  File "C:\Users\Patrick\paper\release.py", line 386, in release
+    final_pdf = self._generate_pdf(target_file, output_path)
+  File "C:\Users\Patrick\paper\release.py", line 855, in _generate_pdf
+    raise RuntimeError(f"Failed to convert {file_path} to PDF: {e}")
+RuntimeError: Failed to convert The Reality of Wholes_combined.typst to PDF: Command '['typst', 'compile', 'The Reality of Wholes_combined.typst', 'The Reality of Wholes_combined.pdf']' returned non-zero exit status 1.
+2025-12-29 09:24:11,960 - INFO - Successfully imported paper_converter
+2025-12-29 09:24:11,962 - INFO - Successfully imported pdf_assembler
+2025-12-29 09:24:13,006 - INFO - Input validation passed: The Reality of Wholes.md (49142 bytes)
+2025-12-29 09:24:13,010 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251229_092413.pdf
+2025-12-29 09:24:13,010 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 09:24:13,010 - INFO - Input: The Reality of Wholes.md
+2025-12-29 09:24:13,010 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-29 09:24:13,011 - INFO - Format: typst
+2025-12-29 09:24:13,011 - INFO - Config: 0 validation errors
+2025-12-29 09:24:13,011 - INFO - Converting markdown to target format...
+2025-12-29 09:24:13,011 - INFO - Extracting citations...
+2025-12-29 09:24:13,016 - INFO - Found 6 citations
+2025-12-29 09:24:13,016 - INFO - Loading and processing references...
+2025-12-29 09:24:13,019 - INFO - Loaded 1278 reference entries
+2025-12-29 09:24:13,020 - INFO - Generated 5 references (strategy: filter)
+2025-12-29 09:24:13,020 - INFO - Combining paper with filtered references...
+2025-12-29 09:24:13,040 - INFO - Combined file created: 50172 bytes
+2025-12-29 09:24:13,040 - INFO - Converting to typst format...
+2025-12-29 09:24:13,266 - INFO - Target file created: 52194 bytes
+2025-12-29 09:24:13,266 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-29 09:24:13,266 - INFO - Generating PDF with attachments...
+2025-12-29 09:24:13,266 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-29 09:24:13,281 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-29 09:24:13,517 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-29 09:24:13,518 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-29 09:24:13,519 - INFO - PDF generation successful: 104783 bytes
+2025-12-29 09:24:13,519 - INFO - Adding metadata to PDF...
+2025-12-29 09:24:13,519 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-29 09:24:13,519 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-29 09:24:13,519 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (104783 bytes)
+2025-12-29 09:24:13,519 - INFO - Starting cleanup...
+2025-12-29 09:24:13,520 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-29 09:24:13,520 - INFO - SUCCESS! Release complete in 0.5s
+2025-12-29 09:24:13,521 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (104783 bytes)
+2025-12-29 09:24:13,521 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-29 09:34:14,333 - INFO - Successfully imported paper_converter
+2025-12-29 09:34:14,335 - INFO - Successfully imported pdf_assembler
+2025-12-29 09:34:16,787 - INFO - Input validation passed: The Reality of Wholes.md (49153 bytes)
+2025-12-29 09:34:16,790 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251229_093416.pdf
+2025-12-29 09:34:16,790 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 09:34:16,791 - INFO - Input: The Reality of Wholes.md
+2025-12-29 09:34:16,791 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-29 09:34:16,791 - INFO - Format: typst
+2025-12-29 09:34:16,791 - INFO - Config: 0 validation errors
+2025-12-29 09:34:16,791 - INFO - Converting markdown to target format...
+2025-12-29 09:34:16,791 - INFO - Extracting citations...
+2025-12-29 09:34:16,796 - INFO - Found 6 citations
+2025-12-29 09:34:16,796 - INFO - Loading and processing references...
+2025-12-29 09:34:16,798 - INFO - Loaded 1278 reference entries
+2025-12-29 09:34:16,799 - INFO - Generated 5 references (strategy: filter)
+2025-12-29 09:34:16,799 - INFO - Combining paper with filtered references...
+2025-12-29 09:34:16,816 - INFO - Combined file created: 50183 bytes
+2025-12-29 09:34:16,816 - INFO - Converting to typst format...
+2025-12-29 09:34:17,164 - INFO - Target file created: 52215 bytes
+2025-12-29 09:34:17,164 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-29 09:34:17,165 - INFO - Generating PDF with attachments...
+2025-12-29 09:34:17,165 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-29 09:34:17,178 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-29 09:34:21,034 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-29 09:34:21,035 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-29 09:34:21,036 - INFO - PDF generation successful: 104788 bytes
+2025-12-29 09:34:21,036 - INFO - Adding metadata to PDF...
+2025-12-29 09:34:21,036 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-29 09:34:21,036 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-29 09:34:21,036 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (104788 bytes)
+2025-12-29 09:34:21,036 - INFO - Starting cleanup...
+2025-12-29 09:34:21,037 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-29 09:34:21,037 - INFO - SUCCESS! Release complete in 4.3s
+2025-12-29 09:34:21,038 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (104788 bytes)
+2025-12-29 09:34:21,038 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-29 09:41:38,206 - INFO - Successfully imported paper_converter
+2025-12-29 09:41:38,207 - INFO - Successfully imported pdf_assembler
+2025-12-29 09:41:39,087 - INFO - Input validation passed: The Reality of Wholes.md (49151 bytes)
+2025-12-29 09:41:39,089 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251229_094139.pdf
+2025-12-29 09:41:39,089 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 09:41:39,089 - INFO - Input: The Reality of Wholes.md
+2025-12-29 09:41:39,089 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-29 09:41:39,089 - INFO - Format: typst
+2025-12-29 09:41:39,089 - INFO - Config: 0 validation errors
+2025-12-29 09:41:39,089 - INFO - Converting markdown to target format...
+2025-12-29 09:41:39,090 - INFO - Extracting citations...
+2025-12-29 09:41:39,094 - INFO - Found 6 citations
+2025-12-29 09:41:39,094 - INFO - Loading and processing references...
+2025-12-29 09:41:39,096 - INFO - Loaded 1278 reference entries
+2025-12-29 09:41:39,096 - INFO - Generated 5 references (strategy: filter)
+2025-12-29 09:41:39,097 - INFO - Combining paper with filtered references...
+2025-12-29 09:41:39,116 - INFO - Combined file created: 50181 bytes
+2025-12-29 09:41:39,116 - INFO - Converting to typst format...
+2025-12-29 09:41:39,357 - INFO - Target file created: 52213 bytes
+2025-12-29 09:41:39,357 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-29 09:41:39,357 - INFO - Generating PDF with attachments...
+2025-12-29 09:41:39,357 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-29 09:41:39,374 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-29 09:41:39,577 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-29 09:41:39,578 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-29 09:41:39,578 - INFO - PDF generation successful: 104730 bytes
+2025-12-29 09:41:39,578 - INFO - Adding metadata to PDF...
+2025-12-29 09:41:39,578 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-29 09:41:39,578 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-29 09:41:39,578 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (104730 bytes)
+2025-12-29 09:41:39,578 - INFO - Starting cleanup...
+2025-12-29 09:41:39,579 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-29 09:41:39,579 - INFO - SUCCESS! Release complete in 0.5s
+2025-12-29 09:41:39,580 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (104730 bytes)
+2025-12-29 09:41:39,580 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-29 09:46:29,931 - INFO - Successfully imported paper_converter
+2025-12-29 09:46:29,932 - INFO - Successfully imported pdf_assembler
+2025-12-29 09:46:30,768 - INFO - Input validation passed: final.md (186359 bytes)
+2025-12-29 09:46:30,773 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20251229_094630.pdf
+2025-12-29 09:46:30,773 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 09:46:30,773 - INFO - Input: final.md
+2025-12-29 09:46:30,774 - INFO - Output: releases\final.pdf
+2025-12-29 09:46:30,774 - INFO - Format: typst
+2025-12-29 09:46:30,774 - INFO - Config: 0 validation errors
+2025-12-29 09:46:30,774 - INFO - Converting markdown to target format...
+2025-12-29 09:46:30,774 - INFO - Extracting citations...
+2025-12-29 09:46:30,790 - INFO - Found 82 citations
+2025-12-29 09:46:30,790 - INFO - Loading and processing references...
+2025-12-29 09:46:30,792 - INFO - Loaded 1278 reference entries
+2025-12-29 09:46:30,794 - INFO - Generated 63 references (strategy: filter)
+2025-12-29 09:46:30,794 - INFO - Combining paper with filtered references...
+2025-12-29 09:46:30,821 - INFO - Combined file created: 185186 bytes
+2025-12-29 09:46:30,821 - INFO - Converting to typst format...
+2025-12-29 09:46:31,290 - INFO - Target file created: 193149 bytes
+2025-12-29 09:46:31,290 - INFO - Successfully converted to typst: final_combined.typst
+2025-12-29 09:46:31,290 - INFO - Generating PDF with attachments...
+2025-12-29 09:46:31,290 - INFO - Main document: final_combined.typst
+2025-12-29 09:46:31,306 - INFO - Converting final_combined.typst (typst) to PDF...
+2025-12-29 09:46:31,633 - INFO - Converted to PDF: final_combined.pdf
+2025-12-29 09:46:31,634 - INFO - Copied single PDF to: releases\final.pdf
+2025-12-29 09:46:31,634 - INFO - PDF generation successful: 282331 bytes
+2025-12-29 09:46:31,634 - INFO - Adding metadata to PDF...
+2025-12-29 09:46:31,634 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-29 09:46:31,634 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-29 09:46:31,635 - INFO - Validated final PDF: releases\final.pdf (282331 bytes)
+2025-12-29 09:46:31,635 - INFO - Starting cleanup...
+2025-12-29 09:46:31,636 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-29 09:46:31,636 - INFO - SUCCESS! Release complete in 0.9s
+2025-12-29 09:46:31,636 - INFO - Final PDF: releases\final.pdf (282331 bytes)
+2025-12-29 09:46:31,636 - INFO - Release completed successfully: releases\final.pdf

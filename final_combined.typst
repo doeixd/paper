@@ -823,6 +823,53 @@ This framework reveals cost-shifting: systems may excel in one tier
 deferred costs accumulate vulnerability. Diagnosis identifies
 unsustainable patterns across tiers, not a single score.
 
+==== 3.2.2 Model Complexity as Compression Failure
+<model-complexity-as-compression-failure>
+Before examining how to measure these costs objectively, we should
+clarify why Model Complexity $M \( t \)$ functions as a brittleness
+indicator at the conceptual level, not merely as an operational metric.
+The deeper insight is that viable theories function as compression: they
+reduce vast empirical data into compact, generative principles that
+enable prediction beyond the original observations.
+
+Consider Newton's laws of motion: three concise equations that compress
+countless observations of falling apples, planetary orbits, and
+projectile trajectories into a unified framework. This compression is
+not merely elegant; it is epistemically powerful because only a
+genuinely compressed theory can extrapolate reliably to novel cases. A
+theory that has captured the underlying causal structure can generate
+predictions for situations never before encountered. This is the
+hallmark of deep compression.
+
+Contrast this with a system approaching what we might call the
+incompressibility trap. Late Ptolemaic astronomy required hundreds of
+epicycles, deferents, and equants, each calibrated to specific
+observational data. As the system's complexity grew to match the
+complexity of the phenomena it described, it ceased to function as a
+theory and became instead a sophisticated lookup table: a catalog of
+past observations with minimal generative power. When a theory requires
+as many parameters as it has data points, it has lost the capacity for
+genuine prediction. It can reproduce what it has seen but cannot
+reliably anticipate what it has not.
+
+This is why rising $M \( t \)$ signals brittleness. It indicates that a
+system is losing its compression ratio, requiring more and more internal
+complexity to maintain performance. This is not a subjective aesthetic
+preference for simplicity. It reflects a fundamental epistemic
+constraint: theories that approach the complexity of their subject
+matter lose the capacity to guide action in novel circumstances. They
+become brittle because they cannot compress reality's patterns, only
+mirror them.
+
+This conceptual grounding also clarifies the philosophical status of
+Occam's Razor. Parsimony is not an arbitrary methodological preference
+but a necessary condition for viable knowledge systems. A theory
+cluttered with parameters and special cases is not merely inelegant; it
+is structurally incapable of the predictive compression that allows
+knowledge systems to extend beyond their training data. The principle of
+parsimony, understood through this lens, is a constraint imposed by the
+very nature of viable inquiry.
+
 === 3.3 The Triangulation Method
 <the-triangulation-method>
 No single indicator is immune to interpretive bias. Therefore, robust
@@ -1807,6 +1854,95 @@ viability therefore requires a balance between low-cost stability and
 adaptive capacity. This evolutionary perspective completes our reef
 chart, not as a finished map, but as an ongoing process of hazard
 detection and channel discovery.
+
+=== 4.7 The Dynamics of Paradigm Transition
+<the-dynamics-of-paradigm-transition>
+The preceding analysis raises a critical question: if the Apex Network
+represents a more viable configuration, why do high-brittleness systems
+often persist for centuries before collapsing? Why do we observe
+punctuated equilibrium in the history of knowledge systems rather than
+smooth, continuous adaptation toward lower-brittleness states?
+
+The answer lies in recognizing that knowledge systems are not merely
+abstract webs of propositions but material and institutional
+investments. A high-brittleness system generates ongoing costs, as
+documented through our brittleness metrics. However, abandoning that
+system requires a massive upfront expenditure: textbooks must be
+rewritten, practitioners retrained, institutional hierarchies
+reorganized, and established techniques replaced. This creates two
+distinct cost streams that determine system stability.
+
+The first is the cost of maintenance: the daily, accumulating
+expenditure required to keep a brittle system functioning. This includes
+the resources devoted to patching anomalies (rising $P \( t \)$), the
+coercive overhead needed to suppress dissent (rising $C \( t \)$), and
+the escalating complexity required to maintain performance (rising
+$M \( t \)$). These costs compound over time as each patch generates new
+anomalies requiring further patches.
+
+The second is the cost of transition: the catastrophic, one-time
+expenditure required to abandon the existing system and reorganize
+around a rival configuration. This is not merely intellectual but
+material and social. Consider the transition from Ptolemaic to
+Copernican astronomy: it required not just accepting new equations but
+reorganizing the entire infrastructure of astronomical practice, from
+observatory equipment to pedagogical curricula to theological
+frameworks. The perceived magnitude of this reorganization cost creates
+resistance to paradigm shifts even when the existing system is
+demonstrably brittle.
+
+A system remains stable, despite accumulating brittleness, so long as
+the perceived transition cost exceeds the burden of ongoing maintenance.
+This explains the persistence of fitness traps discussed in Section 4.6:
+agents within the system can recognize rising brittleness yet rationally
+judge that the catastrophic cost of reorganization outweighs the
+incremental pain of continued patching. The system enters a phase where
+brittleness compounds but institutional structures remain locked in
+place.
+
+However, this stability is not permanent. As maintenance costs
+accumulate, they eventually approach and then exceed the one-time cost
+of transition. This is the tipping point: the moment when the daily
+energetic expenditure required to suppress reality's pushback becomes
+more burdensome than the catastrophic reorganization. At this point, the
+system becomes vulnerable to paradigm shift.
+
+This dynamic generates the punctuated equilibrium pattern observed
+throughout the history of science and institutions. We see long periods
+of stability during which a system accumulates brittleness through
+patches and coercive enforcement, followed by relatively sudden ruptures
+where the system undergoes rapid reorganization. The transition is
+rarely smooth because the coordination problem is severe: abandoning an
+established system requires collective action, and agents must
+coordinate their shift despite the immediate costs each will bear.
+
+The role of external shocks in this process is clarificatory rather than
+causal. A crisis such as war, plague, or environmental collapse does not
+create the brittleness; it reveals it by suddenly spiking the
+maintenance costs. A system already near its tipping point, managing
+high brittleness through costly suppression, can be pushed past the
+threshold by a shock that makes the daily cost of maintenance suddenly
+untenable. This is why brittle systems are vulnerable to contingent
+events that more resilient systems absorb without regime change.
+
+This framework also clarifies the role of what historians might term
+"early adopters" or "intellectual pioneers." These are agents who
+perceive that the accumulated burden of maintenance has already exceeded
+the cost of transition before this becomes consensus. By bearing the
+immediate social and material costs of heresy, they function as
+nucleation points for the new paradigm, demonstrating its viability and
+thereby reducing the perceived transition cost for others. Their actions
+are not irrational but reflect a different assessment of when the
+crossing point has been reached.
+
+This account complements the fitness trap analysis in Section 4.6 by
+explaining not just why systems become locked but what unlocks them. The
+interplay between accumulating maintenance costs and the threshold of
+transition costs provides a naturalistic explanation for the temporal
+dynamics of paradigm shifts, grounded in the same brittleness metrics
+that diagnose system health. It is not a deterministic prediction of
+when shifts will occur but a framework for understanding why they occur
+when they do.
 
 == 5. Applications: Mathematics as a Paradigm Case of Internal Brittleness
 <applications-mathematics-as-a-paradigm-case-of-internal-brittleness>
