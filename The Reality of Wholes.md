@@ -4,14 +4,14 @@
 
 The hurricane's boundary is not a label; it is a statistical screen that makes the interior conditionally independent of the exterior. And boundaries like this are not optional features of reality; they are mathematical consequences of any dynamical system satisfying locality, finite information capacity, and energetic cost of computation.
 
-The boundary is not optional. It emerges from the constraints governing any physical system. Let us make this precise. If we accept four premises, premises that even most mereological nihilists grant, a fifth conclusion follows with mathematical necessity.
+The boundary is not optional. It emerges from the constraints governing any physical system. Let us make this precise. If we accept four premises that even most mereological nihilists grant, a fifth conclusion follows with mathematical necessity:
 
 1.  **Causality**: Events have causes and effects
 2.  **Locality**: Causes operate through local interactions
 3.  **Information**: Systems carry information about other systems
 4.  **Thermodynamics**: Processing information costs energy; complete tracking of all micro-information is physically expensive
 
-From these four premises, accepted even by most mereological nihilists, we can *demonstrate* that certain arrangements of matter necessarily create statistical boundaries. By "demonstrate," we refer not to a logical theorem, but to an inevitability inherent in the physical constraints of the universe. These boundaries are neither optional nor projected; they are mathematical consequences. Once they emerge, they perform causal work that particles lacking a boundary-level description cannot.
+We can *demonstrate* that certain arrangements of matter necessarily create statistical boundaries. By "demonstrate," we refer not to a logical theorem, but to an inevitability inherent in the physical constraints of the universe. These boundaries are neither optional nor projected; they are mathematical consequences. Once they emerge, they perform causal work that particles lacking a boundary-level description cannot.
 
 This property requires a definition:
 
@@ -21,7 +21,9 @@ This creates a dilemma for the nihilist: either accept that "facts about arrange
 
 Before proceeding, we must clarify what we mean by "causal work." This matters because the nihilist might grant that boundaries are useful while denying they are real.
 
-Here we adopt the interventionist theory of causation (Woodward 2003; Pearl 2009): $X$ causes $Y$ if intervening on $X$ changes $Y$, holding other factors fixed. On this view, causation is not about "little things banging into other things" but about which variables make a difference under intervention. When macro-variables support successful intervention (steering a hurricane by seeding clouds, curing a disease by targeting a pathway, crashing a market by changing interest rates), those variables are doing causal work in the only sense that matters scientifically. Predictive equivalence matters because it reveals which level of description captures the intervention-relevant structure. If macro-variables predict as well as micro-variables, then the macro-level *is* the causal level for that phenomenon; adding micro-detail changes nothing about what interventions will succeed.
+Here we adopt the interventionist theory of causation (Woodward 2003; Pearl 2009): $X$ causes $Y$ if intervening on $X$ changes $Y$, holding other factors fixed. On this view, causation is not about "little things banging into other things" but about which variables make a difference under intervention. When macro-variables support successful intervention (steering a hurricane by seeding clouds, curing a disease by targeting a pathway, crashing a market by changing interest rates), those variables are doing causal work in the only sense that matters scientifically.
+
+Predictive equivalence matters because it reveals which level of description captures the intervention-relevant structure. If macro-variables predict as well as micro-variables, then the macro-level *is* the causal level for that phenomenon. Adding micro-detail changes nothing about what interventions will succeed.
 
 The Ptolemaic objection (that epicycles predicted planetary motion without being real) actually supports our case. Epicycles failed precisely because they did not support intervention: you could not steer a planet by manipulating its epicycle. The macro-objects we defend (cells, hurricanes, economies) pass the interventionist test that epicycles fail.
 
@@ -245,7 +247,7 @@ A potential objection must be addressed: is compression observer-relative? Perha
 
 The compressibility of a pattern is independent of the particular symbolic system used to encode it. A hurricane achieves massive compression whether described in English prose, differential equations, binary machine code, or a hypothetical alien notation. What matters is not the absolute length of any particular encoding, but the ratio: how much shorter is the pattern description compared to the full enumeration of component states? This compression ratio remains invariant across representational frameworks, provided those frameworks are computationally universal (capable of expressing the same range of computable functions).
 
-The invariance is structural, not accidental. The hurricane's rotating vortex is a stable attractor state in the dynamical system governing atmospheric physics. The constraint that creates this stability (conservation of angular momentum coupled with thermodynamic gradients) exists in the physical system itself, not in our linguistic or mathematical conventions. Any sufficiently capable intelligence attempting to predict atmospheric behavior must eventually recognize and encode this pattern, because failing to do so means expending vastly more computational resources tracking irrelevant microscopic trajectories that average out at the macro-scale. The pattern is forced upon any predictor by the thermodynamic structure of the domain.
+The invariance is structural, not accidental. The hurricane's rotating vortex is a stable attractor state in the dynamical system governing atmospheric physics. The constraint that creates this stability (conservation of angular momentum coupled with thermodynamic gradients) exists in the physical system itself, not in our linguistic or mathematical conventions. Any sufficiently capable intelligence attempting to predict atmospheric behavior must eventually recognize and encode this pattern. Failing to do so means expending vastly more computational resources tracking irrelevant microscopic trajectories that average out at the macro-scale. The pattern is forced upon any predictor by the thermodynamic structure of the domain.
 
 This connects directly to the $\pi$ analogy. Just as any intelligence working with Euclidean circles must discover $\pi$ (because it is forced by geometric constraints), any intelligence modeling hurricane dynamics must discover the vortex compression (because it is forced by thermodynamic constraints). The boundaries we identify are objective in precisely this sense: they are constraint-determined invariants that emerge necessarily from the physics, independent of the observer's representational choices.
 
@@ -257,7 +259,7 @@ These considerations have implications for long-standing debates in physics.
 
 Physicists often mock Superdeterminism as requiring "cosmic conspiracy," implying atoms must magically coordinate to trick us. But the computational perspective we have developed clarifies what is at stake.
 
-If the universe is a deterministic system that is compressible into stable macro-states without loss of predictive power, then high-level agents like us naturally emerge as computationally closed entities. This compressibility is not an *a priori* assumption but an empirical discovery: the special sciences work. Chemistry reduces to physics; biology to chemistry; the reductions succeed. This success is evidence that the universe has the hierarchical structure we describe.
+If the universe is a deterministic system that is compressible into stable macro-states without loss of predictive power, then high-level agents like us naturally emerge as computationally closed entities. This compressibility is not an *a priori* assumption but an empirical discovery. The evidence is straightforward: the special sciences work. Chemistry reduces to physics. Biology reduces to chemistry. The reductions succeed. This success is evidence that the universe has the hierarchical structure we describe.
 
 Does this vindicate superdeterminism? Not entirely. Here is what it does and does not establish:
 
