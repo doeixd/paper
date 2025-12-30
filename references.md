@@ -46,6 +46,10 @@ Bradie, Michael. 1986. "Assessing Evolutionary Epistemology." *Biology & Philoso
 
 Brandom, Robert B. 1994. *Making It Explicit: Reasoning, Representing, and Discursive Commitment*. Cambridge, MA: Harvard University Press. ISBN 978-0674543195.
 
+Brenner, Andrew. 2015. "Mereological Nihilism and the Special Arrangement Question." *Synthese* 192(5): 1295–1314. https://doi.org/10.1007/s11229-014-0619-7.
+
+Brenner, Andrew. 2018. "Science and the Special Composition Question." *Synthese* 195(2): 657–678. https://doi.org/10.1007/s11229-016-1234-6.
+
 Bruineberg, Jelle, Krzysztof Dołęga, Joe Dewhurst, and Manuel Baltieri. 2022. "The Emperor's New Markov Blankets." *Behavioral and Brain Sciences* 45: e183. https://doi.org/10.1017/S0140525X21002351.
 
 Buchanan, Allen, and Russell Powell. 2018. *The Evolution of Moral Progress: A Biocultural Theory*. New York: Oxford University Press. ISBN 978-0190868413.
@@ -140,6 +144,8 @@ Hills, Alison. 2020. "Moral Testimony: Transmission Versus Propagation." *Philos
 
 Hipólito, Inês, Maxwell J. D. Ramstead, Laura Convertino, Anjali Bhat, Karl Friston, and Thomas Parr. 2021. "Markov blankets in the brain." *Neuroscience & Biobehavioral Reviews* 125: 88–97. https://doi.org/10.1016/j.neubiorev.2021.02.003.
 
+Hoel, Erik P., Larissa Albantakis, and Giulio Tononi. 2013. "Quantifying Causal Emergence Shows that Macro Can Beat Micro." *Proceedings of the National Academy of Sciences* 110(49): 19790–19795. https://doi.org/10.1073/pnas.1314922110.
+
 Hodge, A. Trevor. 1992. *Roman Aqueducts & Water Supply*. London: Duckworth. ISBN 978-0715631713.
 
 Holling, C. S. 1973. "Resilience and Stability of Ecological Systems." *Annual Review of Ecology and Systematics* 4: 1–23. https://doi.org/10.1146/annurev.es.04.110173.000245.
@@ -155,6 +161,8 @@ Joyce, Richard. 2001. *The Myth of Morality*. Cambridge: Cambridge University Pr
 Kelly, Thomas. 2005. "The Epistemic Significance of Disagreement." In *Oxford Studies in Epistemology*, vol. 1, edited by Tamar Szabó Gendler and John Hawthorne, 167–96. Oxford: Oxford University Press.
 
 Kim, Jaegwon. 1988. "What Is 'Naturalized Epistemology'?" *Philosophical Perspectives* 2: 381–405. https://doi.org/10.2307/2214082.
+
+Kim, Jaegwon. 1998. *Mind in a Physical World: An Essay on the Mind-Body Problem and Mental Causation*. Cambridge, MA: MIT Press. ISBN 978-0262112345.
 
 Kitcher, Philip. 1993. *The Advancement of Science: Science without Legend, Objectivity without Illusions*. New York: Oxford University Press. ISBN 978-0195046281.
 
@@ -174,7 +182,9 @@ Kahneman, Daniel. 2011. *Thinking, Fast and Slow*. New York: Farrar, Straus and 
 
 Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
 
-Landauer, Rolf. 1961. "Irreversibility and Heat Generation in the Computing Process." *IBM Journal of Research and Development* 5(3): 183–191. https://doi.org/10.1147/rd.1961.5.3.183. ISBN 978-0199276196.
+Landauer, Rolf. 1961. "Irreversibility and Heat Generation in the Computing Process." *IBM Journal of Research and Development* 5(3): 183–191. https://doi.org/10.1147/rd.53.0183.
+
+Landauer, Rolf. 1981. "Fundamental Physical Limitations of the Computational Process." In *Sixth International Conference on Noise in Physical Systems*, edited by P. H. E. Meijer, R. D. Mountain, and F. J. Soulen Jr., Publication No. 614: 12–17. Washington, DC: National Bureau of Standards.
 
 Lakatos, Imre. 1970. "Falsification and the Methodology of Scientific Research Programmes." In *Criticism and the Growth of Knowledge*, edited by Imre Lakatos and Alan Musgrave, 91–196. Cambridge: Cambridge University Press.
 
@@ -210,6 +220,8 @@ Marcus, Gary F. 2001. *The Algebraic Mind: Integrating Connectionism and Cogniti
 Meadows, Donella H. 2008. *Thinking in Systems: A Primer*. Edited by Diana Wright. White River Junction, VT: Chelsea Green Publishing. ISBN 978-1603580557.
 
 Mesoudi, Alex. 2011. *Cultural Evolution: How Darwinian Theory Can Explain Human Culture and Synthesize the Social Sciences*. Chicago: University of Chicago Press. ISBN 978-0226520445.
+
+Merricks, Trenton. 2003. *Objects and Persons*. Oxford: Clarendon Press. ISBN 978-0199245369.
 
 Mitchell, Sandra D. 2009. *Unsimple Truths: Science, Complexity, and Policy*. Chicago: University of Chicago Press. ISBN 978-0226532622.
 
@@ -283,7 +295,7 @@ Rescher, Nicholas. 2001. *Cognitive Pragmatism: The Theory of Knowledge in Pragm
 
 Roda, Weston C., Marie B. Varughese, Donglin Han, and Michael Y. Li. 2020. "Why Is It Difficult to Accurately Predict the COVID-19 Epidemic?" *Infectious Disease Modelling* 5: 271–281. https://doi.org/10.1016/j.idm.2020.03.001.
 
-Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104. https://doi.org/10.1038/s41567-024-02477-4.
+Rosas, Fernando E., Bernhard C. Geiger, Andrea I. Luppi, Anil K. Seth, Daniel Polani, Michael Gastpar, and Pedro A. M. Mediano. 2024. "Software in the Natural World: A Computational Approach to Emergence in Complex Multi-Level Systems." arXiv preprint arXiv:2402.09090.
 
 Rorty, Richard. 1979. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press. ISBN 978-0691020167.
 
@@ -304,6 +316,8 @@ Schwartz, Joshua. 2016. "Quine and the Problem of Truth." *Journal for the Histo
 Scott, James C. 1998. *Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed*. New Haven, CT: Yale University Press. ISBN 978-0300070163.
 
 Sevilla, Jaime, Lennart Heim, Anson Ho, Tamay Besiroglu, Marius Hobbhahn, and Pablo Villalobos. 2022. "Compute Trends Across Three Eras of Machine Learning." arXiv preprint arXiv:2202.05924.
+
+Shalizi, Cosma Rohilla, and James P. Crutchfield. 2001. "Computational Mechanics: Pattern and Prediction, Structure and Simplicity." *Journal of Statistical Physics* 104(3-4): 817–879. https://doi.org/10.1023/A:1010388907793.
 
 Shannon, Claude E. 1948. "A Mathematical Theory of Communication." *Bell System Technical Journal* 27(3): 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x.
 

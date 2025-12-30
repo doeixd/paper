@@ -8,7 +8,9 @@
       "Bash(mgrep:*)",
       "Bash(powershell -Command:*)",
       "Bash(python release.py:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "WebFetch(domain:sites.google.com)",
+      "WebFetch(domain:nyaspubs.onlinelibrary.wiley.com)"
     ],
     "deny": [],
     "ask": []

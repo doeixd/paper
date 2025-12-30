@@ -2365,3 +2365,1018 @@ RuntimeError: Failed to convert The Reality of Wholes_combined.typst to PDF: Com
 2025-12-29 09:46:31,636 - INFO - SUCCESS! Release complete in 0.9s
 2025-12-29 09:46:31,636 - INFO - Final PDF: releases\final.pdf (282331 bytes)
 2025-12-29 09:46:31,636 - INFO - Release completed successfully: releases\final.pdf
+2025-12-29 14:37:41,261 - INFO - Successfully imported paper_converter
+2025-12-29 14:37:41,263 - INFO - Successfully imported pdf_assembler
+2025-12-29 14:37:43,909 - INFO - Input validation passed: The Reality of Wholes.md (52895 bytes)
+2025-12-29 14:37:43,913 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251229_143743.pdf
+2025-12-29 14:37:43,914 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 14:37:43,914 - INFO - Input: The Reality of Wholes.md
+2025-12-29 14:37:43,914 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-29 14:37:43,914 - INFO - Format: typst
+2025-12-29 14:37:43,914 - INFO - Config: 0 validation errors
+2025-12-29 14:37:43,914 - INFO - Converting markdown to target format...
+2025-12-29 14:37:43,914 - INFO - Extracting citations...
+2025-12-29 14:37:43,920 - INFO - Found 6 citations
+2025-12-29 14:37:43,920 - INFO - Loading and processing references...
+2025-12-29 14:37:43,924 - INFO - Loaded 1278 reference entries
+2025-12-29 14:37:43,926 - INFO - Generated 5 references (strategy: filter)
+2025-12-29 14:37:43,926 - INFO - Combining paper with filtered references...
+2025-12-29 14:37:43,947 - INFO - Combined file created: 53971 bytes
+2025-12-29 14:37:43,947 - INFO - Converting to typst format...
+2025-12-29 14:37:45,262 - INFO - Target file created: 56152 bytes
+2025-12-29 14:37:45,262 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-29 14:37:45,262 - INFO - Generating PDF with attachments...
+2025-12-29 14:37:45,263 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-29 14:37:45,435 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-29 14:37:46,339 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-29 14:37:46,343 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-29 14:37:46,347 - INFO - PDF generation successful: 109868 bytes
+2025-12-29 14:37:46,347 - INFO - Adding metadata to PDF...
+2025-12-29 14:37:46,347 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-29 14:37:46,347 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-29 14:37:46,348 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (109868 bytes)
+2025-12-29 14:37:46,348 - INFO - Starting cleanup...
+2025-12-29 14:37:46,349 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-29 14:37:46,350 - INFO - SUCCESS! Release complete in 2.5s
+2025-12-29 14:37:46,350 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (109868 bytes)
+2025-12-29 14:37:46,351 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-29 14:58:40,773 - INFO - Successfully imported paper_converter
+2025-12-29 14:58:40,774 - INFO - Successfully imported pdf_assembler
+2025-12-29 14:58:42,191 - INFO - Input validation passed: The Reality of Wholes.md (55160 bytes)
+2025-12-29 14:58:42,193 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251229_145842.pdf
+2025-12-29 14:58:42,193 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 14:58:42,193 - INFO - Input: The Reality of Wholes.md
+2025-12-29 14:58:42,194 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-29 14:58:42,194 - INFO - Format: typst
+2025-12-29 14:58:42,194 - INFO - Config: 0 validation errors
+2025-12-29 14:58:42,194 - INFO - Converting markdown to target format...
+2025-12-29 14:58:42,194 - INFO - Extracting citations...
+2025-12-29 14:58:42,199 - INFO - Found 1 citations
+2025-12-29 14:58:42,199 - INFO - Loading and processing references...
+2025-12-29 14:58:42,201 - INFO - Loaded 1278 reference entries
+2025-12-29 14:58:42,202 - INFO - Generated 1 references (strategy: filter)
+2025-12-29 14:58:42,203 - INFO - Combining paper with filtered references...
+2025-12-29 14:58:42,220 - INFO - Combined file created: 55577 bytes
+2025-12-29 14:58:42,220 - INFO - Converting to typst format...
+2025-12-29 14:58:43,105 - INFO - Target file created: 57654 bytes
+2025-12-29 14:58:43,105 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-29 14:58:43,105 - INFO - Generating PDF with attachments...
+2025-12-29 14:58:43,106 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-29 14:58:43,123 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-29 14:58:43,630 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-29 14:58:43,631 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-29 14:58:43,631 - INFO - PDF generation successful: 109809 bytes
+2025-12-29 14:58:43,632 - INFO - Adding metadata to PDF...
+2025-12-29 14:58:43,632 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-29 14:58:43,632 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-29 14:58:43,632 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (109809 bytes)
+2025-12-29 14:58:43,632 - INFO - Starting cleanup...
+2025-12-29 14:58:43,633 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-29 14:58:43,633 - INFO - SUCCESS! Release complete in 1.4s
+2025-12-29 14:58:43,634 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (109809 bytes)
+2025-12-29 14:58:43,634 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:05:10,578 - INFO - Successfully imported paper_converter
+2025-12-29 15:05:10,579 - INFO - Successfully imported pdf_assembler
+2025-12-29 15:05:11,498 - INFO - Input validation passed: The Reality of Wholes.md (55056 bytes)
+2025-12-29 15:05:11,501 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251229_150511.pdf
+2025-12-29 15:05:11,501 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 15:05:11,501 - INFO - Input: The Reality of Wholes.md
+2025-12-29 15:05:11,501 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:05:11,501 - INFO - Format: typst
+2025-12-29 15:05:11,501 - INFO - Config: 0 validation errors
+2025-12-29 15:05:11,501 - INFO - Converting markdown to target format...
+2025-12-29 15:05:11,502 - INFO - Extracting citations...
+2025-12-29 15:05:11,506 - INFO - Found 1 citations
+2025-12-29 15:05:11,506 - INFO - Loading and processing references...
+2025-12-29 15:05:11,508 - INFO - Loaded 1278 reference entries
+2025-12-29 15:05:11,509 - INFO - Generated 1 references (strategy: filter)
+2025-12-29 15:05:11,509 - INFO - Combining paper with filtered references...
+2025-12-29 15:05:11,528 - INFO - Combined file created: 55492 bytes
+2025-12-29 15:05:11,528 - INFO - Converting to typst format...
+2025-12-29 15:05:11,820 - INFO - Target file created: 57472 bytes
+2025-12-29 15:05:11,820 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-29 15:05:11,820 - INFO - Generating PDF with attachments...
+2025-12-29 15:05:11,821 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-29 15:05:11,840 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-29 15:05:12,048 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-29 15:05:12,049 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:05:12,049 - INFO - PDF generation successful: 107068 bytes
+2025-12-29 15:05:12,049 - INFO - Adding metadata to PDF...
+2025-12-29 15:05:12,050 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-29 15:05:12,050 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-29 15:05:12,050 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (107068 bytes)
+2025-12-29 15:05:12,050 - INFO - Starting cleanup...
+2025-12-29 15:05:12,051 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-29 15:05:12,052 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-29 15:05:12,052 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (107068 bytes)
+2025-12-29 15:05:12,052 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:06:07,513 - INFO - Successfully imported paper_converter
+2025-12-29 15:06:07,514 - INFO - Successfully imported pdf_assembler
+2025-12-29 15:06:08,325 - INFO - Input validation passed: The Reality of Wholes.md (55086 bytes)
+2025-12-29 15:06:08,331 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251229_150608.pdf
+2025-12-29 15:06:08,332 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 15:06:08,332 - INFO - Input: The Reality of Wholes.md
+2025-12-29 15:06:08,332 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:06:08,332 - INFO - Format: typst
+2025-12-29 15:06:08,332 - INFO - Config: 0 validation errors
+2025-12-29 15:06:08,332 - INFO - Converting markdown to target format...
+2025-12-29 15:06:08,332 - INFO - Extracting citations...
+2025-12-29 15:06:08,336 - INFO - Found 2 citations
+2025-12-29 15:06:08,337 - INFO - Loading and processing references...
+2025-12-29 15:06:08,339 - INFO - Loaded 1278 reference entries
+2025-12-29 15:06:08,340 - INFO - Generated 1 references (strategy: filter)
+2025-12-29 15:06:08,340 - INFO - Combining paper with filtered references...
+2025-12-29 15:06:08,357 - INFO - Combined file created: 55522 bytes
+2025-12-29 15:06:08,357 - INFO - Converting to typst format...
+2025-12-29 15:06:08,632 - INFO - Target file created: 57542 bytes
+2025-12-29 15:06:08,632 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-29 15:06:08,633 - INFO - Generating PDF with attachments...
+2025-12-29 15:06:08,633 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-29 15:06:08,652 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-29 15:06:08,859 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-29 15:06:08,860 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:06:08,860 - INFO - PDF generation successful: 107476 bytes
+2025-12-29 15:06:08,861 - INFO - Adding metadata to PDF...
+2025-12-29 15:06:08,861 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-29 15:06:08,861 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-29 15:06:08,861 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (107476 bytes)
+2025-12-29 15:06:08,861 - INFO - Starting cleanup...
+2025-12-29 15:06:08,863 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-29 15:06:08,863 - INFO - SUCCESS! Release complete in 0.5s
+2025-12-29 15:06:08,863 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (107476 bytes)
+2025-12-29 15:06:08,863 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:11:15,355 - INFO - Successfully imported paper_converter
+2025-12-29 15:11:15,356 - INFO - Successfully imported pdf_assembler
+2025-12-29 15:11:16,643 - INFO - Input validation passed: The Reality of Wholes.md (55076 bytes)
+2025-12-29 15:11:16,646 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251229_151116.pdf
+2025-12-29 15:11:16,646 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 15:11:16,646 - INFO - Input: The Reality of Wholes.md
+2025-12-29 15:11:16,646 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:11:16,646 - INFO - Format: typst
+2025-12-29 15:11:16,646 - INFO - Config: 0 validation errors
+2025-12-29 15:11:16,646 - INFO - Converting markdown to target format...
+2025-12-29 15:11:16,646 - INFO - Extracting citations...
+2025-12-29 15:11:16,651 - INFO - Found 6 citations
+2025-12-29 15:11:16,651 - INFO - Loading and processing references...
+2025-12-29 15:11:16,653 - INFO - Loaded 1278 reference entries
+2025-12-29 15:11:16,654 - INFO - Generated 5 references (strategy: filter)
+2025-12-29 15:11:16,654 - INFO - Combining paper with filtered references...
+2025-12-29 15:11:16,669 - INFO - Combined file created: 56180 bytes
+2025-12-29 15:11:16,670 - INFO - Converting to typst format...
+2025-12-29 15:11:17,552 - INFO - Target file created: 58296 bytes
+2025-12-29 15:11:17,552 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-29 15:11:17,552 - INFO - Generating PDF with attachments...
+2025-12-29 15:11:17,553 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-29 15:11:17,571 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-29 15:11:18,103 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-29 15:11:18,104 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:11:18,105 - INFO - PDF generation successful: 109315 bytes
+2025-12-29 15:11:18,105 - INFO - Adding metadata to PDF...
+2025-12-29 15:11:18,105 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-29 15:11:18,105 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-29 15:11:18,105 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (109315 bytes)
+2025-12-29 15:11:18,105 - INFO - Starting cleanup...
+2025-12-29 15:11:18,106 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-29 15:11:18,107 - INFO - SUCCESS! Release complete in 1.5s
+2025-12-29 15:11:18,107 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (109315 bytes)
+2025-12-29 15:11:18,107 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:11:47,400 - INFO - Successfully imported paper_converter
+2025-12-29 15:11:47,401 - INFO - Successfully imported pdf_assembler
+2025-12-29 15:11:48,232 - INFO - Input validation passed: The Reality of Wholes.md (55068 bytes)
+2025-12-29 15:11:48,235 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251229_151148.pdf
+2025-12-29 15:11:48,235 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 15:11:48,235 - INFO - Input: The Reality of Wholes.md
+2025-12-29 15:11:48,235 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:11:48,236 - INFO - Format: typst
+2025-12-29 15:11:48,236 - INFO - Config: 0 validation errors
+2025-12-29 15:11:48,236 - INFO - Converting markdown to target format...
+2025-12-29 15:11:48,236 - INFO - Extracting citations...
+2025-12-29 15:11:48,243 - INFO - Found 6 citations
+2025-12-29 15:11:48,243 - INFO - Loading and processing references...
+2025-12-29 15:11:48,246 - INFO - Loaded 1278 reference entries
+2025-12-29 15:11:48,247 - INFO - Generated 5 references (strategy: filter)
+2025-12-29 15:11:48,248 - INFO - Combining paper with filtered references...
+2025-12-29 15:11:48,266 - INFO - Combined file created: 56172 bytes
+2025-12-29 15:11:48,266 - INFO - Converting to typst format...
+2025-12-29 15:11:48,640 - INFO - Target file created: 58288 bytes
+2025-12-29 15:11:48,641 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-29 15:11:48,641 - INFO - Generating PDF with attachments...
+2025-12-29 15:11:48,641 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-29 15:11:48,660 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-29 15:11:48,865 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-29 15:11:48,866 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:11:48,867 - INFO - PDF generation successful: 109334 bytes
+2025-12-29 15:11:48,867 - INFO - Adding metadata to PDF...
+2025-12-29 15:11:48,867 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-29 15:11:48,867 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-29 15:11:48,867 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (109334 bytes)
+2025-12-29 15:11:48,867 - INFO - Starting cleanup...
+2025-12-29 15:11:48,868 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-29 15:11:48,869 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-29 15:11:48,869 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (109334 bytes)
+2025-12-29 15:11:48,869 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:16:24,805 - INFO - Successfully imported paper_converter
+2025-12-29 15:16:24,806 - INFO - Successfully imported pdf_assembler
+2025-12-29 15:16:25,687 - INFO - Input validation passed: The Reality of Wholes.md (55084 bytes)
+2025-12-29 15:16:25,689 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251229_151625.pdf
+2025-12-29 15:16:25,690 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 15:16:25,690 - INFO - Input: The Reality of Wholes.md
+2025-12-29 15:16:25,690 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:16:25,690 - INFO - Format: typst
+2025-12-29 15:16:25,690 - INFO - Config: 0 validation errors
+2025-12-29 15:16:25,690 - INFO - Converting markdown to target format...
+2025-12-29 15:16:25,690 - INFO - Extracting citations...
+2025-12-29 15:16:25,694 - INFO - Found 7 citations
+2025-12-29 15:16:25,695 - INFO - Loading and processing references...
+2025-12-29 15:16:25,697 - INFO - Loaded 1278 reference entries
+2025-12-29 15:16:25,698 - INFO - Generated 5 references (strategy: filter)
+2025-12-29 15:16:25,698 - INFO - Combining paper with filtered references...
+2025-12-29 15:16:25,722 - INFO - Combined file created: 56188 bytes
+2025-12-29 15:16:25,722 - INFO - Converting to typst format...
+2025-12-29 15:16:26,024 - INFO - Target file created: 58305 bytes
+2025-12-29 15:16:26,025 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-29 15:16:26,025 - INFO - Generating PDF with attachments...
+2025-12-29 15:16:26,025 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-29 15:16:26,048 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-29 15:16:26,269 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-29 15:16:26,271 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:16:26,271 - INFO - PDF generation successful: 109371 bytes
+2025-12-29 15:16:26,271 - INFO - Adding metadata to PDF...
+2025-12-29 15:16:26,271 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-29 15:16:26,271 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-29 15:16:26,271 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (109371 bytes)
+2025-12-29 15:16:26,271 - INFO - Starting cleanup...
+2025-12-29 15:16:26,272 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-29 15:16:26,273 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-29 15:16:26,273 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (109371 bytes)
+2025-12-29 15:16:26,273 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:25:39,163 - INFO - Successfully imported paper_converter
+2025-12-29 15:25:39,164 - INFO - Successfully imported pdf_assembler
+2025-12-29 15:25:40,114 - INFO - Input validation passed: The Reality of Wholes.md (55025 bytes)
+2025-12-29 15:25:40,116 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251229_152540.pdf
+2025-12-29 15:25:40,116 - INFO - Starting Academic Paper Release Pipeline
+2025-12-29 15:25:40,117 - INFO - Input: The Reality of Wholes.md
+2025-12-29 15:25:40,117 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:25:40,117 - INFO - Format: typst
+2025-12-29 15:25:40,117 - INFO - Config: 0 validation errors
+2025-12-29 15:25:40,117 - INFO - Converting markdown to target format...
+2025-12-29 15:25:40,117 - INFO - Extracting citations...
+2025-12-29 15:25:40,123 - INFO - Found 7 citations
+2025-12-29 15:25:40,123 - INFO - Loading and processing references...
+2025-12-29 15:25:40,126 - INFO - Loaded 1278 reference entries
+2025-12-29 15:25:40,127 - INFO - Generated 5 references (strategy: filter)
+2025-12-29 15:25:40,128 - INFO - Combining paper with filtered references...
+2025-12-29 15:25:40,148 - INFO - Combined file created: 56130 bytes
+2025-12-29 15:25:40,148 - INFO - Converting to typst format...
+2025-12-29 15:25:40,444 - INFO - Target file created: 58247 bytes
+2025-12-29 15:25:40,444 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-29 15:25:40,444 - INFO - Generating PDF with attachments...
+2025-12-29 15:25:40,444 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-29 15:25:40,462 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-29 15:25:40,666 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-29 15:25:40,668 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-29 15:25:40,668 - INFO - PDF generation successful: 101872 bytes
+2025-12-29 15:25:40,668 - INFO - Adding metadata to PDF...
+2025-12-29 15:25:40,668 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-29 15:25:40,668 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-29 15:25:40,669 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (101872 bytes)
+2025-12-29 15:25:40,669 - INFO - Starting cleanup...
+2025-12-29 15:25:40,670 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-29 15:25:40,670 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-29 15:25:40,670 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (101872 bytes)
+2025-12-29 15:25:40,670 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 08:35:47,190 - INFO - Successfully imported paper_converter
+2025-12-30 08:35:47,191 - INFO - Successfully imported pdf_assembler
+2025-12-30 08:35:50,072 - INFO - Input validation passed: The Reality of Wholes.md (68989 bytes)
+2025-12-30 08:35:50,075 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_083550.pdf
+2025-12-30 08:35:50,075 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 08:35:50,075 - INFO - Input: The Reality of Wholes.md
+2025-12-30 08:35:50,075 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 08:35:50,076 - INFO - Format: typst
+2025-12-30 08:35:50,076 - INFO - Config: 0 validation errors
+2025-12-30 08:35:50,076 - INFO - Converting markdown to target format...
+2025-12-30 08:35:50,076 - INFO - Extracting citations...
+2025-12-30 08:35:50,086 - INFO - Found 6 citations
+2025-12-30 08:35:50,086 - INFO - Loading and processing references...
+2025-12-30 08:35:50,090 - INFO - Loaded 1278 reference entries
+2025-12-30 08:35:50,091 - INFO - Generated 5 references (strategy: filter)
+2025-12-30 08:35:50,091 - INFO - Combining paper with filtered references...
+2025-12-30 08:35:50,115 - INFO - Combined file created: 69371 bytes
+2025-12-30 08:35:50,115 - INFO - Converting to typst format...
+2025-12-30 08:35:51,044 - INFO - Target file created: 72252 bytes
+2025-12-30 08:35:51,044 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 08:35:51,044 - INFO - Generating PDF with attachments...
+2025-12-30 08:35:51,044 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 08:35:51,061 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 08:35:54,284 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 08:35:54,286 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 08:35:54,286 - INFO - PDF generation successful: 122837 bytes
+2025-12-30 08:35:54,287 - INFO - Adding metadata to PDF...
+2025-12-30 08:35:54,287 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 08:35:54,287 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 08:35:54,287 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (122837 bytes)
+2025-12-30 08:35:54,287 - INFO - Starting cleanup...
+2025-12-30 08:35:54,289 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 08:35:54,289 - INFO - SUCCESS! Release complete in 4.2s
+2025-12-30 08:35:54,290 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (122837 bytes)
+2025-12-30 08:35:54,290 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 09:35:24,487 - INFO - Successfully imported paper_converter
+2025-12-30 09:35:24,488 - INFO - Successfully imported pdf_assembler
+2025-12-30 09:35:27,138 - INFO - Input validation passed: The Reality of Wholes.md (70901 bytes)
+2025-12-30 09:35:27,141 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_093527.pdf
+2025-12-30 09:35:27,141 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 09:35:27,142 - INFO - Input: The Reality of Wholes.md
+2025-12-30 09:35:27,142 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 09:35:27,142 - INFO - Format: typst
+2025-12-30 09:35:27,142 - INFO - Config: 0 validation errors
+2025-12-30 09:35:27,142 - INFO - Converting markdown to target format...
+2025-12-30 09:35:27,142 - INFO - Extracting citations...
+2025-12-30 09:35:27,148 - INFO - Found 6 citations
+2025-12-30 09:35:27,148 - INFO - Loading and processing references...
+2025-12-30 09:35:27,151 - INFO - Loaded 1278 reference entries
+2025-12-30 09:35:27,152 - INFO - Generated 5 references (strategy: filter)
+2025-12-30 09:35:27,152 - INFO - Combining paper with filtered references...
+2025-12-30 09:35:27,170 - INFO - Combined file created: 71307 bytes
+2025-12-30 09:35:27,170 - INFO - Converting to typst format...
+2025-12-30 09:35:28,096 - INFO - Target file created: 74230 bytes
+2025-12-30 09:35:28,097 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 09:35:28,097 - INFO - Generating PDF with attachments...
+2025-12-30 09:35:28,097 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 09:35:28,113 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 09:35:31,504 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 09:35:31,505 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 09:35:31,505 - INFO - PDF generation successful: 124822 bytes
+2025-12-30 09:35:31,506 - INFO - Adding metadata to PDF...
+2025-12-30 09:35:31,506 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 09:35:31,506 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 09:35:31,506 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (124822 bytes)
+2025-12-30 09:35:31,506 - INFO - Starting cleanup...
+2025-12-30 09:35:31,508 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 09:35:31,508 - INFO - SUCCESS! Release complete in 4.4s
+2025-12-30 09:35:31,509 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (124822 bytes)
+2025-12-30 09:35:31,509 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 09:43:33,106 - INFO - Successfully imported paper_converter
+2025-12-30 09:43:33,107 - INFO - Successfully imported pdf_assembler
+2025-12-30 09:43:34,116 - INFO - Input validation passed: The Reality of Wholes.md (71067 bytes)
+2025-12-30 09:43:34,118 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_094334.pdf
+2025-12-30 09:43:34,118 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 09:43:34,118 - INFO - Input: The Reality of Wholes.md
+2025-12-30 09:43:34,118 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 09:43:34,118 - INFO - Format: typst
+2025-12-30 09:43:34,119 - INFO - Config: 0 validation errors
+2025-12-30 09:43:34,119 - INFO - Converting markdown to target format...
+2025-12-30 09:43:34,119 - INFO - Extracting citations...
+2025-12-30 09:43:34,125 - INFO - Found 8 citations
+2025-12-30 09:43:34,125 - INFO - Loading and processing references...
+2025-12-30 09:43:34,127 - INFO - Loaded 1278 reference entries
+2025-12-30 09:43:34,129 - INFO - Generated 6 references (strategy: filter)
+2025-12-30 09:43:34,130 - INFO - Combining paper with filtered references...
+2025-12-30 09:43:34,151 - INFO - Combined file created: 71475 bytes
+2025-12-30 09:43:34,151 - INFO - Converting to typst format...
+2025-12-30 09:43:34,484 - INFO - Target file created: 74396 bytes
+2025-12-30 09:43:34,485 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 09:43:34,485 - INFO - Generating PDF with attachments...
+2025-12-30 09:43:34,485 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 09:43:34,502 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 09:43:34,732 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 09:43:34,733 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 09:43:34,733 - INFO - PDF generation successful: 125117 bytes
+2025-12-30 09:43:34,734 - INFO - Adding metadata to PDF...
+2025-12-30 09:43:34,734 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 09:43:34,734 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 09:43:34,734 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (125117 bytes)
+2025-12-30 09:43:34,735 - INFO - Starting cleanup...
+2025-12-30 09:43:34,736 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 09:43:34,736 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 09:43:34,737 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (125117 bytes)
+2025-12-30 09:43:34,737 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 09:44:14,686 - INFO - Successfully imported paper_converter
+2025-12-30 09:44:14,687 - INFO - Successfully imported pdf_assembler
+2025-12-30 09:44:15,616 - INFO - Input validation passed: The Reality of Wholes.md (71067 bytes)
+2025-12-30 09:44:15,619 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_094415.pdf
+2025-12-30 09:44:15,619 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 09:44:15,619 - INFO - Input: The Reality of Wholes.md
+2025-12-30 09:44:15,619 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 09:44:15,619 - INFO - Format: typst
+2025-12-30 09:44:15,620 - INFO - Config: 0 validation errors
+2025-12-30 09:44:15,620 - INFO - Converting markdown to target format...
+2025-12-30 09:44:15,620 - INFO - Extracting citations...
+2025-12-30 09:44:15,626 - INFO - Found 8 citations
+2025-12-30 09:44:15,626 - INFO - Loading and processing references...
+2025-12-30 09:44:15,629 - INFO - Loaded 1278 reference entries
+2025-12-30 09:44:15,630 - INFO - Generated 6 references (strategy: filter)
+2025-12-30 09:44:15,631 - INFO - Combining paper with filtered references...
+2025-12-30 09:44:15,649 - INFO - Combined file created: 71475 bytes
+2025-12-30 09:44:15,649 - INFO - Converting to typst format...
+2025-12-30 09:44:15,951 - INFO - Target file created: 74396 bytes
+2025-12-30 09:44:15,952 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 09:44:15,952 - INFO - Generating PDF with attachments...
+2025-12-30 09:44:15,952 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 09:44:15,968 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 09:44:16,224 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 09:44:16,226 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 09:44:16,226 - INFO - PDF generation successful: 125117 bytes
+2025-12-30 09:44:16,226 - INFO - Adding metadata to PDF...
+2025-12-30 09:44:16,226 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 09:44:16,227 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 09:44:16,227 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (125117 bytes)
+2025-12-30 09:44:16,227 - INFO - Starting cleanup...
+2025-12-30 09:44:16,228 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 09:44:16,229 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 09:44:16,229 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (125117 bytes)
+2025-12-30 09:44:16,229 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 09:47:00,918 - INFO - Successfully imported paper_converter
+2025-12-30 09:47:00,920 - INFO - Successfully imported pdf_assembler
+2025-12-30 09:47:01,842 - INFO - Input validation passed: The Reality of Wholes.md (72310 bytes)
+2025-12-30 09:47:01,844 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_094701.pdf
+2025-12-30 09:47:01,844 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 09:47:01,845 - INFO - Input: The Reality of Wholes.md
+2025-12-30 09:47:01,845 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 09:47:01,845 - INFO - Format: typst
+2025-12-30 09:47:01,845 - INFO - Config: 0 validation errors
+2025-12-30 09:47:01,845 - INFO - Converting markdown to target format...
+2025-12-30 09:47:01,845 - INFO - Extracting citations...
+2025-12-30 09:47:01,851 - INFO - Found 8 citations
+2025-12-30 09:47:01,852 - INFO - Loading and processing references...
+2025-12-30 09:47:01,855 - INFO - Loaded 1290 reference entries
+2025-12-30 09:47:01,856 - INFO - Generated 7 references (strategy: filter)
+2025-12-30 09:47:01,856 - INFO - Combining paper with filtered references...
+2025-12-30 09:47:01,879 - INFO - Combined file created: 72472 bytes
+2025-12-30 09:47:01,880 - INFO - Converting to typst format...
+2025-12-30 09:47:02,183 - INFO - Target file created: 75419 bytes
+2025-12-30 09:47:02,183 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 09:47:02,183 - INFO - Generating PDF with attachments...
+2025-12-30 09:47:02,184 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 09:47:02,199 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 09:47:02,430 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 09:47:02,431 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 09:47:02,431 - INFO - PDF generation successful: 126319 bytes
+2025-12-30 09:47:02,432 - INFO - Adding metadata to PDF...
+2025-12-30 09:47:02,432 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 09:47:02,432 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 09:47:02,432 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (126319 bytes)
+2025-12-30 09:47:02,432 - INFO - Starting cleanup...
+2025-12-30 09:47:02,435 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 09:47:02,435 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 09:47:02,436 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (126319 bytes)
+2025-12-30 09:47:02,436 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:00:37,744 - INFO - Successfully imported paper_converter
+2025-12-30 10:00:37,745 - INFO - Successfully imported pdf_assembler
+2025-12-30 10:00:38,698 - INFO - Input validation passed: The Reality of Wholes.md (72404 bytes)
+2025-12-30 10:00:38,701 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_100038.pdf
+2025-12-30 10:00:38,701 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 10:00:38,701 - INFO - Input: The Reality of Wholes.md
+2025-12-30 10:00:38,701 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:00:38,701 - INFO - Format: typst
+2025-12-30 10:00:38,701 - INFO - Config: 0 validation errors
+2025-12-30 10:00:38,702 - INFO - Converting markdown to target format...
+2025-12-30 10:00:38,702 - INFO - Extracting citations...
+2025-12-30 10:00:38,708 - INFO - Found 8 citations
+2025-12-30 10:00:38,708 - INFO - Loading and processing references...
+2025-12-30 10:00:38,711 - INFO - Loaded 1290 reference entries
+2025-12-30 10:00:38,713 - INFO - Generated 7 references (strategy: filter)
+2025-12-30 10:00:38,713 - INFO - Combining paper with filtered references...
+2025-12-30 10:00:38,732 - INFO - Combined file created: 72565 bytes
+2025-12-30 10:00:38,733 - INFO - Converting to typst format...
+2025-12-30 10:00:39,011 - INFO - Target file created: 75493 bytes
+2025-12-30 10:00:39,012 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 10:00:39,012 - INFO - Generating PDF with attachments...
+2025-12-30 10:00:39,012 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 10:00:39,036 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 10:00:39,285 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 10:00:39,286 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:00:39,286 - INFO - PDF generation successful: 126099 bytes
+2025-12-30 10:00:39,287 - INFO - Adding metadata to PDF...
+2025-12-30 10:00:39,287 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 10:00:39,287 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 10:00:39,287 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (126099 bytes)
+2025-12-30 10:00:39,287 - INFO - Starting cleanup...
+2025-12-30 10:00:39,289 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 10:00:39,289 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 10:00:39,289 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (126099 bytes)
+2025-12-30 10:00:39,289 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:04:47,281 - INFO - Successfully imported paper_converter
+2025-12-30 10:04:47,282 - INFO - Successfully imported pdf_assembler
+2025-12-30 10:04:48,237 - INFO - Input validation passed: The Reality of Wholes.md (72459 bytes)
+2025-12-30 10:04:48,239 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_100448.pdf
+2025-12-30 10:04:48,239 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 10:04:48,240 - INFO - Input: The Reality of Wholes.md
+2025-12-30 10:04:48,240 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:04:48,240 - INFO - Format: typst
+2025-12-30 10:04:48,240 - INFO - Config: 0 validation errors
+2025-12-30 10:04:48,240 - INFO - Converting markdown to target format...
+2025-12-30 10:04:48,240 - INFO - Extracting citations...
+2025-12-30 10:04:48,247 - INFO - Found 8 citations
+2025-12-30 10:04:48,248 - INFO - Loading and processing references...
+2025-12-30 10:04:48,251 - INFO - Loaded 1290 reference entries
+2025-12-30 10:04:48,252 - INFO - Generated 7 references (strategy: filter)
+2025-12-30 10:04:48,252 - INFO - Combining paper with filtered references...
+2025-12-30 10:04:48,272 - INFO - Combined file created: 72620 bytes
+2025-12-30 10:04:48,273 - INFO - Converting to typst format...
+2025-12-30 10:04:48,597 - INFO - Target file created: 75549 bytes
+2025-12-30 10:04:48,597 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 10:04:48,598 - INFO - Generating PDF with attachments...
+2025-12-30 10:04:48,598 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 10:04:48,612 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 10:04:48,850 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 10:04:48,852 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:04:48,852 - INFO - PDF generation successful: 126683 bytes
+2025-12-30 10:04:48,853 - INFO - Adding metadata to PDF...
+2025-12-30 10:04:48,853 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 10:04:48,853 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 10:04:48,853 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (126683 bytes)
+2025-12-30 10:04:48,853 - INFO - Starting cleanup...
+2025-12-30 10:04:48,855 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 10:04:48,855 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 10:04:48,855 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (126683 bytes)
+2025-12-30 10:04:48,856 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:09:18,384 - INFO - Successfully imported paper_converter
+2025-12-30 10:09:18,385 - INFO - Successfully imported pdf_assembler
+2025-12-30 10:09:19,460 - INFO - Input validation passed: The Reality of Wholes.md (73759 bytes)
+2025-12-30 10:09:19,464 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_100919.pdf
+2025-12-30 10:09:19,464 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 10:09:19,464 - INFO - Input: The Reality of Wholes.md
+2025-12-30 10:09:19,464 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:09:19,464 - INFO - Format: typst
+2025-12-30 10:09:19,465 - INFO - Config: 0 validation errors
+2025-12-30 10:09:19,465 - INFO - Converting markdown to target format...
+2025-12-30 10:09:19,465 - INFO - Extracting citations...
+2025-12-30 10:09:19,473 - INFO - Found 9 citations
+2025-12-30 10:09:19,473 - INFO - Loading and processing references...
+2025-12-30 10:09:19,475 - INFO - Loaded 1298 reference entries
+2025-12-30 10:09:19,478 - INFO - Generated 7 references (strategy: filter)
+2025-12-30 10:09:19,478 - INFO - Combining paper with filtered references...
+2025-12-30 10:09:19,503 - INFO - Combined file created: 73684 bytes
+2025-12-30 10:09:19,503 - INFO - Converting to typst format...
+2025-12-30 10:09:19,811 - INFO - Target file created: 76637 bytes
+2025-12-30 10:09:19,811 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 10:09:19,811 - INFO - Generating PDF with attachments...
+2025-12-30 10:09:19,811 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 10:09:19,829 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 10:09:20,069 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 10:09:20,071 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:09:20,071 - INFO - PDF generation successful: 127588 bytes
+2025-12-30 10:09:20,072 - INFO - Adding metadata to PDF...
+2025-12-30 10:09:20,072 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 10:09:20,072 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 10:09:20,072 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (127588 bytes)
+2025-12-30 10:09:20,073 - INFO - Starting cleanup...
+2025-12-30 10:09:20,074 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 10:09:20,074 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 10:09:20,075 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (127588 bytes)
+2025-12-30 10:09:20,075 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:10:14,644 - INFO - Successfully imported paper_converter
+2025-12-30 10:10:14,645 - INFO - Successfully imported pdf_assembler
+2025-12-30 10:10:15,550 - INFO - Input validation passed: The Reality of Wholes.md (74098 bytes)
+2025-12-30 10:10:15,553 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_101015.pdf
+2025-12-30 10:10:15,553 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 10:10:15,553 - INFO - Input: The Reality of Wholes.md
+2025-12-30 10:10:15,554 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:10:15,554 - INFO - Format: typst
+2025-12-30 10:10:15,554 - INFO - Config: 0 validation errors
+2025-12-30 10:10:15,554 - INFO - Converting markdown to target format...
+2025-12-30 10:10:15,555 - INFO - Extracting citations...
+2025-12-30 10:10:15,561 - INFO - Found 9 citations
+2025-12-30 10:10:15,562 - INFO - Loading and processing references...
+2025-12-30 10:10:15,564 - INFO - Loaded 1298 reference entries
+2025-12-30 10:10:15,565 - INFO - Generated 7 references (strategy: filter)
+2025-12-30 10:10:15,565 - INFO - Combining paper with filtered references...
+2025-12-30 10:10:15,583 - INFO - Combined file created: 74023 bytes
+2025-12-30 10:10:15,583 - INFO - Converting to typst format...
+2025-12-30 10:10:15,889 - INFO - Target file created: 76981 bytes
+2025-12-30 10:10:15,889 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 10:10:15,890 - INFO - Generating PDF with attachments...
+2025-12-30 10:10:15,890 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 10:10:15,906 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 10:10:16,139 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 10:10:16,140 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:10:16,140 - INFO - PDF generation successful: 127946 bytes
+2025-12-30 10:10:16,141 - INFO - Adding metadata to PDF...
+2025-12-30 10:10:16,141 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 10:10:16,141 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 10:10:16,141 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (127946 bytes)
+2025-12-30 10:10:16,141 - INFO - Starting cleanup...
+2025-12-30 10:10:16,143 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 10:10:16,143 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 10:10:16,143 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (127946 bytes)
+2025-12-30 10:10:16,143 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:16:07,516 - INFO - Successfully imported paper_converter
+2025-12-30 10:16:07,517 - INFO - Successfully imported pdf_assembler
+2025-12-30 10:16:08,484 - INFO - Input validation passed: The Reality of Wholes.md (74058 bytes)
+2025-12-30 10:16:08,486 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_101608.pdf
+2025-12-30 10:16:08,486 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 10:16:08,486 - INFO - Input: The Reality of Wholes.md
+2025-12-30 10:16:08,486 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:16:08,486 - INFO - Format: typst
+2025-12-30 10:16:08,487 - INFO - Config: 0 validation errors
+2025-12-30 10:16:08,487 - INFO - Converting markdown to target format...
+2025-12-30 10:16:08,487 - INFO - Extracting citations...
+2025-12-30 10:16:08,494 - INFO - Found 11 citations
+2025-12-30 10:16:08,494 - INFO - Loading and processing references...
+2025-12-30 10:16:08,497 - INFO - Loaded 1298 reference entries
+2025-12-30 10:16:08,498 - INFO - Generated 8 references (strategy: filter)
+2025-12-30 10:16:08,499 - INFO - Combining paper with filtered references...
+2025-12-30 10:16:08,521 - INFO - Combined file created: 74223 bytes
+2025-12-30 10:16:08,521 - INFO - Converting to typst format...
+2025-12-30 10:16:08,845 - INFO - Target file created: 77169 bytes
+2025-12-30 10:16:08,845 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 10:16:08,846 - INFO - Generating PDF with attachments...
+2025-12-30 10:16:08,846 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 10:16:08,864 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 10:16:09,115 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 10:16:09,117 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:16:09,117 - INFO - PDF generation successful: 128174 bytes
+2025-12-30 10:16:09,117 - INFO - Adding metadata to PDF...
+2025-12-30 10:16:09,118 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 10:16:09,118 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 10:16:09,118 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (128174 bytes)
+2025-12-30 10:16:09,118 - INFO - Starting cleanup...
+2025-12-30 10:16:09,120 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 10:16:09,120 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 10:16:09,120 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (128174 bytes)
+2025-12-30 10:16:09,121 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:17:54,437 - INFO - Successfully imported paper_converter
+2025-12-30 10:17:54,438 - INFO - Successfully imported pdf_assembler
+2025-12-30 10:17:55,565 - INFO - Input validation passed: The Reality of Wholes.md (74173 bytes)
+2025-12-30 10:17:55,568 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_101755.pdf
+2025-12-30 10:17:55,568 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 10:17:55,568 - INFO - Input: The Reality of Wholes.md
+2025-12-30 10:17:55,568 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:17:55,568 - INFO - Format: typst
+2025-12-30 10:17:55,569 - INFO - Config: 0 validation errors
+2025-12-30 10:17:55,569 - INFO - Converting markdown to target format...
+2025-12-30 10:17:55,569 - INFO - Extracting citations...
+2025-12-30 10:17:55,577 - INFO - Found 11 citations
+2025-12-30 10:17:55,577 - INFO - Loading and processing references...
+2025-12-30 10:17:55,580 - INFO - Loaded 1298 reference entries
+2025-12-30 10:17:55,581 - INFO - Generated 8 references (strategy: filter)
+2025-12-30 10:17:55,582 - INFO - Combining paper with filtered references...
+2025-12-30 10:17:55,607 - INFO - Combined file created: 74339 bytes
+2025-12-30 10:17:55,608 - INFO - Converting to typst format...
+2025-12-30 10:17:55,951 - INFO - Target file created: 77294 bytes
+2025-12-30 10:17:55,951 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 10:17:55,951 - INFO - Generating PDF with attachments...
+2025-12-30 10:17:55,952 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 10:17:55,970 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 10:17:56,221 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 10:17:56,223 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:17:56,223 - INFO - PDF generation successful: 128105 bytes
+2025-12-30 10:17:56,224 - INFO - Adding metadata to PDF...
+2025-12-30 10:17:56,224 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 10:17:56,224 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 10:17:56,224 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (128105 bytes)
+2025-12-30 10:17:56,225 - INFO - Starting cleanup...
+2025-12-30 10:17:56,226 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 10:17:56,226 - INFO - SUCCESS! Release complete in 0.7s
+2025-12-30 10:17:56,227 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (128105 bytes)
+2025-12-30 10:17:56,227 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:21:42,218 - INFO - Successfully imported paper_converter
+2025-12-30 10:21:42,219 - INFO - Successfully imported pdf_assembler
+2025-12-30 10:21:43,304 - INFO - Input validation passed: The Reality of Wholes.md (75328 bytes)
+2025-12-30 10:21:43,308 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_102143.pdf
+2025-12-30 10:21:43,309 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 10:21:43,309 - INFO - Input: The Reality of Wholes.md
+2025-12-30 10:21:43,309 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:21:43,309 - INFO - Format: typst
+2025-12-30 10:21:43,309 - INFO - Config: 0 validation errors
+2025-12-30 10:21:43,310 - INFO - Converting markdown to target format...
+2025-12-30 10:21:43,310 - INFO - Extracting citations...
+2025-12-30 10:21:43,317 - INFO - Found 12 citations
+2025-12-30 10:21:43,317 - INFO - Loading and processing references...
+2025-12-30 10:21:43,320 - INFO - Loaded 1298 reference entries
+2025-12-30 10:21:43,321 - INFO - Generated 8 references (strategy: filter)
+2025-12-30 10:21:43,321 - INFO - Combining paper with filtered references...
+2025-12-30 10:21:43,343 - INFO - Combined file created: 75498 bytes
+2025-12-30 10:21:43,343 - INFO - Converting to typst format...
+2025-12-30 10:21:43,654 - INFO - Target file created: 78473 bytes
+2025-12-30 10:21:43,655 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 10:21:43,655 - INFO - Generating PDF with attachments...
+2025-12-30 10:21:43,655 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 10:21:43,672 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 10:21:43,924 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 10:21:43,925 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:21:43,925 - INFO - PDF generation successful: 129590 bytes
+2025-12-30 10:21:43,926 - INFO - Adding metadata to PDF...
+2025-12-30 10:21:43,926 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 10:21:43,926 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 10:21:43,926 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (129590 bytes)
+2025-12-30 10:21:43,926 - INFO - Starting cleanup...
+2025-12-30 10:21:43,927 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 10:21:43,928 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 10:21:43,928 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (129590 bytes)
+2025-12-30 10:21:43,929 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:24:36,811 - INFO - Successfully imported paper_converter
+2025-12-30 10:24:36,812 - INFO - Successfully imported pdf_assembler
+2025-12-30 10:24:37,772 - INFO - Input validation passed: The Reality of Wholes.md (75336 bytes)
+2025-12-30 10:24:37,776 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_102437.pdf
+2025-12-30 10:24:37,777 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 10:24:37,777 - INFO - Input: The Reality of Wholes.md
+2025-12-30 10:24:37,777 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:24:37,777 - INFO - Format: typst
+2025-12-30 10:24:37,777 - INFO - Config: 0 validation errors
+2025-12-30 10:24:37,778 - INFO - Converting markdown to target format...
+2025-12-30 10:24:37,778 - INFO - Extracting citations...
+2025-12-30 10:24:37,789 - INFO - Found 12 citations
+2025-12-30 10:24:37,789 - INFO - Loading and processing references...
+2025-12-30 10:24:37,792 - INFO - Loaded 1298 reference entries
+2025-12-30 10:24:37,793 - INFO - Generated 8 references (strategy: filter)
+2025-12-30 10:24:37,793 - INFO - Combining paper with filtered references...
+2025-12-30 10:24:37,823 - INFO - Combined file created: 75506 bytes
+2025-12-30 10:24:37,824 - INFO - Converting to typst format...
+2025-12-30 10:24:38,140 - INFO - Target file created: 78481 bytes
+2025-12-30 10:24:38,140 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 10:24:38,141 - INFO - Generating PDF with attachments...
+2025-12-30 10:24:38,141 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 10:24:38,157 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 10:24:38,390 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 10:24:38,392 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:24:38,392 - INFO - PDF generation successful: 129454 bytes
+2025-12-30 10:24:38,392 - INFO - Adding metadata to PDF...
+2025-12-30 10:24:38,393 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 10:24:38,393 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 10:24:38,393 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (129454 bytes)
+2025-12-30 10:24:38,393 - INFO - Starting cleanup...
+2025-12-30 10:24:38,394 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 10:24:38,395 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 10:24:38,395 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (129454 bytes)
+2025-12-30 10:24:38,395 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:28:18,736 - INFO - Successfully imported paper_converter
+2025-12-30 10:28:18,737 - INFO - Successfully imported pdf_assembler
+2025-12-30 10:28:19,763 - INFO - Input validation passed: The Reality of Wholes.md (75269 bytes)
+2025-12-30 10:28:19,765 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_102819.pdf
+2025-12-30 10:28:19,766 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 10:28:19,766 - INFO - Input: The Reality of Wholes.md
+2025-12-30 10:28:19,766 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:28:19,766 - INFO - Format: typst
+2025-12-30 10:28:19,766 - INFO - Config: 0 validation errors
+2025-12-30 10:28:19,767 - INFO - Converting markdown to target format...
+2025-12-30 10:28:19,767 - INFO - Extracting citations...
+2025-12-30 10:28:19,774 - INFO - Found 12 citations
+2025-12-30 10:28:19,774 - INFO - Loading and processing references...
+2025-12-30 10:28:19,777 - INFO - Loaded 1298 reference entries
+2025-12-30 10:28:19,779 - INFO - Generated 8 references (strategy: filter)
+2025-12-30 10:28:19,779 - INFO - Combining paper with filtered references...
+2025-12-30 10:28:19,802 - INFO - Combined file created: 75439 bytes
+2025-12-30 10:28:19,803 - INFO - Converting to typst format...
+2025-12-30 10:28:20,143 - INFO - Target file created: 78415 bytes
+2025-12-30 10:28:20,143 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 10:28:20,143 - INFO - Generating PDF with attachments...
+2025-12-30 10:28:20,144 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 10:28:20,162 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 10:28:20,426 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 10:28:20,428 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:28:20,428 - INFO - PDF generation successful: 129440 bytes
+2025-12-30 10:28:20,429 - INFO - Adding metadata to PDF...
+2025-12-30 10:28:20,429 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 10:28:20,429 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 10:28:20,429 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (129440 bytes)
+2025-12-30 10:28:20,429 - INFO - Starting cleanup...
+2025-12-30 10:28:20,431 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 10:28:20,431 - INFO - SUCCESS! Release complete in 0.7s
+2025-12-30 10:28:20,431 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (129440 bytes)
+2025-12-30 10:28:20,432 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:32:18,386 - INFO - Successfully imported paper_converter
+2025-12-30 10:32:18,387 - INFO - Successfully imported pdf_assembler
+2025-12-30 10:32:19,321 - INFO - Input validation passed: The Reality of Wholes.md (76725 bytes)
+2025-12-30 10:32:19,324 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_103219.pdf
+2025-12-30 10:32:19,324 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 10:32:19,324 - INFO - Input: The Reality of Wholes.md
+2025-12-30 10:32:19,324 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:32:19,325 - INFO - Format: typst
+2025-12-30 10:32:19,325 - INFO - Config: 0 validation errors
+2025-12-30 10:32:19,325 - INFO - Converting markdown to target format...
+2025-12-30 10:32:19,325 - INFO - Extracting citations...
+2025-12-30 10:32:19,333 - INFO - Found 12 citations
+2025-12-30 10:32:19,333 - INFO - Loading and processing references...
+2025-12-30 10:32:19,335 - INFO - Loaded 1298 reference entries
+2025-12-30 10:32:19,336 - INFO - Generated 8 references (strategy: filter)
+2025-12-30 10:32:19,337 - INFO - Combining paper with filtered references...
+2025-12-30 10:32:19,359 - INFO - Combined file created: 76901 bytes
+2025-12-30 10:32:19,359 - INFO - Converting to typst format...
+2025-12-30 10:32:19,668 - INFO - Target file created: 79959 bytes
+2025-12-30 10:32:19,669 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 10:32:19,669 - INFO - Generating PDF with attachments...
+2025-12-30 10:32:19,669 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 10:32:19,685 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 10:32:19,921 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 10:32:19,922 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:32:19,923 - INFO - PDF generation successful: 131704 bytes
+2025-12-30 10:32:19,923 - INFO - Adding metadata to PDF...
+2025-12-30 10:32:19,923 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 10:32:19,923 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 10:32:19,924 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (131704 bytes)
+2025-12-30 10:32:19,924 - INFO - Starting cleanup...
+2025-12-30 10:32:19,925 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 10:32:19,926 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 10:32:19,926 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (131704 bytes)
+2025-12-30 10:32:19,926 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:32:35,506 - INFO - Successfully imported paper_converter
+2025-12-30 10:32:35,507 - INFO - Successfully imported pdf_assembler
+2025-12-30 10:32:36,573 - INFO - Input validation passed: The Reality of Wholes.md (76725 bytes)
+2025-12-30 10:32:36,576 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_103236.pdf
+2025-12-30 10:32:36,576 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 10:32:36,576 - INFO - Input: The Reality of Wholes.md
+2025-12-30 10:32:36,576 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:32:36,576 - INFO - Format: typst
+2025-12-30 10:32:36,577 - INFO - Config: 0 validation errors
+2025-12-30 10:32:36,577 - INFO - Converting markdown to target format...
+2025-12-30 10:32:36,577 - INFO - Extracting citations...
+2025-12-30 10:32:36,584 - INFO - Found 12 citations
+2025-12-30 10:32:36,584 - INFO - Loading and processing references...
+2025-12-30 10:32:36,587 - INFO - Loaded 1298 reference entries
+2025-12-30 10:32:36,589 - INFO - Generated 8 references (strategy: filter)
+2025-12-30 10:32:36,589 - INFO - Combining paper with filtered references...
+2025-12-30 10:32:36,613 - INFO - Combined file created: 76901 bytes
+2025-12-30 10:32:36,614 - INFO - Converting to typst format...
+2025-12-30 10:32:36,941 - INFO - Target file created: 79959 bytes
+2025-12-30 10:32:36,942 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 10:32:36,942 - INFO - Generating PDF with attachments...
+2025-12-30 10:32:36,942 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 10:32:36,960 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 10:32:37,239 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 10:32:37,240 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:32:37,241 - INFO - PDF generation successful: 131704 bytes
+2025-12-30 10:32:37,241 - INFO - Adding metadata to PDF...
+2025-12-30 10:32:37,241 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 10:32:37,241 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 10:32:37,242 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (131704 bytes)
+2025-12-30 10:32:37,242 - INFO - Starting cleanup...
+2025-12-30 10:32:37,243 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 10:32:37,243 - INFO - SUCCESS! Release complete in 0.7s
+2025-12-30 10:32:37,243 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (131704 bytes)
+2025-12-30 10:32:37,244 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:37:29,086 - INFO - Successfully imported paper_converter
+2025-12-30 10:37:29,087 - INFO - Successfully imported pdf_assembler
+2025-12-30 10:37:29,979 - INFO - Input validation passed: The Reality of Wholes.md (76895 bytes)
+2025-12-30 10:37:29,981 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_103729.pdf
+2025-12-30 10:37:29,982 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 10:37:29,982 - INFO - Input: The Reality of Wholes.md
+2025-12-30 10:37:29,982 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:37:29,982 - INFO - Format: typst
+2025-12-30 10:37:29,982 - INFO - Config: 0 validation errors
+2025-12-30 10:37:29,982 - INFO - Converting markdown to target format...
+2025-12-30 10:37:29,983 - INFO - Extracting citations...
+2025-12-30 10:37:29,990 - INFO - Found 12 citations
+2025-12-30 10:37:29,990 - INFO - Loading and processing references...
+2025-12-30 10:37:29,994 - INFO - Loaded 1298 reference entries
+2025-12-30 10:37:29,995 - INFO - Generated 8 references (strategy: filter)
+2025-12-30 10:37:29,995 - INFO - Combining paper with filtered references...
+2025-12-30 10:37:30,016 - INFO - Combined file created: 77071 bytes
+2025-12-30 10:37:30,016 - INFO - Converting to typst format...
+2025-12-30 10:37:30,310 - INFO - Target file created: 80153 bytes
+2025-12-30 10:37:30,310 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 10:37:30,311 - INFO - Generating PDF with attachments...
+2025-12-30 10:37:30,311 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 10:37:30,327 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 10:37:30,565 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 10:37:30,567 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:37:30,567 - INFO - PDF generation successful: 131927 bytes
+2025-12-30 10:37:30,567 - INFO - Adding metadata to PDF...
+2025-12-30 10:37:30,567 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 10:37:30,568 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 10:37:30,568 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (131927 bytes)
+2025-12-30 10:37:30,568 - INFO - Starting cleanup...
+2025-12-30 10:37:30,569 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 10:37:30,569 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 10:37:30,570 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (131927 bytes)
+2025-12-30 10:37:30,570 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:39:11,665 - INFO - Successfully imported paper_converter
+2025-12-30 10:39:11,666 - INFO - Successfully imported pdf_assembler
+2025-12-30 10:39:12,680 - INFO - Input validation passed: The Reality of Wholes.md (76454 bytes)
+2025-12-30 10:39:12,683 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_103912.pdf
+2025-12-30 10:39:12,683 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 10:39:12,683 - INFO - Input: The Reality of Wholes.md
+2025-12-30 10:39:12,683 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:39:12,684 - INFO - Format: typst
+2025-12-30 10:39:12,684 - INFO - Config: 0 validation errors
+2025-12-30 10:39:12,684 - INFO - Converting markdown to target format...
+2025-12-30 10:39:12,684 - INFO - Extracting citations...
+2025-12-30 10:39:12,694 - INFO - Found 12 citations
+2025-12-30 10:39:12,694 - INFO - Loading and processing references...
+2025-12-30 10:39:12,697 - INFO - Loaded 1298 reference entries
+2025-12-30 10:39:12,698 - INFO - Generated 8 references (strategy: filter)
+2025-12-30 10:39:12,699 - INFO - Combining paper with filtered references...
+2025-12-30 10:39:12,721 - INFO - Combined file created: 76628 bytes
+2025-12-30 10:39:12,721 - INFO - Converting to typst format...
+2025-12-30 10:39:13,036 - INFO - Target file created: 79682 bytes
+2025-12-30 10:39:13,036 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 10:39:13,037 - INFO - Generating PDF with attachments...
+2025-12-30 10:39:13,037 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 10:39:13,055 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 10:39:13,293 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 10:39:13,294 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 10:39:13,295 - INFO - PDF generation successful: 131611 bytes
+2025-12-30 10:39:13,295 - INFO - Adding metadata to PDF...
+2025-12-30 10:39:13,295 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 10:39:13,295 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 10:39:13,296 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (131611 bytes)
+2025-12-30 10:39:13,296 - INFO - Starting cleanup...
+2025-12-30 10:39:13,297 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 10:39:13,298 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 10:39:13,298 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (131611 bytes)
+2025-12-30 10:39:13,298 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 11:18:16,117 - INFO - Successfully imported paper_converter
+2025-12-30 11:18:16,119 - INFO - Successfully imported pdf_assembler
+2025-12-30 11:18:17,175 - INFO - Input validation passed: The Reality of Wholes.md (77224 bytes)
+2025-12-30 11:18:17,178 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_111817.pdf
+2025-12-30 11:18:17,178 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 11:18:17,179 - INFO - Input: The Reality of Wholes.md
+2025-12-30 11:18:17,179 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 11:18:17,179 - INFO - Format: typst
+2025-12-30 11:18:17,179 - INFO - Config: 0 validation errors
+2025-12-30 11:18:17,179 - INFO - Converting markdown to target format...
+2025-12-30 11:18:17,179 - INFO - Extracting citations...
+2025-12-30 11:18:17,186 - INFO - Found 12 citations
+2025-12-30 11:18:17,187 - INFO - Loading and processing references...
+2025-12-30 11:18:17,190 - INFO - Loaded 1298 reference entries
+2025-12-30 11:18:17,191 - INFO - Generated 8 references (strategy: filter)
+2025-12-30 11:18:17,192 - INFO - Combining paper with filtered references...
+2025-12-30 11:18:17,217 - INFO - Combined file created: 77407 bytes
+2025-12-30 11:18:17,218 - INFO - Converting to typst format...
+2025-12-30 11:18:18,145 - INFO - Target file created: 80473 bytes
+2025-12-30 11:18:18,145 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 11:18:18,146 - INFO - Generating PDF with attachments...
+2025-12-30 11:18:18,146 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 11:18:18,164 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 11:18:18,773 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 11:18:18,775 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 11:18:18,775 - INFO - PDF generation successful: 131532 bytes
+2025-12-30 11:18:18,775 - INFO - Adding metadata to PDF...
+2025-12-30 11:18:18,775 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 11:18:18,775 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 11:18:18,775 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (131532 bytes)
+2025-12-30 11:18:18,775 - INFO - Starting cleanup...
+2025-12-30 11:18:18,777 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 11:18:18,777 - INFO - SUCCESS! Release complete in 1.6s
+2025-12-30 11:18:18,777 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (131532 bytes)
+2025-12-30 11:18:18,777 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 11:30:57,307 - INFO - Successfully imported paper_converter
+2025-12-30 11:30:57,308 - INFO - Successfully imported pdf_assembler
+2025-12-30 11:30:58,439 - INFO - Input validation passed: The Reality of Wholes.md (77247 bytes)
+2025-12-30 11:30:58,442 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_113058.pdf
+2025-12-30 11:30:58,442 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 11:30:58,442 - INFO - Input: The Reality of Wholes.md
+2025-12-30 11:30:58,443 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 11:30:58,443 - INFO - Format: typst
+2025-12-30 11:30:58,443 - INFO - Config: 0 validation errors
+2025-12-30 11:30:58,443 - INFO - Converting markdown to target format...
+2025-12-30 11:30:58,443 - INFO - Extracting citations...
+2025-12-30 11:30:58,450 - INFO - Found 12 citations
+2025-12-30 11:30:58,451 - INFO - Loading and processing references...
+2025-12-30 11:30:58,454 - INFO - Loaded 1298 reference entries
+2025-12-30 11:30:58,456 - INFO - Generated 8 references (strategy: filter)
+2025-12-30 11:30:58,456 - INFO - Combining paper with filtered references...
+2025-12-30 11:30:58,478 - INFO - Combined file created: 77430 bytes
+2025-12-30 11:30:58,478 - INFO - Converting to typst format...
+2025-12-30 11:30:59,416 - INFO - Target file created: 80511 bytes
+2025-12-30 11:30:59,416 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 11:30:59,416 - INFO - Generating PDF with attachments...
+2025-12-30 11:30:59,417 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 11:30:59,435 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 11:31:00,046 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 11:31:00,048 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 11:31:00,048 - INFO - PDF generation successful: 131482 bytes
+2025-12-30 11:31:00,048 - INFO - Adding metadata to PDF...
+2025-12-30 11:31:00,048 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 11:31:00,048 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 11:31:00,048 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (131482 bytes)
+2025-12-30 11:31:00,048 - INFO - Starting cleanup...
+2025-12-30 11:31:00,050 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 11:31:00,051 - INFO - SUCCESS! Release complete in 1.6s
+2025-12-30 11:31:00,051 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (131482 bytes)
+2025-12-30 11:31:00,051 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-30 12:40:39,479 - INFO - Successfully imported paper_converter
+2025-12-30 12:40:39,480 - INFO - Successfully imported pdf_assembler
+2025-12-30 12:40:40,401 - INFO - Input validation passed: The Reality of Wholes.md (79631 bytes)
+2025-12-30 12:40:40,404 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251230_124040.pdf
+2025-12-30 12:40:40,404 - INFO - Starting Academic Paper Release Pipeline
+2025-12-30 12:40:40,404 - INFO - Input: The Reality of Wholes.md
+2025-12-30 12:40:40,404 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-30 12:40:40,405 - INFO - Format: typst
+2025-12-30 12:40:40,405 - INFO - Config: 0 validation errors
+2025-12-30 12:40:40,405 - INFO - Converting markdown to target format...
+2025-12-30 12:40:40,405 - INFO - Extracting citations...
+2025-12-30 12:40:40,412 - INFO - Found 16 citations
+2025-12-30 12:40:40,412 - INFO - Loading and processing references...
+2025-12-30 12:40:40,414 - INFO - Loaded 1322 reference entries
+2025-12-30 12:40:40,415 - INFO - Generated 11 references (strategy: filter)
+2025-12-30 12:40:40,416 - INFO - Combining paper with filtered references...
+2025-12-30 12:40:40,435 - INFO - Combined file created: 80392 bytes
+2025-12-30 12:40:40,435 - INFO - Converting to typst format...
+2025-12-30 12:40:40,726 - INFO - Target file created: 83518 bytes
+2025-12-30 12:40:40,726 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-30 12:40:40,726 - INFO - Generating PDF with attachments...
+2025-12-30 12:40:40,727 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-30 12:40:40,741 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-30 12:40:40,966 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-30 12:40:40,967 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-30 12:40:40,967 - INFO - PDF generation successful: 135045 bytes
+2025-12-30 12:40:40,968 - INFO - Adding metadata to PDF...
+2025-12-30 12:40:40,968 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-30 12:40:40,968 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-30 12:40:40,968 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (135045 bytes)
+2025-12-30 12:40:40,968 - INFO - Starting cleanup...
+2025-12-30 12:40:40,969 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-30 12:40:40,970 - INFO - SUCCESS! Release complete in 0.6s
+2025-12-30 12:40:40,970 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (135045 bytes)
+2025-12-30 12:40:40,970 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
