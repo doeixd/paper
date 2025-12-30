@@ -1493,14 +1493,18 @@ class ClaudeCLIVerifier {
     await this.rateLimiter.wait();
 
     try {
-      // This would normally call Claude CLI, but for now return a placeholder
-      if (this.verbose) console.log(`  [Claude CLI] Would call Claude CLI here (skipped in demo)`);
+      // Prepare comprehensive instructions for Claude
+      const instructions = this.buildClaudeInstructions(ref);
 
-      const result: VerificationResult = {
-        source: 'claude-cli',
-        status: 'failed',
-        confidence: 0
-      };
+      if (this.verbose) console.log(`  [Claude CLI] Calling Claude CLI with research instructions`);
+
+      // Call Claude CLI with the instructions
+      const claudeResponse = await this.callClaudeCLI(instructions);
+
+      if (this.verbose) console.log(`  [Claude CLI] Received response from Claude CLI`);
+
+      // Parse the response
+      const result = this.parseClaudeResponse(claudeResponse, ref);
 
       // Note: Claude CLI results are not cached to ensure fresh verification
       // (unlike other verifiers that cache raw API data)
@@ -1509,6 +1513,129 @@ class ClaudeCLIVerifier {
 
     } catch (error) {
       if (this.verbose) console.error(`  [Claude CLI] Error:`, error);
+      return { source: 'claude-cli', status: 'failed', confidence: 0 };
+    }
+  }
+
+  private buildClaudeInstructions(ref: ParsedReference): string {
+    const authors = ref.authors.map(a => a.family || a.literal || 'Unknown').join(', ');
+    const year = ref.year || 'Unknown';
+
+    return `You are an expert academic reference verification assistant. Your task is to research and verify the following academic reference by finding the most accurate metadata available online.
+
+REFERENCE TO VERIFY:
+Title: "${ref.title}"
+Authors: ${authors}
+Year: ${year}
+${ref.identifiers.doi ? `DOI: ${ref.identifiers.doi}` : ''}
+${ref.identifiers.isbn ? `ISBN: ${ref.identifiers.isbn.join(', ')}` : ''}
+${ref.identifiers.arxivId ? `arXiv ID: ${ref.identifiers.arxivId}` : ''}
+${ref.identifiers.url ? `URL: ${ref.identifiers.url}` : ''}
+
+YOUR OBJECTIVES:
+1. Find the most accurate and complete metadata for this reference
+2. Verify the title, authors, and publication year
+3. Identify any corrections needed to match standard academic citation formats
+4. Determine if this reference actually exists and is legitimate
+
+RESEARCH INSTRUCTIONS:
+- Search academic databases, publisher websites, Google Scholar, and other reliable sources
+- Cross-reference multiple sources to ensure accuracy
+- Pay special attention to exact title matches and author name variations
+- Check for publication years that might differ from the provided year
+- Look for official DOIs, ISBNs, or other identifiers
+
+EXPECTED OUTPUT FORMAT:
+Return a JSON object with the following structure:
+{
+  "status": "verified" | "corrected" | "failed",
+  "confidence": 0.0 to 1.0,
+  "corrections": [
+    {
+      "field": "title" | "authors" | "year",
+      "original": "original value",
+      "corrected": "corrected value",
+      "reason": "brief explanation"
+    }
+  ],
+  "metadata": {
+    "verified_title": "exact title from source",
+    "verified_authors": ["Author Name 1", "Author Name 2"],
+    "verified_year": "publication year",
+    "source_url": "URL where you found the information",
+    "publisher": "publisher name if available",
+    "journal": "journal name if applicable"
+  },
+  "explanation": "brief explanation of your findings and confidence level"
+}
+
+VERIFICATION GUIDELINES:
+- Status "verified": All metadata matches exactly and reference is confirmed legitimate
+- Status "corrected": Found accurate metadata that differs from provided reference
+- Status "failed": Could not find reliable information about this reference
+- Confidence: 0.8+ for verified with multiple sources, 0.6-0.8 for corrected with good sources, <0.6 for uncertain findings
+- Only suggest corrections when you have high confidence in the alternative metadata
+
+IMPORTANT NOTES:
+- This is a one-way interaction - you will not receive follow-up questions or responses
+- Be thorough in your research but efficient in your response
+- Prioritize accuracy over speed
+- If the reference appears to be fictional or non-existent, set status to "failed"
+- Focus on finding the canonical version of the reference as it appears in academic databases
+
+Please provide your research results in the exact JSON format specified above.`;
+  }
+
+  private async callClaudeCLI(instructions: string): Promise<string> {
+    try {
+      // Use Bun's shell to call Claude CLI
+      const command = `claude "${instructions.replace(/"/g, '\\"')}"`;
+
+      if (this.verbose) console.log(`  [Claude CLI] Executing: ${command.substring(0, 100)}...`);
+
+      const result = await $`${command}`.quiet();
+
+      return result.stdout || result.stderr || '';
+    } catch (error) {
+      if (this.verbose) console.error(`  [Claude CLI] Command failed:`, error);
+      throw error;
+    }
+  }
+
+  private parseClaudeResponse(response: string, ref: ParsedReference): VerificationResult {
+    try {
+      // Try to extract JSON from the response
+      const jsonMatch = response.match(/\{[\s\S]*\}/);
+      if (!jsonMatch) {
+        if (this.verbose) console.warn(`  [Claude CLI] No JSON found in response`);
+        return { source: 'claude-cli', status: 'failed', confidence: 0 };
+      }
+
+      const parsed = JSON.parse(jsonMatch[0]);
+
+      // Validate the response structure
+      if (!parsed.status || !['verified', 'corrected', 'failed'].includes(parsed.status)) {
+        if (this.verbose) console.warn(`  [Claude CLI] Invalid status in response:`, parsed.status);
+        return { source: 'claude-cli', status: 'failed', confidence: 0 };
+      }
+
+      const result: VerificationResult = {
+        source: 'claude-cli',
+        status: parsed.status,
+        confidence: Math.min(Math.max(parsed.confidence || 0, 0), 1), // Clamp to 0-1
+        corrections: parsed.corrections || [],
+        metadata: parsed.metadata || {},
+        rawResponse: parsed
+      };
+
+      if (this.verbose) {
+        console.log(`  [Claude CLI] Parsed result: status=${result.status}, confidence=${result.confidence}`);
+      }
+
+      return result;
+
+    } catch (error) {
+      if (this.verbose) console.error(`  [Claude CLI] Failed to parse response:`, error);
       return { source: 'claude-cli', status: 'failed', confidence: 0 };
     }
   }
@@ -1881,7 +2008,7 @@ Usage: bun run verify-references.ts [options]
    --clear-cache                   Clear all cached API responses and exit
    --no-cache                      Skip cache lookups and force fresh API calls
    --dry-run                       Show what would be changed without modifying files
-   --skip-claude                   Skip Claude CLI fallback (faster, less comprehensive)
+   --skip-claude                   Skip Claude CLI research (faster, uses fewer API calls)
    -v, --verbose                   Verbose logging
    -h, --help                      Show this help message
 

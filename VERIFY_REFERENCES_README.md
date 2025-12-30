@@ -45,10 +45,11 @@ The script tries each verifier in order until one succeeds:
    - Checks if URLs are accessible
    - Validates HTTP/HTTPS links
 
-5. **Claude CLI** (research fallback) - confidence: 0.40-0.50
-   - Uses web search to find references
-   - Handles ambiguous cases
-   - **Note**: Costs API credits, use `--skip-claude` to disable
+5. **Claude CLI** (intelligent research) - confidence: 0.40-0.80
+   - Uses Claude AI to research and verify references
+   - Searches academic databases and web sources
+   - Handles complex or ambiguous cases
+   - **Note**: Requires Claude CLI installation, use `--skip-claude` to disable
 
 ### Confidence Threshold
 
@@ -158,9 +159,9 @@ This is normal - CrossRef stores the main title separately from subtitles.
 
 This occurs when the author parsing fails. The verification still works based on other metadata (DOI, ISBN, title). Check the unverifiable references report.
 
-### Claude CLI Costs
+### Claude CLI Usage
 
-If Claude CLI is enabled, each reference that falls through all other verifiers will trigger a Claude API call. This can add up for many unverifiable references. Use `--skip-claude` to avoid costs.
+Claude CLI provides intelligent research capabilities for references that cannot be verified through standard APIs. It uses Claude AI to search academic databases and web sources. Requires Claude CLI to be installed and configured. Use `--skip-claude` to disable if you prefer faster execution without AI research.
 
 ## Recommended Workflow
 
