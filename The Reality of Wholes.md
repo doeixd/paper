@@ -4,25 +4,44 @@
 
 Mereological nihilism claims there are no hurricanes, only particles arranged hurricane-wise; no cells, only atoms arranged cell-wise. This paper argues that once we accept four uncontroversial premises (causality, locality, information, and thermodynamics), statistical boundaries become inevitable features of physical reality, not optional human conventions.
 
-These boundaries create causal autonomy: systems become predictable and controllable through their boundaries alone, independent of external microstructure. We formalize this using the ε-machine/υ-machine framework from computational mechanics. When macro-variables predict future states as well as complete micro-data, the system has achieved computational closure. The whole genuinely causes its own future states.
+These boundaries create causal autonomy. Systems become predictable and controllable through their boundaries alone, independent of external microstructure. When a system achieves this property, the boundary creates a new causal architecture: the whole genuinely causes its own future states, not merely as a convenient summary, but as the level where causal constraints operate.
 
-This creates a dilemma for the nihilist. If "facts about arrangements" perform all the causal work objects were supposed to do (supporting intervention, enabling prediction, structuring scientific practice), then denying their reality becomes empty verbalism. The boundary does not label pre-existing molecules; it creates a new causal architecture. That architecture is the object.
+We formalize this using the ε-machine/υ-machine framework from computational mechanics. When macro-variables predict future macro-states as effectively as complete micro-descriptions, the macro-level achieves computational closure. At this point, no additional micro-information improves prediction or control. The macro-level becomes computationally self-contained, able to be simulated, intervened upon, and reasoned about independently of its micro-instantiation.
 
-We defend this view against retreats to "mere usefulness," address challenges from consciousness, and demonstrate practical implications across medicine, ecology, and technology. The argument does not force concession but makes nihilism obsolete. Wholes are inevitable where prediction, control, and compression converge. To be real is to be a pattern that any sufficiently capable intelligence, constrained by this universe's physics, is forced to discover. The hurricane is as real as its molecules.
+This constrains the nihilist's position to a largely terminological dispute. If "facts about arrangements" perform all the causal work objects were supposed to do (supporting intervention, enabling prediction, structuring scientific practice), then denying their reality becomes empty verbalism. The boundary does not label pre-existing molecules; it creates a new causal architecture. That architecture is the object.
+
+We defend this view against retreats to "mere usefulness," address challenges from consciousness, and demonstrate practical implications across medicine, ecology, and technology. Where causal powers, counterfactual stability, and resistance to informational intrusion converge, objecthood is instantiated. Wholes are not fundamental, but they are metaphysically real as unified loci of causal powers. Any sufficiently capable agent attempting to predict and intervene within the same constraints is forced to encode these patterns, on pain of incurring unsustainable algorithmic complexity. The hurricane is as real as its molecules in this sense.
 
 
 ### Introduction
 
 *Is a hurricane "real," or is it merely air molecules in motion?* While the question may initially appear trivial, we name hurricanes, track them, and flee from them. Mereological nihilism challenges this intuition. It claims there are no hurricanes, only molecules arranged hurricane-wise; no cells, only particles arranged cell-wise.
 
-The hurricane's boundary is not a label; it is a statistical screen that makes the interior conditionally independent of the exterior. And boundaries like this are not optional features of reality; they are mathematical consequences of any dynamical system satisfying locality, finite information capacity, and energetic cost of computation.
+### Clarifying 'Real': Four Senses
 
-The boundary is not optional. It emerges from the constraints governing any physical system. Let us make this precise. If we accept four premises that even most mereological nihilists grant, a fifth conclusion follows with mathematical necessity:
+Before proceeding, we must clarify what we mean by "real." Disputes about whether wholes are 'real' often trade on an unacknowledged ambiguity in the term *real*. In practice, at least four distinct criteria are in play:
 
-1.  **Causality**: Events have causes and effects
-2.  **Locality**: Causes operate through local interactions
-3.  **Information**: Systems carry information about other systems
-4.  **Thermodynamics**: Processing information costs energy; complete tracking of all micro-information is physically expensive
+- **Universality**: Cross-agent convergence under shared constraints. Something is "real" if any sufficiently capable intelligence, interacting with the same constraints, would be forced to recognize it (e.g., hurricanes, cells, π).
+- **Physicality**: Spatiotemporal and energetic existence. Something is "real" if it occupies spacetime and exchanges energy (e.g., molecules, cells, hurricanes).
+- **Fundamentality**: Inclusion in the lowest-level ontology required to explain everything else (e.g., quantum fields, spacetime structure, fundamental constants).
+- **Causal Autonomy** (Leakiness): Stable boundaries supporting reliable intervention and prediction under perturbation (e.g., organisms, organs, hurricanes).
+
+Our argument defends wholes as real in the senses of universality and causal autonomy, even if they lack fundamentality or (in some cases) physicality. Nihilism privileges fundamentality as the sole criterion, but this is a choice, not a revelation about the world.
+
+In this paper, 'real' means: supporting a self-contained, non-leaky, computationally closed description that is sufficient for prediction, intervention, and control across a wide class of realizations.
+
+Consider $\pi$. Is it discovered or invented? Neither. It is *forced*. Given Euclidean geometry's axioms, the ratio of circumference to diameter is determined. Any intelligence working with circles must converge on $\pi$. It is neither Platonic (existing in a separate realm) nor conventional (alterable by agreement). It is constraint-determined: necessary relative to the axioms, objective relative to the problem space. You cannot choose a different value for $\pi$ and still solve the constraint problem coherently.
+
+This paper argues that wholes like hurricanes and cells share $\pi$'s status. They are forced by the constraint structure of physics, thermodynamics, and locality. Any sufficiently capable agent attempting to predict and intervene in atmospheric dynamics must eventually recognize "hurricane" as a necessary compression, on pain of incurring unsustainable algorithmic complexity. The boundary is not chosen; it is discovered through the inevitable consequences of working within constraints. Different agents may use different notations, but the compression target itself is invariant.
+
+The hurricane's boundary is not a label; it is a statistical screen that makes the interior conditionally independent of the exterior. Boundaries like this are mathematical consequences of any dynamical system satisfying locality, finite information capacity, and energetic cost of computation.
+
+Let us make this precise. If we accept four premises that even most mereological nihilists grant, a fifth conclusion follows with mathematical necessity:
+
+1. **Causality**: Events have causes and effects
+2. **Locality**: Causes operate through local interactions
+3. **Information**: Systems carry information about other systems
+4. **Thermodynamics**: Processing information costs energy; complete tracking of all micro-information is physically expensive
 
 We can *demonstrate* that certain arrangements of matter necessarily create statistical boundaries. By "demonstrate," we refer not to a logical theorem, but to an inevitability inherent in the physical constraints of the universe. These boundaries are neither optional nor projected; they are mathematical consequences. Once they emerge, they perform causal work that particles lacking a boundary-level description cannot.
 
@@ -30,11 +49,11 @@ This property requires a definition:
 
 **Causal Autonomy**: A system is causally autonomous when its future states are fully predictable and controllable, to a specified tolerance, using only variables defined at its own boundary.
 
-This creates a dilemma for the nihilist: either accept that "facts about arrangements" do everything objects were supposed to do (making their denial of objects empty verbalism), or explain why causal efficacy is not sufficient for existence. They have no principled alternative criterion. The universe is not flat; it is layered. And those layers are as real as the bedrock.
+This creates a dilemma for the nihilist: either accept that "facts about arrangements" do everything objects were supposed to do (making their denial of objects empty verbalism), or explain why causal efficacy is not sufficient for existence. They have no principled alternative criterion. The universe is not flat; it is layered. And those layers are as causally autonomous as the bedrock.
 
 Before proceeding, we must clarify what we mean by "causal work." This matters because the nihilist might grant that boundaries are useful while denying they are real.
 
-Here we adopt the interventionist theory of causation (Woodward 2003; Pearl 2009): $X$ causes $Y$ if intervening on $X$ changes $Y$, holding other factors fixed. On this view, causation is not about "little things banging into other things" but about which variables make a difference under intervention. When macro-variables support successful intervention (steering a hurricane by seeding clouds, curing a disease by targeting a pathway, crashing a market by changing interest rates), those variables are doing causal work in the only sense that matters scientifically.
+Here we adopt the interventionist theory of causation (Woodward 2003; Pearl 2000): $X$ causes $Y$ if intervening on $X$ changes $Y$, holding other factors fixed. On this view, causation is not about "little things banging into other things" but about which variables make a difference under intervention. When macro-variables support successful intervention (steering a hurricane by seeding clouds, curing a disease by targeting a pathway, crashing a market by changing interest rates), those variables are doing causal work. On the interventionist account of causation, successful macro-level interventions establish that macro-variables are causally sufficient for prediction and control. This establishes explanatory and interventional autonomy, not ontological fundamentality.
 
 Predictive equivalence matters because it reveals which level of description captures the intervention-relevant structure. If macro-variables predict as well as micro-variables, then the macro-level *is* the causal level for that phenomenon. Adding micro-detail changes nothing about what interventions will succeed.
 
@@ -61,9 +80,7 @@ This represents a Markov blanket, a boundary where knowing the state of the barr
 
 Formally:
 
-```latex
-$P(\text{inside} \mid \text{walls}, \text{outside}) = P(\text{inside} \mid \text{walls})$
-```
+$$P(\text{inside} \mid \text{walls}, \text{outside}) = P(\text{inside} \mid \text{walls})$$
 
 When this equality holds, the "outside" variable becomes mathematically redundant. The nihilist objects: "It is particles arranged box-wise." But arrangement is not neutral. This property, a screen between regions, did not exist before the box. The boundary is a new causal constraint on information flow. (Part 5 formalizes this as computational closure: when macro-variables predict the future as well as micro-variables, the micro-details become redundant.)
 
@@ -93,11 +110,15 @@ Nature brims with natural boundaries: cell membranes, organ systems, ecosystem e
 
 It is crucial to clarify that this process requires no observer. Evolution acts as a blind selection mechanism against thermodynamic decay. Configurations that fail to establish effective Markov blankets are unstable; they dissipate because they cannot regulate their internal entropy against environmental perturbations. The boundaries we observe are the survivors of this selection process. These boundaries are not arbitrary conceptual carvings; they are the specific subset of arrangements that possess the physical property of self-maintenance. They constitute natural kinds defined by their thermodynamic stability.
 
-However, these boundaries are not binary walls; they are statistical gradients. Closure is rarely perfect; it is a matter of degree. We can grade reality by the leakiness of the boundary. A granite boulder has extremely tight closure; very little external information (short of a sledgehammer) disrupts its macro-state prediction. A social category like class or race is leakier; its predictive power fluctuates based on context. The boulder is "more real" only in the sense that its closure is more robust across a wider range of perturbations.
+However, these boundaries are not binary walls; they are statistical gradients. Boundary closure is a matter of degree because leakiness can be quantified as the rate at which algorithmic complexity must be imported from the environment to sustain accurate prediction. Boundaries with low complexity influx support stable compression and intervention; those with high influx collapse into additive descriptions. A granite boulder has extremely tight closure; very little external information (short of a sledgehammer) disrupts its macro-state prediction. A social category like class or race is leakier; its predictive power fluctuates based on context. The boulder is "more real" only in the sense that its closure is more robust across a wider range of perturbations.
 
-It is tempting to view dimensions like "Law" or "Culinary Tradition" and call them observer-relative because they depend on human minds. But this confuses origin with ontology. A dimension exists wherever a specific set of constraints creates a stable landscape for prediction. Whether a "Checkmate" exists is not a matter of opinion; it is a mathematical fact derived from the constraints of Chess. Whether a "Corporation" exists is not a matter of feeling; it is a fact derived from the constraints of Law. To say a dimension is "observer-relative" implies we can wish its boundaries away. But try ignoring the legal dimension (e.g., stop paying taxes) and you will collide with its reality just as hard as you collide with a physical wall. The boundaries we encounter are forced upon us by the constraints of that system. Leakiness does not equal non-existence; so long as the boundary screens off enough noise to allow intervention, the entity is real.
+A critic might object that gradience undermines objectivity: if boundaries come in degrees, where do we draw the line between "real" and "unreal"? But this objection confuses gradience with arbitrariness. Many objective properties admit degrees without becoming subjective. Life itself is not binary: viruses occupy a gray zone between living and non-living, prions challenge our categories, and early replicators blurred the boundary further. Health admits degrees: chronic conditions create spectrums between healthy and diseased states. Temperature is continuous, yet we reliably distinguish hot from cold. The fact that closure comes in degrees does not make it subjective; it means reality is genuinely graded. What matters is not where we draw a verbal boundary between "object" and "non-object," but whether the degree of closure is sufficient for the explanatory task at hand. An entity with 90% closure supports robust intervention; one with 10% closure does not. The gradient is real, measurable, and does the explanatory work we need.
+
+It is tempting to view dimensions like "Law" or "Culinary Tradition" and call them observer-relative because they depend on human minds. But this confuses origin with ontology. A dimension exists wherever a specific set of constraints creates a stable landscape for prediction. Whether a "Checkmate" exists is not a matter of opinion; it is a mathematical fact derived from the constraints of Chess. Whether a "Corporation" exists is not a matter of feeling; it is a fact derived from the constraints of Law. To say a dimension is "observer-relative" implies we can wish its boundaries away. But try ignoring the legal dimension (e.g., stop paying taxes) and you will collide with its reality just as hard as you collide with a physical wall. The boundaries we encounter are forced upon us by the constraints of that system. Leakiness does not equal non-existence; so long as the boundary screens off enough noise to allow intervention, the entity is causally autonomous.
 
 Statistical boundaries exist and achieve screening-off. But what do they actually *do*?
+
+An alternative way to understand reality: what offers resistance to your internal model? Physical walls push back mechanically; you cannot walk through them regardless of your beliefs. Statistical boundaries push back informationally. Attempting to ignore them inflates algorithmic complexity without bound. The boundary is real because the universe forces you to track it. You can choose not to recognize a cell membrane in your ontology, but your predictive model will hemorrhage accuracy until you reintroduce something functionally equivalent. The resistance is not physical but computational: reality constrains which compressions work.
 
 ### Part 3: The Birth of Causal Autonomy
 
@@ -113,13 +134,15 @@ The same 100 particles organize: 20 form a boundary, 80 cluster inside. Now:
 
 This is not computational convenience. It is a new causal architecture. You can *intervene* on the whole by tweaking boundary conditions (shining light on photoreceptors, adjusting membrane permeability) rather than manipulating individual particles.
 
-This shift from particle soup to proto-cell illustrates a specific mathematical relationship: **dimensional reduction**. The boundary formation reduces a high-dimensional state space (requiring tracking of $10^{23}$ particle coordinates) into a low-dimensional state space (requiring only boundary temperature, pressure, or permeability) without significant loss of predictive fidelity. This reduction is objective; it relies on the mathematical fact that internal degrees of freedom have become statistically decorrelated from external variables. The Markov condition is not merely a description but a measurable dimensional collapse in the state space.
+This shift from particle soup to proto-cell illustrates a specific mathematical relationship: dimensional reduction. The boundary formation reduces a high-dimensional state space (requiring tracking of $10^{23}$ particle coordinates) into a low-dimensional state space (requiring only boundary temperature, pressure, or permeability) without significant loss of predictive fidelity. This reduction is objective; it relies on the mathematical fact that internal degrees of freedom have become statistically decorrelated from external variables. The Markov condition is not merely a description but a measurable dimensional collapse in the state space. This reduction is not mere notational convenience. Because information processing costs energy, a system that can predict its future by tracking boundary states alone, rather than every molecule, gains an enormous thermodynamic advantage (Rosas et al. 2024).
 
 When does composition occur? It occurs when Markov conditions are satisfied to the degree that intervention on the boundary reliably controls the interior. Biological boundaries are leaky, but they achieve robust closure across relevant timescales and perturbations.
 
 Critics might argue this makes reality interest-relative, since closure depends on an error tolerance. Who decides how much "leakage" is acceptable?
 
-The answer is thermodynamics and survival. The tolerance is not arbitrary; it is the threshold of disintegration. If an organism sets its tolerance too loose (ignoring dangerous external variables), it dies. If it sets it too tight (trying to track every atom), it starves from the computational cost of prediction. The "correct" tolerance is an objective survival parameter discovered by evolution, not chosen by observers. The boundaries we observe are not the ones we like; they are the ones that successfully balanced predictive accuracy against metabolic cost over billions of years.
+We can formalize this as *information leakage*: the rate at which external variables must be imported into the model to maintain predictive accuracy. A granite boulder has minimal leakage; knowing its surface state predicts its internal state indefinitely without external supplementation. A social category like "middle class" has high leakage across contexts; the boundary constantly requires ad-hoc adjustments as economic conditions shift. Leakage is not subjective. It is measurable as the algorithmic complexity influx required to sustain the boundary's predictive power. Low-leakage boundaries compress stably; high-leakage boundaries hemorrhage information and require constant patching.
+
+The answer to "who decides" is thermodynamics and survival. The tolerance is not arbitrary; it is the threshold of disintegration. If an organism sets its tolerance too loose (ignoring dangerous external variables), it dies. If it sets it too tight (trying to track every atom), it starves from the computational cost of prediction. The "correct" tolerance is an objective survival parameter discovered by evolution, not chosen by observers. The boundaries we observe are not the ones we like; they are the ones that successfully balanced predictive accuracy against metabolic cost over billions of years.
 
 Nature itself enforces which compressions work. We do not decide that the cell membrane works as a boundary; experiments converge on the same boundaries regardless of investigator or theoretical commitment. Projectibility (support for counterfactual predictions) is objective. Approximate closure does not undermine reality; it is precisely what allows robustness across noise, perturbation, and scale.
 
@@ -131,9 +154,11 @@ Evolution selects for boundaries, not particles. The nihilist's flat ontology ca
 
 But hierarchy is not the only structure. Reality is also dimensional. We must distinguish between scale and dimension. A corporation has no causal closure in physics. It is just people and paper. But in the dimension of law, it has a tight, impenetrable boundary. It can sue, be sued, and hold assets.
 
-Consider the hotdog dilemma: Is a hotdog a sandwich? In the culinary dimension, the boundary is drawn by texture and expectation, perhaps excluding the hotdog. In the regulatory dimension (tax law), the boundary may explicitly include it. Both boundaries are real because both allow for perfect prediction within their respective domains (predicting a tax bill versus predicting a culinary experience). Reality is not just layered vertically; it is dimensional. An entity exists in whichever dimension it achieves computational closure.
+Consider the hotdog dilemma: Is a hotdog a sandwich? In the culinary dimension, the boundary is drawn by texture and expectation, perhaps excluding the hotdog. In the regulatory dimension (tax law), the boundary may explicitly include it. Both boundaries are causally autonomous because both allow for perfect prediction within their respective domains (predicting a tax bill versus predicting a culinary experience). Reality is not just layered vertically; it is dimensional. Within a given domain of constraints (physical, biological, legal), entities that achieve stable predictive and interventional roles function as domain-relative objects.
 
-Crucially, these dimensions are not merely observer-relative; they are **constraint-relative**. It is tempting to view the legal or culinary dimensions as subjective projections, but this confuses origin with ontology. A dimension exists wherever a specific set of constraints, whether thermodynamic, legal, or game-theoretic, creates a stable landscape for prediction. Once these constraints are established, the closure they generate is objective. Whether a move is "Checkmate" is not a feeling; it is a mathematical fact derived from the constraints of Chess. Whether a corporation is "Liable" is a fact derived from the constraints of Law. We may choose which dimension to engage, but once we enter the domain, the boundaries we encounter are forced upon us by the system's constraints. These constraint-relative entities function as objective invariants within their dimensional logic, imposing non-negotiable consequences on the agent's future possibilities just as rigidly as physical walls impose spatial constraints.
+This is not relativism. The culinary closure either succeeds (predicts diner expectations without leakage) or fails (requires constant exceptions and ad-hoc rules for edge cases). The regulatory closure either succeeds (predicts tax liability without ambiguity) or fails (generates endless litigation). Multiple valid closures can coexist because they operate over different constraint spaces. What cannot coexist is a valid closure and an invalid one pretending to be valid. The difference between genuine dimensional closure and arbitrary categorization is measurable: genuine closures minimize information leakage within their domain; arbitrary categories hemorrhage exceptions.
+
+Crucially, these dimensions are not merely observer-relative; they are constraint-relative. It is tempting to view the legal or culinary dimensions as subjective projections, but this confuses origin with ontology. A dimension exists wherever a specific set of constraints, whether thermodynamic, legal, or game-theoretic, creates a stable landscape for prediction. Once these constraints are established, the closure they generate is objective. Whether a move is "Checkmate" is not a feeling; it is a mathematical fact derived from the constraints of Chess. Whether a corporation is "Liable" is a fact derived from the constraints of Law. We may choose which dimension to engage, but once we enter the domain, the boundaries we encounter are forced upon us by the system's constraints. These constraint-relative entities function as objective invariants within their dimensional logic, imposing non-negotiable consequences on the agent's future possibilities just as rigidly as physical walls impose spatial constraints.
 
 But showing that boundaries *can* exist is not enough. We need a test for when they *do* exist.
 
@@ -145,10 +170,12 @@ Consider a thought experiment: A trumpet is connected to a lightbulb. We derive 
 
 But the Rosas et al. (2024) framework offers a rebuttal: If the system is causally closed, the 'Trumpet Formula' is not merely a description; it constitutes the *maximal explanation* possible. Two types of prediction machines capture this distinction:
 
--   **$\upsilon$-machine (Upsilon)**: The complete micro-story, the best possible prediction of the macro-future using every molecule's exact position and velocity.
--   **$\varepsilon$-machine (Epsilon)**: The compressed macro-story, the best prediction of the macro-future using only macro-data like temperature, membrane state, or the note played.
+- $\upsilon$-machine (Upsilon): The complete micro-story, the best possible prediction of the macro-future using every molecule's exact position and velocity.
+- $\varepsilon$-machine (Epsilon): The compressed macro-story, the best prediction of the macro-future using only macro-data like temperature, membrane state, or the note played.
 
-When both predict equally well, the macro-level has achieved **computational closure**. This is the condition where macro-variables fully determine future macro-states without needing micro-details. Causal closure here does not mean the macro-level is independent of microphysics, but rather that it is sufficient for prediction and intervention over the target variables without needing to look "down." The system becomes informationally self-contained.
+When both predict equally well, the macro-level has achieved computational closure. But "predicts equally well" needs precision. Closure depends on three parameters (Rosas et al. 2024): how far ahead you are predicting (a cell membrane achieves closure over seconds, not hours), how much error you can tolerate (predicting a hurricane's landfall within 50 km versus 10 km), and which interventions you are considering (a membrane screens off chemical diffusion but not gamma radiation). Closure is not absolute but task-relative. However, once the prediction task is specified, whether the macro-variables achieve closure is fully objective and measurable, independent of the investigator's preferences. The system becomes informationally self-contained for that task.
+
+A critic might press: does not "target variables" make closure relative to our chosen prediction task? If we get to choose what we are predicting, are we not smuggling in subjectivity? The answer requires distinguishing two claims. The choice of prediction task is indeed context-dependent: a cardiologist predicts cardiac output, an ecologist predicts population dynamics, and an atmospheric physicist predicts storm trajectories. These are different tasks driven by different practical interests. However, once the prediction task is fixed, whether a proposed boundary achieves closure for that task is entirely objective. Either the macro-variables screen off the micro-details or they do not. Either adding electron positions improves cardiac output prediction or it does not. This is a measurable fact, not a matter of perspective. Objectivity does not require task-independence; it requires that success or failure at a given task is determinable independently of the investigator's beliefs or preferences.
 
 This test serves as the necessary firewall against ontological triviality. A critic might ask: "What prevents us from defining a trivial dimension where the Moon and my left shoe constitute a single object?" The answer lies in information compression.
 
@@ -158,21 +185,42 @@ To describe a "Shoe-Moon" object, you must first describe every property of the 
 
 By contrast, describing a hurricane is qualitatively different. Instead of enumerating the position, velocity, and thermodynamic state of $10^{23}$ independent air molecules, you describe a single structural constraint: a rotating atmospheric vortex with specific pressure gradients and angular momentum. This single pattern specification captures the collective behavior of trillions of particles. The compression ratio is astronomical.
 
-This intuition can be formalized via Kolmogorov complexity: genuine wholes allow compressed descriptions where the code describing the system's evolution as a unit is shorter than the code describing its parts independently. The "Shoe-Moon" fails this test because it is algorithmically incompressible relative to its components. The hurricane succeeds because the vortex pattern achieves massive compression.
+This intuition can be formalized via Kolmogorov complexity: Compression is not epistemic convenience but ontological diagnosis. A system that admits a stable, low-complexity description of its causal evolution thereby constitutes a unified causal power. Where such compression fails, objecthood fails with it. The "Shoe-Moon" fails this test because it is algorithmically incompressible relative to its components. The hurricane succeeds because the vortex pattern achieves massive compression.
 
-This compression is not mere notational convenience. Information is physical (Landauer 1961); processing information costs energy. A system that can predict its environment by tracking a single boundary state (the hurricane's eye wall pressure and rotation) rather than tracking $10^{23}$ particle trajectories has an enormous thermodynamic advantage. Natural selection operates on this energetic reality. An organism that models its environment using the "Shoe-Moon" additive method will starve from computational overhead. Evolution selects for compressive boundaries because they minimize the metabolic cost of prediction.
+This compression is not mere notational convenience. Information is physical (Landauer 1961); processing information costs energy (Landauer 1981). A system that can predict its environment by tracking a single boundary state (the hurricane's eye wall pressure and rotation) rather than tracking $10^{23}$ particle trajectories has an enormous thermodynamic advantage. Natural selection operates on this energetic reality. An organism that models its environment using the "Shoe-Moon" additive method will starve from computational overhead. Evolution selects for compressive boundaries because they minimize the metabolic cost of prediction.
 
-Trivial dimensions are **brittle**; they require constant ad-hoc parameters to maintain prediction. Genuine dimensions are **low-maintenance** because they compress the state space. Real entities earn their ontological status by reducing the computational cost of prediction. If a boundary does not achieve compression, it does not exist.
+Trivial dimensions are brittle; they require constant ad-hoc parameters to maintain prediction. Genuine dimensions are low-maintenance because they compress the state space. Real entities earn their ontological status by reducing the computational cost of prediction. If a boundary does not achieve compression, it does not exist.
 
 Adding substrate information yields zero predictive improvement. The whole is not a convenient fiction; it genuinely causes its own future states. If knowing the position of every electron ($\upsilon$) adds *zero* predictive power over simply knowing the note ($\varepsilon$), then the mechanism is informationally redundant. We must distinguish between the signal (the note) and the noise (the specific electron paths). The bulb does not care about the vibrational micro-state of the brass; it cares only about the frequency profile. The macro-variable screens off the micro-noise. In a causal sense, the signal is what matters.
 
 Crucially, this test applies across dimensions. In the dimension of tax law, an $\varepsilon$-machine tracking 'corporate assets' predicts legal outcomes perfectly, while a $\upsilon$-machine tracking the physical location of every employee adds nothing. The corporate entity achieves computational closure in legal space, satisfying the test just as robustly as the trumpet does in acoustic space.
 
-Consider phlogiston theory in eighteenth-century chemistry. It failed this test decisively because every new experiment revealed information leakage. When metals gained weight upon burning (instead of losing phlogiston as predicted), theorists invented "negative phlogiston." When different substances showed different weight changes, more ad-hoc parameters appeared. This constant maintenance signaled that no real screening-off was occurring. Phlogiston was not a natural boundary but a failed attempt to carve one. This is the operational difference between natural joints and gerrymandered surfaces: real patterns are low-maintenance; fake ones require constant propping up and ad-hoc patches.
+### Failed Closures as Ontological Diagnostics
+
+Not all attempted boundaries succeed. Historical science is littered with entities that failed the closure test. These failures exhibit a characteristic signature: *information leakage*. The boundary cannot screen off the interior from external variables, forcing constant ad-hoc supplementation to maintain predictive accuracy.
+
+Consider these failed ontological posits:
+
+| Attempted Entity | Leakage Signature | What Replaced It |
+|------------------|-------------------|------------------|
+| **Phlogiston** | Weight gain during burning contradicted phlogiston-release model; required inventing "negative phlogiston" to patch the theory | Oxygen theory |
+| **Caloric** | Mechanical work generated unlimited heat (Rumford's cannon boring experiments); contradicted conservation of caloric fluid | Kinetic theory of heat |
+| **Élan Vital** | Every biological function required mechanistic supplementation; no autonomous explanatory power emerged | Molecular biology |
+| **Miasma** | Disease patterns did not track air quality (Snow's cholera mapping); required constant geographic exceptions | Germ theory |
+
+These are not merely failed theories. They are failed ontological posits. The closures they attempted do not correspond to valid compression targets in reality's constraint structure. Phlogiston theory required constant maintenance because it was carving a boundary where none existed. When metals gained weight upon burning instead of losing phlogiston as predicted, theorists invented "negative phlogiston." When different substances showed different weight changes, more ad-hoc parameters appeared. This constant patching signaled that no causally autonomous screening-off was occurring.
+
+By contrast, cells, hurricanes, and metabolic pathways achieve tight closure. Adding micro-details provides zero predictive improvement. The hurricane's pressure gradient and rotation fully determine its trajectory; knowing the quantum state of every air molecule adds nothing to the forecast. The cell's membrane state fully determines nutrient uptake; knowing every electron orbital in the surrounding medium adds nothing to the prediction. This difference is objective, not a matter of theoretical preference or epistemic limitation.
+
+The operational test is maintenance cost. Causally autonomous patterns are low-maintenance; they compress the state space and resist information leakage under perturbation. Failed boundaries require constant ad-hoc parameters, epicycles, and exceptions because they are fighting against reality's grain. Phlogiston was not a natural joint; oxygen was. The universe's constraint structure filtered which closures survive empirical scrutiny.
+
+Like $\pi$, successful entities are constraint-determined compressions. Just as $\pi$ emerges necessarily from Euclidean axioms (any alternative inflates calculation complexity without bound), oxygen emerges necessarily from thermodynamic constraints (any alternative inflates predictive complexity without bound). Phlogiston was not forced by the constraint structure; chemists could abandon it without loss once oxygen provided superior compression. But they could not abandon oxygen without incurring escalating information leakage. The boundary around "oxygen" is discovered, not chosen, because it minimizes the algorithmic complexity required to predict combustion. This is why cross-agent convergence occurs: different investigators working under the same constraints are driven toward the same compression targets.
 
 Think of water flowing through a pipe. An $\upsilon$-machine would try to predict the flow by tracking the vector and velocity of all $10^{23}$ water molecules. An $\varepsilon$-machine uses the Navier-Stokes equations, treating the water as a continuous fluid in terms of pressure and viscosity. When the fluid equations predict the flow as accurately as the molecular simulation, the "fluid" is causally real. It's not just a summary; it's the level where the causal constraints operate.
 
 The nihilist might concede the test is rigorous but deny its ontological significance.
+
+These considerations reveal a common structure underlying causal autonomy, universality, and dimensional overlap. A boundary that exhibits low leakiness permits sustained compression of the system's dynamics. Wholes recur across domains because the same computational structures arise as stable, non-leaky coarse-grainings under widely different micro-dynamics. Universality here reflects the reappearance of the same effective computation, not a privileged ontological status. Cross-dimensional overlap is therefore not an additional metaphysical ingredient, but a signal that the boundary resists complexity leakage under many forms of intervention. Entities that persist across dimensions are those whose boundaries minimize algorithmic complexity inflow across a wide range of constraints.
 
 ### Part 6: The Nihilist's Retreat / The Implementation Layer
 
@@ -188,16 +236,16 @@ Fundamentality refers to the abstraction hierarchy and the implementation substr
 
 Reality refers to the tightness of causal closure (e.g., the software bug causes the crash, not the silicon).
 
-Physical reality has a special status not because it is more real, but because it is the **implementation layer** for everything else. Legal reality runs on paper, servers, and human brains; software reality runs on silicon and electricity. While dimensions are orthogonal in their causal logic; one cannot explain a tax code using voltage; they are tethered by existential dependency. If the physical implementation layer is destroyed, the higher-order dimensions vanish as well.
+Physical fundamentality has a special status not because it is more real, but because it is the implementation layer for everything else. Legal reality runs on paper, servers, and human brains; software reality runs on silicon and electricity. While dimensions are orthogonal in their causal logic; one cannot explain a tax code using voltage; they are tethered by existential dependency. If the physical implementation layer is destroyed, the higher-order dimensions vanish as well.
 
-A sophisticated objection must be addressed here. The nihilist might grant that macro-entities achieve causal closure while insisting they remain ontologically derivative because they supervene on the micro-substrate. We must distinguish between **Existential Dependence** and **Causal Independence**:
+A sophisticated objection must be addressed here. The nihilist might grant that macro-entities achieve causal closure while insisting they remain ontologically derivative because they supervene on the micro-substrate. We must distinguish between Existential Dependence and Causal Independence:
 
-1. **Existential Dependence**: The macro-entity requires the micro-substrate to exist. If the atoms vanish, the cell vanishes.
-2. **Causal Independence**: The causal trajectory of the macro-entity is determined by macro-variables, with micro-fluctuations screened off.
+1. Existential Dependence: The macro-entity requires the micro-substrate to exist. If the atoms vanish, the cell vanishes.
+2. Causal Independence: The causal trajectory of the macro-entity is determined by macro-variables, with micro-fluctuations screened off.
 
 The nihilist error is to assume that (1) implies the negation of (2). However, in systems achieving computational closure, the specific micro-trajectory becomes chemically irrelevant to the macro-outcome, provided it remains within the manifold of states compatible with the macro-description. The implementation layer provides the *capacity* for the system to exist, but the macro-structural constraints determine the *direction* of its future states. Supervenience establishes a dependency relation, not an identity relation. The software bug supervenes on silicon states but is not reducible to them; the causal explanation operates at the software level.
 
-Consider the phenomenon of **Multiple Realizability**. You can run the exact same spreadsheet calculation on silicon transistors, on vacuum tubes, or with a room full of people using abacuses. If the spreadsheet crashes due to a logic error (division by zero), the crash is caused by the algorithmic structure, not by the voltage of the silicon, the filaments in the tubes, or the wood of the abacuses. Because the crash can occur on three totally different physical substrates, the *cause* cannot be physical; the cause must be at the algorithmic level.
+Consider the phenomenon of Multiple Realizability. You can run the exact same spreadsheet calculation on silicon transistors, on vacuum tubes, or with a room full of people using abacuses. If the spreadsheet crashes due to a logic error (division by zero), the crash is caused by the algorithmic structure, not by the voltage of the silicon, the filaments in the tubes, or the wood of the abacuses. Because the crash can occur on three totally different physical substrates, the *cause* cannot be physical; the cause must be at the algorithmic level. What makes it "the same" software is not the physical substrate but the causal structure—the pattern of dependencies between computational states. A causally closed macroscopic process has this same property: it "runs" regardless of whether its micro-instantiation uses atoms, electrons, or some other substrate, so long as the causal architecture is preserved (Rosas et al. 2024).
 
 The physical layer provides the capacity for existence, but the structural layer dictates the outcome. The nihilist who insists on reducing everything to the substrate is like a hardware engineer trying to find a spelling error by inspecting the motherboard with a microscope. They are examining the reality of the implementation while missing the reality of the dynamic.
 
@@ -205,7 +253,7 @@ This even resolves the "China Brain" puzzle (Block 1978). If a population of a b
 
 This distinction clarifies how orthogonal dimensions interact without collapsing into incoherent pluralism. How can a legal concept (a warrant) cause a physical event (an arrest)? They interact through the implementation layer. Dimensions are distinct in their causal logic (since one cannot explain a tax statute using voltage) but remain tethered by existential dependency. Interaction occurs when a causal chain in one dimension triggers a state change in the implementation layer, which then propagates upward into another dimension. For example: a judge signs a warrant (Legal Dimension). This moves physical ink on paper (Implementation Layer). This physical token is observed by a police officer, changing their cognitive state (Psychological Dimension), leading to a physical arrest (Physical Dimension). We avoid the "ghost in the machine" problem because we are not positing distinct substances passing through one another; we are describing software processes running on the same hardware.
 
-This logic applies recursively across every level of the universe. The rock is more fundamental than the corporation, but the corporation is just as real within its causal domain.
+This logic applies recursively across every level of the universe. The rock is more fundamental than the corporation, but the corporation is just as causally autonomous within its causal domain.
 
 The boundary changes what would happen if you intervened. If the boundary is real and does causal work, what could it mean to deny the objecthood of what it bounds? In a meaningful sense, the boundary defines the object.
 
@@ -213,7 +261,7 @@ Consider what it means for a boundary to "define" an object. The hurricane's bou
 
 If the nihilist retreats to facts, we must ask: what kind of thing is a fact that does causal work?
 
-This raises a deeper question about the relationship between physical structure and higher-order properties. Nowhere is this more pressing than in understanding consciousness.
+This question becomes especially acute when we turn to mental content. If a boundary can constitute an object despite supervening on particles, can a pattern of neural activity constitute a thought despite supervening on neurons? The nihilist's logic (that only the fundamental substrate is real) faces its strongest challenge here, because denying the reality of mental states while experiencing them creates immediate tension. This makes consciousness the critical test case for our framework.
 
 ### Part 7: Where Is the Triangle?
 
@@ -221,16 +269,18 @@ A significant challenge arises from consciousness. A critic might ask: *"When I 
 
 This question contains two distinct puzzles, and intellectual honesty requires separating them:
 
-1. **The location problem**: What kind of thing is mental content, and how does it relate to neural activity?
-2. **The phenomenal problem**: Why is there *something it is like* to visualize a triangle?
+1. The location problem: What kind of thing is mental content, and how does it relate to neural activity?
+2. The phenomenal problem: Why is there *something it is like* to visualize a triangle?
 
-Our framework addresses the first problem directly. The paper by Rosas et al. provides formal support for the analogy of the mind as software: a system runs software when its macroscopic state determines its future state irrespective of hardware details. When you visualize a triangle, that representational pattern is substrate-independent (a valid causal entity because it is the effective theory of that cognitive process). The "triangle" (as functional content) is the ε-machine; the firing neurons are the hardware implementation. The reason you cannot find the triangle by dissecting neurons is the same reason you cannot find Microsoft Word by examining silicon: you are looking at the wrong level of description. Mental content exists at the level where cognitive patterns achieve causal closure.
+Our framework addresses the first problem directly. However, we must acknowledge what this commits us to: this framework entails at least a weak functionalism about mental content. That is, we are committed to the view that what makes a mental state the state it is depends on its functional role (its causal-computational relations to inputs, outputs, and other states), not solely on its physical substrate.
 
-The "screen" objection (O'Connor argues computer analogies fail because there is no screen in the brain) misses this point: the ε-machine *is* the screen. It is the level at which the pattern becomes computationally closed and self-predicting. No external observer is needed because the system itself operates at that level. The triangle exists at the ε-level, not the υ-level. It is not *in* the neurons any more than Python code is *in* silicon. It is a constraint-determined pattern that runs on the substrate.
+This commitment follows from our core claim. The paper by Rosas et al. provides formal support for the analogy of the mind as software: a system runs software when its macroscopic state determines its future state irrespective of hardware details. When you visualize a triangle, that representational pattern is substrate-independent (a valid causal entity because it is the effective theory of that cognitive process). The "triangle" (as functional content) is the ε-machine; the firing neurons are the hardware implementation. The reason you cannot find the triangle by dissecting neurons is the same reason you cannot find Microsoft Word by examining silicon: you are looking at the wrong level of description. Mental content is best characterized at the level where cognitive patterns achieve explanatory and interventional sufficiency, independent of their neural implementation.
+
+The "screen" objection (O'Connor argues computer analogies fail because there is no screen in the brain) misses this point: the ε-machine *is* the screen. It is the level at which the pattern achieves explanatory and interventional sufficiency. No external observer is needed because the system itself operates at that level. The triangle exists at the ε-level, not the υ-level. It is not *in* the neurons any more than Python code is *in* silicon. It is a constraint-determined pattern that runs on the substrate.
 
 Consider a child drawing a dragon. Biologically, the dragon does not exist (it has no DNA). But in representational space, the dragon is a compression of predator, a high-fidelity symbol that predicts fear responses, narrative structures, and cultural transmission.
 
-If we ask "Is the dragon real?", we must ask "In what dimension?" In biology: No. In the causal architecture of human psychology: Yes. It achieves closure because intervening on the symbol (showing a picture of a dragon) reliably produces a predictable macro-state (fear/awe) without the subject needing to process the micro-details of actual lions or snakes. The dragon is a real psychological interface for a dangerous world.
+If we ask "Is the dragon causally autonomous?", we must ask "In what dimension?" In biology: No. In the causal architecture of human psychology: Yes. It achieves closure because intervening on the symbol (showing a picture of a dragon) reliably produces a predictable macro-state (fear/awe) without the subject needing to process the micro-details of actual lions or snakes. The dragon is a causally autonomous psychological interface for a dangerous world.
 
 But what about phenomenal experience (the redness of red, the felt quality of visualizing that triangle)?
 
@@ -240,21 +290,99 @@ Setting aside the phenomenal problem's unresolved status, these considerations p
 
 ### Part 8: Rainforest Realism
 
-The debate becomes semantic. Ladyman and Ross propose Rainforest Realism: existence is lush with entities at every scale where patterns achieve projectibility (support counterfactuals) and information compression. A hard-nosed metaphysician might insist this is an account of explanation, not existence. We accept the charge but deny the distinction. There is no principled gap between "what exists" and "what plays an indispensable causal role in the best explanation of reality." Fundamentality without an autonomous causal role is an honorific, not an explanatory category.
+The debate becomes semantic. Ladyman and Ross propose Rainforest Realism: reality (in multiple senses) is lush with entities at every scale where patterns achieve projectibility (support counterfactuals) and information compression. A hard-nosed metaphysician might insist this is an account of explanation, not existence. We accept the charge but deny the distinction. There is no principled gap between "what exists" and "what plays an indispensable causal role in the best explanation of reality." Fundamentality without an autonomous causal role is an honorific, not an explanatory category.
 
-This position has three primary implications for how we understand reality.
+The key insight: boundaries are not arbitrary labels but constraint-determined invariants. Consider $\pi$. It is neither Platonic (discovered in another realm) nor conventional (invented by agreement). It is *forced*. Any intelligence working with Euclidean circles must converge on it. Biological and social boundaries share this status. To exist, in the relevant sense, is to be an invariant solution to a constraint problem that any sufficiently capable agent must eventually encode.
 
-First, **scale relativity**. At scale A (micro), the cup does not exist; at scale B (macro), the cup *does* exist. Both scales are equally real; physics does not grant the micro-scale ontological privilege. Consider: a human being exists simultaneously as a quantum field, a cellular colony, and a voting citizen. None of these descriptions is "more real" than the others. Each level achieves closure at its own scale. The voter is a valid object because you can predict election outcomes using "voters" without knowing anything about their mitochondria. This predictive independence demonstrates causal autonomy at the civic scale. The nihilist's attempt to reduce the cell to atoms is a category error: it confuses one scale of description with the only reality.
+Just as any intelligence working with Euclidean circles must discover $\pi$ (because it is forced by geometric constraints), any intelligence modeling hurricane dynamics must discover the vortex compression (because it is forced by thermodynamic constraints). The boundaries we identify are objective in precisely this sense: they are constraint-determined invariants that emerge necessarily from the physics, independent of the observer's representational choices. This explains why cross-agent convergence occurs. Different investigators working under the same constraints are driven toward the same compression targets. The pattern is forced upon any predictor by the thermodynamic structure of the domain.
 
-Second, the **Four Axes of Realness**. We can distinguish between different "degrees" of reality by measuring entities along four independent axes:
-1.  **Causal Closure**: The effectiveness of the boundary. How completely does the boundary screen off the interior from external noise?
-2.  **Fundamentality**: The level in the implementation hierarchy. Quarks are fundamental (low abstraction); corporations are highly abstract.
-3.  **Constraint Tightness**: How negotiable the boundaries are. Thermodynamics is inflexible; culinary categories are socially negotiable.
-4.  **Sharedness**: The degree of agent convergence. The value of $\pi$ is a universal invariant; specialist expertise is a narrow one.
+This yields a structured ontology, not an undifferentiated jungle.
 
-An entity scores differently across these dimensions. A granite boulder scores high on all four: tight closure, low abstraction, inflexible constraints, and universal sharedness. A corporation is abstract and socially negotiable, yet it achieves tight causal closure in legal space. By distinguishing these axes, we avoid conflating "fundamental" with "real" and can respect the "lushness" of the rainforest without descending into relativism.
+Scale relativity is central to this structure. At scale A (micro), the cup does not exist; at scale B (macro), the cup *does* exist. Both scales are equally causally autonomous; physics does not grant the micro-scale ontological privilege. Consider: a human being exists simultaneously as a quantum field, a cellular colony, and a voting citizen. None of these descriptions is "more real" than the others. Each level achieves closure at its own scale. The voter is a valid object because you can predict election outcomes using "voters" without knowing anything about their mitochondria. This predictive independence demonstrates causal autonomy at the civic scale. The nihilist's attempt to reduce the cell to atoms is a category error: it confuses one scale of description with the only reality.
 
-Third, **structural invariance**. These boundaries are not arbitrary labels but stable solutions to the constraints of survival and coordination. Consider an analogy from mathematics: $\pi$ is not a physical object, nor is it a mere invention. It is a constraint-determined invariant. Given the axioms of geometry, any intelligence working with circles must eventually discover $\pi$; it is forced into existence by the constraints of the problem. Biological and social boundaries are similar. To exist, in any meaningful sense, is to be an invariant solution to a constraint problem.
+Beyond scale relativity, invariants vary along multiple dimensions of 'realness,' creating a rich multi-dimensional spectrum rather than a simple hierarchy.
+
+### What Makes an Invariant
+
+The entities we have defended—hurricanes, cells, corporations, and even abstract structures like $\pi$—share a common status: they are **constraint-determined invariants**. An invariant, in this sense, is not a Tier 1 category but the defining characteristic of any successful boundary.
+
+An entity is an invariant when three conditions converge:
+
+1. **Constraint-determined attractor**: The boundary emerges necessarily from the constraint structure of its domain, not arbitrarily. Any agent working under the same constraints will be driven toward the same compression.
+
+2. **Statistically useful for prediction**: The boundary enables stable, low-leakage prediction of future states. It compresses the state space without sacrificing predictive accuracy.
+
+3. **Interventional closure**: You can intervene on the entity at its own level. Manipulating the boundary variables reliably controls the system's future without needing to look "down" to the implementation layer.
+
+Phlogiston failed all three criteria. Oxygen, hurricanes, and corporations succeed at all three (though with different strengths along various axes). This is not a binary distinction but a matter of degree.
+
+### The Five Axes of Realness
+
+Rather than discrete categories, invariants vary along a continuous multi-dimensional spectrum. We can distinguish different "degrees" of reality by measuring entities along five independent axes:
+
+**1. Causal Closure (Leakiness)**
+
+The effectiveness of the boundary at screening off noise and supporting reliable intervention. How completely does the boundary make the interior conditionally independent of irrelevant external variables?
+
+- **Low leakage (tight closure)**: Granite boulders, thermodynamic laws, cell membranes
+- **High leakage (weak closure)**: Social categories like "middle class," gerrymandered political entities
+- **Measurable as**: Algorithmic complexity influx required to sustain predictive accuracy over time
+
+**2. Fundamentality**
+
+The level in the implementation hierarchy. How "close" is the entity to the physical substrate?
+
+- **Low abstraction (fundamental)**: Quarks, quantum fields, molecules
+- **High abstraction (derivative)**: Corporations, legal entities, culinary categories
+- **Note**: Fundamentality does not imply greater reality, only position in the dependency chain. All levels achieving closure are equally causally autonomous.
+
+**3. Constraint Tightness**
+
+How negotiable or flexible are the boundaries? Can they be altered by agreement, or are they fixed by physical/mathematical necessity?
+
+- **Inflexible (tight)**: Thermodynamic laws, $\pi$, conservation principles
+- **Semi-negotiable**: Biological categories (species boundaries blur over evolutionary time)
+- **Socially negotiable**: Legal boundaries, culinary categories, game rules
+- **Note**: Negotiability does not equal arbitrariness. Even social boundaries face objective closure constraints within their domain.
+
+**4. Sharedness (Universality)**
+
+The degree of cross-agent convergence. Would any sufficiently capable intelligence working under the same constraints discover this boundary?
+
+- **Universal invariants**: $\pi$, thermodynamic laws, molecular structures
+- **Broad convergence**: Cell membranes, atmospheric vortices (hurricanes), organ systems
+- **Narrow convergence**: Specialist expertise (legal entities, chess strategies)
+- **Context-dependent**: Culture-specific categories with local stability
+
+**5. Cross-Dimensional Overlap**
+
+The multiplicity of independent constraint systems in which the entity appears without reinterpretation. How many distinct domains converge on the same boundary?
+
+- **High overlap**: Organisms (appear in physics, chemistry, biology, ecology, medicine, psychology)
+- **Medium overlap**: Hurricanes (physics, meteorology, economics, public safety)
+- **Low overlap**: Corporations (primarily legal and economic dimensions)
+- **Minimal overlap**: Domain-specific constructs (culinary categories, game-theoretic entities)
+
+### Interpreting the Axes
+
+An entity scores differently across these dimensions. Examples:
+
+- **Granite boulder**: Tight closure, low abstraction, inflexible constraints, high universality, moderate overlap (physics, engineering, geology)
+- **Corporation**: Contextual closure (tight in legal space, leaky in physical space), high abstraction, socially negotiable, moderate sharedness (among lawyers/economists), low overlap (legal and economic domains only)
+- **Hurricane**: Tight closure, moderate abstraction, inflexible physical constraints, high universality, high overlap (physics, meteorology, economics, public safety)
+- **$\pi$**: Maximal closure (zero leakage), highest abstraction (pure invariant), perfectly inflexible, universal across all intelligences, maximal overlap (mathematics, physics, engineering, computer science)
+
+By distinguishing these axes, we avoid conflating "fundamental" with "real" and can respect the "lushness of the rainforest" (Ladyman and Ross) without descending into relativism. No single notion of "real" plays all explanatory roles; insisting that only one does is itself a metaphysical choice, not a scientific discovery.
+
+The axes are not arbitrary. They track measurable differences in:
+- Information leakage rates
+- Compression stability under perturbation
+- Convergence across independent investigations
+- Robustness across constraint spaces
+
+Whether the transitions between degrees are phase transitions or smooth gradients remains an open empirical question. What matters is that these are objective properties discoverable through experiment, not subjective projections.
+
+### Compression Objectivity
 
 A potential objection must be addressed: is compression observer-relative? Perhaps hurricanes seem "simple" only because we describe them in human language rather than in some alternative representational system. This concern confuses the representation with what is being represented.
 
@@ -262,13 +390,11 @@ The compressibility of a pattern is independent of the particular symbolic syste
 
 The invariance is structural, not accidental. The hurricane's rotating vortex is a stable attractor state in the dynamical system governing atmospheric physics. The constraint that creates this stability (conservation of angular momentum coupled with thermodynamic gradients) exists in the physical system itself, not in our linguistic or mathematical conventions. Any sufficiently capable intelligence attempting to predict atmospheric behavior must eventually recognize and encode this pattern. Failing to do so means expending vastly more computational resources tracking irrelevant microscopic trajectories that average out at the macro-scale. The pattern is forced upon any predictor by the thermodynamic structure of the domain.
 
-This connects directly to the $\pi$ analogy. Just as any intelligence working with Euclidean circles must discover $\pi$ (because it is forced by geometric constraints), any intelligence modeling hurricane dynamics must discover the vortex compression (because it is forced by thermodynamic constraints). The boundaries we identify are objective in precisely this sense: they are constraint-determined invariants that emerge necessarily from the physics, independent of the observer's representational choices.
+This explains why the nihilist's alternative (the belief that "causally autonomous" causation is limited to "microbangings" of particles) fails. Fundamental physics does not describe particles banging into each other; it describes mathematical constraints. Causation is an interventionist concept that applies to special sciences like biology and medicine, not to fundamental physics.
 
-This explains why the nihilist's alternative; the belief that "real" causation is limited to "microbangings" of particles; fails. Fundamental physics does not describe particles banging into each other; it describes mathematical constraints. Causation is an interventionist concept that applies to special sciences like biology and medicine, not to fundamental physics.
+If causation operates at the level of constraint-determined patterns rather than fundamental particles, this reshapes debates in foundational physics. The same computational closure that validates macro-objects (hurricanes, cells, minds) may clarify whether deterministic laws at the micro-level are compatible with the autonomy we observe at higher scales.
 
-These considerations have implications for long-standing debates in physics.
-
-### Part 9: Free Will
+### Part 9: Determinism and Agency
 
 Physicists often mock Superdeterminism as requiring "cosmic conspiracy," implying atoms must magically coordinate to trick us. But the computational perspective we have developed clarifies what is at stake.
 
@@ -286,7 +412,7 @@ Beyond physics, these ideas matter for practical intervention.
 
 These are not mere philosophical niceties. Mistaking the relevant causal level leads to predictable failures.
 
-**Medicine**: Atrial fibrillation is an organ-level dynamical breakdown. In this condition, the micro-ontology (cells, proteins, ion channels) remains intact, yet the system fails because the electrical propagation pattern has lost coherence. Effective treatment involves ablating tissue to restore boundary integrity. Cardiologists do not manipulate individual cardiomyocyte ion channels; they alter the **topological structure** of electrical connectivity. This demonstrates that the causal variable responsible for cardiac function is not the sum of cellular parts but the topology of their connectivity. When intervention targets the topology to restore function, we empirically demonstrate that the object of medical science is the relational structure, not the aggregate of cells. A causal theory recognizing only cells cannot explain why topological constraints dictate the outcome. A nihilist ontology would literally not know where to intervene.
+**Medicine**: Atrial fibrillation is an organ-level dynamical breakdown. In this condition, the micro-ontology (cells, proteins, ion channels) remains intact, yet the system fails because the electrical propagation pattern has lost coherence. Effective treatment involves ablating tissue to restore boundary integrity. Cardiologists do not manipulate individual cardiomyocyte ion channels; they alter the topological structure of electrical connectivity. This demonstrates that the causal variable responsible for cardiac function is not the sum of cellular parts but the topology of their connectivity. When intervention targets the topology to restore function, we empirically demonstrate that the object of medical science is the relational structure, not the aggregate of cells. A causal theory recognizing only cells cannot explain why topological constraints dictate the outcome. A nihilist ontology would literally not know where to intervene.
 
 The pattern repeats across domains.
 
@@ -305,14 +431,32 @@ These practical examples point toward a broader philosophical conclusion.
 
 We began with a hurricane and asked whether it was real. From four premises about causality, locality, information, and thermodynamics, we derived the inevitability of statistical boundaries. We showed these boundaries create causal autonomy, formalized the test for genuine wholes via computational closure, and demonstrated their practical indispensability. What picture of reality emerges?
 
-Reality is not a flat soup of particles, nor an unordered jungle of patterns. It is a hierarchy, a lattice of computational machines stratified by scale. Science is the process of discovering which machine (which level of the lattice) effectively predicts the phenomenon at hand. When we find a level that is causally closed, we have hit bedrock. We have found a Whole that is as real as its Parts.
+Reality is not a flat soup of particles, nor an unordered jungle of patterns. It is a hierarchy, a lattice of computational machines stratified by scale. Science is the process of discovering which machine (which level of the lattice) effectively predicts the phenomenon at hand. When we find a level that is causally closed, we have hit bedrock. We have found a Whole that is as causally autonomous as its Parts.
 
-What this argument establishes is that ontology ignoring causal-informational structure is incomplete. Once you accept that science tracks real patterns, that patterns support intervention, and that interventions would fail without treating wholes as units, then whether we *call* them objects becomes secondary.
+What this argument establishes is that ontology ignoring causal-informational structure is incomplete. Once you accept that science tracks real patterns (in the sense of universality and causal autonomy), that patterns support intervention, and that interventions would fail without treating wholes as units, then whether we *call* them objects becomes secondary.
 
-The nihilist position remains formally consistent but explanatorily barren. To deny the hurricane's reality after accepting its causal autonomy is to privilege etymological tradition over scientific practice. This position is not strictly inconsistent, but it is scientifically idle and explanatorily parasitic.
+The nihilist position remains formally consistent but explanatorily barren. To deny the hurricane's reality in the sense of causal autonomy after accepting its causal efficacy is to privilege etymological tradition over scientific practice. This position is not strictly inconsistent, but it is scientifically idle and explanatorily parasitic. Nihilism survives only by privileging fundamentality as the sole criterion of reality—a choice, not a discovery.
 
-The hurricane we named, tracked, and fled was not a linguistic convenience. It was a pattern this universe's constraints forced into existence.
+The hurricane we named, tracked, and fled was not a linguistic convenience. It was a constraint-determined invariant, as objective as $\pi$, as unavoidable as thermodynamics, as real as any agent attempting to model atmospheric dynamics will eventually discover. The question is not whether wholes exist, but whether we can afford to ignore the boundaries the universe forces upon us.
 
-We have not so much refuted nihilism as outgrown it. The relevant question is not "Do wholes exist?" but "What earns causal autonomy?" This is the question that matters for science and survival. Wholes are inevitable where prediction, control, and compression converge. Any agent, human or otherwise, interacting with the atmosphere's constraints must eventually adopt a concept like "hurricane" to predict efficiently. To be real is to be a pattern that any sufficiently capable intelligence, constrained by this universe's physics, is forced to discover, whether that pattern is the physical wall of a hurricane, the legal boundary of a corporation, or the psychological reality of a dragon. Each is a discoverable invariant in its own domain.
+The analysis suggests that disputes over the 'existence' of wholes often obscure a deeper point: scientific explanation and intervention require treating certain patterns as units, regardless of their metaphysical status. The relevant question is not "Do wholes exist?" but "What earns causal autonomy?" This is the question that matters for science and survival.
 
-Note: Arguments addressed here are drawn from O'Connor's subscriber Q&As (1.25M and 1.75M). The ε-machine formalization is from Rosas et al. (2024); the Rainforest Realism and microbangings critique from Ladyman & Ross's *Every Thing Must Go* (2007).
+Where causal powers, counterfactual stability, and resistance to informational intrusion converge, objecthood is instantiated. Wholes are not fundamental, but they are metaphysically real as unified loci of causal powers. Any agent, human or otherwise, interacting with the atmosphere's constraints must eventually adopt a concept like "hurricane" to predict efficiently.
+
+A pattern is universally discoverable when any sufficiently capable agent attempting to predict and intervene within the same constraints is forced to encode it, on pain of incurring unsustainable algorithmic complexity. This universality is epistemic rather than metaphysical: it reflects convergence under shared constraints, not fundamentality. Whether that pattern is the physical wall of a hurricane, the legal boundary of a corporation, or the psychological reality of a dragon, each is a discoverable invariant in its own domain.
+
+## References
+
+Block, Ned. 1978. "Troubles with Functionalism." In *Minnesota Studies in the Philosophy of Science*, vol. 9, edited by C. Wade Savage, 261-325. Minneapolis: University of Minnesota Press.
+
+Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press. ISBN 978-0199276196.
+
+Landauer, Rolf. 1961. "Irreversibility and Heat Generation in the Computing Process." *IBM Journal of Research and Development* 5(3): 183–191. https://doi.org/10.1147/rd.1961.5.3.183.
+
+O'Connor, Alex. Subscriber Q&As (1.25M and 1.75M). Available at https://www.youtube.com/@CosmicSkeptic.
+
+Pearl, Judea. 2000. *Causality: Models, Reasoning, and Inference*. Cambridge: Cambridge University Press. ISBN 978-0521773621.
+
+Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104. https://doi.org/10.1038/s41567-024-02477-4.
+
+Woodward, James. 2003. *Making Things Happen: A Theory of Causal Explanation*. Oxford: Oxford University Press. ISBN 978-0195155273.
