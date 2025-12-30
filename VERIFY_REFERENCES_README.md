@@ -46,10 +46,10 @@ The script tries each verifier in order until one succeeds:
    - Validates HTTP/HTTPS links
 
 5. **Claude CLI** (intelligent research) - confidence: 0.40-0.80
-   - Uses Claude AI to research and verify references
-   - Searches academic databases and web sources
-   - Handles complex or ambiguous cases
-   - **Note**: Requires Claude CLI installation, use `--skip-claude` to disable
+   - Uses Claude AI with web search and browsing tools
+   - Searches academic databases, Google Scholar, and publisher websites
+   - Handles complex or ambiguous cases with structured JSON output
+   - **Note**: Requires Claude CLI installation with tools enabled, use `--skip-claude` to disable
 
 ### Confidence Threshold
 
@@ -161,7 +161,16 @@ This occurs when the author parsing fails. The verification still works based on
 
 ### Claude CLI Usage
 
-Claude CLI provides intelligent research capabilities for references that cannot be verified through standard APIs. It uses Claude AI to search academic databases and web sources. Requires Claude CLI to be installed and configured. Use `--skip-claude` to disable if you prefer faster execution without AI research.
+Claude CLI provides intelligent research capabilities for references that cannot be verified through standard APIs. It uses Claude AI with built-in web search and browsing tools to:
+
+- Search Google Scholar, academic databases, and publisher websites
+- Visit specific URLs to verify reference details
+- Cross-reference multiple sources for accuracy
+- Return structured JSON results with confidence scores
+
+**Requirements**: Claude CLI must be installed with tools enabled. The script uses `--print --output-format json --json-schema` for structured output validation.
+
+Use `--skip-claude` to disable if you prefer faster execution without AI research.
 
 ## Recommended Workflow
 

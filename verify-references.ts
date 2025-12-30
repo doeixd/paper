@@ -1545,29 +1545,14 @@ RESEARCH INSTRUCTIONS:
 - Check for publication years that might differ from the provided year
 - Look for official DOIs, ISBNs, or other identifiers
 
-EXPECTED OUTPUT FORMAT:
-Return a JSON object with the following structure:
-{
-  "status": "verified" | "corrected" | "failed",
-  "confidence": 0.0 to 1.0,
-  "corrections": [
-    {
-      "field": "title" | "authors" | "year",
-      "original": "original value",
-      "corrected": "corrected value",
-      "reason": "brief explanation"
-    }
-  ],
-  "metadata": {
-    "verified_title": "exact title from source",
-    "verified_authors": ["Author Name 1", "Author Name 2"],
-    "verified_year": "publication year",
-    "source_url": "URL where you found the information",
-    "publisher": "publisher name if available",
-    "journal": "journal name if applicable"
-  },
-  "explanation": "brief explanation of your findings and confidence level"
-}
+RESEARCH TOOLS AVAILABLE:
+You have access to web search and browsing tools. Use them to:
+- Search Google Scholar, academic databases, and publisher websites
+- Visit specific URLs to verify information
+- Cross-reference multiple sources for accuracy
+
+OUTPUT FORMAT:
+Return a JSON object matching the provided schema. The response will be automatically validated against the JSON schema, so ensure it conforms exactly to the expected structure.
 
 VERIFICATION GUIDELINES:
 - Status "verified": All metadata matches exactly and reference is confirmed legitimate
@@ -1588,10 +1573,56 @@ Please provide your research results in the exact JSON format specified above.`;
 
   private async callClaudeCLI(instructions: string): Promise<string> {
     try {
-      // Use Bun's shell to call Claude CLI
-      const command = `claude "${instructions.replace(/"/g, '\\"')}"`;
+      // Define JSON schema for Claude's response
+      const jsonSchema = {
+        type: "object",
+        properties: {
+          status: {
+            type: "string",
+            enum: ["verified", "corrected", "failed"]
+          },
+          confidence: {
+            type: "number",
+            minimum: 0,
+            maximum: 1
+          },
+          corrections: {
+            type: "array",
+            items: {
+              type: "object",
+              properties: {
+                field: {
+                  type: "string",
+                  enum: ["title", "authors", "year"]
+                },
+                original: { type: "string" },
+                corrected: { type: "string" },
+                reason: { type: "string" }
+              },
+              required: ["field", "original", "corrected", "reason"]
+            }
+          },
+          metadata: {
+            type: "object",
+            properties: {
+              verified_title: { type: "string" },
+              verified_authors: { type: "array", items: { type: "string" } },
+              verified_year: { type: "string" },
+              source_url: { type: "string" },
+              publisher: { type: "string" },
+              journal: { type: "string" }
+            }
+          },
+          explanation: { type: "string" }
+        },
+        required: ["status", "confidence"]
+      };
 
-      if (this.verbose) console.log(`  [Claude CLI] Executing: ${command.substring(0, 100)}...`);
+      // Use Claude CLI with proper flags for non-interactive JSON output
+      const schemaString = JSON.stringify(jsonSchema).replace(/"/g, '\\"');
+      const command = `claude --print --output-format json --json-schema "${schemaString}" --no-session-persistence --system-prompt "You are an expert academic reference verification assistant." "${instructions.replace(/"/g, '\\"')}"`;
+
+      if (this.verbose) console.log(`  [Claude CLI] Executing Claude CLI with JSON schema validation`);
 
       const result = await $`${command}`.quiet();
 
