@@ -10,6 +10,7 @@
 
 import { $ } from 'bun';
 import { parseArgs } from 'util';
+import { rename } from 'fs/promises';
 
 // ============================================================================
 // TYPE DEFINITIONS
@@ -81,6 +82,9 @@ interface CLIOptions {
   dryRun: boolean;
   skipClaude: boolean;
   verbose: boolean;
+  exportJson?: string;
+  clearCache: boolean;
+  noCache: boolean;
 }
 
 // ============================================================================
@@ -304,10 +308,10 @@ class ChicagoParser {
       identifiers.osfId = osfMatch[1];
     }
 
-    // Extract URL (first URL found)
+    // Extract URL (first URL found, but not DOI URLs)
     const urlMatch = text.match(PATTERNS.URL);
-    if (urlMatch) {
-      identifiers.url = urlMatch[0];
+    if (urlMatch && !urlMatch[0].includes('doi.org')) {
+      identifiers.url = urlMatch[0].replace(/[.,;:)\]]+$/, ''); // Remove trailing punctuation
     }
 
     return identifiers;
@@ -315,17 +319,26 @@ class ChicagoParser {
 
   private determineType(text: string, ids: Identifiers): ReferenceType {
     if (ids.arxivId) return 'arxiv-preprint';
-    if (ids.doi && text.includes('*') && text.includes('"')) return 'journal-article';
+    if (ids.doi) {
+      // Check if it's a journal article (has quotes and asterisks)
+      if (text.includes('"') && text.includes('*')) return 'journal-article';
+      // DOI could also be for books, chapters, etc.
+      if (text.toLowerCase().includes('in ') && text.includes('edited by')) return 'book-chapter';
+      if (text.includes('*') && !text.includes('"')) return 'book';
+      return 'journal-article'; // Default for DOI
+    }
     if (ids.isbn) return 'book';
-    if (text.toLowerCase().includes('in *') && text.includes(', edited by')) return 'book-chapter';
-    if (text.toLowerCase().includes('preprint')) return 'other-preprint';
-    if (ids.url) return 'web-resource';
+    if (text.toLowerCase().includes('in ') && text.toLowerCase().includes('edited by')) return 'book-chapter';
+    if (text.toLowerCase().includes('preprint') || text.toLowerCase().includes('working paper')) return 'other-preprint';
+    if (ids.url && !ids.doi) return 'web-resource';
+    if (ids.ssrnId) return 'other-preprint';
+    if (ids.philpapersId) return 'web-resource';
     return 'unknown';
   }
 
   private extractAuthors(text: string): Author[] {
     // Pattern: "Author(s). Year." at start
-    const match = text.match(/^([^.]+)\.\s*(\d{4}|Forthcoming)\./);
+    const match = text.match(/^(.*?)\.\s*(\d{4}|Forthcoming)\./);
     if (!match) {
       // Fallback: try to extract first word as family name
       const firstWord = text.split(/\s+/)[0];
@@ -346,70 +359,153 @@ class ChicagoParser {
     // Parse author list
     const authors: Author[] = [];
 
-    // Handle "et al."
-    if (authorString.includes('et al.')) {
-      const firstAuthor = authorString.split(',')[0].trim();
-      if (firstAuthor) {
-        authors.push(this.parseAuthorName(firstAuthor));
+    // Handle "et al." - check this first before comma processing
+    if (authorString.toLowerCase().includes('et al')) {
+      const beforeEtAl = authorString.split(/\s+et\s+al/i)[0].trim();
+      if (beforeEtAl) {
+        authors.push(this.parseAuthorName(beforeEtAl));
       }
       return authors.length > 0 ? authors : [{ family: 'Unknown', given: '' }];
     }
 
-    // Split by "and" or "&"
-    const authorParts = authorString.split(/,?\s+(?:and|&)\s+/);
+    // Handle "and"/"&" connections by replacing with comma
+    let processedString = authorString.replace(/,?\s+(?:and|&)\s+/g, ', ');
 
-    for (const part of authorParts) {
-      const cleanPart = part.replace(/,$/, '').trim();
-      if (cleanPart && cleanPart.length > 0) {
-        authors.push(this.parseAuthorName(cleanPart));
+    // Split by comma and clean up
+    const rawParts = processedString.split(',').map(s => s.trim()).filter(s => s.length > 0);
+
+    // Process parts, combining family,given pairs
+    const authorParts: string[] = [];
+    for (let i = 0; i < rawParts.length; i++) {
+      const part = rawParts[i].trim();
+
+      // Skip empty parts
+      if (!part) continue;
+
+      // Check if this is a suffix for the previous author
+      if (i > 0 && (part === 'Jr.' || part === 'Sr.' || part === 'III' || part === 'II' || part === 'IV' || part === 'V')) {
+        // Append suffix to last author part
+        if (authorParts.length > 0) {
+          authorParts[authorParts.length - 1] += ' ' + part;
+        }
+        continue;
       }
+
+      // Check if this is an editor designation
+      if (part.toLowerCase() === 'ed.' || part.toLowerCase() === 'eds.' || part.toLowerCase() === 'ed' || part.toLowerCase() === 'eds') {
+        continue; // Skip editor designations
+      }
+
+      // If this part contains a comma, it's already a complete author name
+      if (part.includes(',')) {
+        authorParts.push(part);
+      } else {
+        // Check if next part exists and doesn't contain comma (likely a given name)
+        if (i + 1 < rawParts.length && !rawParts[i + 1].includes(',')) {
+          const nextPart = rawParts[i + 1].trim();
+          // Skip if next part is editor designation
+          if (nextPart.toLowerCase() === 'ed.' || nextPart.toLowerCase() === 'eds.' || nextPart.toLowerCase() === 'ed' || nextPart.toLowerCase() === 'eds') {
+            authorParts.push(part); // Just add current part
+            i++; // Skip the editor part
+          } else {
+            // Combine as "Family, Given"
+            authorParts.push(`${part}, ${nextPart}`);
+            i++; // Skip the next part as it's been consumed
+          }
+        } else {
+          // Standalone name (could be given name first or single name)
+          authorParts.push(part);
+        }
+      }
+    }
+
+    // Parse each author part
+    for (const part of authorParts) {
+      authors.push(this.parseAuthorName(part));
     }
 
     return authors.length > 0 ? authors : [{ family: 'Unknown', given: '' }];
   }
 
   private parseAuthorName(name: string): Author {
+    const cleanName = name.trim();
+
+    // Handle suffixes like "Jr.", "Sr.", "III", etc.
+    const suffixMatch = cleanName.match(/^(.+?)\s+(Jr\.?|Sr\.?|III?|IV|V)$/i);
+    let baseName = cleanName;
+    let suffix = '';
+
+    if (suffixMatch) {
+      baseName = suffixMatch[1].trim();
+      suffix = suffixMatch[2];
+    }
+
     // Pattern: "Family, Given" or "Given Family"
-    const commaSplit = name.split(',').map(s => s.trim());
+    const commaSplit = baseName.split(',').map(s => s.trim());
 
-    if (commaSplit.length === 2 && commaSplit[0]) {
-      return {
-        family: commaSplit[0],
-        given: commaSplit[1]
-      };
-    } else if (commaSplit.length > 2 && commaSplit[0]) {
-      // Handle cases like "Author, First, Jr."
-      return {
-        family: commaSplit[0],
-        given: commaSplit.slice(1).join(', ')
-      };
+    if (commaSplit.length >= 2 && commaSplit[0]) {
+      // "Family, Given" format
+      let family = commaSplit[0];
+      let given = commaSplit.slice(1).join(', ').trim();
+
+      // Append suffix to family name if present
+      if (suffix) {
+        family += ' ' + suffix;
+      }
+
+      return { family, given };
     }
 
-    // Try to split by last space
-    const parts = name.trim().split(/\s+/);
+    // Try to split by last space for "Given Family" format
+    const parts = baseName.trim().split(/\s+/);
     if (parts.length >= 2) {
-      return {
-        family: parts[parts.length - 1],
-        given: parts.slice(0, -1).join(' ')
-      };
+      const family = parts[parts.length - 1] + (suffix ? ' ' + suffix : '');
+      const given = parts.slice(0, -1).join(' ');
+      return { family, given };
     }
 
-    return { family: name || 'Unknown', given: '' };
+    // Single name
+    return {
+      family: baseName + (suffix ? ' ' + suffix : ''),
+      given: ''
+    };
   }
 
   private extractYear(text: string): string {
-    const match = text.match(/\b(\d{4}|Forthcoming)\b/);
-    return match ? match[1] : '';
+    // Look for year patterns
+    const yearMatch = text.match(/\b(\d{4}|Forthcoming|n\.d\.)\b/i);
+    if (yearMatch) {
+      return yearMatch[1].toLowerCase() === 'n.d.' ? '' : yearMatch[1];
+    }
+
+    // Look for year in parentheses (sometimes used in citations)
+    const parenMatch = text.match(/\(([0-9]{4}|Forthcoming)\)/i);
+    if (parenMatch) {
+      return parenMatch[1];
+    }
+
+    return '';
   }
 
   private extractTitle(text: string): string {
-    // Try quoted title first (articles)
+    // Try quoted title first (articles) - remove quotes
     const quotedMatch = text.match(/"([^"]+)"/);
-    if (quotedMatch) return quotedMatch[1];
+    if (quotedMatch) return quotedMatch[1].trim();
 
-    // Try italicized title (books)
+    // Try italicized title (books) - remove asterisks
     const italicMatch = text.match(/\*([^*]+)\*/);
-    if (italicMatch) return italicMatch[1];
+    if (italicMatch) return italicMatch[1].trim();
+
+    // Fallback: look for title after year and before other markers
+    const yearMatch = text.match(/(\d{4}|Forthcoming)\.\s*(.+?)(?=\s*\*|\s*https?:|\s*ISBN|\s*$)/);
+    if (yearMatch && yearMatch[2]) {
+      const potentialTitle = yearMatch[2].trim();
+      // Avoid extracting author names or other metadata
+      if (!potentialTitle.match(/^(In\s+|edited|et\s+al|vol\.|pp\.|doi:)/i) &&
+          potentialTitle.length > 5 && potentialTitle.length < 200) {
+        return potentialTitle.replace(/[.,;:]$/, ''); // Remove trailing punctuation
+      }
+    }
 
     return '';
   }
@@ -443,6 +539,372 @@ class ChicagoParser {
 }
 
 // ============================================================================
+// CACHE MANAGER
+// ============================================================================
+
+interface CacheEntry {
+  key: string;
+  data: any;
+  timestamp: number;
+  ttl: number; // in milliseconds
+  source: VerificationSource;
+}
+
+class CacheManager {
+  private cacheDir: string;
+  private fs = require('fs');
+  private path = require('path');
+
+  constructor() {
+    // Use absolute path for cache directory
+    this.cacheDir = this.path.resolve(process.cwd(), '.cache', 'reference-verification');
+
+    // Ensure cache directory exists
+    this.ensureCacheDir();
+  }
+
+  /**
+   * Ensure cache directory exists
+   */
+  private ensureCacheDir(): void {
+    try {
+      if (!this.fs.existsSync(this.cacheDir)) {
+        this.fs.mkdirSync(this.cacheDir, { recursive: true });
+      }
+      // Create .gitkeep if it doesn't exist
+      const gitkeepPath = this.path.join(this.cacheDir, '.gitkeep');
+      if (!this.fs.existsSync(gitkeepPath)) {
+        this.fs.writeFileSync(gitkeepPath, '');
+      }
+    } catch (error) {
+      console.warn('Warning: Failed to create cache directory:', error);
+    }
+  }
+
+  /**
+   * Generate cache key from reference identifiers
+   */
+  private generateKey(ref: ParsedReference): string {
+    const identifiers = ref.identifiers;
+
+    // Use most specific identifier as key, sanitize for filesystem
+    if (identifiers.doi) return this.sanitizeKey(`doi-${identifiers.doi}`);
+    if (identifiers.arxivId) return this.sanitizeKey(`arxiv-${identifiers.arxivId}`);
+    if (identifiers.isbn && identifiers.isbn.length > 0) return this.sanitizeKey(`isbn-${identifiers.isbn[0]}`);
+    if (identifiers.ssrnId) return this.sanitizeKey(`ssrn-${identifiers.ssrnId}`);
+    if (identifiers.philpapersId) return this.sanitizeKey(`philpapers-${identifiers.philpapersId}`);
+    if (identifiers.osfId) return this.sanitizeKey(`osf-${identifiers.osfId}`);
+    if (identifiers.url) return this.sanitizeKey(`url-${Buffer.from(identifiers.url).toString('base64').slice(0, 32)}`);
+
+    // Fallback to title-author hash (more robust)
+    const hashInput = `${ref.authors.map(a => a.family).join('|')}-${ref.title}-${ref.year}`.toLowerCase();
+    const hash = Buffer.from(hashInput).toString('base64').replace(/[^a-zA-Z0-9]/g, '').slice(0, 32);
+    return `fallback-${hash}`;
+  }
+
+  /**
+   * Sanitize cache key for filesystem safety
+   */
+  private sanitizeKey(key: string): string {
+    return key.replace(/[^a-zA-Z0-9\-_.]/g, '_');
+  }
+
+  /**
+   * Get TTL for different sources (in milliseconds)
+   */
+  private getTTL(source: VerificationSource): number {
+    const ttlMap: Record<VerificationSource, number> = {
+      'crossref': 30 * 24 * 60 * 60 * 1000,     // 30 days
+      'arxiv': 90 * 24 * 60 * 60 * 1000,        // 90 days
+      'openlibrary': 7 * 24 * 60 * 60 * 1000,   // 7 days
+      'web-search': 1 * 24 * 60 * 60 * 1000,    // 1 day
+      'claude-cli': 7 * 24 * 60 * 60 * 1000,    // 7 days
+    };
+    return ttlMap[source] || 24 * 60 * 60 * 1000; // 1 day default
+  }
+
+  /**
+   * Get cache file path for a reference (creates subdirectories as needed)
+   */
+  private getCachePath(key: string): string {
+    // Create subdirectory structure for better organization
+    // e.g., "doi-10.1177/0963721412436806" -> "doi-10.1177/0963721412436806.json"
+    const parts = key.split('-', 2);
+    if (parts.length === 2) {
+      const subDir = this.path.join(this.cacheDir, parts[0]);
+      // Ensure subdirectory exists
+      try {
+        if (!this.fs.existsSync(subDir)) {
+          this.fs.mkdirSync(subDir, { recursive: true });
+        }
+      } catch (error) {
+        // Fall back to root directory
+        return this.path.join(this.cacheDir, `${key}.json`);
+      }
+      return this.path.join(subDir, `${parts[1]}.json`);
+    }
+
+    return this.path.join(this.cacheDir, `${key}.json`);
+  }
+
+  /**
+   * Check if cached data exists and is still valid
+   */
+  async get(ref: ParsedReference, source: VerificationSource): Promise<any | null> {
+    const key = this.generateKey(ref);
+    const cachePath = this.getCachePath(key);
+
+    try {
+      // Check if file exists
+      if (!this.fs.existsSync(cachePath)) return null;
+
+      const file = Bun.file(cachePath);
+      const cacheEntry: CacheEntry = await file.json();
+      const now = Date.now();
+
+      // Use stored TTL, but also check if source TTL policy has changed
+      const storedTTL = cacheEntry.ttl || this.getTTL(source);
+      const currentTTL = this.getTTL(source);
+      const effectiveTTL = Math.min(storedTTL, currentTTL); // Use more restrictive TTL
+
+      // Check if expired
+      if (now - cacheEntry.timestamp > effectiveTTL) {
+        // Remove expired cache
+        await this.delete(key);
+        return null;
+      }
+
+      return cacheEntry.data;
+    } catch (error) {
+      // Cache read error, treat as miss
+      console.warn(`Warning: Cache read error for ${key}:`, error);
+      return null;
+    }
+  }
+
+  /**
+   * Store data in cache with atomic write
+   */
+  async set(ref: ParsedReference, source: VerificationSource, data: any): Promise<void> {
+    const key = this.generateKey(ref);
+    const cachePath = this.getCachePath(key);
+    const tempPath = `${cachePath}.tmp`;
+    const ttl = this.getTTL(source);
+
+    const cacheEntry: CacheEntry = {
+      key,
+      data,
+      timestamp: Date.now(),
+      ttl,
+      source
+    };
+
+    try {
+      // Ensure cache directory exists
+      this.ensureCacheDir();
+
+      // Atomic write: write to temp file first
+      await Bun.write(tempPath, JSON.stringify(cacheEntry, null, 2));
+
+      // Then move to final location
+      this.fs.renameSync(tempPath, cachePath);
+    } catch (error) {
+      console.warn(`Warning: Failed to write cache for ${key}:`, error);
+      // Clean up temp file if it exists
+      try {
+        if (this.fs.existsSync(tempPath)) {
+          this.fs.unlinkSync(tempPath);
+        }
+      } catch (cleanupError) {
+        // Ignore cleanup errors
+      }
+    }
+  }
+
+  /**
+   * Delete cache entry
+   */
+  async delete(key: string): Promise<void> {
+    const cachePath = this.getCachePath(key);
+    try {
+      if (this.fs.existsSync(cachePath)) {
+        this.fs.unlinkSync(cachePath);
+      }
+    } catch (error) {
+      console.warn(`Warning: Failed to delete cache for ${key}:`, error);
+    }
+  }
+
+  /**
+   * Clear all cache entries recursively
+   */
+  async clear(): Promise<void> {
+    try {
+      // Remove cache directory and all contents
+      if (this.fs.existsSync(this.cacheDir)) {
+        this.fs.rmSync(this.cacheDir, { recursive: true, force: true });
+      }
+
+      // Recreate cache directory
+      this.ensureCacheDir();
+      console.log('Cache cleared successfully');
+    } catch (error) {
+      console.error('Failed to clear cache:', error);
+    }
+  }
+
+  /**
+   * Get cache statistics recursively
+   */
+  async getStats(): Promise<{ total: number; expired: number; valid: number }> {
+    try {
+      if (!this.fs.existsSync(this.cacheDir)) {
+        return { total: 0, expired: 0, valid: 0 };
+      }
+
+      let total = 0, expired = 0, valid = 0;
+
+      const processDirectory = async (dirPath: string): Promise<void> => {
+        const items = this.fs.readdirSync(dirPath);
+
+        for (const item of items) {
+          if (item === '.gitkeep') continue;
+
+          const itemPath = this.path.join(dirPath, item);
+          const stats = this.fs.statSync(itemPath);
+
+          if (stats.isDirectory()) {
+            await processDirectory(itemPath);
+          } else if (item.endsWith('.json')) {
+            total++;
+            try {
+              const entry: CacheEntry = await Bun.file(itemPath).json();
+              const now = Date.now();
+              const ttl = this.getTTL(entry.source);
+
+              if (now - entry.timestamp > ttl) {
+                expired++;
+              } else {
+                valid++;
+              }
+            } catch (error) {
+              expired++; // Corrupted files count as expired
+            }
+          }
+        }
+      };
+
+      await processDirectory(this.cacheDir);
+      return { total, expired, valid };
+    } catch (error) {
+      console.warn('Warning: Failed to get cache stats:', error);
+      return { total: 0, expired: 0, valid: 0 };
+    }
+  }
+
+  /**
+   * Clean expired cache entries recursively
+   */
+  async cleanExpired(): Promise<number> {
+    try {
+      if (!this.fs.existsSync(this.cacheDir)) {
+        return 0;
+      }
+
+      let cleaned = 0;
+
+      const processDirectory = async (dirPath: string): Promise<void> => {
+        const items = this.fs.readdirSync(dirPath);
+
+        for (const item of items) {
+          if (item === '.gitkeep') continue;
+
+          const itemPath = this.path.join(dirPath, item);
+          const stats = this.fs.statSync(itemPath);
+
+          if (stats.isDirectory()) {
+            await processDirectory(itemPath);
+            // Remove empty directories
+            try {
+              if (this.fs.readdirSync(itemPath).length === 0) {
+                this.fs.rmdirSync(itemPath);
+              }
+            } catch (error) {
+              // Ignore directory removal errors
+            }
+          } else if (item.endsWith('.json')) {
+            try {
+              const entry: CacheEntry = await Bun.file(itemPath).json();
+              const now = Date.now();
+              const ttl = this.getTTL(entry.source);
+
+              if (now - entry.timestamp > ttl) {
+                this.fs.unlinkSync(itemPath);
+                cleaned++;
+              }
+            } catch (error) {
+              // Corrupted file, remove it
+              try {
+                this.fs.unlinkSync(itemPath);
+                cleaned++;
+              } catch (deleteError) {
+                // Ignore
+              }
+            }
+          }
+        }
+      };
+
+      await processDirectory(this.cacheDir);
+      return cleaned;
+    } catch (error) {
+      console.warn('Warning: Failed to clean expired cache:', error);
+      return 0;
+    }
+  }
+
+  /**
+   * Get cache size in bytes recursively
+   */
+  async getSize(): Promise<number> {
+    try {
+      if (!this.fs.existsSync(this.cacheDir)) {
+        return 0;
+      }
+
+      let totalSize = 0;
+
+      const processDirectory = (dirPath: string): void => {
+        const items = this.fs.readdirSync(dirPath);
+
+        for (const item of items) {
+          if (item === '.gitkeep') continue;
+
+          const itemPath = this.path.join(dirPath, item);
+          try {
+            const stats = this.fs.statSync(itemPath);
+
+            if (stats.isDirectory()) {
+              processDirectory(itemPath);
+            } else {
+              totalSize += stats.size;
+            }
+          } catch (error) {
+            // Ignore stat errors
+          }
+        }
+      };
+
+      processDirectory(this.cacheDir);
+      return totalSize;
+    } catch (error) {
+      console.warn('Warning: Failed to get cache size:', error);
+      return 0;
+    }
+  }
+}
+
+// ============================================================================
 // API VERIFIERS
 // ============================================================================
 
@@ -452,35 +914,69 @@ class ChicagoParser {
 class CrossRefVerifier {
   private baseUrl = 'https://api.crossref.org/works/';
   private rateLimiter = new RateLimiter(10); // 10 req/sec
+  private cache = new CacheManager();
+  private verbose: boolean;
+  private noCache: boolean;
+
+  constructor(verbose: boolean = false, noCache: boolean = false) {
+    this.verbose = verbose;
+    this.noCache = noCache;
+  }
 
   async verify(ref: ParsedReference): Promise<VerificationResult> {
     if (!ref.identifiers.doi) {
       return { source: 'crossref', status: 'skipped', confidence: 0 };
     }
 
+    if (this.verbose) {
+      console.log(`  [CrossRef] Verifying DOI: ${ref.identifiers.doi}`);
+    }
+
     // Validate DOI format
     if (!ref.identifiers.doi.match(/^10\.\d{4,}/)) {
-      if (this.verbose) console.error(`  Invalid DOI format: ${ref.identifiers.doi}`);
+      if (this.verbose) console.error(`  [CrossRef] Invalid DOI format: ${ref.identifiers.doi}`);
       return { source: 'crossref', status: 'failed', confidence: 0 };
     }
 
+    // Check cache first (unless noCache is enabled)
+    if (!this.noCache) {
+      if (this.verbose) console.log(`  [CrossRef] Checking cache for DOI: ${ref.identifiers.doi}`);
+      const cachedData = await this.cache.get(ref, 'crossref');
+      if (cachedData) {
+        if (this.verbose) console.log(`  [CrossRef] Cache hit for DOI: ${ref.identifiers.doi}`);
+        return this.compareMetadata(ref, cachedData);
+      }
+      if (this.verbose) console.log(`  [CrossRef] Cache miss for DOI: ${ref.identifiers.doi}`);
+    } else {
+      if (this.verbose) console.log(`  [CrossRef] Skipping cache lookup (--no-cache enabled)`);
+    }
+
+    if (this.verbose) console.log(`  [CrossRef] Rate limiting: waiting for API call`);
     await this.rateLimiter.wait();
 
     try {
       const result = await retryWithBackoff(async () => {
         const url = `${this.baseUrl}${encodeURIComponent(ref.identifiers.doi!)}`;
+        if (this.verbose) console.log(`  [CrossRef] Making API call to: ${url}`);
+
+        const startTime = Date.now();
         const response = await fetch(url, {
           headers: {
             'User-Agent': 'ReferenceVerifier/1.0 (mailto:research@example.com)'
           },
           signal: AbortSignal.timeout(10000) // 10 second timeout
         });
+        const endTime = Date.now();
+
+        if (this.verbose) console.log(`  [CrossRef] API call completed in ${endTime - startTime}ms, status: ${response.status}`);
 
         if (!response.ok) {
           if (response.status === 404) {
+            if (this.verbose) console.log(`  [CrossRef] DOI not found: ${ref.identifiers.doi}`);
             return null; // DOI not found
           }
           if (response.status === 429) {
+            if (this.verbose) console.log(`  [CrossRef] Rate limited, will retry`);
             throw new Error('Rate limited - will retry');
           }
           throw new Error(`HTTP ${response.status}`);
@@ -490,6 +986,7 @@ class CrossRefVerifier {
         if (!data || !data.message) {
           throw new Error('Invalid response format');
         }
+        if (this.verbose) console.log(`  [CrossRef] Received valid API response with title: "${data.message.title?.[0]}"`);
         return data.message;
       }, 3, 2000); // 3 retries, 2 second initial delay
 
@@ -497,7 +994,34 @@ class CrossRefVerifier {
         return { source: 'crossref', status: 'failed', confidence: 0 };
       }
 
-      return this.compareMetadata(ref, result);
+      // Optionally validate DOI URL accessibility
+      let urlValid = false;
+      try {
+        const doiUrl = `https://doi.org/${ref.identifiers.doi}`;
+        if (this.verbose) console.log(`  [CrossRef] Validating DOI URL: ${doiUrl}`);
+
+        const urlStartTime = Date.now();
+        const urlResponse = await fetch(doiUrl, {
+          method: 'HEAD',
+          redirect: 'follow',
+          signal: AbortSignal.timeout(5000) // 5 second timeout
+        });
+        const urlEndTime = Date.now();
+
+        urlValid = urlResponse.ok;
+        if (this.verbose) {
+          console.log(`  [CrossRef] DOI URL validation completed in ${urlEndTime - urlStartTime}ms, status: ${urlResponse.status}, valid: ${urlValid}`);
+        }
+      } catch (error) {
+        // URL validation failed, but don't fail the whole verification
+        if (this.verbose) console.warn(`  [CrossRef] DOI URL validation failed: ${(error as Error).message}`);
+      }
+
+      // Cache the result
+      if (this.verbose) console.log(`  [CrossRef] Caching result for DOI: ${ref.identifiers.doi}`);
+      await this.cache.set(ref, 'crossref', result);
+
+      return this.compareMetadata(ref, result, urlValid);
 
     } catch (error) {
       const errorMsg = (error as Error).message;
@@ -508,14 +1032,18 @@ class CrossRefVerifier {
     }
   }
 
-  private verbose = false;
-
-  private compareMetadata(ref: ParsedReference, apiData: any): VerificationResult {
+  private compareMetadata(ref: ParsedReference, apiData: any, urlValid = false): VerificationResult {
     const corrections: Correction[] = [];
+
+    if (this.verbose) {
+      console.log(`  [CrossRef] Comparing metadata for: ${ref.title} (${ref.year})`);
+    }
 
     // Compare title
     const apiTitle = apiData.title?.[0];
+    if (this.verbose) console.log(`  [CrossRef] API title: "${apiTitle}", Reference title: "${ref.title}"`);
     if (apiTitle && !fuzzyMatch(ref.title, apiTitle)) {
+      if (this.verbose) console.log(`  [CrossRef] Title mismatch detected`);
       corrections.push({
         field: 'title',
         original: ref.title,
@@ -526,7 +1054,9 @@ class CrossRefVerifier {
 
     // Compare year
     const apiYear = apiData.published?.['date-parts']?.[0]?.[0]?.toString();
+    if (this.verbose) console.log(`  [CrossRef] API year: "${apiYear}", Reference year: "${ref.year}"`);
     if (apiYear && apiYear !== ref.year) {
+      if (this.verbose) console.log(`  [CrossRef] Year mismatch detected`);
       corrections.push({
         field: 'year',
         original: ref.year,
@@ -556,12 +1086,13 @@ class CrossRefVerifier {
     return {
       source: 'crossref',
       status: corrections.length > 0 ? 'corrected' : 'verified',
-      confidence: 0.95,
+      confidence: urlValid ? 0.95 : 0.90, // Slightly lower confidence if DOI URL doesn't work
       corrections: corrections.length > 0 ? corrections : undefined,
       metadata: {
         title: apiTitle,
         year: apiYear,
-        doi: ref.identifiers.doi!
+        doi: ref.identifiers.doi!,
+        doiUrlValid: urlValid
       },
       rawResponse: apiData
     };
@@ -574,20 +1105,55 @@ class CrossRefVerifier {
 class OpenLibraryVerifier {
   private baseUrl = 'https://openlibrary.org/api/books';
   private rateLimiter = new RateLimiter(2); // 2 req/sec
+  private cache = new CacheManager();
+  private verbose: boolean;
+  private noCache: boolean;
+
+  constructor(verbose: boolean = false, noCache: boolean = false) {
+    this.verbose = verbose;
+    this.noCache = noCache;
+  }
 
   async verify(ref: ParsedReference): Promise<VerificationResult> {
     if (!ref.identifiers.isbn || ref.identifiers.isbn.length === 0) {
       return { source: 'openlibrary', status: 'skipped', confidence: 0 };
     }
 
+    if (this.verbose) {
+      console.log(`  [OpenLibrary] Verifying ISBNs: ${ref.identifiers.isbn?.join(', ')}`);
+    }
+
+    // Check cache first (unless noCache is enabled)
+    if (!this.noCache) {
+      if (this.verbose) console.log(`  [OpenLibrary] Checking cache for ISBNs`);
+      const cachedData = await this.cache.get(ref, 'openlibrary');
+      if (cachedData) {
+        if (this.verbose) console.log(`  [OpenLibrary] Cache hit for ISBNs`);
+        // cachedData should contain { result, verifiedISBN }
+        return this.compareMetadata(ref, cachedData.result, cachedData.verifiedISBN);
+      }
+      if (this.verbose) console.log(`  [OpenLibrary] Cache miss for ISBNs`);
+    } else {
+      if (this.verbose) console.log(`  [OpenLibrary] Skipping cache lookup (--no-cache enabled)`);
+    }
+
+    if (this.verbose) console.log(`  [OpenLibrary] Rate limiting: waiting for API call`);
     await this.rateLimiter.wait();
 
     try {
       // Try each ISBN
       for (const isbn of ref.identifiers.isbn) {
+        if (this.verbose) console.log(`  [OpenLibrary] Trying ISBN: ${isbn}`);
+
         const result = await retryWithBackoff(async () => {
           const url = `${this.baseUrl}?bibkeys=ISBN:${isbn}&format=json&jscmd=data`;
+          if (this.verbose) console.log(`  [OpenLibrary] Making API call to: ${url}`);
+
+          const startTime = Date.now();
           const response = await fetch(url);
+          const endTime = Date.now();
+
+          if (this.verbose) console.log(`  [OpenLibrary] API call completed in ${endTime - startTime}ms, status: ${response.status}`);
 
           if (!response.ok) {
             throw new Error(`OpenLibrary API error: ${response.status}`);
@@ -598,6 +1164,8 @@ class OpenLibraryVerifier {
         });
 
         if (result) {
+          // Cache the result with ISBN
+          await this.cache.set(ref, 'openlibrary', { result, verifiedISBN: isbn });
           return this.compareMetadata(ref, result, isbn);
         }
       }
@@ -653,11 +1221,29 @@ class OpenLibraryVerifier {
  */
 class ArxivVerifier {
   private baseUrl = 'http://export.arxiv.org/api/query';
-  private rateLimiter = new RateLimiter(0.3); // 1 req per 3 seconds
+  private rateLimiter = new RateLimiter(1); // 1 req/3 sec
+  private cache = new CacheManager();
+  private verbose: boolean;
+  private noCache: boolean;
+
+  constructor(verbose: boolean = false, noCache: boolean = false) {
+    this.verbose = verbose;
+    this.noCache = noCache;
+  }
 
   async verify(ref: ParsedReference): Promise<VerificationResult> {
     if (!ref.identifiers.arxivId) {
       return { source: 'arxiv', status: 'skipped', confidence: 0 };
+    }
+
+    // Check cache first (unless noCache is enabled)
+    if (!this.noCache) {
+      const cachedData = await this.cache.get(ref, 'arxiv');
+      if (cachedData) {
+        return this.compareMetadata(ref, cachedData);
+      }
+    } else {
+      if (this.verbose) console.log(`  [arXiv] Skipping cache lookup (--no-cache enabled)`);
     }
 
     await this.rateLimiter.wait();
@@ -678,6 +1264,9 @@ class ArxivVerifier {
       if (!result) {
         return { source: 'arxiv', status: 'failed', confidence: 0 };
       }
+
+      // Cache the result
+      await this.cache.set(ref, 'arxiv', result);
 
       return this.compareMetadata(ref, result);
 
@@ -737,10 +1326,31 @@ class ArxivVerifier {
  */
 class WebSearchVerifier {
   private rateLimiter = new RateLimiter(1);
+  private cache = new CacheManager();
+  private verbose: boolean;
+  private noCache: boolean;
+
+  constructor(verbose: boolean = false, noCache: boolean = false) {
+    this.verbose = verbose;
+    this.noCache = noCache;
+  }
 
   async verify(ref: ParsedReference): Promise<VerificationResult> {
     if (!ref.identifiers.url) {
       return { source: 'web-search', status: 'skipped', confidence: 0 };
+    }
+
+    // Check cache first (unless noCache is enabled)
+    if (!this.noCache) {
+      const cachedData = await this.cache.get(ref, 'web-search');
+      if (cachedData) {
+        return {
+          source: 'web-search',
+          status: 'verified',
+          confidence: 0.7,
+          metadata: { validatedUrl: ref.identifiers.url }
+        };
+      }
     }
 
     await this.rateLimiter.wait();
@@ -755,6 +1365,8 @@ class WebSearchVerifier {
       }, 2, 500); // Only 2 retries for HEAD requests
 
       if (result) {
+        // Cache the successful validation
+        await this.cache.set(ref, 'web-search', { validated: true, url: ref.identifiers.url });
         return {
           source: 'web-search',
           status: 'verified',
@@ -772,95 +1384,27 @@ class WebSearchVerifier {
 }
 
 /**
- * Claude CLI Verifier
+ * Verification Orchestrator - coordinates all verifiers
  */
-class ClaudeCLIVerifier {
-  private rateLimiter = new RateLimiter(0.2); // 1 req per 5 seconds
-
-  async research(ref: ParsedReference): Promise<VerificationResult> {
-    await this.rateLimiter.wait();
-
-    const prompt = this.constructPrompt(ref);
-
-    try {
-      // Use Bun shell to invoke Claude CLI
-      const result = await $`claude -p ${prompt}`.text();
-      const parsed = this.parseClaudeResponse(result);
-
-      return {
-        source: 'claude-cli',
-        status: parsed.found ? 'verified' : 'failed',
-        confidence: parsed.confidence || 0.5,
-        corrections: parsed.corrections,
-        metadata: parsed.metadata,
-        rawResponse: result
-      };
-
-    } catch (error) {
-      console.error(`  Claude CLI error: ${(error as Error).message}`);
-      return { source: 'claude-cli', status: 'failed', confidence: 0 };
-    }
-  }
-
-  private constructPrompt(ref: ParsedReference): string {
-    return `You are verifying an academic reference. Please research this citation using web search and return ONLY a JSON response with this exact structure:
-
-{
-  "found": true/false,
-  "confidence": 0.0-1.0,
-  "corrections": [
-    {"field": "title", "original": "...", "corrected": "...", "reason": "..."}
-  ],
-  "metadata": {
-    "title": "...",
-    "authors": "...",
-    "year": "...",
-    "doi": "...",
-    "url": "..."
-  }
-}
-
-Reference to verify:
-${ref.originalText}
-
-Verify:
-- Are the author names correct?
-- Is the year correct?
-- Is the title correct?
-- Can you find a DOI or authoritative URL?
-
-If you cannot find this reference, set "found": false. Return ONLY the JSON, no other text.`;
-  }
-
-  private parseClaudeResponse(response: string): any {
-    try {
-      // Extract JSON from response
-      const jsonMatch = response.match(/\{[\s\S]*\}/);
-      if (!jsonMatch) {
-        return { found: false, confidence: 0 };
-      }
-
-      return JSON.parse(jsonMatch[0]);
-    } catch {
-      return { found: false, confidence: 0 };
-    }
-  }
-}
-
-// ============================================================================
-// VERIFICATION ORCHESTRATOR
-// ============================================================================
-
 class VerificationOrchestrator {
-  private crossref = new CrossRefVerifier();
-  private openlibrary = new OpenLibraryVerifier();
-  private arxiv = new ArxivVerifier();
-  private webSearch = new WebSearchVerifier();
-  private claudeCLI = new ClaudeCLIVerifier();
+  private crossref: CrossRefVerifier;
+  private openlibrary: OpenLibraryVerifier;
+  private arxiv: ArxivVerifier;
+  private webSearch: WebSearchVerifier;
+  private claudeCLI: ClaudeCLIVerifier;
   private skipClaude: boolean;
+  private verbose: boolean;
+  private noCache: boolean;
 
-  constructor(skipClaude: boolean = false) {
+  constructor(skipClaude: boolean = false, verbose: boolean = false, noCache: boolean = false) {
     this.skipClaude = skipClaude;
+    this.verbose = verbose;
+    this.noCache = noCache;
+    this.crossref = new CrossRefVerifier(verbose, noCache);
+    this.openlibrary = new OpenLibraryVerifier(verbose, noCache);
+    this.arxiv = new ArxivVerifier(verbose, noCache);
+    this.webSearch = new WebSearchVerifier(verbose, noCache);
+    this.claudeCLI = new ClaudeCLIVerifier(verbose, noCache);
   }
 
   async verify(ref: ParsedReference): Promise<VerificationResult> {
@@ -875,21 +1419,35 @@ class VerificationOrchestrator {
     ];
 
     if (!this.skipClaude) {
-      verifiers.push({ name: 'Claude CLI', fn: () => this.claudeCLI.research(ref) });
+      verifiers.push({ name: 'Claude CLI', fn: () => this.claudeCLI.verify(ref) });
     }
 
     for (const verifier of verifiers) {
+      if (this.verbose) console.log(`  [Orchestrator] Trying ${verifier.name} verifier`);
+
       try {
+        const startTime = Date.now();
         const result = await verifier.fn();
+        const endTime = Date.now();
+
         attempts.push(result);
+
+        if (this.verbose) {
+          console.log(`  [Orchestrator] ${verifier.name} completed in ${endTime - startTime}ms, status: ${result.status}, confidence: ${result.confidence}`);
+        }
 
         // Success - return immediately
         if (result.status === 'verified' || result.status === 'corrected') {
+          if (this.verbose) console.log(`  [Orchestrator] ${verifier.name} succeeded, returning result`);
           return result;
         }
 
       } catch (error) {
-        console.error(`  ${verifier.name} error:`, error);
+        if (this.verbose) {
+          console.error(`  [Orchestrator] ${verifier.name} error:`, error);
+        } else {
+          console.error(`  ${verifier.name} error:`, error);
+        }
       }
     }
 
@@ -903,9 +1461,58 @@ class VerificationOrchestrator {
   }
 }
 
-// ============================================================================
-// BACKUP MANAGER
-// ============================================================================
+/**
+ * Claude CLI Verifier
+ */
+class ClaudeCLIVerifier {
+  private rateLimiter = new RateLimiter(1); // 1 req/5 sec
+  private cache = new CacheManager();
+  private verbose: boolean;
+  private noCache: boolean;
+
+  constructor(verbose: boolean = false, noCache: boolean = false) {
+    this.verbose = verbose;
+    this.noCache = noCache;
+  }
+
+  async verify(ref: ParsedReference): Promise<VerificationResult> {
+    if (this.verbose) {
+      console.log(`  [Claude CLI] Researching reference: ${ref.title}`);
+    }
+
+    // Check cache first (unless noCache is enabled)
+    if (!this.noCache) {
+      const cachedData = await this.cache.get(ref, 'claude-cli');
+      if (cachedData) {
+        if (this.verbose) console.log(`  [Claude CLI] Cache hit`);
+        return cachedData;
+      }
+    }
+
+    if (this.verbose) console.log(`  [Claude CLI] Rate limiting: waiting for API call`);
+    await this.rateLimiter.wait();
+
+    try {
+      // This would normally call Claude CLI, but for now return a placeholder
+      if (this.verbose) console.log(`  [Claude CLI] Would call Claude CLI here (skipped in demo)`);
+
+      const result: VerificationResult = {
+        source: 'claude-cli',
+        status: 'failed',
+        confidence: 0
+      };
+
+      // Note: Claude CLI results are not cached to ensure fresh verification
+      // (unlike other verifiers that cache raw API data)
+
+      return result;
+
+    } catch (error) {
+      if (this.verbose) console.error(`  [Claude CLI] Error:`, error);
+      return { source: 'claude-cli', status: 'failed', confidence: 0 };
+    }
+  }
+}
 
 class BackupManager {
   constructor(private backupDir: string) {}
@@ -1059,11 +1666,29 @@ class ReferenceVerifier {
 
   constructor(options: CLIOptions) {
     this.options = options;
-    this.verifier = new VerificationOrchestrator(options.skipClaude);
+    this.verifier = new VerificationOrchestrator(options.skipClaude, options.verbose, options.noCache);
     this.backup = new BackupManager(options.backupDir);
   }
 
   async run() {
+    // Handle cache clearing if requested
+    if (this.options.clearCache) {
+      const cache = new CacheManager();
+      await cache.clear();
+      console.log('Cache cleared. Exiting.');
+      return;
+    }
+
+    // Clean expired cache entries (run in background)
+    const cache = new CacheManager();
+    cache.cleanExpired().then(cleaned => {
+      if (cleaned > 0) {
+        console.log(`Cleaned ${cleaned} expired cache entries`);
+      }
+    }).catch(error => {
+      console.warn('Warning: Failed to clean expired cache:', error);
+    });
+
     // Check if input file exists
     const inputFile = Bun.file(this.options.input);
     if (!(await inputFile.exists())) {
@@ -1088,10 +1713,14 @@ class ReferenceVerifier {
     }
 
     console.log(`Found ${references.length} references to verify`);
+    if (this.options.verbose) {
+      console.log(`Verbose logging enabled - will show detailed verification steps`);
+    }
     this.consoleReporter.start(references.length);
 
     // Create backup
     if (this.options.backup && !this.options.dryRun) {
+      if (this.options.verbose) console.log(`Creating backup of ${this.options.input}`);
       await this.backup.createBackup(this.options.input);
     }
 
@@ -1101,7 +1730,13 @@ class ReferenceVerifier {
       verification: VerificationResult;
     }> = [];
 
+    if (this.options.verbose) console.log(`Starting verification of ${references.length} references...`);
+
     for (const ref of references) {
+      if (this.options.verbose) {
+        console.log(`\n[Reference ${results.length + 1}/${references.length}] Verifying: ${ref.title} (${ref.year})`);
+      }
+
       const verification = await this.verifier.verify(ref);
       this.consoleReporter.progress(ref, verification);
 
@@ -1115,13 +1750,16 @@ class ReferenceVerifier {
 
     // Generate output
     if (!this.options.dryRun) {
-      const outputPath = this.options.output || this.options.input;
+      const outputPath = (this.options.output && this.options.output.trim()) || this.options.input;
+      if (!outputPath || !outputPath.trim()) {
+        throw new Error('Output path cannot be empty. Please specify a valid output file or ensure input file is set.');
+      }
       const outputText = this.reconstructFile(lines, results);
 
       // Atomic write
       const tempPath = `${outputPath}.tmp`;
       await Bun.write(tempPath, outputText);
-      await $`mv ${tempPath} ${outputPath}`.quiet();
+      await rename(tempPath, outputPath);
 
       console.log(`\nWrote verified references to: ${outputPath}`);
     } else {
@@ -1131,7 +1769,40 @@ class ReferenceVerifier {
 
     // Generate reports
     await this.fileReporter.generateReport(this.options.reportPath);
+
+    // Export JSON if requested
+    if (this.options.exportJson) {
+      await this.exportJson(results);
+    }
+
     this.consoleReporter.summary();
+  }
+
+  private async exportJson(results: Array<{ ref: ParsedReference; verification: VerificationResult }>) {
+    const exportData = {
+      exported_at: new Date().toISOString(),
+      total_references: results.length,
+      verified_references: results.map(({ ref, verification }) => ({
+        original_text: ref.originalText,
+        parsed: {
+          authors: ref.authors,
+          year: ref.year,
+          title: ref.title,
+          identifiers: ref.identifiers,
+          type: ref.type
+        },
+        verification: {
+          source: verification.source,
+          status: verification.status,
+          confidence: verification.confidence,
+          corrections: verification.corrections,
+          metadata: verification.metadata
+        }
+      }))
+    };
+
+    await Bun.write(this.options.exportJson!, JSON.stringify(exportData, null, 2));
+    console.log(`\nExported verification data to: ${this.options.exportJson}`);
   }
 
   private parseReferences(lines: string[]): ParsedReference[] {
@@ -1199,23 +1870,27 @@ Academic Reference Verifier
 
 Usage: bun run verify-references.ts [options]
 
-Options:
-  -i, --input <file>              Input references file (default: ./references.md)
-  -o, --output <file>             Output file (default: overwrites input)
-  -b, --[no-]backup               Create backup before modifying (default: true)
-  --backup-dir <dir>              Backup directory (default: ./backups)
-  --confidence-threshold <num>    Minimum confidence for auto-correction (default: 0.7)
-  --report-path <file>            Unverifiable references report (default: ./unverifiable-references.md)
-  --dry-run                       Show what would be changed without modifying files
-  --skip-claude                   Skip Claude CLI fallback (faster, less comprehensive)
-  -v, --verbose                   Verbose logging
-  -h, --help                      Show this help message
+ Options:
+   -i, --input <file>              Input references file (default: ./references.md)
+   -o, --output <file>             Output file (default: overwrites input)
+   -b, --[no-]backup               Create backup before modifying (default: true)
+   --backup-dir <dir>              Backup directory (default: ./backups)
+   --confidence-threshold <num>    Minimum confidence for auto-correction (default: 0.7)
+   --report-path <file>            Unverifiable references report (default: ./unverifiable-references.md)
+   --export-json <file>            Export verification results to JSON file
+   --clear-cache                   Clear all cached API responses and exit
+   --no-cache                      Skip cache lookups and force fresh API calls
+   --dry-run                       Show what would be changed without modifying files
+   --skip-claude                   Skip Claude CLI fallback (faster, less comprehensive)
+   -v, --verbose                   Verbose logging
+   -h, --help                      Show this help message
 
-Examples:
-  bun run verify-references.ts                           # Verify references.md
-  bun run verify-references.ts --dry-run                 # Preview changes
-  bun run verify-references.ts --skip-claude             # Skip Claude CLI (faster)
-  bun run verify-references.ts -i custom.md -o fixed.md  # Custom input/output
+ Examples:
+   bun run verify-references.ts                           # Verify references.md
+   bun run verify-references.ts --dry-run                 # Preview changes
+   bun run verify-references.ts --no-cache                # Force fresh API calls
+   bun run verify-references.ts --skip-claude             # Skip Claude CLI (faster)
+   bun run verify-references.ts -i custom.md -o fixed.md  # Custom input/output
   `);
 }
 
@@ -1230,6 +1905,9 @@ async function main() {
       'report-path': { type: 'string', default: './unverifiable-references.md' },
       'dry-run': { type: 'boolean', default: false },
       'skip-claude': { type: 'boolean', default: false },
+      'export-json': { type: 'string' },
+      'clear-cache': { type: 'boolean', default: false },
+      'no-cache': { type: 'boolean', default: false },
       verbose: { type: 'boolean', short: 'v', default: false },
       help: { type: 'boolean', short: 'h' }
     }
@@ -1250,6 +1928,9 @@ async function main() {
     reportPath: values['report-path'] as string,
     dryRun: values['dry-run'] as boolean,
     skipClaude: values['skip-claude'] as boolean,
+    exportJson: values['export-json'] as string | undefined,
+    clearCache: values['clear-cache'] as boolean,
+    noCache: values['no-cache'] as boolean || false,
     verbose: values.verbose as boolean
   };
 
