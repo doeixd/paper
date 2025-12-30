@@ -10,7 +10,11 @@
       "Bash(python release.py:*)",
       "Bash(git add:*)",
       "WebFetch(domain:sites.google.com)",
-      "WebFetch(domain:nyaspubs.onlinelibrary.wiley.com)"
+      "WebFetch(domain:nyaspubs.onlinelibrary.wiley.com)",
+      "WebFetch(domain:bun.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl:*)",
+      "Bash(bun run:*)"
     ],
     "deny": [],
     "ask": []

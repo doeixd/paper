@@ -65,6 +65,17 @@ Use appropirate citations, and add them in Chicago format, in alphbetical order 
 
 Focus on creating work that shows sophisticated philosophical thinking through clear, precise academic prose.
 
+## Editorial Style Guide
+
+See `STYLE_GUIDE.md` for comprehensive editorial guidelines including:
+- The "Adversarial Reviewer" heuristic (write for a skeptical peer reviewer)
+- Logical flow principles (the "Logical Baton Pass" - no teleporting between points)
+- The "No Pseudo-Quantification" rule (avoid assigning specific numbers to examples)
+- Qualitative over quantitative descriptions
+- Framing examples as "conceptual illustrations" not empirical evidence
+- Subordinating formalism to philosophy
+- Clause stacking avoidance (break complex sentences into linear steps)
+- Resilience over novelty (build a fortress, not a billboard)
 
 After every large edit. write a summary of the changes, and explanation behind it. etc in a document in the edits/ directory, and preface the file name with the date YYYY-MM-DD - HH-MM - SUMMARY OF Edits Title
 
@@ -258,6 +269,61 @@ never add yourself as an author to the paper, or on a git commit.
 - **Use Cases**: One-command academic publishing, consistent formatting across papers, automated journal submission preparation, version control integration
 - **Dependencies**: Requires `pandoc`, `typst` and/or `pdflatex`, plus PDF merging tools (pdfunite/pdftk/pypdf)
 
+### Reference Verification Script (`verify-references.ts`)
+- **Purpose**: Automatically verify and correct academic references in `references.md` using multiple free APIs (CrossRef, OpenLibrary, arXiv) with Claude CLI as research fallback
+- **Basic Usage**:
+  - `bun run verify-references.ts --dry-run --skip-claude` - Preview changes without modifying files or using Claude
+  - `bun run verify-references.ts --skip-claude` - Verify and correct without Claude CLI (faster, free)
+  - `bun run verify-references.ts` - Full verification including Claude CLI research fallback
+  - `bun run verify-references.ts -i custom-refs.md -o corrected.md` - Custom input/output files
+- **Command-Line Options**:
+  - `-i, --input <file>` - Input references file (default: ./references.md)
+  - `-o, --output <file>` - Output file (default: overwrites input)
+  - `-b, --[no-]backup` - Create backup before modifying (default: true)
+  - `--backup-dir <dir>` - Backup directory (default: ./backups)
+  - `--confidence-threshold <num>` - Min confidence for auto-correction (default: 0.7)
+  - `--report-path <file>` - Unverifiable references report path (default: ./unverifiable-references.md)
+  - `--dry-run` - Preview changes without modifying files
+  - `--skip-claude` - Skip Claude CLI fallback (faster, no API costs)
+  - `-v, --verbose` - Verbose logging
+  - `-h, --help` - Show help message
+- **Verification Sources** (tried in order until success):
+  1. **CrossRef API** (DOI verification) - confidence: 0.95, most reliable for journal articles
+  2. **arXiv API** (preprint verification) - confidence: 0.90, validates arXiv IDs
+  3. **OpenLibrary API** (ISBN verification) - confidence: 0.85, validates book ISBNs
+  4. **Web Search** (URL validation) - confidence: 0.70, checks link accessibility
+  5. **Claude CLI** (research fallback) - confidence: 0.40-0.50, handles ambiguous cases (costs API credits)
+- **Features**:
+  - Automatic metadata correction (authors, years, titles) with confidence scoring
+  - Smart verification waterfall (tries most reliable sources first)
+  - Rate limiting for all APIs (prevents bans/throttling)
+  - Timestamped backups before modifications
+  - Atomic file writes (temp file → rename) for safety
+  - Console progress display with color-coded status (✓ verified, ✎ corrected, ✗ failed, ⊘ skipped)
+  - Detailed unverifiable references report with action checklists
+  - Fuzzy matching for titles/authors (Levenshtein distance with 5% tolerance)
+- **Edge Case Handling**:
+  - Trailing punctuation in DOIs, ISBNs, URLs
+  - Missing/malformed citations
+  - Organizational authors ("Cogitate Consortium")
+  - "et al." author formats
+  - Multiple ISBNs per reference
+  - Network timeouts (10 second limit)
+  - Rate limiting violations (auto-retry with exponential backoff)
+  - Invalid DOI/ISBN formats
+- **Output**:
+  - **Backup**: `./backups/references.md.{timestamp}.bak` (if enabled)
+  - **Corrected file**: Overwrites input or writes to custom output
+  - **Report**: `./unverifiable-references.md` with all failed verifications and manual review checklist
+- **Supported Reference Types**: Journal articles (DOI), books (ISBN), arXiv preprints, book chapters, web resources (PhilPapers, SSRN, OSF)
+- **Estimated Runtime**: 15-30 minutes for 383 references (due to API rate limiting)
+- **Important Notes**:
+  - OpenLibrary sometimes returns incorrect publication years (review before accepting)
+  - CrossRef may return shorter titles without subtitles (this is normal)
+  - Claude CLI adds API costs - use `--skip-claude` to avoid
+  - Always run `--dry-run` first to preview changes
+- **Dependencies**: Requires Bun runtime (no npm packages needed)
+- **Documentation**: See `VERIFY_REFERENCES_README.md` for complete usage guide
 
 ### Walkthrough
 
