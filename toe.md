@@ -10,11 +10,13 @@ One might object that "information" is too abstract a foundation for physics. Ho
 
 The following sections develop each component of this framework in turn.
 
+This framework remains agnostic about the mechanisms by which localized, persistent subsystems arise within the global constraint structure. However, existing work on the Free Energy Principle (FEP) provides a natural complement at this level of description. The FEP characterizes the necessary dynamics of any system that maintains its identity over time: such systems must minimize a variational bound on surprise relative to their sensory exchanges. In the present framework, this principle can be understood not as an independent postulate, but as a local consistency condition imposed on subsystems embedded within the broader informational landscape *Ω*.
+
 ## 2. Gravity as an Entropic Phenomenon
 
 ### 2.1 The Core Proposal
 
-The framework proposes that gravity is best understood as arising from informational constraints that restrict how systems can evolve locally. These constraints are encoded geometrically as spacetime curvature. On this view, gravitational behavior does not originate from a fundamental force. Instead, it reflects a statistical tendency: constrained systems evolve toward configurations compatible with larger sets of global possibilities.
+The framework proposes that gravity is best understood as arising from informational constraints that restrict how systems can evolve locally. These constraints are encoded geometrically as spacetime curvature. On this view, gravitational behavior does not originate from a fundamental force. Instead, gravity reflects a statistical tendency toward configurations compatible with larger global possibility volumes. This tendency can be expressed as a gradient flow on an informational cost function defined over spacetime configurations. At cosmological scales, this flow appears as spacetime curvature; at local scales, the same variational logic governs the dynamics of persistent subsystems, where it is formalized as free energy minimization.
 
 Consider what this means concretely. When matter clumps together, local order increases. One might expect this to decrease entropy. But the constraints imposed by this local ordering simultaneously expand the space of possible configurations elsewhere. Global entropy and dynamical possibilities increase even as matter becomes locally organized. Gravity, on this account, is the macroscopic signature of this constraint-driven evolution.
 
@@ -32,6 +34,8 @@ This cost can be measured in several equivalent ways: required state updates, ac
 
 To illustrate: two events separated by empty space require fewer computational steps to influence each other than two events separated by a region of high informational complexity. The latter separation is effectively larger, not because more "space" exists between them, but because more constraint must be navigated.
 
+In information-theoretic terms, this cost can be understood as inducing a metric on the space of possible state transitions. In related work on variational inference, such metrics arise naturally from precision-weighted prediction errors and define a geometry on belief space. The present framework extends this idea outward: what appears locally as belief-space geometry emerges globally as spacetime geometry, with both encoding the same underlying structure of informational constraint.
+
 ### 3.2 Implications for General Relativity
 
 On this view, general relativity is not a fundamental description of spacetime. It is a macroscopic geometric encoding of information-theoretic constraints on causal processes. The metric tensor summarizes, in geometric language, the structure of these constraints.
@@ -48,7 +52,7 @@ Imagine a sheet of paper with dots arranged in a perfect grid. If you rotate the
 
 ### 4.1 The Core Proposal
 
-The framework proposes that the quantum wave function is epistemic rather than ontic. The wave function functions as a mathematical representation of coarse-grained information about a system. It does not provide a complete specification of physical reality.
+The framework proposes that the quantum wave function is epistemic rather than ontic. The wave function functions as a mathematical representation of coarse-grained information about a system. It does not provide a complete specification of physical reality. In this sense, the quantum state functions as a generative model: it specifies expectations over possible outcomes constrained by the available coarse-grained description, rather than enumerating underlying microstates.
 
 This claim requires careful unpacking. To say the wave function is epistemic is not to say quantum mechanics is merely subjective or observer-dependent in an arbitrary way. The wave function encodes objective constraints on what we can know given the coarse-grained description we have access to.
 
@@ -74,7 +78,7 @@ Entangled particles share a common ancestor, a single parent interaction. Until 
 
 ### 5.2 Navigating Bell’s Theorem and Non-Locality
 
-Bell’s theorem demonstrates that no local hidden-variable theory can reproduce quantum correlations. This framework accepts the violation of Bell inequalities but rejects the conclusion that nature is fundamentally random. Instead, it abandons the assumption of factorizability.
+Bell’s theorem demonstrates that no local hidden-variable theory can reproduce quantum correlations. This framework accepts the violation of Bell inequalities but rejects the conclusion that nature is fundamentally random. Instead, it abandons the assumption of factorizability. This abandonment of factorizability mirrors the logic of variational inference in systems with shared latent causes: correlations arise from common global constraints rather than superluminal influence, while local marginal statistics remain unaffected.
 
 In this view, the underlying determinism is not factorizable into independent, spacetime-local parts. The causal graph allows for structural adjacency (direct links between nodes) that does not map to spatial proximity. Consequently, the system exhibits parameter independence (no superluminal signaling) while violating outcome independence (correlations depend on the global causal structure). Crucially, this dependence does not permit information to travel faster than light. The marginal statistics observed at any single measurement node remain indistinguishable from randomness. An observer can only detect the correlations by comparing local records with distant data, a process constrained by the speed of light. This constitutes a form of non-local realism where the "hidden variables" are topological features of the causal graph rather than localized packets of information.
 
@@ -84,7 +88,7 @@ In this view, the underlying determinism is not factorizable into independent, s
 
 To avoid ambiguity regarding the nature of "information," we must distinguish between the mathematical substrate and physical actuality. Let *Ω* represent the landscape of all mathematically allowed configurations defined by the laws of physics. This space is Platonic, not physical; it functions as the map of possibility.
 
-In contrast, the universe we observe is the specific path, denoted as *γ*, realized through this landscape. This distinction clarifies the ontological commitment: the constraints defining *Ω* are mathematical and structural, while the events comprising *γ* are physical and temporal. Information is therefore not a substance existing within the universe. Rather, it is a relational measure of the specificity of *γ* against the background of *Ω*. This resolves the wastefulness problem often associated with many-worlds theories. We do not need to assume that every possible branch of the map physically exists. The map exists as a set of rules, but only the path is rendered into physical existence. Crucially, the map does not push the path. Physicality is simply the state of being part of the active path. The logic of the map is the motion itself, meaning no external force is required to translate abstract rules into physical events.
+In contrast, the universe we observe is the specific path, denoted as *γ*, realized through this landscape. The realized path *γ* can be understood as the trajectory that extremizes an informational action over *Ω*, subject to the constraints defining physical law. This distinction clarifies the ontological commitment: the constraints defining *Ω* are mathematical and structural, while the events comprising *γ* are physical and temporal. Information is therefore not a substance existing within the universe. Rather, it is a relational measure of the specificity of *γ* against the background of *Ω*. This resolves the wastefulness problem often associated with many-worlds theories. We do not need to assume that every possible branch of the map physically exists. The map exists as a set of rules, but only the path is rendered into physical existence. Crucially, the map does not push the path. Physicality is simply the state of being part of the active path. The logic of the map is the motion itself, meaning no external force is required to translate abstract rules into physical events.
 
 ### 6.2 Information as Relational
 
@@ -98,19 +102,21 @@ This distinction allows us to understand entropy not as disorder, but as volume.
 
 The second law of thermodynamics is not a force pushing the system. It is a statistical tilt created by the geometry of the landscape. There are vastly more "high entropy" states than "low entropy" states. As the system evolves, it naturally falls into these larger regions simply because there are more ways to be there. The arrow of time is the inevitable descent of the specific path into the widest available parts of the possibility landscape.
 
+From this perspective, the second law is not an additional dynamical principle but a geometric fact about the structure of *Ω*. Systems embedded within this landscape must locally minimize informational surprise in order to persist, a requirement formalized by free energy minimization. The global arrow of time and the local imperative of inference are therefore two expressions of the same asymmetry in the possibility space.
+
 ## 7. Causal Structure and the Nature of Time
 
 ### 7.1 The Ontology of Becoming
 
 Standard physics often assumes a "Block Universe" where the past, present, and future exist simultaneously as a static 4D structure. This framework adopts a "Growing Block" model. The universe is not a finished object; it is a process of active construction.
 
-This process follows a principle of Lazy Evaluation. In computation, a lazy system does not calculate a value until that value is specifically required by another part of the program. Similarly, physical reality does not instantiate the future until an interaction demands it. An "event" is the successful resolution of such a demand. Until that moment, the future exists only as probabilistic potential: a set of rules waiting to be applied, not a territory waiting to be discovered.
+This process follows a principle of Lazy Evaluation. In computation, a lazy system does not calculate a value until that value is specifically required by another part of the program. Similarly, physical reality does not instantiate the future until an interaction demands it. An "event" is the successful resolution of such a demand. Until that moment, the future exists only as probabilistic potential: a set of rules waiting to be applied, not a territory waiting to be discovered. This process closely parallels active inference, where future states are not explicitly represented but constrained implicitly until action or interaction forces their resolution.
 
 ### 7.2 The Mechanism of Local Realization
 
 This model resolves the tension between quantum collapse and relativity by redefining the "trigger" for evaluation. Evaluation is not a global update but a local resolution of causal dependency.
 
-Consider two events, *A* and *B*, where the output of *A* is a necessary input for *B*. In a lazy evaluation context, the specific value of *A* is not computed until the causal horizon of event *B* intersects with *A*. The "collapse" is the establishment of this causal link. This update propagates outward at the speed of causality (light speed), respecting Lorentz invariance. It does not change the entire universe instantly; it only updates the immediate causal neighborhood required to satisfy the dependency of *B*.
+Consider two events, *A* and *B*, where the output of *A* is a necessary input for *B*. In a lazy evaluation context, the specific value of *A* is not computed until the causal horizon of event *B* intersects with *A*. The "collapse" is the establishment of this causal link. This update propagates outward at the speed of causality (light speed), respecting Lorentz invariance. It does not change the entire universe instantly; it only updates the immediate causal neighborhood required to satisfy the dependency of *B*. In this sense, physical interaction plays the same role as action in active inference: it selects which unresolved dependencies must be evaluated in order to maintain local coherence.
 
 ### 7.3 The Vacuum as Informational Potential
 
@@ -133,7 +139,7 @@ One might object that this fails to resolve the black hole information paradox. 
 While a complete mathematical formulation exceeds the scope of this interpretive framework, we can outline the schematic logic governing the system.
 
 1. State Space: The universe is defined by a causal set *C*, consisting of discrete events partially ordered by causality.
-2. Constraint Function: A function *F*(*C*) into the real numbers maps the causal structure to an informational cost. This cost corresponds to the volume of the possibility space *Ω* excluded by the current configuration.
+2. Constraint Function: A variational functional *F*(*C*), analogous to free energy, maps the causal structure to an informational cost representing the volume of excluded possibilities.
 3. Update Rule: The transition from a set *C_t* to *C_t+1* is probabilistic but constrained. The probability *P* of a new event *e* occurring is proportional to the minimization of the informational cost, such that *P*(*e*) ∝ *e*^(-*F*(*C* ∪ {*e*})).
 
 We note that this probability distribution is not posited as a fundamental feature of the ontology. Rather, it emerges from coarse-graining over the inaccessible fine structure of the substrate *Ω*.

@@ -3380,3 +3380,39 @@ RuntimeError: Failed to convert The Reality of Wholes_combined.typst to PDF: Com
 2025-12-30 12:40:40,970 - INFO - SUCCESS! Release complete in 0.6s
 2025-12-30 12:40:40,970 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (135045 bytes)
 2025-12-30 12:40:40,970 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2025-12-31 14:32:27,523 - INFO - Successfully imported paper_converter
+2025-12-31 14:32:27,525 - INFO - Successfully imported pdf_assembler
+2025-12-31 14:32:30,336 - INFO - Input validation passed: The Reality of Wholes.md (100013 bytes)
+2025-12-31 14:32:30,339 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20251231_143230.pdf
+2025-12-31 14:32:30,339 - INFO - Starting Academic Paper Release Pipeline
+2025-12-31 14:32:30,339 - INFO - Input: The Reality of Wholes.md
+2025-12-31 14:32:30,340 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2025-12-31 14:32:30,340 - INFO - Format: typst
+2025-12-31 14:32:30,340 - INFO - Config: 0 validation errors
+2025-12-31 14:32:30,340 - INFO - Converting markdown to target format...
+2025-12-31 14:32:30,340 - INFO - Extracting citations...
+2025-12-31 14:32:30,349 - INFO - Found 22 citations
+2025-12-31 14:32:30,349 - INFO - Loading and processing references...
+2025-12-31 14:32:30,352 - INFO - Loaded 1368 reference entries
+2025-12-31 14:32:30,354 - INFO - Generated 12 references (strategy: filter)
+2025-12-31 14:32:30,354 - WARNING - 1 citations not found in references.md
+2025-12-31 14:32:30,355 - INFO - Combining paper with filtered references...
+2025-12-31 14:32:30,373 - INFO - Combined file created: 100893 bytes
+2025-12-31 14:32:30,374 - INFO - Converting to typst format...
+2025-12-31 14:32:31,404 - INFO - Target file created: 104747 bytes
+2025-12-31 14:32:31,404 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2025-12-31 14:32:31,404 - INFO - Generating PDF with attachments...
+2025-12-31 14:32:31,405 - INFO - Main document: The Reality of Wholes_combined.typst
+2025-12-31 14:32:31,438 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2025-12-31 14:32:34,280 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2025-12-31 14:32:34,281 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2025-12-31 14:32:34,282 - INFO - PDF generation successful: 161586 bytes
+2025-12-31 14:32:34,282 - INFO - Adding metadata to PDF...
+2025-12-31 14:32:34,282 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2025-12-31 14:32:34,282 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2025-12-31 14:32:34,282 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (161586 bytes)
+2025-12-31 14:32:34,283 - INFO - Starting cleanup...
+2025-12-31 14:32:34,284 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2025-12-31 14:32:34,284 - INFO - SUCCESS! Release complete in 3.9s
+2025-12-31 14:32:34,285 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (161586 bytes)
+2025-12-31 14:32:34,285 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf

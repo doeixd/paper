@@ -1220,7 +1220,7 @@ class OpenLibraryVerifier {
  * arXiv API Verifier
  */
 class ArxivVerifier {
-  private baseUrl = 'http://export.arxiv.org/api/query';
+  private baseUrl = 'https://export.arxiv.org/api/query';
   private rateLimiter = new RateLimiter(1); // 1 req/3 sec
   private cache = new CacheManager();
   private verbose: boolean;
@@ -1249,8 +1249,8 @@ class ArxivVerifier {
     await this.rateLimiter.wait();
 
     try {
-      const result = await retryWithBackoff(async () => {
-        const url = `${this.baseUrl}?id_list=${ref.identifiers.arxivId}`;
+        const result = await retryWithBackoff(async () => {
+        const url = `${this.baseUrl}?id_list=${ref.identifiers.arxivId}&max_results=1`;
         const response = await fetch(url);
 
         if (!response.ok) {
@@ -1258,6 +1258,7 @@ class ArxivVerifier {
         }
 
         const xml = await response.text();
+        if (this.verbose) console.log(`  [arXiv] Raw XML response (first 500 chars):`, xml.substring(0, 500));
         return this.parseArxivXML(xml);
       });
 
@@ -1277,14 +1278,14 @@ class ArxivVerifier {
   }
 
   private parseArxivXML(xml: string): any {
-    // Simple XML parsing for arXiv
-    const titleMatch = xml.match(/<title>([^<]+)<\/title>/);
-    const publishedMatch = xml.match(/<published>([^<]+)<\/published>/);
+    // Parse arXiv XML - look for title within entry elements, not feed title
+    const entryTitleMatch = xml.match(/<entry[^>]*>[\s\S]*?<title[^>]*>([^<]+)<\/title>/);
+    const publishedMatch = xml.match(/<entry[^>]*>[\s\S]*?<published[^>]*>([^<]+)<\/published>/);
 
-    if (!titleMatch) return null;
+    if (!entryTitleMatch) return null;
 
     return {
-      title: titleMatch[1].trim(),
+      title: entryTitleMatch[1].trim(),
       published: publishedMatch ? publishedMatch[1] : null,
       year: publishedMatch ? publishedMatch[1].match(/\d{4}/)?.[0] : null
     };
@@ -1581,61 +1582,25 @@ Please provide your research results in the exact JSON format specified above.`;
         throw new Error('Claude CLI not installed');
       }
 
-      // Define the JSON schema for Claude CLI
-      const jsonSchema = {
-        type: "object",
-        properties: {
-          status: { type: "string", enum: ["verified", "corrected", "failed"] },
-          confidence: { type: "number", minimum: 0, maximum: 1 },
-          corrections: {
-            type: "array",
-            items: {
-              type: "object",
-              properties: {
-                field: { type: "string", enum: ["title", "authors", "year"] },
-                original: { type: "string" },
-                corrected: { type: "string" },
-                reason: { type: "string" }
-              },
-              required: ["field", "original", "corrected", "reason"]
-            }
-          },
-          metadata: {
-            type: "object",
-            properties: {
-              verified_title: { type: "string" },
-              verified_authors: { type: "array", items: { type: "string" } },
-              verified_year: { type: "string" },
-              source_url: { type: "string" },
-              publisher: { type: "string" },
-              journal: { type: "string" }
-            }
-          },
-          explanation: { type: "string" }
-        },
-        required: ["status", "confidence"]
-      };
-
-      // Write schema and instructions to temporary files to avoid shell escaping issues
-      const schemaFile = `/tmp/claude_schema_${Date.now()}.json`;
+      // Write instructions to a temporary file to avoid shell escaping issues
       const instructionsFile = `/tmp/claude_instructions_${Date.now()}.txt`;
-
-      await Bun.write(schemaFile, JSON.stringify(jsonSchema, null, 2));
       await Bun.write(instructionsFile, instructions);
 
-      if (this.verbose) console.log(`  [Claude CLI] Executing Claude CLI with temporary files`);
+      if (this.verbose) console.log(`  [Claude CLI] Executing Claude CLI with instructions file`);
 
-      // Use temporary files instead of inline arguments
-      const result = await $`claude --print --output-format json --json-schema @${schemaFile} --no-session-persistence --system-prompt "You are an expert academic reference verification assistant." @${instructionsFile}`.quiet();
+      // Simple command without JSON schema for now
+      const result = await $`claude --print --no-session-persistence --system-prompt "You are an expert academic reference verification assistant. Return your response as valid JSON with status, confidence, corrections array, and metadata object." @${instructionsFile}`.quiet();
 
-      // Clean up temporary files
+      // Clean up
       try {
-        await $`rm ${schemaFile} ${instructionsFile}`.quiet();
+        await $`rm ${instructionsFile}`.quiet();
       } catch {
         // Ignore cleanup errors
       }
 
-      return result.stdout || result.stderr || '';
+      const output = (result.stdout || result.stderr || '').toString();
+      if (this.verbose) console.log(`  [Claude CLI] Raw output:`, output);
+      return output;
     } catch (error) {
       if (this.verbose) console.error(`  [Claude CLI] Command failed:`, error);
       throw error;
