@@ -1616,12 +1616,24 @@ Please provide your research results in the exact JSON format specified above.`;
         required: ["status", "confidence"]
       };
 
-      const schemaString = JSON.stringify(jsonSchema).replace(/"/g, '\\"');
-      const command = `claude --print --output-format json --json-schema "${schemaString}" --no-session-persistence --system-prompt "You are an expert academic reference verification assistant." "${instructions.replace(/"/g, '\\"')}"`;
+      // Write schema and instructions to temporary files to avoid shell escaping issues
+      const schemaFile = `/tmp/claude_schema_${Date.now()}.json`;
+      const instructionsFile = `/tmp/claude_instructions_${Date.now()}.txt`;
 
-      if (this.verbose) console.log(`  [Claude CLI] Executing Claude CLI with JSON schema validation`);
+      await Bun.write(schemaFile, JSON.stringify(jsonSchema, null, 2));
+      await Bun.write(instructionsFile, instructions);
 
-      const result = await $`${command}`.quiet();
+      if (this.verbose) console.log(`  [Claude CLI] Executing Claude CLI with temporary files`);
+
+      // Use temporary files instead of inline arguments
+      const result = await $`claude --print --output-format json --json-schema @${schemaFile} --no-session-persistence --system-prompt "You are an expert academic reference verification assistant." @${instructionsFile}`.quiet();
+
+      // Clean up temporary files
+      try {
+        await $`rm ${schemaFile} ${instructionsFile}`.quiet();
+      } catch {
+        // Ignore cleanup errors
+      }
 
       return result.stdout || result.stderr || '';
     } catch (error) {
@@ -1988,8 +2000,59 @@ class ReferenceVerifier {
     originalLines: string[],
     results: Array<{ ref: ParsedReference; verification: VerificationResult }>
   ): string {
-    // For now, keep original text (corrections applied in future iteration)
-    return originalLines.join('\n');
+    if (!this.options.autoCorrect) {
+      return originalLines.join('\n');
+    }
+
+    const correctedLines = [...originalLines];
+
+    results.forEach(({ ref, verification }) => {
+      if (verification.status === 'corrected' &&
+          verification.confidence >= this.options.confidenceThreshold &&
+          verification.corrections) {
+
+        // Find the line to correct (line numbers are 1-based)
+        const lineIndex = ref.lineNumber - 1;
+        if (lineIndex >= 0 && lineIndex < correctedLines.length) {
+          let correctedText = ref.originalText;
+
+          // Apply each correction
+          verification.corrections.forEach(correction => {
+            switch (correction.field) {
+              case 'title':
+                // Replace title in the text (this is a simple approach)
+                correctedText = correctedText.replace(
+                  new RegExp(this.escapeRegex(ref.title), 'g'),
+                  correction.corrected
+                );
+                break;
+              case 'authors':
+                // Replace author name (simplified)
+                correctedText = correctedText.replace(
+                  new RegExp(this.escapeRegex(correction.original), 'g'),
+                  correction.corrected
+                );
+                break;
+              case 'year':
+                // Replace year
+                correctedText = correctedText.replace(
+                  new RegExp(`\\b${this.escapeRegex(ref.year)}\\b`, 'g'),
+                  correction.corrected
+                );
+                break;
+            }
+          });
+
+          correctedLines[lineIndex] = correctedText;
+        }
+      }
+    });
+
+    return correctedLines.join('\n');
+  }
+
+  private escapeRegex(string: string): string {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 
   private showChanges(results: Array<{ ref: ParsedReference; verification: VerificationResult }>) {
