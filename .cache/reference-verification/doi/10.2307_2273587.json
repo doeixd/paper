@@ -1,0 +1,310 @@
+{
+  "key": "doi-10.2307_2273587",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          4
+        ]
+      ],
+      "date-time": "2025-12-04T01:22:45Z",
+      "timestamp": 1764811365689
+    },
+    "reference-count": 21,
+    "publisher": "Cambridge University Press (CUP)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              3,
+              12
+            ]
+          ],
+          "date-time": "2014-03-12T00:00:00Z",
+          "timestamp": 1394582400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 11515,
+        "URL": "https://www.cambridge.org/core/terms"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "J. symb. log."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1982,
+          9
+        ]
+      ]
+    },
+    "abstract": "<jats:p>The basic concept underlying probability theory and statistics is a function assigning numerical values (probabilities) to events. An “event” in this context is any conceivable state of affairs including the so-called “empty event”—an a priori impossible state. Informally, events are described in everyday language (e.g. “by playing this strategy I shall win $1000 before going broke”). But in the current mathematical framework (first proposed by Kolmogoroff [Ko 1]) they are identified with subsets of some all-inclusive set <jats:italic>Q</jats:italic>. The family of all events constitutes a field, or σ-field, and the logical connectives ‘and’, ‘or’ and ‘not’ are translated into the set-theoretical operations of intersection, union and complementation. The points of <jats:italic>Q</jats:italic> can be regarded as possible worlds and an event as the set of all worlds in which it takes place. The concept of a field of sets is wide enough to accommodate all cases and to allow for a general abstract foundation of the theory. On the other hand it does not reflect distinctions that arise out of the linguistic structure which goes into the description of our events. Since events are always described in some language they can be indentified with the sentences that describe them and the probability function can be regarded as an assignment of values to sentences. The extensive accumulated knowledge concerning formal languages makes such a project feasible. The study of probability functions defined over the sentences of a rich enough formal language yields interesting insights in more than one direction.</jats:p><jats:p>Our present approach is not an alternative to the accepted Kolmogoroff axiomatics. In fact, given some formal language <jats:italic>L</jats:italic>, we can consider a rich enough set, say <jats:italic>Q</jats:italic>, of models for <jats:italic>L</jats:italic> (called also in this work “worlds”) and we can associate with every sentence the set of all worlds in <jats:italic>Q</jats:italic> in which the sentence is true. Thus our probabilities can be considered also as measures over some field of sets. But the introduction of the language adds mathematical structure and makes for distinctions expressing basic intuitions that cannot be otherwise expressed. As an example we mention here the concept of a <jats:italic>random sequence</jats:italic> or, more generally, a <jats:italic>random world</jats:italic>, or a world which is typical to a certain probability distribution.</jats:p>",
+    "DOI": "10.2307/2273587",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2006,
+          5,
+          6
+        ]
+      ],
+      "date-time": "2006-05-06T22:00:58Z",
+      "timestamp": 1146952858000
+    },
+    "page": "495-548",
+    "source": "Crossref",
+    "is-referenced-by-count": 121,
+    "title": [
+      "Probabilities over rich languages, testing and randomness"
+    ],
+    "prefix": "10.1017",
+    "volume": "47",
+    "author": [
+      {
+        "given": "Haim",
+        "family": "Gaifman",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Marc",
+        "family": "Snir",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "56",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "S0022481200043942_ref019",
+        "volume-title": "The foundations of statistics",
+        "author": "Savage",
+        "year": "1972"
+      },
+      {
+        "key": "S0022481200043942_ref016",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0019-9958(66)80018-9"
+      },
+      {
+        "key": "S0022481200043942_ref005",
+        "volume-title": "Topology and Borel structure, North-Holland Mathematical Studies",
+        "author": "Christensen",
+        "year": "1974"
+      },
+      {
+        "key": "S0022481200043942_ref013",
+        "article-title": "Three approaches to the definitions of the concept “amount of information”",
+        "volume": "1",
+        "author": "Kolmogoroff",
+        "year": "1965",
+        "journal-title": "Problemy Peredači Informacii"
+      },
+      {
+        "key": "S0022481200043942_ref015",
+        "volume-title": "Proceedings of the 1962 International Congress of Mathematics",
+        "author": "Łos",
+        "year": "1963"
+      },
+      {
+        "key": "S0022481200043942_ref006",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0049-237X(08)71506-4"
+      },
+      {
+        "key": "S0022481200043942_ref011",
+        "first-page": "133",
+        "volume": "5",
+        "author": "Janina",
+        "year": "1940",
+        "journal-title": "On confirmation"
+      },
+      {
+        "key": "S0022481200043942_ref014",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1969003"
+      },
+      {
+        "key": "S0022481200043942_ref010",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-66943-9"
+      },
+      {
+        "key": "S0022481200043942_ref018",
+        "volume-title": "The foundations of mathematics and other essays",
+        "author": "Ramsey",
+        "year": "1931"
+      },
+      {
+        "key": "S0022481200043942_ref004",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1147/rd.214.0350"
+      },
+      {
+        "key": "S0022481200043942_ref021",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0049-237X(08)71672-0"
+      },
+      {
+        "key": "S0022481200043942_ref007",
+        "first-page": "77",
+        "volume-title": "International Congress of Logic Methodology and Philosophy of Science, 1960, Abstracts of Contributed Papers",
+        "author": "Gaifman"
+      },
+      {
+        "key": "S0022481200043942_ref001",
+        "volume-title": "Probability",
+        "author": "Breiman",
+        "year": "1968"
+      },
+      {
+        "key": "S0022481200043942_ref008",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02759729"
+      },
+      {
+        "key": "S0022481200043942_ref017",
+        "first-page": "761",
+        "volume-title": "The philosophy of Rudolf Carnap",
+        "author": "Putnam",
+        "year": "1963"
+      },
+      {
+        "key": "S0022481200043942_ref002",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2103107"
+      },
+      {
+        "key": "S0022481200043942_ref003",
+        "volume-title": "The logical foundations of probability",
+        "author": "Carnap",
+        "year": "1951"
+      },
+      {
+        "key": "S0022481200043942_ref012",
+        "volume-title": "Ergebnisse der Mathematik und ihrer Grenzgebiete",
+        "author": "Kolmogoroff",
+        "year": "1933"
+      },
+      {
+        "key": "S0022481200043942_ref020",
+        "volume-title": "Lecture Notes in Mathematics",
+        "volume": "218",
+        "author": "Schnorr",
+        "year": "1971"
+      },
+      {
+        "key": "S0022481200043942_ref009",
+        "first-page": "105",
+        "article-title": "Subjective probability, natural predicates and Hempel's ravens",
+        "volume": "14",
+        "author": "Gaifman",
+        "year": "1979",
+        "journal-title": "Erkenntnis"
+      }
+    ],
+    "container-title": [
+      "Journal of Symbolic Logic"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0022481200043942",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          5,
+          24
+        ]
+      ],
+      "date-time": "2019-05-24T20:47:20Z",
+      "timestamp": 1558730840000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cambridge.org/core/product/identifier/S0022481200043942/type/journal_article"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1982,
+          9
+        ]
+      ]
+    },
+    "references-count": 21,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            1982,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0022481200043942"
+    ],
+    "URL": "https://doi.org/10.2307/2273587",
+    "relation": {},
+    "ISSN": [
+      "0022-4812",
+      "1943-5886"
+    ],
+    "issn-type": [
+      {
+        "value": "0022-4812",
+        "type": "print"
+      },
+      {
+        "value": "1943-5886",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1982,
+          9
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767125400388,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

@@ -1,0 +1,85 @@
+{
+  "key": "isbn-9780199279999",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL3300232M/Against_coherence",
+      "key": "/books/OL3300232M",
+      "title": "Against coherence",
+      "subtitle": "truth, probability, and justification",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL1391743A/Erik_J._Olsson",
+          "name": "Erik J. Olsson"
+        }
+      ],
+      "number_of_pages": 232,
+      "pagination": "xiii, 232 p. ;",
+      "by_statement": "Erik J. Olsson.",
+      "identifiers": {
+        "goodreads": [
+          "1344122"
+        ],
+        "isbn_10": [
+          "0199279993"
+        ],
+        "lccn": [
+          "2004029060"
+        ],
+        "oclc": [
+          "57243490"
+        ],
+        "openlibrary": [
+          "OL3300232M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD171 .O47 2005",
+          "BD171.O47 2005",
+          "BD 171 .O47 2005"
+        ],
+        "dewey_decimal_class": [
+          "121"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Oxford, UK"
+        },
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "2005",
+      "subjects": [
+        {
+          "name": "Coherence theory",
+          "url": "https://openlibrary.org/subjects/coherence_theory"
+        },
+        {
+          "name": "Skepticism",
+          "url": "https://openlibrary.org/subjects/skepticism"
+        },
+        {
+          "name": "Truth",
+          "url": "https://openlibrary.org/subjects/truth"
+        }
+      ],
+      "notes": "Includes bibliographical references (p. [224]-228) and index.",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/1140412-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/1140412-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/1140412-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780199279999"
+  },
+  "timestamp": 1767125423926,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

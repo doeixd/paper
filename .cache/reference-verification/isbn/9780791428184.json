@@ -1,0 +1,105 @@
+{
+  "key": "isbn-9780791428184",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL1277109M/Process_metaphysics",
+      "key": "/books/OL1277109M",
+      "title": "Process metaphysics",
+      "subtitle": "an introduction to process philosophy",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL24617A/Rescher_Nicholas.",
+          "name": "Rescher, Nicholas."
+        }
+      ],
+      "number_of_pages": 213,
+      "pagination": "vii, 213 p. ;",
+      "by_statement": "Nicholas Rescher.",
+      "identifiers": {
+        "goodreads": [
+          "3977057",
+          "208072"
+        ],
+        "librarything": [
+          "379109"
+        ],
+        "isbn_10": [
+          "0791428176",
+          "0791428184"
+        ],
+        "lccn": [
+          "95008784"
+        ],
+        "oclc": [
+          "32347963"
+        ],
+        "openlibrary": [
+          "OL1277109M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD372 .R47 1996",
+          "BD372.R47 1996"
+        ],
+        "dewey_decimal_class": [
+          "146/.7"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "State University of New York Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Albany"
+        }
+      ],
+      "publish_date": "1996",
+      "subjects": [
+        {
+          "name": "Process philosophy",
+          "url": "https://openlibrary.org/subjects/process_philosophy"
+        },
+        {
+          "name": "Procesfilosofie",
+          "url": "https://openlibrary.org/subjects/procesfilosofie"
+        },
+        {
+          "name": "Prozessphilosophie",
+          "url": "https://openlibrary.org/subjects/prozessphilosophie"
+        },
+        {
+          "name": "08.31 metaphysics",
+          "url": "https://openlibrary.org/subjects/08.31_metaphysics"
+        },
+        {
+          "name": "Philosophy, modern, 20th century",
+          "url": "https://openlibrary.org/subjects/philosophy,_modern,_20th_century"
+        },
+        {
+          "name": "Heraclitus, of ephesus",
+          "url": "https://openlibrary.org/subjects/heraclitus,_of_ephesus"
+        }
+      ],
+      "notes": "Includes bibliographical references (p. [201]-210) and index.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/processmetaphysi0000resc",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/3913554-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/3913554-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/3913554-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780791428184"
+  },
+  "timestamp": 1767125432511,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

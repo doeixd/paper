@@ -1,0 +1,426 @@
+{
+  "key": "doi-10.1086_508684",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2025-04-08T18:09:46Z",
+      "timestamp": 1744135786082
+    },
+    "reference-count": 47,
+    "publisher": "American Astronomical Society",
+    "issue": "6",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "AJ"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2006,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1086/508684",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2006,
+          11,
+          21
+        ]
+      ],
+      "date-time": "2006-11-21T22:40:27Z",
+      "timestamp": 1164148827000
+    },
+    "page": "2489-2495",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "HD 71636, A Newly Discovered Eclipsing Binary"
+    ],
+    "prefix": "10.3847",
+    "volume": "132",
+    "author": [
+      {
+        "given": "Gregory W.",
+        "family": "Henry",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Francis C.",
+        "family": "Fekel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "James R.",
+        "family": "Sowell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Joel S.",
+        "family": "Gearhart",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "2208",
+    "reference": [
+      {
+        "key": "rf1_1290",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/192182"
+      },
+      {
+        "key": "rf2_1291",
+        "unstructured": "Allen, C. W. 2000, in Allen’s Astrophysical Quantities, ed. A. N. Cox (New York: Springer), 388"
+      },
+      {
+        "key": "rf3_1292",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/163361"
+      },
+      {
+        "key": "rf4_1293",
+        "first-page": "355",
+        "volume": "130",
+        "author": "Barker E. S.",
+        "year": "1967",
+        "journal-title": "R. Obs. Bull."
+      },
+      {
+        "key": "rf5_1294",
+        "first-page": "1",
+        "volume": "17",
+        "author": "Batten A. H.",
+        "year": "1989",
+        "journal-title": "Publ. Dominion Astrophys. Obs."
+      },
+      {
+        "key": "rf6_1295",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/164120"
+      },
+      {
+        "key": "rf7_1296",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bohm-Vitense, E. 1992, Introduction to Stellar Astrophysics, Volume 3 (Cambridge: Cambridge Univ. Press)",
+        "DOI": "10.1017/CBO9780511623028"
+      },
+      {
+        "key": "rf8_1297",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/424966"
+      },
+      {
+        "key": "rf9_1298",
+        "unstructured": "Eaton, J. A., Henry, G. W. & Fekel, F. C. 2003, in The Future of Small Telescopes in the New Millennium, Volume II: The Telescopes We Use, ed. T. D. Oswalt (Dordrecht: Kluwer), 189"
+      },
+      {
+        "key": "rf10_1299",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/133908"
+      },
+      {
+        "key": "rf11_1300",
+        "unstructured": "Fitzpatrick, M. J. 1993, in ASP Conf. Ser. 52, Astronomical Data Analysis Software and Systems II, ed. R. J. Hanisch, R. V. J. Brissenden, & J. Barnes (San Francisco: ASP), 472"
+      },
+      {
+        "key": "rf12_1301",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/177785"
+      },
+      {
+        "key": "rf13_1302",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/aas:2000126"
+      },
+      {
+        "key": "rf14_1303",
+        "unstructured": "Gray, D. F. 1992, The Observation and Analysis of Stellar Photospheres (Cambridge: Cambridge Univ. Press)"
+      },
+      {
+        "key": "rf15_1304",
+        "unstructured": "Hardie, R. H. 1962, in Astronomical Techniques, Volume 2: Stars and Stellar Systems, ed. W. A. Hiltner (Chicago: Univ. Chicago Press), 178"
+      },
+      {
+        "key": "rf16_1305",
+        "unstructured": "Henry, G. W. 1995a, in ASP Conf. Ser. 79, Robotic Telescopes: Current Capabilities, Present Developments, and Future Prospects for Automated Astronomy, ed. G. W. Henry & J. A. Eaton (San Francisco: ASP), 37"
+      },
+      {
+        "key": "rf17_1306",
+        "unstructured": "Henry, G. W. 1995b, in ASP Conf. Ser. 79, Robotic Telescopes: Current Capabilities, Present Developments, and Future Prospects for Automated Astronomy, ed. G. W. Henry & J. A. Eaton (San Francisco: ASP), 44"
+      },
+      {
+        "key": "rf18_1307",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/429876"
+      },
+      {
+        "key": "rf19_1308",
+        "first-page": "510",
+        "volume": "16",
+        "author": "Huenemoerder D. P.",
+        "year": "1984",
+        "journal-title": "BAAS"
+      },
+      {
+        "key": "rf20_1309",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.aa.04.090166.001205"
+      },
+      {
+        "key": "rf21_1310",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/145697"
+      },
+      {
+        "key": "rf22_1311",
+        "first-page": "431",
+        "volume": "11",
+        "author": "Levenberg K.",
+        "year": "1944",
+        "journal-title": "Q. J. Appl. Math."
+      },
+      {
+        "key": "rf23_1312",
+        "first-page": "89",
+        "volume": "65",
+        "author": "Lucy L. B.",
+        "year": "1967",
+        "journal-title": "Z. Astrophys."
+      },
+      {
+        "key": "rf24_1313",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/111159"
+      },
+      {
+        "key": "rf25_1314",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1137/0111030"
+      },
+      {
+        "key": "rf26_1315",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/0004-6361:20035959"
+      },
+      {
+        "key": "rf27_1316",
+        "first-page": "55",
+        "volume": "54",
+        "author": "Olsen E. H.",
+        "year": "1983",
+        "journal-title": "A&AS"
+      },
+      {
+        "key": "rf28_1317",
+        "unstructured": "Perryman, M. A. C., etal 1997, The Hipparcos and Tycho Catalogues (ESA SP-1200; Noordwijk: ESA)"
+      },
+      {
+        "key": "rf29_1318",
+        "first-page": "21",
+        "volume": "18",
+        "author": "Scarfe C. D.",
+        "year": "1990",
+        "journal-title": "Publ. Dominion Astrophys. Obs."
+      },
+      {
+        "key": "rf30_1319",
+        "first-page": "389",
+        "volume": "230",
+        "author": "Strassmeier K. G.",
+        "year": "1990",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "rf31_1320",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/165780"
+      },
+      {
+        "key": "rf32_1321",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/185094"
+      },
+      {
+        "key": "rf33_1322",
+        "first-page": "337",
+        "volume": "16",
+        "author": "Tassoul J.-L.",
+        "year": "1996",
+        "journal-title": "Fundam. Cosm. Phys."
+      },
+      {
+        "key": "rf34_1323",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1051/0004-6361:20021675"
+      },
+      {
+        "key": "rf35_1324",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/116788"
+      },
+      {
+        "key": "rf36_1325",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/324110"
+      },
+      {
+        "key": "rf37_1326",
+        "first-page": "1",
+        "volume": "141",
+        "author": "Van Hamme W.",
+        "year": "1984",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "rf38_1327",
+        "doi-asserted-by": "crossref",
+        "first-page": "169",
+        "DOI": "10.1007/BF00660626",
+        "volume": "110",
+        "author": "Van Hamme W.",
+        "year": "1985",
+        "journal-title": "Ap&SS"
+      },
+      {
+        "key": "rf39_1328",
+        "unstructured": "Van Hamme, W. & Wilson, R. E. 2003, in ASP Conf. Ser. 298, GAIA Spectroscopy, Science and Technology, ed. U. Munari (San Francisco: ASP), 323"
+      },
+      {
+        "key": "rf40_1329",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/422926"
+      },
+      {
+        "key": "rf41_1330",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/430215"
+      },
+      {
+        "key": "rf42_1331",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/157588"
+      },
+      {
+        "key": "rf43_1332",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/168867"
+      },
+      {
+        "key": "rf44_1333",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/150986"
+      },
+      {
+        "key": "rf45_1334",
+        "unstructured": "Wolfe, R. H., Horak, H. G. & Storer, N. W. 1967, in Modern Astrophysics, ed. M. Hack (New York: Gordon & Breach), 251"
+      },
+      {
+        "key": "rf46_1335",
+        "first-page": "383",
+        "volume": "57",
+        "author": "Zahn J.-P.",
+        "year": "1977",
+        "journal-title": "A&A"
+      },
+      {
+        "key": "rf47_1336",
+        "first-page": "112",
+        "volume": "220",
+        "author": "Zahn J.-P.",
+        "year": "1989",
+        "journal-title": "A&A"
+      }
+    ],
+    "container-title": [
+      "The Astronomical Journal"
+    ],
+    "original-title": [],
+    "language": "en",
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2020-11-06T21:01:20Z",
+      "timestamp": 1604696480000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://iopscience.iop.org/article/10.1086/508684"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          1
+        ]
+      ]
+    },
+    "references-count": 47,
+    "journal-issue": {
+      "issue": "6",
+      "published-print": {
+        "date-parts": [
+          [
+            2006,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1086/508684"
+    ],
+    "URL": "https://doi.org/10.1086/508684",
+    "relation": {},
+    "ISSN": [
+      "0004-6256",
+      "1538-3881"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-6256",
+        "type": "print"
+      },
+      {
+        "value": "1538-3881",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2006,
+          1
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767125456438,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

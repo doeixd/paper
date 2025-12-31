@@ -1,0 +1,356 @@
+{
+  "key": "doi-10.1016_0004-3702_94_90057-4",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          10
+        ]
+      ],
+      "date-time": "2025-12-10T08:26:43Z",
+      "timestamp": 1765355203581
+    },
+    "reference-count": 22,
+    "publisher": "Elsevier BV",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              1994,
+              6,
+              1
+            ]
+          ],
+          "date-time": "1994-06-01T00:00:00Z",
+          "timestamp": 770428800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Artificial Intelligence"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1994,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/0004-3702(94)90057-4",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2003,
+          3,
+          14
+        ]
+      ],
+      "date-time": "2003-03-14T13:02:52Z",
+      "timestamp": 1047646972000
+    },
+    "page": "377-407",
+    "source": "Crossref",
+    "is-referenced-by-count": 94,
+    "title": [
+      "Justification and defeat"
+    ],
+    "prefix": "10.1016",
+    "volume": "67",
+    "author": [
+      {
+        "given": "John L",
+        "family": "Pollock",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB1",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.1016/0004-3702(91)90068-U",
+        "article-title": "Nonmonotonicity and the scope of reasoning",
+        "volume": "52",
+        "author": "Etherington",
+        "year": "1991",
+        "journal-title": "Artif. Intell."
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB2",
+        "author": "Kyburg",
+        "year": "1961"
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB3",
+        "series-title": "Readings in Nonmonotonic Reasoning",
+        "first-page": "179",
+        "article-title": "Pointwise circumscription",
+        "author": "Lifschitz",
+        "year": "1987"
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB4",
+        "doi-asserted-by": "crossref",
+        "first-page": "205",
+        "DOI": "10.1093/analys/25.6.205",
+        "article-title": "The paradox of the preface",
+        "volume": "25",
+        "author": "Makinson",
+        "year": "1965",
+        "journal-title": "Analysis"
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB5",
+        "doi-asserted-by": "crossref",
+        "first-page": "27",
+        "DOI": "10.1016/0004-3702(80)90011-9",
+        "article-title": "Circumscription—a form of non-monotonic reasoning",
+        "volume": "13",
+        "author": "McCarthy",
+        "year": "1980",
+        "journal-title": "Artif. Intell."
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB6_1",
+        "series-title": "Proceedings Workshop on Nonmonotonic Reasoning",
+        "article-title": "Applications of circumscription to formalizing common-sense knowledge",
+        "author": "McCarthy",
+        "year": "1984"
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB6_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.1016/0004-3702(86)90032-9",
+        "volume": "28",
+        "year": "1986",
+        "journal-title": "Artif. Intell."
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB7",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.2307/2022841",
+        "article-title": "Analyticity and implication",
+        "author": "Pollock",
+        "year": "1965"
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB8",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.2307/2182964",
+        "article-title": "Criteria and our knowledge of the material world",
+        "volume": "76",
+        "author": "Pollock",
+        "year": "1967",
+        "journal-title": "Philos. Rev."
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB9",
+        "first-page": "62",
+        "article-title": "The structure of epistemic justification",
+        "volume": "4",
+        "author": "Pollock",
+        "year": "1970",
+        "journal-title": "Am. Philos. Q."
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB10",
+        "author": "Pollock",
+        "year": "1974"
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB11",
+        "series-title": "Proceedings American Philosophical Association Symposium",
+        "article-title": "Reasons and reasoning",
+        "author": "Pollock",
+        "year": "1979"
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB12",
+        "author": "Pollock",
+        "year": "1986"
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB13",
+        "doi-asserted-by": "crossref",
+        "first-page": "481",
+        "DOI": "10.1207/s15516709cog1104_4",
+        "article-title": "Defeasible reasoning",
+        "volume": "11",
+        "author": "Pollock",
+        "year": "1987",
+        "journal-title": "Cogn. Sci."
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB14",
+        "author": "Pollock",
+        "year": "1989"
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB15",
+        "author": "Pollock",
+        "year": "1990"
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB16",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1002/int.4550060103",
+        "article-title": "A theory of defeasible reasoning",
+        "volume": "6",
+        "author": "Pollock",
+        "year": "1990",
+        "journal-title": "Int. J. Intell. Syst."
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB17",
+        "doi-asserted-by": "crossref",
+        "first-page": "367",
+        "DOI": "10.1007/BF00352916",
+        "article-title": "Self-defeating arguments",
+        "volume": "1",
+        "author": "Pollock",
+        "year": "1991",
+        "journal-title": "Minds and Machines"
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/0004-3702(92)90103-5",
+        "article-title": "How to reason defeasibly",
+        "volume": "57",
+        "author": "Pollock",
+        "year": "1992",
+        "journal-title": "Artif. Intell."
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB19",
+        "doi-asserted-by": "crossref",
+        "first-page": "81",
+        "DOI": "10.1016/0004-3702(80)90014-4",
+        "article-title": "A logic for default reasoning",
+        "volume": "13",
+        "author": "Reiter",
+        "year": "1980",
+        "journal-title": "Artif. Intell."
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB20",
+        "series-title": "Proceedings IJCAI-81",
+        "first-page": "270",
+        "article-title": "On interacting defaults",
+        "author": "Reiter",
+        "year": "1981"
+      },
+      {
+        "key": "10.1016/0004-3702(94)90057-4_BIB21",
+        "series-title": "Proceedings IJCAI-87",
+        "first-page": "476",
+        "article-title": "A clash of intuitions: the current state of nonmonotonic multiple inheritance systems",
+        "author": "Touretzky",
+        "year": "1987"
+      }
+    ],
+    "container-title": [
+      "Artificial Intelligence"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:0004370294900574?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:0004370294900574?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          27
+        ]
+      ],
+      "date-time": "2019-03-27T00:55:56Z",
+      "timestamp": 1553648156000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/0004370294900574"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1994,
+          6
+        ]
+      ]
+    },
+    "references-count": 22,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            1994,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "0004370294900574"
+    ],
+    "URL": "https://doi.org/10.1016/0004-3702(94)90057-4",
+    "relation": {},
+    "ISSN": [
+      "0004-3702"
+    ],
+    "issn-type": [
+      {
+        "value": "0004-3702",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1994,
+          6
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767125427667,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

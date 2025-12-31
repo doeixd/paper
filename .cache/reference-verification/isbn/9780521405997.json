@@ -1,0 +1,319 @@
+{
+  "key": "isbn-9780521405997",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL1850361M/Governing_the_commons",
+      "key": "/books/OL1850361M",
+      "title": "Governing the commons",
+      "subtitle": "the evolution of institutions for collective action",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL722147A/Elinor_Ostrom",
+          "name": "Elinor Ostrom"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL14050937A/Elinor_Ostrom",
+          "name": "Elinor Ostrom"
+        }
+      ],
+      "number_of_pages": 280,
+      "pagination": "xviii, 280 p. :",
+      "by_statement": "Elinor Ostrom.",
+      "identifiers": {
+        "goodreads": [
+          "1048431",
+          "1048424"
+        ],
+        "librarything": [
+          "323559"
+        ],
+        "isbn_10": [
+          "0521371015",
+          "0521405998"
+        ],
+        "lccn": [
+          "90001831"
+        ],
+        "oclc": [
+          "21409003"
+        ],
+        "openlibrary": [
+          "OL1850361M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "HD1286 .O87 1991",
+          "HD1286 .O87 1990eb",
+          "HD1286 .O87 1990"
+        ],
+        "dewey_decimal_class": [
+          "333.2"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Cambridge University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Cambridge"
+        },
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "1990",
+      "subjects": [
+        {
+          "name": "Case studies",
+          "url": "https://openlibrary.org/subjects/case_studies"
+        },
+        {
+          "name": "Commons",
+          "url": "https://openlibrary.org/subjects/commons"
+        },
+        {
+          "name": "Social choice",
+          "url": "https://openlibrary.org/subjects/social_choice"
+        },
+        {
+          "name": "Long Now Manual for Civilization",
+          "url": "https://openlibrary.org/subjects/long_now_manual_for_civilization"
+        },
+        {
+          "name": "Nachhaltigkeit",
+          "url": "https://openlibrary.org/subjects/nachhaltigkeit"
+        },
+        {
+          "name": "Bewirtschaftung",
+          "url": "https://openlibrary.org/subjects/bewirtschaftung"
+        },
+        {
+          "name": "Nutzung",
+          "url": "https://openlibrary.org/subjects/nutzung"
+        },
+        {
+          "name": "Ressources naturelles communales",
+          "url": "https://openlibrary.org/subjects/ressources_naturelles_communales"
+        },
+        {
+          "name": "Elección social",
+          "url": "https://openlibrary.org/subjects/elección_social"
+        },
+        {
+          "name": "Communaux",
+          "url": "https://openlibrary.org/subjects/communaux"
+        },
+        {
+          "name": "Communes",
+          "url": "https://openlibrary.org/subjects/communes"
+        },
+        {
+          "name": "Cas, Études de",
+          "url": "https://openlibrary.org/subjects/cas,_études_de"
+        },
+        {
+          "name": "Ejidos",
+          "url": "https://openlibrary.org/subjects/ejidos"
+        },
+        {
+          "name": "Gewässerbelastung",
+          "url": "https://openlibrary.org/subjects/gewässerbelastung"
+        },
+        {
+          "name": "Allmenninger",
+          "url": "https://openlibrary.org/subjects/allmenninger"
+        },
+        {
+          "name": "Water and water use",
+          "url": "https://openlibrary.org/subjects/water_and_water_use"
+        },
+        {
+          "name": "Sosiale valg",
+          "url": "https://openlibrary.org/subjects/sosiale_valg"
+        },
+        {
+          "name": "Wasserwirtschaft",
+          "url": "https://openlibrary.org/subjects/wasserwirtschaft"
+        },
+        {
+          "name": "Choix collectif",
+          "url": "https://openlibrary.org/subjects/choix_collectif"
+        },
+        {
+          "name": "Gestion des ressources en eau",
+          "url": "https://openlibrary.org/subjects/gestion_des_ressources_en_eau"
+        },
+        {
+          "name": "Collectieve goederen",
+          "url": "https://openlibrary.org/subjects/collectieve_goederen"
+        },
+        {
+          "name": "Resource management",
+          "url": "https://openlibrary.org/subjects/resource_management"
+        },
+        {
+          "name": "Choses communes (droit)",
+          "url": "https://openlibrary.org/subjects/choses_communes_(droit)"
+        },
+        {
+          "name": "Beheer",
+          "url": "https://openlibrary.org/subjects/beheer"
+        },
+        {
+          "name": "Estudio con casos",
+          "url": "https://openlibrary.org/subjects/estudio_con_casos"
+        },
+        {
+          "name": "Recursos naturales",
+          "url": "https://openlibrary.org/subjects/recursos_naturales"
+        },
+        {
+          "name": "Naturressurser",
+          "url": "https://openlibrary.org/subjects/naturressurser"
+        },
+        {
+          "name": "Ressursfordeling",
+          "url": "https://openlibrary.org/subjects/ressursfordeling"
+        },
+        {
+          "name": "Selbstverwaltung",
+          "url": "https://openlibrary.org/subjects/selbstverwaltung"
+        },
+        {
+          "name": "Öffentliches Gut",
+          "url": "https://openlibrary.org/subjects/öffentliches_gut"
+        },
+        {
+          "name": "Collectieve acties",
+          "url": "https://openlibrary.org/subjects/collectieve_acties"
+        },
+        {
+          "name": "Politieke instellingen",
+          "url": "https://openlibrary.org/subjects/politieke_instellingen"
+        },
+        {
+          "name": "Natürliche Ressourcen",
+          "url": "https://openlibrary.org/subjects/natürliche_ressourcen"
+        },
+        {
+          "name": "Public Choice",
+          "url": "https://openlibrary.org/subjects/public_choice"
+        },
+        {
+          "name": "Gestion",
+          "url": "https://openlibrary.org/subjects/gestion"
+        },
+        {
+          "name": "Common property",
+          "url": "https://openlibrary.org/subjects/common_property"
+        },
+        {
+          "name": "Cooperación internacional",
+          "url": "https://openlibrary.org/subjects/cooperación_internacional"
+        },
+        {
+          "name": "Gemeinschaftsaufgabe",
+          "url": "https://openlibrary.org/subjects/gemeinschaftsaufgabe"
+        },
+        {
+          "name": "Allmende",
+          "url": "https://openlibrary.org/subjects/allmende"
+        },
+        {
+          "name": "Kollektive handlinger",
+          "url": "https://openlibrary.org/subjects/kollektive_handlinger"
+        },
+        {
+          "name": "Institutionenökonomie",
+          "url": "https://openlibrary.org/subjects/institutionenökonomie"
+        },
+        {
+          "name": "Fallstudiensammlung",
+          "url": "https://openlibrary.org/subjects/fallstudiensammlung"
+        },
+        {
+          "name": "BUSINESS & ECONOMICS",
+          "url": "https://openlibrary.org/subjects/business_&_economics"
+        },
+        {
+          "name": "General",
+          "url": "https://openlibrary.org/subjects/general"
+        },
+        {
+          "name": "Real Estate",
+          "url": "https://openlibrary.org/subjects/real_estate"
+        },
+        {
+          "name": "Society",
+          "url": "https://openlibrary.org/subjects/society"
+        },
+        {
+          "name": "Economy",
+          "url": "https://openlibrary.org/subjects/economy"
+        },
+        {
+          "name": "Social economy",
+          "url": "https://openlibrary.org/subjects/social_economy"
+        },
+        {
+          "name": "Self-management",
+          "url": "https://openlibrary.org/subjects/self-management"
+        },
+        {
+          "name": "Xing zheng guan li",
+          "url": "https://openlibrary.org/subjects/xing_zheng_guan_li"
+        },
+        {
+          "name": "Yan jiu",
+          "url": "https://openlibrary.org/subjects/yan_jiu"
+        },
+        {
+          "name": "Commons--case studies",
+          "url": "https://openlibrary.org/subjects/commons--case_studies"
+        },
+        {
+          "name": "Social choice--case studies",
+          "url": "https://openlibrary.org/subjects/social_choice--case_studies"
+        },
+        {
+          "name": "Hd1286 .o87 1991",
+          "url": "https://openlibrary.org/subjects/hd1286_.o87_1991"
+        },
+        {
+          "name": "333.2",
+          "url": "https://openlibrary.org/subjects/333.2"
+        },
+        {
+          "name": "Biens communaux",
+          "url": "https://openlibrary.org/subjects/biens_communaux"
+        }
+      ],
+      "notes": "Includes bibliographical references (p. 245-270) and index.",
+      "links": [
+        {
+          "title": "Google Books",
+          "url": "https://books.google.ro/books/about/Governing_the_Commons.html?id=hHGgCgAAQBAJ&source=kp_book_description&redir_esc=y"
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/governingcommons00ostr",
+          "availability": "noview",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/337209-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/337209-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/337209-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780521405997"
+  },
+  "timestamp": 1767125424350,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

@@ -1,0 +1,88 @@
+{
+  "key": "isbn-9780195155273",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL7390250M/Making_Things_Happen",
+      "key": "/books/OL7390250M",
+      "title": "Making Things Happen",
+      "subtitle": "A Theory of Causal Explanation (Oxford Studies in Philosophy of Science)",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL1461086A/James_Woodward",
+          "name": "James Woodward"
+        }
+      ],
+      "number_of_pages": 424,
+      "identifiers": {
+        "librarything": [
+          "223281"
+        ],
+        "isbn_10": [
+          "0195155270"
+        ],
+        "isbn_13": [
+          "9780195155273"
+        ],
+        "lccn": [
+          "2002192596"
+        ],
+        "oclc": [
+          "50868314"
+        ],
+        "openlibrary": [
+          "OL7390250M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD541.W64 2003",
+          "BD541 .W64 2003"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press, USA"
+        }
+      ],
+      "publish_date": "December 4, 2003",
+      "subjects": [
+        {
+          "name": "Science",
+          "url": "https://openlibrary.org/subjects/science"
+        },
+        {
+          "name": "Causation",
+          "url": "https://openlibrary.org/subjects/causation"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Explanation",
+          "url": "https://openlibrary.org/subjects/explanation"
+        },
+        {
+          "name": "Science, philosophy",
+          "url": "https://openlibrary.org/subjects/science,_philosophy"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "An interest in causes and explanations pervades our lives.",
+          "comment": "",
+          "first_sentence": true
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/125978-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/125978-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/125978-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780195155273"
+  },
+  "timestamp": 1767125452431,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

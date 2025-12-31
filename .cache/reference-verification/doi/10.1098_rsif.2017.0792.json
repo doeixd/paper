@@ -1,0 +1,692 @@
+{
+  "key": "doi-10.1098_rsif.2017.0792",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          29
+        ]
+      ],
+      "date-time": "2025-12-29T18:48:14Z",
+      "timestamp": 1767034094790,
+      "version": "3.41.0"
+    },
+    "reference-count": 54,
+    "publisher": "The Royal Society",
+    "issue": "138",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2018-01-01T00:00:00Z",
+          "timestamp": 1514764800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://royalsociety.org/journals/ethics-policies/data-sharing-mining/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000833",
+        "name": "Rosetrees Trust",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "173346"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "173346"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000833",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "name": "European Research Council",
+        "award": [
+          "679190"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "679190"
+            ]
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100004440",
+        "name": "Wellcome Trust",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "Ref: 088130/Z/09/Z"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "Ref: 088130/Z/09/Z"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100004440",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000925",
+        "name": "John Templeton Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "ID#60708"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "ID#60708"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000925",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000923",
+        "name": "Australian Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DP170102987"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DP170102987"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000923",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "royalsocietypublishing.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J. R. Soc. Interface."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:p>This work addresses the autonomous organization of biological systems. It does so by considering the boundaries of biological systems, from individual cells to<jats:italic>Home sapiens</jats:italic>, in terms of the presence of Markov blankets under the active inference scheme—a corollary of the free energy principle. A Markov blanket defines the boundaries of a system in a statistical sense. Here we consider how a collective of Markov blankets can self-assemble into a global system that itself has a Markov blanket; thereby providing an illustration of how autonomous systems can be understood as having layers of nested and self-sustaining boundaries. This allows us to show that: (i) any living system is a Markov blanketed system and (ii) the boundaries of such systems need not be co-extensive with the biophysical boundaries of a living organism. In other words, autonomous systems are hierarchically composed of Markov blankets of Markov blankets—all the way down to individual cells, all the way up to you and me, and all the way out to include elements of the local environment.</jats:p>",
+    "DOI": "10.1098/rsif.2017.0792",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          17
+        ]
+      ],
+      "date-time": "2018-01-17T10:10:41Z",
+      "timestamp": 1516183841000
+    },
+    "page": "20170792",
+    "update-policy": "https://doi.org/10.1098/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 314,
+    "title": [
+      "The Markov blankets of life: autonomy, active inference and the free energy principle"
+    ],
+    "prefix": "10.1098",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2530-0718",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Kirchhoff",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Philosophy, University of Wollongong Faculty of Law Humanities and the Arts, Wollongong, New South Wales, Australia"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5108-5743",
+        "authenticated-orcid": false,
+        "given": "Thomas",
+        "family": "Parr",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wellcome Trust Centre for Neuroimaging, London, UK"
+          }
+        ]
+      },
+      {
+        "given": "Ensor",
+        "family": "Palacios",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "University of Parma, Parma, Italy"
+          }
+        ]
+      },
+      {
+        "given": "Karl",
+        "family": "Friston",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Wellcome Trust Centre for Neuroimaging, Institute of Neurology UCL, London, UK"
+          }
+        ]
+      },
+      {
+        "given": "Julian",
+        "family": "Kiverstein",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Psychiatry, AMC, Amsterdam, The Netherlands"
+          }
+        ]
+      }
+    ],
+    "member": "175",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "volume-title": "The systems view of life",
+        "year": "2016",
+        "author": "Capra F",
+        "key": "e_1_3_8_2_2"
+      },
+      {
+        "key": "e_1_3_8_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1059712308093868"
+      },
+      {
+        "key": "e_1_3_8_4_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsif.2013.0475"
+      },
+      {
+        "key": "e_1_3_8_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrn2787"
+      },
+      {
+        "key": "e_1_3_8_6_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fpsyg.2012.00130"
+      },
+      {
+        "volume-title": "Open mind: 19(T)",
+        "year": "2015",
+        "author": "Hohwy J",
+        "key": "e_1_3_8_7_2"
+      },
+      {
+        "key": "e_1_3_8_8_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsif.2014.1383"
+      },
+      {
+        "key": "e_1_3_8_9_2",
+        "first-page": "1",
+        "article-title": "From cognitivism to autopoiesis: towards a computational framework for the embodied mind",
+        "author": "Allen M",
+        "year": "2016",
+        "journal-title": "Synthese"
+      },
+      {
+        "volume-title": "Philosophy and predictive processing: 3",
+        "year": "2017",
+        "author": "Clark A",
+        "key": "e_1_3_8_10_2"
+      },
+      {
+        "key": "e_1_3_8_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/e19040169"
+      },
+      {
+        "key": "e_1_3_8_12_2",
+        "unstructured": "Beal MJ. 2003 Variational algorithms for approximate Bayesian inference. PhD Thesis University College London UK."
+      },
+      {
+        "volume-title": "Probabilistic reasoning in intelligent systems: networks of plausible inference",
+        "year": "1988",
+        "author": "Pearl J",
+        "key": "e_1_3_8_13_2"
+      },
+      {
+        "volume-title": "Philosophy and predictive processing: 3",
+        "year": "2017",
+        "author": "Hohwy J",
+        "key": "e_1_3_8_14_2"
+      },
+      {
+        "key": "e_1_3_8_15_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fncom.2016.00056"
+      },
+      {
+        "key": "e_1_3_8_16_2",
+        "first-page": "60",
+        "volume-title": "Philosophy and predictive processing: 3",
+        "author": "Anderson ML",
+        "year": "2017"
+      },
+      {
+        "key": "e_1_3_8_17_2",
+        "first-page": "1",
+        "article-title": "The anticipating brain is not a scientist: the free-energy principle from an ecological-enactive perspective",
+        "author": "Bruineberg J",
+        "year": "2016",
+        "journal-title": "Synthese"
+      },
+      {
+        "key": "e_1_3_8_18_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fpsyg.2012.00096"
+      },
+      {
+        "key": "e_1_3_8_19_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199682737.001.0001"
+      },
+      {
+        "key": "e_1_3_8_20_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tics.2009.04.005"
+      },
+      {
+        "key": "e_1_3_8_21_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tins.2004.10.007"
+      },
+      {
+        "key": "e_1_3_8_22_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00048402.2014.992446"
+      },
+      {
+        "key": "e_1_3_8_23_2",
+        "first-page": "1",
+        "article-title": "Autopoiesis, free energy, the life-mind continuity thesis",
+        "author": "Kirchhoff MD",
+        "year": "2016",
+        "journal-title": "Synthese"
+      },
+      {
+        "key": "e_1_3_8_24_2",
+        "first-page": "1",
+        "article-title": "Predictive processing, perceiving and imagining: is to perceive to imagine, or something close to it?",
+        "author": "Kirchhoff MD",
+        "year": "2017",
+        "journal-title": "Philos. Stud."
+      },
+      {
+        "key": "e_1_3_8_25_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00207727008920220"
+      },
+      {
+        "key": "e_1_3_8_26_2",
+        "first-page": "89",
+        "volume-title": "The implications of embodiment (cognition and communication)",
+        "author": "Friston KJ",
+        "year": "2011"
+      },
+      {
+        "volume-title": "Open MIND: 35(T)",
+        "year": "2015",
+        "author": "Seth AK",
+        "key": "e_1_3_8_27_2"
+      },
+      {
+        "key": "e_1_3_8_28_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fnhum.2014.00599"
+      },
+      {
+        "key": "e_1_3_8_29_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780195333213.001.0001"
+      },
+      {
+        "key": "e_1_3_8_30_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lungeralla M Sporns O. 2005 Information self-structuring: key principles for learning and development. In Proc. of the 4th Int. Conf. on Development and Learning Osaka Japan 19–21 July 2005 pp. 25–30. New York NY: IEEE.",
+        "DOI": "10.1109/DEVLRN.2005.1490938"
+      },
+      {
+        "key": "e_1_3_8_31_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-007-9237-y"
+      },
+      {
+        "key": "e_1_3_8_32_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11245-008-9042-3"
+      },
+      {
+        "key": "e_1_3_8_33_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11097-005-9002-y"
+      },
+      {
+        "volume-title": "Mind in life: biology, phenomenology, the sciences of mind",
+        "year": "2007",
+        "author": "Thompson E",
+        "key": "e_1_3_8_34_2"
+      },
+      {
+        "key": "e_1_3_8_35_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.7551/mitpress/6730.001.0001",
+        "volume-title": "The embodied mind",
+        "author": "Varel F",
+        "year": "1991"
+      },
+      {
+        "key": "e_1_3_8_36_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0303-2647(74)90031-8"
+      },
+      {
+        "key": "e_1_3_8_37_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/brcg.1997.0907"
+      },
+      {
+        "key": "e_1_3_8_38_2",
+        "unstructured": "Friston KJ. 2017 Consciousness is not a thing it is a process of inference. AEON. See https://aeon.co/essays/consciousness-is-not-a-thing-but-a-process-of-inference."
+      },
+      {
+        "key": "e_1_3_8_39_2",
+        "first-page": "1",
+        "article-title": "Answering Schrödinger's question: a free-energy formulation",
+        "author": "Ramstead M",
+        "year": "2017",
+        "journal-title": "Phys. Life Rev."
+      },
+      {
+        "key": "e_1_3_8_40_2",
+        "first-page": "1",
+        "article-title": "The graphical brain: belief propagation and active inference",
+        "author": "Friston KJ",
+        "year": "2017",
+        "journal-title": "Netw. Neurosci."
+      },
+      {
+        "key": "e_1_3_8_41_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1005215909498"
+      },
+      {
+        "key": "e_1_3_8_42_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cplx.21453"
+      },
+      {
+        "key": "e_1_3_8_43_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.7551/mitpress/9108.001.0001",
+        "volume-title": "Principles of brain dynamics: global states interactions",
+        "author": "Rabinovich MI",
+        "year": "2012"
+      },
+      {
+        "volume-title": "Networks of the brain",
+        "year": "2011",
+        "author": "Sporns O",
+        "key": "e_1_3_8_44_2"
+      },
+      {
+        "key": "e_1_3_8_45_2",
+        "first-page": "255",
+        "volume-title": "Principles of self-organization: Transactions of the University of Illinois symposium",
+        "author": "Ashby WR",
+        "year": "1962"
+      },
+      {
+        "key": "e_1_3_8_46_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0033583500000615"
+      },
+      {
+        "journal-title": "BioRxiv",
+        "article-title": "Biological self-organisation and Markov blankets",
+        "author": "Palacios E",
+        "key": "e_1_3_8_47_2"
+      },
+      {
+        "key": "e_1_3_8_48_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1136/jech.2006.054254"
+      },
+      {
+        "key": "e_1_3_8_49_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-88338-5"
+      },
+      {
+        "volume-title": "Dynamic patterns",
+        "year": "1995",
+        "author": "Kelso S",
+        "key": "e_1_3_8_50_2"
+      },
+      {
+        "key": "e_1_3_8_51_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1059712303114001"
+      },
+      {
+        "key": "e_1_3_8_52_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4612-5929-9"
+      },
+      {
+        "key": "e_1_3_8_53_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.90.054102"
+      },
+      {
+        "key": "e_1_3_8_54_2",
+        "first-page": "1064",
+        "article-title": "On the theory of superconductivity",
+        "volume": "20",
+        "author": "Ginzburg VL",
+        "year": "1950",
+        "journal-title": "Zhurnal Eksperimental'noi I Teoreticheskoi Fiziki"
+      },
+      {
+        "key": "e_1_3_8_55_2",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.7551/mitpress/2524.001.0001",
+        "volume-title": "A dynamic systems approach to the development of cognition and action",
+        "author": "Thelen E",
+        "year": "1994"
+      }
+    ],
+    "container-title": [
+      "Journal of The Royal Society Interface"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsif.2017.0792",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://royalsocietypublishing.org/doi/full-xml/10.1098/rsif.2017.0792",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsif.2017.0792",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          29
+        ]
+      ],
+      "date-time": "2025-06-29T22:03:33Z",
+      "timestamp": 1751234613000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://royalsocietypublishing.org/doi/10.1098/rsif.2017.0792"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1
+        ]
+      ]
+    },
+    "references-count": 54,
+    "journal-issue": {
+      "issue": "138",
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1098/rsif.2017.0792"
+    ],
+    "URL": "https://doi.org/10.1098/rsif.2017.0792",
+    "relation": {},
+    "ISSN": [
+      "1742-5689",
+      "1742-5662"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "1742-5689"
+      },
+      {
+        "type": "electronic",
+        "value": "1742-5662"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2018,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2017-10-21",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2017-12-14",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2018-01-17",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "timestamp": 1767125398750,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

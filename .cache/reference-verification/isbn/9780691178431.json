@@ -1,0 +1,235 @@
+{
+  "key": "isbn-9780691178431",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL27204023M/The_secret_of_our_success",
+      "key": "/books/OL27204023M",
+      "title": "The secret of our success",
+      "subtitle": "how culture is driving human evolution, domesticating our species, and making us smarter",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL7606770A/Joseph_Patrick_Henrich",
+          "name": "Joseph Patrick Henrich"
+        }
+      ],
+      "number_of_pages": 445,
+      "pagination": "xv, 445 pages",
+      "by_statement": "Joseph Henrich",
+      "identifiers": {
+        "isbn_10": [
+          "0691166854",
+          "0691178437"
+        ],
+        "isbn_13": [
+          "9780691166858",
+          "9780691178431"
+        ],
+        "lccn": [
+          "2015934779"
+        ],
+        "oclc": [
+          "930040859",
+          "908084074"
+        ],
+        "openlibrary": [
+          "OL27204023M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "GN281.4 .H46 2016",
+          "GN281",
+          "GN281.4 .H46 2015"
+        ],
+        "dewey_decimal_class": [
+          "599.938"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Princeton University Press"
+        }
+      ],
+      "publish_date": "2016",
+      "subjects": [
+        {
+          "name": "Behavior evolution",
+          "url": "https://openlibrary.org/subjects/behavior_evolution"
+        },
+        {
+          "name": "Cognition and culture",
+          "url": "https://openlibrary.org/subjects/cognition_and_culture"
+        },
+        {
+          "name": "Social evolution",
+          "url": "https://openlibrary.org/subjects/social_evolution"
+        },
+        {
+          "name": "Human evolution",
+          "url": "https://openlibrary.org/subjects/human_evolution"
+        },
+        {
+          "name": "Success, psychological aspects",
+          "url": "https://openlibrary.org/subjects/success,_psychological_aspects"
+        },
+        {
+          "name": "Emotional intelligence",
+          "url": "https://openlibrary.org/subjects/emotional_intelligence"
+        },
+        {
+          "name": "Cultural Evolution",
+          "url": "https://openlibrary.org/subjects/cultural_evolution"
+        },
+        {
+          "name": "Social Psychology",
+          "url": "https://openlibrary.org/subjects/social_psychology"
+        },
+        {
+          "name": "Hominisation",
+          "url": "https://openlibrary.org/subjects/hominisation"
+        },
+        {
+          "name": "Mensch",
+          "url": "https://openlibrary.org/subjects/mensch"
+        },
+        {
+          "name": "Art",
+          "url": "https://openlibrary.org/subjects/art"
+        },
+        {
+          "name": "Erfolg",
+          "url": "https://openlibrary.org/subjects/erfolg"
+        },
+        {
+          "name": "Kultur",
+          "url": "https://openlibrary.org/subjects/kultur"
+        },
+        {
+          "name": "Kooperation",
+          "url": "https://openlibrary.org/subjects/kooperation"
+        }
+      ],
+      "notes": "Includes bibliographical references (pages 333-427) and index.",
+      "table_of_contents": [
+        {
+          "level": 0,
+          "label": "",
+          "title": "A puzzling primate",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "It's not our intelligence",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Lost European explorers",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "How to make a cultural species",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "What are big brains for? : or, How culture stole our guts",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Why some people have blue eyes",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "On the origin of faith",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Prestige, dominance, and menopause",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "In-laws, incest taboos, and rituals",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Intergroup competition shapes cultural evolution",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Self-domestication",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Our collective brains",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Communicative tools with rules",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Enculturated brains and honorable hormones",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "When we crossed the Rubicon",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Why us?",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "A new kind of animal.",
+          "pagenum": ""
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/secretofoursucce0000henr",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/12603670-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/12603670-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/12603670-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780691178431"
+  },
+  "timestamp": 1767125404974,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

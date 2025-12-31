@@ -1,0 +1,151 @@
+{
+  "key": "isbn-9780521367813",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL2046258M/Contingency_irony_and_solidarity",
+      "key": "/books/OL2046258M",
+      "title": "Contingency, irony, and solidarity",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL243477A/Richard_Rorty",
+          "name": "Richard Rorty"
+        }
+      ],
+      "number_of_pages": 201,
+      "pagination": "xvi, 201 p. ;",
+      "by_statement": "Richard Rorty.",
+      "identifiers": {
+        "librarything": [
+          "1160573"
+        ],
+        "goodreads": [
+          "1240246",
+          "86098"
+        ],
+        "isbn_10": [
+          "0521353815",
+          "0521367816"
+        ],
+        "lccn": [
+          "88023358"
+        ],
+        "oclc": [
+          "18290785"
+        ],
+        "openlibrary": [
+          "OL2046258M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "P106 .R586 1989"
+        ],
+        "dewey_decimal_class": [
+          "401"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Cambridge University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Cambridge"
+        },
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "1989",
+      "subjects": [
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Language and languages",
+          "url": "https://openlibrary.org/subjects/language_and_languages"
+        },
+        {
+          "name": "Long Now Manual for Civilization",
+          "url": "https://openlibrary.org/subjects/long_now_manual_for_civilization"
+        },
+        {
+          "name": "Language and languages -- Philosophy",
+          "url": "https://openlibrary.org/subjects/language_and_languages_--_philosophy"
+        },
+        {
+          "name": "Philosophy, modern, 20th century",
+          "url": "https://openlibrary.org/subjects/philosophy,_modern,_20th_century"
+        },
+        {
+          "name": "Langage et langues",
+          "url": "https://openlibrary.org/subjects/langage_et_langues"
+        },
+        {
+          "name": "Philosophie",
+          "url": "https://openlibrary.org/subjects/philosophie"
+        },
+        {
+          "name": "Contingentie",
+          "url": "https://openlibrary.org/subjects/contingentie"
+        },
+        {
+          "name": "Ironie",
+          "url": "https://openlibrary.org/subjects/ironie"
+        },
+        {
+          "name": "Pragmatisme",
+          "url": "https://openlibrary.org/subjects/pragmatisme"
+        },
+        {
+          "name": "Taalfilosofie",
+          "url": "https://openlibrary.org/subjects/taalfilosofie"
+        },
+        {
+          "name": "Filosofia contemporanea",
+          "url": "https://openlibrary.org/subjects/filosofia_contemporanea"
+        },
+        {
+          "name": "Literature and society",
+          "url": "https://openlibrary.org/subjects/literature_and_society"
+        },
+        {
+          "name": "Contingency (Philosophy)",
+          "url": "https://openlibrary.org/subjects/contingency_(philosophy)"
+        },
+        {
+          "name": "Social aspects",
+          "url": "https://openlibrary.org/subjects/social_aspects"
+        },
+        {
+          "name": "Irony",
+          "url": "https://openlibrary.org/subjects/irony"
+        },
+        {
+          "name": "Solidarity",
+          "url": "https://openlibrary.org/subjects/solidarity"
+        },
+        {
+          "name": "Literature",
+          "url": "https://openlibrary.org/subjects/literature"
+        },
+        {
+          "name": "Philosophie du langage",
+          "url": "https://openlibrary.org/subjects/philosophie_du_langage"
+        }
+      ],
+      "notes": "Includes bibliographical references and index.",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/335224-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/335224-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/335224-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780521367813"
+  },
+  "timestamp": 1767125434288,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

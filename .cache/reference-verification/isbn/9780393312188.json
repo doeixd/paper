@@ -1,0 +1,83 @@
+{
+  "key": "isbn-9780393312188",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL7453164M/Time_on_the_Cross",
+      "key": "/books/OL7453164M",
+      "title": "Time on the Cross",
+      "subtitle": "The Economics of American Negro Slavery",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL506307A/Robert_William_Fogel",
+          "name": "Robert William Fogel"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL1452696A/Stanley_L._Engerman",
+          "name": "Stanley L. Engerman"
+        }
+      ],
+      "number_of_pages": 304,
+      "identifiers": {
+        "goodreads": [
+          "705406"
+        ],
+        "librarything": [
+          "321683"
+        ],
+        "isbn_10": [
+          "0393312186"
+        ],
+        "isbn_13": [
+          "9780393312188"
+        ],
+        "openlibrary": [
+          "OL7453164M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "E449"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "W. W. Norton & Company"
+        }
+      ],
+      "publish_date": "March 1995",
+      "subjects": [
+        {
+          "name": "Slavery",
+          "url": "https://openlibrary.org/subjects/slavery"
+        },
+        {
+          "name": "Slavery, united states",
+          "url": "https://openlibrary.org/subjects/slavery,_united_states"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "The years of black enslavement and the Civil War in which they terminated were our nations time on the cross.",
+          "comment": "",
+          "first_sentence": true
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/timeoncross00robe",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/248848-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/248848-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/248848-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780393312188"
+  },
+  "timestamp": 1767125394755,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

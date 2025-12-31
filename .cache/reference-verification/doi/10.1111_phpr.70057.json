@@ -1,0 +1,508 @@
+{
+  "key": "doi-10.1111_phpr.70057",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          15
+        ]
+      ],
+      "date-time": "2025-11-15T07:27:57Z",
+      "timestamp": 1763191677917,
+      "version": "3.45.0"
+    },
+    "reference-count": 52,
+    "publisher": "Wiley",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              21
+            ]
+          ],
+          "date-time": "2025-08-21T00:00:00Z",
+          "timestamp": 1755734400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Philos Phenomenol Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          11
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    This paper introduces\n                    <jats:italic>emergent moral non‐naturalism</jats:italic>\n                    , which holds that moral properties depend on descriptive properties\n                    <jats:italic>and</jats:italic>\n                    normative bridge principles for their instantiation, where these principles specify instantiation conditions of moral properties in terms of descriptive properties. Continuous with the non‐naturalist tradition in metaethics, this view takes moral properties to be\n                    <jats:italic>noncausal</jats:italic>\n                    properties; in accordance with the emergentist tradition in metaphysics, it takes them to confer\n                    <jats:italic>powers</jats:italic>\n                    on their bearers. Reconciling these two claims of noncausality and power conferral, emergent moral non‐naturalism construes moral properties in terms of their\n                    <jats:italic>noncausal powers</jats:italic>\n                    .\n                  </jats:p>",
+    "DOI": "10.1111/phpr.70057",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          22
+        ]
+      ],
+      "date-time": "2025-08-22T02:40:13Z",
+      "timestamp": 1755830413000
+    },
+    "page": "1037-1056",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Emergent moral non‐naturalism"
+    ],
+    "prefix": "10.1111",
+    "volume": "111",
+    "author": [
+      {
+        "given": "Umut",
+        "family": "Baysan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Faculty of Philosophy University of Oxford  Oxford UK"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          21
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "volume-title": "Space, time, and deity",
+        "year": "1920",
+        "author": "Alexander S.",
+        "key": "e_1_2_8_2_1"
+      },
+      {
+        "key": "e_1_2_8_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511583308"
+      },
+      {
+        "key": "e_1_2_8_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/mind/fzt001"
+      },
+      {
+        "key": "e_1_2_8_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229‐019‐02341‐3"
+      },
+      {
+        "key": "e_1_2_8_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00048402.2017.1366534"
+      },
+      {
+        "key": "e_1_2_8_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10790‐024‐09993‐6"
+      },
+      {
+        "key": "e_1_2_8_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1163/17455243‐20244406"
+      },
+      {
+        "key": "e_1_2_8_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/nous.12246"
+      },
+      {
+        "key": "e_1_2_8_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199227013.001.0001"
+      },
+      {
+        "key": "e_1_2_8_11_1",
+        "first-page": "181",
+        "volume-title": "Essays on moral realism",
+        "author": "Boyd R.",
+        "year": "1988"
+      },
+      {
+        "key": "e_1_2_8_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511624612"
+      },
+      {
+        "volume-title": "The mind and its place in nature",
+        "year": "1925",
+        "author": "Broad C. D.",
+        "key": "e_1_2_8_13_1"
+      },
+      {
+        "key": "e_1_2_8_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199606375.003.0009"
+      },
+      {
+        "key": "e_1_2_8_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11098‐018‐1189‐1"
+      },
+      {
+        "key": "e_1_2_8_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780198833611.001.0001"
+      },
+      {
+        "key": "e_1_2_8_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199579969.001.0001"
+      },
+      {
+        "key": "e_1_2_8_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00455091‐2018‐1436034"
+      },
+      {
+        "key": "e_1_2_8_19_1",
+        "first-page": "163",
+        "volume-title": "Reduction, abstraction, and analysis",
+        "author": "Hills A.",
+        "year": "2009"
+      },
+      {
+        "volume-title": "Ethical intuitionism",
+        "year": "2005",
+        "author": "Huemer M.",
+        "key": "e_1_2_8_20_1"
+      },
+      {
+        "volume-title": "From metaphysics to ethics: A defence of conceptual analysis",
+        "year": "1998",
+        "author": "Jackson F.",
+        "key": "e_1_2_8_21_1"
+      },
+      {
+        "key": "e_1_2_8_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780198841449.003.0008"
+      },
+      {
+        "key": "e_1_2_8_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511625220"
+      },
+      {
+        "key": "e_1_2_8_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1004563122154"
+      },
+      {
+        "key": "e_1_2_8_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5840/jphil2018115412"
+      },
+      {
+        "key": "e_1_2_8_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3998/ergo.2253"
+      },
+      {
+        "key": "e_1_2_8_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199603770.003.0007"
+      },
+      {
+        "key": "e_1_2_8_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/apa.2019.23"
+      },
+      {
+        "key": "e_1_2_8_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/684712"
+      },
+      {
+        "key": "e_1_2_8_30_1",
+        "first-page": "205",
+        "volume-title": "Oxford studies in metaethics, vol. 7",
+        "author": "McPherson T.",
+        "year": "2012"
+      },
+      {
+        "volume-title": "Principia ethica",
+        "year": "1903",
+        "author": "Moore G. E.",
+        "key": "e_1_2_8_31_1"
+      },
+      {
+        "key": "e_1_2_8_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199695614.001.0001"
+      },
+      {
+        "key": "e_1_2_8_33_1",
+        "first-page": "85",
+        "volume-title": "Physicalism and mental causation",
+        "author": "Noordhof P.",
+        "year": "2003"
+      },
+      {
+        "key": "e_1_2_8_34_1",
+        "first-page": "91",
+        "article-title": "Emergent properties",
+        "volume": "31",
+        "author": "O'Connor T.",
+        "year": "1994",
+        "journal-title": "American Philosophical Quarterly"
+      },
+      {
+        "key": "e_1_2_8_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/phc3.12473"
+      },
+      {
+        "volume-title": "On what matters",
+        "year": "2011",
+        "author": "Parfit D.",
+        "key": "e_1_2_8_36_1"
+      },
+      {
+        "volume-title": "Oxford studies in metaethics, vol 21",
+        "author": "Powers A.",
+        "key": "e_1_2_8_37_1"
+      },
+      {
+        "key": "e_1_2_8_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00455091.2017.1312964"
+      },
+      {
+        "key": "e_1_2_8_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780199652624.003.0011"
+      },
+      {
+        "volume-title": "The right and the good",
+        "year": "1930",
+        "author": "Ross W. D.",
+        "key": "e_1_2_8_40_1"
+      },
+      {
+        "volume-title": "What we owe to each other",
+        "year": "1998",
+        "author": "Scanlon T. M.",
+        "key": "e_1_2_8_41_1"
+      },
+      {
+        "key": "e_1_2_8_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/13869790903067725"
+      },
+      {
+        "key": "e_1_2_8_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/0199259755.001.0001"
+      },
+      {
+        "key": "e_1_2_8_44_1",
+        "first-page": "209",
+        "volume-title": "Metaethics after Moore",
+        "author": "Shafer‐Landau R.",
+        "year": "2006"
+      },
+      {
+        "key": "e_1_2_8_45_1",
+        "first-page": "ix",
+        "volume-title": "David Ross's The Right and the Good",
+        "author": "Stratton‐Lake P.",
+        "year": "2002"
+      },
+      {
+        "key": "e_1_2_8_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780198785897.001.0001"
+      },
+      {
+        "key": "e_1_2_8_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11098‐017‐0870‐0"
+      },
+      {
+        "key": "e_1_2_8_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1163/17455243‐20213272"
+      },
+      {
+        "key": "e_1_2_8_49_1",
+        "first-page": "49",
+        "volume-title": "Morality, reason, and truth",
+        "author": "Sturgeon N.",
+        "year": "1985"
+      },
+      {
+        "key": "e_1_2_8_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/345627"
+      },
+      {
+        "key": "e_1_2_8_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/pq/pqv039"
+      },
+      {
+        "key": "e_1_2_8_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1163/9789004310827_015"
+      },
+      {
+        "key": "e_1_2_8_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780198823742.001.0001"
+      }
+    ],
+    "container-title": [
+      "Philosophy and Phenomenological Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/phpr.70057",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          15
+        ]
+      ],
+      "date-time": "2025-11-15T07:23:55Z",
+      "timestamp": 1763191435000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/phpr.70057"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          21
+        ]
+      ]
+    },
+    "references-count": 52,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/phpr.70057"
+    ],
+    "URL": "https://doi.org/10.1111/phpr.70057",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0031-8205",
+      "1933-1592"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0031-8205"
+      },
+      {
+        "type": "electronic",
+        "value": "1933-1592"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          21
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2025-01-21",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-07-31",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2025-08-21",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "timestamp": 1767125378092,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

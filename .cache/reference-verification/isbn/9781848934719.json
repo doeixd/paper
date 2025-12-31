@@ -1,0 +1,148 @@
+{
+  "key": "isbn-9781848934719",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL25443314M/Ineffability_and_Religious_Experience",
+      "key": "/books/OL25443314M",
+      "title": "Ineffability and Religious Experience",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL7174369A/Guy_Bennett-Hunter",
+          "name": "Guy Bennett-Hunter"
+        }
+      ],
+      "number_of_pages": 224,
+      "identifiers": {
+        "isbn_13": [
+          "9781848934719"
+        ],
+        "lccn": [
+          "2014466347"
+        ],
+        "oclc": [
+          "870980829"
+        ],
+        "openlibrary": [
+          "OL25443314M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BL51",
+          "BL51 .B5235 2014",
+          "BL51 .B46 2014"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Routledge"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "London"
+        }
+      ],
+      "publish_date": "2014",
+      "subjects": [
+        {
+          "name": "Religion, philosophy",
+          "url": "https://openlibrary.org/subjects/religion,_philosophy"
+        },
+        {
+          "name": "Language and languages, philosophy",
+          "url": "https://openlibrary.org/subjects/language_and_languages,_philosophy"
+        },
+        {
+          "name": "Religion",
+          "url": "https://openlibrary.org/subjects/religion"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "The Ineffable",
+          "url": "https://openlibrary.org/subjects/the_ineffable"
+        }
+      ],
+      "table_of_contents": [
+        {
+          "level": 0,
+          "label": "",
+          "title": "Introduction: Philosophy of Religion in the New Style",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Part I: The Problem of Ineffability",
+          "pagenum": ""
+        },
+        {
+          "level": 1,
+          "label": "",
+          "title": "1 Ineffability and Religion",
+          "pagenum": ""
+        },
+        {
+          "level": 1,
+          "label": "",
+          "title": "2 Philosophical Defence of the Concept of Ineffability",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Part II: Attempted Solutions to the Problem of Ineffability",
+          "pagenum": ""
+        },
+        {
+          "level": 1,
+          "label": "",
+          "title": "3 Two Attempts at Theological Appropriation",
+          "pagenum": ""
+        },
+        {
+          "level": 1,
+          "label": "",
+          "title": "4 Karl Jasper's Philosophical Position",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Part III: Ineffability Revisited",
+          "pagenum": ""
+        },
+        {
+          "level": 1,
+          "label": "",
+          "title": "5 The Nature of Philosophical Evocation of the Ineffable",
+          "pagenum": ""
+        },
+        {
+          "level": 1,
+          "label": "",
+          "title": "6 The Aesthetic and Ritual Embodiment of the Ineffable",
+          "pagenum": ""
+        }
+      ],
+      "links": [
+        {
+          "title": "Publisher's Web Page",
+          "url": "http://www.pickeringchatto.com/ineffability"
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/7277685-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/7277685-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/7277685-L.jpg"
+      }
+    },
+    "verifiedISBN": "9781848934719"
+  },
+  "timestamp": 1767125382611,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

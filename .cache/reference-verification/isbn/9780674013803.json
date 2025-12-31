@@ -1,0 +1,117 @@
+{
+  "key": "isbn-9780674013803",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL7671116M/The_Collapse_of_the_Fact_Value_Dichotomy_and_Other_Essays",
+      "key": "/books/OL7671116M",
+      "title": "The Collapse of the Fact/Value Dichotomy and Other Essays",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL582059A/Hilary_Putnam",
+          "name": "Hilary Putnam"
+        }
+      ],
+      "number_of_pages": 208,
+      "weight": "6.4 ounces",
+      "identifiers": {
+        "librarything": [
+          "58068"
+        ],
+        "goodreads": [
+          "193690"
+        ],
+        "isbn_10": [
+          "0674013808"
+        ],
+        "isbn_13": [
+          "9780674013803"
+        ],
+        "openlibrary": [
+          "OL7671116M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "B945.P873C65 2004"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Harvard University Press"
+        }
+      ],
+      "publish_date": "March 30, 2004",
+      "subjects": [
+        {
+          "name": "Values",
+          "url": "https://openlibrary.org/subjects/values"
+        },
+        {
+          "name": "Welfare economics",
+          "url": "https://openlibrary.org/subjects/welfare_economics"
+        },
+        {
+          "name": "Facts (Philosophy)",
+          "url": "https://openlibrary.org/subjects/facts_(philosophy)"
+        },
+        {
+          "name": "Welvaartseconomie",
+          "url": "https://openlibrary.org/subjects/welvaartseconomie"
+        },
+        {
+          "name": "Faits (Philosophie)",
+          "url": "https://openlibrary.org/subjects/faits_(philosophie)"
+        },
+        {
+          "name": "Rationalité (Philosophie)",
+          "url": "https://openlibrary.org/subjects/rationalité_(philosophie)"
+        },
+        {
+          "name": "Valeurs (Philosophie)",
+          "url": "https://openlibrary.org/subjects/valeurs_(philosophie)"
+        },
+        {
+          "name": "Jugement (Logique)",
+          "url": "https://openlibrary.org/subjects/jugement_(logique)"
+        },
+        {
+          "name": "Jugement (Morale)",
+          "url": "https://openlibrary.org/subjects/jugement_(morale)"
+        },
+        {
+          "name": "Valeur (Philosophie)",
+          "url": "https://openlibrary.org/subjects/valeur_(philosophie)"
+        },
+        {
+          "name": "Waarden",
+          "url": "https://openlibrary.org/subjects/waarden"
+        },
+        {
+          "name": "Feiten",
+          "url": "https://openlibrary.org/subjects/feiten"
+        },
+        {
+          "name": "Wertphilosophie",
+          "url": "https://openlibrary.org/subjects/wertphilosophie"
+        },
+        {
+          "name": "Économie du bien-être",
+          "url": "https://openlibrary.org/subjects/économie_du_bien-être"
+        },
+        {
+          "name": "Fait (Philosophie)",
+          "url": "https://openlibrary.org/subjects/fait_(philosophie)"
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/412248-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/412248-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/412248-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780674013803"
+  },
+  "timestamp": 1767125429455,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

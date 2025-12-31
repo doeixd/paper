@@ -1,0 +1,153 @@
+{
+  "key": "isbn-9780691020167",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL23241449M/Philosophy_and_the_mirror_of_nature",
+      "key": "/books/OL23241449M",
+      "title": "Philosophy and the mirror of nature",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL243477A/Richard_Rorty",
+          "name": "Richard Rorty"
+        }
+      ],
+      "number_of_pages": 401,
+      "pagination": "xv, 401 p. ;",
+      "by_statement": "Richard Rorty.",
+      "identifiers": {
+        "librarything": [
+          "25224"
+        ],
+        "goodreads": [
+          "3819449",
+          "31947"
+        ],
+        "isbn_10": [
+          "0691072361",
+          "0691020167"
+        ],
+        "isbn_13": [
+          "9780691072364",
+          "9780691020167"
+        ],
+        "openlibrary": [
+          "OL23241449M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "B53.R68 1980"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Princeton University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Princeton, N.J"
+        }
+      ],
+      "publish_date": "1980",
+      "subjects": [
+        {
+          "name": "Analysis (Philosophy)",
+          "url": "https://openlibrary.org/subjects/analysis_(philosophy)"
+        },
+        {
+          "name": "Civilization",
+          "url": "https://openlibrary.org/subjects/civilization"
+        },
+        {
+          "name": "Mind and body",
+          "url": "https://openlibrary.org/subjects/mind_and_body"
+        },
+        {
+          "name": "Modern Philosophy",
+          "url": "https://openlibrary.org/subjects/modern_philosophy"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Philosophy, Modern",
+          "url": "https://openlibrary.org/subjects/philosophy,_modern"
+        },
+        {
+          "name": "Representation (Philosophy)",
+          "url": "https://openlibrary.org/subjects/representation_(philosophy)"
+        },
+        {
+          "name": "Esprit et corps",
+          "url": "https://openlibrary.org/subjects/esprit_et_corps"
+        },
+        {
+          "name": "Philosophie analytique",
+          "url": "https://openlibrary.org/subjects/philosophie_analytique"
+        },
+        {
+          "name": "Civilisation",
+          "url": "https://openlibrary.org/subjects/civilisation"
+        },
+        {
+          "name": "Erkenntnistheorie",
+          "url": "https://openlibrary.org/subjects/erkenntnistheorie"
+        },
+        {
+          "name": "Leib-Seele-Problem",
+          "url": "https://openlibrary.org/subjects/leib-seele-problem"
+        },
+        {
+          "name": "Kennis",
+          "url": "https://openlibrary.org/subjects/kennis"
+        },
+        {
+          "name": "Hermeneutik",
+          "url": "https://openlibrary.org/subjects/hermeneutik"
+        },
+        {
+          "name": "Analytische Philosophie",
+          "url": "https://openlibrary.org/subjects/analytische_philosophie"
+        },
+        {
+          "name": "Geest",
+          "url": "https://openlibrary.org/subjects/geest"
+        },
+        {
+          "name": "Représentation (Philosophie)",
+          "url": "https://openlibrary.org/subjects/représentation_(philosophie)"
+        },
+        {
+          "name": "Philosophie",
+          "url": "https://openlibrary.org/subjects/philosophie"
+        },
+        {
+          "name": "Civilization, philosophy",
+          "url": "https://openlibrary.org/subjects/civilization,_philosophy"
+        },
+        {
+          "name": "Philosophy [MESH]",
+          "url": "https://openlibrary.org/subjects/philosophy_[mesh]"
+        }
+      ],
+      "subject_places": [
+        {
+          "name": "United States",
+          "url": "https://openlibrary.org/subjects/place:united_states"
+        }
+      ],
+      "notes": "Includes bibliographical references and index.",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/10057865-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/10057865-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/10057865-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780691020167"
+  },
+  "timestamp": 1767125433576,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

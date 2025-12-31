@@ -1,0 +1,160 @@
+{
+  "key": "doi-10.1017_CBO9780511554476",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          29
+        ]
+      ],
+      "date-time": "2025-12-29T22:11:53Z",
+      "timestamp": 1767046313684
+    },
+    "edition-number": "1",
+    "reference-count": 0,
+    "publisher": "Cambridge University Press",
+    "isbn-type": [
+      {
+        "value": "9780521550598",
+        "type": "print"
+      },
+      {
+        "value": "9780521559607",
+        "type": "print"
+      },
+      {
+        "value": "9780511554476",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2010,
+              5,
+              20
+            ]
+          ],
+          "date-time": "2010-05-20T00:00:00Z",
+          "timestamp": 1274313600000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 5074,
+        "URL": "https://www.cambridge.org/core/terms"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          1996,
+          6,
+          28
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Ethical concepts are, or purport to be, normative. They make claims on us: they command, oblige, recommend, or guide. Or at least when we invoke them, we make claims on one another; but where does their authority over us - or ours over one another - come from? Christine Korsgaard identifies four accounts of the source of normativity that have been advocated by modern moral philosophers: voluntarism, realism, reflective endorsement, and the appeal to autonomy. She traces their history, showing how each developed in response to the prior one and comparing their early versions with those on the contemporary philosophical scene. Kant's theory that normativity springs from our own autonomy emerges as a synthesis of the other three, and Korsgaard concludes with her own version of the Kantian account. Her discussion is followed by commentary from G. A. Cohen, Raymond Geuss, Thomas Nagel, and Bernard Williams, and a reply by Korsgaard.</jats:p>",
+    "DOI": "10.1017/cbo9780511554476",
+    "type": "monograph",
+    "created": {
+      "date-parts": [
+        [
+          2010,
+          6,
+          2
+        ]
+      ],
+      "date-time": "2010-06-02T15:52:25Z",
+      "timestamp": 1275493945000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1687,
+    "title": [
+      "The Sources of Normativity"
+    ],
+    "prefix": "10.1017",
+    "author": [
+      {
+        "given": "Christine M.",
+        "family": "Korsgaard",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Onora",
+        "family": "O'Neill",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "56",
+    "published-online": {
+      "date-parts": [
+        [
+          2010,
+          5,
+          20
+        ]
+      ]
+    },
+    "container-title": [],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2022-10-14T14:18:33Z",
+      "timestamp": 1665757113000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cambridge.org/core/product/identifier/9780511554476/type/book"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1996,
+          6,
+          28
+        ]
+      ]
+    },
+    "ISBN": [
+      "9780521550598",
+      "9780521559607",
+      "9780511554476"
+    ],
+    "references-count": 0,
+    "URL": "https://doi.org/10.1017/cbo9780511554476",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1996,
+          6,
+          28
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767125410952,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

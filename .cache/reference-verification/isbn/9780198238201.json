@@ -1,0 +1,631 @@
+{
+  "key": "isbn-9780198238201",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL381019M/Knowledge_in_a_social_world",
+      "key": "/books/OL381019M",
+      "title": "Knowledge in a social world",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL237362A/Alvin_I._Goldman",
+          "name": "Alvin I. Goldman"
+        }
+      ],
+      "number_of_pages": 407,
+      "pagination": "xiii, 407 p. ;",
+      "by_statement": "Alvin I. Goldman.",
+      "identifiers": {
+        "goodreads": [
+          "3960836",
+          "655078"
+        ],
+        "librarything": [
+          "6304505"
+        ],
+        "isbn_10": [
+          "0198237774",
+          "0198238207"
+        ],
+        "lccn": [
+          "98043283"
+        ],
+        "oclc": [
+          "39897344"
+        ],
+        "openlibrary": [
+          "OL381019M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD175 .G64 1999",
+          "BD175.G64 1999"
+        ],
+        "dewey_decimal_class": [
+          "121"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Clarendon Press"
+        },
+        {
+          "name": "Oxford University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Oxford"
+        },
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "1999",
+      "subjects": [
+        {
+          "name": "Social epistemology",
+          "url": "https://openlibrary.org/subjects/social_epistemology"
+        },
+        {
+          "name": "epistemology",
+          "url": "https://openlibrary.org/subjects/epistemology"
+        },
+        {
+          "name": "knowledge",
+          "url": "https://openlibrary.org/subjects/knowledge"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "This is the best of times, or this is the worst of times, for the social pursuit of knowledge.",
+          "comment": ""
+        }
+      ],
+      "notes": "Includes bibliographical references (p. [373]-393) and indexes.",
+      "table_of_contents": [
+        {
+          "level": 1,
+          "label": "Part 1",
+          "title": "Foundations",
+          "pagenum": ""
+        },
+        {
+          "level": 2,
+          "label": "chapter 1",
+          "title": "Epistemology and Postmodern Resistance",
+          "pagenum": "3"
+        },
+        {
+          "level": 3,
+          "label": "section 1",
+          "title": "Truth seeking in the social world",
+          "pagenum": "3"
+        },
+        {
+          "level": 3,
+          "label": "section 2",
+          "title": "Veriphobia",
+          "pagenum": "7"
+        },
+        {
+          "level": 3,
+          "label": "section 3",
+          "title": "Six criticisms of truth-based epistemology",
+          "pagenum": "9"
+        },
+        {
+          "level": 3,
+          "label": "section 4",
+          "title": "The argument from social construction",
+          "pagenum": "10"
+        },
+        {
+          "level": 3,
+          "label": "section 5",
+          "title": "Language and worldmaking",
+          "pagenum": "17"
+        },
+        {
+          "level": 3,
+          "label": "section 6",
+          "title": "The unknowability criticism",
+          "pagenum": "22"
+        },
+        {
+          "level": 3,
+          "label": "section 7",
+          "title": "The denial of epistemic privilege",
+          "pagenum": "26"
+        },
+        {
+          "level": 3,
+          "label": "section 8",
+          "title": "The argument from domination",
+          "pagenum": "33"
+        },
+        {
+          "level": 3,
+          "label": "section 9",
+          "title": "The argument from bias",
+          "pagenum": "37"
+        },
+        {
+          "level": 2,
+          "label": "chapter 2",
+          "title": "Truth",
+          "pagenum": "41"
+        },
+        {
+          "level": 3,
+          "label": "section 1",
+          "title": "Approaches to the theory of truth",
+          "pagenum": "41"
+        },
+        {
+          "level": 3,
+          "label": "section 2",
+          "title": "Instrumentalism and relativism",
+          "pagenum": "42"
+        },
+        {
+          "level": 3,
+          "label": "section 3",
+          "title": "Epistemic approaches to truth",
+          "pagenum": "44"
+        },
+        {
+          "level": 3,
+          "label": "section 4",
+          "title": "Realisms, antirealisms, and truth",
+          "pagenum": "48"
+        },
+        {
+          "level": 3,
+          "label": "section 5",
+          "title": "Deflationism",
+          "pagenum": "51"
+        },
+        {
+          "level": 3,
+          "label": "section 6",
+          "title": "The correspondence theory",
+          "pagenum": "59"
+        },
+        {
+          "level": 3,
+          "label": "section 7",
+          "title": "Partial compatibility between correspondence and deflation?",
+          "pagenum": "66"
+        },
+        {
+          "level": 2,
+          "label": "chapter 3",
+          "title": "The Framework",
+          "pagenum": "69"
+        },
+        {
+          "level": 3,
+          "label": "section 1",
+          "title": "Alternative conceptions of social epistemology",
+          "pagenum": "69"
+        },
+        {
+          "level": 3,
+          "label": "section 2",
+          "title": "Employing veritism",
+          "pagenum": "79"
+        },
+        {
+          "level": 3,
+          "label": "section 3",
+          "title": "Veritism and circularity",
+          "pagenum": "83"
+        },
+        {
+          "level": 3,
+          "label": "section 4",
+          "title": "Veritistic value",
+          "pagenum": "87"
+        },
+        {
+          "level": 3,
+          "label": "section 5",
+          "title": "Complications: interests, attribution, and questions",
+          "pagenum": "94"
+        },
+        {
+          "level": 1,
+          "label": "Part 2",
+          "title": "Generic Social Practices",
+          "pagenum": ""
+        },
+        {
+          "level": 2,
+          "label": "chapter 4",
+          "title": "Testimony",
+          "pagenum": "103"
+        },
+        {
+          "level": 3,
+          "label": "section 1",
+          "title": "The social spread of knowledge",
+          "pagenum": "103"
+        },
+        {
+          "level": 3,
+          "label": "section 2",
+          "title": "A Bayesian inference practice",
+          "pagenum": "109"
+        },
+        {
+          "level": 3,
+          "label": "section 3",
+          "title": "A veritistic rationale for Bayesian inference",
+          "pagenum": "115"
+        },
+        {
+          "level": 3,
+          "label": "section 4",
+          "title": "Estimating testimonial likelihoods",
+          "pagenum": "123"
+        },
+        {
+          "level": 3,
+          "label": "section 5",
+          "title": "Justification of testimony-based belief",
+          "pagenum": "126"
+        },
+        {
+          "level": 2,
+          "label": "chapter 5",
+          "title": "Argumentation",
+          "pagenum": "131"
+        },
+        {
+          "level": 3,
+          "label": "section 1",
+          "title": "Monological argumentation",
+          "pagenum": "131"
+        },
+        {
+          "level": 3,
+          "label": "section 2",
+          "title": "Dialogical argumentation",
+          "pagenum": "139"
+        },
+        {
+          "level": 3,
+          "label": "section 3",
+          "title": "Truth-in-evidence and the cultural climate for argumentation",
+          "pagenum": "144"
+        },
+        {
+          "level": 3,
+          "label": "section 4",
+          "title": "Fallacies and good argumentation",
+          "pagenum": "150"
+        },
+        {
+          "level": 3,
+          "label": "section 5",
+          "title": "Alternative approaches to argumentation",
+          "pagenum": "154"
+        },
+        {
+          "level": 2,
+          "label": "chapter 6",
+          "title": "The Technology and Economics of Communication",
+          "pagenum": "161"
+        },
+        {
+          "level": 3,
+          "label": "section 1",
+          "title": "How technology matters to knowledge",
+          "pagenum": "161"
+        },
+        {
+          "level": 3,
+          "label": "section 2",
+          "title": "Computer-mediated communication",
+          "pagenum": "165"
+        },
+        {
+          "level": 3,
+          "label": "section 3",
+          "title": "The economics of scholarly communication",
+          "pagenum": "173"
+        },
+        {
+          "level": 3,
+          "label": "section 4",
+          "title": "The economics of the mass media",
+          "pagenum": "182"
+        },
+        {
+          "level": 2,
+          "label": "chapter 7",
+          "title": "Speech Regulation and the Marketplace of Ideas",
+          "pagenum": "189"
+        },
+        {
+          "level": 3,
+          "label": "section 1",
+          "title": "Third-party and institutional influences on speech",
+          "pagenum": "189"
+        },
+        {
+          "level": 3,
+          "label": "section 2",
+          "title": "Economic theory, market efficiency, and veritistic value",
+          "pagenum": "194"
+        },
+        {
+          "level": 3,
+          "label": "section 3",
+          "title": "When and how nonmarket regulation can help",
+          "pagenum": "205"
+        },
+        {
+          "level": 3,
+          "label": "section 4",
+          "title": "The metaphorical marketplace and truth",
+          "pagenum": "209"
+        },
+        {
+          "level": 3,
+          "label": "section 5",
+          "title": "State regulation and metaregulation",
+          "pagenum": "213"
+        },
+        {
+          "level": 1,
+          "label": "Part 3",
+          "title": "Special Domains",
+          "pagenum": ""
+        },
+        {
+          "level": 2,
+          "label": "chapter 8",
+          "title": "Science",
+          "pagenum": "221"
+        },
+        {
+          "level": 3,
+          "label": "section 1",
+          "title": "Science as convention or \"form of life\"",
+          "pagenum": "221"
+        },
+        {
+          "level": 3,
+          "label": "section 2",
+          "title": "A political-military account of science",
+          "pagenum": "225"
+        },
+        {
+          "level": 3,
+          "label": "section 3",
+          "title": "Biases and interests",
+          "pagenum": "230"
+        },
+        {
+          "level": 3,
+          "label": "section 4",
+          "title": "The theory ladenness of observation",
+          "pagenum": "238"
+        },
+        {
+          "level": 3,
+          "label": "section 5",
+          "title": "Underdetermination of theory",
+          "pagenum": "242"
+        },
+        {
+          "level": 3,
+          "label": "section 6",
+          "title": "Scientific realism and the veritistic superiority of science",
+          "pagenum": "244"
+        },
+        {
+          "level": 3,
+          "label": "section 7",
+          "title": "The case for scientific superiority",
+          "pagenum": "248"
+        },
+        {
+          "level": 3,
+          "label": "section 8",
+          "title": "Sources of scientific success",
+          "pagenum": "250"
+        },
+        {
+          "level": 3,
+          "label": "section 9",
+          "title": "The distribution of scientific research",
+          "pagenum": "254"
+        },
+        {
+          "level": 3,
+          "label": "section 10",
+          "title": "The drive for credit",
+          "pagenum": "260"
+        },
+        {
+          "level": 3,
+          "label": "section 11",
+          "title": "Scientific publicatoin",
+          "pagenum": "263"
+        },
+        {
+          "level": 3,
+          "label": "section 12",
+          "title": "Recognizing authority",
+          "pagenum": "267"
+        },
+        {
+          "level": 2,
+          "label": "chapter 9",
+          "title": "Law",
+          "pagenum": "272"
+        },
+        {
+          "level": 3,
+          "label": "section 1",
+          "title": "Truth and legal adjudication",
+          "pagenum": "272"
+        },
+        {
+          "level": 3,
+          "label": "section 2",
+          "title": "Alternative criteria of a good adjudication system",
+          "pagenum": "279"
+        },
+        {
+          "level": 3,
+          "label": "section 3",
+          "title": "Truth and the Bill of Rights",
+          "pagenum": "285"
+        },
+        {
+          "level": 3,
+          "label": "section 4",
+          "title": "Common-law vs. civil-law traditions",
+          "pagenum": "289"
+        },
+        {
+          "level": 3,
+          "label": "section 5",
+          "title": "Exclusionary rules",
+          "pagenum": "292"
+        },
+        {
+          "level": 3,
+          "label": "section 6",
+          "title": "Adversary control of proceedings",
+          "pagenum": "295"
+        },
+        {
+          "level": 3,
+          "label": "section 7",
+          "title": "Discovery and secrecy",
+          "pagenum": "300"
+        },
+        {
+          "level": 3,
+          "label": "section 8",
+          "title": "Expert testimony",
+          "pagenum": "304"
+        },
+        {
+          "level": 3,
+          "label": "section 9",
+          "title": "Juries",
+          "pagenum": "311"
+        },
+        {
+          "level": 2,
+          "label": "chapter 10",
+          "title": "Democracy",
+          "pagenum": "315"
+        },
+        {
+          "level": 3,
+          "label": "section 1",
+          "title": "Knowledge and the nature of voting",
+          "pagenum": "315"
+        },
+        {
+          "level": 3,
+          "label": "section 2",
+          "title": "Voting and information as studied by political science",
+          "pagenum": "317"
+        },
+        {
+          "level": 3,
+          "label": "section 3",
+          "title": "Core voter knowledge",
+          "pagenum": "320"
+        },
+        {
+          "level": 3,
+          "label": "section 4",
+          "title": "The democratic value of core voter knowledge",
+          "pagenum": "326"
+        },
+        {
+          "level": 3,
+          "label": "section 5",
+          "title": "Improving core information",
+          "pagenum": "330"
+        },
+        {
+          "level": 3,
+          "label": "section 6",
+          "title": "Democracy and the press",
+          "pagenum": "340"
+        },
+        {
+          "level": 3,
+          "label": "section 7",
+          "title": "Multicandidate elections",
+          "pagenum": "342"
+        },
+        {
+          "level": 3,
+          "label": "section 8",
+          "title": "Other types of beneficial knowledge",
+          "pagenum": "346"
+        },
+        {
+          "level": 2,
+          "label": "chapter 11",
+          "title": "Education",
+          "pagenum": "349"
+        },
+        {
+          "level": 3,
+          "label": "section 1",
+          "title": "Goals, methods, and interests",
+          "pagenum": "349"
+        },
+        {
+          "level": 3,
+          "label": "section 2",
+          "title": "Veritism and multiculturalism",
+          "pagenum": "353"
+        },
+        {
+          "level": 3,
+          "label": "section 3",
+          "title": "Postmodernism and collaborative learning",
+          "pagenum": "356"
+        },
+        {
+          "level": 3,
+          "label": "section 4",
+          "title": "Critical thinking, trust, and pedagogy",
+          "pagenum": "362"
+        },
+        {
+          "level": 3,
+          "label": "section 5",
+          "title": "Curricular content and epistemic authority",
+          "pagenum": "367"
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/129714-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/129714-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/129714-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780198238201"
+  },
+  "timestamp": 1767125401980,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

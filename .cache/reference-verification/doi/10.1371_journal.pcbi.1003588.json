@@ -1,0 +1,837 @@
+{
+  "key": "doi-10.1371_journal.pcbi.1003588",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2025-12-30T11:18:29Z",
+      "timestamp": 1767093509846
+    },
+    "reference-count": 73,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              5,
+              8
+            ]
+          ],
+          "date-time": "2014-05-08T00:00:00Z",
+          "timestamp": 1399507200000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.ploscompbiol.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS Comput Biol"
+    ],
+    "DOI": "10.1371/journal.pcbi.1003588",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          5,
+          8
+        ]
+      ],
+      "date-time": "2014-05-08T21:11:49Z",
+      "timestamp": 1399583509000
+    },
+    "page": "e1003588",
+    "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 735,
+    "title": [
+      "From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0"
+    ],
+    "prefix": "10.1371",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Masafumi",
+        "family": "Oizumi",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Larissa",
+        "family": "Albantakis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Giulio",
+        "family": "Tononi",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          5,
+          8
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "unstructured": "Le QV, Ranzato MA, Monga R, Devin M, Chen K, <etal>et al</etal>.. (2011) Building high-level features using large scale unsupervised learning. In: ICML2012."
+      },
+      {
+        "key": "ref2",
+        "unstructured": "The DeepQA Research Team (2013) Available: <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://researcher.ibm.com/researcher/view_project.php?id=2099\" xlink:type=\"simple\">http://researcher.ibm.com/researcher/view_project.php?id=2099</ext-link>. Accessed October 21, 2013."
+      },
+      {
+        "key": "ref3",
+        "article-title": "Smarter Than You Think – I.B.M.s Supercomputer to Challenge Jeopardy! Champions",
+        "author": "C Thompson",
+        "year": "2010",
+        "journal-title": "N Y Times Mag"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "42",
+        "DOI": "10.1186/1471-2202-5-42",
+        "article-title": "An information integration theory of consciousness",
+        "volume": "5",
+        "author": "G Tononi",
+        "year": "2004",
+        "journal-title": "BMC Neurosci"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "first-page": "216",
+        "DOI": "10.2307/25470707",
+        "article-title": "Consciousness as integrated information: a provisional manifesto",
+        "volume": "215",
+        "author": "G Tononi",
+        "year": "2008",
+        "journal-title": "Biol Bull"
+      },
+      {
+        "key": "ref6",
+        "first-page": "56",
+        "article-title": "Integrated information theory of consciousness: an updated account",
+        "volume": "150",
+        "author": "G Tononi",
+        "year": "2012",
+        "journal-title": "Arch Ital Biol"
+      },
+      {
+        "key": "ref7",
+        "unstructured": "Baars BJ (1988) A Cognitive Theory of Consciousness (Cambridge University Press)."
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1038/nn0203-119",
+        "article-title": "A framework for consciousness",
+        "volume": "6",
+        "author": "F Crick",
+        "year": "2003",
+        "journal-title": "Nat Neurosci"
+      },
+      {
+        "key": "ref9",
+        "unstructured": "Koch C (2004) The Quest for Consciousness: A Neurobiological Approach (Roberts and Co.)."
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "first-page": "20027",
+        "DOI": "10.1016/j.neuron.2011.03.018",
+        "article-title": "Experimental and theoretical approaches to conscious processing",
+        "volume": "70",
+        "author": "S Dehaene",
+        "year": "2011",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "ref11",
+        "unstructured": "Chalmers DJ (1996) The Conscious Mind: In Search of a Fundamental Theory (Oxford University Press)."
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "first-page": "239",
+        "DOI": "10.1196/annals.1440.004",
+        "article-title": "The neural correlates of consciousness: an update",
+        "volume": "1124",
+        "author": "G Tononi",
+        "year": "2008",
+        "journal-title": "Ann N Y Acad Sci"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "375",
+        "DOI": "10.1016/B978-0-12-374168-4.00028-9",
+        "article-title": "The neurology of consciousness: an overview",
+        "author": "G Tononi",
+        "year": "2009",
+        "journal-title": "The neurology of con-sciousness"
+      },
+      {
+        "issue": "198",
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "first-page": "198ra105",
+        "DOI": "10.1126/scitranslmed.3006294",
+        "article-title": "A theoretically based index of consciousness independent of sensory processing and behavior",
+        "volume": "5",
+        "author": "AG Casali",
+        "year": "2013",
+        "journal-title": "Science translational medicine"
+      },
+      {
+        "key": "ref15",
+        "first-page": "19149",
+        "article-title": "Information sharing in the brain indexes consciousness in noncommunicative patients",
+        "volume": "23",
+        "author": "JR King",
+        "year": "2013",
+        "journal-title": "Curr Biol"
+      },
+      {
+        "key": "ref16",
+        "first-page": "367",
+        "article-title": "Information measures for conscious experience",
+        "volume": "139",
+        "author": "G Tononi",
+        "year": "2001",
+        "journal-title": "Arch Ital Biol"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1000091",
+        "DOI": "10.1371/journal.pcbi.1000091",
+        "article-title": "Integrated information in discrete dynamical systems: Motivation and theoretical framework",
+        "volume": "4",
+        "author": "D Balduzzi",
+        "year": "2008",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1000462",
+        "DOI": "10.1371/journal.pcbi.1000462",
+        "article-title": "Qualia: the geometry of integrated information",
+        "volume": "5",
+        "author": "D Balduzzi",
+        "year": "2009",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "crossref",
+        "first-page": "113",
+        "DOI": "10.1155/2013/261364",
+        "article-title": "The Mind-Brain Relationship as a Mathematical Problem",
+        "volume": "2013",
+        "author": "G Ascoli",
+        "year": "2013",
+        "journal-title": "ISRN Neurosci"
+      },
+      {
+        "key": "ref20",
+        "article-title": "Quantifying causal emergence shows that “macro” can beat “micro”",
+        "author": "E Hoel",
+        "year": "2013",
+        "journal-title": "Proc Natl Acad Sci"
+      },
+      {
+        "key": "ref21",
+        "first-page": "1741",
+        "article-title": "Information Flows in Causal Networks",
+        "volume": "11",
+        "author": "N Ay",
+        "year": "2008",
+        "journal-title": "Adv Complex Syst"
+      },
+      {
+        "key": "ref22",
+        "unstructured": "Korb KB, Nyberg EP, Hope L (2011) in Causality in the Sciences (Oxford University Press, Oxford)."
+      },
+      {
+        "key": "ref23",
+        "unstructured": "Griffith V, Koch C (2012) Quantifying synergistic mutual information. arXiv preprint arXiv:1205.4265."
+      },
+      {
+        "issue": "2",
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1023/A:1026543900054",
+        "article-title": "The earth movers distance as a metric for image retrieval",
+        "volume": "40",
+        "author": "Y Rubner",
+        "year": "2000",
+        "journal-title": "Int J Comput Vis"
+      },
+      {
+        "key": "ref25",
+        "unstructured": "Wilson RJ (1985) Introduction to Graph Theory, 3/e (Longman Scientific &amp; Technical)."
+      },
+      {
+        "key": "ref26",
+        "unstructured": "Plum F, Posner JB (1982) The Diagnosis of Stupor and Coma (Oxford University Press)."
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "crossref",
+        "first-page": "1846",
+        "DOI": "10.1126/science.282.5395.1846",
+        "article-title": "Consciousness and complexity",
+        "volume": "282",
+        "author": "G Tononi",
+        "year": "1998",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "first-page": "6539",
+        "DOI": "10.1038/nrn1723",
+        "article-title": "Forty-five years of split-brain research and still going strong",
+        "volume": "6",
+        "author": "MS Gazzaniga",
+        "year": "2005",
+        "journal-title": "Nat Rev Neurosci"
+      },
+      {
+        "key": "ref29",
+        "unstructured": "Lynn S, Rhue J (1994) Dissociation: Clinical and theoretical perspectives (Guilford Press)."
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "first-page": "76470",
+        "DOI": "10.1177/0956797611408736",
+        "article-title": "Integration without awareness: expanding the limits of unconscious processing",
+        "volume": "22",
+        "author": "L Mudrik",
+        "year": "2011",
+        "journal-title": "Psychol Sci"
+      },
+      {
+        "key": "ref31",
+        "article-title": "Information integration in the absence of awareness",
+        "author": "L Mudrik",
+        "year": "2014",
+        "journal-title": "Trends in Cognitive Sciences"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "first-page": "R824R827",
+        "DOI": "10.1016/j.cub.2007.08.009",
+        "article-title": "What does the cerebellum really do?",
+        "volume": "17",
+        "author": "M Glickstein",
+        "year": "2007",
+        "journal-title": "Curr Biol"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "first-page": "25467",
+        "DOI": "10.1080/14734220701490995",
+        "article-title": "The neuropsychiatry of the cerebellum –insights from the clinic",
+        "volume": "6",
+        "author": "JD Schmahmann",
+        "year": "2007",
+        "journal-title": "Cerebellum"
+      },
+      {
+        "key": "ref34",
+        "first-page": "9414",
+        "article-title": "Cerebellar agenesis revisited",
+        "volume": "133",
+        "author": "CAR Boyd",
+        "year": "2010",
+        "journal-title": "Brain"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1503215036",
+        "DOI": "10.1073/pnas.95.25.15032",
+        "article-title": "Patches of synchronized activity in the cerebellar cortex evoked by mossy-fiber stimulation: Questioning the role of parallel fibers",
+        "volume": "95",
+        "author": "D Cohen",
+        "year": "1998",
+        "journal-title": "Proc Natl Acad Sci"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "crossref",
+        "first-page": "135155",
+        "DOI": "10.1111/j.1749-6632.2002.tb07562.x",
+        "article-title": "The Organization of Cerebellar Cortical Circuitry Revisited. Implications for Function",
+        "volume": "978",
+        "author": "JM Bower",
+        "year": "2002",
+        "journal-title": "Ann N Y Acad Sci"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sporns O (2010) Networks of the Brain (MIT Press).",
+        "DOI": "10.7551/mitpress/8476.001.0001"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "first-page": "14489500",
+        "DOI": "10.1523/JNEUROSCI.2128-13.2013",
+        "article-title": "An anatomical substrate for integration among functional networks in human cortex",
+        "volume": "33",
+        "author": "MP van den Heuvel",
+        "year": "2013",
+        "journal-title": "J Neurosci"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "first-page": "222832",
+        "DOI": "10.1126/science.1117256",
+        "article-title": "Breakdown of cortical effective connectivity during sleep",
+        "volume": "309",
+        "author": "M Massimini",
+        "year": "2005",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "first-page": "26816",
+        "DOI": "10.1073/pnas.0913008107",
+        "article-title": "Breakdown in cortical effective connectivity during midazolam-induced loss of consciousness",
+        "volume": "107",
+        "author": "F Ferrarelli",
+        "year": "2010",
+        "journal-title": "Proc Natl Acad Sci U S A"
+      },
+      {
+        "key": "ref41",
+        "unstructured": "Sanes DH, Reh TA, Harris WA (2011) Development of the Nervous System (Academic Press)."
+      },
+      {
+        "key": "ref42",
+        "first-page": "5159",
+        "article-title": "Contentless Consciousness and Information-Processing Theories of Mind",
+        "volume": "2",
+        "author": "PR Sullivan",
+        "year": "1995",
+        "journal-title": "Philos Psychiatry, Psychol"
+      },
+      {
+        "key": "ref43",
+        "unstructured": "Edelman GM (1989) The Remembered Present: A Biological Theory of Consciousness (Basic Books)."
+      },
+      {
+        "key": "ref44",
+        "unstructured": "Harth E (1993) The creative loop: How the brain makes a mind (Addison-Wesley, Reading, MA)."
+      },
+      {
+        "key": "ref45",
+        "unstructured": "Hofstadter DR (2007) I Am a Strange Loop (Basic Books)."
+      },
+      {
+        "key": "ref46",
+        "first-page": "1218",
+        "article-title": "Why visual attention and awareness are different",
+        "volume": "7",
+        "author": "VAF Lamme",
+        "year": "2003",
+        "journal-title": "Trends Cogn Sci"
+      },
+      {
+        "key": "ref47",
+        "first-page": "145150",
+        "article-title": "Volatile anesthetics disrupt frontal-posterior recurrent information transfer at gamma frequencies in rat",
+        "volume": "387",
+        "author": "OA Imas",
+        "year": "2005",
+        "journal-title": "Neurosci Lett"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "crossref",
+        "first-page": "708290",
+        "DOI": "10.1523/JNEUROSCI.3769-11.2012",
+        "article-title": "Connectivity changes underlying spectral EEG changes during propofol-induced loss of consciousness",
+        "volume": "32",
+        "author": "M Boly",
+        "year": "2012",
+        "journal-title": "J Neurosci"
+      },
+      {
+        "key": "ref49",
+        "article-title": "Cognitive unbinding: A neuroscientific paradigm of general anesthesia and related states of unconsciousness",
+        "author": "GA Mashour",
+        "year": "2013",
+        "journal-title": "Neurosci Biobehav Rev"
+      },
+      {
+        "key": "ref50",
+        "doi-asserted-by": "crossref",
+        "first-page": "85862",
+        "DOI": "10.1126/science.1202043",
+        "article-title": "Preserved feedforward but impaired top-down processes in the vegetative state",
+        "volume": "332",
+        "author": "M Boly",
+        "year": "2011",
+        "journal-title": "Science"
+      },
+      {
+        "key": "ref51",
+        "doi-asserted-by": "crossref",
+        "first-page": "893",
+        "DOI": "10.1038/35082161",
+        "article-title": "The zombie within",
+        "volume": "411",
+        "author": "C Koch",
+        "year": "2001",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "crossref",
+        "first-page": "303",
+        "DOI": "10.1007/BF02551274",
+        "article-title": "Approximation by superpositions of a sigmoidal function",
+        "volume": "2",
+        "author": "G Cybenko",
+        "year": "1989",
+        "journal-title": "Math Control Signals Syst"
+      },
+      {
+        "key": "ref53",
+        "doi-asserted-by": "crossref",
+        "first-page": "359",
+        "DOI": "10.1016/0893-6080(89)90020-8",
+        "article-title": "Multilayer feedforward networks are universal approx-imators",
+        "volume": "2",
+        "author": "K Hornik",
+        "year": "1989",
+        "journal-title": "Neural Networks"
+      },
+      {
+        "key": "ref54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rumelhart D, Hinton G, Williams R (1986) Learning internal representations by error propagation, Parallel distributed processing, 1986. Cambridge, MA.",
+        "DOI": "10.21236/ADA164453"
+      },
+      {
+        "key": "ref55",
+        "doi-asserted-by": "crossref",
+        "first-page": "499",
+        "DOI": "10.1016/j.neuron.2008.12.012",
+        "article-title": "Memory without feedback in a neural network",
+        "volume": "61",
+        "author": "M Goldman",
+        "year": "2009",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "ref56",
+        "unstructured": "Dalal N, Triggs B (2005) In: IEEE Computer Society Conference on Computer Vision and Pattern Recognition; 25–25 June 2005; San Diego, CA, United States. CVPR 2005. Available: <ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1467360\" xlink:type=\"simple\">http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp; arnumber=1467360</ext-link>. Accessed 17 March 2014."
+      },
+      {
+        "key": "ref57",
+        "doi-asserted-by": "crossref",
+        "first-page": "41126",
+        "DOI": "10.1109/TPAMI.2007.56",
+        "article-title": "Robust object recognition with cortex-like mechanisms",
+        "volume": "29",
+        "author": "T Serre",
+        "year": "2007",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "ref58",
+        "first-page": "3951",
+        "article-title": "Example-based learning for view-based human face detection",
+        "volume": "20",
+        "author": "K-K Sung",
+        "year": "1998",
+        "journal-title": "IEEE Trans Pattern Anal Mach Intell"
+      },
+      {
+        "key": "ref59",
+        "doi-asserted-by": "crossref",
+        "first-page": "399458",
+        "DOI": "10.1145/954339.954342",
+        "article-title": "Face recognition",
+        "volume": "35",
+        "author": "W Zhao",
+        "year": "2003",
+        "journal-title": "ACM Comput Surv"
+      },
+      {
+        "key": "ref60",
+        "doi-asserted-by": "crossref",
+        "first-page": "72",
+        "DOI": "10.1111/nyas.12148",
+        "article-title": "Vision: are models of object recognition catching up with the brain?",
+        "volume": "1305",
+        "author": "T Poggio",
+        "year": "2013",
+        "journal-title": "Ann N Y Acad Sci"
+      },
+      {
+        "key": "ref61",
+        "doi-asserted-by": "crossref",
+        "first-page": "121123",
+        "DOI": "10.1038/375121a0",
+        "article-title": "Are we aware of neural activity in primary visual cortex?",
+        "volume": "375",
+        "author": "F Crick",
+        "year": "1995",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "ref62",
+        "doi-asserted-by": "crossref",
+        "first-page": "1321",
+        "DOI": "10.1038/nrn701",
+        "article-title": "Visual competition",
+        "volume": "3",
+        "author": "R Blake",
+        "year": "2002",
+        "journal-title": "Nat Rev Neurosci"
+      },
+      {
+        "key": "ref63",
+        "doi-asserted-by": "crossref",
+        "first-page": "21929",
+        "DOI": "10.1038/nrn1055",
+        "article-title": "Primary visual cortex and visual awareness",
+        "volume": "4",
+        "author": "F Tong",
+        "year": "2003",
+        "journal-title": "Nat Rev Neurosci"
+      },
+      {
+        "key": "ref64",
+        "doi-asserted-by": "crossref",
+        "first-page": "19918",
+        "DOI": "10.1093/cercor/bhm226",
+        "article-title": "Fundamental requirements for primary visual perception",
+        "volume": "18",
+        "author": "DA Pollen",
+        "year": "2008",
+        "journal-title": "Cereb Cortex"
+      },
+      {
+        "key": "ref65",
+        "doi-asserted-by": "crossref",
+        "first-page": "34223427",
+        "DOI": "10.1073/pnas.93.8.3422",
+        "article-title": "A complexity measure for selective matching of signals by the brain",
+        "volume": "93",
+        "author": "G Tononi",
+        "year": "1996",
+        "journal-title": "Proc Natl Acad Sci U S A"
+      },
+      {
+        "key": "ref66",
+        "doi-asserted-by": "crossref",
+        "first-page": "121121",
+        "DOI": "10.1098/rstb.2008.0300",
+        "article-title": "Predictive coding under the free-energy principle",
+        "volume": "364",
+        "author": "K Friston",
+        "year": "2009",
+        "journal-title": "Philos Trans R Soc Lond B Biol Sci"
+      },
+      {
+        "key": "ref67",
+        "doi-asserted-by": "crossref",
+        "first-page": "12738",
+        "DOI": "10.1038/nrn2787",
+        "article-title": "The free-energy principle: a unified brain theory?",
+        "volume": "11",
+        "author": "K Friston",
+        "year": "2010",
+        "journal-title": "Nat Rev Neurosci"
+      },
+      {
+        "key": "ref68",
+        "doi-asserted-by": "crossref",
+        "first-page": "68",
+        "DOI": "10.3389/fncom.2012.00068",
+        "article-title": "How anatomy shapes dynamics: a semi-analytical study of the brain at rest by a simple spin model",
+        "volume": "6",
+        "author": "G Deco",
+        "year": "2012",
+        "journal-title": "Front Comput Neurosci"
+      },
+      {
+        "key": "ref69",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1001052",
+        "DOI": "10.1371/journal.pcbi.1001052",
+        "article-title": "Practical measures of integrated information for time-series data",
+        "volume": "7",
+        "author": "AB Barrett",
+        "year": "2011",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "ref70",
+        "doi-asserted-by": "crossref",
+        "first-page": "148",
+        "DOI": "10.3389/fneur.2013.00148",
+        "article-title": "Sleep-Dependent Synaptic Down-Selection (II): Single-Neuron Level Benefits for Matching, Selectivity, and Specificity",
+        "volume": "4",
+        "author": "A Hashmi",
+        "year": "2013",
+        "journal-title": "Front Neurol"
+      },
+      {
+        "key": "ref71",
+        "article-title": "Information Matching – Environment dependent increase in integrated information (Φ)",
+        "author": "L Albantakis",
+        "year": "2013",
+        "journal-title": "European Conference on Complex Systems (ECCS13)"
+      },
+      {
+        "key": "ref72",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1002236",
+        "DOI": "10.1371/journal.pcbi.1002236",
+        "article-title": "Integrated information increases with fitness in the evolution of animats",
+        "volume": "7",
+        "author": "JA Edlund",
+        "year": "2011",
+        "journal-title": "PLoS Comput Biol"
+      },
+      {
+        "key": "ref73",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1003111",
+        "DOI": "10.1371/journal.pcbi.1003111",
+        "article-title": "The minimal complexity of adapting agents increases with fitness",
+        "volume": "9",
+        "author": "NJ Joshi",
+        "year": "2013",
+        "journal-title": "PLoS Comput Biol"
+      }
+    ],
+    "container-title": [
+      "PLoS Computational Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://dx.plos.org/10.1371/journal.pcbi.1003588",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          9
+        ]
+      ],
+      "date-time": "2020-05-09T02:02:05Z",
+      "timestamp": 1588989725000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pcbi.1003588"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Olaf",
+        "family": "Sporns",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          5,
+          8
+        ]
+      ]
+    },
+    "references-count": 73,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            2014,
+            5,
+            8
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pcbi.1003588",
+    "relation": {},
+    "ISSN": [
+      "1553-7358"
+    ],
+    "issn-type": [
+      {
+        "value": "1553-7358",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          5,
+          8
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767125423756,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

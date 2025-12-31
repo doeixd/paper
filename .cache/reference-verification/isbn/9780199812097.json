@@ -1,0 +1,157 @@
+{
+  "key": "isbn-9780199812097",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL25185501M/Where_the_conflict_really_lies",
+      "key": "/books/OL25185501M",
+      "title": "Where the conflict really lies",
+      "subtitle": "science, religion, and naturalism",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL224545A/Alvin_Plantinga",
+          "name": "Alvin Plantinga"
+        }
+      ],
+      "number_of_pages": 359,
+      "pagination": "p. cm.",
+      "by_statement": "Alvin Plantinga",
+      "identifiers": {
+        "isbn_13": [
+          "9780199812097"
+        ],
+        "lccn": [
+          "2011002532"
+        ],
+        "oclc": [
+          "698626437"
+        ],
+        "openlibrary": [
+          "OL25185501M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BL240.3 .P53 2011",
+          "BL240.3.P53 2011"
+        ],
+        "dewey_decimal_class": [
+          "231.7/65"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press"
+        },
+        {
+          "name": "Oxford University Press, USA"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "2011",
+      "subjects": [
+        {
+          "name": "Religion and science",
+          "url": "https://openlibrary.org/subjects/religion_and_science"
+        },
+        {
+          "name": "Evolution (Biology)",
+          "url": "https://openlibrary.org/subjects/evolution_(biology)"
+        },
+        {
+          "name": "Naturalism",
+          "url": "https://openlibrary.org/subjects/naturalism"
+        },
+        {
+          "name": "Christianity",
+          "url": "https://openlibrary.org/subjects/christianity"
+        },
+        {
+          "name": "Biology",
+          "url": "https://openlibrary.org/subjects/biology"
+        }
+      ],
+      "table_of_contents": [
+        {
+          "level": 0,
+          "label": "",
+          "title": "Evolution and Christian belief (1)",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Evolution and Christian belief (2)",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Divine action in the world : the old picture",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "The new picture",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Evolutionary psychology and scripture scholarship",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Defeaters?",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Fine-tuning",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Design discourse",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Christian theism and the deep roots of science",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Deep conflict.",
+          "pagenum": ""
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/whereconflictrea0000plan",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/8529103-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/8529103-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/8529103-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780199812097"
+  },
+  "timestamp": 1767125427440,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

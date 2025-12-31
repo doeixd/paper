@@ -1,0 +1,189 @@
+{
+  "key": "doi-10.1111_phil.12170",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2023-09-30T09:18:27Z",
+      "timestamp": 1696065507487
+    },
+    "reference-count": 0,
+    "publisher": "Wiley",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              2
+            ]
+          ],
+          "date-time": "2017-11-02T00:00:00Z",
+          "timestamp": 1509580800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "The Philosophical Forum"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1111/phil.12170",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          2
+        ]
+      ],
+      "date-time": "2017-11-02T07:05:09Z",
+      "timestamp": 1509606309000
+    },
+    "page": "449-461",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "All You Need is Love? Frankfurt and Hegel on Love as Freedom"
+    ],
+    "prefix": "10.1111",
+    "volume": "48",
+    "author": [
+      {
+        "given": "Kate",
+        "family": "Padgett Walsh",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Iowa State University"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          2
+        ]
+      ]
+    },
+    "container-title": [
+      "The Philosophical Forum"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fphil.12170",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/phil.12170",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2023-09-29T21:53:28Z",
+      "timestamp": 1696024408000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/phil.12170"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          2
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "4",
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/phil.12170"
+    ],
+    "URL": "https://doi.org/10.1111/phil.12170",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0031-806X",
+      "1467-9191"
+    ],
+    "issn-type": [
+      {
+        "value": "0031-806X",
+        "type": "print"
+      },
+      {
+        "value": "1467-9191",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          2
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767125448949,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

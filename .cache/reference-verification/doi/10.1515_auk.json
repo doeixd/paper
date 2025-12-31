@@ -1,0 +1,180 @@
+{
+  "key": "doi-10.1515_auk-2012-0107",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          4
+        ]
+      ],
+      "date-time": "2025-10-04T14:38:23Z",
+      "timestamp": 1759588703895
+    },
+    "reference-count": 0,
+    "publisher": "Walter de Gruyter GmbH",
+    "issue": "1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2012,
+          5,
+          1
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p> Philip Kitcher’s The Ethical Project trios to vindicates ethics through an analysis of its evolutionary and cultural history, a history which in turn, he thinks, supports a particular conception of the role of moral thinking and normative practices in human social life. As Kitcher sees it, that role could hardly be more central: most of what makes human life human, and preferable to the fraught and impoverished societies of the great apes, depends on moral cognition. Prom this view of the role of the ethical project as a social technology, Kitcher derives an account of moral progress and even moral truth: a normative analogue of the idea that truth is the convergence of rational enquiry. To Kitcher’s history, I present an anti-history. Most of what is good about human social life depends on the expansion of our social emotions, not on our capacities to articulate and internalise explicit norms. Indeed, since the Holocene and the origins of complex society, normative thought and normative institutions have been more prominent as tools of exploitation and oppression than as mechanisms of a social peace that balances individual desire with collective co-operation. I argue that the vindication project fails in its own terms: even given Kitcher’s distinctive pragmatic concept of vindication, history debunks rather than vindicates moral cognition. </jats:p>",
+    "DOI": "10.1515/auk-2012-0107",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          11
+        ]
+      ],
+      "date-time": "2016-02-11T23:25:21Z",
+      "timestamp": 1455233121000
+    },
+    "page": "95-116",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "Morality’s Dark Past"
+    ],
+    "prefix": "10.1515",
+    "volume": "34",
+    "author": [
+      {
+        "given": "Kim",
+        "family": "Sterelny",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "374",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          2,
+          11
+        ]
+      ]
+    },
+    "container-title": [
+      "Analyse &amp; Kritik"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.degruyter.com/view/j/auk.2012.34.issue-1/auk-2012-0107/auk-2012-0107.xml",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.degruyter.com/document/doi/10.1515/auk-2012-0107/xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.degruyter.com/document/doi/10.1515/auk-2012-0107/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          23
+        ]
+      ],
+      "date-time": "2021-06-23T09:32:22Z",
+      "timestamp": 1624440742000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.degruyter.com/document/doi/10.1515/auk-2012-0107/html"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          5,
+          1
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2016,
+            2,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2012,
+            5,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1515/auk-2012-0107"
+    ],
+    "URL": "https://doi.org/10.1515/auk-2012-0107",
+    "relation": {},
+    "ISSN": [
+      "2365-9858",
+      "0171-5860"
+    ],
+    "issn-type": [
+      {
+        "value": "2365-9858",
+        "type": "electronic"
+      },
+      {
+        "value": "0171-5860",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          5,
+          1
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767125444460,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

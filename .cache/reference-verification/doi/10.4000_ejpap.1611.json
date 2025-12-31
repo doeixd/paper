@@ -1,0 +1,417 @@
+{
+  "key": "doi-10.4000_ejpap.1611",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          29
+        ]
+      ],
+      "date-time": "2025-12-29T11:42:36Z",
+      "timestamp": 1767008556399,
+      "version": "3.44.0"
+    },
+    "reference-count": 55,
+    "publisher": "OpenEdition",
+    "issue": "2",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ejpap"
+    ],
+    "DOI": "10.4000/ejpap.1611",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          20
+        ]
+      ],
+      "date-time": "2020-09-20T12:17:54Z",
+      "timestamp": 1600604274000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Introduction to Pragmatism and Theories of Emergence"
+    ],
+    "prefix": "10.4000",
+    "volume": "XI",
+    "author": [
+      {
+        "given": "Guido",
+        "family": "Baggio",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Andrea",
+        "family": "Parravicini",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "2399",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          25
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref0",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-349-81688-0"
+      },
+      {
+        "key": "ref1",
+        "unstructured": "Alexander Thomas, (1992), “Dewey and the Metaphysical Imagination,” Transactions of the Charles S. Peirce Society , 28, 203-."
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Angell James James Rowland &amp; Addison W. W. Moore, (1896), “Studies from the Psychological Laboratory of the University of Chicago: 1. Reaction-Time: A Study in Attention and Habit,” Psychological Review , 3, 245-58.",
+        "DOI": "10.1037/h0069918"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Anjum Rani Rani Lill &amp; Stephen Mumford, (2017), “Emergence and Demergence,” in Paolini Paoletti M. &amp; Orilia F. (eds), Philosophical and Scientific Perspectives on Downward Causation, New York &amp; London, Routledge, 92-109.",
+        "DOI": "10.4324/9781315638577-6"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10670-018-0055-z"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bedau Mark A., (2008), “Downward Causation and Autonomy in Weak Emergence,” in Bedau M. A. &amp; Humphreys P. (eds), Emergence: Contemporary Readings in Philosophy and Science, Cambridge, MA, MIT Press, 155-88.",
+        "DOI": "10.7551/mitpress/9780262026215.003.0014"
+      },
+      {
+        "key": "ref6",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7551/mitpress/9780262026215.001.0001"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Campbell Donald T., (1974), “‘Downward Causation' in Hierarchically Organized Biological Systems,” in Ayala F. J. &amp; Dobzhansky T. (eds), Studies in the Philosophy of Biology, Berkeley, University of California Press, 179-86.",
+        "DOI": "10.1007/978-1-349-01892-5_11"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chalmers David J., (2006), “Strong and Weak Emergence,” in Clayton P. &amp; Davies P. (eds), The Re-emergence of Emergence, New York, Oxford University Press, 244-54.",
+        "DOI": "10.1093/acprof:oso/9780199544318.003.0011"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199544318.001.0001"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9780203849408"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/392898"
+      },
+      {
+        "key": "ref12",
+        "unstructured": "Dewey John, (1985 [1934]), Art as Experience, in Boydston J. A., The Later Works of John Dewey, vol. 10, Carbondale, Southern Illinois University Press."
+      },
+      {
+        "key": "ref13",
+        "unstructured": "El-Hani Charbel Niño, (2002), “On The Reality of Emergents,” Principia, 6 (1), 51-87."
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5840/eip2002325"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2709176"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1207/S15327000EM0204_08"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780199334872.003.0011"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11023-008-9125-3"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780199334872.003.0011"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1412963"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/1412068"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim Jaegwon, (1992), “‘Downward Causation' in Emergentism and Nonreductive Physicalism,” in Beckermann A., Flohr H. &amp; Kim J. J. (eds), Emergence or Reduction? Essays on the Prospects of Nonreductive Physicalism, Berlin, New York, de Gruyter, 119-38.",
+        "DOI": "10.1515/9783110870084.119"
+      },
+      {
+        "key": "ref23",
+        "unstructured": "Kim Jaegwon, (1993a), Supervienience and Mind, Cambridge, Cambridge University Press."
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim Jaegwon, (1993b), “The Non-Reductivist's Troubles with Mental Causation,” in Heil J. &amp; Mele A. (eds), Mental Causation, Oxford, Oxford University Press, 189-210.",
+        "DOI": "10.1093/oso/9780198239291.003.0011"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim Jaegwon, (1999), “Making Sense of Emergence,” Philosophical Studies , 95, 3-36.",
+        "DOI": "10.1023/A:1004563122154"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1515/9781400840847"
+      },
+      {
+        "key": "ref27",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-006-9025-0"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim Jaegwon, (2006b), “Being Realistic about Emergence,” in Clayton P. &amp; Davies P. (eds), The Re-emergence of Emergence, New York, Oxford University Press, 189-202.",
+        "DOI": "10.1093/acprof:oso/9780199544318.003.0008"
+      },
+      {
+        "key": "ref29",
+        "unstructured": "Laughlin Robert B., (2005), A Different Universe: Reinventing Physics From the Bottom Down, New York, Basic Books."
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lawson Tony, (2013), “Emergence and Morthogenesis: Causal Reduction and Downward Causation,” in Archer M. (ed.), Social Morphogenesis, Dodrecht, Springer, 61-84.",
+        "DOI": "10.1007/978-94-007-6128-5_4"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7710/2155-4838.1164"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9781315268354"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McLaughlin BrianBrian  P., (1992), “The Rise and Fall of British Emergentism,” in Beckermann A., Flohr H. &amp; Kim J. (eds), Emergence or Reduction? Essays on the Prospects of Nonreductive Physicalism, Berlin, New York, de Gruyter, 49-93.",
+        "DOI": "10.1515/9783110870084.49"
+      },
+      {
+        "key": "ref34",
+        "unstructured": "Mead George H., (2002 [1932]), The Philosophy of the Present, Amherst, NY, Prometheus Books."
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mill John Stuart, (1843), A System of Logic, Ratiocinative and Inductive: Being a Connected View of the Principles of Evidence, and the Methods of Scientific Investigation, London, J. W. Parker.",
+        "DOI": "10.5962/bhl.title.25118"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/12922-000"
+      },
+      {
+        "key": "ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00005053-192411000-00100"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Newsome William T., (2009), “Human Freedom and ‘Emergence',” in Murphy N., Ellis G.F.R. &amp; O'Connor T. T. (eds), Downward Causation and the Neurobiology of Free Will, Berlin Heidelberg, Springer-Verlag, 53-62.",
+        "DOI": "10.1007/978-3-642-03205-9_3"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.0029-4624.2005.00543.x"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsfs.2011.0046"
+      },
+      {
+        "key": "ref41",
+        "unstructured": "Parravicini Andrea, (2012), Il pensiero in evoluzione. Chauncey Wright tra darwinismo e pragmatismo, Pisa, ETS."
+      },
+      {
+        "key": "ref42",
+        "unstructured": "Pihlström Sami, (2002), “The Re-Emergence of the Emergence Debate,” Principia, 6 (1), 133-81."
+      },
+      {
+        "key": "ref43",
+        "unstructured": "Prigogine Ilya &amp; Isabelle Stengers, (1984), Order out of Chaos: Man's New Dialogue with Nature, London, Flamingo Edition."
+      },
+      {
+        "key": "ref44",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7208/chicago/9780226149516.001.0001"
+      },
+      {
+        "key": "ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/biot.2007.2.1.91"
+      },
+      {
+        "key": "ref46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rudder Baker Lynne, (2017), “Naturalism and the Idea of Nature,” Philosophy, 92 (3), 333-49.",
+        "DOI": "10.1017/S0031819117000092"
+      },
+      {
+        "key": "ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10838-015-9312-x"
+      },
+      {
+        "key": "ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/338780"
+      },
+      {
+        "key": "ref49",
+        "unstructured": "Stephan Achim, (1999a), “Varieties of Emergentism,” Evolution and Cognition , 5, 49-59."
+      },
+      {
+        "key": "ref50",
+        "unstructured": "Stephan Achim, (1999b), Emergenz: Von der Unvorhersagbarkeit zur Selbstorganisation, Dresden, Dresden University Press."
+      },
+      {
+        "key": "ref51",
+        "unstructured": "Tiercelin Claudine, (1998), “Peirce's Objective Idealism. A Defense,” Transactions of the Charles S. Peirce Socitety, 34 (1), 1-28."
+      },
+      {
+        "key": "ref52",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2014.0167"
+      },
+      {
+        "key": "#cr-split#-ref53.1",
+        "unstructured": "Wright Chauncey, (1873), \"The Evolution of Self-Consciousness,\" North American Review, Apr."
+      },
+      {
+        "key": "#cr-split#-ref53.2",
+        "unstructured": "now in Philosophical Discussions, ed. by C. E. , Norton, Burt Franklin, New York, 1877, repr. in F. X. Ryan (ed.), The Evolutionary Philosophy of Chauncey , Wright, 3 vols., Thoemmes Press, Bristol-Sterling, vol. 1, 199-266."
+      }
+    ],
+    "container-title": [
+      "European Journal of Pragmatism and American Philosophy"
+    ],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          4
+        ]
+      ],
+      "date-time": "2025-09-04T08:55:15Z",
+      "timestamp": 1756976115000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://journals.openedition.org/ejpap/1611"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          25
+        ]
+      ]
+    },
+    "references-count": 55,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            25
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.4000/ejpap.1611",
+    "relation": {},
+    "ISSN": [
+      "2036-4091"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "2036-4091"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          12,
+          25
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767125377820,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

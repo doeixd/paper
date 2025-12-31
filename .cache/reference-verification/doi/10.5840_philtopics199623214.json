@@ -1,0 +1,11 @@
+{
+  "key": "doi-10.5840_philtopics199623214",
+  "data": {
+    "source": "claude-cli",
+    "status": "failed",
+    "confidence": 0
+  },
+  "timestamp": 1767125106962,
+  "ttl": 604800000,
+  "source": "claude-cli"
+}

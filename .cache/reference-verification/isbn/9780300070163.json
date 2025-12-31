@@ -1,0 +1,253 @@
+{
+  "key": "isbn-9780300070163",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL26202593M/Seeing_Like_a_State",
+      "key": "/books/OL26202593M",
+      "title": "Seeing Like a State",
+      "subtitle": "How Certain Schemes to Improve the Human Condition Have Failed",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL2444127A/James_C._Scott",
+          "name": "James C. Scott"
+        }
+      ],
+      "number_of_pages": 446,
+      "weight": "1.9 pounds",
+      "identifiers": {
+        "wikidata": [
+          "Q111712214"
+        ],
+        "isbn_13": [
+          "9780300070163"
+        ],
+        "lccn": [
+          "97026556"
+        ],
+        "oclc": [
+          "97026556",
+          "1025592573"
+        ],
+        "openlibrary": [
+          "OL26202593M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "HD87.5 .S365 1998",
+          "HD87.5.S365 1998"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Yale University Press"
+        }
+      ],
+      "publish_date": "1998-03-30",
+      "subjects": [
+        {
+          "name": "Central planning",
+          "url": "https://openlibrary.org/subjects/central_planning"
+        },
+        {
+          "name": "Social engineering",
+          "url": "https://openlibrary.org/subjects/social_engineering"
+        },
+        {
+          "name": "Social aspects of Central planning",
+          "url": "https://openlibrary.org/subjects/social_aspects_of_central_planning"
+        },
+        {
+          "name": "Social aspects",
+          "url": "https://openlibrary.org/subjects/social_aspects"
+        },
+        {
+          "name": "Authoritarianism",
+          "url": "https://openlibrary.org/subjects/authoritarianism"
+        },
+        {
+          "name": "Long Now Manual for Civilization",
+          "url": "https://openlibrary.org/subjects/long_now_manual_for_civilization"
+        },
+        {
+          "name": "Economic assistance, domestic",
+          "url": "https://openlibrary.org/subjects/economic_assistance,_domestic"
+        },
+        {
+          "name": "Social problems",
+          "url": "https://openlibrary.org/subjects/social_problems"
+        },
+        {
+          "name": "Human services",
+          "url": "https://openlibrary.org/subjects/human_services"
+        },
+        {
+          "name": "State, the",
+          "url": "https://openlibrary.org/subjects/state,_the"
+        },
+        {
+          "name": "POLITICAL SCIENCE",
+          "url": "https://openlibrary.org/subjects/political_science"
+        },
+        {
+          "name": "Public Policy",
+          "url": "https://openlibrary.org/subjects/public_policy"
+        },
+        {
+          "name": "Economic Policy",
+          "url": "https://openlibrary.org/subjects/economic_policy"
+        },
+        {
+          "name": "BUSINESS & ECONOMICS",
+          "url": "https://openlibrary.org/subjects/business_&_economics"
+        },
+        {
+          "name": "Government & Business",
+          "url": "https://openlibrary.org/subjects/government_&_business"
+        },
+        {
+          "name": "Development",
+          "url": "https://openlibrary.org/subjects/development"
+        },
+        {
+          "name": "Economic Development",
+          "url": "https://openlibrary.org/subjects/economic_development"
+        },
+        {
+          "name": "Business Development",
+          "url": "https://openlibrary.org/subjects/business_development"
+        },
+        {
+          "name": "Structural Adjustment",
+          "url": "https://openlibrary.org/subjects/structural_adjustment"
+        },
+        {
+          "name": "General",
+          "url": "https://openlibrary.org/subjects/general"
+        },
+        {
+          "name": "Pays en développement",
+          "url": "https://openlibrary.org/subjects/pays_en_développement"
+        },
+        {
+          "name": "Pays de l'Est",
+          "url": "https://openlibrary.org/subjects/pays_de_l'est"
+        },
+        {
+          "name": "Economie dirigée",
+          "url": "https://openlibrary.org/subjects/economie_dirigée"
+        },
+        {
+          "name": "Régimes totalitaires",
+          "url": "https://openlibrary.org/subjects/régimes_totalitaires"
+        },
+        {
+          "name": "Aspects sociaux",
+          "url": "https://openlibrary.org/subjects/aspects_sociaux"
+        },
+        {
+          "name": "Autoritarisme",
+          "url": "https://openlibrary.org/subjects/autoritarisme"
+        },
+        {
+          "name": "Planeconomie",
+          "url": "https://openlibrary.org/subjects/planeconomie"
+        },
+        {
+          "name": "Utopieën",
+          "url": "https://openlibrary.org/subjects/utopieën"
+        },
+        {
+          "name": "Maatschappijverbetering",
+          "url": "https://openlibrary.org/subjects/maatschappijverbetering"
+        },
+        {
+          "name": "PLANEJAMENTO ECONÔMICO (ASPECTOS SOCIAIS)",
+          "url": "https://openlibrary.org/subjects/planejamento_econômico_(aspectos_sociais)"
+        },
+        {
+          "name": "AUTORITARISMO (SISTEMAS DE GOVERNO)",
+          "url": "https://openlibrary.org/subjects/autoritarismo_(sistemas_de_governo)"
+        },
+        {
+          "name": "ANTROPOLOGIA CULTURAL E SOCIAL",
+          "url": "https://openlibrary.org/subjects/antropologia_cultural_e_social"
+        },
+        {
+          "name": "PLANEJAMENTO TERRITORIAL (AVALIAÇÃO)",
+          "url": "https://openlibrary.org/subjects/planejamento_territorial_(avaliação)"
+        },
+        {
+          "name": "Planification économique",
+          "url": "https://openlibrary.org/subjects/planification_économique"
+        },
+        {
+          "name": "Aspect social",
+          "url": "https://openlibrary.org/subjects/aspect_social"
+        },
+        {
+          "name": "Ingénierie sociale",
+          "url": "https://openlibrary.org/subjects/ingénierie_sociale"
+        }
+      ],
+      "subject_places": [
+        {
+          "name": "Tanzania",
+          "url": "https://openlibrary.org/subjects/place:tanzania"
+        },
+        {
+          "name": "Soviet Russia",
+          "url": "https://openlibrary.org/subjects/place:soviet_russia"
+        },
+        {
+          "name": "Brasilia",
+          "url": "https://openlibrary.org/subjects/place:brasilia"
+        }
+      ],
+      "subject_people": [
+        {
+          "name": "V. I. Lenin",
+          "url": "https://openlibrary.org/subjects/person:v._i._lenin"
+        },
+        {
+          "name": "Jules Nyerere",
+          "url": "https://openlibrary.org/subjects/person:jules_nyerere"
+        },
+        {
+          "name": "Le Corbusier",
+          "url": "https://openlibrary.org/subjects/person:le_corbusier"
+        },
+        {
+          "name": "Baron Haussmann",
+          "url": "https://openlibrary.org/subjects/person:baron_haussmann"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "Certain forms of knowledge and control require a narrowing of vision.",
+          "comment": "",
+          "first_sentence": true
+        },
+        {
+          "text": "Certain forms of knowledge and control require a narrowing of vision.",
+          "comment": ""
+        }
+      ],
+      "links": [
+        {
+          "title": "Read it for free!",
+          "url": "https://theanarchistlibrary.org/library/james-c-scott-seeing-like-a-state"
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/7885357-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/7885357-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/7885357-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780300070163"
+  },
+  "timestamp": 1767125436491,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

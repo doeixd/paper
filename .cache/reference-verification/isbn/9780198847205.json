@@ -1,0 +1,51 @@
+{
+  "key": "isbn-9780198847205",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL34697974M/Reasons_Justification_and_Defeat",
+      "key": "/books/OL34697974M",
+      "title": "Reasons, Justification, and Defeat",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL3307049A/Jessica_Brown",
+          "name": "Jessica Brown"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL9744567A/Mona_Simion",
+          "name": "Mona Simion"
+        }
+      ],
+      "pagination": "304",
+      "weight": "0.582",
+      "identifiers": {
+        "isbn_13": [
+          "9780198847205"
+        ],
+        "openlibrary": [
+          "OL34697974M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD161"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press"
+        }
+      ],
+      "publish_date": "2021",
+      "subjects": [
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        }
+      ]
+    },
+    "verifiedISBN": "9780198847205"
+  },
+  "timestamp": 1767125443619,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

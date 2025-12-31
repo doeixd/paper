@@ -1,0 +1,178 @@
+{
+  "key": "isbn-9780195078640",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL1700198M/Warrant_and_proper_function",
+      "key": "/books/OL1700198M",
+      "title": "Warrant and proper function",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL224545A/Alvin_Plantinga",
+          "name": "Alvin Plantinga"
+        }
+      ],
+      "number_of_pages": 243,
+      "pagination": "xii, 243 p.",
+      "by_statement": "Alvin Plantinga.",
+      "identifiers": {
+        "librarything": [
+          "49832"
+        ],
+        "goodreads": [
+          "3851626",
+          "634201"
+        ],
+        "isbn_10": [
+          "0195078632",
+          "0195078640"
+        ],
+        "isbn_13": [
+          "9780195078640"
+        ],
+        "lccn": [
+          "92000408"
+        ],
+        "oclc": [
+          "25628862"
+        ],
+        "openlibrary": [
+          "OL1700198M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD161 .P57 1993",
+          "BD161.P57 1993"
+        ],
+        "dewey_decimal_class": [
+          "121/.6"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "1993",
+      "subjects": [
+        {
+          "name": "Belief and doubt",
+          "url": "https://openlibrary.org/subjects/belief_and_doubt"
+        },
+        {
+          "name": "Cognition",
+          "url": "https://openlibrary.org/subjects/cognition"
+        },
+        {
+          "name": "Knowledge, Theory of",
+          "url": "https://openlibrary.org/subjects/knowledge,_theory_of"
+        },
+        {
+          "name": "Theory of Knowledge",
+          "url": "https://openlibrary.org/subjects/theory_of_knowledge"
+        },
+        {
+          "name": "epistemology",
+          "url": "https://openlibrary.org/subjects/epistemology"
+        },
+        {
+          "name": "proper function",
+          "url": "https://openlibrary.org/subjects/proper_function"
+        },
+        {
+          "name": "Warrants (law)",
+          "url": "https://openlibrary.org/subjects/warrants_(law)"
+        }
+      ],
+      "notes": "Includes index.",
+      "table_of_contents": [
+        {
+          "level": 2,
+          "label": "Chapter 1",
+          "title": "Warrant: A First Approximation",
+          "pagenum": "3"
+        },
+        {
+          "level": 2,
+          "label": "Chapter 2",
+          "title": "Warrant: Objections and Refinements",
+          "pagenum": "21"
+        },
+        {
+          "level": 2,
+          "label": "Chapter 3",
+          "title": "Exploring the Design Plan: Myself and My Past",
+          "pagenum": "48"
+        },
+        {
+          "level": 2,
+          "label": "Chapter 4",
+          "title": "Other Persons and Testimony",
+          "pagenum": "65"
+        },
+        {
+          "level": 2,
+          "label": "Chapter 5",
+          "title": "Perception",
+          "pagenum": "89"
+        },
+        {
+          "level": 2,
+          "label": "Chapter 6",
+          "title": "A Priori Knowledge",
+          "pagenum": "102"
+        },
+        {
+          "level": 2,
+          "label": "Chapter 7",
+          "title": "Induction",
+          "pagenum": "122"
+        },
+        {
+          "level": 2,
+          "label": "Chapter 8",
+          "title": "Epistemic Probability: Some Current Views",
+          "pagenum": "137"
+        },
+        {
+          "level": 2,
+          "label": "Chapter 9",
+          "title": "Epistemic Conditional Probability: The Sober Truth",
+          "pagenum": "159"
+        },
+        {
+          "level": 2,
+          "label": "Chapter 10",
+          "title": "Coherence, Foundations, and Evidence",
+          "pagenum": "176"
+        },
+        {
+          "level": 2,
+          "label": "Chapter 11",
+          "title": "Naturalism versus Proper Function?",
+          "pagenum": "194"
+        },
+        {
+          "level": 2,
+          "label": "Chapter 12",
+          "title": "Is Naturalism Irrational?",
+          "pagenum": "126"
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/122115-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/122115-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/122115-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780195078640"
+  },
+  "timestamp": 1767125426991,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

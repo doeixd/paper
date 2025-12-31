@@ -1,0 +1,91 @@
+{
+  "key": "isbn-9781575861623",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL31766M/Basic_color_terms",
+      "key": "/books/OL31766M",
+      "title": "Basic color terms",
+      "subtitle": "their universality and evolution",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL19790A/Brent_Berlin",
+          "name": "Brent Berlin"
+        }
+      ],
+      "number_of_pages": 196,
+      "pagination": "xiii, 196 p. :",
+      "by_statement": "Brent Berlin and Paul Kay.",
+      "identifiers": {
+        "librarything": [
+          "2389748"
+        ],
+        "goodreads": [
+          "960796"
+        ],
+        "isbn_10": [
+          "1575861623"
+        ],
+        "lccn": [
+          "99012619"
+        ],
+        "oclc": [
+          "40693819"
+        ],
+        "openlibrary": [
+          "OL31766M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "P341 .B4 1999"
+        ],
+        "dewey_decimal_class": [
+          "401/.43"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Center for the Study of Language and Information"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Stanford, Calif"
+        }
+      ],
+      "publish_date": "1999",
+      "subjects": [
+        {
+          "name": "Polyglot glossaries, phrase books",
+          "url": "https://openlibrary.org/subjects/polyglot_glossaries,_phrase_books"
+        },
+        {
+          "name": "Polyglot glossaries, phrase-books",
+          "url": "https://openlibrary.org/subjects/polyglot_glossaries,_phrase-books"
+        },
+        {
+          "name": "Words for Colors",
+          "url": "https://openlibrary.org/subjects/words_for_colors"
+        },
+        {
+          "name": "Colors, words for",
+          "url": "https://openlibrary.org/subjects/colors,_words_for"
+        },
+        {
+          "name": "Polyglot glossaries, phrase books, etc.",
+          "url": "https://openlibrary.org/subjects/polyglot_glossaries,_phrase_books,_etc."
+        }
+      ],
+      "notes": "Includes bibliographical references (p. 175-189) and index.\nOriginally published: Berkeley : University of California Press, 1991. Paperback ed.",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/829600-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/829600-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/829600-L.jpg"
+      }
+    },
+    "verifiedISBN": "9781575861623"
+  },
+  "timestamp": 1767125382796,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

@@ -1,0 +1,331 @@
+{
+  "key": "doi-10.1086_690717",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2025-12-18T19:46:05Z",
+      "timestamp": 1766087165150
+    },
+    "reference-count": 26,
+    "publisher": "Cambridge University Press (CUP)",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2022-01-01T00:00:00Z",
+          "timestamp": 1640995200000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 1736,
+        "URL": "https://www.cambridge.org/core/terms"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Philos. of Sci."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          4
+        ]
+      ]
+    },
+    "abstract": "<jats:p>We show that previous results from epistemic network models by Kevin J. S. Zollman and Erich Kummerfeld showing the benefits of decreased connectivity in epistemic networks are not robust across changes in parameter values. Our findings motivate discussion about whether and how such models can inform real world epistemic communities.</jats:p>",
+    "DOI": "10.1086/690717",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          14
+        ]
+      ],
+      "date-time": "2016-12-14T21:22:02Z",
+      "timestamp": 1481750522000
+    },
+    "page": "234-252",
+    "source": "Crossref",
+    "is-referenced-by-count": 80,
+    "title": [
+      "In Epistemic Networks, Is Less Really More?"
+    ],
+    "prefix": "10.1017",
+    "volume": "84",
+    "author": [
+      {
+        "given": "Sarita",
+        "family": "Rosenstock",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Justin",
+        "family": "Bruner",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cailin",
+        "family": "O’Connor",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "56",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          1
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "S0031824800009673_rf13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/phc3.12000"
+      },
+      {
+        "key": "S0031824800009673_rf1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/674080"
+      },
+      {
+        "key": "S0031824800009673_rf9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bjps/axv013"
+      },
+      {
+        "key": "S0031824800009673_rf18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199580828.001.0001"
+      },
+      {
+        "key": "S0031824800009673_rf22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11245-012-9140-0"
+      },
+      {
+        "key": "S0031824800009673_rf23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/525605"
+      },
+      {
+        "key": "S0031824800009673_rf26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1747-9991.2012.00534.x"
+      },
+      {
+        "key": "S0031824800009673_rf6",
+        "unstructured": "Heesen, R. , Bright, L. K. , and Zucker, A. . 2014. “Vindicating Methodological Triangulation.” PhilSci Archive. http://philsci-archive.pitt.edu/11158/."
+      },
+      {
+        "key": "S0031824800009673_rf7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/683344"
+      },
+      {
+        "key": "S0031824800009673_rf12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00182-012-0329-7"
+      },
+      {
+        "key": "S0031824800009673_rf10",
+        "article-title": "The Strategy of Model Building in Population Biology",
+        "volume": "54",
+        "author": "Levins",
+        "year": "1966",
+        "journal-title": "American Scientist"
+      },
+      {
+        "key": "S0031824800009673_rf21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-94-007-2759-5_2"
+      },
+      {
+        "key": "S0031824800009673_rf4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10670-011-9295-x"
+      },
+      {
+        "key": "S0031824800009673_rf19",
+        "article-title": "Reconsidering Authority: Scientific Expertise, Bounded Rationality, and Epistemic Backtracking",
+        "volume": "3",
+        "author": "Strevens",
+        "year": "2010",
+        "journal-title": "Oxford Studies in Epistemology"
+      },
+      {
+        "key": "S0031824800009673_rf14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10539-011-9278-y"
+      },
+      {
+        "key": "S0031824800009673_rf5",
+        "first-page": "53",
+        "volume-title": "AAAI Fall Symposium: Complex Adaptive Systems and the Threshold Effect",
+        "author": "Grim",
+        "year": "2009"
+      },
+      {
+        "key": "S0031824800009673_rf16",
+        "volume-title": "Philosophical Essays for A. N. Whitehead",
+        "author": "Quine",
+        "year": "1936"
+      },
+      {
+        "key": "S0031824800009673_rf17",
+        "volume-title": "Word and Object",
+        "author": "Lee",
+        "year": "2013"
+      },
+      {
+        "key": "S0031824800009673_rf25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1470594X11416766"
+      },
+      {
+        "key": "S0031824800009673_rf3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1215/00182702-23-1-143"
+      },
+      {
+        "key": "S0031824800009673_rf2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/1467-937X.00059"
+      },
+      {
+        "key": "S0031824800009673_rf11",
+        "article-title": "Propagation of Innovations in Networked Groups",
+        "volume": "137",
+        "author": "Mason",
+        "year": "2008",
+        "journal-title": "Journal of Experimental Psychology: General"
+      },
+      {
+        "key": "S0031824800009673_rf8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.cognition.2015.04.013"
+      },
+      {
+        "key": "S0031824800009673_rf15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/418301"
+      },
+      {
+        "key": "S0031824800009673_rf24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10670-009-9194-6"
+      },
+      {
+        "key": "S0031824800009673_rf20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/518628"
+      }
+    ],
+    "container-title": [
+      "Philosophy of Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0031824800009673",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2022-01-06T02:29:24Z",
+      "timestamp": 1641436164000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cambridge.org/core/product/identifier/S0031824800009673/type/journal_article"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          4
+        ]
+      ]
+    },
+    "references-count": 26,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            4
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0031824800009673"
+    ],
+    "URL": "https://doi.org/10.1086/690717",
+    "relation": {},
+    "ISSN": [
+      "0031-8248",
+      "1539-767X"
+    ],
+    "issn-type": [
+      {
+        "value": "0031-8248",
+        "type": "print"
+      },
+      {
+        "value": "1539-767X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          4
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767125435218,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

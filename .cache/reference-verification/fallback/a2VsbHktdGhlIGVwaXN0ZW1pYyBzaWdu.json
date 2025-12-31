@@ -1,0 +1,11 @@
+{
+  "key": "fallback-a2VsbHktdGhlIGVwaXN0ZW1pYyBzaWdu",
+  "data": {
+    "source": "claude-cli",
+    "status": "failed",
+    "confidence": 0
+  },
+  "timestamp": 1767125149402,
+  "ttl": 604800000,
+  "source": "claude-cli"
+}

@@ -1,0 +1,187 @@
+{
+  "key": "isbn-9780801497469",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL1890694M/Whose_science_Whose_knowledge",
+      "key": "/books/OL1890694M",
+      "title": "Whose science? Whose knowledge?",
+      "subtitle": "thinking from women's lives",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL394119A/Sandra_G._Harding",
+          "name": "Sandra G. Harding"
+        }
+      ],
+      "number_of_pages": 319,
+      "pagination": "xii, 319 p. ;",
+      "by_statement": "Sandra Harding.",
+      "identifiers": {
+        "goodreads": [
+          "1347189"
+        ],
+        "wikidata": [
+          "Q47461655"
+        ],
+        "librarything": [
+          "282377"
+        ],
+        "isbn_10": [
+          "0801425131",
+          "0801497469"
+        ],
+        "lccn": [
+          "90055724"
+        ],
+        "oclc": [
+          "22662471"
+        ],
+        "openlibrary": [
+          "OL1890694M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "Q130 .H37 1991",
+          "Q130.H37 1991"
+        ],
+        "dewey_decimal_class": [
+          "305.43/5"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Cornell University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Ithaca, N.Y"
+        }
+      ],
+      "publish_date": "1991",
+      "subjects": [
+        {
+          "name": "Working Women",
+          "url": "https://openlibrary.org/subjects/working_women"
+        },
+        {
+          "name": "Vrouwenstudies",
+          "url": "https://openlibrary.org/subjects/vrouwenstudies"
+        },
+        {
+          "name": "Teoría feminista",
+          "url": "https://openlibrary.org/subjects/teoría_feminista"
+        },
+        {
+          "name": "Social aspects",
+          "url": "https://openlibrary.org/subjects/social_aspects"
+        },
+        {
+          "name": "Feminist theory",
+          "url": "https://openlibrary.org/subjects/feminist_theory"
+        },
+        {
+          "name": "Aspect social",
+          "url": "https://openlibrary.org/subjects/aspect_social"
+        },
+        {
+          "name": "Aspectos sociales",
+          "url": "https://openlibrary.org/subjects/aspectos_sociales"
+        },
+        {
+          "name": "Ciencia",
+          "url": "https://openlibrary.org/subjects/ciencia"
+        },
+        {
+          "name": "Conocimiento, Teoría del",
+          "url": "https://openlibrary.org/subjects/conocimiento,_teoría_del"
+        },
+        {
+          "name": "Sciences",
+          "url": "https://openlibrary.org/subjects/sciences"
+        },
+        {
+          "name": "Connaissance, Théorie de la",
+          "url": "https://openlibrary.org/subjects/connaissance,_théorie_de_la"
+        },
+        {
+          "name": "Femmes dans les sciences",
+          "url": "https://openlibrary.org/subjects/femmes_dans_les_sciences"
+        },
+        {
+          "name": "Social aspects of Science",
+          "url": "https://openlibrary.org/subjects/social_aspects_of_science"
+        },
+        {
+          "name": "Science",
+          "url": "https://openlibrary.org/subjects/science"
+        },
+        {
+          "name": "Theory of Knowledge",
+          "url": "https://openlibrary.org/subjects/theory_of_knowledge"
+        },
+        {
+          "name": "Féminisme",
+          "url": "https://openlibrary.org/subjects/féminisme"
+        },
+        {
+          "name": "Women in science",
+          "url": "https://openlibrary.org/subjects/women_in_science"
+        },
+        {
+          "name": "Knowledge, Theory of.",
+          "url": "https://openlibrary.org/subjects/knowledge,_theory_of."
+        },
+        {
+          "name": "Philosophie",
+          "url": "https://openlibrary.org/subjects/philosophie"
+        },
+        {
+          "name": "Történet",
+          "url": "https://openlibrary.org/subjects/történet"
+        },
+        {
+          "name": "Feminizmus",
+          "url": "https://openlibrary.org/subjects/feminizmus"
+        },
+        {
+          "name": "Feminismus",
+          "url": "https://openlibrary.org/subjects/feminismus"
+        },
+        {
+          "name": "Nők és tudomány",
+          "url": "https://openlibrary.org/subjects/nők_és_tudomány"
+        },
+        {
+          "name": "Wissenschaftstheorie",
+          "url": "https://openlibrary.org/subjects/wissenschaftstheorie"
+        },
+        {
+          "name": "Tudáselmélet",
+          "url": "https://openlibrary.org/subjects/tudáselmélet"
+        },
+        {
+          "name": "Knowledge, theory of",
+          "url": "https://openlibrary.org/subjects/knowledge,_theory_of"
+        }
+      ],
+      "notes": "Includes bibliographical references and index.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/whosesciencewhos00hard",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/4037908-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/4037908-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/4037908-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780801497469"
+  },
+  "timestamp": 1767125404178,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

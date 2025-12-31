@@ -1,0 +1,156 @@
+{
+  "key": "isbn-9780674543195",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL1437654M/Making_it_explicit",
+      "key": "/books/OL1437654M",
+      "title": "Making it explicit",
+      "subtitle": "reasoning, representing, and discursive commitment",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL33958A/Robert_Brandom",
+          "name": "Robert Brandom"
+        }
+      ],
+      "number_of_pages": 741,
+      "pagination": "xxv, 741 p. ;",
+      "by_statement": "Robert B. Brandom.",
+      "identifiers": {
+        "goodreads": [
+          "3549851"
+        ],
+        "librarything": [
+          "25180"
+        ],
+        "isbn_10": [
+          "067454319X"
+        ],
+        "lccn": [
+          "93050631"
+        ],
+        "oclc": [
+          "29667963"
+        ],
+        "openlibrary": [
+          "OL1437654M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "P106 .B694 1994",
+          "P106 .B694 1998",
+          "P106.B694 1994"
+        ],
+        "dewey_decimal_class": [
+          "121/.68"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Harvard University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Cambridge, Mass"
+        }
+      ],
+      "publish_date": "1994",
+      "subjects": [
+        {
+          "name": "Representation (Philosophy)",
+          "url": "https://openlibrary.org/subjects/representation_(philosophy)"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Semantics (Philosophy)",
+          "url": "https://openlibrary.org/subjects/semantics_(philosophy)"
+        },
+        {
+          "name": "Language and languages",
+          "url": "https://openlibrary.org/subjects/language_and_languages"
+        },
+        {
+          "name": "Pragmatics",
+          "url": "https://openlibrary.org/subjects/pragmatics"
+        },
+        {
+          "name": "Philosophie du langage",
+          "url": "https://openlibrary.org/subjects/philosophie_du_langage"
+        },
+        {
+          "name": "Langage",
+          "url": "https://openlibrary.org/subjects/langage"
+        },
+        {
+          "name": "Sémiotique",
+          "url": "https://openlibrary.org/subjects/sémiotique"
+        },
+        {
+          "name": "Filosofia da linguagem",
+          "url": "https://openlibrary.org/subjects/filosofia_da_linguagem"
+        },
+        {
+          "name": "Semântica (filosofia)",
+          "url": "https://openlibrary.org/subjects/semântica_(filosofia)"
+        },
+        {
+          "name": "Représentation",
+          "url": "https://openlibrary.org/subjects/représentation"
+        },
+        {
+          "name": "Logik",
+          "url": "https://openlibrary.org/subjects/logik"
+        },
+        {
+          "name": "Filozofia",
+          "url": "https://openlibrary.org/subjects/filozofia"
+        },
+        {
+          "name": "Pragmática",
+          "url": "https://openlibrary.org/subjects/pragmática"
+        },
+        {
+          "name": "Język",
+          "url": "https://openlibrary.org/subjects/język"
+        },
+        {
+          "name": "Pragmatique (Langage)",
+          "url": "https://openlibrary.org/subjects/pragmatique_(langage)"
+        },
+        {
+          "name": "Anaphore",
+          "url": "https://openlibrary.org/subjects/anaphore"
+        },
+        {
+          "name": "Sémantique",
+          "url": "https://openlibrary.org/subjects/sémantique"
+        },
+        {
+          "name": "Language and languages, philosophy",
+          "url": "https://openlibrary.org/subjects/language_and_languages,_philosophy"
+        }
+      ],
+      "notes": "Includes bibliographical references (p. [656]-716) and index.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/makingitexplicit00bran",
+          "availability": "noview",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/413541-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/413541-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/413541-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780674543195"
+  },
+  "timestamp": 1767125384907,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

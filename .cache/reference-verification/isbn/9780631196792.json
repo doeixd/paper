@@ -1,0 +1,141 @@
+{
+  "key": "isbn-9780631196792",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL7609356M/Evidence_and_Inquiry",
+      "key": "/books/OL7609356M",
+      "title": "Evidence and Inquiry",
+      "subtitle": "Towards Reconstruction in Epistemology",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL227002A/Susan_Haack",
+          "name": "Susan Haack"
+        }
+      ],
+      "number_of_pages": 272,
+      "identifiers": {
+        "goodreads": [
+          "1223396"
+        ],
+        "librarything": [
+          "484905"
+        ],
+        "isbn_10": [
+          "063119679X"
+        ],
+        "isbn_13": [
+          "9780631196792"
+        ],
+        "openlibrary": [
+          "OL7609356M"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Blackwell Publishing Limited"
+        }
+      ],
+      "publish_date": "December 1, 1994",
+      "subjects": [
+        {
+          "name": "Evidence",
+          "url": "https://openlibrary.org/subjects/evidence"
+        },
+        {
+          "name": "Knowledge, Theory of",
+          "url": "https://openlibrary.org/subjects/knowledge,_theory_of"
+        },
+        {
+          "name": "Theory of Knowledge",
+          "url": "https://openlibrary.org/subjects/theory_of_knowledge"
+        },
+        {
+          "name": "epistemology",
+          "url": "https://openlibrary.org/subjects/epistemology"
+        },
+        {
+          "name": "Philosophy, american",
+          "url": "https://openlibrary.org/subjects/philosophy,_american"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "\"Once upon a time - not so long ago, in fact - the legitimacy of epistemology was undisputed, the importance to epistemology of such concepts as evidence, reasons, warrant, justification was taken for granted, and the question of the relative merits of foun\"",
+          "comment": "",
+          "first_sentence": true
+        }
+      ],
+      "table_of_contents": [
+        {
+          "level": 2,
+          "label": "chapter 1",
+          "title": "Foundationalism versus Coherentism: a Dichotomy Disclaimed",
+          "pagenum": "10"
+        },
+        {
+          "level": 2,
+          "label": "chapter 2",
+          "title": "Foundationalism Undermined",
+          "pagenum": "34"
+        },
+        {
+          "level": 2,
+          "label": "chapter 3",
+          "title": "Coherentism Discomposed",
+          "pagenum": "52"
+        },
+        {
+          "level": 2,
+          "label": "chapter 4",
+          "title": "Foundherentism Articulated",
+          "pagenum": "73"
+        },
+        {
+          "level": 2,
+          "label": "chapter 5",
+          "title": "The Evidence of the Senses: Refutations and Conjectures",
+          "pagenum": "95"
+        },
+        {
+          "level": 2,
+          "label": "chapter 6",
+          "title": "Naturalism Disambiguated",
+          "pagenum": "118"
+        },
+        {
+          "level": 2,
+          "label": "chapter 7",
+          "title": "The Evidence Against Reliabilism",
+          "pagenum": "139"
+        },
+        {
+          "level": 2,
+          "label": "chapter 8",
+          "title": "Revolutionary Scientism Subverted",
+          "pagenum": "158"
+        },
+        {
+          "level": 2,
+          "label": "chapter 9",
+          "title": "Vulgar Pragmatism: an Unedifying Prospect",
+          "pagenum": "182"
+        },
+        {
+          "level": 2,
+          "label": "chapter 10",
+          "title": "Foundherentism Ratified",
+          "pagenum": "203"
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/395958-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/395958-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/395958-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780631196792"
+  },
+  "timestamp": 1767125402943,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

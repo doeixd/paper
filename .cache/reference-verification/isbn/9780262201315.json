@@ -1,0 +1,83 @@
+{
+  "key": "isbn-9780262201315",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL6784107M/Coherence_in_thought_and_action",
+      "key": "/books/OL6784107M",
+      "title": "Coherence in thought and action",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL232989A/Paul_Thagard",
+          "name": "Paul Thagard"
+        }
+      ],
+      "number_of_pages": 312,
+      "pagination": "xiv, 312 p. :",
+      "by_statement": "Paul Thagard.",
+      "identifiers": {
+        "goodreads": [
+          "1622558"
+        ],
+        "librarything": [
+          "770383"
+        ],
+        "isbn_10": [
+          "0262201313"
+        ],
+        "lccn": [
+          "00035503"
+        ],
+        "oclc": [
+          "45446316"
+        ],
+        "openlibrary": [
+          "OL6784107M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD171 .T45 2000",
+          "BD171.T45 2000"
+        ],
+        "dewey_decimal_class": [
+          "121"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "MIT Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Cambridge, Mass"
+        }
+      ],
+      "publish_date": "2000",
+      "subjects": [
+        {
+          "name": "Coherence theory",
+          "url": "https://openlibrary.org/subjects/coherence_theory"
+        },
+        {
+          "name": "Truth",
+          "url": "https://openlibrary.org/subjects/truth"
+        },
+        {
+          "name": "Biology, philosophy",
+          "url": "https://openlibrary.org/subjects/biology,_philosophy"
+        }
+      ],
+      "notes": "Includes bibliographical references (p. [287]-303) and index.\n\"A Bradford book.\"",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/150809-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/150809-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/150809-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780262201315"
+  },
+  "timestamp": 1767125448860,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

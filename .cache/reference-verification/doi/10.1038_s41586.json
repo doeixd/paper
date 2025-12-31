@@ -1,0 +1,1813 @@
+{
+  "key": "doi-10.1038_s41586-025-08888-1",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2025-12-30T08:48:41Z",
+      "timestamp": 1767084521374,
+      "version": "build-2065373602"
+    },
+    "reference-count": 130,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "8066",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              30
+            ]
+          ],
+          "date-time": "2025-04-30T00:00:00Z",
+          "timestamp": 1745971200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              4,
+              30
+            ]
+          ],
+          "date-time": "2025-04-30T00:00:00Z",
+          "timestamp": 1745971200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nature"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>\n                    Different theories explain how subjective experience arises from brain activity\n                    <jats:sup>1,2</jats:sup>\n                    . These theories have independently accrued evidence, but have not been directly compared\n                    <jats:sup>3</jats:sup>\n                    . Here we present an open science adversarial collaboration directly juxtaposing integrated information theory (IIT)\n                    <jats:sup>4,5</jats:sup>\n                    and global neuronal workspace theory (GNWT)\n                    <jats:sup>6–10</jats:sup>\n                    via a theory-neutral consortium\n                    <jats:sup>11–13</jats:sup>\n                    . The theory proponents and the consortium developed and preregistered the experimental design, divergent predictions, expected outcomes and interpretation thereof\n                    <jats:sup>12</jats:sup>\n                    . Human participants (\n                    <jats:italic>n</jats:italic>\n                     = 256) viewed suprathreshold stimuli for variable durations while neural activity was measured with functional magnetic resonance imaging, magnetoencephalography and intracranial electroencephalography. We found information about conscious content in visual, ventrotemporal and inferior frontal cortex, with sustained responses in occipital and lateral temporal cortex reflecting stimulus duration, and content-specific synchronization between frontal and early visual areas. These results align with some predictions of IIT and GNWT, while substantially challenging key tenets of both theories. For IIT, a lack of sustained synchronization within the posterior cortex contradicts the claim that network connectivity specifies consciousness. GNWT is challenged by the general lack of ignition at stimulus offset and limited representation of certain conscious dimensions in the prefrontal cortex. These challenges extend to other theories of consciousness that share some of the predictions tested here\n                    <jats:sup>14–17</jats:sup>\n                    . Beyond challenging the theories, we present an alternative approach to advance cognitive neuroscience through principled, theory-driven, collaborative research and highlight the need for a quantitative framework for systematic theory testing and building.\n                  </jats:p>",
+    "DOI": "10.1038/s41586-025-08888-1",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          2
+        ]
+      ],
+      "date-time": "2025-05-02T07:02:30Z",
+      "timestamp": 1746169350000
+    },
+    "page": "133-142",
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 41,
+    "title": [
+      "Adversarial testing of global neuronal workspace and integrated information theories of consciousness"
+    ],
+    "prefix": "10.1038",
+    "volume": "642",
+    "author": [
+      {
+        "name": "Cogitate Consortium",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6869-7041",
+        "authenticated-orcid": false,
+        "given": "Oscar",
+        "family": "Ferrante",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3808-337X",
+        "authenticated-orcid": false,
+        "given": "Urszula",
+        "family": "Gorska-Klimowska",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0997-3266",
+        "authenticated-orcid": false,
+        "given": "Simon",
+        "family": "Henin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7710-5159",
+        "authenticated-orcid": false,
+        "given": "Rony",
+        "family": "Hirschhorn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3736-580X",
+        "authenticated-orcid": false,
+        "given": "Aya",
+        "family": "Khalaf",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4191-1578",
+        "authenticated-orcid": false,
+        "given": "Alex",
+        "family": "Lepauvre",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7041-2508",
+        "authenticated-orcid": false,
+        "given": "Ling",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3404-8374",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Richter",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8011-8030",
+        "authenticated-orcid": false,
+        "given": "Yamil",
+        "family": "Vidal",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5228-6918",
+        "authenticated-orcid": false,
+        "given": "Niccolò",
+        "family": "Bonacchi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6515-9715",
+        "authenticated-orcid": false,
+        "given": "Tanya",
+        "family": "Brown",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6361-2571",
+        "authenticated-orcid": false,
+        "given": "Praveen",
+        "family": "Sripad",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7905-1104",
+        "authenticated-orcid": false,
+        "given": "Marcelo",
+        "family": "Armendariz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8262-3652",
+        "authenticated-orcid": false,
+        "given": "Katarina",
+        "family": "Bendtz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5178-8702",
+        "authenticated-orcid": false,
+        "given": "Tara",
+        "family": "Ghafari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0002-2359-9960",
+        "authenticated-orcid": false,
+        "given": "Dorottya",
+        "family": "Hetenyi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jay",
+        "family": "Jeschke",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1894-4611",
+        "authenticated-orcid": false,
+        "given": "Csaba",
+        "family": "Kozma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5609-7505",
+        "authenticated-orcid": false,
+        "given": "David R.",
+        "family": "Mazumder",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stephanie",
+        "family": "Montenegro",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0005-5119-9966",
+        "authenticated-orcid": false,
+        "given": "Alia",
+        "family": "Seedat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-2706-0300",
+        "authenticated-orcid": false,
+        "given": "Abdelrahman",
+        "family": "Sharafeldin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0006-9900-3843",
+        "authenticated-orcid": false,
+        "given": "Shujun",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6762-5713",
+        "authenticated-orcid": false,
+        "given": "Sylvain",
+        "family": "Baillet",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4190-3161",
+        "authenticated-orcid": false,
+        "given": "David J.",
+        "family": "Chalmers",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4190-6071",
+        "authenticated-orcid": false,
+        "given": "Radoslaw M.",
+        "family": "Cichy",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8534-5774",
+        "authenticated-orcid": false,
+        "given": "Francis",
+        "family": "Fallon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4621-1183",
+        "authenticated-orcid": false,
+        "given": "Theofanis I.",
+        "family": "Panagiotaropoulos",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0812-8132",
+        "authenticated-orcid": false,
+        "given": "Hal",
+        "family": "Blumenfeld",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6730-1452",
+        "authenticated-orcid": false,
+        "given": "Floris P.",
+        "family": "de Lange",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2554-1850",
+        "authenticated-orcid": false,
+        "given": "Sasha",
+        "family": "Devore",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8193-8348",
+        "authenticated-orcid": false,
+        "given": "Ole",
+        "family": "Jensen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3505-8475",
+        "authenticated-orcid": false,
+        "given": "Gabriel",
+        "family": "Kreiman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8349-9796",
+        "authenticated-orcid": false,
+        "given": "Huan",
+        "family": "Luo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9584-0907",
+        "authenticated-orcid": false,
+        "given": "Melanie",
+        "family": "Boly",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7418-8275",
+        "authenticated-orcid": false,
+        "given": "Stanislas",
+        "family": "Dehaene",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6482-8067",
+        "authenticated-orcid": false,
+        "given": "Christof",
+        "family": "Koch",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3892-4087",
+        "authenticated-orcid": false,
+        "given": "Giulio",
+        "family": "Tononi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9824-3443",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Pitts",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3564-6445",
+        "authenticated-orcid": false,
+        "given": "Liad",
+        "family": "Mudrik",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8743-5071",
+        "authenticated-orcid": false,
+        "given": "Lucia",
+        "family": "Melloni",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "8888_CR1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41583-022-00587-4",
+        "author": "AK Seth",
+        "year": "2022",
+        "unstructured": "Seth, A. K. & Bayne, T. Theories of consciousness. Nat. Rev. Neurosci. https://doi.org/10.1038/s41583-022-00587-4 (2022).",
+        "journal-title": "Nat. Rev. Neurosci."
+      },
+      {
+        "key": "8888_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "niab021",
+        "DOI": "10.1093/nc/niab021",
+        "volume": "2021",
+        "author": "CM Signorelli",
+        "year": "2021",
+        "unstructured": "Signorelli, C. M., Szczotka, J. & Prentner, R. Explanatory profiles of models of consciousness — towards a systematic classification. Neurosci. Conscious. 2021, niab021 (2021).",
+        "journal-title": "Neurosci. Conscious."
+      },
+      {
+        "key": "8888_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yaron, I., Melloni, L., Pitts, M. & Mudrik, L. The ConTraSt database for analysing and comparing empirical studies of consciousness theories. Nat. Hum. Behav. 6, 593–604 (2022).",
+        "DOI": "10.1038/s41562-021-01284-5"
+      },
+      {
+        "key": "8888_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1011465",
+        "DOI": "10.1371/journal.pcbi.1011465",
+        "volume": "19",
+        "author": "L Albantakis",
+        "year": "2023",
+        "unstructured": "Albantakis, L. et al. Integrated information theory (IIT) 4.0: formulating the properties of phenomenal existence in physical terms. PLoS Comput. Biol. 19, e1011465 (2023).",
+        "journal-title": "PLoS Comput. Biol."
+      },
+      {
+        "key": "8888_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "450",
+        "DOI": "10.1038/nrn.2016.44",
+        "volume": "17",
+        "author": "G Tononi",
+        "year": "2016",
+        "unstructured": "Tononi, G., Boly, M., Massimini, M. & Koch, C. Integrated information theory: from consciousness to its physical substrate. Nat. Rev. Neurosci. 17, 450–461 (2016).",
+        "journal-title": "Nat. Rev. Neurosci."
+      },
+      {
+        "key": "8888_CR6",
+        "unstructured": "Dehaene, S. Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts (Penguin, 2014)."
+      },
+      {
+        "key": "8888_CR7",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/S0010-0277(00)00123-2",
+        "volume": "79",
+        "author": "S Dehaene",
+        "year": "2001",
+        "unstructured": "Dehaene, S. Towards a cognitive neuroscience of consciousness: basic evidence and a workspace framework. Cognition 79, 1–37 (2001).",
+        "journal-title": "Cognition"
+      },
+      {
+        "key": "8888_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "200",
+        "DOI": "10.1016/j.neuron.2011.03.018",
+        "volume": "70",
+        "author": "S Dehaene",
+        "year": "2011",
+        "unstructured": "Dehaene, S. & Changeux, J.-P. Experimental and theoretical approaches to conscious processing. Neuron 70, 200–227 (2011).",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "8888_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "14529",
+        "DOI": "10.1073/pnas.95.24.14529",
+        "volume": "95",
+        "author": "S Dehaene",
+        "year": "1998",
+        "unstructured": "Dehaene, S., Kerszberg, M. & Changeux, J.-P. A neuronal model of a global workspace in effortful cognitive tasks. Proc. Natl Acad. Sci. USA 95, 14529–14534 (1998).",
+        "journal-title": "Proc. Natl Acad. Sci. USA"
+      },
+      {
+        "key": "8888_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "486",
+        "DOI": "10.1126/science.aan8871",
+        "volume": "358",
+        "author": "S Dehaene",
+        "year": "2017",
+        "unstructured": "Dehaene, S., Lau, H. & Kouider, S. What is consciousness, and could machines have it? Science 358, 486–492 (2017).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "8888_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "911",
+        "DOI": "10.1126/science.abj3259",
+        "volume": "372",
+        "author": "L Melloni",
+        "year": "2021",
+        "unstructured": "Melloni, L., Mudrik, L., Pitts, M. & Koch, C. Making the hard problem of consciousness easier. Science 372, 911–912 (2021).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "8888_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0268577",
+        "DOI": "10.1371/journal.pone.0268577",
+        "volume": "18",
+        "author": "L Melloni",
+        "year": "2023",
+        "unstructured": "Melloni, L. et al. An adversarial collaboration protocol for testing contrasting predictions of global neuronal workspace and integrated information theory. PLoS ONE 18, e0268577 (2023).",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "8888_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "45",
+        "DOI": "10.1037/mac0000009",
+        "volume": "11",
+        "author": "L Melloni",
+        "year": "2022",
+        "unstructured": "Melloni, L. On keeping our adversaries close, preventing collateral damage, and changing our minds. Comment on Clark et al. J. Appl. Res. Mem. Cogn. 11, 45–49 (2022).",
+        "journal-title": "J. Appl. Res. Mem. Cogn."
+      },
+      {
+        "key": "8888_CR14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.15502/9783958570092",
+        "author": "V Lamme",
+        "year": "2015",
+        "unstructured": "Lamme, V. The crack of dawn: perceptual functions and neural mechanisms that mark the transition from unconscious processing to conscious vision. Open MIND https://doi.org/10.15502/9783958570092 (2015).",
+        "journal-title": "Open MIND"
+      },
+      {
+        "key": "8888_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "niab028",
+        "DOI": "10.1093/nc/niab028",
+        "volume": "2021",
+        "author": "R Malach",
+        "year": "2021",
+        "unstructured": "Malach, R. Local neuronal relational structures underlying the contents of human conscious experience. Neurosci. Conscious. 2021, niab028 (2021).",
+        "journal-title": "Neurosci. Conscious."
+      },
+      {
+        "key": "8888_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "1783",
+        "DOI": "10.1007/s11098-014-0388-7",
+        "volume": "172",
+        "author": "R Brown",
+        "year": "2015",
+        "unstructured": "Brown, R. The HOROR theory of phenomenal consciousness. Philos. Stud. 172, 1783–1794 (2015).",
+        "journal-title": "Philos. Stud."
+      },
+      {
+        "key": "8888_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "754",
+        "DOI": "10.1016/j.tics.2019.06.009",
+        "volume": "23",
+        "author": "R Brown",
+        "year": "2019",
+        "unstructured": "Brown, R., Lau, H. & LeDoux, J. E. Understanding the higher-order approach to consciousness. Trends Cogn. Sci. 23, 754–768 (2019).",
+        "journal-title": "Trends Cogn. Sci."
+      },
+      {
+        "key": "8888_CR18",
+        "unstructured": "Crick, F. & Koch, C. Towards a neurobiological theory of consciousness. Semin. Neurosci. 2, 263–275 (1990)."
+      },
+      {
+        "key": "8888_CR19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chalmers, D. in Neural Correlates of Consciousness: Empirical and Conceptual Questions (ed. Metzinger, T.) 17–39 (MIT Press, 2000).",
+        "DOI": "10.7551/mitpress/4928.003.0004"
+      },
+      {
+        "key": "8888_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "723",
+        "DOI": "10.1037/0003-066X.58.9.723",
+        "volume": "58",
+        "author": "D Kahneman",
+        "year": "2003",
+        "unstructured": "Kahneman, D. Experiences of collaborative research. Am. Psychol. 58, 723–730 (2003).",
+        "journal-title": "Am. Psychol."
+      },
+      {
+        "key": "8888_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "269",
+        "DOI": "10.1111/1467-9280.00350",
+        "volume": "12",
+        "author": "B Mellers",
+        "year": "2001",
+        "unstructured": "Mellers, B., Hertwig, R. & Kahneman, D. Do frequency representations eliminate conjunction effects? An exercise in adversarial collaboration. Psychol. Sci. 12, 269–275 (2001).",
+        "journal-title": "Psychol. Sci."
+      },
+      {
+        "key": "8888_CR22",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Clark, C., Costello, T., Mitchell, G. & Tetlock, P. E. Keep your enemies close: adversarial collaborations will improve behavioral sciences. J. Appl. Res. Mem. Cogn. https://doi.org/10.1037/mac0000004 (2022).",
+        "DOI": "10.1037/mac0000004"
+      },
+      {
+        "key": "8888_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "776",
+        "DOI": "10.1016/j.neuron.2020.01.026",
+        "volume": "105",
+        "author": "GA Mashour",
+        "year": "2020",
+        "unstructured": "Mashour, G. A., Roelfsema, P., Changeux, J.-P. & Dehaene, S. Conscious processing and the global neuronal workspace hypothesis. Neuron 105, 776–798 (2020).",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "8888_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "307",
+        "DOI": "10.1038/nrn.2016.22",
+        "volume": "17",
+        "author": "C Koch",
+        "year": "2016",
+        "unstructured": "Koch, C., Massimini, M., Boly, M. & Tononi, G. Neural correlates of consciousness: progress and problems. Nat. Rev. Neurosci. 17, 307–321 (2016).",
+        "journal-title": "Nat. Rev. Neurosci."
+      },
+      {
+        "key": "8888_CR25",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Haun, A. & Tononi, G. Why does space feel the way it does? Towards a principled account of spatial experience. Entropy https://doi.org/10.3390/e21121160 (2019).",
+        "DOI": "10.3390/e21121160"
+      },
+      {
+        "key": "8888_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "571",
+        "DOI": "10.1016/S0166-2236(00)01657-X",
+        "volume": "23",
+        "author": "VA Lamme",
+        "year": "2000",
+        "unstructured": "Lamme, V. A. & Roelfsema, P. R. The distinct modes of vision offered by feedforward and recurrent processing. Trends Neurosci. 23, 571–579 (2000).",
+        "journal-title": "Trends Neurosci."
+      },
+      {
+        "key": "8888_CR27",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Mudrik, L. et al. Cogitate - preregistration v4 - December 2022. OSF https://doi.org/10.17605/OSF.IO/92TBG (2022).",
+        "DOI": "10.17605/OSF.IO/92TBG"
+      },
+      {
+        "key": "8888_CR28",
+        "doi-asserted-by": "publisher",
+        "first-page": "67",
+        "DOI": "10.1016/j.neuroimage.2017.08.028",
+        "volume": "161",
+        "author": "EM Gerber",
+        "year": "2017",
+        "unstructured": "Gerber, E. M., Golan, T., Knight, R. T. & Deouell, L. Y. Cortical representation of persistent visual stimuli. NeuroImage 161, 67–79 (2017).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR29",
+        "doi-asserted-by": "publisher",
+        "first-page": "E11047",
+        "DOI": "10.1073/pnas.1704877114",
+        "volume": "114",
+        "author": "A Stigliani",
+        "year": "2017",
+        "unstructured": "Stigliani, A., Jeska, B. & Grill-Spector, K. Encoding model of temporal processing in human visual cortex. Proc. Natl Acad. Sci. USA 114, E11047–E11056 (2017).",
+        "journal-title": "Proc. Natl Acad. Sci. USA"
+      },
+      {
+        "key": "8888_CR30",
+        "doi-asserted-by": "publisher",
+        "first-page": "155",
+        "DOI": "10.1016/j.cub.2016.11.024",
+        "volume": "27",
+        "author": "E Podvalny",
+        "year": "2017",
+        "unstructured": "Podvalny, E. et al. Invariant temporal dynamics underlie perceptual stability in human visual cortex. Curr. Biol. 27, 155–165 (2017).",
+        "journal-title": "Curr. Biol."
+      },
+      {
+        "key": "8888_CR31",
+        "doi-asserted-by": "publisher",
+        "first-page": "394",
+        "DOI": "10.1016/j.tics.2015.05.004",
+        "volume": "19",
+        "author": "MG Stokes",
+        "year": "2015",
+        "unstructured": "Stokes, M. G. ‘Activity-silent’ working memory in prefrontal cortex: a dynamic coding framework. Trends Cogn. Sci. 19, 394–405 (2015).",
+        "journal-title": "Trends Cogn. Sci."
+      },
+      {
+        "key": "8888_CR32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lepauvre, A., Hirschhorn, R., Bendtz, K., Mudrik, L. & Melloni, L. A standardized framework to test event-based experiments. Behav. Res. Methods 56, 8852–8868 (2024).",
+        "DOI": "10.3758/s13428-024-02508-y"
+      },
+      {
+        "key": "8888_CR33",
+        "doi-asserted-by": "publisher",
+        "first-page": "105",
+        "DOI": "10.1037/h0031322",
+        "volume": "76",
+        "author": "A Tversky",
+        "year": "1971",
+        "unstructured": "Tversky, A. & Kahneman, D. Belief in the law of small numbers. Psychol. Bull. 76, 105–110 (1971).",
+        "journal-title": "Psychol. Bull."
+      },
+      {
+        "key": "8888_CR34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-022-28897-2",
+        "volume": "13",
+        "author": "V Kapoor",
+        "year": "2022",
+        "unstructured": "Kapoor, V. et al. Decoding internally generated transitions of conscious contents in the prefrontal cortex without subjective reports. Nat. Commun. 13, 1535 (2022).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "8888_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "1738",
+        "DOI": "10.1523/JNEUROSCI.4403-13.2014",
+        "volume": "34",
+        "author": "S Frässle",
+        "year": "2014",
+        "unstructured": "Frässle, S., Sommer, J., Jansen, A., Naber, M. & Einhäuser, W. Binocular rivalry: frontal activity relates to introspection and action but not to perception. J. Neurosci. 34, 1738–1747 (2014).",
+        "journal-title": "J. Neurosci."
+      },
+      {
+        "key": "8888_CR36",
+        "doi-asserted-by": "publisher",
+        "first-page": "293",
+        "DOI": "10.1037/0033-295X.90.4.293",
+        "volume": "90",
+        "author": "A Tversky",
+        "year": "1983",
+        "unstructured": "Tversky, A. & Kahneman, D. Extensional versus intuitive reasoning: the conjunction fallacy in probability judgment. Psychol. Rev. 90, 293–315 (1983).",
+        "journal-title": "Psychol. Rev."
+      },
+      {
+        "key": "8888_CR37",
+        "doi-asserted-by": "publisher",
+        "first-page": "1275",
+        "DOI": "10.1016/j.cub.2007.06.066",
+        "volume": "17",
+        "author": "Y Nir",
+        "year": "2007",
+        "unstructured": "Nir, Y. et al. Coupling between neuronal firing rate, gamma LFP, and BOLD fMRI is related to interneuronal correlations. Curr. Biol. 17, 1275–1285 (2007).",
+        "journal-title": "Curr. Biol."
+      },
+      {
+        "key": "8888_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "11526",
+        "DOI": "10.1523/JNEUROSCI.2848-08.2008",
+        "volume": "28",
+        "author": "S Ray",
+        "year": "2008",
+        "unstructured": "Ray, S., Crone, N. E., Niebur, E., Franaszczuk, P. J. & Hsiao, S. S. Neural correlates of high-gamma oscillations (60–200 Hz) in macaque local field potentials and their potential implications in electrocorticography. J. Neurosci. 28, 11526–11536 (2008).",
+        "journal-title": "J. Neurosci."
+      },
+      {
+        "key": "8888_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "666",
+        "DOI": "10.1038/nrn.2016.105",
+        "volume": "17",
+        "author": "C Koch",
+        "year": "2016",
+        "unstructured": "Koch, C., Massimini, M., Boly, M. & Tononi, G. Posterior and anterior cortex — where is the difference that makes the difference? Nat. Rev. Neurosci. 17, 666 (2016).",
+        "journal-title": "Nat. Rev. Neurosci."
+      },
+      {
+        "key": "8888_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "19377",
+        "DOI": "10.1073/pnas.1117190108",
+        "volume": "108",
+        "author": "S Haegens",
+        "year": "2011",
+        "unstructured": "Haegens, S., Nácher, V., Luna, R., Romo, R. & Jensen, O. α-Oscillations in the monkey sensorimotor network influence discrimination performance by rhythmical inhibition of neuronal spiking. Proc. Natl Acad. Sci. USA 108, 19377–19382 (2011).",
+        "journal-title": "Proc. Natl Acad. Sci. USA"
+      },
+      {
+        "key": "8888_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "118746",
+        "DOI": "10.1016/j.neuroimage.2021.118746",
+        "volume": "247",
+        "author": "L Iemi",
+        "year": "2022",
+        "unstructured": "Iemi, L. et al. Ongoing neural oscillations influence behavior and sensory representations by suppressing neuronal excitability. NeuroImage 247, 118746 (2022).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR42",
+        "doi-asserted-by": "publisher",
+        "first-page": "112752",
+        "DOI": "10.1016/j.celrep.2023.112752",
+        "volume": "42",
+        "author": "G Vishne",
+        "year": "2023",
+        "unstructured": "Vishne, G., Gerber, E. M., Knight, R. T. & Deouell, L. Y. Distinct ventral stream and prefrontal cortex representational dynamics during sustained conscious visual perception. Cell Rep. 42, 112752 (2023).",
+        "journal-title": "Cell Rep."
+      },
+      {
+        "key": "8888_CR43",
+        "doi-asserted-by": "publisher",
+        "first-page": "112614",
+        "DOI": "10.1016/j.celrep.2023.112614",
+        "volume": "42",
+        "author": "R Broday-Dvir",
+        "year": "2023",
+        "unstructured": "Broday-Dvir, R., Norman, Y., Harel, M., Mehta, A. D. & Malach, R. Perceptual stability reflected in neuronal pattern similarities in human visual cortex. Cell Rep. 42, 112614 (2023).",
+        "journal-title": "Cell Rep."
+      },
+      {
+        "key": "8888_CR44",
+        "unstructured": "Jackendoff, R. Consciousness and the Computational Mind (MIT Press, 1987)."
+      },
+      {
+        "key": "8888_CR45",
+        "doi-asserted-by": "publisher",
+        "first-page": "e61",
+        "DOI": "10.1371/journal.pbio.1000061",
+        "volume": "7",
+        "author": "R Gaillard",
+        "year": "2009",
+        "unstructured": "Gaillard, R. et al. Converging intracranial markers of conscious access. PLoS Biol. 7, e61 (2009).",
+        "journal-title": "PLoS Biol."
+      },
+      {
+        "key": "8888_CR46",
+        "doi-asserted-by": "publisher",
+        "first-page": "112",
+        "DOI": "10.1016/j.neuroimage.2010.01.073",
+        "volume": "51",
+        "author": "M Vinck",
+        "year": "2010",
+        "unstructured": "Vinck, M., van Wingerden, M., Womelsdorf, T., Fries, P. & Pennartz, C. M. A. The pairwise phase consistency: a bias-free measure of rhythmic neuronal synchronization. NeuroImage 51, 112–122 (2010).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR47",
+        "doi-asserted-by": "publisher",
+        "first-page": "663",
+        "DOI": "10.1038/nature08002",
+        "volume": "459",
+        "author": "JA Cardin",
+        "year": "2009",
+        "unstructured": "Cardin, J. A. et al. Driving fast-spiking cells induces gamma rhythm and controls sensory responses. Nature 459, 663–667 (2009).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "8888_CR48",
+        "doi-asserted-by": "publisher",
+        "first-page": "568",
+        "DOI": "10.1016/j.neubiorev.2020.07.019",
+        "volume": "118",
+        "author": "G Northoff",
+        "year": "2020",
+        "unstructured": "Northoff, G. & Lamme, V. Neural signs and mechanisms of consciousness: is there a potential convergence of theories of consciousness in sight? Neurosci. Biobehav. Rev. 118, 568–587 (2020).",
+        "journal-title": "Neurosci. Biobehav. Rev."
+      },
+      {
+        "key": "8888_CR49",
+        "unstructured": "Kahneman, D. Adversarial collaboration: an EDGE lecture. EDGE https://www.edge.org/adversarial-collaboration-daniel-kahneman (2022)."
+      },
+      {
+        "key": "8888_CR50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lakatos, I. in Can Theories be Refuted? Essays on the Duhem–Quine Thesis (ed. Harding, S. G.) 205–259 (Springer Netherlands, 1976).",
+        "DOI": "10.1007/978-94-010-1863-0_14"
+      },
+      {
+        "key": "8888_CR51",
+        "unstructured": "Gazzaniga, M. S., Ivry, R. B. & Mangun, G. Cognitive Neuroscience. The Biology of the Mind (Norton, 2006)."
+      },
+      {
+        "key": "8888_CR52",
+        "doi-asserted-by": "publisher",
+        "first-page": "112",
+        "DOI": "10.1016/j.tics.2019.11.011",
+        "volume": "24",
+        "author": "A Cleeremans",
+        "year": "2020",
+        "unstructured": "Cleeremans, A. et al. Learning to be conscious. Trends Cogn. Sci. 24, 112–123 (2020).",
+        "journal-title": "Trends Cogn. Sci."
+      },
+      {
+        "key": "8888_CR53",
+        "doi-asserted-by": "publisher",
+        "first-page": "niz020",
+        "DOI": "10.1093/nc/niz020",
+        "volume": "2020",
+        "author": "SM Fleming",
+        "year": "2020",
+        "unstructured": "Fleming, S. M. Awareness as inference in a higher-order state space. Neurosci. Conscious. 2020, niz020 (2020).",
+        "journal-title": "Neurosci. Conscious."
+      },
+      {
+        "key": "8888_CR54",
+        "doi-asserted-by": "publisher",
+        "first-page": "niae017",
+        "DOI": "10.1093/nc/niae017",
+        "volume": "2024",
+        "author": "B Kozuch",
+        "year": "2024",
+        "unstructured": "Kozuch, B. An embarrassment of richnesses: the PFC isn’t the content NCC. Neurosci. Conscious. 2024, niae017 (2024).",
+        "journal-title": "Neurosci. Conscious."
+      },
+      {
+        "key": "8888_CR55",
+        "unstructured": "Melloni, L. & Singer, W. The explanatory gap in neuroscience. Pontifical Acad. Sci. Acta 21, 61–73 (2011)."
+      },
+      {
+        "key": "8888_CR56",
+        "doi-asserted-by": "publisher",
+        "first-page": "737",
+        "DOI": "10.1016/j.neubiorev.2011.12.003",
+        "volume": "36",
+        "author": "J Aru",
+        "year": "2012",
+        "unstructured": "Aru, J., Bachmann, T., Singer, W. & Melloni, L. Distilling the neural correlates of consciousness. Neurosci. Biobehav. Rev. 36, 737–746 (2012).",
+        "journal-title": "Neurosci. Biobehav. Rev."
+      },
+      {
+        "key": "8888_CR57",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Lepauvre, A. & Melloni, L. The search for the neural correlate of consciousness: progress and challenges. Philos. Mind Sci. https://doi.org/10.33735/phimisci.2021.87 (2021).",
+        "DOI": "10.33735/phimisci.2021.87"
+      },
+      {
+        "key": "8888_CR58",
+        "doi-asserted-by": "publisher",
+        "first-page": "757",
+        "DOI": "10.1016/j.tics.2015.10.002",
+        "volume": "19",
+        "author": "N Tsuchiya",
+        "year": "2015",
+        "unstructured": "Tsuchiya, N., Wilke, M., Frässle, S. & Lamme, V. A. F. No-report paradigms: extracting the true neural correlates of consciousness. Trends Cogn. Sci. 19, 757–770 (2015).",
+        "journal-title": "Trends Cogn. Sci."
+      },
+      {
+        "key": "8888_CR59",
+        "unstructured": "Popper, K. The Logic of Scientific Discovery (Routledge, 1935)."
+      },
+      {
+        "key": "8888_CR60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neubiorev.2024.105670",
+        "volume": "161",
+        "author": "R Chis-Ciure",
+        "year": "2024",
+        "unstructured": "Chis-Ciure, R., Melloni, L. & Northoff, G. A measure centrality index for systematic empirical comparison of consciousness theories. Neurosci. Biobehav. Rev. 161, 105670 (2024).",
+        "journal-title": "Neurosci. Biobehav. Rev."
+      },
+      {
+        "key": "8888_CR61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.2301642120",
+        "volume": "120",
+        "author": "CJ Clark",
+        "year": "2023",
+        "unstructured": "Clark, C. J. et al. Prosocial motives underlie scientific censorship by scientists: a perspective and research agenda. Proc. Natl Acad. Sci. USA 120, e2301642120 (2023).",
+        "journal-title": "Proc. Natl Acad. Sci. USA"
+      },
+      {
+        "key": "8888_CR62",
+        "doi-asserted-by": "publisher",
+        "first-page": "1697",
+        "DOI": "10.1016/j.neuron.2023.03.022",
+        "volume": "111",
+        "author": "K Kay",
+        "year": "2023",
+        "unstructured": "Kay, K., Bonnen, K., Denison, R. N., Arcaro, M. J. & Barack, D. L. Tasks and their role in visual neuroscience. Neuron 111, 1697–1713 (2023).",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "8888_CR63",
+        "doi-asserted-by": "publisher",
+        "first-page": "166",
+        "DOI": "10.1016/j.cortex.2017.09.004",
+        "volume": "107",
+        "author": "AA Farooqui",
+        "year": "2018",
+        "unstructured": "Farooqui, A. A. & Manly, T. When attended and conscious perception deactivates fronto-parietal regions. Cortex 107, 166–179 (2018).",
+        "journal-title": "Cortex"
+      },
+      {
+        "key": "8888_CR64",
+        "unstructured": "Tarr, M. J. The Object Databank (Carnegie Mellon Univ., 1996)."
+      },
+      {
+        "key": "8888_CR65",
+        "doi-asserted-by": "publisher",
+        "first-page": "416",
+        "DOI": "10.1006/nimg.1998.0419",
+        "volume": "9",
+        "author": "GH Glover",
+        "year": "1999",
+        "unstructured": "Glover, G. H. Deconvolution of impulse response in event-related BOLD fMRI1. NeuroImage 9, 416–429 (1999).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR66",
+        "doi-asserted-by": "publisher",
+        "first-page": "437",
+        "DOI": "10.1163/156856897X00366",
+        "volume": "10",
+        "author": "DG Pelli",
+        "year": "1997",
+        "unstructured": "Pelli, D. G. The VideoToolbox software for visual psychophysics: transforming numbers into movies. Spatial Vis. 10, 437–442 (1997).",
+        "journal-title": "Spatial Vis."
+      },
+      {
+        "key": "8888_CR67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41597-019-0105-7",
+        "volume": "6",
+        "author": "C Holdgraf",
+        "year": "2019",
+        "unstructured": "Holdgraf, C. et al. iEEG-BIDS, extending the brain imaging data structure specification to human intracranial electrophysiology. Sci. Data 6, 102 (2019).",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "8888_CR68",
+        "doi-asserted-by": "publisher",
+        "first-page": "446",
+        "DOI": "10.1016/j.neuroimage.2013.10.027",
+        "volume": "86",
+        "author": "A Gramfort",
+        "year": "2014",
+        "unstructured": "Gramfort, A. et al. MNE software for processing MEG and EEG data. NeuroImage 86, 446–460 (2014).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR69",
+        "doi-asserted-by": "publisher",
+        "first-page": "327",
+        "DOI": "10.1016/j.neuroimage.2018.08.020",
+        "volume": "183",
+        "author": "G Li",
+        "year": "2018",
+        "unstructured": "Li, G. et al. Optimal referencing for stereo-electroencephalographic (SEEG) recordings. NeuroImage 183, 327–335 (2018).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-019-12623-6",
+        "volume": "10",
+        "author": "S Grossman",
+        "year": "2019",
+        "unstructured": "Grossman, S. et al. Convergent evolution of face spaces across human face-selective neuronal groups and deep convolutional networks. Nat. Commun. 10, 4934 (2019).",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "8888_CR71",
+        "doi-asserted-by": "publisher",
+        "first-page": "13613",
+        "DOI": "10.1523/JNEUROSCI.2041-09.2009",
+        "volume": "29",
+        "author": "JR Manning",
+        "year": "2009",
+        "unstructured": "Manning, J. R., Jacobs, J., Fried, I. & Kahana, M. J. Broadband shifts in local field potential power spectra are correlated with single-neuron spiking in humans. J. Neurosci. 29, 13613–13620 (2009).",
+        "journal-title": "J. Neurosci."
+      },
+      {
+        "key": "8888_CR72",
+        "doi-asserted-by": "publisher",
+        "first-page": "179",
+        "DOI": "10.1006/nimg.1998.0395",
+        "volume": "9",
+        "author": "AM Dale",
+        "year": "1999",
+        "unstructured": "Dale, A. M., Fischl, B. & Sereno, M. I. Cortical surface-based analysis. NeuroImage 9, 179–194 (1999).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR73",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/j.neuroimage.2010.06.010",
+        "volume": "53",
+        "author": "C Destrieux",
+        "year": "2010",
+        "unstructured": "Destrieux, C., Fischl, B., Dale, A. & Halgren, E. Automatic parcellation of human cortical gyri and sulci using standard anatomical nomenclature. NeuroImage 53, 1–15 (2010).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR74",
+        "doi-asserted-by": "publisher",
+        "first-page": "3911",
+        "DOI": "10.1093/cercor/bhu277",
+        "volume": "25",
+        "author": "L Wang",
+        "year": "2015",
+        "unstructured": "Wang, L., Mruczek, R. E. B., Arcaro, M. J. & Kastner, S. Probabilistic maps of visual topography in human cortex. Cereb. Cortex 25, 3911–3931 (2015).",
+        "journal-title": "Cereb. Cortex"
+      },
+      {
+        "key": "8888_CR75",
+        "doi-asserted-by": "publisher",
+        "first-page": "289",
+        "DOI": "10.1111/j.2517-6161.1995.tb02031.x",
+        "volume": "57",
+        "author": "Y Benjamini",
+        "year": "1995",
+        "unstructured": "Benjamini, Y. & Hochberg, Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. J. R. Stat. Soc. B 57, 289–300 (1995).",
+        "journal-title": "J. R. Stat. Soc. B"
+      },
+      {
+        "key": "8888_CR76",
+        "doi-asserted-by": "publisher",
+        "first-page": "225",
+        "DOI": "10.3758/PBR.16.2.225",
+        "volume": "16",
+        "author": "JN Rouder",
+        "year": "2009",
+        "unstructured": "Rouder, J. N., Speckman, P. L., Sun, D., Morey, R. D. & Iverson, G. Bayesian t tests for accepting and rejecting the null hypothesis. Psychon. Bull. Rev. 16, 225–237 (2009).",
+        "journal-title": "Psychon. Bull. Rev."
+      },
+      {
+        "key": "8888_CR77",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0157109",
+        "DOI": "10.1371/journal.pone.0157109",
+        "volume": "11",
+        "author": "CM Kadipasaoglu",
+        "year": "2016",
+        "unstructured": "Kadipasaoglu, C. M., Conner, C. R., Whaley, M. L., Baboyan, V. G. & Tandon, N. Category-selectivity in human visual cortex follows cortical topology: a grouped icEEG study. PLoS ONE 11, e0157109 (2016).",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "8888_CR78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/sdata.2018.110",
+        "volume": "5",
+        "author": "G Niso",
+        "year": "2018",
+        "unstructured": "Niso, G. et al. MEG-BIDS, the brain imaging data structure extended to magnetoencephalography. Sci. Data 5, 180110 (2018).",
+        "journal-title": "Sci. Data"
+      },
+      {
+        "key": "8888_CR79",
+        "doi-asserted-by": "publisher",
+        "first-page": "1896",
+        "DOI": "10.21105/joss.01896",
+        "volume": "4",
+        "author": "S Appelhoff",
+        "year": "2019",
+        "unstructured": "Appelhoff, S. et al. MNE-BIDS: organizing electrophysiological data into the BIDS format and facilitating their analysis. J. Open Source Softw. 4, 1896 (2019).",
+        "journal-title": "J. Open Source Softw."
+      },
+      {
+        "key": "8888_CR80",
+        "doi-asserted-by": "publisher",
+        "first-page": "119047",
+        "DOI": "10.1016/j.neuroimage.2022.119047",
+        "volume": "253",
+        "author": "O Ferrante",
+        "year": "2022",
+        "unstructured": "Ferrante, O. et al. FLUX: a pipeline for MEG analysis. NeuroImage 253, 119047 (2022).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR81",
+        "doi-asserted-by": "publisher",
+        "first-page": "269",
+        "DOI": "10.1023/B:BRAT.0000032864.93890.f9",
+        "volume": "16",
+        "author": "S Taulu",
+        "year": "2003",
+        "unstructured": "Taulu, S., Kajola, M. & Simola, J. Suppression of interference and artifacts by the signal space separation method. Brain Topogr. 16, 269–275 (2003).",
+        "journal-title": "Brain Topogr."
+      },
+      {
+        "key": "8888_CR82",
+        "doi-asserted-by": "publisher",
+        "first-page": "411",
+        "DOI": "10.1016/S0893-6080(00)00026-5",
+        "volume": "13",
+        "author": "A Hyvärinen",
+        "year": "2000",
+        "unstructured": "Hyvärinen, A. & Oja, E. Independent component analysis: algorithms and applications. Neural Netw. 13, 411–430 (2000).",
+        "journal-title": "Neural Netw."
+      },
+      {
+        "key": "8888_CR83",
+        "doi-asserted-by": "publisher",
+        "first-page": "55",
+        "DOI": "10.1016/S0896-6273(00)81138-1",
+        "volume": "26",
+        "author": "AM Dale",
+        "year": "2000",
+        "unstructured": "Dale, A. M. et al. Dynamic statistical parametric mapping. Neuron 26, 55–67 (2000).",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "8888_CR84",
+        "doi-asserted-by": "publisher",
+        "first-page": "35",
+        "DOI": "10.1007/BF02512476",
+        "volume": "32",
+        "author": "MS Hämäläinen",
+        "year": "1994",
+        "unstructured": "Hämäläinen, M. S. & Ilmoniemi, R. J. Interpreting magnetic fields of the brain: minimum norm estimates. Med. Biol. Eng. Comput. 32, 35–42 (1994).",
+        "journal-title": "Med. Biol. Eng. Comput."
+      },
+      {
+        "key": "8888_CR85",
+        "doi-asserted-by": "publisher",
+        "first-page": "665",
+        "DOI": "10.1109/10.142641",
+        "volume": "39",
+        "author": "JZ Wang",
+        "year": "1992",
+        "unstructured": "Wang, J. Z., Williamson, S. J. & Kaufman, L. Magnetic source images determined by a lead-field analysis: the unique minimum-norm least-squares estimation. IEEE Trans. Biomed. Eng. 39, 665–675 (1992).",
+        "journal-title": "IEEE Trans. Biomed. Eng."
+      },
+      {
+        "key": "8888_CR86",
+        "doi-asserted-by": "publisher",
+        "first-page": "328",
+        "DOI": "10.1016/j.neuroimage.2014.12.040",
+        "volume": "108",
+        "author": "DA Engemann",
+        "year": "2015",
+        "unstructured": "Engemann, D. A. & Gramfort, A. Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals. NeuroImage 108, 328–342 (2015).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR87",
+        "doi-asserted-by": "publisher",
+        "first-page": "770608",
+        "DOI": "10.3389/fninf.2021.770608",
+        "volume": "15",
+        "author": "MP Zwiers",
+        "year": "2022",
+        "unstructured": "Zwiers, M. P., Moia, S. & Oostenveld, R. BIDScoin: a user-friendly application to convert source data to brain imaging data structure. Front. Neuroinform. 15, 770608 (2022).",
+        "journal-title": "Front. Neuroinform."
+      },
+      {
+        "key": "8888_CR88",
+        "doi-asserted-by": "publisher",
+        "first-page": "47",
+        "DOI": "10.1016/j.jneumeth.2016.03.001",
+        "volume": "264",
+        "author": "X Li",
+        "year": "2016",
+        "unstructured": "Li, X., Morgan, P. S., Ashburner, J., Smith, J. & Rorden, C. The first step for neuroimaging data analysis: DICOM to NIfTI conversion. J. Neurosci. Methods 264, 47–56 (2016).",
+        "journal-title": "J. Neurosci. Methods"
+      },
+      {
+        "key": "8888_CR89",
+        "doi-asserted-by": "publisher",
+        "first-page": "e0184661",
+        "DOI": "10.1371/journal.pone.0184661",
+        "volume": "12",
+        "author": "O Esteban",
+        "year": "2017",
+        "unstructured": "Esteban, O. et al. MRIQC: advancing the automatic prediction of image quality in MRI from unseen sites. PLoS ONE 12, e0184661 (2017).",
+        "journal-title": "PLoS ONE"
+      },
+      {
+        "key": "8888_CR90",
+        "doi-asserted-by": "publisher",
+        "first-page": "111",
+        "DOI": "10.1038/s41592-018-0235-4",
+        "volume": "16",
+        "author": "O Esteban",
+        "year": "2019",
+        "unstructured": "Esteban, O. et al. fMRIPrep: a robust preprocessing pipeline for functional MRI. Nat. Methods 16, 111–116 (2019).",
+        "journal-title": "Nat. Methods"
+      },
+      {
+        "key": "8888_CR91",
+        "doi-asserted-by": "publisher",
+        "first-page": "13",
+        "DOI": "10.3389/fninf.2011.00013",
+        "volume": "5",
+        "author": "K Gorgolewski",
+        "year": "2011",
+        "unstructured": "Gorgolewski, K. et al. Nipype: a flexible, lightweight and extensible neuroimaging data processing framework in Python. Front. Neuroinform. 5, 13 (2011).",
+        "journal-title": "Front. Neuroinform."
+      },
+      {
+        "key": "8888_CR92",
+        "doi-asserted-by": "publisher",
+        "first-page": "357",
+        "DOI": "10.1038/s41586-020-2649-2",
+        "volume": "585",
+        "author": "CR Harris",
+        "year": "2020",
+        "unstructured": "Harris, C. R. et al. Array programming with NumPy. Nature 585, 357–362 (2020).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "8888_CR93",
+        "doi-asserted-by": "publisher",
+        "unstructured": "McKinney, W. Data structures for statistical computing in Python. In 9th Python in Science Conference 56–61 https://doi.org/10.25080/Majora-92bf1922-00a (2010).",
+        "DOI": "10.25080/Majora-92bf1922-00a"
+      },
+      {
+        "key": "8888_CR94",
+        "doi-asserted-by": "publisher",
+        "first-page": "S208",
+        "DOI": "10.1016/j.neuroimage.2004.07.051",
+        "volume": "23",
+        "author": "SM Smith",
+        "year": "2004",
+        "unstructured": "Smith, S. M. et al. Advances in functional and structural MR image analysis and implementation as FSL. NeuroImage 23, S208–S219 (2004).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR95",
+        "unstructured": "Penny, W., Friston, K., Ashburner, J., Kiebel, S. & Nichols, T. Statistical Parametric Mapping: the Analysis of Funtional Brain Images 1st edn (Elsevier/Academic Press, 2007)."
+      },
+      {
+        "key": "8888_CR96",
+        "unstructured": "nipy/nibabel v3.2.2 (Zenodo, 2022)."
+      },
+      {
+        "key": "8888_CR97",
+        "doi-asserted-by": "publisher",
+        "first-page": "261",
+        "DOI": "10.1038/s41592-019-0686-2",
+        "volume": "17",
+        "author": "P Virtanen",
+        "year": "2020",
+        "unstructured": "Virtanen, P. et al. SciPy 1.0: fundamental algorithms for scientific computing in Python. Nat. Methods 17, 261–272 (2020).",
+        "journal-title": "Nat. Methods"
+      },
+      {
+        "key": "8888_CR98",
+        "doi-asserted-by": "publisher",
+        "first-page": "46",
+        "DOI": "10.3758/BF03203619",
+        "volume": "27",
+        "author": "MJ Hautus",
+        "year": "1995",
+        "unstructured": "Hautus, M. J. Corrections for extreme proportions and their biasing effects on estimated values of d′. Behav. Res. Methods Instrum. Comput. 27, 46–51 (1995).",
+        "journal-title": "Behav. Res. Methods Instrum. Comput."
+      },
+      {
+        "key": "8888_CR99",
+        "doi-asserted-by": "publisher",
+        "first-page": "240",
+        "DOI": "10.1016/j.neuroimage.2012.08.052",
+        "volume": "64",
+        "author": "TD Satterthwaite",
+        "year": "2013",
+        "unstructured": "Satterthwaite, T. D. et al. An improved framework for confound regression and filtering for control of motion artifact in the preprocessing of resting-state functional connectivity data. NeuroImage 64, 240–256 (2013).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR100",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Wagenmakers, E.-J. Approximate objective Bayes factors from P-values and sample size: the 3p√n rule. Preprint at PsyArXiv https://doi.org/10.31234/osf.io/egydq (2022).",
+        "DOI": "10.31234/osf.io/egydq"
+      },
+      {
+        "key": "8888_CR101",
+        "doi-asserted-by": "publisher",
+        "first-page": "107",
+        "DOI": "10.3758/s13428-017-1008-1",
+        "volume": "50",
+        "author": "R Hershman",
+        "year": "2018",
+        "unstructured": "Hershman, R., Henik, A. & Cohen, N. A novel blink detection method based on pupillometry noise. Behav. Res. 50, 107–114 (2018).",
+        "journal-title": "Behav. Res."
+      },
+      {
+        "key": "8888_CR102",
+        "doi-asserted-by": "publisher",
+        "first-page": "13693",
+        "DOI": "10.1523/JNEUROSCI.0582-14.2014",
+        "volume": "34",
+        "author": "S Yuval-Greenberg",
+        "year": "2014",
+        "unstructured": "Yuval-Greenberg, S., Merriam, E. P. & Heeger, D. J. Spontaneous microsaccades reflect shifts in covert attention. J. Neurosci. 34, 13693–13700 (2014).",
+        "journal-title": "J. Neurosci."
+      },
+      {
+        "key": "8888_CR103",
+        "doi-asserted-by": "publisher",
+        "first-page": "1035",
+        "DOI": "10.1016/S0042-6989(03)00084-1",
+        "volume": "43",
+        "author": "R Engbert",
+        "year": "2003",
+        "unstructured": "Engbert, R. & Kliegl, R. Microsaccades uncover the orientation of covert attention. Vis. Res. 43, 1035–1045 (2003).",
+        "journal-title": "Vis. Res."
+      },
+      {
+        "key": "8888_CR104",
+        "first-page": "403",
+        "volume": "16",
+        "author": "FJ Ferri",
+        "year": "1994",
+        "unstructured": "Ferri, F. J., Pudil, P., Hatef, M. & Kittler, J. Comparative study of techniques for large-scale feature selection. Mach. Intell. Patt. Rec. 16, 403–413 (1994).",
+        "journal-title": "Mach. Intell. Patt. Rec."
+      },
+      {
+        "key": "8888_CR105",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1002/hbm.1058",
+        "volume": "15",
+        "author": "TE Nichols",
+        "year": "2002",
+        "unstructured": "Nichols, T. E. & Holmes, A. P. Nonparametric permutation tests for functional neuroimaging: a primer with examples. Hum. Brain Mapp. 15, 1–25 (2002).",
+        "journal-title": "Hum. Brain Mapp."
+      },
+      {
+        "key": "8888_CR106",
+        "doi-asserted-by": "publisher",
+        "first-page": "177",
+        "DOI": "10.1016/j.jneumeth.2007.03.024",
+        "volume": "164",
+        "author": "E Maris",
+        "year": "2007",
+        "unstructured": "Maris, E. & Oostenveld, R. Nonparametric statistical testing of EEG- and MEG-data. J. Neurosci. Methods 164, 177–190 (2007).",
+        "journal-title": "J. Neurosci. Methods"
+      },
+      {
+        "key": "8888_CR107",
+        "doi-asserted-by": "publisher",
+        "first-page": "441",
+        "DOI": "10.1016/j.neuroimage.2017.07.023",
+        "volume": "158",
+        "author": "RM Cichy",
+        "year": "2017",
+        "unstructured": "Cichy, R. M. & Pantazis, D. Multivariate pattern analysis of MEG and EEG: a comparison of representational structure in time and space. NeuroImage 158, 441–454 (2017).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR108",
+        "doi-asserted-by": "publisher",
+        "first-page": "2636",
+        "DOI": "10.1016/j.neuroimage.2011.08.076",
+        "volume": "59",
+        "author": "JA Mumford",
+        "year": "2012",
+        "unstructured": "Mumford, J. A., Turner, B. O., Ashby, F. G. & Poldrack, R. A. Deconvolving BOLD activation in event-related designs for multivoxel pattern classification analyses. NeuroImage 59, 2636–2643 (2012).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR109",
+        "doi-asserted-by": "publisher",
+        "first-page": "90",
+        "DOI": "10.1109/MCSE.2007.55",
+        "volume": "9",
+        "author": "JD Hunter",
+        "year": "2007",
+        "unstructured": "Hunter, J. D. Matplotlib: a 2D graphics environment. Comput. Sci. Eng. 9, 90–95 (2007).",
+        "journal-title": "Comput. Sci. Eng."
+      },
+      {
+        "key": "8888_CR110",
+        "unstructured": "Nadeau, C. & Bengio, Y. in Advances in Neural Information Processing Systems 12 (eds Solla, S. A., Leen, T. K. & Müller, K.-R.) 307–313 (MIT Press, 2000)."
+      },
+      {
+        "key": "8888_CR111",
+        "doi-asserted-by": "publisher",
+        "first-page": "779",
+        "DOI": "10.3758/BF03194105",
+        "volume": "14",
+        "author": "E-J Wagenmakers",
+        "year": "2007",
+        "unstructured": "Wagenmakers, E.-J. A practical solution to the pervasive problems of P values. Psychon. Bull. Rev. 14, 779–804 (2007).",
+        "journal-title": "Psychon. Bull. Rev."
+      },
+      {
+        "key": "8888_CR112",
+        "doi-asserted-by": "publisher",
+        "first-page": "69",
+        "DOI": "10.1016/j.neuroimage.2012.09.063",
+        "volume": "65",
+        "author": "J Stelzer",
+        "year": "2013",
+        "unstructured": "Stelzer, J., Chen, Y. & Turner, R. Statistical inference and multiple testing correction in classification-based multi-voxel pattern analysis (MVPA): random permutations and cluster size control. NeuroImage 65, 69–82 (2013).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR113",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1007/BF02289451",
+        "volume": "31",
+        "author": "PH Schönemann",
+        "year": "1966",
+        "unstructured": "Schönemann, P. H. A generalized solution of the orthogonal procrustes problem. Psychometrika 31, 1–10 (1966).",
+        "journal-title": "Psychometrika"
+      },
+      {
+        "key": "8888_CR114",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andreella, A., De Santis, R., Vesely, A. & Finos, L. Procrustes-based distances for exploring between-matrices similarity. Stat. Methods Appl. 32, 867–882 (2023).",
+        "DOI": "10.1007/s10260-023-00689-y"
+      },
+      {
+        "key": "8888_CR115",
+        "doi-asserted-by": "publisher",
+        "first-page": "118809",
+        "DOI": "10.1016/j.neuroimage.2021.118809",
+        "volume": "247",
+        "author": "MX Cohen",
+        "year": "2022",
+        "unstructured": "Cohen, M. X. A tutorial on generalized eigendecomposition for denoising, contrast enhancement, and dimension reduction in multichannel electrophysiology. NeuroImage 247, 118809 (2022).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR116",
+        "doi-asserted-by": "publisher",
+        "first-page": "968",
+        "DOI": "10.1016/j.neuroimage.2006.01.021",
+        "volume": "31",
+        "author": "RS Desikan",
+        "year": "2006",
+        "unstructured": "Desikan, R. S. et al. An automated labeling system for subdividing the human cerebral cortex on MRI scans into gyral based regions of interest. NeuroImage 31, 968–980 (2006).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR117",
+        "doi-asserted-by": "publisher",
+        "first-page": "1541",
+        "DOI": "10.1002/hbm.23471",
+        "volume": "38",
+        "author": "RAA Ince",
+        "year": "2017",
+        "unstructured": "Ince, R. A. A. et al. A statistical framework for neuroimaging data analysis based on mutual information estimated via a Gaussian copula: Gaussian copula mutual information. Hum. Brain Mapp. 38, 1541–1573 (2017).",
+        "journal-title": "Hum. Brain Mapp."
+      },
+      {
+        "key": "8888_CR118",
+        "doi-asserted-by": "publisher",
+        "first-page": "3842",
+        "DOI": "10.21105/joss.03842",
+        "volume": "7",
+        "author": "E Combrisson",
+        "year": "2022",
+        "unstructured": "Combrisson, E., Basanisi, R., Cordeiro, V. L., Ince, R. A. A. & Brovelli, A. Frites: a Python package for functional connectivity analysis and group-level statistics of neurophysiological data. J. Open Source Softw. 7, 3842 (2022).",
+        "journal-title": "J. Open Source Softw."
+      },
+      {
+        "key": "8888_CR119",
+        "doi-asserted-by": "publisher",
+        "first-page": "1277",
+        "DOI": "10.1016/j.neuroimage.2012.03.068",
+        "volume": "61",
+        "author": "DG McLaren",
+        "year": "2012",
+        "unstructured": "McLaren, D. G., Ries, M. L., Xu, G. & Johnson, S. C. A generalized form of context-dependent psychophysiological interactions (gPPI): a comparison to standard approaches. NeuroImage 61, 1277–1286 (2012).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR120",
+        "doi-asserted-by": "publisher",
+        "first-page": "117873",
+        "DOI": "10.1016/j.neuroimage.2021.117873",
+        "volume": "232",
+        "author": "R Li",
+        "year": "2021",
+        "unstructured": "Li, R. et al. The pulse: transient fMRI signal increases in subcortical arousal systems during transitions in attention. NeuroImage 232, 117873 (2021).",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "8888_CR121",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Vallat, R. Pingouin: statistics in Python. J. Open Source Softw. https://doi.org/10.21105/joss.01026 (2018).",
+        "DOI": "10.21105/joss.01026"
+      },
+      {
+        "key": "8888_CR122",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Liu, L. et al. Cogitate MEEG raw data. Cogitate https://doi.org/10.17617/1.wqa3-wk71 (2024).",
+        "DOI": "10.17617/1.wqa3-wk71"
+      },
+      {
+        "key": "8888_CR123",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Khalaf, A. et al. Cogitate fMRI raw data. Cogitate https://doi.org/10.17617/1.dhjj-er02 (2024).",
+        "DOI": "10.17617/1.dhjj-er02"
+      },
+      {
+        "key": "8888_CR124",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Seedat, A. et al. Cogitate iEEG raw data. Cogitate https://doi.org/10.17617/1.cqyn-9a87 (2024).",
+        "DOI": "10.17617/1.cqyn-9a87"
+      },
+      {
+        "key": "8888_CR125",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Liu, L. et al. Cogitate MEEG BIDS data. Cogitate https://doi.org/10.17617/1.nzwp-7j89 (2024).",
+        "DOI": "10.17617/1.nzwp-7j89"
+      },
+      {
+        "key": "8888_CR126",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Khalaf, A. et al. Cogitate fMRI BIDS data. Cogitate https://doi.org/10.17617/1.8ax5-t263 (2024).",
+        "DOI": "10.17617/1.8ax5-t263"
+      },
+      {
+        "key": "8888_CR127",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Seedat, A. et al. Cogitate iEEG BIDS data. Cogitate https://doi.org/10.17617/1.6qpg-gz82 (2024).",
+        "DOI": "10.17617/1.6qpg-gz82"
+      },
+      {
+        "key": "8888_CR128",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Cogitate Consortium et al. Cogitate XNAT data release. Cogitate https://doi.org/10.17617/1.k278-n152 (2024).",
+        "DOI": "10.17617/1.k278-n152"
+      },
+      {
+        "key": "8888_CR129",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Cogitate Consortium et al. Cogitate-Consortium Cogitate-experiment-code: v1.0. Zenodo https://doi.org/10.5281/zenodo.14362838 (2024).",
+        "DOI": "10.5281/zenodo.14362838"
+      },
+      {
+        "key": "8888_CR130",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Cogitate Consortium et al. Cogitate Consortium MSP-1 analysis code. Zenodo https://doi.org/10.5281/zenodo.13891327 (2024).",
+        "DOI": "10.5281/zenodo.13891327"
+      }
+    ],
+    "container-title": [
+      "Nature"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41586-025-08888-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41586-025-08888-1",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41586-025-08888-1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          29
+        ]
+      ],
+      "date-time": "2025-10-29T20:02:29Z",
+      "timestamp": 1761768149000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41586-025-08888-1"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          30
+        ]
+      ]
+    },
+    "references-count": 130,
+    "journal-issue": {
+      "issue": "8066",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "8888"
+    ],
+    "URL": "https://doi.org/10.1038/s41586-025-08888-1",
+    "relation": {},
+    "ISSN": [
+      "0028-0836",
+      "1476-4687"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0028-0836"
+      },
+      {
+        "type": "electronic",
+        "value": "1476-4687"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          30
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "23 June 2023",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "11 March 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "30 April 2025",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "C. Koch and G.T. are a board members and have a financial interest in Intrinsic Powers, a company developing a clinical device for assessing the presence and absence of consciousness in patients. C. Koch is the Chief Scientist of the Tiny Blue Dot Foundation in Santa Monica, CA. G.T. holds a patent for a method of assessing anaesthetization (patent no.: US 8,457,731 B2). S.Dehaene is a co-inventor on patent 2019 EP 2983586 (‘Methods to monitor consciousness’); and is an associate at NeuroMeters, a company that applies these methods in clinical practice. None of these affiliations impose restrictions on publication or present conflicts of interest related to this study. The other authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ]
+  },
+  "timestamp": 1767125391944,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

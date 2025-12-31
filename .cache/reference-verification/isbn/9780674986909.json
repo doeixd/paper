@@ -1,0 +1,140 @@
+{
+  "key": "isbn-9780674986909",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL27371919M/Slavery_and_Social_Death",
+      "key": "/books/OL27371919M",
+      "title": "Slavery and Social Death",
+      "subtitle": "A Comparative Study, With a New Preface",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL239567A/Orlando_Patterson",
+          "name": "Orlando Patterson"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL5432067A/Orlando_Patterson",
+          "name": "Orlando Patterson"
+        }
+      ],
+      "number_of_pages": 528,
+      "identifiers": {
+        "amazon": [
+          "0674986903"
+        ],
+        "isbn_10": [
+          "0674986903"
+        ],
+        "isbn_13": [
+          "9780674986909"
+        ],
+        "oclc": [
+          "1029804424"
+        ],
+        "openlibrary": [
+          "OL27371919M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "",
+          "HT871.P37 2018",
+          "HT871 .P37 2018"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Harvard University Press"
+        }
+      ],
+      "publish_date": "Oct 15, 2018",
+      "subjects": [
+        {
+          "name": "Psychology",
+          "url": "https://openlibrary.org/subjects/psychology"
+        },
+        {
+          "name": "Slaveholders",
+          "url": "https://openlibrary.org/subjects/slaveholders"
+        },
+        {
+          "name": "Slavery",
+          "url": "https://openlibrary.org/subjects/slavery"
+        },
+        {
+          "name": "Slaves",
+          "url": "https://openlibrary.org/subjects/slaves"
+        },
+        {
+          "name": "Slavery.\u001e 0",
+          "url": "https://openlibrary.org/subjects/slavery.\u001e_0"
+        },
+        {
+          "name": "Esclaves - Psychologie",
+          "url": "https://openlibrary.org/subjects/esclaves_-_psychologie"
+        },
+        {
+          "name": "Proprietaires d'esclaves",
+          "url": "https://openlibrary.org/subjects/proprietaires_d'esclaves"
+        },
+        {
+          "name": "Sklaverei",
+          "url": "https://openlibrary.org/subjects/sklaverei"
+        },
+        {
+          "name": "Proprietaires d'esclaves noirs",
+          "url": "https://openlibrary.org/subjects/proprietaires_d'esclaves_noirs"
+        },
+        {
+          "name": "Aspect psychologique",
+          "url": "https://openlibrary.org/subjects/aspect_psychologique"
+        },
+        {
+          "name": "Psychologie",
+          "url": "https://openlibrary.org/subjects/psychologie"
+        },
+        {
+          "name": "Esclavage",
+          "url": "https://openlibrary.org/subjects/esclavage"
+        },
+        {
+          "name": "Slavernij",
+          "url": "https://openlibrary.org/subjects/slavernij"
+        },
+        {
+          "name": "Esclaves",
+          "url": "https://openlibrary.org/subjects/esclaves"
+        },
+        {
+          "name": "Propriétaires d'esclaves",
+          "url": "https://openlibrary.org/subjects/propriétaires_d'esclaves"
+        },
+        {
+          "name": "Propriétaires d'esclaves noirs",
+          "url": "https://openlibrary.org/subjects/propriétaires_d'esclaves_noirs"
+        },
+        {
+          "name": "Slavery - social sciences",
+          "url": "https://openlibrary.org/subjects/slavery_-_social_sciences"
+        },
+        {
+          "name": "Slavery & abolitionism - african american history",
+          "url": "https://openlibrary.org/subjects/slavery_&_abolitionism_-_african_american_history"
+        },
+        {
+          "name": "World history - general & miscellaneous",
+          "url": "https://openlibrary.org/subjects/world_history_-_general_&_miscellaneous"
+        }
+      ],
+      "notes": "Source title: Slavery and Social Death: A Comparative Study, With a New Preface",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/8835109-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/8835109-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/8835109-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780674986909"
+  },
+  "timestamp": 1767125426432,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

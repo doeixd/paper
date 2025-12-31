@@ -1,0 +1,213 @@
+{
+  "key": "isbn-9780307719225",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL27674267M/Why_Nations_Fail",
+      "key": "/books/OL27674267M",
+      "title": "Why Nations Fail",
+      "subtitle": "The Origins of Power, Prosperity, and Poverty",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL1426373A/Daron_Acemoglu",
+          "name": "Daron Acemoglu"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL2445964A/James_A._Robinson",
+          "name": "James A. Robinson"
+        }
+      ],
+      "number_of_pages": 529,
+      "pagination": "529p",
+      "weight": "929 grams",
+      "identifiers": {
+        "librarything": [
+          "12054051"
+        ],
+        "isbn_13": [
+          "9780307719225"
+        ],
+        "lccn": [
+          "2011023538"
+        ],
+        "oclc": [
+          "1081043562"
+        ],
+        "openlibrary": [
+          "OL27674267M"
+        ]
+      },
+      "classifications": {
+        "lccn_permalink": [
+          "https://lccn.loc.gov/2011023538"
+        ],
+        "lc_classifications": [
+          "HB74.P65 A28 2012",
+          "HB74.P65A28 2012"
+        ],
+        "dewey_decimal_class": [
+          "330"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Currency"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "New York, USA"
+        }
+      ],
+      "publish_date": "2013",
+      "subjects": [
+        {
+          "name": "Revolutions",
+          "url": "https://openlibrary.org/subjects/revolutions"
+        },
+        {
+          "name": "Economic development",
+          "url": "https://openlibrary.org/subjects/economic_development"
+        },
+        {
+          "name": "Economics",
+          "url": "https://openlibrary.org/subjects/economics"
+        },
+        {
+          "name": "Social policy",
+          "url": "https://openlibrary.org/subjects/social_policy"
+        },
+        {
+          "name": "Poverty",
+          "url": "https://openlibrary.org/subjects/poverty"
+        },
+        {
+          "name": "Economic policy",
+          "url": "https://openlibrary.org/subjects/economic_policy"
+        },
+        {
+          "name": "Political aspects",
+          "url": "https://openlibrary.org/subjects/political_aspects"
+        },
+        {
+          "name": "Economic aspects",
+          "url": "https://openlibrary.org/subjects/economic_aspects"
+        },
+        {
+          "name": "Economic history",
+          "url": "https://openlibrary.org/subjects/economic_history"
+        },
+        {
+          "name": "Failed states",
+          "url": "https://openlibrary.org/subjects/failed_states"
+        },
+        {
+          "name": "Wirtschaftspolitik",
+          "url": "https://openlibrary.org/subjects/wirtschaftspolitik"
+        },
+        {
+          "name": "Wirtschaftsentwicklung",
+          "url": "https://openlibrary.org/subjects/wirtschaftsentwicklung"
+        },
+        {
+          "name": "Economics, political aspects",
+          "url": "https://openlibrary.org/subjects/economics,_political_aspects"
+        },
+        {
+          "name": "Developing countries, economic policy",
+          "url": "https://openlibrary.org/subjects/developing_countries,_economic_policy"
+        },
+        {
+          "name": "nyt:combined-print-and-e-book-nonfiction=2012-04-08",
+          "url": "https://openlibrary.org/subjects/nyt:combined-print-and-e-book-nonfiction=2012-04-08"
+        },
+        {
+          "name": "New York Times bestseller",
+          "url": "https://openlibrary.org/subjects/new_york_times_bestseller"
+        },
+        {
+          "name": "nyt:paperback-nonfiction=2013-10-06",
+          "url": "https://openlibrary.org/subjects/nyt:paperback-nonfiction=2013-10-06"
+        },
+        {
+          "name": "Developing Countries",
+          "url": "https://openlibrary.org/subjects/developing_countries"
+        },
+        {
+          "name": "History",
+          "url": "https://openlibrary.org/subjects/history"
+        },
+        {
+          "name": "Institutional economics",
+          "url": "https://openlibrary.org/subjects/institutional_economics"
+        },
+        {
+          "name": "Economic anthropology",
+          "url": "https://openlibrary.org/subjects/economic_anthropology"
+        },
+        {
+          "name": "Creative destruction",
+          "url": "https://openlibrary.org/subjects/creative_destruction"
+        },
+        {
+          "name": "Industrial revolution",
+          "url": "https://openlibrary.org/subjects/industrial_revolution"
+        },
+        {
+          "name": "Public institutions",
+          "url": "https://openlibrary.org/subjects/public_institutions"
+        }
+      ],
+      "subject_places": [
+        {
+          "name": "Developing countries",
+          "url": "https://openlibrary.org/subjects/place:developing_countries"
+        }
+      ],
+      "subject_people": [
+        {
+          "name": "Joseph Alois Schumpeter (1883-1950)",
+          "url": "https://openlibrary.org/subjects/person:joseph_alois_schumpeter_(1883-1950)"
+        }
+      ],
+      "links": [
+        {
+          "title": "Washington Post review",
+          "url": "https://www.washingtonpost.com/entertainment/books/book-review-why-nations-fail-by-daron-acemoglu-and-james-a-robinson/2012/04/20/gIQAcHs8VT_story.html"
+        },
+        {
+          "title": "New York Review of Books review",
+          "url": "https://www.nybooks.com/articles/2012/06/07/what-makes-countries-rich-or-poor/"
+        },
+        {
+          "title": "Guardian review",
+          "url": "https://www.theguardian.com/books/2012/mar/11/why-nations-fail-acemoglu-robinson-review"
+        },
+        {
+          "title": "Bloomberg review",
+          "url": "https://www.bloomberg.com/opinion/articles/2012-04-03/-why-nations-fail-is-not-quite-as-good-as-they-say"
+        },
+        {
+          "title": "Wall Street Journal review",
+          "url": "https://www.wsj.com/articles/SB10001424052702304724404577293714016708378"
+        },
+        {
+          "title": "London School of Economics review",
+          "url": "https://blogs.lse.ac.uk/lsereviewofbooks/2012/08/21/book-review-why-nations-fail-the-origins-of-power-prosperity-and-poverty/"
+        },
+        {
+          "title": "Kirkus Reviews review",
+          "url": "https://www.kirkusreviews.com/book-reviews/daron-acemoglu/why-nations-fail/"
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/9116072-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/9116072-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/9116072-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780307719225"
+  },
+  "timestamp": 1767125375303,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

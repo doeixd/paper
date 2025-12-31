@@ -1,0 +1,72 @@
+{
+  "key": "isbn-9780415054072",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL21394563M/Theory_of_knowledge",
+      "key": "/books/OL21394563M",
+      "title": "Theory of knowledge",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL534353A/Lehrer_Keith.",
+          "name": "Lehrer, Keith."
+        }
+      ],
+      "number_of_pages": 212,
+      "pagination": "xii,212p. ;",
+      "by_statement": "Keith Lehrer.",
+      "identifiers": {
+        "librarything": [
+          "540549"
+        ],
+        "goodreads": [
+          "838966"
+        ],
+        "isbn_10": [
+          "0415054079",
+          "0415054087"
+        ],
+        "openlibrary": [
+          "OL21394563M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "AZ361"
+        ],
+        "dewey_decimal_class": [
+          "121"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Routledge"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "London"
+        }
+      ],
+      "publish_date": "1990",
+      "subjects": [
+        {
+          "name": "Knowledge, Theory of",
+          "url": "https://openlibrary.org/subjects/knowledge,_theory_of"
+        },
+        {
+          "name": "Theory of Knowledge",
+          "url": "https://openlibrary.org/subjects/theory_of_knowledge"
+        },
+        {
+          "name": "epistemology",
+          "url": "https://openlibrary.org/subjects/epistemology"
+        }
+      ],
+      "notes": "Previous ed.: published as knowledge. Oxford: Clarendon, 1974.\n\nIncludes bibliography and index."
+    },
+    "verifiedISBN": "9780415054072"
+  },
+  "timestamp": 1767125412688,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

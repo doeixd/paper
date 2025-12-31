@@ -1,0 +1,88 @@
+{
+  "key": "isbn-9780691088761",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL17042770M/The_fate_of_knowledge",
+      "key": "/books/OL17042770M",
+      "title": "The fate of knowledge",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL4587848A/Helen_E_Longino",
+          "name": "Helen E Longino"
+        }
+      ],
+      "number_of_pages": 233,
+      "pagination": "x, 233 p. ;",
+      "by_statement": "Helen E. Longino",
+      "identifiers": {
+        "librarything": [
+          "582521"
+        ],
+        "goodreads": [
+          "1430503"
+        ],
+        "isbn_10": [
+          "0691088756",
+          "0691088764"
+        ],
+        "lccn": [
+          "2001036267"
+        ],
+        "oclc": [
+          "47182349"
+        ],
+        "openlibrary": [
+          "OL17042770M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD175 .L665 2002",
+          "BD175.L665 2001"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Princeton University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Princeton, N.J"
+        }
+      ],
+      "publish_date": "2002",
+      "subjects": [
+        {
+          "name": "Knowledge, Sociology of",
+          "url": "https://openlibrary.org/subjects/knowledge,_sociology_of"
+        },
+        {
+          "name": "Sociology of Knowledge",
+          "url": "https://openlibrary.org/subjects/sociology_of_knowledge"
+        },
+        {
+          "name": "Knowledge, sociology of",
+          "url": "https://openlibrary.org/subjects/knowledge,_sociology_of"
+        }
+      ],
+      "notes": "Includes bibliographical references (p. [215]-225) and index",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/fateofknowledge0000long",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/9438878-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/9438878-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/9438878-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780691088761"
+  },
+  "timestamp": 1767125413725,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

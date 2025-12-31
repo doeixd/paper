@@ -1,0 +1,96 @@
+{
+  "key": "isbn-9780934613736",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL2036847M/Probabilistic_Reasoning_in_Intelligent_Systems",
+      "key": "/books/OL2036847M",
+      "title": "Probabilistic Reasoning in Intelligent Systems",
+      "subtitle": "Networks of Plausible Inference",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL948859A/Judea_Pearl",
+          "name": "Judea Pearl"
+        }
+      ],
+      "number_of_pages": 552,
+      "pagination": "xix, 552 p. :",
+      "by_statement": "Judea Pearl.",
+      "identifiers": {
+        "librarything": [
+          "294302"
+        ],
+        "goodreads": [
+          "611607"
+        ],
+        "isbn_10": [
+          "0934613737"
+        ],
+        "lccn": [
+          "88013069"
+        ],
+        "oclc": [
+          "18163633"
+        ],
+        "openlibrary": [
+          "OL2036847M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "Q335 .P383 1988"
+        ],
+        "dewey_decimal_class": [
+          "006.3"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Morgan Kaufmann Publishers"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "San Mateo, Calif"
+        }
+      ],
+      "publish_date": "1988",
+      "subjects": [
+        {
+          "name": "Artificial intelligence",
+          "url": "https://openlibrary.org/subjects/artificial_intelligence"
+        },
+        {
+          "name": "Probabilities",
+          "url": "https://openlibrary.org/subjects/probabilities"
+        },
+        {
+          "name": "Reasoning",
+          "url": "https://openlibrary.org/subjects/reasoning"
+        },
+        {
+          "name": "Nonfiction",
+          "url": "https://openlibrary.org/subjects/nonfiction"
+        }
+      ],
+      "notes": "Bibliography: p. 521-538.\r\nIncludes indexes.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/probabilisticrea00pear",
+          "availability": "borrow",
+          "formats": {},
+          "borrow_url": "https://openlibrary.org/books/OL2036847M/Probabilistic_Reasoning_in_Intelligent_Systems/borrow",
+          "checkedout": false
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/7227008-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/7227008-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/7227008-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780934613736"
+  },
+  "timestamp": 1767125425400,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

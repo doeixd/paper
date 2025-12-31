@@ -1,0 +1,94 @@
+{
+  "key": "isbn-9780198244011",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL5470606M/The_coherence_theory_of_truth.",
+      "key": "/books/OL5470606M",
+      "title": "The coherence theory of truth.",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL24617A/Rescher_Nicholas.",
+          "name": "Rescher, Nicholas."
+        }
+      ],
+      "number_of_pages": 374,
+      "pagination": "xiv, 374 p.",
+      "identifiers": {
+        "librarything": [
+          "6517253"
+        ],
+        "goodreads": [
+          "1748956"
+        ],
+        "isbn_10": [
+          "0198244010"
+        ],
+        "lccn": [
+          "73173677"
+        ],
+        "oclc": [
+          "745629"
+        ],
+        "openlibrary": [
+          "OL5470606M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD171 .R47"
+        ],
+        "dewey_decimal_class": [
+          "121"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Clarendon Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Oxford"
+        }
+      ],
+      "publish_date": "1973",
+      "subjects": [
+        {
+          "name": "Coherence theory",
+          "url": "https://openlibrary.org/subjects/coherence_theory"
+        },
+        {
+          "name": "Truth-Coherence theory",
+          "url": "https://openlibrary.org/subjects/truth-coherence_theory"
+        },
+        {
+          "name": "Truth",
+          "url": "https://openlibrary.org/subjects/truth"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        }
+      ],
+      "notes": "Bibliography: p. [366]-369.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/coherencetheoryo0000resc",
+          "availability": "borrow",
+          "formats": {},
+          "borrow_url": "https://openlibrary.org/books/OL5470606M/The_coherence_theory_of_truth./borrow",
+          "checkedout": false
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/10015941-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/10015941-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/10015941-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780198244011"
+  },
+  "timestamp": 1767125432190,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}
