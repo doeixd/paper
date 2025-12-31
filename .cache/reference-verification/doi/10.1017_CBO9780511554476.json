@@ -6,11 +6,11 @@
         [
           2025,
           12,
-          29
+          31
         ]
       ],
-      "date-time": "2025-12-29T22:11:53Z",
-      "timestamp": 1767046313684
+      "date-time": "2025-12-31T04:47:20Z",
+      "timestamp": 1767156440639
     },
     "edition-number": "1",
     "reference-count": 0,
@@ -76,7 +76,7 @@
       "timestamp": 1275493945000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 1687,
+    "is-referenced-by-count": 1689,
     "title": [
       "The Sources of Normativity"
     ],
@@ -154,7 +154,7 @@
       ]
     }
   },
-  "timestamp": 1767125410952,
+  "timestamp": 1767207169989,
   "ttl": 2592000000,
   "source": "crossref"
 }

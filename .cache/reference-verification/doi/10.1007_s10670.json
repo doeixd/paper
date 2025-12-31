@@ -6,11 +6,11 @@
         [
           2025,
           12,
-          18
+          31
         ]
       ],
-      "date-time": "2025-12-18T19:36:23Z",
-      "timestamp": 1766086583562
+      "date-time": "2025-12-31T11:50:52Z",
+      "timestamp": 1767181852289
     },
     "reference-count": 37,
     "publisher": "Springer Science and Business Media LLC",
@@ -501,7 +501,7 @@
       ]
     }
   },
-  "timestamp": 1767125457234,
+  "timestamp": 1767207224696,
   "ttl": 2592000000,
   "source": "crossref"
 }

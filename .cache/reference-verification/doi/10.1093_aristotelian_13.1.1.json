@@ -6,11 +6,11 @@
         [
           2025,
           12,
-          22
+          31
         ]
       ],
-      "date-time": "2025-12-22T05:23:43Z",
-      "timestamp": 1766381023162
+      "date-time": "2025-12-31T11:52:16Z",
+      "timestamp": 1767181936165
     },
     "reference-count": 0,
     "publisher": "Oxford University Press (OUP)",
@@ -163,7 +163,7 @@
       ]
     }
   },
-  "timestamp": 1767125436127,
+  "timestamp": 1767207202503,
   "ttl": 2592000000,
   "source": "crossref"
 }

@@ -1573,28 +1573,26 @@ Please provide your research results in the exact JSON format specified above.`;
 
   private async callClaudeCLI(instructions: string): Promise<string> {
     try {
-      // Define JSON schema for Claude's response
+      // Check if claude command is available
+      try {
+        await $`claude --version`.quiet();
+      } catch {
+        if (this.verbose) console.log(`  [Claude CLI] Claude CLI not available, skipping`);
+        throw new Error('Claude CLI not installed');
+      }
+
+      // Define the JSON schema for Claude CLI
       const jsonSchema = {
         type: "object",
         properties: {
-          status: {
-            type: "string",
-            enum: ["verified", "corrected", "failed"]
-          },
-          confidence: {
-            type: "number",
-            minimum: 0,
-            maximum: 1
-          },
+          status: { type: "string", enum: ["verified", "corrected", "failed"] },
+          confidence: { type: "number", minimum: 0, maximum: 1 },
           corrections: {
             type: "array",
             items: {
               type: "object",
               properties: {
-                field: {
-                  type: "string",
-                  enum: ["title", "authors", "year"]
-                },
+                field: { type: "string", enum: ["title", "authors", "year"] },
                 original: { type: "string" },
                 corrected: { type: "string" },
                 reason: { type: "string" }
@@ -1618,7 +1616,6 @@ Please provide your research results in the exact JSON format specified above.`;
         required: ["status", "confidence"]
       };
 
-      // Use Claude CLI with proper flags for non-interactive JSON output
       const schemaString = JSON.stringify(jsonSchema).replace(/"/g, '\\"');
       const command = `claude --print --output-format json --json-schema "${schemaString}" --no-session-persistence --system-prompt "You are an expert academic reference verification assistant." "${instructions.replace(/"/g, '\\"')}"`;
 

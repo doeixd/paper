@@ -6,11 +6,11 @@
         [
           2025,
           12,
-          30
+          31
         ]
       ],
-      "date-time": "2025-12-30T17:44:14Z",
-      "timestamp": 1767116654933
+      "date-time": "2025-12-31T14:44:05Z",
+      "timestamp": 1767192245886
     },
     "reference-count": 0,
     "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -43,7 +43,7 @@
     },
     "page": "379-423",
     "source": "Crossref",
-    "is-referenced-by-count": 49120,
+    "is-referenced-by-count": 49135,
     "title": [
       "A Mathematical Theory of Communication"
     ],
@@ -132,7 +132,7 @@
       ]
     }
   },
-  "timestamp": 1767125437565,
+  "timestamp": 1767207203932,
   "ttl": 2592000000,
   "source": "crossref"
 }

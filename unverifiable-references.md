@@ -1,6 +1,6 @@
 # Unverifiable References Report
 
-Generated: 2025-12-30T20:06:56.358Z
+Generated: 2025-12-31T18:53:44.826Z
 Total unverifiable: 21
 
 ---
@@ -264,7 +264,7 @@ Kelly, Thomas. 2005. "The Epistemic Significance of Disagreement." In *Oxford St
 Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
 ```
 
-**Line Number:** 183
+**Line Number:** 185
 
 **Verification Status:** failed (confidence: 0)
 
@@ -282,7 +282,7 @@ Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalize
 Landauer, Rolf. 1981. "Fundamental Physical Limitations of the Computational Process." In *Sixth International Conference on Noise in Physical Systems*, edited by P. H. E. Meijer, R. D. Mountain, and F. J. Soulen Jr., Publication No. 614: 12–17. Washington, DC: National Bureau of Standards.
 ```
 
-**Line Number:** 187
+**Line Number:** 189
 
 **Verification Status:** failed (confidence: 0)
 
@@ -300,7 +300,7 @@ Landauer, Rolf. 1981. "Fundamental Physical Limitations of the Computational Pro
 Lakatos, Imre. 1970. "Falsification and the Methodology of Scientific Research Programmes." In *Criticism and the Growth of Knowledge*, edited by Imre Lakatos and Alan Musgrave, 91–196. Cambridge: Cambridge University Press.
 ```
 
-**Line Number:** 189
+**Line Number:** 191
 
 **Verification Status:** failed (confidence: 0)
 
@@ -318,7 +318,7 @@ Lakatos, Imre. 1970. "Falsification and the Methodology of Scientific Research P
 Luhmann, Niklas. 1984. *Social Systems*. Translated by John Bednarz Jr. and Dirk Baecker. Stanford, CA: Stanford University Press.
 ```
 
-**Line Number:** 191
+**Line Number:** 193
 
 **Verification Status:** failed (confidence: 0)
 
@@ -336,7 +336,7 @@ Luhmann, Niklas. 1984. *Social Systems*. Translated by John Bednarz Jr. and Dirk
 Peirce, Charles S. 1992. "How to Make Our Ideas Clear." In *The Essential Peirce: Selected Philosophical Writings*, vol. 1 (1867–1893), edited by Nathan Houser and Christian Kloesel, 124–41. Bloomington: Indiana University Press (originally 1878).
 ```
 
-**Line Number:** 254
+**Line Number:** 258
 
 **Verification Status:** failed (confidence: 0)
 
@@ -354,7 +354,7 @@ Peirce, Charles S. 1992. "How to Make Our Ideas Clear." In *The Essential Peirce
 Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä.
 ```
 
-**Line Number:** 356
+**Line Number:** 360
 
 **Verification Status:** failed (confidence: 0)
 
@@ -372,7 +372,7 @@ Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's th
 Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." *Proceedings of the Sixth International Congress of Genetics* 1: 356–66.
 ```
 
-**Line Number:** 374
+**Line Number:** 380
 
 **Verification Status:** failed (confidence: 0)
 
