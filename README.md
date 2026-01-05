@@ -53,5 +53,6 @@ The repository now includes `cleanup-cli.ts`, a Bun-powered utility that removes
 - **Cache strategies**: Choose between deleting caches, truncating their contents, or preserving them entirely with `--cache-mode`.
 - **Git safety**: Optional `--git-commit-before` (default on) snapshots the repo before cleaning; `--rewrite-history` rewrites commits to purge the deleted files when you explicitly request it.
 - **Plans & dry-runs**: Every run starts with a plan summary; pass `--dry-run=false --yes` to apply non-interactively, or `--plan-output plan.json` for auditing.
+- **Reference cache aware**: `--reference-cache-mode` defaults to pruning expired `.cache/reference-verification` entries using the same TTL rules as `verify-references.ts`, so you can keep fresh citations but purge stale API responses or clear/preserve explicitly.
 
 Run `bun cleanup-cli.ts --help` for the full option list, or pair it with a JSON config via `--config cleanup.config.json` to encode project-specific defaults.

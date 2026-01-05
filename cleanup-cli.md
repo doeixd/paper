@@ -38,6 +38,16 @@ The policy inspects file modification timestamps, keeps the newest file in each 
 - `truncate` empties the directory but leaves the folder intact (default for the safe profile).
 - `preserve` skips cache entries entirely.
 
+### Reference verification cache
+
+The `verify-references.ts` script keeps a structured cache under `.cache/reference-verification`. Instead of blindly deleting it with the rest of `.cache`, the CLI exposes `--reference-cache-mode <preserve|prune|clear>` (default: `prune`):
+
+- `prune` replicates `verify-references`’ TTL policy (CrossRef ≈ 30 days, arXiv 90, OpenLibrary 7, web-search 1, Claude 7) and deletes only expired/corrupted cache JSON files while leaving fresh entries and the `.gitkeep`.
+- `clear` removes the entire directory regardless of TTL.
+- `preserve` leaves the directory untouched even when other caches are truncated.
+
+When `--cache-mode truncate` is used, the CLI still protects `.cache/reference-verification` unless you explicitly set `--reference-cache-mode clear`.
+
 ### Git safeguards
 
 | Flag | Purpose |

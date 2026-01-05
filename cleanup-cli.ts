@@ -13,6 +13,7 @@ import { parseArgs } from "node:util";
 
 type CategoryName = "temp" | "generated" | "debug" | "test" | "cache" | "backup";
 type CacheMode = "remove" | "truncate" | "preserve";
+type ReferenceCacheMode = "preserve" | "prune" | "clear";
 type BackupPeriod = "hourly" | "daily" | "weekly" | "monthly" | "yearly";
 
 interface CategoryDefinition {
@@ -48,6 +49,7 @@ interface CleanupConfig {
   rewriteHistory: boolean;
   backupPolicy: BackupPolicy;
   cacheMode: CacheMode;
+  referenceCacheMode: ReferenceCacheMode;
   extraDeleteGlobs: string[];
   planOutput?: string;
 }
@@ -65,6 +67,10 @@ interface CleanupPlan {
   deletions: Candidate[];
   truncated: Candidate[];
   keptByBackupPolicy: Candidate[];
+  referenceCache?: {
+    mode: ReferenceCacheMode;
+    relativePath: string;
+  };
   summary: {
     totalBytes: number;
     deletedCount: number;
@@ -145,22 +151,6 @@ const PROFILE_DEFINITIONS: Record<string, ProfileDefinition> = {
   },
 };
 
-const DEFAULT_CONFIG: CleanupConfig = {
-  root: process.cwd(),
-  categories: PROFILE_DEFINITIONS.safe.categories,
-  includeGlobs: [],
-  excludeGlobs: ["**/.git/**", "**/node_modules/**"],
-  dryRun: PROFILE_DEFINITIONS.safe.dryRun ?? true,
-  prompt: true,
-  gitCommitBefore: true,
-  gitCommitMessage: "chore: snapshot before cleanup",
-  rewriteHistory: false,
-  backupPolicy: PROFILE_DEFINITIONS.safe.backupPolicy ?? {},
-  cacheMode: PROFILE_DEFINITIONS.safe.cacheMode ?? "truncate",
-  extraDeleteGlobs: [],
-  planOutput: undefined,
-};
-
 const HELP_TEXT = `Emergent Pragmatic Coherentism — Repository Cleanup CLI
 
 Usage:
@@ -173,6 +163,8 @@ Key options:
   --exclude-glob <pattern>               Globs that must be ignored (repeatable).
   --backup-policy <rule>                 e.g. daily=3,weekly=2,monthly=1.
   --cache-mode <remove|truncate|preserve>Controls cache handling.
+  --reference-cache-mode <preserve|prune|clear>
+                                         Special handling for .cache/reference-verification (default: prune).
   --dry-run / --no-dry-run               Plan-only vs destructive mode.
   --yes                                  Skip confirmation prompt.
   --git-commit-before / --no-git-commit-before  Snapshot the repo before deleting.
@@ -185,6 +177,36 @@ Key options:
   --list-profiles                        Prints profile descriptions.
   --help                                 Displays this message.
 `;
+
+type ReferenceCacheSource = "crossref" | "arxiv" | "openlibrary" | "web-search" | "claude-cli" | "unknown";
+
+const REFERENCE_CACHE_POSIX = ".cache/reference-verification";
+const REFERENCE_CACHE_TTL_MAP: Record<ReferenceCacheSource, number> = {
+  crossref: 30 * 24 * 60 * 60 * 1000,
+  arxiv: 90 * 24 * 60 * 60 * 1000,
+  "openlibrary": 7 * 24 * 60 * 60 * 1000,
+  "web-search": 24 * 60 * 60 * 1000,
+  "claude-cli": 7 * 24 * 60 * 60 * 1000,
+  unknown: 24 * 60 * 60 * 1000,
+};
+const REFERENCE_CACHE_DEFAULT_MODE: ReferenceCacheMode = "prune";
+
+const DEFAULT_CONFIG: CleanupConfig = {
+  root: process.cwd(),
+  categories: PROFILE_DEFINITIONS.safe.categories,
+  includeGlobs: [],
+  excludeGlobs: ["**/.git/**", "**/node_modules/**"],
+  dryRun: PROFILE_DEFINITIONS.safe.dryRun ?? true,
+  prompt: true,
+  gitCommitBefore: true,
+  gitCommitMessage: "chore: snapshot before cleanup",
+  rewriteHistory: false,
+  backupPolicy: PROFILE_DEFINITIONS.safe.backupPolicy ?? {},
+  cacheMode: PROFILE_DEFINITIONS.safe.cacheMode ?? "truncate",
+  referenceCacheMode: REFERENCE_CACHE_DEFAULT_MODE,
+  extraDeleteGlobs: [],
+  planOutput: undefined,
+};
 
 function parseBackupPolicy(input?: string): BackupPolicy | undefined {
   if (!input) {
@@ -218,11 +240,12 @@ function mergeConfig(base: CleanupConfig, overlay: Partial<CleanupConfig>): Clea
     gitCommitBefore: overlay.gitCommitBefore ?? base.gitCommitBefore,
     gitCommitMessage: overlay.gitCommitMessage ?? base.gitCommitMessage,
     rewriteHistory: overlay.rewriteHistory ?? base.rewriteHistory,
-    backupPolicy: overlay.backupPolicy ?? base.backupPolicy,
-    cacheMode: overlay.cacheMode ?? base.cacheMode,
-    extraDeleteGlobs: overlay.extraDeleteGlobs ?? base.extraDeleteGlobs,
-    planOutput: overlay.planOutput ?? base.planOutput,
-  };
+      backupPolicy: overlay.backupPolicy ?? base.backupPolicy,
+      cacheMode: overlay.cacheMode ?? base.cacheMode,
+      referenceCacheMode: overlay.referenceCacheMode ?? base.referenceCacheMode,
+      extraDeleteGlobs: overlay.extraDeleteGlobs ?? base.extraDeleteGlobs,
+      planOutput: overlay.planOutput ?? base.planOutput,
+    };
 }
 
 async function readConfigFile(filePath: string): Promise<Partial<CleanupConfig>> {
@@ -283,6 +306,15 @@ function parseCategories(input?: string): CategoryName[] | undefined {
   return tokens;
 }
 
+function parseReferenceCacheMode(input?: string): ReferenceCacheMode | undefined {
+  if (!input) return undefined;
+  const normalized = input.toLowerCase();
+  if (normalized === "preserve" || normalized === "prune" || normalized === "clear") {
+    return normalized as ReferenceCacheMode;
+  }
+  throw new Error(`Unknown reference cache mode "${input}". Use preserve, prune, or clear.`);
+}
+
 function loadProfile(name?: string): ProfileDefinition | undefined {
   if (!name) return undefined;
   const definition = PROFILE_DEFINITIONS[name];
@@ -298,6 +330,15 @@ function compileGlobs(patterns: string[]): Bun.Glob[] {
 
 function globMatches(globs: Bun.Glob[], relativePath: string): boolean {
   return globs.some((glob) => glob.match(relativePath));
+}
+
+function normalizeRelativePath(rel: string): string {
+  return rel.replace(/\\/g, "/");
+}
+
+function isReferenceCachePath(relative: string): boolean {
+  const normalized = normalizeRelativePath(relative);
+  return normalized === REFERENCE_CACHE_POSIX || normalized.startsWith(`${REFERENCE_CACHE_POSIX}/`);
 }
 
 async function collectCandidates(config: CleanupConfig): Promise<Candidate[]> {
@@ -367,6 +408,16 @@ async function collectCandidates(config: CleanupConfig): Promise<Candidate[]> {
     const discovered = await findNamedDirectories(config.root, cacheRootNames);
     for (const rel of discovered) {
       additionalRoots.add(rel);
+    }
+    const referenceCacheAbsolute = path.join(config.root, ...REFERENCE_CACHE_POSIX.split("/"));
+    try {
+      const stats = await lstat(referenceCacheAbsolute);
+      if (stats.isDirectory()) {
+        const rel = path.relative(config.root, referenceCacheAbsolute) || ".";
+        additionalRoots.add(rel);
+      }
+    } catch {
+      // ignore missing reference cache
     }
     for (const rel of additionalRoots) {
       await register(rel, "cache");
@@ -438,7 +489,8 @@ function applyBackupRetention(candidates: Candidate[], policy: BackupPolicy): { 
 }
 
 async function executePlan(plan: CleanupPlan, config: CleanupConfig): Promise<void> {
-  if (plan.deletions.length === 0 && plan.truncated.length === 0) return;
+  const needsReferenceAction = plan.referenceCache?.mode === "prune";
+  if (plan.deletions.length === 0 && plan.truncated.length === 0 && !needsReferenceAction) return;
   for (const candidate of plan.deletions) {
     if (candidate.isDirectory) {
       await rm(candidate.absolutePath, { recursive: true, force: true });
@@ -457,9 +509,27 @@ async function executePlan(plan: CleanupPlan, config: CleanupConfig): Promise<vo
     await Promise.all(
       entries.map(async (entry) => {
         const target = path.join(candidate.absolutePath, entry);
+        const relative = normalizeRelativePath(path.relative(config.root, target));
+        if (config.referenceCacheMode !== "clear" && isReferenceCachePath(relative)) {
+          return;
+        }
         await rm(target, { recursive: true, force: true }).catch(() => Promise.resolve());
       }),
     );
+  }
+
+  if (plan.referenceCache && config.referenceCacheMode === "prune") {
+    const absoluteCachePath = path.join(config.root, ...normalizeRelativePath(plan.referenceCache.relativePath).split("/"));
+    const result = await pruneReferenceCache(absoluteCachePath);
+    if (result.inspected > 0 || result.removed > 0) {
+      console.log(
+        `Pruned reference cache: inspected ${result.inspected} entries, removed ${result.removed} expired files.`,
+      );
+    } else {
+      console.log("Reference cache already clean.");
+    }
+  } else if (plan.referenceCache && config.referenceCacheMode === "preserve") {
+    console.log("Reference cache preserved (no action taken).");
   }
 }
 
@@ -539,6 +609,9 @@ function renderPlan(plan: CleanupPlan): void {
   console.log(`Files/directories to delete : ${plan.summary.deletedCount} (${formatBytes(plan.summary.totalBytes)})`);
   console.log(`Directories to truncate     : ${plan.summary.truncatedCount}`);
   console.log(`Backups kept (by policy)    : ${plan.summary.keptCount}`);
+  if (plan.referenceCache) {
+    console.log(`Reference cache handling    : ${plan.referenceCache.mode}`);
+  }
 }
 
 async function buildPlan(config: CleanupConfig): Promise<CleanupPlan> {
@@ -549,8 +622,22 @@ async function buildPlan(config: CleanupConfig): Promise<CleanupPlan> {
 
   const deletions: Candidate[] = [];
   const truncated: Candidate[] = [];
+  let referenceCachePlan: CleanupPlan["referenceCache"];
 
   for (const candidate of candidates) {
+    const isReferenceCache = candidate.category === "cache" && isReferenceCachePath(candidate.relativePath);
+    if (isReferenceCache) {
+      if (config.referenceCacheMode === "clear") {
+        deletions.push(candidate);
+        continue;
+      }
+      referenceCachePlan = referenceCachePlan ?? {
+        mode: config.referenceCacheMode,
+        relativePath: REFERENCE_CACHE_POSIX,
+      };
+      continue;
+    }
+
     if (candidate.category === "backup" && keepSet.has(candidate.absolutePath)) {
       continue;
     }
@@ -575,8 +662,66 @@ async function buildPlan(config: CleanupConfig): Promise<CleanupPlan> {
       truncatedCount: truncated.length,
       keptCount: kept.length,
     },
+    referenceCache: referenceCachePlan,
   };
   return plan;
+}
+
+async function pruneReferenceCache(cacheRoot: string): Promise<{ removed: number; inspected: number }> {
+  let removed = 0;
+  let inspected = 0;
+  try {
+    await lstat(cacheRoot);
+  } catch {
+    return { removed, inspected };
+  }
+  const walk = async (dir: string): Promise<void> => {
+    let entries;
+    try {
+      entries = await readdir(dir, { withFileTypes: true });
+    } catch {
+      return;
+    }
+    for (const entry of entries) {
+      if (entry.name === ".gitkeep") continue;
+      const entryPath = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        await walk(entryPath);
+        try {
+          const remaining = (await readdir(entryPath)).filter((child) => child !== ".gitkeep");
+          if (remaining.length === 0) {
+            await rm(entryPath, { recursive: true, force: true });
+          }
+        } catch {
+          // ignore
+        }
+        continue;
+      }
+      if (!entry.name.endsWith(".json")) continue;
+      inspected++;
+      let shouldRemove = false;
+      try {
+        const cacheEntry = await Bun.file(entryPath).json();
+        const timestamp = typeof cacheEntry.timestamp === "number" ? cacheEntry.timestamp : 0;
+        const sourceKey = typeof cacheEntry.source === "string" ? cacheEntry.source : "unknown";
+        const source = (REFERENCE_CACHE_TTL_MAP[sourceKey as ReferenceCacheSource]
+          ? sourceKey
+          : "unknown") as ReferenceCacheSource;
+        const ttl = REFERENCE_CACHE_TTL_MAP[source] ?? REFERENCE_CACHE_TTL_MAP.unknown;
+        if (!timestamp || Date.now() - timestamp > ttl) {
+          shouldRemove = true;
+        }
+      } catch {
+        shouldRemove = true;
+      }
+      if (shouldRemove) {
+        await unlink(entryPath).catch(() => {});
+        removed++;
+      }
+    }
+  };
+  await walk(cacheRoot);
+  return { removed, inspected };
 }
 
 function writePlanToFile(plan: CleanupPlan, planPath: string): void {
@@ -591,6 +736,7 @@ function writePlanToFile(plan: CleanupPlan, planPath: string): void {
       })),
       truncated: plan.truncated.map((c) => c.relativePath),
       keptByPolicy: plan.keptByBackupPolicy.map((c) => c.relativePath),
+      referenceCache: plan.referenceCache ?? null,
     },
     null,
     2,
@@ -633,6 +779,7 @@ async function main() {
       "exclude-glob": { type: "string", multiple: true },
       "backup-policy": { type: "string" },
       "cache-mode": { type: "string" },
+      "reference-cache-mode": { type: "string" },
       "git-commit-before": { type: "boolean" },
       "git-commit-message": { type: "string" },
       "rewrite-history": { type: "boolean" },
@@ -675,6 +822,7 @@ async function main() {
         dryRun: profile.dryRun ?? config.dryRun,
         backupPolicy: profile.backupPolicy ?? config.backupPolicy,
         cacheMode: profile.cacheMode ?? config.cacheMode,
+        referenceCacheMode: config.referenceCacheMode,
       });
     }
   }
@@ -686,6 +834,7 @@ async function main() {
     categories: parseCategories(values.categories) ?? config.categories,
     backupPolicy: parseBackupPolicy(values["backup-policy"]) ?? config.backupPolicy,
     cacheMode: (values["cache-mode"] as CacheMode) ?? config.cacheMode,
+    referenceCacheMode: parseReferenceCacheMode(values["reference-cache-mode"] as string) ?? config.referenceCacheMode,
     dryRun: typeof values["dry-run"] === "boolean" ? values["dry-run"] : config.dryRun,
     prompt: values.yes ? false : config.prompt,
     gitCommitBefore:
@@ -706,7 +855,8 @@ async function main() {
   }
   renderPlan(plan);
 
-  if (plan.deletions.length === 0 && plan.truncated.length === 0) {
+  const hasReferencePrune = plan.referenceCache?.mode === "prune";
+  if (plan.deletions.length === 0 && plan.truncated.length === 0 && !hasReferencePrune) {
     console.log("Nothing to remove. You're already clean!");
     return;
   }

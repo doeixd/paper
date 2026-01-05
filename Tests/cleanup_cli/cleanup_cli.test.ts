@@ -23,12 +23,13 @@ function baseConfig(root: string): CleanupConfig {
     prompt: false,
     gitCommitBefore: false,
     gitCommitMessage: "test",
-    rewriteHistory: false,
-    backupPolicy: {},
-    cacheMode: "remove",
-    extraDeleteGlobs: [],
-    planOutput: undefined,
-  };
+  rewriteHistory: false,
+  backupPolicy: {},
+  cacheMode: "remove",
+  referenceCacheMode: "prune",
+  extraDeleteGlobs: [],
+  planOutput: undefined,
+};
 }
 
 function normalizeRelativePath(p: string): string {
@@ -89,6 +90,37 @@ describe("cleanup-cli", () => {
       await executePlan(plan, config);
       const remainingCacheEntries = await readdir(path.join(root, ".cache")).catch(() => []);
       expect(remainingCacheEntries.length).toBe(0);
+    });
+  });
+
+  test("prunes reference verification cache entries", async () => {
+    await withTempDir(async (root) => {
+      const referenceDir = path.join(root, ".cache", "reference-verification", "doi");
+      await mkdir(referenceDir, { recursive: true });
+      await writeFile(path.join(root, ".cache", "reference-verification", ".gitkeep"), "");
+      const stalePath = path.join(referenceDir, "old.json");
+      const freshPath = path.join(referenceDir, "fresh.json");
+      const day = 24 * 60 * 60 * 1000;
+      await writeFile(
+        stalePath,
+        JSON.stringify({ timestamp: Date.now() - 40 * day, source: "crossref", data: { foo: "bar" } }),
+      );
+      await writeFile(
+        freshPath,
+        JSON.stringify({ timestamp: Date.now() - 5 * day, source: "crossref", data: { foo: "baz" } }),
+      );
+      const config: CleanupConfig = {
+        ...baseConfig(root),
+        categories: ["cache"],
+        cacheMode: "truncate",
+        referenceCacheMode: "prune",
+        dryRun: false,
+      };
+      const plan = await buildPlan(config);
+      expect(plan.referenceCache?.mode).toBe("prune");
+      await executePlan(plan, config);
+      expect(await Bun.file(stalePath).exists()).toBe(false);
+      expect(await Bun.file(freshPath).exists()).toBe(true);
     });
   });
 });
