@@ -136,3 +136,25 @@ Relation: This serves as the philosophical defense of the framework against char
 File: proc_v7.md (A Procedural and Naturalistic Model of Moral Objectivity)
 This paper applies the EPC framework specifically to metaethics. It introduces Pragmatic Procedural Realism, arguing that moral truths (like "slavery is wrong") are discovered empirically through the failure of systems that try to violate them. It uses the brittleness metrics to show that immoral systems (like totalitarians or slave states) inevitably collapse due to high "coercive overhead" and information suppression.
 Relation: This is a domain-specific application of the general theory found in final.md. It demonstrates that the same "Negative Canon" and "brittleness" diagnostics used for scientific theories can be rigorously applied to moral history to establish objective ethical truths.
+
+## Knowledge Modules: The Reality of Wholes Corpus
+
+1. **The Reality of Wholes.md**. Full technical argument against mereological nihilism. Key takeaways to keep consistent:
+   - Reality is graded by **Causal Autonomy**: macro-entities become real once their $\varepsilon$-machine matches their $\upsilon$-machine, so microstate detail adds no predictive power. Link every use of "real" to this closure test rather than loose intuitions.
+   - Macro boundaries are **constraint-determined** consequences of causality, locality, information limits, and thermodynamic costs. Emphasize that Markov blankets and strong lumpability make boundary formation inevitable, not merely convenient.
+   - Maintain the layered criteria (Invariance, Physicality, Substrate Proximity, Causal Autonomy) but privilege causal autonomy when adjudicating disputes about objecthood. Clarify early that the view is structural realist, not task-relative or instrumentalist.
+   - Pre-empt nihilist objections (causal exclusion, overdetermination) by stressing that interventionist causal power is what matters: when macro-level interventions succeed across perturbations, the macro description earns ontic status even if micro-physics remains complete.
+   - Leakiness is measurable as algorithmic complexity influx. Remind readers that closure is a gradient, but the gradient is objective and tied to thermodynamic survival pressures rather than modeling preferences.
+
+2. **The Reality of Wholes - magazine.md**. Accessible exposition and illustration bank. Use it to:
+   - Deploy intuitive illustrations (atrial fibrillation, traffic jams, Shoe-Moon vs hurricane compression, trumpet-light thought experiment) when the main paper needs a quick conceptual hook without adding jargon.
+   - Highlight the **Two-Level Test**: compare best micro-level and macro-level predictions to show when macro descriptions are self-sufficient. This frames closure tests in plain language for audiences outside computational mechanics.
+   - Reinforce the descriptive compression argument: wholes earn ontological status when the description of the whole radically shortens relative to enumerating parts. Keep the contrast with gerrymandered aggregates clear.
+   - Bring in the discussion of **dimensional closure** (legal, culinary, narrative domains) to show how EPC handles social or abstract objects without collapsing into relativism. Stress that each dimension has its own constraint structure that forces convergence.
+
+3. **Appendix-Category-Theory.md**. Formal backing for the wholes paper. Main points to preserve when invoking it:
+   - The lattice of coarse-grainings forms the category $\mathcal{C}_{pred}$; only coarse-grainings satisfying the Markov property count as objects, so "real patterns" are precisely the nodes admitted by the category.
+   - Causal Closure translates into functorial properties: faithful coarse-graining functors preserve distinct causal morphisms, so reality claims turn on whether the macro functor forgets intervention-relevant structure.
+   - Wholes correspond to **Initial Objects** in the subcategory of causally closed, low-complexity models. Any alternative adequate model factors uniquely through the whole, explaining convergence across investigators.
+   - Reductionist "forgetful" functors back to the micro level are not full or faithful, which is why purely micro descriptions fail to recover the counterfactual structure that makes wholes action-guiding.
+   - Keep the tripartite invariance distinction (constitutive constraints, covariant rules, convergent wholes) when mapping EPC claims into formal language, so readers see how constraints generate both the admissible morphisms and the inevitable objects.
