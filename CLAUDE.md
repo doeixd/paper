@@ -354,6 +354,16 @@ never add yourself as an author to the paper, or on a git commit.
 - **Dependencies**: Requires Bun runtime (no npm packages needed)
 - **Documentation**: See `VERIFY_REFERENCES_README.md` for complete usage guide
 
+### Cleanup Automation CLI (`cleanup-cli.ts`)
+- **Purpose**: Opinionated Bun CLI for removing generated artefacts, debug logs, caches, and backups while guarding intentional assets.
+- **Profiles & Flags**:
+  - `--profile <safe|moderate|aggressive>` plus per-category overrides (`--categories`, `--include-glob`, `--exclude-glob`).
+  - `--backup-policy daily=3,weekly=2` retains one backup per bucket; `--git-commit-before` snapshots pre-clean.
+  - Cache controls via `--cache-mode <remove|truncate|preserve>`.
+  - **Reference verifier cache aware**: `--reference-cache-mode <preserve|prune|clear>` defaults to `prune`, which uses the same TTL rules as `verify-references.ts` (CrossRef ≈30d, arXiv 90d, OpenLibrary 7d, web-search 1d, Claude 7d). `truncate` never nukes `.cache/reference-verification` unless you explicitly pass `--reference-cache-mode clear`.
+- **Dry runs & plans**: `--dry-run` and `--plan-output plan.json` preview changes; `--rewrite-history` optionally purges deleted paths via `git filter-repo`.
+- **Tests**: Run `bun test Tests/cleanup_cli/cleanup_cli.test.ts` before shipping changes to ensure cache pruning logic and retention rules still hold.
+
 ### Walkthrough
 
 Here is an outline of the provided papers, their subject matter, and how they interconnect to form a unified philosophical framework called Emergent Pragmatic Coherentism (EPC). These files are very long and you cant read them all at once, try just reading beginning or searching for relevant terms. Make sure you dont turn the other, supporting papers into eachother, they should have clearish boundaries, and reference eachother where needed, and not over-re-hash what has already been written beyond what is needed.
