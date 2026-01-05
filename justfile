@@ -244,3 +244,25 @@ transform-appendix input='' dry_run='false':
 	if ("{{input}}") { $args += @("-InputFile", "{{input}}") }
 	if ("{{dry_run}}" -eq "true") { $args += "-DryRun" }
 	& {{ps_exec}} -File "{{project_root}}\scripts\transform-paper.ps1" @args
+
+# Run the references organizer test harness to ensure tooling is healthy.
+# Arguments:
+#   verbose true/false to show subprocess stdout (default true).
+test-organizer verbose='true':
+	$psi = New-Object System.Diagnostics.ProcessStartInfo
+	$psi.FileName = "{{python}}"
+	$psi.ArgumentList = @("scripts/test_references_organizer.py")
+	$psi.RedirectStandardOutput = $true
+	$psi.RedirectStandardError = $true
+	$psi.UseShellExecute = $false
+	$process = [System.Diagnostics.Process]::Start($psi)
+	$stdout = $process.StandardOutput.ReadToEnd()
+	$stderr = $process.StandardError.ReadToEnd()
+	$process.WaitForExit()
+	if ("{{verbose}}" -eq "true") {
+		Write-Host $stdout.TrimEnd()
+		if ($stderr.Trim().Length -gt 0) { Write-Warning $stderr.TrimEnd() }
+	}
+	if ($process.ExitCode -ne 0) {
+		throw "references_organizer tests failed with exit code $($process.ExitCode)"
+	}
