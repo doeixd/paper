@@ -179,7 +179,7 @@ def test_comprehensive():
     print("Testing comprehensive scenarios...")
 
     if not Path('test_references.md').exists():
-        print("⚠ Skipping comprehensive test - test_references.md not found")
+        print("Skipping comprehensive test - test_references.md not found")
         return True
 
     # Create a copy for testing
