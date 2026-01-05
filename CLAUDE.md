@@ -158,3 +158,15 @@ Relation: This is a domain-specific application of the general theory found in f
    - Wholes correspond to **Initial Objects** in the subcategory of causally closed, low-complexity models. Any alternative adequate model factors uniquely through the whole, explaining convergence across investigators.
    - Reductionist "forgetful" functors back to the micro level are not full or faithful, which is why purely micro descriptions fail to recover the counterfactual structure that makes wholes action-guiding.
    - Keep the tripartite invariance distinction (constitutive constraints, covariant rules, convergent wholes) when mapping EPC claims into formal language, so readers see how constraints generate both the admissible morphisms and the inevitable objects.
+
+4. **toe.md**. Informational-constraint account of gravity, spacetime, and quantum behavior that dovetails with EPC's realism claims.
+   - Treat gravity as a statistical tendency driven by informational cost gradients; use this when linking macro-level autonomy to thermodynamic selection pressures.
+   - Remember spatial distance is reinterpreted as operational cost. Keep references qualitative and highlight how constraint geometry, not fundamental forces, drives behavior.
+   - Quantum states are epistemic summaries constrained by causal graphs. Use this framing to connect EPC's standing predicates to active inference and free-energy arguments without claiming predictive closure the framework does not supply.
+   - When referencing entanglement or lazy evaluation metaphors, emphasize structural adjacency in the causal graph and respect the stated empirical limitations (e.g., dependence on continued null dark matter results).
+
+5. **STYLE_GUIDE.md**. Detailed editorial heuristics that enforce resilience-first prose.
+   - Follow the "Adversarial Reviewer" mindset, linear baton-passing, and clause-stacking bans to keep arguments defensible.
+   - Obey the strict "No Pseudo-Quantification" rule, limited boldface, no em dashes, and LaTeX-only math variables to satisfy script requirements.
+   - Use the checklist phases (logical integrity, clarity, flow, rhetorical resilience, tone, redundancy, mechanics) when validating revisions; cite them explicitly in edit notes if you lean on a specific policy.
+   - Keep the "illustration not evidence" rule in mind whenever adding examples, and avoid introducing new capitalized terminology unless absolutely unavoidable.
