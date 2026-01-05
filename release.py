@@ -64,7 +64,8 @@ try:
         generate_filtered_references,
         remove_references_section,
         combine_paper_and_references,
-        convert_with_pandoc
+        convert_with_pandoc,
+        extract_frontmatter
     )
     logger.info("Successfully imported paper_converter")
 except ImportError as e:
@@ -598,6 +599,37 @@ class PaperRelease:
 
         for attempt in range(max_retries + 1):
             try:
+                # Step 0: Metadata processing
+                logger.info("Processing metadata...")
+                metadata = self.config.get('metadata', {}).copy()
+
+                try:
+                    with open(input_path, 'r', encoding='utf-8') as f:
+                        content = f.read()
+
+                    fm_str, _ = extract_frontmatter(content)
+                    if fm_str and HAS_YAML:
+                        fm_data = yaml.safe_load(fm_str)
+                        if isinstance(fm_data, dict):
+                            # Merge: front matter overrides defaults
+                            metadata.update(fm_data)
+                            logger.info("Merged metadata from front matter")
+                except Exception as e:
+                    logger.warning(f"Could not process front matter: {e}")
+
+                # Generate temporary metadata file for pandoc
+                metadata_file = input_path.with_suffix('.metadata.yaml')
+                try:
+                    with open(metadata_file, 'w', encoding='utf-8') as f:
+                        if HAS_YAML:
+                            yaml.dump(metadata, f)
+                        else:
+                            json.dump(metadata, f)
+                    self.temp_files.append(metadata_file)
+                except Exception as e:
+                    logger.error(f"Failed to create metadata file: {e}")
+                    raise RuntimeError(f"Metadata file creation failed: {e}")
+
                 # Step 1: Extract citations with error handling
                 logger.info("Extracting citations...")
                 try:
@@ -647,7 +679,7 @@ class PaperRelease:
                 logger.info("Combining paper with filtered references...")
                 combined_file = input_path.with_stem(f"{input_path.stem}_combined")
                 try:
-                    combine_paper_and_references(str(input_path), str(filtered_refs_file), str(combined_file))
+                    combine_paper_and_references(str(input_path), str(filtered_refs_file), str(combined_file), strip_frontmatter=True)
                 except Exception as e:
                     logger.error(f"Failed to combine paper and references: {e}")
                     raise RuntimeError(f"File combination failed: {e}")
@@ -684,7 +716,7 @@ class PaperRelease:
                 timeout = self.config.get('processing.timeout', 300)
                 try:
                     success, error = self._run_with_timeout(
-                        lambda: convert_with_pandoc(str(combined_file), str(target_file), format_type, preamble_file),
+                        lambda: convert_with_pandoc(str(combined_file), str(target_file), format_type, preamble_file, metadata_file=str(metadata_file)),
                         timeout
                     )
                 except Exception as e:

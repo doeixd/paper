@@ -17,10 +17,17 @@ Usage:
 
 import os
 import re
+import json
 import argparse
 import subprocess
 from pathlib import Path
 from datetime import datetime
+
+try:
+    import yaml
+    HAS_YAML = True
+except ImportError:
+    HAS_YAML = False
 
 # Import citation extraction functions from citation_extractor module
 try:
@@ -29,6 +36,20 @@ try:
 except ImportError:
     CITATION_EXTRACTOR_AVAILABLE = False
     print("Warning: citation_extractor module not found, using fallback extraction")
+
+def extract_frontmatter(content):
+    """
+    Separate YAML front matter from the body.
+    Returns: (frontmatter_string, body_string)
+    """
+    # Look for --- at the very beginning
+    if content.startswith('---'):
+        # Find the second ---
+        # We use re.DOTALL to make . match newlines
+        match = re.match(r'^---\s*\n(.*?)\n---\s*\n(.*)$', content, re.DOTALL)
+        if match:
+            return match.group(1), match.group(2)
+    return None, content
 
 def is_valid_citation(author, year):
     """Check if a potential citation is valid (not an abbreviation or invalid format)."""
@@ -422,11 +443,16 @@ def remove_references_section(content):
 
     return '\n'.join(new_lines)
 
-def combine_paper_and_references(paper_file, filtered_refs_file, output_file):
+def combine_paper_and_references(paper_file, filtered_refs_file, output_file, strip_frontmatter=False):
     """Combine the paper content with filtered references."""
     # Read paper content
     with open(paper_file, 'r', encoding='utf-8') as f:
         paper_content = f.read()
+
+    # Extract front matter if requested
+    frontmatter = None
+    if strip_frontmatter:
+        frontmatter, paper_content = extract_frontmatter(paper_content)
 
     # Remove existing references section
     paper_content = remove_references_section(paper_content)
@@ -444,9 +470,12 @@ def combine_paper_and_references(paper_file, filtered_refs_file, output_file):
 
     return output_file
 
-def convert_with_pandoc(input_file, output_file, format_type, preamble_file=None):
+def convert_with_pandoc(input_file, output_file, format_type, preamble_file=None, metadata_file=None):
     """Convert markdown to LaTeX or Typst using pandoc."""
     cmd = ['pandoc', input_file]
+
+    if metadata_file:
+        cmd.extend(['--metadata-file', metadata_file])
 
     if format_type.lower() == 'latex':
         cmd.extend(['--pdf-engine=pdflatex', '-o', output_file])

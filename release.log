@@ -3416,3 +3416,56 @@ RuntimeError: Failed to convert The Reality of Wholes_combined.typst to PDF: Com
 2025-12-31 14:32:34,284 - INFO - SUCCESS! Release complete in 3.9s
 2025-12-31 14:32:34,285 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (161586 bytes)
 2025-12-31 14:32:34,285 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2026-01-05 08:33:16,262 - INFO - Successfully imported paper_converter
+2026-01-05 08:33:16,263 - INFO - Successfully imported pdf_assembler
+2026-01-05 08:33:18,922 - INFO - Input validation passed: The Reality of Wholes.md (108011 bytes)
+2026-01-05 08:33:18,925 - INFO - Backed up existing file: releases\The-Reality-of-Wholes.pdf -> backups\The-Reality-of-Wholes_20260105_083318.pdf
+2026-01-05 08:33:18,925 - INFO - Starting Academic Paper Release Pipeline
+2026-01-05 08:33:18,925 - INFO - Input: The Reality of Wholes.md
+2026-01-05 08:33:18,925 - INFO - Output: releases\The-Reality-of-Wholes.pdf
+2026-01-05 08:33:18,925 - INFO - Format: typst
+2026-01-05 08:33:18,925 - INFO - Config: 0 validation errors
+2026-01-05 08:33:18,925 - INFO - Converting markdown to target format...
+2026-01-05 08:33:18,925 - INFO - Extracting citations...
+2026-01-05 08:33:18,933 - INFO - Found 22 citations
+2026-01-05 08:33:18,933 - INFO - Loading and processing references...
+2026-01-05 08:33:18,935 - INFO - Loaded 1368 reference entries
+2026-01-05 08:33:18,936 - INFO - Generated 12 references (strategy: filter)
+2026-01-05 08:33:18,936 - WARNING - 1 citations not found in references.md
+2026-01-05 08:33:18,936 - INFO - Combining paper with filtered references...
+2026-01-05 08:33:18,953 - INFO - Combined file created: 108907 bytes
+2026-01-05 08:33:18,953 - INFO - Converting to typst format...
+2026-01-05 08:33:19,856 - INFO - Target file created: 112894 bytes
+2026-01-05 08:33:19,856 - INFO - Successfully converted to typst: The Reality of Wholes_combined.typst
+2026-01-05 08:33:19,856 - INFO - Generating PDF with attachments...
+2026-01-05 08:33:19,856 - INFO - Main document: The Reality of Wholes_combined.typst
+2026-01-05 08:33:19,870 - INFO - Converting The Reality of Wholes_combined.typst (typst) to PDF...
+2026-01-05 08:33:22,647 - INFO - Converted to PDF: The Reality of Wholes_combined.pdf
+2026-01-05 08:33:22,648 - INFO - Copied single PDF to: releases\The-Reality-of-Wholes.pdf
+2026-01-05 08:33:22,648 - INFO - PDF generation successful: 170553 bytes
+2026-01-05 08:33:22,648 - INFO - Adding metadata to PDF...
+2026-01-05 08:33:22,648 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2026-01-05 08:33:22,648 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2026-01-05 08:33:22,648 - INFO - Validated final PDF: releases\The-Reality-of-Wholes.pdf (170553 bytes)
+2026-01-05 08:33:22,648 - INFO - Starting cleanup...
+2026-01-05 08:33:22,649 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2026-01-05 08:33:22,649 - INFO - SUCCESS! Release complete in 3.7s
+2026-01-05 08:33:22,649 - INFO - Final PDF: releases\The-Reality-of-Wholes.pdf (170553 bytes)
+2026-01-05 08:33:22,649 - INFO - Release completed successfully: releases\The-Reality-of-Wholes.pdf
+2026-01-05 10:04:46,842 - INFO - Successfully imported paper_converter
+2026-01-05 10:04:46,844 - INFO - Successfully imported pdf_assembler
+2026-01-05 10:04:46,861 - INFO - Loaded configuration from release.json
+2026-01-05 10:04:46,861 - INFO - Converting markdown to target format...
+2026-01-05 10:04:46,862 - INFO - Processing metadata...
+2026-01-05 10:04:46,876 - INFO - Merged metadata from front matter
+2026-01-05 10:04:46,877 - INFO - Extracting citations...
+2026-01-05 10:04:46,879 - INFO - Found 1 citations
+2026-01-05 10:04:46,879 - INFO - Loading and processing references...
+2026-01-05 10:04:46,890 - INFO - Loaded 8 reference entries
+2026-01-05 10:04:46,891 - INFO - Generated 1 references (strategy: filter)
+2026-01-05 10:04:46,891 - INFO - Combining paper with filtered references...
+2026-01-05 10:04:46,902 - INFO - Combined file created: 260 bytes
+2026-01-05 10:04:46,903 - INFO - Converting to typst format...
+2026-01-05 10:04:46,903 - WARNING - Preamble file not found: typst_preamble.typ
+2026-01-05 10:04:46,997 - INFO - Target file created: 141 bytes
+2026-01-05 10:04:46,998 - INFO - Successfully converted to typst: paper_combined.typst

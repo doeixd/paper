@@ -269,6 +269,25 @@ never add yourself as an author to the paper, or on a git commit.
 - **Use Cases**: One-command academic publishing, consistent formatting across papers, automated journal submission preparation, version control integration
 - **Dependencies**: Requires `pandoc`, `typst` and/or `pdflatex`, plus PDF merging tools (pdfunite/pdftk/pypdf)
 
+
+### Paper Assembly Script (`assemble_paper.ts`)
+- **Purpose**: A Bun-powered utility to merge multiple markdown documents (main paper and appendices) into a single document with smart frontmatter handling and metadata injection.
+- **Basic Usage**:
+  - `bun assemble_paper.ts --main paper.md --out final.md`
+  - `bun assemble_paper.ts --main paper.md --out final.md --appendix app1.md --appendix app2.md`
+  - `bun assemble_paper.ts --main paper.md --out final.md --strategy smart --metadata metadata.json`
+- **Command-Line Options**:
+  - `--main <path>`: (Required) Path to the primary markdown file.
+  - `--out <path>`: (Required) Path for the assembled output file.
+  - `--appendix <path>`: (Multiple) Path(s) to appendix files to be appended.
+  - `--strategy <simple|smart>`: Merge strategy (default: `simple`).
+    - `simple`: Direct concatenation of files.
+    - `smart`: Extracts frontmatter from main, strips it from appendices, and allows metadata injection into the final frontmatter.
+  - `--metadata <path|string>`: JSON/YAML/TOML file path or raw JSON string to merge into the frontmatter (requires `smart` strategy).
+  - `--separator <string>`: Custom separator between files (default: `\n\n---\n\n`).
+- **Use Cases**: Preparing a complete manuscript for submission, injecting dynamic metadata (titles, authors, versions) into a combined document, and ensuring clean concatenation without redundant frontmatter blocks.
+- **Dependencies**: Requires Bun runtime.
+
 ### Reference Verification Script (`verify-references.ts`)
 - **Purpose**: Automatically verify and correct academic references in `references.md` using multiple free APIs (CrossRef, OpenLibrary, arXiv) with Claude CLI as research fallback
 - **Basic Usage**:

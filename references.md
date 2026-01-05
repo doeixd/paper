@@ -10,9 +10,13 @@ Aslin, Richard N., and Elissa L. Newport. 2012. "Statistical Learning" *Current 
 
 Axelrod, Robert. 1985. *Evolution of Cooperation*. New York: Basic Books. ISBN 978-0465021215.
 
+Awodey, Steve. 2010. *Category Theory*. 2nd ed. Oxford: Oxford University Press. ISBN 978-0199237180.
+
 Mahammad Ayvazov, Mahammad. 2025. "Improbability as Epistemic Attraction: Beyond Probabilistic Fields toward Phase-Induced Cognition" Preprint, April 2025.
 
 Ayvazov, Mahammad. 2025. "Toward a Phase Epistemology: Coherence, Response and the Vector of Mutual Uncertainty." *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.5250197.
+
+Baez, John C., and James Dolan. 2001. "From Finite Sets to Feynman Diagrams." In *Mathematics Unlimited: 2001 and Beyond*, edited by Björn Engquist and Wilfried Schmid, 29-50. Berlin: Springer. ISBN 978-3642562266.
 
 Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism and Theories of Emergence." *European Journal of Pragmatism and American Philosophy* XI-2. https://doi.org/10.4000/ejpap.1611.
 
@@ -198,6 +202,8 @@ Laukkonen, Ruben, et al. 2025. "A Beautiful Loop: An Active Inference Theory of 
 
 Lehrer, Keith. 1990. *Theory of Knowledge*. Boulder, CO: Westview Press. ISBN 978-0415054072.
 
+Leinster, Tom. 2014. *Basic Category Theory*. Cambridge: Cambridge University Press. ISBN 978-1107044241.
+
 Li, Y., et al. 2025. "Pragmatics in the Era of Large Language Models: A Survey on Datasets, Evaluation, Opportunities and Challenges." arXiv preprint arXiv:2502.12378.
 
 Longino, Helen E. 1990. *Science as social knowledge*. Princeton, NJ: Princeton University Press. ISBN 978-0691020518.
@@ -210,12 +216,16 @@ Lynch, Michael P. 2009. *Truth as One and Many*. Oxford: Clarendon Press. ISBN 9
 
 Mackie, J. L. 1991. *Ethics*. London: Penguin Books. ISBN 978-0140135589.
 
+Mac Lane, Saunders. 1971. *Categories for the Working Mathematician*. New York: Springer-Verlag. ISBN 978-0387900360.
+
 Mangalam, Madhur. 2025. "The Emperor's New Pseudo-Theory: How the Free Energy Principle Ransacked Neuroscience." Preprint. DOI: 10.31234/osf.io/azkgc. https://osf.io/azkgc.
 
 Bolhuis, Johan J., Stephen Crain, Sandiway Fong, and Andrea Moro. 2024. "Three Reasons Why AI Doesn't Model Human Language." *Nature* 627 (8004): 489. https://doi.org/10.1038/d41586-024-00824-z. ISSN 0028-0836.
 
 
 March, James G. 1978. "Bounded Rationality, Ambiguity, and the Engineering of Choice." *The Bell Journal of Economics* 9, no. 2: 587–608. https://doi.org/10.2307/3003600.
+
+Marquis, Jean-Pierre. 2015. "Category Theory." In *Stanford Encyclopedia of Philosophy*, edited by Edward N. Zalta. https://plato.stanford.edu/entries/category-theory/
 
 Marcus, Gary F. 2003. *The Algebraic Mind*. Cambridge, MA: MIT Press. ISBN 978-0262632683.
 

@@ -91,6 +91,46 @@ In this paper, 'real' means: supporting a self-contained, non-leaky
 description achieving Causal Closure that is sufficient for prediction,
 intervention, and control across a diverse range of physical forms.
 
+A crucial distinction guides this inquiry: interventionism establishes
+explanatory and interventional autonomy, not ontological fundamentality.
+When macro-variables support successful intervention while micro-details
+are screened off, those macro-variables are causally sufficient for the
+phenomenon at hand. This does not make them metaphysically fundamental;
+it makes them the appropriate level of causal description. The paper
+demonstrates that wholes are real as unified loci of causal powers, not
+as ontological bedrock.
+
+A crucial methodological point must be clarified upfront to avoid
+misinterpretation. This paper does not claim that prediction,
+intervention, or usefulness constitute what exists. Rather, we use them
+diagnostically. The claim is structural realist: there are
+mind-independent dependency patterns in the world, and some
+coarse-grainings track them better than others because they align with
+the constraint structure of physical reality. The Markov blankets we
+identify are not epistemic choices; they are statistical facts about
+conditional independence that exist whether or not any observer computes
+them. When we say "the heart is real," we do not mean "the heart is
+useful to us." We mean "there exists an objectively measurable
+statistical dependency structure between heart-level variables and
+heart-cell futures that is stronger than the dependency between those
+same cells and external variables like Tokyo weather." This dependency
+is a fact about the world's causal topology, not a fact about our
+interests.
+
+This framework is sometimes misread as making reality task-relative:
+"the heart exists for the task of pumping blood." This inverts the
+causal order. The heart does not exist because we have a task. Rather,
+certain tasks are possible because a particular statistical structure
+exists. The dependency between heart cells and cardiac output is not
+created by our choosing to model it; it is a consequence of locality,
+diffusion constraints, and the fact that electromagnetic and chemical
+signals propagate at finite speeds. Any physical system attempting to
+maintain a pressure gradient across a spatial boundary will face the
+same constraints. The "task" of pumping blood is possible only because
+the constraint structure of physics permits a stable coarse-graining at
+the organ level. We discover this structure through our modeling
+efforts; we do not create it.
+
 Consider $pi$. Is it discovered or invented? Neither. It is
 #emph[constraint-determined];. Given Euclidean geometry's axioms, the
 ratio of circumference to diameter is determined. Any intelligence
@@ -171,9 +211,14 @@ boundaries; specifically, those achieving Causal Closure.
 
 This property requires a definition:
 
-#strong[Causal Autonomy];: A system is causally autonomous when its
-future states are fully predictable and controllable, to a specified
-tolerance, using only variables defined at its own boundary.
+#strong[Causal Autonomy];: A system is causally autonomous relative to a
+class of interventions and timescales when prediction of its future
+macrostates does not require continual importation of external
+microstate information beyond what is encoded at its boundary. Formally,
+this corresponds to cases where the conditional algorithmic complexity
+$K \( X_(t + 1) divides B_t \)$ is approximately equal to
+$K \( X_(t + 1) divides B_t \, E_t \)$, indicating low boundary
+leakiness.
 
 Once causal autonomy is established, the nihilist position reduces to a
 largely terminological stance. If "facts about arrangements" perform all
@@ -211,17 +256,37 @@ macro-variables predict as well as micro-variables, then the macro-level
 #emph[is] the causal level for that phenomenon. Adding micro-detail
 changes nothing about what interventions will succeed.
 
-The Ptolemaic objection (that epicycles predicted planetary motion
-without being real) actually supports our case. Epicycles failed
-precisely because they did not support intervention: you could not steer
-a planet by manipulating its epicycle. The macro-objects we defend
-(cells, hurricanes, economies) pass the interventionist test that
-epicycles fail.
+A critical distinction must be made: successful prediction alone is
+insufficient for causal power. The Ptolemaic epicycles predicted
+planetary positions adequately for centuries, yet they failed the
+interventionist test because they did not support intervention across
+novel perturbations. You could not steer a planet by manipulating its
+epicycle. By contrast, macro-objects we defend (cells, hurricanes,
+organs) exhibit counterfactual robustness: interventions succeed not
+just for the phenomena they were optimized for, but across a wide class
+of novel settings. This generalization under perturbation is what
+distinguishes genuine causal power from predictive overfitting.
 
 Crucially, this is not a denial of microphysical completeness, nor an
 argument for "spooky" emergence. It is an account of why causal units
 appear at multiple scales in a universe constrained by locality,
 information flow, and thermodynamics.
+
+A final potential misreading must be forestalled. When we invoke
+prediction and intervention as tests for boundaries, a critic might
+object: "These are merely epistemic lenses, not ontological facts." This
+confuses the test with what is being tested. Prediction and intervention
+are diagnostic tools that reveal pre-existing statistical structure. The
+correlations between heart-level variables and cardiac-cell futures
+exist whether or not anyone computes them. These dependency structures
+are the terrain, not the lens. What makes a boundary real is not that we
+find it useful to predict through it, but that the world's causal
+topology exhibits conditional independence at that scale. Locality and
+finite signal propagation create these independencies as physical facts.
+Our predictive models succeed when they align with this terrain; they
+fail when they don't. The "lenses" we use must conform to the structure
+that is already there. We are not choosing where to draw boundaries; we
+are discovering where the conditional independencies already lie.
 
 The argument proceeds in four stages. First, we demonstrate that
 statistical boundaries emerge robustly from these four premises across a
@@ -559,6 +624,21 @@ Projectibility (support for counterfactual predictions) is objective.
 Approximate closure does not undermine reality; it is precisely what
 allows robustness across noise, perturbation, and scale.
 
+A common objection must be addressed: "If removing the heart kills the
+organism, doesn't this prove the heart is not causally autonomous?" This
+objection confuses causal autonomy with causal isolation. We do not
+claim the heart is causally isolated from the body; we claim it exhibits
+relative autonomy for certain intervention classes and timescales. The
+fact that destroying the heart destroys the organism demonstrates upward
+leakiness (the whole depends on the part). But this does not negate the
+downward closure: the heart's cell-level futures are more tightly
+correlated with heart-level variables (pressure, rhythm, valve state)
+than with external variables. The boundary is leaky, but the degree of
+leakiness is objectively measurable as the mutual information between
+internal states and external variables, given the boundary state. A
+leaky boundary is still a real statistical structure. The gradient is in
+the world.
+
 This explains why doctors treat organs, not cells. Heart failure is not
 fixed by adjusting cardiomyocyte ion channels. Cardiologists alter
 organ-level dynamics. The heart's boundary creates causal autonomy.
@@ -611,6 +691,14 @@ system's constraints. These constraint-relative entities function as
 objective invariants within their dimensional logic, imposing
 non-negotiable consequences on the agent's future possibilities just as
 rigidly as physical walls impose spatial constraints.
+
+Beyond domain-specificity, we will later formalize a fifth criterion:
+cross-dimensional overlap. Entities that appear without reinterpretation
+across multiple independent constraint domains (physics, biology, law,
+economics) exhibit a form of reality stronger than domain-specific
+patterns. This explains why cells feel "more real" than chess
+strategies, despite both achieving causal closure within their
+respective dimensions.
 
 But showing that boundaries #emph[can] exist is not enough. To move from
 noticing these dimensions to measuring their reality, we require a
@@ -834,6 +922,18 @@ fighting against reality's grain. Phlogiston was not a natural joint;
 oxygen was. The universe's constraint structure filtered which closures
 survive empirical scrutiny.
 
+We can formalize this pattern as maintenance cost: the rate at which a
+theoretical posit requires additional parameters to accommodate new
+observations. This cost is measurable as algorithmic complexity influx:
+each new ad-hoc parameter increases the description length of the
+theory. Failed closures like phlogiston exhibited escalating maintenance
+costs because no stable Markov blanket existed. Each new observation
+required a new exception. Successful closures like oxygen exhibited
+declining maintenance costs because the boundary genuinely screened off
+irrelevant micro-fluctuations. The maintenance cost diagnostic is not
+subjective; it tracks the objective compressibility of the theory under
+empirical pressure.
+
 Like $pi$, successful entities are constraint-determined compressions.
 Just as $pi$ is robustly selected by Euclidean axioms (any alternative
 inflates calculation complexity without bound), oxygen is robustly
@@ -974,15 +1074,17 @@ significance.
 These considerations reveal a common structure underlying causal
 autonomy, invariance, and dimensional overlap. A boundary that exhibits
 low leakiness permits sustained compression of the system's dynamics.
-Wholes recur across domains because the same computational structures
-arise as stable, non-leaky coarse-grainings under widely different
-micro-dynamics. Invariance here reflects the reappearance of the same
-effective computation, not a privileged ontological status.
+When such compression succeeds independently across multiple explanatory
+domains (thermodynamic, biological, economic, or legal), the same
+boundary reappears as an invariant under distinct constraint systems.
 Cross-dimensional overlap is therefore not an additional metaphysical
 ingredient, but a signal that the boundary resists complexity leakage
 under many forms of intervention. Entities that persist across
 dimensions are those whose boundaries minimize algorithmic complexity
-inflow across a wide range of constraints.
+inflow across a wide range of constraints. This is why hurricanes feel
+"more real" than constellations: not because they are more fundamental,
+but because independent constraint systems converge on the same
+boundary.
 
 We have now established that boundaries are constraint-determined,
 discoverable structures achieving causal closure across multiple
@@ -1133,11 +1235,12 @@ atoms or electrons, provided the causal architecture is preserved (Rosas
 et al.~2024).
 
 The physical layer provides the capacity for existence, but the
-structural layer dictates the outcome. The nihilist who insists on
-reducing everything to the substrate is like a hardware engineer trying
-to find a spelling error by inspecting the motherboard with a
-microscope. They are examining the reality of the implementation while
-missing the reality of the dynamic.
+structural layer dictates the outcome. This is not to dismiss the
+nihilist position as incoherent, but to clarify the explanatory cost:
+the nihilist who insists on reducing everything to the substrate is like
+a hardware engineer trying to find a spelling error by inspecting the
+motherboard with a microscope. They are examining the reality of the
+implementation while missing the reality of the dynamic.
 
 The nihilist's error is looking for boundaries in "Real Space" (the
 geometric arrangement of particles). In Real Space, boundaries often
@@ -1251,11 +1354,16 @@ This logic applies recursively across every level of the universe. The
 rock is more fundamental than the corporation, but the corporation is
 just as causally autonomous within its causal domain.
 
-The boundary changes what would happen if you intervened. If the
-boundary is indispensable to prediction and intervention, and performs
-genuine causal work, what could it mean to deny ontological commitment
-to what it bounds? In a meaningful sense, the boundary warrants treating
-its interior as an ontologically autonomous entity.
+The boundary changes what would happen if you intervened. The nihilist
+might concede that boundaries are causally indispensable while denying
+they warrant ontological commitment. This retreat is formally consistent
+but explanatorily costly. By insisting that only particles exist, the
+nihilist accepts a description that requires tracking $10^23$ degrees of
+freedom where tracking 10 would suffice. The question is not whether
+this stance is logically possible, but what explanatory or predictive
+advantage it provides. If the answer is "none," then the dispute reduces
+to a terminological preference about the word "real" rather than a
+substantive disagreement about causal structure.
 
 Consider what it means for a boundary to warrant ontological commitment.
 The hurricane's boundary is not a label we apply to existing molecules;
@@ -1373,9 +1481,12 @@ role is an honorific, not an explanatory category.
 
 The key insight: boundaries are not arbitrary labels but
 constraint-determined invariants. Biological and social boundaries share
-this status. To exist, in the relevant sense, is to be an invariant
-solution to a constraint problem that any sufficiently capable agent
-operating under finite resources will converge on encoding.
+this status. An entity is universally discoverable when any sufficiently
+capable agent attempting to predict and intervene within the same
+constraints is forced to encode it, on pain of incurring unsustainable
+algorithmic complexity. This universality is epistemic rather than
+metaphysical: it reflects convergence under shared constraints, not
+fundamentality.
 
 Any intelligence modeling hurricane dynamics will converge on the vortex
 compression, because it is robustly selected by thermodynamic
@@ -1510,6 +1621,24 @@ anything about their mitochondria. This predictive independence
 demonstrates causal autonomy at the civic scale. The nihilist's attempt
 to reduce the cell to atoms is a category error: it confuses one scale
 of description with the only reality.
+
+Structural realism of this form permits multiple overlapping real
+patterns without requiring a unique "correct" decomposition. The heart
+can simultaneously be: a hydraulic pump (cardiovascular medicine), a
+tissue culture medium (cellular biology), an electrical circuit
+(electrophysiology), an evolved organ (evolutionary biology), and a
+symbolic locus of emotion (cultural studies). These are not competing
+for the throne of "what the heart really is." Each represents a valid
+coarse-graining that achieves low leakiness within its respective
+constraint domain. What makes them all real is that each tracks an
+objectively measurable statistical dependency structure. What makes them
+compatible is that they operate over different state spaces with
+different intervention classes. The framework does not claim "the heart
+is real only insofar as it pumps blood"; it claims "the heart-as-pump
+achieves Causal Closure in the cardiovascular intervention space, while
+heart-as-electrical-circuit achieves Causal Closure in the
+electrophysiological space." Both closures are real; both are
+discoverable; neither is reducible to the other.
 
 Beyond scale relativity, invariants vary along multiple dimensions of
 'realness,' creating a rich multi-dimensional spectrum rather than a
