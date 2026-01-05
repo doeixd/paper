@@ -140,7 +140,7 @@ Relation: This is a domain-specific application of the general theory found in f
 - `final.md`, `from-beliefs-to-truth.md`, `proc_v7.md`, `The Reality of Wholes.md`, etc., are the current EPC manuscripts. **Ignore `paper.md`; it is an outdated draft kept only for reference.**
 - `references.md` stores the Chicago-style bibliography. Append new citations alphabetically and mirror existing formatting exactly.
 - `edits/` houses mandatory timestamped summaries (`YYYY-MM-DD - HH-MM - SUMMARY ...`) after substantial work. 
-- `sources/`, `random/`, `physics/`, and `backups/` contain supporting material or archives. Treat them as read-only unless the user explicitly instructs otherwise. You can search them for background info or keywords if you need to. Just make sure to verify the information is correct/up-to-date before using it.
+- `sources/`, `random/`, `physics/`, `old/`, and `backups/` contain supporting material or archives. Treat them as read-only unless the user explicitly instructs otherwise. You can search them for background info or keywords if you need to. Just make sure to verify the information is correct/up-to-date before using it.
 - `scripts/` and the root `justfile` mediate automation (release prep, citation checks, appendices). Run `just --list` before inventing bespoke tooling. Read the justfile for more info.
 - `releases/` captures deliverables; `backups/` mirrors snapshots. Do not hand-edit files there.
 - `CLAUDE.md` mirrors `AGENTS.md`. Keep any structural instructions consistent between them when possible.
