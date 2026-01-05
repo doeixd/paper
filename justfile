@@ -1,3 +1,24 @@
+#
+# Emergent Pragmatic Coherentism Automation Playbook
+# --------------------------------------------------
+# This repository’s entire tooling surface lives under `scripts/`. To keep those
+# commands discoverable and harden their defaults, every workflow is exposed as a
+# Just recipe. Key ideas:
+#   • Run `just help` for a narrative overview or `just --list` to see every
+#     recipe and its parameters. Each recipe mirrors the original CLAUDE.md docs.
+#   • All commands execute from the repo root, so relative paths (e.g. `paper.md`,
+#     `references.md`, `releases/final.pdf`) match the scripts’ expectations.
+#   • Python, Bun, and PowerShell wrappers are configurable via the variables
+#     below if you need virtual environments or non-default runtimes.
+#   • Recipes are composable: e.g., `just citations files='final.md proc_v7.md'`
+#     pipes straight into `scripts/citation_extractor.py` with the right flags,
+#     while `just release-final` wraps the full release pipeline with safe
+#     defaults.
+#   • Use long-form arguments (e.g., `format=typst dry_run=true`) so commands are
+#     self-documenting in commit logs.
+# When in doubt, inspect the recipe you are about to run; each block explains the
+# relevant options with inline comments.
+#
 set shell := ["powershell", "-NoProfile", "-Command"]
 
 project_root := justfile_directory()
