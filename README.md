@@ -43,3 +43,15 @@ This work is shared for academic purposes. Please cite appropriately.
 ## Contact
 
 For questions or feedback, refer to the edits directory for revision history or open an issue on the repository.
+
+## Cleanup Automation CLI
+
+The repository now includes `cleanup-cli.ts`, a Bun-powered utility that removes generated artefacts, caches, debug dumps, and ad-hoc backups with configurable safety tiers.
+
+- **Profiles**: `safe`, `moderate`, and `aggressive` presets cover typical release hygiene levels while remaining overridable with `--categories` or `--include-glob`.
+- **Backup retention**: Use `--backup-policy daily=3,weekly=2` to keep one representative backup per time bucket.
+- **Cache strategies**: Choose between deleting caches, truncating their contents, or preserving them entirely with `--cache-mode`.
+- **Git safety**: Optional `--git-commit-before` (default on) snapshots the repo before cleaning; `--rewrite-history` rewrites commits to purge the deleted files when you explicitly request it.
+- **Plans & dry-runs**: Every run starts with a plan summary; pass `--dry-run=false --yes` to apply non-interactively, or `--plan-output plan.json` for auditing.
+
+Run `bun cleanup-cli.ts --help` for the full option list, or pair it with a JSON config via `--config cleanup.config.json` to encode project-specific defaults.
