@@ -9,10 +9,10 @@ This script processes a markdown paper file by:
 4. Converting to LaTeX or Typst using pandoc
 
 Usage:
-    python paper_converter.py paper.md                    # Convert to LaTeX
-    python paper_converter.py paper.md --format typst    # Convert to Typst
-    python paper_converter.py paper.md --preamble preamble.tex  # Use custom preamble
-    python paper_converter.py paper.md --output final.tex # Custom output file
+    python scripts/paper_converter.py paper.md                    # Convert to LaTeX
+    python scripts/paper_converter.py paper.md --format typst    # Convert to Typst
+    python scripts/paper_converter.py paper.md --preamble preamble.tex  # Use custom preamble
+    python scripts/paper_converter.py paper.md --output final.tex # Custom output file
 """
 
 import os
@@ -531,13 +531,13 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python paper_converter.py paper.md                           # Convert to LaTeX (filter strategy)
-  python paper_converter.py paper.md --format typst           # Convert to Typst
-  python paper_converter.py paper.md --strategy merge         # Include all references
-  python paper_converter.py paper.md --strategy keep          # Keep existing references
-  python paper_converter.py paper.md --preamble preamble.tex  # Use custom preamble
-  python paper_converter.py paper.md --output final.tex       # Custom output file
-  python paper_converter.py paper.md --keep-temp              # Keep temporary files
+  python scripts/paper_converter.py paper.md                           # Convert to LaTeX (filter strategy)
+  python scripts/paper_converter.py paper.md --format typst           # Convert to Typst
+  python scripts/paper_converter.py paper.md --strategy merge         # Include all references
+  python scripts/paper_converter.py paper.md --strategy keep          # Keep existing references
+  python scripts/paper_converter.py paper.md --preamble preamble.tex  # Use custom preamble
+  python scripts/paper_converter.py paper.md --output final.tex       # Custom output file
+  python scripts/paper_converter.py paper.md --keep-temp              # Keep temporary files
         """
     )
 

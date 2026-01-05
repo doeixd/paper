@@ -13,9 +13,13 @@ import subprocess
 import sys
 
 
+SCRIPT_DIR = Path(__file__).resolve().parent
+ORGANIZER_SCRIPT = SCRIPT_DIR / "references_organizer.py"
+
+
 def run_organizer(input_file, output_file=None, dry_run=False, backup=False):
     """Run the references organizer on a file."""
-    cmd = [sys.executable, 'references_organizer.py', '--file', str(input_file)]
+    cmd = [sys.executable, str(ORGANIZER_SCRIPT), '--file', str(input_file)]
 
     if dry_run:
         cmd.append('--dry-run')
@@ -24,7 +28,7 @@ def run_organizer(input_file, output_file=None, dry_run=False, backup=False):
     if output_file:
         # For testing, we'll copy to output file first
         shutil.copy2(input_file, output_file)
-        cmd = [sys.executable, 'references_organizer.py', '--file', str(output_file)]
+        cmd = [sys.executable, str(ORGANIZER_SCRIPT), '--file', str(output_file)]
 
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, cwd=os.getcwd(), timeout=30)

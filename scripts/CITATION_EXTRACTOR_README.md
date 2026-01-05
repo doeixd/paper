@@ -1,6 +1,6 @@
 # Citation Extractor Script
 
-Enhanced Python script to extract and verify citations in academic papers.
+Enhanced Python script to extract and verify citations in academic papers. Run commands from the repository root so every invocation prefixes the path with `scripts/`.
 
 ## Features
 
@@ -24,22 +24,22 @@ Enhanced Python script to extract and verify citations in academic papers.
 
 ```bash
 # Scan all .md files in directory
-python citation_extractor.py
+python scripts/citation_extractor.py
 
 # Scan specific file
-python citation_extractor.py final.md
+python scripts/citation_extractor.py final.md
 
 # Custom output file
-python citation_extractor.py -o my_citations.txt
+python scripts/citation_extractor.py -o my_citations.txt
 
 # Scan specific file with custom output
-python citation_extractor.py final.md -o final_cites.txt
+python scripts/citation_extractor.py final.md -o final_cites.txt
 ```
 
 ### Command-Line Options
 
 ```bash
-python citation_extractor.py [files...] [options]
+python scripts/citation_extractor.py [files...] [options]
 
 Arguments:
   files                   Specific .md files to scan (optional)
@@ -56,22 +56,22 @@ Options:
 
 ```bash
 # Check only the main paper
-python citation_extractor.py final.md -o final_check.txt
+python scripts/citation_extractor.py final.md -o final_check.txt
 
 # 🆕 Generate submission-ready references file
-python citation_extractor.py final.md -r final_references.md
+python scripts/citation_extractor.py final.md -r final_references.md
 
 # 🆕 Generate references quietly (no console output)
-python citation_extractor.py final.md -r final_refs.md -q
+python scripts/citation_extractor.py final.md -r final_refs.md -q
 
 # Scan multiple files
-python citation_extractor.py final.md paper.md -o combined.txt
+python scripts/citation_extractor.py final.md paper.md -o combined.txt
 
 # Append results to existing file
-python citation_extractor.py final.md -a
+python scripts/citation_extractor.py final.md -a
 
 # Silent mode (no console output)
-python citation_extractor.py -q
+python scripts/citation_extractor.py -q
 ```
 
 ### Reference File Generation (New Feature!)
@@ -79,7 +79,7 @@ python citation_extractor.py -q
 The `-r` or `--generate-references` option creates a new references file containing ONLY the citations actually used in your paper:
 
 ```bash
-python citation_extractor.py final.md -r final_references.md
+python scripts/citation_extractor.py final.md -r final_references.md
 ```
 
 **What it does:**

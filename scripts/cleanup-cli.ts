@@ -154,7 +154,7 @@ const PROFILE_DEFINITIONS: Record<string, ProfileDefinition> = {
 const HELP_TEXT = `Emergent Pragmatic Coherentism — Repository Cleanup CLI
 
 Usage:
-  bun cleanup-cli.ts [options]
+  bun scripts/cleanup-cli.ts [options]
 
 Key options:
   --profile <safe|moderate|aggressive>   Selects a predefined cleanup profile.

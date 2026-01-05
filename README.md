@@ -46,7 +46,7 @@ For questions or feedback, refer to the edits directory for revision history or 
 
 ## Cleanup Automation CLI
 
-The repository now includes `cleanup-cli.ts`, a Bun-powered utility that removes generated artefacts, caches, debug dumps, and ad-hoc backups with configurable safety tiers.
+The repository now includes `scripts/cleanup-cli.ts`, a Bun-powered utility that removes generated artefacts, caches, debug dumps, and ad-hoc backups with configurable safety tiers.
 
 - **Profiles**: `safe`, `moderate`, and `aggressive` presets cover typical release hygiene levels while remaining overridable with `--categories` or `--include-glob`.
 - **Backup retention**: Use `--backup-policy daily=3,weekly=2` to keep one representative backup per time bucket.
@@ -55,4 +55,4 @@ The repository now includes `cleanup-cli.ts`, a Bun-powered utility that removes
 - **Plans & dry-runs**: Every run starts with a plan summary; pass `--dry-run=false --yes` to apply non-interactively, or `--plan-output plan.json` for auditing.
 - **Reference cache aware**: `--reference-cache-mode` defaults to pruning expired `.cache/reference-verification` entries using the same TTL rules as `verify-references.ts`, so you can keep fresh citations but purge stale API responses or clear/preserve explicitly.
 
-Run `bun cleanup-cli.ts --help` for the full option list, or pair it with a JSON config via `--config cleanup.config.json` to encode project-specific defaults.
+Run `bun scripts/cleanup-cli.ts --help` for the full option list, or pair it with a JSON config via `--config cleanup.config.json` to encode project-specific defaults.

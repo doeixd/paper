@@ -1,18 +1,18 @@
 # Reference Verification Script
 
-Automatically verify and correct academic references in `references.md` using multiple free APIs (CrossRef, OpenLibrary, arXiv) with Claude CLI as a research fallback.
+Automatically verify and correct academic references in `references.md` using multiple free APIs (CrossRef, OpenLibrary, arXiv) with Claude CLI as a research fallback. Execute it from the repository root as `bun run scripts/verify-references.ts ...` so it can find the shared data files.
 
 ## Quick Start
 
 ```bash
 # Preview what would change (recommended first run)
-bun run verify-references.ts --dry-run --skip-claude
+bun run scripts/verify-references.ts --dry-run --skip-claude
 
 # Actually verify and correct references
-bun run verify-references.ts
+bun run scripts/verify-references.ts
 
 # Fast verification without Claude CLI fallback
-bun run verify-references.ts --skip-claude
+bun run scripts/verify-references.ts --skip-claude
 ```
 
 ## Features
@@ -63,19 +63,19 @@ The script tries each verifier in order until one succeeds:
 
 ```bash
 # Standard verification with all features
-bun run verify-references.ts
+bun run scripts/verify-references.ts
 
 # Dry run (preview changes without modifying files)
-bun run verify-references.ts --dry-run
+bun run scripts/verify-references.ts --dry-run
 
 # Skip Claude CLI (faster, no API costs)
-bun run verify-references.ts --skip-claude
+bun run scripts/verify-references.ts --skip-claude
 
 # Custom input/output
-bun run verify-references.ts -i custom-refs.md -o corrected-refs.md
+bun run scripts/verify-references.ts -i custom-refs.md -o corrected-refs.md
 
 # Higher confidence threshold (more conservative)
-bun run verify-references.ts --confidence-threshold 0.85
+bun run scripts/verify-references.ts --confidence-threshold 0.85
 ```
 
 ### All Options
@@ -176,7 +176,7 @@ Use `--skip-claude` to disable if you prefer faster execution without AI researc
 
 1. **First run (preview)**:
    ```bash
-   bun run verify-references.ts --dry-run --skip-claude
+   bun run scripts/verify-references.ts --dry-run --skip-claude
    ```
    Reviews what would change without modifying files or using Claude.
 
@@ -188,10 +188,10 @@ Use `--skip-claude` to disable if you prefer faster execution without AI researc
 3. **Final run**:
    ```bash
    # Without Claude (faster, free)
-   bun run verify-references.ts --skip-claude
+   bun run scripts/verify-references.ts --skip-claude
 
    # With Claude (more comprehensive)
-   bun run verify-references.ts
+   bun run scripts/verify-references.ts
    ```
 
 4. **Review changes**:
@@ -273,10 +273,10 @@ Output: [1/1] ✗ Unknown 2025 (claude-cli)
 
 ```bash
 # Test with sample file
-bun run verify-references.ts -i test-refs.md --dry-run
+bun run scripts/verify-references.ts -i test-refs.md --dry-run
 
 # Test specific features
-bun run verify-references.ts --help
+bun run scripts/verify-references.ts --help
 ```
 
 ## License

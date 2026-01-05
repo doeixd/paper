@@ -6,10 +6,10 @@ This script generates PDFs from Typst/LaTeX files and allows attaching
 additional documents to the front or end of the main document.
 
 Usage:
-    python pdf_assembler.py main.typ                    # Convert single file to PDF
-    python pdf_assembler.py main.typ --front cover.pdf  # Add cover page
-    python pdf_assembler.py main.typ --end appendix.pdf # Add appendix
-    python pdf_assembler.py main.tex --output final.pdf # Custom output name
+    python scripts/pdf_assembler.py main.typ                    # Convert single file to PDF
+    python scripts/pdf_assembler.py main.typ --front cover.pdf  # Add cover page
+    python scripts/pdf_assembler.py main.typ --end appendix.pdf # Add appendix
+    python scripts/pdf_assembler.py main.tex --output final.pdf # Custom output name
 """
 
 import os
@@ -169,11 +169,11 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python pdf_assembler.py paper.typ                          # Convert to PDF
-  python pdf_assembler.py paper.typ --front cover.pdf        # Add cover
-  python pdf_assembler.py paper.typ --end appendix.pdf       # Add appendix
-  python pdf_assembler.py paper.tex --output final.pdf       # Custom output
-  python pdf_assembler.py main.typ --front title.pdf --end refs.pdf --output complete.pdf
+  python scripts/pdf_assembler.py paper.typ                          # Convert to PDF
+  python scripts/pdf_assembler.py paper.typ --front cover.pdf        # Add cover
+  python scripts/pdf_assembler.py paper.typ --end appendix.pdf       # Add appendix
+  python scripts/pdf_assembler.py paper.tex --output final.pdf       # Custom output
+  python scripts/pdf_assembler.py main.typ --front title.pdf --end refs.pdf --output complete.pdf
         """
     )
 

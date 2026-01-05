@@ -6,10 +6,10 @@ This script alphabetizes and deduplicates references in references.md format.
 It preserves the exact formatting while ensuring proper ordering and uniqueness.
 
 Usage:
-    python references_organizer.py                    # Process references.md
-    python references_organizer.py --file custom.md   # Process custom file
-    python references_organizer.py --dry-run          # Show changes without writing
-    python references_organizer.py --backup           # Create backup before processing
+    python scripts/references_organizer.py                    # Process references.md
+    python scripts/references_organizer.py --file custom.md   # Process custom file
+    python scripts/references_organizer.py --dry-run          # Show changes without writing
+    python scripts/references_organizer.py --backup           # Create backup before processing
 """
 
 import os
@@ -123,10 +123,10 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python references_organizer.py                    # Process references.md
-  python references_organizer.py --file custom.md   # Process custom file
-  python references_organizer.py --dry-run          # Show changes without writing
-  python references_organizer.py --backup           # Create backup before processing
+  python scripts/references_organizer.py                    # Process references.md
+  python scripts/references_organizer.py --file custom.md   # Process custom file
+  python scripts/references_organizer.py --dry-run          # Show changes without writing
+  python scripts/references_organizer.py --backup           # Create backup before processing
         """
     )
 

@@ -1,13 +1,13 @@
 # Cleanup CLI
 
-`cleanup-cli.ts` is a Bun/TypeScript command-line program that consolidates all of the ad-hoc cleanups we regularly apply before sharing drafts or running release tooling.
+`cleanup-cli.ts` is a Bun/TypeScript command-line program that consolidates all of the ad-hoc cleanups we regularly apply before sharing drafts or running release tooling. Run it from the repository root using `bun scripts/cleanup-cli.ts ...` so the CLI can locate project paths correctly.
 
 ## Quick start
 
 ```sh
-bun cleanup-cli.ts --profile safe          # inspect default plan (dry-run)
-bun cleanup-cli.ts --profile moderate --yes --dry-run=false
-bun cleanup-cli.ts --categories temp,generated --include-glob "drafts/**/*.bak"
+bun scripts/cleanup-cli.ts --profile safe          # inspect default plan (dry-run)
+bun scripts/cleanup-cli.ts --profile moderate --yes --dry-run=false
+bun scripts/cleanup-cli.ts --categories temp,generated --include-glob "drafts/**/*.bak"
 ```
 
 ### Profiles

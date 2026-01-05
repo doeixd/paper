@@ -6,10 +6,10 @@ This script scans markdown files for both parenthetical and in-prose citations,
 extracts their context, and looks up corresponding references.
 
 Usage:
-    python citation_extractor.py                    # Scan all .md files
-    python citation_extractor.py final.md          # Scan specific file
-    python citation_extractor.py -o output.txt     # Custom output file
-    python citation_extractor.py final.md -o citations.txt
+    python scripts/citation_extractor.py                    # Scan all .md files
+    python scripts/citation_extractor.py final.md          # Scan specific file
+    python scripts/citation_extractor.py -o output.txt     # Custom output file
+    python scripts/citation_extractor.py final.md -o citations.txt
 """
 
 import os
@@ -377,12 +377,12 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python citation_extractor.py                    # Scan all .md files
-  python citation_extractor.py final.md          # Scan specific file
-  python citation_extractor.py -o output.txt     # Custom output file
-  python citation_extractor.py final.md -o citations.txt
-  python citation_extractor.py final.md -r final_references.md  # Generate references file
-  python citation_extractor.py final.md -r final_refs.md -q     # Quiet mode
+  python scripts/citation_extractor.py                    # Scan all .md files
+  python scripts/citation_extractor.py final.md          # Scan specific file
+  python scripts/citation_extractor.py -o output.txt     # Custom output file
+  python scripts/citation_extractor.py final.md -o citations.txt
+  python scripts/citation_extractor.py final.md -r final_references.md  # Generate references file
+  python scripts/citation_extractor.py final.md -r final_refs.md -q     # Quiet mode
         """
     )
 

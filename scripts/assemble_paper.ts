@@ -41,7 +41,7 @@ function parseArguments(): AssembleOptions {
 
   if (!values.main || !values.out) {
     console.error("Error: --main and --out are required arguments.");
-    console.error("Usage: bun assemble_paper.ts --main <path> --out <path> [--appendix <path>...] [--strategy simple|smart]");
+    console.error("Usage: bun scripts/assemble_paper.ts --main <path> --out <path> [--appendix <path>...] [--strategy simple|smart]");
     process.exit(1);
   }
 

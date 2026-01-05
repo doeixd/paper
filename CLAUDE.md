@@ -105,13 +105,13 @@ never add yourself as an author to the paper, or on a git commit.
 
 ## Available Tools and Scripts
 
-### Enhanced Citation Extraction Script (`citation_extractor.py`)
+### Enhanced Citation Extraction Script (`scripts/citation_extractor.py`)
 - **Purpose**: Automatically scans markdown files for both parenthetical and in-prose citations, extracts context, matches to full references, and can generate filtered reference lists
 - **Basic Usage**:
-  - `python citation_extractor.py` - Scans all .md files
-  - `python citation_extractor.py final.md` - Scans specific file
-  - `python citation_extractor.py final.md -o my_output.txt` - Custom output file
-  - `python citation_extractor.py final.md -r final_references.md` - Generate filtered references file
+  - `python scripts/citation_extractor.py` - Scans all .md files
+  - `python scripts/citation_extractor.py final.md` - Scans specific file
+  - `python scripts/citation_extractor.py final.md -o my_output.txt` - Custom output file
+  - `python scripts/citation_extractor.py final.md -r final_references.md` - Generate filtered references file
 - **Command-Line Options**:
   - `-o, --output FILE` - Custom output filename (default: citations_found.txt)
   - `-r, --generate-references FILE` - **🆕 Generate a references.md file with ONLY cited references**
@@ -146,14 +146,14 @@ never add yourself as an author to the paper, or on a git commit.
 - **Use Case**: Comprehensive audit of all scholarly citations for verification, consistency checking, ensuring all citations have corresponding references, and generating submission-ready reference lists
 - **Documentation**: See `CITATION_EXTRACTOR_README.md` for complete usage guide and examples
 
-### Paper Converter Script (`paper_converter.py`)
+### Paper Converter Script (`scripts/paper_converter.py`)
 - **Purpose**: Converts markdown academic papers to LaTeX or Typst format with automatically filtered references
 - **Basic Usage**:
-  - `python paper_converter.py paper.md` - Convert to LaTeX (default)
-  - `python paper_converter.py paper.md --format typst` - Convert to Typst
-  - `python paper_converter.py paper.md --preamble preamble.tex` - Use custom LaTeX preamble
-  - `python paper_converter.py paper.md --output final.tex` - Custom output filename
-  - `python paper_converter.py paper.md --keep-temp` - Preserve temporary files for debugging
+  - `python scripts/paper_converter.py paper.md` - Convert to LaTeX (default)
+  - `python scripts/paper_converter.py paper.md --format typst` - Convert to Typst
+  - `python scripts/paper_converter.py paper.md --preamble preamble.tex` - Use custom LaTeX preamble
+  - `python scripts/paper_converter.py paper.md --output final.tex` - Custom output filename
+  - `python scripts/paper_converter.py paper.md --keep-temp` - Preserve temporary files for debugging
 - **Command-Line Options**:
   - `--format {latex,typst}` - Output format (default: latex)
   - `--preamble FILE` - Custom preamble file for LaTeX (ignored for Typst)
@@ -179,14 +179,14 @@ never add yourself as an author to the paper, or on a git commit.
 - **Use Cases**: Journal submission preparation, format conversion, reference list cleanup, ensuring citation completeness
 - **Dependencies**: Requires pandoc for document conversion
 
-### PDF Assembler Script (`pdf_assembler.py`)
+### PDF Assembler Script (`scripts/pdf_assembler.py`)
 - **Purpose**: Generates PDFs from Typst/LaTeX files and allows attaching additional documents to the front or end of the main document
 - **Basic Usage**:
-  - `python pdf_assembler.py main.typ` - Convert single file to PDF
-  - `python pdf_assembler.py main.typ --front cover.pdf` - Add cover page
-  - `python pdf_assembler.py main.typ --end appendix.pdf` - Add appendix
-  - `python pdf_assembler.py main.tex --output final.pdf` - Custom output name
-  - `python pdf_assembler.py main.typ --front title.pdf --end refs.pdf --output complete.pdf` - Multiple attachments
+  - `python scripts/pdf_assembler.py main.typ` - Convert single file to PDF
+  - `python scripts/pdf_assembler.py main.typ --front cover.pdf` - Add cover page
+  - `python scripts/pdf_assembler.py main.typ --end appendix.pdf` - Add appendix
+  - `python scripts/pdf_assembler.py main.tex --output final.pdf` - Custom output name
+  - `python scripts/pdf_assembler.py main.typ --front title.pdf --end refs.pdf --output complete.pdf` - Multiple attachments
 - **Command-Line Options**:
   - `--front FILES` - Files to attach to the front (space-separated list)
   - `--end FILES` - Files to attach to the end (space-separated list)
@@ -210,14 +210,14 @@ never add yourself as an author to the paper, or on a git commit.
 - **Use Cases**: Academic paper submission, adding title pages, appendices, combining multiple documents, final publication PDF creation
 - **Dependencies**: Requires `typst` and/or `pdflatex` for compilation, plus PDF merging tools
 
-### Release Script (`release.py`)
+### Release Script (`scripts/release.py`)
 - **Purpose**: Complete academic paper release pipeline that converts markdown to publication-ready PDFs with full customization
 - **Basic Usage**:
-  - `python release.py paper.md` - Basic release with defaults
-  - `python release.py paper.md --config release.json` - Custom config
-  - `python release.py paper.md --format latex` - LaTeX output
-  - `python release.py paper.md --output final.pdf` - Custom output
-  - `python release.py --create-config` - Create default config file
+  - `python scripts/release.py paper.md` - Basic release with defaults
+  - `python scripts/release.py paper.md --config release.json` - Custom config
+  - `python scripts/release.py paper.md --format latex` - LaTeX output
+  - `python scripts/release.py paper.md --output final.pdf` - Custom output
+  - `python scripts/release.py --create-config` - Create default config file
 - **Command-Line Options**:
   - `--config FILE` - Configuration file (JSON/YAML)
   - `--format {typst,latex}` - Output format (overrides config)
@@ -270,12 +270,12 @@ never add yourself as an author to the paper, or on a git commit.
 - **Dependencies**: Requires `pandoc`, `typst` and/or `pdflatex`, plus PDF merging tools (pdfunite/pdftk/pypdf)
 
 
-### Paper Assembly Script (`assemble_paper.ts`)
+### Paper Assembly Script (`scripts/assemble_paper.ts`)
 - **Purpose**: A Bun-powered utility to merge multiple markdown documents into a single manuscript with advanced placement control, reference management, and smart frontmatter handling.
 - **Basic Usage**:
-  - `bun assemble_paper.ts --main paper.md --out final.md --appendix app1.md`
-  - `bun assemble_paper.ts --main paper.md --out final.md --placeholder "<!-- APPENDICES -->"`
-  - `bun assemble_paper.ts --main paper.md --out final.md --move-refs-to-end --refs-file refs.md`
+  - `bun scripts/assemble_paper.ts --main paper.md --out final.md --appendix app1.md`
+  - `bun scripts/assemble_paper.ts --main paper.md --out final.md --placeholder "<!-- APPENDICES -->"`
+  - `bun scripts/assemble_paper.ts --main paper.md --out final.md --move-refs-to-end --refs-file refs.md`
 - **Command-Line Options**:
   - `--main <path>`: (Required) Path to the primary markdown file.
   - `--out <path>`: (Required) Path for the assembled output file.
@@ -298,13 +298,13 @@ never add yourself as an author to the paper, or on a git commit.
   - **Frontmatter Management**: Strips redundant frontmatter from appendices and merges metadata.
 - **Dependencies**: Requires Bun runtime.
 
-### Reference Verification Script (`verify-references.ts`)
+### Reference Verification Script (`scripts/verify-references.ts`)
 - **Purpose**: Automatically verify and correct academic references in `references.md` using multiple free APIs (CrossRef, OpenLibrary, arXiv) with Claude CLI as research fallback
 - **Basic Usage**:
-  - `bun run verify-references.ts --dry-run --skip-claude` - Preview changes without modifying files or using Claude
-  - `bun run verify-references.ts --skip-claude` - Verify and correct without Claude CLI (faster, free)
-  - `bun run verify-references.ts` - Full verification including Claude CLI research fallback
-  - `bun run verify-references.ts -i custom-refs.md -o corrected.md` - Custom input/output files
+  - `bun run scripts/verify-references.ts --dry-run --skip-claude` - Preview changes without modifying files or using Claude
+  - `bun run scripts/verify-references.ts --skip-claude` - Verify and correct without Claude CLI (faster, free)
+  - `bun run scripts/verify-references.ts` - Full verification including Claude CLI research fallback
+  - `bun run scripts/verify-references.ts -i custom-refs.md -o corrected.md` - Custom input/output files
 - **Command-Line Options**:
   - `-i, --input <file>` - Input references file (default: ./references.md)
   - `-o, --output <file>` - Output file (default: overwrites input)
@@ -354,13 +354,13 @@ never add yourself as an author to the paper, or on a git commit.
 - **Dependencies**: Requires Bun runtime (no npm packages needed)
 - **Documentation**: See `VERIFY_REFERENCES_README.md` for complete usage guide
 
-### Cleanup Automation CLI (`cleanup-cli.ts`)
+### Cleanup Automation CLI (`scripts/cleanup-cli.ts`)
 - **Purpose**: Opinionated Bun CLI for removing generated artefacts, debug logs, caches, and backups while guarding intentional assets.
 - **Profiles & Flags**:
   - `--profile <safe|moderate|aggressive>` plus per-category overrides (`--categories`, `--include-glob`, `--exclude-glob`).
   - `--backup-policy daily=3,weekly=2` retains one backup per bucket; `--git-commit-before` snapshots pre-clean.
   - Cache controls via `--cache-mode <remove|truncate|preserve>`.
-  - **Reference verifier cache aware**: `--reference-cache-mode <preserve|prune|clear>` defaults to `prune`, which uses the same TTL rules as `verify-references.ts` (CrossRef ≈30d, arXiv 90d, OpenLibrary 7d, web-search 1d, Claude 7d). `truncate` never nukes `.cache/reference-verification` unless you explicitly pass `--reference-cache-mode clear`.
+  - **Reference verifier cache aware**: `--reference-cache-mode <preserve|prune|clear>` defaults to `prune`, which uses the same TTL rules as `scripts/verify-references.ts` (CrossRef ≈30d, arXiv 90d, OpenLibrary 7d, web-search 1d, Claude 7d). `truncate` never nukes `.cache/reference-verification` unless you explicitly pass `--reference-cache-mode clear`.
 - **Dry runs & plans**: `--dry-run` and `--plan-output plan.json` preview changes; `--rewrite-history` optionally purges deleted paths via `git filter-repo`.
 - **Tests**: Run `bun test Tests/cleanup_cli/cleanup_cli.test.ts` before shipping changes to ensure cache pruning logic and retention rules still hold.
 

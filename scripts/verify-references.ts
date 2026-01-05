@@ -5,7 +5,7 @@
  * Automatically verifies and corrects academic references in references.md
  * using CrossRef, OpenLibrary, arXiv APIs, web search, and Claude CLI.
  *
- * Usage: bun run verify-references.ts [options]
+ * Usage: bun run scripts/verify-references.ts [options]
  */
 
 import { $ } from 'bun';
@@ -2051,7 +2051,7 @@ function printHelp() {
   console.log(`
 Academic Reference Verifier
 
-Usage: bun run verify-references.ts [options]
+Usage: bun run scripts/verify-references.ts [options]
 
  Options:
    -i, --input <file>              Input references file (default: ./references.md)
@@ -2069,11 +2069,11 @@ Usage: bun run verify-references.ts [options]
    -h, --help                      Show this help message
 
  Examples:
-   bun run verify-references.ts                           # Verify references.md
-   bun run verify-references.ts --dry-run                 # Preview changes
-   bun run verify-references.ts --no-cache                # Force fresh API calls
-   bun run verify-references.ts --skip-claude             # Skip Claude CLI (faster)
-   bun run verify-references.ts -i custom.md -o fixed.md  # Custom input/output
+   bun run scripts/verify-references.ts                           # Verify references.md
+   bun run scripts/verify-references.ts --dry-run                 # Preview changes
+   bun run scripts/verify-references.ts --no-cache                # Force fresh API calls
+   bun run scripts/verify-references.ts --skip-claude             # Skip Claude CLI (faster)
+   bun run scripts/verify-references.ts -i custom.md -o fixed.md  # Custom input/output
   `);
 }
 

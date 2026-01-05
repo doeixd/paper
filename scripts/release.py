@@ -16,13 +16,13 @@ Features:
     - Comprehensive logging
 
 Usage:
-    python release.py paper.md                    # Basic release with defaults
-    python release.py paper.md --config release.json  # Custom config
-    python release.py paper.md --format typst    # Specify format
-    python release.py paper.md --output final.pdf # Custom output
-    python release.py paper.md --dry-run         # Preview what would happen
-    python release.py --create-config            # Create default config file
-    python release.py --check-deps               # Check system dependencies
+    python scripts/release.py paper.md                    # Basic release with defaults
+    python scripts/release.py paper.md --config release.json  # Custom config
+    python scripts/release.py paper.md --format typst    # Specify format
+    python scripts/release.py paper.md --output final.pdf # Custom output
+    python scripts/release.py paper.md --dry-run         # Preview what would happen
+    python scripts/release.py --create-config            # Create default config file
+    python scripts/release.py --check-deps               # Check system dependencies
 """
 
 import os
@@ -1175,15 +1175,15 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 EXAMPLES:
-   python release.py paper.md                           # Basic release with defaults
-   python release.py paper.md --config release.json     # Custom config
-   python release.py paper.md --format latex            # LaTeX output
-   python release.py paper.md --output final.pdf        # Custom output
-   python release.py paper.md --citation-strategy merge # Include all references
-   python release.py paper.md --citation-strategy keep  # Keep existing references
-   python release.py paper.md --dry-run                 # Preview what would happen
-   python release.py --create-config                    # Create default config file
-   python release.py --check-deps                       # Check dependencies
+   python scripts/release.py paper.md                           # Basic release with defaults
+   python scripts/release.py paper.md --config release.json     # Custom config
+   python scripts/release.py paper.md --format latex            # LaTeX output
+   python scripts/release.py paper.md --output final.pdf        # Custom output
+   python scripts/release.py paper.md --citation-strategy merge # Include all references
+   python scripts/release.py paper.md --citation-strategy keep  # Keep existing references
+   python scripts/release.py paper.md --dry-run                 # Preview what would happen
+   python scripts/release.py --create-config                    # Create default config file
+   python scripts/release.py --check-deps                       # Check dependencies
 
 CONFIG FILE FORMAT (JSON):
 {
@@ -1254,7 +1254,7 @@ For more information, see the documentation in AGENTS.md and CLAUDE.md.
 
     if missing_critical:
         print(f"ERROR: Critical dependencies missing: {', '.join(missing_critical)}")
-        print("Run 'python release.py --check-deps' for detailed status.")
+        print("Run 'python scripts/release.py --check-deps' for detailed status.")
         return 1
 
     # Warn about PDF capabilities
@@ -1346,7 +1346,7 @@ For more information, see the documentation in AGENTS.md and CLAUDE.md.
             print("- Verify typesetting tool installation")
             print("- Check for syntax errors in generated files")
         else:
-            print("- Run 'python release.py --check-deps' to verify system setup")
+            print("- Run 'python scripts/release.py --check-deps' to verify system setup")
             print("- Check release.log for detailed error information")
             print("- Try with --dry-run to isolate the issue")
 
