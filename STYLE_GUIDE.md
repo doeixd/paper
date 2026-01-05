@@ -168,7 +168,7 @@ The document must be formatted strictly to ensure compatibility with the project
 
 
 **Phase 7: Script-Safe Mechanics**
-*   [ ] **LaTeX Math:** All variables wrapped in `$..$`? (e.g., `$P(t)$`).
+*   [ ] **LaTeX Math:** All variables wrapped in `$..$`? (e.g., `$P(t)$`). Except for toe.md.
 *   [ ] **No Footnotes:** Integrated or deleted?
 *   [ ] **No Em Dashes:** Replaced with commas/semicolons/periods/colons/parentheses?
 *   [ ] **Bold Usage:** Restricted *only* to list headers?

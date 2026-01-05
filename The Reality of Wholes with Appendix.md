@@ -665,30 +665,7 @@ Where causal powers, counterfactual stability, and resistance to informational i
 
 A pattern is universally discoverable when any sufficiently capable agent, attempting to predict within the same constraints, is robustly selected toward encoding it. Alternatives simply incur escalating algorithmic complexity. This invariance is epistemic rather than metaphysical: it reflects convergence under shared constraints, not fundamentality. Whether that pattern is the physical wall of a hurricane, the legal boundary of a corporation, or the psychological reality of a dragon, each is a discoverable invariant in its own domain.
 
-## References
-
-Block, Ned. 1978. "Troubles with Functionalism." In *Minnesota Studies in the Philosophy of Science*, vol. 9, edited by C. Wade Savage, 261-325. Minneapolis: University of Minnesota Press.
-
-Dennett, Daniel C. 1991. "Real Patterns." *Journal of Philosophy* 88(1): 27-51. https://doi.org/10.2307/2027085.
-
-Hoel, Erik P., Larissa Albantakis, and Giulio Tononi. 2013. "Quantifying Causal Emergence Shows that Macro Can Beat Micro." *Proceedings of the National Academy of Sciences* 110(49): 19790–19795. https://doi.org/10.1073/pnas.1314922110.
-
-Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press. ISBN 978-0199276196.
-
-Landauer, Rolf. 1961. "Irreversibility and Heat Generation in the Computing Process." *IBM Journal of Research and Development* 5(3): 183–191. https://doi.org/10.1147/rd.1961.5.3.183.
-
-Landauer, Rolf. 1981. "Fundamental Physical Limitations of the Computational Process." *Annals of the New York Academy of Sciences* 372(1): 218–227. https://doi.org/10.1111/j.1749-6632.1981.tb51910.x.
-
-O'Connor, Alex. Subscriber Q&As (1.25M and 1.75M). Available at https://www.youtube.com/@CosmicSkeptic.
-
-Pearl, Judea. 2000. *Causality: Models, Reasoning, and Inference*. Cambridge: Cambridge University Press. ISBN 978-0521773621.
-
-Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104. https://doi.org/10.1038/s41567-024-02477-4.
-
-Shalizi, Cosma Rohilla, and James P. Crutchfield. 2001. "Computational Mechanics: Pattern and Prediction, Structure and Simplicity." *Journal of Statistical Physics* 104(3-4): 817–879. https://doi.org/10.1023/A:1010388907793.
-
-Woodward, James. 2003. *Making Things Happen: A Theory of Causal Explanation*. Oxford: Oxford University Press. ISBN 978-0195155273.
-
+---
 
 # Appendix A: Category Theory and the Reality of Wholes
 
@@ -847,3 +824,28 @@ Reality is not "stuff." Reality consists in **structures that satisfy universal 
 *   The **Initial Object** defines the inevitable focal points (Wholes).
 
 If reality is defined as that which any capable agent must encode to predict and intervene under shared constraints, then entities achieving morphism-closure are real. Category theory explains why such entities are invariant without being fundamental.
+
+
+## References
+
+Block, Ned. 1978. "Troubles with Functionalism." In *Minnesota Studies in the Philosophy of Science*, vol. 9, edited by C. Wade Savage, 261-325. Minneapolis: University of Minnesota Press.
+
+Dennett, Daniel C. 1991. "Real Patterns." *Journal of Philosophy* 88(1): 27-51. https://doi.org/10.2307/2027085.
+
+Hoel, Erik P., Larissa Albantakis, and Giulio Tononi. 2013. "Quantifying Causal Emergence Shows that Macro Can Beat Micro." *Proceedings of the National Academy of Sciences* 110(49): 19790–19795. https://doi.org/10.1073/pnas.1314922110.
+
+Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press. ISBN 978-0199276196.
+
+Landauer, Rolf. 1961. "Irreversibility and Heat Generation in the Computing Process." *IBM Journal of Research and Development* 5(3): 183–191. https://doi.org/10.1147/rd.1961.5.3.183.
+
+Landauer, Rolf. 1981. "Fundamental Physical Limitations of the Computational Process." *Annals of the New York Academy of Sciences* 372(1): 218–227. https://doi.org/10.1111/j.1749-6632.1981.tb51910.x.
+
+O'Connor, Alex. Subscriber Q&As (1.25M and 1.75M). Available at https://www.youtube.com/@CosmicSkeptic.
+
+Pearl, Judea. 2000. *Causality: Models, Reasoning, and Inference*. Cambridge: Cambridge University Press. ISBN 978-0521773621.
+
+Rosas, Fernando E., et al. 2024. "Disentangling High-Order Mechanisms and High-Order Behaviours in Complex Systems." *Nature Physics* 20: 1095–1104. https://doi.org/10.1038/s41567-024-02477-4.
+
+Shalizi, Cosma Rohilla, and James P. Crutchfield. 2001. "Computational Mechanics: Pattern and Prediction, Structure and Simplicity." *Journal of Statistical Physics* 104(3-4): 817–879. https://doi.org/10.1023/A:1010388907793.
+
+Woodward, James. 2003. *Making Things Happen: A Theory of Causal Explanation*. Oxford: Oxford University Press. ISBN 978-0195155273.

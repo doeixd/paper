@@ -137,6 +137,16 @@ File: proc_v7.md (A Procedural and Naturalistic Model of Moral Objectivity)
 This paper applies the EPC framework specifically to metaethics. It introduces Pragmatic Procedural Realism, arguing that moral truths (like "slavery is wrong") are discovered empirically through the failure of systems that try to violate them. It uses the brittleness metrics to show that immoral systems (like totalitarians or slave states) inevitably collapse due to high "coercive overhead" and information suppression.
 Relation: This is a domain-specific application of the general theory found in final.md. It demonstrates that the same "Negative Canon" and "brittleness" diagnostics used for scientific theories can be rigorously applied to moral history to establish objective ethical truths.
 
+## Project Layout Notes
+
+- `final.md`, `from-beliefs-to-truth.md`, `proc_v7.md`, `The Reality of Wholes.md`, etc., are the current EPC manuscripts. **Ignore `paper.md`; it is an outdated draft kept only for reference.**
+- `references.md` stores the Chicago-style bibliography. Append new citations alphabetically and mirror existing formatting exactly.
+- `edits/` houses mandatory timestamped summaries (`YYYY-MM-DD - HH-MM - SUMMARY ...`) after substantial work. 
+- `sources/`, `random/`, `physics/`, and `backups/` contain supporting material or archives. Treat them as read-only unless the user explicitly instructs otherwise. You can search them for background info or keywords if you need to. Just make sure to verify the information is correct/up-to-date before using it.
+- `scripts/` and the root `justfile` mediate automation (release prep, citation checks, appendices). Run `just --list` before inventing bespoke tooling. Read the justfile for more info.
+- `releases/` captures deliverables; `backups/` mirrors snapshots. Do not hand-edit files there.
+- `CLAUDE.md` mirrors `AGENTS.md`. Keep any structural instructions consistent between them when possible.
+
 ## Knowledge Modules: The Reality of Wholes Corpus
 
 1. **The Reality of Wholes.md**. Full technical argument against mereological nihilism. Key takeaways to keep consistent:
