@@ -11,12 +11,17 @@ interface AssembleOptions {
   strategy: 'simple' | 'smart';
   metadata?: string; // path or JSON string
   separator: string;
+  insertBefore?: string;
+  insertAfter?: string;
+  placeholder?: string;
+  refsFile?: string;
+  moveRefsToEnd: boolean;
 }
 
 // --- Argument Parsing ---
 function parseArguments(): AssembleOptions {
   const { values } = parseArgs({
-    args: Bun.argv,
+    args: Bun.argv.slice(2),
     options: {
       main: { type: 'string' },
       appendix: { type: 'string', multiple: true },
@@ -24,6 +29,11 @@ function parseArguments(): AssembleOptions {
       strategy: { type: 'string', default: 'simple' },
       metadata: { type: 'string' },
       separator: { type: 'string', default: '\n\n---\n\n' },
+      'insert-before': { type: 'string' },
+      'insert-after': { type: 'string' },
+      'placeholder': { type: 'string' },
+      'refs-file': { type: 'string' },
+      'move-refs-to-end': { type: 'boolean', default: false },
     },
     strict: true,
     allowPositionals: true,
@@ -41,7 +51,12 @@ function parseArguments(): AssembleOptions {
     out: values.out,
     strategy: (values.strategy as 'simple' | 'smart') || 'simple',
     metadata: values.metadata,
-    separator: values.separator || '\n\n---\n\n'
+    separator: values.separator || '\n\n---\n\n',
+    insertBefore: values['insert-before'],
+    insertAfter: values['insert-after'],
+    placeholder: values['placeholder'],
+    refsFile: values['refs-file'],
+    moveRefsToEnd: !!values['move-refs-to-end']
   };
 }
 
@@ -54,18 +69,70 @@ function extractFrontmatter(content: string): { frontmatter: string | null; body
   return { frontmatter: null, body: content };
 }
 
-function mergeMetadata(originalYaml: string | null, newMetadata: any): string {
-  // Simple YAML parser/dumper is complex to implement dep-free. 
-  // For 'smart' strategy without deps, we'll do a basic prepend or append if needed.
-  // However, if newMetadata is provided, we can reconstruct the block.
-  // Given the constraints (standard libs), we will assume:
-  // 1. If originalYaml exists, we wrap new metadata logic around it or replace strictly if keys collide?
-  // Let's implement a safe basic approach: Parse JSON metadata, convert to YAML lines, append to existing frontmatter lines.
+// --- Reference Helpers ---
+const REF_HEADERS = [/^#+ References/mi, /^#+ Bibliography/mi, /^#+ Works Cited/mi];
 
+function extractReferences(content: string): { body: string; references: string } {
+  for (const regex of REF_HEADERS) {
+    const match = content.match(regex);
+    if (match && match.index !== undefined) {
+      return {
+        body: content.slice(0, match.index).trimEnd(),
+        references: "\n\n" + content.slice(match.index).trim()
+      };
+    }
+  }
+  return { body: content, references: "" };
+}
+
+// --- Insertion Helpers ---
+function splitAtInsertionPoint(body: string, opts: AssembleOptions): { prefix: string; suffix: string } {
+  // 1. Placeholder check
+  if (opts.placeholder) {
+    const index = body.indexOf(opts.placeholder);
+    if (index !== -1) {
+      return {
+        prefix: body.slice(0, index).trimEnd(),
+        suffix: "\n\n" + body.slice(index + opts.placeholder.length).trim()
+      };
+    }
+    console.warn(`Warning: Placeholder "${opts.placeholder}" not found.`);
+  }
+
+  // 2. Insert Before
+  if (opts.insertBefore) {
+    const index = body.indexOf(opts.insertBefore);
+    if (index !== -1) {
+      return {
+        prefix: body.slice(0, index).trimEnd(),
+        suffix: "\n\n" + body.slice(index).trim()
+      };
+    }
+    console.warn(`Warning: Insert point (before) "${opts.insertBefore}" not found.`);
+  }
+
+  // 3. Insert After
+  if (opts.insertAfter) {
+    const index = body.indexOf(opts.insertAfter);
+    if (index !== -1) {
+      const endOfLine = body.indexOf('\n', index);
+      const splitPoint = endOfLine === -1 ? body.length : endOfLine;
+      return {
+        prefix: body.slice(0, splitPoint).trimEnd(),
+        suffix: "\n\n" + body.slice(splitPoint).trim()
+      };
+    }
+    console.warn(`Warning: Insert point (after) "${opts.insertAfter}" not found.`);
+  }
+
+  // Default: End of body
+  return { prefix: body.trimEnd(), suffix: "" };
+}
+
+function mergeMetadata(originalYaml: string | null, newMetadata: any): string {
   let lines = originalYaml ? originalYaml.split('\n') : [];
 
   for (const [key, value] of Object.entries(newMetadata)) {
-    // Remove existing key if present
     lines = lines.filter(l => !l.startsWith(`${key}:`));
     lines.push(`${key}: ${JSON.stringify(value)}`);
   }
@@ -79,85 +146,86 @@ async function main() {
     const opts = parseArguments();
 
     // 1. Validate Inputs
-    if (!existsSync(opts.main)) {
-      throw new Error(`Main file not found: ${opts.main}`);
-    }
+    if (!existsSync(opts.main)) throw new Error(`Main file not found: ${opts.main}`);
     for (const app of opts.appendix) {
-      if (!existsSync(app)) {
-        throw new Error(`Appendix file not found: ${app}`);
-      }
+      if (!existsSync(app)) throw new Error(`Appendix file not found: ${app}`);
+    }
+    if (opts.refsFile && !existsSync(opts.refsFile)) {
+      throw new Error(`References file not found: ${opts.refsFile}`);
     }
 
-    // 2. Read Main
+    // 2. Read Main and Extract Components
     console.log(`Reading main: ${opts.main}`);
-    let mainContent = readFileSync(opts.main, 'utf-8');
-    let finalContent = "";
-    let finalFrontmatter = "";
+    let { frontmatter, body } = extractFrontmatter(readFileSync(opts.main, 'utf-8'));
 
-    // 3. Process Main Content
-    if (opts.strategy === 'smart') {
-      const { frontmatter, body } = extractFrontmatter(mainContent);
-      finalFrontmatter = frontmatter || "";
-      mainContent = body;
+    let references = "";
+    if (opts.moveRefsToEnd) {
+      const extracted = extractReferences(body);
+      body = extracted.body;
+      references = extracted.references;
+    }
 
-      // Handle Metadata Injection
-      if (opts.metadata) {
-        let metaObj: any = {};
-        if (opts.metadata.trim().startsWith('{')) {
-          // It's a raw JSON string
-          metaObj = JSON.parse(opts.metadata);
-        } else {
-          // It's a file path - let Bun handle the parsing (supports .json, .yaml, .toml)
-          // We need an absolute path or relative to cwd
-          const metaPath = join(process.cwd(), opts.metadata);
-          if (existsSync(metaPath)) {
-            // Dynamic import returns a module. If it's a JSON/YAML file, the content is in 'default'
-            const module = await import(metaPath);
-            metaObj = module.default || module;
-          } else {
-            console.warn(`Warning: Metadata file not found: ${opts.metadata}`);
-          }
-        }
-
-        if (Object.keys(metaObj).length > 0) {
-          finalFrontmatter = mergeMetadata(finalFrontmatter, metaObj);
-        }
-      }
-
-      // Reconstruct Main
-      if (finalFrontmatter) {
-        finalContent = `---\n${finalFrontmatter}\n---\n\n${mainContent}`;
+    // 3. Handle Metadata Injection (if smart)
+    if (opts.strategy === 'smart' && opts.metadata) {
+      let metaObj: any = {};
+      if (opts.metadata.trim().startsWith('{')) {
+        metaObj = JSON.parse(opts.metadata);
       } else {
-        finalContent = mainContent;
+        const metaPath = join(process.cwd(), opts.metadata);
+        if (existsSync(metaPath)) {
+          const module = await import(metaPath);
+          metaObj = module.default || module;
+        } else {
+          console.warn(`Warning: Metadata file not found: ${opts.metadata}`);
+        }
       }
-
-    } else {
-      // Simple Strategy
-      finalContent = mainContent;
+      if (Object.keys(metaObj).length > 0) {
+        frontmatter = mergeMetadata(frontmatter, metaObj);
+      }
     }
 
-    // 4. Append Appendices
+    // 4. Assemble Appendices
+    let appendicesContent = "";
     for (const app of opts.appendix) {
-      console.log(`Appending: ${app}`);
+      console.log(`Processing appendix: ${app}`);
       let appContent = readFileSync(app, 'utf-8');
-
       if (opts.strategy === 'smart') {
-        const { body } = extractFrontmatter(appContent);
-        appContent = body; // Strip frontmatter from appendix
+        const { body: appBody } = extractFrontmatter(appContent);
+        appContent = appBody;
       }
-
-      finalContent += opts.separator + appContent;
+      appendicesContent += (appendicesContent ? opts.separator : "") + appContent;
     }
 
-    // 5. Write Output
+    // 5. Determine Insertion Point
+    const { prefix, suffix } = splitAtInsertionPoint(body, opts);
+
+    // 6. Handle External References
+    if (opts.refsFile) {
+      console.log(`Reading external references: ${opts.refsFile}`);
+      const extRefs = readFileSync(opts.refsFile, 'utf-8');
+      const { body: refBody } = extractFrontmatter(extRefs);
+      references = (references ? references + "\n\n" : "\n\n") + refBody.trim();
+    }
+
+    // 7. Reconstruct Content
+    let finalContent = "";
+    if (frontmatter) finalContent += `---\n${frontmatter}\n---\n\n`;
+
+    finalContent += prefix;
+    if (appendicesContent) {
+      finalContent += opts.separator + appendicesContent;
+    }
+    if (suffix) finalContent += suffix;
+    if (references) finalContent += references;
+
+    // 8. Write Output
     const outDir = dirname(opts.out);
-    if (!existsSync(outDir)) {
+    if (outDir && outDir !== "." && !existsSync(outDir)) {
       mkdirSync(outDir, { recursive: true });
     }
 
     console.log(`Writing to: ${opts.out}`);
     writeFileSync(opts.out, finalContent, 'utf-8');
-
     console.log(`Success! Output size: ${finalContent.length} bytes.`);
 
   } catch (error) {

@@ -271,21 +271,31 @@ never add yourself as an author to the paper, or on a git commit.
 
 
 ### Paper Assembly Script (`assemble_paper.ts`)
-- **Purpose**: A Bun-powered utility to merge multiple markdown documents (main paper and appendices) into a single document with smart frontmatter handling and metadata injection.
+- **Purpose**: A Bun-powered utility to merge multiple markdown documents into a single manuscript with advanced placement control, reference management, and smart frontmatter handling.
 - **Basic Usage**:
-  - `bun assemble_paper.ts --main paper.md --out final.md`
-  - `bun assemble_paper.ts --main paper.md --out final.md --appendix app1.md --appendix app2.md`
-  - `bun assemble_paper.ts --main paper.md --out final.md --strategy smart --metadata metadata.json`
+  - `bun assemble_paper.ts --main paper.md --out final.md --appendix app1.md`
+  - `bun assemble_paper.ts --main paper.md --out final.md --placeholder "<!-- APPENDICES -->"`
+  - `bun assemble_paper.ts --main paper.md --out final.md --move-refs-to-end --refs-file refs.md`
 - **Command-Line Options**:
   - `--main <path>`: (Required) Path to the primary markdown file.
   - `--out <path>`: (Required) Path for the assembled output file.
-  - `--appendix <path>`: (Multiple) Path(s) to appendix files to be appended.
+  - `--appendix <path>`: (Multiple) Path(s) to appendix files to be inserted.
   - `--strategy <simple|smart>`: Merge strategy (default: `simple`).
     - `simple`: Direct concatenation of files.
-    - `smart`: Extracts frontmatter from main, strips it from appendices, and allows metadata injection into the final frontmatter.
-  - `--metadata <path|string>`: JSON/YAML/TOML file path or raw JSON string to merge into the frontmatter (requires `smart` strategy).
-  - `--separator <string>`: Custom separator between files (default: `\n\n---\n\n`).
-- **Use Cases**: Preparing a complete manuscript for submission, injecting dynamic metadata (titles, authors, versions) into a combined document, and ensuring clean concatenation without redundant frontmatter blocks.
+    - `smart`: Extracts frontmatter from main, strips it from appendices, and allows metadata injection.
+  - `--metadata <path|string>`: JSON/YAML/TOML path or raw JSON string to merge into frontmatter (requires `smart`).
+  - `--separator <string>`: Custom separator between sections (default: `\n\n---\n\n`).
+  - **Insertion Points**:
+    - `--placeholder <string>`: Insert appendices at a specific token (e.g., `<!-- APPENDICES -->`) in the main file.
+    - `--insert-before <string>`: Insert appendices before the first occurrence of this string.
+    - `--insert-after <string>`: Insert appendices immediately after the line containing this string.
+  - **Reference Handling**:
+    - `--move-refs-to-end`: Automatically find references in the main file and move them to the end.
+    - `--refs-file <path>`: Path to an external references file to append at the very end.
+- **Features**:
+  - **Smart Ordering**: Automatically handles Body -> Appendices -> References flow.
+  - **Flexible Placement**: Supports token-based or header-based insertion.
+  - **Frontmatter Management**: Strips redundant frontmatter from appendices and merges metadata.
 - **Dependencies**: Requires Bun runtime.
 
 ### Reference Verification Script (`verify-references.ts`)
