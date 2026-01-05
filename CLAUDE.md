@@ -364,6 +364,12 @@ never add yourself as an author to the paper, or on a git commit.
 - **Dry runs & plans**: `--dry-run` and `--plan-output plan.json` preview changes; `--rewrite-history` optionally purges deleted paths via `git filter-repo`.
 - **Tests**: Run `bun test Tests/cleanup_cli/cleanup_cli.test.ts` before shipping changes to ensure cache pruning logic and retention rules still hold.
 
+### Appendix Transformer (`scripts/transform-paper.ps1`)
+- **Purpose**: PowerShell helper that rewrites `Computational-Closure-and-the-Architecture-of-Mind.md` into a standalone article by replacing headers, renumbering sections, and updating references.
+- **Usage**: Run `powershell -NoProfile -ExecutionPolicy Bypass -File scripts/transform-paper.ps1` to operate on the default appendix, or add `-InputFile <path>` to target another markdown file.
+- **Dry runs**: Include `-DryRun` to preview the transformation without overwriting the file.
+- **Notes**: Always run against a copy unless you intend to update the canonical manuscript; the script resolves default paths relative to the repo root, so keep it inside `scripts/`.
+
 ### Walkthrough
 
 Here is an outline of the provided papers, their subject matter, and how they interconnect to form a unified philosophical framework called Emergent Pragmatic Coherentism (EPC). These files are very long and you cant read them all at once, try just reading beginning or searching for relevant terms. Make sure you dont turn the other, supporting papers into eachother, they should have clearish boundaries, and reference eachother where needed, and not over-re-hash what has already been written beyond what is needed.
