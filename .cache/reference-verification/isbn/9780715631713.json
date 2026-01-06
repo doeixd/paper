@@ -1,0 +1,88 @@
+{
+  "key": "isbn-9780715631713",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL7833489M/Roman_Aqueducts_and_Water_Supply_(Duckworth_Archaeology)_(Duckworth_Archaeology)",
+      "key": "/books/OL7833489M",
+      "title": "Roman Aqueducts and Water Supply (Duckworth Archaeology) (Duckworth Archaeology)",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL239385A/A._Trevor_Hodge",
+          "name": "A. Trevor Hodge"
+        }
+      ],
+      "number_of_pages": 512,
+      "weight": "2 pounds",
+      "identifiers": {
+        "goodreads": [
+          "1090003"
+        ],
+        "librarything": [
+          "1963563"
+        ],
+        "isbn_10": [
+          "0715631713"
+        ],
+        "isbn_13": [
+          "9780715631713"
+        ],
+        "oclc": [
+          "49238975"
+        ],
+        "openlibrary": [
+          "OL7833489M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "",
+          "TD398 .H64 2002"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Duckworth Publishers"
+        }
+      ],
+      "publish_date": "November 12, 2002",
+      "subjects": [
+        {
+          "name": "Aqueducts",
+          "url": "https://openlibrary.org/subjects/aqueducts"
+        },
+        {
+          "name": "Water-supply, rome",
+          "url": "https://openlibrary.org/subjects/water-supply,_rome"
+        },
+        {
+          "name": "Water-supply",
+          "url": "https://openlibrary.org/subjects/water-supply"
+        },
+        {
+          "name": "History",
+          "url": "https://openlibrary.org/subjects/history"
+        },
+        {
+          "name": "Antiquities",
+          "url": "https://openlibrary.org/subjects/antiquities"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "My translation is not, perhaps, a literal, word-for-word replica of the original, but I can guarantee that the spirit of it would be happily authenticated not only by Sextus Julius Frontinus himself, but by just about all Romans everywhere.",
+          "comment": "",
+          "first_sentence": true
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/455249-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/455249-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/455249-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780715631713"
+  },
+  "timestamp": 1767726612552,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

@@ -1,0 +1,124 @@
+{
+  "key": "isbn-9780415945011",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL18725889M/The_feminist_standpoint_theory_reader",
+      "key": "/books/OL18725889M",
+      "title": "The feminist standpoint theory reader",
+      "subtitle": "intellectual and political controversies",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL394119A/Sandra_G._Harding",
+          "name": "Sandra G. Harding"
+        }
+      ],
+      "number_of_pages": 379,
+      "pagination": "xiv, 379 p. :",
+      "by_statement": "edited by Sandra Harding.",
+      "identifiers": {
+        "goodreads": [
+          "169770"
+        ],
+        "librarything": [
+          "186121"
+        ],
+        "isbn_10": [
+          "0415945003",
+          "0415945011"
+        ],
+        "lccn": [
+          "2003009900"
+        ],
+        "oclc": [
+          "51668081"
+        ],
+        "openlibrary": [
+          "OL18725889M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "HQ1190 .F46313 2004",
+          "HQ1190"
+        ],
+        "dewey_decimal_class": [
+          "305.42/01"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Routledge"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "2004",
+      "subjects": [
+        {
+          "name": "Feminist theory",
+          "url": "https://openlibrary.org/subjects/feminist_theory"
+        },
+        {
+          "name": "Recherche",
+          "url": "https://openlibrary.org/subjects/recherche"
+        },
+        {
+          "name": "Forschung",
+          "url": "https://openlibrary.org/subjects/forschung"
+        },
+        {
+          "name": "Théorie féministe",
+          "url": "https://openlibrary.org/subjects/théorie_féministe"
+        },
+        {
+          "name": "Feminisme",
+          "url": "https://openlibrary.org/subjects/feminisme"
+        },
+        {
+          "name": "Frau",
+          "url": "https://openlibrary.org/subjects/frau"
+        },
+        {
+          "name": "Wissenschaft",
+          "url": "https://openlibrary.org/subjects/wissenschaft"
+        },
+        {
+          "name": "Féminisme",
+          "url": "https://openlibrary.org/subjects/féminisme"
+        },
+        {
+          "name": "Theorie",
+          "url": "https://openlibrary.org/subjects/theorie"
+        },
+        {
+          "name": "Feminismus",
+          "url": "https://openlibrary.org/subjects/feminismus"
+        },
+        {
+          "name": "Research",
+          "url": "https://openlibrary.org/subjects/research"
+        }
+      ],
+      "notes": "Includes bibliographical references and index.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/feministstandpoi0000unse",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/10674739-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/10674739-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/10674739-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780415945011"
+  },
+  "timestamp": 1767726604616,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

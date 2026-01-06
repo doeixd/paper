@@ -1,0 +1,109 @@
+{
+  "key": "isbn-9780801422409",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL2062775M/Essays_on_moral_realism",
+      "key": "/books/OL2062775M",
+      "title": "Essays on moral realism",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL3378281A/Geoffrey_Sayre-McCord",
+          "name": "Geoffrey Sayre-McCord"
+        }
+      ],
+      "number_of_pages": 317,
+      "pagination": "xiii, 317 p. ;",
+      "by_statement": "edited by Geoffrey Sayre-McCord.",
+      "identifiers": {
+        "librarything": [
+          "3489"
+        ],
+        "goodreads": [
+          "713131"
+        ],
+        "isbn_10": [
+          "0801495415",
+          "080142240X"
+        ],
+        "lccn": [
+          "88047753"
+        ],
+        "oclc": [
+          "18135792"
+        ],
+        "openlibrary": [
+          "OL2062775M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BJ1012 .E85 1988",
+          "BJ1012.E85 1988"
+        ],
+        "dewey_decimal_class": [
+          "170/.42"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Cornell University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Ithaca, N.Y"
+        }
+      ],
+      "publish_date": "1988",
+      "subjects": [
+        {
+          "name": "Ethics",
+          "url": "https://openlibrary.org/subjects/ethics"
+        },
+        {
+          "name": "Ethical relativism",
+          "url": "https://openlibrary.org/subjects/ethical_relativism"
+        },
+        {
+          "name": "Moral realism",
+          "url": "https://openlibrary.org/subjects/moral_realism"
+        },
+        {
+          "name": "Morale",
+          "url": "https://openlibrary.org/subjects/morale"
+        },
+        {
+          "name": "Ética",
+          "url": "https://openlibrary.org/subjects/ética"
+        },
+        {
+          "name": "Moraal",
+          "url": "https://openlibrary.org/subjects/moraal"
+        },
+        {
+          "name": "Realisme (filosofie)",
+          "url": "https://openlibrary.org/subjects/realisme_(filosofie)"
+        }
+      ],
+      "notes": "Bibliography: p. 301-307.\nIncludes index.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/essaysonmoralrea00unse",
+          "availability": "borrow",
+          "formats": {},
+          "borrow_url": "https://openlibrary.org/books/OL2062775M/Essays_on_moral_realism/borrow",
+          "checkedout": false
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/565539-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/565539-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/565539-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780801422409"
+  },
+  "timestamp": 1767731057556,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

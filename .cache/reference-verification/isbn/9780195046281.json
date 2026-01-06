@@ -1,0 +1,132 @@
+{
+  "key": "isbn-9780195046281",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL1717026M/The_advancement_of_science",
+      "key": "/books/OL1717026M",
+      "title": "The advancement of science",
+      "subtitle": "science without legend, objectivity without illusions",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL389174A/Philip_Kitcher",
+          "name": "Philip Kitcher"
+        }
+      ],
+      "number_of_pages": 421,
+      "pagination": "viii, 421 p. :",
+      "by_statement": "Philip Kitcher.",
+      "identifiers": {
+        "goodreads": [
+          "3487678"
+        ],
+        "librarything": [
+          "323629"
+        ],
+        "isbn_10": [
+          "0195046285"
+        ],
+        "lccn": [
+          "92019532"
+        ],
+        "oclc": [
+          "26055178"
+        ],
+        "openlibrary": [
+          "OL1717026M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "Q175 .K533 1993",
+          "Q175.K533 1993"
+        ],
+        "dewey_decimal_class": [
+          "500"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "1993",
+      "subjects": [
+        {
+          "name": "Science",
+          "url": "https://openlibrary.org/subjects/science"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "History",
+          "url": "https://openlibrary.org/subjects/history"
+        },
+        {
+          "name": "Reference",
+          "url": "https://openlibrary.org/subjects/reference"
+        },
+        {
+          "name": "Sciences",
+          "url": "https://openlibrary.org/subjects/sciences"
+        },
+        {
+          "name": "Wetenschap",
+          "url": "https://openlibrary.org/subjects/wetenschap"
+        },
+        {
+          "name": "Ciencia",
+          "url": "https://openlibrary.org/subjects/ciencia"
+        },
+        {
+          "name": "Vooruitgang",
+          "url": "https://openlibrary.org/subjects/vooruitgang"
+        },
+        {
+          "name": "Nanoscience",
+          "url": "https://openlibrary.org/subjects/nanoscience"
+        },
+        {
+          "name": "Historia",
+          "url": "https://openlibrary.org/subjects/historia"
+        },
+        {
+          "name": "Essays",
+          "url": "https://openlibrary.org/subjects/essays"
+        },
+        {
+          "name": "Philosophie",
+          "url": "https://openlibrary.org/subjects/philosophie"
+        },
+        {
+          "name": "Science, social aspects",
+          "url": "https://openlibrary.org/subjects/science,_social_aspects"
+        },
+        {
+          "name": "Science, philosophy",
+          "url": "https://openlibrary.org/subjects/science,_philosophy"
+        },
+        {
+          "name": "Science, history",
+          "url": "https://openlibrary.org/subjects/science,_history"
+        }
+      ],
+      "notes": "Includes bibliographical references (p. 392-406) and index.",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/8614314-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/8614314-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/8614314-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780195046281"
+  },
+  "timestamp": 1767726628973,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

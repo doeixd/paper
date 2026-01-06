@@ -1,0 +1,133 @@
+{
+  "key": "isbn-9780199218738",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL22842671M/Truth_as_one_and_many",
+      "key": "/books/OL22842671M",
+      "title": "Truth as one and many",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL224506A/Michael_P._Lynch",
+          "name": "Michael P. Lynch"
+        }
+      ],
+      "pagination": "p. cm.",
+      "by_statement": "Michael P. Lynch.",
+      "identifiers": {
+        "librarything": [
+          "8407112"
+        ],
+        "goodreads": [
+          "6657265"
+        ],
+        "isbn_13": [
+          "9780199218738"
+        ],
+        "lccn": [
+          "2008053080"
+        ],
+        "oclc": [
+          "276817433"
+        ],
+        "openlibrary": [
+          "OL22842671M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD171 .L8695 2009",
+          "BD171"
+        ],
+        "dewey_decimal_class": [
+          "121"
+        ]
+      },
+      "publish_places": [
+        {
+          "name": "Oxford : Clarendon Press"
+        },
+        {
+          "name": "New York : Oxford University Press"
+        }
+      ],
+      "publish_date": "2009",
+      "subjects": [
+        {
+          "name": "Truth",
+          "url": "https://openlibrary.org/subjects/truth"
+        },
+        {
+          "name": "Pluralism",
+          "url": "https://openlibrary.org/subjects/pluralism"
+        }
+      ],
+      "notes": "Includes bibliographical references and index.",
+      "table_of_contents": [
+        {
+          "level": 0,
+          "label": "",
+          "title": "Truisms",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Truth as one",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Truth as many",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Truth as one and many",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Truth, consequence, and the universality of reason",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Deflationism and explanation",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Expanding the view: semantic functionalism",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Applying the view: moral truth.",
+          "pagenum": ""
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/truthasonemany00lync",
+          "availability": "noview",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/8729861-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/8729861-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/8729861-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780199218738"
+  },
+  "timestamp": 1767726658265,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

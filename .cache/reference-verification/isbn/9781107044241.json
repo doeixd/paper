@@ -1,0 +1,58 @@
+{
+  "key": "isbn-9781107044241",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL26058040M/Basic_Category_Theory",
+      "key": "/books/OL26058040M",
+      "title": "Basic Category Theory",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL2766641A/Tom_Leinster",
+          "name": "Tom Leinster"
+        }
+      ],
+      "number_of_pages": 183,
+      "identifiers": {
+        "isbn_13": [
+          "9781107044241"
+        ],
+        "lccn": [
+          "2014451716"
+        ],
+        "oclc": [
+          "879601881"
+        ],
+        "openlibrary": [
+          "OL26058040M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "QA169 .L438 2014",
+          "QA169 .L45 2014"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Cambridge University Press"
+        }
+      ],
+      "publish_date": "2014",
+      "subjects": [
+        {
+          "name": "Categories (mathematics)",
+          "url": "https://openlibrary.org/subjects/categories_(mathematics)"
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/7646732-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/7646732-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/7646732-L.jpg"
+      }
+    },
+    "verifiedISBN": "9781107044241"
+  },
+  "timestamp": 1767726656301,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

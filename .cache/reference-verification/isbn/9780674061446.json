@@ -1,0 +1,80 @@
+{
+  "key": "isbn-9780674061446",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL25184598M/The_ethical_project",
+      "key": "/books/OL25184598M",
+      "title": "The ethical project",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL389174A/Philip_Kitcher",
+          "name": "Philip Kitcher"
+        }
+      ],
+      "number_of_pages": 422,
+      "pagination": "ix, 422 p. ;",
+      "by_statement": "Philip Kitcher",
+      "identifiers": {
+        "isbn_13": [
+          "9780674061446"
+        ],
+        "lccn": [
+          "2010051684"
+        ],
+        "oclc": [
+          "694172149"
+        ],
+        "openlibrary": [
+          "OL25184598M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BJ1311 .K53 2011",
+          "BJ1311.K53 2011"
+        ],
+        "dewey_decimal_class": [
+          "171/.7"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Harvard University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Cambridge, Mass"
+        }
+      ],
+      "publish_date": "2011",
+      "subjects": [
+        {
+          "name": "Evolutionary Ethics",
+          "url": "https://openlibrary.org/subjects/evolutionary_ethics"
+        },
+        {
+          "name": "Ethics, evolutionary",
+          "url": "https://openlibrary.org/subjects/ethics,_evolutionary"
+        }
+      ],
+      "notes": "Includes bibliographical references and index.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/ethicalproject00kitc",
+          "availability": "noview",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/8646679-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/8646679-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/8646679-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780674061446"
+  },
+  "timestamp": 1767726629178,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

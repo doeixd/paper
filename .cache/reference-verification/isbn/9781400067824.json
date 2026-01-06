@@ -1,0 +1,230 @@
+{
+  "key": "isbn-9781400067824",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL25393828M/Antifragile",
+      "key": "/books/OL25393828M",
+      "title": "Antifragile",
+      "subtitle": "things that gain from disorder",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL538956A/Nassim_Nicholas_Taleb",
+          "name": "Nassim Nicholas Taleb"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL8947030A/Genís_Sánchez_Barberán",
+          "name": "Genís Sánchez Barberán"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL9107801A/Albino_Santos_Mosquera",
+          "name": "Albino Santos Mosquera"
+        }
+      ],
+      "number_of_pages": 519,
+      "pagination": "p. cm.",
+      "by_statement": "Nassim Nicholas Taleb",
+      "identifiers": {
+        "goodreads": [
+          "13530973"
+        ],
+        "isbn_13": [
+          "9781400067824",
+          "9780679645276"
+        ],
+        "lccn": [
+          "2012028697",
+          "2013431100"
+        ],
+        "oclc": [
+          "819663870",
+          "774490503",
+          "869551568"
+        ],
+        "openlibrary": [
+          "OL25393828M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BF698.35.R47 T355 2012",
+          "Q375 .T348 2012",
+          "Q375 .T348 2014",
+          "BF698.35.R47T355",
+          "BF698.35.R47",
+          "BF698.35.R47 T35 2012"
+        ],
+        "dewey_decimal_class": [
+          "155.2/4"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Random House"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "2012",
+      "subjects": [
+        {
+          "name": "Resilience (Personality trait)",
+          "url": "https://openlibrary.org/subjects/resilience_(personality_trait)"
+        },
+        {
+          "name": "PSYCHOLOGY / General",
+          "url": "https://openlibrary.org/subjects/psychology_/_general"
+        },
+        {
+          "name": "BUSINESS & ECONOMICS / General",
+          "url": "https://openlibrary.org/subjects/business_&_economics_/_general"
+        },
+        {
+          "name": "Long Now Manual for Civilization",
+          "url": "https://openlibrary.org/subjects/long_now_manual_for_civilization"
+        },
+        {
+          "name": "Social aspects",
+          "url": "https://openlibrary.org/subjects/social_aspects"
+        },
+        {
+          "name": "Uncertainty (Information theory)",
+          "url": "https://openlibrary.org/subjects/uncertainty_(information_theory)"
+        },
+        {
+          "name": "Forecasting",
+          "url": "https://openlibrary.org/subjects/forecasting"
+        },
+        {
+          "name": "Complexity (Philosophy)",
+          "url": "https://openlibrary.org/subjects/complexity_(philosophy)"
+        },
+        {
+          "name": "Psychological Resilience",
+          "url": "https://openlibrary.org/subjects/psychological_resilience"
+        },
+        {
+          "name": "Psychological Adaptation",
+          "url": "https://openlibrary.org/subjects/psychological_adaptation"
+        },
+        {
+          "name": "Uncertainty",
+          "url": "https://openlibrary.org/subjects/uncertainty"
+        },
+        {
+          "name": "Adjustment (psychology)",
+          "url": "https://openlibrary.org/subjects/adjustment_(psychology)"
+        },
+        {
+          "name": "Adaptability (psychology)",
+          "url": "https://openlibrary.org/subjects/adaptability_(psychology)"
+        },
+        {
+          "name": "nyt:combined-print-and-e-book-nonfiction=2012-12-16",
+          "url": "https://openlibrary.org/subjects/nyt:combined-print-and-e-book-nonfiction=2012-12-16"
+        },
+        {
+          "name": "New York Times bestseller",
+          "url": "https://openlibrary.org/subjects/new_york_times_bestseller"
+        },
+        {
+          "name": "New York Times reviewed",
+          "url": "https://openlibrary.org/subjects/new_york_times_reviewed"
+        },
+        {
+          "name": "Popular Psychology",
+          "url": "https://openlibrary.org/subjects/popular_psychology"
+        },
+        {
+          "name": "Popular economics",
+          "url": "https://openlibrary.org/subjects/popular_economics"
+        },
+        {
+          "name": "PSYCHOLOGY",
+          "url": "https://openlibrary.org/subjects/psychology"
+        },
+        {
+          "name": "General",
+          "url": "https://openlibrary.org/subjects/general"
+        },
+        {
+          "name": "BUSINESS & ECONOMICS",
+          "url": "https://openlibrary.org/subjects/business_&_economics"
+        },
+        {
+          "name": "PSYCHOLOGY & PSYCHIATRY",
+          "url": "https://openlibrary.org/subjects/psychology_&_psychiatry"
+        },
+        {
+          "name": "FAMILY & RELATIONSHIPS",
+          "url": "https://openlibrary.org/subjects/family_&_relationships"
+        },
+        {
+          "name": "Life Stages",
+          "url": "https://openlibrary.org/subjects/life_stages"
+        },
+        {
+          "name": "Developmental",
+          "url": "https://openlibrary.org/subjects/developmental"
+        },
+        {
+          "name": "Lifespan Development",
+          "url": "https://openlibrary.org/subjects/lifespan_development"
+        },
+        {
+          "name": "Chaotic behavior in systems",
+          "url": "https://openlibrary.org/subjects/chaotic_behavior_in_systems"
+        },
+        {
+          "name": "Uncertainty (information theory)--social aspects",
+          "url": "https://openlibrary.org/subjects/uncertainty_(information_theory)--social_aspects"
+        },
+        {
+          "name": "Q375 .t348 2012",
+          "url": "https://openlibrary.org/subjects/q375_.t348_2012"
+        },
+        {
+          "name": "155.2/4",
+          "url": "https://openlibrary.org/subjects/155.2/4"
+        },
+        {
+          "name": "Psy000000 bus000000",
+          "url": "https://openlibrary.org/subjects/psy000000_bus000000"
+        },
+        {
+          "name": "Juvenile fiction",
+          "url": "https://openlibrary.org/subjects/juvenile_fiction"
+        }
+      ],
+      "notes": "Includes bibliographical references.\r\n\r\nIncludes bibliographical references and index.",
+      "links": [
+        {
+          "title": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Antifragile"
+        },
+        {
+          "title": "New York Times review",
+          "url": "http://www.nytimes.com/2012/12/17/books/antifragile-by-nassim-nicholas-taleb.html"
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/isbn_9781400067824",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/9180157-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/9180157-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/9180157-L.jpg"
+      }
+    },
+    "verifiedISBN": "9781400067824"
+  },
+  "timestamp": 1767726697568,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

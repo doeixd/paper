@@ -1,0 +1,812 @@
+{
+  "key": "doi-10.1093_0198235089.001.0001",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2025-12-30T03:42:56Z",
+      "timestamp": 1767066176908,
+      "version": "3.30.2"
+    },
+    "edition-number": "1",
+    "reference-count": 109,
+    "publisher": "Oxford University PressOxford",
+    "isbn-type": [
+      {
+        "type": "print",
+        "value": "0198235089"
+      },
+      {
+        "type": "print",
+        "value": "9780198235088"
+      },
+      {
+        "type": "electronic",
+        "value": "9780191597428"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2001,
+          2,
+          22
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Philippa Foot sets out a naturalistic theory of ethics, which she calls ‘natural normativity’ and which is radically opposed to the subjectivist, non‐naturalism tradition deriving from David Hume and to be found in G. E. Moore and modern theories of ethics influenced by Moore, such as emotivism and prescriptivism. Natural normativity involves a special form of evaluation that predicates goodness and defect to living things qua living things, and Foot argues that this is the form of evaluation in moral judgements. Moral evaluations thus share a conceptual structure with evaluations of the characteristics and operations of living things, and can only be understood in these terms. The thesis of the book, then, is that vice is a natural defect, and virtue goodness of will; therefore propositions to do with goodness or badness in human character and action are not to be understood in psychological terms. In Ch. 1, Foot discusses and criticizes the subjectivism and non‐cognitivism that has dominated the past 60 years of analytical moral philosophy. Ch. 2 provides a sketch of an account of natural normativity in plants and animals, while Ch. 3 applies this to human beings, including a discussion of Elizabeth Anscombe's discussion of promising. Ch. 4 exhibits the constraint that this account of natural normativity imparts to any adequate view of practical rationality. Ch. 5 attempts to dissolve any meaningful distinction between the domain of practical rationality and the domain of morality. Ch. 6 deals with the connection between goodness and happiness, while Ch. 7 discusses Nietzsche's immoralism.</jats:p>",
+    "DOI": "10.1093/0198235089.001.0001",
+    "type": "edited-book",
+    "created": {
+      "date-parts": [
+        [
+          2003,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2003-10-22T00:49:38Z",
+      "timestamp": 1066783778000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 758,
+    "title": [
+      "Natural Goodness"
+    ],
+    "prefix": "10.1093",
+    "author": [
+      {
+        "given": "Philippa",
+        "family": "Foot",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of California, Los Angeles, and Honorary Fellow of Somerville College, Oxford"
+          }
+        ]
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2003,
+          11,
+          1
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2025783",
+        "article-title": "Motive Utilitarianism.",
+        "author": "Adams,",
+        "year": "1978",
+        "journal-title": "Journal of Philosophy"
+      },
+      {
+        "volume-title": "Summa Theologica",
+        "year": "1947",
+        "author": "Aquinas,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Collected Philosophical Papers",
+        "year": "1981",
+        "author": "Anscombe,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Intention",
+        "year": "1957",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Philosophy.",
+        "year": "1958",
+        "author": "Anscombe,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "article-title": "On Promising and its Justice.",
+        "author": "Anscombe,",
+        "year": "1969",
+        "journal-title": "Critica"
+      },
+      {
+        "key": "2022081217381884500_",
+        "article-title": "On the Source of the Authority of the State.",
+        "author": "Anscombe,",
+        "year": "1978",
+        "journal-title": "Ratio"
+      },
+      {
+        "volume-title": "Virtues and Reasons",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1475-4975.1978.tb00364.x",
+        "article-title": "Rules, Rights, and Promises.",
+        "author": "Anscombe,",
+        "year": "1978",
+        "journal-title": "Midwest Studies in Philosophy"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2022824",
+        "article-title": "The Two Kinds of Error in Action.",
+        "author": "Anscombe,",
+        "year": "1963",
+        "journal-title": "Journal of Philosophy"
+      },
+      {
+        "volume-title": "Nicomachean Ethics",
+        "year": "1926",
+        "author": "Aristotle",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Language, Truth and Logic",
+        "year": "1936",
+        "author": "Ayer,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "An Introduction to the Principles of Morals and Legislation",
+        "year": "1960",
+        "author": "Bentham,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/293400",
+        "article-title": "Wise Feelings, Apt Reading",
+        "author": "Blackburn,",
+        "year": "1992",
+        "journal-title": "Ethics"
+      },
+      {
+        "volume-title": "Oxford Dictionary of Philosophy",
+        "year": "1994",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Nietzsche, Genealogy, Morality",
+        "author": "Clark,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "The End of the Tether",
+        "year": "1967",
+        "author": "Conrad,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Essays on Actions and Events",
+        "year": "1980",
+        "author": "Davidson,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "The Extended Phenotype",
+        "year": "1982",
+        "author": "Dawkins,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "The Brothers Karamazov",
+        "year": "1927",
+        "author": "Dostoevsky,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Three Short Novels of Dostoevsky",
+        "year": "1960",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "article-title": "Report from Hell.",
+        "author": "Dworkin,",
+        "year": "1986",
+        "journal-title": "New York Review of Books"
+      },
+      {
+        "volume-title": "Middlemarch",
+        "year": "1947",
+        "author": "Eliot,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/ojls/15.1.1",
+        "article-title": "Does Moral Subjectivism Rest on a Mistake?",
+        "author": "Foot,",
+        "year": "1995",
+        "journal-title": "Oxford Journal of Legal Studies"
+      },
+      {
+        "volume-title": "Logic, Cause and Action",
+        "year": "2000",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/aristoteliansupp/35.1.45",
+        "article-title": "Goodness and Choice.",
+        "author": "Foot,",
+        "year": "1961",
+        "journal-title": "Proceedings of the Aristotelian Society"
+      },
+      {
+        "volume-title": "Proceedings of the Aristotelian Society",
+        "year": "1958",
+        "author": "Foot,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Modality, Morality and Belief: Essays in Honour of Ruth Marcus",
+        "year": "1995",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2184328",
+        "article-title": "Morality as a System of Hypothetical Imperatives.",
+        "author": "Foot,",
+        "year": "1972",
+        "journal-title": "Philosophical Review"
+      },
+      {
+        "volume-title": "Nietzsche: A Collection of Critical Essays",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Nietzsche, Genealogy, Morality",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "article-title": "Reasons for Action and Desire.",
+        "author": "Foot,",
+        "year": "1972",
+        "journal-title": "Proceedings of the Aristotelian Society"
+      },
+      {
+        "volume-title": "Theories of Ethics",
+        "year": "1967",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Virtues and Vices.",
+        "author": "Foot,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Virtues and Vices and Other Essays in Moral Philosophy",
+        "year": "1978",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Morals by Agreement",
+        "year": "1986",
+        "author": "Gauthier,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/analys/17.2.33",
+        "article-title": "Good and Evil.",
+        "author": "Geach,",
+        "year": "1956",
+        "journal-title": "Analysis"
+      },
+      {
+        "volume-title": "The Virtues",
+        "year": "1977",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/oso/9780198249856.001.0001",
+        "volume-title": "Wise Choices, Apt Feelings",
+        "author": "Gibbard,",
+        "year": "1990"
+      },
+      {
+        "volume-title": "The Immoralist",
+        "year": "1930",
+        "author": "Gide,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Humanity",
+        "year": "1999",
+        "author": "Glover,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Dying We Live",
+        "year": "1956",
+        "author": "Gollwitzer,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Tess of the D'Urbervilles",
+        "year": "1983",
+        "author": "Hardy,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Freedom and Reason",
+        "year": "1963",
+        "author": "Hare,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "The Language of Morals",
+        "year": "1952",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Moral Thinking",
+        "year": "1981",
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/0198246609.001.0001"
+      },
+      {
+        "volume-title": "Ethics",
+        "year": "1994",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/oso/9780198238539.001.0001",
+        "volume-title": "Objective Prescriptions and Other Essays",
+        "author": "Hare",
+        "year": "1999"
+      },
+      {
+        "journal-title": "Canadian Journal of Philosophy",
+        "key": "2022081217381884500_",
+        "article-title": "Off on the Wrong Foot."
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/oso/9780198238539.001.0001",
+        "volume-title": "Objective Prescriptions and Other Essays",
+        "author": "Hare",
+        "year": "1999"
+      },
+      {
+        "volume-title": "Aristotle and Moral Realism",
+        "year": "1995",
+        "author": "Heinaman,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "An Enquiry Concerning the Principles of Morals",
+        "year": "1936",
+        "author": "Hume,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "A Treatise of Human Nature",
+        "year": "1946",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "On Virtue Ethics",
+        "year": "1999",
+        "author": "Hursthouse,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/oso/9780198240464.001.0001",
+        "volume-title": "Virtues and Reasons",
+        "author": "Hursthouse,",
+        "year": "1995"
+      },
+      {
+        "volume-title": "Dostoevsky",
+        "year": "1983",
+        "author": "Jones,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Foundations of the Metaphysic of Morals",
+        "year": "1946",
+        "author": "Kant,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Nietzsche: Philosopher, Psychologist, Antichrist",
+        "year": "1968",
+        "author": "Kaufmann,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2026464",
+        "article-title": "Scepticism about Practical Reason.",
+        "author": "Korsgaard,",
+        "year": "1986",
+        "journal-title": "Journal of Philosophy"
+      },
+      {
+        "volume-title": "Memoirs of a Revolutionist",
+        "year": "1971",
+        "author": "Kropotkin,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Virtues and Reasons",
+        "author": "Lawrence,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "journal-title": "Pacific Philosophical Quarterly",
+        "article-title": "Reflection, Practice and Scepticism.",
+        "year": "1993",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "An Essay concerning Human Understanding",
+        "year": "1975",
+        "author": "Locke,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Ethics: Inventing Right and Wrong",
+        "year": "1977",
+        "author": "Mackie,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "article-title": "Are Moral Requirements Hypothetical Imperatives?",
+        "author": "McDowell,",
+        "year": "1978",
+        "journal-title": "Proceedings of the Aristotelian Society"
+      },
+      {
+        "volume-title": "Aristotle and Moral Realism",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Essays on Aristotle's Ethics",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "The History of England",
+        "year": "1906",
+        "author": "Macaulay,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Ludwig Wittgenstein: A Memoir",
+        "year": "1984",
+        "author": "Malcolm,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Nietzsche's Philosophy in the Light of Recent Events",
+        "year": "1947",
+        "author": "Mann,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "On Liberty",
+        "year": "1920",
+        "author": "Mill,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Language, Thought, and Other Biological Categories",
+        "year": "1984",
+        "author": "Millikan,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Principia Ethica",
+        "year": "1903",
+        "author": "Moore,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "The Possibility of Altruism",
+        "year": "1970",
+        "author": "Nagel,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "The Gay Science",
+        "year": "1974",
+        "author": "Nietzsche,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Human, All Too Human",
+        "year": "1984",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "On the Genealogy of Morals",
+        "year": "1967",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "The Portable Nietzsche",
+        "year": "1954",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Thus Spake Zarathustra",
+        "author": "Nietzsche,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Twilight of the Idols",
+        "author": "Nietzsche,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Nijinsky",
+        "year": "1972",
+        "author": "Nijinsky,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Reasons and Persons",
+        "year": "1984",
+        "author": "Parfit,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Gorgias",
+        "year": "1991",
+        "author": "Plato",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Republic",
+        "year": "1930",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Duty and Interest",
+        "year": "1928",
+        "author": "Prichard,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Moral Obligation",
+        "year": "1968",
+        "author": "Prichard",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Morality and Action",
+        "year": "1993",
+        "author": "Quinn,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Morality and Action",
+        "year": "1993",
+        "author": "Quinn,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1525/9780520340985",
+        "volume-title": "Essays on Aristotle's Ethics",
+        "author": "Rorty,",
+        "year": "1980"
+      },
+      {
+        "volume-title": "Pitt",
+        "year": "1899",
+        "author": "Rosebery,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "The Cambridge Companion to Nietzsche",
+        "year": "1996",
+        "author": "Salaquarda,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Nietzsche, Genealogy, Morality",
+        "year": "1994",
+        "author": "Schacht,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2025934",
+        "article-title": "Utilitarianism and Welfarism.",
+        "author": "Sen,",
+        "year": "1979",
+        "journal-title": "Journal of Philosophy"
+      },
+      {
+        "key": "2022081217381884500_",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/mind/XCVI.381.36",
+        "article-title": "The Humean Theory of Motivation.",
+        "author": "Smith,",
+        "year": "1987",
+        "journal-title": "Mind"
+      },
+      {
+        "volume-title": "Nietzsche: A Collection of Critical Essays",
+        "year": "1973",
+        "author": "Solomon,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Virtue Ethics",
+        "year": "1997",
+        "author": "Statman,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Three Lives",
+        "year": "1990",
+        "author": "Stein,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Friedrich Nietzsche",
+        "year": "1979",
+        "author": "Stern,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Ethics and Language",
+        "year": "1945",
+        "author": "Stevenson,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "key": "2022081217381884500_",
+        "article-title": "Should the Numbers Count?",
+        "author": "Taurek,",
+        "year": "1977",
+        "journal-title": "Philosophy and Public Affairs"
+      },
+      {
+        "volume-title": "Virtues and Reasons",
+        "year": "1995",
+        "author": "Thompson,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Virtue Ethics",
+        "author": "Watson,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Aristotle and Moral Realism",
+        "author": "Wiggins,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Needs, Values, Truth",
+        "year": "1987",
+        "author": "Wiggins,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Needs, Values, Truth",
+        "year": "1987",
+        "author": "Wiggins,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Ethics and the Limits of Philosophy",
+        "year": "1985",
+        "author": "Williams,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Nietzsche, Genealogy, Morality",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Philosophical Investigations",
+        "year": "1953",
+        "author": "Wittgenstein,",
+        "key": "2022081217381884500_"
+      },
+      {
+        "volume-title": "Remarks on the Philosophy of Psychology.",
+        "year": "1980",
+        "key": "2022081217381884500_"
+      }
+    ],
+    "container-title": [],
+    "original-title": [],
+    "language": "en",
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          14
+        ]
+      ],
+      "date-time": "2024-12-14T04:07:20Z",
+      "timestamp": 1734149240000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/book/10657"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2001,
+          2,
+          22
+        ]
+      ]
+    },
+    "ISBN": [
+      "0198235089",
+      "9780198235088",
+      "9780191597428"
+    ],
+    "references-count": 109,
+    "URL": "https://doi.org/10.1093/0198235089.001.0001",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2001,
+          2,
+          22
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767726503902,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

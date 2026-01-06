@@ -1,0 +1,154 @@
+{
+  "key": "doi-10.1017_CBO9780511582233",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          5
+        ]
+      ],
+      "date-time": "2025-11-05T20:43:57Z",
+      "timestamp": 1762375437826
+    },
+    "edition-number": "1",
+    "reference-count": 0,
+    "publisher": "Cambridge University Press",
+    "isbn-type": [
+      {
+        "value": "9780521483100",
+        "type": "print"
+      },
+      {
+        "value": "9780521893862",
+        "type": "print"
+      },
+      {
+        "value": "9780511582233",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2010,
+              8,
+              4
+            ]
+          ],
+          "date-time": "2010-08-04T00:00:00Z",
+          "timestamp": 1280880000000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 5347,
+        "URL": "https://www.cambridge.org/core/terms"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          1995,
+          12,
+          14
+        ]
+      ]
+    },
+    "abstract": "<jats:p>This 1995 book is a medical and social history of Italy's largest city during the cholera epidemics of 1884 and 1910–11. It explores the factors that exposed Naples to risk; it examines such popular responses as social hysteria, riots and religiosity; and it traces therapeutic strategies. Cholera also became a metaphor for discontent with the regime: the 1884 outbreak was a national issue which led to the rebuilding of the city amidst widespread corruption. The book sets Naples in a comparative international framework; the disease is also related to larger historical issues, such as the nature of liberal statecraft, the 'Southern Question', mass emigration, organised crime, urban renewal, and the medical profession.</jats:p>",
+    "DOI": "10.1017/cbo9780511582233",
+    "type": "monograph",
+    "created": {
+      "date-parts": [
+        [
+          2010,
+          8,
+          2
+        ]
+      ],
+      "date-time": "2010-08-02T12:44:30Z",
+      "timestamp": 1280753070000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 35,
+    "title": [
+      "Naples in the Time of Cholera, 1884–1911"
+    ],
+    "prefix": "10.1017",
+    "author": [
+      {
+        "given": "Frank M.",
+        "family": "Snowden",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "56",
+    "published-online": {
+      "date-parts": [
+        [
+          2010,
+          8,
+          4
+        ]
+      ]
+    },
+    "container-title": [],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2022-10-15T00:46:09Z",
+      "timestamp": 1665794769000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cambridge.org/core/product/identifier/9780511582233/type/book"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1995,
+          12,
+          14
+        ]
+      ]
+    },
+    "ISBN": [
+      "9780521483100",
+      "9780521893862",
+      "9780511582233"
+    ],
+    "references-count": 0,
+    "URL": "https://doi.org/10.1017/cbo9780511582233",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1995,
+          12,
+          14
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767726722107,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

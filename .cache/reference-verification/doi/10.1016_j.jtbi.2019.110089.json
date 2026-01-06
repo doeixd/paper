@@ -1,0 +1,979 @@
+{
+  "key": "doi-10.1016_j.jtbi.2019.110089",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          26
+        ]
+      ],
+      "date-time": "2025-12-26T16:51:26Z",
+      "timestamp": 1766767886627,
+      "version": "3.44.0"
+    },
+    "reference-count": 79,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2020-02-01T00:00:00Z",
+          "timestamp": 1580515200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2020-02-01T00:00:00Z",
+          "timestamp": 1580515200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              6,
+              8
+            ]
+          ],
+          "date-time": "2020-06-08T00:00:00Z",
+          "timestamp": 1591574400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 128,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100010269",
+        "name": "Wellcome Trust",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/100010269",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Journal of Theoretical Biology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.jtbi.2019.110089",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          19
+        ]
+      ],
+      "date-time": "2019-11-19T21:16:27Z",
+      "timestamp": 1574198187000
+    },
+    "page": "110089",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 80,
+    "special_numbering": "C",
+    "title": [
+      "On Markov blankets and hierarchical self-organisation"
+    ],
+    "prefix": "10.1016",
+    "volume": "486",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8170-3397",
+        "authenticated-orcid": false,
+        "given": "Ensor Rafael",
+        "family": "Palacios",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Adeel",
+        "family": "Razi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5108-5743",
+        "authenticated-orcid": false,
+        "given": "Thomas",
+        "family": "Parr",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael",
+        "family": "Kirchhoff",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Karl",
+        "family": "Friston",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0001",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.4161/bioe.26570",
+        "article-title": "Hierarchical structure of biological systems: a bioengineering approach",
+        "author": "Alcocer-Cuarón",
+        "year": "2014",
+        "journal-title": "Bioengineered"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0002",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.plrev.2018.01.007",
+        "article-title": "The foundation: mechanism, prediction, and falsification in Bayesian enactivism: comment on “Answering Schrödinger’s question: a free-energy formulation” by Maxwell James Désormeau Ramstead et&nbsp;al.",
+        "author": "Allen",
+        "year": "2018",
+        "journal-title": "Phys. Life Rev."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1016/S1673-8527(08)60093-4",
+        "article-title": "Global view of bionetwork dynamics: adaptive landscape",
+        "volume": "36",
+        "author": "Ao",
+        "year": "2009",
+        "journal-title": "J. Genet. Genom."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0004",
+        "series-title": "Lyapunov Exponents Proceedings of a Conference Held in Oberwolfach, May 28 - June 2, 1990",
+        "article-title": "Random dynamical systems",
+        "author": "Arnold",
+        "year": "1991"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0005",
+        "doi-asserted-by": "crossref",
+        "first-page": "311",
+        "DOI": "10.3390/e15010311",
+        "article-title": "Information and metabolism in bacterial chemotaxis",
+        "volume": "15",
+        "author": "Auletta",
+        "year": "2013",
+        "journal-title": "Entropy"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0006",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.3390/info1010028",
+        "article-title": "A paradigm shift in biology?",
+        "volume": "1",
+        "author": "Auletta",
+        "year": "2010",
+        "journal-title": "Information"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0007",
+        "doi-asserted-by": "crossref",
+        "first-page": "329",
+        "DOI": "10.1140/epjb/e2008-00175-0",
+        "article-title": "Predictive information and explorative behavior of autonomous robots",
+        "volume": "63",
+        "author": "Ay",
+        "year": "2008",
+        "journal-title": "Eur. Phys. J. B"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0008",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1016/j.cell.2011.10.047",
+        "article-title": "Gene regulatory logic for reading the sonic hedgehog signaling gradient in the vertebrate neural tube",
+        "volume": "148",
+        "author": "Balaskas",
+        "year": "2012",
+        "journal-title": "Cell"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0009",
+        "series-title": "International Conference on Simulation of Adaptive Behavior",
+        "article-title": "A probabilistic interpretation of pid controllers using active inference",
+        "author": "Baltieri",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0010",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1162/ARTL_a_00125",
+        "article-title": "The cognitive domain of a glider in the game of life",
+        "author": "Beer",
+        "year": "2014",
+        "journal-title": "Artif. Life"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0011",
+        "article-title": "Notes on Landauer’s principle, reversible computation, and Maxwell’s demon",
+        "author": "Bennett",
+        "year": "2003",
+        "journal-title": "Stud. Hist. Philos. Sci. Part B"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0012",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1098/rsta.2011.0254",
+        "article-title": "Using shape for self-assembly",
+        "author": "Cademartiri",
+        "year": "2012",
+        "journal-title": "Philos. Trans. R. Soc. A"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0013",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3389/fnsys.2016.00049",
+        "article-title": "Universal darwinism as a process of Bayesian inference",
+        "author": "Campbell",
+        "year": "2016",
+        "journal-title": "Front. Syst. Neurosci."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0014",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-1-4612-5929-9",
+        "article-title": "Applications of centre manifold theory",
+        "author": "Carr",
+        "year": "1981",
+        "journal-title": "Appl. Math. Sci."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0015",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1021/acs.jpcb.9b01717",
+        "article-title": "Synchronization of bioelectric oscillations in networks of nonexcitable cells: from single-cell to multicellular states",
+        "author": "Cervera",
+        "year": "2019",
+        "journal-title": "J. Phys. Chem. B."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "12877",
+        "DOI": "10.1073/pnas.162488599",
+        "article-title": "Diversity, topographic differentiation, and positional memory in human fibroblasts",
+        "volume": "99",
+        "author": "Chang",
+        "year": "2002",
+        "journal-title": "Proc. Natl. Acad. Sci."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0017",
+        "first-page": "1",
+        "article-title": "How to knit your own Markov blanket&nbsp;: resisting the second law with metamorphic minds",
+        "author": "Clark",
+        "year": "2017",
+        "journal-title": "Philos. Predict. Coding"
+      },
+      {
+        "year": "2009",
+        "series-title": "Supersizing the Mind: Embodiment, Action, and Cognitive Extension",
+        "author": "Clark",
+        "key": "10.1016/j.jtbi.2019.110089_bib0018"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0019",
+        "doi-asserted-by": "crossref",
+        "first-page": "89",
+        "DOI": "10.1080/00207727008920220",
+        "article-title": "Every good regulator of a system must be a good model of that system",
+        "volume": "1",
+        "author": "Conant",
+        "year": "1970",
+        "journal-title": "Int. J. Syst. Sci."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "365",
+        "DOI": "10.1007/BF01193705",
+        "article-title": "Attractors for random dynamical systems",
+        "volume": "100",
+        "author": "Crauel",
+        "year": "1994",
+        "journal-title": "Probab. Theory Relat. Fields"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0021",
+        "doi-asserted-by": "crossref",
+        "first-page": "57",
+        "DOI": "10.1007/BF02505989",
+        "article-title": "Global random attractors are uniquely determined by attracting deterministic compact sets",
+        "volume": "CLXXVI",
+        "author": "Crauel",
+        "year": "1999",
+        "journal-title": "Ann. di Mat. Pura Appl."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0022",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1098/rsfs.2011.0110",
+        "article-title": "Top-down causation: an integrating theme within and across the sciences? Introduction",
+        "volume": "2",
+        "author": "Ellis",
+        "year": "2012",
+        "journal-title": "Interface Focus"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0023",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1063/1.4818538",
+        "article-title": "Statistical physics of self-replication",
+        "author": "England",
+        "year": "2013",
+        "journal-title": "J. Chem. Phys."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0024",
+        "doi-asserted-by": "crossref",
+        "first-page": "1529",
+        "DOI": "10.1080/00018730210155133",
+        "article-title": "The fluctuation theorem",
+        "volume": "51",
+        "author": "Evans",
+        "year": "2002",
+        "journal-title": "Adv. Phys."
+      },
+      {
+        "year": "2002",
+        "series-title": "Phase Transitions, Scale Invariance, Renormalization Group Theory, and Percolation, Statistica",
+        "author": "Shwabl",
+        "key": "10.1016/j.jtbi.2019.110089_bib0025"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0026",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1111/jeb.12010",
+        "article-title": "Natural selection. V. How to read the fundamental equations of evolutionary change in terms of information theory",
+        "author": "Frank",
+        "year": "2012",
+        "journal-title": "J. Evol. Biol."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0027",
+        "doi-asserted-by": "crossref",
+        "first-page": "391",
+        "DOI": "10.1016/j.physa.2003.09.056",
+        "article-title": "Stochastic feedback, nonlinear families of Markov processes, and nonlinear Fokker-Planck equations",
+        "volume": "331",
+        "author": "Frank",
+        "year": "2004",
+        "journal-title": "Phys. A Stat. Mech. its Appl."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0028",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1098/rsif.2014.1383",
+        "article-title": "Knowing one's place: a free-energy approach to pattern regulation",
+        "volume": "12",
+        "author": "Friston",
+        "year": "2015",
+        "journal-title": "J. R. Soc. Interface"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0029",
+        "doi-asserted-by": "crossref",
+        "first-page": "227",
+        "DOI": "10.1007/s00422-010-0364-z",
+        "article-title": "Action and behavior: a free-energy formulation",
+        "volume": "102",
+        "author": "Friston",
+        "year": "2010",
+        "journal-title": "Biol. Cybern."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0030",
+        "series-title": "A Free Energy Principle for a Particular Physics",
+        "first-page": "1",
+        "author": "Friston",
+        "year": "2019"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0031",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1098/rsif.2013.0475",
+        "article-title": "Life as we know it",
+        "volume": "10",
+        "author": "Friston",
+        "year": "2013",
+        "journal-title": "J. R. Soc. Interface"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0032",
+        "doi-asserted-by": "crossref",
+        "first-page": "127",
+        "DOI": "10.1038/nrn2787",
+        "article-title": "The free-energy principle: a unified brain theory?",
+        "volume": "11",
+        "author": "Friston",
+        "year": "2010",
+        "journal-title": "Nat. Rev. Neurosci."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0033",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1155/2012/937860",
+        "article-title": "Free energy, value, and attractors",
+        "volume": "2012",
+        "author": "Friston",
+        "year": "2012",
+        "journal-title": "Comput. Math. Methods Med."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0034",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1162/NECO_a_00912",
+        "article-title": "Active inference: a process theory",
+        "author": "Friston",
+        "year": "2017",
+        "journal-title": "Neural Comput."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0035",
+        "doi-asserted-by": "crossref",
+        "first-page": "427",
+        "DOI": "10.1109/JPROC.2014.2306251",
+        "article-title": "Cognitive dynamics: from attractors to active inference",
+        "volume": "102",
+        "author": "Friston",
+        "year": "2014",
+        "journal-title": "Proc. IEEE"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0036",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1155/2010/621670",
+        "article-title": "Generalised filtering",
+        "volume": "2010",
+        "author": "Friston",
+        "year": "2010",
+        "journal-title": "Math. Probl. Eng."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0037",
+        "doi-asserted-by": "crossref",
+        "first-page": "143",
+        "DOI": "10.1016/j.tics.2004.02.004",
+        "article-title": "Upper processing stages of the perception-action cycle",
+        "volume": "8",
+        "author": "Fuster",
+        "year": "2004",
+        "journal-title": "Trends Cogn. Sci."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0038",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.1207/s15516709cog2703_3",
+        "article-title": "A Bayesian approach to the evolution of perceptual and cognitive systems",
+        "volume": "27",
+        "author": "Geisler",
+        "year": "2003",
+        "journal-title": "Cogn. Sci."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0039",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/s12064-011-0144-x",
+        "article-title": "Guiding the self-organization of random Boolean networks",
+        "author": "Gershenson",
+        "year": "2012",
+        "journal-title": "Theory Biosci."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0040",
+        "article-title": "On the theory of superconductivity",
+        "volume": "10",
+        "author": "Ginzburg",
+        "year": "1955",
+        "journal-title": "Nuovo Cim. Ser."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0041",
+        "series-title": "Communications in Computer and Information Science",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-3-319-39387-2_12",
+        "article-title": "Holonic multiagent simulation of complex adaptive systems",
+        "author": "Hadfi",
+        "year": "2016"
+      },
+      {
+        "year": "1978",
+        "series-title": "Synergetics: An Introduction",
+        "author": "Haken",
+        "key": "10.1016/j.jtbi.2019.110089_bib0042"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0043",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1098/rstb.2017.0107",
+        "article-title": "Self-organization principles of intracellular pattern formation",
+        "author": "Halatek",
+        "year": "2018",
+        "journal-title": "Philos. Trans. R. Soc. B Biol. Sci."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0044",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1098/rstb.2000.0550",
+        "article-title": "Hierarchical organization of macaque and cat cortical sensory systems explored with a novel network processor",
+        "author": "Hilgetag",
+        "year": "2000",
+        "journal-title": "Philos. Trans. R. Soc. B Biol. Sci."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.jtbi.2019.110089_bib0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "259",
+        "DOI": "10.1111/nous.12062",
+        "article-title": "The self-evidencing brain.noûs",
+        "volume": "50",
+        "author": "Hohwy",
+        "year": "2016",
+        "journal-title": "Noûs"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0046",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1103/PhysRevLett.78.2690",
+        "article-title": "Nonequilibrium equality for free energy differences",
+        "author": "Jarzynski",
+        "year": "1997",
+        "journal-title": "Phys. Rev. Lett."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0047",
+        "article-title": "Self-organization of spatio-temporal hierarchy via learning of dynamic visual image patterns on action sequences",
+        "author": "Jung",
+        "year": "2015",
+        "journal-title": "PLoS One."
+      },
+      {
+        "year": "1995",
+        "series-title": "At Home in the Universe: The Search for the Laws of Self-Organization and Complexity",
+        "author": "Kauffman",
+        "key": "10.1016/j.jtbi.2019.110089_bib0048"
+      },
+      {
+        "year": "1993",
+        "series-title": "The Origins of Order",
+        "author": "Kauffman",
+        "key": "10.1016/j.jtbi.2019.110089_bib0049"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0050",
+        "article-title": "The self-organization of brain and behavior",
+        "author": "Kelso",
+        "year": "1995",
+        "journal-title": "Dyn. Patterns"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0051",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pcbi.1000209",
+        "article-title": "A hierarchy of time-scales and the brain",
+        "volume": "4",
+        "author": "Kiebel",
+        "year": "2008",
+        "journal-title": "PLoS Comput. Biol."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0052",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1098/rsif.2017.0792",
+        "article-title": "The markov blankets of life: autonomy, active inference and the free energy principle",
+        "author": "Kirchhoff",
+        "year": "2018",
+        "journal-title": "J. R. Soc. Interface."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0053",
+        "article-title": "Morphogenesis as Bayesian inference: a variational approach to pattern formation and control in complex biological systems",
+        "author": "Kuchling",
+        "year": "2019",
+        "journal-title": "Phys. Life Rev."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0054",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pcbi.1002776",
+        "article-title": "The dominant folding route minimizes backbone distortion in SH3",
+        "author": "Lammert",
+        "year": "2012",
+        "journal-title": "PLoS Comput. Biol."
+      },
+      {
+        "year": "2003",
+        "series-title": "Information Theory, Inference and Learning Algorithms",
+        "author": "MacKay",
+        "key": "10.1016/j.jtbi.2019.110089_bib0055"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0056",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1006/ijhc.1974.0304",
+        "article-title": "The organization of the living&nbsp;: a theory of the living organization",
+        "volume": "51",
+        "author": "Maturana",
+        "year": "1974",
+        "journal-title": "Int. J. Hum.-Comput. Stud."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0057",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1186/s12964-015-0125-7",
+        "article-title": "Phase separation in biology; functional organization of a higher order",
+        "author": "Mitrea",
+        "year": "2016",
+        "journal-title": "Cell Commun. Signal"
+      },
+      {
+        "volume": "491",
+        "year": "1977",
+        "author": "Nicolis",
+        "key": "10.1016/j.jtbi.2019.110089_bib0058"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0059",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1038/nphys3230",
+        "article-title": "Thermodynamics of information",
+        "author": "Parrondo",
+        "year": "2015",
+        "journal-title": "Nat. Phys."
+      },
+      {
+        "year": "1988",
+        "series-title": "Probabilistic Reasoning in Intelligent Systems",
+        "author": "Pearl",
+        "key": "10.1016/j.jtbi.2019.110089_bib0060"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0061",
+        "article-title": "Using Markov blankets for causal structure learning",
+        "author": "Pellet",
+        "year": "2008",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0062",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pcbi.1002198",
+        "article-title": "Time scale hierarchies in the functional organization of complex behaviors",
+        "author": "Perdikis",
+        "year": "2011",
+        "journal-title": "PLoS Comput. Biol."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0063",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1147/rd.53.0183",
+        "article-title": "Irreversibility and heat generation in the computing process",
+        "author": "Landauer",
+        "year": "1961",
+        "journal-title": "IBM J. Res. Dev"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0064",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jtbi.2017.05.017",
+        "article-title": "Can natural selection encode Bayesian priors?",
+        "author": "Ramírez",
+        "year": "2017",
+        "journal-title": "J. Theor. Biol."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0065",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.plrev.2017.09.001",
+        "article-title": "Answering Schrödinger’s question: a free-energy formulation",
+        "author": "Ramstead",
+        "year": "2018",
+        "journal-title": "Phys. Life Rev."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0066",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jefferey K., Pollack R., Rovelli C., 2019. On the statistical mechanics of life: Schrödinger revisited. ArXiv.",
+        "DOI": "10.3390/e21121211"
+      },
+      {
+        "year": "1944",
+        "series-title": "What is Life? The Pysical Aspect of the Living Cell",
+        "author": "Schrödinger",
+        "key": "10.1016/j.jtbi.2019.110089_bib0067"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0068",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1088/0034-4885/75/12/126001",
+        "article-title": "Stochastic thermodynamics, fluctuation theorems and molecular machines",
+        "volume": "75",
+        "author": "Seifert",
+        "year": "2012",
+        "journal-title": "Rep. Prog. Phys."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0069",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1143/PTPS.130.17",
+        "article-title": "Langevin equation and thermodynamics",
+        "author": "Sekimoto",
+        "year": "1998",
+        "journal-title": "Prog. Theor. Phys. Suppl."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0070",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1242/dev.01043",
+        "article-title": "Morphogens, their identification and regulation",
+        "author": "Tabata",
+        "year": "2004",
+        "journal-title": "Development."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0071",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1115/1.3640461",
+        "article-title": "Information theory as the basis for thermostatics and thermodynamics",
+        "volume": "28",
+        "author": "Tribus",
+        "year": "1961",
+        "journal-title": "J. Appl. Mech."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0072",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.newideapsych.2006.09.002",
+        "article-title": "Intentionality in non-equilibrium systems? The functional aspects of self-organized pattern formation",
+        "volume": "25",
+        "author": "Tschacher",
+        "year": "2007",
+        "journal-title": "New Ideas Psychol."
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0073",
+        "doi-asserted-by": "crossref",
+        "first-page": "187",
+        "DOI": "10.1016/0303-2647(74)90031-8",
+        "article-title": "Autopoiesis: the organization of living systems, its characterization and a model",
+        "volume": "5",
+        "author": "Varela",
+        "year": "1974",
+        "journal-title": "BioSystems"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0074",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1103/PhysRevE.97.012122",
+        "article-title": "Dynamic phase transition of the Blume-Capel model in an oscillating magnetic field",
+        "author": "Vatansever",
+        "year": "2018",
+        "journal-title": "Phys. Rev. E."
+      },
+      {
+        "year": "2011",
+        "series-title": "Thermodynamics and the Structure of Living Systems",
+        "author": "Virgo",
+        "key": "10.1016/j.jtbi.2019.110089_bib0075"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0076",
+        "series-title": "European Conference on Artificial Life",
+        "article-title": "The role of the spatial boundary in autopoiesis",
+        "author": "Virgo",
+        "year": "2011"
+      },
+      {
+        "issue": "80–.).",
+        "key": "10.1016/j.jtbi.2019.110089_bib0077",
+        "doi-asserted-by": "crossref",
+        "first-page": "2418",
+        "DOI": "10.1126/science.1070821",
+        "article-title": "Self-Assembly at all scales",
+        "volume": "295",
+        "author": "Whitesides",
+        "year": "2002",
+        "journal-title": "Science"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0078",
+        "article-title": "Variational message passing",
+        "author": "Winn",
+        "year": "2005",
+        "journal-title": "J. Mach. Learn. Res"
+      },
+      {
+        "key": "10.1016/j.jtbi.2019.110089_bib0079",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3389/fnsys.2016.00098",
+        "article-title": "Life and understanding: the origins of “Understanding” in self-organizing nervous systems",
+        "author": "Yufik",
+        "year": "2016",
+        "journal-title": "Front. Syst. Neurosci."
+      }
+    ],
+    "container-title": [
+      "Journal of Theoretical Biology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0022519319304588?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0022519319304588?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          20
+        ]
+      ],
+      "date-time": "2025-09-20T16:27:55Z",
+      "timestamp": 1758385675000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0022519319304588"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          2
+        ]
+      ]
+    },
+    "references-count": 79,
+    "alternative-id": [
+      "S0022519319304588"
+    ],
+    "URL": "https://doi.org/10.1016/j.jtbi.2019.110089",
+    "relation": {},
+    "ISSN": [
+      "0022-5193"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0022-5193"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "On Markov blankets and hierarchical self-organisation",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Journal of Theoretical Biology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.jtbi.2019.110089",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2020 The Authors. Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "110089"
+  },
+  "timestamp": 1767726673525,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

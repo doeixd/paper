@@ -1,0 +1,109 @@
+{
+  "key": "isbn-1631491377",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL29412527M/The_Knowledge_Machine",
+      "key": "/books/OL29412527M",
+      "title": "The Knowledge Machine",
+      "subtitle": "How Irrationality Created Modern Science",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL2753961A/Michael_Strevens",
+          "name": "Michael Strevens"
+        }
+      ],
+      "number_of_pages": 368,
+      "identifiers": {
+        "isbn_10": [
+          "1631491377"
+        ],
+        "isbn_13": [
+          "9781631491375"
+        ],
+        "lccn": [
+          "2020018496"
+        ],
+        "oclc": [
+          "1137812867"
+        ],
+        "openlibrary": [
+          "OL29412527M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "",
+          "Q175 .S865 2020",
+          "Q175.S865 2020"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Liveright Publishing Corporation"
+        },
+        {
+          "name": "Liveright"
+        }
+      ],
+      "publish_date": "Oct 13, 2020",
+      "subjects": [
+        {
+          "name": "New York Times reviewed",
+          "url": "https://openlibrary.org/subjects/new_york_times_reviewed"
+        },
+        {
+          "name": "Science",
+          "url": "https://openlibrary.org/subjects/science"
+        },
+        {
+          "name": "Social sciences, philosophy",
+          "url": "https://openlibrary.org/subjects/social_sciences,_philosophy"
+        },
+        {
+          "name": "Science, history",
+          "url": "https://openlibrary.org/subjects/science,_history"
+        },
+        {
+          "name": "Methodology",
+          "url": "https://openlibrary.org/subjects/methodology"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "History",
+          "url": "https://openlibrary.org/subjects/history"
+        },
+        {
+          "name": "Theory of Knowledge",
+          "url": "https://openlibrary.org/subjects/theory_of_knowledge"
+        },
+        {
+          "name": "Practical reason",
+          "url": "https://openlibrary.org/subjects/practical_reason"
+        },
+        {
+          "name": "Irrationality (Philosophy)",
+          "url": "https://openlibrary.org/subjects/irrationality_(philosophy)"
+        }
+      ],
+      "notes": "Source title: The Knowledge Machine: How Irrationality Created Modern Science",
+      "links": [
+        {
+          "title": "New York Times review",
+          "url": "https://www.nytimes.com/2020/10/07/books/review-knowledge-machine-irrationality-created-modern-science-michael-strevens.html"
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/10389343-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/10389343-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/10389343-L.jpg"
+      }
+    },
+    "verifiedISBN": "1631491377"
+  },
+  "timestamp": 1767726696551,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

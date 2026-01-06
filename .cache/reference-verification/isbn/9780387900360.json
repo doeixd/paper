@@ -1,0 +1,119 @@
+{
+  "key": "isbn-9780387900360",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL1238265M/Categories_for_the_working_mathematician",
+      "key": "/books/OL1238265M",
+      "title": "Categories for the working mathematician",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL401671A/Saunders_Mac_Lane",
+          "name": "Saunders Mac Lane"
+        }
+      ],
+      "number_of_pages": 262,
+      "pagination": "ix, 262 p. ;",
+      "by_statement": "S. Mac Lane.",
+      "identifiers": {
+        "librarything": [
+          "75788"
+        ],
+        "goodreads": [
+          "1365460",
+          "1365461"
+        ],
+        "isbn_10": [
+          "0387900357",
+          "0387900365"
+        ],
+        "lccn": [
+          "94242160",
+          "78166080"
+        ],
+        "oclc": [
+          "267783"
+        ],
+        "openlibrary": [
+          "OL1238265M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "QA169 .M33 1994",
+          "QA169 .M33",
+          "QA1-939"
+        ],
+        "dewey_decimal_class": [
+          "512/.55"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Springer-Verlag"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "1994",
+      "subjects": [
+        {
+          "name": "Categories (Mathematics)",
+          "url": "https://openlibrary.org/subjects/categories_(mathematics)"
+        },
+        {
+          "name": "Mathematics",
+          "url": "https://openlibrary.org/subjects/mathematics"
+        },
+        {
+          "name": "Mathematics, general",
+          "url": "https://openlibrary.org/subjects/mathematics,_general"
+        },
+        {
+          "name": "Categorieën (wiskunde)",
+          "url": "https://openlibrary.org/subjects/categorieën_(wiskunde)"
+        },
+        {
+          "name": "Teoria das categorias",
+          "url": "https://openlibrary.org/subjects/teoria_das_categorias"
+        },
+        {
+          "name": "Topologia algébrica",
+          "url": "https://openlibrary.org/subjects/topologia_algébrica"
+        },
+        {
+          "name": "Álgebra homológica",
+          "url": "https://openlibrary.org/subjects/álgebra_homológica"
+        },
+        {
+          "name": "Kategorie <Mathematik>",
+          "url": "https://openlibrary.org/subjects/kategorie_<mathematik>"
+        },
+        {
+          "name": "Catégories abéliennes",
+          "url": "https://openlibrary.org/subjects/catégories_abéliennes"
+        },
+        {
+          "name": "Monoïdes",
+          "url": "https://openlibrary.org/subjects/monoïdes"
+        },
+        {
+          "name": "Catégories (mathématiques)",
+          "url": "https://openlibrary.org/subjects/catégories_(mathématiques)"
+        }
+      ],
+      "notes": "Includes bibliographical references (p. 249-252) and index.",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/8626946-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/8626946-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/8626946-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780387900360"
+  },
+  "timestamp": 1767726659280,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

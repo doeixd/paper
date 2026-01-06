@@ -1,0 +1,78 @@
+{
+  "key": "isbn-9780195082241",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL1732360M/Essays_in_quasi-realism",
+      "key": "/books/OL1732360M",
+      "title": "Essays in quasi-realism",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL216809A/Simon_Blackburn",
+          "name": "Simon Blackburn"
+        }
+      ],
+      "number_of_pages": 262,
+      "pagination": "vi, 262 p. ;",
+      "by_statement": "Simon Blackburn.",
+      "identifiers": {
+        "goodreads": [
+          "3503249",
+          "593074"
+        ],
+        "librarything": [
+          "214598"
+        ],
+        "isbn_10": [
+          "0195080416",
+          "0195082249"
+        ],
+        "lccn": [
+          "92037005"
+        ],
+        "oclc": [
+          "26800691"
+        ],
+        "openlibrary": [
+          "OL1732360M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "B835 .B35 1993",
+          "B835.B35 1993",
+          "B835. .B35 1993"
+        ],
+        "dewey_decimal_class": [
+          "149/.2"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "1993",
+      "subjects": [
+        {
+          "name": "Realism",
+          "url": "https://openlibrary.org/subjects/realism"
+        }
+      ],
+      "notes": "Includes bibliographical references and index.",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/122245-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/122245-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/122245-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780195082241"
+  },
+  "timestamp": 1767725967403,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

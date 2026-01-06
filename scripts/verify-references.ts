@@ -57,8 +57,8 @@ type VerificationStatus = 'verified' | 'corrected' | 'failed' | 'skipped';
 
 interface Correction {
   field: string;
-  original: string;
-  corrected: string;
+  original?: string;
+  corrected?: string;
   reason: string;
 }
 
@@ -1983,27 +1983,53 @@ class ReferenceVerifier {
 
           // Apply each correction
           verification.corrections.forEach(correction => {
+            if (!correction.corrected) {
+              if (this.options.verbose) {
+                console.warn(`Skipping correction on line ${ref.lineNumber}: missing replacement text for field "${correction.field}"`);
+              }
+              return;
+            }
+
+            const applyReplacement = (target: string | undefined, replacement: string, field: string) => {
+              if (!target || target.trim().length === 0) {
+                if (this.options.verbose) {
+                  console.warn(`Skipping ${field} correction on line ${ref.lineNumber}: missing original text to replace`);
+                }
+                return;
+              }
+
+              correctedText = correctedText.replace(
+                new RegExp(this.escapeRegex(target), 'g'),
+                replacement
+              );
+            };
+
             switch (correction.field) {
               case 'title':
-                // Replace title in the text (this is a simple approach)
-                correctedText = correctedText.replace(
-                  new RegExp(this.escapeRegex(ref.title), 'g'),
-                  correction.corrected
+                // Prefer explicit original value if provided, otherwise fall back to parsed title
+                applyReplacement(
+                  correction.original && correction.original.trim().length > 0 ? correction.original : ref.title,
+                  correction.corrected,
+                  'title'
                 );
                 break;
               case 'authors':
-                // Replace author name (simplified)
-                correctedText = correctedText.replace(
-                  new RegExp(this.escapeRegex(correction.original), 'g'),
-                  correction.corrected
-                );
+                applyReplacement(correction.original, correction.corrected, 'authors');
                 break;
               case 'year':
-                // Replace year
-                correctedText = correctedText.replace(
-                  new RegExp(`\\b${this.escapeRegex(ref.year)}\\b`, 'g'),
-                  correction.corrected
-                );
+                // If the correction payload specifies the offending year, use it; otherwise fallback to parsed year
+                const yearTarget = correction.original && correction.original.trim().length > 0
+                  ? correction.original
+                  : ref.year;
+
+                if (yearTarget && yearTarget.trim().length > 0) {
+                  correctedText = correctedText.replace(
+                    new RegExp(`\\b${this.escapeRegex(yearTarget)}\\b`, 'g'),
+                    correction.corrected
+                  );
+                } else if (this.options.verbose) {
+                  console.warn(`Skipping year correction on line ${ref.lineNumber}: missing year to replace`);
+                }
                 break;
             }
           });

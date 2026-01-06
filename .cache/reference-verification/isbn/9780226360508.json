@@ -1,0 +1,126 @@
+{
+  "key": "isbn-9780226360508",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL2527484M/Science_as_a_process",
+      "key": "/books/OL2527484M",
+      "title": "Science as a process",
+      "subtitle": "an evolutionary account of the social and conceptual development of science",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL1008957A/David_L._Hull",
+          "name": "David L. Hull"
+        }
+      ],
+      "number_of_pages": 586,
+      "pagination": "xiii, 586 p. :",
+      "by_statement": "David L. Hull.",
+      "identifiers": {
+        "goodreads": [
+          "4917403"
+        ],
+        "librarything": [
+          "446959"
+        ],
+        "isbn_10": [
+          "0226360504"
+        ],
+        "lccn": [
+          "88002743"
+        ],
+        "oclc": [
+          "17505893"
+        ],
+        "openlibrary": [
+          "OL2527484M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "Q158.5 .H84 1988",
+          "Q158.5.H84 1988"
+        ],
+        "dewey_decimal_class": [
+          "575.016"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "University of Chicago Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Chicago"
+        }
+      ],
+      "publish_date": "1988",
+      "subjects": [
+        {
+          "name": "History",
+          "url": "https://openlibrary.org/subjects/history"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Science",
+          "url": "https://openlibrary.org/subjects/science"
+        },
+        {
+          "name": "Histoire",
+          "url": "https://openlibrary.org/subjects/histoire"
+        },
+        {
+          "name": "Vooruitgang",
+          "url": "https://openlibrary.org/subjects/vooruitgang"
+        },
+        {
+          "name": "Wetenschapssociologie",
+          "url": "https://openlibrary.org/subjects/wetenschapssociologie"
+        },
+        {
+          "name": "Sciences",
+          "url": "https://openlibrary.org/subjects/sciences"
+        },
+        {
+          "name": "Wetenschappen",
+          "url": "https://openlibrary.org/subjects/wetenschappen"
+        },
+        {
+          "name": "Philosophie des sciences",
+          "url": "https://openlibrary.org/subjects/philosophie_des_sciences"
+        },
+        {
+          "name": "Philosophie",
+          "url": "https://openlibrary.org/subjects/philosophie"
+        },
+        {
+          "name": "Science, history",
+          "url": "https://openlibrary.org/subjects/science,_history"
+        },
+        {
+          "name": "New York Times reviewed",
+          "url": "https://openlibrary.org/subjects/new_york_times_reviewed"
+        }
+      ],
+      "notes": "Bibliography: p. 539-573.\nIncludes indexes.",
+      "links": [
+        {
+          "title": "New York Times review",
+          "url": "http://www.nytimes.com/1988/11/06/books/nice-guys-don-t-win-nobel-prizes.html"
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/8717508-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/8717508-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/8717508-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780226360508"
+  },
+  "timestamp": 1767726613004,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

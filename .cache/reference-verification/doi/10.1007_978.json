@@ -1,0 +1,162 @@
+{
+  "key": "doi-10.1007_978-94-009-9493-5_1",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2026-01-06T13:58:01Z",
+      "timestamp": 1767707881436
+    },
+    "publisher-location": "Dordrecht",
+    "reference-count": 6,
+    "publisher": "Springer Netherlands",
+    "isbn-type": [
+      {
+        "type": "print",
+        "value": "9789027710246"
+      },
+      {
+        "type": "electronic",
+        "value": "9789400994935"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-94-009-9493-5_1",
+    "type": "book-chapter",
+    "created": {
+      "date-parts": [
+        [
+          2011,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2011-09-29T08:50:56Z",
+      "timestamp": 1317286256000
+    },
+    "page": "1-23",
+    "source": "Crossref",
+    "is-referenced-by-count": 516,
+    "title": [
+      "What is Justified Belief?"
+    ],
+    "prefix": "10.1007",
+    "author": [
+      {
+        "given": "Alvin I.",
+        "family": "Goldman",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "reference": [
+      {
+        "key": "1_CR1",
+        "first-page": "12",
+        "volume": "22",
+        "author": "‘A Causal Theory of Knowing,’",
+        "year": "1967",
+        "unstructured": "‘A Causal Theory of Knowing,’ The Journal of Philosophy 64, 12 (June 22, 1967): 357–372",
+        "journal-title": "The Journal of Philosophy"
+      },
+      {
+        "key": "1_CR2",
+        "unstructured": "Innate Knowledge,’ in S. P. Stich, ed., Innate Ideas (Berkeley: University of California Press, 1975)"
+      },
+      {
+        "key": "1_CR3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Discrimination and Perceptual Knowledge,’ The Journal of Philosophy 73, 20 (November 18, 1976), 771–791.",
+        "DOI": "10.2307/2025679"
+      },
+      {
+        "key": "1_CR4",
+        "unstructured": "This assumption violates the thesis that Davidson calls ‘The Anomalism of the Mental’. Cf. ‘Mental Events,’ in L. Foster and J. W. Swanson, , Experience and Theory (Amherst: University of Massachusetts Press, 1970)."
+      },
+      {
+        "key": "1_CR5",
+        "unstructured": "Keith Lehrer’s example of the gypsy lawyer is intended to show the inappropriateness of a causal requirement. (See Knowledge, Oxford: University Press, 1974, pp. 124–125.)"
+      },
+      {
+        "volume-title": "Values and Morals, Essays in Honor of William Frankena, Charles Stevenson, and Richard Brandt",
+        "year": "1978",
+        "key": "1_CR6",
+        "unstructured": "Alvin I. Goldman and Jaegwon Kim, eds., Values and Morals, Essays in Honor of William Frankena, Charles Stevenson, and Richard Brandt ( Dordrecht: D. Reidel, 1978 )."
+      }
+    ],
+    "container-title": [
+      "Justification and Knowledge"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/978-94-009-9493-5_1.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          12,
+          4
+        ]
+      ],
+      "date-time": "2020-12-04T14:02:47Z",
+      "timestamp": 1607090567000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/978-94-009-9493-5_1"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    },
+    "ISBN": [
+      "9789027710246",
+      "9789400994935"
+    ],
+    "references-count": 6,
+    "URL": "https://doi.org/10.1007/978-94-009-9493-5_1",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767726602407,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

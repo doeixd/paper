@@ -1,0 +1,520 @@
+{
+  "key": "doi-10.1080_09515089.2023.2236120",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2025-12-18T09:33:25Z",
+      "timestamp": 1766050405289
+    },
+    "reference-count": 53,
+    "publisher": "Informa UK Limited",
+    "issue": "7",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              7,
+              17
+            ]
+          ],
+          "date-time": "2023-07-17T00:00:00Z",
+          "timestamp": 1689552000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.tandfonline.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Philosophical Psychology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1080/09515089.2023.2236120",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          18
+        ]
+      ],
+      "date-time": "2023-07-18T05:23:54Z",
+      "timestamp": 1689657834000
+    },
+    "page": "1948-1970",
+    "update-policy": "http://dx.doi.org/10.1080/tandf_crossmark_01",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Moral affordances and the demands of fittingness"
+    ],
+    "prefix": "10.1080",
+    "volume": "37",
+    "author": [
+      {
+        "given": "Fabienne",
+        "family": "Peter",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Philosophy, University of Warwick, Coventry, UK"
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_4_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9780203092248"
+      },
+      {
+        "key": "e_1_3_4_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9781315824154"
+      },
+      {
+        "key": "e_1_3_4_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9213.2012.00075.x"
+      },
+      {
+        "key": "e_1_3_4_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1207/S15326969ECO1502_5"
+      },
+      {
+        "key": "e_1_3_4_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1933-1592.2010.00343.x"
+      },
+      {
+        "key": "e_1_3_4_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199269914.003.0003"
+      },
+      {
+        "key": "e_1_3_4_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2653403"
+      },
+      {
+        "key": "e_1_3_4_9_1",
+        "volume-title": "The second-person standpoint: Morality, respect, and accountability",
+        "author": "Darwall S.",
+        "year": "2006",
+        "unstructured": "Darwall, S. (2006). The second-person standpoint: Morality, respect, and accountability. Harvard University Press."
+      },
+      {
+        "key": "e_1_3_4_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/688752"
+      },
+      {
+        "key": "e_1_3_4_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.7551/mitpress/11967.001.0001"
+      },
+      {
+        "key": "e_1_3_4_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/0270467617714944"
+      },
+      {
+        "key": "e_1_3_4_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/mind/XLVIII.189.1"
+      },
+      {
+        "key": "e_1_3_4_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9780203094624"
+      },
+      {
+        "key": "e_1_3_4_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11245-016-9443-7"
+      },
+      {
+        "key": "e_1_3_4_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10677-021-10213-4"
+      },
+      {
+        "key": "e_1_3_4_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9781315740218"
+      },
+      {
+        "key": "e_1_3_4_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/09593543211021662"
+      },
+      {
+        "key": "e_1_3_4_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511625213"
+      },
+      {
+        "key": "e_1_3_4_20_1",
+        "volume-title": "Themes from G. E. Moore: New essays in epistemology and ethics",
+        "author": "Horgan T.",
+        "year": "2007",
+        "unstructured": "Horgan, T., & Timmons, M. (2007). Moorean moral phenomenology. In S. Nuccetelli & G. Seay (Eds.), Themes from G. E. Moore: New essays in epistemology and ethics. Clarendon Press."
+      },
+      {
+        "key": "e_1_3_4_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0265052508080102"
+      },
+      {
+        "key": "e_1_3_4_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9781315627861-6"
+      },
+      {
+        "key": "e_1_3_4_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00455091.2018.1432393"
+      },
+      {
+        "key": "e_1_3_4_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/phc3.12542"
+      },
+      {
+        "key": "e_1_3_4_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780198841449.003.0010"
+      },
+      {
+        "key": "e_1_3_4_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780192895882.003.0010"
+      },
+      {
+        "key": "e_1_3_4_27_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780192895882.003.0010"
+      },
+      {
+        "key": "e_1_3_4_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199233625.001.0001"
+      },
+      {
+        "key": "e_1_3_4_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/1089-2680.12.2.118"
+      },
+      {
+        "key": "e_1_3_4_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-90-481-3339-0"
+      },
+      {
+        "key": "e_1_3_4_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511554476"
+      },
+      {
+        "key": "e_1_3_4_32_1",
+        "volume-title": "Ethics",
+        "author": "Mackie J. L.",
+        "year": "1977",
+        "unstructured": "Mackie, J. L. (1977). Ethics. Penguin."
+      },
+      {
+        "key": "e_1_3_4_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/mind/fzx011"
+      },
+      {
+        "key": "e_1_3_4_34_1",
+        "volume-title": "The phenomenology of moral experience",
+        "author": "Mandelbaum M.",
+        "year": "1955",
+        "unstructured": "Mandelbaum, M. (1955). The phenomenology of moral experience. Johns Hopkins University Press."
+      },
+      {
+        "issue": "3",
+        "key": "e_1_3_4_35_1",
+        "first-page": "155",
+        "article-title": "Representing our options: The perception of affordances for bodily and mental action",
+        "volume": "26",
+        "author": "McClelland T.",
+        "year": "2019",
+        "unstructured": "McClelland, T. (2019). Representing our options: The perception of affordances for bodily and mental action. Journal of Consciousness Studies, 26(3–4), 155–180.",
+        "journal-title": "Journal of Consciousness Studies"
+      },
+      {
+        "key": "e_1_3_4_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/684712"
+      },
+      {
+        "key": "e_1_3_4_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780198810322.001.0001"
+      },
+      {
+        "key": "e_1_3_4_38_1",
+        "volume-title": "Direct perception",
+        "author": "Michaels C. F.",
+        "year": "1981",
+        "unstructured": "Michaels, C. F., & Carello, C. (1981). Direct perception. Prentice-Hall Englewood Cliffs, NJ."
+      },
+      {
+        "key": "e_1_3_4_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1215/00318108-1334469"
+      },
+      {
+        "key": "e_1_3_4_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/10407413.2014.958035"
+      },
+      {
+        "key": "e_1_3_4_41_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13752-020-00361-8"
+      },
+      {
+        "key": "e_1_3_4_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780192865601.003.0005"
+      },
+      {
+        "key": "e_1_3_4_43_1",
+        "volume-title": "What we owe to each other",
+        "author": "Scanlon T. M.",
+        "year": "1998",
+        "unstructured": "Scanlon, T. M. (1998). What we owe to each other. Harvard University Press."
+      },
+      {
+        "key": "e_1_3_4_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/377380"
+      },
+      {
+        "key": "e_1_3_4_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199299508.001.0001"
+      },
+      {
+        "key": "e_1_3_4_46_1",
+        "first-page": "25",
+        "article-title": "Value and the right kind of reason",
+        "volume": "5",
+        "author": "Schroeder M.",
+        "year": "2010",
+        "unstructured": "Schroeder, M. (2010). Value and the right kind of reason. Oxford Studies in Metaethics, 5, 25–55.",
+        "journal-title": "Oxford Studies in Metaethics"
+      },
+      {
+        "key": "e_1_3_4_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780198868224.001.0001"
+      },
+      {
+        "key": "e_1_3_4_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199756018.003.0003"
+      },
+      {
+        "key": "e_1_3_4_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1207/S15326969ECO1502_2"
+      },
+      {
+        "key": "e_1_3_4_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1207/s15326969eco0403_3"
+      },
+      {
+        "key": "e_1_3_4_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11098-021-01605-4"
+      },
+      {
+        "key": "e_1_3_4_52_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11245-018-9618-5"
+      },
+      {
+        "key": "e_1_3_4_53_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/j.ctv3znwhn"
+      },
+      {
+        "key": "e_1_3_4_54_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5840/pcw20192514"
+      }
+    ],
+    "container-title": [
+      "Philosophical Psychology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.tandfonline.com/doi/pdf/10.1080/09515089.2023.2236120",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2024-10-07T12:08:46Z",
+      "timestamp": 1728302926000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.tandfonline.com/doi/full/10.1080/09515089.2023.2236120"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          17
+        ]
+      ]
+    },
+    "references-count": 53,
+    "journal-issue": {
+      "issue": "7",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1080/09515089.2023.2236120"
+    ],
+    "URL": "https://doi.org/10.1080/09515089.2023.2236120",
+    "relation": {},
+    "ISSN": [
+      "0951-5089",
+      "1465-394X"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0951-5089"
+      },
+      {
+        "type": "electronic",
+        "value": "1465-394X"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          7,
+          17
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "The publishing and review policy for this title is described in its Aims & Scope.",
+        "order": 1,
+        "name": "peerreview_statement",
+        "label": "Peer Review Statement"
+      },
+      {
+        "value": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=cphp20",
+        "URL": "http://www.tandfonline.com/action/journalInformation?show=aimsScope&journalCode=cphp20",
+        "order": 2,
+        "name": "aims_and_scope_url",
+        "label": "Aim & Scope"
+      },
+      {
+        "value": "2023-02-22",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-06-30",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2023-07-17",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "timestamp": 1767726679999,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

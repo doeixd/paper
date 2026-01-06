@@ -1,0 +1,154 @@
+{
+  "key": "isbn-9780262081924",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL21099331M/Moral_consciousness_and_communicative_action",
+      "key": "/books/OL21099331M",
+      "title": "Moral consciousness and communicative action",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL146171A/Jürgen_Habermas",
+          "name": "Jürgen Habermas"
+        }
+      ],
+      "number_of_pages": 225,
+      "pagination": "225 p.",
+      "by_statement": "by Jürgen Habermas ; translated by Christian Lenhardt and Shierry Weber Nicholson ; introduction by Thomas McCarthy.",
+      "identifiers": {
+        "librarything": [
+          "223847"
+        ],
+        "goodreads": [
+          "1429058"
+        ],
+        "doi": [
+          "10.1604/9780262081924"
+        ],
+        "isbn_10": [
+          "026208192X"
+        ],
+        "lccn": [
+          "89029746"
+        ],
+        "oclc": [
+          "20670280"
+        ],
+        "openlibrary": [
+          "OL21099331M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "B3258.H323 M6713 1990",
+          "B3258.H323M6713 1990"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "MIT Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Cambridge, MA"
+        }
+      ],
+      "publish_date": "1990",
+      "subjects": [
+        {
+          "name": "Act (Philosophy)",
+          "url": "https://openlibrary.org/subjects/act_(philosophy)"
+        },
+        {
+          "name": "Communication",
+          "url": "https://openlibrary.org/subjects/communication"
+        },
+        {
+          "name": "Ethics",
+          "url": "https://openlibrary.org/subjects/ethics"
+        },
+        {
+          "name": "Moral and ethical aspects",
+          "url": "https://openlibrary.org/subjects/moral_and_ethical_aspects"
+        },
+        {
+          "name": "Ethics.\u001e 0",
+          "url": "https://openlibrary.org/subjects/ethics.\u001e_0"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Acto (Filosofía)",
+          "url": "https://openlibrary.org/subjects/acto_(filosofía)"
+        },
+        {
+          "name": "Morele ontwikkeling",
+          "url": "https://openlibrary.org/subjects/morele_ontwikkeling"
+        },
+        {
+          "name": "Ética",
+          "url": "https://openlibrary.org/subjects/ética"
+        },
+        {
+          "name": "Aspect moral",
+          "url": "https://openlibrary.org/subjects/aspect_moral"
+        },
+        {
+          "name": "Comunicación",
+          "url": "https://openlibrary.org/subjects/comunicación"
+        },
+        {
+          "name": "Aspectos morales y éticos",
+          "url": "https://openlibrary.org/subjects/aspectos_morales_y_éticos"
+        },
+        {
+          "name": "Act [Philosophy]",
+          "url": "https://openlibrary.org/subjects/act_[philosophy]"
+        },
+        {
+          "name": "Communicatief handelen",
+          "url": "https://openlibrary.org/subjects/communicatief_handelen"
+        },
+        {
+          "name": "Ethische aspecten",
+          "url": "https://openlibrary.org/subjects/ethische_aspecten"
+        },
+        {
+          "name": "Morale",
+          "url": "https://openlibrary.org/subjects/morale"
+        },
+        {
+          "name": "Action (Philosophie)",
+          "url": "https://openlibrary.org/subjects/action_(philosophie)"
+        },
+        {
+          "name": "Communication, philosophy",
+          "url": "https://openlibrary.org/subjects/communication,_philosophy"
+        },
+        {
+          "name": "Ethics & moral philosophy",
+          "url": "https://openlibrary.org/subjects/ethics_&_moral_philosophy"
+        }
+      ],
+      "notes": "3",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/moralconsciousne0000habe",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/9385849-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/9385849-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/9385849-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780262081924"
+  },
+  "timestamp": 1767726603875,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

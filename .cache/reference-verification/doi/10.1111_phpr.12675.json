@@ -1,0 +1,284 @@
+{
+  "key": "doi-10.1111_phpr.12675",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          30
+        ]
+      ],
+      "date-time": "2024-06-30T11:07:40Z",
+      "timestamp": 1719745660020
+    },
+    "reference-count": 11,
+    "publisher": "Wiley",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2020,
+              3,
+              15
+            ]
+          ],
+          "date-time": "2020-03-15T00:00:00Z",
+          "timestamp": 1584230400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 14,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Philos Phenomenol Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2020,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1111/phpr.12675",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          16
+        ]
+      ],
+      "date-time": "2020-03-16T06:52:37Z",
+      "timestamp": 1584341557000
+    },
+    "page": "463-468",
+    "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Reasons Fundamentalism and Rational Uncertainty – Comments on Lord, <i>The Importance of Being Rational</i>"
+    ],
+    "prefix": "10.1111",
+    "volume": "100",
+    "author": [
+      {
+        "given": "Julia",
+        "family": "Staffel",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "University of Colorado"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_4_2_1",
+        "first-page": "1",
+        "article-title": "Internalism defended",
+        "volume": "38",
+        "author": "Conee E.",
+        "year": "2001",
+        "journal-title": "American Philosophical Quarterly"
+      },
+      {
+        "key": "e_1_2_4_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5840/jphil2010107625"
+      },
+      {
+        "key": "e_1_2_4_4_1",
+        "article-title": "Being more realistic about reasons: On rationality and reasons perspectivism",
+        "author": "Littlejohn C.",
+        "journal-title": "Philosophy and Phenomenological Research"
+      },
+      {
+        "key": "e_1_2_4_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780198815099.001.0001"
+      },
+      {
+        "key": "e_1_2_4_6_1",
+        "first-page": "283",
+        "article-title": "Knowledge dethroned. Analytic",
+        "volume": "58",
+        "author": "Mueller A.",
+        "year": "2017",
+        "journal-title": "Philosophy"
+      },
+      {
+        "key": "e_1_2_4_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780198792154.001.0001"
+      },
+      {
+        "key": "e_1_2_4_8_1",
+        "article-title": "Defeaters in epistemology",
+        "author": "Sudduth M.",
+        "year": "2008",
+        "journal-title": "Internet Encyclopedia of Philosophy"
+      },
+      {
+        "key": "e_1_2_4_9_1",
+        "volume-title": "Knowledge in contemporary philosophy",
+        "author": "Tang W. H."
+      },
+      {
+        "key": "e_1_2_4_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780198722762.003.0009"
+      },
+      {
+        "key": "e_1_2_4_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/oso/9780198829775.003.0011"
+      },
+      {
+        "key": "e_1_2_4_12_1",
+        "article-title": "Review of benjamin kiesewetter, the normativity of rationality",
+        "author": "Worsnip A.",
+        "year": "2018",
+        "journal-title": "Notre Dame Philosophical Reviews"
+      }
+    ],
+    "container-title": [
+      "Philosophy and Phenomenological Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fphpr.12675",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/phpr.12675",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/phpr.12675",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/phpr.12675",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          6
+        ]
+      ],
+      "date-time": "2023-09-06T19:21:12Z",
+      "timestamp": 1694028072000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/phpr.12675"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3
+        ]
+      ]
+    },
+    "references-count": 11,
+    "journal-issue": {
+      "issue": "2",
+      "published-print": {
+        "date-parts": [
+          [
+            2020,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/phpr.12675"
+    ],
+    "URL": "https://doi.org/10.1111/phpr.12675",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0031-8205",
+      "1933-1592"
+    ],
+    "issn-type": [
+      {
+        "value": "0031-8205",
+        "type": "print"
+      },
+      {
+        "value": "1933-1592",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          3
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2020-03-15",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "timestamp": 1767726694121,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

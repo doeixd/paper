@@ -1,0 +1,105 @@
+{
+  "key": "isbn-9780199206650",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL26411713M/NETWORKS_AN_INTRODUCTION",
+      "key": "/books/OL26411713M",
+      "title": "NETWORKS: AN INTRODUCTION",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL66829A/M._E._J._Newman",
+          "name": "M. E. J. Newman"
+        }
+      ],
+      "number_of_pages": 772,
+      "identifiers": {
+        "wikidata": [
+          "Q55951290"
+        ],
+        "isbn_13": [
+          "9780199206650"
+        ],
+        "lccn": [
+          "2010006011"
+        ],
+        "openlibrary": [
+          "OL26411713M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "TK5105.5",
+          "T57.85 .N523 2010"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "OXFORD UNIVERSITY PRESS"
+        }
+      ],
+      "publish_date": "2017",
+      "subjects": [
+        {
+          "name": "System analysis",
+          "url": "https://openlibrary.org/subjects/system_analysis"
+        },
+        {
+          "name": "Systems biology",
+          "url": "https://openlibrary.org/subjects/systems_biology"
+        },
+        {
+          "name": "Network analysis (Planning)",
+          "url": "https://openlibrary.org/subjects/network_analysis_(planning)"
+        },
+        {
+          "name": "Social systems",
+          "url": "https://openlibrary.org/subjects/social_systems"
+        },
+        {
+          "name": "Engineering systems",
+          "url": "https://openlibrary.org/subjects/engineering_systems"
+        },
+        {
+          "name": "Computer networks",
+          "url": "https://openlibrary.org/subjects/computer_networks"
+        },
+        {
+          "name": "Social networks",
+          "url": "https://openlibrary.org/subjects/social_networks"
+        },
+        {
+          "name": "Medical Informatics",
+          "url": "https://openlibrary.org/subjects/medical_informatics"
+        },
+        {
+          "name": "Computational Biology",
+          "url": "https://openlibrary.org/subjects/computational_biology"
+        },
+        {
+          "name": "Algorithms",
+          "url": "https://openlibrary.org/subjects/algorithms"
+        },
+        {
+          "name": "Mathematics",
+          "url": "https://openlibrary.org/subjects/mathematics"
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/networksintroduc0000newm",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/14421513-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/14421513-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/14421513-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780199206650"
+  },
+  "timestamp": 1767726671591,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

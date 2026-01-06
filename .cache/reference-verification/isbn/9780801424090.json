@@ -1,0 +1,87 @@
+{
+  "key": "isbn-9780801424090",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL2200511M/What's_the_meaning_of_this",
+      "key": "/books/OL2200511M",
+      "title": "What's the meaning of \"this\"?",
+      "subtitle": "a puzzle about demonstrative belief",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL1006629A/David_F._Austin",
+          "name": "David F. Austin"
+        }
+      ],
+      "number_of_pages": 172,
+      "pagination": "xvii, 172 p. ;",
+      "by_statement": "David F. Austin.",
+      "identifiers": {
+        "goodreads": [
+          "1164788"
+        ],
+        "librarything": [
+          "4449800"
+        ],
+        "isbn_10": [
+          "0801424097"
+        ],
+        "lccn": [
+          "89022110"
+        ],
+        "oclc": [
+          "20167999"
+        ],
+        "openlibrary": [
+          "OL2200511M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD215 .A97 1990",
+          "BD215.A97 1990"
+        ],
+        "dewey_decimal_class": [
+          "121/.6"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Cornell University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Ithaca"
+        }
+      ],
+      "publish_date": "1990",
+      "subjects": [
+        {
+          "name": "Belief and doubt",
+          "url": "https://openlibrary.org/subjects/belief_and_doubt"
+        },
+        {
+          "name": "Proposition (Logic)",
+          "url": "https://openlibrary.org/subjects/proposition_(logic)"
+        }
+      ],
+      "notes": "Includes bibliographical references (p. 161-167).",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/whatsmeaningofth00aust",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/4089038-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/4089038-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/4089038-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780801424090"
+  },
+  "timestamp": 1767726710853,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

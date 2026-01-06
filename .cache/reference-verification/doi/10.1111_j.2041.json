@@ -1,0 +1,301 @@
+{
+  "key": "doi-10.1111_j.2041-6962.2011.00090.x",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          2
+        ]
+      ],
+      "date-time": "2025-07-02T19:09:59Z",
+      "timestamp": 1751483399136
+    },
+    "reference-count": 20,
+    "publisher": "Wiley",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2012,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2012-03-01T00:00:00Z",
+          "timestamp": 1330560000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "The Southern J of Philosophy"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2012,
+          3
+        ]
+      ]
+    },
+    "abstract": "<jats:title><jats:sc>abstract</jats:sc></jats:title><jats:p>The most pressing difficulty coherentism faces is, I believe, the problem of justified inconsistent beliefs. In a nutshell, there are cases in which our beliefs appear to be both fully rational and justified, and yet the contents of the beliefs are inconsistent, often knowingly so. This fact contradicts the seemingly obvious idea that a minimal requirement for coherence is logical consistency. Here, I present a solution to one version of this problem.</jats:p>",
+    "DOI": "10.1111/j.2041-6962.2011.00090.x",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          3,
+          1
+        ]
+      ],
+      "date-time": "2012-03-01T13:56:05Z",
+      "timestamp": 1330610165000
+    },
+    "page": "21-41",
+    "source": "Crossref",
+    "is-referenced-by-count": 10,
+    "title": [
+      "COHERENTISM AND JUSTIFIED INCONSISTENT BELIEFS: A SOLUTION"
+    ],
+    "prefix": "10.1111",
+    "volume": "50",
+    "author": [
+      {
+        "given": "JONATHAN L.",
+        "family": "KVANVIG",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_5_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1004993228686"
+      },
+      {
+        "key": "e_1_2_5_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.0031-8094.2005.00408.x"
+      },
+      {
+        "key": "e_1_2_5_4_1",
+        "volume-title": "The structure of empirical knowledge",
+        "author": "BonJour L.",
+        "year": "1985"
+      },
+      {
+        "key": "e_1_2_5_5_1",
+        "first-page": "117",
+        "volume-title": "The Blackwell guide to epistemology",
+        "author": "BonJour L.",
+        "year": "1999"
+      },
+      {
+        "key": "e_1_2_5_6_1",
+        "volume-title": "Bayesian coherentism",
+        "author": "Bovens L.",
+        "year": "2003"
+      },
+      {
+        "key": "e_1_2_5_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/mind/112.448.601"
+      },
+      {
+        "key": "e_1_2_5_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/B:PHIL.0000019546.17135.e0"
+      },
+      {
+        "key": "e_1_2_5_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1933-1592.2008.00234.x"
+      },
+      {
+        "key": "e_1_2_5_10_1",
+        "first-page": "247",
+        "article-title": "Justified inconsistent beliefs",
+        "volume": "16",
+        "author": "Foley R.",
+        "year": "1979",
+        "journal-title": "American Philosophical Quarterly"
+      },
+      {
+        "key": "e_1_2_5_11_1",
+        "volume-title": "Two‐dimensional semantics: Foundations and applications",
+        "author": "Garcia‐Carpintero M.",
+        "year": "2005"
+      },
+      {
+        "key": "e_1_2_5_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5840/swphilreview199511116"
+      },
+      {
+        "key": "e_1_2_5_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5840/philtopics199523120"
+      },
+      {
+        "key": "e_1_2_5_14_1",
+        "first-page": "3",
+        "article-title": "Propositionalism and the perspectival character of justification",
+        "volume": "40",
+        "author": "Kvanvig J. L.",
+        "year": "2003",
+        "journal-title": "American Philosophical Quarterly"
+      },
+      {
+        "key": "e_1_2_5_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00354536"
+      },
+      {
+        "key": "e_1_2_5_16_1",
+        "volume-title": "Knowledge",
+        "author": "Lehrer K.",
+        "year": "1974"
+      },
+      {
+        "key": "e_1_2_5_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00048409612347521"
+      },
+      {
+        "key": "e_1_2_5_18_1",
+        "first-page": "1",
+        "volume-title": "Warrant in contemporary epistemology",
+        "author": "Lycan W. G.",
+        "year": "1996"
+      },
+      {
+        "key": "e_1_2_5_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/289309"
+      },
+      {
+        "key": "e_1_2_5_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0004-3702(01)00145-X"
+      },
+      {
+        "key": "e_1_2_5_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/0199288038.001.0001"
+      }
+    ],
+    "container-title": [
+      "The Southern Journal of Philosophy"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.2041-6962.2011.00090.x",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.2041-6962.2011.00090.x",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2023-10-14T12:38:38Z",
+      "timestamp": 1697287118000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1111/j.2041-6962.2011.00090.x"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          3
+        ]
+      ]
+    },
+    "references-count": 20,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2012,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1111/j.2041-6962.2011.00090.x"
+    ],
+    "URL": "https://doi.org/10.1111/j.2041-6962.2011.00090.x",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0038-4283",
+      "2041-6962"
+    ],
+    "issn-type": [
+      {
+        "value": "0038-4283",
+        "type": "print"
+      },
+      {
+        "value": "2041-6962",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2012,
+          3
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767726632385,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

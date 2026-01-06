@@ -1,0 +1,476 @@
+{
+  "key": "doi-10.1098_rstb.2008.0300",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2026-01-06T13:33:26Z",
+      "timestamp": 1767706406004
+    },
+    "reference-count": 50,
+    "publisher": "The Royal Society",
+    "issue": "1521",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2009,
+              5,
+              12
+            ]
+          ],
+          "date-time": "2009-05-12T00:00:00Z",
+          "timestamp": 1242086400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://royalsociety.org/journals/ethics-policies/data-sharing-mining/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "royalsocietypublishing.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Phil. Trans. R. Soc. B"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2009,
+          5,
+          12
+        ]
+      ]
+    },
+    "abstract": "<jats:p>This paper considers prediction and perceptual categorization as an inference problem that is solved by the brain. We assume that the brain models the world as a hierarchy or cascade of dynamical systems that encode causal structure in the sensorium. Perception is equated with the optimization or inversion of these internal models, to explain sensory data. Given a model of how sensory data are generated, we can invoke a generic approach to model inversion, based on a free energy bound on the model's evidence. The ensuing free-energy formulation furnishes equations that prescribe the process of recognition, i.e. the dynamics of neuronal activity that represent the causes of sensory input. Here, we focus on a very general model, whose hierarchical and dynamical structure enables simulated brains to recognize and predict trajectories or sequences of sensory states. We first review hierarchical dynamical models and their inversion. We then show that the brain has the necessary infrastructure to implement this inversion and illustrate this point using synthetic birds that can recognize and categorize birdsongs.</jats:p>",
+    "DOI": "10.1098/rstb.2008.0300",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2009,
+          3,
+          30
+        ]
+      ],
+      "date-time": "2009-03-30T23:22:52Z",
+      "timestamp": 1238455372000
+    },
+    "page": "1211-1221",
+    "update-policy": "http://dx.doi.org/10.1098/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1212,
+    "title": [
+      "Predictive coding under the free-energy principle"
+    ],
+    "prefix": "10.1098",
+    "volume": "364",
+    "author": [
+      {
+        "given": "Karl",
+        "family": "Friston",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "The Wellcome Trust Centre of Neuroimaging, Institute of Neurology, University College LondonQueen Square, London WC1N 3BG, UK"
+          }
+        ]
+      },
+      {
+        "given": "Stefan",
+        "family": "Kiebel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The Wellcome Trust Centre of Neuroimaging, Institute of Neurology, University College LondonQueen Square, London WC1N 3BG, UK"
+          }
+        ]
+      }
+    ],
+    "member": "175",
+    "published-online": {
+      "date-parts": [
+        [
+          2009,
+          5,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_2_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1523/JNEUROSCI.22-19-08633.2002"
+      },
+      {
+        "key": "e_1_3_2_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/306021a0"
+      },
+      {
+        "key": "e_1_3_2_4_1",
+        "first-page": "217",
+        "volume-title": "Sensory communication",
+        "author": "Barlow H.B.",
+        "year": "1961"
+      },
+      {
+        "key": "e_1_3_2_5_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2007.2056"
+      },
+      {
+        "key": "e_1_3_2_6_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2005.1643"
+      },
+      {
+        "key": "e_1_3_2_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-295X.114.2.340"
+      },
+      {
+        "key": "e_1_3_2_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1128115"
+      },
+      {
+        "key": "e_1_3_2_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1523/JNEUROSCI.0318-07.2007"
+      },
+      {
+        "key": "e_1_3_2_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1995.7.5.889"
+      },
+      {
+        "key": "e_1_3_2_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1046/j.1460-9568.2003.02956.x"
+      },
+      {
+        "key": "e_1_3_2_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1024130211265"
+      },
+      {
+        "key": "e_1_3_2_13_1",
+        "first-page": "117",
+        "article-title": "Stein's estimation rule and its competitors: an empirical Bayes approach",
+        "volume": "68",
+        "author": "Efron B.",
+        "year": "1973",
+        "journal-title": "J. Am. Stat. Assoc"
+      },
+      {
+        "key": "e_1_3_2_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cercor/1.1.1"
+      },
+      {
+        "key": "e_1_3_2_15_1",
+        "unstructured": "Feynman R.P. Statistical mechanics. 1972 Reading MA:Benjamin."
+      },
+      {
+        "key": "e_1_3_2_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1121/1.429615"
+      },
+      {
+        "key": "e_1_3_2_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00317988"
+      },
+      {
+        "key": "e_1_3_2_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/nimg.1997.0259"
+      },
+      {
+        "key": "e_1_3_2_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neunet.2003.06.005"
+      },
+      {
+        "key": "e_1_3_2_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2005.1622"
+      },
+      {
+        "key": "e_1_3_2_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1000211"
+      },
+      {
+        "key": "e_1_3_2_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jphysparis.2006.10.001"
+      },
+      {
+        "key": "e_1_3_2_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2006.08.035"
+      },
+      {
+        "key": "e_1_3_2_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0893-6080(90)90022-D"
+      },
+      {
+        "key": "e_1_3_2_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1523/JNEUROSCI.5487-07.2008"
+      },
+      {
+        "key": "e_1_3_2_26_1",
+        "unstructured": "Helmholtz H. 1860/1962 Handbuch der physiologischen optik . (English transl. J. P. C. Southall) vol. 3. New York NY: Dover."
+      },
+      {
+        "key": "e_1_3_2_27_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hinton G. E. & von Cramp D. 1993 Keeping neural networks simple by minimising the description length of weights. In Proc. COLT vol. 93. pp. 5–13.",
+        "DOI": "10.1145/168304.168306"
+      },
+      {
+        "key": "e_1_3_2_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/29537"
+      },
+      {
+        "key": "e_1_3_2_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/089976698300016954"
+      },
+      {
+        "key": "e_1_3_2_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0954-898X_4_4_001"
+      },
+      {
+        "key": "e_1_3_2_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1000209"
+      },
+      {
+        "key": "e_1_3_2_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.97.4.1867"
+      },
+      {
+        "key": "e_1_3_2_33_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.89.288102"
+      },
+      {
+        "key": "e_1_3_2_34_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.65.051921"
+      },
+      {
+        "key": "e_1_3_2_35_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1049/el:19950331"
+      },
+      {
+        "key": "e_1_3_2_36_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1523/JNEUROSCI.03-12-02563.1983"
+      },
+      {
+        "key": "e_1_3_2_37_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.brainresrev.2007.08.006"
+      },
+      {
+        "key": "e_1_3_2_38_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00198477"
+      },
+      {
+        "key": "e_1_3_2_39_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/329727a0"
+      },
+      {
+        "key": "e_1_3_2_40_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-94-011-5014-9_12"
+      },
+      {
+        "key": "e_1_3_2_41_1",
+        "unstructured": "Neisser U. Cognitive psychology. 1967 New York NY:Appleton-Century-Crofts."
+      },
+      {
+        "key": "e_1_3_2_42_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1469-8986.1994.tb02347.x"
+      },
+      {
+        "key": "e_1_3_2_43_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1155564"
+      },
+      {
+        "key": "e_1_3_2_44_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/cercor/13.1.100"
+      },
+      {
+        "key": "e_1_3_2_45_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/4580"
+      },
+      {
+        "key": "e_1_3_2_46_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0006-8993(79)90485-2"
+      },
+      {
+        "key": "e_1_3_2_47_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/cne.903350307"
+      },
+      {
+        "key": "e_1_3_2_48_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.95.12.7121"
+      },
+      {
+        "key": "e_1_3_2_49_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1002/(SICI)1098-1063(1999)9:4<481::AID-HIPO14>3.0.CO;2-S"
+      },
+      {
+        "key": "e_1_3_2_50_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00001756-199705260-00035"
+      },
+      {
+        "key": "e_1_3_2_51_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/335311a0"
+      }
+    ],
+    "container-title": [
+      "Philosophical Transactions of the Royal Society B: Biological Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2008.0300",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://royalsocietypublishing.org/doi/full-xml/10.1098/rstb.2008.0300",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2008.0300",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          17
+        ]
+      ],
+      "date-time": "2021-02-17T05:37:36Z",
+      "timestamp": 1613540256000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://royalsocietypublishing.org/doi/10.1098/rstb.2008.0300"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2009,
+          5,
+          12
+        ]
+      ]
+    },
+    "references-count": 50,
+    "journal-issue": {
+      "issue": "1521",
+      "published-print": {
+        "date-parts": [
+          [
+            2009,
+            5,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1098/rstb.2008.0300"
+    ],
+    "URL": "https://doi.org/10.1098/rstb.2008.0300",
+    "relation": {},
+    "ISSN": [
+      "0962-8436",
+      "1471-2970"
+    ],
+    "issn-type": [
+      {
+        "value": "0962-8436",
+        "type": "print"
+      },
+      {
+        "value": "1471-2970",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2009,
+          5,
+          12
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2009-05-12",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "timestamp": 1767726506622,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

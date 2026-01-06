@@ -1,0 +1,137 @@
+{
+  "key": "isbn-9780198750246",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL4489088M/Objective_Knowledge",
+      "key": "/books/OL4489088M",
+      "title": "Objective Knowledge",
+      "subtitle": "An Evolutionary Approach",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL238785A/Karl_Popper",
+          "name": "Karl Popper"
+        }
+      ],
+      "number_of_pages": 395,
+      "pagination": "x, 395 p. ;",
+      "by_statement": "Karl R. Popper.",
+      "identifiers": {
+        "librarything": [
+          "45948"
+        ],
+        "goodreads": [
+          "3459555",
+          "61558"
+        ],
+        "isbn_10": [
+          "0198243707",
+          "0198750242"
+        ],
+        "lccn": [
+          "79318586",
+          "73153471"
+        ],
+        "oclc": [
+          "514112",
+          "5799314",
+          "4572768"
+        ],
+        "openlibrary": [
+          "OL4489088M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD161 .P727 1979",
+          "BD161 .P727",
+          "BD161"
+        ],
+        "dewey_decimal_class": [
+          "121"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Clarendon Press"
+        },
+        {
+          "name": "Oxford University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Oxford, Engand"
+        },
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "1979",
+      "subjects": [
+        {
+          "name": "Theory of Knowledge",
+          "url": "https://openlibrary.org/subjects/theory_of_knowledge"
+        },
+        {
+          "name": "Induction (Logic)",
+          "url": "https://openlibrary.org/subjects/induction_(logic)"
+        },
+        {
+          "name": "Knowledge, theory of",
+          "url": "https://openlibrary.org/subjects/knowledge,_theory_of"
+        },
+        {
+          "name": "Induction (Logique)",
+          "url": "https://openlibrary.org/subjects/induction_(logique)"
+        },
+        {
+          "name": "Connaissance, Théorie de la",
+          "url": "https://openlibrary.org/subjects/connaissance,_théorie_de_la"
+        },
+        {
+          "name": "Intelligence",
+          "url": "https://openlibrary.org/subjects/intelligence"
+        },
+        {
+          "name": "Methodology",
+          "url": "https://openlibrary.org/subjects/methodology"
+        },
+        {
+          "name": "Science",
+          "url": "https://openlibrary.org/subjects/science"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Liberty",
+          "url": "https://openlibrary.org/subjects/liberty"
+        },
+        {
+          "name": "Determinism (Philosophy)",
+          "url": "https://openlibrary.org/subjects/determinism_(philosophy)"
+        }
+      ],
+      "notes": "Includes bibliographies and indexes.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/objectiveknowled00popp",
+          "availability": "borrow",
+          "formats": {},
+          "borrow_url": "https://openlibrary.org/books/OL4489088M/Objective_Knowledge/borrow",
+          "checkedout": false
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/6627434-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/6627434-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/6627434-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780198750246"
+  },
+  "timestamp": 1767726681260,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

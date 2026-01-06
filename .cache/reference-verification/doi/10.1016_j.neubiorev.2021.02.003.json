@@ -1,0 +1,1138 @@
+{
+  "key": "doi-10.1016_j.neubiorev.2021.02.003",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          5
+        ]
+      ],
+      "date-time": "2026-01-05T22:27:31Z",
+      "timestamp": 1767652051052,
+      "version": "3.44.0"
+    },
+    "reference-count": 85,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2021-06-01T00:00:00Z",
+          "timestamp": 1622505600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              2,
+              24
+            ]
+          ],
+          "date-time": "2021-02-24T00:00:00Z",
+          "timestamp": 1614124800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100006211",
+        "name": "Humboldt-Universität zu Berlin",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100006211",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Neuroscience &amp; Biobehavioral Reviews"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.neubiorev.2021.02.003",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          17
+        ]
+      ],
+      "date-time": "2021-02-17T04:17:04Z",
+      "timestamp": 1613535424000
+    },
+    "page": "88-97",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 54,
+    "special_numbering": "C",
+    "title": [
+      "Markov blankets in the brain"
+    ],
+    "prefix": "10.1016",
+    "volume": "125",
+    "author": [
+      {
+        "given": "Inês",
+        "family": "Hipólito",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Maxwell J.D.",
+        "family": "Ramstead",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Laura",
+        "family": "Convertino",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8456-3668",
+        "authenticated-orcid": false,
+        "given": "Anjali",
+        "family": "Bhat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Karl",
+        "family": "Friston",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas",
+        "family": "Parr",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "year": "2020",
+        "series-title": "The Math Is Not the Territory: Navigating the Free Energy Principle",
+        "author": "Andrews",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0005"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "1319",
+        "DOI": "10.3758/s13415-019-00721-3",
+        "article-title": "The hierarchically mechanistic mind: an evolutionary systems theory of the human brain, cognition, and behavior",
+        "volume": "19",
+        "author": "Badcock",
+        "year": "2019",
+        "journal-title": "Cogn. Affect. Behav. Neurosci."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "104",
+        "DOI": "10.1016/j.plrev.2018.10.002",
+        "article-title": "The hierarchically mechanistic mind: a free-energy formulation of the human psyche",
+        "volume": "31",
+        "author": "Badcock",
+        "year": "2019",
+        "journal-title": "Phys. Life Rev."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "695",
+        "DOI": "10.1016/j.neuron.2012.10.038",
+        "article-title": "Canonical microcircuits for predictive coding",
+        "volume": "76",
+        "author": "Bastos",
+        "year": "2012",
+        "journal-title": "Neuron"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0025",
+        "doi-asserted-by": "crossref",
+        "first-page": "345",
+        "DOI": "10.1016/j.neuroimage.2014.07.067",
+        "article-title": "Changes in structural and functional connectivity among resting-state networks across the human lifespan",
+        "volume": "102",
+        "author": "Betzel",
+        "year": "2014",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "year": "2020",
+        "series-title": "Directed Coupling in Multi-Brain Networks Underlies Generalized Synchrony during Social Exchange",
+        "author": "Bilek",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0030"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0035",
+        "article-title": "From random differential equations to structural causal models: the stochastic case",
+        "author": "Bongers",
+        "year": "2018",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "year": "2007",
+        "series-title": "Brodmann’s: Localisation in the Cerebral Cortex",
+        "author": "Brodmann",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0040"
+      },
+      {
+        "year": "2020",
+        "series-title": "The Emperor’s New Markov Blankets",
+        "author": "Bruineberg",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0045"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0050",
+        "first-page": "768",
+        "article-title": "Modulation of connectivity in visual pathways by attention: cortical interactions evaluated with structural equation modelling and fMRI",
+        "volume": "7",
+        "author": "Büchel",
+        "year": "1997",
+        "journal-title": "Cerebral cortex (New York, NY: 1991)"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "744",
+        "DOI": "10.1038/nphys1803",
+        "article-title": "Emergent complex neural dynamics",
+        "volume": "6",
+        "author": "Chialvo",
+        "year": "2010",
+        "journal-title": "Nat. Phys."
+      },
+      {
+        "issue": "7191",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "98",
+        "DOI": "10.1038/nature06830",
+        "article-title": "Hierarchical structure and the prediction of missing links in networks",
+        "volume": "453",
+        "author": "Clauset",
+        "year": "2008",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "356",
+        "DOI": "10.1086/670331",
+        "article-title": "Moving forward (and beyond) the modularity debate: a network perspective",
+        "volume": "80",
+        "author": "Colombo",
+        "year": "2013",
+        "journal-title": "Philos. Sci."
+      },
+      {
+        "issue": "3-4",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "224",
+        "DOI": "10.1080/02643294.2011.587794",
+        "article-title": "Methods for modular modelling: additive factors and cognitive neuropsychology",
+        "volume": "28",
+        "author": "Coltheart",
+        "year": "2011",
+        "journal-title": "Cogn. Neuropsychol."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0075",
+        "series-title": "Nonlinear Dynamics in Computational Neuroscience",
+        "first-page": "1",
+        "article-title": "Next-generation neural mass models",
+        "author": "Coombes",
+        "year": "2019"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "1743",
+        "DOI": "10.1016/j.neuroimage.2003.07.015",
+        "article-title": "A neural mass model for MEG/EEG: coupling and neuronal dynamics",
+        "volume": "20",
+        "author": "David",
+        "year": "2003",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0085",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pcbi.1000092",
+        "article-title": "The dynamic brain: from spiking neurons to neural masses and cortical fields",
+        "volume": "4",
+        "author": "Deco",
+        "year": "2008",
+        "journal-title": "PLoS Comput. Biol."
+      },
+      {
+        "issue": "14",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "5003",
+        "DOI": "10.1523/JNEUROSCI.3765-13.2014",
+        "article-title": "Effective connectivity reveals right-hemisphere dominance in audiospatial perception: implications for models of spatial neglect",
+        "volume": "34",
+        "author": "Dietz",
+        "year": "2014",
+        "journal-title": "J. Neurosci."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "735",
+        "DOI": "10.1113/jphysiol.1991.sp018733",
+        "article-title": "A functional microcircuit for cat visual cortex",
+        "volume": "440",
+        "author": "Douglas",
+        "year": "1991",
+        "journal-title": "J. Physiol."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0100",
+        "doi-asserted-by": "crossref",
+        "first-page": "257",
+        "DOI": "10.1007/BF02477753",
+        "article-title": "Mathematical models of threshold phenomena in the nerve membrane",
+        "volume": "17",
+        "author": "FitzHugh",
+        "year": "1955",
+        "journal-title": "Bull. Math. Biophys."
+      },
+      {
+        "year": "1983",
+        "series-title": "The Modularity of Mind",
+        "author": "Fodor",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0105"
+      },
+      {
+        "volume": "Vol. 20",
+        "year": "2016",
+        "author": "Frank",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0110"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0115",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.1146/annurev.neuro.25.112701.142846",
+        "article-title": "Beyond phrenology: what can neuroimaging tell us about distributed circuitry?",
+        "volume": "25",
+        "author": "Friston",
+        "year": "2002",
+        "journal-title": "Annu. Rev. Neurosci."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "212",
+        "DOI": "10.1017/S0140525X12002142",
+        "article-title": "Active inference and free energy",
+        "volume": "36",
+        "author": "Friston",
+        "year": "2013",
+        "journal-title": "Behav. Brain Sci."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0125",
+        "article-title": "A free energy principle for a particular physics",
+        "author": "Friston",
+        "year": "2019",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0130",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1371/journal.pbio.3000426",
+        "article-title": "Waves of prediction",
+        "volume": "17",
+        "author": "Friston",
+        "year": "2019",
+        "journal-title": "PLoS Biol."
+      },
+      {
+        "year": "2003",
+        "series-title": "Degeneracy and Redundancy in Cognitive Anatomy",
+        "author": "Friston",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0135"
+      },
+      {
+        "issue": "2-3",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "83",
+        "DOI": "10.1016/j.schres.2016.07.014",
+        "article-title": "The dysconnection hypothesis (2016)",
+        "volume": "176",
+        "author": "Friston",
+        "year": "2016",
+        "journal-title": "Schizophr. Res."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "730",
+        "DOI": "10.1016/j.neuroimage.2017.02.045",
+        "article-title": "Dynamic causal modelling revisited",
+        "volume": "199",
+        "author": "Friston",
+        "year": "2019",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0150",
+        "first-page": "1",
+        "article-title": "Parcels and particles: Markov blankets in the brain",
+        "author": "Friston",
+        "year": "2020",
+        "journal-title": "Netw. Neurosci."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0155",
+        "article-title": "Some interesting observations on the free energy principle",
+        "author": "Friston",
+        "year": "2020",
+        "journal-title": "arXiv preprint"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "318",
+        "DOI": "10.1111/j.1749-6632.1990.tb48901.x",
+        "article-title": "Prefrontal cortex and the bridging of temporal gaps in the perception‐action cycle",
+        "volume": "608",
+        "author": "Fuster",
+        "year": "1990",
+        "journal-title": "Ann. N. Y. Acad. Sci."
+      },
+      {
+        "year": "1835",
+        "author": "Gall",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0165"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0170",
+        "first-page": "13",
+        "article-title": "Challenges to the modularity thesis under the Bayesian brain models",
+        "author": "George",
+        "year": "2019",
+        "journal-title": "Front. Hum. Neurosci."
+      },
+      {
+        "issue": "5-6",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0175",
+        "doi-asserted-by": "crossref",
+        "first-page": "605",
+        "DOI": "10.1080/20445911.2019.1637880",
+        "article-title": "Grounding Bayesian accounts of numerosity and variability effects in a similarity-based framework: the case of self-organising maps",
+        "volume": "31",
+        "author": "Gliozzi",
+        "year": "2019",
+        "journal-title": "J. Cogn. Psychol."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "521",
+        "DOI": "10.1093/bjps/50.4.521",
+        "article-title": "Independence, invariance and the causal Markov condition",
+        "volume": "50",
+        "author": "Hausman",
+        "year": "1999",
+        "journal-title": "Br. J. Philos. Sci."
+      },
+      {
+        "issue": "1796",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "20190319",
+        "DOI": "10.1098/rstb.2019.0319",
+        "article-title": "‘Hierarchy’ in the organization of brain networks",
+        "volume": "375",
+        "author": "Hilgetag",
+        "year": "2000",
+        "journal-title": "Philos. Trans. R. Soc. B"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "184",
+        "DOI": "10.1080/24740500.2018.1552093",
+        "article-title": "Perception is not always and everywhere inferential",
+        "volume": "2",
+        "author": "Hipólito",
+        "year": "2018",
+        "journal-title": "Australas. Philos. Rev."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0195",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.plrev.2019.10.006",
+        "article-title": "A simple theory of every ‘Thing’",
+        "author": "Hipólito",
+        "year": "2019",
+        "journal-title": "Phys. Life Rev."
+      },
+      {
+        "year": "2019",
+        "series-title": "The Predictive Brain: A Modular View of Brain and Cognitive Function?",
+        "author": "Hipólito",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0200"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0205",
+        "doi-asserted-by": "crossref",
+        "first-page": "500",
+        "DOI": "10.1113/jphysiol.1952.sp004764",
+        "article-title": "A quantitative description of membrane current and its application to conduction and excitation in nerve",
+        "volume": "117",
+        "author": "Hodgkin",
+        "year": "1952",
+        "journal-title": "J. Physiol."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "16926",
+        "DOI": "10.1038/s41598-018-35221-w",
+        "article-title": "In vitro neural networks minimise variational free energy",
+        "volume": "8",
+        "author": "Isomura",
+        "year": "2018",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0215",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.neuroimage.2020.116734",
+        "article-title": "Comparing dynamic causal models of neurovascular coupling with fMRI and EEG/MEG",
+        "author": "Jafarian",
+        "year": "2020",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "6",
+        "DOI": "10.3389/neuro.02.006.2008",
+        "article-title": "Altered excitatory-inhibitory balance in the NMDA-Hypofunction model of schizophrenia",
+        "volume": "1",
+        "author": "Kehrer",
+        "year": "2008",
+        "journal-title": "Front. Mol. Neurosci."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.3389/fnsys.2011.00080",
+        "article-title": "Free energy and dendritic self-organisation",
+        "volume": "5",
+        "author": "Kiebel",
+        "year": "2011",
+        "journal-title": "Front. Syst. Neurosci."
+      },
+      {
+        "issue": "138",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0230",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1098/rsif.2017.0792",
+        "article-title": "The Markov blankets of life: autonomy, active inference and the free energy principle",
+        "volume": "15",
+        "author": "Kirchhoff",
+        "year": "2018",
+        "journal-title": "J. R. Soc. Interface"
+      },
+      {
+        "year": "2008",
+        "series-title": "The Statistical Analysis of Functional MRI Data",
+        "author": "Lazar",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0235"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "1637",
+        "DOI": "10.1093/cercor/bhz192",
+        "article-title": "Attentional modulation of vision versus proprioception during action",
+        "volume": "30",
+        "author": "Limanowski",
+        "year": "2019",
+        "journal-title": "Cereb. Cortex"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0245",
+        "doi-asserted-by": "crossref",
+        "first-page": "200",
+        "DOI": "10.3389/fnins.2010.00200",
+        "article-title": "Modular and hierarchically modular organization of brain networks",
+        "volume": "4",
+        "author": "Meunier",
+        "year": "2010",
+        "journal-title": "Front. Neurosci."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "57",
+        "DOI": "10.3389/fncom.2013.00057",
+        "article-title": "Neural masses and fields in dynamic causal modeling",
+        "volume": "7",
+        "author": "Moran",
+        "year": "2013",
+        "journal-title": "Front. Comput. Neurosci."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0255",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1016/S0006-3495(81)84782-0",
+        "article-title": "Voltage oscillations in the barnacle giant muscle fiber",
+        "volume": "35",
+        "author": "Morris",
+        "year": "1981",
+        "journal-title": "Biophys. J."
+      },
+      {
+        "issue": "3-4",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.1080/17588928.2014.934215",
+        "article-title": "The neural antecedents to voluntary action: a conceptual analysis",
+        "volume": "5",
+        "author": "Nachev",
+        "year": "2014",
+        "journal-title": "Cogn. Neurosci."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0265",
+        "doi-asserted-by": "crossref",
+        "first-page": "2061",
+        "DOI": "10.1109/JRPROC.1962.288235",
+        "article-title": "An active pulse transmission line simulating nerve axon",
+        "volume": "50",
+        "author": "Nagumo",
+        "year": "1962",
+        "journal-title": "Proc. IRE"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0270",
+        "article-title": "Biological self-organisation and Markov blankets",
+        "author": "Palacios",
+        "year": "2017",
+        "journal-title": "BioRxiv"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0275",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1038/s41598-019-42821-7",
+        "article-title": "The emergence of synchrony in networks of mutually inferring neurons",
+        "volume": "9",
+        "author": "Palacios",
+        "year": "2019",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0280",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jtbi.2019.110089",
+        "article-title": "On Markov blankets and hierarchical self-organisation",
+        "volume": "486",
+        "author": "Palacios",
+        "year": "2020",
+        "journal-title": "J. Theor. Biol."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0285",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1177/0048393116672833",
+        "article-title": "Modularity of mind: Is it time to abandon this ship?",
+        "volume": "47",
+        "author": "Palecek",
+        "year": "2017",
+        "journal-title": "Philos. Soc. Sci."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0290",
+        "doi-asserted-by": "crossref",
+        "first-page": "92",
+        "DOI": "10.1016/j.neuropsychologia.2017.08.003",
+        "article-title": "The active construction of the visual world",
+        "volume": "104",
+        "author": "Parr",
+        "year": "2017",
+        "journal-title": "Neuropsychologia"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0295",
+        "doi-asserted-by": "crossref",
+        "first-page": "90",
+        "DOI": "10.3389/fncom.2018.00090",
+        "article-title": "The anatomy of inference: generative models and brain structure",
+        "volume": "12",
+        "author": "Parr",
+        "year": "2018",
+        "journal-title": "Front. Comput. Neurosci."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0300",
+        "doi-asserted-by": "crossref",
+        "first-page": "334",
+        "DOI": "10.1016/j.neuropsychologia.2018.01.041",
+        "article-title": "Active inference and the anatomy of oculomotion",
+        "volume": "111",
+        "author": "Parr",
+        "year": "2018",
+        "journal-title": "Neuropsychologia"
+      },
+      {
+        "issue": "2164",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0305",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1098/rsta.2019.0159",
+        "article-title": "Markov blankets, information geometry and stochastic thermodynamics",
+        "volume": "378",
+        "author": "Parr",
+        "year": "2020",
+        "journal-title": "Philos. Trans. R. Soc. A"
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0310",
+        "doi-asserted-by": "crossref",
+        "first-page": "552",
+        "DOI": "10.3390/e22050552",
+        "article-title": "Modules or Mean-Fields?",
+        "volume": "22",
+        "author": "Parr",
+        "year": "2020",
+        "journal-title": "Entropy"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0315",
+        "doi-asserted-by": "crossref",
+        "first-page": "354",
+        "DOI": "10.1016/j.tics.2009.04.008",
+        "article-title": "Corticocentric myopia: old bias in new cognitive sciences",
+        "volume": "13",
+        "author": "Parvizi",
+        "year": "2009",
+        "journal-title": "Trends Cogn. Sci."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0320",
+        "series-title": "Quantified Representation of Uncertainty and Imprecision",
+        "first-page": "367",
+        "article-title": "Graphical models for probabilistic and causal reasoning",
+        "author": "Pearl",
+        "year": "1998"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0325",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.3389/fncom.2014.00149",
+        "article-title": "Neural masses and fields: modeling the dynamics of brain activity",
+        "volume": "8",
+        "author": "Pinotsis",
+        "year": "2014",
+        "journal-title": "Front. Comput. Neurosci."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0330",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.plrev.2017.09.001",
+        "article-title": "Answering Schrödinger’s question: a free-energy formulation",
+        "volume": "24",
+        "author": "Ramstead",
+        "year": "2018",
+        "journal-title": "Phys. Life Rev."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0335",
+        "doi-asserted-by": "crossref",
+        "first-page": "188",
+        "DOI": "10.1016/j.plrev.2018.12.002",
+        "article-title": "Variational ecology and the physics of sentient systems",
+        "volume": "31",
+        "author": "Ramstead",
+        "year": "2019",
+        "journal-title": "Phys. Life Rev."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0340",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/e22080889",
+        "article-title": "Is the free-energy principle a formal theory of semantics? From variational density dynamics to neural and phenotypic representations",
+        "author": "Ramstead",
+        "year": "2020",
+        "journal-title": "Entropy"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0345",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.neuroimage.2014.11.027",
+        "article-title": "Construct validation of a DCM for resting state fMRI",
+        "volume": "106",
+        "author": "Razi",
+        "year": "2015",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0350",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.3389/fnhum.2016.00014",
+        "article-title": "Effective connectivity within the default mode network: dynamic causal modeling of resting-state fMRI data",
+        "volume": "10",
+        "author": "Sharaev",
+        "year": "2016",
+        "journal-title": "Front. Hum. Neurosci."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0355",
+        "first-page": "345",
+        "article-title": "Oscillatory, computational, and behavioral evidence for impaired GABAergic inhibition in schizophrenia",
+        "volume": "46",
+        "author": "Shaw",
+        "year": "2020",
+        "journal-title": "Schizophr. Bull."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0360",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.1016/j.biosystems.2006.02.008",
+        "article-title": "Small-world connectivity, motif composition, and complexity of fractal neuronal connections",
+        "volume": "85",
+        "author": "Sporns",
+        "year": "2006",
+        "journal-title": "Biosystems"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0365",
+        "doi-asserted-by": "crossref",
+        "first-page": "649",
+        "DOI": "10.1016/j.neuroimage.2008.04.262",
+        "article-title": "Non-linear dynamic causal models for fMRI",
+        "volume": "42",
+        "author": "Stephan",
+        "year": "2008",
+        "journal-title": "Neuroimage"
+      },
+      {
+        "year": "1980",
+        "series-title": "Application of Stereotactic Concepts to the Surgery of Epilepsy",
+        "author": "Talairach",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0370"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0375",
+        "series-title": "Advances in Stereotactic and Functional Neurosurgery 4",
+        "first-page": "35",
+        "article-title": "Application of stereotactic concepts to the surgery of epilepsy",
+        "author": "Talairach",
+        "year": "1980"
+      },
+      {
+        "issue": "11",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0380",
+        "doi-asserted-by": "crossref",
+        "first-page": "3115",
+        "DOI": "10.1523/JNEUROSCI.2733-15.2016",
+        "article-title": "Extrinsic and intrinsic brain network connectivity maintains cognition across the lifespan despite accelerated decay of regional brain activation",
+        "volume": "36",
+        "author": "Tsvetanov",
+        "year": "2016",
+        "journal-title": "J. Neurosci."
+      },
+      {
+        "year": "2020",
+        "series-title": "Free-Energy Principle, Computationalism and Realism: a Tragedy",
+        "author": "van Es",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0385"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0390",
+        "doi-asserted-by": "crossref",
+        "first-page": "818",
+        "DOI": "10.1016/j.neuroimage.2018.08.039",
+        "article-title": "Generic dynamic causal modelling: an illustrative application to Parkinson’s disease",
+        "volume": "181",
+        "author": "van Wijk",
+        "year": "2018",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0395",
+        "doi-asserted-by": "crossref",
+        "first-page": "247",
+        "DOI": "10.1016/j.chaos.2005.09.060",
+        "article-title": "Analysis and control of the bifurcation of Hodgkin–Huxley model",
+        "volume": "31",
+        "author": "Wang",
+        "year": "2007",
+        "journal-title": "Chaos Solitons Fractals"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0400",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.neuroimage.2020.116595",
+        "article-title": "Bayesian fusion and multimodal DCM for EEG and fMRI",
+        "volume": "211",
+        "author": "Wei",
+        "year": "2020",
+        "journal-title": "NeuroImage"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0405",
+        "first-page": "E219",
+        "article-title": "Functional hierarchy underlies preferential connectivity disturbances in schizophrenia",
+        "volume": "113",
+        "author": "Yang",
+        "year": "2015",
+        "journal-title": "PNAS Plus"
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0410",
+        "doi-asserted-by": "crossref",
+        "first-page": "98",
+        "DOI": "10.3389/fnsys.2016.00098",
+        "article-title": "Life and Understanding: the origins of \"understanding\" in self-organising nervous systems",
+        "volume": "10",
+        "author": "Yufik",
+        "year": "2016",
+        "journal-title": "Front. Syst. Neurosci."
+      },
+      {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0415",
+        "doi-asserted-by": "crossref",
+        "first-page": "704",
+        "DOI": "10.1016/j.nicl.2017.12.006",
+        "article-title": "Altered intrinsic and extrinsic connectivity in schizophrenia",
+        "volume": "17",
+        "author": "Zhou",
+        "year": "2018",
+        "journal-title": "Neuroimage Clin."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0420",
+        "doi-asserted-by": "crossref",
+        "first-page": "139",
+        "DOI": "10.1038/nrn2776",
+        "article-title": "Centenary of Brodmann’s map — conception and fate",
+        "volume": "11",
+        "author": "Zilles",
+        "year": "2010",
+        "journal-title": "Nat. Rev. Neurosci."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0425",
+        "doi-asserted-by": "crossref",
+        "first-page": "1432",
+        "DOI": "10.1016/j.neuroimage.2009.09.037",
+        "article-title": "The oscillating brain: complex and reliable",
+        "volume": "49",
+        "author": "Zuo",
+        "year": "2010",
+        "journal-title": "Neuroimage"
+      }
+    ],
+    "container-title": [
+      "Neuroscience &amp; Biobehavioral Reviews"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0149763421000579?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0149763421000579?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          27
+        ]
+      ],
+      "date-time": "2025-09-27T09:54:31Z",
+      "timestamp": 1758966871000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0149763421000579"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "references-count": 85,
+    "alternative-id": [
+      "S0149763421000579"
+    ],
+    "URL": "https://doi.org/10.1016/j.neubiorev.2021.02.003",
+    "relation": {},
+    "ISSN": [
+      "0149-7634"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0149-7634"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Markov blankets in the brain",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Neuroscience & Biobehavioral Reviews",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.neubiorev.2021.02.003",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2021 Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  },
+  "timestamp": 1767726612177,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

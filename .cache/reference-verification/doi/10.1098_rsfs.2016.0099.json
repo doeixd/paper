@@ -1,0 +1,877 @@
+{
+  "key": "doi-10.1098_rsfs.2016.0099",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2025-12-30T11:12:50Z",
+      "timestamp": 1767093170982,
+      "version": "3.48.0"
+    },
+    "reference-count": 53,
+    "publisher": "The Royal Society",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              1,
+              6
+            ]
+          ],
+          "date-time": "2017-01-06T00:00:00Z",
+          "timestamp": 1483660800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://royalsocietypublishing.org/licence"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              1,
+              6
+            ]
+          ],
+          "date-time": "2017-01-06T00:00:00Z",
+          "timestamp": 1483660800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://royalsociety.org/journals/ethics-policies/data-sharing-mining/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000078",
+        "name": "Division of Materials Research",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "DMR-1148836"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DMR-1148836"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000078",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/100000078",
+        "name": "Division of Materials Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DMR-1148836"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "DMR-1148836"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100000078",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "royalsocietypublishing.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Peptide and low molecular weight amino acid-based materials that self-assemble in response to environmental triggers are highly desirable candidates in forming functional materials with tunable biophysical properties. In this paper, we explore redox-sensitive self-assembly of cationic phenylalanine derivatives conjugated to naphthalene diimide (NDI). Self-assembly of the cationic Phe-NDI conjugates into nanofibrils was induced in aqueous solvent at high ionic strength. Under reducing conditions, these self-assembled Phe-NDI conjugate fibrils underwent a morphological change to non-fibril aggregates. Upon reoxidation, the initially observed fibrils were reformed. The study herein provides an interesting strategy to effect reversible switching of the structure of supramolecular materials that can be applied to the development of sophisticated stimulus-responsive materials.</jats:p>",
+    "DOI": "10.1098/rsfs.2016.0099",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          20
+        ]
+      ],
+      "date-time": "2017-10-20T05:10:14Z",
+      "timestamp": 1508476214000
+    },
+    "update-policy": "https://doi.org/10.1098/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Redox-sensitive reversible self-assembly of amino acid–naphthalene diimide conjugates"
+    ],
+    "prefix": "10.1098",
+    "volume": "7",
+    "author": [
+      {
+        "given": "Wathsala",
+        "family": "Liyanage",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Paul W.",
+        "family": "Rubeo",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1193-3693",
+        "authenticated-orcid": false,
+        "given": "Bradley L.",
+        "family": "Nilsson",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "175",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          20
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2025123005124105600_RSFS20160099C1",
+        "doi-asserted-by": "crossref",
+        "first-page": "8002",
+        "DOI": "10.1002/anie.200800022",
+        "article-title": "High-tech applications of self-assembling supramolecular nanostructured gel-phase materials: from regenerative medicine to electronic devices",
+        "volume": "47",
+        "author": "Hirst",
+        "year": "2008",
+        "journal-title": "Angew. Chem. Int. Ed."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C2",
+        "doi-asserted-by": "crossref",
+        "first-page": "3425",
+        "DOI": "10.1039/b919450a",
+        "article-title": "Small peptide nanofibers as the matrices of molecular hydrogels for mimicking enzymes and enhancing the activity of enzymes",
+        "volume": "39",
+        "author": "Gao",
+        "year": "2010",
+        "journal-title": "Chem. Soc. Rev."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C3",
+        "doi-asserted-by": "crossref",
+        "first-page": "883",
+        "DOI": "10.1039/b806410p",
+        "article-title": "Molecular hydrogels of therapeutic agents",
+        "volume": "38",
+        "author": "Zhao",
+        "year": "2009",
+        "journal-title": "Chem. Soc. Rev."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C4",
+        "doi-asserted-by": "crossref",
+        "first-page": "8375",
+        "DOI": "10.1021/la900987r",
+        "article-title": "Gels as functional nanomaterials for biology and medicine",
+        "volume": "25",
+        "author": "Xu",
+        "year": "2009",
+        "journal-title": "Langmuir"
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C5",
+        "doi-asserted-by": "crossref",
+        "first-page": "13 165",
+        "DOI": "10.1021/acs.chemrev.5b00299",
+        "article-title": "Supramolecular hydrogelators and hydrogels: from soft matter to molecular biomaterials",
+        "volume": "115",
+        "author": "Du",
+        "year": "2015",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C6",
+        "doi-asserted-by": "crossref",
+        "first-page": "13 571",
+        "DOI": "10.1021/acs.chemrev.6b00228",
+        "article-title": "Protein assembly: versatile approaches to construct highly ordered nanostructures",
+        "volume": "116",
+        "author": "Luo",
+        "year": "2016",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C7",
+        "doi-asserted-by": "crossref",
+        "first-page": "5326",
+        "DOI": "10.1039/C4CS00082J",
+        "article-title": "Amyloid-based nanosensors and nanodevices",
+        "volume": "43",
+        "author": "Hauser",
+        "year": "2014",
+        "journal-title": "Chem. Soc. Rev."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C8",
+        "doi-asserted-by": "crossref",
+        "first-page": "169",
+        "DOI": "10.1002/bip.22058",
+        "article-title": "Self-assembly of amphipathic β-sheet peptides: insights and applications",
+        "volume": "98",
+        "author": "Bowerman",
+        "year": "2012",
+        "journal-title": "Biopolymers"
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1527",
+        "DOI": "10.1021/ar3002969",
+        "article-title": "Supramolecular construction of optoelectronic biomaterials",
+        "volume": "46",
+        "author": "Tovar",
+        "year": "2013",
+        "journal-title": "Acc. Chem. Res."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C10",
+        "doi-asserted-by": "crossref",
+        "first-page": "5496",
+        "DOI": "10.1002/chem.200500241",
+        "article-title": "Two-component gel-phase materials—highly tunable self-assembling systems",
+        "volume": "11",
+        "author": "Hirst",
+        "year": "2005",
+        "journal-title": "Chem. Eur. J."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C11",
+        "doi-asserted-by": "crossref",
+        "first-page": "372",
+        "DOI": "10.1002/chem.200801475",
+        "article-title": "Self-assembly of two-component gels: stoichiometric control and component selection",
+        "volume": "15",
+        "author": "Hirst",
+        "year": "2009",
+        "journal-title": "Chem. Eur. J."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1382",
+        "DOI": "10.1039/c39930001382",
+        "article-title": "Two-component, small molecule gelling agents",
+        "author": "Hanabusa",
+        "year": "1993",
+        "journal-title": "J. Chem. Soc. Chem. Commun."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C13",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1039/C2BM00041E",
+        "article-title": "Enzyme responsive materials: design strategies and future developments",
+        "volume": "1",
+        "author": "Zelzer",
+        "year": "2013",
+        "journal-title": "Biomater. Sci."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C14",
+        "doi-asserted-by": "crossref",
+        "first-page": "5364",
+        "DOI": "10.1039/c0cc00163e",
+        "article-title": "Enzymatic formation of a photoresponsive supramolecular hydrogel",
+        "volume": "46",
+        "author": "Li",
+        "year": "2010",
+        "journal-title": "Chem. Commun."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C15",
+        "doi-asserted-by": "crossref",
+        "first-page": "5008",
+        "DOI": "10.1021/ja402490j",
+        "article-title": "A redox responsive, fluorescent supramolecular metallohydrogel consists of nanofibers with single-molecule width",
+        "volume": "135",
+        "author": "Zhang",
+        "year": "2013",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C16",
+        "doi-asserted-by": "crossref",
+        "first-page": "7331",
+        "DOI": "10.1021/ma0491762",
+        "article-title": "Salt-triggered peptide folding and consequent self-assembly into hydrogels with tunable modulus",
+        "volume": "37",
+        "author": "Ozbas",
+        "year": "2004",
+        "journal-title": "Macromolecules"
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C17",
+        "doi-asserted-by": "crossref",
+        "first-page": "15 030",
+        "DOI": "10.1021/ja027993g",
+        "article-title": "Responsive hydrogels from the intramolecular folding and self-assembly of a designed peptide",
+        "volume": "124",
+        "author": "Schneider",
+        "year": "2002",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C18",
+        "doi-asserted-by": "crossref",
+        "first-page": "331",
+        "DOI": "10.1039/B615857A",
+        "article-title": "Chemistry of naphthalene diimides",
+        "volume": "37",
+        "author": "Bhosale",
+        "year": "2008",
+        "journal-title": "Chem. Soc. Rev."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C19",
+        "doi-asserted-by": "crossref",
+        "first-page": "478",
+        "DOI": "10.1038/35006603",
+        "article-title": "A soluble and air-stable organic semiconductor with high electron mobility",
+        "volume": "404",
+        "author": "Katz",
+        "year": "2000",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C20",
+        "doi-asserted-by": "crossref",
+        "first-page": "11 685",
+        "DOI": "10.1021/acs.chemrev.6b00160",
+        "article-title": "Functional naphthalene diimides: synthesis, properties, and applications",
+        "volume": "116",
+        "author": "Kobaisi",
+        "year": "2016",
+        "journal-title": "Chem. Rev."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C21",
+        "doi-asserted-by": "crossref",
+        "first-page": "5968",
+        "DOI": "10.1021/jacs.6b02086",
+        "article-title": "Chiral redox-active isosceles triangles",
+        "volume": "138",
+        "author": "Nalluri",
+        "year": "2016",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C22",
+        "doi-asserted-by": "crossref",
+        "first-page": "2112",
+        "DOI": "10.1021/acs.macromol.5b02717",
+        "article-title": "Modular assembly of poly(naphthalene diimide) and Ru(II) dyes for an efficient light-induced charge separation in hierarchically controlled polymer architectures",
+        "volume": "49",
+        "author": "Schroot",
+        "year": "2016",
+        "journal-title": "Macromolecules"
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C23",
+        "doi-asserted-by": "crossref",
+        "first-page": "13 666",
+        "DOI": "10.1039/C5RA26181C",
+        "article-title": "A facile self-assembly strategy towards naphthalene diimide/graphene hybrids as high performance organic cathodes for lithium-ion batteries",
+        "volume": "6",
+        "author": "Chen",
+        "year": "2016",
+        "journal-title": "RSC Adv."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C24",
+        "doi-asserted-by": "crossref",
+        "first-page": "8315",
+        "DOI": "10.1039/C5CC01996F",
+        "article-title": "Crystallographic insight-guided nanoarchitectonics and conductivity modulation of an n-type organic semiconductor through peptide conjugation",
+        "volume": "51",
+        "author": "Pandeeswar",
+        "year": "2015",
+        "journal-title": "Chem. Commun."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C25",
+        "doi-asserted-by": "crossref",
+        "first-page": "3875",
+        "DOI": "10.1002/adfm.201101001",
+        "article-title": "Engineering molecular organization of naphthalenediimides: large nanosheets with metallic conductivity and attoliter containers",
+        "volume": "21",
+        "author": "Avinash",
+        "year": "2011",
+        "journal-title": "Adv. Funct. Mater."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C26",
+        "doi-asserted-by": "crossref",
+        "first-page": "2536",
+        "DOI": "10.1039/c0nr00766h",
+        "article-title": "A bio-inspired design strategy: organization of tryptophan-appended naphthalenediimide into well-defined architectures induced by molecular interactions",
+        "volume": "3",
+        "author": "Avinash",
+        "year": "2011",
+        "journal-title": "Nanoscale"
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C27",
+        "doi-asserted-by": "crossref",
+        "first-page": "6860",
+        "DOI": "10.1039/C6CC01983H",
+        "article-title": "H-bonding directed programmed supramolecular assembly of naphthalene-diimide (NDI) derivatives",
+        "volume": "52",
+        "author": "Das",
+        "year": "2016",
+        "journal-title": "Chem. Commun."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C28",
+        "doi-asserted-by": "crossref",
+        "first-page": "22928",
+        "DOI": "10.1038/srep22928",
+        "article-title": "Photomodulation of fluoride ion binding through anion-π interactions using a photoswitchable azobenzene system",
+        "volume": "6",
+        "author": "Rananaware",
+        "year": "2016",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C29",
+        "doi-asserted-by": "crossref",
+        "first-page": "14609",
+        "DOI": "10.1038/srep14609",
+        "article-title": "Flower-like supramolecular self-assembly of phosphonic acid appended naphthalene diimide and melamine",
+        "volume": "5",
+        "author": "Bhosale",
+        "year": "2015",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C30",
+        "doi-asserted-by": "crossref",
+        "first-page": "16 374",
+        "DOI": "10.1021/ja906377q",
+        "article-title": "Self-assembly of 1-Dn-type nanostructures based on naphthalene diimide-appended dipeptides",
+        "volume": "131",
+        "author": "Shao",
+        "year": "2009",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C31",
+        "doi-asserted-by": "crossref",
+        "first-page": "4285",
+        "DOI": "10.1039/c0cc00701c",
+        "article-title": "A π-conjugated hydrogel based on an Fmoc-dipeptide naphthalene diimide semiconductor",
+        "volume": "46",
+        "author": "Shao",
+        "year": "2010",
+        "journal-title": "Chem. Commun."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C32",
+        "doi-asserted-by": "crossref",
+        "first-page": "5882",
+        "DOI": "10.1002/anie.201311158",
+        "article-title": "Biocatalytic self-assembly of supramolecular charge-transfer nanostructures based on n-type semiconductor-appended peptides",
+        "volume": "53",
+        "author": "Nalluri",
+        "year": "2014",
+        "journal-title": "Angew. Chem. Int. Ed."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C33",
+        "doi-asserted-by": "crossref",
+        "first-page": "1794",
+        "DOI": "10.1021/bc500299c",
+        "article-title": "Electroactive organic dye incorporating dipeptides in the formation of self-assembled nanofibrous hydrogels",
+        "volume": "25",
+        "author": "Liu",
+        "year": "2014",
+        "journal-title": "Bioconjugate Chem."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C34",
+        "doi-asserted-by": "crossref",
+        "first-page": "20 410",
+        "DOI": "10.1039/C5RA00172B",
+        "article-title": "Nanofibrous hydrogels self-assembled from naphthalene diimide (NDI)/amino acid conjugates",
+        "volume": "5",
+        "author": "Hsu",
+        "year": "2015",
+        "journal-title": "RSC Adv."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C35",
+        "doi-asserted-by": "crossref",
+        "first-page": "39 392",
+        "DOI": "10.1039/C6RA06927D",
+        "article-title": "Golf ball-like architecture fabricated by supramolecular self-assembly of naphthalene diimide",
+        "volume": "6",
+        "author": "Goskulwad",
+        "year": "2016",
+        "journal-title": "RSC Adv."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C36",
+        "doi-asserted-by": "crossref",
+        "first-page": "5444",
+        "DOI": "10.1039/c3cc41259h",
+        "article-title": "A phosphonic acid appended naphthalene diimide motif for self-assembly into tunable nanostructures through molecular recognition with arginine in water",
+        "volume": "49",
+        "author": "Nandre",
+        "year": "2013",
+        "journal-title": "Chem. Commun."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C37",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1002/smll.200500252",
+        "article-title": "Design of self-assembling peptide nanotubes with delocalized electronic states",
+        "volume": "2",
+        "author": "Ashkenasy",
+        "year": "2006",
+        "journal-title": "Small"
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C38",
+        "doi-asserted-by": "crossref",
+        "first-page": "3935",
+        "DOI": "10.1039/C5CS00889A",
+        "article-title": "Fmoc-modified amino acids and short peptides: simple bio-inspired building blocks for the fabrication of functional materials",
+        "volume": "45",
+        "author": "Tao",
+        "year": "2016",
+        "journal-title": "Chem. Soc. Rev."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C39",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1039/C1PY00335F",
+        "article-title": "Self-assembled amino acids and dipeptides as noncovalent hydrogels for tissue engineering",
+        "volume": "3",
+        "author": "Ryan",
+        "year": "2012",
+        "journal-title": "Polym. Chem."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C40",
+        "doi-asserted-by": "crossref",
+        "first-page": "3220",
+        "DOI": "10.1039/c0sm00018c",
+        "article-title": "The influence of side-chain halogenation on the self-assembly and hydrogelation of Fmoc-phenylalanine derivatives",
+        "volume": "6",
+        "author": "Ryan",
+        "year": "2010",
+        "journal-title": "Soft Matter"
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C41",
+        "doi-asserted-by": "crossref",
+        "first-page": "8047",
+        "DOI": "10.1039/C5CE00801H",
+        "article-title": "Hydrogels formed from Fmoc amino acids",
+        "volume": "17",
+        "author": "Draper",
+        "year": "2015",
+        "journal-title": "CrystEngComm"
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C42",
+        "doi-asserted-by": "crossref",
+        "first-page": "10 285",
+        "DOI": "10.1021/la9011058",
+        "article-title": "Controlled release from modified amino acid hydrogels governed by molecular size or network dynamics",
+        "volume": "25",
+        "author": "Sutton",
+        "year": "2009",
+        "journal-title": "Langmuir"
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C43",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1039/B916738B",
+        "article-title": "Self-assembly and hydrogelation promoted by F5-phenylalanine",
+        "volume": "6",
+        "author": "Ryan",
+        "year": "2010",
+        "journal-title": "Soft Matter"
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C44",
+        "doi-asserted-by": "crossref",
+        "first-page": "1011",
+        "DOI": "10.1071/CH04130",
+        "article-title": "Spectroscopy of naphthalene diimides and their anion radicals",
+        "volume": "57",
+        "author": "Andric",
+        "year": "2004",
+        "journal-title": "Aust. J. Chem."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C45",
+        "doi-asserted-by": "crossref",
+        "first-page": "2735",
+        "DOI": "10.1021/bm200510k",
+        "article-title": "Tuning β-sheet peptide self-assembly and hydrogelation behavior by modification of sequence hydrophobicity and aromaticity",
+        "volume": "12",
+        "author": "Bowerman",
+        "year": "2011",
+        "journal-title": "Biomacromolecules"
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C46",
+        "doi-asserted-by": "crossref",
+        "first-page": "6545",
+        "DOI": "10.1021/jp000706f",
+        "article-title": "Excited doublet states of electrochemically generated aromatic imide and diimide radical anions",
+        "volume": "104",
+        "author": "Gosztola",
+        "year": "2000",
+        "journal-title": "J. Phys. Chem. A"
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C47",
+        "doi-asserted-by": "crossref",
+        "first-page": "6780",
+        "DOI": "10.1021/ja2005175",
+        "article-title": "Design and synthesis of a new class of membrane-permeable triazaborolopyridinium fluorescent probes",
+        "volume": "133",
+        "author": "Hapuarachchige",
+        "year": "2011",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C48",
+        "doi-asserted-by": "crossref",
+        "first-page": "6891",
+        "DOI": "10.1039/c3cc43538e",
+        "article-title": "Assembly of naphthalenediimide conjugated peptides: aggregation induced changes in fluorescence",
+        "volume": "49",
+        "author": "Basak",
+        "year": "2013",
+        "journal-title": "Chem. Commun."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C49",
+        "doi-asserted-by": "crossref",
+        "first-page": "3376",
+        "DOI": "10.1002/anie.201002307",
+        "article-title": "J-aggregates: from serendipitous discovery to supramolecular engineering of functional dye materials",
+        "volume": "50",
+        "author": "Würthner",
+        "year": "2011",
+        "journal-title": "Angew. Chem. Int. Ed."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C50",
+        "doi-asserted-by": "crossref",
+        "first-page": "6692",
+        "DOI": "10.1021/j100355a025",
+        "article-title": "Photochemistry of 3,4,9,10-perylenetetracarboxylic dianhydride dyes. 4. Spectroscopic and redox properties of oxidized and reduced forms of the bis(2,5-di-tert-butylphenyl)imide derivative",
+        "volume": "93",
+        "author": "Ford",
+        "year": "1989",
+        "journal-title": "J. Phys. Chem."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C51",
+        "doi-asserted-by": "crossref",
+        "first-page": "1460",
+        "DOI": "10.1149/1.2086690",
+        "article-title": "Electrochemical properties of polyimides and related imide compounds",
+        "volume": "137",
+        "author": "Viehbeck",
+        "year": "1990",
+        "journal-title": "J. Electrochem. Soc."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C52",
+        "doi-asserted-by": "crossref",
+        "first-page": "3513",
+        "DOI": "10.1021/ja984188m",
+        "article-title": "Electrochemistry, spectroscopy and electrogenerated chemiluminescence of perylene, terrylene, and quaterrylene diimides in aprotic solution",
+        "volume": "121",
+        "author": "Lee",
+        "year": "1999",
+        "journal-title": "J. Am. Chem. Soc."
+      },
+      {
+        "key": "2025123005124105600_RSFS20160099C53",
+        "doi-asserted-by": "crossref",
+        "first-page": "7063",
+        "DOI": "10.1021/jo061195h",
+        "article-title": "Efficient and mild microwave-assisted stepwise functionalization of naphthalenediimide with α-amino acids",
+        "volume": "71",
+        "author": "Pengo",
+        "year": "2006",
+        "journal-title": "J. Org. Chem."
+      }
+    ],
+    "container-title": [
+      "Interface Focus"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsfs.2016.0099",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://royalsocietypublishing.org/doi/full-xml/10.1098/rsfs.2016.0099",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://royalsocietypublishing.org/rsfs/article-pdf/doi/10.1098/rsfs.2016.0099/446789/rsfs.2016.0099.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://royalsocietypublishing.org/rsfs/article-pdf/doi/10.1098/rsfs.2016.0099/446789/rsfs.2016.0099.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          30
+        ]
+      ],
+      "date-time": "2025-12-30T10:12:54Z",
+      "timestamp": 1767089574000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://royalsocietypublishing.org/rsfs/article/7/6/20160099/64166/Redox-sensitive-reversible-self-assembly-of-amino"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          6
+        ]
+      ]
+    },
+    "references-count": 53,
+    "journal-issue": {
+      "issue": "6",
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            10,
+            20
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            1,
+            6
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1098/rsfs.2016.0099",
+    "relation": {},
+    "ISSN": [
+      "2042-8898",
+      "2042-8901"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "2042-8898"
+      },
+      {
+        "type": "electronic",
+        "value": "2042-8901"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2017-10-20",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "article-number": "20160099"
+  },
+  "timestamp": 1767726506725,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

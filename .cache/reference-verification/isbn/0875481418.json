@@ -1,0 +1,108 @@
+{
+  "key": "isbn-0875481418",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL18351313M/The_Philosophy_of_Karl_Popper",
+      "key": "/books/OL18351313M",
+      "title": "The Philosophy of Karl Popper",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL238785A/Karl_Popper",
+          "name": "Karl Popper"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL377350A/Schilpp_Paul_Arthur",
+          "name": "Schilpp, Paul Arthur"
+        }
+      ],
+      "number_of_pages": 1323,
+      "pagination": "2 v. (xvi,1323 p.) : ",
+      "by_statement": "edited by Paul Arthur Schilpp.",
+      "identifiers": {
+        "goodreads": [
+          "135400",
+          "2227537"
+        ],
+        "librarything": [
+          "8540340"
+        ],
+        "isbn_10": [
+          "0875481418",
+          "0875481426"
+        ],
+        "lccn": [
+          "76186983"
+        ],
+        "oclc": [
+          "2580491"
+        ],
+        "openlibrary": [
+          "OL18351313M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "B1649.P64  P48",
+          "B1649.P64 P48"
+        ],
+        "dewey_decimal_class": [
+          "192"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Open Court"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "La Salle, Ill"
+        }
+      ],
+      "publish_date": "1974",
+      "subjects": [
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Social sciences",
+          "url": "https://openlibrary.org/subjects/social_sciences"
+        },
+        {
+          "name": "Popper, Karl R. (Karl Raimund), 1902-1994",
+          "url": "https://openlibrary.org/subjects/popper,_karl_r._(karl_raimund),_1902-1994"
+        },
+        {
+          "name": "Karl Popper",
+          "url": "https://openlibrary.org/subjects/karl_popper"
+        }
+      ],
+      "subject_people": [
+        {
+          "name": "Karl Raimund Popper Sir (1902-1994)",
+          "url": "https://openlibrary.org/subjects/person:karl_raimund_popper_sir_(1902-1994)"
+        }
+      ],
+      "notes": "Includes index.\n\n\"Bibliography of the writings of Karl Popper, compiled by Troels Eggers Hansen\": v. 2, p. [1201]-1287.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/philosophyofkarl0014unse",
+          "availability": "borrow",
+          "formats": {},
+          "borrow_url": "https://openlibrary.org/books/OL18351313M/The_Philosophy_of_Karl_Popper/borrow",
+          "checkedout": false
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/8079321-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/8079321-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/8079321-L.jpg"
+      }
+    },
+    "verifiedISBN": "0875481418"
+  },
+  "timestamp": 1767731058011,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

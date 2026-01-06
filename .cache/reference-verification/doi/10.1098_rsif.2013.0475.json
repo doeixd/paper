@@ -1,0 +1,559 @@
+{
+  "key": "doi-10.1098_rsif.2013.0475",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          6
+        ]
+      ],
+      "date-time": "2026-01-06T13:20:13Z",
+      "timestamp": 1767705613154
+    },
+    "reference-count": 62,
+    "publisher": "The Royal Society",
+    "issue": "86",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2013,
+              9,
+              6
+            ]
+          ],
+          "date-time": "2013-09-06T00:00:00Z",
+          "timestamp": 1378425600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://royalsociety.org/journals/ethics-policies/data-sharing-mining/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "royalsocietypublishing.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J. R. Soc. Interface."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          9,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:p>This paper presents a heuristic proof (and simulations of a primordial soup) suggesting that life—or biological self-organization—is an inevitable and emergent property of any (ergodic) random dynamical system that possesses a Markov blanket. This conclusion is based on the following arguments: if the coupling among an ensemble of dynamical systems is mediated by short-range forces, then the states of remote systems must be conditionally independent. These independencies induce a Markov blanket that separates internal and external states in a statistical sense. The existence of a Markov blanket means that internal states will appear to minimize a free energy functional of the states of their Markov blanket. Crucially, this is the same quantity that is optimized in Bayesian inference. Therefore, the internal states (and their blanket) will appear to engage in active Bayesian inference. In other words, they will appear to model—and act on—their world to preserve their functional and structural integrity, leading to homoeostasis and a simple form of autopoiesis.</jats:p>",
+    "DOI": "10.1098/rsif.2013.0475",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          7,
+          3
+        ]
+      ],
+      "date-time": "2013-07-03T09:21:09Z",
+      "timestamp": 1372843269000
+    },
+    "page": "20130475",
+    "update-policy": "http://dx.doi.org/10.1098/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 522,
+    "title": [
+      "Life as we know it"
+    ],
+    "prefix": "10.1098",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Karl",
+        "family": "Friston",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "The Wellcome Trust Centre for Neuroimaging, Institute of Neurology, Queen Square, London WC1N 3BG, UK"
+          }
+        ]
+      }
+    ],
+    "member": "175",
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          9,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_3_2_2_2",
+        "volume-title": "What is life?: the physical aspect of the living cell",
+        "author": "Schrödinger E",
+        "year": "1944"
+      },
+      {
+        "key": "e_1_3_2_3_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00221309.1947.9918144"
+      },
+      {
+        "key": "e_1_3_2_4_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-642-88338-5"
+      },
+      {
+        "key": "e_1_3_2_5_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-94-009-8947-4"
+      },
+      {
+        "key": "e_1_3_2_6_2",
+        "volume-title": "Self-organization in non-equilibrium systems",
+        "author": "Nicolis G",
+        "year": "1977"
+      },
+      {
+        "key": "e_1_3_2_7_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1673-8527(08)60093-4"
+      },
+      {
+        "key": "e_1_3_2_8_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1006/jtbi.2000.2106"
+      },
+      {
+        "key": "e_1_3_2_9_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/jp055592s"
+      },
+      {
+        "key": "e_1_3_2_10_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/info1010028"
+      },
+      {
+        "key": "e_1_3_2_11_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.plrev.2011.11.002"
+      },
+      {
+        "key": "e_1_3_2_12_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/e14112100"
+      },
+      {
+        "key": "e_1_3_2_13_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2012/937860"
+      },
+      {
+        "key": "e_1_3_2_14_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00207727008920220"
+      },
+      {
+        "key": "e_1_3_2_15_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/0026897031000085173"
+      },
+      {
+        "key": "e_1_3_2_16_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.50.1645"
+      },
+      {
+        "key": "e_1_3_2_17_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1995.7.5.889"
+      },
+      {
+        "key": "e_1_3_2_18_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.1980.0090"
+      },
+      {
+        "key": "e_1_3_2_19_2",
+        "volume-title": "Concerning the perceptions in general. In Treatise on physiological optics",
+        "author": "Helmholtz H",
+        "year": "1866",
+        "edition": "3"
+      },
+      {
+        "key": "e_1_3_2_20_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.psych.55.090902.142005"
+      },
+      {
+        "key": "e_1_3_2_21_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/JOSAA.20.001434"
+      },
+      {
+        "key": "e_1_3_2_22_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jphysparis.2006.10.001"
+      },
+      {
+        "key": "e_1_3_2_23_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1140/epjb/e2008-00175-0"
+      },
+      {
+        "key": "e_1_3_2_24_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/089976601753195969"
+      },
+      {
+        "key": "e_1_3_2_25_2",
+        "first-page": "1",
+        "volume-title": "Perception–reason–action cycle: models, algorithms and systems",
+        "author": "Tishby N",
+        "year": "2010"
+      },
+      {
+        "key": "e_1_3_2_26_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.201.4356.579"
+      },
+      {
+        "key": "e_1_3_2_27_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.17.2.656"
+      },
+      {
+        "key": "e_1_3_2_28_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2373052"
+      },
+      {
+        "key": "e_1_3_2_29_2",
+        "volume-title": "Probabilistic reasoning in intelligent systems: networks of plausible inference",
+        "author": "Pearl J",
+        "year": "1988"
+      },
+      {
+        "key": "e_1_3_2_30_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF01193705"
+      },
+      {
+        "key": "e_1_3_2_31_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02505989"
+      },
+      {
+        "key": "e_1_3_2_32_2",
+        "volume-title": "Nonlinear Fokker–Planck equations: fundamentals and applications. Springer Series in Synergetics",
+        "author": "Frank TD",
+        "year": "2004"
+      },
+      {
+        "key": "e_1_3_2_33_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1088/0305-4470/37/3/L01"
+      },
+      {
+        "key": "e_1_3_2_34_2",
+        "unstructured": "Yuan R Ma Y Yuan B& Ping A. 2010 Bridging engineering and physics: Lyapunov function as potential function. See http://arxiv.org/abs/1012.2721v1 [nlin.CD]."
+      },
+      {
+        "key": "e_1_3_2_35_2",
+        "unstructured": "Beal MJ. 2003 Variational algorithms for approximate Bayesian inference. PhD thesis University College London."
+      },
+      {
+        "key": "e_1_3_2_36_2",
+        "volume-title": "Statistical mechanics",
+        "author": "Feynman RP",
+        "year": "1972"
+      },
+      {
+        "key": "e_1_3_2_37_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/168304.168306"
+      },
+      {
+        "key": "e_1_3_2_38_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.1989.10478825"
+      },
+      {
+        "key": "e_1_3_2_39_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1214/aoms/1177729694"
+      },
+      {
+        "key": "e_1_3_2_40_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF00877522"
+      },
+      {
+        "key": "e_1_3_2_41_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroscience.2008.03.050"
+      },
+      {
+        "key": "e_1_3_2_42_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrn2787"
+      },
+      {
+        "key": "e_1_3_2_43_2",
+        "first-page": "217",
+        "volume-title": "Sensory communication",
+        "author": "Barlow H",
+        "year": "1961"
+      },
+      {
+        "key": "e_1_3_2_44_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1146/annurev.ne.13.030190.001353"
+      },
+      {
+        "key": "e_1_3_2_45_2",
+        "first-page": "620",
+        "article-title": "Information theory and statistical mechanics",
+        "volume": "106",
+        "author": "Jaynes ET",
+        "year": "1957",
+        "journal-title": "Phys. Rev. Ser. II"
+      },
+      {
+        "key": "e_1_3_2_46_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2005.1643"
+      },
+      {
+        "key": "e_1_3_2_47_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.ijpsycho.2005.12.008"
+      },
+      {
+        "key": "e_1_3_2_48_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/BF02691333"
+      },
+      {
+        "key": "e_1_3_2_49_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.1952.0012"
+      },
+      {
+        "key": "e_1_3_2_50_2",
+        "unstructured": "Belousov BP. 1959 Периодически действующая реакция и ее механизм [Periodically acting reaction and its mechanism]. Сборнрефератов по радиационной медицине [Collection of Abstracts on Radiation Medicine] 145–147."
+      },
+      {
+        "key": "e_1_3_2_51_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.3309017"
+      },
+      {
+        "key": "e_1_3_2_52_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0167-2789(93)90006-M"
+      },
+      {
+        "key": "e_1_3_2_53_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2005.1666"
+      },
+      {
+        "key": "e_1_3_2_54_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevE.55.4029"
+      },
+      {
+        "key": "e_1_3_2_55_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1063/1.1512927"
+      },
+      {
+        "key": "e_1_3_2_56_2",
+        "volume-title": "Horologium oscillatorium",
+        "author": "Huygens C",
+        "year": "1673"
+      },
+      {
+        "key": "e_1_3_2_57_2",
+        "first-page": "611",
+        "article-title": "Predictions not commands: active inference in the motor system",
+        "volume": "218",
+        "author": "Adams RA",
+        "year": "2012",
+        "journal-title": ". Funct"
+      },
+      {
+        "key": "e_1_3_2_58_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tics.2011.02.004"
+      },
+      {
+        "key": "e_1_3_2_59_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1103/PhysRevLett.90.054102"
+      },
+      {
+        "key": "e_1_3_2_60_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrmicro1493"
+      },
+      {
+        "key": "e_1_3_2_61_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2011.03.062"
+      },
+      {
+        "key": "e_1_3_2_62_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1073/pnas.0501865102"
+      },
+      {
+        "key": "e_1_3_2_63_2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fpsyg.2012.00151"
+      }
+    ],
+    "container-title": [
+      "Journal of The Royal Society Interface"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsif.2013.0475",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://royalsocietypublishing.org/doi/full-xml/10.1098/rsif.2013.0475",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsif.2013.0475",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2021,
+          2,
+          19
+        ]
+      ],
+      "date-time": "2021-02-19T15:49:06Z",
+      "timestamp": 1613749746000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://royalsocietypublishing.org/doi/10.1098/rsif.2013.0475"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          9,
+          6
+        ]
+      ]
+    },
+    "references-count": 62,
+    "journal-issue": {
+      "issue": "86",
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            9,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1098/rsif.2013.0475"
+    ],
+    "URL": "https://doi.org/10.1098/rsif.2013.0475",
+    "relation": {},
+    "ISSN": [
+      "1742-5689",
+      "1742-5662"
+    ],
+    "issn-type": [
+      {
+        "value": "1742-5689",
+        "type": "print"
+      },
+      {
+        "value": "1742-5662",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          9,
+          6
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2013-05-27",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2013-06-12",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2013-09-06",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "timestamp": 1767726506064,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

@@ -1,0 +1,118 @@
+{
+  "key": "isbn-9780198244776",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL2054935M/Nature's_capacities_and_their_measurement",
+      "key": "/books/OL2054935M",
+      "title": "Nature's capacities and their measurement",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL232066A/Nancy_Cartwright",
+          "name": "Nancy Cartwright"
+        }
+      ],
+      "number_of_pages": 268,
+      "pagination": "x, 268 p. :",
+      "by_statement": "Nancy Cartwright.",
+      "identifiers": {
+        "goodreads": [
+          "2020754"
+        ],
+        "librarything": [
+          "214620"
+        ],
+        "isbn_10": [
+          "0198244770"
+        ],
+        "lccn": [
+          "88033015"
+        ],
+        "oclc": [
+          "18989338"
+        ],
+        "openlibrary": [
+          "OL2054935M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "QC6.4.C3 C37 1989",
+          "QC6.4.C3C37 1989"
+        ],
+        "dewey_decimal_class": [
+          "530/.01"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Clarendon Press"
+        },
+        {
+          "name": "Oxford University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Oxford"
+        },
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "1989",
+      "subjects": [
+        {
+          "name": "Quantum theory",
+          "url": "https://openlibrary.org/subjects/quantum_theory"
+        },
+        {
+          "name": "Probabilities",
+          "url": "https://openlibrary.org/subjects/probabilities"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Physics",
+          "url": "https://openlibrary.org/subjects/physics"
+        },
+        {
+          "name": "Econometrics",
+          "url": "https://openlibrary.org/subjects/econometrics"
+        },
+        {
+          "name": "Causality (Physics)",
+          "url": "https://openlibrary.org/subjects/causality_(physics)"
+        },
+        {
+          "name": "Nature",
+          "url": "https://openlibrary.org/subjects/nature"
+        },
+        {
+          "name": "Science, philosophy",
+          "url": "https://openlibrary.org/subjects/science,_philosophy"
+        }
+      ],
+      "notes": "Includes bibliographical references and index.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/naturescapacitie0000cart",
+          "availability": "borrow",
+          "formats": {},
+          "borrow_url": "https://openlibrary.org/books/OL2054935M/Nature's_capacities_and_their_measurement/borrow",
+          "checkedout": false
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/12872007-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/12872007-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/12872007-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780198244776"
+  },
+  "timestamp": 1767726317369,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

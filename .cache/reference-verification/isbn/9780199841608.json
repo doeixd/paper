@@ -1,0 +1,93 @@
+{
+  "key": "isbn-9780199841608",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL25372124M/Evidence-based_policy",
+      "key": "/books/OL25372124M",
+      "title": "Evidence-based policy",
+      "subtitle": "a practical guide to doing it better",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL232066A/Nancy_Cartwright",
+          "name": "Nancy Cartwright"
+        }
+      ],
+      "number_of_pages": 196,
+      "pagination": "p. cm.",
+      "by_statement": "Nancy Cartwright and Jeremy Hardie",
+      "identifiers": {
+        "isbn_13": [
+          "9780199841622",
+          "9780199841608"
+        ],
+        "lccn": [
+          "2012022991"
+        ],
+        "oclc": [
+          "795177510"
+        ],
+        "openlibrary": [
+          "OL25372124M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "H97 .C375 2012",
+          "H97"
+        ],
+        "dewey_decimal_class": [
+          "320.6"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Oxford"
+        },
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "2012",
+      "subjects": [
+        {
+          "name": "Policy sciences",
+          "url": "https://openlibrary.org/subjects/policy_sciences"
+        },
+        {
+          "name": "Human services",
+          "url": "https://openlibrary.org/subjects/human_services"
+        },
+        {
+          "name": "Evaluation",
+          "url": "https://openlibrary.org/subjects/evaluation"
+        },
+        {
+          "name": "Planning",
+          "url": "https://openlibrary.org/subjects/planning"
+        }
+      ],
+      "notes": "Includes bibliographical references and index.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/evidencebasedpol0000cart",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/7268875-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/7268875-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/7268875-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780199841608"
+  },
+  "timestamp": 1767731058587,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

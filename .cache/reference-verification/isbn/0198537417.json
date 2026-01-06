@@ -1,0 +1,86 @@
+{
+  "key": "isbn-0198537417",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL21174127M/The_Universal_Turing_machine",
+      "key": "/books/OL21174127M",
+      "title": "The Universal Turing machine",
+      "subtitle": "a half-centurysurvey",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL2667834A/Rolf_Herken",
+          "name": "Rolf Herken"
+        }
+      ],
+      "number_of_pages": 661,
+      "pagination": "661p. :",
+      "by_statement": "edited by Rolf Herken.",
+      "identifiers": {
+        "goodreads": [
+          "1842335"
+        ],
+        "isbn_10": [
+          "0198537417"
+        ],
+        "lccn": [
+          "88213652",
+          "gb88057800"
+        ],
+        "oclc": [
+          "20296444"
+        ],
+        "openlibrary": [
+          "OL21174127M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "QA267",
+          "QA267 .U55 1988"
+        ],
+        "dewey_decimal_class": [
+          "519.4"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Oxford"
+        }
+      ],
+      "publish_date": "1988",
+      "subjects": [
+        {
+          "name": "Turing machines",
+          "url": "https://openlibrary.org/subjects/turing_machines"
+        },
+        {
+          "name": "Machine theory",
+          "url": "https://openlibrary.org/subjects/machine_theory"
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/universalturingm0000unse",
+          "availability": "borrow",
+          "formats": {},
+          "borrow_url": "https://openlibrary.org/books/OL21174127M/The_Universal_Turing_machine/borrow",
+          "checkedout": false
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/4605264-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/4605264-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/4605264-L.jpg"
+      }
+    },
+    "verifiedISBN": "0198537417"
+  },
+  "timestamp": 1767731057170,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

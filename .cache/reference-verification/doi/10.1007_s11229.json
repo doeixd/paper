@@ -1,0 +1,424 @@
+{
+  "key": "doi-10.1007_s11229-014-0619-7",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          30
+        ]
+      ],
+      "date-time": "2025-10-30T17:14:03Z",
+      "timestamp": 1761844443169
+    },
+    "reference-count": 28,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              12,
+              6
+            ]
+          ],
+          "date-time": "2014-12-06T00:00:00Z",
+          "timestamp": 1417824000000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "http://www.springer.com/tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Synthese"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1007/s11229-014-0619-7",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          12,
+          5
+        ]
+      ],
+      "date-time": "2014-12-05T10:34:37Z",
+      "timestamp": 1417775677000
+    },
+    "page": "1295-1314",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 15,
+    "title": [
+      "Mereological nihilism and the special arrangement question"
+    ],
+    "prefix": "10.1007",
+    "volume": "192",
+    "author": [
+      {
+        "given": "Andrew",
+        "family": "Brenner",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          12,
+          6
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "619_CR1",
+        "doi-asserted-by": "crossref",
+        "first-page": "277",
+        "DOI": "10.1007/978-94-015-8715-0_19",
+        "volume-title": "Bohmian mechanics and quantum theory: An appraisal",
+        "author": "DZ Albert",
+        "year": "1996",
+        "unstructured": "Albert, D. Z. (1996). Elementary quantum metaphysics. In J. T. Cushing, A. Fine, & S. Goldstein (Eds.), Bohmian mechanics and quantum theory: An appraisal (pp. 277–284). Dordrecht: Kluwer Academic Publishers."
+      },
+      {
+        "key": "619_CR2",
+        "doi-asserted-by": "crossref",
+        "first-page": "599",
+        "DOI": "10.2307/2564596",
+        "volume": "94",
+        "author": "LR Baker",
+        "year": "1997",
+        "unstructured": "Baker, L. R. (1997). Why constitution is not identity. Journal of Philosophy, 94, 599–621.",
+        "journal-title": "Journal of Philosophy"
+      },
+      {
+        "key": "619_CR3",
+        "unstructured": "Bennett, K. (2009). Composition, colocation, and metaontology. In D. J. Chalmers, D. Manley, & R. Wasserman (Eds.), Metametaphysics (pp. 38–76). Oxford: Oxford University Press."
+      },
+      {
+        "key": "619_CR4",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1007/s11098-007-9144-6",
+        "volume": "136",
+        "author": "RP Cameron",
+        "year": "2007",
+        "unstructured": "Cameron, R. P. (2007). The contingency of composition. Philosophical Studies, 136, 99–121.",
+        "journal-title": "Philosophical Studies"
+      },
+      {
+        "key": "619_CR5",
+        "doi-asserted-by": "crossref",
+        "first-page": "249",
+        "DOI": "10.1007/s11098-009-9442-2",
+        "volume": "151",
+        "author": "RP Cameron",
+        "year": "2010",
+        "unstructured": "Cameron, R. P. (2010). How to have a radically minimal ontology. Philosophical Studies, 151, 249–264.",
+        "journal-title": "Philosophical Studies"
+      },
+      {
+        "key": "619_CR6",
+        "first-page": "1",
+        "volume": "12",
+        "author": "RP Cameron",
+        "year": "2012",
+        "unstructured": "Cameron, R. P. (2012). Why lewis’s analysis of modality succeeds in its reductive ambitions. Philosophers’ Imprint, 12, 1–21.",
+        "journal-title": "Philosophers’ Imprint"
+      },
+      {
+        "issue": "2",
+        "key": "619_CR7",
+        "doi-asserted-by": "crossref",
+        "first-page": "199",
+        "DOI": "10.1111/phib.12037",
+        "volume": "55",
+        "author": "G Contessa",
+        "year": "2014",
+        "unstructured": "Contessa, G. (2014). One’s a crowd: Mereological nihilism without ordinary-object eliminativism. Analytic Philosophy, 55(2), 199–221.",
+        "journal-title": "Analytic Philosophy"
+      },
+      {
+        "key": "619_CR8",
+        "unstructured": "Dorr, C. (2002). The simplicity of everything. PhD thesis, Princeton University."
+      },
+      {
+        "key": "619_CR9",
+        "unstructured": "Dorr, C., & Rosen, G. (2002). Composition as a fiction. In R. Gale (Ed.), The Blackwell guide to metaphysics (pp. 151–174). Oxford: Blackwell."
+      },
+      {
+        "key": "619_CR10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1017/CBO9780511760129",
+        "volume-title": "Familiar objects and their shadows",
+        "author": "C Elder",
+        "year": "2011",
+        "unstructured": "Elder, C. (2011). Familiar objects and their shadows. Cambridge: Cambridge University Press."
+      },
+      {
+        "key": "619_CR11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Horgan, T., & Potrč, M. (2008). Austere realism: Contextual semantics meets minimal ontology. Cambridge: The MIT Press.",
+        "DOI": "10.7551/mitpress/9780262083768.001.0001"
+      },
+      {
+        "key": "619_CR12",
+        "unstructured": "Kripke, S. (1980). Naming and necessity. In: D. Davidson, & G. Harman (Eds.), Semantics of Natural Language (pp. 253–355, 763–769). Dordrecht: D. Reidel, 1972. Revised edition published in 1980 as Naming and Necessity (Harvard University Press, Cambridge, MA)."
+      },
+      {
+        "key": "619_CR13",
+        "volume-title": "Objects and persons",
+        "author": "T Merricks",
+        "year": "2003",
+        "unstructured": "Merricks, T. (2003). Objects and persons. Oxford: Clarendon Press."
+      },
+      {
+        "key": "619_CR14",
+        "doi-asserted-by": "crossref",
+        "first-page": "11",
+        "DOI": "10.1007/BF02198233",
+        "volume": "2",
+        "author": "WVO Quine",
+        "year": "1951",
+        "unstructured": "Quine, W. V. O. (1951). Ontology and ideology. Philosophical Studies, 2, 11–15.",
+        "journal-title": "Philosophical Studies"
+      },
+      {
+        "key": "619_CR15",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1215/00318108-2009-025",
+        "volume": "119",
+        "author": "J Schaffer",
+        "year": "2010",
+        "unstructured": "Schaffer, J. (2010). Monism: The priority of the whole. Philosophical Review, 119, 31–76.",
+        "journal-title": "Philosophical Review"
+      },
+      {
+        "key": "619_CR16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/acprof:oso/9780199697908.001.0001",
+        "volume-title": "Writing the book of the world",
+        "author": "T Sider",
+        "year": "2011",
+        "unstructured": "Sider, T. (2011). Writing the book of the world. Oxford: Clarendon Press."
+      },
+      {
+        "key": "619_CR17",
+        "volume-title": "Oxford studies in metaphysics",
+        "author": "T Sider",
+        "year": "2013",
+        "unstructured": "Sider, T. (2013). Against parthood. In K. Bennett & D. W. Zimmerman (Eds.), Oxford studies in metaphysics (Vol. 8). Oxford: Oxford University Press."
+      },
+      {
+        "key": "619_CR18",
+        "volume-title": "Oxford studies in metaphysics",
+        "author": "J Spencer",
+        "year": "2012",
+        "unstructured": "Spencer, J. (2012). All things must pass away. In K. Bennett & D. W. Zimmerman (Eds.), Oxford studies in metaphysics (Vol. 7). Oxford: Oxford University Press."
+      },
+      {
+        "key": "619_CR19",
+        "doi-asserted-by": "crossref",
+        "first-page": "1511",
+        "DOI": "10.1007/s11229-013-0343-8",
+        "volume": "191",
+        "author": "J Tallant",
+        "year": "2014",
+        "unstructured": "Tallant, J. (2014). Against mereological nihilism. Synthese, 191, 1511–1527.",
+        "journal-title": "Synthese"
+      },
+      {
+        "key": "619_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thomasson, A. L. (2007). Ordinary objects. New York: Oxford University Press.",
+        "DOI": "10.1093/acprof:oso/9780195319910.001.0001"
+      },
+      {
+        "key": "619_CR21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Unger, P. (1979a). I do not exist. In G. F. Macdonald (Ed.), Perception and identity: Essays presented to A. J. Ayer with his replies to them (pp. 235–251). New York: Macmillan.",
+        "DOI": "10.1007/978-1-349-04862-5_10"
+      },
+      {
+        "key": "619_CR22",
+        "doi-asserted-by": "crossref",
+        "first-page": "117",
+        "DOI": "10.1007/BF00869568",
+        "volume": "41",
+        "author": "P Unger",
+        "year": "1979",
+        "unstructured": "Unger, P. (1979b). There are no ordinary things. Synthese, 41, 117–154.",
+        "journal-title": "Synthese"
+      },
+      {
+        "key": "619_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Unger, P. (1979c). Why there are no people. In P. French, T. E. Uehling Jr, & H. K. Wettstein (Eds.), Midwest studies in philosophy IV. Minneapolis: University of Minnesota Press.",
+        "DOI": "10.1111/j.1475-4975.1979.tb00377.x"
+      },
+      {
+        "key": "619_CR24",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/acprof:oso/9780199330812.001.0001",
+        "volume-title": "Empty ideas: A critique of analytic philosophy",
+        "author": "P Unger",
+        "year": "2014",
+        "unstructured": "Unger, P. (2014). Empty ideas: A critique of analytic philosophy. Oxford: Oxford University Press."
+      },
+      {
+        "key": "619_CR25",
+        "doi-asserted-by": "crossref",
+        "first-page": "429",
+        "DOI": "10.5840/monist200487324",
+        "volume": "87",
+        "author": "G Uzquiano",
+        "year": "2004",
+        "unstructured": "Uzquiano, G. (2004). Plurals and simples. The Monist, 87, 429–451.",
+        "journal-title": "The Monist"
+      },
+      {
+        "key": "619_CR26",
+        "volume-title": "Material beings",
+        "author": "P Inwagen van",
+        "year": "1990",
+        "unstructured": "van Inwagen, P. (1990). Material beings. Ithaca, NY: Cornell University Press."
+      },
+      {
+        "key": "619_CR27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "van Inwagen, P. (2014). Introduction: Inside and outside the ontology room. Existence: Essays in ontology (pp. 1–14). New York: Cambridge University Press.",
+        "DOI": "10.1017/CBO9781107111004.002"
+      },
+      {
+        "key": "619_CR28",
+        "doi-asserted-by": "crossref",
+        "first-page": "493",
+        "DOI": "10.1111/j.1520-8583.2006.00117.x",
+        "volume": "20",
+        "author": "JRG Williams",
+        "year": "2006",
+        "unstructured": "Williams, J. R. G. (2006). Illusions of gunk. Philosophical Perspectives, 20, 493–513.",
+        "journal-title": "Philosophical Perspectives"
+      }
+    ],
+    "container-title": [
+      "Synthese"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s11229-014-0619-7.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1007/s11229-014-0619-7/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s11229-014-0619-7",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2019,
+          6,
+          1
+        ]
+      ],
+      "date-time": "2019-06-01T10:37:01Z",
+      "timestamp": 1559385421000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://link.springer.com/10.1007/s11229-014-0619-7"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          12,
+          6
+        ]
+      ]
+    },
+    "references-count": 28,
+    "journal-issue": {
+      "issue": "5",
+      "published-print": {
+        "date-parts": [
+          [
+            2015,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "619"
+    ],
+    "URL": "https://doi.org/10.1007/s11229-014-0619-7",
+    "relation": {},
+    "ISSN": [
+      "0039-7857",
+      "1573-0964"
+    ],
+    "issn-type": [
+      {
+        "value": "0039-7857",
+        "type": "print"
+      },
+      {
+        "value": "1573-0964",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          12,
+          6
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767726231940,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

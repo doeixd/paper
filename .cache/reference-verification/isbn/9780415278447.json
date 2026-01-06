@@ -1,0 +1,247 @@
+{
+  "key": "isbn-9780415278447",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL7489739M/The_Logic_of_Scientific_Discovery_(Routledge_Classics)",
+      "key": "/books/OL7489739M",
+      "title": "The Logic of Scientific Discovery (Routledge Classics)",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL238785A/Karl_Popper",
+          "name": "Karl Popper"
+        }
+      ],
+      "number_of_pages": 544,
+      "identifiers": {
+        "goodreads": [
+          "61550"
+        ],
+        "librarything": [
+          "68144"
+        ],
+        "isbn_10": [
+          "0415278449"
+        ],
+        "isbn_13": [
+          "9780415278447"
+        ],
+        "openlibrary": [
+          "OL7489739M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "Q175"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Routledge"
+        }
+      ],
+      "publish_date": "March 29, 2002",
+      "subjects": [
+        {
+          "name": "Science",
+          "url": "https://openlibrary.org/subjects/science"
+        },
+        {
+          "name": "Methodology",
+          "url": "https://openlibrary.org/subjects/methodology"
+        },
+        {
+          "name": "Logic",
+          "url": "https://openlibrary.org/subjects/logic"
+        },
+        {
+          "name": "Research Design",
+          "url": "https://openlibrary.org/subjects/research_design"
+        },
+        {
+          "name": "Sciences",
+          "url": "https://openlibrary.org/subjects/sciences"
+        },
+        {
+          "name": "Méthodologie",
+          "url": "https://openlibrary.org/subjects/méthodologie"
+        },
+        {
+          "name": "Logique",
+          "url": "https://openlibrary.org/subjects/logique"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Curricula",
+          "url": "https://openlibrary.org/subjects/curricula"
+        },
+        {
+          "name": "English literature",
+          "url": "https://openlibrary.org/subjects/english_literature"
+        },
+        {
+          "name": "Study and teaching",
+          "url": "https://openlibrary.org/subjects/study_and_teaching"
+        },
+        {
+          "name": "University of Cambridge",
+          "url": "https://openlibrary.org/subjects/university_of_cambridge"
+        },
+        {
+          "name": "Metodologia Cientifica",
+          "url": "https://openlibrary.org/subjects/metodologia_cientifica"
+        },
+        {
+          "name": "Logica",
+          "url": "https://openlibrary.org/subjects/logica"
+        },
+        {
+          "name": "Science, methodology",
+          "url": "https://openlibrary.org/subjects/science,_methodology"
+        },
+        {
+          "name": "Knowledge",
+          "url": "https://openlibrary.org/subjects/knowledge"
+        },
+        {
+          "name": "Erkenntnistheorie",
+          "url": "https://openlibrary.org/subjects/erkenntnistheorie"
+        },
+        {
+          "name": "Forschung",
+          "url": "https://openlibrary.org/subjects/forschung"
+        },
+        {
+          "name": "Kritischer Rationalismus",
+          "url": "https://openlibrary.org/subjects/kritischer_rationalismus"
+        },
+        {
+          "name": "Logik",
+          "url": "https://openlibrary.org/subjects/logik"
+        },
+        {
+          "name": "Wissenschaftstheorie",
+          "url": "https://openlibrary.org/subjects/wissenschaftstheorie"
+        },
+        {
+          "name": "Wetenschapsfilosofie",
+          "url": "https://openlibrary.org/subjects/wetenschapsfilosofie"
+        },
+        {
+          "name": "Consciousness",
+          "url": "https://openlibrary.org/subjects/consciousness"
+        },
+        {
+          "name": "Social aspects",
+          "url": "https://openlibrary.org/subjects/social_aspects"
+        },
+        {
+          "name": "Self psychology",
+          "url": "https://openlibrary.org/subjects/self_psychology"
+        },
+        {
+          "name": "Journalism",
+          "url": "https://openlibrary.org/subjects/journalism"
+        },
+        {
+          "name": "History",
+          "url": "https://openlibrary.org/subjects/history"
+        },
+        {
+          "name": "Mass media",
+          "url": "https://openlibrary.org/subjects/mass_media"
+        },
+        {
+          "name": "Federal government",
+          "url": "https://openlibrary.org/subjects/federal_government"
+        },
+        {
+          "name": "Rāshṭriya Samācāra Samiti (Nepal)",
+          "url": "https://openlibrary.org/subjects/rāshṭriya_samācāra_samiti_(nepal)"
+        },
+        {
+          "name": "Comparative government",
+          "url": "https://openlibrary.org/subjects/comparative_government"
+        },
+        {
+          "name": "Politics and government",
+          "url": "https://openlibrary.org/subjects/politics_and_government"
+        },
+        {
+          "name": "Textile fabrics in art",
+          "url": "https://openlibrary.org/subjects/textile_fabrics_in_art"
+        },
+        {
+          "name": "Installations (Art)",
+          "url": "https://openlibrary.org/subjects/installations_(art)"
+        },
+        {
+          "name": "Lógica",
+          "url": "https://openlibrary.org/subjects/lógica"
+        },
+        {
+          "name": "Lâogica",
+          "url": "https://openlibrary.org/subjects/lâogica"
+        },
+        {
+          "name": "Philosophie",
+          "url": "https://openlibrary.org/subjects/philosophie"
+        },
+        {
+          "name": "Sciences (philosophy)",
+          "url": "https://openlibrary.org/subjects/sciences_(philosophy)"
+        },
+        {
+          "name": "Philosophy & Social Aspects",
+          "url": "https://openlibrary.org/subjects/philosophy_&_social_aspects"
+        },
+        {
+          "name": "Ciencias",
+          "url": "https://openlibrary.org/subjects/ciencias"
+        },
+        {
+          "name": "Metodología",
+          "url": "https://openlibrary.org/subjects/metodología"
+        },
+        {
+          "name": "Filosofía",
+          "url": "https://openlibrary.org/subjects/filosofía"
+        },
+        {
+          "name": "Investigación",
+          "url": "https://openlibrary.org/subjects/investigación"
+        },
+        {
+          "name": "Ciencia",
+          "url": "https://openlibrary.org/subjects/ciencia"
+        },
+        {
+          "name": "Filosofía de la ciencia",
+          "url": "https://openlibrary.org/subjects/filosofía_de_la_ciencia"
+        },
+        {
+          "name": "Science [MESH]",
+          "url": "https://openlibrary.org/subjects/science_[mesh]"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "A scientist, whether theorist or experimenter, puts forward statements, or systems of statements, and tests them step by step.",
+          "comment": "",
+          "first_sentence": true
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/266858-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/266858-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/266858-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780415278447"
+  },
+  "timestamp": 1767726681432,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

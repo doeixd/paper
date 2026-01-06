@@ -1,0 +1,318 @@
+{
+  "key": "doi-10.1111_j.1746-8361.1989.tb00933.x",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          29
+        ]
+      ],
+      "date-time": "2025-12-29T18:48:51Z",
+      "timestamp": 1767034131736,
+      "version": "build-2065373602"
+    },
+    "reference-count": 29,
+    "publisher": "Verein philosophie.ch",
+    "issue": "1/2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2015-09-01T00:00:00Z",
+          "timestamp": 1441065600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 9739,
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
+    },
+    "DOI": "10.1111/j.1746-8361.1989.tb00933.x",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2007,
+          5,
+          31
+        ]
+      ],
+      "date-time": "2007-05-31T07:35:29Z",
+      "timestamp": 1180596929000
+    },
+    "page": "99-124",
+    "source": "Crossref",
+    "is-referenced-by-count": 556,
+    "title": [
+      "Structural Realism: The Best of Both Worlds?"
+    ],
+    "prefix": "10.48106",
+    "volume": "43",
+    "author": [
+      {
+        "given": "John",
+        "family": "Worrall",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "27938",
+    "reference": [
+      {
+        "key": "b1_82",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Boyd, [1973 ]: ?Realism, Underdetermination and a Causal Theory of Evidence ?, Nous, March 1973.",
+        "DOI": "10.2307/2216179"
+      },
+      {
+        "key": "b2_83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "R. Boyd, and Leplin , [1984 ]: ?The Current Status of Scientific Realism? in[1984], pp.41 -82 .",
+        "DOI": "10.1525/9780520337442-004"
+      },
+      {
+        "key": "b3_84",
+        "unstructured": "P. Duhem, [1906 ]: The Aim and Structure of Physical Theory. (Page references to the Atheneum Press reprint)."
+      },
+      {
+        "key": "b4_85",
+        "doi-asserted-by": "crossref",
+        "unstructured": "A. Fine, and Leplin , [1984 ]: ?The Natural Ontologlcal Attitude? in[1984], pp.83 -107 .",
+        "DOI": "10.1525/9780520337442-005"
+      },
+      {
+        "key": "b5_86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/289080"
+      },
+      {
+        "key": "b6_87",
+        "volume": "48",
+        "author": "Laudan L.",
+        "year": "1982",
+        "journal-title": "Philosophy of Science"
+      },
+      {
+        "key": "b7_88",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1525/9780520337442",
+        "volume-title": "Scientific Realism",
+        "author": "Leplin J.",
+        "year": "1984"
+      },
+      {
+        "volume-title": "Minnesota Studies in the Philosophy of Science IV",
+        "year": "1970",
+        "author": "Maxwell G.",
+        "key": "b8_89"
+      },
+      {
+        "key": "b9_90",
+        "first-page": "3",
+        "volume-title": "The Nature and Function of Scientific Theories",
+        "author": "Maxwell G.",
+        "year": "1970"
+      },
+      {
+        "key": "b10_91",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. Mcmullin, and Leplin , [1984 ]: ?A Case for Scientific Realism? in [1984].",
+        "DOI": "10.1525/9780520337442-003"
+      },
+      {
+        "key": "b11_92",
+        "unstructured": "A. Musgrave, [1988 ]: ?The Ultimate Argument for Scientific Realism?, forthcoming."
+      },
+      {
+        "key": "b12_93",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.4324/9780203317211",
+        "volume-title": "The Rationality of Science",
+        "author": "Newtonsmith W.",
+        "year": "1981"
+      },
+      {
+        "key": "b13_94",
+        "unstructured": "I. Niiniluoto, [1984 ]: Truthlikeness. Reidel."
+      },
+      {
+        "key": "b14_95",
+        "unstructured": "G. Oddie, [1984 ]: Likeness to Truth. Reidel."
+      },
+      {
+        "key": "b15_96",
+        "unstructured": "H. Poincare, [1905 ]: Science and Hypothesis. (Page references to the Dover reprint of the first English translation of 1905)."
+      },
+      {
+        "key": "b16_97",
+        "unstructured": "H. Putnam, [1978 ]: Meaning and the Moral Sciences. RKP."
+      },
+      {
+        "key": "b17_98",
+        "unstructured": "W.V.O. Quine, [1953 ]: ?Two Dogmas of Empiricism ? inFrom a Logical Point of View. Harvard."
+      },
+      {
+        "key": "b18_99",
+        "doi-asserted-by": "crossref",
+        "unstructured": "B.vanFraassen, [1980 ]: The Scientific Image. Oxford.",
+        "DOI": "10.1093/0198244274.001.0001"
+      },
+      {
+        "key": "b19_100",
+        "unstructured": "E.T. Whittaker, [1951 ]: History of Theories of Aether and Electricity . The Classical Theories. Nelson."
+      },
+      {
+        "key": "b20_101",
+        "unstructured": "J. Worrall, I. Niiniluoto, and R. Tuomela , [1979 : ?Is the Empirical Content of a Theory Dependent on its Rivals ?? in: The Logic and Epistemology of Scientific Change. Acta Philosophica Fennica."
+      },
+      {
+        "key": "b21_102",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2307/2219324"
+      },
+      {
+        "key": "b22_103",
+        "volume": "34",
+        "author": "Worrall J.",
+        "year": "1983",
+        "journal-title": "British Journal for the Philosophy of Science"
+      },
+      {
+        "volume-title": "Change and Progress in Modern Science",
+        "year": "1985",
+        "author": "Worrall J.",
+        "key": "b23_104"
+      },
+      {
+        "key": "b24_105",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.2307/2220136",
+        "volume": "38",
+        "author": "Worrall J.",
+        "year": "1988",
+        "journal-title": "Philosophical Quarterly"
+      },
+      {
+        "key": "b25_106",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/bjps/39.2.263",
+        "volume": "39",
+        "author": "Worrall J.",
+        "year": "1988",
+        "journal-title": "British Journal for the Philosophy of Science"
+      },
+      {
+        "key": "b26_107",
+        "unstructured": "J. Worrall, D. Gooding, S. Shaffer, and T. Pinch , [1989 ]: ?Fresnel, Poisson and the White Spot: the Role of Successful Prediction in Theory-Acceptance ? in: The Uses of Experiment-Studies of Experimentation in Natural Science. Cambridge."
+      },
+      {
+        "key": "b27_108",
+        "unstructured": "J. Worrall, and C. Wade Savage , [1989 ]: ?Scientific Revolutions and Scientific Rationality: the Case of the \"Elderly Hold-Out\" ? in: The Justification, Discovery and Evolution of Scientific Theories. Minnesota. Forthcoming."
+      },
+      {
+        "key": "b28_109",
+        "first-page": "147",
+        "volume": "4",
+        "author": "Zahar E.G.",
+        "year": "1983",
+        "journal-title": "Fundamenta Scientiae"
+      },
+      {
+        "key": "b29_110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bjps/34.3.243"
+      }
+    ],
+    "container-title": [
+      "Dialectica"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1111%2Fj.1746-8361.1989.tb00933.x",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2025-10-08T08:36:36Z",
+      "timestamp": 1759912596000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.philosophie.ch/worrall-1989"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
+    },
+    "references-count": 29,
+    "journal-issue": {
+      "issue": "1/2",
+      "published-print": {
+        "date-parts": [
+          [
+            1989
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1111/j.1746-8361.1989.tb00933.x",
+    "relation": {},
+    "ISSN": [
+      "0012-2017"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0012-2017"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767726712067,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

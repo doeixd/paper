@@ -1,0 +1,87 @@
+{
+  "key": "isbn-9780262540537",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL9506759M/The_intentional_stance",
+      "key": "/books/OL9506759M",
+      "title": "The intentional stance",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL342699A/Daniel_C._Dennett",
+          "name": "Daniel C. Dennett"
+        }
+      ],
+      "number_of_pages": 400,
+      "weight": "1.5 pounds",
+      "identifiers": {
+        "goodreads": [
+          "2073"
+        ],
+        "librarything": [
+          "4108914"
+        ],
+        "isbn_10": [
+          "0262540533"
+        ],
+        "isbn_13": [
+          "9780262540537"
+        ],
+        "openlibrary": [
+          "OL9506759M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "B105.I56D46 1989"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "The MIT Press"
+        }
+      ],
+      "publish_date": "March 6, 1989",
+      "subjects": [
+        {
+          "name": "Intentionality (Philosophy)",
+          "url": "https://openlibrary.org/subjects/intentionality_(philosophy)"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Intention",
+          "url": "https://openlibrary.org/subjects/intention"
+        },
+        {
+          "name": "Thinking",
+          "url": "https://openlibrary.org/subjects/thinking"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "Talking about the mind, for many people, is rather like talking about sex: slightly embarrassing, undignified, maybe even disreputable.",
+          "comment": "",
+          "first_sentence": true
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/intentionalstanc00dani",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/151371-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/151371-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/151371-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780262540537"
+  },
+  "timestamp": 1767726502074,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

@@ -1,0 +1,82 @@
+{
+  "key": "isbn-9780199246311",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL7403628M/Knowledge_and_Its_Place_in_Nature",
+      "key": "/books/OL7403628M",
+      "title": "Knowledge and Its Place in Nature",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL837428A/Hilary_Kornblith",
+          "name": "Hilary Kornblith"
+        }
+      ],
+      "number_of_pages": 200,
+      "identifiers": {
+        "librarything": [
+          "1325125"
+        ],
+        "goodreads": [
+          "5347970"
+        ],
+        "isbn_10": [
+          "0199246319"
+        ],
+        "isbn_13": [
+          "9780199246311"
+        ],
+        "lccn": [
+          "2002020000"
+        ],
+        "oclc": [
+          "48943501"
+        ],
+        "openlibrary": [
+          "OL7403628M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD161.K62 2002",
+          "BD161 .K62 2002"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press, USA"
+        }
+      ],
+      "publish_date": "September 2002",
+      "subjects": [
+        {
+          "name": "Theory of Knowledge",
+          "url": "https://openlibrary.org/subjects/theory_of_knowledge"
+        },
+        {
+          "name": "Naturalism",
+          "url": "https://openlibrary.org/subjects/naturalism"
+        },
+        {
+          "name": "Knowledge, theory of",
+          "url": "https://openlibrary.org/subjects/knowledge,_theory_of"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "NOT so long ago, philosophy was widely understood to consist in an investigation of our concepts.",
+          "comment": "",
+          "first_sentence": true
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/1138591-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/1138591-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/1138591-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780199246311"
+  },
+  "timestamp": 1767726630004,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

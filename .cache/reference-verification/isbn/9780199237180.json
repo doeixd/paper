@@ -1,0 +1,54 @@
+{
+  "key": "isbn-9780199237180",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL25960200M/Introduction_To_Category_Theory",
+      "key": "/books/OL25960200M",
+      "title": "Introduction To Category Theory",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL1432473A/Steve_Awodey",
+          "name": "Steve Awodey"
+        }
+      ],
+      "number_of_pages": 311,
+      "identifiers": {
+        "isbn_13": [
+          "9780199237180"
+        ],
+        "openlibrary": [
+          "OL25960200M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "QA169"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press, USA"
+        },
+        {
+          "name": "Oxford University Press"
+        }
+      ],
+      "publish_date": "2010",
+      "subjects": [
+        {
+          "name": "Categories (mathematics)",
+          "url": "https://openlibrary.org/subjects/categories_(mathematics)"
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/7464311-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/7464311-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/7464311-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780199237180"
+  },
+  "timestamp": 1767725694952,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

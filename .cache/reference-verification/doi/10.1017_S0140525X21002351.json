@@ -1,0 +1,1055 @@
+{
+  "key": "doi-10.1017_S0140525X21002351",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          5
+        ]
+      ],
+      "date-time": "2026-01-05T22:30:46Z",
+      "timestamp": 1767652246358,
+      "version": "3.37.3"
+    },
+    "reference-count": 149,
+    "publisher": "Cambridge University Press (CUP)",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2021,
+              10,
+              22
+            ]
+          ],
+          "date-time": "2021-10-22T00:00:00Z",
+          "timestamp": 1634860800000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "https://www.cambridge.org/core/terms"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001663",
+        "name": "Volkswagen Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "87105"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "87105"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001663",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001230",
+        "name": "Macquarie University",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001230",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "cambridge.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Behav Brain Sci"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>The free energy principle, an influential framework in computational neuroscience and theoretical neurobiology, starts from the assumption that living systems ensure adaptive exchanges with their environment by minimizing the objective function of variational free energy. Following this premise, it claims to deliver a promising integration of the life sciences. In recent work, Markov blankets, one of the central constructs of the free energy principle, have been applied to resolve debates central to philosophy (such as demarcating the boundaries of the mind). The aim of this paper is twofold. First, we trace the development of Markov blankets starting from their standard application in Bayesian networks, via variational inference, to their use in the literature on active inference. We then identify a persistent confusion in the literature between the formal use of Markov blankets as an epistemic tool for Bayesian inference, and their novel metaphysical use in the free energy framework to demarcate the physical boundary between an agent and its environment. Consequently, we propose to distinguish between “Pearl blankets” to refer to the original epistemic use of Markov blankets and “Friston blankets” to refer to the new metaphysical construct. Second, we use this distinction to critically assess claims resting on the application of Markov blankets to philosophical problems. We suggest that this literature would do well in differentiating between two different research programmes: “inference with a model” and “inference within a model.” Only the latter is capable of doing metaphysical work with Markov blankets, but requires additional philosophical premises and cannot be justified by an appeal to the success of the mathematical framework alone.</jats:p>",
+    "DOI": "10.1017/s0140525x21002351",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2021-10-22T02:58:59Z",
+      "timestamp": 1634871539000
+    },
+    "update-policy": "https://doi.org/10.1017/policypage",
+    "source": "Crossref",
+    "is-referenced-by-count": 65,
+    "title": [
+      "The Emperor's New Markov Blankets"
+    ],
+    "prefix": "10.1017",
+    "volume": "45",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-5675-3376",
+        "authenticated-orcid": false,
+        "given": "Jelle",
+        "family": "Bruineberg",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6859-6179",
+        "authenticated-orcid": false,
+        "given": "Krzysztof",
+        "family": "Dołęga",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3497-2508",
+        "authenticated-orcid": false,
+        "given": "Joe",
+        "family": "Dewhurst",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6086-4711",
+        "authenticated-orcid": false,
+        "given": "Manuel",
+        "family": "Baltieri",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "56",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "S0140525X21002351_ref133",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tics.2020.02.006"
+      },
+      {
+        "key": "S0140525X21002351_ref139",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1059712320918678"
+      },
+      {
+        "key": "S0140525X21002351_ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.concog.2021.103117"
+      },
+      {
+        "key": "S0140525X21002351_ref43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.31234/osf.io/d9v8f"
+      },
+      {
+        "volume-title": "Probabilistic reasoning in intelligent systems: Networks of plausible inference",
+        "year": "1988",
+        "author": "Pearl",
+        "key": "S0140525X21002351_ref113"
+      },
+      {
+        "key": "S0140525X21002351_ref143",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/philosophies6010018"
+      },
+      {
+        "key": "S0140525X21002351_ref73",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fnbot.2020.00005"
+      },
+      {
+        "key": "S0140525X21002351_ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1059712309343819"
+      },
+      {
+        "key": "S0140525X21002351_ref88",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-019-02370-y"
+      },
+      {
+        "key": "S0140525X21002351_ref93",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-016-1250-6"
+      },
+      {
+        "key": "S0140525X21002351_ref119",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/e22080889"
+      },
+      {
+        "key": "S0140525X21002351_ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bjps/axr043"
+      },
+      {
+        "key": "S0140525X21002351_ref71",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1467-9280.2006.01780.x"
+      },
+      {
+        "key": "S0140525X21002351_ref37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-018-01932-w"
+      },
+      {
+        "key": "S0140525X21002351_ref65",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/17588928.2015.1020053"
+      },
+      {
+        "key": "S0140525X21002351_ref42",
+        "first-page": "1",
+        "volume-title": "Philosophy and predictive processing",
+        "author": "Dewhurst",
+        "year": "2017"
+      },
+      {
+        "key": "S0140525X21002351_ref75",
+        "first-page": "3",
+        "volume-title": "Advances in neural information processing systems",
+        "author": "Hinton",
+        "year": "1994"
+      },
+      {
+        "key": "S0140525X21002351_ref5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andrews, M. (2020). The math is not the territory: Navigating the free energy principle. [Preprint]. http://philsci-archive.pitt.edu/18315",
+        "DOI": "10.1007/s10539-021-09807-0"
+      },
+      {
+        "key": "S0140525X21002351_ref102",
+        "first-page": "39",
+        "volume-title": "The philosophy and science of predictive processing",
+        "author": "Menary",
+        "year": "2020"
+      },
+      {
+        "key": "S0140525X21002351_ref116",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tics.2018.01.009"
+      },
+      {
+        "key": "S0140525X21002351_ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-021-03075-x"
+      },
+      {
+        "key": "S0140525X21002351_ref84",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-017-1435-7"
+      },
+      {
+        "key": "S0140525X21002351_ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmp.2015.11.003"
+      },
+      {
+        "key": "S0140525X21002351_ref98",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1364/JOSAA.20.001434"
+      },
+      {
+        "key": "S0140525X21002351_ref76",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neubiorev.2021.02.003"
+      },
+      {
+        "key": "S0140525X21002351_ref58",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/netn_a_00175"
+      },
+      {
+        "volume-title": "Machine learning: A probabilistic perspective",
+        "year": "2012",
+        "author": "Murphy",
+        "key": "S0140525X21002351_ref104"
+      },
+      {
+        "key": "S0140525X21002351_ref123",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.plrev.2017.09.001"
+      },
+      {
+        "key": "S0140525X21002351_ref140",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-021-03084-w"
+      },
+      {
+        "key": "S0140525X21002351_ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/ARTL_a_00125"
+      },
+      {
+        "key": "S0140525X21002351_ref27",
+        "first-page": "181",
+        "article-title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science",
+        "volume": "36",
+        "author": "Clark",
+        "year": "2013",
+        "journal-title": "Behavioral and BrainSciences"
+      },
+      {
+        "key": "S0140525X21002351_ref118",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.plrev.2021.09.001"
+      },
+      {
+        "key": "S0140525X21002351_ref103",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-64919-7_1"
+      },
+      {
+        "key": "S0140525X21002351_ref30",
+        "first-page": "1",
+        "volume-title": "Philosophy and predictive processing: 3. Open MIND",
+        "author": "Clark",
+        "year": "2017"
+      },
+      {
+        "key": "S0140525X21002351_ref47",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/e23020198"
+      },
+      {
+        "key": "S0140525X21002351_ref132",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2009.11.015"
+      },
+      {
+        "key": "S0140525X21002351_ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0140525X19001353"
+      },
+      {
+        "key": "S0140525X21002351_ref40",
+        "unstructured": "Daunizeau, J. (2017). The variational Laplace approach to approximate Bayesian inference. [preprint] arXiv:1703.02089."
+      },
+      {
+        "key": "S0140525X21002351_ref96",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nature02169"
+      },
+      {
+        "key": "S0140525X21002351_ref124",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/4580"
+      },
+      {
+        "key": "S0140525X21002351_ref136",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-1-4419-1452-1_19"
+      },
+      {
+        "key": "S0140525X21002351_ref81",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1023/A:1007665907178"
+      },
+      {
+        "key": "S0140525X21002351_ref137",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1007805"
+      },
+      {
+        "key": "S0140525X21002351_ref130",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-020-02876-w"
+      },
+      {
+        "key": "S0140525X21002351_ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10539-021-09818-x"
+      },
+      {
+        "key": "S0140525X21002351_ref46",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fnhum.2010.00215"
+      },
+      {
+        "key": "S0140525X21002351_ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/su13020726"
+      },
+      {
+        "volume-title": "Pattern recognition and machine learning",
+        "year": "2006",
+        "author": "Bishop",
+        "key": "S0140525X21002351_ref18"
+      },
+      {
+        "key": "S0140525X21002351_ref122",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1177/1059712319862774"
+      },
+      {
+        "key": "S0140525X21002351_ref85",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsif.2020.0370"
+      },
+      {
+        "volume-title": "The Stanford encyclopedia of philosophy (summer 2017 edition)",
+        "year": "2017",
+        "author": "Chakravartty",
+        "key": "S0140525X21002351_ref25"
+      },
+      {
+        "key": "S0140525X21002351_ref131",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2009.03.025"
+      },
+      {
+        "key": "S0140525X21002351_ref144",
+        "doi-asserted-by": "crossref",
+        "first-page": "101",
+        "DOI": "10.1007/978-3-030-15667-1_5",
+        "volume-title": "The value of emotions for knowledge",
+        "author": "Wilkinson",
+        "year": "2019"
+      },
+      {
+        "key": "S0140525X21002351_ref72",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1037/0033-295X.87.1.1"
+      },
+      {
+        "key": "S0140525X21002351_ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fnbot.2018.00045"
+      },
+      {
+        "key": "S0140525X21002351_ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/S0140525X19002723"
+      },
+      {
+        "volume-title": "Statistical field theory",
+        "year": "1988",
+        "author": "Parisi",
+        "key": "S0140525X21002351_ref108"
+      },
+      {
+        "key": "S0140525X21002351_ref142",
+        "first-page": "1",
+        "article-title": "D'ya like DAGs? A survey on structure learning and causal discovery",
+        "author": "Vowels",
+        "year": "2021",
+        "journal-title": "arXiv preprint arXiv"
+      },
+      {
+        "key": "S0140525X21002351_ref50",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1371/journal.pcbi.1000211"
+      },
+      {
+        "key": "S0140525X21002351_ref77",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/acprof:oso/9780199682737.001.0001"
+      },
+      {
+        "key": "S0140525X21002351_ref109",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/e23050606"
+      },
+      {
+        "key": "S0140525X21002351_ref51",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/nrn2787"
+      },
+      {
+        "key": "S0140525X21002351_ref79",
+        "first-page": "1",
+        "volume-title": "Philosophy and predictive processing: 2. Open MIND",
+        "author": "Hohwy",
+        "year": "2017"
+      },
+      {
+        "key": "S0140525X21002351_ref2",
+        "article-title": "How particular is the physics of the free energy principle?",
+        "author": "Aguilera",
+        "year": "2021",
+        "journal-title": "arXiv preprint arXiv"
+      },
+      {
+        "volume-title": "Information theory, inference and learning algorithms",
+        "year": "2003",
+        "author": "MacKay",
+        "key": "S0140525X21002351_ref100"
+      },
+      {
+        "key": "S0140525X21002351_ref148",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s41467-020-18332-9"
+      },
+      {
+        "key": "S0140525X21002351_ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fpsyt.2013.00047"
+      },
+      {
+        "key": "S0140525X21002351_ref63",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2006.08.035"
+      },
+      {
+        "key": "S0140525X21002351_ref97",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.plrev.2019.06.001"
+      },
+      {
+        "key": "S0140525X21002351_ref67",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/e22050516"
+      },
+      {
+        "key": "S0140525X21002351_ref56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/e23081076"
+      },
+      {
+        "key": "S0140525X21002351_ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspa.2021.0518"
+      },
+      {
+        "key": "S0140525X21002351_ref45",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3389/fnhum.2021.613789"
+      },
+      {
+        "key": "S0140525X21002351_ref114",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511803161"
+      },
+      {
+        "key": "S0140525X21002351_ref6",
+        "first-page": "9",
+        "volume-title": "Proc. of the 9th Int. Workshop on artificial intelligence and statistics, 2003",
+        "author": "Attias",
+        "year": "2003"
+      },
+      {
+        "key": "S0140525X21002351_ref134",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tics.2020.06.001"
+      },
+      {
+        "key": "S0140525X21002351_ref29",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/sjp.12120"
+      },
+      {
+        "key": "S0140525X21002351_ref105",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1364-6613(00)01699-5"
+      },
+      {
+        "key": "S0140525X21002351_ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-016-1239-1"
+      },
+      {
+        "key": "S0140525X21002351_ref95",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1017/CBO9780511984037"
+      },
+      {
+        "key": "S0140525X21002351_ref107",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jtbi.2019.110089"
+      },
+      {
+        "key": "S0140525X21002351_ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/1064546041255539"
+      },
+      {
+        "key": "S0140525X21002351_ref125",
+        "first-page": "187",
+        "volume-title": "Active Inference. IWAI 2020. Communications in Computer and Information Science",
+        "volume": "1326",
+        "author": "Rosas",
+        "year": "2020"
+      },
+      {
+        "key": "S0140525X21002351_ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/artl_a_00307"
+      },
+      {
+        "key": "S0140525X21002351_ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/01621459.2017.1285773"
+      },
+      {
+        "key": "S0140525X21002351_ref8",
+        "first-page": "121",
+        "volume-title": "Artificial life conference proceedings",
+        "author": "Baltieri",
+        "year": "2020"
+      },
+      {
+        "key": "S0140525X21002351_ref55",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1155/2012/937860"
+      },
+      {
+        "key": "S0140525X21002351_ref44",
+        "first-page": "1",
+        "volume-title": "Philosophy and predictive processing",
+        "author": "Dołęga",
+        "year": "2017"
+      },
+      {
+        "key": "S0140525X21002351_ref64",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/NETN_a_00018"
+      },
+      {
+        "key": "S0140525X21002351_ref61",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jphysparis.2006.10.001"
+      },
+      {
+        "key": "S0140525X21002351_ref86",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-016-1100-6"
+      },
+      {
+        "key": "S0140525X21002351_ref83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Khezri, D. B. (2021). Free energy governance-sensing, sensemaking, and strategic renewal-surprise-minimization and firm survival. Doctoral dissertation, Universität St. Gallen.",
+        "DOI": "10.1007/978-3-030-95473-4_2"
+      },
+      {
+        "key": "S0140525X21002351_ref99",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/cogs.12867"
+      },
+      {
+        "key": "S0140525X21002351_ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/analys/58.1.7"
+      },
+      {
+        "key": "S0140525X21002351_ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/00048402.2019.1602661"
+      },
+      {
+        "key": "S0140525X21002351_ref112",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1523/JNEUROSCI.2459-18.2019"
+      },
+      {
+        "key": "S0140525X21002351_ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s13164-020-00481-x"
+      },
+      {
+        "key": "S0140525X21002351_ref60",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S1053-8119(03)00202-7"
+      },
+      {
+        "key": "S0140525X21002351_ref117",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10838-019-09472-8"
+      },
+      {
+        "key": "S0140525X21002351_ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-016-1288-5"
+      },
+      {
+        "key": "S0140525X21002351_ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmp.2017.09.004"
+      },
+      {
+        "key": "S0140525X21002351_ref127",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco_a_01357"
+      },
+      {
+        "key": "S0140525X21002351_ref146",
+        "first-page": "2459",
+        "article-title": "Is the brain an organ for free energy minimisation?",
+        "volume": "195",
+        "author": "Williams",
+        "year": "2021",
+        "journal-title": "Philosophical Studies"
+      },
+      {
+        "key": "S0140525X21002351_ref91",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10539-021-09780-8"
+      },
+      {
+        "key": "S0140525X21002351_ref74",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-030-00075-2_7"
+      },
+      {
+        "key": "S0140525X21002351_ref94",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tins.2004.10.007"
+      },
+      {
+        "key": "S0140525X21002351_ref110",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsta.2019.0159"
+      },
+      {
+        "key": "S0140525X21002351_ref128",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/e23020238"
+      },
+      {
+        "key": "S0140525X21002351_ref78",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/nous.12062"
+      },
+      {
+        "key": "S0140525X21002351_ref53",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsif.2013.0475"
+      },
+      {
+        "volume-title": "Surfing uncertainty: Prediction, action, and the embodied mind",
+        "year": "2015a",
+        "author": "Clark",
+        "key": "S0140525X21002351_ref28"
+      },
+      {
+        "key": "S0140525X21002351_ref10",
+        "unstructured": "Beal, M. J. (2003). Variational algorithms for approximate Bayesian inference. Doctoral dissertation, UCL (University College London)."
+      },
+      {
+        "key": "S0140525X21002351_ref92",
+        "unstructured": "Kiverstein, J. , Kirchhoff, M. , & Thacker, M. (2021). Why pain experience is not a controlled hallucination of the body. [preprint]. http://philsci-archive.pitt.edu/18770/"
+      },
+      {
+        "key": "S0140525X21002351_ref68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/scientificamerican1070-120"
+      },
+      {
+        "key": "S0140525X21002351_ref66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neuroimage.2008.02.054"
+      },
+      {
+        "key": "S0140525X21002351_ref111",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/e23091105"
+      },
+      {
+        "key": "S0140525X21002351_ref80",
+        "first-page": "1259",
+        "article-title": "Sharpening Occams razor on a Bayesian strop",
+        "volume": "23",
+        "author": "Jefferys",
+        "year": "1991",
+        "journal-title": "Bulletin of the Astronomical Society"
+      },
+      {
+        "volume-title": "Autopoiesis and cognition: The realization of the living",
+        "year": "1972",
+        "author": "Maturana",
+        "key": "S0140525X21002351_ref101"
+      },
+      {
+        "key": "S0140525X21002351_ref121",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-019-02115-x"
+      },
+      {
+        "key": "S0140525X21002351_ref126",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsif.2020.0503"
+      },
+      {
+        "key": "S0140525X21002351_ref135",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1126/science.1192788"
+      },
+      {
+        "key": "S0140525X21002351_ref39",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jmp.2020.102447"
+      },
+      {
+        "volume-title": "Statistical parametric mapping: The analysis of functional brain images",
+        "year": "2011",
+        "author": "Penny",
+        "key": "S0140525X21002351_ref115"
+      },
+      {
+        "key": "S0140525X21002351_ref70",
+        "doi-asserted-by": "crossref",
+        "first-page": "181",
+        "DOI": "10.1098/rstb.1980.0090",
+        "article-title": "Perceptions as hypotheses",
+        "volume": "290",
+        "author": "Gregory",
+        "year": "1980",
+        "journal-title": "Philosophical Transactions of the Royal Society of London. B, Biological Sciences"
+      },
+      {
+        "key": "S0140525X21002351_ref129",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tics.2020.05.011"
+      },
+      {
+        "key": "S0140525X21002351_ref87",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4324/9781315150420"
+      },
+      {
+        "key": "S0140525X21002351_ref141",
+        "first-page": "1",
+        "article-title": "Thinking through other minds: A variational approach to cognition and culture",
+        "volume": "43",
+        "author": "Veissière",
+        "year": "2020",
+        "journal-title": "Behavioral and Brain Sciences"
+      },
+      {
+        "key": "S0140525X21002351_ref145",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11023-017-9441-6"
+      },
+      {
+        "key": "S0140525X21002351_ref62",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsif.2014.1383"
+      },
+      {
+        "key": "S0140525X21002351_ref82",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10994-012-5278-7"
+      },
+      {
+        "key": "S0140525X21002351_ref4",
+        "first-page": "1",
+        "volume-title": "Philosophy and predictive processing",
+        "volume": "4",
+        "author": "Anderson",
+        "year": "2017"
+      },
+      {
+        "key": "S0140525X21002351_ref15",
+        "unstructured": "Biehl, M. (2017). Formal approaches to a definition of agents. Doctoral dissertation, University of Hertfordshire."
+      },
+      {
+        "key": "S0140525X21002351_ref48",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JPROC.2014.2306251"
+      },
+      {
+        "key": "S0140525X21002351_ref149",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TPAMI.2018.2889774"
+      },
+      {
+        "key": "S0140525X21002351_ref41",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.1995.7.5.889"
+      },
+      {
+        "key": "S0140525X21002351_ref89",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rsif.2017.0792"
+      },
+      {
+        "key": "S0140525X21002351_ref34",
+        "article-title": "Being realist about Bayes, and the predictive processing theory of mind",
+        "volume": "72",
+        "author": "Colombo",
+        "year": "2018",
+        "journal-title": "The British Journal for Philosophy of Science"
+      },
+      {
+        "key": "S0140525X21002351_ref138",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.tics.2020.05.012"
+      },
+      {
+        "key": "S0140525X21002351_ref106",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/neco.2008.08-07-592"
+      },
+      {
+        "volume-title": "Making things happen",
+        "year": "2003",
+        "author": "Woodward",
+        "key": "S0140525X21002351_ref147"
+      },
+      {
+        "key": "S0140525X21002351_ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/e23030293"
+      },
+      {
+        "key": "S0140525X21002351_ref69",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s11229-015-0762-9"
+      },
+      {
+        "key": "S0140525X21002351_ref54",
+        "unstructured": "Friston, K. J. (2019). A free energy principle for a particular physics. [preprint] arXiv:1906.10184."
+      },
+      {
+        "key": "S0140525X21002351_ref57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s00422-010-0364-z"
+      },
+      {
+        "key": "S0140525X21002351_ref59",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1162/NECO_a_00912"
+      },
+      {
+        "key": "S0140525X21002351_ref49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rstb.2005.1622"
+      },
+      {
+        "key": "S0140525X21002351_ref90",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1080/13869795.2018.1477983"
+      },
+      {
+        "key": "S0140525X21002351_ref120",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.neubiorev.2020.11.024"
+      },
+      {
+        "key": "S0140525X21002351_ref52",
+        "first-page": "2100",
+        "article-title": "A free energy principle for biological systems",
+        "volume": "2012",
+        "author": "Friston",
+        "year": "2012",
+        "journal-title": "Entropy"
+      }
+    ],
+    "container-title": [
+      "Behavioral and Brain Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0140525X21002351",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2023-01-13T06:08:47Z",
+      "timestamp": 1673590127000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cambridge.org/core/product/identifier/S0140525X21002351/type/journal_article"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          22
+        ]
+      ]
+    },
+    "references-count": 149,
+    "alternative-id": [
+      "S0140525X21002351"
+    ],
+    "URL": "https://doi.org/10.1017/s0140525x21002351",
+    "relation": {},
+    "ISSN": [
+      "0140-525X",
+      "1469-1825"
+    ],
+    "issn-type": [
+      {
+        "type": "print",
+        "value": "0140-525X"
+      },
+      {
+        "type": "electronic",
+        "value": "1469-1825"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          22
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Copyright © The Author(s), 2021. Published by Cambridge University Press",
+        "name": "copyright",
+        "label": "Copyright",
+        "group": {
+          "name": "copyright_and_licensing",
+          "label": "Copyright and Licensing"
+        }
+      }
+    ],
+    "article-number": "e183"
+  },
+  "timestamp": 1767726235307,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

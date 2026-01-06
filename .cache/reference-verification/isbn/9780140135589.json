@@ -1,0 +1,115 @@
+{
+  "key": "isbn-9780140135589",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL7348408M/Ethics",
+      "key": "/books/OL7348408M",
+      "title": "Ethics",
+      "subtitle": "Inventing Right and Wrong",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL1237176A/J._L._Mackie",
+          "name": "J. L. Mackie"
+        }
+      ],
+      "number_of_pages": 256,
+      "identifiers": {
+        "goodreads": [
+          "692765"
+        ],
+        "librarything": [
+          "88967"
+        ],
+        "isbn_10": [
+          "0140135588"
+        ],
+        "isbn_13": [
+          "9780140135589"
+        ],
+        "oclc": [
+          "773581530",
+          "24729622"
+        ],
+        "openlibrary": [
+          "OL7348408M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BJ37 .M24 1990eb"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Penguin (Non-Classics)"
+        }
+      ],
+      "publish_date": "May 17, 1991",
+      "subjects": [
+        {
+          "name": "Ethics",
+          "url": "https://openlibrary.org/subjects/ethics"
+        },
+        {
+          "name": "E  tica",
+          "url": "https://openlibrary.org/subjects/e__tica"
+        },
+        {
+          "name": "Ètica",
+          "url": "https://openlibrary.org/subjects/ètica"
+        },
+        {
+          "name": "Morale",
+          "url": "https://openlibrary.org/subjects/morale"
+        },
+        {
+          "name": "Rectitude",
+          "url": "https://openlibrary.org/subjects/rectitude"
+        },
+        {
+          "name": "Ethiek",
+          "url": "https://openlibrary.org/subjects/ethiek"
+        },
+        {
+          "name": "Waarde-ethiek",
+          "url": "https://openlibrary.org/subjects/waarde-ethiek"
+        },
+        {
+          "name": "Goed en kwaad",
+          "url": "https://openlibrary.org/subjects/goed_en_kwaad"
+        },
+        {
+          "name": "Ethik",
+          "url": "https://openlibrary.org/subjects/ethik"
+        },
+        {
+          "name": "Philosophie",
+          "url": "https://openlibrary.org/subjects/philosophie"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "To the south of the Bering Straight, the smooth ocean floor is covered by shallow water.",
+          "comment": "",
+          "first_sentence": true
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/ethicsinventingr00mack_169",
+          "availability": "noview",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/95307-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/95307-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/95307-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780140135589"
+  },
+  "timestamp": 1767726658653,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

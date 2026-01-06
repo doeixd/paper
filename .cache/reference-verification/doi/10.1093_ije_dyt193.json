@@ -1,0 +1,166 @@
+{
+  "key": "doi-10.1093_ije_dyt193",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          31
+        ]
+      ],
+      "date-time": "2025-12-31T20:04:33Z",
+      "timestamp": 1767211473188
+    },
+    "reference-count": 0,
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "6",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "International Journal of Epidemiology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          12,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1093/ije/dyt193",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          1,
+          10
+        ]
+      ],
+      "date-time": "2014-01-10T14:22:25Z",
+      "timestamp": 1389363745000
+    },
+    "page": "1543-1552",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "title": [
+      "Mode of Communication of Cholera. By John Snow, MD: Second Edition - London, 1855, pp 162."
+    ],
+    "prefix": "10.1093",
+    "volume": "42",
+    "author": [
+      {
+        "given": "E.",
+        "family": "Parkes",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "286",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          1,
+          10
+        ]
+      ]
+    },
+    "container-title": [
+      "International Journal of Epidemiology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://academic.oup.com/ije/article-pdf/42/6/1543/2215989/dyt193.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          23
+        ]
+      ],
+      "date-time": "2017-08-23T07:59:19Z",
+      "timestamp": 1503475159000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://academic.oup.com/ije/article-lookup/doi/10.1093/ije/dyt193"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          12,
+          1
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "6",
+      "published-online": {
+        "date-parts": [
+          [
+            2014,
+            1,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            12,
+            1
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1093/ije/dyt193",
+    "relation": {},
+    "ISSN": [
+      "0300-5771",
+      "1464-3685"
+    ],
+    "issn-type": [
+      {
+        "value": "0300-5771",
+        "type": "print"
+      },
+      {
+        "value": "1464-3685",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2013,
+          12,
+          1
+        ]
+      ]
+    }
+  },
+  "timestamp": 1767726692789,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

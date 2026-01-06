@@ -1,0 +1,907 @@
+{
+  "key": "doi-10.3389_fpsyg.2018.02714",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          31
+        ]
+      ],
+      "date-time": "2025-12-31T22:24:15Z",
+      "timestamp": 1767219855955,
+      "version": "3.41.2"
+    },
+    "reference-count": 86,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              1,
+              30
+            ]
+          ],
+          "date-time": "2019-01-30T00:00:00Z",
+          "timestamp": 1548806400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Psychol."
+    ],
+    "DOI": "10.3389/fpsyg.2018.02714",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          30
+        ]
+      ],
+      "date-time": "2019-01-30T06:44:21Z",
+      "timestamp": 1548830661000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 137,
+    "title": [
+      "The Hard Problem of Consciousness and the Free Energy Principle"
+    ],
+    "prefix": "10.3389",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Mark",
+        "family": "Solms",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "first-page": "462",
+        "DOI": "10.1037/0003-066X.54.7.462",
+        "article-title": "The unbearable automaticity of being",
+        "volume": "54",
+        "author": "Bargh",
+        "year": "1999",
+        "journal-title": "Am. Psychol."
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1016/0149-7634(95)00033-B",
+        "article-title": "Food reward: brain substrates of wanting and liking",
+        "volume": "20",
+        "author": "Berridge",
+        "year": "1996",
+        "journal-title": "Neurosci. Biobehav. Rev"
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "65",
+        "DOI": "10.1016/j.coph.2008.12.014",
+        "article-title": "Dissecting components of reward: ‘liking’, ‘wanting’, and learning",
+        "volume": "9",
+        "author": "Berridge",
+        "year": "2009",
+        "journal-title": "Curr. Opin. Pharmacol"
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "253",
+        "DOI": "10.1016/j.parkreldis.2007.04.005",
+        "article-title": "Acute severe depression induced by intraoperative stimulation of the substantia nigra: a case report",
+        "volume": "14",
+        "author": "Blomstedt",
+        "year": "2007",
+        "journal-title": "Parkinsonism Relat. Disord"
+      },
+      {
+        "volume-title": "Psychology From an Empirical Standpoint",
+        "year": "1874",
+        "author": "Brentano",
+        "key": "B5"
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "1265",
+        "DOI": "10.1093/brain/awq010",
+        "article-title": "The default mode, ego functions and free energy: a neurobiological account of Freudian ideas",
+        "volume": "133",
+        "author": "Carhart-Harris",
+        "year": "2010",
+        "journal-title": "Brain"
+      },
+      {
+        "key": "B7",
+        "first-page": "200",
+        "article-title": "Facing up to the problem of consciousness",
+        "volume": "2",
+        "author": "Chalmers",
+        "year": "1995",
+        "journal-title": "J. Consciousness Stud."
+      },
+      {
+        "volume-title": "The Conscious Mind: In Search of a Fundamental Theory",
+        "year": "1996",
+        "author": "Chalmers",
+        "key": "B8"
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/acprof:oso/9780190217013.001.0001",
+        "volume-title": "Surfing Uncertainty",
+        "author": "Clark",
+        "year": "2016"
+      },
+      {
+        "key": "B10",
+        "doi-asserted-by": "publisher",
+        "first-page": "59",
+        "DOI": "10.1038/nrn2555",
+        "article-title": "How do you feel – now? The anterior insula and human awareness",
+        "volume": "10",
+        "author": "Craig",
+        "year": "2009",
+        "journal-title": "Nat. Rev. Neurosci."
+      },
+      {
+        "volume-title": "The Astonishing Hypothesis",
+        "year": "1994",
+        "author": "Crick",
+        "key": "B11"
+      },
+      {
+        "volume-title": "Descartes' Error",
+        "year": "1994",
+        "author": "Damasio",
+        "key": "B12"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "first-page": "38",
+        "DOI": "10.1080/15294145.1999.10773242",
+        "article-title": "Commentary to Panksepp, emotions as viewed by psychoanalysis and neuroscience",
+        "volume": "1",
+        "author": "Damasio",
+        "year": "1999",
+        "journal-title": "Neuropsychoanalogy"
+      },
+      {
+        "volume-title": "Self Comes to Mind",
+        "year": "2010",
+        "author": "Damasio",
+        "key": "B14"
+      },
+      {
+        "volume-title": "The Strange Order of Things",
+        "year": "2018",
+        "author": "Damasio",
+        "key": "B15"
+      },
+      {
+        "key": "B16",
+        "doi-asserted-by": "publisher",
+        "first-page": "143",
+        "DOI": "10.1038/nrn3403",
+        "article-title": "The nature of feelings: evolutionary and neurobiological origins",
+        "volume": "14",
+        "author": "Damasio",
+        "year": "2013",
+        "journal-title": "Nat. Rev. Neurosci."
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "833",
+        "DOI": "10.1093/cercor/bhs077",
+        "article-title": "Persistence of feeling and sentience after bilateral damage of the insula",
+        "volume": "23",
+        "author": "Damasio",
+        "year": "2012",
+        "journal-title": "Cereb. Cortex"
+      },
+      {
+        "volume-title": "Letter to Hallmann, 1842. Jugendbriefe von Emil Du Bois-Reymond an Eduard Hallmann",
+        "year": "1918",
+        "author": "Du Bois-Reymond",
+        "key": "B18"
+      },
+      {
+        "volume-title": "Beyond Evolutionary Psychology: How and Why Neuropsychological Modules Arise",
+        "year": "2018",
+        "author": "Ellis",
+        "key": "B19"
+      },
+      {
+        "key": "B20",
+        "first-page": "11",
+        "volume-title": "Charcot, Standard Edn",
+        "author": "Freud",
+        "year": "1893"
+      },
+      {
+        "key": "B21",
+        "first-page": "45",
+        "volume-title": "The Neuro-Psychoses of Defence, Standard Edn",
+        "author": "Freud",
+        "year": "1894"
+      },
+      {
+        "volume-title": "The Interpretation of Dreams, Standard Edn",
+        "year": "1900",
+        "author": "Freud",
+        "key": "B22"
+      },
+      {
+        "key": "B23",
+        "first-page": "6",
+        "article-title": "The Psychopathology of Everyday Life",
+        "volume-title": "Standard Edn",
+        "author": "Freud",
+        "year": "1901"
+      },
+      {
+        "key": "B24",
+        "first-page": "166",
+        "volume-title": "The Unconscious, Standard Edn",
+        "author": "Freud",
+        "year": ""
+      },
+      {
+        "key": "B25",
+        "first-page": "117",
+        "volume-title": "Instincts and Their Vicissitudes, Standard Edn",
+        "author": "Freud",
+        "year": ""
+      },
+      {
+        "key": "B26",
+        "first-page": "15",
+        "article-title": "Introductory Lectures in Psychoanalysis",
+        "volume-title": "Standard Edn",
+        "author": "Freud",
+        "year": ""
+      },
+      {
+        "key": "B27",
+        "first-page": "222",
+        "article-title": "Metapsychological Supplement to the Theory of Dreams",
+        "volume-title": "Standard Edn.",
+        "author": "Freud",
+        "year": "1917"
+      },
+      {
+        "key": "B28",
+        "first-page": "7",
+        "volume-title": "Beyond the Pleasure Principle, Standard Edn",
+        "author": "Freud",
+        "year": "1920"
+      },
+      {
+        "key": "B29",
+        "first-page": "12",
+        "volume-title": "The Ego and the id. Standard Edn",
+        "author": "Freud",
+        "year": "1923"
+      },
+      {
+        "volume-title": "An Autobiographical Study, Standard Edn",
+        "year": "",
+        "author": "Freud",
+        "key": "B30"
+      },
+      {
+        "key": "B31",
+        "first-page": "227",
+        "volume-title": "A Note Upon “the mystic writing-pad,” Standard Edn.",
+        "author": "Freud",
+        "year": ""
+      },
+      {
+        "key": "B32",
+        "first-page": "144",
+        "volume-title": "An Outline of Psychoanalysis, Standard Edn.",
+        "author": "Freud",
+        "year": "1940"
+      },
+      {
+        "key": "B33",
+        "first-page": "174",
+        "volume-title": "Extracts From the Fliess Papers, Standard Edn.",
+        "author": "Freud",
+        "year": ""
+      },
+      {
+        "key": "B34",
+        "first-page": "281",
+        "volume-title": "Project for a Scientific Psychology. Standard Edn.",
+        "author": "Freud",
+        "year": ""
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "first-page": "20130475",
+        "DOI": "10.1098/rsif.2013.0475",
+        "article-title": "Life as we know it",
+        "volume": "10",
+        "author": "Friston",
+        "year": "2013",
+        "journal-title": "J. R. Soc. Interface"
+      },
+      {
+        "key": "B36",
+        "doi-asserted-by": "publisher",
+        "first-page": "2433",
+        "DOI": "10.1212/WNL.0000000000003417",
+        "article-title": "Coma-causing brainstem lesions",
+        "volume": "87",
+        "author": "Golaszewski",
+        "year": "2016",
+        "journal-title": "Neurology"
+      },
+      {
+        "volume-title": "The Meaning of Illness: Selected Psychoanalytic Writings Including His Correspondence With Sigmund Freud",
+        "year": "1977",
+        "author": "Groddeck",
+        "key": "B37"
+      },
+      {
+        "key": "B38",
+        "first-page": "327",
+        "article-title": "Recovery from the passage of an iron bar through the head",
+        "volume": "2",
+        "author": "Harlow",
+        "year": "1868",
+        "journal-title": "Publicat. Massachusetts Med. Soc"
+      },
+      {
+        "volume-title": "The Organization of Behavior",
+        "year": "1949",
+        "author": "Hebb",
+        "key": "B39"
+      },
+      {
+        "key": "B40",
+        "doi-asserted-by": "publisher",
+        "first-page": "803",
+        "DOI": "10.1038/nrn2716",
+        "article-title": "REM sleep and dreaming: towards a theory of protoconsciousness",
+        "volume": "10",
+        "author": "Hobson",
+        "year": "2009",
+        "journal-title": "Nat Rev Neurosci"
+      },
+      {
+        "key": "B41",
+        "first-page": "6",
+        "article-title": "Consciousness, dreams, and inference: the Cartesian theatre revisited",
+        "volume": "21",
+        "author": "Hobson",
+        "year": "2014",
+        "journal-title": "J. Consciousness Stud."
+      },
+      {
+        "key": "B42",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1093/acprof:oso/9780199682737.001.0001",
+        "volume-title": "The Predictive Mind",
+        "author": "Hohwy",
+        "year": "2013"
+      },
+      {
+        "key": "B43",
+        "doi-asserted-by": "publisher",
+        "first-page": "433",
+        "DOI": "10.1016/0031-9384(74)90121-8",
+        "article-title": "The thalamic rat: general behaviour, operant learning with rewarding hypothalamic stimulation, and effects of amphetamine",
+        "volume": "12",
+        "author": "Huston",
+        "year": "1974",
+        "journal-title": "Physiol. Behav"
+      },
+      {
+        "volume-title": "Principles of Neural Science",
+        "year": "2012",
+        "author": "Kandel",
+        "key": "B44"
+      },
+      {
+        "key": "B45",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.4324/9780203360019_chapter_2",
+        "article-title": "Perception without awareness of what is perceived, learning without awareness of what is learned",
+        "volume-title": "The Science of Consciousness: Psychological, Neuropsychological and Clinical Reviews",
+        "author": "Kihlstrom",
+        "year": "1996"
+      },
+      {
+        "volume-title": "The Quest for Consciousness",
+        "year": "2004",
+        "author": "Koch",
+        "key": "B46"
+      },
+      {
+        "key": "B47",
+        "doi-asserted-by": "publisher",
+        "first-page": "E2016",
+        "DOI": "10.1073/pnas.1619316114",
+        "article-title": "A higher-order theory of emotional consciousness",
+        "volume": "114",
+        "author": "LeDoux",
+        "year": "2017",
+        "journal-title": "Proc. Natl.Acad. Sci. U.S.A."
+      },
+      {
+        "key": "B48",
+        "doi-asserted-by": "publisher",
+        "first-page": "354",
+        "DOI": "10.1111/j.1468-0114.1983.tb00207.x",
+        "article-title": "Materialism and qualia: the explanatory gap",
+        "volume": "64",
+        "author": "Levine",
+        "year": "1983",
+        "journal-title": "Pac. Philos. Q."
+      },
+      {
+        "key": "B49",
+        "doi-asserted-by": "publisher",
+        "first-page": "63",
+        "DOI": "10.1017/S0140525X07000891",
+        "article-title": "Consciousness without a cerebral cortex: a challenge for neuroscience and medicine",
+        "volume": "30",
+        "author": "Merker",
+        "year": "2007",
+        "journal-title": "Behav. Brain Sci"
+      },
+      {
+        "volume-title": "Psychopharmacology: Drugs, The Brain, and Behavior",
+        "year": "2005",
+        "author": "Meyer",
+        "key": "B50"
+      },
+      {
+        "volume-title": "Psychiatrie. Klinik der Erkrankungen des Vorderhirns, begründet auf dessen Bau, Leistungen und Ernährung",
+        "year": "1884",
+        "author": "Meynert",
+        "key": "B51"
+      },
+      {
+        "key": "B52",
+        "doi-asserted-by": "publisher",
+        "first-page": "1543",
+        "DOI": "10.1126/science.1150769",
+        "article-title": "Synaptic theory of working memory",
+        "volume": "319",
+        "author": "Mongillo",
+        "year": "2008",
+        "journal-title": "Science"
+      },
+      {
+        "key": "B53",
+        "doi-asserted-by": "publisher",
+        "first-page": "455",
+        "DOI": "10.1016/0013-4694(49)90219-9",
+        "article-title": "Brain stem reticular formation and activation of the EEG",
+        "volume": "1",
+        "author": "Moruzzi",
+        "year": "1949",
+        "journal-title": "Electroencephalog. Clin. Neurol"
+      },
+      {
+        "key": "B54",
+        "first-page": "162",
+        "article-title": "Weitere Mittheilungen zur Physiologie der Grosshirnrinde",
+        "volume": "2",
+        "author": "Munk",
+        "year": "1878",
+        "journal-title": "Arch für Physiol."
+      },
+      {
+        "volume-title": "Ueber die Funktionen der Grosshirnrinde",
+        "year": "1881",
+        "author": "Munk",
+        "key": "B55"
+      },
+      {
+        "key": "B56",
+        "doi-asserted-by": "publisher",
+        "first-page": "722",
+        "DOI": "10.1038/35021052",
+        "article-title": "Fear memories require protein synthesis in the amygdala for reconsolidation after retrieval",
+        "volume": "406",
+        "author": "Nader",
+        "year": "2000",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "B57",
+        "doi-asserted-by": "publisher",
+        "first-page": "435",
+        "DOI": "10.2307/2183914",
+        "article-title": "What is it like to be a bat?",
+        "volume": "83",
+        "author": "Nagel",
+        "year": "1974",
+        "journal-title": "Philos. Rev."
+      },
+      {
+        "volume-title": "Affective Neuroscience",
+        "year": "1998",
+        "author": "Panksepp",
+        "key": "B58"
+      },
+      {
+        "key": "B59",
+        "doi-asserted-by": "publisher",
+        "first-page": "187",
+        "DOI": "10.1016/j.neubiorev.2016.09.010",
+        "article-title": "Reconciling cognitive and affective neuroscience perspectives on the brain basis of emotional experience",
+        "volume": "76",
+        "author": "Panksepp",
+        "year": "2016",
+        "journal-title": "Neurosci. Biobehav. Rev."
+      },
+      {
+        "key": "B60",
+        "doi-asserted-by": "publisher",
+        "first-page": "1524",
+        "DOI": "10.1093/brain/awg166",
+        "article-title": "Neuroanatomical correlates of brainstem coma",
+        "volume": "126",
+        "author": "Parvizi",
+        "year": "2003",
+        "journal-title": "Brain"
+      },
+      {
+        "key": "B61",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1097/00007611-195407000-00024",
+        "volume-title": "Epilepsy and the Functional Anatomy of the Human Brain",
+        "author": "Penfield",
+        "year": "1954"
+      },
+      {
+        "key": "B62",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.4159/9780674042100",
+        "volume-title": "Brain Arousal and Information Theory",
+        "author": "Pfaff",
+        "year": "2006"
+      },
+      {
+        "key": "B63",
+        "doi-asserted-by": "publisher",
+        "first-page": "243",
+        "DOI": "10.1111/j.0013-9580.2004.15303.x",
+        "article-title": "The cognitive outcome of hemispherectomy in 71 children",
+        "volume": "45",
+        "author": "Pulsifer",
+        "year": "2004",
+        "journal-title": "Epilepsia"
+      },
+      {
+        "key": "B64",
+        "doi-asserted-by": "crossref",
+        "first-page": "23",
+        "DOI": "10.31887/DCNS.2016.18.1/wschultz",
+        "article-title": "Dopamine reward prediction error coding",
+        "volume": "18",
+        "author": "Schultz",
+        "year": "2016",
+        "journal-title": "Dialogues Clin. Neurosci"
+      },
+      {
+        "volume-title": "The Mystery of Consciousness",
+        "year": "1997",
+        "author": "Searle",
+        "key": "B65"
+      },
+      {
+        "key": "B66",
+        "first-page": "129",
+        "article-title": "Foreword",
+        "volume-title": "Biophysics of Consciousness: A Foundational Approach",
+        "author": "Searle",
+        "year": "2017"
+      },
+      {
+        "key": "B67",
+        "doi-asserted-by": "publisher",
+        "first-page": "841",
+        "DOI": "10.1038/35009043",
+        "article-title": "Induction of visual orientation modules in auditory cortex",
+        "volume": "404",
+        "author": "Sharma",
+        "year": "2000",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "B68",
+        "doi-asserted-by": "publisher",
+        "first-page": "364",
+        "DOI": "10.1017/S0012162299000821",
+        "article-title": "Consciousness in congenitally decorticate children: developmental vegetative state as a self-fulfilling prophecy",
+        "volume": "41",
+        "author": "Shewmon",
+        "year": "1999",
+        "journal-title": "Dev. Med. Child Neurol"
+      },
+      {
+        "key": "B69",
+        "doi-asserted-by": "publisher",
+        "first-page": "681",
+        "DOI": "10.1177/00030651970450031201",
+        "article-title": "What is consciousness? [and response to commentaries]",
+        "volume": "45",
+        "author": "Solms",
+        "year": "1997",
+        "journal-title": "J. Amer. Psychoanal. Assn."
+      },
+      {
+        "key": "B70",
+        "doi-asserted-by": "publisher",
+        "first-page": "5",
+        "DOI": "10.1080/15294145.2013.10773711",
+        "article-title": "The conscious id. [and response to commentaries]",
+        "volume": "15",
+        "author": "Solms",
+        "year": "2013",
+        "journal-title": "Neuropsychoanalysis"
+      },
+      {
+        "key": "B71",
+        "doi-asserted-by": "publisher",
+        "first-page": "173",
+        "DOI": "10.1142/S0219635214400032",
+        "article-title": "A neuropsychoanalytical approach to the hard problem of consciousness",
+        "volume": "13",
+        "author": "Solms",
+        "year": "2014",
+        "journal-title": "J. Integr. Neurosci."
+      },
+      {
+        "key": "B72",
+        "doi-asserted-by": "publisher",
+        "first-page": "40",
+        "DOI": "10.1017/S0140525X14000296",
+        "article-title": "Reconsolidation: turning consciousness into memory",
+        "volume": "38",
+        "author": "Solms",
+        "year": "2015",
+        "journal-title": "Behav. Brain Sci."
+      },
+      {
+        "key": "B73",
+        "doi-asserted-by": "crossref",
+        "first-page": "90",
+        "DOI": "10.1111/nyas.13437",
+        "article-title": "What is ‘the unconscious’ and where is it located in the brain?",
+        "volume": "1406",
+        "author": "Solms",
+        "year": "",
+        "journal-title": "Ann. NY Acad. Sci."
+      },
+      {
+        "key": "B74",
+        "doi-asserted-by": "publisher",
+        "first-page": "579",
+        "DOI": "10.1177/0003065118780182",
+        "article-title": "Review of damasio, the strange order of things",
+        "volume": "66",
+        "author": "Solms",
+        "year": "",
+        "journal-title": "J. Am. Psychoanal. Ass"
+      },
+      {
+        "key": "B75",
+        "doi-asserted-by": "publisher",
+        "first-page": "11",
+        "DOI": "10.1080/00207578.2017.1408306",
+        "article-title": "Extracts from the revised standard edition of Freud's complete psychological works",
+        "volume": "99",
+        "author": "Solms",
+        "year": "",
+        "journal-title": "Int. J. Psychoanal"
+      },
+      {
+        "key": "B76",
+        "doi-asserted-by": "publisher",
+        "first-page": "294",
+        "DOI": "10.3389/fnbeh.2018.00294",
+        "article-title": "The neurobiological underpinnings of psychoanalytic theory and therapy",
+        "volume": "12",
+        "author": "Solms",
+        "year": "",
+        "journal-title": "Front. Behav. Neurosci"
+      },
+      {
+        "volume-title": "Consciousness Itself: Feeling and Uncertainty",
+        "year": "",
+        "author": "Solms",
+        "key": "B77"
+      },
+      {
+        "key": "B78",
+        "first-page": "202",
+        "article-title": "How and why consciousness arises: some considerations from physics and physiology",
+        "volume": "25",
+        "author": "Solms",
+        "year": "2018",
+        "journal-title": "J. Conscious. Stud."
+      },
+      {
+        "key": "B79",
+        "first-page": "89",
+        "article-title": "Wilbrand's case of ‘mind blindness’",
+        "volume-title": "Classic Cases in Neuropsychology",
+        "author": "Solms",
+        "year": "1996"
+      },
+      {
+        "key": "B80",
+        "doi-asserted-by": "publisher",
+        "first-page": "147",
+        "DOI": "10.3390/brainsci2020147",
+        "article-title": "The 'id' knows more than the 'ego' admits",
+        "volume": "2",
+        "author": "Solms",
+        "year": "2012",
+        "journal-title": "Brain Sci"
+      },
+      {
+        "volume-title": "A Moment of Transition: Two Neuroscientific Articles by Sigmund Freud",
+        "year": "1990",
+        "author": "Solms",
+        "key": "B81"
+      },
+      {
+        "key": "B82",
+        "doi-asserted-by": "publisher",
+        "first-page": "171",
+        "DOI": "10.1016/j.nlm.2004.06.005",
+        "article-title": "Memory systems of the brain: a brief history and current perspective",
+        "volume": "82",
+        "author": "Squire",
+        "year": "2004",
+        "journal-title": "Neurobiol. Learn. Mem."
+      },
+      {
+        "key": "B83",
+        "first-page": "62",
+        "volume-title": "The Emergence of Freud's Fundamental Hypotheses. Standard Edn",
+        "author": "Strachey",
+        "year": "1962"
+      },
+      {
+        "key": "B84",
+        "doi-asserted-by": "publisher",
+        "first-page": "267",
+        "DOI": "10.1146/annurev.ps.06.020155.001411",
+        "article-title": "Physiological psychology",
+        "volume": "6",
+        "author": "Teuber",
+        "year": "1955",
+        "journal-title": "Ann. Rev. Psychol."
+      },
+      {
+        "volume-title": "Phi: A Voyage from the Brain to the Soul.",
+        "year": "2012",
+        "author": "Tononi",
+        "key": "B85"
+      },
+      {
+        "key": "B86",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/978-3-319-96343-3",
+        "volume-title": "Freud and Philosophy of Mind, Volume 1: Reconstructing the Argument for Unconscious Mental States",
+        "author": "Wakefield",
+        "year": "2018"
+      }
+    ],
+    "container-title": [
+      "Frontiers in Psychology"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/article/10.3389/fpsyg.2018.02714/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          25
+        ]
+      ],
+      "date-time": "2020-11-25T07:02:13Z",
+      "timestamp": 1606287733000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/article/10.3389/fpsyg.2018.02714/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          30
+        ]
+      ]
+    },
+    "references-count": 86,
+    "alternative-id": [
+      "10.3389/fpsyg.2018.02714"
+    ],
+    "URL": "https://doi.org/10.3389/fpsyg.2018.02714",
+    "relation": {},
+    "ISSN": [
+      "1664-1078"
+    ],
+    "issn-type": [
+      {
+        "type": "electronic",
+        "value": "1664-1078"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          30
+        ]
+      ]
+    },
+    "article-number": "2714"
+  },
+  "timestamp": 1767726693987,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

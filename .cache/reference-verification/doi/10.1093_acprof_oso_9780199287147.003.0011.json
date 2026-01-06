@@ -1,0 +1,146 @@
+{
+  "key": "doi-10.1093_acprof_oso_9780199287147.003.0011",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL20006865M/The_re-emergence_of_emergence",
+      "key": "/books/OL20006865M",
+      "title": "The re-emergence of emergence",
+      "subtitle": "the emergentist hypothesis from science to religion",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL228018A/Philip_Clayton",
+          "name": "Philip Clayton"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL2622794A/Paul_Davies",
+          "name": "Paul Davies"
+        }
+      ],
+      "number_of_pages": 330,
+      "pagination": "xiv, 330 p. :",
+      "by_statement": "edited by Philip Clayton and Paul Davies.",
+      "identifiers": {
+        "goodreads": [
+          "263008"
+        ],
+        "librarything": [
+          "696128"
+        ],
+        "isbn_10": [
+          "0199287147"
+        ],
+        "isbn_13": [
+          "9780199287147"
+        ],
+        "lccn": [
+          "2006009453"
+        ],
+        "oclc": [
+          "65425759"
+        ],
+        "openlibrary": [
+          "OL20006865M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "Q175.32.E44 R44 2006",
+          "BL240.3"
+        ],
+        "dewey_decimal_class": [
+          "501"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press"
+        },
+        {
+          "name": "OUP Oxford"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Oxford"
+        },
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "2006",
+      "subjects": [
+        {
+          "name": "Religion and science",
+          "url": "https://openlibrary.org/subjects/religion_and_science"
+        },
+        {
+          "name": "Emergence (Philosophy)",
+          "url": "https://openlibrary.org/subjects/emergence_(philosophy)"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Consciousness",
+          "url": "https://openlibrary.org/subjects/consciousness"
+        },
+        {
+          "name": "Science",
+          "url": "https://openlibrary.org/subjects/science"
+        },
+        {
+          "name": "Science, philosophy",
+          "url": "https://openlibrary.org/subjects/science,_philosophy"
+        },
+        {
+          "name": "Religion, philosophy",
+          "url": "https://openlibrary.org/subjects/religion,_philosophy"
+        }
+      ],
+      "notes": "Includes bibliographical references and index.",
+      "table_of_contents": [
+        {
+          "level": 0,
+          "label": "",
+          "title": "The physical sciences",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "The biological sciences",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Consciousness and emergence",
+          "pagenum": ""
+        },
+        {
+          "level": 0,
+          "label": "",
+          "title": "Religion and emergence.",
+          "pagenum": ""
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/reemergenceemerg00clay",
+          "availability": "noview",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/8714179-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/8714179-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/8714179-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780199287147"
+  },
+  "timestamp": 1767726400036,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

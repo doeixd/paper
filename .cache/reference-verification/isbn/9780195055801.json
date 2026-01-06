@@ -1,0 +1,213 @@
+{
+  "key": "isbn-9780195055801",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL2214725M/The_great_terror",
+      "key": "/books/OL2214725M",
+      "title": "The great terror",
+      "subtitle": "a reassessment",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL26594A/Robert_Conquest",
+          "name": "Robert Conquest"
+        },
+        {
+          "url": "https://openlibrary.org/authors/OL4537343A/Robert_Conquest",
+          "name": "Robert Conquest"
+        }
+      ],
+      "number_of_pages": 570,
+      "pagination": "viii, 570 p. :",
+      "by_statement": "Robert Conquest.",
+      "identifiers": {
+        "goodreads": [
+          "1509649"
+        ],
+        "librarything": [
+          "13858"
+        ],
+        "isbn_10": [
+          "0195055802"
+        ],
+        "lccn": [
+          "89037810"
+        ],
+        "oclc": [
+          "20133978"
+        ],
+        "openlibrary": [
+          "OL2214725M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "DK267 .C649 1990",
+          "DK267.C649 1990"
+        ],
+        "dewey_decimal_class": [
+          "947.084/2"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "1990",
+      "subjects": [
+        {
+          "name": "Politics and government",
+          "url": "https://openlibrary.org/subjects/politics_and_government"
+        },
+        {
+          "name": "Terrorism",
+          "url": "https://openlibrary.org/subjects/terrorism"
+        },
+        {
+          "name": "Purges",
+          "url": "https://openlibrary.org/subjects/purges"
+        },
+        {
+          "name": "Political purges",
+          "url": "https://openlibrary.org/subjects/political_purges"
+        },
+        {
+          "name": "History",
+          "url": "https://openlibrary.org/subjects/history"
+        },
+        {
+          "name": "Russia",
+          "url": "https://openlibrary.org/subjects/russia"
+        },
+        {
+          "name": "1917-1936",
+          "url": "https://openlibrary.org/subjects/1917-1936"
+        },
+        {
+          "name": "Kommunisticheskai︠a︡ partii︠a︡ Sovetskogo Soi︠u︡za",
+          "url": "https://openlibrary.org/subjects/kommunisticheskai︠a︡_partii︠a︡_sovetskogo_soi︠u︡za"
+        },
+        {
+          "name": "Kommunisticheskai͡a partii͡a Sovetskogo Soi͡uza",
+          "url": "https://openlibrary.org/subjects/kommunisticheskai͡a_partii͡a_sovetskogo_soi͡uza"
+        },
+        {
+          "name": "State-sponsored terrorism",
+          "url": "https://openlibrary.org/subjects/state-sponsored_terrorism"
+        },
+        {
+          "name": "Kommunisticheskaia partiia Sovetskogo Soiuza",
+          "url": "https://openlibrary.org/subjects/kommunisticheskaia_partiia_sovetskogo_soiuza"
+        },
+        {
+          "name": "Soviet union, history, revolution, 1917-1921",
+          "url": "https://openlibrary.org/subjects/soviet_union,_history,_revolution,_1917-1921"
+        },
+        {
+          "name": "Stalin, joseph, 1879-1953",
+          "url": "https://openlibrary.org/subjects/stalin,_joseph,_1879-1953"
+        },
+        {
+          "name": "Soviet union, politics and government",
+          "url": "https://openlibrary.org/subjects/soviet_union,_politics_and_government"
+        },
+        {
+          "name": "Canada, history",
+          "url": "https://openlibrary.org/subjects/canada,_history"
+        },
+        {
+          "name": "Soviet union, politics and government, 1917-1991",
+          "url": "https://openlibrary.org/subjects/soviet_union,_politics_and_government,_1917-1991"
+        },
+        {
+          "name": "Stalin, joseph , 1878-1953",
+          "url": "https://openlibrary.org/subjects/stalin,_joseph_,_1878-1953"
+        },
+        {
+          "name": "Purgeskommunisticheskai︠a︡ partii︠a︡ sovetskogo soi︠u︡za",
+          "url": "https://openlibrary.org/subjects/purgeskommunisticheskai︠a︡_partii︠a︡_sovetskogo_soi︠u︡za"
+        },
+        {
+          "name": "Terrorism--soviet union",
+          "url": "https://openlibrary.org/subjects/terrorism--soviet_union"
+        },
+        {
+          "name": "State-sponsored terrorism--history",
+          "url": "https://openlibrary.org/subjects/state-sponsored_terrorism--history"
+        },
+        {
+          "name": "State-sponsored terrorism--soviet union--history",
+          "url": "https://openlibrary.org/subjects/state-sponsored_terrorism--soviet_union--history"
+        },
+        {
+          "name": "Dk267 .c649 1990",
+          "url": "https://openlibrary.org/subjects/dk267_.c649_1990"
+        },
+        {
+          "name": "947.084/2",
+          "url": "https://openlibrary.org/subjects/947.084/2"
+        }
+      ],
+      "subject_places": [
+        {
+          "name": "Soviet Union",
+          "url": "https://openlibrary.org/subjects/place:soviet_union"
+        },
+        {
+          "name": "Russia",
+          "url": "https://openlibrary.org/subjects/place:russia"
+        }
+      ],
+      "subject_people": [
+        {
+          "name": "Joseph Stalin (1879-1953)",
+          "url": "https://openlibrary.org/subjects/person:joseph_stalin_(1879-1953)"
+        }
+      ],
+      "subject_times": [
+        {
+          "name": "1936-1953",
+          "url": "https://openlibrary.org/subjects/time:1936-1953"
+        },
+        {
+          "name": "20th century",
+          "url": "https://openlibrary.org/subjects/time:20th_century"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "The Great Terror of 1936 to 1938 did not come out of the blue.",
+          "comment": "",
+          "first_sentence": true
+        },
+        {
+          "text": "The Great Terror of 1936 to 1938 did not come out of the blue.",
+          "comment": ""
+        }
+      ],
+      "notes": "Includes bibliographical references.",
+      "table_of_contents": [
+        {
+          "level": 0,
+          "label": "",
+          "title": "Introduction : the roots of terror -- Stalin prepares -- The Kirov murder -- Architect of terror -- Old Bolsheviks confess -- The problem of confession -- Last stand -- Assault on the army -- The party crushed -- Nations in torment -- On the cultural front -- In the labor camps -- The great trial -- The foreign element -- Climax -- Heritage of terror -- Epilogue : the terror today.",
+          "pagenum": ""
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/4094100-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/4094100-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/4094100-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780195055801"
+  },
+  "timestamp": 1767726402286,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

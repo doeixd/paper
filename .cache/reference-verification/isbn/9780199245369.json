@@ -1,0 +1,111 @@
+{
+  "key": "isbn-9780199245369",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL7403592M/Objects_and_Persons",
+      "key": "/books/OL7403592M",
+      "title": "Objects and Persons",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL2668637A/Trenton_Merricks",
+          "name": "Trenton Merricks"
+        }
+      ],
+      "number_of_pages": 216,
+      "identifiers": {
+        "goodreads": [
+          "6106273"
+        ],
+        "librarything": [
+          "25199"
+        ],
+        "isbn_10": [
+          "0199245363"
+        ],
+        "isbn_13": [
+          "9780199245369"
+        ],
+        "lccn": [
+          "00068260"
+        ],
+        "oclc": [
+          "45637041"
+        ],
+        "openlibrary": [
+          "OL7403592M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD396.M47 2001",
+          "BD396 .M47 2001"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Oxford University Press, USA"
+        }
+      ],
+      "publish_date": "August 2, 2001",
+      "subjects": [
+        {
+          "name": "Existentialism",
+          "url": "https://openlibrary.org/subjects/existentialism"
+        },
+        {
+          "name": "Object (Philosophy)",
+          "url": "https://openlibrary.org/subjects/object_(philosophy)"
+        },
+        {
+          "name": "Causation",
+          "url": "https://openlibrary.org/subjects/causation"
+        },
+        {
+          "name": "Ontology",
+          "url": "https://openlibrary.org/subjects/ontology"
+        },
+        {
+          "name": "Whole and parts (Philosophy)",
+          "url": "https://openlibrary.org/subjects/whole_and_parts_(philosophy)"
+        },
+        {
+          "name": "Agent (Philosophy)",
+          "url": "https://openlibrary.org/subjects/agent_(philosophy)"
+        },
+        {
+          "name": "Whole and parts (philosophy)",
+          "url": "https://openlibrary.org/subjects/whole_and_parts_(philosophy)"
+        },
+        {
+          "name": "Agent (philosophy)",
+          "url": "https://openlibrary.org/subjects/agent_(philosophy)"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "IN this book I shall show that there are no books.",
+          "comment": "",
+          "first_sentence": true
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/objectspersons0000merr",
+          "availability": "borrow",
+          "formats": {},
+          "borrow_url": "https://openlibrary.org/books/OL7403592M/Objects_and_Persons/borrow",
+          "checkedout": false
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/132952-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/132952-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/132952-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780199245369"
+  },
+  "timestamp": 1767726662238,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

@@ -1,0 +1,271 @@
+{
+  "key": "isbn-9780465021215",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL24055780M/Evolution_of_Cooperation",
+      "key": "/books/OL24055780M",
+      "title": "Evolution of Cooperation",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL381711A/Robert_M._Axelrod",
+          "name": "Robert M. Axelrod"
+        }
+      ],
+      "number_of_pages": 241,
+      "identifiers": {
+        "isbn_10": [
+          "0465021212"
+        ],
+        "isbn_13": [
+          "9780465021215"
+        ],
+        "lccn": [
+          "83045255"
+        ],
+        "oclc": [
+          "10274775"
+        ],
+        "openlibrary": [
+          "OL24055780M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "HM131 .A89 1984"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Perseus Books"
+        }
+      ],
+      "publish_date": "1985",
+      "subjects": [
+        {
+          "name": "Games of strategy (Mathematics)",
+          "url": "https://openlibrary.org/subjects/games_of_strategy_(mathematics)"
+        },
+        {
+          "name": "Conflict management",
+          "url": "https://openlibrary.org/subjects/conflict_management"
+        },
+        {
+          "name": "Egoism",
+          "url": "https://openlibrary.org/subjects/egoism"
+        },
+        {
+          "name": "Cooperativeness",
+          "url": "https://openlibrary.org/subjects/cooperativeness"
+        },
+        {
+          "name": "Social interaction",
+          "url": "https://openlibrary.org/subjects/social_interaction"
+        },
+        {
+          "name": "Consensus (Social sciences)",
+          "url": "https://openlibrary.org/subjects/consensus_(social_sciences)"
+        },
+        {
+          "name": "Prisoner's dilemma game",
+          "url": "https://openlibrary.org/subjects/prisoner's_dilemma_game"
+        },
+        {
+          "name": "Egoism.\u001e 0",
+          "url": "https://openlibrary.org/subjects/egoism.\u001e_0"
+        },
+        {
+          "name": "Consensus",
+          "url": "https://openlibrary.org/subjects/consensus"
+        },
+        {
+          "name": "Égoïsme",
+          "url": "https://openlibrary.org/subjects/égoïsme"
+        },
+        {
+          "name": "Samenwerking",
+          "url": "https://openlibrary.org/subjects/samenwerking"
+        },
+        {
+          "name": "Consensus (Sciences sociales)",
+          "url": "https://openlibrary.org/subjects/consensus_(sciences_sociales)"
+        },
+        {
+          "name": "Speltheorie",
+          "url": "https://openlibrary.org/subjects/speltheorie"
+        },
+        {
+          "name": "Conflictmanagement",
+          "url": "https://openlibrary.org/subjects/conflictmanagement"
+        },
+        {
+          "name": "Interaction sociale",
+          "url": "https://openlibrary.org/subjects/interaction_sociale"
+        },
+        {
+          "name": "Coopération (Psychologie)",
+          "url": "https://openlibrary.org/subjects/coopération_(psychologie)"
+        },
+        {
+          "name": "Gestion des conflits",
+          "url": "https://openlibrary.org/subjects/gestion_des_conflits"
+        },
+        {
+          "name": "Jeux de stratégie (Mathématiques)",
+          "url": "https://openlibrary.org/subjects/jeux_de_stratégie_(mathématiques)"
+        },
+        {
+          "name": "Gefangenendilemma",
+          "url": "https://openlibrary.org/subjects/gefangenendilemma"
+        },
+        {
+          "name": "Kooperatives Verhalten",
+          "url": "https://openlibrary.org/subjects/kooperatives_verhalten"
+        },
+        {
+          "name": "Consenso (Ciencias sociales)",
+          "url": "https://openlibrary.org/subjects/consenso_(ciencias_sociales)"
+        },
+        {
+          "name": "Juego Dilema del prisionero",
+          "url": "https://openlibrary.org/subjects/juego_dilema_del_prisionero"
+        },
+        {
+          "name": "Egoísmo",
+          "url": "https://openlibrary.org/subjects/egoísmo"
+        },
+        {
+          "name": "Juegos de estrategia (Matemáticas)",
+          "url": "https://openlibrary.org/subjects/juegos_de_estrategia_(matemáticas)"
+        },
+        {
+          "name": "Cooperación (Psicología)",
+          "url": "https://openlibrary.org/subjects/cooperación_(psicología)"
+        },
+        {
+          "name": "Solución de conflictos",
+          "url": "https://openlibrary.org/subjects/solución_de_conflictos"
+        },
+        {
+          "name": "Interacción social",
+          "url": "https://openlibrary.org/subjects/interacción_social"
+        },
+        {
+          "name": "Social psychology",
+          "url": "https://openlibrary.org/subjects/social_psychology"
+        },
+        {
+          "name": "Social groups",
+          "url": "https://openlibrary.org/subjects/social_groups"
+        },
+        {
+          "name": "open_syllabus_project",
+          "url": "https://openlibrary.org/subjects/open_syllabus_project"
+        },
+        {
+          "name": "International cooperation",
+          "url": "https://openlibrary.org/subjects/international_cooperation"
+        },
+        {
+          "name": "Coopération",
+          "url": "https://openlibrary.org/subjects/coopération"
+        },
+        {
+          "name": "Cooperative Behavior",
+          "url": "https://openlibrary.org/subjects/cooperative_behavior"
+        },
+        {
+          "name": "Psychological Conflict",
+          "url": "https://openlibrary.org/subjects/psychological_conflict"
+        },
+        {
+          "name": "Ego",
+          "url": "https://openlibrary.org/subjects/ego"
+        },
+        {
+          "name": "Interpersonal Relations",
+          "url": "https://openlibrary.org/subjects/interpersonal_relations"
+        },
+        {
+          "name": "Social Sciences",
+          "url": "https://openlibrary.org/subjects/social_sciences"
+        },
+        {
+          "name": "Game Theory",
+          "url": "https://openlibrary.org/subjects/game_theory"
+        },
+        {
+          "name": "Cooperacion (Psicologia)",
+          "url": "https://openlibrary.org/subjects/cooperacion_(psicologia)"
+        },
+        {
+          "name": "Juegos de estrategia (Matematicas)",
+          "url": "https://openlibrary.org/subjects/juegos_de_estrategia_(matematicas)"
+        },
+        {
+          "name": "Solucion de conflictos",
+          "url": "https://openlibrary.org/subjects/solucion_de_conflictos"
+        },
+        {
+          "name": "Egoismo",
+          "url": "https://openlibrary.org/subjects/egoismo"
+        },
+        {
+          "name": "Interaccion social",
+          "url": "https://openlibrary.org/subjects/interaccion_social"
+        },
+        {
+          "name": "Cooperation",
+          "url": "https://openlibrary.org/subjects/cooperation"
+        },
+        {
+          "name": "Competitive behavior [mesh]",
+          "url": "https://openlibrary.org/subjects/competitive_behavior_[mesh]"
+        },
+        {
+          "name": "Cooperative behavior [mesh]",
+          "url": "https://openlibrary.org/subjects/cooperative_behavior_[mesh]"
+        },
+        {
+          "name": "Interpersonal relations [mesh]",
+          "url": "https://openlibrary.org/subjects/interpersonal_relations_[mesh]"
+        },
+        {
+          "name": "Conflict (psychology) [mesh]",
+          "url": "https://openlibrary.org/subjects/conflict_(psychology)_[mesh]"
+        },
+        {
+          "name": "Hm131 .a89 1990",
+          "url": "https://openlibrary.org/subjects/hm131_.a89_1990"
+        },
+        {
+          "name": "Dilema del prisionero, juego",
+          "url": "https://openlibrary.org/subjects/dilema_del_prisionero,_juego"
+        },
+        {
+          "name": "Hm716 .a94 2006",
+          "url": "https://openlibrary.org/subjects/hm716_.a94_2006"
+        },
+        {
+          "name": "302/.14",
+          "url": "https://openlibrary.org/subjects/302/.14"
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/evolutionofcoope00robe",
+          "availability": "noview",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/6291550-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/6291550-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/6291550-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780465021215"
+  },
+  "timestamp": 1767725694739,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

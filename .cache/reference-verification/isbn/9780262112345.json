@@ -1,0 +1,162 @@
+{
+  "key": "isbn-9780262112345",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL364079M/Mind_in_a_physical_world",
+      "key": "/books/OL364079M",
+      "title": "Mind in a physical world",
+      "subtitle": "an essay on the mind-body problem and mental causation",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL227923A/Jaegwon_Kim",
+          "name": "Jaegwon Kim"
+        }
+      ],
+      "number_of_pages": 146,
+      "pagination": "viii, 146 p. ;",
+      "by_statement": "Jaegwon Kim.",
+      "identifiers": {
+        "librarything": [
+          "186765"
+        ],
+        "goodreads": [
+          "5580572"
+        ],
+        "doi": [
+          "10.1604/9780262112345"
+        ],
+        "isbn_10": [
+          "0262112345"
+        ],
+        "lccn": [
+          "98024346"
+        ],
+        "oclc": [
+          "42856108",
+          "39122721"
+        ],
+        "openlibrary": [
+          "OL364079M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD418.3 .K53 1998",
+          "BD418.3 .K53 1998eb",
+          "BD 418.3 K53 1998",
+          "BD418.3.K53 1998"
+        ],
+        "dewey_decimal_class": [
+          "128/.2"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "MIT Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Cambridge, Mass"
+        }
+      ],
+      "publish_date": "1998",
+      "subjects": [
+        {
+          "name": "Causation",
+          "url": "https://openlibrary.org/subjects/causation"
+        },
+        {
+          "name": "Mind and body",
+          "url": "https://openlibrary.org/subjects/mind_and_body"
+        },
+        {
+          "name": "Philosophy of mind",
+          "url": "https://openlibrary.org/subjects/philosophy_of_mind"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Philosophie de l'esprit",
+          "url": "https://openlibrary.org/subjects/philosophie_de_l'esprit"
+        },
+        {
+          "name": "Esprit et corps",
+          "url": "https://openlibrary.org/subjects/esprit_et_corps"
+        },
+        {
+          "name": "Causalité",
+          "url": "https://openlibrary.org/subjects/causalité"
+        },
+        {
+          "name": "Kausalität",
+          "url": "https://openlibrary.org/subjects/kausalität"
+        },
+        {
+          "name": "Leib-Seele-Problem",
+          "url": "https://openlibrary.org/subjects/leib-seele-problem"
+        },
+        {
+          "name": "Reduktionismus",
+          "url": "https://openlibrary.org/subjects/reduktionismus"
+        },
+        {
+          "name": "Lichaam en geest",
+          "url": "https://openlibrary.org/subjects/lichaam_en_geest"
+        },
+        {
+          "name": "Causaliteit",
+          "url": "https://openlibrary.org/subjects/causaliteit"
+        },
+        {
+          "name": "Reductionisme",
+          "url": "https://openlibrary.org/subjects/reductionisme"
+        },
+        {
+          "name": "Geist",
+          "url": "https://openlibrary.org/subjects/geist"
+        },
+        {
+          "name": "Mind & Body",
+          "url": "https://openlibrary.org/subjects/mind_&_body"
+        },
+        {
+          "name": "Speculative Philosophy",
+          "url": "https://openlibrary.org/subjects/speculative_philosophy"
+        },
+        {
+          "name": "Philosophy & Religion",
+          "url": "https://openlibrary.org/subjects/philosophy_&_religion"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "Current debates on the mind-body problem can be traced back to the late 1950s and early 1960s.",
+          "comment": "",
+          "first_sentence": true
+        }
+      ],
+      "notes": "Includes bibliographical references (p. [135]-139) and index.\n\"A Bradford book.\"\nBook consists of four revised lectures given by the author as the Townsend Lectures at the University of California, Berkeley, in Mar. 1996.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/mindinphysicalwo0000kimj",
+          "availability": "borrow",
+          "formats": {},
+          "borrow_url": "https://openlibrary.org/books/OL364079M/Mind_in_a_physical_world/borrow",
+          "checkedout": false
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/150137-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/150137-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/150137-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780262112345"
+  },
+  "timestamp": 1767726627989,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

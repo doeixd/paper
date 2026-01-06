@@ -1,0 +1,89 @@
+{
+  "key": "isbn-0631148116",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL2537801M/Truth_and_interpretation",
+      "key": "/books/OL2537801M",
+      "title": "Truth and interpretation",
+      "subtitle": "perspectives on the philosophy of Donald Davidson",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL2668627A/Ernest_Lepore",
+          "name": "Ernest Lepore"
+        }
+      ],
+      "number_of_pages": 520,
+      "pagination": "xii, 520 p. :",
+      "by_statement": "edited by Ernest LePore.",
+      "identifiers": {
+        "librarything": [
+          "1519103"
+        ],
+        "goodreads": [
+          "1943104"
+        ],
+        "isbn_10": [
+          "0631148116"
+        ],
+        "lccn": [
+          "85018720"
+        ],
+        "oclc": [
+          "12420568"
+        ],
+        "openlibrary": [
+          "OL2537801M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "B945.D384 T78 1986",
+          "B945.D384T78 1986"
+        ],
+        "dewey_decimal_class": [
+          "191"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Blackwell"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Oxford, UK"
+        },
+        {
+          "name": "New York, NY, USA"
+        }
+      ],
+      "publish_date": "1986",
+      "subjects": [
+        {
+          "name": "Addresses, essays, lectures",
+          "url": "https://openlibrary.org/subjects/addresses,_essays,_lectures"
+        },
+        {
+          "name": "Davidson, donald, 1917-2003",
+          "url": "https://openlibrary.org/subjects/davidson,_donald,_1917-2003"
+        }
+      ],
+      "subject_people": [
+        {
+          "name": "Donald Davidson (1917-)",
+          "url": "https://openlibrary.org/subjects/person:donald_davidson_(1917-)"
+        }
+      ],
+      "notes": "Includes bibliographies and index.\nContains many of the papers presented at a conference held at Rutgers University, Apr. 28, 1984; complements Actions and events (1985) in which the other essays appear.\n\"A companion to Davidson's Inquiries into truth and interpretation\"--Pref.",
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/4640977-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/4640977-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/4640977-L.jpg"
+      }
+    },
+    "verifiedISBN": "0631148116"
+  },
+  "timestamp": 1767731059056,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

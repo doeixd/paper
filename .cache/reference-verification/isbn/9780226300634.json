@@ -1,0 +1,115 @@
+{
+  "key": "isbn-9780226300634",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL9475718M/Theory_and_Reality",
+      "key": "/books/OL9475718M",
+      "title": "Theory and Reality",
+      "subtitle": "An Introduction to the Philosophy of Science (Science and Its Conceptual Foundations series)",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL444585A/Peter_Godfrey-Smith",
+          "name": "Peter Godfrey-Smith"
+        }
+      ],
+      "number_of_pages": 272,
+      "weight": "12 ounces",
+      "identifiers": {
+        "goodreads": [
+          "31931"
+        ],
+        "wikidata": [
+          "Q80191839"
+        ],
+        "librarything": [
+          "214660"
+        ],
+        "isbn_10": [
+          "0226300633"
+        ],
+        "isbn_13": [
+          "9780226300634"
+        ],
+        "lccn": [
+          "2002155305"
+        ],
+        "oclc": [
+          "51223665"
+        ],
+        "openlibrary": [
+          "OL9475718M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "Q175.G596 2003",
+          "Q175 .G596 2003"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "University Of Chicago Press"
+        }
+      ],
+      "publish_date": "August 1, 2003",
+      "subjects": [
+        {
+          "name": "Science",
+          "url": "https://openlibrary.org/subjects/science"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Science, philosophy",
+          "url": "https://openlibrary.org/subjects/science,_philosophy"
+        },
+        {
+          "name": "Natuurwetenschappen",
+          "url": "https://openlibrary.org/subjects/natuurwetenschappen"
+        },
+        {
+          "name": "Filosofie",
+          "url": "https://openlibrary.org/subjects/filosofie"
+        },
+        {
+          "name": "Naturwissenschaften",
+          "url": "https://openlibrary.org/subjects/naturwissenschaften"
+        },
+        {
+          "name": "Philosophie",
+          "url": "https://openlibrary.org/subjects/philosophie"
+        },
+        {
+          "name": "Filosofia da ciência",
+          "url": "https://openlibrary.org/subjects/filosofia_da_ciência"
+        },
+        {
+          "name": "Wissenschaftsphilosophie",
+          "url": "https://openlibrary.org/subjects/wissenschaftsphilosophie"
+        }
+      ],
+      "excerpts": [
+        {
+          "text": "This book is a survey of roughly one hundred years of argument about the nature of science.",
+          "comment": "",
+          "first_sentence": true
+        },
+        {
+          "text": "This book is a survey of roughly one hundred years of argument about the nature of science.",
+          "comment": ""
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/140969-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/140969-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/140969-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780226300634"
+  },
+  "timestamp": 1767731059565,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}
