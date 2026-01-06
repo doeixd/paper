@@ -225,5 +225,8 @@ test-organizer verbose='true':
 
 # Assemble and release The Reality of Wholes with its Appendix.
 release-wholes-appendix dry_run='false':
-	just assemble "The Reality of Wholes.md" "The Reality of Wholes with Appendix.md" appendices="Appendix-Category-Theory.md" strategy=smart move_refs=true
-	just release "The Reality of Wholes with Appendix.md" format=typst output="releases/The Reality of Wholes with Appendix.pdf" dry_run={{dry_run}}
+	@Write-Host "Assembling paper with appendix..."
+	@& {{bun}} scripts/assemble_paper.ts --main "The Reality of Wholes.md" --out "The Reality of Wholes with Appendix.md" --strategy smart --appendix "Appendix-Category-Theory.md" --move-refs-to-end
+	@Write-Host "Releasing paper to PDF..."
+	@if ("{{dry_run}}" -eq "true") { & {{python}} scripts/release.py "The Reality of Wholes with Appendix.md" --format typst --output "releases/The Reality of Wholes with Appendix.pdf" --dry-run }
+	@if ("{{dry_run}}" -eq "false") { & {{python}} scripts/release.py "The Reality of Wholes with Appendix.md" --format typst --output "releases/The Reality of Wholes with Appendix.pdf" }
