@@ -56,22 +56,7 @@ help:
 ##   append     true/false toggles whether to append to the output file.
 
 citations files='' output='' refs_file='' quiet='false' append='false':
-	@$cmd_args = @()
-	@$files = "{{files}}"
-	@if ($files.Trim().Length -gt 0) {
-	@$cmd_args += $files.Split(' ', [System.StringSplitOptions]::RemoveEmptyEntries)
-	@}
-	@if ("{{output}}") {
-	@$cmd_args += "-o"
-	@$cmd_args += "{{output}}"
-	@}
-	@if ("{{refs_file}}") {
-	@$cmd_args += "-r"
-	@$cmd_args += "{{refs_file}}"
-	@}
-	@if ("{{quiet}}" -eq "true") { $cmd_args += "-q" }
-	@if ("{{append}}" -eq "true") { $cmd_args += "-a" }
-	@& {{python}} scripts/citation_extractor.py @cmd_args
+	@$cmd_args = @(); $files = "{{files}}"; if ($files.Trim().Length -gt 0) { $cmd_args += $files.Split(' ', [System.StringSplitOptions]::RemoveEmptyEntries) }; if ("{{output}}") { $cmd_args += "-o"; $cmd_args += "{{output}}" }; if ("{{refs_file}}") { $cmd_args += "-r"; $cmd_args += "{{refs_file}}" }; if ("{{quiet}}" -eq "true") { $cmd_args += "-q" }; if ("{{append}}" -eq "true") { $cmd_args += "-a" }; & {{python}} scripts/citation_extractor.py @cmd_args
 
 # ---------------------------------------------------------------------------
 # Reference maintenance
@@ -101,16 +86,7 @@ organize-refs file='references.md' dry_run='false' backup='true':
 #   confidence     Optional float (string) for threshold (e.g., "0.8").
 
 verify-refs file='references.md' output='' report='' dry_run='false' skip_claude='false' no_cache='false' clear_cache='false' backup='true' confidence='':
-	@$cmd_args = @("--input", "{{file}}")
-	@if ("{{output}}") { $cmd_args += @("--output", "{{output}}") }
-	@if ("{{report}}") { $cmd_args += @("--report-path", "{{report}}") }
-	@if ("{{dry_run}}" -eq "true") { $cmd_args += "--dry-run" }
-	@if ("{{skip_claude}}" -eq "true") { $cmd_args += "--skip-claude" }
-	@if ("{{no_cache}}" -eq "true") { $cmd_args += "--no-cache" }
-	@if ("{{clear_cache}}" -eq "true") { $cmd_args += "--clear-cache" }
-	@if ("{{backup}}" -eq "false") { $cmd_args += "--no-backup" }
-	@if ("{{confidence}}") { $cmd_args += @("--confidence-threshold", "{{confidence}}") }
-	@& {{bun}} run scripts/verify-references.ts @cmd_args
+	@$cmd_args = @("--input", "{{file}}"); if ("{{output}}") { $cmd_args += @("--output", "{{output}}") }; if ("{{report}}") { $cmd_args += @("--report-path", "{{report}}") }; if ("{{dry_run}}" -eq "true") { $cmd_args += "--dry-run" }; if ("{{skip_claude}}" -eq "true") { $cmd_args += "--skip-claude" }; if ("{{no_cache}}" -eq "true") { $cmd_args += "--no-cache" }; if ("{{clear_cache}}" -eq "true") { $cmd_args += "--clear-cache" }; if ("{{backup}}" -eq "false") { $cmd_args += "--no-backup" }; if ("{{confidence}}") { $cmd_args += @("--confidence-threshold", "{{confidence}}") }; & {{bun}} run scripts/verify-references.ts @cmd_args
 
 # ---------------------------------------------------------------------------
 # Conversion and release pipeline
@@ -128,14 +104,7 @@ verify-refs file='references.md' output='' report='' dry_run='false' skip_claude
 #   keep_temp  true/false to retain intermediate files.
 
 convert file format='latex' strategy='filter' output='' preamble='' strict='true' include_missing='false' keep_temp='false':
-	@$cmd_args = @("{{file}}", "--format", "{{format}}", "--strategy", "{{strategy}}")
-	@if ("{{output}}") { $cmd_args += @("--output", "{{output}}") }
-	@if ("{{preamble}}") { $cmd_args += @("--preamble", "{{preamble}}") }
-	@if ("{{strict}}" -eq "true") { $cmd_args += "--strict-matching" }
-	@else { $cmd_args += "--no-strict-matching" }
-	@if ("{{include_missing}}" -eq "true") { $cmd_args += "--include-missing" }
-	@if ("{{keep_temp}}" -eq "true") { $cmd_args += "--keep-temp" }
-	@& {{python}} scripts/paper_converter.py @cmd_args
+	@$cmd_args = @("{{file}}", "--format", "{{format}}", "--strategy", "{{strategy}}"); if ("{{output}}") { $cmd_args += @("--output", "{{output}}") }; if ("{{preamble}}") { $cmd_args += @("--preamble", "{{preamble}}") }; if ("{{strict}}" -eq "true") { $cmd_args += "--strict-matching" } else { $cmd_args += "--no-strict-matching" }; if ("{{include_missing}}" -eq "true") { $cmd_args += "--include-missing" }; if ("{{keep_temp}}" -eq "true") { $cmd_args += "--keep-temp" }; & {{python}} scripts/paper_converter.py @cmd_args
 
 # Assemble multiple markdown files using the Bun-powered tool.
 # Required arguments: main, out.
@@ -150,15 +119,14 @@ convert file format='latex' strategy='filter' output='' preamble='' strict='true
 #   separator    Custom separator (default: \n\n---\n\n).
 
 assemble main out appendices='' strategy='simple' metadata='' placeholder='' insert_before='' insert_after='' refs_file='' move_refs='false' separator='\n\n---\n\n':
-	#!powershell -NoProfile -Command
-	$cmd_args = @("--main", "{{main}}", "--out", "{{out}}", "--strategy", "{{strategy}}", "--separator", "{{separator}}")
-	if ("{{appendices}}") { "{{appendices}}".Split(' ', [System.StringSplitOptions]::RemoveEmptyEntries) | ForEach-Object { $cmd_args += @("--appendix", $_) } }
-	if ("{{metadata}}") { $cmd_args += @("--metadata", "{{metadata}}") }
-	if ("{{placeholder}}") { $cmd_args += @("--placeholder", "{{placeholder}}") }
-	if ("{{insert_before}}") { $cmd_args += @("--insert-before", "{{insert_before}}") }
-	if ("{{insert_after}}") { $cmd_args += @("--insert-after", "{{insert_after}}") }
-	if ("{{refs_file}}") { $cmd_args += @("--refs-file", "{{refs_file}}") }
-	if ("{{move_refs}}" -eq "true") { $cmd_args += "--move-refs-to-end" }
+	@$cmd_args = @("--main", "{{main}}", "--out", "{{out}}", "--strategy", "{{strategy}}", "--separator", "{{separator}}"); \
+	if ("{{appendices}}") { "{{appendices}}".Split(' ', [System.StringSplitOptions]::RemoveEmptyEntries) | ForEach-Object { $cmd_args += @("--appendix", $_) } }; \
+	if ("{{metadata}}") { $cmd_args += @("--metadata", "{{metadata}}") }; \
+	if ("{{placeholder}}") { $cmd_args += @("--placeholder", "{{placeholder}}") }; \
+	if ("{{insert_before}}") { $cmd_args += @("--insert-before", "{{insert_before}}") }; \
+	if ("{{insert_after}}") { $cmd_args += @("--insert-after", "{{insert_after}}") }; \
+	if ("{{refs_file}}") { $cmd_args += @("--refs-file", "{{refs_file}}") }; \
+	if ("{{move_refs}}" -eq "true") { $cmd_args += "--move-refs-to-end" }; \
 	& {{bun}} scripts/assemble_paper.ts @cmd_args
 
 # Wrapper around `pdf_assembler.py`. Creates PDFs from Typst/LaTeX and optionally
@@ -170,12 +138,11 @@ assemble main out appendices='' strategy='simple' metadata='' placeholder='' ins
 #   keep_temp true/false to preserve intermediates.
 
 pdf-assemble main output='' front='' end='' keep_temp='false':
-	#!powershell -NoProfile -Command
-	$cmd_args = @("{{main}}")
-	if ("{{front}}") { "{{front}}".Split(',', [System.StringSplitOptions]::RemoveEmptyEntries) | ForEach-Object { $cmd_args += @("--front", $_.Trim()) } }
-	if ("{{end}}") { "{{end}}".Split(',', [System.StringSplitOptions]::RemoveEmptyEntries) | ForEach-Object { $cmd_args += @("--end", $_.Trim()) } }
-	if ("{{output}}") { $cmd_args += @("--output", "{{output}}") }
-	if ("{{keep_temp}}" -eq "true") { $cmd_args += "--keep-temp" }
+	@$cmd_args = @("{{main}}"); \
+	if ("{{front}}") { "{{front}}".Split(',', [System.StringSplitOptions]::RemoveEmptyEntries) | ForEach-Object { $cmd_args += @("--front", $_.Trim()) } }; \
+	if ("{{end}}") { "{{end}}".Split(',', [System.StringSplitOptions]::RemoveEmptyEntries) | ForEach-Object { $cmd_args += @("--end", $_.Trim()) } }; \
+	if ("{{output}}") { $cmd_args += @("--output", "{{output}}") }; \
+	if ("{{keep_temp}}" -eq "true") { $cmd_args += "--keep-temp" }; \
 	& {{python}} scripts/pdf_assembler.py @cmd_args
 
 # Full release pipeline with pandoc + Typst/LaTeX conversion.
@@ -190,16 +157,7 @@ pdf-assemble main output='' front='' end='' keep_temp='false':
 #   keep_temp   true/false to keep intermediates.
 
 release file format='' config='' output='' strategy='' dry_run='false' verbose='false' keep_temp='false':
-	@$cmd_args = @()
-	@if ("{{file}}") { $cmd_args += "{{file}}" }
-	@if ("{{config}}") { $cmd_args += @("--config", "{{config}}") }
-	@if ("{{format}}") { $cmd_args += @("--format", "{{format}}") }
-	@if ("{{output}}") { $cmd_args += @("--output", "{{output}}") }
-	@if ("{{strategy}}") { $cmd_args += @("--citation-strategy", "{{strategy}}") }
-	@if ("{{dry_run}}" -eq "true") { $cmd_args += "--dry-run" }
-	@if ("{{verbose}}" -eq "true") { $cmd_args += "--verbose" }
-	@if ("{{keep_temp}}" -eq "true") { $cmd_args += "--keep-temp" }
-	@& {{python}} scripts/release.py @cmd_args
+	@$cmd_args = @(); if ("{{file}}") { $cmd_args += "{{file}}" }; if ("{{config}}") { $cmd_args += @("--config", "{{config}}") }; if ("{{format}}") { $cmd_args += @("--format", "{{format}}") }; if ("{{output}}") { $cmd_args += @("--output", "{{output}}") }; if ("{{strategy}}") { $cmd_args += @("--citation-strategy", "{{strategy}}") }; if ("{{dry_run}}" -eq "true") { $cmd_args += "--dry-run" }; if ("{{verbose}}" -eq "true") { $cmd_args += "--verbose" }; if ("{{keep_temp}}" -eq "true") { $cmd_args += "--keep-temp" }; & {{python}} scripts/release.py @cmd_args
 
 # Convenience target for releasing the main paper via Typst into releases/final.pdf.
 
@@ -225,17 +183,7 @@ release-final file='paper.md':
 #   config           Optional JSON config file.
 
 cleanup profile='safe' dry_run='true' categories='' include_glob='' exclude_glob='' reference_mode='prune' yes='false' plan='' rewrite='false' root='' config='':
-	@$cmd_args = @("--profile", "{{profile}}", "--reference-cache-mode", "{{reference_mode}}")
-	@if ("{{dry_run}}" -eq "true") { $cmd_args += "--dry-run" } else { $cmd_args += "--no-dry-run" }
-	@if ("{{categories}}") { $cmd_args += @("--categories", "{{categories}}") }
-	@if ("{{include_glob}}") { $cmd_args += @("--include-glob", "{{include_glob}}") }
-	@if ("{{exclude_glob}}") { $cmd_args += @("--exclude-glob", "{{exclude_glob}}") }
-	@if ("{{yes}}" -eq "true") { $cmd_args += "--yes" }
-	@if ("{{plan}}") { $cmd_args += @("--plan-output", "{{plan}}") }
-	@if ("{{rewrite}}" -eq "true") { $cmd_args += "--rewrite-history" }
-	@if ("{{root}}") { $cmd_args += @("--root", "{{root}}") }
-	@if ("{{config}}") { $cmd_args += @("--config", "{{config}}") }
-	@& {{bun}} scripts/cleanup-cli.ts @cmd_args
+	@$cmd_args = @("--profile", "{{profile}}", "--reference-cache-mode", "{{reference_mode}}"); if ("{{dry_run}}" -eq "true") { $cmd_args += "--dry-run" } else { $cmd_args += "--no-dry-run" }; if ("{{categories}}") { $cmd_args += @("--categories", "{{categories}}") }; if ("{{include_glob}}") { $cmd_args += @("--include-glob", "{{include_glob}}") }; if ("{{exclude_glob}}") { $cmd_args += @("--exclude-glob", "{{exclude_glob}}") }; if ("{{yes}}" -eq "true") { $cmd_args += "--yes" }; if ("{{plan}}") { $cmd_args += @("--plan-output", "{{plan}}") }; if ("{{rewrite}}" -eq "true") { $cmd_args += "--rewrite-history" }; if ("{{root}}") { $cmd_args += @("--root", "{{root}}") }; if ("{{config}}") { $cmd_args += @("--config", "{{config}}") }; & {{bun}} scripts/cleanup-cli.ts @cmd_args
 
 # ---------------------------------------------------------------------------
 # Domain-specific helpers
@@ -277,6 +225,5 @@ test-organizer verbose='true':
 
 # Assemble and release The Reality of Wholes with its Appendix.
 release-wholes-appendix dry_run='false':
-	#!powershell -NoProfile -Command
 	just assemble "The Reality of Wholes.md" "The Reality of Wholes with Appendix.md" appendices="Appendix-Category-Theory.md" strategy=smart move_refs=true
 	just release "The Reality of Wholes with Appendix.md" format=typst output="releases/The Reality of Wholes with Appendix.pdf" dry_run={{dry_run}}
