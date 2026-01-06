@@ -665,8 +665,6 @@ Where causal powers, counterfactual stability, and resistance to informational i
 
 A pattern is universally discoverable when any sufficiently capable agent, attempting to predict within the same constraints, is robustly selected toward encoding it. Alternatives simply incur escalating algorithmic complexity. This invariance is epistemic rather than metaphysical: it reflects convergence under shared constraints, not fundamentality. Whether that pattern is the physical wall of a hurricane, the legal boundary of a corporation, or the psychological reality of a dragon, each is a discoverable invariant in its own domain.
 
----
-
 # Appendix A: Category Theory and the Reality of Wholes
 
 ## 0. What This Appendix Proves

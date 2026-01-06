@@ -1,0 +1,122 @@
+2026-01-06 15:36:21,651 - INFO - Successfully imported paper_converter
+2026-01-06 15:36:21,670 - INFO - Successfully imported pdf_assembler
+2026-01-06 15:36:25,064 - INFO - Input validation passed: The Reality of Wholes with Appendix.md (119649 bytes)
+2026-01-06 15:36:25,065 - INFO - Starting Academic Paper Release Pipeline
+2026-01-06 15:36:25,065 - INFO - Input: The Reality of Wholes with Appendix.md
+2026-01-06 15:36:25,065 - INFO - Output: releases\The Reality of Wholes with Appendix.pdf
+2026-01-06 15:36:25,065 - INFO - Format: typst
+2026-01-06 15:36:25,065 - INFO - Config: 0 validation errors
+2026-01-06 15:36:25,066 - INFO - Converting markdown to target format...
+2026-01-06 15:36:25,066 - INFO - Processing metadata...
+2026-01-06 15:36:25,068 - INFO - Extracting citations...
+2026-01-06 15:36:25,077 - INFO - Found 22 citations
+2026-01-06 15:36:25,078 - INFO - Loading and processing references...
+2026-01-06 15:36:25,081 - INFO - Loaded 1394 reference entries
+2026-01-06 15:36:25,082 - INFO - Generated 12 references (strategy: filter)
+2026-01-06 15:36:25,083 - WARNING - 1 citations not found in references.md
+2026-01-06 15:36:25,083 - INFO - Combining paper with filtered references...
+2026-01-06 15:36:25,102 - INFO - Combined file created: 120622 bytes
+2026-01-06 15:36:25,102 - INFO - Converting to typst format...
+2026-01-06 15:36:26,110 - INFO - Target file created: 125817 bytes
+2026-01-06 15:36:26,110 - INFO - Successfully converted to typst: The Reality of Wholes with Appendix_combined.typst
+2026-01-06 15:36:26,111 - INFO - Generating PDF with attachments...
+2026-01-06 15:36:26,111 - INFO - Main document: The Reality of Wholes with Appendix_combined.typst
+2026-01-06 15:36:26,129 - INFO - Converting The Reality of Wholes with Appendix_combined.typst (typst) to PDF...
+2026-01-06 15:36:28,809 - ERROR - PDF conversion failed for The Reality of Wholes with Appendix_combined.typst: Command '['typst', 'compile', 'The Reality of Wholes with Appendix_combined.typst', 'The Reality of Wholes with Appendix_combined.pdf']' returned non-zero exit status 1.
+2026-01-06 15:36:28,809 - ERROR - Failed to process The Reality of Wholes with Appendix_combined.typst: Failed to convert The Reality of Wholes with Appendix_combined.typst to PDF: Command '['typst', 'compile', 'The Reality of Wholes with Appendix_combined.typst', 'The Reality of Wholes with Appendix_combined.pdf']' returned non-zero exit status 1.
+2026-01-06 15:36:28,809 - ERROR - Release failed after 3.7s: Failed to convert The Reality of Wholes with Appendix_combined.typst to PDF: Command '['typst', 'compile', 'The Reality of Wholes with Appendix_combined.typst', 'The Reality of Wholes with Appendix_combined.pdf']' returned non-zero exit status 1.
+2026-01-06 15:36:28,809 - INFO - Starting cleanup...
+2026-01-06 15:36:28,811 - INFO - Cleanup complete: 2 intermediate, 1 temp files removed
+2026-01-06 15:36:28,811 - ERROR - Release failed with unexpected exception
+Traceback (most recent call last):
+  File "C:\Users\Patrick\paper\scripts\release.py", line 878, in _generate_pdf
+    result_pdf = self._run_with_timeout(
+        lambda: convert_to_pdf(file_path, pdf_file),
+        timeout
+    )
+  File "C:\Users\Patrick\paper\scripts\release.py", line 787, in _run_with_timeout
+    raise result
+  File "C:\Users\Patrick\paper\scripts\release.py", line 769, in wrapper
+    result = func()
+  File "C:\Users\Patrick\paper\scripts\release.py", line 879, in <lambda>
+    lambda: convert_to_pdf(file_path, pdf_file),
+            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Patrick\paper\scripts\pdf_assembler.py", line 72, in convert_to_pdf
+    result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+  File "C:\Users\Patrick\AppData\Local\Programs\Python\Python314\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['typst', 'compile', 'The Reality of Wholes with Appendix_combined.typst', 'The Reality of Wholes with Appendix_combined.pdf']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Patrick\paper\scripts\release.py", line 1291, in main
+    final_pdf = releaser.release(args.input_file, args.output, dry_run=args.dry_run)
+  File "C:\Users\Patrick\paper\scripts\release.py", line 387, in release
+    final_pdf = self._generate_pdf(target_file, output_path)
+  File "C:\Users\Patrick\paper\scripts\release.py", line 887, in _generate_pdf
+    raise RuntimeError(f"Failed to convert {file_path} to PDF: {e}")
+RuntimeError: Failed to convert The Reality of Wholes with Appendix_combined.typst to PDF: Command '['typst', 'compile', 'The Reality of Wholes with Appendix_combined.typst', 'The Reality of Wholes with Appendix_combined.pdf']' returned non-zero exit status 1.
+2026-01-06 15:36:52,015 - INFO - Successfully imported paper_converter
+2026-01-06 15:36:52,016 - INFO - Successfully imported pdf_assembler
+2026-01-06 15:36:52,811 - INFO - Input validation passed: The Reality of Wholes with Appendix.md (119649 bytes)
+2026-01-06 15:36:52,811 - INFO - Starting Academic Paper Release Pipeline
+2026-01-06 15:36:52,812 - INFO - Input: The Reality of Wholes with Appendix.md
+2026-01-06 15:36:52,812 - INFO - Output: releases\The Reality of Wholes with Appendix.pdf
+2026-01-06 15:36:52,812 - INFO - Format: typst
+2026-01-06 15:36:52,812 - INFO - Config: 0 validation errors
+2026-01-06 15:36:52,812 - INFO - Converting markdown to target format...
+2026-01-06 15:36:52,813 - INFO - Processing metadata...
+2026-01-06 15:36:52,814 - INFO - Extracting citations...
+2026-01-06 15:36:52,828 - INFO - Found 22 citations
+2026-01-06 15:36:52,828 - INFO - Loading and processing references...
+2026-01-06 15:36:52,831 - INFO - Loaded 1394 reference entries
+2026-01-06 15:36:52,833 - INFO - Generated 12 references (strategy: filter)
+2026-01-06 15:36:52,833 - WARNING - 1 citations not found in references.md
+2026-01-06 15:36:52,833 - INFO - Combining paper with filtered references...
+2026-01-06 15:36:52,853 - INFO - Combined file created: 120622 bytes
+2026-01-06 15:36:52,853 - INFO - Converting to typst format...
+2026-01-06 15:36:53,194 - INFO - Target file created: 125817 bytes
+2026-01-06 15:36:53,194 - INFO - Successfully converted to typst: The Reality of Wholes with Appendix_combined.typst
+2026-01-06 15:36:53,195 - INFO - Generating PDF with attachments...
+2026-01-06 15:36:53,195 - INFO - Main document: The Reality of Wholes with Appendix_combined.typst
+2026-01-06 15:36:53,215 - INFO - Converting The Reality of Wholes with Appendix_combined.typst (typst) to PDF...
+2026-01-06 15:36:53,362 - ERROR - PDF conversion failed for The Reality of Wholes with Appendix_combined.typst: Command '['typst', 'compile', 'The Reality of Wholes with Appendix_combined.typst', 'The Reality of Wholes with Appendix_combined.pdf']' returned non-zero exit status 1.
+2026-01-06 15:36:53,363 - ERROR - Failed to process The Reality of Wholes with Appendix_combined.typst: Failed to convert The Reality of Wholes with Appendix_combined.typst to PDF: Command '['typst', 'compile', 'The Reality of Wholes with Appendix_combined.typst', 'The Reality of Wholes with Appendix_combined.pdf']' returned non-zero exit status 1.
+2026-01-06 15:36:53,363 - ERROR - Release failed after 0.6s: Failed to convert The Reality of Wholes with Appendix_combined.typst to PDF: Command '['typst', 'compile', 'The Reality of Wholes with Appendix_combined.typst', 'The Reality of Wholes with Appendix_combined.pdf']' returned non-zero exit status 1.
+2026-01-06 15:36:53,363 - INFO - Starting cleanup...
+2026-01-06 15:36:53,364 - DEBUG - Cleaned up intermediate file: The Reality of Wholes with Appendix_refs_filtered.md
+2026-01-06 15:36:53,364 - DEBUG - Cleaned up intermediate file: The Reality of Wholes with Appendix_combined.md
+2026-01-06 15:36:53,364 - INFO - Cleanup complete: 2 intermediate, 0 temp files removed
+2026-01-06 15:36:53,365 - ERROR - Release failed with unexpected exception
+Traceback (most recent call last):
+  File "C:\Users\Patrick\paper\scripts\release.py", line 878, in _generate_pdf
+    result_pdf = self._run_with_timeout(
+        lambda: convert_to_pdf(file_path, pdf_file),
+        timeout
+    )
+  File "C:\Users\Patrick\paper\scripts\release.py", line 787, in _run_with_timeout
+    raise result
+  File "C:\Users\Patrick\paper\scripts\release.py", line 769, in wrapper
+    result = func()
+  File "C:\Users\Patrick\paper\scripts\release.py", line 879, in <lambda>
+    lambda: convert_to_pdf(file_path, pdf_file),
+            ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Patrick\paper\scripts\pdf_assembler.py", line 72, in convert_to_pdf
+    result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+  File "C:\Users\Patrick\AppData\Local\Programs\Python\Python314\Lib\subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['typst', 'compile', 'The Reality of Wholes with Appendix_combined.typst', 'The Reality of Wholes with Appendix_combined.pdf']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Patrick\paper\scripts\release.py", line 1291, in main
+    final_pdf = releaser.release(args.input_file, args.output, dry_run=args.dry_run)
+  File "C:\Users\Patrick\paper\scripts\release.py", line 387, in release
+    final_pdf = self._generate_pdf(target_file, output_path)
+  File "C:\Users\Patrick\paper\scripts\release.py", line 887, in _generate_pdf
+    raise RuntimeError(f"Failed to convert {file_path} to PDF: {e}")
+RuntimeError: Failed to convert The Reality of Wholes with Appendix_combined.typst to PDF: Command '['typst', 'compile', 'The Reality of Wholes with Appendix_combined.typst', 'The Reality of Wholes with Appendix_combined.pdf']' returned non-zero exit status 1.

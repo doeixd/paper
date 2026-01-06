@@ -28,7 +28,7 @@ function parseArguments(): AssembleOptions {
       out: { type: 'string' },
       strategy: { type: 'string', default: 'simple' },
       metadata: { type: 'string' },
-      separator: { type: 'string', default: '\n\n---\n\n' },
+      separator: { type: 'string', default: '\n\n' },
       'insert-before': { type: 'string' },
       'insert-after': { type: 'string' },
       'placeholder': { type: 'string' },
