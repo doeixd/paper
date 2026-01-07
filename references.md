@@ -116,8 +116,6 @@ Gaifman, Haim, and Marc Snir. 1982. "Probabilities over rich languages, testing 
 
 Gil Martín, Francisco Javier, and Jesús Vega Encabo. 2008. "Truth and Moral Objectivity: Procedural Realism in Putnam's Pragmatism." *Theoria: An International Journal for Theory, History and Foundations of Science* 23(3): 343-356.
 
-Gingerich, Owen. 1993. *The eye of heaven*. New York: American Institute of Physics. ISBN 978-0883188637.
-
 Glenn, Patrick. 2025. "The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth." PhilPapers. https://philpapers.org/rec/GLETAO.
 
 Godfrey-Smith, Peter. 2003. *Theory and Reality*. Chicago: University of Chicago Press. ISBN 978-0226300634.
@@ -198,7 +196,9 @@ Landauer, Rolf. 1961. "Irreversibility and Heat Generation in the Computing Proc
 
 Landauer, Rolf. 1981. "Fundamental Physical Limitations of the Computational Process." In *Sixth International Conference on Noise in Physical Systems*, edited by P. H. E. Meijer, R. D. Mountain, and F. J. Soulen Jr., Publication No. 614: 12–17. Washington, DC: National Bureau of Standards.
 
-Laudan, Larry. 1978. *Progress and Its Problems*. Berkeley: University of California Press. ISBN 978-0520037212.
+Laudan, Larry. 1977. *Progress and Its Problems: Towards a Theory of Scientific Growth*. Berkeley: University of California Press. ISBN 978-0520037212.
+
+Lavoisier, Antoine. 1789. *Elements of Chemistry*. Translated by Robert Kerr. Edinburgh: William Creech.
 
 Laukkonen, Ruben, et al. 2025. "A Beautiful Loop: An Active Inference Theory of Consciousness." *Neuroscience & Biobehavioral Reviews* 176: 106296. https://doi.org/10.1016/j.neubiorev.2025.106296.
 
@@ -253,6 +253,8 @@ O'Connor, Cailin, and James Owen Weatherall. 2019. *The misinformation age*. New
 Oizumi, Masafumi, et al. 2014. "From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0." *PLOS Computational Biology* 10(5): e1003588. https://doi.org/10.1371/journal.pcbi.1003588.
 
 Olsson, Erik J. 2005. *Against coherence*. Oxford: Oxford University Press. ISBN 978-0199279999.
+
+Open Science Collaboration. 2015. "Estimating the Reproducibility of Psychological Science." *Science* 349(6251): aac4716. https://doi.org/10.1126/science.aac4716.
 
 Ostrom, Elinor. 1990. *Governing the commons*. Cambridge: Cambridge University Press. ISBN 978-0521405997.
 
@@ -309,6 +311,8 @@ Rescher, Nicholas. 1973. *The Coherence Theory of Truth*. Oxford: Clarendon Pres
 Rescher, Nicholas. 1996. *Process metaphysics*. Albany: State University of New York Press. ISBN 978-0791428184.
 
 Rescher, Nicholas. 2001. *Cognitive Pragmatism*. Pittsburgh, PA: University of Pittsburgh Press. ISBN 978-0822941538.
+
+Rissanen, Jorma. 1978. "Modeling by Shortest Data Description." *Automatica* 14(5): 465–471. https://doi.org/10.1016/0005-1098(78)90005-5.
 
 Roda, Weston C., Marie B. Varughese, Donglin Han, and Michael Y. Li. 2020. "Why Is It Difficult to Accurately Predict the COVID-19 Epidemic?" *Infectious Disease Modelling* 5: 271–281. https://doi.org/10.1016/j.idm.2020.03.001.
 
