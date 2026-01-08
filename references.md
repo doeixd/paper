@@ -24,6 +24,8 @@ Baysan, Umut. 2025. "Emergent Moral Non-naturalism." *Philosophy and Phenomenolo
 
 Bedau, Mark A. 1997. "Weak Emergence." *Philosophical Perspectives* 11: 375–99. https://doi.org/10.1111/0029-4624.31.s11.17.
 
+Begley, C. Glenn, and Lee M. Ellis. 2012. "Raise Standards for Preclinical Cancer Research." *Nature* 483(7391): 531–533. https://doi.org/10.1038/483531a.
+
 Bennett, Andrew, and Jeffrey T. Checkel, eds. 2014. *Process Tracing*. Cambridge: Cambridge University Press. https://doi.org/10.1017/CBO9781139858472. ISBN 9781139858472, 9781107042452.
 
 Bennett, Charles H. 1988. "The Universal Turing machine" In *The Universal Turing Machine: A Half-Century Survey*, edited by Rolf Herken, 227-257. Oxford: Oxford University Press. ISBN 0-19-853741-7.
@@ -383,6 +385,8 @@ Turchin, Peter. 2003. *Historical dynamics*. Princeton, NJ: Princeton University
 Van Inwagen, Peter. 1990. *What's the meaning of "this"?*. Ithaca, NY: Cornell University Press. ISBN 978-0801424090.
 
 Varley, Thomas F., and Erik Hoel. 2022. "Emergence as the conversion of information: a unifying theory." *Philosophical Transactions of the Royal Society A* 380(2227): 20210150. https://doi.org/10.1098/rsta.2021.0150.
+
+Watson, James D., and Francis H.C. Crick. 1953. "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid." *Nature* 171(4356): 737–738. https://doi.org/10.1038/171737a0.
 
 Woodward, James. 2003. *Making Things Happen*. Oxford: Oxford University Press. ISBN 978-0195155273.
 

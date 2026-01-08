@@ -42,6 +42,12 @@ This paper models inquiry as evolutionary cultivation of viable public knowledge
 
 Viability differs from mere endurance. A brutal empire persisting through coercion exhibits high brittleness; its longevity measures energy wasted suppressing instability. The distinction is crucial for our framework: viability is a system's capacity to solve problems with sustainably low systemic costs, empirically measurable through ratios of coercive to productive resources.
 
+**Scope clarification:** This paper's primary focus is epistemological—it addresses justification of beliefs and the structure of knowledge systems. However, brittleness analysis applies to any system that makes implicit claims about how the world works: political institutions, social norms, economic arrangements. These are not mere analogies. A brutal state makes implicit empirical claims (e.g., "order requires centralized coercion," "dissent causes instability") that can be assessed via the same brittleness metrics we apply to scientific theories.
+
+The framework treats social institutions as testable systems: they impose structures on human interaction, those structures generate costs when misaligned with human social reality ($C(t)$ from coercion, $P(t)$ from proliferating rules, $M(t)$ from institutional complexity), and those costs provide objective evidence of misalignment. This is not sociology replacing epistemology—it is epistemic analysis applied to a broader class of systems that embed empirical claims.
+
+When we invoke social institutions in this paper, we are demonstrating the framework's generality, not changing the subject. The logic is identical: systems that accumulate brittleness reveal structural misalignment; low-brittleness systems earn higher warrant.
+
 The framework incorporates power, path dependence, and contingency as key variables. Power exercised to maintain brittle systems becomes a primary non-viability indicator through high coercive costs. Claims are probabilistic: brittleness increases vulnerability to contingent shocks without guaranteeing collapse. This failure-driven process grounds fallible realism. Knowledge systems converge on emergent structures determined by mind-independent constraints, yielding a falsifiable research program.
 
 The framework targets cumulative knowledge systems where inter-generational claims and pragmatic feedback enable evaluation. It provides macro-level foundations for individual higher-order evidence (Section 7), not solutions to Gettier cases or basic perception.
@@ -471,7 +477,7 @@ A belief can therefore be justified yet false, if it coheres with a network that
 * **Level 3: Contextual Coherence.** The baseline status for any claim. A proposition is coherent within a specific Shared Network, regardless of that network's long-term viability. This level explains the internal rationality of failed or fictional systems, but the framework's externalist check, the assessment of systemic brittleness, prevents this from being mistaken for justified truth.
 * **Level 2: Justified Truth.** The highest epistemic status practically achievable. A proposition is justified as true if it is certified by a **Consensus Network** that has a demonstrated track record of low systemic brittleness. For all rational purposes, we are licensed to treat such claims as true. The diagnosed health of the certifying network provides powerful higher-order evidence that functions as a defeater for radical skepticism. To doubt a claim at this level, without new evidence of rising brittleness, is to doubt the entire adaptive project of science itself.
 
-  **Terminological clarification:** "Justified Truth" refers not to truth itself being justified (truth is not the sort of thing that can be justified), but to a proposition's status as justified in the direction of truth—certified by a reliable network as the best available approximation to objective truth. Read it as "justified-as-true" rather than "true-and-justified." This terminology makes explicit that Level 2 represents the highest warrant practically achievable while maintaining fallibilism: propositions at this level can later be overturned when new domains or constraints reveal failure, as occurred when relativity succeeded Newtonian mechanics. The warrant was genuine; the revision was progress, not error-correction.
+  **Terminological clarification:** "Justified Truth" is deflationary shorthand for a belief's epistemic status. To say a belief has "Justified Truth" status means: you are justified in calling that belief true because it coheres with a low-brittleness Consensus Network. This does not mean truth itself is justified (truth is not the kind of thing that can be justified). Rather, it means you are warranted in asserting the belief as true. The term names the highest practical epistemic status: justified assertion of truth within the best available network. This is compatible with fallibilism—propositions at this level can later be overturned when new domains or constraints reveal failure, as occurred when relativity succeeded Newtonian mechanics. The warrant was genuine; the revision was progress, not error-correction.
 * **Level 1: Objective Truth.** The ultimate, regulative ideal of the process. A proposition is objectively true if its principles are part of the real, emergent Apex Network: the objective structure of viable solutions. In information-theoretic terms, this represents optimal computational closure, where a system's enacted boundaries (its Markov Blankets) achieve maximum alignment with the causal constraints of the environment, minimizing information leakage to the theoretical minimum. While this structure is never fully mapped, it functions as the formal standard that makes our comparative judgments of "more" or "less" brittle meaningful. It is the structure toward which the reduction of systemic costs forces our knowledge systems to converge.
 
 This layered framework avoids a simplistic "Whig history" by recognizing that Justified Truth is a historically-situated achievement. Newtonian mechanics earned its Level 2 status by being a maximally low-brittleness system for its problem-space for over two centuries. Its replacement by relativity does not retroactively invalidate that status but shows the evolutionary process at work, where an expanding problem-space revealed pragmatic constraints that required a new, more viable system. This allows for sharp, non-anachronistic historical judgments: a claim can be justifiably true in its time (Level 2) yet still be objectively false (not Level 1) when judged against the Apex Network from the perspective of a more resilient successor.
@@ -572,6 +578,20 @@ This also clarifies the status of the Apex Network. It is not a realm of abstrac
 
 This deflationary approach also explains why the framework can remain neutral on classic debates about the nature of truth while still providing robust epistemic guidance. We need not settle whether truth is correspondence or coherence or pragmatic utility to diagnose that a system accumulating high brittleness is becoming epistemically unreliable. The costs are the signal. Truth-talk is how we mark what made it through the filter.
 
+### 4.3.4 Constraint Fields and Attractor Basins
+
+When we speak of "alignment with constraint structure" or "viability under constraints," we are not invoking correspondence theory's picture of beliefs being checked against reality. Instead, we are describing how constraint structure functions as a **field** that generates **attractor basins**.
+
+Think of constraint structure not as a fixed template to be matched, but as a force field. Just as gravity creates attractor basins in physical space (valleys where objects naturally accumulate), pragmatic constraints create attractor basins in possibility space. Knowledge systems that impose lower operational costs (lower $P(t)$, $C(t)$, $M(t)$) occupy deeper basins. Systems that impose higher costs occupy shallower basins or unstable equilibria.
+
+"Alignment" in this framework means: the system has settled into a stable attractor basin under the constraint field. "Misalignment" means: the system occupies an unstable configuration that will be displaced when sufficient perturbation occurs.
+
+There is no separate "checking" operation where we compare our beliefs to reality. The constraint field is reality's causal structure, and belief systems naturally migrate toward viable configurations through pragmatic selection. Failed predictions, rising maintenance costs, and institutional friction are all manifestations of the field's pressure pushing the system out of an unstable basin.
+
+The Apex Network is not a Platonic form to be approximated. It is the deepest, most stable attractor basin in the constraint field—the configuration that multiple independent systems converge toward because it imposes minimum operational costs under the full range of constraints.
+
+This is deflationary: we are not ascribing a substantive "truth" property to beliefs that align with reality. We are simply observing that certain configurations survive pragmatic filtering while others do not. The survivors define the attractor basin we call the Apex Network.
+
 ### 4.4 The Evolving Structure of Knowledge: Convergent Core and Pluralist Frontier
 
 The historical process of pragmatic filtering gives our evolving **Consensus Networks** a discernible structure, which can be understood as having two distinct epistemic zones. This distinction is not about the nature of reality itself, but describes the justificatory status of our claims at a given time.
@@ -585,6 +605,18 @@ This represents the load-bearing foundations of our current knowledge. It compri
 A central objection to any convergence thesis is underdetermination: multiple theories may be compatible with all available evidence. This framework accepts underdetermination as genuine pluralism. Where pragmatic constraints underdetermine solutions—multiple stable configurations can survive filtering—we should expect persistent theoretical diversity, not forced convergence. But this does not entail relativism, because the peaks are not disjoint. Any web that survives pragmatic filtering under shared constraints must contain certain structural elements necessary for that survival. The Apex Network is not a unique destination but an intersection: the load-bearing structure that all viable configurations must share.
 
 Analogy: eyes evolved independently over forty times across the animal kingdom. Many designs work. Compound eyes, camera eyes, pinhole eyes. These are distinct local peaks, different solutions to the problem of vision. But every visual system must solve the same problems: focusing light, detecting wavelengths, transmitting signals to a processing center. The "shared structure" is not one correct design. It is what any solution to those constraints must include. This pluralism is not relativism because all viable peaks share necessary constraint-determined structure and are sharply distinguished from demonstrably failed systems in the Negative Canon.
+
+A reviewer may worry: if multiple local peaks exist, and we are "trapped" on a local peak rather than the global maximum, doesn't this vindicate the isolation objection? Are we simply coherent within our peak while other peaks are equally coherent within theirs?
+
+No, for three reasons:
+
+**First, constraint sharing:** All viable peaks must share load-bearing structural elements required by the constraints. The eye evolution analogy makes this concrete: forty independent solutions to vision exist, but all share necessary features (light-focusing mechanism, photoreceptor array, signal transmission pathway). "Multiple peaks" does not mean "arbitrary diversity." It means: constraint structure permits variation within boundaries, but strictly rules out configurations that violate necessary requirements.
+
+**Second, objective ranking:** Local peaks are not epistemically symmetric. They are ranked by measurable brittleness. A knowledge system trapped on a high-brittleness local peak will exhibit rising $P(t)$, $C(t)$, and $M(t)$ relative to systems on low-brittleness peaks. This cost asymmetry is objective—it manifests as publication patterns, resource allocation, institutional friction—and provides asymmetric warrant. We are not "equally justified" within our respective peaks.
+
+**Third, attractor basin depth:** The "global peak" metaphor misleads. Constraint fields do not always have a single global maximum. They have attractor basins of varying depth. What matters is not whether we are on the global peak, but whether we are in a deep, stable basin versus a shallow, unstable one. Brittleness metrics diagnose basin depth. Systems in deep basins (low brittleness) earn higher warrant than systems in shallow basins (high brittleness), even if both are "coherent" internally.
+
+This yields constrained pluralism, not relativism: where constraints permit multiple stable solutions, we accept genuine diversity. But that diversity is bounded by shared structural requirements and ranked by objective performance metrics.
 
 The Pluralist Frontier therefore describes domains where multiple low-brittleness configurations coexist. Different interpretations of quantum mechanics, for instance, may occupy different peaks while sharing the mathematical structure and predictive apparatus that any viable quantum theory requires. Competing models of consciousness may differ in their ontological commitments while converging on the functional architecture that any adequate theory must capture. Pluralism about the periphery is compatible with convergence on the core.
 
@@ -657,6 +689,14 @@ The role of external shocks in this process is clarificatory rather than causal.
 This framework also clarifies the role of what historians might term "early adopters" or "intellectual pioneers." These are agents who perceive that the accumulated burden of maintenance has already exceeded the cost of transition before this becomes consensus. By bearing the immediate social and material costs of heresy, they function as nucleation points for the new paradigm, demonstrating its viability and thereby reducing the perceived transition cost for others. Their actions are not irrational but reflect a different assessment of when the crossing point has been reached.
 
 This account complements the fitness trap analysis in Section 4.6 by explaining not just why systems become locked but what unlocks them. The interplay between accumulating maintenance costs and the threshold of transition costs provides a naturalistic explanation for the temporal dynamics of paradigm shifts, grounded in the same brittleness metrics that diagnose system health. It is not a deterministic prediction of when shifts will occur but a framework for understanding why they occur when they do.
+
+**Qualification:** This mechanism explains one pathway to revolutionary science—the crisis-driven pathway Kuhn emphasized, where accumulating anomalies and rising theoretical costs create pressure for paradigm shift. It does not claim to explain all scientific revolutions.
+
+Some revolutions occur not through accumulated brittleness but through sudden expansion of possibility space. The double helix discovery (Watson & Crick 1953) revolutionized genetics not because classical Mendelian genetics was brittle, but because molecular biology opened entirely new investigative domains. Classical genetics remained viable within its scope; the revolution consisted in recognizing that genetic mechanisms could be studied at a more fundamental level.
+
+Our framework addresses crisis-driven revolutions (phlogiston to oxygen, Ptolemaic to Copernican) where rising operational costs force replacement. It does not claim that brittleness is the only mechanism for paradigm shift. Possibility-expanding revolutions like the double helix represent a different dynamic: not replacement due to fragility, but augmentation through new access to causal detail.
+
+In both cases, however, the Negative Canon plays a crucial role. Even possibility-expanding revolutions are constrained by what has demonstrably failed. The molecular revolution still had to respect the inheritance patterns Mendel discovered—it explained them at a deeper level rather than replacing them.
 
 ## 5. Applications: Mathematics as a Paradigm Case of Internal Brittleness
 
@@ -887,7 +927,7 @@ This leads to a key reframing of the relationship between agreement and truth. G
 
 Similarly, our framework provides an evolutionary grounding for the core insights of **social epistemology** (Goldman 1999; Longino 2002). Social epistemic procedures like peer review and institutionalized criticism can reduce systemic brittleness by filtering errors and forcing claims to survive adversarial scrutiny. However, their effectiveness depends on surrounding practices: data transparency, code availability, replication incentives, adversarial diversity. When these supports fail, peer review becomes unreliable as an error or fraud detector.
 
-The claim is therefore not that peer review is uniformly truth-conducive or that existing institutions reliably track viability. The claim is that structured adversarial scrutiny is one mechanism by which communities reduce brittleness when properly constituted. Empirical evidence from the replication crisis (Open Science Collaboration 2015) shows that peer review without transparency and replication incentives can perpetuate high-brittleness systems. The framework's contribution is diagnosing which institutional configurations generate rising costs (suppression of dissent, barriers to error correction, accumulated conceptual debt) versus which facilitate brittleness reduction.
+The claim is therefore not that peer review is uniformly truth-conducive or that existing institutions reliably track viability. The claim is that structured adversarial scrutiny is one mechanism by which communities reduce brittleness when properly constituted. Empirical evidence from the replication crisis (Open Science Collaboration 2015) shows that peer review without transparency and replication incentives can perpetuate high-brittleness systems. In fields like biomedical research, where referees lack access to raw data and processing code, peer review has proven particularly unreliable as a fraud-detection mechanism (Begley & Ellis 2012). The framework's contribution is diagnosing which institutional configurations generate rising costs (suppression of dissent, barriers to error correction, accumulated conceptual debt) versus which facilitate brittleness reduction.
 
 This provides the externalist check that purely procedural models can lack. It also offers an empirical grounding for the central insight of standpoint theory (Harding 1991; Lugones 2003), naturalizing the idea that marginalized perspectives can be a privileged source of data about a system's hidden costs. In our model, marginalized perspectives are not privileged due to a metaphysical claim about identity, but because they often function as the most sensitive detectors of a system's First-Order Costs and hidden Coercive Overheads (C(t)). A system that appears stable to its beneficiaries may be generating immense, unacknowledged costs for those at its margins. Their dissent is not automatically correct, but it is epistemically valuable as a diagnostic of potential brittleness that dominant networks may be insulating themselves from recognizing. Suppressing these perspectives is therefore not just a moral failure, but a critical epistemic failure that allows brittleness to accumulate undetected. This view of collective knowledge as an emergent, adaptive process finds resonance in contemporary work on dynamic holism (Sims 2024).
 
@@ -923,7 +963,24 @@ The similarity is genuine. But the frameworks operate at different temporal and 
 
 The epistemic difference is this: Lakatos tells historians how to classify past theories. Brittleness tells practitioners which current systems are becoming unreliable engines for future inquiry. One evaluates output; the other diagnoses structural health.
 
-This distinction matters for practitioners. A research community can observe rising conceptual debt P(t), escalating coercive overhead C(t) to maintain the programme's authority, and accelerating model complexity M(t) with diminishing returns. These are not post-hoc classifications but real-time warning signals. The brittleness framework provides actionable epistemic feedback that Lakatosian retrospection cannot supply.
+This distinction matters for practitioners. A research community can observe rising conceptual debt $P(t)$, escalating coercive overhead $C(t)$ to maintain the programme's authority, and accelerating model complexity $M(t)$ with diminishing returns. These are not post-hoc classifications but real-time warning signals. The brittleness framework provides actionable epistemic feedback that Lakatosian retrospection cannot supply.
+
+**The Causal Engine Made Explicit:**
+
+Lakatos describes the symptoms: proliferating ad-hoc hypotheses, declining novel predictions, protective belt expansions. Our framework identifies the underlying causal mechanism that generates these symptoms:
+
+1. **Initial misalignment:** The research programme's core (hard core plus protective belt) has structural features that misalign with constraint structure in some domain.
+2. **Pragmatic pushback:** This misalignment manifests as failed predictions, anomalies, or limited exportability to adjacent domains.
+3. **Defensive response:** Rather than revise the hard core (high cost), practitioners add auxiliary hypotheses to protective belt (lower immediate cost).
+4. **Rising maintenance burden:** Each auxiliary patch carries ongoing costs: parameters to tune, special cases to track, consistency constraints to maintain.
+5. **Cost accumulation:** As patches proliferate, $M(t)$ rises (model complexity), $P(t)$ rises (patch velocity), $C(t)$ may rise (institutional resources defending programme).
+6. **Diminishing returns:** New predictions become harder to generate; each new phenomenon requires new auxiliary structure.
+7. **Unsustainability:** Eventually operational costs exceed benefits; practitioners migrate to alternative programmes with lower cost structure.
+8. **Abandonment:** Programme enters Negative Canon as cautionary example of structural misalignment.
+
+This is a causal process: misalignment leads to pragmatic pushback, which triggers defensive patching, which generates rising costs, which forces abandonment. Lakatos retrospectively identifies stages 3-7 after the fact. Brittleness metrics ($P(t)$, $C(t)$, $M(t)$) track stages 4-6 in real-time, providing forward-looking diagnosis.
+
+**Example:** Phlogiston chemistry followed this exact trajectory. Initial elegance (stages 1-2) led to negative weight patch (stage 3), which generated proliferating parameters (stage 4), manifesting as defensive publication patterns (stage 5-6). Lavoisier's oxygen framework provided lower-cost alternative (stage 7), resulting in phlogiston abandonment (stage 8).
 
 #### 6.4.2 Why Brittleness Is Not Just Simplicity
 
@@ -1186,7 +1243,9 @@ Systematically studying the record of failed systems discerns the contours of th
 
 This model is not presented as a final, complete system but as the foundation for a progressive and falsifiable research program. Critical future challenges remain, such as fully modeling the role of power asymmetries in creating path-dependent fitness traps and applying the framework to purely aesthetic or mathematical domains.
 
-We began with the challenge of distinguishing viable knowledge from brittle dogma. The model we have developed suggests the ultimate arbiter is not the elegance of a theory or the consensus of its adherents but the trail of consequences it leaves in the world. Systemic costs are not abstract accounting measures; they are ultimately experienced by individuals as suffering, instability, and the frustration of human goals. From this perspective, dissent, friction, and protest function as primary sources of epistemological data. They are the system's own real-time signals, indicating where First-Order Costs are accumulating and foreshadowing the rising Coercive Overheads (C(t)) that will be required to maintain stability against those pressures.
+We began with the challenge of distinguishing viable knowledge from brittle dogma. The model we have developed suggests the ultimate arbiter is not the elegance of a theory or the consensus of its adherents but the trail of consequences it leaves in the world. Systemic costs are not abstract accounting measures; they are ultimately experienced by individuals as suffering, instability, and the frustration of human goals. From this perspective, dissent, friction, and protest function as primary sources of epistemological data. They are the system's own real-time signals, indicating where First-Order Costs are accumulating and foreshadowing the rising Coercive Overheads ($C(t)$) that will be required to maintain stability against those pressures.
+
+**Qualification on dissent:** Not all dissent signals brittleness. Dissent from misunderstanding (e.g., popular opposition to evolution based on misinterpretation) provides no epistemic information about the discipline's internal health. The epistemically valuable dissent comes from practitioners or informed observers who identify specific rising costs: replication failures, suppressed anomalies, institutional barriers to error correction. External dissent from misunderstanding is noise; internal dissent about rising operational costs is signal.
 
 It provides the external constraint that coherentism has long needed, but it does so without resorting to foundationalism. It accounts for the convergence that motivates scientific realism, but it does so within a fallibilist and naturalistic picture of inquiry.
 
@@ -1366,6 +1425,8 @@ Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism and The
 
 Baysan, Umut. 2025. "Emergent Moral Non-naturalism." *Philosophy and Phenomenological Research* 110(1): 1–20. https://doi.org/10.1111/phpr.70057.
 
+Begley, C. Glenn, and Lee M. Ellis. 2012. "Raise Standards for Preclinical Cancer Research." *Nature* 483(7391): 531–533. https://doi.org/10.1038/483531a.
+
 Bennett-Hunter, Guy. 2015. "Emergence, Emergentism and Pragmatism." *Theology and Science* 13(3): 337–57. https://doi.org/10.1080/14746700.2015.1053760.
 
 Bennett-Hunter, Guy. 2015. *Ineffability and Religious Experience*. London: Routledge (originally Pickering & Chatto).
@@ -1401,8 +1462,6 @@ Gadamer, Hans-Georg. 1975. *Truth and Method*. Translated by Joel Weinsheimer an
 Gaifman, Haim, and Marc Snir. 1982. "Probabilities over rich languages, testing and randomness." *Journal of Symbolic Logic* 47(3): 495-548.
 
 Gil Martín, Francisco Javier, and Jesús Vega Encabo. 2008. "Truth and Moral Objectivity: Procedural Realism in Putnam's Pragmatism." *Theoria: An International Journal for Theory, History and Foundations of Science* 23(3): 343-356.
-
-Gingerich, Owen. 1993. *The Eye of Heaven: Ptolemy, Copernicus, Kepler*. New York: American Institute of Physics.
 
 Goldman, Alvin I. 1979. "What Is Justified Belief?" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel. https://doi.org/10.1007/978-94-009-9493-5_1.
 
@@ -1525,6 +1584,8 @@ Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's th
 Turchin, Peter. 2003. *Historical Dynamics: Why States Rise and Fall*. Princeton, NJ: Princeton University Press.
 
 Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica* 43(1–2): 99–124. https://doi.org/10.1111/j.1746-8361.1989.tb00933.x.
+
+Watson, James D., and Francis H.C. Crick. 1953. "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid." *Nature* 171(4356): 737–738. https://doi.org/10.1038/171737a0.
 
 Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." *Proceedings of the Sixth International Congress of Genetics* 1: 356–66.
 
