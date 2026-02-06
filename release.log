@@ -234,3 +234,39 @@ RuntimeError: Failed to convert The Reality of Wholes with Appendix_combined.typ
 2026-02-06 09:49:29,724 - INFO - SUCCESS! Release complete in 0.6s
 2026-02-06 09:49:29,724 - INFO - Final PDF: releases\proc-v7.pdf (143496 bytes)
 2026-02-06 09:49:29,724 - INFO - Release completed successfully: releases\proc-v7.pdf
+2026-02-06 09:56:46,758 - INFO - Successfully imported paper_converter
+2026-02-06 09:56:46,760 - INFO - Successfully imported pdf_assembler
+2026-02-06 09:56:47,869 - INFO - Input validation passed: final.md (225089 bytes)
+2026-02-06 09:56:47,871 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20260206_095647.pdf
+2026-02-06 09:56:47,871 - INFO - Starting Academic Paper Release Pipeline
+2026-02-06 09:56:47,871 - INFO - Input: final.md
+2026-02-06 09:56:47,871 - INFO - Output: releases\final.pdf
+2026-02-06 09:56:47,871 - INFO - Format: typst
+2026-02-06 09:56:47,871 - INFO - Config: 0 validation errors
+2026-02-06 09:56:47,871 - INFO - Converting markdown to target format...
+2026-02-06 09:56:47,871 - INFO - Processing metadata...
+2026-02-06 09:56:47,873 - INFO - Extracting citations...
+2026-02-06 09:56:47,895 - INFO - Found 78 citations
+2026-02-06 09:56:47,895 - INFO - Loading and processing references...
+2026-02-06 09:56:47,898 - INFO - Loaded 1444 reference entries
+2026-02-06 09:56:47,900 - INFO - Generated 60 references (strategy: filter)
+2026-02-06 09:56:47,900 - INFO - Combining paper with filtered references...
+2026-02-06 09:56:47,931 - INFO - Combined file created: 223155 bytes
+2026-02-06 09:56:47,931 - INFO - Converting to typst format...
+2026-02-06 09:56:48,582 - INFO - Target file created: 232272 bytes
+2026-02-06 09:56:48,582 - INFO - Successfully converted to typst: final_combined.typst
+2026-02-06 09:56:48,583 - INFO - Generating PDF with attachments...
+2026-02-06 09:56:48,583 - INFO - Main document: final_combined.typst
+2026-02-06 09:56:48,603 - INFO - Converting final_combined.typst (typst) to PDF...
+2026-02-06 09:56:48,982 - INFO - Converted to PDF: final_combined.pdf
+2026-02-06 09:56:48,984 - INFO - Copied single PDF to: releases\final.pdf
+2026-02-06 09:56:48,984 - INFO - PDF generation successful: 328140 bytes
+2026-02-06 09:56:48,984 - INFO - Adding metadata to PDF...
+2026-02-06 09:56:48,984 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2026-02-06 09:56:48,985 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2026-02-06 09:56:48,985 - INFO - Validated final PDF: releases\final.pdf (328140 bytes)
+2026-02-06 09:56:48,985 - INFO - Starting cleanup...
+2026-02-06 09:56:48,986 - INFO - Cleanup complete: 2 intermediate, 2 temp files removed
+2026-02-06 09:56:48,986 - INFO - SUCCESS! Release complete in 1.1s
+2026-02-06 09:56:48,987 - INFO - Final PDF: releases\final.pdf (328140 bytes)
+2026-02-06 09:56:48,987 - INFO - Release completed successfully: releases\final.pdf
