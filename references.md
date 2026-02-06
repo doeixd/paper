@@ -116,7 +116,7 @@ Gadamer, Hans-Georg. 1975. *Truth and Method*. Translated by Joel Weinsheimer an
 
 Gaifman, Haim, and Marc Snir. 1982. "Probabilities over rich languages, testing and randomness." *Journal of Symbolic Logic* 47(3): 495-548. https://doi.org/10.2307/2273587.
 
-Gell-Mann, Murray, and Seth Lloyd. 1996. "Information Measures, Effective Complexity, and Total Information." *Complexity* 2(1): 44–52. https://doi.org/10.1002/(SICI)1099-0526(199609/10)2:1<44::AID-CPLX9>3.0.CO;2-X.
+Gell-Mann, Murray, and Seth Lloyd. 1996. "Information Measures, Effective Complexity, and Total Information." *Complexity* 2(1): 44–52. https://doi.org/10.1002/(SICI)1099-0526(199609/10)2:1<44::AID-CPLX10>3.0.CO;2-X.
 
 Gil Martín, Francisco Javier, and Jesús Vega Encabo. 2008. "Truth and Moral Objectivity: Procedural Realism in Putnam's Pragmatism." *Theoria: An International Journal for Theory, History and Foundations of Science* 23(3): 343-356.
 
@@ -400,7 +400,7 @@ Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica*
 
 Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." *Proceedings of the Sixth International Congress of Genetics* 1: 356–66.
 
-Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind: An Inquiry into the Nature of Virtue and the Ethical Foundations of Knowledge*. Cambridge: Cambridge University Press.
+Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind: An Inquiry into the Nature of Virtue and the Ethical Foundations of Knowledge*. Cambridge: Cambridge University Press. ISBN 978-0521578264. https://doi.org/10.1017/CBO9781139174763.
 
 Zollman, Kevin J. S. 2009. "The Epistemic Benefit of Transient Diversity." *Erkenntnis* 72: 17–35. https://doi.org/10.1007/s10670-009-9194-6. ISSN 0165-0106.
 
