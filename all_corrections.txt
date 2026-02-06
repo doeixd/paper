@@ -4774,3 +4774,34 @@ ShellError: Failed with exit code 1
   [Orchestrator] CrossRef completed in 129ms, status: verified, confidence: 0.9
   [Orchestrator] CrossRef succeeded, returning result
 [196/196] ✓ Zollman 2013 (crossref)
+
+
+
+
+
+. The Lakatos Problem (Throughout)
+Your Text: You claim to provide the "causal engine" for Lakatos's "degenerating research programmes."
+The Issue: The reviewer asks, Where is that causal engine described? Looking at Section 2.3 and 2.4, your "engine" is the accumulation of "Systemic Costs" (patches, coercion, complexity). The reviewer thinks this is just a re-description of Lakatos, not a new engine. Lakatos already said that degenerating programs accumulate ad-hoc hypotheses.
+The Fix: You need to emphasize the Thermodynamic/Economic nature of your argument. Lakatos describes a logical degeneration (the theory gets ugly). You are describing a resource degeneration (the theory gets expensive). Lean harder into the idea of "Energy" and "Finite Resources" (bounded rationality) to distinguish yourself from Lakatos.
+
+Fix: You must explicate the economic/thermodynamic aspect of your theory more aggressive. Lakatos tracks logical degeneration; you track resource degeneration (time, money, coercion, energy). That is the "causal engine."
+
+Copernicus: It is a historical fact that Copernicus’s original model had more epicycles than the Ptolemaic model it replaced (to maintain circular orbits).
+Fix: You must change this example. Use the transition from Kepler to Newton, or acknowledge the complexity of the Copernican shift (it was preferred for other reasons initially).
+DNA (The Double Helix): The reviewer points out that not all science is crisis-driven (Kuhnian). The discovery of DNA wasn't fixing a broken model; it opened a new door.
+Fix: You need to qualify your scope. Your framework explains paradigm replacement (fixing failure), but perhaps not paradigm expansion (opening new fields). Or, argue that the "cost" of the old model was its inability to explain inheritance mechanisms.
+
+4. The "Structural Realism" Trap
+The reviewer has identified a deep tension in your argument. You claim to be a Coherentist (justification comes from the web), but you define viability as "alignment with the causal structure of the world."
+The Critique: If viability = alignment with structure, you are a Structural Realist, not a Coherentist. If you are a Realist, you are relying on correspondence, not coherence.
+Fix: You need to lean into the "Pragmatic" part of your title. Argue that we act as if we are Realists because it works, but our justification remains internal/coherentist because we never see the "Real" directly—we only see the "bill" (the cost) it sends us.
+
+5. The "Political/Social" Confusion
+The reviewer is confused by the jump between "epistemology" (truth) and "brutal states" (politics). They ask if this is an analogy or a direct application.
+Fix: You need to be explicit. "Political systems are epistemic engines that process social information." If you can't defend that strongly, move the political stuff to an "Analogy" section so it doesn't drag down the epistemological argument.
+
+6. The "Dissent" Problem
+The reviewer makes a great point about Evolution. Popular dissent (Creationism) exists, but it doesn't prove Evolutionary Biology is "brittle."
+Fix: You must distinguish between Internal Dissent (practitioners finding the model unworkable) and External Dissent (cultural rejection). Only the former counts as "Systemic Brittleness" in a scientific context.
+
+The Fix: This is the hardest part to fix. You need to frame this carefully: "We cannot know the causal structure directly (anti-realism), but the costs we incur function as if the world has a structure that punishes error." You are an Operational Realist, not a Metaphysical one.
