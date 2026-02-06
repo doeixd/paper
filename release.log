@@ -160,3 +160,77 @@ RuntimeError: Failed to convert The Reality of Wholes with Appendix_combined.typ
 2026-01-06 15:41:25,730 - INFO - SUCCESS! Release complete in 0.7s
 2026-01-06 15:41:25,730 - INFO - Final PDF: releases\The Reality of Wholes with Appendix.pdf (207966 bytes)
 2026-01-06 15:41:25,731 - INFO - Release completed successfully: releases\The Reality of Wholes with Appendix.pdf
+2026-02-06 09:49:18,976 - INFO - Successfully imported paper_converter
+2026-02-06 09:49:18,978 - INFO - Successfully imported pdf_assembler
+2026-02-06 09:49:22,982 - INFO - Input validation passed: final.md (225064 bytes)
+2026-02-06 09:49:22,986 - INFO - Backed up existing file: releases\final.pdf -> backups\final_20260206_094922.pdf
+2026-02-06 09:49:22,986 - INFO - Starting Academic Paper Release Pipeline
+2026-02-06 09:49:22,986 - INFO - Input: final.md
+2026-02-06 09:49:22,986 - INFO - Output: releases\final.pdf
+2026-02-06 09:49:22,986 - INFO - Format: typst
+2026-02-06 09:49:22,987 - INFO - Config: 0 validation errors
+2026-02-06 09:49:22,987 - INFO - Converting markdown to target format...
+2026-02-06 09:49:22,987 - INFO - Processing metadata...
+2026-02-06 09:49:22,989 - INFO - Extracting citations...
+2026-02-06 09:49:23,008 - INFO - Found 79 citations
+2026-02-06 09:49:23,009 - INFO - Loading and processing references...
+2026-02-06 09:49:23,012 - INFO - Loaded 1420 reference entries
+2026-02-06 09:49:23,014 - INFO - Generated 55 references (strategy: filter)
+2026-02-06 09:49:23,014 - WARNING - 6 citations not found in references.md
+2026-02-06 09:49:23,014 - INFO - Combining paper with filtered references...
+2026-02-06 09:49:23,042 - INFO - Combined file created: 222187 bytes
+2026-02-06 09:49:23,042 - INFO - Converting to typst format...
+2026-02-06 09:49:24,304 - INFO - Target file created: 231249 bytes
+2026-02-06 09:49:24,304 - INFO - Successfully converted to typst: final_combined.typst
+2026-02-06 09:49:24,304 - INFO - Generating PDF with attachments...
+2026-02-06 09:49:24,304 - INFO - Main document: final_combined.typst
+2026-02-06 09:49:24,323 - INFO - Converting final_combined.typst (typst) to PDF...
+2026-02-06 09:49:27,891 - INFO - Converted to PDF: final_combined.pdf
+2026-02-06 09:49:27,893 - INFO - Copied single PDF to: releases\final.pdf
+2026-02-06 09:49:27,893 - INFO - PDF generation successful: 326906 bytes
+2026-02-06 09:49:27,894 - INFO - Adding metadata to PDF...
+2026-02-06 09:49:27,894 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2026-02-06 09:49:27,894 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2026-02-06 09:49:27,894 - INFO - Validated final PDF: releases\final.pdf (326906 bytes)
+2026-02-06 09:49:27,894 - INFO - Starting cleanup...
+2026-02-06 09:49:27,896 - INFO - Cleanup complete: 2 intermediate, 2 temp files removed
+2026-02-06 09:49:27,897 - INFO - SUCCESS! Release complete in 4.9s
+2026-02-06 09:49:27,897 - INFO - Final PDF: releases\final.pdf (326906 bytes)
+2026-02-06 09:49:27,897 - INFO - Release completed successfully: releases\final.pdf
+2026-02-06 09:49:28,109 - INFO - Successfully imported paper_converter
+2026-02-06 09:49:28,110 - INFO - Successfully imported pdf_assembler
+2026-02-06 09:49:29,105 - INFO - Input validation passed: proc_v7.md (78236 bytes)
+2026-02-06 09:49:29,112 - INFO - Backed up existing file: releases\proc-v7.pdf -> backups\proc-v7_20260206_094929.pdf
+2026-02-06 09:49:29,112 - INFO - Starting Academic Paper Release Pipeline
+2026-02-06 09:49:29,112 - INFO - Input: proc_v7.md
+2026-02-06 09:49:29,112 - INFO - Output: releases\proc-v7.pdf
+2026-02-06 09:49:29,112 - INFO - Format: typst
+2026-02-06 09:49:29,112 - INFO - Config: 0 validation errors
+2026-02-06 09:49:29,112 - INFO - Converting markdown to target format...
+2026-02-06 09:49:29,112 - INFO - Processing metadata...
+2026-02-06 09:49:29,114 - INFO - Extracting citations...
+2026-02-06 09:49:29,121 - INFO - Found 17 citations
+2026-02-06 09:49:29,121 - INFO - Loading and processing references...
+2026-02-06 09:49:29,124 - INFO - Loaded 1420 reference entries
+2026-02-06 09:49:29,126 - INFO - Generated 15 references (strategy: filter)
+2026-02-06 09:49:29,126 - WARNING - 1 citations not found in references.md
+2026-02-06 09:49:29,126 - INFO - Combining paper with filtered references...
+2026-02-06 09:49:29,146 - INFO - Combined file created: 76752 bytes
+2026-02-06 09:49:29,147 - INFO - Converting to typst format...
+2026-02-06 09:49:29,443 - INFO - Target file created: 80409 bytes
+2026-02-06 09:49:29,444 - INFO - Successfully converted to typst: proc_v7_combined.typst
+2026-02-06 09:49:29,444 - INFO - Generating PDF with attachments...
+2026-02-06 09:49:29,444 - INFO - Main document: proc_v7_combined.typst
+2026-02-06 09:49:29,462 - INFO - Converting proc_v7_combined.typst (typst) to PDF...
+2026-02-06 09:49:29,720 - INFO - Converted to PDF: proc_v7_combined.pdf
+2026-02-06 09:49:29,721 - INFO - Copied single PDF to: releases\proc-v7.pdf
+2026-02-06 09:49:29,721 - INFO - PDF generation successful: 143496 bytes
+2026-02-06 09:49:29,722 - INFO - Adding metadata to PDF...
+2026-02-06 09:49:29,722 - INFO - Metadata to add: Title: Academic Paper; Author: Unknown
+2026-02-06 09:49:29,722 - WARNING - PDF metadata addition not yet implemented - requires additional libraries
+2026-02-06 09:49:29,722 - INFO - Validated final PDF: releases\proc-v7.pdf (143496 bytes)
+2026-02-06 09:49:29,722 - INFO - Starting cleanup...
+2026-02-06 09:49:29,723 - INFO - Cleanup complete: 2 intermediate, 2 temp files removed
+2026-02-06 09:49:29,724 - INFO - SUCCESS! Release complete in 0.6s
+2026-02-06 09:49:29,724 - INFO - Final PDF: releases\proc-v7.pdf (143496 bytes)
+2026-02-06 09:49:29,724 - INFO - Release completed successfully: releases\proc-v7.pdf
