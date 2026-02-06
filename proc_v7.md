@@ -290,6 +290,14 @@ This framework maps normativity's "floor" (non-negotiable viability conditions),
 
 This multi-level account applies the general three-level truth framework developed in EPC (see Glenn, Forthcoming, Section 4.3) to resolve the tension between relativism and objectivity. Normativity ascends through justificatory levels, from local coherence to objective viability.
 
+Before detailing the three levels, we need one additional clarification: ought-claims are scale-dependent. The same action can have different normative status depending on who the relevant "we" is. To avoid ambiguity, this paper treats every ought-claim as indexed to an agent-set, even when that index is implicit.
+
+- **Individual-scale oughts:** what a particular agent should do given role, evidence, and constraints.
+- **Network-scale oughts:** what members of a specific community or institution should do to preserve that network's viability.
+- **Maximally shared social oughts:** what societies generally should do under widely shared human constraints. This is the default scope when moral claims are stated without a qualifier.
+
+This indexing does not relativize away objectivity. It locates claims within the architecture of inquiry. Local claims can be correct at one scale yet overridden at a wider scale when broader constraint interactions are considered. The Apex Network remains the regulative standard for those wider, maximally shared claims.
+
 Level 1: Contextual Rightness (the 'Ought' of Coherence). This is the realm of cultural relativity, where normativity follows a network's internal rules. In a 17th-century dueling society, the predicate `insults must be met with a challenge to a duel` was contextually right. Failing to issue a challenge was 'wrong' by the system's internal logic. This level provides procedural correctness without objective justification. The 'Ought of Coherence' commands: "If in this network, follow its rules." It binds locally but lacks external authority, explaining how abhorrent actions were once "right" while creating coherence traps that externalist checks must overcome.
 
 Level 2: Justified Rightness (the 'Ought' of Viability). This level provides external, empirical justification based on demonstrated track records. While the dueling code was contextually right, historical diagnosis reveals catastrophic Tier 1 Bio-Social Costs (premature deaths of valuable community members) and high Tier 2 Costs (resources managing feuds and vendettas). The predicate is therefore justifiedly wrong, warranting its entry into the Negative Canon. The 'Ought of Viability' commands: "If we aim for resilient cooperation, adopt low-brittleness principles and avoid Negative Canon predicates."
@@ -297,6 +305,8 @@ Level 2: Justified Rightness (the 'Ought' of Viability). This level provides ext
 Level 3: Objective Rightness (the 'Ought' of Optimal Design). This represents the regulative ideal and formal standard for Level 2 comparisons. The dueling predicate is objectively wrong because its high-cost nature conflicts with efficient, low-cost cooperation principles that form the Apex Network's modally necessary structure. The 'Ought of Optimal Design' represents the commands of a system that has solved for maximal viability. Principles like reciprocity that pass independent convergence tests are our strongest candidates. The dueling code demonstrably fails to achieve this solution.
 
 This yields a useful distinction between local and global rightness. Level 1 and much of Level 2 track what is locally right relative to a given consensus network and current evidence. Level 3 tracks what is globally right relative to the full constraint structure. We rarely know that global answer with certainty. We approximate it by improving the local map through historical learning, argument, and comparative testing.
+
+In practice, most ordinary moral discourse leaves the scale index implicit and defaults to the maximally shared social level. When we say "slavery is wrong," we are typically not making a role-relative claim about a narrow subgroup. We are making a claim about what no viable society should endorse under shared human constraints.
 
 ### 4.5. The Entrenchment of Moral Principles: From Hypothesis to Core Norm
 
