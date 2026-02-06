@@ -590,7 +590,7 @@ This constrained pluralism must be sharply distinguished from full-blooded relat
 
 No. The framework implies that networks are not epistemically equal. Their authority is earned differentially through historical performance. A network with low brittleness, successful interventions across domains, and minimal coercive overhead has earned more epistemic authority than one requiring constant patching, coercive enforcement, and ad hoc modification.
 
-Disagreement between networks is therefore not symmetric. When a low-brittleness network (modern epidemiology) conflicts with a high-brittleness network (miasma theory circa 1850), we do not shrug and say "different frameworks, different truths." We say: one has earned the right to our credence through demonstrated viability; the other has accumulated costs that disqualify it.
+Disagreement between networks is therefore not symmetric. When a low-brittleness network (modern epidemiology) conflicts with a high-brittleness network such as miasma theory circa 1850, we do not shrug and say "different frameworks, different truths." We say: one has earned the right to our credence through demonstrated viability; the other has accumulated costs that disqualify it.
 
 This is not relativism but fallibilist externalism. Justification is relative to a network, but networks are ranked by objective, measurable performance under shared constraints. The ranking is itself fallible and revisable. But at any given time, it provides non-arbitrary grounds for preferring one system's deliverances over another's.
 
@@ -923,7 +923,7 @@ This is not a replacement for traditional criteria but a complement. A maximally
 
 #### 6.4.1 Brittleness vs. Degenerating Research Programmes
 
-Lakatos's Methodology of Scientific Research Programmes (1970) provides the closest historical precedent for brittleness analysis. Both frameworks track the proliferation of auxiliary hypotheses around a protective belt when a research programme faces anomalies. A degenerating programme, in Lakatos's terms, generates no novel predictions; its theoretical modifications are purely defensive, accommodating known anomalies rather than anticipating new phenomena.
+Lakatos's *Methodology of Scientific Research Programmes* (Lakatos 1970) provides the closest historical precedent for brittleness analysis. Both frameworks track the proliferation of auxiliary hypotheses around a protective belt when a research programme faces anomalies. A degenerating programme, in Lakatos's terms, generates no novel predictions; its theoretical modifications are purely defensive, accommodating known anomalies rather than anticipating new phenomena.
 
 The similarity is genuine. But the frameworks operate at different temporal and epistemic levels.
 
@@ -1014,7 +1014,7 @@ The framework's contribution is showing how to read sociological signals epistem
 
 #### 6.4.5 Brittleness vs. Problem-Solving Effectiveness
 
-Laudan's Progress and Its Problems (1977) shares the brittleness framework's focus on what theories accomplish rather than abstract truth-relations. Both assess theories pragmatically: not "does this correspond to reality?" but "what does this system achieve?"
+Laudan's *Progress and Its Problems* (Laudan 1977) shares the brittleness framework's focus on what theories accomplish rather than abstract truth-relations. Both assess theories pragmatically: not "does this correspond to reality?" but "what does this system achieve?"
 
 The similarity is substantial. Laudan scores theories by counting solved empirical problems (phenomena the theory predicts or explains) minus unsolved conceptual problems (internal contradictions, inconsistencies with background knowledge). A theory making progress solves more problems over time than it generates. This is outcome-focused, historically grounded, and avoids metaphysical disputes about truth.
 

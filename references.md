@@ -116,6 +116,8 @@ Gadamer, Hans-Georg. 1975. *Truth and Method*. Translated by Joel Weinsheimer an
 
 Gaifman, Haim, and Marc Snir. 1982. "Probabilities over rich languages, testing and randomness." *Journal of Symbolic Logic* 47(3): 495-548. https://doi.org/10.2307/2273587.
 
+Gell-Mann, Murray, and Seth Lloyd. 1996. "Information Measures, Effective Complexity, and Total Information." *Complexity* 2(1): 44–52. https://doi.org/10.1002/(SICI)1099-0526(199609/10)2:1<44::AID-CPLX9>3.0.CO;2-X.
+
 Gil Martín, Francisco Javier, and Jesús Vega Encabo. 2008. "Truth and Moral Objectivity: Procedural Realism in Putnam's Pragmatism." *Theoria: An International Journal for Theory, History and Foundations of Science* 23(3): 343-356.
 
 Glenn, Patrick. 2025. "The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth." PhilPapers. https://philpapers.org/rec/GLETAO.
@@ -348,6 +350,8 @@ Shannon, Claude E. 1948. "A Mathematical Theory of Communication." *Bell System 
 
 Sims, Matthew. 2023. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91(2): 430–48. https://doi.org/10.1017/psa.2023.104.
 
+Snow, John. 1855. *On the Mode of Communication of Cholera*. 2nd ed. London: John Churchill.
+
 Snowden, Linda Trinkaus. 1995. *Naples in the Time of Cholera, 1884–1911*. Cambridge: Cambridge University Press. ISBN 978-0521570602. https://doi.org/10.1017/CBO9780511582233.
 
 Solms, Mark. 2019. "The Hard Problem of Consciousness and the Free Energy Principle." *Frontiers in Psychology* 9: 2714. https://doi.org/10.3389/fpsyg.2018.02714.
@@ -395,6 +399,8 @@ World Bank. 2011. *World Development Report 2011*. Washington, DC: World Bank. I
 Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica* 43(1–2): 99–124. https://doi.org/10.1111/j.1746-8361.1989.tb00933.x.
 
 Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." *Proceedings of the Sixth International Congress of Genetics* 1: 356–66.
+
+Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind: An Inquiry into the Nature of Virtue and the Ethical Foundations of Knowledge*. Cambridge: Cambridge University Press.
 
 Zollman, Kevin J. S. 2009. "The Epistemic Benefit of Transient Diversity." *Erkenntnis* 72: 17–35. https://doi.org/10.1007/s10670-009-9194-6. ISSN 0165-0106.
 
