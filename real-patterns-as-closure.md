@@ -2,7 +2,7 @@
 
 ## 0. Abstract
 
-Dennett's account of real patterns remains influential because it connects ontology to compression and predictive success. Yet in its familiar form it remains vulnerable to two objections. First, it can look instrumentalist, where real means useful to us. Second, it can look permissive, where any coding trick that compresses data appears to qualify as a real pattern. This paper offers a closure-based refinement that preserves Dennett's insight while adding a non-gerrymandering constraint, defined as macro-transition autonomy. The central claim is that a pattern is real when a coarse-graining induces autonomous macro-transitions, so lower-level distinctions become irrelevant for what follows at the macro level. In exact Markov settings, strong lumpability supplies the key criterion: grouped microstates must have matching macro-transition profiles. The criterion is then extended to approximate cases using graded leakiness, so the framework remains applicable to weather systems, organisms, and social structures where closure is not perfect. The framework also allows weird but disjunctive partitions when they are genuinely closed in the specified regime. The result is a sharper realism about patterns with concrete tests and with exclusion power against dynamically incoherent composites, without collapsing into reductionism or convenience pragmatism (Dennett 1991; Shalizi and Crutchfield 2001; Rosas et al. 2024).
+Dennett's account of real patterns remains influential because it connects ontology to compression and predictive success. Yet in its familiar form it remains vulnerable to two objections. First, it can look instrumentalist, where real means useful to us. Second, it can look permissive, where any coding trick that compresses data appears to qualify as a real pattern. This paper offers a closure-based refinement that preserves Dennett's insight while adding a non-gerrymandering constraint, defined as macro-transition autonomy. The central claim is that a pattern is real when a coarse-graining induces autonomous macro-transitions, so lower-level distinctions become irrelevant for what follows at the macro level. In exact Markov settings, strong lumpability supplies the key criterion: grouped microstates must have matching macro-transition profiles. The criterion is then extended to approximate cases using graded leakiness, so the framework remains applicable to weather systems, organisms, and social structures where closure is not perfect. The framework also allows weird but disjunctive partitions when they are genuinely closed in the specified regime. The result is a sharper realism about patterns with concrete tests and with exclusion power against dynamically incoherent composites, without collapsing into reductionism or convenience pragmatism (Dennett 1991) (Shalizi 2001) (Rosas 2024).
 
 Commitment structure in brief: interventional closure is the ontological standard, and predictive closure is the evidential proxy when intervention data are limited.
 
@@ -28,9 +28,9 @@ Because closure is relative to intervention class, these admissibility constrain
 
 ### 1.1 Related work and contribution
 
-This paper sits at an intersection of four conversations. From Dennett, it takes the claim that compression and prediction can track objective structure (Dennett 1991). From computational mechanics, it takes the demand that macrostructure must preserve transition-relevant information rather than mere descriptive convenience (Shalizi and Crutchfield 2001). From recent closure work, it takes the thought that macro-autonomy can be diagnosed by screening-off relations between micro and macro trajectories (Rosas et al. 2024). From interventionist philosophy of science, it takes the idea that ontological commitment is tied to stable intervention-guiding structure, not to metaphysical fundamentality (Woodward 2003; Pearl 2000).
+This paper sits at an intersection of four conversations. From Dennett, it takes the claim that compression and prediction can track objective structure (Dennett 1991). From computational mechanics, it takes the demand that macrostructure must preserve transition-relevant information rather than mere descriptive convenience (Shalizi 2001). From recent closure work, it takes the thought that macro-autonomy can be diagnosed by screening-off relations between micro and macro trajectories (Rosas 2024). From interventionist philosophy of science, it takes the idea that ontological commitment is tied to stable intervention-guiding structure, not to metaphysical fundamentality (Woodward 2003) (Pearl 2000).
 
-It also connects to adjacent emergence and coarse-graining debates, including weak emergence, macro-causal advantage, and naturalized metaphysics (Bedau 1997; Hoel et al. 2013; Ladyman and Ross 2007; Mitchell 2009). The contribution here is narrower: a closure criterion with explicit operational tests for dynamic coherence.
+It also connects to adjacent emergence and coarse-graining debates, including weak emergence, macro-causal advantage, and naturalized metaphysics (Bedau 1997) (Hoel 2013) (Ladyman and Ross 2007) (Mitchell 2009). The contribution here is narrower: a closure criterion with explicit operational tests for dynamic coherence.
 
 Rosas et al. provide the formal machinery. The present paper uses that machinery for a philosophical purpose, to state and defend an ontological criterion with explicit exclusion conditions for dynamically incoherent partitions.
 
@@ -104,9 +104,9 @@ Let a micro-process be $X_t$, and let a candidate macro-process be $Z_t = g(X_t)
 
 Notation: $Z_{t+1}^{L}$ denotes the macro-trajectory segment $(Z_{t+1}, Z_{t+2}, \ldots, Z_{t+L})$. Macro-transition profile means the vector of transition probabilities from one macrostate into the set of macro-classes.
 
-Equivalent language from computational mechanics is useful here. Closure is the condition where the macro-level predictor from macro-pasts (the $\varepsilon$-side) matches what is obtainable from full micro-pasts for macro-futures (the $\upsilon$-side). When that equality holds, additional micro-information is redundant for the macro target (Shalizi and Crutchfield 2001; Rosas et al. 2024).
+Equivalent language from computational mechanics is useful here. Closure is the condition where the macro-level predictor from macro-pasts (the $\varepsilon$-side) matches what is obtainable from full micro-pasts for macro-futures (the $\upsilon$-side). When that equality holds, additional micro-information is redundant for the macro target (Shalizi 2001) (Rosas 2024).
 
-In the idealized settings considered here, with explicit dynamics and admissible intervention classes specified, informational diagnostics can track the same closure structure tested by interventional criteria. This matters for method. Leakiness diagnostics are not a separate ontology test layered on top of causal claims. They are operational indicators of the same closure target when estimators are chosen carefully (Rosas et al. 2024).
+In the idealized settings considered here, with explicit dynamics and admissible intervention classes specified, informational diagnostics can track the same closure structure tested by interventional criteria. This matters for method. Leakiness diagnostics are not a separate ontology test layered on top of causal claims. They are operational indicators of the same closure target when estimators are chosen carefully (Rosas 2024).
 
 Outside first-order Markov settings, the same logic is expressed over enriched histories. Non-Markov closure asks whether macro-history screens off micro-history for macro-futures under the same admissible intervention class. Strong lumpability is the special case where relevant history reduces to the current state.
 
@@ -156,7 +156,7 @@ Mini illustration. Suppose two partitions achieve comparable one-step observatio
 
 Definition (macro-transition profile). For a macrostate $M$, its macro-transition profile is the vector of transition probabilities from $M$ into the available macro-classes at the chosen horizon.
 
-In Markov settings, the exact condition is strong lumpability. Partition the microstate space into macro-classes. For any two microstates in the same class, the total transition probability to each macro-class must be the same. If that condition holds, the induced macro-process is Markov with well-defined transitions. If it fails, macro-dynamics depend on hidden micro-history (Rosas et al. 2024).
+In Markov settings, the exact condition is strong lumpability. Partition the microstate space into macro-classes. For any two microstates in the same class, the total transition probability to each macro-class must be the same. If that condition holds, the induced macro-process is Markov with well-defined transitions. If it fails, macro-dynamics depend on hidden micro-history (Rosas 2024).
 
 For the Markov template used here, strong lumpability is the canonical exact criterion for autonomous macro-transitions. It should be read as an ideal limit case. In broader modeling practice, the same role is played by equivalent closure conditions over enriched histories or augmented state spaces when first-order Markov assumptions do not hold.
 
@@ -368,7 +368,7 @@ Dennett was right that compression and prediction can reveal objective structure
 
 What was missing was an explicit anti-gerrymandering criterion and a graded account for imperfect real systems. Strong lumpability is a natural exact formalization of that criterion in Markov settings. Leakiness-based approximate lumpability supplies the realistic extension.
 
-Relation to causal-emergence work should be explicit. Hoel-style effective-information analyses ask when macro-descriptions gain determinism and reduce degeneracy relative to micro-descriptions (Hoel et al. 2013). This paper is aligned with that motivation but differs in emphasis. The present criterion is organized around closure under an admissible intervention class and around robustness across regime and horizon choices. Effective-information gains can be treated as corroborating diagnostics inside that framework rather than as the sole ontological test.
+Relation to causal-emergence work should be explicit. Hoel-style effective-information analyses ask when macro-descriptions gain determinism and reduce degeneracy relative to micro-descriptions (Hoel 2013). This paper is aligned with that motivation but differs in emphasis. The present criterion is organized around closure under an admissible intervention class and around robustness across regime and horizon choices. Effective-information gains can be treated as corroborating diagnostics inside that framework rather than as the sole ontological test.
 
 ### 8.3 Sharpened slogan
 
@@ -392,7 +392,7 @@ For social kinds, admissibility usually proceeds through implementation mechanis
 
 Objection: prediction can work without ontological commitment.
 
-Reply: this paper adopts an interventionist-causal criterion for objecthood. When a level supports stable intervention and control in its domain, that is a reason for ontological commitment to that level's patterns (Woodward 2003; Pearl 2000). This is a theory-laden meta-commitment, and it is stated explicitly. The argument is not that prediction alone logically entails existence.
+Reply: this paper adopts an interventionist-causal criterion for objecthood. When a level supports stable intervention and control in its domain, that is a reason for ontological commitment to that level's patterns (Woodward 2003) (Pearl 2000). This is a theory-laden meta-commitment, and it is stated explicitly. The argument is not that prediction alone logically entails existence.
 
 ### 9.3 Markov assumptions are too restrictive
 
