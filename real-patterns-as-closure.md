@@ -1,4 +1,4 @@
-# Real Patterns as Closure: A Lumpability Criterion for Dynamically Coherent Macro-Objecthood
+# Real Patterns Need Closure: A Dynamical Criterion for Non-Gerrymandered Macro-Objects
 
 ## 0. Abstract
 
@@ -30,7 +30,7 @@ Because closure is relative to intervention class, these admissibility constrain
 
 This paper sits at an intersection of four conversations. From Dennett, it takes the claim that compression and prediction can track objective structure (Dennett 1991). From computational mechanics, it takes the demand that macrostructure must preserve transition-relevant information rather than mere descriptive convenience (Shalizi and Crutchfield 2001). From recent closure work, it takes the thought that macro-autonomy can be diagnosed by screening-off relations between micro and macro trajectories (Rosas et al. 2024). From interventionist philosophy of science, it takes the idea that ontological commitment is tied to stable intervention-guiding structure, not to metaphysical fundamentality (Woodward 2003; Pearl 2000).
 
-It also connects to adjacent emergence and coarse-graining debates, including weak emergence, macro-causal advantage, and naturalized metaphysics (Bedau 1997; Hoel, Albantakis, and Tononi 2013; Ladyman and Ross 2007; Mitchell 2009). The contribution here is narrower: a closure criterion with explicit operational tests for dynamic coherence.
+It also connects to adjacent emergence and coarse-graining debates, including weak emergence, macro-causal advantage, and naturalized metaphysics (Bedau 1997; Hoel et al. 2013; Ladyman and Ross 2007; Mitchell 2009). The contribution here is narrower: a closure criterion with explicit operational tests for dynamic coherence.
 
 Rosas et al. provide the formal machinery. The present paper uses that machinery for a philosophical purpose, to state and defend an ontological criterion with explicit exclusion conditions for dynamically incoherent partitions.
 
@@ -368,7 +368,7 @@ Dennett was right that compression and prediction can reveal objective structure
 
 What was missing was an explicit anti-gerrymandering criterion and a graded account for imperfect real systems. Strong lumpability is a natural exact formalization of that criterion in Markov settings. Leakiness-based approximate lumpability supplies the realistic extension.
 
-Relation to causal-emergence work should be explicit. Hoel-style effective-information analyses ask when macro-descriptions gain determinism and reduce degeneracy relative to micro-descriptions (Hoel, Albantakis, and Tononi 2013). This paper is aligned with that motivation but differs in emphasis. The present criterion is organized around closure under an admissible intervention class and around robustness across regime and horizon choices. Effective-information gains can be treated as corroborating diagnostics inside that framework rather than as the sole ontological test.
+Relation to causal-emergence work should be explicit. Hoel-style effective-information analyses ask when macro-descriptions gain determinism and reduce degeneracy relative to micro-descriptions (Hoel et al. 2013). This paper is aligned with that motivation but differs in emphasis. The present criterion is organized around closure under an admissible intervention class and around robustness across regime and horizon choices. Effective-information gains can be treated as corroborating diagnostics inside that framework rather than as the sole ontological test.
 
 ### 8.3 Sharpened slogan
 
