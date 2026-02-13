@@ -138,6 +138,8 @@ Relation: This is a domain-specific application of the general theory found in f
 ## Project Layout Notes
 
 - `final.md`, `from-beliefs-to-truth.md`, `proc_v7.md`, `The Reality of Wholes.md`, etc., are the current EPC manuscripts. **Ignore `paper.md`; it is an outdated draft kept only for reference.**
+- `real-patterns-as-closure.md` is the active standalone submission draft on closure/lumpability (current title may change). Keep its scope tight: induced closure in spatiotemporal systems, with social-kinds material framed as bounded extension work.
+- For `real-patterns-as-closure.md`, release via `python scripts/release.py real-patterns-as-closure.md --format typst --output releases/real-patterns-as-closure.pdf`. Citation parser is sensitive to grouped parentheticals, so prefer parser-safe author-year citations in separate parentheses when needed.
 - `references.md` stores the Chicago-style bibliography. Append new citations alphabetically and mirror existing formatting exactly.
 - `edits/` houses mandatory timestamped summaries (`YYYY-MM-DD - HH-MM - SUMMARY ...`) after substantial work. 
 - `sources/`, `random/`, `physics/`, `old/`, and `backups/` contain supporting material or archives. Treat them as read-only unless the user explicitly instructs otherwise. You can search them for background info or keywords if you need to. Just make sure to verify the information is correct/up-to-date before using it.
