@@ -38,7 +38,7 @@ Accordingly, this paper adopts computational-mechanics closure logic and predict
 
 The novel claim here is not any one ingredient in isolation. It is their joint use as a discriminating criterion: closure of macro-transition structure, exact in ideal lumpable settings and graded by leakiness in realistic settings, used specifically to filter gerrymandered partitions from autonomous macro-object candidates.
 
-The paper proceeds as follows. Section 2 disambiguates pattern talk by separating reality, pattern, instance, and representation. Section 3 formulates closure as the governing idea. Section 4 introduces strong lumpability and provides a toy example with success and failure partitions. Section 5 extends the criterion to graded, noisy domains. Section 6 applies the view to dynamically incoherent composites and high-maintenance ontological posits. Section 7 shows how canonical candidates can be evaluated under the protocol. Section 8 states the interpretive gain for Dennett. Section 9 addresses four standard objections. Section 10 concludes with implications and future work.
+The paper proceeds as follows. Section 2 disambiguates pattern talk by separating reality, pattern, instance, and representation. Section 3 formulates closure as the governing idea. Section 4 introduces strong lumpability and provides a toy example with success and failure partitions. Section 5 extends the criterion to graded, noisy domains. Section 6 applies the view to dynamically incoherent composites and high-maintenance ontological posits. Section 7 shows how canonical candidates can be evaluated under the protocol. Section 8 states the interpretive gain for Dennett. Section 9 addresses five standard objections. Section 10 concludes with implications and future work.
 
 In brief: a coarse-graining counts as a real pattern when its macro-transition structure is autonomous for a specified regime and horizon, so that within-class micro-differences do not change what happens next at the macro level. In ideal settings this reduces to strong lumpability. In realistic settings it is a graded condition measured by how much micro-detail still leaks into macro-forecasts. The formal criterion, with precise definitions and commitment structure, is stated at the end of Section 3 once the relevant concepts have been introduced.
 
@@ -296,7 +296,7 @@ Predictive fit alone cannot settle objecthood. Overfit representational schemes 
 
 ### 5.6 Failure modes and diagnostics
 
-Three failure modes are especially relevant.
+Four failure modes are especially relevant.
 
 1. Predictive closure can appear strong in-sample while interventional closure fails under admissible perturbations.
 2. Finite-sample estimation can bias mutual-information and divergence proxies.
@@ -447,6 +447,8 @@ Bedau, Mark A. 1997. "Weak Emergence." *Philosophical Perspectives* 11: 375-399.
 
 Dennett, Daniel C. 1991. "Real Patterns." *Journal of Philosophy* 88 (1): 27-51.
 
+Gładziejewski, Paweł. 2025. "Real patterns, the predictive mind, and the cognitive construction of the manifest image." *Synthese* 206: 225. https://doi.org/10.1007/s11229-025-05311-0.
+
 Hoel, Erik P., Larissa Albantakis, and Giulio Tononi. 2013. "Quantifying Causal Emergence Shows that Macro Can Beat Micro." *Proceedings of the National Academy of Sciences* 110 (49): 19790-19795.
 
 Kim, Jaegwon. 1998. *Mind in a Physical World*. Cambridge, MA: MIT Press.
@@ -454,8 +456,6 @@ Kim, Jaegwon. 1998. *Mind in a Physical World*. Cambridge, MA: MIT Press.
 Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
 
 Mitchell, Sandra D. 2009. *Unsimple Truths*. Chicago: University of Chicago Press.
-
-Gładziejewski, Paweł. 2025. "Real patterns, the predictive mind, and the cognitive construction of the manifest image." *Synthese* 206: 225. https://doi.org/10.1007/s11229-025-05311-0.
 
 Pearl, Judea. 2000. *Causality*. Cambridge: Cambridge University Press.
 
