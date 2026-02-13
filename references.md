@@ -72,6 +72,8 @@ Cartwright, Nancy. 1999. *The dappled world*. Cambridge: Cambridge University Pr
 
 Chalmers, David J. 2006. "The re-emergence of emergence" In *The Re-Emergence of Emergence: The Emergentist Hypothesis from Science to Religion*, edited by Philip Clayton and Paul Davies, 244–54. Oxford: Oxford University Press. ISBN 9780199287147. https://doi.org/10.1093/acprof:oso/9780199287147.003.0011.
 
+Churchland, Paul M. 1981. "Eliminative Materialism and the Propositional Attitudes." *Journal of Philosophy* 78(2): 67-90. https://doi.org/10.2307/2025900.
+
 Christensen, David. 2007. "Epistemology of Disagreement: The Good News." *Philosophical Review* 116(2): 187–217. https://doi.org/10.1215/00318108-2006-035.
 
 Clark, Andy. 2013. "Whatever next? Predictive brains, situated agents, and the future of cognitive science." *Behavioral and Brain Sciences* 36(3): 181–204. https://doi.org/10.1017/S0140525X12000477.
@@ -95,6 +97,8 @@ Dittrich, Christian, and Jennifer Flygare Kinne. "T" Preprint, submitted October
 Duflo, Esther. 2012. "Women Empowerment and Economic Development." *Journal of Economic Literature* 50(4): 1051–79. https://doi.org/10.1257/jel.50.4.1051.
 
 El-Hani, Charbel Niño, and Sami Pihlström. 2002. "Emergence Theories and Pragmatic Realism." *Essays in Philosophy* 3(2): article 3. https://doi.org/10.5840/eip2002325.
+
+Elgin, Catherine Z. 2017. "From Knowledge to Understanding." In *True Enough*, 35-53. Cambridge, MA: MIT Press. https://doi.org/10.7551/mitpress/9780262036535.003.0003.
 
 Fields, Thomas, and Karl J. Friston. 2025. "How do inner screens enable imaginative experience? Applying the free-energy principle directly to the study of conscious experience" *Neuroscience of Consciousness* 2025(1): niaf009. https://doi.org/10.1093/nc/niaf009.
 
@@ -145,6 +149,8 @@ Harding, Sandra G. 2004. *The Feminist Standpoint Theory Reader*. New York: Rout
 Harding, Sandra. 1991. *Whose science? Whose knowledge?*. Ithaca, NY: Cornell University Press. ISBN 978-0801497469.
 
 Hartmann, Stephan, and Borut Trpin. 2023. "Conjunctive Explanations: A Coherentist Appraisal." In *Conjunctive Explanations: The Nature, Epistemology, and Psychology of Explanatory Multiplicity*, edited by Jonah N. Schupbach and David H. Glass, 111–129. Cham: Springer.
+
+Haugeland, John. 1998. *Having Thought*. Cambridge, MA: Harvard University Press. ISBN 978-0674198234.
 
 Henrich, Joseph. 2016. *The secret of our success*. Princeton, NJ: Princeton University Press. ISBN 978-0691178431.
 

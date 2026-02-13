@@ -8,7 +8,7 @@ Dennett's real-patterns view links ontology to compression and prediction, but t
 
 Dennett's proposal that the world contains real patterns changed how many philosophers discuss emergence and ontology. The attraction is clear. It gives us a way to respect higher-level structure without denying lower-level physics. It also captures a central feature of scientific practice. We routinely treat macro-regularities as objectively trackable because they support compression and prediction (Dennett 1991).
 
-Still, the view is often judged incomplete. The first criticism is instrumentalist drift. If real patterns are just patterns that help us predict, then reality seems indexed to user interests. The second criticism is permissiveness. If compression is the standard, then contrived composites appear admissible under some coding conventions. Critics then invoke arbitrary aggregates and disjunctive kinds to argue that real-pattern talk lacks ontological discipline.
+Still, the view is often judged incomplete. The first criticism is instrumentalist drift. If real patterns are just patterns that help us predict, then reality seems indexed to user interests. The second criticism is permissiveness. If compression is the standard, then contrived composites appear admissible under some coding conventions. Critics then invoke arbitrary aggregates and disjunctive kinds to argue that real-pattern talk lacks ontological discipline (Elgin 2017) (Haugeland 1998).
 
 A simple contrast makes the gap vivid. Consider a hurricane and "the object consisting of my left shoe and the planet Neptune." Both can be described. Both can, in some trivial coding sense, be compressed. But the hurricane supports autonomous prediction and intervention at its own level: knowing its pressure structure and rotational organization tells you what it will do next without tracking every molecule. The shoe-Neptune composite does not. Its "macro-state" tells you nothing about what happens next unless you separately track the shoe and the planet. What distinguishes them? This paper argues the answer is closure of transition structure.
 
@@ -28,7 +28,7 @@ Closure is diagnosed by predictive and interventional tests, but the target is d
 
 This paper sits at an intersection of four conversations. From Dennett, it takes the claim that compression and prediction can track objective structure (Dennett 1991). From computational mechanics, it takes the demand that macrostructure must preserve transition-relevant information rather than mere descriptive convenience (Shalizi 2001). From recent closure work, it takes the thought that macro-autonomy can be diagnosed by screening-off relations between micro and macro trajectories (Rosas 2024). From interventionist philosophy of science, it takes the idea that ontological commitment is tied to stable intervention-guiding structure, not to metaphysical fundamentality (Woodward 2003) (Pearl 2000).
 
-It also connects to adjacent emergence and coarse-graining debates, including weak emergence, macro-causal advantage, and naturalized metaphysics (Bedau 1997) (Hoel 2013) (Ladyman and Ross 2007) (Mitchell 2009). Of particular relevance is Ladyman and Ross's "Rainforest Realism," which holds that real patterns exist at every scale but provides no discriminating criterion for which patterns count as autonomous macro-objects. The closure criterion fills that gap. The contribution here is narrower than the Rainforest programme but more operationally specific: a closure criterion with explicit tests for dynamic coherence.
+It also connects to adjacent emergence and coarse-graining debates, including weak emergence, macro-causal advantage, and naturalized metaphysics (Bedau 1997) (Hoel 2013) (Ladyman and Ross 2007) (Mitchell 2009). Of particular relevance is Ladyman and Ross's "Rainforest Realism," which treats pattern reality as highly abundant across scales. The closure criterion accepts the realist motivation but adds a pruning condition: only partitions with robust transition autonomy count as macro-objects.
 
 Recent work also develops the cognitive genealogy of real-pattern commitments, linking predictive coding and free-energy minimization to the construction of the manifest image (Gładziejewski 2025). That line helps explain why bounded agents converge on some representational schemes and revise others over time. It therefore strengthens the anti-arbitrariness side of pattern realism. But it does not by itself settle macro-objecthood, because representational success can remain task-relative unless a further test fixes when a candidate grouping is dynamically available in the world. The closure criterion supplies that additional test.
 
@@ -189,6 +189,8 @@ This condition is philosophically important because it formalizes one precise se
 ### 4.2 Why gerrymanders fail
 
 Gerrymandered composites typically join microstates with different onward profiles. Aggregating them erases distinctions needed for macro-forecast and control, so the model requires hidden bookkeeping to repair prediction. That is the structural sign of non-autonomy.
+
+This helps with familiar permissiveness worries. Dennett's lost-sock-center style examples are mathematically definable and sometimes trackable, but definability is not enough. If a candidate grouping does not carry autonomous transition structure under the admissible regime, it fails the objecthood test even when it is easy to describe (Elgin 2017).
 
 ### 4.3 Toy example: one successful and one failed partition
 
@@ -397,6 +399,8 @@ Objection: prediction can work without ontological commitment.
 
 Reply: this paper adopts an interventionist-causal criterion for objecthood. When a level supports stable intervention and control in its domain, that is a reason for ontological commitment to that level's patterns (Woodward 2003) (Pearl 2000). This is a theory-laden meta-commitment, and it is stated explicitly. The argument is not that prediction alone logically entails existence.
 
+This also marks distance from eliminativist pressure. Churchland-style arguments warn that higher-level posits can collapse into convenient fiction when they lack disciplined integration with causal structure (Churchland 1981). The closure criterion is designed to block that slide without requiring reduction to micro-level vocabulary.
+
 ### 9.3 Markov assumptions are too restrictive
 
 Objection: strong lumpability presupposes Markov microdynamics.
@@ -431,9 +435,15 @@ The framework also has a clear failure condition. If proposed macro-partitions s
 
 Bedau, Mark A. 1997. "Weak Emergence." *Philosophical Perspectives* 11: 375-399.
 
+Churchland, Paul M. 1981. "Eliminative Materialism and the Propositional Attitudes." *Journal of Philosophy* 78 (2): 67-90.
+
 Dennett, Daniel C. 1991. "Real Patterns." *Journal of Philosophy* 88 (1): 27-51.
 
+Elgin, Catherine Z. 2017. "From Knowledge to Understanding." In *True Enough*, 35-53. Cambridge, MA: MIT Press.
+
 Gładziejewski, Paweł. 2025. "Real patterns, the predictive mind, and the cognitive construction of the manifest image." *Synthese* 206: 225. https://doi.org/10.1007/s11229-025-05311-0.
+
+Haugeland, John. 1998. *Having Thought*. Cambridge, MA: Harvard University Press.
 
 Hoel, Erik P., Larissa Albantakis, and Giulio Tononi. 2013. "Quantifying Causal Emergence Shows that Macro Can Beat Micro." *Proceedings of the National Academy of Sciences* 110 (49): 19790-19795.
 
