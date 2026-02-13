@@ -80,17 +80,19 @@ Closure can be stated without heavy formalism. A macro-pattern is real when leve
 
 This is a transition claim, not a static shape claim. We care about dynamics. Two microstates may look similar now but diverge in macro-futures. If so, grouping them as one macrostate is not autonomous.
 
-Definition (Closure relative to regime): a coarse-graining $Z_t = g(X_t)$ is closed over horizon $L$ and intervention class $\mathcal{I}$ when $Z_t$ is sufficient for forecasting and interventionally tracking $Z_{t+1}^{L}$ in that regime, without importing additional within-class microstate distinctions.
+Definition (Closure relative to regime): a coarse-graining $Z_t = g(X_t)$ is closed over horizon $L$ and intervention class $\mathcal{I}$ when macrostate information is sufficient for what follows at the macro level, without importing additional within-class microstate distinctions.
 
-Predictive form: under the regime distribution, closure requires that $P(Z_{t+1}^{L} \mid Z_t)$ approximates $P(Z_{t+1}^{L} \mid X_t)$ for the target task.
+The definition has two tests.
 
-Interventional form: for admissible interventions $i \in \mathcal{I}$, the induced macro-transition law $P_i(Z_{t+1}^{L} \mid Z_t)$ is approximately well-defined and stable across microstates that map to the same macrostate.
+Predictive test: under the regime distribution, closure requires that $P(Z_{t+1}^{L} \mid Z_t)$ approximates $P(Z_{t+1}^{L} \mid X_t)$ for the target task.
+
+Interventional test: for admissible interventions $i \in \mathcal{I}$, the induced macro-transition law $P_i(Z_{t+1}^{L} \mid Z_t)$ is approximately well-defined and stable across microstates that map to the same macrostate.
 
 Here approximate can be instantiated by bounded conditional mutual information, bounded divergence between within-class macro-transition kernels, or bounded out-of-regime predictive regret under admissible interventions.
 
 Lemma (Markov exact case): if the micro-process is first-order Markov and the partition induced by $g$ is strongly lumpable, then the induced macro-process is Markov and transition-autonomous at the macro level.
 
-Formal note. Strong lumpability here means: for any two microstates $x, x'$ in macroclass $C_i$, and any macroclass $C_j$, the aggregated transition probability satisfies $\sum_{y \in C_j} P(y \mid x) = \sum_{y \in C_j} P(y \mid x')$. Transition-autonomous means exactly that the macro transition kernel is well-defined and independent of which representative microstate in $C_i$ is occupied.
+Formal note. Strong lumpability here means: for any two microstates $x, x'$ in macroclass $C_i$, and any macroclass $C_j$, the aggregated transition probability satisfies $\sum_{y \in C_j} P(y \mid x) = \sum_{y \in C_j} P(y \mid x')$. Transition-autonomous means that the macro transition kernel is well-defined and independent of which representative microstate in $C_i$ is occupied.
 
 Scope note on interventions. The exact lemma targets the uncontrolled Markov case. In controlled settings, interventions can be treated as indexing kernels $P_i(\cdot \mid x)$ or as policies in a class $\Pi$. Closure is then assessed relative to the admissible class, not universally across all conceivable interventions. Admissible classes are constrained by physical implementability, including locality of influence and control-cost feasibility.
 
@@ -105,6 +107,8 @@ Let a micro-process be $X_t$, and let a candidate macro-process be $Z_t = g(X_t)
 Notation: $Z_{t+1}^{L}$ denotes the macro-trajectory segment $(Z_{t+1}, Z_{t+2}, \ldots, Z_{t+L})$. Macro-transition profile means the vector of transition probabilities from one macrostate into the set of macro-classes.
 
 Equivalent language from computational mechanics is useful here. Closure is the condition where the macro-level predictor from macro-pasts (the $\varepsilon$-side) matches what is obtainable from full micro-pasts for macro-futures (the $\upsilon$-side). When that equality holds, additional micro-information is redundant for the macro target (Shalizi 2001) (Rosas 2024).
+
+In plain terms, if macro-past already carries the information needed for macro-future in the target regime, then micro-detail is not doing additional explanatory work for that target.
 
 In the idealized settings considered here, with explicit dynamics and admissible intervention classes specified, informational diagnostics can track the same closure structure tested by interventional criteria. This matters for method. Leakiness diagnostics are not a separate ontology test layered on top of causal claims. They are operational indicators of the same closure target when estimators are chosen carefully (Rosas 2024).
 
@@ -302,7 +306,14 @@ Where this target is met, a practical consequence follows. Macro-level control c
 
 This is also why predictive fit alone cannot settle objecthood. Overfit representational schemes can track past trajectories while failing under novel perturbations. Closure claims should therefore be judged by out-of-regime and interventional stability, not only in-sample prediction.
 
-Practical failure modes are expected: hidden confounding, nonstationarity, partial observability, and high-dimensional estimator bias can distort proxy values. This is one reason interventional invariance remains the primary target when intervention data are available.
+Practical failure modes are expected.
+
+1. Hidden confounding can create spurious predictive closure.
+2. Nonstationarity can make a previously low-leak partition unstable.
+3. Partial observability can hide within-class heterogeneity.
+4. High-dimensional estimator bias can distort proxy values.
+
+This is one reason interventional invariance remains the primary target when intervention data are available.
 
 ### 5.6 Failure modes and diagnostics
 
@@ -370,7 +381,13 @@ Dennett was right that compression and prediction can reveal objective structure
 
 What was missing was an explicit anti-gerrymandering criterion and a graded account for imperfect real systems. Strong lumpability is a natural exact formalization of that criterion in Markov settings. Leakiness-based approximate lumpability supplies the realistic extension.
 
-Relation to causal-emergence work should be explicit. Hoel-style effective-information analyses ask when macro-descriptions gain determinism and reduce degeneracy relative to micro-descriptions (Hoel 2013). This paper is aligned with that motivation but differs in emphasis. The present criterion is organized around closure under an admissible intervention class and around robustness across regime and horizon choices. Effective-information gains can be treated as corroborating diagnostics inside that framework rather than as the sole ontological test.
+Relation to causal-emergence work should be explicit.
+
+Agreement: Hoel-style effective-information analyses ask when macro-descriptions gain determinism and reduce degeneracy relative to micro-descriptions (Hoel 2013).
+
+Difference: the present criterion is organized around closure under an admissible intervention class and robustness across regime and horizon choices.
+
+Effective-information gains can therefore be treated as corroborating diagnostics inside this framework rather than as the sole ontological test.
 
 ### 8.3 Sharpened slogan
 
