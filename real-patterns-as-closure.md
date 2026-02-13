@@ -18,6 +18,8 @@ In this paper, gerrymandered means dynamically incoherent: a partition that fail
 
 This framing also limits instrumentalist drift. Analysts choose research aims, but admissible intervention classes are plausibly constrained by what embodied agents can measure and control under locality, bandwidth, and thermodynamic limits. So the target is not arbitrary preference. It is constrained inquiry in a structured world.
 
+Admissibility has three constraints in this paper. Epistemic admissibility concerns what can be measured and manipulated with finite resources. Dynamical admissibility concerns interventions that keep the system in the same regime class. Explanatory admissibility concerns interventions that track stable invariances rather than one-off perturbation artifacts.
+
 ### 1.1 Related work and contribution
 
 This paper sits at an intersection of four conversations. From Dennett, it takes the claim that compression and prediction can track objective structure (Dennett 1991). From computational mechanics, it takes the demand that macrostructure must preserve transition-relevant information rather than mere descriptive convenience (Shalizi and Crutchfield 2001). From recent closure work, it takes the thought that macro-autonomy can be diagnosed by screening-off relations between micro and macro trajectories (Rosas et al. 2024). From interventionist philosophy of science, it takes the idea that ontological commitment is tied to stable intervention-guiding structure, not to metaphysical fundamentality (Woodward 2003; Pearl 2000).
@@ -27,6 +29,8 @@ It also connects to adjacent emergence and coarse-graining debates, including we
 The novel claim here is not any one ingredient in isolation. It is their joint use as a criterion with bite: closure of macro-transition structure, exact in ideal lumpable settings and graded by leakiness in realistic settings, used specifically to filter gerrymandered partitions from autonomous macro-object candidates.
 
 The paper proceeds as follows. Section 2 disambiguates pattern talk by separating reality, pattern, instance, and representation. Section 3 formulates closure as the governing idea. Section 4 introduces strong lumpability and provides a toy example with success and failure partitions. Section 5 extends the criterion to graded, noisy domains. Section 6 applies the view to pathological composites and high-maintenance ontological posits. Section 7 shows how canonical candidates can be evaluated under the protocol. Section 8 states the interpretive gain for Dennett. Section 9 addresses four standard objections. Section 10 concludes with implications and future work.
+
+Criterion statement. A coarse-graining $Z = g(X)$ counts as a real pattern for a specified regime, horizon $L$, and intervention class $\mathcal{I}$ when macro-transition structure is autonomous up to an explicit tolerance. In ideal Markov settings this reduces to strong lumpability. In realistic settings it is assessed by leakiness, transition-kernel divergence, and intervention-response invariance.
 
 ## 2. Disambiguation: What Exactly Is a Pattern?
 
@@ -47,6 +51,8 @@ Level 5 is included for auditability. Many ontology disputes depend on slippage 
 ### 2.2 What pattern is real means here
 
 In this paper, real pattern does not mean mental construct, Platonic object, or anything describable. It means a coarse-graining that earns autonomy in transition structure. The claim is modest and precise. We are not adding a new substance to ontology. We are identifying when macro-description tracks objective structure well enough to function as its own level of what follows. This is not eliminativism about mathematics or logic. It is a scope claim about world-implemented macro-objecthood in the present paper.
+
+Objecthood here means eligibility as a stable target of macro-level counterfactuals and interventions in the specified regime and horizon. It does not mean fundamentality or an extra ontological substance.
 
 Formal systems are useful here as a contrast class. They are closed by stipulation. The present paper is about closure induced by empirical dynamics.
 
@@ -72,6 +78,8 @@ Formal note. Strong lumpability here means: for any two microstates $x, x'$ in m
 
 Scope note on interventions. The exact lemma targets the uncontrolled Markov case. In controlled settings, interventions can be treated as indexing kernels $P_i(\cdot \mid x)$ or as policies in a class $\Pi$. Closure is then assessed relative to the admissible class, not universally across all conceivable interventions.
 
+Proof sketch (Markov exact case). Define a macro-kernel by summing micro-transition probabilities from any representative $x \in C_i$ into each macroclass $C_j$. Strong lumpability guarantees this sum is representative-independent. Hence the macro-kernel is well-defined. The induced process over macroclasses is therefore Markov with transitions given by that kernel, which is exactly transition autonomy in the exact case.
+
 ### 3.2 Minimal formal shape
 
 Let a micro-process be $X_t$, and let a candidate macro-process be $Z_t = g(X_t)$. Closure for $Z$ asks whether $Z_t$ is sufficient for forecasting the distribution of $Z_{t+1}$, or a relevant horizon $Z_{t+1}^{L}$, without importing hidden distinctions among microstates inside each macrostate.
@@ -81,6 +89,8 @@ Notation: $Z_{t+1}^{L}$ denotes the macro-trajectory segment $(Z_{t+1}, Z_{t+2},
 Equivalent language from computational mechanics is useful here. Closure is the condition where the macro-level predictor from macro-pasts (the $\varepsilon$-side) matches what is obtainable from full micro-pasts for macro-futures (the $\upsilon$-side). When that equality holds, additional micro-information is redundant for the macro target (Shalizi and Crutchfield 2001; Rosas et al. 2024).
 
 In the idealized settings considered here, with explicit dynamics and admissible intervention classes specified, informational diagnostics can track the same screening-off structure that underwrites interventional autonomy. This matters for method. Leakiness diagnostics are not a separate ontology test layered on top of causal claims. They are operational indicators of the same closure target when estimators are chosen carefully (Rosas et al. 2024).
+
+Outside first-order Markov settings, the same logic is expressed over enriched histories. Non-Markov closure asks whether macro-history screens off micro-history for macro-futures under the same admissible intervention class. Strong lumpability is the special case where relevant history reduces to the current state.
 
 In this paper, informational diagnostics and interventional relevance are used together. Low leakiness is an operational test for autonomy, and interventional stability is the ontological interpretation of why that autonomy matters.
 
@@ -105,6 +115,8 @@ This procedure does not require one privileged estimator. It requires transparen
 ### 3.4 Dennett, sharpened
 
 Dennett's compression point is preserved. Compression tracks objective regularity when it captures a stable transition structure. Predictive utility is preserved. Useful macro-models matter because they are often exploiting closure. What is added is a clear anti-gerrymandering requirement. A compressive coding is not enough. The partition must support autonomous macro-transitions.
+
+Coding-trick contrast. A contrived encoding can compress observed trajectories by bundling states that happen to co-occur in one dataset. If those bundled states carry different onward transition profiles, the coding fails under modest perturbation and requires hidden-state repair. Closure detects this failure directly.
 
 ### 3.5 Why closure, not prediction alone
 
@@ -198,6 +210,10 @@ Equivalent diagnostics can be used when direct mutual-information estimation is 
 
 The point is not metric monopoly. The point is to measure how far a partition is from closure using transparent, comparable diagnostics.
 
+Minimal requirements for any leakiness proxy are straightforward. It must quantify within-class micro-information gain about macro-futures, be comparable across candidate partitions, and remain reasonably stable under resampling or modest regime shifts.
+
+These diagnostics need not be numerically identical in finite data. They should typically converge in rank-order for strong candidates, and disagreements should be treated as model-check signals rather than as immediate falsifications of the framework.
+
 A related guardrail is useful here. Computational closure, understood as a successful higher-level computational description, can hold in cases where informational and interventional closure do not fully hold. For this paper's objecthood claim, computational adequacy alone is not enough; informational and interventional closure remain the decisive standards.
 
 ### 5.3 Worked regime instantiation
@@ -253,6 +269,8 @@ Where this target is met, a practical consequence follows. Macro-level control c
 
 This is also why predictive fit alone cannot settle objecthood. Overfit representational schemes can track past trajectories while failing under novel perturbations. Closure claims should therefore be judged by out-of-regime and interventional stability, not only in-sample prediction.
 
+Practical failure modes are expected: hidden confounding, nonstationarity, partial observability, and high-dimensional estimator bias can distort proxy values. This is one reason interventional invariance remains the primary target when intervention data are available.
+
 ## 6. Excluding Pathological Composites
 
 Before turning to pathology cases, recall the Section 2 ladder. A failure in one representation of a macro-kind does not by itself show unreality of the pattern. The issue here is whether candidate partitions remain autonomous under the closure tests.
@@ -283,6 +301,8 @@ The examples in this section are stylized protocol illustrations. They show how 
 
 For atmospheric vortices, the framework predicts that macrovariables such as pressure organization, rotational structure, and energy exchange can retain predictive and interventional relevance while many micro-perturbations wash out. Under that condition, micro-complete tracking is not required for domain-relevant forecasts.
 
+This is a Level 2 claim about pattern structure, not a Level 4 claim that any particular forecasting representation is final.
+
 A stylized test case is straightforward. Take a macrostate with central pressure depth, azimuthal wind structure, translation velocity, and sea-surface-energy intake as variables. Then ask whether adding fine-grained molecule-level distinctions inside fixed macro bins materially improves short-horizon track and intensification forecasts under the same intervention class. If not, closure is strong at that grain. If yes, leakiness is high and the partition should be refined.
 
 The claim is not perfect closure at every token and horizon. The framework predicts robust low leakiness across the intervention class that defines meteorological practice when those macrovariables genuinely screen off micro-variation.
@@ -290,6 +310,8 @@ The claim is not perfect closure at every token and horizon. The framework predi
 ### 7.2 Organisms and cells
 
 Cells and organisms are plausible candidates for boundary-mediated screening-off. Membranes, regulatory pathways, and homeostatic loops can support macro-level control that is not reducible to ad hoc aggregation. Again, closure is not absolute. The relevant question is whether closure is strong enough in specified regimes to justify object-level treatment.
+
+Again, the claim targets pattern-level autonomy. Particular models can fail while the pattern remains real if alternative representations capture the same closure structure.
 
 A corresponding stylized biological test uses membrane potential, key metabolite concentrations, and regulatory-state variables as a macrostate. The closure question is whether these variables forecast near-future functional states better than micro-detail-augmented alternatives once intervention class and horizon are fixed.
 
