@@ -4,6 +4,8 @@
 
 Dennett's account of real patterns remains influential because it connects ontology to compression and predictive success. Yet in its familiar form it remains vulnerable to two objections. First, it can look instrumentalist, where real means useful to us. Second, it can look permissive, where any coding trick that compresses data appears to qualify as a real pattern. This paper offers a closure-based refinement that preserves Dennett's insight while adding a non-gerrymandering constraint, defined as macro-transition autonomy. The central claim is that a pattern is real when a coarse-graining induces autonomous macro-transitions, so lower-level distinctions become irrelevant for what follows at the macro level. In exact Markov settings, strong lumpability supplies the key criterion: grouped microstates must have matching macro-transition profiles. The criterion is then extended to approximate cases using graded leakiness, so the framework remains applicable to weather systems, organisms, and social structures where closure is not perfect. The framework also allows weird but disjunctive partitions when they are genuinely closed in the specified regime. The result is a sharper realism about patterns with concrete tests and with exclusion power against dynamically incoherent composites, without collapsing into reductionism or convenience pragmatism (Dennett 1991; Shalizi and Crutchfield 2001; Rosas et al. 2024).
 
+Commitment structure in brief: interventional closure is the ontological standard, and predictive closure is the evidential proxy when intervention data are limited.
+
 ## 1. Introduction: Why Dennett Needs a Criterion
 
 Dennett's proposal that the world contains real patterns changed how many philosophers discuss emergence and ontology. The attraction is clear. It gives us a way to respect higher-level structure without denying lower-level physics. It also captures a central feature of scientific practice. We routinely treat macro-regularities as objectively trackable because they support compression and prediction (Dennett 1991).
@@ -37,6 +39,8 @@ The novel claim here is not any one ingredient in isolation. It is their joint u
 The paper proceeds as follows. Section 2 disambiguates pattern talk by separating reality, pattern, instance, and representation. Section 3 formulates closure as the governing idea. Section 4 introduces strong lumpability and provides a toy example with success and failure partitions. Section 5 extends the criterion to graded, noisy domains. Section 6 applies the view to dynamically incoherent composites and high-maintenance ontological posits. Section 7 shows how canonical candidates can be evaluated under the protocol. Section 8 states the interpretive gain for Dennett. Section 9 addresses four standard objections. Section 10 concludes with implications and future work.
 
 Criterion statement. A coarse-graining $Z = g(X)$ counts as a real pattern for a specified regime, horizon $L$, and intervention class $\mathcal{I}$ when macro-transition structure is autonomous up to an explicit tolerance (for example, bounded leakiness, bounded within-class kernel divergence, or bounded out-of-regime predictive regret). In ideal Markov settings this reduces to strong lumpability. In realistic settings it is assessed by leakiness, transition-kernel divergence, and intervention-response invariance.
+
+Definition (graded closure). Let leakiness be the canonical distance-from-closure quantity. In this paper, graded closure is assessed primarily by leakiness under fixed regime, horizon, and intervention class. Kernel divergence and out-of-regime predictive regret function as estimators or proxies when direct leakiness estimation is unreliable. In well-behaved settings these diagnostics should agree in rank-order; persistent disagreement triggers model revision.
 
 Commitment structure. Primary ontological condition: invariance of induced macro-transition structure across micro-realizations within each macrostate under admissible interventions. Secondary epistemic test: predictive closure on observational data as a proxy when intervention data are sparse.
 
@@ -87,6 +91,8 @@ Lemma (Markov exact case): if the micro-process is first-order Markov and the pa
 Formal note. Strong lumpability here means: for any two microstates $x, x'$ in macroclass $C_i$, and any macroclass $C_j$, the aggregated transition probability satisfies $\sum_{y \in C_j} P(y \mid x) = \sum_{y \in C_j} P(y \mid x')$. Transition-autonomous means exactly that the macro transition kernel is well-defined and independent of which representative microstate in $C_i$ is occupied.
 
 Scope note on interventions. The exact lemma targets the uncontrolled Markov case. In controlled settings, interventions can be treated as indexing kernels $P_i(\cdot \mid x)$ or as policies in a class $\Pi$. Closure is then assessed relative to the admissible class, not universally across all conceivable interventions. Admissible classes are constrained by physical implementability, including locality of influence and control-cost feasibility.
+
+Admissibility checklist. Epistemic: the intervention can be measured and implemented by bounded agents. Dynamical: it preserves the target regime class instead of pushing into a different dynamical phase. Explanatory: it probes stable invariances rather than one-off artifacts. These constraints mirror ordinary experimental design, not ad hoc metaphysical additions.
 
 Proof sketch (Markov exact case). Define a macro-kernel by summing micro-transition probabilities from any representative $x \in C_i$ into each macroclass $C_j$. Strong lumpability guarantees this sum is representative-independent. Hence the macro-kernel is well-defined. The induced process over macroclasses is therefore Markov with transitions given by that kernel, which is exactly transition autonomy in the exact case.
 
@@ -144,6 +150,8 @@ Mini illustration. Suppose two partitions achieve comparable one-step observatio
 
 ### 4.1 Strong lumpability as an ideal exact benchmark
 
+Definition (macro-transition profile). For a macrostate $M$, its macro-transition profile is the vector of transition probabilities from $M$ into the available macro-classes at the chosen horizon.
+
 In Markov settings, the exact condition is strong lumpability. Partition the microstate space into macro-classes. For any two microstates in the same class, the total transition probability to each macro-class must be the same. If that condition holds, the induced macro-process is Markov with well-defined transitions. If it fails, macro-dynamics depend on hidden micro-history (Rosas et al. 2024).
 
 For the Markov template used here, strong lumpability is the canonical exact criterion for autonomous macro-transitions. It should be read as an ideal limit case. In broader modeling practice, the same role is played by equivalent closure conditions over enriched histories or augmented state spaces when first-order Markov assumptions do not hold.
@@ -187,6 +195,8 @@ A potential objection is that a disjunctive or otherwise strange partition could
 
 So the core exclusion claim should be read carefully. The criterion rules out dynamically incoherent, high-leak aggregates. It does not rule out every intuitively disjunctive partition when dynamics genuinely supports closure. In practice, closure claims should also be robust across modest horizon and regime shifts, and among equally robust options the coarsest partition is preferred.
 
+Robustness and minimality principle. Treat closure verdicts as credible when they remain stable across modest regime and horizon perturbations, and prefer the coarsest partition among candidates with comparable robustness.
+
 ## 5. Approximate Lumpability: Realism Without Perfection
 
 ### 5.1 Why exact lumpability is uncommon
@@ -208,6 +218,8 @@ A natural quantity is leakiness: how much micro-information inside a macrostate 
 Leakiness can be estimated from observational data, from interventional data, or from both. Which source dominates depends on the regime and on what interventions are admissible. Interventional estimates take priority when feasible.
 
 For application, low should be defined procedurally rather than asserted. Fix a target horizon and intervention class, then compare candidate coarse-grainings. A partition counts as low-leak relative to its competitors when adding within-class microdetail yields no substantial predictive or interventional gain over the same regime.
+
+Tolerance is comparative, not absolute. It is set by cross-partition performance under fixed constraints, rather than by a free-standing universal threshold.
 
 Decision schema for low leakiness:
 
