@@ -12,6 +12,8 @@ Still, the view is often judged incomplete. The first criticism is instrumentali
 
 This paper argues that both criticisms identify a genuine gap, but not a fatal flaw. The gap is the absence of an explicit closure criterion. Once closure is made central, and once closure is tied to lumpability in the induced case, Dennett's core idea can be sharpened into a robust criterion.
 
+The intended move is a tightening, not a rejection. Dennett's framework is broad enough to count many useful, imperfect, and purpose-relative patterns as real. The present paper asks a narrower question: which of those patterns qualify as robust macro-objects with autonomous transition structure.
+
 The thesis is this: a real pattern is an autonomous coarse-graining. More precisely, a pattern is real when macrostate information is sufficient for macro-transition structure, so lower-level distinctions inside each macrostate no longer matter for macro-evolution. In exact Markov settings, this is strong lumpability. In realistic settings, this is approximate lumpability measured by leakiness.
 
 In this paper, gerrymandered means dynamically incoherent: a partition that fails transition autonomy by requiring persistent within-class micro bookkeeping. It does not mean merely intuitively disjunctive.
@@ -158,6 +160,8 @@ The third view has a discriminating consequence the first two can miss. Two part
 
 Mini illustration. Suppose two partitions achieve comparable one-step observational prediction in a calibration dataset. Under an admissible clamp intervention on one macro-variable, $P_1$ retains stable macro-transition parameters, while $P_2$ shows class-internal divergence that forces reintroduction of hidden micro labels. In the diagnostics of Sections 5.2 and 5.3, this appears as lower within-class kernel divergence and lower intervention-conditioned predictive gain $\Delta$ for $P_1$. The two views that rely on observational compression alone can treat this as a near tie. The closure criterion does not. It ranks $P_1$ higher because it remains interventionally coherent.
 
+This clarifies the paper's target. The claim is not that imperfect but useful patterns are unreal. The claim is that usefulness alone does not settle macro-objecthood. Closure is introduced as an additional robustness filter for object-level ontology.
+
 ### 3.6 Compression and closure
 
 Compression and closure are related but not identical. Compression concerns descriptive economy. Closure concerns autonomous transition structure under admissible interventions.
@@ -267,6 +271,8 @@ The point is not metric monopoly. The point is to measure how far a partition is
 Minimal requirements for any leakiness proxy are straightforward. It must quantify within-class micro-information gain about macro-futures, be comparable across candidate partitions, and remain reasonably stable under resampling or modest regime shifts.
 
 These diagnostics need not be numerically identical in finite data. They should typically converge in rank-order for strong candidates, and disagreements should be treated as model-check signals rather than as immediate falsifications of the framework.
+
+The ontological upshot is graded. Low leakiness supports robust macro-object claims. Moderate leakiness can still support valuable macro-variables and explanations, but with weaker objecthood status and tighter regime qualifications. High leakiness usually indicates dynamically incoherent grouping.
 
 A related guardrail is useful here. Computational closure, understood as a successful higher-level computational description, can hold in cases where informational and interventional closure do not fully hold. For this paper's objecthood claim, computational adequacy alone is not enough; informational and interventional closure remain the decisive standards.
 
@@ -395,6 +401,8 @@ Clouds, flames, and ecosystems illustrate why graded criteria matter. Some insta
 
 Dennett was right that compression and prediction can reveal objective structure rather than mere cognitive convenience. He was also right that pattern realism is compatible with physicalism when understood as level-specific structure rather than rival substance (Dennett 1991).
 
+He was also right to allow useful-but-imperfect patterns. Many scientifically central patterns are noisy, ceteris paribus, and exception-tolerant, yet still earn realist treatment because they improve understanding and prediction relative to brute micro-description.
+
 ### 8.2 What needed completion
 
 What was missing was an explicit anti-gerrymandering criterion and a graded account for imperfect real systems. Strong lumpability is a natural exact formalization of that criterion in Markov settings. Leakiness-based approximate lumpability supplies the realistic extension.
@@ -406,6 +414,8 @@ Agreement: Hoel-style effective-information analyses ask when macro-descriptions
 Difference: the present criterion is organized around closure under an admissible intervention class and robustness across regime and horizon choices.
 
 Effective-information gains can therefore be treated as corroborating diagnostics inside this framework rather than as the sole ontological test.
+
+The reconciliation can be stated directly. Dennett supplies a broad criterion for pattern reality. The present framework adds a stricter criterion for macro-objecthood. On that view, leaky but predictive structures can remain real patterns while failing to count as robust macro-objects in a given regime.
 
 ### 8.3 Sharpened slogan
 
