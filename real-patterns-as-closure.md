@@ -24,6 +24,8 @@ Admissibility has three constraints in this paper. Epistemic admissibility conce
 
 These admissibility constraints are physically anchored. Interventions must be locally propagating and energetically feasible for bounded agents. This blocks arbitrary, paper-defined intervention classes from setting ontology by stipulation.
 
+Because closure is relative to intervention class, these admissibility constraints do substantial philosophical work. They are therefore part of the criterion, not optional heuristics.
+
 ### 1.1 Related work and contribution
 
 This paper sits at an intersection of four conversations. From Dennett, it takes the claim that compression and prediction can track objective structure (Dennett 1991). From computational mechanics, it takes the demand that macrostructure must preserve transition-relevant information rather than mere descriptive convenience (Shalizi and Crutchfield 2001). From recent closure work, it takes the thought that macro-autonomy can be diagnosed by screening-off relations between micro and macro trajectories (Rosas et al. 2024). From interventionist philosophy of science, it takes the idea that ontological commitment is tied to stable intervention-guiding structure, not to metaphysical fundamentality (Woodward 2003; Pearl 2000).
@@ -127,6 +129,8 @@ To make closure relative to regime operational, use the following recipe.
 5. Compare partitions under the same $\mathcal{I}$ and $L$, then retain those with robustly lower leakiness and stronger interventional stability.
 
 This procedure does not require one privileged estimator. It requires transparent regime specification and cross-partition comparison under fixed constraints.
+
+Admissibility protocol. Before running closure diagnostics, specify whether the intervention class satisfies three checks: realizable control channel (epistemic), regime preservation (dynamical), and invariance relevance (explanatory). If an intervention class fails any check, it is excluded from ontology assessment rather than treated as an alternative route to objecthood.
 
 ### 3.4 Dennett, sharpened
 
@@ -364,6 +368,8 @@ Dennett was right that compression and prediction can reveal objective structure
 
 What was missing was an explicit anti-gerrymandering criterion and a graded account for imperfect real systems. Strong lumpability is a natural exact formalization of that criterion in Markov settings. Leakiness-based approximate lumpability supplies the realistic extension.
 
+Relation to causal-emergence work should be explicit. Hoel-style effective-information analyses ask when macro-descriptions gain determinism and reduce degeneracy relative to micro-descriptions (Hoel, Albantakis, and Tononi 2013). This paper is aligned with that motivation but differs in emphasis. The present criterion is organized around closure under an admissible intervention class and around robustness across regime and horizon choices. Effective-information gains can be treated as corroborating diagnostics inside that framework rather than as the sole ontological test.
+
 ### 8.3 Sharpened slogan
 
 The revised slogan is straightforward: a real pattern is an autonomous coarse-graining.
@@ -407,6 +413,8 @@ The paper offered a precise criterion for real patterns by combining closure wit
 The conceptual gain is twofold. First, it sharpens Dennett without abandoning his core insight. Second, it gives a principled bridge from philosophical pattern realism to operational diagnostics used in complex-systems science.
 
 Future work can proceed in three directions: empirical estimation of leakiness in concrete domains, tighter links with Markov-blanket and computational-mechanics formalisms, and disciplined extension to social kinds where implementation and normativity interact under explicit closure conditions.
+
+Social kinds are likely the hardest extension case. Their closure profile is often recursive: collective recognition helps sustain the very constraints being recognized. This does not refute the framework, but it means admissibility and implementation must be specified with unusual care in institutional domains.
 
 An additional direction is structural. The space of closure-supporting coarse-grainings can be analyzed in theory space as a nested architecture of macro-models, rather than only as ad hoc candidates in state space.
 
