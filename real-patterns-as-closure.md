@@ -2,7 +2,7 @@
 
 ## 0. Abstract
 
-Dennett's account of real patterns remains influential because it connects ontology to compression and predictive success. Yet in its familiar form it remains vulnerable to two objections. First, it can look instrumentalist, where real means useful to us. Second, it can look permissive, where any coding trick that compresses data appears to qualify as a real pattern. This paper offers a closure-based refinement that preserves Dennett's insight while adding a non-gerrymandering constraint in a precise sense, dynamic coherence of macro-transitions. The central claim is that a pattern is real when a coarse-graining induces autonomous macro-transitions, so lower-level distinctions become irrelevant for what follows at the macro level. In exact Markov settings, strong lumpability supplies the key criterion: grouped microstates must have matching macro-transition profiles. I then extend the criterion to approximate cases using graded leakiness, so the framework remains applicable to weather systems, organisms, and social structures where closure is not perfect. The result is a sharper realism about patterns that is operational in principle and strong enough to exclude dynamically incoherent composites without collapsing into reductionism or convenience pragmatism (Dennett 1991; Shalizi and Crutchfield 2001; Rosas et al. 2024).
+Dennett's account of real patterns remains influential because it connects ontology to compression and predictive success. Yet in its familiar form it remains vulnerable to two objections. First, it can look instrumentalist, where real means useful to us. Second, it can look permissive, where any coding trick that compresses data appears to qualify as a real pattern. This paper offers a closure-based refinement that preserves Dennett's insight while adding a non-gerrymandering constraint in a precise sense, dynamic coherence of macro-transitions. The central claim is that a pattern is real when a coarse-graining induces autonomous macro-transitions, so lower-level distinctions become irrelevant for what follows at the macro level. In exact Markov settings, strong lumpability supplies the key criterion: grouped microstates must have matching macro-transition profiles. I then extend the criterion to approximate cases using graded leakiness, so the framework remains applicable to weather systems, organisms, and social structures where closure is not perfect. The framework also allows weird but disjunctive partitions when they are genuinely closed in the specified regime. The result is a sharper realism about patterns that is operational in principle and strong enough to exclude dynamically incoherent composites without collapsing into reductionism or convenience pragmatism (Dennett 1991; Shalizi and Crutchfield 2001; Rosas et al. 2024).
 
 ## 1. Introduction: Why Dennett Needs a Criterion
 
@@ -56,7 +56,9 @@ Definition (Closure relative to regime): a coarse-graining $Z_t = g(X_t)$ is clo
 
 Lemma (Markov exact case): if the micro-process is first-order Markov and the partition induced by $g$ is strongly lumpable, then the induced macro-process is Markov and transition-autonomous at the macro level.
 
-Formal note. Strong lumpability here means: for any two microstates $x, x'$ in macroclass $C_i$, and any macroclass $C_j$, the aggregated transition probability satisfies $\sum_{y \in C_j} P(y \mid x) = \sum_{y \in C_j} P(y \mid x')$. Transition-autonomous means exactly that the macro transition kernel is well-defined and independent of which representative microstate in $C_i$ is occupied. In controlled settings, interventions should be treated as part of the process definition, for example by using controlled transition kernels and checking closure relative to a fixed intervention policy class.
+Formal note. Strong lumpability here means: for any two microstates $x, x'$ in macroclass $C_i$, and any macroclass $C_j$, the aggregated transition probability satisfies $\sum_{y \in C_j} P(y \mid x) = \sum_{y \in C_j} P(y \mid x')$. Transition-autonomous means exactly that the macro transition kernel is well-defined and independent of which representative microstate in $C_i$ is occupied.
+
+Scope note on interventions. The exact lemma targets the uncontrolled Markov case. In controlled settings, interventions can be treated as indexing kernels $P_i(\cdot \mid x)$ or as policies in a class $\Pi$. Closure is then assessed relative to the admissible class, not universally across all conceivable interventions.
 
 ### 3.2 Minimal formal shape
 
@@ -65,6 +67,8 @@ Let a micro-process be $X_t$, and let a candidate macro-process be $Z_t = g(X_t)
 Notation: $Z_{t+1}^{L}$ denotes the macro-trajectory segment $(Z_{t+1}, Z_{t+2}, \ldots, Z_{t+L})$. Macro-transition profile means the vector of transition probabilities from one macrostate into the set of macro-classes.
 
 In this paper, informational diagnostics and interventional relevance are used together. Low leakiness is an operational test for autonomy, and interventional stability is the ontological interpretation of why that autonomy matters.
+
+Predictive and interventional closure should be distinguished from the start. Predictive closure concerns screening-off for forecasts under a fixed data regime. Interventional closure concerns invariance of macro-transition structure under admissible perturbations. For objecthood claims here, interventional closure is primary.
 
 Stated directly, if two microstates map to the same macrostate at time $t$, they must agree on macro-transition consequences. If they do not, the macrostate hides causally relevant structure and is not autonomous.
 
@@ -92,7 +96,7 @@ It helps to separate three nearby positions.
 2. Pure pragmatism: model choice is guided only by task utility, with no ontological consequence.
 3. Closure under regime and intervention class: model success supports objecthood when macro-transitions remain autonomous under fixed $L$ and $\mathcal{I}$.
 
-The third view has a discriminating consequence the first two can miss. Two partitions can be similarly compressive on observational fit, yet differ under interventions. If partition $P_1$ remains low-leak and stable under admissible perturbations while partition $P_2$ needs repeated micro-detail repair, closure favors $P_1$ as the better object candidate. This is not a tie-break by preference. It is a structural difference in transition autonomy.
+The third view has a discriminating consequence the first two can miss. Two partitions can be similarly compressive on observational fit, yet differ under interventions. If partition $P_1$ remains low-leak and stable under admissible perturbations while partition $P_2$ needs repeated micro-detail repair, closure favors $P_1$ as the better object candidate. This is not a tie-break by preference. It is a structural difference in transition autonomy that grounds objecthood rather than mere model convenience.
 
 Mini illustration. Suppose two partitions achieve comparable one-step observational prediction in a calibration dataset. Under an admissible clamp intervention on one macro-variable, $P_1$ retains stable macro-transition parameters, while $P_2$ shows class-internal divergence that forces reintroduction of hidden micro labels. The two views that rely on observational compression alone can treat this as a near tie. The closure criterion does not. It ranks $P_1$ higher because it remains interventionally coherent.
 
@@ -157,6 +161,13 @@ Leakiness can be estimated from observational data, from interventional data, or
 
 For application, low should be defined procedurally rather than asserted. Fix a target horizon and intervention class, then compare candidate coarse-grainings. A partition counts as low-leak relative to its competitors when adding within-class microdetail yields no substantial predictive or interventional gain over the same regime.
 
+Decision schema for low leakiness:
+
+1. Choose a benchmark family of candidate partitions $\{g_k\}$ under fixed $L$ and $\mathcal{I}$.
+2. Compute a standardized proxy, for example predictive gain $\Delta$ under added within-class micro-features.
+3. Select a tolerance rule, such as an elbow criterion or stability threshold over resamples.
+4. Prefer partitions that are low-leak by that rule and remain stable under modest shifts in horizon and intervention distribution.
+
 Equivalent diagnostics can be used when direct mutual-information estimation is hard in high-dimensional finite data settings.
 
 1. Within-class divergence between estimated macro-transition kernels.
@@ -190,17 +201,31 @@ One compact schematic is enough to make the protocol explicit.
 | Diagnostics | Predictive gain, within-class kernel divergence, intervention-response invariance |
 | Expected verdict | $Z^{(A)}$ remains lower-leak and more invariant across $L$ |
 
+Minimal implementation sketch:
+
+```text
+for each partition g_k in {g_1, ..., g_m}:
+    estimate macro states Z_t = g_k(X_t)
+    fit baseline predictor for Z_{t+1}^L from Z_t
+    fit augmented predictor adding within-class micro features
+    compute leak proxy Delta_k = gain(augmented) - gain(baseline)
+    test intervention-response invariance under admissible intervention set I
+select partitions with low Delta_k and high invariance stability
+```
+
 ### 5.4 Stable versus merely entailed regularities
 
 This graded move supports an important ontological distinction. Many macro-regularities are entailed by complete microhistory. Fewer are stable enough to support repeatable macro-prediction and intervention. Objecthood tracks the stable subset. In short, stable regularities are entailed, but not all entailed regularities are stable objects.
 
+This distinction also explains why many gerrymandered constructions feel tempting. They can be entailed by the full microhistory yet remain unstable and high-maintenance under regime shifts.
+
 ### 5.5 Predictive and interventional closure
 
-Two closure notions should be distinguished. Predictive closure concerns screening-off for forecasts under a fixed data-generating regime. Interventional closure concerns invariance of macro-transition structure under admissible perturbations in $\mathcal{I}$.
-
-Both matter in practice. For objecthood claims in this paper, interventional closure is primary and predictive closure is its operational indicator when direct interventions are sparse or costly.
+The earlier distinction now receives a practical qualification. In many domains, direct interventions are sparse or ethically constrained. In such cases predictive closure serves as an operational indicator, but the ontological target remains interventional closure relative to admissible perturbations.
 
 ## 6. Excluding Pathological Composites
+
+Before turning to pathology cases, recall the Section 2 ladder. A failure in one representation of a macro-kind does not by itself show unreality of the pattern. The issue here is whether candidate partitions remain autonomous under the closure tests.
 
 ### 6.1 Shoe-Moon and disjunctive composites
 
