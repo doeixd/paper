@@ -16,7 +16,7 @@ The thesis is this: a real pattern is an autonomous coarse-graining. More precis
 
 In this paper, gerrymandered means dynamically incoherent: a partition that fails transition autonomy by requiring persistent within-class micro bookkeeping. It does not mean merely intuitively disjunctive.
 
-This framing also limits instrumentalist drift. Analysts choose research aims, but admissible intervention classes are constrained by what embodied agents can actually measure and control under locality, bandwidth, and thermodynamic limits. So the target is not arbitrary preference. It is constrained inquiry in a structured world.
+This framing also limits instrumentalist drift. Analysts choose research aims, but admissible intervention classes are plausibly constrained by what embodied agents can measure and control under locality, bandwidth, and thermodynamic limits. So the target is not arbitrary preference. It is constrained inquiry in a structured world.
 
 ### 1.1 Related work and contribution
 
@@ -64,6 +64,8 @@ Predictive form: under the regime distribution, closure requires that $P(Z_{t+1}
 
 Interventional form: for admissible interventions $i \in \mathcal{I}$, the induced macro-transition law $P_i(Z_{t+1}^{L} \mid Z_t)$ is approximately well-defined and stable across microstates that map to the same macrostate.
 
+Here approximate can be instantiated by bounded conditional mutual information, bounded divergence between within-class macro-transition kernels, or bounded out-of-regime predictive regret under admissible interventions.
+
 Lemma (Markov exact case): if the micro-process is first-order Markov and the partition induced by $g$ is strongly lumpable, then the induced macro-process is Markov and transition-autonomous at the macro level.
 
 Formal note. Strong lumpability here means: for any two microstates $x, x'$ in macroclass $C_i$, and any macroclass $C_j$, the aggregated transition probability satisfies $\sum_{y \in C_j} P(y \mid x) = \sum_{y \in C_j} P(y \mid x')$. Transition-autonomous means exactly that the macro transition kernel is well-defined and independent of which representative microstate in $C_i$ is occupied.
@@ -78,7 +80,7 @@ Notation: $Z_{t+1}^{L}$ denotes the macro-trajectory segment $(Z_{t+1}, Z_{t+2},
 
 Equivalent language from computational mechanics is useful here. Closure is the condition where the macro-level predictor from macro-pasts (the $\varepsilon$-side) matches what is obtainable from full micro-pasts for macro-futures (the $\upsilon$-side). When that equality holds, additional micro-information is redundant for the macro target (Shalizi and Crutchfield 2001; Rosas et al. 2024).
 
-Within that formal setup, informational closure and causal closure coincide. This matters for method. Leakiness diagnostics are not a separate ontology test layered on top of causal claims. They are operational indicators of the same closure condition when estimators are chosen carefully (Rosas et al. 2024).
+In the idealized settings considered here, with explicit dynamics and admissible intervention classes specified, informational diagnostics can track the same screening-off structure that underwrites interventional autonomy. This matters for method. Leakiness diagnostics are not a separate ontology test layered on top of causal claims. They are operational indicators of the same closure target when estimators are chosen carefully (Rosas et al. 2024).
 
 In this paper, informational diagnostics and interventional relevance are used together. Low leakiness is an operational test for autonomy, and interventional stability is the ontological interpretation of why that autonomy matters.
 
@@ -184,7 +186,7 @@ For application, low should be defined procedurally rather than asserted. Fix a 
 Decision schema for low leakiness:
 
 1. Choose a benchmark family of candidate partitions $\{g_k\}$ under fixed $L$ and $\mathcal{I}$.
-2. Compute a standardized proxy, for example predictive gain $\Delta$ under added within-class micro-features.
+2. Compute a standardized proxy, for example predictive gain $\Delta$ under added within-class micro-features using a proper scoring rule.
 3. Select a tolerance rule, such as an elbow criterion or stability threshold over resamples.
 4. Prefer partitions that are low-leak by that rule and remain stable under modest shifts in horizon and intervention distribution.
 
@@ -259,6 +261,8 @@ Before turning to pathology cases, recall the Section 2 ladder. A failure in one
 
 Pathological composites fail because they do not form autonomous transition structures. Their parts participate in largely independent, differently constrained dynamics. Grouping them forces additive tracking rather than screening-off. Predictive performance then depends on ongoing micro bookkeeping. Closure fails by construction.
 
+The core step is heterogeneity of onward profiles. If subsystems are independent or weakly coupled relative to $\mathcal{I}$, then a disjunctive macroclass mixing their states will typically contain microstates with different transition vectors over future macroclasses. That heterogeneity induces leakiness unless the intervention class collapses those differences. In ordinary regimes, it does not.
+
 This diagnosis is stronger than saying these composites are unnatural or inconvenient. The failure is dynamical. They do not support macro-transitions as their own level.
 
 ### 6.2 High-maintenance ontological posits
@@ -281,7 +285,7 @@ For atmospheric vortices, the framework predicts that macrovariables such as pre
 
 A stylized test case is straightforward. Take a macrostate with central pressure depth, azimuthal wind structure, translation velocity, and sea-surface-energy intake as variables. Then ask whether adding fine-grained molecule-level distinctions inside fixed macro bins materially improves short-horizon track and intensification forecasts under the same intervention class. If not, closure is strong at that grain. If yes, leakiness is high and the partition should be refined.
 
-The claim is not perfect closure at every token and horizon. The working hypothesis is robust low leakiness across the intervention class that defines meteorological practice.
+The claim is not perfect closure at every token and horizon. The framework predicts robust low leakiness across the intervention class that defines meteorological practice when those macrovariables genuinely screen off micro-variation.
 
 ### 7.2 Organisms and cells
 
@@ -289,7 +293,7 @@ Cells and organisms are plausible candidates for boundary-mediated screening-off
 
 A corresponding stylized biological test uses membrane potential, key metabolite concentrations, and regulatory-state variables as a macrostate. The closure question is whether these variables forecast near-future functional states better than micro-detail-augmented alternatives once intervention class and horizon are fixed.
 
-On this framework, biological explanation is not merely a pragmatic shortcut when these closure conditions are met. It is tracking a real pattern with substantial transition autonomy.
+On this framework, biological explanation is not merely a pragmatic shortcut if these closure conditions are met. It is tracking a real pattern with substantial transition autonomy.
 
 ### 7.3 Borderline cases
 
