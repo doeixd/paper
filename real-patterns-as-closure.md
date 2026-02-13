@@ -26,6 +26,8 @@ This paper sits at an intersection of four conversations. From Dennett, it takes
 
 It also connects to adjacent emergence and coarse-graining debates, including weak emergence, macro-causal advantage, and naturalized metaphysics (Bedau 1997; Hoel, Albantakis, and Tononi 2013; Ladyman and Ross 2007; Mitchell 2009). The contribution here is narrower: a closure criterion with explicit operational tests for dynamic coherence.
 
+Rosas et al. provide the formal machinery. The present paper uses that machinery for a philosophical purpose, to state and defend an ontological criterion with explicit exclusion conditions for dynamically incoherent partitions.
+
 The novel claim here is not any one ingredient in isolation. It is their joint use as a criterion with bite: closure of macro-transition structure, exact in ideal lumpable settings and graded by leakiness in realistic settings, used specifically to filter gerrymandered partitions from autonomous macro-object candidates.
 
 The paper proceeds as follows. Section 2 disambiguates pattern talk by separating reality, pattern, instance, and representation. Section 3 formulates closure as the governing idea. Section 4 introduces strong lumpability and provides a toy example with success and failure partitions. Section 5 extends the criterion to graded, noisy domains. Section 6 applies the view to pathological composites and high-maintenance ontological posits. Section 7 shows how canonical candidates can be evaluated under the protocol. Section 8 states the interpretive gain for Dennett. Section 9 addresses four standard objections. Section 10 concludes with implications and future work.
@@ -96,7 +98,7 @@ In this paper, informational diagnostics and interventional relevance are used t
 
 These diagnostics are evidential, not constitutive. Prediction and intervention do not create the pattern. They test whether a candidate coarse-graining tracks conditional-independence structure already present in the dynamics.
 
-Predictive and interventional closure should be distinguished from the start. Predictive closure concerns screening-off for forecasts under a fixed data regime. Interventional closure concerns invariance of macro-transition structure under admissible perturbations. For objecthood claims here, interventional closure is primary.
+Predictive and interventional closure should be distinguished from the start. Predictive closure concerns screening-off for forecasts under a fixed data regime. Interventional closure concerns invariance of macro-transition structure under admissible perturbations. For objecthood claims here, interventional closure is the ontological standard, while predictive closure is usually the operational proxy.
 
 Stated directly, if two microstates map to the same macrostate at time $t$, they must agree on macro-transition consequences. If they do not, the macrostate hides causally relevant structure and is not autonomous.
 
@@ -167,7 +169,7 @@ For $A$, states inside each class have matching probabilities to macro-classes. 
 
 Partition $B$: $B_1 = \{x_1, x_3\}$ and $B_2 = \{x_2, x_4\}$.
 
-Now compare members of $B_1$. The probability of transitioning to $B_1$ from $x_1$ is $\alpha$, but from $x_3$ it is $\gamma$. Unless $\alpha = \gamma$, members of one macrostate disagree on macro-transitions. Knowing only $B_1$ is therefore insufficient. Macro-prediction depends on hidden microstate identity, and lumpability fails.
+Now compare members of $B_1$. The probability of transitioning to $B_1$ from $x_1$ is $\alpha$, but from $x_3$ it is $\gamma$. If $\alpha \neq \gamma$, knowing only that the system is in $B_1$ is insufficient to predict movement to $B_1$ versus $B_2$. Members of one macrostate disagree on macro-transitions, and lumpability fails.
 
 The lesson is simple. The difference between a legitimate macro-object and a contrived aggregate can be tested by whether the partition preserves transition autonomy. This is why Shoe-Moon style groupings are not just unhelpful. They are dynamically incoherent as macro-candidates.
 
@@ -186,6 +188,10 @@ Exact lumpability is a useful benchmark, but complex systems are noisy, open, an
 This is not a defect in the framework. It is a reason to move from binary closure to graded closure.
 
 The right standard is type-level before token-level. A pattern type can be robustly closed for a regime even when a particular token fails because of boundary violation, unusual perturbation, or timescale shift.
+
+This implies a regime-dependent ontology. Patterns can gain or lose closure as control parameters shift. That consequence is not a bug. It matches ordinary phase-sensitive science, where a candidate object can be robust in one regime and dissolve in another.
+
+The point can be stated plainly. A molecular pattern can be stable in one thermodynamic regime and lose closure in another. The ontology tracks this transition in the same way scientific practice already does.
 
 ### 5.2 Leakiness as graded deviation
 
@@ -254,6 +260,8 @@ for each partition g_k in {g_1, ..., g_m}:
     test intervention-response invariance under admissible intervention set I
 select partitions with low Delta_k and high invariance stability
 ```
+
+The sketch is intentionally procedural. Readers can treat it as a transparent recipe for applying the criterion rather than as a programming requirement.
 
 ### 5.4 Stable versus merely entailed regularities
 
@@ -361,7 +369,7 @@ Reply: the Markov template is a clean tractable case. Non-Markov systems can be 
 
 Objection: if formal systems are closed by definition, does the account collapse into formalism?
 
-Reply: this paper focuses on world-implemented macro-objecthood. Formal systems can be discussed in parallel as stipulated closure, but the present argument is about induced closure and anti-gerrymandering constraints in empirical domains. Scope control is intentional, and it is consistent with the companion claim that one closure concept can have distinct sources.
+Reply: this paper is restricted to spatiotemporal, world-implemented patterns. Formal systems are treated as a contrast class, but they are outside the target domain of the present argument. Scope control is intentional.
 
 ## 10. Conclusion: What Is New and What It Buys
 
