@@ -22,11 +22,13 @@ In this paper, gerrymandered means dynamically incoherent: a partition that fail
 
 This framing also limits instrumentalist drift. Analysts choose research aims, but the intervention classes that matter for closure are not arbitrary. They are constrained by what embodied agents can physically measure and control under locality, bandwidth, and thermodynamic limits. The detailed admissibility constraints that govern intervention-class selection are developed in Section 3.1.
 
+A methodological point should be flagged early. Closure is diagnosed by predictive and interventional tests, but the structure being diagnosed is in the dynamics, not in the analyst's preferences. The conditional-independence relations that constitute closure hold whether or not anyone computes them. Prediction and intervention are the lenses; the causal topology is the terrain. This paper uses those lenses, but the ontological claim is about the terrain.
+
 ### 1.1 Related work and contribution
 
 This paper sits at an intersection of four conversations. From Dennett, it takes the claim that compression and prediction can track objective structure (Dennett 1991). From computational mechanics, it takes the demand that macrostructure must preserve transition-relevant information rather than mere descriptive convenience (Shalizi 2001). From recent closure work, it takes the thought that macro-autonomy can be diagnosed by screening-off relations between micro and macro trajectories (Rosas 2024). From interventionist philosophy of science, it takes the idea that ontological commitment is tied to stable intervention-guiding structure, not to metaphysical fundamentality (Woodward 2003) (Pearl 2000).
 
-It also connects to adjacent emergence and coarse-graining debates, including weak emergence, macro-causal advantage, and naturalized metaphysics (Bedau 1997) (Hoel 2013) (Ladyman and Ross 2007) (Mitchell 2009). The contribution here is narrower: a closure criterion with explicit operational tests for dynamic coherence.
+It also connects to adjacent emergence and coarse-graining debates, including weak emergence, macro-causal advantage, and naturalized metaphysics (Bedau 1997) (Hoel 2013) (Ladyman and Ross 2007) (Mitchell 2009). Of particular relevance is Ladyman and Ross's "Rainforest Realism," which holds that real patterns exist at every scale but provides no discriminating criterion for which patterns count as autonomous macro-objects. The closure criterion fills that gap. The contribution here is narrower than the Rainforest programme but more operationally specific: a closure criterion with explicit tests for dynamic coherence.
 
 Recent work also develops the cognitive genealogy of real-pattern commitments, linking predictive coding and free-energy minimization to the construction of the manifest image (Gładziejewski 2025). That line explains how agents learn and update pattern-representations. The present paper addresses a distinct question: what makes a pattern objectively available to be found in the first place.
 
@@ -104,7 +106,7 @@ Let a micro-process be $X_t$, and let a candidate macro-process be $Z_t = g(X_t)
 
 Notation: $Z_{t+1}^{L}$ denotes the macro-trajectory segment $(Z_{t+1}, Z_{t+2}, \ldots, Z_{t+L})$. Macro-transition profile means the vector of transition probabilities from one macrostate into the set of macro-classes.
 
-Equivalent language from computational mechanics is useful here. Closure is the condition where the macro-level predictor from macro-pasts (the $\varepsilon$-side) matches what is obtainable from full micro-pasts for macro-futures (the $\upsilon$-side). When that equality holds, additional micro-information is redundant for the macro target (Shalizi 2001) (Rosas 2024).
+Equivalent language from computational mechanics makes the test concrete. For any macro-process $Z$, two prediction machines can be defined (Shalizi 2001) (Rosas 2024). The $\varepsilon$-machine is the minimal model that predicts $Z$'s future from $Z$'s own past: it uses only macro-level information. The $\upsilon$-machine is the minimal model that predicts $Z$'s future from the full micro-past $X$: it has access to everything. Closure holds when these two machines are equivalent, meaning that the $\varepsilon$-machine already captures everything the $\upsilon$-machine knows about macro-futures. At that point, additional micro-information is provably redundant for the macro target.
 
 In plain terms, if macro-past already carries the information needed for macro-future in the target regime, then micro-detail is not doing additional explanatory work for that target.
 
@@ -323,7 +325,7 @@ Historically, some posits survive only through repeated patches. The pattern-lev
 
 High maintenance can be stated precisely. A partition is high maintenance when reliable macro-prediction repeatedly forces refinement of within-class distinctions, so yesterday's macrostate labels must be supplemented by new micro bookkeeping to retain accuracy.
 
-This reframes familiar examples such as phlogiston-style constructs. The critique is structural rather than retrospective ridicule: a candidate that continually imports corrections to preserve macro-prediction behaves like a non-autonomous partition.
+Phlogiston illustrates the pattern concretely. When metals gained weight upon burning instead of losing phlogiston as the theory predicted, theorists invented "negative phlogiston" to patch the discrepancy. When different substances showed different weight changes, more ad hoc parameters appeared. Each patch was a new within-class distinction imported to preserve macro-prediction, exactly the signature of a non-autonomous partition. By contrast, oxygen theory required no such ongoing repair: the macro-variable (oxidation state) screened off the relevant chemistry without persistent bookkeeping. The critique here is structural rather than retrospective ridicule: a candidate that continually imports corrections to preserve macro-prediction behaves like a non-autonomous partition, and the closure framework detects this failure directly.
 
 ## 7. Plausible Candidates Under the Protocol
 
@@ -381,6 +383,10 @@ The reconciliation can be stated directly. Dennett supplies a broad criterion fo
 
 The revised slogan is straightforward: a real pattern is an autonomous coarse-graining.
 
+### 8.4 A note on composition
+
+The closure criterion also provides a principled answer to Van Inwagen's Special Composition Question: under what conditions do parts compose a whole (Van Inwagen 1990)? On the present framework, parts compose a whole when their collective dynamics achieve closure for some intervention class and regime. This is neither too permissive (arbitrary sums fail the closure test) nor too restrictive (it includes organisms, artifacts, and institutional entities where closure holds in the relevant domain). Van Inwagen's own answer, that composition occurs only when parts constitute a life, appears as a special case: living systems are paradigmatic achievers of closure because natural selection optimizes for boundaries that minimize thermodynamic cost while maintaining functional integrity. But life is sufficient, not necessary, for composition.
+
 ## 9. Objections and Replies
 
 ### 9.1 This remains instrumentalist
@@ -389,7 +395,7 @@ Objection: choosing macro-targets reflects interests, so realism still collapses
 
 Reply: target selection is interest-shaped, but closure success is not arbitrary once target and regime are fixed. Autonomy is a property of system dynamics under explicit constraints, not of analyst preference.
 
-More strongly, the relevant regimes are constraint-relative, not observer-relative. Agents can choose which domain to study, but they cannot choose whether closure holds once horizon, intervention class, and target are fixed. Admissible intervention classes are bounded by locality and energetic feasibility, so ontology is not set by arbitrary intervention design.
+More strongly, the relevant regimes are constraint-relative, not observer-relative. Agents can choose which domain to study, but they cannot choose whether closure holds once horizon, intervention class, and target are fixed. Admissible intervention classes are bounded by locality and energetic feasibility, so ontology is not set by arbitrary intervention design. There is also a practical asymmetry worth noting: ignoring a genuine closure boundary does not merely reduce convenience. It inflates the algorithmic complexity cost of maintaining prediction, because the agent must now track micro-detail that a closed macro-description would have screened off. The boundary is real in the sense that the world forces you to track it, or pay escalating costs for refusing to.
 
 An example of an inadmissible class is direct arbitrary manipulation of distant microstates with no physically realizable control channel. Such classes can be defined formally, but they are excluded from ontology tests because they violate implementation constraints.
 
@@ -412,6 +418,12 @@ Reply: the Markov template is a clean tractable case. Non-Markov systems can be 
 Objection: if formal systems are closed by definition, does the account collapse into formalism?
 
 Reply: this paper is restricted to spatiotemporal, world-implemented patterns. Formal systems are treated as a contrast class and best understood as stipulated closure, whereas the present argument targets induced closure in empirical dynamics. Scope control is intentional.
+
+### 9.5 Causal exclusion
+
+Objection: if microphysics is causally complete, then macro-level causes are redundant. Positing macro-level causal autonomy either overdetermines effects or conflicts with physical closure (Kim 1998).
+
+Reply: the closure criterion does not claim that macro-descriptions compete with micro-descriptions for causal priority. It claims that macro-descriptions are sufficient for prediction and intervention in specified regimes. When a macro-partition is closed, adding micro-detail does not improve macro-level forecasts or intervention outcomes. This is compatible with microphysical completeness, because the issue is which level of description is sufficient for the target, not which level is fundamental. Macro-autonomy is explanatory and interventional sufficiency, not a rival to micro-physics. The causal work done by macro-variables is real in the interventionist sense (Woodward 2003): macro-level interventions succeed across perturbations, and that success does not require denying that micro-processes implement the transitions.
 
 ## 10. Conclusion: What Is New and What It Buys
 
@@ -437,6 +449,8 @@ Dennett, Daniel C. 1991. "Real Patterns." *Journal of Philosophy* 88 (1): 27-51.
 
 Hoel, Erik P., Larissa Albantakis, and Giulio Tononi. 2013. "Quantifying Causal Emergence Shows that Macro Can Beat Micro." *Proceedings of the National Academy of Sciences* 110 (49): 19790-19795.
 
+Kim, Jaegwon. 1998. *Mind in a Physical World*. Cambridge, MA: MIT Press.
+
 Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
 
 Mitchell, Sandra D. 2009. *Unsimple Truths*. Chicago: University of Chicago Press.
@@ -448,6 +462,8 @@ Pearl, Judea. 2000. *Causality*. Cambridge: Cambridge University Press.
 Rosas, Fernando E., Bernhard C. Geiger, Andrea I. Luppi, Anil K. Seth, Daniel Polani, Michael Gastpar, and Pedro A. M. Mediano. 2024. "Software in the natural world: A computational approach to hierarchical emergence." arXiv preprint arXiv:2402.09090.
 
 Shalizi, Cosma Rohilla, and James P. Crutchfield. 2001. "Computational Mechanics: Pattern and Prediction, Structure and Simplicity." *Journal of Statistical Physics* 104 (3-4): 817-879.
+
+Van Inwagen, Peter. 1990. *Material Beings*. Ithaca: Cornell University Press.
 
 Woodward, James. 2003. *Making Things Happen: A Theory of Causal Explanation*. Oxford: Oxford University Press.
 
