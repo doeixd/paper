@@ -2,7 +2,7 @@
 
 ## 0. Abstract
 
-Dennett's real-patterns framework rightly links ontology to compression and prediction, but it faces two persistent criticisms: it can look instrumentalist (real just means useful to us) and it can look permissive (any coding trick seems to count). This paper argues that both problems trace to a missing ingredient: an explicit closure criterion. A pattern qualifies as a real macro-object when its coarse-grained description is autonomous, meaning that differences among microstates inside a macrostate do not change what happens next at the macro level. When the macro-description carries everything needed for macro-transitions, lower-level bookkeeping is redundant, and the pattern earns ontological standing rather than mere predictive convenience. In idealized settings this reduces to strong lumpability. In realistic settings it becomes a graded condition, measured by how much hidden micro-detail still leaks into macro-forecasts. The framework excludes dynamically incoherent aggregates (like "my left shoe plus Neptune") by structural test, while still admitting unusual partitions when they genuinely satisfy closure. The result is a tighter, more defensible realism about macro-patterns, with explicit conditions for when objecthood claims succeed and when they fail.
+Dennett's real-patterns view links ontology to compression and prediction, but two criticisms persist. It can appear instrumentalist, because usefulness seems to do all the ontological work, and permissive, because contrived codings can look compressive. The missing ingredient is an explicit closure criterion. A pattern qualifies as a real macro-object when its coarse-grained state is sufficient for macro-transitions, so within-class micro-differences do not change what happens next at the macro level. In idealized settings this is strong lumpability. In realistic settings it is approximate lumpability, graded by leakiness. This criterion excludes dynamically incoherent aggregates by structural test while allowing unusual partitions when they remain transition-autonomous. The result is a stricter realism: broad pattern reality is preserved, but robust macro-objecthood requires closure.
 
 ## 1. Introduction: Why Dennett Needs a Criterion
 
@@ -20,9 +20,9 @@ The thesis is this: a real pattern is an autonomous coarse-graining. More precis
 
 In this paper, gerrymandered means dynamically incoherent: a partition that fails transition autonomy by requiring persistent within-class micro bookkeeping. It does not mean merely intuitively disjunctive.
 
-This framing also limits instrumentalist drift. Analysts choose research aims, but the intervention classes that matter for closure are not arbitrary. They are constrained by what embodied agents can physically measure and control under locality, bandwidth, and thermodynamic limits. The detailed admissibility constraints that govern intervention-class selection are developed in Section 3.1.
+This framing also limits instrumentalist drift. Analysts choose research aims, but intervention classes are constrained by what embodied agents can physically measure and control under locality, bandwidth, and thermodynamic limits.
 
-A methodological point should be flagged early. Closure is diagnosed by predictive and interventional tests, but the structure being diagnosed is in the dynamics, not in the analyst's preferences. The conditional-independence relations that constitute closure hold whether or not anyone computes them. Prediction and intervention are the lenses; the causal topology is the terrain. This paper uses those lenses, but the ontological claim is about the terrain.
+Closure is diagnosed by predictive and interventional tests, but the target is dynamical structure, not analyst preference. The relevant conditional-independence relations hold whether or not anyone computes them.
 
 ### 1.1 Related work and contribution
 
@@ -30,15 +30,11 @@ This paper sits at an intersection of four conversations. From Dennett, it takes
 
 It also connects to adjacent emergence and coarse-graining debates, including weak emergence, macro-causal advantage, and naturalized metaphysics (Bedau 1997) (Hoel 2013) (Ladyman and Ross 2007) (Mitchell 2009). Of particular relevance is Ladyman and Ross's "Rainforest Realism," which holds that real patterns exist at every scale but provides no discriminating criterion for which patterns count as autonomous macro-objects. The closure criterion fills that gap. The contribution here is narrower than the Rainforest programme but more operationally specific: a closure criterion with explicit tests for dynamic coherence.
 
-Recent work also develops the cognitive genealogy of real-pattern commitments, linking predictive coding and free-energy minimization to the construction of the manifest image (Gładziejewski 2025). That line explains how agents learn and update pattern-representations. The present paper addresses a distinct question: what makes a pattern objectively available to be found in the first place.
+Recent work also develops the cognitive genealogy of real-pattern commitments, linking predictive coding and free-energy minimization to the construction of the manifest image (Gładziejewski 2025). That line helps explain why bounded agents converge on some representational schemes and revise others over time. It therefore strengthens the anti-arbitrariness side of pattern realism. But it does not by itself settle macro-objecthood, because representational success can remain task-relative unless a further test fixes when a candidate grouping is dynamically available in the world. The closure criterion supplies that additional test.
 
-Rosas et al. provide the formal machinery. The present paper uses that machinery for a philosophical purpose, to state and defend an ontological criterion with explicit exclusion conditions for dynamically incoherent partitions.
+Rosas et al. provide the formal machinery. The argument here uses that machinery to defend an ontological criterion with explicit exclusion conditions for dynamically incoherent partitions. Predictive equivalence alone is not decisive; intervention-class restriction and interventional invariance carry the objecthood claim.
 
-Accordingly, this paper adopts computational-mechanics closure logic and predictive-equivalence tools, but does not treat predictive equivalence alone as ontologically decisive. The added commitment is intervention-class restriction and interventional invariance as the primary objecthood condition.
-
-The novel claim here is not any one ingredient in isolation. It is their joint use as a discriminating criterion: closure of macro-transition structure, exact in ideal lumpable settings and graded by leakiness in realistic settings, used specifically to filter gerrymandered partitions from autonomous macro-object candidates.
-
-The paper proceeds as follows. Section 2 disambiguates pattern talk by separating reality, pattern, instance, and representation. Section 3 formulates closure as the governing idea. Section 4 introduces strong lumpability and provides a toy example with success and failure partitions. Section 5 extends the criterion to graded, noisy domains. Section 6 applies the view to dynamically incoherent composites and high-maintenance ontological posits. Section 7 shows how canonical candidates can be evaluated under the protocol. Section 8 states the interpretive gain for Dennett. Section 9 addresses five standard objections. Section 10 concludes with implications and future work.
+The novel claim is their joint use as a discriminating criterion: closure of macro-transition structure, exact in ideal lumpable settings and graded by leakiness in realistic settings, used to filter gerrymandered partitions from autonomous macro-object candidates.
 
 In brief: a coarse-graining counts as a real pattern when its macro-transition structure is autonomous for a specified regime and horizon, so that within-class micro-differences do not change what happens next at the macro level. In ideal settings this reduces to strong lumpability. In realistic settings it is a graded condition measured by how much micro-detail still leaks into macro-forecasts. The formal criterion, with precise definitions and commitment structure, is stated at the end of Section 3 once the relevant concepts have been introduced.
 
@@ -110,13 +106,11 @@ Equivalent language from computational mechanics makes the test concrete. For an
 
 In plain terms, if macro-past already carries the information needed for macro-future in the target regime, then micro-detail is not doing additional explanatory work for that target.
 
-In the idealized settings considered here, with explicit dynamics and admissible intervention classes specified, informational diagnostics can track the same closure structure tested by interventional criteria. This matters for method.
-
-Leakiness diagnostics serve as operational indicators of the same closure target that interventional criteria test. They are not a separate ontology test layered on top of causal claims (Rosas 2024).
+In the idealized settings considered here, informational diagnostics can track the same closure structure tested by interventional criteria. Leakiness is an operational indicator of that target, not a separate ontology test layered on top of causal claims (Rosas 2024).
 
 Outside first-order Markov settings, the same logic is expressed over enriched histories. Non-Markov closure asks whether macro-history screens off micro-history for macro-futures under the same admissible intervention class. Strong lumpability is the special case where relevant history reduces to the current state.
 
-In this paper, informational diagnostics and interventional relevance are used together. Low leakiness is an operational test for autonomy, and interventional stability is the ontological interpretation of why that autonomy matters.
+Informational diagnostics and interventional relevance are used together. Low leakiness is operational evidence for autonomy, and interventional stability gives the ontological interpretation.
 
 These diagnostics are evidential, not constitutive. Prediction and intervention do not create the pattern. They test whether a candidate coarse-graining tracks conditional-independence structure already present in the dynamics.
 
@@ -136,7 +130,7 @@ To make closure relative to regime operational, use the following recipe.
 
 This procedure does not require one privileged estimator. It requires transparent regime specification and cross-partition comparison under fixed constraints.
 
-Admissibility protocol. Before running closure diagnostics, specify whether the intervention class satisfies three checks: realizable control channel (epistemic), regime preservation (dynamical), and invariance relevance (explanatory). If an intervention class fails any check, it is excluded from ontology assessment rather than treated as an alternative route to objecthood.
+Before running closure diagnostics, specify whether the intervention class satisfies three checks: realizable control channel (epistemic), regime preservation (dynamical), and invariance relevance (explanatory). If an intervention class fails any check, exclude it from ontology assessment.
 
 Admissibility disputes are expected, especially across disciplines. A useful adjudication rule is to compare candidate intervention classes by what they physically permit and by whether they preserve the same target regime. For example, a meteorological intervention class that includes boundary-pressure perturbations can be admissible for storm dynamics, while direct molecule-by-molecule remote rewriting is not. In institutional analysis, changing enforcement intensity can be admissible, while instant arbitrary rewrites of all agent beliefs are not. When two classes are both admissible and target the same regime, the framework permits plural testing rather than forced monism.
 
@@ -227,13 +221,13 @@ The lesson is simple. The difference between a legitimate macro-object and a con
 
 A natural objection is that an unusual, disjunctive partition might still satisfy lumpability in a symmetric system. That is correct. On this framework, if such a partition genuinely supports autonomous macro-transitions in the stated regime, it counts as real at that grain.
 
-Far from a concession to arbitrariness, this result follows directly from the criterion's target. The test tracks dynamic coherence, not intuitive naturalness. A separate naturalness constraint would need to be introduced as an additional criterion beyond what this paper provides.
+This is not a concession to arbitrariness. The test tracks dynamic coherence, not intuitive naturalness. A naturalness filter would be an additional criterion.
 
 The exclusion claim should therefore be read precisely. The framework excludes high-leak, dynamically incoherent aggregates. It does not exclude every disjunctive grouping.
 
 Two guardrails keep this from becoming permissive. First, closure claims must remain stable across modest horizon and regime perturbations. Second, among candidates with similar robustness, the coarsest partition is preferred.
 
-This yields a constrained pluralism. Multiple partitions can count as real when they satisfy closure and robustness at different grains. They need not be equally useful for explanation or control. Robustness and minimality provide ranking principles for theory choice without collapsing the ontology to a single privileged partition in every context.
+This yields a constrained pluralism. Multiple partitions can count as real when they satisfy closure and robustness at different grains. They need not be equally useful for explanation or control. That matters for explanatory-competition debates. Competing levels often answer different counterfactual questions under different intervention classes, so apparent rivalry can be a mismatch of targets rather than a genuine conflict. Where targets are matched, robustness and minimality rank candidates without collapsing ontology to a single privileged partition in every context.
 
 ## 5. Approximate Lumpability: Realism Without Perfection
 
@@ -241,15 +235,15 @@ This yields a constrained pluralism. Multiple partitions can count as real when 
 
 Exact lumpability is a useful benchmark, but complex systems are noisy, open, and high-dimensional. Boundaries leak. Couplings shift across regimes. Biological and social systems especially rarely satisfy exact closure across all scales and perturbations.
 
-Rather than undermining the framework, this motivates the move from binary closure to graded closure.
+This motivates the move from binary closure to graded closure.
 
 The right standard is type-level before token-level. A pattern type can be robustly closed for a regime even when a particular token fails because of boundary violation, unusual perturbation, or timescale shift.
 
 This implies a regime-dependent ontology. Objecthood is phase-dependent: a pattern can be robust in one thermodynamic regime and lose closure in another. This is a feature of the account, because causal structure itself can appear or disappear across regime transitions.
 
-This does not imply metaphysical annihilation. It means the closure conditions that license object-level treatment are regime-sensitive.
+This does not imply metaphysical annihilation. It means closure conditions are regime-sensitive.
 
-Two sources of regime dependence should be distinguished. Ontic regime dependence occurs when system structure actually changes, for example across phase transitions or boundary-condition shifts. Epistemic regime dependence occurs when measurement and control access change while underlying structure remains fixed. Both matter for practice, but they have different implications for realism. The first is about world change. The second is about access limits.
+Two sources of regime dependence should be distinguished. Ontic regime dependence occurs when system structure changes, for example across phase transitions or boundary-condition shifts. Epistemic regime dependence occurs when measurement and control access change while underlying structure remains fixed.
 
 ### 5.2 Leakiness as graded deviation
 
@@ -278,7 +272,7 @@ Fix intervention class $\mathcal{I}$ as boundary-condition clamps and localized 
 
 At $L=1$, both partitions can appear similarly predictive under purely observational fitting. Under the fixed interventions, $Z^{(A)}$ remains stable while $Z^{(B)}$ shows higher leakiness and intervention-response heterogeneity within macroclasses. At $L=10$, this divergence widens because hidden within-class differences in $Z^{(B)}$ accumulate. The verdict is therefore horizon-relative and regime-relative in exactly the intended sense.
 
-This kind of comparison makes closure relative to $L$ and $\mathcal{I}$ operational rather than merely verbal. The paper remains conceptual in scope; a full empirical benchmark study would compute the listed diagnostics on a fixed dataset across competing partitions. The detailed setup specification and estimation algorithm are provided in Appendix A.
+This makes closure relative to $L$ and $\mathcal{I}$ operational rather than merely verbal. Appendix A gives the setup specification and estimation algorithm.
 
 ### 5.4 Stable versus merely entailed regularities
 
@@ -307,17 +301,15 @@ The mitigation strategy is procedural and comparative. Use multiple diagnostics,
 
 ## 6. Excluding Dynamically Incoherent Composites
 
-Before turning to pathology cases, recall the Section 2 ladder. A failure in one representation of a macro-kind does not by itself show unreality of the pattern. The issue here is whether candidate partitions remain autonomous under the closure tests.
+A failure in one representation of a macro-kind does not by itself show unreality of the pattern. The issue is whether candidate partitions remain autonomous under closure tests.
 
 ### 6.1 Disjunctive composites
 
 Dynamically incoherent composites do not form autonomous transition structures. Their parts participate in largely independent, differently constrained dynamics. Grouping them forces additive tracking rather than screening-off. Predictive performance then depends on ongoing micro bookkeeping. Under the stated closure conditions, such composites fail the autonomy test.
 
-The core step is heterogeneity of onward profiles. If subsystems are independent or weakly coupled relative to $\mathcal{I}$, then a disjunctive macroclass mixing their states will typically contain microstates with different transition vectors over future macroclasses. That heterogeneity induces leakiness unless the intervention class collapses those differences. In ordinary regimes, it does not.
+The core step is heterogeneity of onward profiles. If subsystems are independent or weakly coupled relative to $\mathcal{I}$, a disjunctive macroclass mixing their states will typically contain microstates with different transition vectors over future macroclasses. That heterogeneity induces leakiness unless the intervention class collapses those differences.
 
-The diagnosis goes beyond saying these composites are "unnatural" or inconvenient. The failure is dynamical: they simply do not support macro-transitions as their own level.
-
-This point complements, rather than replaces, MDL-style cohesion arguments. Compression criteria explain why some models are cognitively efficient. Closure criteria explain why some targets are dynamically available for robust tracking under admissible interventions.
+The diagnosis is dynamical: these composites do not support macro-transitions as their own level. This complements MDL-style cohesion arguments. Compression explains cognitive efficiency; closure explains dynamic availability under admissible interventions.
 
 ### 6.2 High-maintenance ontological posits
 
@@ -329,9 +321,7 @@ Phlogiston illustrates the pattern concretely. When metals gained weight upon bu
 
 ## 7. Plausible Candidates Under the Protocol
 
-At this stage, keep the ladder from Section 2 in view. The claim is about pattern-level autonomy, not infallibility of any one representation and not perfect behavior of every token instance.
-
-The examples in this section are stylized protocol illustrations. They show how the criterion is applied. They are not offered as stand-alone empirical demonstrations.
+The examples in this section are stylized protocol illustrations. The target claim is pattern-level autonomy, not infallibility of any one representation or perfect behavior of every token.
 
 ### 7.1 Hurricanes and vortical structures
 
@@ -339,7 +329,7 @@ Hurricanes are a natural first test case. Their macrovariables (pressure organiz
 
 To apply the protocol: define a macrostate using central pressure depth, azimuthal wind structure, translation velocity, and sea-surface-energy intake. Fix an intervention class appropriate to meteorological practice (boundary-condition perturbations, not molecule-by-molecule rewriting). Then ask: does adding fine-grained molecular detail inside fixed macro bins materially improve short-horizon forecasts under that intervention class? If not, the macrostate screens off micro-variation and closure is strong at that grain. If yes, leakiness is high and the partition should be refined.
 
-This is a Level 2 claim about pattern structure (Section 2), not a Level 4 claim that any particular forecasting model is final. The claim is not perfect closure at every token and horizon. It is that the hurricane pattern supports robust low leakiness across the intervention class that defines meteorological practice.
+This is a claim about pattern structure, not about finality of any specific forecasting model. The point is robust low leakiness across the intervention class that defines meteorological practice, not perfect closure at every token and horizon.
 
 ### 7.2 Organisms and cells
 
@@ -347,7 +337,7 @@ Cells and organisms are plausible candidates for boundary-mediated screening-off
 
 A stylized biological test: define a macrostate using membrane potential, key metabolite concentrations, and regulatory-state variables. Fix an intervention class (pharmacological perturbation, temperature shifts within the viable range). The closure question is whether these macro-variables forecast near-future functional states without needing augmentation by the positions and momenta of individual molecules. If the answer is yes across the admissible intervention class, the cell earns object-level treatment under the criterion.
 
-The claim targets pattern-level autonomy. Any particular model of cell biology can fail while the pattern remains real, so long as alternative representations capture the same closure structure. On this framework, biological explanation at the cellular level is not merely a pragmatic shortcut. If closure conditions are met, it tracks a real pattern with substantial transition autonomy.
+Any particular model of cell biology can fail while the pattern remains real, so long as alternative representations capture the same closure structure. If closure conditions are met, cellular explanation is more than a pragmatic shortcut. It tracks a real pattern with substantial transition autonomy.
 
 ### 7.3 Borderline cases
 
@@ -355,7 +345,7 @@ Clouds, flames, and ecosystems illustrate why graded criteria matter. Consider a
 
 Ecosystems push the boundary further. Their macro-variables (species composition, nutrient cycling rates, trophic structure) can support prediction and intervention over some timescales, but they are often regime-sensitive and subject to abrupt phase transitions. The leakiness spectrum handles this naturally: an ecosystem in a stable regime may be reasonably closed, while the same ecosystem near a tipping point may show rapidly increasing leakiness as hidden micro-heterogeneity becomes macro-relevant.
 
-The framework gives principled gradation rather than all-or-nothing verdicts. A borderline case is not an embarrassment; it is a case where the criterion does exactly what it should, returning a qualified answer rather than forcing a binary one.
+The criterion gives principled gradation rather than all-or-nothing verdicts. Borderline cases should return qualified answers.
 
 ## 8. Dennett Revisited
 
@@ -395,11 +385,11 @@ Objection: choosing macro-targets reflects interests, so realism still collapses
 
 Reply: target selection is interest-shaped, but closure success is not arbitrary once target and regime are fixed. Autonomy is a property of system dynamics under explicit constraints, not of analyst preference.
 
-More strongly, the relevant regimes are constraint-relative, not observer-relative. Agents can choose which domain to study, but they cannot choose whether closure holds once horizon, intervention class, and target are fixed. Admissible intervention classes are bounded by locality and energetic feasibility, so ontology is not set by arbitrary intervention design. There is also a practical asymmetry worth noting: ignoring a genuine closure boundary does not merely reduce convenience. It inflates the algorithmic complexity cost of maintaining prediction, because the agent must now track micro-detail that a closed macro-description would have screened off. The boundary is real in the sense that the world forces you to track it, or pay escalating costs for refusing to.
+The relevant regimes are constraint-relative, not observer-relative. Agents can choose which domain to study, but they cannot choose whether closure holds once horizon, intervention class, and target are fixed. Admissible intervention classes are bounded by locality and energetic feasibility, so ontology is not set by arbitrary intervention design.
 
 An example of an inadmissible class is direct arbitrary manipulation of distant microstates with no physically realizable control channel. Such classes can be defined formally, but they are excluded from ontology tests because they violate implementation constraints.
 
-For social kinds, admissibility usually proceeds through implementation mechanisms. A legal intervention is admissible not because a rule is written, but because enforcement institutions physically constrain behavior through courts, bureaucracies, and sanctions. Stipulation has causal force only through implementation.
+For social kinds, admissibility proceeds through implementation mechanisms. A legal intervention is admissible not because a rule is written, but because enforcement institutions physically constrain behavior through courts, bureaucracies, and sanctions.
 
 ### 9.2 Predictive sufficiency does not imply existence
 
@@ -427,17 +417,13 @@ Reply: the closure criterion does not claim that macro-descriptions compete with
 
 ## 10. Conclusion: What Is New and What It Buys
 
-The paper offered a precise criterion for real patterns by combining closure with lumpability. The criterion is exact in strong-lumpability settings and graded in realistic approximate settings. It excludes dynamically incoherent composites by structural test, not rhetorical dismissal. It also provides a principled way to evaluate canonical macro-object candidates by testing whether their partitions remain low-leak and intervention-relevant across specified regimes.
+The criterion combines closure with lumpability. It is exact in strong-lumpability settings and graded in realistic approximate settings. It excludes dynamically incoherent composites by structural test and gives a principled way to evaluate canonical macro-object candidates by asking whether partitions remain low-leak and intervention-relevant across specified regimes.
 
-The conceptual gain is twofold. First, it sharpens Dennett without abandoning his core insight. Second, it gives a principled bridge from philosophical pattern realism to operational diagnostics used in complex-systems science.
+The gain is twofold. It sharpens Dennett without abandoning his core insight, and it links pattern realism to operational diagnostics used in complex-systems science.
 
-What changes if this criterion is adopted? Several long-standing disputes become more tractable. The debate over whether higher-level entities are "merely useful fictions" or "genuinely real" gets a concrete resolution procedure: test for closure and see. The permissiveness objection to pattern realism acquires a definite answer: gerrymandered composites fail the transition-autonomy test. The worry about instrumentalist drift is addressed by the admissibility constraints, which anchor intervention classes to physical implementability rather than analyst preference. And borderline cases (flames, ecosystems, contested social kinds) no longer require all-or-nothing verdicts; the framework returns graded assessments with explicit regime qualifications. None of this eliminates philosophical disagreement, but it shifts the disagreement from "is this real?" to "does this satisfy closure under these conditions?"
+Several disputes become more tractable. Debates about "useful fiction" versus "genuine reality" now have a resolution procedure: test closure under specified conditions. The permissiveness objection gets a direct answer, because gerrymandered composites fail transition autonomy. Instrumentalist drift is constrained by admissibility requirements tied to physical implementability. Borderline cases then receive graded assessments with explicit regime qualifications.
 
-Future work can proceed in three directions: empirical estimation of leakiness in concrete domains, tighter links with Markov-blanket and computational-mechanics formalisms, and disciplined extension to social kinds where implementation and normativity interact under explicit closure conditions.
-
-Social kinds are likely the hardest extension case. Their closure profile is often recursive: collective recognition helps sustain the very constraints being recognized. This does not refute the framework, but it means admissibility and implementation must be specified with unusual care in institutional domains.
-
-An additional direction is structural. The space of closure-supporting coarse-grainings can be analyzed in theory space as a nested architecture of macro-models, rather than only as ad hoc candidates in state space.
+Future work can proceed in three directions: empirical estimation of leakiness in concrete domains, tighter links with Markov-blanket and computational-mechanics formalisms, and disciplined extension to social kinds where implementation and normativity interact under explicit closure conditions. Social kinds are likely the hardest extension case, because collective recognition can help sustain the constraints being recognized. A further structural direction is to analyze closure-supporting coarse-grainings in theory space as a nested architecture of macro-models rather than as ad hoc candidates in state space.
 
 The framework also has a clear failure condition. If proposed macro-partitions systematically fail closure tests across well-specified horizons and intervention classes, then the corresponding objecthood claims should be withdrawn or downgraded.
 
