@@ -78,6 +78,8 @@ Notation: $Z_{t+1}^{L}$ denotes the macro-trajectory segment $(Z_{t+1}, Z_{t+2},
 
 Equivalent language from computational mechanics is useful here. Closure is the condition where the macro-level predictor from macro-pasts (the $\varepsilon$-side) matches what is obtainable from full micro-pasts for macro-futures (the $\upsilon$-side). When that equality holds, additional micro-information is redundant for the macro target (Shalizi and Crutchfield 2001; Rosas et al. 2024).
 
+Within that formal setup, informational closure and causal closure coincide. This matters for method. Leakiness diagnostics are not a separate ontology test layered on top of causal claims. They are operational indicators of the same closure condition when estimators are chosen carefully (Rosas et al. 2024).
+
 In this paper, informational diagnostics and interventional relevance are used together. Low leakiness is an operational test for autonomy, and interventional stability is the ontological interpretation of why that autonomy matters.
 
 These diagnostics are evidential, not constitutive. Prediction and intervention do not create the pattern. They test whether a candidate coarse-graining tracks conditional-independence structure already present in the dynamics.
@@ -121,6 +123,8 @@ Mini illustration. Suppose two partitions achieve comparable one-step observatio
 In Markov settings, the exact condition is strong lumpability. Partition the microstate space into macro-classes. For any two microstates in the same class, the total transition probability to each macro-class must be the same. If that condition holds, the induced macro-process is Markov with well-defined transitions. If it fails, macro-dynamics depend on hidden micro-history (Rosas et al. 2024).
 
 For the Markov template used here, strong lumpability is the canonical exact criterion for autonomous macro-transitions. It should be read as an ideal limit case. In broader modeling practice, the same role is played by equivalent closure conditions over enriched histories or augmented state spaces when first-order Markov assumptions do not hold.
+
+Strong lumpability is sufficient for causal closure in this setting, not necessary in every modeling context. This is why approximate and non-Markov extensions remain legitimate parts of the framework rather than fallback concessions.
 
 This condition is philosophically important because it formalizes one precise sense of non-gerrymandered. A valid macro-class is not just a set of points we grouped together. It is a set whose members are equivalent with respect to macro-relevant futures.
 
@@ -192,6 +196,8 @@ Equivalent diagnostics can be used when direct mutual-information estimation is 
 
 The point is not metric monopoly. The point is to measure how far a partition is from closure using transparent, comparable diagnostics.
 
+A related guardrail is useful here. Computational closure, understood as a successful higher-level computational description, can hold in cases where informational and interventional closure do not fully hold. For this paper's objecthood claim, computational adequacy alone is not enough; informational and interventional closure remain the decisive standards.
+
 ### 5.3 Worked regime instantiation
 
 Consider a simulated lattice process with local coupling and boundary forcing. Compare two candidate coarse-grainings.
@@ -240,6 +246,8 @@ This distinction also explains why many gerrymandered constructions feel temptin
 ### 5.5 Predictive and interventional closure
 
 The earlier distinction now receives a practical qualification. In many domains, direct interventions are sparse or ethically constrained. In such cases predictive closure serves as an operational indicator, but the ontological target remains interventional closure relative to admissible perturbations.
+
+Where this target is met, a practical consequence follows. Macro-level control can approach optimal controllability for the specified intervention class without continual microstate tracking.
 
 This is also why predictive fit alone cannot settle objecthood. Overfit representational schemes can track past trajectories while failing under novel perturbations. Closure claims should therefore be judged by out-of-regime and interventional stability, not only in-sample prediction.
 
@@ -336,6 +344,8 @@ The paper offered a precise criterion for real patterns by combining closure wit
 The conceptual gain is twofold. First, it sharpens Dennett without abandoning his core insight. Second, it gives a principled bridge from philosophical pattern realism to operational diagnostics used in complex-systems science.
 
 Future work can proceed in three directions: empirical estimation of leakiness in concrete domains, tighter links with Markov-blanket and computational-mechanics formalisms, and disciplined extension to social kinds where implementation and normativity interact under explicit closure conditions.
+
+An additional direction is structural. The space of closure-supporting coarse-grainings can be analyzed in theory space as a nested architecture of macro-models, rather than only as ad hoc candidates in state space.
 
 The framework also has a clear failure condition. If proposed macro-partitions systematically fail closure tests across well-specified horizons and intervention classes, then the corresponding objecthood claims should be withdrawn or downgraded.
 
