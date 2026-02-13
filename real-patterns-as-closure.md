@@ -14,6 +14,8 @@ This paper argues that both criticisms identify a genuine gap, but not a fatal f
 
 The thesis is this: a real pattern is an autonomous coarse-graining. More precisely, a pattern is real when macrostate information is sufficient for macro-transition structure, so lower-level distinctions inside each macrostate no longer matter for macro-evolution. In exact Markov settings, this is strong lumpability. In realistic settings, this is approximate lumpability measured by leakiness.
 
+This framing also limits instrumentalist drift. Analysts choose research aims, but admissible intervention classes are constrained by what embodied agents can actually measure and control under locality, bandwidth, and thermodynamic limits. So the target is not arbitrary preference. It is constrained inquiry in a structured world.
+
 The paper proceeds as follows. Section 2 disambiguates pattern talk by separating reality, pattern, instance, and representation. Section 3 formulates closure as the governing idea. Section 4 introduces strong lumpability and provides a toy example with success and failure partitions. Section 5 extends the criterion to graded, noisy domains. Section 6 applies the view to pathological composites and high-maintenance ontological posits. Section 7 shows how canonical macro-objects pass. Section 8 states the interpretive gain for Dennett. Section 9 addresses four standard objections. Section 10 concludes with implications and future work.
 
 ## 2. Disambiguation: What Exactly Is a Pattern?
@@ -34,6 +36,8 @@ The same word can refer to different layers. That ambiguity creates pseudo-dispu
 
 In this paper, real pattern does not mean mental construct, Platonic object, or anything describable. It means a coarse-graining that earns autonomy in transition structure. The claim is modest and precise. We are not adding a new substance to ontology. We are identifying when macro-description tracks objective structure well enough to function as its own level of what follows. This is not eliminativism about mathematics or logic. It is a scope claim about world-implemented macro-objecthood in the present paper.
 
+Formal systems are useful here as a contrast class. They are closed by stipulation. The present paper is about closure induced by empirical dynamics.
+
 ## 3. From Real Patterns to Closure
 
 ### 3.1 The closure intuition
@@ -42,9 +46,15 @@ Closure can be stated without heavy formalism. A macro-pattern is real when macr
 
 This is a transition claim, not a static shape claim. We care about dynamics. Two microstates may look similar now but diverge in macro-futures. If so, grouping them as one macrostate is not autonomous.
 
+Definition (Closure relative to regime): a coarse-graining $Z_t = g(X_t)$ is closed over horizon $L$ and intervention class $\mathcal{I}$ when $Z_t$ is sufficient for forecasting and interventionally tracking $Z_{t+1}^{L}$ in that regime, without importing additional within-class microstate distinctions.
+
+Lemma (Markov exact case): if the micro-process is first-order Markov and the partition induced by $g$ is strongly lumpable, then the induced macro-process is Markov and transition-autonomous at the macro level.
+
 ### 3.2 Minimal formal shape
 
 Let a micro-process be $X_t$, and let a candidate macro-process be $Z_t = g(X_t)$. Closure for $Z$ asks whether $Z_t$ is sufficient for forecasting the distribution of $Z_{t+1}$, or a relevant horizon $Z_{t+1}^{L}$, without importing hidden distinctions among microstates inside each macrostate.
+
+In this paper, informational diagnostics and interventional relevance are used together. Low leakiness is an operational test for autonomy, and interventional stability is the ontological interpretation of why that autonomy matters.
 
 Stated directly, if two microstates map to the same macrostate at time $t$, they must agree on macro-transition consequences. If they do not, the macrostate hides causally relevant structure and is not autonomous.
 
@@ -58,7 +68,7 @@ Dennett's compression point is preserved. Compression tracks objective regularit
 
 In Markov settings, the exact condition is strong lumpability. Partition the microstate space into macro-classes. For any two microstates in the same class, the total transition probability to each macro-class must be the same. If that condition holds, the induced macro-process is Markov with well-defined transitions. If it fails, macro-dynamics depend on hidden micro-history (Rosas et al. 2024).
 
-For the Markov template used here, strong lumpability is the decisive criterion for autonomous macro-transitions. In broader modeling practice, the same role is played by equivalent closure conditions over enriched histories or augmented state spaces when first-order Markov assumptions do not hold.
+For the Markov template used here, strong lumpability is the canonical exact criterion for autonomous macro-transitions. In broader modeling practice, the same role is played by equivalent closure conditions over enriched histories or augmented state spaces when first-order Markov assumptions do not hold.
 
 This condition is philosophically important because it formalizes the phrase non-gerrymandered. A valid macro-class is not just a set of points we grouped together. It is a set whose members are equivalent with respect to macro-relevant futures.
 
@@ -123,6 +133,8 @@ This diagnosis is stronger than saying these composites are unnatural or inconve
 
 Historically, some posits survive only through repeated patches. The pattern-level diagnosis is high leakiness. If a purported macro-kind constantly requires additional hidden variables to preserve forecast quality, that is evidence against closure at that partition.
 
+High maintenance can be stated precisely. A partition is high maintenance when reliable macro-prediction repeatedly forces refinement of within-class distinctions, so yesterday's macrostate labels must be supplemented by new micro bookkeeping to retain accuracy.
+
 This reframes familiar examples such as phlogiston-style constructs. The critique is not retrospective ridicule. The critique is structural. A candidate that continually imports corrections to preserve macro-prediction behaves like a non-autonomous partition.
 
 ## 7. Canonical Real Patterns: Why Hurricanes and Organisms Pass
@@ -151,7 +163,7 @@ Dennett was right that compression and prediction can reveal objective structure
 
 ### 8.2 What needed completion
 
-What was missing was an explicit anti-gerrymandering criterion and a graded account for imperfect real systems. Strong lumpability supplies the former in exact settings. Leakiness-based approximate lumpability supplies the latter.
+What was missing was an explicit anti-gerrymandering criterion and a graded account for imperfect real systems. Strong lumpability is a natural exact formalization of that criterion in Markov settings. Leakiness-based approximate lumpability supplies the realistic extension.
 
 ### 8.3 Sharpened slogan
 
