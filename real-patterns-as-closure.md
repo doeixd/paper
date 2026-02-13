@@ -66,7 +66,11 @@ Let a micro-process be $X_t$, and let a candidate macro-process be $Z_t = g(X_t)
 
 Notation: $Z_{t+1}^{L}$ denotes the macro-trajectory segment $(Z_{t+1}, Z_{t+2}, \ldots, Z_{t+L})$. Macro-transition profile means the vector of transition probabilities from one macrostate into the set of macro-classes.
 
+Equivalent language from computational mechanics is useful here. Closure is the condition where the macro-level predictor from macro-pasts (the $\varepsilon$-side) matches what is obtainable from full micro-pasts for macro-futures (the $\upsilon$-side). When that equality holds, additional micro-information is redundant for the macro target (Shalizi and Crutchfield 2001; Rosas et al. 2024).
+
 In this paper, informational diagnostics and interventional relevance are used together. Low leakiness is an operational test for autonomy, and interventional stability is the ontological interpretation of why that autonomy matters.
+
+These diagnostics are evidential, not constitutive. Prediction and intervention do not create the pattern. They test whether a candidate coarse-graining tracks conditional-independence structure already present in the dynamics.
 
 Predictive and interventional closure should be distinguished from the start. Predictive closure concerns screening-off for forecasts under a fixed data regime. Interventional closure concerns invariance of macro-transition structure under admissible perturbations. For objecthood claims here, interventional closure is primary.
 
@@ -153,6 +157,8 @@ Exact lumpability is a useful benchmark, but complex systems are noisy, open, an
 
 This is not a defect in the framework. It is a reason to move from binary closure to graded closure.
 
+The right standard is type-level before token-level. A pattern type can be robustly closed for a regime even when a particular token fails because of boundary violation, unusual perturbation, or timescale shift.
+
 ### 5.2 Leakiness as graded deviation
 
 A natural quantity is leakiness: how much micro-information inside a macrostate improves macro-future prediction once the macrostate is already known. One concise expression is the conditional mutual information $I(X_t; Z_{t+1} \mid Z_t)$. When this value is low, macro-description is nearly autonomous. When it is high, macro-description hides relevant differences.
@@ -223,6 +229,8 @@ This distinction also explains why many gerrymandered constructions feel temptin
 
 The earlier distinction now receives a practical qualification. In many domains, direct interventions are sparse or ethically constrained. In such cases predictive closure serves as an operational indicator, but the ontological target remains interventional closure relative to admissible perturbations.
 
+This is also why predictive fit alone cannot settle objecthood. Overfit representational schemes can track past trajectories while failing under novel perturbations. Closure claims should therefore be judged by out-of-regime and interventional stability, not only in-sample prediction.
+
 ## 6. Excluding Pathological Composites
 
 Before turning to pathology cases, recall the Section 2 ladder. A failure in one representation of a macro-kind does not by itself show unreality of the pattern. The issue here is whether candidate partitions remain autonomous under the closure tests.
@@ -288,6 +296,8 @@ The revised slogan is straightforward: a real pattern is an autonomous coarse-gr
 Objection: choosing macro-targets reflects interests, so realism still collapses into usefulness.
 
 Reply: target selection is interest-shaped, but closure success is not arbitrary once target and regime are fixed. Autonomy is a property of system dynamics under explicit constraints, not of analyst preference.
+
+More strongly, the relevant regimes are constraint-relative, not observer-relative. Agents can choose which domain to study, but they cannot choose whether closure holds once horizon, intervention class, and target are fixed.
 
 ### 9.2 Predictive sufficiency does not imply existence
 
