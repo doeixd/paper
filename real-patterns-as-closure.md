@@ -30,9 +30,9 @@ It also connects to adjacent emergence and coarse-graining debates, including we
 
 Rosas et al. provide the formal machinery. The present paper uses that machinery for a philosophical purpose, to state and defend an ontological criterion with explicit exclusion conditions for dynamically incoherent partitions.
 
-The novel claim here is not any one ingredient in isolation. It is their joint use as a criterion with bite: closure of macro-transition structure, exact in ideal lumpable settings and graded by leakiness in realistic settings, used specifically to filter gerrymandered partitions from autonomous macro-object candidates.
+The novel claim here is not any one ingredient in isolation. It is their joint use as a discriminating criterion: closure of macro-transition structure, exact in ideal lumpable settings and graded by leakiness in realistic settings, used specifically to filter gerrymandered partitions from autonomous macro-object candidates.
 
-The paper proceeds as follows. Section 2 disambiguates pattern talk by separating reality, pattern, instance, and representation. Section 3 formulates closure as the governing idea. Section 4 introduces strong lumpability and provides a toy example with success and failure partitions. Section 5 extends the criterion to graded, noisy domains. Section 6 applies the view to pathological composites and high-maintenance ontological posits. Section 7 shows how canonical candidates can be evaluated under the protocol. Section 8 states the interpretive gain for Dennett. Section 9 addresses four standard objections. Section 10 concludes with implications and future work.
+The paper proceeds as follows. Section 2 disambiguates pattern talk by separating reality, pattern, instance, and representation. Section 3 formulates closure as the governing idea. Section 4 introduces strong lumpability and provides a toy example with success and failure partitions. Section 5 extends the criterion to graded, noisy domains. Section 6 applies the view to dynamically incoherent composites and high-maintenance ontological posits. Section 7 shows how canonical candidates can be evaluated under the protocol. Section 8 states the interpretive gain for Dennett. Section 9 addresses four standard objections. Section 10 concludes with implications and future work.
 
 Criterion statement. A coarse-graining $Z = g(X)$ counts as a real pattern for a specified regime, horizon $L$, and intervention class $\mathcal{I}$ when macro-transition structure is autonomous up to an explicit tolerance (for example, bounded leakiness, bounded within-class kernel divergence, or bounded out-of-regime predictive regret). In ideal Markov settings this reduces to strong lumpability. In realistic settings it is assessed by leakiness, transition-kernel divergence, and intervention-response invariance.
 
@@ -193,6 +193,8 @@ The right standard is type-level before token-level. A pattern type can be robus
 
 This implies a regime-dependent ontology. Objecthood is phase-dependent: a pattern can be robust in one thermodynamic regime and lose closure in another. This is a feature of the account, because causal structure itself can appear or disappear across regime transitions.
 
+This does not imply metaphysical annihilation. It means the closure conditions that license object-level treatment are regime-sensitive.
+
 ### 5.2 Leakiness as graded deviation
 
 A natural quantity is leakiness: how much micro-information inside a macrostate improves macro-future prediction once the macrostate is already known. One concise expression is the conditional mutual information $I(X_t; Z_{t+1} \mid Z_t)$. When this value is low, macro-description is nearly autonomous. When it is high, macro-description hides relevant differences.
@@ -278,13 +280,13 @@ This is also why predictive fit alone cannot settle objecthood. Overfit represen
 
 Practical failure modes are expected: hidden confounding, nonstationarity, partial observability, and high-dimensional estimator bias can distort proxy values. This is one reason interventional invariance remains the primary target when intervention data are available.
 
-## 6. Excluding Pathological Composites
+## 6. Excluding Dynamically Incoherent Composites
 
 Before turning to pathology cases, recall the Section 2 ladder. A failure in one representation of a macro-kind does not by itself show unreality of the pattern. The issue here is whether candidate partitions remain autonomous under the closure tests.
 
 ### 6.1 Shoe-Moon and disjunctive composites
 
-Pathological composites fail because they do not form autonomous transition structures. Their parts participate in largely independent, differently constrained dynamics. Grouping them forces additive tracking rather than screening-off. Predictive performance then depends on ongoing micro bookkeeping. Closure fails by construction.
+Dynamically incoherent composites do not form autonomous transition structures. Their parts participate in largely independent, differently constrained dynamics. Grouping them forces additive tracking rather than screening-off. Predictive performance then depends on ongoing micro bookkeeping. Under the stated closure conditions, such composites fail the autonomy test.
 
 The core step is heterogeneity of onward profiles. If subsystems are independent or weakly coupled relative to $\mathcal{I}$, then a disjunctive macroclass mixing their states will typically contain microstates with different transition vectors over future macroclasses. That heterogeneity induces leakiness unless the intervention class collapses those differences. In ordinary regimes, it does not.
 
