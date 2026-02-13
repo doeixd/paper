@@ -110,7 +110,9 @@ Equivalent language from computational mechanics is useful here. Closure is the 
 
 In plain terms, if macro-past already carries the information needed for macro-future in the target regime, then micro-detail is not doing additional explanatory work for that target.
 
-In the idealized settings considered here, with explicit dynamics and admissible intervention classes specified, informational diagnostics can track the same closure structure tested by interventional criteria. This matters for method. Leakiness diagnostics are not a separate ontology test layered on top of causal claims. They are operational indicators of the same closure target when estimators are chosen carefully (Rosas 2024).
+In the idealized settings considered here, with explicit dynamics and admissible intervention classes specified, informational diagnostics can track the same closure structure tested by interventional criteria. This matters for method.
+
+Leakiness diagnostics are not a separate ontology test layered on top of causal claims. They are operational indicators of the same closure target when estimators are chosen carefully (Rosas 2024).
 
 Outside first-order Markov settings, the same logic is expressed over enriched histories. Non-Markov closure asks whether macro-history screens off micro-history for macro-futures under the same admissible intervention class. Strong lumpability is the special case where relevant history reduces to the current state.
 
@@ -223,7 +225,9 @@ This does not imply metaphysical annihilation. It means the closure conditions t
 
 ### 5.2 Leakiness as graded deviation
 
-A natural quantity is leakiness: how much micro-information inside a macrostate improves macro-future prediction once the macrostate is already known. One concise expression is the conditional mutual information $I(X_t; Z_{t+1} \mid Z_t)$. When this value is low, macro-description is nearly autonomous. When it is high, macro-description hides relevant differences.
+A natural quantity is leakiness: how much micro-information inside a macrostate improves macro-future prediction once the macrostate is already known. One concise expression is the conditional mutual information $I(X_t; Z_{t+1} \mid Z_t)$.
+
+In plain terms, leakiness asks whether hidden micro detail still changes the macro forecast after we already know the current macrostate. Low leakiness means little hidden dependence. High leakiness means the coarse-graining still hides causally relevant structure.
 
 Leakiness can be estimated from observational data, from interventional data, or from both. Which source dominates depends on the regime and on what interventions are admissible. Interventional estimates take priority when feasible.
 
@@ -263,9 +267,9 @@ Fix intervention class $\mathcal{I}$ as boundary-condition clamps and localized 
 
 At $L=1$, both partitions can appear similarly predictive under purely observational fitting. Under the fixed interventions, $Z^{(A)}$ remains stable while $Z^{(B)}$ shows higher leakiness and intervention-response heterogeneity within macroclasses. At $L=10$, this divergence widens because hidden within-class differences in $Z^{(B)}$ accumulate. The verdict is therefore horizon-relative and regime-relative in exactly the intended sense.
 
-This kind of comparison is what makes closure relative to $L$ and $\mathcal{I}$ operational rather than merely verbal.
+This kind of comparison makes closure relative to $L$ and $\mathcal{I}$ operational rather than merely verbal.
 
-One compact schematic is enough to make the protocol explicit.
+The following pieces play different roles. The table fixes the setup. Algorithm 1 states the procedure. The surrounding paragraphs state how to interpret the result.
 
 | Component | Specification |
 | --- | --- |
@@ -304,20 +308,16 @@ In many domains, direct interventions are sparse or ethically constrained. In su
 
 Where this target is met, a practical consequence follows. Macro-level control can approach optimal controllability for the specified intervention class without continual microstate tracking.
 
-This is also why predictive fit alone cannot settle objecthood. Overfit representational schemes can track past trajectories while failing under novel perturbations. Closure claims should therefore be judged by out-of-regime and interventional stability, not only in-sample prediction.
-
-Practical failure modes are expected.
-
-1. Hidden confounding can create spurious predictive closure.
-2. Nonstationarity can make a previously low-leak partition unstable.
-3. Partial observability can hide within-class heterogeneity.
-4. High-dimensional estimator bias can distort proxy values.
-
-This is one reason interventional invariance remains the primary target when intervention data are available.
+Predictive fit alone cannot settle objecthood. Overfit representational schemes can track past trajectories while failing under novel perturbations. Closure claims should therefore be judged by out-of-regime and interventional stability, not only in-sample prediction.
 
 ### 5.6 Failure modes and diagnostics
 
-Three failure modes are especially relevant. First, predictive closure can appear strong in-sample while interventional closure fails under admissible perturbations. Second, finite-sample estimation can bias mutual-information and divergence proxies. Third, partial observability can hide within-class heterogeneity that later appears as instability.
+Three failure modes are especially relevant.
+
+1. Predictive closure can appear strong in-sample while interventional closure fails under admissible perturbations.
+2. Finite-sample estimation can bias mutual-information and divergence proxies.
+3. Partial observability can hide within-class heterogeneity that later appears as instability.
+4. Nonstationarity can make a previously low-leak partition unstable outside the calibration window.
 
 The mitigation strategy is procedural and comparative. Use multiple diagnostics, compare partitions under fixed $L$ and $\mathcal{I}$, and require robustness under modest horizon and intervention-distribution changes. When indicators disagree strongly, treat this as evidence for model revision rather than as immediate ontology verdict.
 
