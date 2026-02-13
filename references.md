@@ -112,6 +112,8 @@ Friston, Karl J. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nat
 
 Friston, Karl J. 2013. "Life as We Know It." *Journal of the Royal Society Interface* 10 (86): 20130475. https://doi.org/10.1098/rsif.2013.0475.
 
+Frege, Gottlob. 1884. *Die Grundlagen der Arithmetik*. Breslau: Verlag von Wilhelm Koebner. Translated as *The Foundations of Arithmetic* by J.L. Austin (1950). Oxford: Blackwell.
+
 Gadamer, Hans-Georg. 1975. *Truth and Method*. Translated by Joel Weinsheimer and Donald G. Marshall. New York: Continuum (originally Seabury Press; 2nd revised ed.). ISBN 978-0826400161.
 
 Gaifman, Haim, and Marc Snir. 1982. "Probabilities over rich languages, testing and randomness." *Journal of Symbolic Logic* 47(3): 495-548. https://doi.org/10.2307/2273587.
@@ -385,6 +387,8 @@ Thagard, Paul. 2000. *Coherence in Thought and Action*. Cambridge, MA: MIT Press
 Tononi, Giulio, Melanie Boly, Marcello Massimini, and Christof Koch. 2016. "Integrated Information Theory: From Consciousness to Its Physical Substrate." *Nature Reviews Neuroscience* 17(7): 450–61. https://doi.org/10.1038/nrn.2016.44.
 
 Turchin, Peter. 2003. *Historical dynamics*. Princeton, NJ: Princeton University Press. ISBN 978-0691116693.
+
+Turing, Alan M. 1936. "On Computable Numbers, with an Application to the Entscheidungsproblem." *Proceedings of the London Mathematical Society* 2(42): 230–265. https://doi.org/10.1112/plms/s2-42.1.230.
 
 Van Inwagen, Peter. 1990. *What's the meaning of "this"?*. Ithaca, NY: Cornell University Press. ISBN 978-0801424090.
 
