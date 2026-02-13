@@ -1,8 +1,8 @@
-# Real Patterns as Closure: A Lumpability Criterion for Non-Gerrymandered Macro-Objecthood
+# Real Patterns as Closure: A Lumpability Criterion for Dynamically Coherent Macro-Objecthood
 
 ## 0. Abstract
 
-Dennett's account of real patterns remains influential because it connects ontology to compression and predictive success. Yet in its familiar form it remains vulnerable to two objections. First, it can look instrumentalist, where real means useful to us. Second, it can look permissive, where any coding trick that compresses data appears to qualify as a real pattern. This paper offers a closure-based refinement that preserves Dennett's insight while adding a non-gerrymandering constraint. The central claim is that a pattern is real when a coarse-graining induces autonomous macro-transitions, so lower-level distinctions become irrelevant for what follows at the macro level. In exact Markov settings, strong lumpability supplies the key criterion: grouped microstates must have matching macro-transition profiles. I then extend the criterion to approximate cases using graded leakiness, so the framework remains applicable to weather systems, organisms, and social structures where closure is not perfect. The result is a sharper realism about patterns that is operational in principle and strong enough to exclude pathological composites without collapsing into reductionism or convenience pragmatism (Dennett 1991; Shalizi and Crutchfield 2001; Rosas et al. 2024).
+Dennett's account of real patterns remains influential because it connects ontology to compression and predictive success. Yet in its familiar form it remains vulnerable to two objections. First, it can look instrumentalist, where real means useful to us. Second, it can look permissive, where any coding trick that compresses data appears to qualify as a real pattern. This paper offers a closure-based refinement that preserves Dennett's insight while adding a non-gerrymandering constraint in a precise sense, dynamic coherence of macro-transitions. The central claim is that a pattern is real when a coarse-graining induces autonomous macro-transitions, so lower-level distinctions become irrelevant for what follows at the macro level. In exact Markov settings, strong lumpability supplies the key criterion: grouped microstates must have matching macro-transition profiles. I then extend the criterion to approximate cases using graded leakiness, so the framework remains applicable to weather systems, organisms, and social structures where closure is not perfect. The result is a sharper realism about patterns that is operational in principle and strong enough to exclude dynamically incoherent composites without collapsing into reductionism or convenience pragmatism (Dennett 1991; Shalizi and Crutchfield 2001; Rosas et al. 2024).
 
 ## 1. Introduction: Why Dennett Needs a Criterion
 
@@ -22,7 +22,7 @@ This paper sits at an intersection of four conversations. From Dennett, it takes
 
 The novel claim here is not any one ingredient in isolation. It is their joint use as a criterion with bite: closure of macro-transition structure, exact in ideal lumpable settings and graded by leakiness in realistic settings, used specifically to filter gerrymandered partitions from autonomous macro-object candidates.
 
-The paper proceeds as follows. Section 2 disambiguates pattern talk by separating reality, pattern, instance, and representation. Section 3 formulates closure as the governing idea. Section 4 introduces strong lumpability and provides a toy example with success and failure partitions. Section 5 extends the criterion to graded, noisy domains. Section 6 applies the view to pathological composites and high-maintenance ontological posits. Section 7 shows how canonical macro-objects pass. Section 8 states the interpretive gain for Dennett. Section 9 addresses four standard objections. Section 10 concludes with implications and future work.
+The paper proceeds as follows. Section 2 disambiguates pattern talk by separating reality, pattern, instance, and representation. Section 3 formulates closure as the governing idea. Section 4 introduces strong lumpability and provides a toy example with success and failure partitions. Section 5 extends the criterion to graded, noisy domains. Section 6 applies the view to pathological composites and high-maintenance ontological posits. Section 7 shows how canonical candidates can be evaluated under the protocol. Section 8 states the interpretive gain for Dennett. Section 9 addresses four standard objections. Section 10 concludes with implications and future work.
 
 ## 2. Disambiguation: What Exactly Is a Pattern?
 
@@ -56,11 +56,13 @@ Definition (Closure relative to regime): a coarse-graining $Z_t = g(X_t)$ is clo
 
 Lemma (Markov exact case): if the micro-process is first-order Markov and the partition induced by $g$ is strongly lumpable, then the induced macro-process is Markov and transition-autonomous at the macro level.
 
+Formal note. Strong lumpability here means: for any two microstates $x, x'$ in macroclass $C_i$, and any macroclass $C_j$, the aggregated transition probability satisfies $\sum_{y \in C_j} P(y \mid x) = \sum_{y \in C_j} P(y \mid x')$. Transition-autonomous means exactly that the macro transition kernel is well-defined and independent of which representative microstate in $C_i$ is occupied. In controlled settings, interventions should be treated as part of the process definition, for example by using controlled transition kernels and checking closure relative to a fixed intervention policy class.
+
 ### 3.2 Minimal formal shape
 
 Let a micro-process be $X_t$, and let a candidate macro-process be $Z_t = g(X_t)$. Closure for $Z$ asks whether $Z_t$ is sufficient for forecasting the distribution of $Z_{t+1}$, or a relevant horizon $Z_{t+1}^{L}$, without importing hidden distinctions among microstates inside each macrostate.
 
-Notation: $Z_{t+1}^{L}$ denotes the macro-trajectory segment $(Z_{t+1}, Z_{t+2}, \ldots, Z_{t+L})$.
+Notation: $Z_{t+1}^{L}$ denotes the macro-trajectory segment $(Z_{t+1}, Z_{t+2}, \ldots, Z_{t+L})$. Macro-transition profile means the vector of transition probabilities from one macrostate into the set of macro-classes.
 
 In this paper, informational diagnostics and interventional relevance are used together. Low leakiness is an operational test for autonomy, and interventional stability is the ontological interpretation of why that autonomy matters.
 
@@ -91,6 +93,8 @@ It helps to separate three nearby positions.
 3. Closure under regime and intervention class: model success supports objecthood when macro-transitions remain autonomous under fixed $L$ and $\mathcal{I}$.
 
 The third view has a discriminating consequence the first two can miss. Two partitions can be similarly compressive on observational fit, yet differ under interventions. If partition $P_1$ remains low-leak and stable under admissible perturbations while partition $P_2$ needs repeated micro-detail repair, closure favors $P_1$ as the better object candidate. This is not a tie-break by preference. It is a structural difference in transition autonomy.
+
+Mini illustration. Suppose two partitions achieve comparable one-step observational prediction in a calibration dataset. Under an admissible clamp intervention on one macro-variable, $P_1$ retains stable macro-transition parameters, while $P_2$ shows class-internal divergence that forces reintroduction of hidden micro labels. The two views that rely on observational compression alone can treat this as a near tie. The closure criterion does not. It ranks $P_1$ higher because it remains interventionally coherent.
 
 ## 4. Lumpability as the Anti-Gerrymandering Constraint
 
@@ -174,6 +178,18 @@ At $L=1$, both partitions can appear similarly predictive under purely observati
 
 This kind of comparison is what makes closure relative to $L$ and $\mathcal{I}$ operational rather than merely verbal.
 
+One compact schematic is enough to make the protocol explicit.
+
+| Component | Specification |
+| --- | --- |
+| Micro process | Lattice dynamics with local coupling and boundary forcing |
+| Candidate $Z^{(A)}$ | Spatially local energy-density bins |
+| Candidate $Z^{(B)}$ | Parity-coded disjunctive grouping |
+| Intervention class $\mathcal{I}$ | Boundary clamps plus localized perturbation pulses |
+| Horizons | $L=1$ and $L=10$ |
+| Diagnostics | Predictive gain, within-class kernel divergence, intervention-response invariance |
+| Expected verdict | $Z^{(A)}$ remains lower-leak and more invariant across $L$ |
+
 ### 5.4 Stable versus merely entailed regularities
 
 This graded move supports an important ontological distinction. Many macro-regularities are entailed by complete microhistory. Fewer are stable enough to support repeatable macro-prediction and intervention. Objecthood tracks the stable subset. In short, stable regularities are entailed, but not all entailed regularities are stable objects.
@@ -200,7 +216,7 @@ High maintenance can be stated precisely. A partition is high maintenance when r
 
 This reframes familiar examples such as phlogiston-style constructs. The critique is not retrospective ridicule. The critique is structural. A candidate that continually imports corrections to preserve macro-prediction behaves like a non-autonomous partition.
 
-## 7. Canonical Real Patterns: Why Hurricanes and Organisms Pass
+## 7. Plausible Candidates Under the Protocol
 
 At this stage, keep the ladder from Section 2 in view. The claim is about pattern-level autonomy, not infallibility of any one representation and not perfect behavior of every token instance.
 
@@ -212,11 +228,11 @@ For atmospheric vortices, macrovariables such as pressure organization, rotation
 
 A stylized test case is straightforward. Take a macrostate with central pressure depth, azimuthal wind structure, translation velocity, and sea-surface-energy intake as variables. Then ask whether adding fine-grained molecule-level distinctions inside fixed macro bins materially improves short-horizon track and intensification forecasts under the same intervention class. If not, closure is strong at that grain. If yes, leakiness is high and the partition should be refined.
 
-The claim is not perfect closure at every token and horizon. The claim is robust low leakiness across the intervention class that defines meteorological practice.
+The claim is not perfect closure at every token and horizon. The working hypothesis is robust low leakiness across the intervention class that defines meteorological practice.
 
 ### 7.2 Organisms and cells
 
-Cells and organisms display boundary-mediated screening-off. Membranes, regulatory pathways, and homeostatic loops support macro-level control that is not reducible to ad hoc aggregation. Again, closure is not absolute. It is strong enough in the relevant regimes to justify object-level treatment.
+Cells and organisms are plausible candidates for boundary-mediated screening-off. Membranes, regulatory pathways, and homeostatic loops can support macro-level control that is not reducible to ad hoc aggregation. Again, closure is not absolute. The relevant question is whether closure is strong enough in specified regimes to justify object-level treatment.
 
 A corresponding stylized biological test uses membrane potential, key metabolite concentrations, and regulatory-state variables as a macrostate. The closure question is whether these variables forecast near-future functional states better than micro-detail-augmented alternatives once intervention class and horizon are fixed.
 
@@ -268,7 +284,7 @@ Reply: this paper focuses on world-implemented macro-objecthood. Formal systems 
 
 ## 10. Conclusion: What Is New and What It Buys
 
-The paper offered a precise criterion for real patterns by combining closure with lumpability. The criterion is exact in strong-lumpability settings and graded in realistic approximate settings. It excludes gerrymandered composites by structural test, not rhetorical dismissal. It also recovers canonical macro-objects by showing why their partitions are low-leak and intervention-relevant across their proper regimes.
+The paper offered a precise criterion for real patterns by combining closure with lumpability. The criterion is exact in strong-lumpability settings and graded in realistic approximate settings. It excludes dynamically incoherent composites by structural test, not rhetorical dismissal. It also provides a principled way to evaluate canonical macro-object candidates by testing whether their partitions remain low-leak and intervention-relevant across specified regimes.
 
 The conceptual gain is twofold. First, it sharpens Dennett without abandoning his core insight. Second, it gives a principled bridge from philosophical pattern realism to operational diagnostics used in complex-systems science.
 
