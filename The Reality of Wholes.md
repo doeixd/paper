@@ -335,7 +335,7 @@ These considerations reveal a common structure underlying causal autonomy, invar
 
 We have now established that boundaries are constraint-determined, discoverable structures achieving causal closure across multiple domains. A sophisticated critic might accept all of this (the Markov conditions, the information compression, the cross-dimensional invariance) yet still deny that these facts warrant ontological commitment. This brings us to the nihilist's final retreat.
 
-### Part 6: The Nihilist's Retreat / The Implementation Layer
+### Part 6: The Nihilist's Retreat / From Implementation to Abstraction
 
 A sophisticated nihilist might respond:
 
