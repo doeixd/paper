@@ -257,6 +257,8 @@ Leakiness can be estimated from observational data, from interventional data, or
 
 Crucially, "low" should be defined comparatively rather than asserted. Fix a target horizon and intervention class, then compare candidate coarse-grainings. A partition counts as low-leak relative to its competitors when adding within-class microdetail yields no substantial predictive or interventional gain over the same regime. Tolerance is set by cross-partition performance under fixed constraints, not by a free-standing universal threshold.
 
+This makes threshold choice procedural rather than discretionary. A partition should receive robust macro-object status only when it dominates alternatives across diagnostics and remains stable under modest changes to horizon, intervention distribution, and resampling. Near-tie cases should be reported as qualified or indeterminate, not forced into binary acceptance.
+
 Several equivalent diagnostics can be used: within-class divergence between estimated macro-transition kernels, cross-validated predictive gain from adding within-class micro-features, and intervention-response invariance tests. The point is not metric monopoly. Any proxy that quantifies within-class micro-information gain about macro-futures, is comparable across candidate partitions, and remains stable under resampling will serve. When diagnostics converge in rank-order, confidence is high. When they persistently disagree, that signals a need for model revision rather than immediate ontological verdict. (A detailed decision schema and estimation protocol are provided in Appendix A.)
 
 The ontological upshot is graded. Low leakiness supports robust macro-object claims. Moderate leakiness can still support valuable macro-variables and explanations, but with weaker objecthood status and tighter regime qualifications. High leakiness usually indicates dynamically incoherent grouping.
@@ -371,6 +373,8 @@ Effective-information gains can therefore be treated as corroborating diagnostic
 
 The reconciliation can be stated directly. Dennett supplies a broad criterion for pattern reality. The present framework adds a stricter criterion for macro-objecthood. On that view, leaky but predictive structures can remain real patterns while failing to count as robust macro-objects in a given regime.
 
+This can also be read as an explication of one stricter strand inside Dennett's own practice. If one interprets real-pattern realism as already aiming at projectible, intervention-relevant structure, then the closure criterion makes that standard explicit rather than replacing it.
+
 ### 8.3 Sharpened slogan
 
 The revised slogan is straightforward: a real pattern is an autonomous coarse-graining.
@@ -405,7 +409,7 @@ This also marks distance from eliminativist pressure. Churchland-style arguments
 
 Objection: strong lumpability presupposes Markov microdynamics.
 
-Reply: the Markov template is a clean tractable case. Non-Markov systems can be addressed by state augmentation or by equivalent conditional-independence formulations over enriched histories. The philosophical criterion is closure of transition structure, not commitment to a single stochastic formalism.
+Reply: the Markov template is a clean tractable case. Non-Markov systems can be handled by replacing $X_t$ with an enriched state $H_t$ that contains the history needed for prediction at the target horizon, then rerunning the same closure tests on $Z_t = g(H_t)$. In practice this can be implemented by finite-lag embeddings, predictive-state representations, or recurrent state summaries, with model selection fixed in advance for the regime. The philosophical criterion is closure of transition structure, not commitment to a single stochastic formalism.
 
 ### 9.4 What about abstract objects?
 
