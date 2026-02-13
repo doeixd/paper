@@ -54,6 +54,8 @@ Many disputes begin by mixing levels. We need a stable ladder.
 
 The same word can refer to different layers. That ambiguity creates pseudo-disputes. A representation may fail while the pattern remains real. A token may be noisy while the type remains stable. A pattern may be real even when no agent currently represents it.
 
+The type-token distinction is therefore not optional bookkeeping. Closure is primarily a claim about pattern types in specified regimes, then secondarily about how reliably concrete tokens instantiate those types.
+
 Level 5 is included for auditability. Many ontology disputes depend on slippage between claims about an instance and claims about a record of that instance.
 
 Crucially, implementation and representation must be distinguished. Implementation concerns the physical substrate running the process. Representation concerns the model used to track it. A process can be fully implemented while available representations are partial or mistaken.
@@ -245,6 +247,8 @@ This motivates the move from binary closure to graded closure.
 
 The right standard is type-level before token-level. A pattern type can be robustly closed for a regime even when a particular token fails because of boundary violation, unusual perturbation, or timescale shift.
 
+So one anomalous token is not a decisive refutation of macro-objecthood. The relevant question is whether token failures are exceptional boundary cases or whether they reveal systematic instability in the type-level partition.
+
 This implies a regime-dependent ontology. Objecthood is phase-dependent: a pattern can be robust in one thermodynamic regime and lose closure in another. This is a feature of the account, because causal structure itself can appear or disappear across regime transitions.
 
 This does not imply metaphysical annihilation. It means closure conditions are regime-sensitive.
@@ -284,9 +288,13 @@ This makes closure relative to $L$ and $\mathcal{I}$ operational rather than mer
 
 ### 5.4 Stable versus merely entailed regularities
 
-This graded move supports an important ontological distinction. Many macro-regularities are entailed by complete microhistory. Fewer are stable enough to support repeatable macro-prediction and intervention. Objecthood tracks the stable subset. In short, stable regularities are entailed, but not all entailed regularities are stable objects.
+This graded move supports an important ontological distinction between entailed patterns and stable patterns. An entailed pattern is any macro-feature forced by the actual microhistory and laws. A stable pattern is an entailed pattern that remains a robust handle for macro-prediction and intervention under admissible perturbations.
 
-This distinction also explains why many gerrymandered constructions feel tempting. They can be entailed by the full microhistory yet remain unstable and high-maintenance under regime shifts.
+The distinction clarifies the gerrymandering problem. A disjunctive construction can be entailed, in the sense that it is true of the realized trajectory, while still failing stability. It may require persistent micro-bookkeeping, break under modest regime shifts, and fail screening-off.
+
+This also answers the Laplacean challenge cleanly. An ideal observer can in principle track all entailed patterns. But objecthood in this framework does not track everything that is true of the trajectory. It tracks privileged compressions that remain stable for prediction and control in a regime.
+
+So the claim is not that gerrymandered constructs are false. The claim is that they generally fail to qualify as stable macro-objects.
 
 ### 5.5 Practical qualification
 
@@ -421,7 +429,11 @@ Reply: the Markov template is a clean tractable case. Non-Markov systems can be 
 
 Objection: if formal systems are closed by definition, does the account collapse into formalism?
 
-Reply: this paper is restricted to spatiotemporal, world-implemented patterns. Formal systems are treated as a contrast class and best understood as stipulated closure, whereas the present argument targets induced closure in empirical dynamics. Scope control is intentional.
+Reply: formal systems are not merely arbitrary games. Mathematics can be understood as disciplined exploration of intelligible structures, constrained by stable identity, compositional inference, and coherent consequence. Those constraints are not external decorations. They are preconditions for successful tracking and reasoning by embedded agents.
+
+This is why formal work can latch onto empirical reality without collapse into either mysticism or conventionalism. The constraints on making sense overlap with constraints on being a stable, trackable object in the world.
+
+Still, formal closure and empirical objecthood should be distinguished. A structure can be internally coherent as mathematics, while empirical macro-objecthood requires implementation and induced closure in spatiotemporal dynamics.
 
 ### 9.5 Causal exclusion
 
@@ -437,7 +449,7 @@ The gain is twofold. It sharpens Dennett without abandoning his core insight, an
 
 Several disputes become more tractable. Debates about "useful fiction" versus "genuine reality" now have a resolution procedure: test closure under specified conditions. The permissiveness objection gets a direct answer, because gerrymandered composites fail transition autonomy. Instrumentalist drift is constrained by admissibility requirements tied to physical implementability. Borderline cases then receive graded assessments with explicit regime qualifications.
 
-Future work can proceed in three directions: empirical estimation of leakiness in concrete domains, tighter links with Markov-blanket and computational-mechanics formalisms, and disciplined extension to social kinds where implementation and normativity interact under explicit closure conditions. Social kinds are likely the hardest extension case, because collective recognition can help sustain the constraints being recognized. A further structural direction is to analyze closure-supporting coarse-grainings in theory space as a nested architecture of macro-models rather than as ad hoc candidates in state space.
+Future work can proceed in three directions: empirical estimation of leakiness in concrete domains, tighter links with Markov-blanket and computational-mechanics formalisms, and disciplined extension to social kinds where implementation and normativity interact under explicit closure conditions. For social kinds, structure, implementation, and representation should be kept distinct. Institutional structure can remain rule-defined while causal power depends on physical implementation through records, personnel, infrastructure, and enforcement. When implementation degrades, closure can fail even if rule-texts remain. A further structural direction is to analyze closure-supporting coarse-grainings in theory space as a nested architecture of macro-models rather than as ad hoc candidates in state space.
 
 The framework also has a clear failure condition. If proposed macro-partitions systematically fail closure tests across well-specified horizons and intervention classes, then the corresponding objecthood claims should be withdrawn or downgraded.
 
