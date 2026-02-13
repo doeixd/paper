@@ -56,19 +56,21 @@ The same word can refer to different layers. That ambiguity creates pseudo-dispu
 
 Level 5 is included for auditability. Many ontology disputes depend on slippage between claims about an instance and claims about a record of that instance.
 
+Crucially, implementation and representation must be distinguished. Implementation concerns the physical substrate running the process. Representation concerns the model used to track it. A process can be fully implemented while available representations are partial or mistaken.
+
 ### 2.2 What pattern is real means here
 
 In this paper, real pattern does not mean mental construct, Platonic object, or anything describable. It means a coarse-graining that earns autonomy in transition structure. The claim is modest and precise. We are not adding a new substance to ontology. We are identifying when macro-description tracks objective structure well enough to function as its own level of what follows. This is not eliminativism about mathematics or logic. It is a scope claim about world-implemented macro-objecthood in the present paper.
 
 Objecthood here means eligibility as a stable target of macro-level counterfactuals and interventions in the specified regime and horizon. It does not mean fundamentality or an extra ontological substance.
 
-Formal systems are useful here as a contrast class. They are closed by stipulation. The present paper is about closure induced by empirical dynamics.
+It is useful to distinguish stipulated closure from induced closure. In stipulated closure, autonomy is fixed by constitutive rules, as in chess or arithmetic. In induced closure, autonomy is discovered through dynamical screening-off in the world. This paper is restricted to induced closure in spatiotemporal systems.
 
 ## 3. From Real Patterns to Closure
 
 ### 3.1 The closure intuition
 
-Closure can be stated without heavy formalism. A macro-pattern is real when macro-description screens off lower-level differences for macro-futures. The key phrase is for what follows at the macro level. If lower-level distinctions still matter for macro-evolution, closure fails.
+Closure can be stated without heavy formalism. A macro-pattern is real when level-description is sufficient to determine what follows at that level. In other words, closure is autonomy of what follows. If one must inspect lower-level distinctions to determine macro-futures, the level is not autonomous.
 
 This is a transition claim, not a static shape claim. We care about dynamics. Two microstates may look similar now but diverge in macro-futures. If so, grouping them as one macrostate is not autonomous.
 
@@ -366,6 +368,8 @@ More strongly, the relevant regimes are constraint-relative, not observer-relati
 
 An example of an inadmissible class is direct arbitrary manipulation of distant microstates with no physically realizable control channel. Such classes can be defined formally, but they are excluded from ontology tests because they violate implementation constraints.
 
+For social kinds, admissibility usually proceeds through implementation mechanisms. A legal intervention is admissible not because a rule is written, but because enforcement institutions physically constrain behavior through courts, bureaucracies, and sanctions. Stipulation has causal force only through implementation.
+
 ### 9.2 Predictive sufficiency does not imply existence
 
 Objection: prediction can work without ontological commitment.
@@ -382,7 +386,7 @@ Reply: the Markov template is a clean tractable case. Non-Markov systems can be 
 
 Objection: if formal systems are closed by definition, does the account collapse into formalism?
 
-Reply: this paper is restricted to spatiotemporal, world-implemented patterns. Formal systems are treated as a contrast class, but they are outside the target domain of the present argument. Scope control is intentional.
+Reply: this paper is restricted to spatiotemporal, world-implemented patterns. Formal systems are treated as a contrast class and best understood as stipulated closure, whereas the present argument targets induced closure in empirical dynamics. Scope control is intentional.
 
 ## 10. Conclusion: What Is New and What It Buys
 
