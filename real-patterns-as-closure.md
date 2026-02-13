@@ -10,6 +10,8 @@ Dennett's proposal that the world contains real patterns changed how many philos
 
 Still, the view is often judged incomplete. The first criticism is instrumentalist drift. If real patterns are just patterns that help us predict, then reality seems indexed to user interests. The second criticism is permissiveness. If compression is the standard, then contrived composites appear admissible under some coding conventions. Critics then invoke arbitrary aggregates and disjunctive kinds to argue that real-pattern talk lacks ontological discipline (Elgin 2017) (Haugeland 1998).
 
+The pressure point is visible in Dennett's own formulation: "A pattern exists in some data-is real-if there is a description of the data that is more efficient than the bit map" (Dennett 1991, 34). Compression is a powerful starting criterion, but by itself it is static. It does not yet separate dynamically autonomous macro-objects from mathematically definable but dynamically idle constructions.
+
 A simple contrast makes the gap vivid. Consider a hurricane and "the object consisting of my left shoe and the planet Neptune." Both can be described. Both can, in some trivial coding sense, be compressed. But the hurricane supports autonomous prediction and intervention at its own level: knowing its pressure structure and rotational organization tells you what it will do next without tracking every molecule. The shoe-Neptune composite does not. Its "macro-state" tells you nothing about what happens next unless you separately track the shoe and the planet. What distinguishes them? This paper argues the answer is closure of transition structure.
 
 Both criticisms identify a genuine gap, but not a fatal flaw. The gap is the absence of an explicit closure criterion. Once closure is made central, and once closure is tied to lumpability in the induced case, Dennett's core idea can be sharpened into a robust criterion.
@@ -191,6 +193,8 @@ This condition is philosophically important because it formalizes one precise se
 Gerrymandered composites typically join microstates with different onward profiles. Aggregating them erases distinctions needed for macro-forecast and control, so the model requires hidden bookkeeping to repair prediction. That is the structural sign of non-autonomy.
 
 This helps with familiar permissiveness worries. Dennett's lost-sock-center style examples are mathematically definable and sometimes trackable, but definability is not enough. If a candidate grouping does not carry autonomous transition structure under the admissible regime, it fails the objecthood test even when it is easy to describe (Elgin 2017).
+
+Dennett explicitly notes this style of case when discussing "the center of the smallest sphere that can be inscribed around all the socks I have ever lost in my life" (Dennett 1991, 28). The present claim is stricter than calling such items real but negligible. If closure fails, the item should not count as a macro-object candidate for that regime.
 
 ### 4.3 Toy example: one successful and one failed partition
 
@@ -390,6 +394,8 @@ The closure criterion also provides a principled answer to Van Inwagen's Special
 Objection: choosing macro-targets reflects interests, so realism still collapses into usefulness.
 
 Reply: target selection is interest-shaped, but closure success is not arbitrary once target and regime are fixed. Autonomy is a property of system dynamics under explicit constraints, not of analyst preference.
+
+Dennett's own Martian thought experiment motivates this objection. He asks us to imagine "Laplacean super-physicists" who can predict behavior without the intentional stance (Dennett 1991, 29). The closure response is that observer power changes convenience, not whether a partition is transition-autonomous in the target regime.
 
 The relevant regimes are constraint-relative, not observer-relative. Agents can choose which domain to study, but they cannot choose whether closure holds once horizon, intervention class, and target are fixed. Admissible intervention classes are bounded by locality and energetic feasibility, so ontology is not set by arbitrary intervention design.
 
