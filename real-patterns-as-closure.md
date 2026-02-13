@@ -10,7 +10,7 @@ Commitment structure in brief: interventional closure is the ontological standar
 
 Dennett's proposal that the world contains real patterns changed how many philosophers discuss emergence and ontology. The attraction is clear. It gives us a way to respect higher-level structure without denying lower-level physics. It also captures a central feature of scientific practice. We routinely treat macro-regularities as objectively trackable because they support compression and prediction (Dennett 1991).
 
-Still, the view is often judged incomplete. The first criticism is instrumentalist drift. If real patterns are just patterns that help us predict, then reality seems indexed to user interests. The second criticism is permissiveness. If compression is the standard, then contrived composites appear admissible under some coding conventions. Critics then invoke examples like Shoe-Moon aggregates and disjunctive kinds to argue that real-pattern talk lacks ontological discipline.
+Still, the view is often judged incomplete. The first criticism is instrumentalist drift. If real patterns are just patterns that help us predict, then reality seems indexed to user interests. The second criticism is permissiveness. If compression is the standard, then contrived composites appear admissible under some coding conventions. Critics then invoke arbitrary aggregates and disjunctive kinds to argue that real-pattern talk lacks ontological discipline.
 
 This paper argues that both criticisms identify a genuine gap, but not a fatal flaw. The gap is the absence of an explicit closure criterion. Once closure is made central, and once closure is tied to lumpability in the induced case, Dennett's core idea can be sharpened into a robust criterion.
 
@@ -191,7 +191,7 @@ Partition $B$: $B_1 = \{x_1, x_3\}$ and $B_2 = \{x_2, x_4\}$.
 
 Now compare members of $B_1$. The probability of transitioning to $B_1$ from $x_1$ is $\alpha$, but from $x_3$ it is $\gamma$. If $\alpha \neq \gamma$, knowing only that the system is in $B_1$ is insufficient to predict movement to $B_1$ versus $B_2$. Members of one macrostate disagree on macro-transitions, and lumpability fails.
 
-The lesson is simple. The difference between a legitimate macro-object and a contrived aggregate can be tested by whether the partition preserves transition autonomy. This is why Shoe-Moon style groupings are not just unhelpful. They are dynamically incoherent as macro-candidates.
+The lesson is simple. The difference between a legitimate macro-object and a contrived aggregate can be tested by whether the partition preserves transition autonomy. Arbitrary disjunctive groupings are not just unhelpful. They are dynamically incoherent as macro-candidates.
 
 ### 4.4 If a weird partition is closed
 
@@ -312,7 +312,7 @@ The mitigation strategy is procedural and comparative. Use multiple diagnostics,
 
 Before turning to pathology cases, recall the Section 2 ladder. A failure in one representation of a macro-kind does not by itself show unreality of the pattern. The issue here is whether candidate partitions remain autonomous under the closure tests.
 
-### 6.1 Shoe-Moon and disjunctive composites
+### 6.1 Disjunctive composites
 
 Dynamically incoherent composites do not form autonomous transition structures. Their parts participate in largely independent, differently constrained dynamics. Grouping them forces additive tracking rather than screening-off. Predictive performance then depends on ongoing micro bookkeeping. Under the stated closure conditions, such composites fail the autonomy test.
 
