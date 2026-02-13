@@ -56,6 +56,8 @@ The same word can refer to different layers. That ambiguity creates pseudo-dispu
 
 The type-token distinction is therefore not optional bookkeeping. Closure is primarily a claim about pattern types in specified regimes, then secondarily about how reliably concrete tokens instantiate those types.
 
+This ladder is used substantively below, especially in the type-token clarifications of Sections 5.1 and 5.4 and in the implementation discussion in Section 10.
+
 Level 5 is included for auditability. Many ontology disputes depend on slippage between claims about an instance and claims about a record of that instance.
 
 Crucially, implementation and representation must be distinguished. Implementation concerns the physical substrate running the process. Representation concerns the model used to track it. A process can be fully implemented while available representations are partial or mistaken.
@@ -198,6 +200,8 @@ This helps with familiar permissiveness worries. Dennett's lost-sock-center styl
 
 Dennett explicitly notes this style of case when discussing "the center of the smallest sphere that can be inscribed around all the socks I have ever lost in my life" (Dennett 1991, 28). The present claim is stricter than calling such items real but negligible. If closure fails, the item should not count as a macro-object candidate for that regime.
 
+More precisely, many such constructions are entailed but unstable. They can be true of the realized trajectory while failing to function as autonomous macro-handles.
+
 ### 4.3 Toy example: one successful and one failed partition
 
 The intuition is straightforward. Imagine four microstates. In Partition A, we group together states that behave identically at the macro level: both members of each group have the same transition probabilities to the macro-classes. The partition preserves transition structure, so it passes the closure test. In Partition B, we group together states with different macro-futures. One member of the group goes one way; the other goes another way. Now the macro-label hides a causally relevant difference, and the partition fails.
@@ -295,6 +299,8 @@ The distinction clarifies the gerrymandering problem. A disjunctive construction
 This also answers the Laplacean challenge cleanly. An ideal observer can in principle track all entailed patterns. But objecthood in this framework does not track everything that is true of the trajectory. It tracks privileged compressions that remain stable for prediction and control in a regime.
 
 So the claim is not that gerrymandered constructs are false. The claim is that they generally fail to qualify as stable macro-objects.
+
+Operationally: if a candidate is entailed yet fails screening-off and perturbation robustness under admissible interventions, it should be downgraded from objecthood to descriptive residue for that regime.
 
 ### 5.5 Practical qualification
 
@@ -435,6 +441,8 @@ This is why formal work can latch onto empirical reality without collapse into e
 
 Still, formal closure and empirical objecthood should be distinguished. A structure can be internally coherent as mathematics, while empirical macro-objecthood requires implementation and induced closure in spatiotemporal dynamics.
 
+So formal coherence is evidentially suggestive, not ontologically decisive, for empirical macro-object claims.
+
 ### 9.5 Causal exclusion
 
 Objection: if microphysics is causally complete, then macro-level causes are redundant. Positing macro-level causal autonomy either overdetermines effects or conflicts with physical closure (Kim 1998).
@@ -450,6 +458,8 @@ The gain is twofold. It sharpens Dennett without abandoning his core insight, an
 Several disputes become more tractable. Debates about "useful fiction" versus "genuine reality" now have a resolution procedure: test closure under specified conditions. The permissiveness objection gets a direct answer, because gerrymandered composites fail transition autonomy. Instrumentalist drift is constrained by admissibility requirements tied to physical implementability. Borderline cases then receive graded assessments with explicit regime qualifications.
 
 Future work can proceed in three directions: empirical estimation of leakiness in concrete domains, tighter links with Markov-blanket and computational-mechanics formalisms, and disciplined extension to social kinds where implementation and normativity interact under explicit closure conditions. For social kinds, structure, implementation, and representation should be kept distinct. Institutional structure can remain rule-defined while causal power depends on physical implementation through records, personnel, infrastructure, and enforcement. When implementation degrades, closure can fail even if rule-texts remain. A further structural direction is to analyze closure-supporting coarse-grainings in theory space as a nested architecture of macro-models rather than as ad hoc candidates in state space.
+
+A concise illustration is institutional adjudication. The legal structure can remain codified in statutes, and agents can continue to represent that structure, while implementation capacity collapses because courts, archives, and enforcement channels fail. In that case, the pattern may persist as structure and representation but cease to operate as a causally efficacious macro-object in the relevant regime.
 
 The framework also has a clear failure condition. If proposed macro-partitions systematically fail closure tests across well-specified horizons and intervention classes, then the corresponding objecthood claims should be withdrawn or downgraded.
 
