@@ -122,6 +122,8 @@ Gell-Mann, Murray, and Seth Lloyd. 1996. "Information Measures, Effective Comple
 
 Gil Martín, Francisco Javier, and Jesús Vega Encabo. 2008. "Truth and Moral Objectivity: Procedural Realism in Putnam's Pragmatism." *Theoria: An International Journal for Theory, History and Foundations of Science* 23(3): 343-356.
 
+Gładziejewski, Paweł. 2025. "Real patterns, the predictive mind, and the cognitive construction of the manifest image." *Synthese* 206: 225. https://doi.org/10.1007/s11229-025-05311-0.
+
 Glenn, Patrick. 2025. "The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth." PhilPapers. https://philpapers.org/rec/GLETAO.
 
 Godfrey-Smith, Peter. 2003. *Theory and Reality*. Chicago: University of Chicago Press. ISBN 978-0226300634.

@@ -32,6 +32,8 @@ This paper sits at an intersection of four conversations. From Dennett, it takes
 
 It also connects to adjacent emergence and coarse-graining debates, including weak emergence, macro-causal advantage, and naturalized metaphysics (Bedau 1997) (Hoel 2013) (Ladyman and Ross 2007) (Mitchell 2009). The contribution here is narrower: a closure criterion with explicit operational tests for dynamic coherence.
 
+Recent work also develops the cognitive genealogy of real-pattern commitments, linking predictive coding and free-energy minimization to the construction of the manifest image (Gładziejewski 2025). That line explains how agents learn and update pattern-representations. The present paper addresses a distinct question: what makes a pattern objectively available to be found in the first place.
+
 Rosas et al. provide the formal machinery. The present paper uses that machinery for a philosophical purpose, to state and defend an ontological criterion with explicit exclusion conditions for dynamically incoherent partitions.
 
 Accordingly, this paper adopts computational-mechanics closure logic and predictive-equivalence tools, but does not treat predictive equivalence alone as ontologically decisive. The added commitment is intervention-class restriction and interventional invariance as the primary objecthood condition.
@@ -333,6 +335,8 @@ The core step is heterogeneity of onward profiles. If subsystems are independent
 
 This diagnosis is stronger than saying these composites are unnatural or inconvenient. The failure is dynamical. They do not support macro-transitions as their own level.
 
+This point complements, rather than replaces, MDL-style cohesion arguments. Compression criteria explain why some models are cognitively efficient. Closure criteria explain why some targets are dynamically available for robust tracking under admissible interventions.
+
 ### 6.2 High-maintenance ontological posits
 
 Historically, some posits survive only through repeated patches. The pattern-level diagnosis is high leakiness. If a purported macro-kind constantly requires additional hidden variables to preserve forecast quality, that is evidence against closure at that partition.
@@ -450,6 +454,8 @@ Hoel, Erik P., Larissa Albantakis, and Giulio Tononi. 2013. "Quantifying Causal 
 Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
 
 Mitchell, Sandra D. 2009. *Unsimple Truths*. Chicago: University of Chicago Press.
+
+Gładziejewski, Paweł. 2025. "Real patterns, the predictive mind, and the cognitive construction of the manifest image." *Synthese* 206: 225. https://doi.org/10.1007/s11229-025-05311-0.
 
 Pearl, Judea. 2000. *Causality*. Cambridge: Cambridge University Press.
 
