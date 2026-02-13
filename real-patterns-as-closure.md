@@ -195,11 +195,13 @@ The lesson is simple. The difference between a legitimate macro-object and a con
 
 ### 4.4 If a weird partition is closed
 
-A potential objection is that a disjunctive or otherwise strange partition could satisfy lumpability in a highly symmetric system. That is correct. On this criterion, such a partition counts as comparatively real for that specified regime if it genuinely supports autonomous macro-transitions. This is a feature, not a bug. The framework is designed to track closure, not intuitive naturalness alone. If one wants an additional naturalness filter, that must be added as a separate criterion.
+A natural objection is that an unusual, disjunctive partition might still satisfy lumpability in a symmetric system. That is correct. On this framework, if such a partition genuinely supports autonomous macro-transitions in the stated regime, it counts as real at that grain.
 
-So the core exclusion claim should be read carefully. The criterion rules out dynamically incoherent, high-leak aggregates. It does not rule out every intuitively disjunctive partition when dynamics genuinely supports closure. In practice, closure claims should also be robust across modest horizon and regime shifts, and among equally robust options the coarsest partition is preferred.
+This is not a concession to arbitrariness. It is a consequence of the criterion's target. The test tracks dynamic coherence, not intuitive naturalness. If a reader wants a separate naturalness constraint, that must be introduced as an additional criterion.
 
-Robustness and minimality principle. Treat closure verdicts as credible when they remain stable across modest regime and horizon perturbations, and prefer the coarsest partition among candidates with comparable robustness.
+The exclusion claim should therefore be read precisely. The framework excludes high-leak, dynamically incoherent aggregates. It does not exclude every disjunctive grouping.
+
+Two guardrails keep this from becoming permissive. First, closure claims must remain stable across modest horizon and regime perturbations. Second, among candidates with similar robustness, the coarsest partition is preferred.
 
 ## 5. Approximate Lumpability: Realism Without Perfection
 
