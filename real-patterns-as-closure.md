@@ -138,6 +138,8 @@ This procedure does not require one privileged estimator. It requires transparen
 
 Admissibility protocol. Before running closure diagnostics, specify whether the intervention class satisfies three checks: realizable control channel (epistemic), regime preservation (dynamical), and invariance relevance (explanatory). If an intervention class fails any check, it is excluded from ontology assessment rather than treated as an alternative route to objecthood.
 
+Admissibility disputes are expected, especially across disciplines. A useful adjudication rule is to compare candidate intervention classes by what they physically permit and by whether they preserve the same target regime. For example, a meteorological intervention class that includes boundary-pressure perturbations can be admissible for storm dynamics, while direct molecule-by-molecule remote rewriting is not. In institutional analysis, changing enforcement intensity can be admissible, while instant arbitrary rewrites of all agent beliefs are not. When two classes are both admissible and target the same regime, the framework permits plural testing rather than forced monism.
+
 ### 3.4 Dennett, sharpened
 
 Dennett's compression point is preserved. Compression tracks objective regularity when it captures a stable transition structure. Predictive utility is preserved. Useful macro-models matter because they are often exploiting closure. What is added is a clear anti-gerrymandering requirement. A compressive coding is not enough. The partition must support autonomous macro-transitions.
@@ -155,6 +157,14 @@ It helps to separate three nearby positions.
 The third view has a discriminating consequence the first two can miss. Two partitions can be similarly compressive on observational fit, yet differ under interventions. If partition $P_1$ remains low-leak and stable under admissible perturbations while partition $P_2$ needs repeated micro-detail repair, closure favors $P_1$ as the better object candidate. This is not a tie-break by preference. It is a structural difference in transition autonomy that grounds objecthood rather than mere model convenience.
 
 Mini illustration. Suppose two partitions achieve comparable one-step observational prediction in a calibration dataset. Under an admissible clamp intervention on one macro-variable, $P_1$ retains stable macro-transition parameters, while $P_2$ shows class-internal divergence that forces reintroduction of hidden micro labels. In the diagnostics of Sections 5.2 and 5.3, this appears as lower within-class kernel divergence and lower intervention-conditioned predictive gain $\Delta$ for $P_1$. The two views that rely on observational compression alone can treat this as a near tie. The closure criterion does not. It ranks $P_1$ higher because it remains interventionally coherent.
+
+### 3.6 Compression and closure
+
+Compression and closure are related but not identical. Compression concerns descriptive economy. Closure concerns autonomous transition structure under admissible interventions.
+
+In this framework, compressibility is a useful indicator but not sufficient for objecthood. A code can compress in-sample trajectories while failing interventionally. Closure is therefore the stronger condition.
+
+Compression still matters. Without non-trivial regularity, there is no stable macro-description to test for closure. In that sense, compression is often a practical precondition for closure analysis, but closure carries the final ontological burden.
 
 ## 4. Lumpability as the Anti-Gerrymandering Constraint
 
@@ -209,6 +219,8 @@ The exclusion claim should therefore be read precisely. The framework excludes h
 
 Two guardrails keep this from becoming permissive. First, closure claims must remain stable across modest horizon and regime perturbations. Second, among candidates with similar robustness, the coarsest partition is preferred.
 
+This yields a constrained pluralism. Multiple partitions can count as real when they satisfy closure and robustness at different grains. They need not be equally useful for explanation or control. Robustness and minimality provide ranking principles for theory choice without collapsing the ontology to a single privileged partition in every context.
+
 ## 5. Approximate Lumpability: Realism Without Perfection
 
 ### 5.1 Why exact lumpability is uncommon
@@ -222,6 +234,8 @@ The right standard is type-level before token-level. A pattern type can be robus
 This implies a regime-dependent ontology. Objecthood is phase-dependent: a pattern can be robust in one thermodynamic regime and lose closure in another. This is a feature of the account, because causal structure itself can appear or disappear across regime transitions.
 
 This does not imply metaphysical annihilation. It means the closure conditions that license object-level treatment are regime-sensitive.
+
+Two sources of regime dependence should be distinguished. Ontic regime dependence occurs when system structure actually changes, for example across phase transitions or boundary-condition shifts. Epistemic regime dependence occurs when measurement and control access change while underlying structure remains fixed. Both matter for practice, but they have different implications for realism. The first is about world change. The second is about access limits.
 
 ### 5.2 Leakiness as graded deviation
 
@@ -270,6 +284,8 @@ At $L=1$, both partitions can appear similarly predictive under purely observati
 This kind of comparison makes closure relative to $L$ and $\mathcal{I}$ operational rather than merely verbal.
 
 The following pieces play different roles. The table fixes the setup. Algorithm 1 states the procedure. The surrounding paragraphs state how to interpret the result.
+
+This paper remains conceptual in scope. It provides an operational template and a worked stylized setup, but not a full empirical benchmark study. That extension is straightforward future work and would involve computing the listed diagnostics on a fixed dataset across competing partitions.
 
 | Component | Specification |
 | --- | --- |
