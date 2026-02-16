@@ -203,6 +203,12 @@ Strong lumpability is introduced as a benchmark, not as destiny. It gives a clea
 
 Let partition cells under $g$ be macroclasses. Strong lumpability holds when microstates within the same macroclass induce identical transition probabilities to all macroclasses. When this condition holds, macro-transitions are autonomous by construction.
 
+More precisely: for any two microstates $x, x'$ in macroclass $C_i$, and any macroclass $C_j$, strong lumpability requires $\sum_{y \in C_j} P(y \mid x) = \sum_{y \in C_j} P(y \mid x')$.
+
+**Lemma.** If the micro-process is first-order Markov and the partition induced by $g$ is strongly lumpable, then the induced macro-process is itself Markov and transition-autonomous at the macro level.
+
+*Proof sketch.* Define a macro-kernel by summing micro-transition probabilities from any representative $x \in C_i$ into each macroclass $C_j$. Strong lumpability guarantees this sum is representative-independent. The macro-kernel is therefore well-defined, and the induced process over macroclasses is Markov with transitions given by that kernel.
+
 The philosophical significance is straightforward. A partition that satisfies this condition is not merely useful. It preserves transition structure at the macro grain. A partition that fails it mixes transition-heterogeneous microstates and therefore lacks macro autonomy.
 
 Equivalent language from computational mechanics clarifies why this is not superficial bookkeeping. For any macro-process $Z$, two prediction machines can be defined. The $\varepsilon$-machine is the minimal model that predicts $Z$'s future from $Z$'s own past, using only macro-level information. The $\upsilon$-machine is the minimal model that predicts $Z$'s future from the full micro-past $X$, using everything available (Shalizi and Crutchfield 2001) (Rosas 2024). Closure holds when these two machines are equivalent: the $\varepsilon$-machine already captures everything the $\upsilon$-machine knows about macro-futures, and extra micro-information is redundant for the macro target. This gives an exact ideal where closure is not approximate.
@@ -340,6 +346,8 @@ Type-token reminder: a downgraded token does not automatically refute type-level
 The graded framework also supports an important distinction. A pattern can be entailed by microhistory and laws without being stable as a macro-handle. Entailment alone is cheap. Stability under admissible perturbation is demanding.
 
 This distinction matters for permissiveness debates. A contrived disjunctive construction can be true of a realized trajectory while still failing closure. It can require continual within-class micro repair, fail under modest regime shifts, and lose interventional reliability.
+
+A historical case makes the pattern concrete. Phlogiston theory compressed combustion phenomena under a single macro-variable, but the partition required persistent bookkeeping to survive: when metals gained weight upon burning, theorists introduced "negative phlogiston"; when different substances showed different weight changes, further ad hoc parameters appeared. Each patch was a new within-class distinction imported to preserve macro-prediction. By contrast, oxygen theory required no such ongoing repair: the macro-variable (oxidation state) screened off the relevant chemistry without persistent bookkeeping. The critique here is structural, not retrospective ridicule. A candidate that continually imports corrections to preserve macro-prediction behaves like a non-autonomous partition, and the closure framework detects this failure directly.
 
 So the claim is not that gerrymandered constructions are false. The claim is that they usually fail to qualify as macro-objects. They may remain descriptions, but not object-level descriptions in the relevant regime. The same applies to computationally adequate models more broadly. A higher-level model can be useful for prediction or control without meeting closure standards. Computational adequacy means the model serves some purpose; closure requires that transition-relevant micro-differences are screened off in the specified regime. A computationally adequate but high-leak representation remains a valuable tool, but it does not automatically earn macro-object status.
 
