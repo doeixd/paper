@@ -81,8 +81,14 @@ def extract_citations_from_file(filepath, verbose=True):
             all_parts = []
             semicolon_parts = [part.strip() for part in citation_content.split(';')]
             for semicolon_part in semicolon_parts:
-                comma_parts = [part.strip() for part in semicolon_part.split(',')]
-                all_parts.extend(comma_parts)
+                # Check if the entire part is a single multi-author citation
+                # e.g. "Hoel, Albantakis, and Tononi 2013" should not be split on commas
+                multi_author_match = re.match(r'^(.+?)\s+(\d{4}[a-z]?)$', semicolon_part.strip())
+                if multi_author_match and (' and ' in semicolon_part or ' & ' in semicolon_part):
+                    all_parts.append(semicolon_part.strip())
+                else:
+                    comma_parts = [part.strip() for part in semicolon_part.split(',')]
+                    all_parts.extend(comma_parts)
 
             for part in all_parts:
                 # Try to extract author and year from each part
@@ -309,6 +315,15 @@ def match_citation_to_reference(author, year, references):
             f"{primary} {year}",
             primary
         ])
+        # For multi-author citations like "Hoel, Albantakis, and Tononi",
+        # the split on "and" gives "Hoel, Albantakis" as primary.
+        # Also try just the first surname (before any comma).
+        first_surname = primary.split(',')[0].strip()
+        if first_surname != primary:
+            possible_keys.extend([
+                f"{first_surname} {year}",
+                first_surname
+            ])
 
     for key in possible_keys:
         if key in references:
