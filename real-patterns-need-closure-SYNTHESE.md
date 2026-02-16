@@ -106,13 +106,7 @@ Evaluation order matters.
 
 This order blocks back-fitting and makes disagreement tractable. If verdicts remain highly sensitive across nearby defensible admissibility specifications, commitment should be downgraded.
 
-### 2.5 Commitment Transparency
-
-The strongest conclusion is conditional on explicit commitments. Under structural realism and interventionism, closure under admissible conditions is sufficient for macro-objecthood in regime. If a reader withholds sufficiency, the narrower anti-gerrymandering conclusion still follows.
-
-This explicit two-level structure is not rhetorical hedge. It is dialectical hygiene for readers with different priors.
-
-### 2.6 Pattern Reality Versus Macro-Objecthood
+### 2.5 Pattern Reality Versus Macro-Objecthood
 
 One distinction is essential for avoiding confusion. A pattern can be real in a weaker sense without satisfying this paper's objecthood criterion. A representation can capture regularities that are descriptively useful while still failing closure under admissible interventions.
 
@@ -120,7 +114,7 @@ The criterion in this paper is stricter. It targets macro-objecthood, not any an
 
 That distinction clarifies dialectical burden. The paper does not need to show that non-closed representations are worthless. It only needs to show that they do not meet the objecthood standard defended here.
 
-### 2.7 Admissibility Disputes and How to Handle Them
+### 2.6 Admissibility Disputes and How to Handle Them
 
 Admissibility disputes are expected, especially across domains. The framework should not pretend they disappear. It should show how they are disciplined.
 
@@ -136,7 +130,7 @@ When two intervention classes are both admissible and target the same regime, th
 
 This is a strength, not a weakness. A criterion that cannot represent admissibility uncertainty will hide it. A criterion that makes it explicit can discipline it.
 
-### 2.8 Canonical Criterion Statement
+### 2.7 Canonical Criterion Statement
 
 For ease of reference, the core criterion can be stated compactly:
 
@@ -146,7 +140,7 @@ Candidate partitions must be specified independently of the particular sample tr
 
 In exact Markov settings, strong lumpability is a sufficient benchmark realization of this criterion. In non-ideal settings, leakiness-centered diagnostics estimate distance from that ideal under fixed constraints.
 
-### 2.9 Predictive and Interventional Closure
+### 2.8 Predictive and Interventional Closure
 
 Predictive and interventional closure should be distinguished but not separated. Predictive closure concerns whether macrostate information screens off transition-relevant micro-detail for macro-future forecasting. Interventional closure concerns whether macro-transition structure remains stable under admissible perturbation.
 
@@ -154,7 +148,7 @@ The evidential relation is asymmetric. Strong interventional closure typically i
 
 This asymmetry also clarifies burden of proof. Claims to robust macro-objecthood need either direct interventional support or compelling indirect evidence that tracks intervention-relevant invariance. Otherwise, the responsible verdict is qualified or indeterminate.
 
-### 2.10 Why Closure Carries Ontological Weight
+### 2.9 Why Closure Carries Ontological Weight
 
 A reviewer can still ask why transition autonomy should count as objecthood rather than as a mere success condition for modeling. The answer depends on the paper's explicit commitments. Under structural realism, what ontology should track is stable relational and causal organization rather than intrinsic micro-identity as such. Under interventionism, what counts as causally relevant structure is structure that supports stable manipulation and control.
 
@@ -164,11 +158,13 @@ This is also why the proposal is not vulnerable to standard "bare structure" wor
 
 This also addresses Newman-style triviality pressure in structural realism. Extensional structure alone can be cheap under recoding. Closure is not extensional fit alone. It requires transition and intervention stability under declared constraints, which arbitrary recodings typically fail.
 
-Readers who reject those commitments can still accept the narrower point. Even on a more deflationary reading, closure is a stringent anti-gerrymandering test. It excludes candidates that look plausible only because transition-relevant micro-heterogeneity was hidden by coding choices.
-
 Why not stop at "good variable" language? Because that move gives up too much of the realist ambition. A good variable can be merely convenient. Closure, by contrast, is evidence that the variable tracks objective modal structure in the specified regime: stable counterfactual dependencies and lawlike transition regularities under admissible intervention. On the paper's commitments, treating that structure as merely representational would undercut the very realism the framework is designed to preserve.
 
-### 2.11 Levels of Claim and Representation
+A related worry is that closure only tracks our current inferential limits, making it a convenience statistic rather than evidence about what is objectively there. The framework rejects that interpretation because closure claims are indexed to intervention classes, not only to passive prediction. If a candidate partition supports reliable counterfactual control and regime-stable transition laws, then it is tracking constraint structure that survives perturbation, not merely observer-side compression. A representation can score well on retrospective fit by exploiting accidental correlations and still fail quickly when admissible interventions shift transition pathways. A closure-supporting partition survives those shifts because the screened-off structure is not accidental. The modal profile, not the in-sample fit, carries the ontological burden.
+
+The framework therefore distinguishes epistemic humility from ontological deflation. Finite agents will often have partial, noisy, and regime-limited evidence. But that uncertainty does not collapse the difference between dynamically autonomous and dynamically incoherent partitions. That difference can be difficult to estimate, but it is still a difference in the world rather than in preference.
+
+### 2.10 Levels of Claim and Representation
 
 Some recurring misunderstandings come from sliding between different levels of claim. The paper uses the following distinction throughout.
 
@@ -181,17 +177,7 @@ A representation can fail while the pattern type remains real. A token can fail 
 
 This is why the criterion does not equate model performance with ontology. It asks whether the represented transition structure is genuinely autonomous, not whether one representation currently performs well.
 
-### 2.12 Criterion Summary Before Formal Benchmark
-
-Before moving to strong lumpability, the framework can be summarized in three lines.
-
-1. **Criterion:** macro-objecthood requires transition autonomy under fixed regime, horizon, and admissible intervention class.
-2. **Evaluation:** when exact closure fails, leakiness-centered diagnostics estimate comparative distance from closure.
-3. **Commitment rule:** commitment strength tracks evidential stability, with explicit downgrade to qualified or indeterminate status when evidence is unstable.
-
-The next sections unpack these three claims in exact and non-ideal settings.
-
-### 2.13 Closure, Underdetermination, and Objecthood Discipline
+### 2.11 Closure, Underdetermination, and Objecthood Discipline
 
 One remaining concern is underdetermination. Even after the criterion is stated, a reviewer may argue that many distinct coarse-grainings can be tuned to look acceptable on available data. If so, closure might seem to collapse back into model choice rather than objecthood discipline.
 
@@ -203,25 +189,13 @@ The framework's answer is to separate three questions that are often conflated.
 
 Underdetermination is strongest at the first question and weaker at the second. It is often weakest at the third. Many candidates can fit observed trajectories. Far fewer preserve counterfactual structure when the regime is probed. Fewer still remain stable across nearby defensible setups. This staged filtering is exactly where closure earns its metaphysical role.
 
-The key point is modest but important. The framework does not claim that every domain yields one uniquely privileged partition. It claims that objecthood commitments should be constrained by transition autonomy and robustness, rather than by fit alone. When underdetermination persists after those filters, the responsible result is qualified or plural commitment under transparent constraints, not forced monism and not unconstrained relativism.
+The framework does not claim that every domain yields one uniquely privileged partition. It claims that objecthood commitments should be constrained by transition autonomy and robustness, rather than by fit alone. When underdetermination persists after those filters, the responsible result is qualified or plural commitment under transparent constraints, not forced monism and not unconstrained relativism.
 
-This is why closure is not a decorative add-on to model evaluation. It is the condition that turns a successful description into a candidate ontological handle.
+Before moving to the formal benchmark, the framework can be summarized in three lines.
 
-### 2.14 Why Closure Is Not Merely an Epistemic Score
-
-Another way to press the issue is to say that closure only tracks our current inferential limits. On this view, closure would be a high-level convenience statistic, not evidence about what is objectively there.
-
-The framework rejects that interpretation for a simple reason. Closure claims are indexed to intervention classes, not only to passive prediction. If a candidate partition supports reliable counterfactual control and regime-stable transition laws, then it is tracking more than observer-side compression. It is tracking constraint structure that survives perturbation.
-
-This distinction is easiest to see by contrast.
-
-1. A representation can score well on retrospective fit by exploiting accidental correlations.
-2. The same representation can fail quickly when admissible interventions shift transition pathways.
-3. A closure-supporting partition survives those shifts because the screened-off structure is not accidental.
-
-In that sense, closure is not equivalent to "what we can currently summarize." It is a test for whether a candidate handle remains valid when the system is pushed within its regime. The modal profile, not the in-sample fit, carries the ontological burden.
-
-This is also why the framework distinguishes epistemic humility from ontological deflation. The paper accepts that finite agents will often have partial, noisy, and regime-limited evidence. What it denies is that this uncertainty collapses the difference between dynamically autonomous and dynamically incoherent partitions. That difference can be difficult to estimate, but it is still a difference in the world rather than in preference.
+1. **Criterion:** macro-objecthood requires transition autonomy under fixed regime, horizon, and admissible intervention class.
+2. **Evaluation:** when exact closure fails, leakiness-centered diagnostics estimate comparative distance from closure.
+3. **Commitment rule:** commitment strength tracks evidential stability, with explicit downgrade to qualified or indeterminate status when evidence is unstable.
 
 ## 3. Exact Benchmark: Strong Lumpability
 
@@ -359,7 +333,7 @@ The graded framework also supports an important distinction. A pattern can be en
 
 This distinction matters for permissiveness debates. A contrived disjunctive construction can be true of a realized trajectory while still failing closure. It can require continual within-class micro repair, fail under modest regime shifts, and lose interventional reliability.
 
-So the claim is not that gerrymandered constructions are false. The claim is that they usually fail to qualify as macro-objects. They may remain descriptions, but not object-level descriptions in the relevant regime.
+So the claim is not that gerrymandered constructions are false. The claim is that they usually fail to qualify as macro-objects. They may remain descriptions, but not object-level descriptions in the relevant regime. The same applies to computationally adequate models more broadly. A higher-level model can be useful for prediction or control without meeting closure standards. Computational adequacy means the model serves some purpose; closure requires that transition-relevant micro-differences are screened off in the specified regime. A computationally adequate but high-leak representation remains a valuable tool, but it does not automatically earn macro-object status.
 
 ### 4.8 Practical Qualification Under Sparse Intervention Access
 
@@ -371,13 +345,7 @@ The paper therefore does not treat in-sample prediction as decisive. The standar
 
 This point also explains why diagnostics should be triangulated. Predictive closure can look strong in-sample while interventional closure fails under admissible perturbation. Partial observability can hide within-class heterogeneity that later appears as instability. Nonstationarity can make a previously low-leak partition unstable outside its calibration window. Triangulation does not remove these risks, but it makes them visible.
 
-### 4.9 Why Computational Adequacy Is Not Enough
-
-A higher-level model can be computationally useful without meeting closure standards. That is exactly why the criterion is needed.
-
-Computational adequacy means the model serves some predictive or control purpose. Closure requires more: that transition-relevant micro-differences are screened off in the specified regime. A computationally adequate but high-leak representation remains a valuable tool, but it does not automatically earn macro-object status.
-
-### 4.10 Conceptual Contrast: Near-Tie Prediction, Different Ontology Verdicts
+### 4.9 Conceptual Contrast: Near-Tie Prediction, Different Ontology Verdicts
 
 Two partitions can show similar short-horizon observational performance and still receive different closure verdicts. This is where the criterion does real philosophical work.
 
@@ -387,7 +355,7 @@ On the present framework, $P_1$ receives the stronger objecthood verdict because
 
 A concrete sketch helps. In traffic modeling, one partition may track density and flow by lane segment. A rival partition may track arbitrary vehicle-ID clusters that happen to fit one week of observations. In-sample one-step fit can be similar. Under admissible perturbations, such as ramp metering changes and speed-limit adjustments, the lane-flow partition remains stable while the ID-cluster partition becomes brittle. Under modest horizon extension, leakiness for the ID-cluster partition rises sharply. The verdict is then robust or qualified objecthood for the lane-flow partition and downgrade for the rival.
 
-### 4.11 Reporting Discipline
+### 4.10 Reporting and Evidential Discipline
 
 To keep conclusions comparable across cases, closure assessments should report five items explicitly.
 
@@ -408,15 +376,9 @@ For consistent application, the assessment sequence should be explicit.
 
 This sequence is not an optional implementation preference. It is part of what makes closure claims epistemically disciplined rather than post hoc.
 
-### 4.12 From Diagnostics to Warranted Commitment
+Diagnostics do not replace criterion-level argument. They provide evidence about whether a candidate satisfies the criterion under declared constraints. This distinction matters because reviewers can otherwise misread the framework as reducing ontology to whichever metric happens to be available. The evidential logic is comparative and convergent. No single proxy is treated as infallible. Confidence increases when different diagnostics track the same rank-order among candidate partitions and when those rankings remain stable under modest perturbation tests. Confidence decreases when diagnostics diverge persistently or when rankings are brittle under small design changes.
 
-Diagnostics do not replace criterion-level argument. They provide evidence about whether a candidate satisfies the criterion under declared constraints. This distinction matters because reviewers can otherwise misread the framework as reducing ontology to whichever metric happens to be available.
-
-The evidential logic is comparative and convergent. No single proxy is treated as infallible. Instead, confidence increases when different diagnostics track the same rank-order among candidate partitions and when those rankings remain stable under modest perturbation tests. Confidence decreases when diagnostics diverge persistently or when rankings are brittle under small design changes.
-
-This is why verdict categories are graded. Robust verdicts require convergence and stability. Qualified verdicts fit mixed but non-trivial evidence. Indeterminate verdicts fit persistent instability.
-
-The diagnostic set can vary by domain, but it should answer one fixed question: do within-class micro-differences still matter for macro-what-follows? In practice, three checks are usually enough.
+This is why verdict categories are graded. Robust verdicts require convergence and stability. Qualified verdicts fit mixed but non-trivial evidence. Indeterminate verdicts fit persistent instability. The diagnostic set can vary by domain, but it should answer one fixed question: do within-class micro-differences still matter for macro-what-follows? In practice, three checks are usually enough.
 
 1. Leakiness proxy based on predictive gain from added within-class micro-features.
 2. Within-class transition-profile divergence.
@@ -510,13 +472,11 @@ Objection: a model can predict well without warranting ontological commitment.
 
 Reply: that is correct, and the framework does not deny it. Prediction alone is not the criterion. The criterion is transition autonomy under admissible interventions and fixed constraints. Predictive success functions as evidence only when it aligns with closure diagnostics and interventional stability.
 
-This point carries three immediate consequences.
+This point carries two immediate consequences.
 
-First, commitment structure is explicit. Under structural realist and interventionist commitments, closure suffices for macro-objecthood in regime. Without those commitments, closure still serves as a necessary anti-gerrymandering filter. In neither case does raw predictive fit settle ontology.
+First, protocol language has a bounded philosophical role. The paper includes diagnostics to avoid a familiar failure mode, where a criterion is asserted but left too unconstrained to guide verdicts. The claim remains conceptual. Diagnostics do not replace argument. They operationalize what the argument says should matter.
 
-Second, protocol language has a bounded philosophical role. The paper includes diagnostics to avoid a familiar failure mode, where a criterion is asserted but left too unconstrained to guide verdicts. The claim remains conceptual. Diagnostics do not replace argument. They operationalize what the argument says should matter.
-
-Third, the framework is falsifiable in its own terms. If candidate partitions repeatedly fail closure diagnostics across defensible regimes and admissibility classes, commitment should be withdrawn or downgraded. The same applies when verdicts are unstable under small, defensible changes in horizon, admissibility, or diagnostic proxy. A proposal that cannot risk downgrade is not a serious realism criterion.
+Second, the framework is falsifiable in its own terms. If candidate partitions repeatedly fail closure diagnostics across defensible regimes and admissibility classes, commitment should be withdrawn or downgraded. The same applies when verdicts are unstable under small, defensible changes in horizon, admissibility, or diagnostic proxy. A proposal that cannot risk downgrade is not a serious realism criterion.
 
 The broader upshot is methodological modesty with ontological discipline. The framework does not promise certainty from one metric or one pass. It promises explicit criteria for when confidence increases, when confidence should pause, and when commitment should retreat.
 
