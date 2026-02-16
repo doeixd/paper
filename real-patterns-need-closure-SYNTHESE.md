@@ -246,13 +246,21 @@ A representation can compress in-sample trajectories and still fail closure if i
 
 The division of labor is simple. Compression helps identify promising candidates. Closure carries final ontological weight.
 
-### 3.4 Closure and Causal-State Equivalence
+### 3.4 What the Formal Machinery Alone Does Not Provide
 
-The closure criterion is close to, but not identical with, causal-state style predictive equivalence. Causal-state constructions classify histories by equivalence of future distributions. That is primarily an observational-predictive equivalence relation.
+A natural question is why this paper is needed if strong lumpability and causal-state constructions already exist. The answer is that the mathematical property and the philosophical criterion are different things. Four elements of the present framework have no counterpart in the formal literature alone.
 
-The present criterion includes that predictive idea but adds an interventional condition and a discipline protocol. Candidate partitions are evaluated for transition autonomy under an admissible intervention class, then tested for robustness under modest regime and horizon variation, with explicit downgrade rules when sensitivity is high.
+First, intervention indexing. Causal-state constructions classify histories by equivalence of future distributions under the observed process. That is primarily an observational-predictive equivalence relation (Shalizi and Crutchfield 2001). The present criterion adds an admissible intervention class as a parameter of the closure test. Objecthood claims are indexed to what the system does under perturbation, not only under passive observation. This is what separates the criterion from a purely statistical diagnostic.
 
-So the paper is not computational mechanics with new labels. It is a philosophical criterion that uses computational-mechanics tools while adding intervention-indexed objecthood conditions and commitment discipline.
+Second, an explicit ontological interpretation. Strong lumpability tells you when a coarse-graining preserves transition structure. It does not tell you whether that preservation warrants realist commitment. The philosophical work of this paper is to argue that, under stated commitments, transition autonomy under admissible interventions is sufficient for macro-objecthood, and to give the conditions under which that claim should be downgraded or withdrawn.
+
+Third, a graded commitment protocol. The formal literature offers exact conditions and, more recently, approximate-closure measures. It does not supply a framework for translating those measures into warranted ontological verdicts with explicit robustness requirements and downgrade rules. The selective commitment structure (robust, qualified, indeterminate) is a philosophical addition.
+
+Fourth, an anti-gerrymandering argument. The Dennett permissiveness problem is a philosophical problem. Lumpability provides a formal tool for solving it, but the argument that closure is the right anti-gerrymandering condition, and that compression without closure is insufficient for objecthood, is not a theorem. It is a philosophical claim defended by the structure of Sections 2 through 4.
+
+A similar contrast applies to causal-emergence work. Effective-information analyses ask when macro-descriptions gain determinism and reduce degeneracy relative to micro-descriptions (Hoel 2013). That is a valuable diagnostic, but it does not by itself settle which macro-descriptions deserve realist commitment, because a partition can increase effective information while remaining fragile under intervention or horizon variation. The present framework treats causal-emergence gains as corroborating evidence within a closure-governed criterion, not as a standalone ontology test.
+
+So the paper is not computational mechanics or causal-emergence analysis with new labels. It is a philosophical criterion that borrows formal tools while adding intervention-indexed objecthood conditions, an explicit commitment protocol, and a sustained argument about why closure is the right fix for pattern-realism permissiveness.
 
 ## 4. Approximate Closure Without Instrumentalist Drift
 
@@ -466,7 +474,17 @@ This does not reduce formal systems to arbitrary invention. Formal systems are i
 
 No collapse follows. The paper's argument is narrower and clearer: induced closure is the objecthood criterion for implemented macro-patterns in regime.
 
-### 5.6 "Predictive Success, Methodological Role, and Failure Conditions"
+### 5.6 "Closure Is Too Strong and Eliminates Most Special Sciences"
+
+Objection: if closure requires that within-class micro-differences not matter for macro-transitions, then most special-science kinds will fail. Biological species, psychological states, and economic categories are notoriously leaky. The criterion eliminates the ontology it was supposed to discipline.
+
+Reply: this objection conflates robust objecthood with any objecthood verdict at all. The framework provides three verdict categories, not one. Robust objecthood requires stable closure under fixed constraints. Qualified objecthood fits cases where closure is partial, regime-limited, or supported by convergent but incomplete evidence. Indeterminate status fits cases where evidence is too unstable to warrant commitment.
+
+Most special-science kinds fall into the qualified range, and that is the correct result. Biological species exhibit substantial transition autonomy within ecological and evolutionary regimes while leaking at boundary cases (hybrid zones, ring species, horizontal gene transfer). Psychological kinds often support predictive and interventional regularity within clinical or experimental regimes while failing under broader perturbation. The framework does not eliminate these kinds. It gives them the status their closure evidence supports: qualified objecthood with explicit regime limitations, rather than either full robust status or wholesale elimination.
+
+The objection therefore proves too much. A criterion that granted robust objecthood to every special-science kind regardless of leakiness would be the permissive framework this paper is designed to replace. The gain from graded verdicts is that they match evidential reality rather than forcing a binary choice between full realism and eliminativism.
+
+### 5.7 "Predictive Success and Failure Conditions"
 
 Objection: a model can predict well without warranting ontological commitment.
 
@@ -480,7 +498,7 @@ Second, the framework is falsifiable in its own terms. If candidate partitions r
 
 The broader upshot is methodological modesty with ontological discipline. The framework does not promise certainty from one metric or one pass. It promises explicit criteria for when confidence increases, when confidence should pause, and when commitment should retreat.
 
-### 5.7 "Horizon-Relativity Makes the Criterion Too Weak"
+### 5.8 "Horizon-Relativity Makes the Criterion Too Weak"
 
 Objection: if closure is indexed to horizon, any candidate can be made to pass at a short enough horizon.
 
@@ -492,7 +510,7 @@ The same point can be put as a burden-of-proof rule. Horizon flexibility is acce
 
 This distinction is central for pre-emption. Critics are right that any framework can be trivialized if timescales are unconstrained. The present framework avoids that outcome by tying horizons to ex ante justification and by requiring modest-extension robustness. If robustness fails, the verdict downgrades. The criterion does not break. It reports that the claim was too strong for the evidence.
 
-### 5.8 "The Criterion Is Too Conservative"
+### 5.9 "The Criterion Is Too Conservative"
 
 Objection: by demanding closure and downgrade discipline, the framework may be too conservative and may miss emerging macro-objects.
 
