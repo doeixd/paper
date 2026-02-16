@@ -88,6 +88,8 @@ In the idealized case where the micro-process is first-order Markov and the part
 
 Because closure is relative to an intervention class, the question of which interventions count does substantial philosophical work. Three admissibility constraints govern intervention-class selection throughout this paper. **Epistemic admissibility:** the intervention can be measured and implemented by bounded agents with finite resources. **Dynamical admissibility:** it preserves the target regime class instead of pushing the system into a different dynamical phase. **Explanatory admissibility:** it probes stable invariances rather than one-off perturbation artifacts. These constraints are physically anchored: interventions must be locally propagating and energetically feasible. They mirror ordinary experimental design, not ad hoc metaphysical additions. This blocks arbitrary, paper-defined intervention classes from setting ontology by stipulation.
 
+To avoid circularity, admissibility is fixed upstream of the target objecthood verdict. Intervention classes are themselves implemented patterns of control and measurement, with their own stability conditions. The question is not what an analyst prefers to count as an intervention. The question is which control channels are physically available and regime-preserving in the system under study. Only after that class is fixed do closure diagnostics evaluate candidate macro-partitions.
+
 #### 3.1.1 Formal details (Markov exact case)
 
 Strong lumpability means: for any two microstates $x, x'$ in macroclass $C_i$, and any macroclass $C_j$, the aggregated transition probability satisfies $\sum_{y \in C_j} P(y \mid x) = \sum_{y \in C_j} P(y \mid x')$. Transition-autonomous means the macro transition kernel is well-defined and independent of which representative microstate in $C_i$ is occupied.
@@ -135,6 +137,8 @@ This procedure does not require one privileged estimator. It requires transparen
 Before running closure diagnostics, specify whether the intervention class satisfies three checks: realizable control channel (epistemic), regime preservation (dynamical), and invariance relevance (explanatory). If an intervention class fails any check, exclude it from ontology assessment.
 
 Admissibility disputes are expected, especially across disciplines. A useful adjudication rule is to compare candidate intervention classes by what they physically permit and by whether they preserve the same target regime. For example, boundary-pressure perturbations can be admissible for storm dynamics, while molecule-by-molecule remote rewriting is not. In institutional analysis, changing enforcement intensity can be admissible, while instant arbitrary rewrites of all agent beliefs are not. When two classes are both admissible and target the same regime, the framework permits plural testing rather than forced monism.
+
+When disputes persist, the procedure is hierarchical. First evaluate the intervention class as an implemented control structure, asking whether its channel is stable, reproducible, and regime-preserving. Then evaluate closure for the target macro-partition under that fixed class. This order matters. It prevents back-fitting admissibility to rescue a favored ontology claim.
 
 ### 3.4 Dennett, sharpened
 
@@ -421,6 +425,8 @@ Dennett's own Martian thought experiment motivates this objection. He asks us to
 
 The relevant regimes are constraint-relative, not observer-relative. Agents can choose which domain to study, but they cannot choose whether closure holds once horizon, intervention class, and target are fixed. Admissible intervention classes are bounded by locality and energetic feasibility, so ontology is not set by arbitrary intervention design.
 
+A stronger version of the objection is that admissibility itself might smuggle in the ontology to be tested. The reply is hierarchical rather than circular. Intervention classes are determined by upstream facts about available control and measurement channels, which can be assessed independently of whether a given macro-partition closes. In this sense, admissibility constraints are patterns in their own right, discovered in the system's control architecture, not preferences imposed by individual judgment.
+
 An example of an inadmissible class is direct arbitrary manipulation of distant microstates with no physically realizable control channel. Such classes can be defined formally, but they are excluded from ontology tests because they violate implementation constraints.
 
 For social kinds, admissibility proceeds through implementation mechanisms. A legal intervention is admissible not because a rule is written, but because enforcement institutions physically constrain behavior through courts, bureaucracies, and sanctions.
@@ -445,13 +451,13 @@ Reply: as developed in Section 3.2, the criterion applies to non-Markov systems 
 
 Objection: if formal systems are closed by definition, does the account collapse into formalism?
 
-Reply: formal systems are not merely arbitrary games. Mathematics can be understood as disciplined exploration of intelligible structures, constrained by stable identity, compositional inference, and coherent consequence. Those constraints are not external decorations. They are preconditions for successful tracking and reasoning by embedded agents.
+Reply: The objection turns on two notions of closure, and they should be separated. In formal systems, closure is stipulated by constitutive rules. Once the rules are fixed, transitions and consequences are fixed. In that sense, formal structure is constraint-determined rather than arbitrary convention.
 
-This is why formal work can latch onto empirical reality without collapse into either mysticism or conventionalism. The constraints on making sense overlap with constraints on being a stable, trackable object in the world.
+Formal systems are therefore not mere games. They are disciplined structures constrained by stable identity conditions, compositional inference, and coherent consequence. That helps explain why formal work can guide empirical reasoning without making empirical ontology a matter of convention.
 
-Still, formal closure and empirical objecthood should be distinguished. A structure can be internally coherent as mathematics, while empirical macro-objecthood requires implementation and induced closure in spatiotemporal dynamics.
+The criterion defended in this paper is different. It concerns induced closure in spatiotemporal systems. The question is whether an implemented macro-partition screens off micro-detail for a specified regime and admissible intervention class.
 
-So formal coherence is evidentially suggestive, not ontologically decisive, for empirical macro-object claims.
+So there is no collapse into formalism. Internal structural closure is one kind of objectivity. Empirical macro-objecthood requires implemented transition autonomy under regime and intervention constraints. This paper argues for that second standard.
 
 ### 9.5 Causal exclusion
 
