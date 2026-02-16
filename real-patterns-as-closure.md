@@ -32,7 +32,7 @@ This paper sits at an intersection of four conversations. From Dennett, it takes
 
 It also connects to adjacent emergence and coarse-graining debates, including weak emergence, macro-causal advantage, and naturalized metaphysics (Bedau 1997) (Hoel 2013) (Ladyman and Ross 2007) (Mitchell 2009). Of particular relevance is Ladyman and Ross's "Rainforest Realism," which treats pattern reality as highly abundant across scales. The closure criterion accepts the realist motivation but adds a pruning condition: only partitions with robust transition autonomy count as macro-objects.
 
-Recent work also traces the cognitive origins of real-pattern commitments, linking predictive coding and free-energy minimization to how agents build their picture of the world (Gładziejewski 2025). That line helps explain why bounded agents converge on some representational schemes and revise others over time, which strengthens the anti-arbitrariness side of pattern realism. But it does not by itself settle macro-objecthood, because representational success can remain task-relative unless a further test determines when a candidate grouping is dynamically available in the world. The closure criterion supplies that additional test.
+A different but adjacent line of work traces the cognitive origins of real-pattern commitments, linking predictive coding and free-energy minimization to how agents build their picture of the world (Gładziejewski 2025). That line helps explain why bounded agents converge on some representational schemes and revise others over time, which strengthens the anti-arbitrariness side of pattern realism. But it does not by itself settle macro-objecthood, because representational success can remain task-relative unless a further test determines when a candidate grouping is dynamically available in the world. The closure criterion supplies that additional test.
 
 Rosas et al. provide the formal diagnostics. The argument here uses that machinery to defend a philosophical contribution: an explicit ontological criterion with exclusion conditions for dynamically incoherent partitions, graded assessment for borderline cases, and application to the question of what counts as a macro-object rather than merely a useful model. Predictive equivalence alone is not decisive; intervention-class restriction and interventional invariance carry the objecthood claim. The novel claim is the joint use of closure and lumpability as a discriminating criterion: exact in ideal settings, graded by leakiness in realistic settings, and used to filter gerrymandered partitions from autonomous macro-object candidates.
 
@@ -72,6 +72,8 @@ Closure can be stated without heavy formalism. A macro-pattern is real when leve
 
 The emphasis on "what follows" matters. Closure is a transition claim, not a static shape claim. Two microstates may look similar now but diverge in macro-futures. If so, grouping them as one macrostate fails the autonomy requirement.
 
+Throughout this paper, a regime is a specified dynamical phase with fixed parameters, boundary conditions, and operating constraints. Closure is always assessed relative to a regime, because the same system can behave differently across phases.
+
 Definition (Closure relative to regime): a coarse-graining $Z_t = g(X_t)$ is closed over horizon $L$ and intervention class $\mathcal{I}$ when macrostate information is sufficient for what follows at the macro level, without importing additional within-class microstate distinctions.
 
 The definition has two tests.
@@ -110,11 +112,11 @@ In the idealized settings considered here, informational diagnostics can track t
 
 The criterion is closure of macro-transition structure. Nothing in that formulation requires the micro-process to be first-order Markov. When the system has memory, the relevant state includes that memory. An immune system's repertoire of antibodies is part of its current macro-state precisely because it shapes transitions. An economy's path-dependent institutional structure is part of its macro-state for the same reason. In such cases the micro-state $X_t$ is replaced by an enriched state $H_t$ that carries the history needed for prediction at the target horizon, and closure is assessed on $Z_t = g(H_t)$ using the same tests. The enriched state is not a workaround. It is what the state is when the system has memory. Strong lumpability over $H_t$ is then the same test as before; what changes is the complexity of identifying the right state description, which is an estimation problem, not a conceptual one. In practice this can be implemented by finite-lag embeddings, predictive-state representations, or recurrent state summaries, with model selection fixed in advance for the regime. Strong lumpability over the current state is the special case where relevant history reduces to a single time-step.
 
-Informational diagnostics and interventional relevance are used together. Low leakiness is operational evidence for autonomy, and interventional stability gives the ontological interpretation.
+In practice, informational diagnostics and interventional relevance are used together. Low leakiness is operational evidence for autonomy, and interventional stability gives the ontological interpretation.
 
-These diagnostics are evidential, not constitutive. Prediction and intervention do not create the pattern. They test whether a candidate coarse-graining tracks conditional-independence structure already present in the dynamics.
+An important caveat: these diagnostics are evidential, not constitutive. Prediction and intervention do not create the pattern. They test whether a candidate coarse-graining tracks conditional-independence structure already present in the dynamics.
 
-Predictive and interventional closure should be distinguished from the start. Predictive closure concerns screening-off for forecasts under a fixed data regime. Interventional closure concerns invariance of macro-transition structure under admissible perturbations. For objecthood claims here, interventional closure is the ontological standard, while predictive closure is usually the operational proxy.
+With that caveat in place, predictive and interventional closure should be distinguished. Predictive closure concerns screening-off for forecasts under a fixed data regime. Interventional closure concerns invariance of macro-transition structure under admissible perturbations. For objecthood claims here, interventional closure is the ontological standard, while predictive closure is usually the operational proxy.
 
 Stated directly, if two microstates map to the same macrostate at time $t$, they must agree on macro-transition consequences. If they do not, the macrostate hides causally relevant structure and is not autonomous.
 
@@ -156,11 +158,7 @@ This clarifies the paper's target. The claim is not that imperfect but useful pa
 
 ### 3.6 Compression and closure
 
-Compression and closure are related but not identical. Compression concerns descriptive economy. Closure concerns autonomous transition structure under admissible interventions.
-
-In this framework, compressibility is a useful indicator but not sufficient for objecthood. A code can compress in-sample trajectories while failing interventionally. Closure is therefore the stronger condition.
-
-Compression still matters. Without non-trivial regularity, there is no stable macro-description to test for closure. In that sense, compression is often a practical precondition for closure analysis, but closure carries the final ontological burden.
+To summarize the relationship between these two concepts: compression and closure are related but not identical. Compression concerns descriptive economy. Closure concerns autonomous transition structure under admissible interventions. A code can compress in-sample trajectories while failing interventionally, so compressibility is a useful indicator but not sufficient for objecthood. Compression is often a practical precondition for closure, since without non-trivial regularity there is no stable macro-description to test, but closure carries the final ontological burden.
 
 ### 3.7 Criterion statement (formal)
 
@@ -255,7 +253,7 @@ Two sources of regime dependence should be distinguished. Ontic regime dependenc
 
 ### 5.2 Leakiness as graded deviation
 
-A natural quantity is leakiness: how much micro-information inside a macrostate improves macro-future prediction once the macrostate is already known. One concise expression is the conditional mutual information $I(X_t; Z_{t+1} \mid Z_t)$.
+A natural quantity is leakiness: how much micro-information inside a macrostate improves macro-future prediction once the macrostate is already known. One concise expression is the conditional mutual information $I(X_t; Z_{t+1} \mid Z_t)$. This gives a canonical formal expression, but in practice leakiness will be operationalized comparatively across candidate partitions, as described below.
 
 In plain terms, leakiness asks whether hidden micro detail still changes the macro forecast after we already know the current macrostate. Low leakiness means little hidden dependence. High leakiness means the coarse-graining still hides causally relevant structure.
 
@@ -294,7 +292,7 @@ This also answers the Laplacean challenge cleanly. An ideal observer can in prin
 
 So the claim is not that gerrymandered constructs are false. The claim is that they generally fail to qualify as stable macro-objects.
 
-Operationally: if a candidate is entailed yet fails screening-off and perturbation robustness under admissible interventions, it should be downgraded from objecthood to descriptive residue for that regime.
+Operationally: if a candidate is entailed yet fails screening-off and perturbation robustness under admissible interventions, it should be downgraded from objecthood to a description without object-level standing for that regime.
 
 ### 5.5 Practical qualification
 
@@ -367,13 +365,13 @@ The criterion gives principled gradation rather than all-or-nothing verdicts. Bo
 
 The criterion does not need modification for social kinds. The same closure test applies. What changes is the intervention class: legal, regulatory, and economic perturbations replace physical ones. But the admissibility constraints still hold. Interventions must be physically implementable through actual enforcement mechanisms, not paper stipulations. That requirement is already in the framework.
 
-**Money.** The macro-state is transactional structure: unit of account, medium of exchange, store of value. The micro-realizations are wildly heterogeneous: coins, paper notes, bank ledger entries, digital balances. Closure holds because the macro-transition structure is autonomous across these realizations. One can intervene on monetary policy at the macro level (interest rate changes, reserve requirements, open market operations) and get stable, predictable responses without tracking which physical tokens carry the value. A dollar spent from a paper bill and a dollar spent from a digital account produce the same macro-transition in the transactional network. Leakiness is low. Money is one of the most robust social macro-objects that exists.
+**Money.** The macro-state is transactional structure: unit of account, medium of exchange, store of value. The micro-realizations are wildly heterogeneous: coins, paper notes, bank ledger entries, digital balances. Closure holds because the macro-transition structure is autonomous across these realizations. One can intervene on monetary policy at the macro level (interest rate changes, reserve requirements, open market operations) and get stable, predictable responses without tracking which physical tokens carry the value. A dollar spent from a paper bill and a dollar spent from a digital account produce the same macro-transition in the transactional network. Leakiness is low. Money is a paradigmatically robust social macro-object.
 
 **Corporations.** The macro-state is governance structure, contractual obligations, and asset position. Admissible interventions are regulatory, legal, and financial. Knowing a corporation's institutional state (its legal standing, balance sheet, contractual network) predicts its behavior without tracking individual employees. The macro-transition structure is autonomous: replacing personnel within the same institutional roles does not change the corporation's macro-dynamics in the relevant regime. Closure holds when implementation infrastructure functions: courts enforce contracts, records preserve institutional memory, regulatory bodies maintain oversight. The philosophically interesting case is what happens when that infrastructure degrades, which leads to the next example.
 
 **Failed states.** The structure-implementation-representation distinction drawn in Section 2.1 does its sharpest work here. A state can persist as codified structure (constitutions, statutes, legal codes) and as representation (citizens and foreign governments continue to recognize it) while losing causal efficacy because implementation collapses. Courts stop functioning, enforcement channels break down, records are destroyed or become inaccessible, bureaucratic capacity evaporates. Closure fails not because the rules changed but because the physical infrastructure that enforced screening-off is gone. The macro-state label "functioning state" no longer screens off the micro-details: which warlord controls which territory, which informal network provides which service. Those micro-distinctions now determine macro-futures, and the official macro-partition requires persistent within-class bookkeeping to retain any predictive value.
 
-This is the criterion doing something no other account of social ontology does as cleanly. It explains exactly when and why a social entity stops being a real macro-object without requiring the claim that it was never real, or that it remains real because people believe in it. The pattern's reality is tied to its implementation, and implementation is testable by closure diagnostics in the same way as any other candidate partition.
+This is the criterion doing distinctive work in social ontology. It explains exactly when and why a social entity stops being a real macro-object without requiring the claim that it was never real, or that it remains real because people believe in it. The pattern's reality is tied to its implementation, and implementation is testable by closure diagnostics in the same way as any other candidate partition.
 
 ## 8. Dennett Revisited
 
@@ -405,7 +403,11 @@ The revised slogan is straightforward: a real pattern is an autonomous coarse-gr
 
 ### 8.4 A note on composition
 
-The closure criterion also provides a principled answer to Van Inwagen's Special Composition Question: under what conditions do parts compose a whole (Van Inwagen 1990)? On the present framework, parts compose a whole when their collective dynamics achieve closure for some intervention class and regime. This is neither too permissive (arbitrary sums fail the closure test) nor too restrictive (it includes organisms, artifacts, and institutional entities where closure holds in the relevant domain). Van Inwagen's own answer, that composition occurs only when parts constitute a life, appears as a special case: living systems are paradigmatic achievers of closure because natural selection optimizes for boundaries that minimize thermodynamic cost while maintaining functional integrity. But life is sufficient, not necessary, for composition. The criterion also explains why composition can be temporary and regime-dependent. Parts compose a whole when and where closure holds. The same physical components can compose a functioning entity in one regime and fail to in another, which is exactly what we observe with social institutions, organisms under extreme conditions, and machines that break down. Van Inwagen's question receives a dynamic answer rather than a static one.
+The closure criterion also provides a principled answer to Van Inwagen's Special Composition Question: under what conditions do parts compose a whole (Van Inwagen 1990)? On the present framework, parts compose a whole when their collective dynamics achieve closure for some intervention class and regime. This is neither too permissive (arbitrary sums fail the closure test) nor too restrictive (it includes organisms, artifacts, and institutional entities where closure holds in the relevant domain).
+
+Van Inwagen's own answer, that composition occurs only when parts constitute a life, appears as a special case: living systems are paradigmatic achievers of closure because natural selection optimizes for boundaries that minimize thermodynamic cost while maintaining functional integrity. But life is sufficient, not necessary, for composition.
+
+The criterion also explains why composition can be temporary and regime-dependent. Parts compose a whole when and where closure holds. The same physical components can compose a functioning entity in one regime and fail to in another, which is exactly what we observe with social institutions, organisms under extreme conditions, and machines that break down. Van Inwagen's question receives a dynamic answer rather than a static one.
 
 ## 9. Objections and Replies
 
