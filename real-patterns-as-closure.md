@@ -34,9 +34,7 @@ It also connects to adjacent emergence and coarse-graining debates, including we
 
 Recent work also develops the cognitive genealogy of real-pattern commitments, linking predictive coding and free-energy minimization to the construction of the manifest image (Gładziejewski 2025). That line helps explain why bounded agents converge on some representational schemes and revise others over time. It therefore strengthens the anti-arbitrariness side of pattern realism. But it does not by itself settle macro-objecthood, because representational success can remain task-relative unless a further test fixes when a candidate grouping is dynamically available in the world. The closure criterion supplies that additional test.
 
-Rosas et al. provide the formal machinery. The argument here uses that machinery to defend an ontological criterion with explicit exclusion conditions for dynamically incoherent partitions. Predictive equivalence alone is not decisive; intervention-class restriction and interventional invariance carry the objecthood claim.
-
-The novel claim is their joint use as a discriminating criterion: closure of macro-transition structure, exact in ideal lumpable settings and graded by leakiness in realistic settings, used to filter gerrymandered partitions from autonomous macro-object candidates.
+Rosas et al. provide the formal diagnostics. The argument here uses that machinery to defend a philosophical contribution: an explicit ontological criterion with exclusion conditions for dynamically incoherent partitions, graded assessment for borderline cases, and application to the question of what counts as a macro-object rather than merely a useful model. Predictive equivalence alone is not decisive; intervention-class restriction and interventional invariance carry the objecthood claim. The novel claim is the joint use of closure and lumpability as a discriminating criterion: exact in ideal settings, graded by leakiness in realistic settings, and used to filter gerrymandered partitions from autonomous macro-object candidates.
 
 In brief: a coarse-graining counts as a real pattern when its macro-transition structure is autonomous for a specified regime and horizon, so that within-class micro-differences do not change what happens next at the macro level. In ideal settings this reduces to strong lumpability. In realistic settings it is a graded condition measured by how much micro-detail still leaks into macro-forecasts. The formal criterion, with precise definitions and commitment structure, is stated at the end of Section 3 once the relevant concepts have been introduced.
 
@@ -52,13 +50,9 @@ Many disputes begin by mixing levels. We need a stable ladder.
 4. **Representations of patterns:** theories, equations, state spaces, verbal models. (The Saffir-Simpson scale; a fluid-dynamics model of vortex formation.)
 5. **Representations of instances:** observations, records, memories of particular tokens. (Satellite imagery of Katrina; a court transcript.)
 
-The same word can refer to different layers. That ambiguity creates pseudo-disputes. A representation may fail while the pattern remains real. A token may be noisy while the type remains stable. A pattern may be real even when no agent currently represents it.
+The same word can refer to different layers, and that ambiguity creates pseudo-disputes. A representation may fail while the pattern remains real. A token may be noisy while the type remains stable. A pattern may be real even when no agent currently represents it. Level 5 is included for auditability: many ontology disputes depend on slippage between claims about an instance and claims about a record of that instance.
 
-The type-token distinction is therefore not optional bookkeeping. Closure is primarily a claim about pattern types in specified regimes, then secondarily about how reliably concrete tokens instantiate those types.
-
-This ladder is used substantively below, especially in the type-token clarifications of Sections 5.1 and 5.4 and in the implementation discussion in Section 10.
-
-Level 5 is included for auditability. Many ontology disputes depend on slippage between claims about an instance and claims about a record of that instance.
+The type-token distinction is not optional bookkeeping. Closure is primarily a claim about pattern types in specified regimes, then secondarily about how reliably concrete tokens instantiate those types. Both distinctions do substantive work below, especially in Sections 5.1, 5.4, and 7.4.
 
 Crucially, implementation and representation must be distinguished. Implementation concerns the physical substrate running the process. Representation concerns the model used to track it. A process can be fully implemented while available representations are partial or mistaken.
 
@@ -114,7 +108,7 @@ In plain terms, if macro-past already carries the information needed for macro-f
 
 In the idealized settings considered here, informational diagnostics can track the same closure structure tested by interventional criteria. Leakiness is an operational indicator of that target, not a separate ontology test layered on top of causal claims (Rosas 2024).
 
-Outside first-order Markov settings, the same logic is expressed over enriched histories. Non-Markov closure asks whether macro-history screens off micro-history for macro-futures under the same admissible intervention class. Strong lumpability is the special case where relevant history reduces to the current state.
+The criterion is closure of macro-transition structure. Nothing in that formulation requires the micro-process to be first-order Markov. When the system has memory, the relevant state includes that memory. An immune system's repertoire of antibodies is part of its current macro-state precisely because it shapes transitions. An economy's path-dependent institutional structure is part of its macro-state for the same reason. In such cases the micro-state $X_t$ is replaced by an enriched state $H_t$ that carries the history needed for prediction at the target horizon, and closure is assessed on $Z_t = g(H_t)$ using the same tests. The enriched state is not a workaround. It is what the state is when the system has memory. Strong lumpability over $H_t$ is then the same test as before; what changes is the complexity of identifying the right state description, which is an estimation problem, not a conceptual one. In practice this can be implemented by finite-lag embeddings, predictive-state representations, or recurrent state summaries, with model selection fixed in advance for the regime. Strong lumpability over the current state is the special case where relevant history reduces to a single time-step.
 
 Informational diagnostics and interventional relevance are used together. Low leakiness is operational evidence for autonomy, and interventional stability gives the ontological interpretation.
 
@@ -369,6 +363,18 @@ Ecosystems push the boundary further. Their macro-variables (species composition
 
 The criterion gives principled gradation rather than all-or-nothing verdicts. Borderline cases should return qualified answers.
 
+### 7.4 Social kinds under the protocol
+
+The criterion does not need modification for social kinds. The same closure test applies. What changes is the intervention class: legal, regulatory, and economic perturbations replace physical ones. But the admissibility constraints still hold. Interventions must be physically implementable through actual enforcement mechanisms, not paper stipulations. That requirement is already in the framework.
+
+**Money.** The macro-state is transactional structure: unit of account, medium of exchange, store of value. The micro-realizations are wildly heterogeneous: coins, paper notes, bank ledger entries, digital balances. Closure holds because the macro-transition structure is autonomous across these realizations. One can intervene on monetary policy at the macro level (interest rate changes, reserve requirements, open market operations) and get stable, predictable responses without tracking which physical tokens carry the value. A dollar spent from a paper bill and a dollar spent from a digital account produce the same macro-transition in the transactional network. Leakiness is low. Money is one of the most robust social macro-objects that exists.
+
+**Corporations.** The macro-state is governance structure, contractual obligations, and asset position. Admissible interventions are regulatory, legal, and financial. Knowing a corporation's institutional state (its legal standing, balance sheet, contractual network) predicts its behavior without tracking individual employees. The macro-transition structure is autonomous: replacing personnel within the same institutional roles does not change the corporation's macro-dynamics in the relevant regime. Closure holds when implementation infrastructure functions: courts enforce contracts, records preserve institutional memory, regulatory bodies maintain oversight. The philosophically interesting case is what happens when that infrastructure degrades, which leads to the next example.
+
+**Failed states.** The structure-implementation-representation distinction drawn in Section 2.1 does its sharpest work here. A state can persist as codified structure (constitutions, statutes, legal codes) and as representation (citizens and foreign governments continue to recognize it) while losing causal efficacy because implementation collapses. Courts stop functioning, enforcement channels break down, records are destroyed or become inaccessible, bureaucratic capacity evaporates. Closure fails not because the rules changed but because the physical infrastructure that enforced screening-off is gone. The macro-state label "functioning state" no longer screens off the micro-details: which warlord controls which territory, which informal network provides which service. Those micro-distinctions now determine macro-futures, and the official macro-partition requires persistent within-class bookkeeping to retain any predictive value.
+
+This is the criterion doing something no other account of social ontology does as cleanly. It explains exactly when and why a social entity stops being a real macro-object without requiring the claim that it was never real, or that it remains real because people believe in it. The pattern's reality is tied to its implementation, and implementation is testable by closure diagnostics in the same way as any other candidate partition.
+
 ## 8. Dennett Revisited
 
 ### 8.1 What Dennett got right
@@ -399,7 +405,7 @@ The revised slogan is straightforward: a real pattern is an autonomous coarse-gr
 
 ### 8.4 A note on composition
 
-The closure criterion also provides a principled answer to Van Inwagen's Special Composition Question: under what conditions do parts compose a whole (Van Inwagen 1990)? On the present framework, parts compose a whole when their collective dynamics achieve closure for some intervention class and regime. This is neither too permissive (arbitrary sums fail the closure test) nor too restrictive (it includes organisms, artifacts, and institutional entities where closure holds in the relevant domain). Van Inwagen's own answer, that composition occurs only when parts constitute a life, appears as a special case: living systems are paradigmatic achievers of closure because natural selection optimizes for boundaries that minimize thermodynamic cost while maintaining functional integrity. But life is sufficient, not necessary, for composition.
+The closure criterion also provides a principled answer to Van Inwagen's Special Composition Question: under what conditions do parts compose a whole (Van Inwagen 1990)? On the present framework, parts compose a whole when their collective dynamics achieve closure for some intervention class and regime. This is neither too permissive (arbitrary sums fail the closure test) nor too restrictive (it includes organisms, artifacts, and institutional entities where closure holds in the relevant domain). Van Inwagen's own answer, that composition occurs only when parts constitute a life, appears as a special case: living systems are paradigmatic achievers of closure because natural selection optimizes for boundaries that minimize thermodynamic cost while maintaining functional integrity. But life is sufficient, not necessary, for composition. The criterion also explains why composition can be temporary and regime-dependent. Parts compose a whole when and where closure holds. The same physical components can compose a functioning entity in one regime and fail to in another, which is exactly what we observe with social institutions, organisms under extreme conditions, and machines that break down. Van Inwagen's question receives a dynamic answer rather than a static one.
 
 ## 9. Objections and Replies
 
@@ -417,6 +423,8 @@ An example of an inadmissible class is direct arbitrary manipulation of distant 
 
 For social kinds, admissibility proceeds through implementation mechanisms. A legal intervention is admissible not because a rule is written, but because enforcement institutions physically constrain behavior through courts, bureaucracies, and sanctions.
 
+A deeper reply is available. On the structural realist metaphysics this paper is committed to, what exists is stable relational and causal structure. Given that commitment, there is no intelligible gap between "tracks causal structure" and "is real." Leakiness measures how much autonomous causal structure a partition actually has. A high-leak partition is not one where we fail to see the real object. It is one where the candidate genuinely lacks transition autonomy. The prediction shortfall is the structural fact. The charge that this is "merely predictive" only lands if one assumes a further layer of intrinsic stuff that causal structure approximates, which is exactly what structural realism denies. At the level of macro-objecthood, stable predictive and interventional structure is the kind of thing reality is.
+
 ### 9.2 Predictive sufficiency does not imply existence
 
 Objection: prediction can work without ontological commitment.
@@ -429,7 +437,7 @@ This also marks distance from eliminativist pressure. Churchland-style arguments
 
 Objection: strong lumpability presupposes Markov microdynamics.
 
-Reply: the Markov template is a clean tractable case. Non-Markov systems can be handled by replacing $X_t$ with an enriched state $H_t$ that contains the history needed for prediction at the target horizon, then rerunning the same closure tests on $Z_t = g(H_t)$. In practice this can be implemented by finite-lag embeddings, predictive-state representations, or recurrent state summaries, with model selection fixed in advance for the regime. The philosophical criterion is closure of transition structure, not commitment to a single stochastic formalism.
+Reply: as developed in Section 3.2, the criterion applies to non-Markov systems by enriching the state to include relevant history. The Markov template is a tractable special case, not a scope limitation. The philosophical criterion is closure of transition structure, not commitment to a single stochastic formalism.
 
 ### 9.4 What about abstract objects?
 
@@ -457,9 +465,7 @@ The gain is twofold. It sharpens Dennett without abandoning his core insight, an
 
 Several disputes become more tractable. Debates about "useful fiction" versus "genuine reality" now have a resolution procedure: test closure under specified conditions. The permissiveness objection gets a direct answer, because gerrymandered composites fail transition autonomy. Instrumentalist drift is constrained by admissibility requirements tied to physical implementability. Borderline cases then receive graded assessments with explicit regime qualifications.
 
-Future work can proceed in three directions: empirical estimation of leakiness in concrete domains, tighter links with Markov-blanket and computational-mechanics formalisms, and disciplined extension to social kinds where implementation and normativity interact under explicit closure conditions. For social kinds, structure, implementation, and representation should be kept distinct. Institutional structure can remain rule-defined while causal power depends on physical implementation through records, personnel, infrastructure, and enforcement. When implementation degrades, closure can fail even if rule-texts remain. A further structural direction is to analyze closure-supporting coarse-grainings in theory space as a nested architecture of macro-models rather than as ad hoc candidates in state space.
-
-A concise illustration is institutional adjudication. The legal structure can remain codified in statutes, and agents can continue to represent that structure, while implementation capacity collapses because courts, archives, and enforcement channels fail. In that case, the pattern may persist as structure and representation but cease to operate as a causally efficacious macro-object in the relevant regime.
+Future work can proceed in three directions: empirical estimation of leakiness in concrete domains, tighter links with Markov-blanket and computational-mechanics formalisms, and further extension of the social-kinds analysis begun in Section 7.4, particularly where implementation and normativity interact under explicit closure conditions. A further structural direction is to analyze closure-supporting coarse-grainings in theory space as a nested architecture of macro-models rather than as ad hoc candidates in state space.
 
 The framework also has a clear failure condition. If proposed macro-partitions systematically fail closure tests across well-specified horizons and intervention classes, then the corresponding objecthood claims should be withdrawn or downgraded.
 
