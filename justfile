@@ -4,18 +4,19 @@
 # This repository's entire tooling surface lives under `scripts/`. To keep those
 # commands discoverable and harden their defaults, every workflow is exposed as a
 # Just recipe. Key ideas:
-#    Run `just help` for a narrative overview or `just --list` to see every
+#    Run `just help` for a narrative overview or `just --list` to see every
 #     recipe and its parameters. Each recipe mirrors the original CLAUDE.md docs.
-#    All commands execute from the repo root, so relative paths (e.g. `paper.md`,
+#    All commands execute from the repo root, so relative paths (e.g. `paper.md`,
 #     `references.md`, `releases/final.pdf`) match the scripts' expectations.
-#    Python, Bun, and PowerShell wrappers are configurable via the variables
+#    Python, Bun, and PowerShell wrappers are configurable via the variables
 #     below if you need virtual environments or non-default runtimes.
-#    Recipes are composable: e.g., `just citations files='final.md proc_v7.md'`
+#    Recipes are composable: e.g., `just citations files='final.md proc_v7.md'`
 #     pipes straight into `scripts/citation_extractor.py` with the right flags,
 #     while `just release-final` wraps the full release pipeline with safe
 #     defaults.
-#    Use long-form arguments (e.g., `format=typst dry_run=true`) so commands are
-#     self-documenting in commit logs.
+#    The `release` recipe uses [arg] attributes for named options:
+#       just release paper.md --format typst --output releases/final.pdf
+#    Other recipes use positional parameters with defaults.
 # When in doubt, inspect the recipe you are about to run; each block explains the
 # relevant options with inline comments.
 #
@@ -36,8 +37,8 @@ help:
 	Write-Host "Emergent Pragmatic Coherentism - Script Runner"
 	Write-Host "================================================"
 	Write-Host "Use 'just --list' to see every recipe or call a command directly, e.g.:"
+	Write-Host "  just release paper.md --format typst --output releases/final.pdf"
 	Write-Host "  just citations files='final.md paper.md'"
-	Write-Host "  just release paper.md format=typst output='releases/final.pdf'"
 	Write-Host "  just verify-refs dry_run=true skip_claude=true"
 	Write-Host ""
 	Write-Host "All recipes execute from the repository root and mirror the behaviors"
@@ -146,23 +147,26 @@ pdf-assemble main output='' front='' end='' keep_temp='false':
 	& {{python}} scripts/pdf_assembler.py @cmd_args
 
 # Full release pipeline with pandoc + Typst/LaTeX conversion.
-# Arguments:
-#   file        (required) Markdown manuscript.
-#   format      typst|latex (overrides config).
-#   config      Optional JSON/YAML config.
-#   output      Target PDF path.
-#   strategy    filter|merge|keep citation strategy.
-#   dry_run     true/false preview.
-#   verbose     true/false verbose logging.
-#   keep_temp   true/false to keep intermediates.
+# Usage:
+#   just release paper.md --format typst --output releases/final.pdf
+#   just release paper.md --format typst --output releases/final.pdf --dry-run
+#
+# The file argument is positional. All other arguments use --flag syntax.
 
-release file format='' config='' output='' strategy='' dry_run='false' verbose='false' keep_temp='false':
+[arg("format", long="format", help="typst or latex")]
+[arg("config", long="config", help="Optional JSON/YAML config")]
+[arg("output", long="output", help="Target PDF path")]
+[arg("strategy", long="strategy", help="filter|merge|keep citation strategy")]
+[arg("dry_run", long="dry-run", value="true", help="Preview mode")]
+[arg("verbose", long="verbose", value="true", help="Verbose logging")]
+[arg("keep_temp", long="keep-temp", value="true", help="Keep intermediates")]
+release file='' format='' config='' output='' strategy='' dry_run='false' verbose='false' keep_temp='false':
 	@$cmd_args = @(); if ("{{file}}") { $cmd_args += "{{file}}" }; if ("{{config}}") { $cmd_args += @("--config", "{{config}}") }; if ("{{format}}") { $cmd_args += @("--format", "{{format}}") }; if ("{{output}}") { $cmd_args += @("--output", "{{output}}") }; if ("{{strategy}}") { $cmd_args += @("--citation-strategy", "{{strategy}}") }; if ("{{dry_run}}" -eq "true") { $cmd_args += "--dry-run" }; if ("{{verbose}}" -eq "true") { $cmd_args += "--verbose" }; if ("{{keep_temp}}" -eq "true") { $cmd_args += "--keep-temp" }; & {{python}} scripts/release.py @cmd_args
 
 # Convenience target for releasing the main paper via Typst into releases/final.pdf.
 
 release-final file='paper.md':
-	just release "{{file}}" format=typst output="releases/final.pdf"
+	@& {{python}} scripts/release.py "{{file}}" --format typst --output "releases/final.pdf"
 
 # ---------------------------------------------------------------------------
 # Cleanup & project hygiene
