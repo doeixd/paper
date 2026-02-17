@@ -1,0 +1,100 @@
+{
+  "key": "isbn-9780387901923",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL3174668M/Finite_Markov_chains",
+      "key": "/books/OL3174668M",
+      "title": "Finite Markov chains",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL1151205A/John_G._Kemeny",
+          "name": "John G. Kemeny"
+        }
+      ],
+      "number_of_pages": 224,
+      "pagination": "xi, 224 p. :",
+      "by_statement": "John G. Kemeny, J. Laurie Snell ; with a new appendix \"Generalization of a fundamental matrix.\"",
+      "identifiers": {
+        "goodreads": [
+          "1663010"
+        ],
+        "librarything": [
+          "1025474"
+        ],
+        "isbn_10": [
+          "0387901922"
+        ],
+        "lccn": [
+          "83017031",
+          "76011776"
+        ],
+        "oclc": [
+          "2352872"
+        ],
+        "openlibrary": [
+          "OL3174668M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "QA274.7 .K45 1983",
+          "QA274.7 .K45 1976b",
+          "QA1-939"
+        ],
+        "dewey_decimal_class": [
+          "519.2/33"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Springer-Verlag"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "New York"
+        }
+      ],
+      "publish_date": "1983",
+      "subjects": [
+        {
+          "name": "Markov processes",
+          "url": "https://openlibrary.org/subjects/markov_processes"
+        },
+        {
+          "name": "Probabilities",
+          "url": "https://openlibrary.org/subjects/probabilities"
+        },
+        {
+          "name": "Markov-processen",
+          "url": "https://openlibrary.org/subjects/markov-processen"
+        },
+        {
+          "name": "Probability",
+          "url": "https://openlibrary.org/subjects/probability"
+        },
+        {
+          "name": "Processus de Markov",
+          "url": "https://openlibrary.org/subjects/processus_de_markov"
+        }
+      ],
+      "notes": "Bibliography: p. 224.\nOriginally published: Princeton, N.J. : Van Nostrand, 1960.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/finitemarkovchai00keme",
+          "availability": "noview",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/245189-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/245189-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/245189-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780387901923"
+  },
+  "timestamp": 1771349683600,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

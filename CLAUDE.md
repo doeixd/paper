@@ -40,6 +40,9 @@ You are helping write a HIGH-QUALITY ACADEMIC PHILOSOPHY PAPER for peer review p
 
 Be careful to always maintain existing qualifications / defenses, important details, and citations, when revising.
 
+## Defensibility and Clarity Principles:
+These papers will face skeptical peer reviewers. The goal is not to sound impressive but to be logically airtight. A paper succeeds when a hostile reader cannot find an unguarded claim, a missing premise, or a silent overreach. Clarity *is* the defense: if the logical chain is explicit and the scope is honestly stated, most objections answer themselves. Qualifications and regime-indexing are load-bearing precision, not hedging. They make claims harder to attack. The most common failure mode in revision is small wording changes that silently drop a qualification, weaken a caveat, or shift a conditional claim to an unconditional one. Guard against that drift. Reviewers come with priors and will pattern-match the paper to positions they already know (instrumentalism, generic autonomy claims, scientism, etc.). Anticipate those misreadings and head them off explicitly. If a sentence could be read as a familiar position the paper does not hold, clarify the difference right there rather than hoping the reader will figure it out from context.
+
 ## Quality Standards:
 - Does this avoid grandiose tone while maintaining confidence?
 - Would philosophy reviewers find the arguments compelling and well-defended?
@@ -77,7 +80,18 @@ See `STYLE_GUIDE.md` for comprehensive editorial guidelines including:
 
 After every large edit. write a summary of the changes, and explanation behind it. etc in a document in the edits/ directory, and preface the file name with the date YYYY-MM-DD - HH-MM - SUMMARY OF Edits Title
 
-the paper is in paper.md
+For the Synthese submission track of `real-patterns-need-closure`, the primary submission source is the LaTeX version, not `paper.md`.
+
+Primary files for this track:
+- Main body source: `latex/real-patterns-need-closure-SYNTHESE-mainbody.tex`
+- Springer wrapper (local build file): `latex/springer-sn-template/sn-article-template/real-patterns-need-closure-SYNTHESE-sn.tex`
+- Inlined blinded submission source (no `\input`; upload this): `latex/springer-sn-template/sn-article-template/real-patterns-need-closure-SYNTHESE-sn-submission.tex`
+- Bibliography database: `latex/springer-sn-template/sn-article-template/real-patterns-need-closure-SYNTHESE.bib`
+- BibTeX style used for this template: `latex/springer-sn-template/sn-article-template/sn-basic.bst`
+- Separate non-blinded title page metadata file: `latex/springer-sn-template/sn-article-template/title-page.tex`
+
+Legacy file note:
+- `latex/real-patterns-need-closure-SYNTHESE-body.tex` is a stale intermediate export and should not be used for submission or new edits unless explicitly requested.
 
 Use good judgement when integrating specific suggestions. make sure they align with our preferences, and make sense in the paper.
 
@@ -138,12 +152,18 @@ Relation: This is a domain-specific application of the general theory found in f
 ## Project Layout Notes
 
 - `final.md`, `from-beliefs-to-truth.md`, `proc_v7.md`, `The Reality of Wholes.md`, etc., are the current EPC manuscripts. **Ignore `paper.md`; it is an outdated draft kept only for reference.**
-- `real-patterns-as-closure.md` is the active standalone submission draft on closure/lumpability (current title may change). Keep its scope tight: induced closure in spatiotemporal systems, with social-kinds material framed as bounded extension work.
+- For the current Synthese workflow for `real-patterns-need-closure`, treat `latex/real-patterns-need-closure-SYNTHESE-mainbody.tex` as the primary prose source.
+- Build and submission files for that paper are under `latex/springer-sn-template/sn-article-template/`.
+- `real-patterns-as-closure.md` draft on closure/lumpabilty
 - For `real-patterns-as-closure.md`, release via `python scripts/release.py real-patterns-as-closure.md --format typst --output releases/real-patterns-as-closure.pdf`. Citation parser is sensitive to grouped parentheticals, so prefer parser-safe author-year citations in separate parentheses when needed.
 - `references.md` stores the Chicago-style bibliography. Append new citations alphabetically and mirror existing formatting exactly.
 - `edits/` houses mandatory timestamped summaries (`YYYY-MM-DD - HH-MM - SUMMARY ...`) after substantial work. 
 - `sources/`, `random/`, `physics/`, `old/`, and `backups/` contain supporting material or archives. Treat them as read-only unless the user explicitly instructs otherwise. You can search them for background info or keywords if you need to. Just make sure to verify the information is correct/up-to-date before using it.
 - `scripts/` and the root `justfile` mediate automation (release prep, citation checks, appendices). Run `just --list` before inventing bespoke tooling. Read the justfile for more info.
+- For Synthese Springer LaTeX builds on this machine, prefer: `"C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\miktex\bin\x64\pdflatex.exe" -interaction=nonstopmode -halt-on-error real-patterns-need-closure-SYNTHESE-sn.tex` (from `latex/springer-sn-template/sn-article-template`). The default `miktex` on `PATH` can fail with format/package inconsistencies.
+- BibTeX workflow for the Synthese files: run `pdflatex -> bibtex -> pdflatex -> pdflatex` in `latex/springer-sn-template/sn-article-template`.
+- Keep the manuscript double-anonymized. Put identifying metadata, acknowledgements, funding, and declarations on the separate `title-page.tex` for submission metadata.
+- For blinded upload, use `real-patterns-need-closure-SYNTHESE-sn-submission.tex` plus required supporting source files (`.bib`, `.cls`, `.bst`) and its compiled PDF.
 - `releases/` captures deliverables; `backups/` mirrors snapshots. Do not hand-edit files there.
 - `CLAUDE.md` mirrors `AGENTS.md`. Keep any structural instructions consistent between them when possible.
 

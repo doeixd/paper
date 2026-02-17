@@ -6,11 +6,12 @@
         [
           2026,
           1,
-          6
+          17
         ]
       ],
-      "date-time": "2026-01-06T13:24:42Z",
-      "timestamp": 1767705882518
+      "date-time": "2026-01-17T07:56:37Z",
+      "timestamp": 1768636597611,
+      "version": "3.49.0"
     },
     "reference-count": 0,
     "publisher": "JSTOR",
@@ -45,7 +46,7 @@
     },
     "page": "1",
     "source": "Crossref",
-    "is-referenced-by-count": 108,
+    "is-referenced-by-count": 109,
     "title": [
       "Realism, Underdetermination, and a Causal Theory of Evidence"
     ],
@@ -124,7 +125,7 @@
       ]
     }
   },
-  "timestamp": 1767731057396,
+  "timestamp": 1771266768544,
   "ttl": 2592000000,
   "source": "crossref"
 }

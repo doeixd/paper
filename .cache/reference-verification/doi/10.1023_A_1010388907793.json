@@ -4,14 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          18
+          2026,
+          1,
+          22
         ]
       ],
-      "date-time": "2025-12-18T08:47:56Z",
-      "timestamp": 1766047676196,
-      "version": "3.41.0"
+      "date-time": "2026-01-22T16:52:53Z",
+      "timestamp": 1769100773952,
+      "version": "3.49.0"
     },
     "reference-count": 140,
     "publisher": "Springer Science and Business Media LLC",
@@ -80,7 +80,7 @@
     },
     "page": "817-879",
     "source": "Crossref",
-    "is-referenced-by-count": 320,
+    "is-referenced-by-count": 322,
     "title": [
       "Computational Mechanics: Pattern and Prediction, Structure and Simplicity"
     ],
@@ -1378,12 +1378,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0022-4715"
+        "value": "0022-4715",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1572-9613"
+        "value": "1572-9613",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -1396,7 +1396,7 @@
       ]
     }
   },
-  "timestamp": 1767726691556,
+  "timestamp": 1771267108987,
   "ttl": 2592000000,
   "source": "crossref"
 }

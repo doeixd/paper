@@ -5,13 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          2
+          2,
+          8
         ]
       ],
-      "date-time": "2026-01-02T07:09:22Z",
-      "timestamp": 1767337762435,
-      "version": "3.44.0"
+      "date-time": "2026-02-08T13:14:38Z",
+      "timestamp": 1770556478144,
+      "version": "3.49.0"
     },
     "reference-count": 55,
     "publisher": "OpenEdition",
@@ -37,7 +37,7 @@
       "timestamp": 1600604274000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 7,
+    "is-referenced-by-count": 8,
     "title": [
       "Introduction to Pragmatism and Theories of Emergence"
     ],
@@ -396,8 +396,8 @@
     ],
     "issn-type": [
       {
-        "type": "electronic",
-        "value": "2036-4091"
+        "value": "2036-4091",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -411,7 +411,7 @@
       ]
     }
   },
-  "timestamp": 1767725910573,
+  "timestamp": 1771266718582,
   "ttl": 2592000000,
   "source": "crossref"
 }

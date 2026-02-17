@@ -1,0 +1,89 @@
+{
+  "key": "isbn-9780674198234",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL22453591M/Derrida",
+      "key": "/books/OL22453591M",
+      "title": "Derrida",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL5134406A/Christopher_Norris",
+          "name": "Christopher Norris"
+        }
+      ],
+      "number_of_pages": 271,
+      "pagination": "271 p. ;",
+      "by_statement": "Christopher Norris.",
+      "identifiers": {
+        "librarything": [
+          "57740"
+        ],
+        "goodreads": [
+          "385719"
+        ],
+        "isbn_10": [
+          "0674198247",
+          "0674198239"
+        ],
+        "lccn": [
+          "87022922"
+        ],
+        "oclc": [
+          "16753632"
+        ],
+        "openlibrary": [
+          "OL22453591M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "B2430.D484 N66 1987",
+          "B2430.D484N66 1987"
+        ],
+        "dewey_decimal_class": [
+          "194"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "Harvard University Press"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Cambridge, Mass"
+        }
+      ],
+      "publish_date": "1987",
+      "subjects": [
+        {
+          "name": "Derrida, jacques, 1930-2004",
+          "url": "https://openlibrary.org/subjects/derrida,_jacques,_1930-2004"
+        }
+      ],
+      "subject_people": [
+        {
+          "name": "Jacques Derrida (1930-2004)",
+          "url": "https://openlibrary.org/subjects/person:jacques_derrida_(1930-2004)"
+        }
+      ],
+      "notes": "Includes index.\r\n\r\nBibliography: p. 257-263.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/derrida0000norr",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/4652390-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/4652390-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/4652390-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780674198234"
+  },
+  "timestamp": 1771266979292,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

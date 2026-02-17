@@ -4,14 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          26
+          2026,
+          1,
+          9
         ]
       ],
-      "date-time": "2025-12-26T16:51:26Z",
-      "timestamp": 1766767886627,
-      "version": "3.44.0"
+      "date-time": "2026-01-09T13:03:08Z",
+      "timestamp": 1767963788390,
+      "version": "3.49.0"
     },
     "reference-count": 79,
     "publisher": "Elsevier BV",
@@ -317,10 +317,10 @@
         "journal-title": "Philos. Predict. Coding"
       },
       {
-        "year": "2009",
+        "key": "10.1016/j.jtbi.2019.110089_bib0018",
         "series-title": "Supersizing the Mind: Embodiment, Action, and Cognitive Extension",
         "author": "Clark",
-        "key": "10.1016/j.jtbi.2019.110089_bib0018"
+        "year": "2009"
       },
       {
         "key": "10.1016/j.jtbi.2019.110089_bib0019",
@@ -387,10 +387,10 @@
         "journal-title": "Adv. Phys."
       },
       {
-        "year": "2002",
+        "key": "10.1016/j.jtbi.2019.110089_bib0025",
         "series-title": "Phase Transitions, Scale Invariance, Renormalization Group Theory, and Percolation, Statistica",
         "author": "Shwabl",
-        "key": "10.1016/j.jtbi.2019.110089_bib0025"
+        "year": "2002"
       },
       {
         "key": "10.1016/j.jtbi.2019.110089_bib0026",
@@ -550,10 +550,10 @@
         "year": "2016"
       },
       {
-        "year": "1978",
+        "key": "10.1016/j.jtbi.2019.110089_bib0042",
         "series-title": "Synergetics: An Introduction",
         "author": "Haken",
-        "key": "10.1016/j.jtbi.2019.110089_bib0042"
+        "year": "1978"
       },
       {
         "key": "10.1016/j.jtbi.2019.110089_bib0043",
@@ -602,16 +602,16 @@
         "journal-title": "PLoS One."
       },
       {
-        "year": "1995",
+        "key": "10.1016/j.jtbi.2019.110089_bib0048",
         "series-title": "At Home in the Universe: The Search for the Laws of Self-Organization and Complexity",
         "author": "Kauffman",
-        "key": "10.1016/j.jtbi.2019.110089_bib0048"
+        "year": "1995"
       },
       {
-        "year": "1993",
+        "key": "10.1016/j.jtbi.2019.110089_bib0049",
         "series-title": "The Origins of Order",
         "author": "Kauffman",
-        "key": "10.1016/j.jtbi.2019.110089_bib0049"
+        "year": "1993"
       },
       {
         "key": "10.1016/j.jtbi.2019.110089_bib0050",
@@ -656,10 +656,10 @@
         "journal-title": "PLoS Comput. Biol."
       },
       {
-        "year": "2003",
+        "key": "10.1016/j.jtbi.2019.110089_bib0055",
         "series-title": "Information Theory, Inference and Learning Algorithms",
         "author": "MacKay",
-        "key": "10.1016/j.jtbi.2019.110089_bib0055"
+        "year": "2003"
       },
       {
         "key": "10.1016/j.jtbi.2019.110089_bib0056",
@@ -682,10 +682,10 @@
         "journal-title": "Cell Commun. Signal"
       },
       {
+        "key": "10.1016/j.jtbi.2019.110089_bib0058",
         "volume": "491",
-        "year": "1977",
         "author": "Nicolis",
-        "key": "10.1016/j.jtbi.2019.110089_bib0058"
+        "year": "1977"
       },
       {
         "key": "10.1016/j.jtbi.2019.110089_bib0059",
@@ -697,10 +697,10 @@
         "journal-title": "Nat. Phys."
       },
       {
-        "year": "1988",
+        "key": "10.1016/j.jtbi.2019.110089_bib0060",
         "series-title": "Probabilistic Reasoning in Intelligent Systems",
         "author": "Pearl",
-        "key": "10.1016/j.jtbi.2019.110089_bib0060"
+        "year": "1988"
       },
       {
         "key": "10.1016/j.jtbi.2019.110089_bib0061",
@@ -752,10 +752,10 @@
         "DOI": "10.3390/e21121211"
       },
       {
-        "year": "1944",
+        "key": "10.1016/j.jtbi.2019.110089_bib0067",
         "series-title": "What is Life? The Pysical Aspect of the Living Cell",
         "author": "Schrödinger",
-        "key": "10.1016/j.jtbi.2019.110089_bib0067"
+        "year": "1944"
       },
       {
         "key": "10.1016/j.jtbi.2019.110089_bib0068",
@@ -828,10 +828,10 @@
         "journal-title": "Phys. Rev. E."
       },
       {
-        "year": "2011",
+        "key": "10.1016/j.jtbi.2019.110089_bib0075",
         "series-title": "Thermodynamics and the Structure of Living Systems",
         "author": "Virgo",
-        "key": "10.1016/j.jtbi.2019.110089_bib0075"
+        "year": "2011"
       },
       {
         "key": "10.1016/j.jtbi.2019.110089_bib0076",
@@ -926,8 +926,8 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0022-5193"
+        "value": "0022-5193",
+        "type": "print"
       }
     ],
     "subject": [],
@@ -973,7 +973,7 @@
     ],
     "article-number": "110089"
   },
-  "timestamp": 1767726673525,
+  "timestamp": 1771267091508,
   "ttl": 2592000000,
   "source": "crossref"
 }

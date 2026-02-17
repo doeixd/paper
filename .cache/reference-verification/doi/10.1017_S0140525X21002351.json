@@ -5,13 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          5
+          2,
+          12
         ]
       ],
-      "date-time": "2026-01-05T22:30:46Z",
-      "timestamp": 1767652246358,
-      "version": "3.37.3"
+      "date-time": "2026-02-12T14:03:32Z",
+      "timestamp": 1770905012701,
+      "version": "3.50.1"
     },
     "reference-count": 149,
     "publisher": "Cambridge University Press (CUP)",
@@ -101,7 +101,7 @@
     },
     "update-policy": "https://doi.org/10.1017/policypage",
     "source": "Crossref",
-    "is-referenced-by-count": 65,
+    "is-referenced-by-count": 67,
     "title": [
       "The Emperor's New Markov Blankets"
     ],
@@ -173,10 +173,10 @@
         "DOI": "10.31234/osf.io/d9v8f"
       },
       {
+        "key": "S0140525X21002351_ref113",
         "volume-title": "Probabilistic reasoning in intelligent systems: Networks of plausible inference",
-        "year": "1988",
         "author": "Pearl",
-        "key": "S0140525X21002351_ref113"
+        "year": "1988"
       },
       {
         "key": "S0140525X21002351_ref143",
@@ -291,10 +291,10 @@
         "DOI": "10.1162/netn_a_00175"
       },
       {
+        "key": "S0140525X21002351_ref104",
         "volume-title": "Machine learning: A probabilistic perspective",
-        "year": "2012",
         "author": "Murphy",
-        "key": "S0140525X21002351_ref104"
+        "year": "2012"
       },
       {
         "key": "S0140525X21002351_ref123",
@@ -402,10 +402,10 @@
         "DOI": "10.3390/su13020726"
       },
       {
+        "key": "S0140525X21002351_ref18",
         "volume-title": "Pattern recognition and machine learning",
-        "year": "2006",
         "author": "Bishop",
-        "key": "S0140525X21002351_ref18"
+        "year": "2006"
       },
       {
         "key": "S0140525X21002351_ref122",
@@ -418,10 +418,10 @@
         "DOI": "10.1098/rsif.2020.0370"
       },
       {
+        "key": "S0140525X21002351_ref25",
         "volume-title": "The Stanford encyclopedia of philosophy (summer 2017 edition)",
-        "year": "2017",
         "author": "Chakravartty",
-        "key": "S0140525X21002351_ref25"
+        "year": "2017"
       },
       {
         "key": "S0140525X21002351_ref131",
@@ -453,10 +453,10 @@
         "DOI": "10.1017/S0140525X19002723"
       },
       {
+        "key": "S0140525X21002351_ref108",
         "volume-title": "Statistical field theory",
-        "year": "1988",
         "author": "Parisi",
-        "key": "S0140525X21002351_ref108"
+        "year": "1988"
       },
       {
         "key": "S0140525X21002351_ref142",
@@ -501,10 +501,10 @@
         "journal-title": "arXiv preprint arXiv"
       },
       {
+        "key": "S0140525X21002351_ref100",
         "volume-title": "Information theory, inference and learning algorithms",
-        "year": "2003",
         "author": "MacKay",
-        "key": "S0140525X21002351_ref100"
+        "year": "2003"
       },
       {
         "key": "S0140525X21002351_ref148",
@@ -746,10 +746,10 @@
         "DOI": "10.1098/rsif.2013.0475"
       },
       {
+        "key": "S0140525X21002351_ref28",
         "volume-title": "Surfing uncertainty: Prediction, action, and the embodied mind",
-        "year": "2015a",
         "author": "Clark",
-        "key": "S0140525X21002351_ref28"
+        "year": "2015a"
       },
       {
         "key": "S0140525X21002351_ref10",
@@ -784,10 +784,10 @@
         "journal-title": "Bulletin of the Astronomical Society"
       },
       {
+        "key": "S0140525X21002351_ref101",
         "volume-title": "Autopoiesis and cognition: The realization of the living",
-        "year": "1972",
         "author": "Maturana",
-        "key": "S0140525X21002351_ref101"
+        "year": "1972"
       },
       {
         "key": "S0140525X21002351_ref121",
@@ -810,10 +810,10 @@
         "DOI": "10.1016/j.jmp.2020.102447"
       },
       {
+        "key": "S0140525X21002351_ref115",
         "volume-title": "Statistical parametric mapping: The analysis of functional brain images",
-        "year": "2011",
         "author": "Penny",
-        "key": "S0140525X21002351_ref115"
+        "year": "2011"
       },
       {
         "key": "S0140525X21002351_ref70",
@@ -911,10 +911,10 @@
         "DOI": "10.1162/neco.2008.08-07-592"
       },
       {
+        "key": "S0140525X21002351_ref147",
         "volume-title": "Making things happen",
-        "year": "2003",
         "author": "Woodward",
-        "key": "S0140525X21002351_ref147"
+        "year": "2003"
       },
       {
         "key": "S0140525X21002351_ref17",
@@ -1018,12 +1018,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0140-525X"
+        "value": "0140-525X",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1469-1825"
+        "value": "1469-1825",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -1049,7 +1049,7 @@
     ],
     "article-number": "e183"
   },
-  "timestamp": 1767726235307,
+  "timestamp": 1771266776088,
   "ttl": 2592000000,
   "source": "crossref"
 }

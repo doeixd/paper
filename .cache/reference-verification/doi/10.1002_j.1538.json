@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          16
         ]
       ],
-      "date-time": "2026-01-06T15:24:11Z",
-      "timestamp": 1767713051372
+      "date-time": "2026-02-16T10:25:43Z",
+      "timestamp": 1771237543547,
+      "version": "3.50.1"
     },
     "reference-count": 0,
     "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
@@ -43,7 +44,7 @@
     },
     "page": "379-423",
     "source": "Crossref",
-    "is-referenced-by-count": 49241,
+    "is-referenced-by-count": 49905,
     "title": [
       "A Mathematical Theory of Communication"
     ],
@@ -118,8 +119,8 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0005-8580"
+        "value": "0005-8580",
+        "type": "print"
       }
     ],
     "subject": [],
@@ -132,7 +133,7 @@
       ]
     }
   },
-  "timestamp": 1767726691779,
+  "timestamp": 1771267109174,
   "ttl": 2592000000,
   "source": "crossref"
 }

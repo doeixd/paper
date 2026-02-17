@@ -4,13 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          18
+          2026,
+          2,
+          8
         ]
       ],
-      "date-time": "2025-12-18T19:46:05Z",
-      "timestamp": 1766087165150
+      "date-time": "2026-02-08T23:14:32Z",
+      "timestamp": 1770592472746,
+      "version": "3.49.0"
     },
     "reference-count": 26,
     "publisher": "Cambridge University Press (CUP)",
@@ -64,7 +65,7 @@
     },
     "page": "234-252",
     "source": "Crossref",
-    "is-referenced-by-count": 80,
+    "is-referenced-by-count": 81,
     "title": [
       "In Epistemic Networks, Is Less Really More?"
     ],
@@ -325,7 +326,7 @@
       ]
     }
   },
-  "timestamp": 1767726688559,
+  "timestamp": 1771267106050,
   "ttl": 2592000000,
   "source": "crossref"
 }

@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          7
         ]
       ],
-      "date-time": "2026-01-06T05:28:35Z",
-      "timestamp": 1767677315538
+      "date-time": "2026-02-07T03:03:46Z",
+      "timestamp": 1770433426795,
+      "version": "3.49.0"
     },
     "reference-count": 37,
     "publisher": "Springer Science and Business Media LLC",
@@ -63,7 +64,7 @@
     },
     "page": "17-35",
     "source": "Crossref",
-    "is-referenced-by-count": 254,
+    "is-referenced-by-count": 255,
     "title": [
       "The Epistemic Benefit of Transient Diversity"
     ],
@@ -501,7 +502,7 @@
       ]
     }
   },
-  "timestamp": 1767726723711,
+  "timestamp": 1771267141862,
   "ttl": 2592000000,
   "source": "crossref"
 }

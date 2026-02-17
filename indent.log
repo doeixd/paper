@@ -1,0 +1,37 @@
+INFO:  latexindent.pl version 3.24.7, 2025-08-15, a script to indent .tex files
+       latexindent.pl lives here: C:/Users/Patrick/scoop/apps/miktex/current/texmfs/install/scripts/latexindent/
+       Tue Feb 17 09:29:01 2026
+       Filename: C:\Users\Patrick\paper\real-patterns-need-closure-SYNTHESE-titlepage.tex
+INFO:  Processing switches:
+       -s|--silent: Silent mode active (you have used either -s or --silent)
+       -w|--overwrite: Overwrite mode active, will make a back up before overwriting
+INFO:  Directory for backup files and log file indent.log:
+       C:\Users\Patrick\paper
+INFO:  Perl modules are being loaded from the following directories:
+       C:/Users/Patrick/scoop/apps/perl/current/perl/lib/FindBin.pm
+       C:/Users/Patrick/scoop/apps/perl/current/perl/vendor/lib/YAML/Tiny.pm
+       C:/Users/Patrick/scoop/apps/perl/current/perl/lib/File/Copy.pm
+       C:/Users/Patrick/scoop/apps/perl/current/perl/lib/File/Basename.pm
+       C:/Users/Patrick/scoop/apps/perl/current/perl/lib/Getopt/Long.pm
+       C:/Users/Patrick/scoop/apps/perl/current/perl/vendor/lib/File/HomeDir.pm
+INFO:  LatexIndent perl modules are being loaded from, for example:
+       C:/Users/Patrick/scoop/apps/miktex/current/texmfs/install/scripts/latexindent/LatexIndent/Document.pm
+INFO:  YAML settings read: defaultSettings.yaml
+       Reading defaultSettings.yaml from C:/Users/Patrick/scoop/apps/miktex/current/texmfs/install/scripts/latexindent/defaultSettings.yaml
+INFO:  YAML reading settings
+       Home directory is C:\Users\Patrick
+       latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
+       see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
+INFO:  Backup procedure (-w flag active):
+       C:\Users\Patrick\paper\real-patterns-need-closure-SYNTHESE-titlepage.bak0 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       Backing up C:\Users\Patrick\paper\real-patterns-need-closure-SYNTHESE-titlepage.tex to C:\Users\Patrick\paper\real-patterns-need-closure-SYNTHESE-titlepage.bak1...
+       C:\Users\Patrick\paper\real-patterns-need-closure-SYNTHESE-titlepage.tex will be overwritten after indentation
+INFO:  Phase 1: searching for objects
+INFO:  Phase 2: finding surrounding indentation
+INFO:  Phase 3: indenting objects
+INFO:  Phase 4: final indentation check
+INFO:  Output routine:
+       Overwriting file C:\Users\Patrick\paper\real-patterns-need-closure-SYNTHESE-titlepage.tex
+       --------------
+INFO:  Please direct all communication/issues to:
+        https://github.com/cmhughes/latexindent.pl

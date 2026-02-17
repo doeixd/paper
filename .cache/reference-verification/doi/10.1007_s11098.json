@@ -4,13 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          31
+          2026,
+          2,
+          10
         ]
       ],
-      "date-time": "2025-12-31T20:04:16Z",
-      "timestamp": 1767211456958
+      "date-time": "2026-02-10T19:50:50Z",
+      "timestamp": 1770753050159,
+      "version": "3.50.0"
     },
     "reference-count": 37,
     "publisher": "Springer Science and Business Media LLC",
@@ -63,7 +64,7 @@
     },
     "page": "109-166",
     "source": "Crossref",
-    "is-referenced-by-count": 495,
+    "is-referenced-by-count": 499,
     "title": [
       "A Darwinian Dilemma for Realist Theories of Value"
     ],
@@ -463,7 +464,7 @@
       ]
     }
   },
-  "timestamp": 1767726695505,
+  "timestamp": 1771267119190,
   "ttl": 2592000000,
   "source": "crossref"
 }

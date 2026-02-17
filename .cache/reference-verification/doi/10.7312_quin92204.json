@@ -5,19 +5,20 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          7
         ]
       ],
-      "date-time": "2026-01-06T13:57:28Z",
-      "timestamp": 1767707848620
+      "date-time": "2026-02-07T09:07:46Z",
+      "timestamp": 1770455266863,
+      "version": "3.49.0"
     },
     "reference-count": 0,
     "publisher": "Columbia University Press",
     "isbn-type": [
       {
-        "type": "electronic",
-        "value": "9780231887540"
+        "value": "9780231887540",
+        "type": "electronic"
       }
     ],
     "content-domain": {
@@ -49,7 +50,7 @@
     },
     "page": "69-90",
     "source": "Crossref",
-    "is-referenced-by-count": 509,
+    "is-referenced-by-count": 511,
     "title": [
       "3. Epistemology Naturalized"
     ],
@@ -128,7 +129,7 @@
       ]
     }
   },
-  "timestamp": 1767726684328,
+  "timestamp": 1771267102379,
   "ttl": 2592000000,
   "source": "crossref"
 }

@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          5
+          2,
+          13
         ]
       ],
-      "date-time": "2026-01-05T22:28:03Z",
-      "timestamp": 1767652083453
+      "date-time": "2026-02-13T12:29:28Z",
+      "timestamp": 1770985768226,
+      "version": "3.50.1"
     },
     "edition-number": "1",
     "reference-count": 0,
@@ -63,7 +64,7 @@
     },
     "abstract": "<jats:p>Advances in qualitative methods and recent developments in the philosophy of science have led to an emphasis on explanation via reference to causal mechanisms. This book argues that the method known as process tracing is particularly well suited to developing and assessing theories about such mechanisms. The editors begin by establishing a philosophical basis for process tracing - one that captures mainstream uses while simultaneously being open to applications by interpretive scholars. Equally important, they go on to establish best practices for individual process-tracing accounts - how micro to go, when to start (and stop), and how to deal with the problem of equifinality. The contributors then explore the application of process tracing across a range of subfields and theories in political science. This is an applied methods book which seeks to shrink the gap between the broad assertion that 'process tracing is good' and the precise claim 'this is an instance of good process tracing'.</jats:p>",
     "DOI": "10.1017/cbo9781139858472",
-    "type": "book",
+    "type": "edited-book",
     "created": {
       "date-parts": [
         [
@@ -76,7 +77,7 @@
       "timestamp": 1415777729000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 317,
+    "is-referenced-by-count": 322,
     "title": [
       "Process Tracing"
     ],
@@ -156,7 +157,7 @@
       ]
     }
   },
-  "timestamp": 1767725912730,
+  "timestamp": 1771266724827,
   "ttl": 2592000000,
   "source": "crossref"
 }

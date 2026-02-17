@@ -4,13 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          31
+          2026,
+          1,
+          8
         ]
       ],
-      "date-time": "2025-12-31T20:04:33Z",
-      "timestamp": 1767211473188
+      "date-time": "2026-01-08T02:18:09Z",
+      "timestamp": 1767838689302,
+      "version": "3.49.0"
     },
     "reference-count": 0,
     "publisher": "Oxford University Press (OUP)",
@@ -46,7 +47,7 @@
     },
     "page": "1543-1552",
     "source": "Crossref",
-    "is-referenced-by-count": 11,
+    "is-referenced-by-count": 10,
     "title": [
       "Mode of Communication of Cholera. By John Snow, MD: Second Edition - London, 1855, pp 162."
     ],
@@ -160,7 +161,7 @@
       ]
     }
   },
-  "timestamp": 1767726692789,
+  "timestamp": 1771267091628,
   "ttl": 2592000000,
   "source": "crossref"
 }

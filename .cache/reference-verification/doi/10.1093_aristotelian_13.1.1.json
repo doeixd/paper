@@ -6,11 +6,12 @@
         [
           2026,
           1,
-          6
+          22
         ]
       ],
-      "date-time": "2026-01-06T05:23:11Z",
-      "timestamp": 1767676991896
+      "date-time": "2026-01-22T06:37:10Z",
+      "timestamp": 1769063830070,
+      "version": "3.49.0"
     },
     "reference-count": 0,
     "publisher": "Oxford University Press (OUP)",
@@ -46,7 +47,7 @@
     },
     "page": "1-26",
     "source": "Crossref",
-    "is-referenced-by-count": 396,
+    "is-referenced-by-count": 399,
     "title": [
       "I.—On the Notion of Cause"
     ],
@@ -163,7 +164,7 @@
       ]
     }
   },
-  "timestamp": 1767726689511,
+  "timestamp": 1771267107104,
   "ttl": 2592000000,
   "source": "crossref"
 }

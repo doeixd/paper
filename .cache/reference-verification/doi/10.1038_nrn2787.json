@@ -5,13 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          16
         ]
       ],
-      "date-time": "2026-01-06T13:29:11Z",
-      "timestamp": 1767706151586,
-      "version": "build-2065373602"
+      "date-time": "2026-02-16T09:05:21Z",
+      "timestamp": 1771232721624,
+      "version": "3.50.1"
     },
     "reference-count": 130,
     "publisher": "Springer Science and Business Media LLC",
@@ -83,7 +83,7 @@
     "page": "127-138",
     "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 5548,
+    "is-referenced-by-count": 5708,
     "title": [
       "The free-energy principle: a unified brain theory?"
     ],
@@ -1546,12 +1546,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "1471-003X"
+        "value": "1471-003X",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1471-0048"
+        "value": "1471-0048",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -1586,7 +1586,7 @@
       }
     ]
   },
-  "timestamp": 1767726504953,
+  "timestamp": 1771266790620,
   "ttl": 2592000000,
   "source": "crossref"
 }

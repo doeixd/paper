@@ -4,13 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          13
+          2026,
+          1,
+          23
         ]
       ],
-      "date-time": "2025-12-13T07:00:50Z",
-      "timestamp": 1765609250933
+      "date-time": "2026-01-23T22:46:06Z",
+      "timestamp": 1769208366042,
+      "version": "3.49.0"
     },
     "reference-count": 154,
     "publisher": "Springer Science and Business Media LLC",
@@ -63,7 +64,7 @@
     },
     "page": "401-459",
     "source": "Crossref",
-    "is-referenced-by-count": 140,
+    "is-referenced-by-count": 141,
     "title": [
       "Assessing evolutionary epistemology"
     ],
@@ -1454,7 +1455,7 @@
       ]
     }
   },
-  "timestamp": 1767726230478,
+  "timestamp": 1771266769830,
   "ttl": 2592000000,
   "source": "crossref"
 }

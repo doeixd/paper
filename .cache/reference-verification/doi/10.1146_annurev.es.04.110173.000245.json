@@ -5,13 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          16
         ]
       ],
-      "date-time": "2026-01-06T15:28:45Z",
-      "timestamp": 1767713325434,
-      "version": "build-2065373602"
+      "date-time": "2026-02-16T09:59:21Z",
+      "timestamp": 1771235961170,
+      "version": "3.50.1"
     },
     "reference-count": 0,
     "publisher": "Annual Reviews",
@@ -46,7 +46,7 @@
     },
     "page": "1-23",
     "source": "Crossref",
-    "is-referenced-by-count": 12782,
+    "is-referenced-by-count": 12990,
     "title": [
       "Resilience and Stability of Ecological Systems"
     ],
@@ -123,8 +123,8 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0066-4162"
+        "value": "0066-4162",
+        "type": "print"
       }
     ],
     "subject": [],
@@ -137,7 +137,7 @@
       ]
     }
   },
-  "timestamp": 1767726612793,
+  "timestamp": 1771266980819,
   "ttl": 2592000000,
   "source": "crossref"
 }

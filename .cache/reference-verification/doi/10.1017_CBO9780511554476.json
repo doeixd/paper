@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          5
         ]
       ],
-      "date-time": "2026-01-06T04:52:30Z",
-      "timestamp": 1767675150853
+      "date-time": "2026-02-05T08:19:07Z",
+      "timestamp": 1770279547314,
+      "version": "3.49.0"
     },
     "edition-number": "1",
     "reference-count": 0,
@@ -76,7 +77,7 @@
       "timestamp": 1275493945000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 1690,
+    "is-referenced-by-count": 1706,
     "title": [
       "The Sources of Normativity"
     ],
@@ -154,7 +155,7 @@
       ]
     }
   },
-  "timestamp": 1767726631809,
+  "timestamp": 1771267047442,
   "ttl": 2592000000,
   "source": "crossref"
 }

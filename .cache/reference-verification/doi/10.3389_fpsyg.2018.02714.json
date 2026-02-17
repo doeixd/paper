@@ -4,14 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          31
+          2026,
+          2,
+          14
         ]
       ],
-      "date-time": "2025-12-31T22:24:15Z",
-      "timestamp": 1767219855955,
-      "version": "3.41.2"
+      "date-time": "2026-02-14T03:55:23Z",
+      "timestamp": 1771041323290,
+      "version": "3.50.1"
     },
     "reference-count": 86,
     "publisher": "Frontiers Media SA",
@@ -57,7 +57,7 @@
     },
     "update-policy": "https://doi.org/10.3389/crossmark-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 137,
+    "is-referenced-by-count": 141,
     "title": [
       "The Hard Problem of Consciousness and the Free Energy Principle"
     ],
@@ -127,10 +127,10 @@
         "journal-title": "Parkinsonism Relat. Disord"
       },
       {
+        "key": "B5",
         "volume-title": "Psychology From an Empirical Standpoint",
-        "year": "1874",
         "author": "Brentano",
-        "key": "B5"
+        "year": "1874"
       },
       {
         "key": "B6",
@@ -153,10 +153,10 @@
         "journal-title": "J. Consciousness Stud."
       },
       {
+        "key": "B8",
         "volume-title": "The Conscious Mind: In Search of a Fundamental Theory",
-        "year": "1996",
         "author": "Chalmers",
-        "key": "B8"
+        "year": "1996"
       },
       {
         "key": "B9",
@@ -178,16 +178,16 @@
         "journal-title": "Nat. Rev. Neurosci."
       },
       {
+        "key": "B11",
         "volume-title": "The Astonishing Hypothesis",
-        "year": "1994",
         "author": "Crick",
-        "key": "B11"
+        "year": "1994"
       },
       {
+        "key": "B12",
         "volume-title": "Descartes' Error",
-        "year": "1994",
         "author": "Damasio",
-        "key": "B12"
+        "year": "1994"
       },
       {
         "key": "B13",
@@ -201,16 +201,16 @@
         "journal-title": "Neuropsychoanalogy"
       },
       {
+        "key": "B14",
         "volume-title": "Self Comes to Mind",
-        "year": "2010",
         "author": "Damasio",
-        "key": "B14"
+        "year": "2010"
       },
       {
+        "key": "B15",
         "volume-title": "The Strange Order of Things",
-        "year": "2018",
         "author": "Damasio",
-        "key": "B15"
+        "year": "2018"
       },
       {
         "key": "B16",
@@ -235,16 +235,16 @@
         "journal-title": "Cereb. Cortex"
       },
       {
+        "key": "B18",
         "volume-title": "Letter to Hallmann, 1842. Jugendbriefe von Emil Du Bois-Reymond an Eduard Hallmann",
-        "year": "1918",
         "author": "Du Bois-Reymond",
-        "key": "B18"
+        "year": "1918"
       },
       {
+        "key": "B19",
         "volume-title": "Beyond Evolutionary Psychology: How and Why Neuropsychological Modules Arise",
-        "year": "2018",
         "author": "Ellis",
-        "key": "B19"
+        "year": "2018"
       },
       {
         "key": "B20",
@@ -261,10 +261,10 @@
         "year": "1894"
       },
       {
+        "key": "B22",
         "volume-title": "The Interpretation of Dreams, Standard Edn",
-        "year": "1900",
         "author": "Freud",
-        "key": "B22"
+        "year": "1900"
       },
       {
         "key": "B23",
@@ -319,10 +319,10 @@
         "year": "1923"
       },
       {
+        "key": "B30",
         "volume-title": "An Autobiographical Study, Standard Edn",
-        "year": "",
         "author": "Freud",
-        "key": "B30"
+        "year": ""
       },
       {
         "key": "B31",
@@ -375,10 +375,10 @@
         "journal-title": "Neurology"
       },
       {
+        "key": "B37",
         "volume-title": "The Meaning of Illness: Selected Psychoanalytic Writings Including His Correspondence With Sigmund Freud",
-        "year": "1977",
         "author": "Groddeck",
-        "key": "B37"
+        "year": "1977"
       },
       {
         "key": "B38",
@@ -390,10 +390,10 @@
         "journal-title": "Publicat. Massachusetts Med. Soc"
       },
       {
+        "key": "B39",
         "volume-title": "The Organization of Behavior",
-        "year": "1949",
         "author": "Hebb",
-        "key": "B39"
+        "year": "1949"
       },
       {
         "key": "B40",
@@ -435,10 +435,10 @@
         "journal-title": "Physiol. Behav"
       },
       {
+        "key": "B44",
         "volume-title": "Principles of Neural Science",
-        "year": "2012",
         "author": "Kandel",
-        "key": "B44"
+        "year": "2012"
       },
       {
         "key": "B45",
@@ -451,10 +451,10 @@
         "year": "1996"
       },
       {
+        "key": "B46",
         "volume-title": "The Quest for Consciousness",
-        "year": "2004",
         "author": "Koch",
-        "key": "B46"
+        "year": "2004"
       },
       {
         "key": "B47",
@@ -490,16 +490,16 @@
         "journal-title": "Behav. Brain Sci"
       },
       {
+        "key": "B50",
         "volume-title": "Psychopharmacology: Drugs, The Brain, and Behavior",
-        "year": "2005",
         "author": "Meyer",
-        "key": "B50"
+        "year": "2005"
       },
       {
+        "key": "B51",
         "volume-title": "Psychiatrie. Klinik der Erkrankungen des Vorderhirns, begründet auf dessen Bau, Leistungen und Ernährung",
-        "year": "1884",
         "author": "Meynert",
-        "key": "B51"
+        "year": "1884"
       },
       {
         "key": "B52",
@@ -533,10 +533,10 @@
         "journal-title": "Arch für Physiol."
       },
       {
+        "key": "B55",
         "volume-title": "Ueber die Funktionen der Grosshirnrinde",
-        "year": "1881",
         "author": "Munk",
-        "key": "B55"
+        "year": "1881"
       },
       {
         "key": "B56",
@@ -561,10 +561,10 @@
         "journal-title": "Philos. Rev."
       },
       {
+        "key": "B58",
         "volume-title": "Affective Neuroscience",
-        "year": "1998",
         "author": "Panksepp",
-        "key": "B58"
+        "year": "1998"
       },
       {
         "key": "B59",
@@ -627,10 +627,10 @@
         "journal-title": "Dialogues Clin. Neurosci"
       },
       {
+        "key": "B65",
         "volume-title": "The Mystery of Consciousness",
-        "year": "1997",
         "author": "Searle",
-        "key": "B65"
+        "year": "1997"
       },
       {
         "key": "B66",
@@ -751,10 +751,10 @@
         "journal-title": "Front. Behav. Neurosci"
       },
       {
+        "key": "B77",
         "volume-title": "Consciousness Itself: Feeling and Uncertainty",
-        "year": "",
         "author": "Solms",
-        "key": "B77"
+        "year": ""
       },
       {
         "key": "B78",
@@ -785,10 +785,10 @@
         "journal-title": "Brain Sci"
       },
       {
+        "key": "B81",
         "volume-title": "A Moment of Transition: Two Neuroscientific Articles by Sigmund Freud",
-        "year": "1990",
         "author": "Solms",
-        "key": "B81"
+        "year": "1990"
       },
       {
         "key": "B82",
@@ -820,10 +820,10 @@
         "journal-title": "Ann. Rev. Psychol."
       },
       {
+        "key": "B85",
         "volume-title": "Phi: A Voyage from the Brain to the Soul.",
-        "year": "2012",
         "author": "Tononi",
-        "key": "B85"
+        "year": "2012"
       },
       {
         "key": "B86",
@@ -885,8 +885,8 @@
     ],
     "issn-type": [
       {
-        "type": "electronic",
-        "value": "1664-1078"
+        "value": "1664-1078",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -901,7 +901,7 @@
     },
     "article-number": "2714"
   },
-  "timestamp": 1767726693987,
+  "timestamp": 1771267117839,
   "ttl": 2592000000,
   "source": "crossref"
 }

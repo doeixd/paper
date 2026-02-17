@@ -4,13 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          29
+          2026,
+          2,
+          5
         ]
       ],
-      "date-time": "2025-12-29T19:02:29Z",
-      "timestamp": 1767034949550
+      "date-time": "2026-02-05T10:57:16Z",
+      "timestamp": 1770289036497,
+      "version": "3.49.0"
     },
     "reference-count": 0,
     "publisher": "JSTOR",
@@ -45,7 +46,7 @@
     },
     "page": "163",
     "source": "Crossref",
-    "is-referenced-by-count": 468,
+    "is-referenced-by-count": 472,
     "title": [
       "Moral Realism"
     ],
@@ -124,7 +125,7 @@
       ]
     }
   },
-  "timestamp": 1767726684655,
+  "timestamp": 1771267102543,
   "ttl": 2592000000,
   "source": "crossref"
 }

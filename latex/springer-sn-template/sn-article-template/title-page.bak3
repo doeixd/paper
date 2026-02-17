@@ -1,0 +1,46 @@
+\documentclass[pdflatex,sn-basic]{sn-jnl}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+
+\raggedbottom
+
+\begin{document}
+
+\title[Title Page Metadata]{Real Patterns Need Closure: Transition Autonomy as a Dynamical Criterion for Macro-Objecthood}
+
+\author*[1]{\fnm{Patrick} \sur{Glenn}}\email{pwmglenn@outlook.com}
+
+\affil*[1]{\orgname{Independent Researcher}}
+
+\maketitle
+
+\section*{Author Information}
+
+\noindent Name: Patrick Glenn \\
+Affiliation: Independent Researcher \\
+Email: pwmglenn@outlook.com \\
+ORCID: 0009-0009-8088-0004
+
+\section*{Corresponding Author}
+
+\noindent Patrick Glenn \\
+Email: pwmglenn@outlook.com
+
+\section*{Acknowledgements}
+
+\noindent None.
+
+\section*{Funding}
+
+\noindent No funding was received for this work.
+
+\section*{Statements and Declarations}
+
+\noindent\textbf{Competing Interests} The author declares no competing interests.
+
+\noindent\textbf{Data Availability} Data sharing is not applicable to this article as no datasets were generated or analyzed.
+
+\noindent\textbf{Code Availability} Code availability is not applicable to this article.
+
+\end{document}

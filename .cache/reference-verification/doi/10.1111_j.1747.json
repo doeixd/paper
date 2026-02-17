@@ -5,13 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          9
         ]
       ],
-      "date-time": "2026-01-06T05:18:14Z",
-      "timestamp": 1767676694796,
-      "version": "build-2065373602"
+      "date-time": "2026-02-09T01:43:41Z",
+      "timestamp": 1770601421501,
+      "version": "3.49.0"
     },
     "reference-count": 37,
     "publisher": "Wiley",
@@ -125,10 +125,10 @@
         "DOI": "10.1007/978-94-015-3711-7"
       },
       {
+        "key": "e_1_2_9_8_1",
         "volume-title": "Debate Dynamics: How Controversy Improves Our Beliefs",
-        "year": "2012",
         "author": "Betz G",
-        "key": "e_1_2_9_8_1"
+        "year": "2012"
       },
       {
         "key": "e_1_2_9_9_1",
@@ -170,10 +170,10 @@
         "journal-title": "Advances in Group Processes"
       },
       {
+        "key": "e_1_2_9_16_1",
         "volume-title": "Social Epistemology: Essential Readings",
-        "year": "2011",
         "author": "Goldman A",
-        "key": "e_1_2_9_16_1"
+        "year": "2011"
       },
       {
         "key": "e_1_2_9_17_1",
@@ -228,10 +228,10 @@
         "DOI": "10.1007/s11225-008-9123-8"
       },
       {
-        "journal-title": "Erkenntnis",
+        "key": "e_1_2_9_25_1",
         "article-title": "Probe and Adjust in Information Transfer Games",
         "author": "Huttegger S.",
-        "key": "e_1_2_9_25_1"
+        "journal-title": "Erkenntnis"
       },
       {
         "key": "e_1_2_9_26_1",
@@ -263,10 +263,10 @@
         "DOI": "10.1086/661777"
       },
       {
-        "journal-title": "International Journal of Game Theory",
+        "key": "e_1_2_9_32_1",
         "article-title": "Wisdom of the Crowds vs. Groupthink: Learning in Groups and in Isolation",
         "author": "Mayo‐Wilson C.",
-        "key": "e_1_2_9_32_1"
+        "journal-title": "International Journal of Game Theory"
       },
       {
         "key": "e_1_2_9_33_1",
@@ -274,10 +274,10 @@
         "DOI": "10.1090/S0002-9904-1952-09620-8"
       },
       {
+        "key": "e_1_2_9_34_1",
         "volume-title": "Reinforcement Learning",
-        "year": "1998",
         "author": "Sutton R.",
-        "key": "e_1_2_9_34_1"
+        "year": "1998"
       },
       {
         "key": "e_1_2_9_35_1",
@@ -372,12 +372,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "1747-9991"
+        "value": "1747-9991",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1747-9991"
+        "value": "1747-9991",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -402,7 +402,7 @@
       }
     ]
   },
-  "timestamp": 1767726723841,
+  "timestamp": 1771267141990,
   "ttl": 2592000000,
   "source": "crossref"
 }

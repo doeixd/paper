@@ -5,13 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          13
         ]
       ],
-      "date-time": "2026-01-06T13:16:28Z",
-      "timestamp": 1767705388884,
-      "version": "build-2065373602"
+      "date-time": "2026-02-13T06:54:21Z",
+      "timestamp": 1770965661932,
+      "version": "3.50.1"
     },
     "reference-count": 0,
     "publisher": "IBM",
@@ -46,7 +46,7 @@
     },
     "page": "183-191",
     "source": "Crossref",
-    "is-referenced-by-count": 4011,
+    "is-referenced-by-count": 4050,
     "title": [
       "Irreversibility and Heat Generation in the Computing Process"
     ],
@@ -112,12 +112,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0018-8646"
+        "value": "0018-8646",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "0018-8646"
+        "value": "0018-8646",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -130,7 +130,7 @@
       ]
     }
   },
-  "timestamp": 1767726638075,
+  "timestamp": 1771267063300,
   "ttl": 2592000000,
   "source": "crossref"
 }

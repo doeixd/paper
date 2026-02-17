@@ -6,23 +6,24 @@
         [
           2026,
           1,
-          6
+          31
         ]
       ],
-      "date-time": "2026-01-06T13:58:01Z",
-      "timestamp": 1767707881436
+      "date-time": "2026-01-31T11:40:26Z",
+      "timestamp": 1769859626188,
+      "version": "3.49.0"
     },
     "publisher-location": "Dordrecht",
     "reference-count": 6,
     "publisher": "Springer Netherlands",
     "isbn-type": [
       {
-        "type": "print",
-        "value": "9789027710246"
+        "value": "9789027710246",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "9789400994935"
+        "value": "9789400994935",
+        "type": "electronic"
       }
     ],
     "content-domain": {
@@ -52,7 +53,7 @@
     },
     "page": "1-23",
     "source": "Crossref",
-    "is-referenced-by-count": 516,
+    "is-referenced-by-count": 521,
     "title": [
       "What is Justified Belief?"
     ],
@@ -95,9 +96,9 @@
         "unstructured": "Keith Lehrer’s example of the gypsy lawyer is intended to show the inappropriateness of a causal requirement. (See Knowledge, Oxford: University Press, 1974, pp. 124–125.)"
       },
       {
+        "key": "1_CR6",
         "volume-title": "Values and Morals, Essays in Honor of William Frankena, Charles Stevenson, and Richard Brandt",
         "year": "1978",
-        "key": "1_CR6",
         "unstructured": "Alvin I. Goldman and Jaegwon Kim, eds., Values and Morals, Essays in Honor of William Frankena, Charles Stevenson, and Richard Brandt ( Dordrecht: D. Reidel, 1978 )."
       }
     ],
@@ -156,7 +157,7 @@
       ]
     }
   },
-  "timestamp": 1767726602407,
+  "timestamp": 1771266930755,
   "ttl": 2592000000,
   "source": "crossref"
 }

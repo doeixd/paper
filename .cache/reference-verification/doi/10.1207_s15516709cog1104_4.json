@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          2
         ]
       ],
-      "date-time": "2026-01-06T02:08:29Z",
-      "timestamp": 1767665309344
+      "date-time": "2026-02-02T13:19:53Z",
+      "timestamp": 1770038393875,
+      "version": "3.49.0"
     },
     "reference-count": 20,
     "publisher": "Wiley",
@@ -65,9 +66,9 @@
       "timestamp": 1121651382000
     },
     "page": "481-518",
-    "update-policy": "http://dx.doi.org/10.1002/crossmark_policy",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 456,
+    "is-referenced-by-count": 497,
     "title": [
       "Defeasible Reasoning"
     ],
@@ -255,6 +256,9 @@
       ]
     },
     "references-count": 20,
+    "aliases": [
+      "10.1016/s0364-0213(87)80017-4"
+    ],
     "journal-issue": {
       "issue": "4",
       "published-print": {
@@ -310,7 +314,7 @@
       }
     ]
   },
-  "timestamp": 1767726680458,
+  "timestamp": 1771267098311,
   "ttl": 2592000000,
   "source": "crossref"
 }

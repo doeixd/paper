@@ -6,11 +6,12 @@
         [
           2026,
           1,
-          6
+          16
         ]
       ],
-      "date-time": "2026-01-06T02:07:48Z",
-      "timestamp": 1767665268583
+      "date-time": "2026-01-16T08:25:10Z",
+      "timestamp": 1768551910441,
+      "version": "3.49.0"
     },
     "reference-count": 22,
     "publisher": "Elsevier BV",
@@ -350,7 +351,7 @@
       ]
     }
   },
-  "timestamp": 1767726680595,
+  "timestamp": 1771267098450,
   "ttl": 2592000000,
   "source": "crossref"
 }

@@ -1,0 +1,72 @@
+
+================================================================================
+Citation Extraction Run - 2026-02-17 09:24:28
+Files scanned: real-patterns-need-closure-SYNTHESE.md
+Total citations: 4
+================================================================================
+
+
+################################################################################
+FILE: real-patterns-need-closure-SYNTHESE.md
+################################################################################
+
+Citation 1 [PARENTHETICAL]:
+Line: 35
+Citation: (Ladyman & Ross, 2007)
+
+Context:
+This is a conditional metaphysical proposal. Under structural realist and interventionist commitments, closure under admissible conditions is sufficient for macro-objecthood in regime. Readers with different priors can still accept a narrower conclusion: closure is at least a necessary anti-gerrymandering constraint on serious macro-ontology claims.
+
+This positioning is deliberately dialogical. With Dennett, the paper keeps compression realism while rejecting permissiveness (Dennett, 1991). With Ladyman and Ross, it keeps structural and projectibility ambitions while insisting on an explicit transition criterion for objecthood verdicts (Ladyman & Ross, 2007). With Rosas, it treats formal closure diagnostics as benchmark machinery, then uses them to support a philosophical criterion that remains stable in non-ideal cases (Rosas et al., 2024). With causal-emergence work, it treats macro-level gains as corroborating diagnostics rather than as a standalone ontology test (Hoel et al., 2013). With Kim-style exclusion pressure, it defends non-redundancy at explanatory and control levels without denying microphysical implementation (Kim, 1998).
+
+A related line of work traces the cognitive origins of real-pattern commitments, linking predictive coding and free-energy minimization to how bounded agents build and revise their representational schemes (Gładziejewski, 2025). That work helps explain why agents converge on some macro-descriptions and abandon others, which strengthens the anti-arbitrariness side of pattern realism. But representational success can remain task-relative unless a further test determines when a candidate grouping tracks dynamical structure in the world rather than merely serving local inferential needs. The closure criterion supplies that additional test.
+
+Reference:
+Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
+------------------------------------------------------------
+
+Citation 2 [PARENTHETICAL]:
+Line: 43
+Citation: (Ladyman & Ross, 2007)
+
+Context:
+The paper is restricted to induced closure in spatiotemporal systems. It does not offer a complete metaphysics of levels, and it does not settle all questions about abstract objects or full mereology. Where those debates arise, they are handled only to protect the central claim from predictable misreadings.
+
+Methodologically, the paper does not depend on the strongest anti-analytic rhetoric sometimes associated with naturalized metaphysics. The claim is narrower: closure is a usable philosophical constraint that can be motivated by dynamical and coarse-graining practice, whether or not one accepts every meta-metaphysical commitment in the broader ETMG program (Ladyman & Ross, 2007).
+
+The roadmap is direct. Section 2 states the criterion and admissibility framework. Section 3 gives the exact benchmark. Section 4 extends the criterion to non-ideal settings. Section 5 addresses the strongest objections. Section 6 summarizes gains and limits.
+
+Reference:
+Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
+------------------------------------------------------------
+
+Citation 3 [PARENTHETICAL]:
+Line: 91
+Citation: (Ladyman & Ross, 2007)
+
+Context:
+This is why closure functions as an anti-gerrymandering condition. It does not reward convenient coding alone. It rewards coarse-grainings that carry stable transition structure under declared constraints.
+
+Put differently, this paper accepts Dennett's claim that compression success is evidence of objective patterning, but denies that compression success is the full ontological test (Dennett, 1991). It also accepts Ladyman and Ross's concern that real patterns should be projectible and structurally disciplined, while adding an explicit transition criterion for adjudicating borderline cases (Ladyman & Ross, 2007). The aim is not to replace those insights. The aim is to make their realist force less permissive.
+
+This also answers a familiar Haugeland-style pressure point. The paper does not infer objecthood directly from "there is a useful pattern in the data." It adds an explicit transition-autonomy condition that determines when pattern talk has ontological force rather than merely descriptive convenience (Haugeland, 1998).
+
+Reference:
+Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
+------------------------------------------------------------
+
+Citation 4 [PARENTHETICAL]:
+Line: 307
+Citation: (Ladyman & Ross, 2007)
+
+Context:
+Projectibility provides a further check. Defensible regime specifications should support stable induction under modest counterfactual variation. Narrowly engineered regimes that protect a favored partition usually fail under small context shifts. When that occurs, the candidate was never robustly closed in the relevant sense.
+
+This is where the paper is closest to Ladyman and Ross. Projectibility is not treated as an optional methodological virtue. It functions as a realism-relevant stress test on whether a closure claim survives beyond calibration conditions (Ladyman & Ross, 2007). Closure without projectible robustness is too cheap to support robust objecthood claims.
+
+Regime dependence itself should be split into two forms. Ontic regime dependence occurs when system structure changes, such as phase transitions or boundary-condition shifts. Epistemic regime dependence occurs when measurement or control access changes while underlying structure remains fixed. The first changes what is there to be tracked. The second changes what can be warranted from available evidence.
+
+Reference:
+Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
+------------------------------------------------------------
+

@@ -4,13 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          4
+          2026,
+          1,
+          21
         ]
       ],
-      "date-time": "2025-12-04T01:22:45Z",
-      "timestamp": 1764811365689
+      "date-time": "2026-01-21T12:25:43Z",
+      "timestamp": 1768998343259,
+      "version": "3.49.0"
     },
     "reference-count": 21,
     "publisher": "Cambridge University Press (CUP)",
@@ -64,7 +65,7 @@
     },
     "page": "495-548",
     "source": "Crossref",
-    "is-referenced-by-count": 121,
+    "is-referenced-by-count": 122,
     "title": [
       "Probabilities over rich languages, testing and randomness"
     ],
@@ -304,7 +305,7 @@
       ]
     }
   },
-  "timestamp": 1767726568909,
+  "timestamp": 1771266826394,
   "ttl": 2592000000,
   "source": "crossref"
 }

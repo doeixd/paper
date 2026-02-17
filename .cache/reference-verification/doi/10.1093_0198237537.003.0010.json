@@ -6,11 +6,12 @@
         [
           2026,
           1,
-          5
+          20
         ]
       ],
-      "date-time": "2026-01-05T04:06:36Z",
-      "timestamp": 1767585996075
+      "date-time": "2026-01-20T14:39:41Z",
+      "timestamp": 1768919981100,
+      "version": "3.49.0"
     },
     "edition-number": "1",
     "reference-count": 103,
@@ -59,7 +60,7 @@
     },
     "page": "137-158",
     "source": "Crossref",
-    "is-referenced-by-count": 99,
+    "is-referenced-by-count": 100,
     "title": [
       "A Coherence Theory of Truth and Knowledge"
     ],
@@ -822,7 +823,7 @@
       ]
     }
   },
-  "timestamp": 1767726402412,
+  "timestamp": 1771266787386,
   "ttl": 2592000000,
   "source": "crossref"
 }

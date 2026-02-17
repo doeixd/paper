@@ -6,12 +6,12 @@
         [
           2026,
           1,
-          5
+          25
         ]
       ],
-      "date-time": "2026-01-05T07:25:57Z",
-      "timestamp": 1767597957041,
-      "version": "3.41.0"
+      "date-time": "2026-01-25T13:02:06Z",
+      "timestamp": 1769346126002,
+      "version": "3.49.0"
     },
     "reference-count": 54,
     "publisher": "The Royal Society",
@@ -171,7 +171,7 @@
     "page": "20170792",
     "update-policy": "https://doi.org/10.1098/crossmark-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 315,
+    "is-referenced-by-count": 318,
     "title": [
       "The Markov blankets of life: autonomy, active inference and the free energy principle"
     ],
@@ -245,10 +245,10 @@
     },
     "reference": [
       {
+        "key": "e_1_3_8_2_2",
         "volume-title": "The systems view of life",
-        "year": "2016",
         "author": "Capra F",
-        "key": "e_1_3_8_2_2"
+        "year": "2016"
       },
       {
         "key": "e_1_3_8_3_2",
@@ -271,10 +271,10 @@
         "DOI": "10.3389/fpsyg.2012.00130"
       },
       {
+        "key": "e_1_3_8_7_2",
         "volume-title": "Open mind: 19(T)",
-        "year": "2015",
         "author": "Hohwy J",
-        "key": "e_1_3_8_7_2"
+        "year": "2015"
       },
       {
         "key": "e_1_3_8_8_2",
@@ -290,10 +290,10 @@
         "journal-title": "Synthese"
       },
       {
+        "key": "e_1_3_8_10_2",
         "volume-title": "Philosophy and predictive processing: 3",
-        "year": "2017",
         "author": "Clark A",
-        "key": "e_1_3_8_10_2"
+        "year": "2017"
       },
       {
         "key": "e_1_3_8_11_2",
@@ -305,16 +305,16 @@
         "unstructured": "Beal MJ. 2003 Variational algorithms for approximate Bayesian inference. PhD Thesis University College London UK."
       },
       {
+        "key": "e_1_3_8_13_2",
         "volume-title": "Probabilistic reasoning in intelligent systems: networks of plausible inference",
-        "year": "1988",
         "author": "Pearl J",
-        "key": "e_1_3_8_13_2"
+        "year": "1988"
       },
       {
+        "key": "e_1_3_8_14_2",
         "volume-title": "Philosophy and predictive processing: 3",
-        "year": "2017",
         "author": "Hohwy J",
-        "key": "e_1_3_8_14_2"
+        "year": "2017"
       },
       {
         "key": "e_1_3_8_15_2",
@@ -390,10 +390,10 @@
         "year": "2011"
       },
       {
+        "key": "e_1_3_8_27_2",
         "volume-title": "Open MIND: 35(T)",
-        "year": "2015",
         "author": "Seth AK",
-        "key": "e_1_3_8_27_2"
+        "year": "2015"
       },
       {
         "key": "e_1_3_8_28_2",
@@ -427,10 +427,10 @@
         "DOI": "10.1007/s11097-005-9002-y"
       },
       {
+        "key": "e_1_3_8_34_2",
         "volume-title": "Mind in life: biology, phenomenology, the sciences of mind",
-        "year": "2007",
         "author": "Thompson E",
-        "key": "e_1_3_8_34_2"
+        "year": "2007"
       },
       {
         "key": "e_1_3_8_35_2",
@@ -489,10 +489,10 @@
         "year": "2012"
       },
       {
+        "key": "e_1_3_8_44_2",
         "volume-title": "Networks of the brain",
-        "year": "2011",
         "author": "Sporns O",
-        "key": "e_1_3_8_44_2"
+        "year": "2011"
       },
       {
         "key": "e_1_3_8_45_2",
@@ -507,10 +507,10 @@
         "DOI": "10.1017/S0033583500000615"
       },
       {
-        "journal-title": "BioRxiv",
+        "key": "e_1_3_8_47_2",
         "article-title": "Biological self-organisation and Markov blankets",
         "author": "Palacios E",
-        "key": "e_1_3_8_47_2"
+        "journal-title": "BioRxiv"
       },
       {
         "key": "e_1_3_8_48_2",
@@ -523,10 +523,10 @@
         "DOI": "10.1007/978-3-642-88338-5"
       },
       {
+        "key": "e_1_3_8_50_2",
         "volume-title": "Dynamic patterns",
-        "year": "1995",
         "author": "Kelso S",
-        "key": "e_1_3_8_50_2"
+        "year": "1995"
       },
       {
         "key": "e_1_3_8_51_2",
@@ -636,12 +636,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "1742-5689"
+        "value": "1742-5689",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1742-5662"
+        "value": "1742-5662",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -686,7 +686,7 @@
       }
     ]
   },
-  "timestamp": 1767726506953,
+  "timestamp": 1771267044398,
   "ttl": 2592000000,
   "source": "crossref"
 }

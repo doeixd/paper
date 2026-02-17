@@ -1,0 +1,111 @@
+{
+  "key": "isbn-9780631139942",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL2534358M/On_the_plurality_of_worlds",
+      "key": "/books/OL2534358M",
+      "title": "On the plurality of worlds",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL19397A/Lewis_David_K.",
+          "name": "Lewis, David K."
+        }
+      ],
+      "number_of_pages": 276,
+      "pagination": "ix, 276 p. ;",
+      "by_statement": "David Lewis.",
+      "identifiers": {
+        "librarything": [
+          "2834867"
+        ],
+        "goodreads": [
+          "4656209",
+          "7073742"
+        ],
+        "isbn_10": [
+          "0631139931",
+          "063113994X"
+        ],
+        "lccn": [
+          "85015099"
+        ],
+        "oclc": [
+          "12236763"
+        ],
+        "openlibrary": [
+          "OL2534358M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "BD655 .L48 1986",
+          "BD655.L48 1986"
+        ],
+        "dewey_decimal_class": [
+          "111"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "B. Blackwell"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Oxford, UK"
+        },
+        {
+          "name": "New York, NY, USA"
+        }
+      ],
+      "publish_date": "1986",
+      "subjects": [
+        {
+          "name": "Modality (Theory of knowledge)",
+          "url": "https://openlibrary.org/subjects/modality_(theory_of_knowledge)"
+        },
+        {
+          "name": "Realism",
+          "url": "https://openlibrary.org/subjects/realism"
+        },
+        {
+          "name": "Plurality of worlds",
+          "url": "https://openlibrary.org/subjects/plurality_of_worlds"
+        },
+        {
+          "name": "Modality (theory of knowledge)",
+          "url": "https://openlibrary.org/subjects/modality_(theory_of_knowledge)"
+        },
+        {
+          "name": "Bd655 .l48 1986",
+          "url": "https://openlibrary.org/subjects/bd655_.l48_1986"
+        },
+        {
+          "name": "Philosophy",
+          "url": "https://openlibrary.org/subjects/philosophy"
+        },
+        {
+          "name": "Logic",
+          "url": "https://openlibrary.org/subjects/logic"
+        }
+      ],
+      "notes": "Bibliography: p. 264-270.\nIncludes index.",
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/onpluralityofwor0000lewi",
+          "availability": "restricted",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/8702204-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/8702204-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/8702204-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780631139942"
+  },
+  "timestamp": 1771338270594,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

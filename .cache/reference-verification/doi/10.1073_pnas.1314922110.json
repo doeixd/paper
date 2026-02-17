@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          12
         ]
       ],
-      "date-time": "2026-01-06T02:15:16Z",
-      "timestamp": 1767665716088
+      "date-time": "2026-02-12T14:04:50Z",
+      "timestamp": 1770905090992,
+      "version": "3.50.1"
     },
     "reference-count": 36,
     "publisher": "Proceedings of the National Academy of Sciences",
@@ -48,9 +49,9 @@
       "timestamp": 1384836579000
     },
     "page": "19790-19795",
-    "update-policy": "http://dx.doi.org/10.1073/pnas.cm10313",
+    "update-policy": "https://doi.org/10.1073/pnas.cm10313",
     "source": "Crossref",
-    "is-referenced-by-count": 249,
+    "is-referenced-by-count": 254,
     "title": [
       "Quantifying causal emergence shows that macro can beat micro"
     ],
@@ -421,7 +422,7 @@
       }
     ]
   },
-  "timestamp": 1767726612293,
+  "timestamp": 1771266980541,
   "ttl": 2592000000,
   "source": "crossref"
 }

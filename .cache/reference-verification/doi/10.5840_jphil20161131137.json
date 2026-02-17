@@ -4,13 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          11,
-          28
+          2026,
+          2,
+          13
         ]
       ],
-      "date-time": "2025-11-28T23:43:45Z",
-      "timestamp": 1764373425209
+      "date-time": "2026-02-13T15:58:34Z",
+      "timestamp": 1770998314760,
+      "version": "3.50.1"
     },
     "reference-count": 0,
     "publisher": "Philosophy Documentation Center",
@@ -36,9 +37,9 @@
       "timestamp": 1496413956000
     },
     "page": "550-571",
-    "update-policy": "http://dx.doi.org/10.5840/pdc20121120",
+    "update-policy": "https://doi.org/10.5840/pdc20121120",
     "source": "Crossref",
-    "is-referenced-by-count": 75,
+    "is-referenced-by-count": 76,
     "title": [
       "Epistemic Risk"
     ],
@@ -118,8 +119,8 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0022-362X"
+        "value": "0022-362X",
+        "type": "print"
       }
     ],
     "subject": [],
@@ -138,7 +139,7 @@
       }
     ]
   },
-  "timestamp": 1767726681852,
+  "timestamp": 1771267099502,
   "ttl": 2592000000,
   "source": "crossref"
 }

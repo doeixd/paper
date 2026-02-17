@@ -35,7 +35,7 @@ mechanics (Shalizi and Crutchfield 2001; Rosas et al.~2024). A
 macro-variable achieves Causal Closure when its $epsilon$-machine
 (predicting macro-futures from macro-pasts) equals its $upsilon$-machine
 (predicting macro-futures from micro-pasts). At this point, additional
-micro-information is provably redundant…
+micro-information is provably redundant.
 
 We defend this view against retreats to "mere usefulness," address
 challenges from consciousness, and demonstrate practical implications
@@ -56,6 +56,28 @@ is not merely pedantic; it is incompatible with the explanatory
 constraints of successful science. Mereological nihilism claims there
 are no hurricanes, only molecules arranged hurricane-wise; no cells,
 only particles arranged cell-wise.
+
+Before introducing our criteria, we need one clarification that prevents
+several recurring category mistakes. Debates about wholes often collapse
+distinct ontological and epistemic items into one bucket. Here we keep
+them separate:
+
++ #strong[Reality itself];: what exists and unfolds independently of our
+  models.
++ #strong[Patterns supported by reality];: stable regularities,
+  constraints, and dependency structures.
++ #strong[Instances of those patterns];: this specific hurricane, this
+  specific heart, this specific game.
++ #strong[Representations of patterns];: our theories, concepts,
+  equations, and models.
++ #strong[Representations of instances];: our observation or memory of a
+  particular event.
+
+The same verbal term can refer to any of these layers, and many disputes
+about objecthood are disputes created by layer confusion. A pattern can
+be real even when our representation is crude. A particular instance can
+fail to display a pattern cleanly without showing that the pattern is
+unreal. The framework in this paper tracks this distinction throughout.
 
 === Clarifying 'Real': Four Layered Criteria
 <clarifying-real-four-layered-criteria>
@@ -102,20 +124,21 @@ as ontological bedrock.
 
 A crucial methodological point must be clarified upfront to avoid
 misinterpretation. This paper does not claim that prediction,
-intervention, or usefulness constitute what exists. Rather, we use them
+intervention, or usefulness constitute what exists. We use them
 diagnostically. The claim is structural realist: there are
 mind-independent dependency patterns in the world, and some
 coarse-grainings track them better than others because they align with
 the constraint structure of physical reality. The Markov blankets we
 identify are not epistemic choices; they are statistical facts about
-conditional independence that exist whether or not any observer computes
-them. When we say "the heart is real," we do not mean "the heart is
-useful to us." We mean "there exists an objectively measurable
-statistical dependency structure between heart-level variables and
-heart-cell futures that is stronger than the dependency between those
-same cells and external variables like Tokyo weather." This dependency
-is a fact about the world's causal topology, not a fact about our
-interests.
+conditional independence that hold whether or not any observer computes
+them.
+
+When we say "the heart is real," we do not mean "the heart is useful to
+us." We mean there is an objectively measurable dependency structure
+between heart-level variables and heart-cell futures that is stronger
+than the dependency between those same cells and unrelated external
+variables such as Tokyo weather. This is a fact about the world's causal
+topology, not about our interests.
 
 This framework is sometimes misread as making reality task-relative:
 "the heart exists for the task of pumping blood." This inverts the
@@ -185,6 +208,14 @@ knows. Formally: the macroscopic past $arrow(Z)_t$ contains all the
 information about the microscopic past $arrow(X)_t$ that is relevant for
 predicting the macroscopic future $arrow(Z)_(t + 1)^L$.
 
+This claim should be read at the level of pattern types before pattern
+tokens. A coarse-graining can be causally closed relative to a regime,
+even when a specific instance fails closure because of unusual
+perturbation, boundary violation, or timescale shift. Demanding
+token-level perfection would eliminate nearly every macro-object in
+science. The relevant standard is robust closure across the intervention
+class that defines the domain.
+
 Now the derivation. Given locality (premise 2), causal influence
 propagates through spatial neighbors. Given finite information capacity
 (premise 3), systems cannot track arbitrary correlations. Given
@@ -219,6 +250,22 @@ this corresponds to cases where the conditional algorithmic complexity
 $K \( X_(t + 1) divides B_t \)$ is approximately equal to
 $K \( X_(t + 1) divides B_t \, E_t \)$, indicating low boundary
 leakiness.
+
+At this point a second distinction helps. Some macro-regularities are
+#strong[entailed] by the actual microhistory but too brittle to function
+as explanatory objects. Others are both entailed and #strong[stable]
+under coarse-graining and relevant perturbation. The first class secures
+non-arbitrariness. The second secures objecthood. In short, every stable
+pattern is entailed, but not every entailed pattern is stable enough for
+intervention.
+
+Snowflake formation gives a conceptual illustration. Given laws and
+microconditions, the resulting trajectory forces certain
+macro-regularities in growth mode and symmetry constraints. The exact
+branch geometry of one flake can remain sensitive to local fluctuations.
+The macro-organization remains lawful and robust even when token-level
+details vary. This is the sense in which emergence is objective without
+requiring token-level invariance.
 
 Once causal autonomy is established, the nihilist position reduces to a
 largely terminological stance. If "facts about arrangements" perform all
@@ -288,16 +335,16 @@ fail when they don't. The "lenses" we use must conform to the structure
 that is already there. We are not choosing where to draw boundaries; we
 are discovering where the conditional independencies already lie.
 
-The argument proceeds in four stages. First, we demonstrate that
-statistical boundaries emerge robustly from these four premises across a
-wide class of physical configurations (Parts 1-2). Second, we show these
+The argument proceeds in four stages. First, we show that statistical
+boundaries emerge robustly from these four premises across a wide class
+of physical configurations (Parts 1-2). Second, we show that these
 boundaries create causal autonomy, allowing systems to be predicted and
-controlled through their boundaries alone (Parts 3-4). Third, we
+controlled through boundary variables alone (Parts 3-4). Third, we
 formalize a rigorous test for when boundaries constitute genuine objects
 (Part 5). Finally, we address objections, define the dimensions of
-reality, and show why this matters practically (Parts 6-11). At each
-stage, we ask: can the nihilist consistently accept the step while
-maintaining their position?
+reality, and show why this matters in practice (Parts 6-11). At each
+stage, we ask whether the nihilist can accept the step while maintaining
+their position.
 
 === What the Nihilist Actually Says (And Why Their Foundation Is Shaky)
 <what-the-nihilist-actually-says-and-why-their-foundation-is-shaky>
@@ -586,36 +633,15 @@ objectively measurable as information leakage: the mutual information
 between external variables and internal states, given the boundary. This
 is a physical quantity, not a matter of preference. A granite boulder
 has near-zero leakage; a social category has high leakage. The gradient
-is in the world. Third, the "correct" tolerance for biological and
-evolved systems is set by survival, not observer choice. An organism
-whose boundary tolerances are too loose (ignoring predators) dies. One
-whose tolerances are too tight (tracking every molecule) starves from
-computational overhead. Evolution discovers the tolerance threshold that
-balances predictive accuracy against thermodynamic cost. The boundaries
-we observe are the survivors of this selection process. We can formalize
-leakage more precisely as the rate at which external variables must be
-imported into the model to maintain predictive accuracy. A granite
-boulder has minimal leakage; knowing its surface state predicts its
-internal state indefinitely without external supplementation. A social
-category like "middle class" has high leakage across contexts; the
-boundary constantly requires ad-hoc adjustments as economic conditions
-shift. Leakage is not subjective. It is measurable as the algorithmic
-complexity influx required to sustain the boundary's predictive power.
-Low-leakage boundaries compress stably; high-leakage boundaries
-hemorrhage information and require constant patching.
-
-The answer to "who decides" is thermodynamics and survival. The
-tolerance is not arbitrary; it is the threshold of disintegration. If an
-organism sets its tolerance too loose (ignoring dangerous external
-variables), it dies. If it sets it too tight (trying to track every
-atom), it starves from the computational cost of prediction. The
-"correct" tolerance is an objective survival parameter discovered by
-evolution, not chosen by observers. It is not human interests that
-define the prediction task, but thermodynamic survival. An organism that
-fails to track the "wolf" macro-variable gets eaten, regardless of its
-metaphysical preferences. The task is imposed by the requirement of
-persistence in a dissipative environment, not by human whims. The
-boundaries we observe are the survivors of this selection process.
+is in the world. Third, for biological and evolved systems, the
+operative tolerance is set by survival rather than observer preference.
+Boundaries that are too loose fail to track danger (for example, failing
+to track the "wolf" macro-variable); boundaries that are too strict
+waste energy on microdetail. Evolution therefore selects boundary
+regimes that balance predictive accuracy against thermodynamic cost. In
+this sense, leakage can be treated as algorithmic complexity influx
+required to maintain prediction: low-leakage boundaries compress stably,
+while high-leakage boundaries require continual patching.
 
 Nature itself enforces which compressions work. We do not decide that
 the cell membrane works as a boundary; experiments converge on the same
@@ -692,6 +718,16 @@ objective invariants within their dimensional logic, imposing
 non-negotiable consequences on the agent's future possibilities just as
 rigidly as physical walls impose spatial constraints.
 
+The same point applies to logical practice. Different domains can
+require different inferential filters without collapsing into
+arbitrariness. Classical settings, constructive settings, and
+inconsistent information settings can privilege different consequence
+relations. What remains invariant is the selection pressure: whichever
+inferential regime is used must preserve coherence and reliable tracking
+within that domain's constraints. Logical pluralism at the level of
+regimes is therefore compatible with structural realism at the level of
+constraints.
+
 Beyond domain-specificity, we will later formalize a fifth criterion:
 cross-dimensional overlap. Entities that appear without reinterpretation
 across multiple independent constraint domains (physics, biology, law,
@@ -699,6 +735,14 @@ economics) exhibit a form of reality stronger than domain-specific
 patterns. This explains why cells feel "more real" than chess
 strategies, despite both achieving causal closure within their
 respective dimensions.
+
+This also helps distinguish two ontological profiles. Some patterns are
+self-implementing under ordinary physics, such as storms, crystals, and
+orbital structures. Others are constraint-defined but
+implementation-dependent for their causal role, such as languages, legal
+systems, and institutions. In the second class, the structure can be
+specified without a current token, but causal efficacy requires an
+active substrate that enforces the constraints over time.
 
 But showing that boundaries #emph[can] exist is not enough. To move from
 noticing these dimensions to measuring their reality, we require a
@@ -983,6 +1027,30 @@ $epsilon$-machine equals the acoustic $upsilon$-machine. What is
 relative is which domain we are asking about, not whether closure
 obtains within that domain.
 
+A deeper version of this objection presses further: who selects the
+intervention class? If the observer chooses to ask about acoustics
+rather than brass molecular dynamics, and closure is what makes
+something real, then reality becomes interest-relative. This worry
+conflates discovery with stipulation. For physical systems, the
+intervention classes that yield closure are determined by the system's
+constraint structure, not by the observer's interests. The trumpet's
+geometry channels vibrational energy into standing wave modes; this is a
+fact about its physical dynamics. Acoustic variables achieve closure
+because the trumpet's shape creates screening-off along those variables,
+regardless of whether anyone cares about music. The observer's role is
+to #emph[discover] which intervention classes yield closure for a given
+physical system, not to #emph[choose] them. Any agent probing the
+trumpet's dynamics will find acoustic closure, because the physics
+forces it. This parallels the $pi$ case: the observer does not choose to
+care about circumference-to-diameter ratios; the constraint structure of
+circles forces convergence on that variable. The difference is that
+$pi$'s constraints are geometrically necessary, while the trumpet's are
+contingent on its physical design. But contingency of origin does not
+entail interest-relativity of closure. Once the physical structure
+exists, whether by evolution, geological accident, or engineering, the
+closure facts are consequences of the dynamics, not of anyone's
+preferences.
+
 #strong[Social Entities]
 
 Corporations pose a harder test. A corporation has no physical boundary;
@@ -1008,6 +1076,21 @@ they sue, are sued, hold property, and persist through complete turnover
 of employees. They are not real in physical space; there is no
 "corporate substance." The criterion vindicates the common-sense view
 that corporations are legally real without being physically fundamental.
+
+A methodological caveat is warranted here. The
+$epsilon$-machine/$upsilon$-machine formalism was developed for physical
+dynamical systems with well-defined state spaces and measurable
+transition kernels. Legal and social systems lack these formal
+properties: "legal state space" does not have a Markov transition kernel
+in the mathematical sense. When we say a corporation achieves Causal
+Closure in legal space, we are applying the formalism's #emph[structural
+logic] (screening-off, predictive sufficiency, informational
+independence) rather than its literal mathematical apparatus. The claim
+is that the same pattern of screening-off that makes hurricanes real in
+physics makes corporations real in law, even though the former can be
+formalized exactly and the latter cannot (yet). We take this analogy to
+be structurally informative rather than merely rhetorical, but
+intellectual honesty requires noting the gap.
 
 #strong[Arbitrary Collections]
 
@@ -1093,8 +1176,8 @@ conditions, the information compression, the cross-dimensional
 invariance) yet still deny that these facts warrant ontological
 commitment. This brings us to the nihilist's final retreat.
 
-=== Part 6: The Nihilist's Retreat / The Implementation Layer
-<part-6-the-nihilists-retreat-the-implementation-layer>
+=== Part 6: The Nihilist's Retreat / From Implementation to Abstraction
+<part-6-the-nihilists-retreat-from-implementation-to-abstraction>
 A sophisticated nihilist might respond:
 
 #quote(block: true)[
@@ -1337,18 +1420,18 @@ substrate of people, just as Excel runs on a substrate of transistors.
 This distinction clarifies how orthogonal dimensions interact without
 collapsing into incoherent pluralism. How can a legal concept (a
 warrant) cause a physical event (an arrest)? They interact through the
-implementation layer. Dimensions are distinct in their causal
-logic---one cannot explain a tax statute using voltage---but remain
-tethered by existential dependency. Interaction occurs when a causal
-chain in one dimension triggers a state change in the implementation
-layer. This change then propagates upward into another dimension. For
-example: a judge signs a warrant (Legal Dimension). This moves physical
-ink on paper (Implementation Layer). This physical token is observed by
-a police officer, changing their cognitive state (Psychological
-Dimension), leading to a physical arrest (Physical Dimension). We avoid
-the "ghost in the machine" problem because we are not positing distinct
-substances passing through one another; we are describing software
-processes running on the same hardware.
+implementation layer. Dimensions are distinct in their causal logic; one
+cannot explain a tax statute using voltage. Still, they remain tethered
+by existential dependency. Interaction occurs when a causal chain in one
+dimension triggers a state change in the implementation layer, which
+then propagates into another dimension. For example, a judge signs a
+warrant (legal dimension). This changes the physical token
+(implementation layer). That token is observed by a police officer,
+changing their cognitive state (psychological dimension) and leading to
+a physical arrest (physical dimension). We avoid the "ghost in the
+machine" problem because we are not positing distinct substances passing
+through one another; we are describing software processes running on the
+same hardware.
 
 This logic applies recursively across every level of the universe. The
 rock is more fundamental than the corporation, but the corporation is
@@ -1373,6 +1456,492 @@ all other particles in the region. After the boundary forms, particle
 \#57's trajectory depends only on boundary conditions. The boundary has
 created a new causal architecture. That architecture meets the criteria
 of objecthood already relied upon in successful scientific practice.
+
+==== 6.2 Real Patterns as Strongly Lumpable Coarse-Grainings
+<real-patterns-as-strongly-lumpable-coarse-grainings>
+We are now in a position to state a precise identification that, to our
+knowledge, has not been made explicit in the literature. Dennett's
+(1991) Real Patterns correspond to the strongly lumpable
+coarse-grainings of $epsilon$-machines in the framework of Rosas et
+al.~(2024). This is not a loose analogy; it is a formal equivalence that
+resolves a long-standing ambiguity in Dennett's account.
+
+Dennett characterizes a Real Pattern as one that (a) enables compression
+of the data below the bit-map level, (b) is projectable to novel cases,
+and (c) is not an artifact of the observer's coding scheme. He contrasts
+these with noise (incompressible randomness) and with merely apparent
+patterns (which fail projectibility). But Dennett never provided a
+formal criterion for when compression constitutes a genuine pattern
+rather than a convenient shorthand. This gap left his account vulnerable
+to the "too permissive" objection: if any compression counts, what
+excludes phlogiston or the Shoe-Moon?
+
+Rosas et al.'s Theorem 3 supplies the missing criterion. A process $X$
+has informationally and causally closed macroscopic levels if and only
+if its $epsilon$-machine is strongly lumpable, meaning its causal states
+can be partitioned into groups that remain Markovian regardless of
+initial conditions. This is the formal condition under which a
+coarse-graining preserves the full computational structure of a system
+at the macro-level.
+
+The identification proceeds as follows:
+
++ #strong[Dennett's compression requirement] corresponds to the
+  existence of a coarse-graining $Z = f \( X \)$ with fewer states than
+  $X$ that nonetheless captures predictive structure. Any non-trivial
+  coarse-graining compresses.
+
++ #strong[Dennett's projectibility requirement] corresponds to Causal
+  Closure: the $epsilon$-machine of $Z$ equals its $upsilon$-machine.
+  This is what guarantees that the pattern supports counterfactual
+  reasoning and intervention, not merely retrospective fitting. The
+  pattern projects because its future depends only on its own past, not
+  on hidden micro-details.
+
++ #strong[Dennett's observer-independence requirement] corresponds to
+  strong lumpability (as opposed to mere weak lumpability). Strong
+  lumpability means the macro-process remains Markovian regardless of
+  the initial distribution over micro-states. The pattern is not an
+  artifact of a particular starting condition or a particular observer's
+  vantage point; it is a structural feature of the transition dynamics
+  themselves.
+
+The distinction between weak and strong lumpability deserves emphasis.
+Weak lumpability yields only computational closure: a pattern that holds
+under specific initial conditions but may dissolve under others. These
+are #emph[fragile patterns];, real under certain circumstances but not
+robustly projectable. Strong lumpability yields both computational and
+informational closure, producing patterns that are robust across all
+conditions. Only the latter are genuine Real Patterns in Dennett's
+sense.
+
+This formal identification also deepens the response to the "too
+permissive" objection discussed in Section 8.1. Consider why the
+Shoe-Moon fails: there is no partition of the causal states of the joint
+system (shoe + moon) that is strongly lumpable and tracks "Shoe-Moon" as
+a unit. The causal states relevant to the shoe's future and the moon's
+future are disjoint partitions of the joint $epsilon$-machine; combining
+them yields no lumpable coarse-graining. The attempted grouping is not
+merely useless; it is mathematically incompatible with the system's
+causal structure. No amount of notational ingenuity can make the
+Shoe-Moon lumpable, because lumpability is a property of the dynamics,
+not the description.
+
+Phlogiston fails for an analogous reason. The causal states of
+combustion processes are not lumpable with respect to the partition
+"phlogiston-release versus phlogiston-retention." The transition
+probabilities from different micro-states within the same
+phlogiston-class diverge: metals gain weight while wood loses it,
+violating the uniformity condition that lumpability requires. Oxygen
+succeeds because the relevant partition (oxidation states) is strongly
+lumpable: all micro-states compatible with a given oxidation level
+produce the same distribution over future oxidation levels.
+
+This identification has a further consequence that connects to the
+lattice structure described above. Rosas et al.~show that the collection
+of all strongly lumpable coarse-grainings of an $epsilon$-machine forms
+a lattice. Dennett's Real Patterns are therefore not an unstructured
+heap of "things that compress." They are hierarchically organized,
+nested inside one another, with precise mathematical relationships
+between levels. The rainforest, as we noted, is not a jungle; it is a
+lattice. Each node in that lattice is a Real Pattern whose reality is
+guaranteed by the dynamics of the system, not by the interests of the
+observer.
+
+==== 6.3 The Limiting Case: Mathematical Objects as Maximally Closed Patterns
+<the-limiting-case-mathematical-objects-as-maximally-closed-patterns>
+The framework developed above places physical objects like hurricanes
+and cells along a spectrum of causal closure. But the spectrum does not
+terminate at physical objects. At its far end, at maximal closure and
+minimal substrate dependence, lie mathematical objects, logical
+structures, and formal systems.
+
+Consider the game of chess. A chess position is a macro-state: it
+specifies which pieces occupy which squares and whose turn it is. The
+micro-state (the physical substrate) might be wooden pieces on a board,
+pixels on a screen, symbols in a letter, or neural activation patterns
+in a player's mind. The critical observation: the $epsilon$-machine of
+chess (which predicts future legal positions from current legal
+positions) is #emph[perfectly] computationally closed. It is a
+deterministic automaton whose transitions depend exclusively on the
+current position and the move played. No information about the substrate
+enters the transition function. The micro-details are not merely
+screened off approximately, as with a hurricane's pressure gradient;
+they are screened off #emph[absolutely];. The $epsilon$-machine and
+$upsilon$-machine are not just equivalent; the $upsilon$-machine has
+nothing additional to offer.
+
+This is not a special feature of chess. It holds for all well-defined
+formal systems. The successor function $S \( n \) = n + 1$ in arithmetic
+is a deterministic transition rule whose future states depend solely on
+the current number. Whether the number is instantiated as pebbles, tally
+marks, binary voltages, or firing neurons is entirely irrelevant to the
+transition. Similarly, a proof in first-order logic is a sequence of
+well-formed formulae, each following from predecessors by inference
+rules. The transition from one line to the next depends only on the
+formulae and the rules, never on whether the proof is written in ink,
+chalk, or photons. In each case, the $epsilon$-machine of the formal
+system captures every computation that occurs. There is no residual
+micro-level computation below the formal level that the formal level
+fails to account for.
+
+What all these cases share is total computational closure with zero
+substrate contribution. The next state depends only on the current state
+and the rules, never on the medium. The lattice of computational levels
+effectively collapses to a single non-trivial node: the formal system
+itself is both the micro-level and the macro-level, because its rules
+completely determine its dynamics.
+
+Mathematical objects are thus the #emph[limiting case] of Real Patterns:
+patterns that achieve perfect causal closure with complete substrate
+independence. In the five-axis framework developed in Part 9, they score
+maximally on Causal Closure, Constraint Tightness, and Invariance, while
+scoring minimally on Substrate Proximity. They are software that
+requires some hardware to run but is defined by no particular hardware.
+The number 7, the game of chess, and the Pythagorean theorem share their
+ontological type with hurricanes and cells; all are strongly lumpable
+coarse-grainings. They occupy the extreme end of the spectrum where
+substrate dependence vanishes entirely.
+
+To avoid equivocation, we can state this in a single template used
+throughout the paper: #strong[structure, implementation,
+representation];. The structure is the constraint system itself. The
+implementation is a physical process that runs it. The representation is
+an agent's fallible model of either the structure or a particular
+implementation. Much confusion in debates about abstraction comes from
+moving between these layers without notice.
+
+The terminology should track this distinction. For formal systems like
+chess or arithmetic, the relevant notion is #strong[internal structural
+closure];: consequence is fixed by the rules. For worldly systems like
+hurricanes, cells, or institutions-in-operation, the relevant notion is
+#strong[causal closure] at the macro level: additional micro-detail does
+not improve the target predictions within a specified regime.
+
+Chess illustrates the full triad clearly. Chess-as-structure is a
+substrate-independent transition system with exact closure.
+Chess-as-implementation is a concrete game on wood, silicon, or neural
+tissue. Chess-as-representation is a player's internal model, which can
+be partial or mistaken. The structure does not depend on the
+representation, but practical access to the structure does.
+
+Language provides a useful middle case. English-as-structure has
+articulable constraints (lexical, syntactic, inferential).
+English-as-implementation is a community process sustained by utterance,
+correction, memory, and institutional reinforcement.
+English-as-representation is a speaker's internal competence. Unlike
+chess, English has softer closure at the structural level because
+context and diachronic change matter. But this does not undermine the
+triad. It shows that closure strength varies by domain while the
+ontological architecture remains constant.
+
+==== 6.4 Dissolving the Platonic Realm
+<dissolving-the-platonic-realm>
+In the Introduction, we asserted that $pi$ is "neither Platonic nor
+conventional" but rather constraint-determined. The formal machinery
+developed above allows us to make this claim precise and extend it to
+mathematical objects generally.
+
+This point is compatible with saying that formal systems are invented,
+but not freely invented. We can stipulate symbols and axioms, but not
+every stipulation remains intelligible. Stable identity conditions,
+compositional inference, and coherent consequence constrain what counts
+as a usable formal system for finite agents tracking a structured world.
+This is why mathematics can be historically developed while still being
+objectively constrained.
+
+The Platonic intuition is well known. Mathematical truths seem to be
+discovered, not invented. The Pythagorean theorem held before any human
+proved it and will hold after humanity is gone. $pi$ does not depend on
+the existence of physical circles. Chess positions have properties (mate
+in three, drawn with best play) that are facts, not conventions. These
+observations have motivated varieties of mathematical Platonism since at
+least Frege (1884): the view that mathematical objects inhabit a realm
+independent of both physical and mental existence. The perennial
+objection is that this posits a mysterious non-physical realm and an
+equally mysterious faculty by which physical minds access it. How does a
+brain made of neurons interact with entities that have no spatiotemporal
+location? This "access problem" has made Platonism philosophically
+suspect despite its intuitive pull.
+
+Our framework resolves the tension by explaining #emph[why] mathematical
+objects feel Platonic without requiring a Platonic realm. Mathematical
+objects are maximally computationally closed patterns. Their
+$epsilon$-machines are entirely self-determining. This has three
+consequences that, taken together, reproduce every feature that
+motivates the Platonic intuition:
+
++ #strong[Discovery rather than invention.] Because the transitions are
+  fully determined by the axioms, any agent working within those axioms
+  will encounter the same patterns. You cannot choose a different value
+  for $pi$ and remain within Euclidean geometry, any more than you can
+  choose different energy dynamics and remain within the Ising model.
+  The phenomenology of "discovery" is simply the phenomenology of
+  encountering a computational structure that leaves no degrees of
+  freedom to the discoverer. The transitions were already determined by
+  the axioms before any agent traversed them.
+
++ #strong[Independence from the physical world.] Because mathematical
+  objects achieve zero substrate dependence, they are instantiable in
+  #emph[any] physical medium. This is why $pi$ seems independent of
+  physical circles: any physical realization of Euclidean constraints
+  will yield $pi$, but $pi$ is not identical to any particular
+  realization. The pattern transcends each instance because it is the
+  lumpable structure common to all instances. The "independence" is
+  real, but it is the independence of software from hardware, not the
+  independence of an immaterial entity from the material world.
+
++ #strong[Necessity and eternality.] Mathematical truths are necessary
+  relative to their axioms. Given the rules of chess, certain positions
+  are mate-in-three whether or not anyone has ever played chess. Given
+  the Peano axioms, $2 + 2 = 4$ regardless of the existence of physical
+  pairs. This necessity follows from perfect computational closure: if
+  the $epsilon$-machine is entirely self-determining, its outputs are
+  fixed once its axioms are fixed. No contingent substrate-level fact
+  could make the outputs come out differently. The "eternality" of
+  mathematical truth is the temporal invariance of a fully closed
+  computation.
+
+The Platonic realm, on this account, is not a place. It is a #emph[type]
+of pattern: the type that achieves maximal causal closure. When Plato
+observed that mathematical objects seemed to exist "beyond" the physical
+world, he was tracking a real structural feature, maximal substrate
+independence, and interpreting it through the metaphysical vocabulary
+available to his era. Our framework replaces the spatial metaphor with a
+precise structural claim: mathematical objects are patterns whose
+computational dynamics are entirely self-contained, making them
+instantiable in any medium without loss of structure.
+
+This dissolves the access problem. There is no mystery about how
+physical minds "access" mathematical truths, because mathematical
+patterns are not located in a separate realm requiring a special bridge.
+They are instantiated #emph[in] the physical processes of the brain (and
+the chalkboard, and the computer) whenever those processes realize the
+relevant computational structure. A brain computing $2 + 2$ is running
+the relevant $epsilon$-machine on neural hardware, exactly as a computer
+runs the same $epsilon$-machine on silicon. Access to mathematical truth
+is nothing more mysterious than running a computation, which is exactly
+what physical systems do when they instantiate lumpable patterns. (We
+develop the broader implications of this "instantiation thesis" in
+Section 9.2.)
+
+A useful comparison clarifies the generalization. Any formal system,
+whether a legal code, a programming language, or a board game,
+instantiates a self-contained $epsilon$-machine whose transitions are
+determined by its rules. Within the formal system, truths are necessary,
+discoverable, and substrate-independent. We do not feel tempted to posit
+a Platonic realm for chess or for contract law, because we can trace the
+human origins of these rule-systems. But the case of mathematics is
+structurally identical: axioms determine transitions, transitions
+determine truths, and truths are invariant across all physical
+realizations. The only difference is that mathematical axioms are
+#emph[constraint-determined] by the structure of physical reality
+(Euclidean geometry by spatial constraints, arithmetic by the structure
+of discrete quantity), while chess axioms are chosen by human
+convention. Once the axioms are fixed, whether by physics or by
+convention, the resulting computational structure is equally
+self-contained and equally substrate-independent. The feeling of
+"transcendence" that attaches to mathematical objects, but not to chess,
+tracks this difference in origin rather than a difference in ontological
+kind.
+
+==== 6.5 Cognition as Pattern Extraction
+<cognition-as-pattern-extraction>
+The preceding sections established that real patterns range from high
+substrate dependence (hurricanes, cells) to zero substrate dependence
+(mathematical objects). But we have not yet addressed the mechanism
+connecting these ends of the spectrum. How does a substrate-dependent
+pattern in the world become a substrate-independent concept in a mind,
+or a formalized equation on paper?
+
+Consider a physical hurricane. It is a real pattern: lumpable, causally
+closed, supporting prediction and intervention. But it remains
+#emph[this] hurricane, composed of #emph[these] water molecules,
+dependent on #emph[this] ocean's thermal energy. It sits in the middle
+of the spectrum: high closure, but nonzero substrate dependence.
+
+When an observer studies the hurricane and forms a concept of it, what
+occurs, in the framework's terms, is the extraction of an
+$epsilon$-machine. The observer strips away the substrate-specific
+details (which particular molecules, which ocean basin, which season)
+and retains the computational structure: the transition rules governing
+how hurricanes form, intensify, and dissipate. This extracted structure
+is then re-instantiated on a different substrate: the observer's neural
+hardware.
+
+Here a crucial point must be made precise. The extracted concept
+"hurricane" is not #emph[partially] substrate-independent. It is fully
+substrate-independent. In the observer's mind, "hurricane" interacts
+with "warm water," "low pressure," "Coriolis effect," and "coastal
+destruction," all at the conceptual level. The concept of warm water
+does not require actual water. The concept of a rock crushing an egg
+does not require an actual rock. These mental representations form their
+own causally closed system: conceptual-level variables affect only other
+conceptual-level variables, screened off from the neural implementation.
+They are software.
+
+One might object that mental concepts carry sensory associations (visual
+texture, felt weight), emotional valence, and contextual defaults that
+seem tied to the neural substrate. But these are not substrate leakage.
+They are additional variables at the same conceptual level. The concept
+"rock" connects to the concept "heavy" connects to the concept "danger";
+all of these are same-level causal relationships between
+representations. None of them require peeking at the neurons. The
+sensory image of a rock's roughness is itself a representation, causally
+closed with respect to other representations, not a raw neural signal
+leaking through. The whole system is software, running on neurons but
+defined by none of them.
+
+The act of representing a pattern, then, is the act of liberating its
+$epsilon$-machine from its original substrate. Cognition does not move
+patterns #emph[toward] substrate independence gradually; it achieves
+independence in a single step. The moment any information-processing
+system represents a pattern, that representation is fully portable. It
+runs on neurons, silicon, an alien's crystalline brain, or paper. It is
+causally closed at the conceptual level regardless of the medium.
+Extraction is liberation.
+
+This framing explains several features of cognition that otherwise
+appear puzzling.
+
+#strong[Why models are always approximations.] The physical hurricane
+retains residual substrate dependence: micro-level leakage that the
+macro-description does not perfectly capture. When the observer extracts
+the $epsilon$-machine, they capture whatever transition rules the
+closure made available, but they may miss some. The gap between model
+and reality is not substrate dependence in the representation; it is
+#emph[incompleteness];. The extracted $epsilon$-machine may lack
+transition rules that the real pattern possesses, because the real
+pattern had leakage the observer could not capture or regularities not
+yet discovered. But whatever #emph[was] captured is already fully
+substrate-independent. Better science consists in extracting more
+complete $epsilon$-machines: discovering more of the transition rules,
+closing more of the gaps.
+
+#strong[Why abstraction feels like discovery.] When you abstract from
+ten different crushing events to the concept "heavy rigid object crushes
+fragile object," you are identifying the lumpable structure common to
+all of them. That structure is real: it is the same $epsilon$-machine
+running across different substrates (different rocks, different eggs,
+different surfaces). The abstraction did not invent it; it discovered
+the substrate-independent core that was already present in each
+instance. This is why abstraction feels like revelation rather than
+stipulation: the common computational structure existed before anyone
+extracted it.
+
+#strong[Why prediction and intervention succeed.] The observer runs the
+extracted $epsilon$-machine forward in their mind (simulation), obtains
+a prediction (the egg breaks), and then re-imposes the pattern on the
+world (they move the egg). This works because the $epsilon$-machine is a
+genuine compression of the world's dynamics. It predicts well precisely
+because it was lumpable in reality before it was lumpable in the
+observer's head. The fidelity of the prediction tracks the completeness
+of the extraction.
+
+The full picture is therefore a loop:
+
++ #strong[Observation.] A substrate-dependent pattern exists in the
+  world. The observer extracts its $epsilon$-machine, stripping
+  substrate-specific details and instantiating the computational
+  structure as a concept.
++ #strong[Conceptualization.] The extracted $epsilon$-machine runs in
+  the observer's mind as software: fully substrate-independent, causally
+  closed at the conceptual level.
++ #strong[Simulation.] The observer runs the $epsilon$-machine forward,
+  generating predictions about the pattern's future states.
++ #strong[Intervention.] The observer acts on the world, re-imposing the
+  conceptual pattern onto physical substrates.
+
+Science, engineering, and everyday cognition all execute this loop. The
+physicist extracts $F = m a$, a substrate-independent $epsilon$-machine
+that runs identically on neurons, paper, or silicon. The engineer then
+re-imposes it on steel and concrete to build a bridge. The everyday
+reasoner extracts "heavy things fall" and uses it to catch a dropped
+cup.
+
+What distinguishes science from intuition, on this account, is not a
+difference in substrate independence (both produce fully portable
+representations) but a difference in #emph[completeness];. The
+physicist's $F = m a$ captures more of the real transition rules than
+the intuitive sense that "heavy things fall." Formalization does not
+make representations more substrate-independent; they already are. It
+makes them more #emph[complete];, closing the gap between the extracted
+$epsilon$-machine and the real dynamics it represents.
+
+Mathematical objects are what you get when this extraction is so
+complete that nothing is lost. Arithmetic was extracted from counting
+physical objects, geometry from measuring physical spaces. But the
+extracted $epsilon$-machines are so perfectly closed, so entirely
+self-determining, that they appear never to have been tied to the world
+at all. The feeling of mathematical transcendence tracks the
+completeness of the extraction, not a difference in ontological kind.
+Every concept, from the child's first grasp of "heavy" to the
+mathematician's proof of the prime number theorem, is a
+substrate-independent $epsilon$-machine. They differ in how much of
+reality's computational structure they managed to capture, not in their
+mode of existence.
+
+==== 6.6 What the Spectrum Reveals
+<what-the-spectrum-reveals>
+The identification of mathematical objects as the limiting case of Real
+Patterns yields several consequences worth drawing out.
+
+#strong[The unity of the ontological spectrum.] Traditional metaphysics
+treats physical objects, biological entities, social institutions, and
+mathematical structures as fundamentally different kinds of things,
+requiring different ontological frameworks. Our analysis reveals them as
+occupying different positions on a single continuum parametrized by
+substrate dependence and causal closure. A hurricane and $pi$ differ in
+degree, not in kind. Both are strongly lumpable coarse-grainings; both
+achieve causal closure; both are constraint-determined invariants. The
+hurricane depends on a specific thermodynamic substrate; $pi$ does not
+depend on any substrate. But the #emph[type] of reality they possess,
+the fact that they are self-contained computational structures
+discoverable by any sufficiently capable agent, is the same. Part 9
+develops this continuum in detail through the five-axis framework.
+
+#strong[Abstract objects without Platonism.] This framework vindicates
+the realist intuition about mathematics (mathematical truths are
+discovered, not invented; they are objective, not conventional) without
+the metaphysical cost of Platonism (a separate realm, a mysterious
+access relation). What makes abstract objects "abstract" is not that
+they inhabit a non-physical realm, but that their computational
+structure is so thoroughly self-contained that it can be instantiated in
+any medium whatsoever. Abstraction is maximal multiple realizability,
+which is maximal computational closure: the far end of the same spectrum
+that includes cells and storms.
+
+#strong[The nihilist's dilemma sharpens.] If the mereological nihilist
+insists that only fundamental particles are real, they must deny the
+reality of not just hurricanes and cells, but of numbers, logical
+truths, and the rules of inference they use to make their own argument.
+The number 7 is a strongly lumpable coarse-graining. The modus ponens
+inference rule is a transition in a deterministic automaton. If lumpable
+patterns are not real, then the logical apparatus of nihilism itself is
+not real: a self-defeating conclusion. Conversely, if the nihilist
+grants reality to logical structure (as they must, to reason at all),
+they have already conceded the principle that patterns achieving causal
+closure are real. The only remaining question is where on the spectrum
+to draw the line, and as we have argued throughout, no principled line
+exists. The nihilist who accepts the reality of modus ponens but denies
+the reality of hurricanes is making an arbitrary cut in a continuous
+spectrum.
+
+#strong[Software as the bridge concept.] Rosas et al.~(2024) describe
+systems as "running software" when they possess a macroscopic level that
+is causally closed with respect to lower scales. Our analysis reveals
+that this is not merely a metaphor. Human-engineered software occupies
+the same region of the spectrum as mathematical objects: perfect
+computational closure, zero substrate dependence. The reason we can run
+the same program on different hardware is precisely that the program
+achieves causal closure. This observation connects to a point implicit
+in Turing's (1936) foundational work: mathematics and computation are
+two perspectives on the same structural property. Mathematics studies
+the #emph[static] structure of maximally closed patterns (theorems,
+proofs, objects); computation studies their #emph[dynamic] instantiation
+(algorithms, processes, machines). The patterns themselves are the same
+lumpable structures, whether we encounter them in a proof or in a
+running program.
 
 If the nihilist retreats to facts, we must ask: what kind of thing is a
 fact that does causal work?
@@ -1488,15 +2057,9 @@ algorithmic complexity. This universality is epistemic rather than
 metaphysical: it reflects convergence under shared constraints, not
 fundamentality.
 
-Any intelligence modeling hurricane dynamics will converge on the vortex
-compression, because it is robustly selected by thermodynamic
-constraints. The boundaries we identify are objective in precisely this
-sense: they are constraint-determined invariants that emerge robustly
-from the physics across a wide class of modeling regimes. This explains
-why cross-agent convergence occurs. Different investigators working
-under the same constraints are driven toward the same compression
-targets. The pattern is selected in any predictor by the thermodynamic
-structure of the domain.
+Any intelligence modeling hurricane dynamics will converge on
+vortex-level compression because thermodynamic structure selects it.
+That is the sense in which these boundaries are objective.
 
 ==== 8.1 Objections to Rainforest Realism and How the Criterion Answers Them
 <objections-to-rainforest-realism-and-how-the-criterion-answers-them>
@@ -1610,35 +2173,33 @@ closed patterns is its skeleton.
 This yields a structured ontology, not an undifferentiated jungle.
 
 Scale relativity is central to this structure. At scale A (micro), the
-cup does not exist; at scale B (macro), the cup #emph[does] exist. Both
-scales are equally causally autonomous; physics does not grant the
-micro-scale ontological privilege. Consider: a human being exists
-simultaneously as a quantum field, a cellular colony, and a voting
-citizen. None of these descriptions is "more real" than the others. Each
-level achieves closure at its own scale. The voter is a valid object
-because you can predict election outcomes using "voters" without knowing
-anything about their mitochondria. This predictive independence
-demonstrates causal autonomy at the civic scale. The nihilist's attempt
-to reduce the cell to atoms is a category error: it confuses one scale
-of description with the only reality.
+cup does not exist. At scale B (macro), the cup does. Both scales can be
+causally autonomous; physics does not automatically grant ontological
+privilege to the micro-scale. A human being exists simultaneously as a
+quantum field, a cellular colony, and a voting citizen. None of these
+descriptions is simply "more real" than the others. Each level can
+achieve closure in its own intervention space. The voter is a valid
+object because election outcomes can be predicted using voter-level
+variables without reference to mitochondria. This predictive
+independence demonstrates causal autonomy at the civic scale. The
+nihilist's attempt to reduce the cell to atoms is a category error: it
+treats one scale of description as the only reality.
 
 Structural realism of this form permits multiple overlapping real
 patterns without requiring a unique "correct" decomposition. The heart
-can simultaneously be: a hydraulic pump (cardiovascular medicine), a
+can simultaneously be a hydraulic pump (cardiovascular medicine), a
 tissue culture medium (cellular biology), an electrical circuit
 (electrophysiology), an evolved organ (evolutionary biology), and a
 symbolic locus of emotion (cultural studies). These are not competing
-for the throne of "what the heart really is." Each represents a valid
-coarse-graining that achieves low leakiness within its respective
-constraint domain. What makes them all real is that each tracks an
-objectively measurable statistical dependency structure. What makes them
-compatible is that they operate over different state spaces with
-different intervention classes. The framework does not claim "the heart
-is real only insofar as it pumps blood"; it claims "the heart-as-pump
-achieves Causal Closure in the cardiovascular intervention space, while
+answers to "what the heart really is." Each is a valid coarse-graining
+with low leakiness in its own constraint domain. They are compatible
+because they operate over different state spaces and intervention
+classes. The framework does not claim that the heart is real only
+insofar as it pumps blood. It claims that heart-as-pump achieves Causal
+Closure in the cardiovascular intervention space, while
 heart-as-electrical-circuit achieves Causal Closure in the
-electrophysiological space." Both closures are real; both are
-discoverable; neither is reducible to the other.
+electrophysiological space. Both closures are real, discoverable, and
+irreducible to one another.
 
 Beyond scale relativity, invariants vary along multiple dimensions of
 'realness,' creating a rich multi-dimensional spectrum rather than a
@@ -1654,10 +2215,13 @@ boundary.
 
 An entity is an invariant when three conditions converge:
 
-+ #strong[Constraint-determined attractor];: The boundary emerges
-  necessarily from the constraint structure of its domain, not
-  arbitrarily. Any agent working under the same constraints will be
-  driven toward the same compression.
++ #strong[Constraint-determined convergence target];: The boundary
+  emerges from the constraint structure of its domain, not arbitrarily.
+  Any agent working under the same constraints will be driven toward the
+  same compression. In physical dynamical systems this often appears as
+  attractor-like behavior, but for formal structures such as chess and
+  arithmetic the stronger notion is rule-governed internal closure
+  rather than an attractor basin in state space.
 
 + #strong[Statistically useful for prediction];: The boundary enables
   stable, low-leakage prediction of future states. It compresses the
@@ -1697,8 +2261,8 @@ How "close" is the entity to the fundamental physical layer? This
 measures where the causal structure sits on the hardware-software
 spectrum.
 
-- #strong[High Proximity (Hardware):] Quarks, Molecules.
-- #strong[Low Proximity (Software):] Corporations, Minds, $pi$.
+- #strong[High Proximity (Hardware):] quarks, molecules.
+- #strong[Low Proximity (Software):] corporations, minds, $pi$.
 - #emph[Note:] Low proximity does not mean "non-physical." It means the
   causal structure is multiply realizable and screened off from the
   micro-details. All levels achieving Causal Closure are equally
@@ -1856,14 +2420,22 @@ implying atoms must magically coordinate to trick us. The computational
 perspective we have developed offers a potential clarification of what
 might be at stake in such debates.
 
-If the universe is a deterministic system that is compressible into
-stable macro-states without loss of predictive power, then high-level
-agents like us naturally emerge as computationally closed entities. This
+If the universe is deterministic and compressible into stable
+macro-states without loss of predictive power, then high-level agents
+like us can emerge as computationally closed entities. This
 compressibility is not an #emph[a priori] assumption but an empirical
 discovery. The evidence is straightforward: the special sciences work.
 Chemistry reduces to physics. Biology reduces to chemistry. The
-reductions succeed. This success is evidence that the universe has the
-hierarchical structure we describe.
+reductions succeed. This success is evidence for a layered structure of
+effective descriptions.
+
+To avoid modal overreach, the claim here is about entailment in the
+actual history. Given actual laws and actual initial conditions, some
+macro-patterns are forced features of the worldline. That does not
+require the stronger thesis that these patterns are instantiated in
+every possible history. The argument only needs the weaker claim: in
+this history, certain macro-regularities are law-governed consequences,
+and when instantiated they can achieve robust causal closure.
 
 Does this vindicate superdeterminism? Not entirely. Here is what it does
 and does not establish:
@@ -1972,53 +2544,24 @@ hand. When we find a level that achieves Causal Closure, we have hit
 bedrock. We have found a Whole that is as causally autonomous as its
 Parts.
 
-What this argument establishes is that ontology ignoring
-causal-informational structure is incomplete. Once you accept that
-science tracks real patterns (in the sense of universality and causal
-autonomy), that patterns support intervention, and that interventions
-would fail without treating wholes as units, then whether we #emph[call]
-them objects becomes secondary.
+Ontology that ignores causal-informational structure is incomplete. Once
+we accept that intervention success tracks stable, low-leakage
+boundaries, the remaining question is not whether wholes are "really
+real" in a fundamentalist sense. The question is which boundaries earn
+causal autonomy.
 
-The nihilist position remains formally consistent but does no additional
-explanatory work. To deny the hurricane's causal autonomy after
-accepting its causal power reduces to privileging a particular
-terminological convention over scientific practice. This position is not
-strictly inconsistent, but it has collapsed into a stance about
-vocabulary that leaves the substantive scientific questions untouched.
-Nihilism persists only by stipulating fundamentality as the sole
-criterion of reality: a choice about how to use the word "real," not a
-discovery about the world's causal structure.
+The nihilist position remains formally consistent, but it adds no
+explanatory or interventional gain. After granting macro-level causal
+power, denying objecthood amounts to a terminological preference about
+"real," not a deeper discovery about structure.
 
-The hurricane we named, tracked, and fled was not a linguistic
-convenience. It was a constraint-determined invariant, as objective as
-$pi$, as unavoidable as thermodynamics, as real as any agent attempting
-to model atmospheric dynamics will eventually discover. The question is
-not whether wholes exist, but whether we can afford to ignore the
-boundaries toward which the universe's constraint structure robustly
-selects us.
-
-The analysis suggests that disputes over the 'existence' of wholes often
-obscure a deeper point: scientific explanation and intervention require
-treating certain patterns as units, regardless of their metaphysical
-status. The relevant question is not "Do wholes exist?" but "What earns
-causal autonomy?" This is the question that matters for science and
-survival.
-
-Where causal powers, counterfactual stability, and resistance to
-informational intrusion converge, objecthood is realized. Wholes are not
-fundamental, but they are metaphysically real as unified loci of causal
-powers. Any agent, human or otherwise, interacting with the atmosphere's
-constraints will converge on adopting a concept like "hurricane" to
-predict efficiently under finite resources.
-
-A pattern is universally discoverable when any sufficiently capable
-agent, attempting to predict within the same constraints, is robustly
-selected toward encoding it. Alternatives simply incur escalating
-algorithmic complexity. This invariance is epistemic rather than
-metaphysical: it reflects convergence under shared constraints, not
-fundamentality. Whether that pattern is the physical wall of a
-hurricane, the legal boundary of a corporation, or the psychological
-reality of a dragon, each is a discoverable invariant in its own domain.
+The hurricane we track and flee is not a linguistic convenience. It is a
+constraint-determined invariant that any sufficiently capable agent will
+recover under the same predictive constraints. The same applies, with
+domain-specific differences, to organisms, institutions, and cognitive
+patterns. Wholes are not fundamental, but where causal powers,
+counterfactual stability, and resistance to informational intrusion
+converge, they are metaphysically real as unified loci of causal power.
 
 = Appendix A: Category Theory and the Reality of Wholes
 <appendix-a-category-theory-and-the-reality-of-wholes>
@@ -2316,6 +2859,10 @@ https:\/\/doi.org/10.1007/s11229-016-1234-6.
 Dennett, Daniel C. 1991. "Real Patterns." #emph[Journal of Philosophy]
 88(1): 27-51. https:\/\/doi.org/10.2307/2027085.
 
+Frege, Gottlob. 1884. #emph[Die Grundlagen der Arithmetik];. Breslau:
+Verlag von Wilhelm Koebner. Translated as #emph[The Foundations of
+Arithmetic] by J.L. Austin (1950). Oxford: Blackwell.
+
 Hoel, Erik P., Larissa Albantakis, and Giulio Tononi. 2013. "Quantifying
 Causal Emergence Shows that Macro Can Beat Micro." #emph[Proceedings of
 the National Academy of Sciences] 110(49): 19790--19795.
@@ -2347,6 +2894,10 @@ Rosas, Fernando E., Bernhard C. Geiger, Andrea I. Luppi, Anil K. Seth,
 Daniel Polani, Michael Gastpar, and Pedro A. M. Mediano. 2024. "Software
 in the natural world: A computational approach to hierarchical
 emergence" arXiv preprint arXiv:2402.09090.
+
+Turing, Alan M. 1936. "On Computable Numbers, with an Application to the
+Entscheidungsproblem." #emph[Proceedings of the London Mathematical
+Society] 2(42): 230--265. https:\/\/doi.org/10.1112/plms/s2-42.1.230.
 
 Woodward, James. 2003. #emph[Making Things Happen];. Oxford: Oxford
 University Press. ISBN 978-0195155273.

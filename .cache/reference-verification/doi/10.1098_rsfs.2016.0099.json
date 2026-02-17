@@ -4,14 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          30
+          2026,
+          1,
+          8
         ]
       ],
-      "date-time": "2025-12-30T11:12:50Z",
-      "timestamp": 1767093170982,
-      "version": "3.48.0"
+      "date-time": "2026-01-08T01:42:05Z",
+      "timestamp": 1767836525257,
+      "version": "3.49.0"
     },
     "reference-count": 53,
     "publisher": "The Royal Society",
@@ -168,7 +168,7 @@
     },
     "reference": [
       {
-        "key": "2025123005124105600_RSFS20160099C1",
+        "key": "2026010712333965700_RSFS20160099C1",
         "doi-asserted-by": "crossref",
         "first-page": "8002",
         "DOI": "10.1002/anie.200800022",
@@ -179,7 +179,7 @@
         "journal-title": "Angew. Chem. Int. Ed."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C2",
+        "key": "2026010712333965700_RSFS20160099C2",
         "doi-asserted-by": "crossref",
         "first-page": "3425",
         "DOI": "10.1039/b919450a",
@@ -190,7 +190,7 @@
         "journal-title": "Chem. Soc. Rev."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C3",
+        "key": "2026010712333965700_RSFS20160099C3",
         "doi-asserted-by": "crossref",
         "first-page": "883",
         "DOI": "10.1039/b806410p",
@@ -201,7 +201,7 @@
         "journal-title": "Chem. Soc. Rev."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C4",
+        "key": "2026010712333965700_RSFS20160099C4",
         "doi-asserted-by": "crossref",
         "first-page": "8375",
         "DOI": "10.1021/la900987r",
@@ -212,7 +212,7 @@
         "journal-title": "Langmuir"
       },
       {
-        "key": "2025123005124105600_RSFS20160099C5",
+        "key": "2026010712333965700_RSFS20160099C5",
         "doi-asserted-by": "crossref",
         "first-page": "13 165",
         "DOI": "10.1021/acs.chemrev.5b00299",
@@ -223,7 +223,7 @@
         "journal-title": "Chem. Rev."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C6",
+        "key": "2026010712333965700_RSFS20160099C6",
         "doi-asserted-by": "crossref",
         "first-page": "13 571",
         "DOI": "10.1021/acs.chemrev.6b00228",
@@ -234,7 +234,7 @@
         "journal-title": "Chem. Rev."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C7",
+        "key": "2026010712333965700_RSFS20160099C7",
         "doi-asserted-by": "crossref",
         "first-page": "5326",
         "DOI": "10.1039/C4CS00082J",
@@ -245,7 +245,7 @@
         "journal-title": "Chem. Soc. Rev."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C8",
+        "key": "2026010712333965700_RSFS20160099C8",
         "doi-asserted-by": "crossref",
         "first-page": "169",
         "DOI": "10.1002/bip.22058",
@@ -256,7 +256,7 @@
         "journal-title": "Biopolymers"
       },
       {
-        "key": "2025123005124105600_RSFS20160099C9",
+        "key": "2026010712333965700_RSFS20160099C9",
         "doi-asserted-by": "crossref",
         "first-page": "1527",
         "DOI": "10.1021/ar3002969",
@@ -267,7 +267,7 @@
         "journal-title": "Acc. Chem. Res."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C10",
+        "key": "2026010712333965700_RSFS20160099C10",
         "doi-asserted-by": "crossref",
         "first-page": "5496",
         "DOI": "10.1002/chem.200500241",
@@ -278,7 +278,7 @@
         "journal-title": "Chem. Eur. J."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C11",
+        "key": "2026010712333965700_RSFS20160099C11",
         "doi-asserted-by": "crossref",
         "first-page": "372",
         "DOI": "10.1002/chem.200801475",
@@ -289,7 +289,7 @@
         "journal-title": "Chem. Eur. J."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C12",
+        "key": "2026010712333965700_RSFS20160099C12",
         "doi-asserted-by": "crossref",
         "first-page": "1382",
         "DOI": "10.1039/c39930001382",
@@ -299,7 +299,7 @@
         "journal-title": "J. Chem. Soc. Chem. Commun."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C13",
+        "key": "2026010712333965700_RSFS20160099C13",
         "doi-asserted-by": "crossref",
         "first-page": "11",
         "DOI": "10.1039/C2BM00041E",
@@ -310,7 +310,7 @@
         "journal-title": "Biomater. Sci."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C14",
+        "key": "2026010712333965700_RSFS20160099C14",
         "doi-asserted-by": "crossref",
         "first-page": "5364",
         "DOI": "10.1039/c0cc00163e",
@@ -321,7 +321,7 @@
         "journal-title": "Chem. Commun."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C15",
+        "key": "2026010712333965700_RSFS20160099C15",
         "doi-asserted-by": "crossref",
         "first-page": "5008",
         "DOI": "10.1021/ja402490j",
@@ -332,7 +332,7 @@
         "journal-title": "J. Am. Chem. Soc."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C16",
+        "key": "2026010712333965700_RSFS20160099C16",
         "doi-asserted-by": "crossref",
         "first-page": "7331",
         "DOI": "10.1021/ma0491762",
@@ -343,7 +343,7 @@
         "journal-title": "Macromolecules"
       },
       {
-        "key": "2025123005124105600_RSFS20160099C17",
+        "key": "2026010712333965700_RSFS20160099C17",
         "doi-asserted-by": "crossref",
         "first-page": "15 030",
         "DOI": "10.1021/ja027993g",
@@ -354,7 +354,7 @@
         "journal-title": "J. Am. Chem. Soc."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C18",
+        "key": "2026010712333965700_RSFS20160099C18",
         "doi-asserted-by": "crossref",
         "first-page": "331",
         "DOI": "10.1039/B615857A",
@@ -365,7 +365,7 @@
         "journal-title": "Chem. Soc. Rev."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C19",
+        "key": "2026010712333965700_RSFS20160099C19",
         "doi-asserted-by": "crossref",
         "first-page": "478",
         "DOI": "10.1038/35006603",
@@ -376,7 +376,7 @@
         "journal-title": "Nature"
       },
       {
-        "key": "2025123005124105600_RSFS20160099C20",
+        "key": "2026010712333965700_RSFS20160099C20",
         "doi-asserted-by": "crossref",
         "first-page": "11 685",
         "DOI": "10.1021/acs.chemrev.6b00160",
@@ -387,7 +387,7 @@
         "journal-title": "Chem. Rev."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C21",
+        "key": "2026010712333965700_RSFS20160099C21",
         "doi-asserted-by": "crossref",
         "first-page": "5968",
         "DOI": "10.1021/jacs.6b02086",
@@ -398,7 +398,7 @@
         "journal-title": "J. Am. Chem. Soc."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C22",
+        "key": "2026010712333965700_RSFS20160099C22",
         "doi-asserted-by": "crossref",
         "first-page": "2112",
         "DOI": "10.1021/acs.macromol.5b02717",
@@ -409,7 +409,7 @@
         "journal-title": "Macromolecules"
       },
       {
-        "key": "2025123005124105600_RSFS20160099C23",
+        "key": "2026010712333965700_RSFS20160099C23",
         "doi-asserted-by": "crossref",
         "first-page": "13 666",
         "DOI": "10.1039/C5RA26181C",
@@ -420,7 +420,7 @@
         "journal-title": "RSC Adv."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C24",
+        "key": "2026010712333965700_RSFS20160099C24",
         "doi-asserted-by": "crossref",
         "first-page": "8315",
         "DOI": "10.1039/C5CC01996F",
@@ -431,7 +431,7 @@
         "journal-title": "Chem. Commun."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C25",
+        "key": "2026010712333965700_RSFS20160099C25",
         "doi-asserted-by": "crossref",
         "first-page": "3875",
         "DOI": "10.1002/adfm.201101001",
@@ -442,7 +442,7 @@
         "journal-title": "Adv. Funct. Mater."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C26",
+        "key": "2026010712333965700_RSFS20160099C26",
         "doi-asserted-by": "crossref",
         "first-page": "2536",
         "DOI": "10.1039/c0nr00766h",
@@ -453,7 +453,7 @@
         "journal-title": "Nanoscale"
       },
       {
-        "key": "2025123005124105600_RSFS20160099C27",
+        "key": "2026010712333965700_RSFS20160099C27",
         "doi-asserted-by": "crossref",
         "first-page": "6860",
         "DOI": "10.1039/C6CC01983H",
@@ -464,7 +464,7 @@
         "journal-title": "Chem. Commun."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C28",
+        "key": "2026010712333965700_RSFS20160099C28",
         "doi-asserted-by": "crossref",
         "first-page": "22928",
         "DOI": "10.1038/srep22928",
@@ -475,7 +475,7 @@
         "journal-title": "Sci. Rep."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C29",
+        "key": "2026010712333965700_RSFS20160099C29",
         "doi-asserted-by": "crossref",
         "first-page": "14609",
         "DOI": "10.1038/srep14609",
@@ -486,7 +486,7 @@
         "journal-title": "Sci. Rep."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C30",
+        "key": "2026010712333965700_RSFS20160099C30",
         "doi-asserted-by": "crossref",
         "first-page": "16 374",
         "DOI": "10.1021/ja906377q",
@@ -497,7 +497,7 @@
         "journal-title": "J. Am. Chem. Soc."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C31",
+        "key": "2026010712333965700_RSFS20160099C31",
         "doi-asserted-by": "crossref",
         "first-page": "4285",
         "DOI": "10.1039/c0cc00701c",
@@ -508,7 +508,7 @@
         "journal-title": "Chem. Commun."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C32",
+        "key": "2026010712333965700_RSFS20160099C32",
         "doi-asserted-by": "crossref",
         "first-page": "5882",
         "DOI": "10.1002/anie.201311158",
@@ -519,7 +519,7 @@
         "journal-title": "Angew. Chem. Int. Ed."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C33",
+        "key": "2026010712333965700_RSFS20160099C33",
         "doi-asserted-by": "crossref",
         "first-page": "1794",
         "DOI": "10.1021/bc500299c",
@@ -530,7 +530,7 @@
         "journal-title": "Bioconjugate Chem."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C34",
+        "key": "2026010712333965700_RSFS20160099C34",
         "doi-asserted-by": "crossref",
         "first-page": "20 410",
         "DOI": "10.1039/C5RA00172B",
@@ -541,7 +541,7 @@
         "journal-title": "RSC Adv."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C35",
+        "key": "2026010712333965700_RSFS20160099C35",
         "doi-asserted-by": "crossref",
         "first-page": "39 392",
         "DOI": "10.1039/C6RA06927D",
@@ -552,7 +552,7 @@
         "journal-title": "RSC Adv."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C36",
+        "key": "2026010712333965700_RSFS20160099C36",
         "doi-asserted-by": "crossref",
         "first-page": "5444",
         "DOI": "10.1039/c3cc41259h",
@@ -563,7 +563,7 @@
         "journal-title": "Chem. Commun."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C37",
+        "key": "2026010712333965700_RSFS20160099C37",
         "doi-asserted-by": "crossref",
         "first-page": "99",
         "DOI": "10.1002/smll.200500252",
@@ -574,7 +574,7 @@
         "journal-title": "Small"
       },
       {
-        "key": "2025123005124105600_RSFS20160099C38",
+        "key": "2026010712333965700_RSFS20160099C38",
         "doi-asserted-by": "crossref",
         "first-page": "3935",
         "DOI": "10.1039/C5CS00889A",
@@ -585,7 +585,7 @@
         "journal-title": "Chem. Soc. Rev."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C39",
+        "key": "2026010712333965700_RSFS20160099C39",
         "doi-asserted-by": "crossref",
         "first-page": "18",
         "DOI": "10.1039/C1PY00335F",
@@ -596,7 +596,7 @@
         "journal-title": "Polym. Chem."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C40",
+        "key": "2026010712333965700_RSFS20160099C40",
         "doi-asserted-by": "crossref",
         "first-page": "3220",
         "DOI": "10.1039/c0sm00018c",
@@ -607,7 +607,7 @@
         "journal-title": "Soft Matter"
       },
       {
-        "key": "2025123005124105600_RSFS20160099C41",
+        "key": "2026010712333965700_RSFS20160099C41",
         "doi-asserted-by": "crossref",
         "first-page": "8047",
         "DOI": "10.1039/C5CE00801H",
@@ -618,7 +618,7 @@
         "journal-title": "CrystEngComm"
       },
       {
-        "key": "2025123005124105600_RSFS20160099C42",
+        "key": "2026010712333965700_RSFS20160099C42",
         "doi-asserted-by": "crossref",
         "first-page": "10 285",
         "DOI": "10.1021/la9011058",
@@ -629,7 +629,7 @@
         "journal-title": "Langmuir"
       },
       {
-        "key": "2025123005124105600_RSFS20160099C43",
+        "key": "2026010712333965700_RSFS20160099C43",
         "doi-asserted-by": "crossref",
         "first-page": "475",
         "DOI": "10.1039/B916738B",
@@ -640,7 +640,7 @@
         "journal-title": "Soft Matter"
       },
       {
-        "key": "2025123005124105600_RSFS20160099C44",
+        "key": "2026010712333965700_RSFS20160099C44",
         "doi-asserted-by": "crossref",
         "first-page": "1011",
         "DOI": "10.1071/CH04130",
@@ -651,7 +651,7 @@
         "journal-title": "Aust. J. Chem."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C45",
+        "key": "2026010712333965700_RSFS20160099C45",
         "doi-asserted-by": "crossref",
         "first-page": "2735",
         "DOI": "10.1021/bm200510k",
@@ -662,7 +662,7 @@
         "journal-title": "Biomacromolecules"
       },
       {
-        "key": "2025123005124105600_RSFS20160099C46",
+        "key": "2026010712333965700_RSFS20160099C46",
         "doi-asserted-by": "crossref",
         "first-page": "6545",
         "DOI": "10.1021/jp000706f",
@@ -673,7 +673,7 @@
         "journal-title": "J. Phys. Chem. A"
       },
       {
-        "key": "2025123005124105600_RSFS20160099C47",
+        "key": "2026010712333965700_RSFS20160099C47",
         "doi-asserted-by": "crossref",
         "first-page": "6780",
         "DOI": "10.1021/ja2005175",
@@ -684,7 +684,7 @@
         "journal-title": "J. Am. Chem. Soc."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C48",
+        "key": "2026010712333965700_RSFS20160099C48",
         "doi-asserted-by": "crossref",
         "first-page": "6891",
         "DOI": "10.1039/c3cc43538e",
@@ -695,7 +695,7 @@
         "journal-title": "Chem. Commun."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C49",
+        "key": "2026010712333965700_RSFS20160099C49",
         "doi-asserted-by": "crossref",
         "first-page": "3376",
         "DOI": "10.1002/anie.201002307",
@@ -706,7 +706,7 @@
         "journal-title": "Angew. Chem. Int. Ed."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C50",
+        "key": "2026010712333965700_RSFS20160099C50",
         "doi-asserted-by": "crossref",
         "first-page": "6692",
         "DOI": "10.1021/j100355a025",
@@ -717,7 +717,7 @@
         "journal-title": "J. Phys. Chem."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C51",
+        "key": "2026010712333965700_RSFS20160099C51",
         "doi-asserted-by": "crossref",
         "first-page": "1460",
         "DOI": "10.1149/1.2086690",
@@ -728,7 +728,7 @@
         "journal-title": "J. Electrochem. Soc."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C52",
+        "key": "2026010712333965700_RSFS20160099C52",
         "doi-asserted-by": "crossref",
         "first-page": "3513",
         "DOI": "10.1021/ja984188m",
@@ -739,7 +739,7 @@
         "journal-title": "J. Am. Chem. Soc."
       },
       {
-        "key": "2025123005124105600_RSFS20160099C53",
+        "key": "2026010712333965700_RSFS20160099C53",
         "doi-asserted-by": "crossref",
         "first-page": "7063",
         "DOI": "10.1021/jo061195h",
@@ -784,13 +784,13 @@
     "deposited": {
       "date-parts": [
         [
-          2025,
-          12,
-          30
+          2026,
+          1,
+          7
         ]
       ],
-      "date-time": "2025-12-30T10:12:54Z",
-      "timestamp": 1767089574000
+      "date-time": "2026-01-07T17:33:46Z",
+      "timestamp": 1767807226000
     },
     "score": 1,
     "resource": {
@@ -839,12 +839,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "2042-8898"
+        "value": "2042-8898",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "2042-8901"
+        "value": "2042-8901",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -871,7 +871,7 @@
     ],
     "article-number": "20160099"
   },
-  "timestamp": 1767726506725,
+  "timestamp": 1771267073855,
   "ttl": 2592000000,
   "source": "crossref"
 }

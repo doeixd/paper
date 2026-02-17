@@ -4,14 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          11,
-          15
+          2026,
+          1,
+          31
         ]
       ],
-      "date-time": "2025-11-15T07:27:57Z",
-      "timestamp": 1763191677917,
-      "version": "3.45.0"
+      "date-time": "2026-01-31T05:31:38Z",
+      "timestamp": 1769837498566,
+      "version": "3.49.0"
     },
     "reference-count": 52,
     "publisher": "Wiley",
@@ -68,7 +68,7 @@
     "page": "1037-1056",
     "update-policy": "https://doi.org/10.1002/crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 1,
     "title": [
       "Emergent moral non‐naturalism"
     ],
@@ -98,10 +98,10 @@
     },
     "reference": [
       {
+        "key": "e_1_2_8_2_1",
         "volume-title": "Space, time, and deity",
-        "year": "1920",
         "author": "Alexander S.",
-        "key": "e_1_2_8_2_1"
+        "year": "1920"
       },
       {
         "key": "e_1_2_8_3_1",
@@ -156,10 +156,10 @@
         "DOI": "10.1017/CBO9780511624612"
       },
       {
+        "key": "e_1_2_8_13_1",
         "volume-title": "The mind and its place in nature",
-        "year": "1925",
         "author": "Broad C. D.",
-        "key": "e_1_2_8_13_1"
+        "year": "1925"
       },
       {
         "key": "e_1_2_8_14_1",
@@ -194,16 +194,16 @@
         "year": "2009"
       },
       {
+        "key": "e_1_2_8_20_1",
         "volume-title": "Ethical intuitionism",
-        "year": "2005",
         "author": "Huemer M.",
-        "key": "e_1_2_8_20_1"
+        "year": "2005"
       },
       {
+        "key": "e_1_2_8_21_1",
         "volume-title": "From metaphysics to ethics: A defence of conceptual analysis",
-        "year": "1998",
         "author": "Jackson F.",
-        "key": "e_1_2_8_21_1"
+        "year": "1998"
       },
       {
         "key": "e_1_2_8_22_1",
@@ -253,10 +253,10 @@
         "year": "2012"
       },
       {
+        "key": "e_1_2_8_31_1",
         "volume-title": "Principia ethica",
-        "year": "1903",
         "author": "Moore G. E.",
-        "key": "e_1_2_8_31_1"
+        "year": "1903"
       },
       {
         "key": "e_1_2_8_32_1",
@@ -285,15 +285,15 @@
         "DOI": "10.1111/phc3.12473"
       },
       {
+        "key": "e_1_2_8_36_1",
         "volume-title": "On what matters",
-        "year": "2011",
         "author": "Parfit D.",
-        "key": "e_1_2_8_36_1"
+        "year": "2011"
       },
       {
+        "key": "e_1_2_8_37_1",
         "volume-title": "Oxford studies in metaethics, vol 21",
-        "author": "Powers A.",
-        "key": "e_1_2_8_37_1"
+        "author": "Powers A."
       },
       {
         "key": "e_1_2_8_38_1",
@@ -306,16 +306,16 @@
         "DOI": "10.1093/oso/9780199652624.003.0011"
       },
       {
+        "key": "e_1_2_8_40_1",
         "volume-title": "The right and the good",
-        "year": "1930",
         "author": "Ross W. D.",
-        "key": "e_1_2_8_40_1"
+        "year": "1930"
       },
       {
+        "key": "e_1_2_8_41_1",
         "volume-title": "What we owe to each other",
-        "year": "1998",
         "author": "Scanlon T. M.",
-        "key": "e_1_2_8_41_1"
+        "year": "1998"
       },
       {
         "key": "e_1_2_8_42_1",
@@ -451,12 +451,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0031-8205"
+        "value": "0031-8205",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1933-1592"
+        "value": "1933-1592",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -502,7 +502,7 @@
       }
     ]
   },
-  "timestamp": 1767725911035,
+  "timestamp": 1771266718871,
   "ttl": 2592000000,
   "source": "crossref"
 }

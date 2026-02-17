@@ -1,0 +1,88 @@
+\begin{thebibliography}{19}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{\url{https://doi.org/#1}}
+\providecommand{\eprint}[2][]{\url{#2}}
+ \bibcommenthead
+
+\bibitem[{Ainsworth(2009)}]{ainsworth2009}
+Ainsworth PM (2009) Newman's objection. The British Journal for the Philosophy
+  of Science 60(1):135--171. \doi{10.1093/bjps/axn051}
+
+\bibitem[{Ando and Simon(1961)}]{ando1961}
+Ando A, Simon HA (1961) Aggregation of variables in dynamic systems.
+  Econometrica 29(2):111--138. \doi{10.2307/1909285}
+
+\bibitem[{Cover and Thomas(2006)}]{cover2006}
+Cover TM, Thomas JA (2006) Elements of Information Theory, 2nd edn. Wiley.
+\newblock \doi{10.1002/047174882X}
+
+\bibitem[{Dennett(1991)}]{dennett1991}
+Dennett DC (1991) Real patterns. The Journal of Philosophy 88(1):27--51.
+  \doi{10.2307/2027085}
+
+\bibitem[{Elgin(2017)}]{elgin2017}
+Elgin CZ (2017) From knowledge to understanding. In: True Enough. MIT Press, p
+  33--62.
+\newblock \doi{10.7551/mitpress/9780262036535.003.0003}
+
+\bibitem[{G{\l}adziejewski(2025)}]{gladziejewski2025}
+G{\l}adziejewski P (2025) Real patterns, the predictive mind, and the cognitive
+  construction of the manifest image. Synthese 206:225.
+  \doi{10.1007/s11229-025-05311-0}
+
+\bibitem[{Haugeland(1998)}]{haugeland1998}
+Haugeland J (1998) Having Thought: Essays in the Metaphysics of Mind. Harvard
+  University Press
+
+\bibitem[{Hoel et~al.(2013)Hoel, Albantakis, and Tononi}]{hoel2013}
+Hoel EP, Albantakis L, Tononi G (2013) Quantifying causal emergence shows that
+  macro can beat micro. Proceedings of the National Academy of Sciences
+  110(49):19790--19795. \doi{10.1073/pnas.1314922110}
+
+\bibitem[{van Inwagen(1990)}]{vaninwagen1990}
+van Inwagen P (1990) Material Beings. Cornell University Press
+
+\bibitem[{Kemeny and Snell(1960)}]{kemeny1960}
+Kemeny JG, Snell JL (1960) Finite Markov Chains. Van Nostrand.
+\newblock Reprinted 1976, Springer
+
+\bibitem[{Kim(1998)}]{kim1998}
+Kim J (1998) Mind in a Physical World. MIT Press
+
+\bibitem[{Kim(2005)}]{kim2005}
+Kim J (2005) Physicalism, or Something Near Enough. Princeton University Press
+
+\bibitem[{Ladyman and Ross(2007)}]{ladyman2007}
+Ladyman J, Ross D (2007) Every Thing Must Go: Metaphysics Naturalized. Oxford
+  University Press
+
+\bibitem[{Lewis(1986)}]{lewis1986}
+Lewis D (1986) On the Plurality of Worlds. Blackwell
+
+\bibitem[{Pearl(2000)}]{pearl2000}
+Pearl J (2000) Causality: Models, Reasoning, and Inference. Cambridge
+  University Press
+
+\bibitem[{Rosas et~al.(2024)Rosas, Geiger, Luppi, Seth, Polani, Gastpar, and
+  Mediano}]{rosas2024}
+Rosas FE, Geiger BC, Luppi AI, Seth AK, Polani D, Gastpar M, Mediano PAM (2024)
+  Software in the natural world: A computational approach to hierarchical
+  emergence. arXiv preprint arXiv:2402.09090.
+\newblock \urlprefix\url{https://arxiv.org/abs/2402.09090}
+
+\bibitem[{Shalizi and Crutchfield(2001)}]{shalizi2001}
+Shalizi CR, Crutchfield JP (2001) Computational mechanics: Pattern and
+  prediction, structure and simplicity. Journal of Statistical Physics
+  104(3-4):817--879. \doi{10.1023/A:1010388907793}
+
+\bibitem[{Woodward(2003)}]{woodward2003}
+Woodward J (2003) Making Things Happen: A Theory of Causal Explanation. Oxford
+  University Press
+
+\bibitem[{Woodward(2015)}]{woodward2015}
+Woodward J (2015) Methodology, ontology, and interventionism. Synthese
+  192(11):3577--3599. \doi{10.1007/s11229-014-0479-1}
+
+\end{thebibliography}

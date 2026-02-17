@@ -4,14 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          27
+          2026,
+          2,
+          11
         ]
       ],
-      "date-time": "2025-12-27T15:08:45Z",
-      "timestamp": 1766848125604,
-      "version": "3.45.0"
+      "date-time": "2026-02-11T12:53:43Z",
+      "timestamp": 1770814423544,
+      "version": "3.50.1"
     },
     "reference-count": 249,
     "publisher": "Elsevier BV",
@@ -99,7 +99,7 @@
     "page": "106296",
     "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 3,
+    "is-referenced-by-count": 6,
     "special_numbering": "C",
     "title": [
       "A beautiful loop: An active inference theory of consciousness"
@@ -200,10 +200,10 @@
         "journal-title": "Conscious. Cogn."
       },
       {
-        "year": "2021",
+        "key": "10.1016/j.neubiorev.2025.106296_bib9",
         "series-title": "A mind without craving",
         "author": "Armstrong",
-        "key": "10.1016/j.neubiorev.2025.106296_bib9"
+        "year": "2021"
       },
       {
         "key": "10.1016/j.neubiorev.2025.106296_bib10",
@@ -274,16 +274,16 @@
         "journal-title": "NeuroImage"
       },
       {
-        "year": "2020",
+        "key": "10.1016/j.neubiorev.2025.106296_bib16",
         "series-title": "Seven and a half lessons about the brain",
         "author": "Barrett",
-        "key": "10.1016/j.neubiorev.2025.106296_bib16"
+        "year": "2020"
       },
       {
-        "year": "2015",
+        "key": "10.1016/j.neubiorev.2025.106296_bib17",
         "series-title": "Encounters of mind: luminosity and personhood in Indian and Chinese thought",
         "author": "Berger",
-        "key": "10.1016/j.neubiorev.2025.106296_bib17"
+        "year": "2015"
       },
       {
         "issue": "1",
@@ -304,10 +304,10 @@
         "DOI": "10.1007/s12671-024-02418-2"
       },
       {
-        "year": "1963",
+        "key": "10.1016/j.neubiorev.2025.106296_bib20",
         "series-title": "Vākyapadīya of Bhartṛhari with the Commentary of Helārāja, Kāṇḍ 3, Part 1",
         "author": "Bhartṛhari",
-        "key": "10.1016/j.neubiorev.2025.106296_bib20"
+        "year": "1963"
       },
       {
         "issue": "1",
@@ -321,10 +321,10 @@
         "journal-title": "Neurosci. Conscious."
       },
       {
+        "key": "10.1016/j.neubiorev.2025.106296_bib22",
         "volume": "17",
-        "year": "1995",
         "author": "Boisvert",
-        "key": "10.1016/j.neubiorev.2025.106296_bib22"
+        "year": "1995"
       },
       {
         "issue": "6031",
@@ -375,10 +375,10 @@
         "journal-title": "Trends Cogn. Sci."
       },
       {
-        "year": "2014",
+        "key": "10.1016/j.neubiorev.2025.106296_bib27",
         "series-title": "Seeing that frees: Meditations on emptiness and dependent arising",
         "author": "Burbea",
-        "key": "10.1016/j.neubiorev.2025.106296_bib27"
+        "year": "2014"
       },
       {
         "key": "10.1016/j.neubiorev.2025.106296_bib28",
@@ -433,10 +433,10 @@
         "journal-title": "J. Conscious. Stud."
       },
       {
-        "year": "1997",
+        "key": "10.1016/j.neubiorev.2025.106296_bib33",
         "series-title": "The conscious mind: In search of a fundamental theory",
         "author": "Chalmers",
-        "key": "10.1016/j.neubiorev.2025.106296_bib33"
+        "year": "1997"
       },
       {
         "key": "10.1016/j.neubiorev.2025.106296_bib34",
@@ -527,10 +527,10 @@
         "journal-title": "Trends Cogn. Sci."
       },
       {
-        "year": "1971",
+        "key": "10.1016/j.neubiorev.2025.106296_bib42",
         "series-title": "Be here now",
         "author": "Dass",
-        "key": "10.1016/j.neubiorev.2025.106296_bib42"
+        "year": "1971"
       },
       {
         "issue": "2",
@@ -698,10 +698,10 @@
         "journal-title": "Curr. Opin. Psychol."
       },
       {
-        "journal-title": "Nirvana Sunyata Vijnaptimatrata",
-        "year": "1964",
+        "key": "10.1016/j.neubiorev.2025.106296_bib58",
         "author": "Dutt",
-        "key": "10.1016/j.neubiorev.2025.106296_bib58"
+        "year": "1964",
+        "journal-title": "Nirvana Sunyata Vijnaptimatrata"
       },
       {
         "issue": "12",
@@ -821,10 +821,10 @@
         "journal-title": "Philos. Trans. R. Soc. Lond. Ser. B Biol. Sci."
       },
       {
-        "journal-title": "Integr. Inf. Theory Conscious. pseudoscience",
-        "year": "2023",
+        "key": "10.1016/j.neubiorev.2025.106296_bib70",
         "author": "Fleming",
-        "key": "10.1016/j.neubiorev.2025.106296_bib70"
+        "year": "2023",
+        "journal-title": "Integr. Inf. Theory Conscious. pseudoscience"
       },
       {
         "key": "10.1016/j.neubiorev.2025.106296_bib71",
@@ -1070,10 +1070,10 @@
         "journal-title": "Front Psychol."
       },
       {
-        "year": "2013",
+        "key": "10.1016/j.neubiorev.2025.106296_bib94",
         "series-title": "The predictive mind",
         "author": "Hohwy",
-        "key": "10.1016/j.neubiorev.2025.106296_bib94"
+        "year": "2013"
       },
       {
         "issue": "2",
@@ -1122,10 +1122,10 @@
         "journal-title": "Philos. Mind Sci."
       },
       {
-        "year": "2020",
+        "key": "10.1016/j.neubiorev.2025.106296_bib99",
         "series-title": "The lucid dreaming workbook: A Step-by-step guide to mastering your dream life",
         "author": "Holecek",
-        "key": "10.1016/j.neubiorev.2025.106296_bib99"
+        "year": "2020"
       },
       {
         "issue": "27",
@@ -1150,10 +1150,10 @@
         "journal-title": "Front. Hum. Neurosci."
       },
       {
-        "year": "1968",
+        "key": "10.1016/j.neubiorev.2025.106296_bib102",
         "series-title": "The doors of perception",
         "author": "Huxley",
-        "key": "10.1016/j.neubiorev.2025.106296_bib102"
+        "year": "1968"
       },
       {
         "key": "10.1016/j.neubiorev.2025.106296_bib103",
@@ -1167,16 +1167,16 @@
         "journal-title": "Neuron"
       },
       {
-        "year": "2018",
+        "key": "10.1016/j.neubiorev.2025.106296_bib104",
         "series-title": "Mastering the core teachings of the buddha: An unusually hardcore dharma Book-Revised and expanded edition",
         "author": "Ingram",
-        "key": "10.1016/j.neubiorev.2025.106296_bib104"
+        "year": "2018"
       },
       {
+        "key": "10.1016/j.neubiorev.2025.106296_bib105",
         "volume": "1",
-        "year": "1890",
         "author": "James",
-        "key": "10.1016/j.neubiorev.2025.106296_bib105"
+        "year": "1890"
       },
       {
         "key": "10.1016/j.neubiorev.2025.106296_bib106",
@@ -1201,10 +1201,10 @@
         "journal-title": "Front. Hum. Neurosci."
       },
       {
-        "year": "2011",
+        "key": "10.1016/j.neubiorev.2025.106296_bib108",
         "series-title": "Thinking, fast and slow",
         "author": "Kahneman",
-        "key": "10.1016/j.neubiorev.2025.106296_bib108"
+        "year": "2011"
       },
       {
         "issue": "6",
@@ -1354,10 +1354,10 @@
         "journal-title": "Trends Neurosci."
       },
       {
-        "year": "2022",
+        "key": "10.1016/j.neubiorev.2025.106296_bib122",
         "series-title": "In consciousness we trust: The cognitive neuroscience of subjective experience",
         "author": "Lau",
-        "key": "10.1016/j.neubiorev.2025.106296_bib122"
+        "year": "2022"
       },
       {
         "issue": "49",
@@ -1460,10 +1460,10 @@
         "journal-title": "Trends Cogn. Sci."
       },
       {
-        "year": "2017",
+        "key": "10.1016/j.neubiorev.2025.106296_bib132",
         "series-title": "The psychedelic experience: A manual based on the Tibetan book of the dead",
         "author": "Leary",
-        "key": "10.1016/j.neubiorev.2025.106296_bib132"
+        "year": "2017"
       },
       {
         "issue": "7",
@@ -1512,10 +1512,10 @@
         "journal-title": "Front. Psychol."
       },
       {
-        "year": "2014",
+        "key": "10.1016/j.neubiorev.2025.106296_bib137",
         "series-title": "The Vajra Essence: Dudjom Lingpa's Visions of the Great Perfection",
         "author": "Lingpa",
-        "key": "10.1016/j.neubiorev.2025.106296_bib137"
+        "year": "2014"
       },
       {
         "key": "10.1016/j.neubiorev.2025.106296_bib138",
@@ -1536,10 +1536,10 @@
         "journal-title": "Conscious. Cogn."
       },
       {
-        "journal-title": "Algorithm Agent Model Pure Aware. Minimal Exp.",
-        "year": "2025",
+        "key": "10.1016/j.neubiorev.2025.106296_bib140",
         "author": "Lopez-Sola",
-        "key": "10.1016/j.neubiorev.2025.106296_bib140"
+        "year": "2025",
+        "journal-title": "Algorithm Agent Model Pure Aware. Minimal Exp."
       },
       {
         "key": "10.1016/j.neubiorev.2025.106296_bib141",
@@ -1756,10 +1756,10 @@
         "journal-title": "J. Artif. Intell. Conscious."
       },
       {
-        "year": "2024",
+        "key": "10.1016/j.neubiorev.2025.106296_bib160",
         "series-title": "The elephant and the blind: The experience of pure consciousness: philosophy, science, and 500+ experiential reports",
         "author": "Metzinger",
-        "key": "10.1016/j.neubiorev.2025.106296_bib160"
+        "year": "2024"
       },
       {
         "issue": "1",
@@ -1856,10 +1856,10 @@
         "journal-title": "J. Creat. Behav."
       },
       {
-        "year": "2008",
+        "key": "10.1016/j.neubiorev.2025.106296_bib169",
         "series-title": "Natural liberation: Padmasambhava’s teachings on the six bardos",
         "author": "Padmasambhava",
-        "key": "10.1016/j.neubiorev.2025.106296_bib169"
+        "year": "2008"
       },
       {
         "key": "10.1016/j.neubiorev.2025.106296_bib170",
@@ -1906,10 +1906,10 @@
         "journal-title": "Psychopharmacology"
       },
       {
-        "year": "2022",
+        "key": "10.1016/j.neubiorev.2025.106296_bib174",
         "series-title": "Active inference: The free energy principle in mind, brain, and behavior",
         "author": "Parr",
-        "key": "10.1016/j.neubiorev.2025.106296_bib174"
+        "year": "2022"
       },
       {
         "key": "10.1016/j.neubiorev.2025.106296_bib175",
@@ -1958,10 +1958,10 @@
         "journal-title": "Trends Neurosci."
       },
       {
-        "journal-title": "Towards Act. Inference Acc. Deep Medit. Deconstruction",
-        "year": "2024",
+        "key": "10.1016/j.neubiorev.2025.106296_bib179",
         "author": "Prest",
-        "key": "10.1016/j.neubiorev.2025.106296_bib179"
+        "year": "2024",
+        "journal-title": "Towards Act. Inference Acc. Deep Medit. Deconstruction"
       },
       {
         "issue": "2",
@@ -2078,10 +2078,10 @@
         "journal-title": "Conscious. Cogn."
       },
       {
-        "year": "2016",
+        "key": "10.1016/j.neubiorev.2025.106296_bib193",
         "series-title": "Manual of insight",
         "author": "Sayadaw",
-        "key": "10.1016/j.neubiorev.2025.106296_bib193"
+        "year": "2016"
       },
       {
         "issue": "8",
@@ -2125,10 +2125,10 @@
         "journal-title": "Cereb. Cortex"
       },
       {
-        "year": "2002",
+        "key": "10.1016/j.neubiorev.2025.106296_bib198",
         "series-title": "Consciousness and language",
         "author": "Searle",
-        "key": "10.1016/j.neubiorev.2025.106296_bib198"
+        "year": "2002"
       },
       {
         "issue": "11",
@@ -2400,10 +2400,10 @@
         "year": "2015"
       },
       {
-        "year": "2000",
+        "key": "10.1016/j.neubiorev.2025.106296_bib225",
         "series-title": "Prajna Paramita Heart Sutra",
         "author": "To",
-        "key": "10.1016/j.neubiorev.2025.106296_bib225"
+        "year": "2000"
       },
       {
         "issue": "11",
@@ -2465,10 +2465,10 @@
         "journal-title": "Curr. Opin. Neurobiol."
       },
       {
-        "year": "2017",
+        "key": "10.1016/j.neubiorev.2025.106296_bib231",
         "series-title": "The embodied mind, revised edition: Cognitive science and human experience",
         "author": "Varela",
-        "key": "10.1016/j.neubiorev.2025.106296_bib231"
+        "year": "2017"
       },
       {
         "issue": "9",
@@ -2507,20 +2507,20 @@
         "journal-title": "Behav. Res. Methods"
       },
       {
-        "year": "2002",
+        "key": "10.1016/j.neubiorev.2025.106296_bib235",
         "series-title": "The illusion of conscious will",
         "author": "Wegner",
-        "key": "10.1016/j.neubiorev.2025.106296_bib235"
+        "year": "2002"
       },
       {
         "key": "10.1016/j.neubiorev.2025.106296_bib236",
         "unstructured": "Wei, J., Tay, Y., Bommasani, R., Raffel, C., Zoph, B., Borgeaud, S., … & Fedus, W. 2022. Emergent abilities of large language models. arXiv preprint arXiv:2206.07682."
       },
       {
-        "year": "1986",
+        "key": "10.1016/j.neubiorev.2025.106296_bib237",
         "series-title": "Blindsight: A case study and implications",
         "author": "Weiskrantz",
-        "key": "10.1016/j.neubiorev.2025.106296_bib237"
+        "year": "1986"
       },
       {
         "key": "10.1016/j.neubiorev.2025.106296_bib238",
@@ -2550,10 +2550,10 @@
         "journal-title": "PloS One"
       },
       {
-        "year": "2013",
+        "key": "10.1016/j.neubiorev.2025.106296_bib241",
         "series-title": "The reflective nature of awareness: A Tibetan madhyamaka defence",
         "author": "Williams",
-        "key": "10.1016/j.neubiorev.2025.106296_bib241"
+        "year": "2013"
       },
       {
         "key": "10.1016/j.neubiorev.2025.106296_bib242",
@@ -2692,8 +2692,8 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0149-7634"
+        "value": "0149-7634",
+        "type": "print"
       }
     ],
     "subject": [],
@@ -2739,7 +2739,7 @@
     ],
     "article-number": "106296"
   },
-  "timestamp": 1767726655431,
+  "timestamp": 1771267073191,
   "ttl": 2592000000,
   "source": "crossref"
 }

@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          16
         ]
       ],
-      "date-time": "2026-01-06T13:48:07Z",
-      "timestamp": 1767707287595
+      "date-time": "2026-02-16T16:17:53Z",
+      "timestamp": 1771258673565,
+      "version": "3.50.1"
     },
     "reference-count": 73,
     "publisher": "Public Library of Science (PLoS)",
@@ -56,9 +57,9 @@
       "timestamp": 1399583509000
     },
     "page": "e1003588",
-    "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
+    "update-policy": "https://doi.org/10.1371/journal.pcbi.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 740,
+    "is-referenced-by-count": 756,
     "title": [
       "From the Phenomenology to the Mechanisms of Consciousness: Integrated Information Theory 3.0"
     ],
@@ -831,7 +832,7 @@
       ]
     }
   },
-  "timestamp": 1767726671914,
+  "timestamp": 1771267090415,
   "ttl": 2592000000,
   "source": "crossref"
 }

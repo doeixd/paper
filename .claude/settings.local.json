@@ -14,7 +14,11 @@
       "WebFetch(domain:bun.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(curl:*)",
-      "Bash(bun run:*)"
+      "Bash(bun run:*)",
+      "Bash(just release-wholes-appendix:*)",
+      "Bash(just:*)",
+      "Bash(ls:*)",
+      "WebFetch(domain:onlinelibrary.wiley.com)"
     ],
     "deny": [],
     "ask": []

@@ -5,13 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          5
+          2,
+          16
         ]
       ],
-      "date-time": "2026-01-05T21:54:13Z",
-      "timestamp": 1767650053448,
-      "version": "build-2065373602"
+      "date-time": "2026-02-16T18:09:45Z",
+      "timestamp": 1771265385668,
+      "version": "3.50.1"
     },
     "reference-count": 130,
     "publisher": "Springer Science and Business Media LLC",
@@ -85,7 +85,7 @@
     "page": "133-142",
     "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 42,
+    "is-referenced-by-count": 50,
     "title": [
       "Adversarial testing of global neuronal workspace and integrated information theories of consciousness"
     ],
@@ -1747,12 +1747,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0028-0836"
+        "value": "0028-0836",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1476-4687"
+        "value": "1476-4687",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -1807,7 +1807,7 @@
       }
     ]
   },
-  "timestamp": 1767726402114,
+  "timestamp": 1771266785811,
   "ttl": 2592000000,
   "source": "crossref"
 }

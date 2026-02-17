@@ -1,16 +1,16 @@
 {
-  "key": "doi-10.1515_auk-2012-0110",
+  "key": "doi-10.1515_auk-2012-0107",
   "data": {
     "indexed": {
       "date-parts": [
         [
           2025,
-          12,
-          18
+          10,
+          4
         ]
       ],
-      "date-time": "2025-12-18T09:04:07Z",
-      "timestamp": 1766048647473
+      "date-time": "2025-10-04T14:38:23Z",
+      "timestamp": 1759588703895
     },
     "reference-count": 0,
     "publisher": "Walter de Gruyter GmbH",
@@ -29,8 +29,8 @@
         ]
       ]
     },
-    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p> In his The Ethical Project, Philip Kitcher offers a pragmatic naturalistic account of moral progress, rejecting a moral realist one. I suggest a moral realist account of moral progress that embraces Kitcher’s pragmatic naturalism and calls on moral realism to show how the pragmatic account is successful. To do so I invoke a hypothesis about moral affordances and make use of a cognitive account of emotions. </jats:p>",
-    "DOI": "10.1515/auk-2012-0110",
+    "abstract": "<jats:title>Abstract</jats:title>\n               <jats:p> Philip Kitcher’s The Ethical Project trios to vindicates ethics through an analysis of its evolutionary and cultural history, a history which in turn, he thinks, supports a particular conception of the role of moral thinking and normative practices in human social life. As Kitcher sees it, that role could hardly be more central: most of what makes human life human, and preferable to the fraught and impoverished societies of the great apes, depends on moral cognition. Prom this view of the role of the ethical project as a social technology, Kitcher derives an account of moral progress and even moral truth: a normative analogue of the idea that truth is the convergence of rational enquiry. To Kitcher’s history, I present an anti-history. Most of what is good about human social life depends on the expansion of our social emotions, not on our capacities to articulate and internalise explicit norms. Indeed, since the Holocene and the origins of complex society, normative thought and normative institutions have been more prominent as tools of exploitation and oppression than as mechanisms of a social peace that balances individual desire with collective co-operation. I argue that the vindication project fails in its own terms: even given Kitcher’s distinctive pragmatic concept of vindication, history debunks rather than vindicates moral cognition. </jats:p>",
+    "DOI": "10.1515/auk-2012-0107",
     "type": "journal-article",
     "created": {
       "date-parts": [
@@ -43,18 +43,18 @@
       "date-time": "2016-02-11T23:25:21Z",
       "timestamp": 1455233121000
     },
-    "page": "141-156",
+    "page": "95-116",
     "source": "Crossref",
-    "is-referenced-by-count": 3,
+    "is-referenced-by-count": 9,
     "title": [
-      "The Moral Realism of Pragmatic Naturalism"
+      "Morality’s Dark Past"
     ],
     "prefix": "10.1515",
     "volume": "34",
     "author": [
       {
-        "given": "William",
-        "family": "Rottschaefer",
+        "given": "Kim",
+        "family": "Sterelny",
         "sequence": "first",
         "affiliation": []
       }
@@ -76,19 +76,19 @@
     "language": "en",
     "link": [
       {
-        "URL": "http://www.degruyter.com/view/j/auk.2012.34.issue-1/auk-2012-0110/auk-2012-0110.xml",
+        "URL": "http://www.degruyter.com/view/j/auk.2012.34.issue-1/auk-2012-0107/auk-2012-0107.xml",
         "content-type": "text/html",
         "content-version": "vor",
         "intended-application": "text-mining"
       },
       {
-        "URL": "https://www.degruyter.com/document/doi/10.1515/auk-2012-0110/xml",
+        "URL": "https://www.degruyter.com/document/doi/10.1515/auk-2012-0107/xml",
         "content-type": "application/xml",
         "content-version": "vor",
         "intended-application": "text-mining"
       },
       {
-        "URL": "https://www.degruyter.com/document/doi/10.1515/auk-2012-0110/pdf",
+        "URL": "https://www.degruyter.com/document/doi/10.1515/auk-2012-0107/pdf",
         "content-type": "unspecified",
         "content-version": "vor",
         "intended-application": "similarity-checking"
@@ -102,13 +102,13 @@
           23
         ]
       ],
-      "date-time": "2021-06-23T09:32:21Z",
-      "timestamp": 1624440741000
+      "date-time": "2021-06-23T09:32:22Z",
+      "timestamp": 1624440742000
     },
     "score": 1,
     "resource": {
       "primary": {
-        "URL": "https://www.degruyter.com/document/doi/10.1515/auk-2012-0110/html"
+        "URL": "https://www.degruyter.com/document/doi/10.1515/auk-2012-0107/html"
       }
     },
     "subtitle": [],
@@ -145,9 +145,9 @@
       }
     },
     "alternative-id": [
-      "10.1515/auk-2012-0110"
+      "10.1515/auk-2012-0107"
     ],
-    "URL": "https://doi.org/10.1515/auk-2012-0110",
+    "URL": "https://doi.org/10.1515/auk-2012-0107",
     "relation": {},
     "ISSN": [
       "2365-9858",
@@ -174,7 +174,7 @@
       ]
     }
   },
-  "timestamp": 1767726689414,
+  "timestamp": 1771267106741,
   "ttl": 2592000000,
   "source": "crossref"
 }

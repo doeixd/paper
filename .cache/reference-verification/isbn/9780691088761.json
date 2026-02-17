@@ -60,10 +60,6 @@
         {
           "name": "Sociology of Knowledge",
           "url": "https://openlibrary.org/subjects/sociology_of_knowledge"
-        },
-        {
-          "name": "Knowledge, sociology of",
-          "url": "https://openlibrary.org/subjects/knowledge,_sociology_of"
         }
       ],
       "notes": "Includes bibliographical references (p. [215]-225) and index",
@@ -82,7 +78,7 @@
     },
     "verifiedISBN": "9780691088761"
   },
-  "timestamp": 1767726657288,
+  "timestamp": 1771267074614,
   "ttl": 604800000,
   "source": "openlibrary"
 }

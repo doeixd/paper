@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          10
         ]
       ],
-      "date-time": "2026-01-06T13:33:26Z",
-      "timestamp": 1767706406004
+      "date-time": "2026-02-10T19:53:13Z",
+      "timestamp": 1770753193642,
+      "version": "3.50.0"
     },
     "reference-count": 50,
     "publisher": "The Royal Society",
@@ -66,9 +67,9 @@
       "timestamp": 1238455372000
     },
     "page": "1211-1221",
-    "update-policy": "http://dx.doi.org/10.1098/crossmark-policy",
+    "update-policy": "https://doi.org/10.1098/crossmark-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 1212,
+    "is-referenced-by-count": 1229,
     "title": [
       "Predictive coding under the free-energy principle"
     ],
@@ -470,7 +471,7 @@
       }
     ]
   },
-  "timestamp": 1767726506622,
+  "timestamp": 1771266789906,
   "ttl": 2592000000,
   "source": "crossref"
 }

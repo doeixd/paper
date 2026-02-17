@@ -6,12 +6,12 @@
         [
           2026,
           1,
-          6
+          30
         ]
       ],
-      "date-time": "2026-01-06T12:44:27Z",
-      "timestamp": 1767703467243,
-      "version": "3.37.3"
+      "date-time": "2026-01-30T02:00:45Z",
+      "timestamp": 1769738445015,
+      "version": "3.49.0"
     },
     "reference-count": 195,
     "publisher": "Cambridge University Press (CUP)",
@@ -65,7 +65,7 @@
     },
     "page": "435-467",
     "source": "Crossref",
-    "is-referenced-by-count": 624,
+    "is-referenced-by-count": 628,
     "title": [
       "Explanatory coherence"
     ],
@@ -91,16 +91,16 @@
     },
     "reference": [
       {
+        "key": "S0140525X00057046_ref170",
         "volume-title": "Minnesota studies in the philosophy of science",
-        "year": "1962",
         "author": "Scriven",
-        "key": "S0140525X00057046_ref170"
+        "year": "1962"
       },
       {
+        "key": "S0140525X00057046_ref154",
         "volume-title": "Social intelligence",
-        "year": "1989",
         "author": "Read",
-        "key": "S0140525X00057046_ref154"
+        "year": "1989"
       },
       {
         "key": "S0140525X00057046_ref195",
@@ -112,10 +112,10 @@
         "unstructured": "O'Rorke P. , Aha D. & Sage S. (1988) A deductive-nomological model of abduction with learning. Unpublished manuscript. University of California at Irvine. [aPT]"
       },
       {
+        "key": "S0140525X00057046_ref173",
         "volume-title": "The preppy murder trial",
-        "year": "1988",
         "author": "Taubman",
-        "key": "S0140525X00057046_ref173"
+        "year": "1988"
       },
       {
         "key": "S0140525X00057046_ref103",
@@ -136,22 +136,22 @@
         "DOI": "10.2307/2024115"
       },
       {
+        "key": "S0140525X00057046_ref166",
         "volume-title": "Scripts, plans, goals, and understanding",
-        "year": "1977",
         "author": "Schank",
-        "key": "S0140525X00057046_ref166"
+        "year": "1977"
       },
       {
+        "key": "S0140525X00057046_ref030",
         "volume-title": "On the origin of species",
-        "year": "1962",
         "author": "Darwin",
-        "key": "S0140525X00057046_ref030"
+        "year": "1962"
       },
       {
+        "key": "S0140525X00057046_ref047",
         "volume-title": "Proceedings of the Fifth International Conference on Machine Learning",
-        "year": "1988",
         "author": "Falkenhainer",
-        "key": "S0140525X00057046_ref047"
+        "year": "1988"
       },
       {
         "key": "S0140525X00057046_ref059",
@@ -164,10 +164,10 @@
         "DOI": "10.2307/3027094"
       },
       {
+        "key": "S0140525X00057046_ref096",
         "volume-title": "An essay on phlogiston and the constitution of acids",
-        "year": "1789",
         "author": "Kirwan",
-        "key": "S0140525X00057046_ref096"
+        "year": "1789"
       },
       {
         "key": "S0140525X00057046_ref024",
@@ -180,10 +180,10 @@
         "DOI": "10.1086/288718"
       },
       {
+        "key": "S0140525X00057046_ref002",
         "volume-title": "The nature of explanation",
-        "year": "1983",
         "author": "Achinstein",
-        "key": "S0140525X00057046_ref002"
+        "year": "1983"
       },
       {
         "key": "S0140525X00057046_ref106",
@@ -199,14 +199,14 @@
         "DOI": "10.1098/rstl.1785.0023"
       },
       {
+        "key": "S0140525X00057046_ref037",
         "volume-title": "The foundations of artificial intelligence: A source book",
-        "author": "Dietrich",
-        "key": "S0140525X00057046_ref037"
+        "author": "Dietrich"
       },
       {
+        "key": "S0140525X00057046_ref117",
         "volume-title": "Introduction to neural and cognitive modeling",
-        "author": "Levine",
-        "key": "S0140525X00057046_ref117"
+        "author": "Levine"
       },
       {
         "key": "S0140525X00057046_ref085",
@@ -222,16 +222,16 @@
         "DOI": "10.1037/0096-3445.117.3.227"
       },
       {
+        "key": "S0140525X00057046_ref123",
         "volume-title": "Method and appraisal in the physical sciences",
-        "year": "1976",
         "author": "Musgrave",
-        "key": "S0140525X00057046_ref123"
+        "year": "1976"
       },
       {
+        "key": "S0140525X00057046_ref113",
         "volume-title": "New essays on human understanding",
-        "year": "1765",
         "author": "Leibniz",
-        "key": "S0140525X00057046_ref113"
+        "year": "1765"
       },
       {
         "key": "S0140525X00057046_ref019",
@@ -239,27 +239,27 @@
         "DOI": "10.1093/0198247044.001.0001"
       },
       {
+        "key": "S0140525X00057046_ref183",
         "volume-title": "Computational models of discovery and theory formation",
-        "author": "Thagard",
-        "key": "S0140525X00057046_ref183"
+        "author": "Thagard"
       },
       {
+        "key": "S0140525X00057046_ref010",
         "volume-title": "Structure of decision: The cognitive maps of political elites",
-        "year": "1976",
         "author": "Axelrod",
-        "key": "S0140525X00057046_ref010"
+        "year": "1976"
       },
       {
+        "key": "S0140525X00057046_ref145",
         "volume-title": "From a logical point of view",
-        "year": "1953",
         "author": "Quine",
-        "key": "S0140525X00057046_ref145"
+        "year": "1953"
       },
       {
+        "key": "S0140525X00057046_ref114",
         "volume-title": "Die philosophische Schriften von Gottfried Wilhelm Leibniz",
-        "year": "1865",
         "author": "Leibniz",
-        "key": "S0140525X00057046_ref114"
+        "year": "1865"
       },
       {
         "key": "S0140525X00057046_ref067",
@@ -271,10 +271,10 @@
         "unstructured": "Edelman G. (1987) Neural Darwinism. Basic Books. [DSL]"
       },
       {
+        "key": "S0140525X00057046_ref191",
         "volume-title": "The philosophy of the inductive sciences",
-        "year": "1967",
         "author": "Whewell",
-        "key": "S0140525X00057046_ref191"
+        "year": "1967"
       },
       {
         "key": "S0140525X00057046_ref089",
@@ -287,10 +287,10 @@
         "DOI": "10.2307/2348501"
       },
       {
+        "key": "S0140525X00057046_ref090",
         "volume-title": "The science and politics of IQ",
-        "year": "1974",
         "author": "Kamin",
-        "key": "S0140525X00057046_ref090"
+        "year": "1974"
       },
       {
         "key": "S0140525X00057046_ref190",
@@ -303,30 +303,30 @@
         "DOI": "10.1207/s15516709cog0803_4"
       },
       {
+        "key": "S0140525X00057046_ref101",
         "volume-title": "Structure of scientific revolutions",
-        "year": "1970",
         "author": "Kuhn",
-        "key": "S0140525X00057046_ref101"
+        "year": "1970"
       },
       {
         "key": "S0140525X00057046_ref142",
         "unstructured": "Pople H. (1973) On the mechanization of abductive logic. Proceedings of the Third International joint Conference on Artificial Intelligence. [JAR]"
       },
       {
+        "key": "S0140525X00057046_ref153",
         "volume-title": "Goal concepts in personality and social psychology",
-        "year": "1989",
         "author": "Read",
-        "key": "S0140525X00057046_ref153"
+        "year": "1989"
       },
       {
         "key": "S0140525X00057046_ref038",
         "unstructured": "Dietrich E. (in press b) Computationalism. Social Epistemology. [ED]"
       },
       {
+        "key": "S0140525X00057046_ref017",
         "volume-title": "Logical foundations of probability",
-        "year": "1950",
         "author": "Carnap",
-        "key": "S0140525X00057046_ref017"
+        "year": "1950"
       },
       {
         "key": "S0140525X00057046_ref135",
@@ -342,10 +342,10 @@
         "journal-title": "Journal of Experunental Psychology: Learning Memory and Cognition"
       },
       {
+        "key": "S0140525X00057046_ref091",
         "volume-title": "Critique of pure reason",
-        "year": "1787",
         "author": "Kant",
-        "key": "S0140525X00057046_ref091"
+        "year": "1787"
       },
       {
         "key": "S0140525X00057046_ref005",
@@ -376,10 +376,10 @@
         "journal-title": "Criminal Law Review"
       },
       {
+        "key": "S0140525X00057046_ref182",
         "volume-title": "PSA 1988",
-        "year": "1988",
         "author": "Thagard",
-        "key": "S0140525X00057046_ref182"
+        "year": "1988"
       },
       {
         "key": "S0140525X00057046_ref094",
@@ -408,10 +408,10 @@
         "unstructured": "Josephson J. (1982) Explanation and induction. Ph.D. thesis, Ohio State University. (University Microfilms DEO 82–22107) [JRJ]"
       },
       {
+        "key": "S0140525X00057046_ref015",
         "volume-title": "Rule-based expert systems",
-        "year": "1984",
         "author": "Buchanan",
-        "key": "S0140525X00057046_ref015"
+        "year": "1984"
       },
       {
         "key": "S0140525X00057046_ref136",
@@ -423,16 +423,16 @@
         "unstructured": "Hanen M. (1987) Unpublished manuscript. University of Calgary. [aPT]"
       },
       {
+        "key": "S0140525X00057046_ref126",
         "volume-title": "Human inference: Strategies and shortcomings of social judgement",
-        "year": "1980",
         "author": "Nisbett",
-        "key": "S0140525X00057046_ref126"
+        "year": "1980"
       },
       {
+        "key": "S0140525X00057046_ref018",
         "volume-title": "Reason in law",
-        "year": "1984",
         "author": "Carter",
-        "key": "S0140525X00057046_ref018"
+        "year": "1984"
       },
       {
         "key": "S0140525X00057046_ref048",
@@ -455,44 +455,44 @@
         "DOI": "10.5840/philtopics19821314"
       },
       {
+        "key": "S0140525X00057046_ref050",
         "volume-title": "Social cognition",
-        "year": "1984",
         "author": "Fiske",
-        "key": "S0140525X00057046_ref050"
+        "year": "1984"
       },
       {
         "key": "S0140525X00057046_ref178",
         "unstructured": "Thagard P. (in press a) Connectionism and epistemology: Goldman on winner-take-all networks. Philosophia. [aPT]"
       },
       {
+        "key": "S0140525X00057046_ref109",
         "volume-title": "Oeuvres",
-        "year": "1862",
         "author": "Lavoisier",
-        "key": "S0140525X00057046_ref109"
+        "year": "1862"
       },
       {
+        "key": "S0140525X00057046_ref124",
         "volume-title": "Cognition and Reality",
-        "year": "1976",
         "author": "Neisser",
-        "key": "S0140525X00057046_ref124"
+        "year": "1976"
       },
       {
+        "key": "S0140525X00057046_ref084",
         "volume-title": "Order effects in belief updating: The belief-adjustment model",
-        "year": "1989",
         "author": "Hogarth",
-        "key": "S0140525X00057046_ref084"
+        "year": "1989"
       },
       {
+        "key": "S0140525X00057046_ref165",
         "volume-title": "Explanation patterns",
-        "year": "1986",
         "author": "Schank",
-        "key": "S0140525X00057046_ref165"
+        "year": "1986"
       },
       {
+        "key": "S0140525X00057046_ref001",
         "volume-title": "Knowledge structures",
-        "year": "1986",
         "author": "Abelson",
-        "key": "S0140525X00057046_ref001"
+        "year": "1986"
       },
       {
         "key": "S0140525X00057046_ref003",
@@ -503,40 +503,40 @@
         "unstructured": "Allport G. W. (1964) The open system in personality theory. In: Varieties of personality theory, ed. Ruitenbeek H. H. . Dutton E. P. . [SJR]"
       },
       {
+        "key": "S0140525X00057046_ref008",
         "volume-title": "Entailment",
-        "year": "1975",
         "author": "Anderson",
-        "key": "S0140525X00057046_ref008"
+        "year": "1975"
       },
       {
+        "key": "S0140525X00057046_ref012",
         "volume-title": "Thinking: An experimental and social study",
-        "year": "1958",
         "author": "Bartlett",
-        "key": "S0140525X00057046_ref012"
+        "year": "1958"
       },
       {
+        "key": "S0140525X00057046_ref013",
         "volume-title": "The structure of empirical knowledge",
-        "year": "1985",
         "author": "BonJour",
-        "key": "S0140525X00057046_ref013"
+        "year": "1985"
       },
       {
+        "key": "S0140525X00057046_ref014",
         "volume-title": "Essays on truth and reality",
-        "year": "1914",
         "author": "Bradley",
-        "key": "S0140525X00057046_ref014"
+        "year": "1914"
       },
       {
+        "key": "S0140525X00057046_ref016",
         "volume-title": "Conceptual change in childhood",
-        "year": "1985",
         "author": "Carey",
-        "key": "S0140525X00057046_ref016"
+        "year": "1985"
       },
       {
+        "key": "S0140525X00057046_ref021",
         "volume-title": "Introduction to artificial intelligence",
-        "year": "1985",
         "author": "Charniak",
-        "key": "S0140525X00057046_ref021"
+        "year": "1985"
       },
       {
         "key": "S0140525X00057046_ref025",
@@ -558,10 +558,10 @@
         "DOI": "10.1037/h0030868"
       },
       {
+        "key": "S0140525X00057046_ref033",
         "volume-title": "Rational choice in an uncertain world",
-        "year": "1988",
         "author": "Dawes",
-        "key": "S0140525X00057046_ref033"
+        "year": "1988"
       },
       {
         "key": "S0140525X00057046_ref035",
@@ -578,10 +578,10 @@
         "DOI": "10.1007/978-94-009-2855-8"
       },
       {
+        "key": "S0140525X00057046_ref042",
         "volume-title": "Evidence, proof and probability",
-        "year": "1983",
         "author": "Eggleston",
-        "key": "S0140525X00057046_ref042"
+        "year": "1983"
       },
       {
         "key": "S0140525X00057046_ref043",
@@ -589,10 +589,10 @@
         "DOI": "10.1016/0030-5073(72)90009-8"
       },
       {
+        "key": "S0140525X00057046_ref044",
         "volume-title": "The principle of relativity",
-        "year": "1952",
         "author": "Einstein",
-        "key": "S0140525X00057046_ref044"
+        "year": "1952"
       },
       {
         "key": "S0140525X00057046_ref045",
@@ -608,34 +608,34 @@
         "year": "1983"
       },
       {
+        "key": "S0140525X00057046_ref052",
         "volume-title": "Connections and symbols",
-        "year": "1988",
         "author": "Fodor",
-        "key": "S0140525X00057046_ref052"
+        "year": "1988"
       },
       {
+        "key": "S0140525X00057046_ref053",
         "volume-title": "Probability, confirmation, and simplicity",
-        "year": "1966",
         "author": "Foster",
-        "key": "S0140525X00057046_ref053"
+        "year": "1966"
       },
       {
+        "key": "S0140525X00057046_ref055",
         "volume-title": "How experiments end",
-        "year": "1987",
         "author": "Galison",
-        "key": "S0140525X00057046_ref055"
+        "year": "1987"
       },
       {
+        "key": "S0140525X00057046_ref057",
         "volume-title": "An artificial intelligence approach to legal reasoning",
-        "year": "1987",
         "author": "Gardner",
-        "key": "S0140525X00057046_ref057"
+        "year": "1987"
       },
       {
+        "key": "S0140525X00057046_ref062",
         "volume-title": "Discovering causal structure: Artificial intelligence, philosophy of science, and statistical modelling",
-        "year": "1987",
         "author": "Glymour",
-        "key": "S0140525X00057046_ref062"
+        "year": "1987"
       },
       {
         "key": "S0140525X00057046_ref063",
@@ -644,16 +644,16 @@
         "DOI": "10.1109/ICNN.1988.23906"
       },
       {
+        "key": "S0140525X00057046_ref064",
         "volume-title": "Legal reasoning",
-        "year": "1984",
         "author": "Golding",
-        "key": "S0140525X00057046_ref064"
+        "year": "1984"
       },
       {
+        "key": "S0140525X00057046_ref065",
         "volume-title": "Epistemology and cognition",
-        "year": "1986",
         "author": "Goldman",
-        "key": "S0140525X00057046_ref065"
+        "year": "1986"
       },
       {
         "key": "S0140525X00057046_ref066",
@@ -669,10 +669,10 @@
         "DOI": "10.1017/CBO9780511814563"
       },
       {
+        "key": "S0140525X00057046_ref074",
         "volume-title": "Change in view: Principles of reasoning",
-        "year": "1986",
         "author": "Harman",
-        "key": "S0140525X00057046_ref074"
+        "year": "1986"
       },
       {
         "key": "S0140525X00057046_ref076",
@@ -680,40 +680,40 @@
         "DOI": "10.1037/0003-066X.42.5.443"
       },
       {
+        "key": "S0140525X00057046_ref077",
         "volume-title": "The phenonsenology of mind",
-        "year": "1967",
         "author": "Hegel",
-        "key": "S0140525X00057046_ref077"
+        "year": "1967"
       },
       {
+        "key": "S0140525X00057046_ref078",
         "volume-title": "Aspects of scientific explanation",
-        "year": "1965",
         "author": "Hempel",
-        "key": "S0140525X00057046_ref078"
+        "year": "1965"
       },
       {
+        "key": "S0140525X00057046_ref079",
         "volume-title": "Philosophy of natural science",
-        "year": "1966",
         "author": "Hempel",
-        "key": "S0140525X00057046_ref079"
+        "year": "1966"
       },
       {
+        "key": "S0140525X00057046_ref080",
         "volume-title": "Proceedings of the Tenth International Joint Conference on Artificial Intelligence",
-        "year": "1987",
         "author": "Hendler",
-        "key": "S0140525X00057046_ref080"
+        "year": "1987"
       },
       {
+        "key": "S0140525X00057046_ref081",
         "volume-title": "Darwin and the Darwinian revolution",
-        "year": "1962",
         "author": "Himmelfarb",
-        "key": "S0140525X00057046_ref081"
+        "year": "1962"
       },
       {
+        "key": "S0140525X00057046_ref082",
         "volume-title": "Proceedings of the International Joint Conference on Artificial Intelligence",
-        "year": "1981",
         "author": "Hinton",
-        "key": "S0140525X00057046_ref082"
+        "year": "1981"
       },
       {
         "key": "S0140525X00057046_ref083",
@@ -726,16 +726,16 @@
         "unstructured": "Holyoak K. & Thagard P. (in press) Analogical mapping by constraint satisfaction. Cognitive Science. [arPT]"
       },
       {
+        "key": "S0140525X00057046_ref087",
         "volume-title": "Advances in experimental social psychology",
-        "year": "1965",
         "author": "Jones",
-        "key": "S0140525X00057046_ref087"
+        "year": "1965"
       },
       {
+        "key": "S0140525X00057046_ref092",
         "volume-title": "Critique of judgement",
-        "year": "1790",
         "author": "Kant",
-        "key": "S0140525X00057046_ref092"
+        "year": "1790"
       },
       {
         "key": "S0140525X00057046_ref093",
@@ -747,10 +747,10 @@
         "journal-title": "Boston University Law Review"
       },
       {
+        "key": "S0140525X00057046_ref095",
         "volume-title": "An essay on pholgiston and the constitution of acids",
-        "year": "1789",
         "author": "Kirwan",
-        "key": "S0140525X00057046_ref095"
+        "year": "1789"
       },
       {
         "key": "S0140525X00057046_ref097",
@@ -789,40 +789,40 @@
         "DOI": "10.1017/CBO9781139171434"
       },
       {
+        "key": "S0140525X00057046_ref105",
         "volume-title": "Attribution theory: Social and functional extensions",
-        "year": "1983",
         "author": "Lalljee",
-        "key": "S0140525X00057046_ref105"
+        "year": "1983"
       },
       {
+        "key": "S0140525X00057046_ref110",
         "volume-title": "Proceedings of the Seventh National Conference on Artificial Intelligence",
-        "year": "1988",
         "author": "Leake",
-        "key": "S0140525X00057046_ref110"
+        "year": "1988"
       },
       {
+        "key": "S0140525X00057046_ref111",
         "volume-title": "Proceedings of the Sixth National Conference on Artificial Intelligence",
-        "year": "1987",
         "author": "Lehnert",
-        "key": "S0140525X00057046_ref111"
+        "year": "1987"
       },
       {
+        "key": "S0140525X00057046_ref112",
         "volume-title": "Knowledge",
-        "year": "1974",
         "author": "Lehrer",
-        "key": "S0140525X00057046_ref112"
+        "year": "1974"
       },
       {
+        "key": "S0140525X00057046_ref115",
         "volume-title": "Gambling with truth",
-        "year": "1967",
         "author": "Levi",
-        "key": "S0140525X00057046_ref115"
+        "year": "1967"
       },
       {
+        "key": "S0140525X00057046_ref116",
         "volume-title": "The enterprise of knowledge",
-        "year": "1980",
         "author": "Levi",
-        "key": "S0140525X00057046_ref116"
+        "year": "1980"
       },
       {
         "key": "S0140525X00057046_ref119",
@@ -831,10 +831,10 @@
         "DOI": "10.1086/psaprocbienmeetp.1978.1.192622"
       },
       {
+        "key": "S0140525X00057046_ref120",
         "volume-title": "Vision",
-        "year": "1982",
         "author": "Marr",
-        "key": "S0140525X00057046_ref120"
+        "year": "1982"
       },
       {
         "key": "S0140525X00057046_ref121",
@@ -866,10 +866,10 @@
         "DOI": "10.1007/978-1-349-00309-9"
       },
       {
+        "key": "S0140525X00057046_ref133",
         "volume-title": "Collected papers",
-        "year": "1931",
         "author": "Peirce",
-        "key": "S0140525X00057046_ref133"
+        "year": "1931"
       },
       {
         "key": "S0140525X00057046_ref134",
@@ -877,22 +877,22 @@
         "DOI": "10.1109/TSMC.1987.4309027"
       },
       {
+        "key": "S0140525X00057046_ref137",
         "volume-title": "Proceedings of the Ninth Annual Meeting of the Cognitive Science Society",
-        "year": "1987",
         "author": "Pennington",
-        "key": "S0140525X00057046_ref137"
+        "year": "1987"
       },
       {
+        "key": "S0140525X00057046_ref139",
         "volume-title": "Scrutinizing science: Empirical studies of scientific change",
-        "year": "1988",
         "author": "Perrin",
-        "key": "S0140525X00057046_ref139"
+        "year": "1988"
       },
       {
+        "key": "S0140525X00057046_ref140",
         "volume-title": "Science and method",
-        "year": "1952",
         "author": "Poincare",
-        "key": "S0140525X00057046_ref140"
+        "year": "1952"
       },
       {
         "key": "S0140525X00057046_ref141",
@@ -900,44 +900,44 @@
         "DOI": "10.1126/science.141.3585.1010"
       },
       {
+        "key": "S0140525X00057046_ref143",
         "volume-title": "Proceedings of the Fifth International Joint Conference on Artificial intelligence",
-        "year": "1977",
         "author": "Pople",
-        "key": "S0140525X00057046_ref143"
+        "year": "1977"
       },
       {
+        "key": "S0140525X00057046_ref144",
         "volume-title": "The logic of scientific discovery",
-        "year": "1959",
         "author": "Popper",
-        "key": "S0140525X00057046_ref144"
+        "year": "1959"
       },
       {
+        "key": "S0140525X00057046_ref146",
         "volume-title": "Word and object",
-        "year": "1960",
         "author": "Quine",
-        "key": "S0140525X00057046_ref146"
+        "year": "1960"
       },
       {
+        "key": "S0140525X00057046_ref147",
         "volume-title": "From a logical point of view",
-        "year": "1961",
         "author": "Quine",
-        "key": "S0140525X00057046_ref147"
+        "year": "1961"
       },
       {
+        "key": "S0140525X00057046_ref148",
         "volume-title": "Proceedings of the Fifth international Conference on Machine Learning",
-        "year": "1988",
         "author": "Rajamoney",
-        "key": "S0140525X00057046_ref148"
+        "year": "1988"
       },
       {
         "key": "S0140525X00057046_ref149",
         "unstructured": "Ranney M. (1987) Changing naive conceptions of motion. Doctoral dissertation, Learning, Research, and Development Center, University of Pittsburgh. [aPT]"
       },
       {
+        "key": "S0140525X00057046_ref150",
         "volume-title": "Proceedings of the Tenth Annual Conference of the Cognitive Science Society",
-        "year": "1988",
         "author": "Ranney",
-        "key": "S0140525X00057046_ref150"
+        "year": "1988"
       },
       {
         "key": "S0140525X00057046_ref152",
@@ -960,10 +960,10 @@
         "DOI": "10.1016/0004-3702(87)90062-2"
       },
       {
+        "key": "S0140525X00057046_ref158",
         "volume-title": "The coherence theory of truth",
-        "year": "1973",
         "author": "Rescher",
-        "key": "S0140525X00057046_ref158"
+        "year": "1973"
       },
       {
         "key": "S0140525X00057046_ref159",
@@ -971,10 +971,10 @@
         "DOI": "10.1007/BF00114870"
       },
       {
+        "key": "S0140525X00057046_ref160",
         "volume-title": "New directions for methodology of social and behavioral science: Fallible judgement in behavioral research",
-        "year": "1980",
         "author": "Ross",
-        "key": "S0140525X00057046_ref160"
+        "year": "1980"
       },
       {
         "key": "S0140525X00057046_ref161",
@@ -985,28 +985,28 @@
         "year": "1986"
       },
       {
+        "key": "S0140525X00057046_ref162",
         "volume-title": "The foundations of scientific inference",
-        "year": "1966",
         "author": "Salmon",
-        "key": "S0140525X00057046_ref162"
+        "year": "1966"
       },
       {
+        "key": "S0140525X00057046_ref163",
         "volume-title": "The nature and function of scientific theories",
-        "year": "1970",
         "author": "Salmon",
-        "key": "S0140525X00057046_ref163"
+        "year": "1970"
       },
       {
+        "key": "S0140525X00057046_ref164",
         "volume-title": "Scientific explanation and the causal structure of the world",
-        "year": "1984",
         "author": "Salmon",
-        "key": "S0140525X00057046_ref164"
+        "year": "1984"
       },
       {
+        "key": "S0140525X00057046_ref167",
         "volume-title": "The psychology of learning and motivation",
-        "year": "1987",
         "author": "Schneider",
-        "key": "S0140525X00057046_ref167"
+        "year": "1987"
       },
       {
         "key": "S0140525X00057046_ref168",
@@ -1023,16 +1023,16 @@
         "journal-title": "Boston University Law Review"
       },
       {
+        "key": "S0140525X00057046_ref027",
         "volume-title": "An introduction to the philosophy of induction and probability",
-        "year": "1989",
         "author": "Cohen",
-        "key": "S0140525X00057046_ref027"
+        "year": "1989"
       },
       {
+        "key": "S0140525X00057046_ref171",
         "volume-title": "Science, perception, and reality",
-        "year": "1963",
         "author": "Sellars",
-        "key": "S0140525X00057046_ref171"
+        "year": "1963"
       },
       {
         "key": "S0140525X00057046_ref174",
@@ -1067,10 +1067,10 @@
         "DOI": "10.1207/s15516709cog1303_1"
       },
       {
+        "key": "S0140525X00057046_ref184",
         "volume-title": "Learning and comprehension of texts",
-        "year": "1984",
         "author": "Trabasso",
-        "key": "S0140525X00057046_ref184"
+        "year": "1984"
       },
       {
         "key": "S0140525X00057046_ref185",
@@ -1078,10 +1078,10 @@
         "DOI": "10.2307/1339610"
       },
       {
+        "key": "S0140525X00057046_ref186",
         "volume-title": "Faraday rediscovered",
-        "year": "1985",
         "author": "Tweney",
-        "key": "S0140525X00057046_ref186"
+        "year": "1985"
       },
       {
         "key": "S0140525X00057046_ref187",
@@ -1098,22 +1098,22 @@
         "unstructured": "Wald J. , Farach M. , Tagamets M. & Reggia J. (in press) Generating plausible diagnostic hypotheses with self-processing causal networks. Journal of Experimental and Theoretical Artificial Intelligence. [JAR]"
       },
       {
+        "key": "S0140525X00057046_ref192",
         "volume-title": "Planning and understanding: A computational approach to human reasoning",
-        "year": "1983",
         "author": "Wilensky",
-        "key": "S0140525X00057046_ref192"
+        "year": "1983"
       },
       {
+        "key": "S0140525X00057046_ref011",
         "volume-title": "The works of Francis Bacon",
-        "year": "1859",
         "author": "Bacon",
-        "key": "S0140525X00057046_ref011"
+        "year": "1859"
       },
       {
+        "key": "S0140525X00057046_ref181",
         "volume-title": "Proceedings of the Ninth Annual Conference of the Cognitive Science Society",
-        "year": "1987",
         "author": "Thagard",
-        "key": "S0140525X00057046_ref181"
+        "year": "1987"
       },
       {
         "key": "S0140525X00057046_ref004",
@@ -1121,10 +1121,10 @@
         "DOI": "10.1515/9781400854936"
       },
       {
+        "key": "S0140525X00057046_ref118",
         "volume-title": "Judgment and justification",
-        "year": "1988",
         "author": "Lycan",
-        "key": "S0140525X00057046_ref118"
+        "year": "1988"
       },
       {
         "key": "S0140525X00057046_ref151",
@@ -1132,28 +1132,28 @@
         "DOI": "10.1017/S0140525X00054455"
       },
       {
+        "key": "S0140525X00057046_ref061",
         "volume-title": "Theory and evidence",
-        "year": "1980",
         "author": "Glymour",
-        "key": "S0140525X00057046_ref061"
+        "year": "1980"
       },
       {
+        "key": "S0140525X00057046_ref031",
         "volume-title": "The mathematical experience",
-        "year": "1981",
         "author": "Davis",
-        "key": "S0140525X00057046_ref031"
+        "year": "1981"
       },
       {
+        "key": "S0140525X00057046_ref009",
         "volume-title": "Analogical reasoning: Perspectives of artificial intelligence, cognitive science, and philosophy",
-        "year": "1988",
         "author": "Ashley",
-        "key": "S0140525X00057046_ref009"
+        "year": "1988"
       },
       {
+        "key": "S0140525X00057046_ref172",
         "volume-title": "Linguistics and Philosophy",
-        "year": "1984",
         "author": "Stalker",
-        "key": "S0140525X00057046_ref172"
+        "year": "1984"
       },
       {
         "key": "S0140525X00057046_ref040",
@@ -1169,10 +1169,10 @@
         "DOI": "10.1016/0004-3702(86)90072-X"
       },
       {
+        "key": "S0140525X00057046_ref029",
         "volume-title": "PSA 1982",
-        "year": "1983",
         "author": "Darden",
-        "key": "S0140525X00057046_ref029"
+        "year": "1983"
       },
       {
         "key": "S0140525X00057046_ref132",
@@ -1180,22 +1180,22 @@
         "DOI": "10.1016/0004-3702(87)90034-8"
       },
       {
+        "key": "S0140525X00057046_ref075",
         "volume-title": "Proceedings of the Tenth Annual Conference of the Cognitive Science Society",
-        "year": "1988",
         "author": "Harman",
-        "key": "S0140525X00057046_ref075"
+        "year": "1988"
       },
       {
+        "key": "S0140525X00057046_ref049",
         "volume-title": "Against method",
-        "year": "1975",
         "author": "Feyerabend",
-        "key": "S0140525X00057046_ref049"
+        "year": "1975"
       },
       {
+        "key": "S0140525X00057046_ref107",
         "volume-title": "Proceedings of the International Machine Learning Workshop",
-        "year": "1983",
         "author": "Langley",
-        "key": "S0140525X00057046_ref107"
+        "year": "1983"
       },
       {
         "key": "S0140525X00057046_ref071",
@@ -1266,12 +1266,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0140-525X"
+        "value": "0140-525X",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1469-1825"
+        "value": "1469-1825",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -1284,7 +1284,7 @@
       ]
     }
   },
-  "timestamp": 1767726698715,
+  "timestamp": 1771267130270,
   "ttl": 2592000000,
   "source": "crossref"
 }

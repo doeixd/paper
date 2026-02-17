@@ -4,13 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          6
+          2026,
+          2,
+          11
         ]
       ],
-      "date-time": "2025-12-06T16:54:15Z",
-      "timestamp": 1765040055575
+      "date-time": "2026-02-11T13:23:53Z",
+      "timestamp": 1770816233763,
+      "version": "3.50.1"
     },
     "reference-count": 0,
     "publisher": "Philosophy Documentation Center",
@@ -124,7 +125,7 @@
       ]
     }
   },
-  "timestamp": 1767726681668,
+  "timestamp": 1771267099289,
   "ttl": 2592000000,
   "source": "crossref"
 }

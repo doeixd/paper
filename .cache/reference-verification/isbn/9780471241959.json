@@ -1,0 +1,117 @@
+{
+  "key": "isbn-9780471241959",
+  "data": {
+    "result": {
+      "url": "https://openlibrary.org/books/OL3424751M/Elements_of_information_theory",
+      "key": "/books/OL3424751M",
+      "title": "Elements of information theory",
+      "authors": [
+        {
+          "url": "https://openlibrary.org/authors/OL893282A/T._M._Cover",
+          "name": "T. M. Cover"
+        }
+      ],
+      "number_of_pages": 792,
+      "pagination": "p. cm.",
+      "by_statement": "by Thomas M. Cover, Joy A. Thomas.",
+      "identifiers": {
+        "librarything": [
+          "243797"
+        ],
+        "goodreads": [
+          "433439"
+        ],
+        "isbn_10": [
+          "0471241954"
+        ],
+        "lccn": [
+          "2005047799"
+        ],
+        "oclc": [
+          "59879802",
+          "71540138"
+        ],
+        "openlibrary": [
+          "OL3424751M"
+        ]
+      },
+      "classifications": {
+        "lc_classifications": [
+          "Q360 .C68 2005",
+          "Q360 .C68 2006",
+          "Q360.C68 2005"
+        ],
+        "dewey_decimal_class": [
+          "003/.54"
+        ]
+      },
+      "publishers": [
+        {
+          "name": "J. Wiley"
+        },
+        {
+          "name": "Wiley-Interscience"
+        }
+      ],
+      "publish_places": [
+        {
+          "name": "Hoboken, N.J"
+        }
+      ],
+      "publish_date": "2005",
+      "subjects": [
+        {
+          "name": "Engineering",
+          "url": "https://openlibrary.org/subjects/engineering"
+        },
+        {
+          "name": "Information theory",
+          "url": "https://openlibrary.org/subjects/information_theory"
+        },
+        {
+          "name": "Nonfiction",
+          "url": "https://openlibrary.org/subjects/nonfiction"
+        },
+        {
+          "name": "Technology",
+          "url": "https://openlibrary.org/subjects/technology"
+        },
+        {
+          "name": "Informationstatistical mechanics",
+          "url": "https://openlibrary.org/subjects/informationstatistical_mechanics"
+        },
+        {
+          "name": "Q360 .c68 1991",
+          "url": "https://openlibrary.org/subjects/q360_.c68_1991"
+        },
+        {
+          "name": "003/.54",
+          "url": "https://openlibrary.org/subjects/003/.54"
+        }
+      ],
+      "notes": "Includes bibliographical references and index.\r\n\"A Wiley-Interscience publication.\"",
+      "links": [
+        {
+          "title": "Full Book",
+          "url": "https://archive.org/details/ElementsOfInformationTheory2ndEd"
+        }
+      ],
+      "ebooks": [
+        {
+          "preview_url": "https://archive.org/details/elementsinformat00cove_213",
+          "availability": "noview",
+          "formats": {}
+        }
+      ],
+      "cover": {
+        "small": "https://covers.openlibrary.org/b/id/302435-S.jpg",
+        "medium": "https://covers.openlibrary.org/b/id/302435-M.jpg",
+        "large": "https://covers.openlibrary.org/b/id/302435-L.jpg"
+      }
+    },
+    "verifiedISBN": "9780471241959"
+  },
+  "timestamp": 1771349683306,
+  "ttl": 604800000,
+  "source": "openlibrary"
+}

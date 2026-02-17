@@ -4,13 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          13
+          2026,
+          1,
+          23
         ]
       ],
-      "date-time": "2025-12-13T07:02:01Z",
-      "timestamp": 1765609321434
+      "date-time": "2026-01-23T15:45:59Z",
+      "timestamp": 1769183159879,
+      "version": "3.49.0"
     },
     "reference-count": 0,
     "publisher": "JSTOR",
@@ -43,7 +44,7 @@
     },
     "page": "381",
     "source": "Crossref",
-    "is-referenced-by-count": 129,
+    "is-referenced-by-count": 132,
     "title": [
       "What Is \"Naturalized Epistemology?\""
     ],
@@ -109,7 +110,7 @@
       ]
     }
   },
-  "timestamp": 1767726627749,
+  "timestamp": 1771267043975,
   "ttl": 2592000000,
   "source": "crossref"
 }

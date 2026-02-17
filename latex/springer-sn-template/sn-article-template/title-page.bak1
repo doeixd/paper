@@ -1,0 +1,54 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+
+\begin{center}
+	{\LARGE Real Patterns Need Closure: Transition Autonomy as a Dynamical Criterion for Macro-Objecthood}
+\end{center}
+
+\vspace{1.5em}
+
+\noindent\textbf{Author information}
+
+\noindent Patrick Glenn \\
+Affiliation: Independent Researcher \\
+Email: pwmglenn@outlook.com \\
+ORCID: 0009-0009-8088-0004
+
+\vspace{0.75em}
+
+\noindent\textbf{Corresponding author}
+
+\noindent Patrick Glenn \\
+Email: pwmglenn@outlook.com
+
+\vspace{1em}
+
+\noindent\textbf{Acknowledgements}
+
+\noindent None.
+
+\vspace{1em}
+
+\noindent\textbf{Funding}
+
+\noindent No funding was received for this work.
+
+\vspace{1em}
+
+\noindent\textbf{Statements and Declarations}
+
+\noindent\textbf{Competing Interests} The author declares no competing interests.
+
+\vspace{0.5em}
+
+\noindent\textbf{Data Availability} Data sharing is not applicable to this article as no datasets were generated or analyzed.
+
+\vspace{0.5em}
+
+\noindent\textbf{Code Availability} Code availability is not applicable to this article.
+
+\end{document}

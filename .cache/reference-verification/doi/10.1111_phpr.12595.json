@@ -4,14 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          3
+          2026,
+          2,
+          5
         ]
       ],
-      "date-time": "2025-12-03T17:50:28Z",
-      "timestamp": 1764784228030,
-      "version": "3.40.5"
+      "date-time": "2026-02-05T10:38:21Z",
+      "timestamp": 1770287901968,
+      "version": "3.49.0"
     },
     "reference-count": 33,
     "publisher": "Wiley",
@@ -83,7 +83,7 @@
     "page": "399-414",
     "update-policy": "https://doi.org/10.1002/crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 26,
+    "is-referenced-by-count": 27,
     "title": [
       "Moral Testimony: Transmission Versus Propagation"
     ],
@@ -120,10 +120,10 @@
         "DOI": "10.1163/156853311X548596"
       },
       {
+        "key": "e_1_2_8_3_1",
         "volume-title": "The Stanford Encyclopedia of Philosophy",
-        "year": "2012",
         "author": "Adler Jonathan",
-        "key": "e_1_2_8_3_1"
+        "year": "2012"
       },
       {
         "key": "e_1_2_8_4_1",
@@ -368,12 +368,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0031-8205"
+        "value": "0031-8205",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1933-1592"
+        "value": "1933-1592",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -399,7 +399,7 @@
       }
     ]
   },
-  "timestamp": 1767726611963,
+  "timestamp": 1771266980050,
   "ttl": 2592000000,
   "source": "crossref"
 }

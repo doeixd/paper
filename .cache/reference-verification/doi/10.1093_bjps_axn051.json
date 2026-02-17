@@ -1,0 +1,358 @@
+{
+  "key": "doi-10.1093_bjps_axn051",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          20
+        ]
+      ],
+      "date-time": "2025-12-20T21:42:05Z",
+      "timestamp": 1766266925633
+    },
+    "reference-count": 30,
+    "publisher": "University of Chicago Press",
+    "issue": "1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "The British Journal for the Philosophy of Science"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2009,
+          3,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1093/bjps/axn051",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2009,
+          1,
+          19
+        ]
+      ],
+      "date-time": "2009-01-19T20:44:38Z",
+      "timestamp": 1232397878000
+    },
+    "page": "135-171",
+    "source": "Crossref",
+    "is-referenced-by-count": 40,
+    "title": [
+      "Newman's Objection"
+    ],
+    "prefix": "10.1086",
+    "volume": "60",
+    "author": [
+      {
+        "given": "Peter M.",
+        "family": "Ainsworth",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "200",
+    "reference": [
+      {
+        "key": "R1",
+        "volume-title": "in R",
+        "author": "Carnap R."
+      },
+      {
+        "key": "R2",
+        "doi-asserted-by": "crossref",
+        "first-page": "557",
+        "DOI": "10.1016/j.shpsa.2005.07.006",
+        "volume": "36",
+        "author": "Cruse P.",
+        "year": "2005",
+        "journal-title": "Studies in the History and Philosophy of Science"
+      },
+      {
+        "key": "R3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/289281"
+      },
+      {
+        "key": "R4",
+        "volume-title": "in P",
+        "author": "Duhem P.",
+        "year": "1991"
+      },
+      {
+        "key": "R5",
+        "volume-title": "2nd",
+        "author": "Enderton H. B."
+      },
+      {
+        "key": "R6",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1023/A:1024156116636",
+        "volume": "136",
+        "author": "French S.",
+        "year": "2003",
+        "journal-title": "Synthese"
+      },
+      {
+        "key": "R7",
+        "doi-asserted-by": "crossref",
+        "first-page": "353",
+        "DOI": "10.1023/A:1005148426909",
+        "volume": "62",
+        "author": "Halbach V.",
+        "year": "1999",
+        "journal-title": "Studia Logica"
+      },
+      {
+        "key": "R8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bjps/55.2.287"
+      },
+      {
+        "key": "R9",
+        "doi-asserted-by": "crossref",
+        "first-page": "409",
+        "DOI": "10.1016/S0039-3681(98)80129-5",
+        "volume": "29",
+        "author": "Ladyman J.",
+        "year": "1998",
+        "journal-title": "Studies in the History and Philosophy of Science"
+      },
+      {
+        "key": "R10",
+        "doi-asserted-by": "crossref",
+        "first-page": "343",
+        "DOI": "10.1080/00048408312341131",
+        "volume": "61",
+        "author": "Lewis D.",
+        "year": "1983",
+        "journal-title": "Australasian Journal of Philosophy"
+      },
+      {
+        "key": "R11",
+        "volume-title": "Problems in the Philosophy of Science: Proceedings of the International Colloquium in the Philosophy of Science",
+        "author": "Maxwell G.",
+        "year": "1965"
+      },
+      {
+        "key": "R12",
+        "first-page": "92",
+        "volume-title": "Analyses of Theories and Methods of Physics and Psychology",
+        "author": "Maxwell G."
+      },
+      {
+        "key": "R13",
+        "first-page": "34",
+        "volume-title": "Nature and Function of Scientific Theories",
+        "author": "Maxwell G."
+      },
+      {
+        "key": "R14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1093/bjps/axl020"
+      },
+      {
+        "key": "R15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/288910"
+      },
+      {
+        "key": "R16",
+        "doi-asserted-by": "crossref",
+        "first-page": "137",
+        "DOI": "10.1093/mind/XXXVII.146.137",
+        "volume": "37",
+        "author": "Newman M. H. A.",
+        "year": "1928",
+        "journal-title": "Mind"
+      },
+      {
+        "key": "R17",
+        "volume-title": "in S",
+        "author": "Poincaré H."
+      },
+      {
+        "key": "R18",
+        "volume-title": "Scientific Realism. How Science Tracks Truth",
+        "author": "Psillos S."
+      },
+      {
+        "key": "R19",
+        "doi-asserted-by": "crossref",
+        "first-page": "483",
+        "DOI": "10.2307/3129784",
+        "volume": "50",
+        "author": "Putnam H.",
+        "year": "1977",
+        "journal-title": "Proceedings and Addresses of the American Philosophical Association"
+      },
+      {
+        "key": "R20",
+        "doi-asserted-by": "crossref",
+        "first-page": "341",
+        "DOI": "10.1007/BF02914824",
+        "volume": "10",
+        "author": "Redhead M.",
+        "year": "2001",
+        "journal-title": "Metascience"
+      },
+      {
+        "key": "R21",
+        "doi-asserted-by": "crossref",
+        "volume-title": "The Problems of Philosophy",
+        "author": "Russell B.",
+        "DOI": "10.2307/1400126"
+      },
+      {
+        "key": "R22",
+        "doi-asserted-by": "crossref",
+        "volume-title": "The Analysis of Matter",
+        "author": "Russell B.",
+        "DOI": "10.4324/9781003308898"
+      },
+      {
+        "key": "R23",
+        "volume-title": "II",
+        "author": "Russell B."
+      },
+      {
+        "key": "R24",
+        "volume-title": "The Scientific Image",
+        "author": "van Fraassen B. C."
+      },
+      {
+        "key": "R25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1086/377374"
+      },
+      {
+        "key": "R26",
+        "unstructured": "Votsis, I. [2004]:The Epistemological Statue of Scientific Theories: An Investigation of the Structural Realist Account, PhD thesis, London School of Economics and Political Science."
+      },
+      {
+        "key": "R27",
+        "doi-asserted-by": "crossref",
+        "first-page": "99",
+        "DOI": "10.1111/j.1746-8361.1989.tb00933.x",
+        "volume": "43",
+        "author": "Worrall J.",
+        "year": "1989",
+        "journal-title": "Dialectica"
+      },
+      {
+        "key": "R28",
+        "first-page": "42",
+        "volume-title": "PSA",
+        "author": "Worrall J.",
+        "year": "1994"
+      },
+      {
+        "key": "R29",
+        "volume-title": "Poincaré's Philosophy: From Conventionalism to Phenomenology",
+        "author": "Zahar E. G."
+      },
+      {
+        "key": "R30",
+        "first-page": "30",
+        "volume-title": "Theoria: Revista de Teoria, Historia y Fundamentos de la Ciencia, 19",
+        "author": "Zahar E. G."
+      }
+    ],
+    "container-title": [
+      "The British Journal for the Philosophy of Science"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.journals.uchicago.edu/doi/pdf/10.1093/bjps/axn051",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          9
+        ]
+      ],
+      "date-time": "2024-03-09T03:15:22Z",
+      "timestamp": 1709954122000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.journals.uchicago.edu/doi/10.1093/bjps/axn051"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2009,
+          3,
+          1
+        ]
+      ]
+    },
+    "references-count": 30,
+    "journal-issue": {
+      "issue": "1",
+      "published-print": {
+        "date-parts": [
+          [
+            2009,
+            3,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1093/bjps/axn051"
+    ],
+    "URL": "https://doi.org/10.1093/bjps/axn051",
+    "relation": {},
+    "ISSN": [
+      "0007-0882",
+      "1464-3537"
+    ],
+    "issn-type": [
+      {
+        "value": "0007-0882",
+        "type": "print"
+      },
+      {
+        "value": "1464-3537",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2009,
+          3,
+          1
+        ]
+      ]
+    }
+  },
+  "timestamp": 1771349682742,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

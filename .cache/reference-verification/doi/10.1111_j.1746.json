@@ -4,14 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          29
+          2026,
+          2,
+          12
         ]
       ],
-      "date-time": "2025-12-29T18:48:51Z",
-      "timestamp": 1767034131736,
-      "version": "build-2065373602"
+      "date-time": "2026-02-12T11:56:49Z",
+      "timestamp": 1770897409218,
+      "version": "3.50.1"
     },
     "reference-count": 29,
     "publisher": "Verein philosophie.ch",
@@ -61,7 +61,7 @@
     },
     "page": "99-124",
     "source": "Crossref",
-    "is-referenced-by-count": 556,
+    "is-referenced-by-count": 565,
     "title": [
       "Structural Realism: The Best of Both Worlds?"
     ],
@@ -120,10 +120,10 @@
         "year": "1984"
       },
       {
+        "key": "b8_89",
         "volume-title": "Minnesota Studies in the Philosophy of Science IV",
-        "year": "1970",
         "author": "Maxwell G.",
-        "key": "b8_89"
+        "year": "1970"
       },
       {
         "key": "b9_90",
@@ -197,10 +197,10 @@
         "journal-title": "British Journal for the Philosophy of Science"
       },
       {
+        "key": "b23_104",
         "volume-title": "Change and Progress in Modern Science",
-        "year": "1985",
         "author": "Worrall J.",
-        "key": "b23_104"
+        "year": "1985"
       },
       {
         "key": "b24_105",
@@ -299,8 +299,8 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0012-2017"
+        "value": "0012-2017",
+        "type": "print"
       }
     ],
     "subject": [],
@@ -312,7 +312,7 @@
       ]
     }
   },
-  "timestamp": 1767726712067,
+  "timestamp": 1771267134366,
   "ttl": 2592000000,
   "source": "crossref"
 }

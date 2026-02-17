@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          14
         ]
       ],
-      "date-time": "2026-01-06T13:36:10Z",
-      "timestamp": 1767706570066
+      "date-time": "2026-02-14T06:38:25Z",
+      "timestamp": 1771051105389,
+      "version": "3.50.1"
     },
     "reference-count": 0,
     "publisher": "Philosophy Documentation Center",
@@ -45,7 +46,7 @@
     },
     "page": "27",
     "source": "Crossref",
-    "is-referenced-by-count": 725,
+    "is-referenced-by-count": 737,
     "title": [
       "Real Patterns"
     ],
@@ -124,7 +125,7 @@
       ]
     }
   },
-  "timestamp": 1767726502591,
+  "timestamp": 1771266788006,
   "ttl": 2592000000,
   "source": "crossref"
 }

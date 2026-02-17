@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          15
         ]
       ],
-      "date-time": "2026-01-06T12:43:25Z",
-      "timestamp": 1767703405658
+      "date-time": "2026-02-15T03:40:49Z",
+      "timestamp": 1771126849175,
+      "version": "3.50.1"
     },
     "reference-count": 0,
     "publisher": "JSTOR",
@@ -45,7 +46,7 @@
     },
     "page": "20",
     "source": "Crossref",
-    "is-referenced-by-count": 1894,
+    "is-referenced-by-count": 1910,
     "title": [
       "Main Trends in Recent Philosophy: Two Dogmas of Empiricism"
     ],
@@ -124,7 +125,7 @@
       ]
     }
   },
-  "timestamp": 1767726682593,
+  "timestamp": 1771267100274,
   "ttl": 2592000000,
   "source": "crossref"
 }

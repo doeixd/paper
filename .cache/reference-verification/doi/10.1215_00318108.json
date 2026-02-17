@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          10
         ]
       ],
-      "date-time": "2026-01-06T13:25:13Z",
-      "timestamp": 1767705913348
+      "date-time": "2026-02-10T06:17:13Z",
+      "timestamp": 1770704233975,
+      "version": "3.49.0"
     },
     "reference-count": 21,
     "publisher": "Duke University Press",
@@ -44,7 +45,7 @@
     },
     "page": "187-217",
     "source": "Crossref",
-    "is-referenced-by-count": 461,
+    "is-referenced-by-count": 465,
     "title": [
       "Epistemology of Disagreement: The Good News"
     ],
@@ -248,7 +249,7 @@
       ]
     }
   },
-  "timestamp": 1767726401216,
+  "timestamp": 1771266779819,
   "ttl": 2592000000,
   "source": "crossref"
 }

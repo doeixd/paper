@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          16
         ]
       ],
-      "date-time": "2026-01-06T13:52:02Z",
-      "timestamp": 1767707522133
+      "date-time": "2026-02-16T10:01:29Z",
+      "timestamp": 1771236089799,
+      "version": "3.50.1"
     },
     "reference-count": 0,
     "publisher": "JSTOR",
@@ -44,7 +45,7 @@
     },
     "page": "587",
     "source": "Crossref",
-    "is-referenced-by-count": 1270,
+    "is-referenced-by-count": 1276,
     "title": [
       "Bounded Rationality, Ambiguity, and the Engineering of Choice"
     ],
@@ -120,7 +121,7 @@
       ]
     }
   },
-  "timestamp": 1767726660495,
+  "timestamp": 1771267082231,
   "ttl": 2592000000,
   "source": "crossref"
 }

@@ -1,0 +1,157 @@
+{
+  "key": "doi-10.1017_CBO9781139174763",
+  "data": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          14
+        ]
+      ],
+      "date-time": "2026-02-14T21:36:41Z",
+      "timestamp": 1771105001986,
+      "version": "3.50.1"
+    },
+    "edition-number": "1",
+    "reference-count": 0,
+    "publisher": "Cambridge University Press",
+    "isbn-type": [
+      {
+        "value": "9780521570602",
+        "type": "print"
+      },
+      {
+        "value": "9780521578264",
+        "type": "print"
+      },
+      {
+        "value": "9781139174763",
+        "type": "electronic"
+      }
+    ],
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2012,
+              6,
+              5
+            ]
+          ],
+          "date-time": "2012-06-05T00:00:00Z",
+          "timestamp": 1338854400000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 5744,
+        "URL": "https://www.cambridge.org/core/terms"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          1996,
+          9,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Almost all theories of knowledge and justified belief employ moral concepts and forms of argument borrowed from moral theories, but none of them pay attention to the current renaissance in virtue ethics. This remarkable book is the first attempt to establish a theory of knowledge based on the model of virtue theory in ethics. The book develops the concept of an intellectual virtue, and then shows how the concept can be used to give an account of the major concepts in epistemology, including the concept of knowledge. This highly original work of philosophy for professionals will also provide students with an excellent introduction to epistemology, virtue theory, and the relationship between ethics and epistemology.</jats:p>",
+    "DOI": "10.1017/cbo9781139174763",
+    "type": "monograph",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          6,
+          19
+        ]
+      ],
+      "date-time": "2012-06-19T17:39:53Z",
+      "timestamp": 1340127593000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1328,
+    "title": [
+      "Virtues of the Mind"
+    ],
+    "prefix": "10.1017",
+    "author": [
+      {
+        "given": "Linda Trinkaus",
+        "family": "Zagzebski",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "56",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          6,
+          5
+        ]
+      ]
+    },
+    "container-title": [],
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          14
+        ]
+      ],
+      "date-time": "2022-10-14T21:02:13Z",
+      "timestamp": 1665781333000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.cambridge.org/core/product/identifier/9781139174763/type/book"
+      }
+    },
+    "subtitle": [
+      "An Inquiry into the Nature of Virtue and the Ethical Foundations of Knowledge"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1996,
+          9,
+          13
+        ]
+      ]
+    },
+    "ISBN": [
+      "9780521570602",
+      "9780521578264",
+      "9781139174763"
+    ],
+    "references-count": 0,
+    "URL": "https://doi.org/10.1017/cbo9781139174763",
+    "relation": {},
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1996,
+          9,
+          13
+        ]
+      ]
+    }
+  },
+  "timestamp": 1771267140893,
+  "ttl": 2592000000,
+  "source": "crossref"
+}

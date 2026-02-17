@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          14
         ]
       ],
-      "date-time": "2026-01-06T13:20:13Z",
-      "timestamp": 1767705613154
+      "date-time": "2026-02-14T08:48:59Z",
+      "timestamp": 1771058939500,
+      "version": "3.50.1"
     },
     "reference-count": 62,
     "publisher": "The Royal Society",
@@ -66,9 +67,9 @@
       "timestamp": 1372843269000
     },
     "page": "20130475",
-    "update-policy": "http://dx.doi.org/10.1098/crossmark-policy",
+    "update-policy": "https://doi.org/10.1098/crossmark-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 522,
+    "is-referenced-by-count": 536,
     "title": [
       "Life as we know it"
     ],
@@ -553,7 +554,7 @@
       }
     ]
   },
-  "timestamp": 1767726506064,
+  "timestamp": 1771266790948,
   "ttl": 2592000000,
   "source": "crossref"
 }

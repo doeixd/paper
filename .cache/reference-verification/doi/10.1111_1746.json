@@ -4,14 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          10,
-          8
+          2026,
+          2,
+          10
         ]
       ],
-      "date-time": "2025-10-08T09:11:16Z",
-      "timestamp": 1759914676473,
-      "version": "build-2065373602"
+      "date-time": "2026-02-10T19:48:24Z",
+      "timestamp": 1770752904022,
+      "version": "3.50.0"
     },
     "reference-count": 44,
     "publisher": "Verein philosophie.ch",
@@ -61,7 +61,7 @@
     },
     "page": "55-80",
     "source": "Crossref",
-    "is-referenced-by-count": 31,
+    "is-referenced-by-count": 33,
     "title": [
       "Properties: Qualities, Powers, or Both?"
     ],
@@ -129,10 +129,10 @@
         "journal-title": "Australasian Journal of Philosophy"
       },
       {
+        "key": "10.1111/1746-8361.12011-BIB0006|dltc12011-cit-0006",
         "volume-title": "Causality",
-        "year": "1959",
         "author": "Bunge",
-        "key": "10.1111/1746-8361.12011-BIB0006|dltc12011-cit-0006"
+        "year": "1959"
       },
       {
         "key": "10.1111/1746-8361.12011-BIB0007|dltc12011-cit-0007",
@@ -214,10 +214,10 @@
         "year": "2010"
       },
       {
+        "key": "10.1111/1746-8361.12011-BIB0015|dltc12011-cit-0015",
         "volume-title": "Truth, Love, and Immortality: An Introduction to Mctaggart's Philosophy",
-        "year": "1979",
         "author": "Geach",
-        "key": "10.1111/1746-8361.12011-BIB0015|dltc12011-cit-0015"
+        "year": "1979"
       },
       {
         "key": "10.1111/1746-8361.12011-BIB0016|dltc12011-cit-0016",
@@ -228,16 +228,16 @@
         "year": "2006"
       },
       {
+        "key": "10.1111/1746-8361.12011-BIB0017|dltc12011-cit-0017",
         "volume-title": "Fact, Fiction and Forecast",
-        "year": "1954",
         "author": "Goodman",
-        "key": "10.1111/1746-8361.12011-BIB0017|dltc12011-cit-0017"
+        "year": "1954"
       },
       {
+        "key": "10.1111/1746-8361.12011-BIB0018|dltc12011-cit-0018",
         "volume-title": "Introduction to Electrodynamics",
-        "year": "1998",
         "author": "Griffiths",
-        "key": "10.1111/1746-8361.12011-BIB0018|dltc12011-cit-0018"
+        "year": "1998"
       },
       {
         "key": "10.1111/1746-8361.12011-BIB0019|dltc12011-cit-0019",
@@ -248,10 +248,10 @@
         "year": "2003"
       },
       {
+        "key": "10.1111/1746-8361.12011-BIB0020|dltc12011-cit-0020",
         "volume-title": "Treatise of Human Nature",
-        "year": "1739",
         "author": "Hume",
-        "key": "10.1111/1746-8361.12011-BIB0020|dltc12011-cit-0020"
+        "year": "1739"
       },
       {
         "issue": "1",
@@ -337,16 +337,16 @@
         "year": "1690"
       },
       {
+        "key": "10.1111/1746-8361.12011-BIB0030|dltc12011-cit-0030",
         "volume-title": "The Four-Category Ontology: A Metaphysical Foundation for Natural Science",
-        "year": "2006",
         "author": "Lowe",
-        "key": "10.1111/1746-8361.12011-BIB0030|dltc12011-cit-0030"
+        "year": "2006"
       },
       {
+        "key": "10.1111/1746-8361.12011-BIB0031|dltc12011-cit-0031",
         "volume-title": "The Stanford Encyclopedia of Philosophy (Summer 2009 Edition)",
-        "year": "2009",
         "author": "Marek",
-        "key": "10.1111/1746-8361.12011-BIB0031|dltc12011-cit-0031"
+        "year": "2009"
       },
       {
         "key": "10.1111/1746-8361.12011-BIB0032|dltc12011-cit-0032",
@@ -371,10 +371,10 @@
         "journal-title": "Synthese"
       },
       {
+        "key": "10.1111/1746-8361.12011-BIB0034|dltc12011-cit-0034",
         "volume-title": "The Mind in Nature",
-        "year": "2008",
         "author": "Martin",
-        "key": "10.1111/1746-8361.12011-BIB0034|dltc12011-cit-0034"
+        "year": "2008"
       },
       {
         "key": "10.1111/1746-8361.12011-BIB0035|dltc12011-cit-0035",
@@ -388,16 +388,16 @@
         "journal-title": "Philosophical Review"
       },
       {
+        "key": "10.1111/1746-8361.12011-BIB0036|dltc12011-cit-0036",
         "volume-title": "Powers: A Study in Metaphysics",
-        "year": "2003",
         "author": "Molnar",
-        "key": "10.1111/1746-8361.12011-BIB0036|dltc12011-cit-0036"
+        "year": "2003"
       },
       {
+        "key": "10.1111/1746-8361.12011-BIB0037|dltc12011-cit-4037",
         "volume-title": "Dispositions",
-        "year": "1998",
         "author": "Mumford",
-        "key": "10.1111/1746-8361.12011-BIB0037|dltc12011-cit-4037"
+        "year": "1998"
       },
       {
         "key": "10.1111/1746-8361.12011-BIB0038|dltc12011-cit-0038",
@@ -526,8 +526,8 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0012-2017"
+        "value": "0012-2017",
+        "type": "print"
       }
     ],
     "subject": [],
@@ -539,7 +539,7 @@
       ]
     }
   },
-  "timestamp": 1767726613492,
+  "timestamp": 1771266981574,
   "ttl": 2592000000,
   "source": "crossref"
 }

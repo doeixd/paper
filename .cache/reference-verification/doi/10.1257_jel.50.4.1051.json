@@ -5,12 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          14
         ]
       ],
-      "date-time": "2026-01-06T15:26:53Z",
-      "timestamp": 1767713213526
+      "date-time": "2026-02-14T09:18:43Z",
+      "timestamp": 1771060723786,
+      "version": "3.50.1"
     },
     "reference-count": 49,
     "publisher": "American Economic Association",
@@ -47,7 +48,7 @@
     },
     "page": "1051-1079",
     "source": "Crossref",
-    "is-referenced-by-count": 1812,
+    "is-referenced-by-count": 1846,
     "title": [
       "Women Empowerment and Economic Development"
     ],
@@ -398,7 +399,7 @@
       ]
     }
   },
-  "timestamp": 1767726503450,
+  "timestamp": 1771266788773,
   "ttl": 2592000000,
   "source": "crossref"
 }

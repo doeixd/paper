@@ -4,13 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          18
+          2026,
+          1,
+          31
         ]
       ],
-      "date-time": "2025-12-18T09:33:25Z",
-      "timestamp": 1766050405289
+      "date-time": "2026-01-31T06:56:02Z",
+      "timestamp": 1769842562347,
+      "version": "3.49.0"
     },
     "reference-count": 53,
     "publisher": "Informa UK Limited",
@@ -65,7 +66,7 @@
       "timestamp": 1689657834000
     },
     "page": "1948-1970",
-    "update-policy": "http://dx.doi.org/10.1080/tandf_crossmark_01",
+    "update-policy": "https://doi.org/10.1080/tandf_crossmark_01",
     "source": "Crossref",
     "is-referenced-by-count": 6,
     "title": [
@@ -450,12 +451,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0951-5089"
+        "value": "0951-5089",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1465-394X"
+        "value": "1465-394X",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -514,7 +515,7 @@
       }
     ]
   },
-  "timestamp": 1767726679999,
+  "timestamp": 1771267097712,
   "ttl": 2592000000,
   "source": "crossref"
 }

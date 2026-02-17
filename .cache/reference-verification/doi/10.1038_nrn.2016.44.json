@@ -5,13 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          16
         ]
       ],
-      "date-time": "2026-01-06T13:25:10Z",
-      "timestamp": 1767705910125,
-      "version": "3.37.3"
+      "date-time": "2026-02-16T18:36:28Z",
+      "timestamp": 1771266988876,
+      "version": "3.50.1"
     },
     "reference-count": 80,
     "publisher": "Springer Science and Business Media LLC",
@@ -67,7 +67,7 @@
     "page": "450-461",
     "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 1161,
+    "is-referenced-by-count": 1188,
     "title": [
       "Integrated information theory: from consciousness to its physical substrate"
     ],
@@ -1012,12 +1012,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "1471-003X"
+        "value": "1471-003X",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1471-0048"
+        "value": "1471-0048",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -1052,7 +1052,7 @@
       }
     ]
   },
-  "timestamp": 1767726709209,
+  "timestamp": 1771267131524,
   "ttl": 2592000000,
   "source": "crossref"
 }

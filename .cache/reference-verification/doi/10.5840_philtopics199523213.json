@@ -6,11 +6,12 @@
         [
           2026,
           1,
-          6
+          13
         ]
       ],
-      "date-time": "2026-01-06T13:25:51Z",
-      "timestamp": 1767705951135
+      "date-time": "2026-01-13T02:04:34Z",
+      "timestamp": 1768269874789,
+      "version": "3.49.0"
     },
     "reference-count": 0,
     "publisher": "Philosophy Documentation Center",
@@ -115,8 +116,8 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0276-2080"
+        "value": "0276-2080",
+        "type": "print"
       }
     ],
     "subject": [],
@@ -128,7 +129,7 @@
       ]
     }
   },
-  "timestamp": 1767731056777,
+  "timestamp": 1771266683432,
   "ttl": 2592000000,
   "source": "crossref"
 }

@@ -4,13 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          29
+          2026,
+          2,
+          8
         ]
       ],
-      "date-time": "2025-12-29T11:36:01Z",
-      "timestamp": 1767008161747
+      "date-time": "2026-02-08T14:42:02Z",
+      "timestamp": 1770561722682,
+      "version": "3.49.0"
     },
     "reference-count": 0,
     "publisher": "Philosophy Documentation Center",
@@ -36,7 +37,7 @@
     },
     "page": "143-176",
     "source": "Crossref",
-    "is-referenced-by-count": 42,
+    "is-referenced-by-count": 43,
     "title": [
       "Emergence Theories and Pragmatic Realism"
     ],
@@ -120,8 +121,8 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "1526-0569"
+        "value": "1526-0569",
+        "type": "print"
       }
     ],
     "subject": [],
@@ -133,7 +134,7 @@
       ]
     }
   },
-  "timestamp": 1767726503647,
+  "timestamp": 1771266788940,
   "ttl": 2592000000,
   "source": "crossref"
 }

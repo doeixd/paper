@@ -4,14 +4,14 @@
     "indexed": {
       "date-parts": [
         [
-          2025,
-          12,
-          10
+          2026,
+          2,
+          12
         ]
       ],
-      "date-time": "2025-12-10T08:59:09Z",
-      "timestamp": 1765357149241,
-      "version": "3.41.2"
+      "date-time": "2026-02-12T12:26:33Z",
+      "timestamp": 1770899193474,
+      "version": "3.50.1"
     },
     "reference-count": 59,
     "publisher": "The Royal Society",
@@ -92,7 +92,7 @@
     },
     "update-policy": "https://doi.org/10.1098/crossmark-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 43,
+    "is-referenced-by-count": 45,
     "title": [
       "Emergence as the conversion of information: a unifying theory"
     ],
@@ -520,12 +520,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "1364-503X"
+        "value": "1364-503X",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1471-2962"
+        "value": "1471-2962",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -572,7 +572,7 @@
     ],
     "article-number": "20210150"
   },
-  "timestamp": 1767726710988,
+  "timestamp": 1771267132576,
   "ttl": 2592000000,
   "source": "crossref"
 }

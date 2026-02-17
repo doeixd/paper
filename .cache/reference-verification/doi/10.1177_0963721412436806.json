@@ -5,13 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          5
         ]
       ],
-      "date-time": "2026-01-06T13:27:36Z",
-      "timestamp": 1767706056205,
-      "version": "3.38.0"
+      "date-time": "2026-02-05T21:06:14Z",
+      "timestamp": 1770325574186,
+      "version": "3.49.0"
     },
     "reference-count": 44,
     "publisher": "SAGE Publications",
@@ -68,7 +68,7 @@
     "page": "170-176",
     "update-policy": "https://doi.org/10.1177/sage-journals-update-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 219,
+    "is-referenced-by-count": 221,
     "title": [
       "Statistical Learning"
     ],
@@ -127,16 +127,16 @@
         "DOI": "10.1016/j.cognition.2011.06.010"
       },
       {
+        "key": "bibr5-0963721412436806",
         "volume-title": "Aspects of the theory of syntax",
-        "year": "1965",
         "author": "Chomsky N.",
-        "key": "bibr5-0963721412436806"
+        "year": "1965"
       },
       {
+        "key": "bibr6-0963721412436806",
         "volume-title": "The minimalist program",
-        "year": "1995",
         "author": "Chomsky N.",
-        "key": "bibr6-0963721412436806"
+        "year": "1995"
       },
       {
         "key": "bibr7-0963721412436806",
@@ -144,16 +144,16 @@
         "DOI": "10.1037/0278-7393.30.5.1119"
       },
       {
-        "edition": "2",
+        "key": "bibr8-0963721412436806",
         "volume-title": "The Blackwell handbook of linguistics",
         "author": "Croft W.",
-        "key": "bibr8-0963721412436806"
+        "edition": "2"
       },
       {
+        "key": "bibr9-0963721412436806",
         "volume-title": "Investigating the evolution of agreement systems using an artificial language learning paradigm. Paper presented at the Western Conference on Linguistics",
-        "year": "2010",
         "author": "Culbertson J.",
-        "key": "bibr9-0963721412436806"
+        "year": "2010"
       },
       {
         "key": "bibr10-0963721412436806",
@@ -241,10 +241,10 @@
         "DOI": "10.1080/15250000802569611"
       },
       {
+        "key": "bibr26-0963721412436806",
         "volume-title": "Neural correlates of statistical learning in a word segmentation task: An fMRI study. Paper presented at Neurobiology of Language Conference",
-        "year": "2011",
         "author": "Karuza E.",
-        "key": "bibr26-0963721412436806"
+        "year": "2011"
       },
       {
         "key": "bibr27-0963721412436806",
@@ -421,12 +421,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0963-7214"
+        "value": "0963-7214",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1467-8721"
+        "value": "1467-8721",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -440,7 +440,7 @@
       ]
     }
   },
-  "timestamp": 1767725694404,
+  "timestamp": 1771266683556,
   "ttl": 2592000000,
   "source": "crossref"
 }

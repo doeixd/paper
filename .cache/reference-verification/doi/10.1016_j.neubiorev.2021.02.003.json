@@ -6,12 +6,12 @@
         [
           2026,
           1,
-          5
+          8
         ]
       ],
-      "date-time": "2026-01-05T22:27:31Z",
-      "timestamp": 1767652051052,
-      "version": "3.44.0"
+      "date-time": "2026-01-08T22:47:57Z",
+      "timestamp": 1767912477470,
+      "version": "3.49.0"
     },
     "reference-count": 85,
     "publisher": "Elsevier BV",
@@ -163,10 +163,10 @@
     "member": "78",
     "reference": [
       {
-        "year": "2020",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0005",
         "series-title": "The Math Is Not the Territory: Navigating the Free Energy Principle",
         "author": "Andrews",
-        "key": "10.1016/j.neubiorev.2021.02.003_bib0005"
+        "year": "2020"
       },
       {
         "issue": "6",
@@ -215,10 +215,10 @@
         "journal-title": "Neuroimage"
       },
       {
-        "year": "2020",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0030",
         "series-title": "Directed Coupling in Multi-Brain Networks Underlies Generalized Synchrony during Social Exchange",
         "author": "Bilek",
-        "key": "10.1016/j.neubiorev.2021.02.003_bib0030"
+        "year": "2020"
       },
       {
         "key": "10.1016/j.neubiorev.2021.02.003_bib0035",
@@ -228,16 +228,16 @@
         "journal-title": "arXiv preprint"
       },
       {
-        "year": "2007",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0040",
         "series-title": "Brodmann’s: Localisation in the Cerebral Cortex",
         "author": "Brodmann",
-        "key": "10.1016/j.neubiorev.2021.02.003_bib0040"
+        "year": "2007"
       },
       {
-        "year": "2020",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0045",
         "series-title": "The Emperor’s New Markov Blankets",
         "author": "Bruineberg",
-        "key": "10.1016/j.neubiorev.2021.02.003_bib0045"
+        "year": "2020"
       },
       {
         "issue": "8",
@@ -365,16 +365,16 @@
         "journal-title": "Bull. Math. Biophys."
       },
       {
-        "year": "1983",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0105",
         "series-title": "The Modularity of Mind",
         "author": "Fodor",
-        "key": "10.1016/j.neubiorev.2021.02.003_bib0105"
+        "year": "1983"
       },
       {
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0110",
         "volume": "Vol. 20",
-        "year": "2016",
         "author": "Frank",
-        "key": "10.1016/j.neubiorev.2021.02.003_bib0110"
+        "year": "2016"
       },
       {
         "issue": "1",
@@ -419,10 +419,10 @@
         "journal-title": "PLoS Biol."
       },
       {
-        "year": "2003",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0135",
         "series-title": "Degeneracy and Redundancy in Cognitive Anatomy",
         "author": "Friston",
-        "key": "10.1016/j.neubiorev.2021.02.003_bib0135"
+        "year": "2003"
       },
       {
         "issue": "2-3",
@@ -475,9 +475,9 @@
         "journal-title": "Ann. N. Y. Acad. Sci."
       },
       {
-        "year": "1835",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0165",
         "author": "Gall",
-        "key": "10.1016/j.neubiorev.2021.02.003_bib0165"
+        "year": "1835"
       },
       {
         "key": "10.1016/j.neubiorev.2021.02.003_bib0170",
@@ -545,10 +545,10 @@
         "journal-title": "Phys. Life Rev."
       },
       {
-        "year": "2019",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0200",
         "series-title": "The Predictive Brain: A Modular View of Brain and Cognitive Function?",
         "author": "Hipólito",
-        "key": "10.1016/j.neubiorev.2021.02.003_bib0200"
+        "year": "2019"
       },
       {
         "issue": "4",
@@ -617,10 +617,10 @@
         "journal-title": "J. R. Soc. Interface"
       },
       {
-        "year": "2008",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0235",
         "series-title": "The Statistical Analysis of Functional MRI Data",
         "author": "Lazar",
-        "key": "10.1016/j.neubiorev.2021.02.003_bib0235"
+        "year": "2008"
       },
       {
         "issue": "3",
@@ -908,10 +908,10 @@
         "journal-title": "Neuroimage"
       },
       {
-        "year": "1980",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0370",
         "series-title": "Application of Stereotactic Concepts to the Surgery of Epilepsy",
         "author": "Talairach",
-        "key": "10.1016/j.neubiorev.2021.02.003_bib0370"
+        "year": "1980"
       },
       {
         "key": "10.1016/j.neubiorev.2021.02.003_bib0375",
@@ -934,10 +934,10 @@
         "journal-title": "J. Neurosci."
       },
       {
-        "year": "2020",
+        "key": "10.1016/j.neubiorev.2021.02.003_bib0385",
         "series-title": "Free-Energy Principle, Computationalism and Realism: a Tragedy",
         "author": "van Es",
-        "key": "10.1016/j.neubiorev.2021.02.003_bib0385"
+        "year": "2020"
       },
       {
         "key": "10.1016/j.neubiorev.2021.02.003_bib0390",
@@ -1086,8 +1086,8 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0149-7634"
+        "value": "0149-7634",
+        "type": "print"
       }
     ],
     "subject": [],
@@ -1132,7 +1132,7 @@
       }
     ]
   },
-  "timestamp": 1767726612177,
+  "timestamp": 1771266980245,
   "ttl": 2592000000,
   "source": "crossref"
 }

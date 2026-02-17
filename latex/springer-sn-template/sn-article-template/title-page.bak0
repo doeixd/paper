@@ -1,0 +1,61 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+
+\begin{center}
+{\LARGE Real Patterns Need Closure: Transition Autonomy as a Dynamical Criterion for Macro-Objecthood}
+\end{center}
+
+\vspace{1.5em}
+
+\noindent\textbf{Author information}
+
+\noindent Author 1: [Full Name] \\
+Affiliation: [Department, Institution, City, Country] \\
+Email: [author@institution.edu] \\
+ORCID: [0000-0000-0000-0000]
+
+\vspace{0.75em}
+
+\noindent Author 2: [Full Name] \\
+Affiliation: [Department, Institution, City, Country] \\
+Email: [author@institution.edu] \\
+ORCID: [0000-0000-0000-0000]
+
+\vspace{0.75em}
+
+\noindent\textbf{Corresponding author}
+
+\noindent [Full Name] \\
+Email: [corresponding.author@institution.edu]
+
+\vspace{1em}
+
+\noindent\textbf{Acknowledgements}
+
+\noindent [Add acknowledgements here. Include thanks, feedback, institutional support, and any other non-author contributions.]
+
+\vspace{1em}
+
+\noindent\textbf{Funding}
+
+\noindent [State funding sources in full, including grant numbers if applicable. If none: ``No funding was received for this work.'']
+
+\vspace{1em}
+
+\noindent\textbf{Statements and Declarations}
+
+\noindent\textbf{Competing Interests} [Example: ``The authors declare no competing interests.'']
+
+\vspace{0.5em}
+
+\noindent\textbf{Data Availability} [Example: ``Data sharing is not applicable to this article as no datasets were generated or analyzed.'']
+
+\vspace{0.5em}
+
+\noindent\textbf{Code Availability} [If applicable. If not applicable, say so explicitly.]
+
+\end{document}

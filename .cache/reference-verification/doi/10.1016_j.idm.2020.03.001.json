@@ -5,13 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          3
+          2,
+          1
         ]
       ],
-      "date-time": "2026-01-03T15:17:39Z",
-      "timestamp": 1767453459553,
-      "version": "build-2065373602"
+      "date-time": "2026-02-01T00:13:35Z",
+      "timestamp": 1769904815023,
+      "version": "3.49.0"
     },
     "reference-count": 34,
     "publisher": "Elsevier BV",
@@ -112,7 +112,7 @@
     "page": "271-281",
     "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 332,
+    "is-referenced-by-count": 333,
     "special_numbering": "C",
     "title": [
       "Why is it difficult to accurately predict the COVID-19 epidemic?"
@@ -167,16 +167,16 @@
         "journal-title": "Journal of the American Medical Association"
       },
       {
-        "year": "2002",
+        "key": "10.1016/j.idm.2020.03.001_bib3",
         "series-title": "Model selection and multimodel inference: A practical information-theoretic approach",
         "author": "Burnham",
-        "key": "10.1016/j.idm.2020.03.001_bib3"
+        "year": "2002"
       },
       {
-        "year": "2000",
+        "key": "10.1016/j.idm.2020.03.001_bib4",
         "series-title": "Monte Carlo methods in bayesian computation",
         "author": "Chen",
-        "key": "10.1016/j.idm.2020.03.001_bib4"
+        "year": "2000"
       },
       {
         "key": "10.1016/j.idm.2020.03.001_bib5",
@@ -219,8 +219,8 @@
         "journal-title": "Proceedings of the Royal Society of London B"
       },
       {
-        "author": "Imai",
-        "key": "10.1016/j.idm.2020.03.001_bib9"
+        "key": "10.1016/j.idm.2020.03.001_bib9",
+        "author": "Imai"
       },
       {
         "key": "10.1016/j.idm.2020.03.001_bib10",
@@ -234,10 +234,10 @@
         "journal-title": "Trends in Ecology & Evolution"
       },
       {
-        "year": "1979",
+        "key": "10.1016/j.idm.2020.03.001_bib11",
         "series-title": "Probability and statistical inference",
         "author": "Kalbfleisch",
-        "key": "10.1016/j.idm.2020.03.001_bib11"
+        "year": "1979"
       },
       {
         "key": "10.1016/j.idm.2020.03.001_bib12",
@@ -262,18 +262,18 @@
         "journal-title": "Science"
       },
       {
-        "year": "2007",
+        "key": "10.1016/j.idm.2020.03.001_bib14",
         "series-title": "Introduction to applied bayesian statistics and estimation for social scientists",
         "author": "Lynch",
-        "key": "10.1016/j.idm.2020.03.001_bib14"
+        "year": "2007"
       },
       {
-        "author": "May",
-        "key": "10.1016/j.idm.2020.03.001_bib15"
+        "key": "10.1016/j.idm.2020.03.001_bib15",
+        "author": "May"
       },
       {
-        "author": "National Health Commission of the People’s Republic of China",
-        "key": "10.1016/j.idm.2020.03.001_bib16"
+        "key": "10.1016/j.idm.2020.03.001_bib16",
+        "author": "National Health Commission of the People’s Republic of China"
       },
       {
         "key": "10.1016/j.idm.2020.03.001_bib17",
@@ -297,10 +297,10 @@
         "journal-title": "Bioinformatics"
       },
       {
-        "year": "2020",
+        "key": "10.1016/j.idm.2020.03.001_bib19",
         "series-title": "Novel coronavirus 2019-nCoV: Early estimation of epidemiological parameters and epidemic predictions",
         "author": "Read",
-        "key": "10.1016/j.idm.2020.03.001_bib19"
+        "year": "2020"
       },
       {
         "key": "10.1016/j.idm.2020.03.001_bib20",
@@ -313,16 +313,16 @@
         "journal-title": "Infectious Disease Modelling"
       },
       {
-        "year": "2018",
+        "key": "10.1016/j.idm.2020.03.001_bib21",
         "series-title": "Mathematical statistics: An introduction to likelihood based inference",
         "author": "Rossi",
-        "key": "10.1016/j.idm.2020.03.001_bib21"
+        "year": "2018"
       },
       {
-        "year": "2020",
+        "key": "10.1016/j.idm.2020.03.001_bib22",
         "series-title": "Modelling the epidemic trend of the 2019 novel coronavirus outbreak in China",
         "author": "Shen",
-        "key": "10.1016/j.idm.2020.03.001_bib22"
+        "year": "2020"
       },
       {
         "key": "10.1016/j.idm.2020.03.001_bib23",
@@ -358,22 +358,22 @@
         "journal-title": "Journal of Clinical Medicine"
       },
       {
-        "author": "US",
-        "key": "10.1016/j.idm.2020.03.001_bib26"
+        "key": "10.1016/j.idm.2020.03.001_bib26",
+        "author": "US"
       },
       {
-        "year": "1998",
+        "key": "10.1016/j.idm.2020.03.001_bib27",
         "series-title": "Asymptotic statistics",
         "author": "van der Vaart",
-        "key": "10.1016/j.idm.2020.03.001_bib27"
+        "year": "1998"
       },
       {
-        "author": "WHO",
-        "key": "10.1016/j.idm.2020.03.001_bib28"
+        "key": "10.1016/j.idm.2020.03.001_bib28",
+        "author": "WHO"
       },
       {
-        "author": "WHO",
-        "key": "10.1016/j.idm.2020.03.001_bib29"
+        "key": "10.1016/j.idm.2020.03.001_bib29",
+        "author": "WHO"
       },
       {
         "key": "10.1016/j.idm.2020.03.001_bib30",
@@ -387,14 +387,14 @@
         "journal-title": "The Lancet"
       },
       {
-        "year": "2020",
+        "key": "10.1016/j.idm.2020.03.001_bib31",
         "series-title": "Estimation of the time-varying reproduction number of COVID-19 outbreak in China",
         "author": "You",
-        "key": "10.1016/j.idm.2020.03.001_bib31"
+        "year": "2020"
       },
       {
-        "author": "Yu",
-        "key": "10.1016/j.idm.2020.03.001_bib32"
+        "key": "10.1016/j.idm.2020.03.001_bib32",
+        "author": "Yu"
       },
       {
         "key": "10.1016/j.idm.2020.03.001_bib33",
@@ -475,8 +475,8 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "2468-0427"
+        "value": "2468-0427",
+        "type": "print"
       }
     ],
     "subject": [],
@@ -520,7 +520,7 @@
       }
     ]
   },
-  "timestamp": 1767726686841,
+  "timestamp": 1771267104281,
   "ttl": 2592000000,
   "source": "crossref"
 }

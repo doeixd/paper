@@ -5,13 +5,13 @@
       "date-parts": [
         [
           2026,
-          1,
-          6
+          2,
+          15
         ]
       ],
-      "date-time": "2026-01-06T13:11:21Z",
-      "timestamp": 1767705081506,
-      "version": "build-2065373602"
+      "date-time": "2026-02-15T03:17:04Z",
+      "timestamp": 1771125424867,
+      "version": "3.50.1"
     },
     "reference-count": 214,
     "publisher": "Cambridge University Press (CUP)",
@@ -65,7 +65,7 @@
     },
     "page": "181-204",
     "source": "Crossref",
-    "is-referenced-by-count": 3632,
+    "is-referenced-by-count": 3708,
     "title": [
       "Whatever next? Predictive brains, situated agents, and the future of cognitive science"
     ],
@@ -163,10 +163,10 @@
         "DOI": "10.3389/fpsyg.2011.00243"
       },
       {
+        "key": "S0140525X12000477_ref201",
         "volume-title": "Thermodynamics and thermostatics: An introduction to energy, information and states of matter, with engineering applications",
-        "year": "1961",
         "author": "Tribus",
-        "key": "S0140525X12000477_ref201"
+        "year": "1961"
       },
       {
         "key": "S0140525X12000477_ref111",
@@ -189,10 +189,10 @@
         "DOI": "10.1016/j.tics.2006.05.006"
       },
       {
+        "key": "S0140525X12000477_ref203",
         "volume-title": "Practical reflection",
-        "year": "1989",
         "author": "Velleman",
-        "key": "S0140525X12000477_ref203"
+        "year": "1989"
       },
       {
         "key": "S0140525X12000477_ref196",
@@ -218,10 +218,10 @@
         "DOI": "10.1016/S0166-4115(08)62059-2"
       },
       {
+        "key": "S0140525X12000477_ref154",
         "volume-title": "Out of our heads: Why you are not your brain, and other lessons from the biology of consciousness",
-        "year": "2009",
         "author": "Noë",
-        "key": "S0140525X12000477_ref154"
+        "year": "2009"
       },
       {
         "key": "S0140525X12000477_ref204",
@@ -279,16 +279,16 @@
         "DOI": "10.1007/s00221-006-0814-y"
       },
       {
+        "key": "S0140525X12000477_ref165",
         "volume-title": "Why we see what we do: An empirical theory of vision",
-        "year": "2003",
         "author": "Purves",
-        "key": "S0140525X12000477_ref165"
+        "year": "2003"
       },
       {
+        "key": "S0140525X12000477_ref152",
         "volume-title": "Cognitive psychology",
-        "year": "1967",
         "author": "Neisser",
-        "key": "S0140525X12000477_ref152"
+        "year": "1967"
       },
       {
         "key": "S0140525X12000477_ref44",
@@ -303,10 +303,10 @@
         "year": "2007"
       },
       {
+        "key": "S0140525X12000477_ref83",
         "volume-title": "On intelligence",
-        "year": "2004",
         "author": "Hawkins",
-        "key": "S0140525X12000477_ref83"
+        "year": "2004"
       },
       {
         "key": "S0140525X12000477_ref37",
@@ -398,10 +398,10 @@
         "DOI": "10.1093/acprof:oso/9780195333213.001.0001"
       },
       {
+        "key": "S0140525X12000477_ref46",
         "volume-title": "Bayesian brain: Probabilistic approaches to neural coding",
-        "year": "2007",
         "author": "Doya",
-        "key": "S0140525X12000477_ref46"
+        "year": "2007"
       },
       {
         "key": "S0140525X12000477_ref140",
@@ -409,10 +409,10 @@
         "DOI": "10.1167/4.7.2"
       },
       {
+        "key": "S0140525X12000477_ref172",
         "volume-title": "Spikes: Exploring the neural code",
-        "year": "1999",
         "author": "Rieke",
-        "key": "S0140525X12000477_ref172"
+        "year": "1999"
       },
       {
         "key": "S0140525X12000477_ref93",
@@ -425,10 +425,10 @@
         "DOI": "10.1007/978-1-4419-0781-3_2"
       },
       {
+        "key": "S0140525X12000477_ref137",
         "volume-title": "Parallel distributed processing, vol. 2",
-        "year": "1986",
         "author": "McClelland",
-        "key": "S0140525X12000477_ref137"
+        "year": "1986"
       },
       {
         "key": "S0140525X12000477_ref76",
@@ -479,9 +479,9 @@
         "DOI": "10.1016/S0010-9452(08)70148-5"
       },
       {
+        "key": "S0140525X12000477_ref171",
         "volume-title": "Oxford handbook of the philosophy of perception",
-        "author": "Rescorla",
-        "key": "S0140525X12000477_ref171"
+        "author": "Rescorla"
       },
       {
         "key": "S0140525X12000477_ref3",
@@ -561,10 +561,10 @@
         "year": "1988"
       },
       {
+        "key": "S0140525X12000477_ref40",
         "volume-title": "The intentional stance",
-        "year": "1987",
         "author": "Dennett",
-        "key": "S0140525X12000477_ref40"
+        "year": "1987"
       },
       {
         "key": "S0140525X12000477_ref123",
@@ -603,10 +603,10 @@
         "DOI": "10.1016/j.tins.2004.10.007"
       },
       {
+        "key": "S0140525X12000477_ref41",
         "volume-title": "Consciousness explained",
-        "year": "1991",
         "author": "Dennett",
-        "key": "S0140525X12000477_ref41"
+        "year": "1991"
       },
       {
         "key": "S0140525X12000477_ref158",
@@ -643,10 +643,10 @@
         "year": "1967"
       },
       {
+        "key": "S0140525X12000477_ref19",
         "volume-title": "The neurocomputational perspective",
-        "year": "1989",
         "author": "Churchland",
-        "key": "S0140525X12000477_ref19"
+        "year": "1989"
       },
       {
         "key": "S0140525X12000477_ref67",
@@ -664,15 +664,15 @@
         "DOI": "10.1073/pnas.1000233107"
       },
       {
+        "key": "S0140525X12000477_ref26",
         "volume-title": "Perception and its modalities",
-        "author": "Clark",
-        "key": "S0140525X12000477_ref26"
+        "author": "Clark"
       },
       {
+        "key": "S0140525X12000477_ref157",
         "volume-title": "Evolution's eye: Biology, culture and developmental systems",
-        "year": "1999",
         "author": "Oyama",
-        "key": "S0140525X12000477_ref157"
+        "year": "1999"
       },
       {
         "key": "S0140525X12000477_ref125",
@@ -726,16 +726,16 @@
         "DOI": "10.1146/annurev.neuro.26.041002.131112"
       },
       {
+        "key": "S0140525X12000477_ref36",
         "volume-title": "Reading in the brain",
-        "year": "2009",
         "author": "Dehaene",
-        "key": "S0140525X12000477_ref36"
+        "year": "2009"
       },
       {
+        "key": "S0140525X12000477_ref39",
         "volume-title": "Brainstorms: Philosophical essays on mind and psychology",
-        "year": "1978",
         "author": "Dennett",
-        "key": "S0140525X12000477_ref39"
+        "year": "1978"
       },
       {
         "key": "S0140525X12000477_ref16",
@@ -757,10 +757,10 @@
         "DOI": "10.1016/S1364-6613(99)01332-7"
       },
       {
+        "key": "S0140525X12000477_ref197",
         "volume-title": "Mind in life: Biology, phenomenology, and the sciences of mind",
-        "year": "2007",
         "author": "Thompson",
-        "key": "S0140525X12000477_ref197"
+        "year": "2007"
       },
       {
         "key": "S0140525X12000477_ref20",
@@ -831,10 +831,10 @@
         "year": "2011a"
       },
       {
+        "key": "S0140525X12000477_ref2",
         "volume-title": "Binocular rivalry",
-        "year": "2005",
         "author": "Alais",
-        "key": "S0140525X12000477_ref2"
+        "year": "2005"
       },
       {
         "key": "S0140525X12000477_ref114",
@@ -849,10 +849,10 @@
         "year": "1993"
       },
       {
+        "key": "S0140525X12000477_ref105",
         "volume-title": "Consciousness in action",
-        "year": "1998",
         "author": "Hurley",
-        "key": "S0140525X12000477_ref105"
+        "year": "1998"
       },
       {
         "key": "S0140525X12000477_ref130",
@@ -872,10 +872,10 @@
         "DOI": "10.1364/JOSAA.20.001434"
       },
       {
+        "key": "S0140525X12000477_ref132",
         "volume-title": "Kluge: The haphazard construction of the human mind",
-        "year": "2008",
         "author": "Marcus",
-        "key": "S0140525X12000477_ref132"
+        "year": "2008"
       },
       {
         "key": "S0140525X12000477_ref7",
@@ -883,10 +883,10 @@
         "DOI": "10.3998/mpub.10029"
       },
       {
+        "key": "S0140525X12000477_ref134",
         "volume-title": "Vision: A computational approach",
-        "year": "1982",
         "author": "Marr",
-        "key": "S0140525X12000477_ref134"
+        "year": "1982"
       },
       {
         "key": "S0140525X12000477_ref107",
@@ -909,10 +909,10 @@
         "DOI": "10.1007/s11229-007-9237-y"
       },
       {
+        "key": "S0140525X12000477_ref106",
         "volume-title": "Cognition in the wild",
-        "year": "1995",
         "author": "Hutchins",
-        "key": "S0140525X12000477_ref106"
+        "year": "1995"
       },
       {
         "key": "S0140525X12000477_ref82",
@@ -962,10 +962,10 @@
         "DOI": "10.1016/S0079-6123(01)34028-1"
       },
       {
+        "key": "S0140525X12000477_ref191",
         "volume-title": "Thought in a hostile world: The evolution of human cognition",
-        "year": "2003",
         "author": "Sterelny",
-        "key": "S0140525X12000477_ref191"
+        "year": "2003"
       },
       {
         "key": "S0140525X12000477_ref176",
@@ -1000,10 +1000,10 @@
         "DOI": "10.1016/j.neubiorev.2010.12.011"
       },
       {
+        "key": "S0140525X12000477_ref85",
         "volume-title": "Handbuch der physiologischen optik, vol. 3",
-        "year": "1860/1962",
         "author": "Helmholtz",
-        "key": "S0140525X12000477_ref85"
+        "year": "1860/1962"
       },
       {
         "key": "S0140525X12000477_ref32",
@@ -1081,10 +1081,10 @@
         "DOI": "10.1093/acprof:oso/9780198529934.003.0008"
       },
       {
+        "key": "S0140525X12000477_ref183",
         "volume-title": "Evolving knowledge in natural science and artificial intelligence",
-        "year": "1990",
         "author": "Sloman",
-        "key": "S0140525X12000477_ref183"
+        "year": "1990"
       },
       {
         "key": "S0140525X12000477_ref179",
@@ -1202,10 +1202,10 @@
         "DOI": "10.1016/0167-2789(90)90087-6"
       },
       {
+        "key": "S0140525X12000477_ref153",
         "volume-title": "Action in perception",
-        "year": "2004",
         "author": "Noë",
-        "key": "S0140525X12000477_ref153"
+        "year": "2004"
       },
       {
         "key": "S0140525X12000477_ref213",
@@ -1213,10 +1213,10 @@
         "DOI": "10.1016/j.tics.2006.05.002"
       },
       {
+        "key": "S0140525X12000477_ref89",
         "volume-title": "Computational neuroscience: Theoretical insights into brain function",
-        "year": "2007b",
         "author": "Hinton",
-        "key": "S0140525X12000477_ref89"
+        "year": "2007b"
       },
       {
         "key": "S0140525X12000477_ref38",
@@ -1258,16 +1258,16 @@
         "DOI": "10.1038/nn1365"
       },
       {
+        "key": "S0140525X12000477_ref23",
         "volume-title": "Being there: Putting brain, body and world together again",
-        "year": "1997",
         "author": "Clark",
-        "key": "S0140525X12000477_ref23"
+        "year": "1997"
       },
       {
+        "key": "S0140525X12000477_ref96",
         "volume-title": "Advances in neural information processing systems 6",
-        "year": "1994",
         "author": "Hinton",
-        "key": "S0140525X12000477_ref96"
+        "year": "1994"
       },
       {
         "key": "S0140525X12000477_ref60",
@@ -1371,12 +1371,12 @@
     ],
     "issn-type": [
       {
-        "type": "print",
-        "value": "0140-525X"
+        "value": "0140-525X",
+        "type": "print"
       },
       {
-        "type": "electronic",
-        "value": "1469-1825"
+        "value": "1469-1825",
+        "type": "electronic"
       }
     ],
     "subject": [],
@@ -1390,7 +1390,7 @@
       ]
     }
   },
-  "timestamp": 1767726401097,
+  "timestamp": 1771266784876,
   "ttl": 2592000000,
   "source": "crossref"
 }
