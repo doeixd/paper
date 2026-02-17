@@ -86,7 +86,7 @@ Cogitate Consortium. 2025. "Adversarial testing of global neuronal workspace and
 
 Conquest, Robert. 1990. *The great terror*. Oxford: Oxford University Press. ISBN 978-0195055801.
 
-Cover, Thomas M., and Joy A. Thomas. 2006. *Elements of Information Theory*. 2nd ed. Hoboken, NJ: Wiley. ISBN 978-0471241959.
+Cover, Thomas M., and Joy A. Thomas. 2006. *Elements of Information Theory*. 2nd ed. Hoboken, NJ: Wiley. ISBN 978-0471241959. https://doi.org/10.1002/047174882X.
 
 Davidson, Donald. 1986. "Truth and interpretation" In *Truth and Interpretation: Perspectives on the Philosophy of Donald Davidson*, edited by Ernest LePore, 307-319. Oxford: Basil Blackwell. ISBN 0-631-14811-6.
 
