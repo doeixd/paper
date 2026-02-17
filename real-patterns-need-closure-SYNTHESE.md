@@ -40,7 +40,7 @@ A related line of work traces the cognitive origins of real-pattern commitments,
 
 The paper is restricted to induced closure in spatiotemporal systems. It does not offer a complete metaphysics of levels, and it does not settle all questions about abstract objects or full mereology. Where those debates arise, they are handled only to protect the central claim from predictable misreadings.
 
-Methodologically, the paper does not depend on the strongest anti-analytic rhetoric sometimes associated with naturalized metaphysics. The claim is narrower: closure is a usable philosophical constraint that can be motivated by dynamical and coarse-graining practice, whether or not one accepts every meta-metaphysical commitment in the broader ETMG program (Ladyman & Ross, 2007).
+Methodologically, the paper does not depend on the strongest anti-analytic rhetoric sometimes associated with naturalized metaphysics. The claim is narrower: closure is a usable philosophical constraint that can be motivated by dynamical and coarse-graining practice, whether or not one accepts every meta-metaphysical commitment in the broader Every Thing Must Go (ETMG) program (Ladyman & Ross, 2007).
 
 The roadmap is direct. Section 2 states the criterion and admissibility framework. Section 3 gives the exact benchmark. Section 4 extends the criterion to non-ideal settings. Section 5 addresses the strongest objections. Section 6 summarizes gains and limits.
 
