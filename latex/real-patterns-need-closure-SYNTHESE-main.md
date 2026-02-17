@@ -1,11 +1,3 @@
-# Real Patterns Need Closure: Transition Autonomy as a Dynamical Criterion for Macro-Objecthood
-
-## Abstract
-
-Dennett's real-pattern realism links ontology to compression and prediction, but compression alone is too permissive: contrived codings and dynamically idle aggregates can satisfy it. This paper argues that the missing ingredient is an explicit closure condition. A candidate macro-object qualifies when, for a fixed regime, horizon, and admissible intervention class, macrostate information is sufficient for macro-transitions, so within-class micro-differences do not change macro-level what-follows. In exact Markov settings, strong lumpability provides a benchmark realization of this condition. In non-ideal settings, closure is graded through leakiness and convergent diagnostics under fixed constraints. The result is realist but disciplined: it excludes high-leak composites, supports graded verdicts in borderline cases, and remains compatible with microphysical completeness. By tying commitment strength to robustness under anti-gerrymandering tests, the framework explains why selective realism is principled rather than discretionary. The paper contributes a philosophical criterion and an audit protocol for applying it, while leaving domain-specific estimator engineering to downstream methodological work.
-
-**Keywords:** real patterns, closure, macro-objecthood, strong lumpability, coarse-graining, pattern realism
-
 ## 1. Introduction: Why Pattern Realism Needs a Stricter Criterion
 
 Dennett's core thought is still compelling. Scientific and everyday inquiry often succeeds by tracking patterns rather than exhaustively tracking microstates, and this success is not always reducible to convenience language. His criterion is explicit: "A pattern exists in some data—is real—if there is a description of the data that is more efficient than the bit map, whether or not anyone can concoct it" (Dennett, 1991, p. 34). In that sense, real-pattern realism captures something correct about the structure of explanation.
