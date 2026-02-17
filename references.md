@@ -8,6 +8,8 @@ Ainsworth, Peter M. 2009. "Newman's Objection." *The British Journal for the Phi
 
 Anderson, Elizabeth. 1995. "Knowledge, Human Interests, and Objectivity in Feminist Epistemology" *Philosophical Topics* 23(2): 27-58. https://doi.org/10.5840/philtopics199523213.
 
+Ando, Albert, and Herbert A. Simon. 1961. "Aggregation of Variables in Dynamic Systems." *Econometrica* 29(2): 111–138. https://doi.org/10.2307/1909285.
+
 Aslin, Richard N., and Elissa L. Newport. 2012. "Statistical Learning" *Current Directions in Psychological Science* 21(3): 170–176. https://doi.org/10.1177/0963721412436806.
 
 Awodey, Steve. 2010. *Introduction To Category Theory*. 2nd ed. Oxford: Oxford University Press. ISBN 978-0199237180.
@@ -84,7 +86,7 @@ Cogitate Consortium. 2025. "Adversarial testing of global neuronal workspace and
 
 Conquest, Robert. 1990. *The great terror*. Oxford: Oxford University Press. ISBN 978-0195055801.
 
-Cover, Thomas M., and Joy A. Thomas. 2006. *Elements of Information Theory*. 2nd ed. Hoboken, NJ: Wiley.
+Cover, Thomas M., and Joy A. Thomas. 2006. *Elements of Information Theory*. 2nd ed. Hoboken, NJ: Wiley. ISBN 978-0471241959.
 
 Davidson, Donald. 1986. "Truth and interpretation" In *Truth and Interpretation: Perspectives on the Philosophy of Donald Davidson*, edited by Ernest LePore, 307-319. Oxford: Basil Blackwell. ISBN 0-631-14811-6.
 
@@ -180,7 +182,7 @@ Joyce, Richard. 2001. *The Myth of Morality*. Cambridge: Cambridge University Pr
 
 Kahneman, Daniel. 2011. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux. ISBN 978-0374275631.
 
-Kemeny, John G., and J. Laurie Snell. 1976. *Finite Markov Chains*. 2nd ed. New York: Springer.
+Kemeny, John G., and J. Laurie Snell. 1976. *Finite Markov Chains*. New York: Springer. ISBN 978-0387901923.
 
 Thomas Kelly, Thomas. 2005. "The Epistemic Significance of Disagreement." In *Oxford Studies in Epistemology*, vol. 1, edited by Tamar Szabó Gendler and John Hawthorne, 167–96. Oxford: Oxford University Press.
 
@@ -365,8 +367,6 @@ Sevilla, Jaime, Lennart Heim, Anson Ho, Tamay Besiroglu, Marius Hobbhahn, and Pa
 Shalizi, Cosma Rohilla, and James P. Crutchfield. 2001. "Computational Mechanics: Pattern and Prediction, Structure and Simplicity." *Journal of Statistical Physics* 104(3-4): 817–879. https://doi.org/10.1023/A:1010388907793.
 
 Shannon, Claude E. 1948. "A Mathematical Theory of Communication." *Bell System Technical Journal* 27(3): 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x.
-
-Simon, Herbert A., and Albert Ando. 1961. "Aggregation of Variables in Dynamic Systems." *Econometrica* 29(2): 111–138. https://doi.org/10.2307/1909285.
 
 Sims, Matthew. 2023. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91(2): 430–48. https://doi.org/10.1017/psa.2023.104.
 
