@@ -182,7 +182,7 @@ Joyce, Richard. 2001. *The Myth of Morality*. Cambridge: Cambridge University Pr
 
 Kahneman, Daniel. 2011. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux. ISBN 978-0374275631.
 
-Kemeny, John G., and J. Laurie Snell. 1976. *Finite Markov Chains*. New York: Springer. ISBN 978-0387901923.
+Kemeny, John G., and J. Laurie Snell. 1960. *Finite Markov Chains*. Princeton, NJ: Van Nostrand. Reprinted 1976, New York: Springer. ISBN 978-0387901923.
 
 Thomas Kelly, Thomas. 2005. "The Epistemic Significance of Disagreement." In *Oxford Studies in Epistemology*, vol. 1, edited by Tamar Szabó Gendler and John Hawthorne, 167–96. Oxford: Oxford University Press.
 
