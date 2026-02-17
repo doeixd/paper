@@ -92,7 +92,7 @@ Dennett, Daniel C. 1991. "Real Patterns." *Journal of Philosophy* 88(1): 27-51. 
 
 Dewey, John. 2007. *Logic: The Theory of Inquiry*. New York: Henry Holt and Company. ISBN 978-1406731804.
 
-Dittrich, Christian, and Jennifer Flygare Kinne. "T" Preprint, submitted October 30, 2025. arXiv:2510.25883 [cs.AI]. https://doi.org/10.48550/arXiv.2510.25883.
+Dittrich, Christian, and Jennifer Flygare Kinne. "The Information-Theoretic Imperative: Compression and the Epistemic Foundations of Intelligence" Preprint, submitted October 30, 2025. arXiv:2510.25883 [cs.AI]. https://doi.org/10.48550/arXiv.2510.25883.
 
 Duflo, Esther. 2012. "Women Empowerment and Economic Development." *Journal of Economic Literature* 50(4): 1051–79. https://doi.org/10.1257/jel.50.4.1051.
 
@@ -116,7 +116,7 @@ Friston, Karl J. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nat
 
 Friston, Karl J. 2013. "Life as We Know It." *Journal of the Royal Society Interface* 10 (86): 20130475. https://doi.org/10.1098/rsif.2013.0475.
 
-Frege, Gottlob. 1884. *Die Grundlagen der Arithmetik*. Breslau: Verlag von Wilhelm Koebner. Translated as *The Foundations of Arithmetic* by J.L. Austin (1950). Oxford: Blackwell.
+Gottlob Frege, Gottlob. 1884. *Die Grundlagen der Arithmetik: Eine logisch-mathematische Untersuchung über den Begriff der Zahl*. Breslau: Verlag von Wilhelm Koebner. Translated as *The Foundations of Arithmetic* by J.L. Austin (1950). Oxford: Blackwell.
 
 Gadamer, Hans-Georg. 1975. *Truth and Method*. Translated by Joel Weinsheimer and Donald G. Marshall. New York: Continuum (originally Seabury Press; 2nd revised ed.). ISBN 978-0826400161.
 
@@ -126,9 +126,9 @@ Gell-Mann, Murray, and Seth Lloyd. 1996. "Information Measures, Effective Comple
 
 Gil Martín, Francisco Javier, and Jesús Vega Encabo. 2008. "Truth and Moral Objectivity: Procedural Realism in Putnam's Pragmatism." *Theoria: An International Journal for Theory, History and Foundations of Science* 23(3): 343-356.
 
-Gładziejewski, Paweł. 2025. "Real patterns, the predictive mind, and the cognitive construction of the manifest image." *Synthese* 206: 225. https://doi.org/10.1007/s11229-025-05311-0.
+Brenner, Paweł. 2014. "Mereological nihilism and the special arrangement question" *Synthese* 206: 225. https://doi.org/10.1007/s11229-025-05311-0.
 
-Glenn, Patrick. 2025. "The Architecture of Failure: How Systemic Brittleness Drives Convergent Coherence to Forge Objective Truth." PhilPapers. https://philpapers.org/rec/GLETAO.
+Glenn, Patrick. 2025. "The Architecture of Inquiry: Extending Quine's Web for A Pragmatic and Naturalistic Account of Objectivity" PhilPapers. https://philpapers.org/rec/GLETAO.
 
 Godfrey-Smith, Peter. 2003. *Theory and Reality*. Chicago: University of Chicago Press. ISBN 978-0226300634.
 
@@ -150,7 +150,7 @@ Harding, Sandra. 1991. *Whose science? Whose knowledge?*. Ithaca, NY: Cornell Un
 
 Hartmann, Stephan, and Borut Trpin. 2023. "Conjunctive Explanations: A Coherentist Appraisal." In *Conjunctive Explanations: The Nature, Epistemology, and Psychology of Explanatory Multiplicity*, edited by Jonah N. Schupbach and David H. Glass, 111–129. Cham: Springer.
 
-Haugeland, John. 1998. *Having Thought*. Cambridge, MA: Harvard University Press. ISBN 978-0674198234.
+Haugeland, John. 1987. *Derrida*. Cambridge, MA: Harvard University Press. ISBN 978-0674198234.
 
 Henrich, Joseph. 2016. *The secret of our success*. Princeton, NJ: Princeton University Press. ISBN 978-0691178431.
 
@@ -170,13 +170,13 @@ Hull, David L. 1988. *Science as a process*. Chicago: University of Chicago Pres
 
 Ingthorsson, Rögnvaldur D. 2013. "Properties: Qualities, Powers, or Both?" *Dialectica* 67, no. 1: 55–80. https://doi.org/10.1111/1746-8361.12011.
 
-James, William. 1890. *The Principles of Psychology*. 2 vols. New York: Henry Holt and Company.
+William James, William. 1890. *The Principles of Psychology*. 2 vols. New York: Henry Holt and Company.
 
 Joyce, Richard. 2001. *The Myth of Morality*. Cambridge: Cambridge University Press. ISBN 978-0521808064. https://doi.org/10.1017/CBO9780511487101.
 
 Kahneman, Daniel. 2011. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux. ISBN 978-0374275631.
 
-Kelly, Thomas. 2005. "The Epistemic Significance of Disagreement." In *Oxford Studies in Epistemology*, vol. 1, edited by Tamar Szabó Gendler and John Hawthorne, 167–96. Oxford: Oxford University Press.
+Thomas Kelly, Thomas. 2005. "The Epistemic Significance of Disagreement." In *Oxford Studies in Epistemology*, vol. 1, edited by Tamar Szabó Gendler and John Hawthorne, 167–96. Oxford: Oxford University Press.
 
 Kim, Jaegwon. 1988. "What Is 'Naturalized Epistemology'?" *Philosophical Perspectives* 2: 381–405. https://doi.org/10.2307/2214082.
 
@@ -210,7 +210,7 @@ Landauer, Rolf. 1961. "Irreversibility and Heat Generation in the Computing Proc
 
 Landauer, Rolf. 1981. "Fundamental Physical Limitations of the Computational Process." In *Sixth International Conference on Noise in Physical Systems*, edited by P. H. E. Meijer, R. D. Mountain, and F. J. Soulen Jr., Publication No. 614: 12–17. Washington, DC: National Bureau of Standards.
 
-Laudan, Larry. 1977. *Progress and Its Problems: Towards a Theory of Scientific Growth*. Berkeley: University of California Press. ISBN 978-0520037212.
+Laudan, Larry. 1978. *Progress and Its Problems*. Berkeley: University of California Press. ISBN 978-0520037212.
 
 Lavoisier, Antoine. 1789. *Elements of Chemistry*. Translated by Robert Kerr. Edinburgh: William Creech.
 
@@ -219,6 +219,8 @@ Laukkonen, Ruben, et al. 2025. "A Beautiful Loop: An Active Inference Theory of 
 Lehrer, Keith. 1990. *Theory of Knowledge*. Boulder, CO: Westview Press. ISBN 978-0415054072.
 
 Leinster, Tom. 2014. *Basic Category Theory*. Cambridge: Cambridge University Press. ISBN 978-1107044241.
+
+Lewis, David. 1986. *On the Plurality of Worlds*. Oxford: Blackwell. ISBN 978-0631139942.
 
 Lewis, John. 1930. *The Quest for Certainty: A Study of the Relation of Knowledge and Action*. New York: Minton, Balch & Company. https://doi.org/10.2307/2014669
 
@@ -338,9 +340,9 @@ Rosas, Fernando E., Bernhard C. Geiger, Andrea I. Luppi, Anil K. Seth, Daniel Po
 
 Rosenstock, Sarita, Cailin O'Connor, and Justin Bruner. 2017. "In Epistemic Networks, Is Less Really More?" *Philosophy of Science* 84(2): 234–52. https://doi.org/10.1086/690717.
 
-Rottschaefer, Kim. 2012. "The Moral Realism of Pragmatic Naturalism" *Analyse & Kritik* 34(1): 107–124. https://doi.org/10.1515/auk-2012-0107.
+Sterelny, Kim. 2012. "Morality’s Dark Past" *Analyse & Kritik* 34(1): 107–124. https://doi.org/10.1515/auk-2012-0107.
 
-Rottschaefer, William A. 2012. "The Moral Realism of Pragmatic Naturalism." *Analyse & Kritik* 34(1): 141–156. https://doi.org/10.1515/auk-2012-0110.
+Sterelny, William A. 2012. "Morality’s Dark Past" *Analyse & Kritik* 34(1): 141–156. https://doi.org/10.1515/auk-2012-0110.
 
 Rottschaefer, William A. 2023. "Oxford Handbook of Moral Realism" In *The Oxford Handbook of Moral Realism*, edited by Paul Bloomfield, 123–45. Oxford: Oxford University Press. ISBN 978-0190068226.
 
@@ -396,9 +398,9 @@ Tononi, Giulio, Melanie Boly, Marcello Massimini, and Christof Koch. 2016. "Inte
 
 Turchin, Peter. 2003. *Historical dynamics*. Princeton, NJ: Princeton University Press. ISBN 978-0691116693.
 
-Turing, Alan M. 1936. "On Computable Numbers, with an Application to the Entscheidungsproblem." *Proceedings of the London Mathematical Society* 2(42): 230–265. https://doi.org/10.1112/plms/s2-42.1.230.
+Turing, Alan M. 1937. "On Computable Numbers, with an Application to the Entscheidungsproblem." *Proceedings of the London Mathematical Society* 2(42): 230–265. https://doi.org/10.1112/plms/s2-42.1.230.
 
-Van Inwagen, Peter. 1990. *What's the meaning of "this"?*. Ithaca, NY: Cornell University Press. ISBN 978-0801424090.
+Van Inwagen, Peter. 1990. *What's the meaning of "What's the meaning of "this"?"?*. Ithaca, NY: Cornell University Press. ISBN 978-0801424090.
 
 Varley, Thomas F., and Erik Hoel. 2022. "Emergence as the conversion of information: a unifying theory." *Philosophical Transactions of the Royal Society A* 380(2227): 20210150. https://doi.org/10.1098/rsta.2021.0150.
 
@@ -412,7 +414,7 @@ Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica*
 
 Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." *Proceedings of the Sixth International Congress of Genetics* 1: 356–66.
 
-Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind: An Inquiry into the Nature of Virtue and the Ethical Foundations of Knowledge*. Cambridge: Cambridge University Press. ISBN 978-0521578264. https://doi.org/10.1017/CBO9781139174763.
+Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind*. Cambridge: Cambridge University Press. ISBN 978-0521578264. https://doi.org/10.1017/CBO9781139174763.
 
 Zollman, Kevin J. S. 2009. "The Epistemic Benefit of Transient Diversity." *Erkenntnis* 72: 17–35. https://doi.org/10.1007/s10670-009-9194-6. ISSN 0165-0106.
 

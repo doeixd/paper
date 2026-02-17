@@ -2,7 +2,7 @@
 
 ## Abstract
 
-Real-pattern realism captures an important insight: higher-level descriptions can track objective structure rather than mere convenience. The unresolved problem is permissiveness. Compression and predictive success alone do not exclude dynamically idle or gerrymandered aggregates. This paper argues that real-pattern realism therefore needs an explicit closure condition. For a fixed regime, horizon, and admissible intervention class, a candidate macro-object qualifies when macrostate information is sufficient for macro-transition structure, so within-class micro-differences do not change macro-level what-follows. In exact Markov settings, strong lumpability provides a benchmark realization of this condition. In non-ideal settings, closure is graded through leakiness and convergent diagnostics under fixed constraints. The result is realist but disciplined. It excludes high-leak composites, allows qualified verdicts in borderline cases, and remains compatible with microphysical completeness. The paper contributes a philosophical criterion and an audit protocol for applying it, while leaving domain-specific estimator engineering to downstream methodological work.
+Dennett's real-pattern realism links ontology to compression and prediction, but compression alone is too permissive: contrived codings and dynamically idle aggregates can satisfy it. This paper argues that the missing ingredient is an explicit closure condition. A candidate macro-object qualifies when, for a fixed regime, horizon, and admissible intervention class, macrostate information is sufficient for macro-transitions, so within-class micro-differences do not change macro-level what-follows. In exact Markov settings, strong lumpability provides a benchmark realization of this condition. In non-ideal settings, closure is graded through leakiness and convergent diagnostics under fixed constraints. The result is realist but disciplined: it excludes high-leak composites, supports graded verdicts in borderline cases, and remains compatible with microphysical completeness.
 
 ## 1. Introduction: Why Pattern Realism Needs a Stricter Criterion
 
@@ -10,7 +10,9 @@ Dennett's core thought is still compelling. Scientific and everyday inquiry ofte
 
 The persistent difficulty is permissiveness. If compression and predictive utility are the only standards, then almost any coding strategy that helps with a target prediction can look ontologically respectable. Disjunctive and high-maintenance constructions can be made to look acceptable whenever they are tuned to a narrow data slice. This is exactly the point where many critics infer instrumentalism (Elgin 2017). The worry has a well-established lineage. Haugeland pressed the question of when pattern detection crosses from descriptive convenience into genuine ontological contact (Haugeland 1998), and versions of the "cheap coding" objection recur throughout the subsequent literature on Dennett's criterion. The present paper takes that critique seriously: the permissiveness problem is not a side issue but the central obstacle standing between real-pattern realism and a defensible macro-ontology.
 
-The thesis of this paper is that real-pattern realism needs an explicit closure condition to avoid that drift.
+A contrast makes the gap concrete. Lewis observed that we have no principled reason to deny existence to the mereological sum of "the right half of my left shoe plus the moon plus the sum of all her Majesty's ear-rings," however sensible it is to ignore such things in ordinary thought (Lewis 1986, 213). That is correct as far as it goes. But consider the difference between that composite and a hurricane. Knowing a hurricane's pressure organization and rotational structure tells you what it will do next without tracking every molecule. The shoe-moon composite carries no comparable transition structure; predicting its future requires independently tracking each component. What separates them is not existence but autonomous macro-dynamics. This paper argues that closure of transition structure is the criterion that marks that difference.
+
+The thesis, then, is that real-pattern realism needs an explicit closure condition to avoid permissive drift.
 
 For a fixed regime, horizon, and admissible intervention class, a candidate macro-object qualifies when macrostate information is sufficient for macro-transitions, so within-class micro-differences do not change macro-level what-follows.
 
@@ -29,6 +31,8 @@ The novelty claim has three parts.
 This is a conditional metaphysical proposal. Under structural realist and interventionist commitments, closure under admissible conditions is sufficient for macro-objecthood in regime. Readers with different priors can still accept a narrower conclusion: closure is at least a necessary anti-gerrymandering constraint on serious macro-ontology claims.
 
 This positioning is deliberately dialogical. With Dennett, the paper keeps compression realism while rejecting permissiveness (Dennett 1991). With Ladyman and Ross, it keeps structural and projectibility ambitions while insisting on an explicit transition criterion for objecthood verdicts (Ladyman and Ross 2007). With Rosas, it treats formal closure diagnostics as benchmark machinery, then uses them to support a philosophical criterion that remains stable in non-ideal cases (Rosas 2024). With causal-emergence work, it treats macro-level gains as corroborating diagnostics rather than as a standalone ontology test (Hoel, Albantakis, and Tononi 2013). With Kim-style exclusion pressure, it defends non-redundancy at explanatory and control levels without denying microphysical implementation (Kim 1998).
+
+A related line of work traces the cognitive origins of real-pattern commitments, linking predictive coding and free-energy minimization to how bounded agents build and revise their representational schemes (Gładziejewski 2025). That work helps explain why agents converge on some macro-descriptions and abandon others, which strengthens the anti-arbitrariness side of pattern realism. But representational success can remain task-relative unless a further test determines when a candidate grouping tracks dynamical structure in the world rather than merely serving local inferential needs. The closure criterion supplies that additional test.
 
 ### 1.2 Scope and Non-Claims
 
@@ -114,21 +118,13 @@ The criterion in this paper is stricter. It targets macro-objecthood, not any an
 
 That distinction clarifies dialectical burden. The paper does not need to show that non-closed representations are worthless. It only needs to show that they do not meet the objecthood standard defended here.
 
-### 2.6 Admissibility Disputes and How to Handle Them
+### 2.6 Admissibility Disputes
 
-Admissibility disputes are expected, especially across domains. The framework should not pretend they disappear. It should show how they are disciplined.
+Admissibility disputes are expected, especially across domains. The adjudication rule is to compare candidate intervention classes by what they physically permit and whether they preserve the same target regime. Boundary-pressure perturbations can be admissible for storm dynamics, while molecule-by-molecule remote rewriting is not. In institutional settings, changing enforcement intensity can be admissible, while instant arbitrary rewriting of all agent commitments is not.
 
-A practical adjudication rule is to compare candidate intervention classes by what they physically permit and whether they preserve the same target regime. Boundary-pressure perturbations can be admissible for storm dynamics, while molecule-by-molecule remote rewriting is not. In institutional settings, changing enforcement intensity can be admissible, while instant arbitrary rewriting of all agent commitments is not.
+One guardrail is non-negotiable. Interventions that directly target preservation of partition labels, rather than system variables, are inadmissible because they trivialize closure by design. The test concerns whether transition structure is autonomous under physically meaningful controls, not whether labels can be protected by stipulation.
 
-For transparency, three template classes are often useful as a starting grid: boundary nudges, coarse actuator controls, and policy levers. The point is not that these templates are universal. The point is that they make admissibility comparison public and repeatable. A candidate partition that appears closed only under one narrowly tuned template should be downgraded when sensitivity appears across nearby defensible templates.
-
-Admissibility is not a naturalness surrogate. Interventions that directly target preservation of partition labels, rather than system variables, are inadmissible because they trivialize closure by design. The test concerns whether transition structure is autonomous under physically meaningful controls, not whether labels can be protected by stipulation.
-
-A minimal vignette makes the rule concrete. Suppose two admissible templates are available for the same storm regime: boundary-pressure nudges and coarse thermal forcing. If a candidate partition appears closed only under one template but fails under the other nearby defensible template, the correct verdict is qualified or indeterminate, not robust.
-
-When two intervention classes are both admissible and target the same regime, the framework permits plural testing rather than forced monism. The key requirement is transparency. Verdicts should report which admissibility class was used and how sensitive results are across nearby defensible classes.
-
-This is a strength, not a weakness. A criterion that cannot represent admissibility uncertainty will hide it. A criterion that makes it explicit can discipline it.
+When two intervention classes are both admissible and target the same regime, the framework permits plural testing rather than forced monism. Verdicts should report which admissibility class was used and how sensitive results are across nearby defensible classes. A candidate partition that appears closed only under one narrowly tuned class should be downgraded when sensitivity appears across nearby defensible alternatives.
 
 ### 2.7 Canonical Criterion Statement
 
@@ -244,29 +240,19 @@ This is not a concession to arbitrariness. The criterion tracks transition coher
 
 The exclusion claim should therefore be read carefully. The framework excludes dynamically incoherent, high-leak aggregates. It does not exclude every unusual grouping.
 
-### 3.3 Compression and Closure Are Related but Not Identical
+### 3.3 What the Formal Machinery Alone Does Not Provide
 
-The paper relies on compression and closure, but they do different jobs. Compression concerns descriptive economy. Closure concerns autonomous transition structure under admissible interventions.
+The mathematical property and the philosophical criterion are different things. Four elements of the present framework have no counterpart in the formal literature alone.
 
-A representation can compress in-sample trajectories and still fail closure if it hides transition-relevant within-class differences. For that reason, compression is often a useful indicator but not a sufficient objecthood condition.
+First, intervention indexing. Causal-state constructions classify histories by equivalence of future distributions under the observed process, which is primarily an observational-predictive equivalence relation (Shalizi and Crutchfield 2001). The present criterion adds an admissible intervention class as a parameter of the closure test. Objecthood claims are indexed to what the system does under perturbation, not only under passive observation.
 
-The division of labor is simple. Compression helps identify promising candidates. Closure carries final ontological weight.
-
-### 3.4 What the Formal Machinery Alone Does Not Provide
-
-A natural question is why this paper is needed if strong lumpability and causal-state constructions already exist. The answer is that the mathematical property and the philosophical criterion are different things. Four elements of the present framework have no counterpart in the formal literature alone.
-
-First, intervention indexing. Causal-state constructions classify histories by equivalence of future distributions under the observed process. That is primarily an observational-predictive equivalence relation (Shalizi and Crutchfield 2001). The present criterion adds an admissible intervention class as a parameter of the closure test. Objecthood claims are indexed to what the system does under perturbation, not only under passive observation. This is what separates the criterion from a purely statistical diagnostic.
-
-Second, an explicit ontological interpretation. Strong lumpability tells you when a coarse-graining preserves transition structure. It does not tell you whether that preservation warrants realist commitment. The philosophical work of this paper is to argue that, under stated commitments, transition autonomy under admissible interventions is sufficient for macro-objecthood, and to give the conditions under which that claim should be downgraded or withdrawn.
+Second, an explicit ontological interpretation. Strong lumpability tells you when a coarse-graining preserves transition structure. It does not tell you whether that preservation warrants realist commitment. The philosophical work is to argue that, under stated commitments, transition autonomy under admissible interventions is sufficient for macro-objecthood, and to give the conditions under which that claim should be downgraded or withdrawn.
 
 Third, a graded commitment protocol. The formal literature offers exact conditions and, more recently, approximate-closure measures. It does not supply a framework for translating those measures into warranted ontological verdicts with explicit robustness requirements and downgrade rules. The selective commitment structure (robust, qualified, indeterminate) is a philosophical addition.
 
-Fourth, an anti-gerrymandering argument. The Dennett permissiveness problem is a philosophical problem. Lumpability provides a formal tool for solving it, but the argument that closure is the right anti-gerrymandering condition, and that compression without closure is insufficient for objecthood, is not a theorem. It is a philosophical claim defended by the structure of Sections 2 through 4.
+Fourth, an anti-gerrymandering argument. The argument that closure is the right anti-gerrymandering condition, and that compression without closure is insufficient for objecthood, is not a theorem. It is a philosophical claim defended by the structure of Sections 2 through 4.
 
-A similar contrast applies to causal-emergence work. Effective-information analyses ask when macro-descriptions gain determinism and reduce degeneracy relative to micro-descriptions (Hoel, Albantakis, and Tononi 2013). That is a valuable diagnostic, but it does not by itself settle which macro-descriptions deserve realist commitment, because a partition can increase effective information while remaining fragile under intervention or horizon variation. The present framework treats causal-emergence gains as corroborating evidence within a closure-governed criterion, not as a standalone ontology test.
-
-So the paper is not computational mechanics or causal-emergence analysis with new labels. It is a philosophical criterion that borrows formal tools while adding intervention-indexed objecthood conditions, an explicit commitment protocol, and a sustained argument about why closure is the right fix for pattern-realism permissiveness.
+A similar point applies to causal-emergence work. Effective-information analyses identify when macro-descriptions gain determinism relative to micro-descriptions (Hoel, Albantakis, and Tononi 2013). That is a valuable diagnostic, but a partition can increase effective information while remaining fragile under intervention or horizon variation. The present framework treats such gains as corroborating evidence within a closure-governed criterion, not as a standalone ontology test.
 
 ## 4. Approximate Closure Without Instrumentalist Drift
 
@@ -330,7 +316,7 @@ The illustration does one job only. It shows that closure tracks transition stru
 
 ### 4.6 Failure Conditions and Downgrade Rules
 
-The framework should also say clearly when commitment should be withdrawn or downgraded. Three failure patterns are especially relevant.
+The framework should also say clearly when commitment should be withdrawn or downgraded. Four failure patterns are especially relevant.
 
 1. Persistent high leakiness across defensible diagnostics under fixed constraints.
 2. Strong disagreement among diagnostics that does not resolve under modest robustness checks.
@@ -458,7 +444,7 @@ Reply: the paper is continuous with autonomy insights, but it is not equivalent 
 
 The difference is practical and philosophical. Practical, because the framework gives a protocol for ruling out high-maintenance, transition-incoherent candidates. Philosophical, because it ties realism commitment to transition autonomy under admissible interventions rather than to explanatory convenience alone. In this respect, causal-emergence style results are treated as evidence within a closure-governed framework, not as a replacement for the criterion itself (Hoel, Albantakis, and Tononi 2013).
 
-So the paper should be read as a constrained realism refinement of autonomy views, not as an unrelated alternative and not as a mere restatement.
+The conceptual difference can be stated directly. Generic autonomy claims assert that higher levels matter. Closure specifies *when* they matter, *how much* they matter (graded by leakiness), and *when the claim should be withdrawn* (explicit downgrade conditions). A realism criterion without withdrawal conditions is not a criterion at all. It is an assertion.
 
 Pluralism version of the objection: if multiple grains can satisfy closure, ontology becomes permissive again. The reply is that plurality of closed grains does not imply arbitrariness. Once regime, horizon, and admissibility are fixed, which partitions close is determined by transition structure, not by analyst choice. When multiple candidates remain viable, robustness and minimality rank them as an objective relation among candidates under fixed constraints.
 
@@ -530,15 +516,9 @@ This is also where compression and closure reconnect in a non-vacuous way. Early
 
 ## 6. Conclusion: A Disciplined Realism Claim
 
-The paper advances a constrained upgrade of real-pattern realism. Compression and prediction are retained, but permissiveness is reduced by an explicit closure condition tied to transition autonomy under fixed constraints.
+Real-pattern realism is plausible but underconstrained. This paper adds the missing discriminating condition: closure of macro-transition structure under fixed regime, horizon, and admissible intervention class. Strong lumpability provides the exact benchmark. Leakiness and convergent diagnostics extend the same criterion to non-ideal settings without changing its content.
 
-Strong lumpability provides the exact benchmark. Leakiness and convergent diagnostics provide a disciplined non-ideal extension. Together they support a realism claim that is neither naively permissive nor implausibly perfectionist.
-
-The central philosophical move can be stated compactly. Real-pattern realism is plausible but underconstrained. Closure supplies the missing discriminating condition. Exact lumpability and graded leakiness then show how that condition can be used across ideal and non-ideal settings without changing criterion content.
-
-What this framework buys is selective commitment. It supports robust commitment where closure is stable, qualified commitment in borderline cases, and downgrade where verdicts depend on fragile admissibility or horizon choices.
-
-The proposal is intentionally middle-range. It is stronger than permissive pattern realism because it adds explicit exclusion and downgrade structure. It is weaker than a total-level metaphysics because it is restricted to induced closure in spatiotemporal systems under declared constraints.
+What the framework buys is selective commitment. It supports robust commitment where closure is stable, qualified commitment in borderline cases, and explicit downgrade where verdicts depend on fragile admissibility or horizon choices. The proposal is intentionally middle-range: stronger than compression-only pattern realism because it adds exclusion and downgrade structure, weaker than a total-level metaphysics because it is restricted to induced closure in spatiotemporal systems under declared constraints.
 
 The paper also marks clear limits. It is not a complete metaphysics of levels and not a universal methods manual. Its contribution is a philosophical criterion with application discipline. Future work should test the criterion across domains by comparing candidate partitions under fixed constraints, rather than by multiplying new concepts. If rejected, it should be rejected because one rejects its stated commitments, not because circularity, instrumentalist drift, or scope ambiguity were left unresolved.
 
@@ -547,6 +527,8 @@ The paper also marks clear limits. It is not a complete metaphysics of levels an
 Dennett, Daniel C. 1991. "Real Patterns." *Journal of Philosophy* 88(1): 27-51. https://doi.org/10.2307/2027085.
 
 Elgin, Catherine Z. 2017. "From Knowledge to Understanding." In *True Enough*, 35-53. Cambridge, MA: MIT Press. https://doi.org/10.7551/mitpress/9780262036535.003.0003.
+
+Gładziejewski, Paweł. 2025. "Real patterns, the predictive mind, and the cognitive construction of the manifest image." *Synthese* 206: 225. https://doi.org/10.1007/s11229-025-05311-0.
 
 Haugeland, John. 1998. *Having Thought*. Cambridge, MA: Harvard University Press. ISBN 978-0674198234.
 
@@ -557,6 +539,8 @@ Kim, Jaegwon. 1998. *Mind in a physical world*. Cambridge, MA: MIT Press. ISBN 9
 Kim, Jaegwon. 2005. *Physicalism, or Something Near Enough*. Princeton, NJ: Princeton University Press. ISBN 978-0691113753.
 
 Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
+
+Lewis, David. 1986. *On the Plurality of Worlds*. Oxford: Blackwell. ISBN 978-0631139942.
 
 Pearl, Judea. 2000. *Causality*. Cambridge: Cambridge University Press. ISBN 978-0521773621.
 
