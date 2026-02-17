@@ -408,7 +408,7 @@ Turchin, Peter. 2003. *Historical dynamics*. Princeton, NJ: Princeton University
 
 Turing, Alan M. 1937. "On Computable Numbers, with an Application to the Entscheidungsproblem." *Proceedings of the London Mathematical Society* 2(42): 230–265. https://doi.org/10.1112/plms/s2-42.1.230.
 
-Van Inwagen, Peter. 1990. *Material Beings*. Ithaca, NY: Cornell University Press. ISBN 978-0801424090.
+Van Inwagen, Peter. 1990. *Material Beings*. Ithaca, NY: Cornell University Press. ISBN 978-0801419690.
 
 Varley, Thomas F., and Erik Hoel. 2022. "Emergence as the conversion of information: a unifying theory." *Philosophical Transactions of the Royal Society A* 380(2227): 20210150. https://doi.org/10.1098/rsta.2021.0150.
 
