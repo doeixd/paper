@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{23}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -27,10 +27,18 @@ Elgin CZ (2017) From knowledge to understanding. In: True Enough. MIT Press, p
   33--62.
 \newblock \doi{10.7551/mitpress/9780262036535.003.0003}
 
+\bibitem[{Fodor(1974)}]{fodor1974}
+Fodor JA (1974) Special sciences (or: {T}he disunity of science as a working
+  hypothesis). Synthese 28(2):97--115. \doi{10.1007/BF00485230}
+
 \bibitem[{G{\l}adziejewski(2025)}]{gladziejewski2025}
 G{\l}adziejewski P (2025) Real patterns, the predictive mind, and the cognitive
   construction of the manifest image. Synthese 206:225.
   \doi{10.1007/s11229-025-05311-0}
+
+\bibitem[{Goodman(1955)}]{goodman1955}
+Goodman N (1955) Fact, Fiction, and Forecast. Harvard University Press,
+  Cambridge, MA
 
 \bibitem[{Haugeland(1998)}]{haugeland1998}
 Haugeland J (1998) Having Thought: Essays in the Metaphysics of Mind. Harvard
@@ -65,6 +73,10 @@ Lewis D (1986) On the Plurality of Worlds. Blackwell
 Pearl J (2000) Causality: Models, Reasoning, and Inference. Cambridge
   University Press
 
+\bibitem[{Putnam(1967)}]{putnam1967}
+Putnam H (1967) Psychological predicates. In: Capitan WH, Merrill DD (eds) Art,
+  Mind, and Religion. University of Pittsburgh Press, Pittsburgh, p 37--48
+
 \bibitem[{Rosas et~al.(2024)Rosas, Geiger, Luppi, Seth, Polani, Gastpar, and
   Mediano}]{rosas2024}
 Rosas FE, Geiger BC, Luppi AI, Seth AK, Polani D, Gastpar M, Mediano PAM (2024)
@@ -76,6 +88,10 @@ Rosas FE, Geiger BC, Luppi AI, Seth AK, Polani D, Gastpar M, Mediano PAM (2024)
 Shalizi CR, Crutchfield JP (2001) Computational mechanics: Pattern and
   prediction, structure and simplicity. Journal of Statistical Physics
   104(3-4):817--879. \doi{10.1023/A:1010388907793}
+
+\bibitem[{Shapiro(2000)}]{shapiro2000}
+Shapiro LA (2000) Multiple realizations. The Journal of Philosophy
+  97(12):635--654. \doi{10.2307/2678460}
 
 \bibitem[{Woodward(2003)}]{woodward2003}
 Woodward J (2003) Making Things Happen: A Theory of Causal Explanation. Oxford

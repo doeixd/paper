@@ -335,6 +335,45 @@ This order blocks back-fitting and makes disagreement tractable. If
 verdicts remain highly sensitive across nearby defensible admissibility
 specifications, commitment should be downgraded.
 
+A structural worry deserves explicit treatment here. If regime
+individuation already commits to which macro-variables matter, the
+protocol risks a version of circularity: closure testing presupposes
+regime identification, but regime identification might presuppose
+partition outcomes. The response is that defensible regime
+specifications draw on quantities characterizable without presupposing
+which candidate partition will succeed. Temporal parameters, energy
+scales, flow rates, and enforcement intensities are typically
+identifiable through physical indicators that competing candidate
+partitions can agree on before either is evaluated. In the traffic
+illustration, ``weekday commuter traffic in one metropolitan corridor''
+is characterized by clock schedules, total vehicle counts, and road
+network topology, all quantities that investigators favoring either the
+lane-flow or vehicle-ID-cluster partition can agree on before either
+closure test is run. Regime specifications of this kind are anchored in
+lower-level or cross-cutting physical indicators rather than in the
+outcome of the very test they enable. The key principle is that regime
+specifications should be grain-neutral across competing candidate
+partitions: a regime can itself be a macro-level description while
+still not presupposing which finer-grained partition will close
+within it.
+
+The independence is imperfect in some domains, particularly biology and
+social science, where macro-variable choice and regime characterization
+can be genuinely entangled. The framework treats that entanglement as a
+source of evidential weakness rather than a concealed defect. When
+alternative, independently motivated regime specifications produce
+divergent closure verdicts, the verdict ceiling should be downgraded to
+at most qualified. More broadly, regime individuation and partition
+evaluation should be understood as iterative rather than viciously
+circular: initial regime characterizations are provisional, closure
+testing can refine them, and the process stabilizes into reflective
+equilibrium, in the sense Goodman articulated: rules of inference and
+particular inferential judgments are justified by their mutual coherence
+rather than by either serving as the unilateral foundation for the
+other \citep{goodman1955}. The discipline comes from requiring that all
+revisions be disclosed and that each revision restart the evaluation
+rather than silently inheriting prior results.
+
 \subsection{Pattern Reality Versus
 	Macro-Objecthood}\label{pattern-reality-versus-macro-objecthood}
 
@@ -811,6 +850,39 @@ and perturbation tests, the partition has not achieved the transition
 autonomy the criterion requires, regardless of how it ranks against
 competitors.
 
+The term ``non-negligible'' can be given a comparative anchor without
+fixing a universal numeric threshold. Leakiness is most clearly
+non-negligible when adding within-class micro-features yields prediction
+gains comparable in magnitude to the gains the macro-partition itself
+provides over a naive baseline model. If the macro-partition delivers
+substantial predictive improvement over no partition at all, and
+within-class micro-features add only marginal further gain, that
+residual leakiness is negligible for most objecthood purposes. If
+micro-features instead add gains approaching or matching the
+macro-partition's own contribution, the partition is not doing most of
+the relevant work, and minimum viability is not met. This framing makes
+the judgment about a single tractable quantity, namely relative
+predictive contribution, rather than an abstract absolute cutoff, and it
+makes cross-domain comparisons more tractable. The two requirements work
+in sequence: the viability floor is applied first as a minimum gate,
+excluding candidates regardless of how they compare to rivals, while
+comparative ranking then assigns verdict categories among candidates that
+pass it.
+
+Verdict-category boundaries carry genuine vagueness because the
+underlying property of transition autonomy is itself graded. This is a
+feature rather than a defect: biological fitness is real and
+explanatorily significant without admitting a sharp boundary between fit
+and unfit. What matters primarily is ordering stability. When partition
+$A$ consistently shows lower leakiness and greater perturbation
+stability than partition $B$ across diagnostics, that ordering should be
+robust even if the exact placement of the boundary between ``qualified''
+and ``robust'' carries some domain-conventional element. A partition
+that dominates alternatives across diagnostics and remains stable under
+modest changes to horizon, intervention distribution, and robustness
+checks earns the stronger verdict regardless of where one draws the
+categorical line.
+
 \subsection{Procedural Safeguards in Non-Ideal
 	Cases}\label{procedural-safeguards-in-non-ideal-cases}
 
@@ -904,6 +976,20 @@ breakdown, the same macro-description can become leaky and require
 finer-grained tracking. The point is not that organism talk is always
 closed. The point is that closure can be regime-robust without being
 regime-universal.
+
+Across these illustrations, the verdict structure does real
+discriminative work. The monetary example in a well-functioning system
+approaches robust objecthood in the declared regime: macro-transition
+structure remains stable across heterogeneous realizations and admissible
+interventions. The organism example falls into the qualified range:
+organ-level interventions are reliably effective within established
+physiological regimes but exhibit leakage at ecological or pathological
+boundaries where closure becomes partial. The failed-implementation case
+represents a downgrade: formal representations persist while transition
+autonomy erodes, warranting withdrawal of robust commitment. The three
+cases illustrate the verdict categories in operation, not as abstract
+labels but as outcomes determined by the same diagnostic criteria applied
+to different evidential situations.
 
 The illustration does one job only. It shows that closure tracks
 transition structure, not spatial shape. Nothing in the argument depends
@@ -1300,6 +1386,34 @@ autonomy claims assert that higher levels matter. Closure specifies
 leakiness), and \emph{when the claim should be withdrawn} (explicit
 downgrade conditions). A realism criterion without withdrawal conditions
 is not a criterion at all. It is an assertion.
+
+A more specific comparison is worth drawing. The classical arguments for
+the autonomy of the special sciences established that higher-level kinds
+can be explanatorily indispensable precisely because they abstract over
+heterogeneous micro-realizations \citep{putnam1967,fodor1974}. Multiple
+realizability is in fact a structural feature of any genuinely closed
+macro-kind: if a partition closes, different microstates within the same
+macroclass by construction produce the same macro-transitions, making
+the kind multiply realized in the relevant sense. Multiple realizability
+is therefore necessary for closure. But it is not sufficient. A purely
+extensional claim about kind membership says nothing about the dynamical
+coherence of the realizers. A disjunctive aggregate can have
+heterogeneous realizers while completely failing closure, because those
+realizers can have utterly divergent transition profiles. What closure
+adds is the dynamical requirement: the realizers must not only fall
+under the same label but must produce the same macro-transitions under
+the declared constraints. This gap, between what a kind groups together
+extensionally and how those instances behave dynamically, is precisely
+where gerrymandered kinds exploit multiple-realizability intuitions
+without earning genuine macro-object status. The present framework
+formalizes the transition condition that the autonomy tradition always
+needed to separate genuine higher-level kinds from merely disjunctive
+aggregates \citep{shapiro2000}. The monetary illustration in §4.5
+provides a concrete instance: coins, ledger entries, and digital
+balances are heterogeneous realizers, but what earns money macro-object
+status is not the heterogeneity of realizers but the
+transition-equivalence of those realizers under admissible financial
+interventions.
 
 Pluralism version of the objection: if multiple grains can satisfy
 closure, ontology becomes permissive again. The reply is that plurality
