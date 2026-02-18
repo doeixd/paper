@@ -86,7 +86,7 @@ Cogitate Consortium. 2025. "Adversarial testing of global neuronal workspace and
 
 Conquest, Robert. 1990. *The great terror*. Oxford: Oxford University Press. ISBN 978-0195055801.
 
-Cover, Thomas M., and Joy A. Thomas. 2006. *Elements of Information Theory*. 2nd ed. Hoboken, NJ: Wiley. ISBN 978-0471241959. https://doi.org/10.1002/047174882X.
+Cover, Thomas M., and Joy A. Thomas. 2006. *Elements of Information Theory*. 2nd ed. Hoboken, NJ: Wiley-Interscience. ISBN 978-0471241959. https://doi.org/10.1002/047174882X.
 
 Davidson, Donald. 1986. "Truth and interpretation" In *Truth and Interpretation: Perspectives on the Philosophy of Donald Davidson*, edited by Ernest LePore, 307-319. Oxford: Basil Blackwell. ISBN 0-631-14811-6.
 
@@ -94,7 +94,7 @@ Davidson, Donald. 2001. “A Coherence Theory of Truth and Knowledge.” In *A C
 
 Dennett, Daniel C. 1989. *The Intentional Stance*. Cambridge, MA: MIT Press. ISBN 978-0262540537.
 
-Dennett, Daniel C. 1991. "Real Patterns." *Journal of Philosophy* 88(1): 27-51. https://doi.org/10.2307/2027085.
+Dennett, Daniel C. 1991. "Real Patterns." *The Journal of Philosophy* 88(1): 27-51. https://doi.org/10.2307/2027085.
 
 Dewey, John. 2007. *Logic: The Theory of Inquiry*. New York: Henry Holt and Company. ISBN 978-1406731804.
 
@@ -104,7 +104,7 @@ Duflo, Esther. 2012. "Women Empowerment and Economic Development." *Journal of E
 
 El-Hani, Charbel Niño, and Sami Pihlström. 2002. "Emergence Theories and Pragmatic Realism." *Essays in Philosophy* 3(2): article 3. https://doi.org/10.5840/eip2002325.
 
-Elgin, Catherine Z. 2017. "From Knowledge to Understanding." In *True Enough*, 35-53. Cambridge, MA: MIT Press. https://doi.org/10.7551/mitpress/9780262036535.003.0003.
+Elgin, Catherine Z. 2017. *True Enough*. Cambridge, MA: MIT Press. ISBN 978-0262036535.
 
 Fields, Thomas, and Karl J. Friston. 2025. "How do inner screens enable imaginative experience? Applying the free-energy principle directly to the study of conscious experience" *Neuroscience of Consciousness* 2025(1): niaf009. https://doi.org/10.1093/nc/niaf009.
 

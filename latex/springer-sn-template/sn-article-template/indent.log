@@ -1,7 +1,7 @@
 INFO:  latexindent.pl version 3.24.7, 2025-08-15, a script to indent .tex files
        latexindent.pl lives here: C:/Users/Patrick/scoop/apps/miktex/current/texmfs/install/scripts/latexindent/
-       Tue Feb 17 14:14:54 2026
-       Filename: C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn.tex
+       Wed Feb 18 09:56:51 2026
+       Filename: C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.tex
 INFO:  Processing switches:
        -s|--silent: Silent mode active (you have used either -s or --silent)
        -w|--overwrite: Overwrite mode active, will make a back up before overwriting
@@ -23,19 +23,28 @@ INFO:  YAML reading settings
        latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
        see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
 INFO:  Backup procedure (-w flag active):
-       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn.bak0 already exists, incrementing by 1 (see maxNumberOfBackUps)
-       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn.bak1 already exists, incrementing by 1 (see maxNumberOfBackUps)
-       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn.bak2 already exists, incrementing by 1 (see maxNumberOfBackUps)
-       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn.bak3 already exists, incrementing by 1 (see maxNumberOfBackUps)
-       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn.bak4 already exists, incrementing by 1 (see maxNumberOfBackUps)
-       Backing up C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn.tex to C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn.bak5...
-       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn.tex will be overwritten after indentation
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak0 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak1 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak2 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak3 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak4 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak5 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak6 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak7 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak8 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak9 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak10 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak11 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak12 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak13 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       Backing up C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.tex to C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.bak14...
+       C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.tex will be overwritten after indentation
 INFO:  Phase 1: searching for objects
 INFO:  Phase 2: finding surrounding indentation
 INFO:  Phase 3: indenting objects
 INFO:  Phase 4: final indentation check
 INFO:  Output routine:
-       Overwriting file C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn.tex
+       Overwriting file C:\Users\Patrick\paper\latex\springer-sn-template\sn-article-template\real-patterns-need-closure-SYNTHESE-sn-submission.tex
        --------------
 INFO:  Please direct all communication/issues to:
         https://github.com/cmhughes/latexindent.pl

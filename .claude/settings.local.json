@@ -18,7 +18,13 @@
       "Bash(just release-wholes-appendix:*)",
       "Bash(just:*)",
       "Bash(ls:*)",
-      "WebFetch(domain:onlinelibrary.wiley.com)"
+      "WebFetch(domain:onlinelibrary.wiley.com)",
+      "Bash(findstr:*)",
+      "Bash(powershell -NoProfile -Command \"Get-Content ''C:\\\\Users\\\\Patrick\\\\paper\\\\latex\\\\springer-sn-template\\\\sn-article-template\\\\real-patterns-need-closure-SYNTHESE-sn.log'' | Select-String -Pattern ''undefined citations|citation.*undefined'' | Select-Object -Last 10\")",
+      "Bash(powershell -NoProfile -Command \"& ''C:\\\\Users\\\\Patrick\\\\scoop\\\\apps\\\\latex\\\\current\\\\texmfs\\\\install\\\\miktex\\\\bin\\\\x64\\\\pdflatex.exe'' -interaction=nonstopmode ''real-patterns-need-closure-SYNTHESE-sn.tex''\")",
+      "Bash(powershell -NoProfile -Command \"Select-String -Pattern ''Output written|! ''\")",
+      "Bash(powershell -NoProfile -Command \"Get-Content ''C:\\\\Users\\\\Patrick\\\\paper\\\\latex\\\\springer-sn-template\\\\sn-article-template\\\\real-patterns-need-closure-SYNTHESE-sn.log'' | Select-String -Pattern ''Output written|undefined citation|! LaTeX Error'' | Select-Object -Last 10\")",
+      "Bash(powershell -NoProfile -Command \"& ''C:\\\\Users\\\\Patrick\\\\scoop\\\\apps\\\\latex\\\\current\\\\texmfs\\\\install\\\\miktex\\\\bin\\\\x64\\\\bibtex.exe'' ''real-patterns-need-closure-SYNTHESE-sn''\")"
     ],
     "deny": [],
     "ask": []
