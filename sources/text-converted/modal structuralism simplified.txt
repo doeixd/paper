@@ -1,0 +1,969 @@
+--- Page 1 ---
+
+Modal Structuralism Simpliﬁed
+Sharon Berrya
+aThe Polonsky Academy for Advanced Study in the Humanities and Social Sciences. This
+work was started during my time at Australian National University where I was funded by
+Australian Research Council Discovery Project grant DP11015020 Title: Philosophical
+Progress 2011-2013
+AR TICLE HISTOR Y
+Compiled June 15, 2017
+ABSTRACT
+Since Benacerraf’s “What Numbers Could Not Be,” there has been a growing
+interest in mathematical structuralism. An inﬂuential form of mathematical struc-
+turalism, modal structuralism, uses logical possibility and second order logic to
+provide paraphrases of mathematical statements which don’t quantify over mathe-
+matical objects.
+These modal structuralist paraphrases are a useful tool for nominalists and re-
+alists alike. But their use of second order logic and quantiﬁcation into the logical
+possibility operator raises concerns. In this paper, I show that the work of both these
+elements can be done by a single natural generalization of the logical possibility op-
+erator.
+KEYWORDS
+Hellman;modal structuralism;philosophy of math;logical
+possibility;potentialism;second order logic;Nominalism
+1. Introduction
+Since Benacerraf’s “What Numbers Could Not Be,”Benacerraf (1965) there has been
+a growing interest in mathematical structuralism. One of the most inﬂuential forms of
+structuralism is the modal structuralism developed in Geoﬀrey Hellman’sMathematics
+Without Numbers Hellman (1994). Modal Structuralism is a nominalist philosophy of
+mathematics which maintains that mathematicians can systematically express truths
+even if there are no mathematical objects, by interpreting statements about mathemat-
+ical objects as modal claims about what is logically possible. Speciﬁcally, Hellman uses
+claims about logical possibility and second order logic to provide intuitively correct
+truth conditions for mathematical utterances without quantifying over mathematical
+objects like numbers and sets.
+I don’t ultimately ﬁnd nominalism persuasive, and won’t defend it against standard
+objections. However, I think that Hellman’s modal structuralist paraphrases reveal a
+close relationship between logical possibility and pure mathematics which is of interest
+to realists and nominalists alike1. For they show us how to systematically pair ordinary
+CONTACT Sharon Berry. Email: seberry@invariant.org
+1The fact that you can capture logical possibility for ﬁrst order sentences using set theory is well known.
+
+--- Page 2 ---
+
+(platonistic) mathematical sentences with modal sentences which have exactly the
+truth value a platonist would want to ascribe to the original, but make claims about
+logical possibility rather than quantifying over mathematical objects. So, for example,
+Hellman’s paraphrase of ‘there are inﬁnitely many primes’ is a modal sentence which
+is (intuitively) true at all possible worlds and does not quantify over mathematical
+objects.
+This is useful to, for example, deﬂationary realists who want to (somehow) ground
+mathematical existence facts in logical possibility 2 as well as to nominalists who want
+to deny the existence of mathematical objects. Also, one part of Hellman’s story (his
+treatment of set theory) provides a natural way of developing an independently popular
+view about set theory called potentialism. Philosophers like Charles Parsons, who have
+no truck with blanket nominalism about mathematical objects, have been motivated
+by speciﬁc (i.e., speciﬁc-to-set-theory) apparent paradoxes concerning the height of the
+hierarchy of sets to understand higher set theory as an investigation of extendability
+Parsons (2007). Thus, one might want to accept something like Hellman’s approach
+to set theory while being a straightforward realist about other mathematical objects
+and structures.
+In this paper, I will show how to streamline Hellman’s modal structuralist para-
+phrases for mathematics by appealing to a single, intuitively motivated, notion of
+logical possibility given certain facts – thus avoiding the need for second order quan-
+tiﬁcation3. In addition to its intrinsic interest, this simpliﬁcation provides expository
+and philosophical beneﬁts over Hellman’s approach.
+First, existing potentialist and modal structuralist paraphrases for sentences of set
+theory (including Hellman’s) involve quantifying in to the 3 of logical possibility.
+That is, they use sentences like ∃x3R(x), where the logical possibility operator is
+applied to a formula with free variables. There are signiﬁcant controversies about the
+truth conditions, and indeed meaningfulness, of such statements. For example, there is
+disagreement about whether any two things that are actually distinct are necessarily
+distinct. There is also disagreement about what to say about statements which quantify
+into a world where an object doesn’t exist. For example, Kripke’s approach (which
+Hellman invokes) allows sentences like ( ∃x)3[(∀y)F ox(y)∧¬ F ox(x)] to be true, a
+consequence which Williamson and others have argued is extremely counterintuitive 4.
+These controversies can raise doubts about whether our intuitions about quantifying
+in are reliable while, to my knowledge, no analogous paradoxes arise in the system I
+lay out5.
+There is also a Quinean strand of argument which claims that quantifying into modal
+Modal structuralist paraphrases attempt to show that you can go the other way around and capture truth
+conditions for set theory as a whole in terms of logical possibility.
+2By deﬂationary (ontological) realists, I mean philosophers who accept the existence of mathematical objects
+but don’t take these objects/existence facts to be metaphysically fundamental (in terms of grounding). Such
+philosophers could re-interpret Hellman’s paraphrases as bi-conditionals which explain how existence facts
+about mathematical objects are systematically grounded in facts about logical possibility (just as one might
+say that existence facts about cities are systematically grounded in facts about what people are doing, while
+believing that cities really exist).
+3I will focus on pure mathematics in this paper, but we will see that the same strategy can be used to
+streamline what Hellman says about applied mathematics as well.
+4While this debate is commonly conducted in terms of metaphysical possibility, it naturally raises similar
+concerns for logical possibility.
+5Speciﬁcally, my account of mathematics is compatible with taking Williamson to show that any notion of
+possibility that allows quantifying in (such as metaphysical possibility) must have a ﬁxed domain – provided
+one thinks it doesn’t make sense to quantify in to logical possibility. Of course, it’s not compatible with taking
+Williamson to show that every modal notion must have a ﬁxed domain.
+2
+
+--- Page 3 ---
+
+contexts is meaningless6. Thus, it seems, at least, rhetorically desirable to demonstrate
+that Hellman’s program (as well as potentialist set theory) doesn’t require quantifying
+in or similarly controversial notions.
+Second, Hellman himself Hellman (1996) has raised worries about whether his use
+of second-order logic is nominalistically acceptable, and my modiﬁcations show that
+his program 7 can be accomplished without second order logic, using only concepts
+he relies on elsewhere in his program. This is not to say that my modiﬁcations deﬁ-
+nitely render Hellman’s approach nominalistically acceptable. Indeed, one might even
+take my demonstration that logical possibility can ﬁll in for second order logic as an
+argument against the nominalistic acceptability of logical possibility itself. Rather,
+I show that Hellman can avoid any extra burden imposed speciﬁcally by his use of
+second order logic. Either my modiﬁcations render Hellman’s account nominalistically
+acceptable or the very notion of logical possibility employed by Hellman is inherently
+nominalistically unacceptable and his program fails regardless of the role of second
+order logic.
+In later work Hellman considers8 a modiﬁcation to his core story which avoids second
+order quantiﬁcation 9. However, this story relies on an additional assumption (that
+“arbitrary [mereological] sums of any individuals independently recognized” exist)
+which my story and Hellman’s original story avoid10. This later proposal also does not
+avoid the issues about quantifying in noted above.
+2. Modal Structuralism: The Core Picture
+The key idea behind modal structuralism is to reformulate mathematical claims about
+abstract (non-set-theoretic) objects, like the natural numbers, as claims about how it
+is possible for objects to be related to one another. For example, something like the
+twin prime conjecture may be paraphrased as the claim that it would be possible for
+there to be objects with the structure of the natural numbers and that, necessarily,
+in any such structure there are inﬁnitely many twin primes. Note that the notion of
+possibility here isn’t that of metaphysical possibility. For, as Charles Parsons points
+out, our willingness to to talk in terms of large mathematical structures (e.g., the
+reals or the Hilbert space of square integrable functions) does not seem to be hostage
+to our conviction that it would be metaphysically possible for there to be that many
+6I take Quine’s problem with quantifying in, in ‘Reference and Modality’, to be that he dislikes the “Aris-
+totelian essentialism” of taking some properties to belong to an object like the number 7 essentially (e.g., being
+less than 9) while others apply only contingently (e.g., being the number of planets). As we will see, my system
+eschews cross-world object identiﬁcation of any kind (e.g., cross-world equality or counterpart relations) as well
+as quantifying in. Thus criticisms like Quine’s can’t even get oﬀ the ground.
+7It is striking that eliminating the second order quantiﬁers seems to result in no signiﬁcant loss of expressive
+power, i.e., if a structure is deﬁnable using Hellman’s system then it is deﬁnable in my system as well.
+8See Hellman (1994) and Hellman’s later paper Hellman (1996).
+9These modiﬁed paraphrases work by assuming the logical possibility of an (inﬁnite) collection of atoms and
+then considering mereological fusions of atoms and plural quantiﬁcation over these fusions to mimic three layers
+of sets (and functions) over this original inﬁnite collection.
+10This assumption is controversial, as it not only commits us to the existence of the mereological fusion of
+Lewis’ nose and the Eiﬀel tower (and the Chrysler corporation and the Obamas’ marriage, if one believes
+in such non-concrete objects) but requires we believe the same holds true in all logically possible scenarios.
+Furthermore (even if Hellman is right about mereology), it can seem unattractive to say that the true content
+of, say, real analysis commits one to a generous Lewisian position on the problem of special compositionLewis
+(1986) – or that mereological principles hold with logical necessity since, e.g., this conﬂicts with the intuition
+that it would be logically possible for there to be exactly 4 objects. For example, if arbitrary fusions exist,
+there could be 2 atoms and hence 3 total objects, or 3 atoms and hence 7 objects, but couldn’t be exactly 4
+objects.
+3
+
+--- Page 4 ---
+
+non-mathematical objectsParsons (2007). Thus, it seems like the notion of possibility
+which the modal structuralist is reaching for is something more like mathematical or
+logical possibility.
+In articulating his modal structuralism, Hellman invokes a primitive notion of log-
+ical possibility which he does relatively little to describe. He does say that, “[when
+evaluating logical possibility] we are not automatically constrained to hold material
+or natural laws ﬁxed.” So it may be logically possible that (∃x)(pig(x)∧ ﬂies(x)), but
+physically impossible. And he adds that, “we are free to entertain the possibility of
+additional objects - even material objects - of a given type.”, which allows us to say
+that it’s logically possible for there to be inﬁnitely many objects even if there are only
+ﬁnitely many objects. Beyond this, however, he just suggests that his applications of
+logical possibility will make the notion he has in mind clear.
+I will abbreviate the claim that it is logically possible that φ as 3φ, and the claim
+that it is logically necessary that φ (i.e.,¬3¬φ as 2φ). With this notion of logical
+possibility in place, the modal structuralist proposes to understand a mathematician’s
+claim that ψ holds in some mathematical structure (such as the natural numbers),
+as really asserting a conjunction of two claims. First, it is logically possible for there
+to be some objects with the relevant structure (e.g., there could be an ω sequence
+of objects). And second, it is logically necessary that if there were such objects they
+would satisfy the description ψ (e.g., if there were an ω sequence of objects, a version
+of ψ would be true in it).
+Hellman uses second-order quantiﬁcation to give categorical descriptions 11 of such
+structures, e.g., the ω sequence mentioned above. Employing these descriptions allows
+Hellman’s paraphrase strategy to ensure (assuming second order logic works in the
+usual way) that all well-formed claims about these structures are either true or false.
+For example, let PA2 be the standard second order categorical axiomatization of the
+natural numbers in terms of a successor relation S12 (conjoined into a single sentence)
+and let φ be a sentence about the natural numbers. Using φ(N/X)(S/f) to denote
+the result of replacing every instance of N in φ with the second order variable X and
+every instance of the successor relation 13 S with the second order relation variable f
+Hellman’s paraphrase of the mathematical claim φ becomes14:
+3 [(∃X)(∃f)PA2(N/X)(S/f)]∧
+2 [(∀X)(∀f) (PA2(N/X)(S/f)→ φ(N/X)(S/f))]
+The ﬁrst half of this sentence says that it is logically possible for some objects
+to form an ω-sequence (with some relation f acting as the successor function). The
+second half says that it is logically necessary that if some objects (those in X) form
+an ω-sequence (under f) then φ (modiﬁed to use X and f instead of N and S) is true
+of them.
+11Note that, by Lowenheim-Skolem considerations, no categorical description of common mathematical struc-
+tures such as the natural numbers can be given using ﬁrst order logic alone.
+12That is, PA 2 is the result of replacing the induction schema in Peano Arithmetic with a single induction
+axiom formulated in second order logic as described inWolfram (2016).
+13Although P A and P A2 are often formulated using a successor function, it is easy enough to transform them
+into claims about a successor relation, by adding an axiom asserting that every member of N has a unique
+successor in N.
+14Note, N is understood to express the property of being a number and S the successor relation, so we cannot
+use them as variables by writing something like (∃N)(∃S)PA2.
+4
+
+--- Page 5 ---
+
+This paraphrase strategy (assuming logical possibility and second order quantiﬁca-
+tion operate as Hellman expects 15) captures the intended truth conditions for most
+statements in pure mathematics. However, Hellman also wishes to provide paraphrases
+for statements of applied mathematics. Consider the claim that there are a prime num-
+ber of rats. One cannot give correct truth conditions for this claim by only talking
+about what is logically possible simpliciter – for the truth of ‘there are a prime number
+of rats’ is not determined only by facts about what is logically possible. It also reﬂects
+contingent facts about the world.
+Hellman addresses this problem by replacing appeals to logical possibility with
+appeals to logical possibility given the ‘material’ 16 facts. So, for example, where the
+platonist takes ‘there are a prime number of rats’ to mean something like ‘there is a
+function which bijectively maps the rats to the natural numbers below some prime
+p’, Hellman will translate this claim approximately as follows. It is logically possible,
+given the material facts, that there are objects which behave like numbers (in the sense
+of satisfying P A2). And it is logically necessary, given the material facts, that if there
+are objects which behave like numbers then there is a function which bijectively maps
+the rats to the natural numbers below p.
+Hellman considers two approaches to understanding this crucial notion of logical
+possibility given the material facts. The ﬁrst is to leave it as a primitive, “reject[ing]
+the demand” for further explanation of what it means to hold material facts ﬁxed.
+The second is to cash out the notion of ‘holding the material facts ﬁxed’ by using an
+actuality operator @, read as ‘it is actually the case that.’ In either case, we see that
+Hellman is already committed to something like a notion of logical possibility holding
+some facts ﬁxed. The reader should bear this in mind when considering the particular
+notion of logical possibility I oﬀer below.
+3. Logical Possibility Sharpened and Generalized
+I will now introduce my preferred notion of logical possibility given certain facts . Let
+me begin by calling to mind some features of the standard notion of logical possibility
+which I take Hellman to be developing.
+3.1. The Conventional Notion of Logical Possibility
+It seems that we have an intuitive notion of logical possibility which applies to claims
+like (∃x)(red(x)∧ round(x)) and makes sentences like the following come out true.
+• It is logically possible that (∃x)(red(x)∧ round(x))
+• It is not logically possible that (∃x)(red(x)∧¬ red(x))
+• It is logically necessary that (∀x)(red(x))→¬ (∃x)(¬red(x)).
+Philosophers representing a range of diﬀerent philosophies of mathematics have
+made use of this notion 17 and are comfortable applying it to non-ﬁrst order sentences
+15Obviously, if it isn’t really possible for there to be something satisfying P A2 (for example because second
+order logic is ontologically committal and the necessary second order objects can’t exist) then the paraphrase
+Hellman provides for statements in arithmetic would fail.
+16Hellman’s notion of material facts seems to include (at least) the fundamental physical facts, and deﬁnitely
+does not include facts about mathematical objects.
+17For example, see the discussion of the corresponding notion of consequence in Field (1989),Rayo (2013)
+alongside that of Hellman (1996).
+5
+
+--- Page 6 ---
+
+as well. If you are skeptical that there is such a notion, note that it is deﬁnable in
+terms of the even more common notion of validity (something is logically possible iﬀ
+its negation is not logically necessary iﬀ the inference from the empty premise to its
+negation is not valid).
+To evaluate whether a claim φ requires something logically possible, we hold ﬁxed
+the operation of logical vocabulary (like∃,∧,∨,¬), but abstract away from any further
+constraints imposed by metaphysical necessity on the behavior of particular relations.
+Thus, we consider all possible ways for relations to apply whether or not
+these ways are describable in our language . For example, it is logically possible
+that (∃x)(Raven(x)∧ Vegetable(x)), even if it would be metaphysically impossible for
+anything to be both a raven and a vegetable. During this evaluation we also abstract
+away from constraints on the size of the universe 18, so that 3(∃x)(∃y)(¬x = y) would
+be true even if the actual universe contained only a single object.
+This notion of logical possibility is generally regarded as a fundamental notion 19
+conceptually distinct from syntactic consistency, i.e., the impossibility of proving a
+contradiction. Instead, it corresponds to our intuitive sense that certain mathematical
+theories (like second-order Peano Arithmetic) require something coherent, while others
+(like Frege’s inconsistent theory of extensions) do not – a sense which is not restricted
+merely to ﬁrst-order descriptions.
+A core idea I will develop is that the above notion of logical possibility can be
+naturally generalized. A (pure) logical possibility operator doesn’t allow information
+to ‘leak out’, so merely adding such an operator to ﬁrst order logic does little to
+increase its ‘power.’ This can make it appear somewhat surprising that, as we shall
+see, the tame-looking further step of considering logical possibility holding certain facts
+ﬁxed (a concept Hellman already appeals to) is enough to let us relinquish our use of
+second order quantiﬁcation. However, we observed above that the concept of logical
+possibility goes far beyond what is capturable in ﬁrst order logic, so it’s not totally
+shocking that we can unlock that power by letting some information pass through (but
+not free variables).
+3.2. Logical Possibility Generalized
+Let us now develop the notion of logical possibility discussed in the previous section.
+Consider a sentence like, “Given what cats and baskets there are, it is logically impos-
+sible that each cat slept in a distinct basket.” There’s an intuitive reading on which
+this sentence will be true if and only if there are more cats than baskets20. This reading
+employs a notion of logical possibility holding certain facts ﬁxed (in this case, facts
+about what cats and baskets there are). Remember, Hellman’s use of logical possibility
+given the material facts commits him to the coherence of something very much like
+18See Etchemendy (1990) on the tension between standard Tarskian reinterpretation-based accounts of logical
+possibility and the intuitive notion of logical possibility regarding this point.
+19At ﬁrst glance, one might be tempted to simply identify claims about logical possibility with claims about
+the existence of a set theoretic model. However, philosophers such as Hartry Field have convincingly argued
+that, “We should think of the intuitive notion of validity not as literally deﬁned by the model theoretic account,
+or in any other manner; rather, we should think of it as a primitive notion.”Field (2008)
+Very crudely, the issue is this: a key aspect of our notion of logical possibility/validity is that what’s actual
+must be logically possible. But, if we identify logical possibility with the existence of a set theoretic model,
+then it looks puzzling why the inference from actual to possible is permissible. After all the total universe can’t
+be represented as a set theoretic model (as it contains all the sets, and hence is proper class sized) even though
+it is actual.
+20Admittedly, there’s another reading of this sentence on which it expresses a necessary falsehood. However,
+this is not the reading I have in mind.
+6
+
+--- Page 7 ---
+
+this notion.
+Accordingly, I think we can intuitively understand a conditional logical possibility
+operator 3 which takes a sentence φ and a ﬁnite (potentially empty) list of relation
+symbols R1...Rn and produces a sentence 3(R1...Rn)φ which says that it is logically
+possible for φ to be true, given how the relations R1...Rn apply. For ease of reading, I
+will sink the speciﬁcation of relevant relations into the subscript as follows: 3R1...Rnφ
+Thus, for example, the claim, ‘given what cats and baskets there are, it is logically
+impossible that each cat slept in a distinct basket’ becomes:
+2cat,basket¬
+(
+(∀x)
+[
+cat(x)→ (∃y) (basket(y)∧ sleptIn(x, y))
+]
+∧
+(∀z)(∀w)(∀w′)
+[
+basket(z)∧ cat(w)∧ cat(w′)∧
+sleptIn(w, z)∧ sleptIn(w′, z)→ w = w′
+])
+(CATS)
+Finally, note that by using this notion we can also make nested logical possibil-
+ity claims, i.e., claims about the logical possibility of scenarios which are themselves
+described in terms of logical possibility. I have in mind sentences like the following:
+32cat,basket¬
+(
+(∀x)
+[
+cat(x)→ (∃y) (basket(y)∧ sleptIn(x, y))
+]
+∧
+(∀z)(∀w)(∀w′)
+[
+basket(z)∧ cat(w)∧ cat(w′)∧
+sleptIn(w, z)∧ sleptIn(w′, z)→ w = w′
+])
+(3CATS)
+This sentence says that it would be logically possible for there to be cats and
+baskets such that it would be logically necessary, given (the structural facts about)
+what cats and baskets there are in that scenario , that some cat lacked its own basket
+to sleep in. Note that in a nested claim with this form ( 32Rψ), the subscript freezes
+the facts about how the relation R applies in the scenario being considered, which
+may not be the state of aﬀairs in the actual world. For example, 3CATS expresses a
+metaphysically necessary truth. For, whatever the actual world is like, it will always
+be logically possible for there to be, say, 3 cats and 2 baskets. This scenario is one in
+which it is logically necessary (holding ﬁxed the structural facts about what cats and
+baskets there are) that: if each cat slept in a basket then multiple cats slept in the
+same basket. So it is metaphysically necessary that 3CATS even if the actual world
+contains more baskets than cats.
+In what follows, I will often use mathematical-looking symbols or schematic-looking
+symbols (e.g., N, S) for relations appearing in logical possibility statements rather than
+actual relations like ‘happy()’ and ‘loves()’. However, these symbols should be regarded
+merely as an abbreviation, so when I write 2P (∀x)(P (x)→ Q(x)) it is shorthand for
+something like 2Happy(∀x)(Happy(x)→ Elephant(x)).
+Note that the speciﬁc choice of relations does not mater, as when a relation occurs
+inside a 2 or 3 which does not subscript that relation, it contributes to the truth
+conditions for this sentence in exactly the same way that any other relation with the
+same arity would. For example, the sentence 3Dog(∃x)(∃y)(Dog(x)∧ Cat(y)∧¬ x = y)
+7
+
+--- Page 8 ---
+
+will hold if and only if 3Dog(∃x)(∃y)(Dog(x)∧ Lemur(y)∧¬ x = y) does.
+This reﬂects the fact that questions about logical possibility abstract away from all
+speciﬁc facts about the relations in question (other than their arity). Logical possibility
+involves considering all possibilities for the relations mentioned in the statement under
+consideration, whether we can describe them or not (this is the analog of requiring
+second order quantiﬁers to range over all possible collections). I emphasize this fact,
+because I will translate claims about mathematical objects using claims about how it
+would be logically possible for some arbitrarily chosen relations to apply (as Putnam
+does in Putnam (1967) pg.10-11) instead of using variables bound by second order
+quantiﬁers as Hellman does.
+Some readers may still have questions about how holding relations ﬁxed works.
+One could think about 3R1...Rnφ claims as holding ﬁxed the particular objects in the
+extension of the relations R1...Rn – and then asking whether one could supplement
+them with other objects (and choose extensions for all other relations) so as to make φ
+true21. However, I take the intuitive notion of preserving thestructural facts about how
+some relations apply (that is, the facts about what might be called the mathematical
+structure of the objects with respect to some relations as opposed to facts about any
+particular objects) to make sense without appeal to any notion of de re properties or
+object identity across logically possible scenarios.
+In terms of the CATS example, preserving the structural facts about how cat and
+basket apply requires considering scenarios which agree with the actual world on the
+number of objects satisfying cat(), the number of objects satisfying basket() and the
+number of things in the extension of both cat() and basket(). This does not require
+preserving facts about identity. For example, if one cat died and an additional kitten
+was born, the structural facts about how cat and basket apply would remain unaltered.
+Speaking in set theoretic terms, we might say that the ‘structural facts about
+R1..Rn’ are those facts which determine the isomorphism class of the objects falling
+under22 some Rj. However, I take conditional logical possibility to be a primitive
+notion which we can learn directly.
+Note that this notion of relativized logical possibility is stronger than Hellman’s
+notion of unrelativized logical possibility supplemented by an actuality operator in one
+important way. In appendix D, I show that we can capture the same content Hellman
+expresses using his actuality operator by relativizing all our possibility operators to
+the relations whose extension in the actual world we wish to discuss 23. In contrast,
+merely using Hellman’s actuality operator does not allow us to express claims about
+what is logically possible relative to scenarios which are themselves merely logically
+possible but not actual. This feature turns out to be very useful, as we will see.
+4. Reformulating Hellman’s Simple Paraphrases
+Now we turn to demonstrating that Hellman’s paraphrases of mathematical claims can
+be captured using only conditional logical possibility claims and ﬁrst order vocabulary.
+21This will give the right verdict if we assume that actually distinct objects are distinct in all logically possible
+scenarios.
+22I say that an object x ‘falls under’ Rj iﬀ it appears in some tuple in the extension of Rj, i.e.,
+∃y1, . . . , ymRj(y1...ym)∧ (x = y1∨ x = y2∨ . . .∨ x = ym)
+23Note, however, that the translations of a statement in applied mathematics may need to use relation sym-
+bols which do not occur in the original statement (as per the Putnamian strategy of replacing mathematical
+vocabulary with arbitrary otherwise unused relation symbols with the right arity discussed below).
+8
+
+--- Page 9 ---
+
+4.1. Strategy
+My translations will have approximately the same logical form as Hellman’s. Given a
+description D of a mathematical structure and a statement φ about this structure, my
+translation for φ will still assert that it would be logically possible for the structure
+described by D to be realized, and that it is logically necessary that if some objects have
+this structure than (a suitably modiﬁed version of) φ will be true of them. However,
+we will need to replace all of Hellman’s use of second order logic in his translations of
+mathematical statements with logical possibility claims.
+To illustrate this strategy, consider the case of mathematical statements about the
+natural numbers (I describe how to generalize this approach in appendix B). Recall
+that one can uniquely describe the intended structure of the natural numbers by
+combining the ﬁrst four Peano AxiomsWolfram (2016) (which can be expressed using
+only ﬁrst order logical vocabulary) with a second order Axiom of Induction, which can
+be expressed as follows 24 :
+(∀X) (X(0)∧ (∀n)(X(n)→ X(S(n)))→ (∀n)(N(n)→ X(n)))
+Informally, this axiom says that if some property X applies to 0 and is closed under
+successor25, then it applies to all the numbers. We can express the same idea using 3
+(and a predicate we abbreviate as P 26) as follows.
+2N,S[P (0)∧ (∀x)(∀y)(P (x)∧ S(x, y)→ P (y))]→ (∀x)(N(x)→ P (x))
+This formula says that, given the facts about what is a number and a successor,
+(i.e., how N and S apply), it would be logically impossible for P to apply to 0 27 and
+be closed under the successor operation but not apply to all the numbers. Call the
+result of conjoining this sentence with the four ﬁrst order axioms of Peano arithmetic
+P A3.
+Now we can slot this into Hellman’s paraphrase strategy, and so replace his trans-
+lation of any ﬁrst order sentence of number theory φ28. Thus,
+3 [(∃X)(∃f)PA2(N/X)(S/f)]∧
+2 [(∀X)(∀f) (PA2(N/X)(S/f)→ φ(N/X)(S/f))]
+becomes:
+3 [PA3(N/P )(S/R)] ∧ 2 [(PA3(N/P )(S/R)→ φ(N/P )(S/R))]
+where P is an arbitrary one place relation and R is an arbitrary two place relation.
+As noted above, logical possibility claims reﬂect facts about all possible ways that a
+predicate P could apply - whether describable or not. Thus, my translation of a sen-
+tence φ about the natural numbers intuitively has the same truth value as Hellman’s
+24Let P (0) be shorthand for (∃z)(∀w) (N(z)∧¬ S(w, z)∧ P (z)).
+25That is, X applies to a number that is not the successor of any number, and it applies to the successor of
+every number it applies to.
+26P can be any one place predicate diﬀerent from the predicate abbreviated by N.
+27By this I mean the unique number that isn’t a successor.
+28The strategy in appendix B allows us to translate second order sentences of number theory as well.
+9
+
+--- Page 10 ---
+
+translation of that sentence (assuming second order quantiﬁcation and logical possi-
+bility work as Hellman expects) 29. In the remainder of this paper, I will simply speak
+of the truth-values of Hellman’s translations or Hellman’s intended truth-values, but
+in both cases I mean the truth-values his translations would have if the above assump-
+tion were true. A similar story can be told for mathematical structures other than the
+natural numbers, as I show in appendix B.
+Hellman argues for the bivalence of his translations by appealing to the categoricity
+of the second order descriptions of the mathematical structures under consideration.
+In other words, given any sentence ψ in the appropriate language, either it or its
+negation will be necessitated by Hellman’s description D of the relevant structure. If
+you accept that my translations of mathematical sentences have the same truth-values
+as Hellman’s translations of these sentences, then my translations of sentences about
+these mathematical structures will also be bivalent. However, we need not go through
+Hellman to see that my translations yield bivalence in cases where it is intuitively
+desired (i.e., when we seem to have a suitably deﬁnite conception of the relevant
+mathematical structure).
+To see how this plays out in the case of the natural numbers, note that Hellman’s
+translations are intuitively bivalent because he uses second order logic to express the
+idea that the numbers are as few as can be (and thereby rule out nonstandard models
+which add ‘points at inﬁnity’), by saying that any second order X applying to 0 and
+closed under successor applies to all the natural numbers. My translations do that
+same work by asserting that it would be logically impossible for a predicate to apply
+to 0 and the successor of every number it applies to without applying to all numbers.
+Intuitively this has the same eﬀect that Hellman intends his second order description
+to have, while not presuming anything about the behavior of second order quantiﬁers.
+5. Hellman’s Potentialist Set Theory
+Now let us turn to Hellman’s translations for statements of (pure) set theory, which
+have a signiﬁcantly diﬀerent structure from his translations of claims about ordinary
+mathematical structures.
+5.1. Motivations for Potentialism
+If we had a categorical description of the intended structure of the hierarchy of sets (in
+the language of second order logic), we could nominalistically paraphrase sentences in
+set theory using the strategy from the last section.
+However, there are well-known reasons for doubting that we have any coherent
+and adequate conception of absolute inﬁnity (the supposed height of the hierarchy of
+sets). The concern here is not simply that it might be impossible to cash the notion
+of absolute inﬁnity out in other terms. After all, every theory will have to take some
+notions as primitive. Rather, the worry is that our intuitive notion isn’t even coherent –
+in the way that our naive conception of set is incoherent (as demonstrated by Russell’s
+29Note that I will not attempt to formally prove that my translations have the same truth values Hellman
+intends his translations to have. Just as a formal proof is of little value in verifying you’ve correctly formalized
+an English sentence into predicate calculus, so too it is of little value in verifying my translations have the same
+truth-values as Hellman’s translations (given Hellman’s assumptions about second order logic etc.). Any formal
+proof would have to make assumptions about what statements are equivalent on the intended interpretation
+of the two languages – the very aspect most open to doubt.
+10
+
+--- Page 11 ---
+
+paradox).
+One might like to say that the hierarchy of sets goes all the way up – so no restrictive
+ideas of where it stops are needed to understand its behavior. However, if the sets really
+do go ‘all the way up’ in this sense, then it would seem that the ordinals should satisfy
+the following closure principle.
+For any way some things could be well-ordered, there is an ordinal corresponding 30 to it.
+But the ordinals themselves are well ordered, and there can be no ordinal corre-
+sponding to this well-ordering. If the sets are a deﬁnite totality, i.e, a logically possible
+collection of objects, this is a contradiction. Thus, this naive closure principle can’t be
+correct.
+In response, we might try to ﬁnd some other characterization of the sets as a def-
+inite structure (in particular, some other characterization of the intended height of
+the hierarchy of sets 31). However, it’s not clear that any intuitive conception of the
+intended height of the sets remains once the paradoxical well-ordering principle above
+is retracted. As Wright and Shapiro put it Shapiro and Wright (2006), all our reasons
+for thinking that sets exist in the ﬁrst place appear to suggest that, for any given
+height which an actual mathematical structure could have, the sets should continue
+up past this height. Thus, taking set theory at face value can seem to force us to posit
+an unprincipled fact about where the sets stop32. This problem isn’t limited to realists,
+but applies to all philosophers (including modal structuralists) who take set theory to
+be the study of a single deﬁnite structure.
+5.2. The Potentialist Approach to Set Theory
+Potentialists, including Hellman, respond to this problem by taking a potentialist
+approach to set theory (along lines suggested by Putnam Putnam (1967)). On this
+approach, mathematicians’ claims which appear to quantify over sets should really
+be33 understood as claims about how it is (in some sense) possible to extend initial
+segments of the hierarchy of sets, i.e., collections of objects which satisfy our intuitive
+conception of the width of the hierarchy of sets but not the paradox-generating height
+requirement. Hellman, unsurprisingly, understands the relevant notion of possibility
+in terms of logical possibility (and I will follow him in so doing) 34.
+The potentialist takes set theorists’ singly-quantiﬁed existence claims, like (∃x)(x =
+x), to really be saying that that it would be possible for a collection of objects V0 to
+satisfy (a version of) ZF C2 while containing a suitable object x (in this case, an x
+such that x = x). The potentialist takes set theorists’ universal statements with a
+single quantiﬁer like (∀x)(x = x), to really say that it is necessary that any object x
+in a collection of objects satisfying ZF C2 would have the relevant property.
+The potentialist handles nested quantiﬁcation using claims about how collections of
+objects satisfying a version of ZF C2 could be extended. For example, Hellman would
+oﬀer the following translation of (∀x)(∃y)(x∈ y): necessarily if V1 satisﬁes ZF C2 and
+30By this I mean an ordinal with the same order-type as the well ordering in question.
+31Note that the axioms of ZFC or even ZFC 2 don’t suﬃce to categorically determine the height of the set
+theoretic hierarchy. For example, if (as most mathematicians assume) the hierarchy of sets extends beyond the
+ﬁrst inaccessible then the initial segment of the hierarchy below that inaccessible will satisfy ZFC/ZFC 2.
+32That is, it seems that facts about where the realist hierarchy of sets stops would not be determined by
+anything in our conception of the sets (and maybe not even by anything we can have knowledge of at all).
+33Strictly speaking, I take it, Putnam would say these claims can be so understood.
+34However a number of other approaches are possible. See, for example, the closely related accounts given by
+Linnebo Linnebo (2010) and Parsons Parsons (1977)
+11
+
+--- Page 12 ---
+
+includes a set x, it is logically possible for there to be an extension, V2,35 of V1, also
+satisfying ZF C2 and containing a set y such that x∈ y (in the sense of ∈ relevant
+to V2)36. Writing this out formally using Hellman’s notion of logical possibility gives
+us the following sentence (implicitly restricting V1 and V2 to range over collections of
+objects satisfying a version of ZF C2 and using≥ to denote extension):
+2(∀V1)(∀x)[x∈ V1→ 3(∃V2)(∃y)(y∈ V2∧ V2≥ V1,∧x∈ y)]
+Note that by adopting this potentialist understanding of set theory, we avoid com-
+mitment to arbitrary limits on the intended height of the hierarchy of sets. We also
+avoid the assumption that there is (or could be) any single structure which contains
+ordinals witnessing all possible well-orderings, though every possible well-ordering is
+realized in some possible initial segment of the sets.
+6. Formulating Potentialist Set Theory
+Now let us turn to the problem of articulating a suitable replacement for Hellman’s
+potentialist paraphrases which avoids second order quantiﬁcation. I will explain my
+version of these potentialist paraphrases informally, but the interested reader should
+see Appendix D for more details. The appendix also reviews why bivalence holds for
+my translations of sentences in set theory 37.
+To articulate potentialist paraphrases of set theory in terms of conditional logical
+possibility, we must ﬁrst express the claim that some objects behave like a standard
+width initial segment of the hierarchy of sets. Hellman expresses this idea by using
+ZFC2, a second order version of the ZFC axioms of set theory. One can show that
+ZFC2 suﬃces to pin down the intended width of the hierarchy of sets (though not
+their height). It’s not too hard to write a version of ZFC 2 in terms of my notion
+of conditional logical possibility, by using a version of the trick for replacing second
+order quantiﬁcation with claims about logically possible extendability demonstrated
+in section 4 and generalized in appendix B. This approach lets us write out a sentence
+(as it were ZF C3[seti,∈i]) using the logical possibility operator which says that the
+objects satisfying set i under the relation∈i capture the behavior of an initial segment
+of the sets.
+We now must duplicate the complex statements about extendability used to handle
+nested quantiﬁcation in Hellman’s paraphrases. It is straightforward to deﬁne the claim
+that set i+1,∈i+1 extends set i,∈i using only the logical possibility operator and ﬁrst
+order vocabulary. This allows us to talk about possible extensions of initial segments
+of the sets. However, to fully represent potentialist paraphrases, we also need to mirror
+Hellman’s claims which ﬁx an object x from among those which some relations seti,∈i
+apply to, and talk about how an element y in a potential extension seti+1,∈i+1 relates
+to x. As stated, this claim involves quantifying in, but we must ﬁnd another method.
+The key idea behind my strategy is to require that each initial segment of objects
+satisfying seti,∈i be considered together with a relationRi which assigns each ‘variable’
+from some countable collection 38 to an object satisfying set i. Thus, Ri behaves like
+35By this I mean that every element of V1 is an element of V2 and the second order relation quantiﬁer Hellman
+uses to give∈ its meaning on V2 agrees with∈ on V1 (and, indeed, any element of V2 which is∈2 an element
+of V1 is also in V1).
+36Actually, Hellman has a separate story about how to handle restricted quantiﬁcation in set theory which I
+elide for present purposes. See Hellman (1994) chapter 2 section 2.
+37That is, if φ is a sentence in the language of set theory, either my translation of φ or my translation of ¬φ
+will express a truth.
+38We can use the deﬁnition of the natural numbers to provide a countable collection of ‘variables’ where we can
+12
+
+--- Page 13 ---
+
+an assignment function which associates each variable with some object within the
+initial segment Vi. We can then preserve the behavior of this assignment function in
+relevant modal contexts by adding Ri to the subscripts on relevant 2s and 3s and
+demanding that Ri+1 agree with Ri everywhere except on the particular variable we
+want to select from seti+1,∈i+1. This allows us to preserve our choice of some sets x, y
+and z within seti,∈i while considering ways that one could choose an additional object
+w from within some logically possible set i+1,∈i+1 extending seti,∈i. The overall eﬀect
+will be to duplicate what Hellman achieves via quantifying in, through the use of the
+relations Ri.
+7. Conclusion
+In this paper I have shown how to streamline Hellman’s modal structuralist approach
+to mathematics, by invoking a notion of logical possibility given certain facts. We saw
+that Hellman already accepts a notion of logical possibility holding the material facts
+ﬁxed. Given this, it is only natural that he should also accept my notion of conditional
+logical possibility. However, once one does this there is no need to invoke second order
+quantiﬁcation as an additional primitive.
+The streamlining I propose also helps us evaluate the two apparent problems for
+modal structuralism mentioned in the introduction. We have seen that it is possible
+to completely eliminate the controversial practice of quantifying in from Hellman’s
+paraphrases.
+I think the technical work in this paper demonstrates that there is no unavoid-
+able special problem for modal structuralism caused by its reliance on second order
+logic. This is not to say that modal structuralism is ontologically innocent. Although
+logical possibility intuitively appears ontologically innocent, whether my simpliﬁca-
+tion defends modal structuralism’s ontological innocence or reveals that (despite our
+intuitions) logical possibility is itself unsuitable for nominalist use depends on the
+right answer to certain controversial background questions. Speciﬁcally, it depends on
+whether we ought to take any other notion which does the same work as second order
+logic to be equally ontologically committal.
+If similarity of mathematical behavior doesn’t require (or make a strong case for)
+similarity of ontological role, then my simpliﬁcation allows modal structuralism to
+shake oﬀ the aspersions that have been cast on its nominalistic credentials. If it does,
+then we can respond by either giving up on the nominalistic acceptability of modal
+structuralism and admitting that the seemingly innocent notion of logical possibility
+(and possibly many other notions we don’t suspect) is actually ontologically committal
+or by reevaluating our reasons for thinking that second order logic is ontologically
+committal (since the results of this paper show that although second order logic is
+similar to set theory which looks ontologically committal, it is also similar to logical
+possibility which looks non-committal) 39.
+use deﬁnite descriptions to uniquely refer to each such variable. Speciﬁcally we can think about the variable
+symbols in the language of set theory as being canonically associated with numbers, and use the sentence
+uniquely deﬁning the associated number to refer to the variable.
+39Most readers will probably ﬁnd it immediately more attractive to say that both second order logic and
+logical possibility are ‘guilty’ i.e., ontologically committal. However, I think there’s a surprisingly attractive
+prima facie case for taking the opposite approach. For, as we saw in the discussion of potentialism in 5.2, there
+appears to be a simple and independently motivated way of grounding set theoretic claims in claims about
+logical possibility (one which is motivated by the Burali-Forti paradox). But, in contrast, we have seen (in
+discussing Field’s remarks in section 3) that it does not seem possible to systematically ground facts about
+13
+
+--- Page 14 ---
+
+In conclusion, we’ve seen that by adopting a small generalization of Hellman’s notion
+of logical possibility (the meaningfulness of which he has already endorsed), we can
+signiﬁcantly streamline modal structuralism – and perhaps solve some other problems
+as well.
+Appendix A. A More Formal Approach to Conditional Logical Possibility
+I take the notion of conditional logical possibility to be primitive and intuitive. How-
+ever, one can provide approximately correct truth conditions for sentences involving
+nested applications of subscripted 2 and 3 operators, in terms of the more familiar
+language of set theory with ur-elements 40.
+First let us deﬁne a formal language L, which I will call the language of logical
+possibility (though this language may be not able to express all meaningful claims
+involving logical possibility). Fix some inﬁnite collection of variables and a collection
+of relation symbols, and deﬁneL to be the smallest language built from these variables
+using these relation symbols and equality closed under applications of the normal ﬁrst
+order connectives, quantiﬁers, 2 and 3 (where the latter two operators can only be
+applied to sentences, so there is no quantifying in).
+Speciﬁcally, if we ignore the possibility of sentences which demand something co-
+herent but wouldn’t have a model in the sets, (such as sentences which require the
+existence of proper class many objects) and take all quantiﬁers appearing outside a
+logical possibility operator to be implicitly restricted to some set sized domain of
+non-mathematical objects 41 we could say the following 42:
+Deﬁnition A.1. A formula ψ is true relative to a model M and an assignment ρ
+which takes the free variables in ψ to elements in the domain of M 43 just if the
+following conditions obtain44 (note that only the last clause says something out of the
+ordinary):
+• ψ = Ri(x1 . . . xk) and RM
+i (ρ(x1), . . . , ρ(xk)) (as usual RM
+i is the interpretation
+of Ri by M ).
+• ψ = x = y and ρ(x) = ρ(y).
+• ψ =¬φ and φ is not true relative to M , ρ.
+• ψ = φ∧ ψ and both φ and ψ are true relative to M , ρ.
+• ψ = φ∨ ψ and either φ or ψ are true relative to M , ρ.
+• ψ =∃xφ(x) and there is an assignment ρ′ which extends ρ by assigning a value
+to an additional variable v not in φ and φ[x/v] is true relative to M , ρ′45
+logical possibility in facts about set theory. One might argue that these facts militate in favor of taking logical
+possibility to be the more grounding-fundamental notion of the three, and therefore (perhaps) the one whose
+apparent ontological commitments reﬂect the true ontological commitments of everything else that is grounded
+in it.
+40In this language the non-mathematical objects are taken to be ur-elements as per McGee (1997).
+41Our set theoretic approximation can give the wrong answers if there are ‘more’ actual objects than there are
+sets.
+42Note that if you are a potentialist about set theory in the sense advocated above, these conditions do capture
+correct truth conditions for logical possibility but can’t be used todeﬁne logical possibility on pain of circularity
+43By this I mean a partial function ρ from the collection of variables in the language of logical possibility to
+objects in M , such that the domain of ρ is ﬁnite and includes (at least) all free variables in ψ.
+44As usual I take 2 and∀ to be abbreviations for ¬3¬ and¬∃¬ respectively.
+45As usual φ[x/v] substitutes v for x everywhere where v occurs free in φ.
+14
+
+--- Page 15 ---
+
+• ψ = 3R1...Rnφ and there is another model M′ and a bijection θ from
+Ext(RM
+1 , . . . , RM
+n ) def=
+{y|
+⋁
+1≤i≤n
+1≤j≤ki
+(∃x1, . . . , xki)
+[
+y = xj∧ RM
+i (x1, . . . , xki)
+]
+}
+to Ext(RM ′
+1 , . . . , RM ′
+n ) such that
+RM
+i (x1, . . . , xki) ⇐⇒ RM ′
+i (θ(x1), . . . , θ(xki))
+and φ is true relative to M′ and the empty assignment 46 .
+Note that in the last clause the models M and M′ need not share any elements.
+Rather the structure Ext(RM
+1 , . . . , RM
+n ) (those elements appearing in some tuple in
+the extension of some RM
+i ) must be isomorphic (under the relations R1 . . . Rn) to
+(Ext(RM ′
+1 , . . . , RM ′
+n )).
+Set Theoretic Approximation: A sentence in the language of logical possibility
+is true simpliciter iﬀ it is true relative to a set theoretic model whose domain consists
+of the actual objects (which the quantiﬁers in our original non-mathematical language
+range over) and whose extensions for atomic relations reﬂects the actual extensions of
+these relations and the empty assignment function ρ. Note that this deﬁnition gives
+statements lacking any necessity operators the same truth values as they have in the
+actual world.
+Appendix B. Modal Structuralist Paraphrases for Regular Mathematics
+In this appendix, I will give a general method for simplifying Hellman’s paraphrases
+of non-set theoretic mathematics. 47. I will follow Hellman in focusing on the case
+where the mathematical structure under consideration has a categorical second order
+description D, and provide a translation of Hellman’s paraphrases which we may
+assume is in the following form 48 (where all ﬁrst order quantiﬁers in D and ψ are
+restricted to M 49 and no logical possibility operators appear in D or ψ):
+3(∃M)[D∧ ψ]
+We may ignore the diﬀerence between quantiﬁcation over classes and quantiﬁcation
+over relations, by regarding class variables as unary relation variables. For visual clarity
+we will use capital letters for second order quantiﬁcation over relations. We will also
+assume that no second order function quantiﬁers occur in D or ψ, though the same
+mechanism can be easily extended to handle function quantiﬁers. Note that as all ﬁrst
+46Remember φ can’t have any free variables.
+47For the reasons discussed in footnote 30, I haven’t tried to give a formal proof of the fact that second order
+quantiﬁers can be replaced with conditional logical possibility operators.
+48Oﬃcially, Hellman’s paraphrases take the form 3D∧ 2(D→ φ). But when D is categorical this is equivalent
+to the form above.
+49That is we can assume all quantiﬁers are of either the form ( ∃x)(M(x)∧ φ) or (∀x)(M(x)→ φ)
+15
+
+--- Page 16 ---
+
+order quantiﬁers are restricted to M, we only need concern ourselves with the behavior
+of relations and relation variables on elements of M.
+We may now deﬁne my translation of Hellman’s paraphrase 3(∃M)[D∧ ψ] to be
+3t(D∧ ψ) where t is deﬁned via the following recursive deﬁnition (with t = t()).
+t(R1..Rn)(∃P φ) = 3M,R1...Rnt(R1...Rn+1)(φ[P/R n+1])]
+t(R1..Rn)(∀P φ) = 2M,R1...Rnt(R1...Rn+1)(φ[P/R n+1])]
+t(R1..Rn)(¬φ) =¬t(R1..Rn)(φ)
+t(R1..Rn)(φ∧ ψ) = t(R1..Rn)(φ)∧ t(R1..Rn)(ψ)
+t(R1..Rn)(φ∨ ψ) = t(R1..Rn)(φ)∨ t(R1..Rn)(ψ)
+t(R1..Rn)(∃xφ) = (∃x)[t(R1..Rn)(φ)]
+t(R1..Rn)(∀xφ) = (∀x)[t(R1..Rn)(φ)]
+t(R1..Rn)(Rk(x1, ..xm)) = Rk(x1, ..xm)
+t(R1..Rn)(x1 = x2) = x1 = x2
+We now argue that this translation preserves (intended) truth values. Except for
+the ﬁrst two lines the translation is entirely homophonic, so as long as those equalities
+preserve (intended) truth values, the entire translation should do so. However, the
+ﬁrst and second equalities simply express the fact that, understand as Hellman intends,
+second order relation variables on a domainM range over all logically possible relations
+on M and vice versa. Finally, the same consideration (on a given domain, ∃M ranges
+over exactly the collections it would be logically possible for a predicate to apply to)
+tells us that moving between 3(∃M)t([D∧ ψ]) and 3t(D∧ ψ) shouldn’t change the
+truth value (again assuming second order quantiﬁcation operates in the usual fashion
+as Hellman expects).
+Appendix C. Note about applied mathematics
+Although the aim of this paper is to simplify Hellman’s story about pure mathematics,
+everything Hellman says about applied mathematics 50 is also expressible using my
+notion of conditional logical possibility. I only mention this fact because it means that
+Hellman could adopt my simpliﬁcations without signiﬁcant harm to his proposal.
+As noted in section 2, Hellman paraphrases sentences in applied mathematics, like
+‘There are a prime number of rats’ with sentences of the form:
+2(holding ﬁxed all material facts) φ
+where φ is a sentence asserting that if there are objects behaving like the numbers,
+(or whatever mathematical objects are mentioned in the statement to be translated)
+then these objects are related to the material objects in some (second-order describ-
+able) fashion. For instance, φ might assert that if some things behave like the natural
+50Hellman himself doesn’t give a very ﬂeshed out story about how to handle physical quantity statements, like
+‘there is an object weighing more than 5 grams’ or say anything about how to handle probability statements
+(which are especially challenging insofar as they seem to associate numbers with something like sets of possible
+worlds, rather than any physical objects).
+16
+
+--- Page 17 ---
+
+numbers, then there is a function which pairs up the rats in the actual world in a
+one-to-one fashion with those natural numbers up to some prime, thereby asserting
+that there are a prime number of rats.
+It is possible to do equivalent work using my notion of conditional logical possibility.
+First we apply the technique outlined in appendix B to replace second order quan-
+tiﬁcation with conditional logical possibility. We then add all the non-mathematical
+relations mentioned in the sentence to be translated (in the example ‘there are a prime
+number of rats’ this would just be the predicate ‘rat()’) as subscripts to all the 2 and
+3 operators in the sentence. The resulting sentence now simply holds ﬁxed every ma-
+terial fact it actually makes use of, allowing it to be expressed in terms of conditional
+logical possibility51 (without appeal to a notion of holding all the material facts ﬁxed).
+Appendix D. Paraphrasing Potentialist Set Theory
+Potentialism about set theory replaces claims about a deﬁnite totality of sets with
+claims about how initial segments of the sets can extend each other. Hellman consid-
+ers initial segments of the sets which satisfy ZFC2 and uses quantifying in to formulate
+claims about how these segments can be extended. We reformulate Hellman’s poten-
+tialist understanding of ﬁrst order set theory 52. in the language of conditional logical
+possibility in two steps.
+First, we replace the requirement that the initial segments satisfy ZFC 2 with an
+equivalent characterization ZFC3 in terms of conditional logical possibility, using the
+technique described in appendix B.
+Secondly, we can reformulate claims about how initial segments can be extended
+in a way that eschews quantifying in. Recall that potentialism translates sentences
+of set theory by replacing quantiﬁers over the sets with statements about how it
+would be possible to extend initial segments of the sets and choose elements from
+those initial segments, e.g., if φ is quantiﬁer free then ∃xφ(x) would translate to
+3[ZFC3(set,∈)∧(∃x)(set(x)∧φ(x))] where this says that it would be logically possible
+for there to be an initial segment of the hierarchy of sets containing an object that
+satisﬁed φ.
+To express potentialist truth conditions without quantifying in, I will require that
+each initial segment seti,∈i be paired with an associated assignment relation Ri which
+(in eﬀect) assigns each of the countably many variables x1, x2... in the ﬁrst-order
+language of set theory to objects within set i. When we ask about the possibility of
+extending the current initial segment (set i,∈i) we can place Ri in the subscript of all
+further 2 and 3 expressions to pass along the information about variable assignments.
+We allow this choice of assignments for variables to be modiﬁed to allow variables to
+be assigned to objects in set i+1 (an initial segment extending seti) by deﬁning another
+51We presume that the sentence to be translated does not unrestrictedly quantify over all material objects,
+e.g., assert the ﬁniteness of the material world, or if it does there is a single predicate that applies to every
+material object. Admittedly, there would be trouble if you wanted to translate a single sentence that used all
+atomic vocabulary of the right arity. However, there is plenty of atomic vocabulary that doesn’t occur in the
+kind of scientiﬁc applications of mathematics which Hellman tries to capture (e.g. ‘angel’ ‘blesses’ etc.), so this
+is unlikely to be a practical problem.
+52Unlike Hellman, I don’t propose to give potentialist translations of second order statements about set theory,
+because unbounded second order quantiﬁcation over a potentialist hierarchy isn’t obviously meaningful. Hell-
+man himself admits (in chapter 2 section 3 of Hellman (1994)) that his translations of second order sentences
+don’t behave the way we’d intuitively expect, e.g., his translation of second order replacement doesn’t motivate
+his translation of ﬁrst order replacement. Also, those who like Hellman’s treatment of second order set theory
+can use the techniques proposed here and in appendix B, in a fairly straightforward way, to reproduce it.
+17
+
+--- Page 18 ---
+
+assignment Ri+1 which must agree with Ri everywhere except for on the (number
+representing) the variable allowed to range over set i+1.
+I will use V (Va) to abbreviate the claim that seta,∈a satisfy ZFC3(seta,∈a) and Ra
+behaves like (the relation corresponding to) an assignment function from the objects
+satisfying N to those satisfying set a. More concretely this amounts to the conjunction
+of the following three claims:
+• ZFC3(seta,∈a), i.e., Va behaves like an initial segment of the hierarchy of sets.
+• N, S satisfy PA3.
+• Ra behaves like a function from N to seta
+Remember that, as discussed on pg. 12, schematic relation symbols (like ∈, seta
+and P ) are used as a mnemonic device in place of suitable non-mathematical relations
+with the same arity.
+Note that my only reason for using PA 3 is that the natural numbers (under suc-
+cessor) contain inﬁnitely many deﬁnable objects, which we can use to represent vari-
+ables, for example 1 represents x1, 2 represents x2 etc. In what follows, I will use n,
+to abbreviate the formula where n is replaced by a variable constrained to be the
+(unique) n-th successor of 0. Thus, for example, a claim of the form φ(1) abbreviates
+(∀x)[S(0, x)→ φ(x)]. I will abbreviate the conditionalized logical possibility operators
+3setn,∈n,N,S,Rn and 2setn,∈n,N,S,Rn by 3Vn and 2Vn respectively.
+I will use Va≥i Vb to abbreviate the claim that the set a under∈a extends the set b
+under∈b and the assignment of variables Rb agrees with Ra everywhere except on i
+(where i is the code for xi). Put more concretely, this is to say that
+• V (Va)
+• V (Vb)
+• (∀x)[seta(x)→ setb(x)]
+• (∀x)(∀y)[seta(y)→ (x∈b y↔ x∈a y)]
+• (∀n)[N(n)→ n = i∨ (∀y)(Ra(n, y)↔ Rb(n, y))]
+We can now translate the set theoretic utterance ( ∃x)(∀y)(x = y∨¬ y∈ x) into
+a claim about how it is logically possible for set 1,∈1, R1 to be extended. First we
+rewrite this set theoretic statement in a regimented language with numbered variables
+as (∃x1)(∀x2)[x1 = x2∨¬ x2∈ x1]. Then we translate this sentence into:
+3(V (V1)∧ 2V1[V2≥2 V1→
+(∀z)(∀y)(R2(1, z)∧ R2(2, y)→ z = y∨¬ y∈2 z)])
+That is, such∃x2∀x1 sentences can be understood as making a claim with the fol-
+lowing form. There could be a model of set theory set1,∈1 and a relation R1 assigning 1
+(representing x1) to an element of set1 so that it is necessary (holding ﬁxed set1,∈1, R1
+and the numbers) than any model of set theory set2,∈2 extending set1,∈1 and relation
+R2 assigning 2 to an element of set 2 (while agreeing with R1 about the assignment
+of 1) makes the interior of the above formula true when x1, x2 are replaced by the
+assignments of 1, 2 by R2 and∈ is replaced with∈2.
+The same strategy works more generally to produce paraphrases of arbitrary sen-
+tences in the language of pure set theory. We can use recursive applications of the
+following principles to translate every sentence in the ﬁrst-order language of set the-
+ory into a claim about logically possible extendability.
+18
+
+--- Page 19 ---
+
+In particular we deﬁne tn as follows:
+• tn(xi∈ xj) is the claim that Rn assigns i to an object ∈n the object it assigns
+to j i.e.,(∀z)(∀z′)[Rn(i, z)∧ Rn(j, z′)→ z∈n z′]
+• tn(xi = xj) is the claim that Rn assigns i to the same object it assigns j to
+i.e.,(∀z)(∀z′)[Rn(i, z)∧ Rn(j, z′)→ z = z′]
+• tn(¬φ) =¬tn(φ)
+• tn(φ∨ ψ) = tn(φ)∨ tn(ψ)
+• for n≥ 0, tn+1((∀xi)φ(x)) : 2Vn[Vn+1≥i Vn→ tn+2(φ)]
+• for n≥ 0, tn+1((∃xi)φ(x)) : 3Vn[Vn+1≥i Vn∧ tn+2(φ)]
+• t0((∀x)φ(x)) : 2[V (V0)→ t1(φ)]
+• t0((∃x)φ(x)) : 3[V (V0)∧ t1(φ)]
+The translation of a set theoretic sentence φ is t0(φ). Note that the validity of the
+above translation relies on the fact that for any two structures satisfying ZFC 2 one is
+isomorphic to an initial segment of the other. Hellman invokes a version of this claim in
+chapter 2 section 3 of Hellman (1994) and I think an analogous argument can be made
+within my formal system, but reasons of space prevent me from demonstrating this
+here. Also note that in the above deﬁnition we can replace Vj with Vj mod 2 without
+aﬀecting the truth value of the translation. This allows us to translate sentences with
+arbitrarily many quantiﬁer alternations using a ﬁxed ﬁnite number of atomic relations.
+Note that this translation honors the intuitive bivalence of the language of set theory.
+Consider an arbitrary set theoretic sentence φ. t(φ) = t0(φ) and t(¬φ) = t0(¬φ) =
+¬(t0(φ)). Thus either t(φ) or t(¬φ) will be true.
+References
+Benacerraf, P. (1965). What numbers could not be. The Philosophical Review, 74(1):47–73.
+Etchemendy, J. (1990). The Concept of Logical Consequence. Harvard University Press.
+Field, H. (1989). Realism, Mathematics & Modality . Basil Blackwell.
+Field, H. H. (2008). Saving Truth from Paradox. Oxford University Press.
+Hellman, G. (1996). Structuralism without structures. Philosophia Mathematica, 4(2):100–123.
+Hellman, G. (1994). Mathematics Without Numbers . Oxford University Press, USA.
+Lewis, D. K. (1986). On the plurality of worlds . B. Blackwel.
+Linnebo, Ø. (2010). Pluralities and sets. Journal of Philosophy , 107(3):144–164.
+McGee, V. (1997). How we learn mathematical language. Philosophical Review, 106(1):35–68.
+Parsons, C. (1977). What is the Iterative Conception of Set? , pages 335–367. Springer Nether-
+lands, Dordrecht.
+Parsons, C. (2007). Mathematical Thought and Its Objects . Cambridge University Press.
+Putnam, H. (1967). Mathematics without foundations. Journal of Philosophy , 64(1):5–22.
+Rayo, A. (2013). The Construction of Logical Space . Oxford University Press.
+Shapiro, S. and Wright, C. (2006). All things indeﬁnitely extensible. In
+c Iterayo&Uzquiano:Ag, pages 255–304. Clarendon Press.
+Williamson, T. (2013). Modal Logic as Metaphysics . Oup Oxford.
+Weisstein, Eric W. ”Peano’s Axioms.” From MathWorld–A Wolfram Web Resource.
+http://mathworld.wolfram.com/PeanosAxioms.html
+19

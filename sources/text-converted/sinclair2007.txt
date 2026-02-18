@@ -1,0 +1,924 @@
+--- Page 1 ---
+
+The Southern Journal of Philosophy (20071 Vol. XLV 
+Quine’s Naturalized Epistemology and 
+the Third Dogma of Empiricism 
+Robert Sinclair 
+Brooklyn College, City University of New York 
+Abstract 
+This essay reconsiders Davidson’s critical attribution of the scheme- 
+content distinction to Quine’s naturalized epistemology. It focuses on 
+Davidson’s complaint that the presence of this distinction leads Quine 
+to mistakenly construe neural input as evidence. While committed to 
+this distinction, Quine’s epistemology does not attempt to locate a 
+justificatory foundation in sensory experience and does not then equate 
+neural intake with evidence. Quine’s central epistemological task is an 
+explanatory one that attempts to scientifically clarify the route from 
+stimulus to science. Davidson’s critical remarks wrongly assign 
+concerns to Quine’s view that it does not have and further obscures the 
+status of his naturalized conception of epistemology. 
+Several philosophers, most notably Donald Davidson and 
+Richard Rorty, have criticized Quine’s naturalized conception of 
+epistemology for its alleged commitment to the dualism of 
+scheme and content, what Davidson famously called the “third 
+dogma of empiricism.”’ The fundamental problem with this 
+dualism, at least for Davidson, is the way it encourages taking 
+unconceptualized empirical input (the content side of this 
+division) as evidence for our totality of beliefs (the scheme side 
+of the division). Quine’s naturalized epistemology is then 
+presented as mistakeningly offering sensory input as evidence 
+for our system of beliefs, something that Davidson argues “non- 
+propositional experience” simply cannot do. In apparent 
+opposition to this reading, Roger Gibson (1999) remarks that 
+Robert Sinclair is an Assistant Professor in the Department of 
+Philosophy at Brooklyn College, City University of New York. His current 
+research examines the interconnections between pragmatism, naturalism 
+and analytic philosophy in twentieth-century America. His articles have 
+appeared in Dialogue, Inquiry, Metaphilosophy, The Southern Journal 
+of Philosophy, and Southwest Philosophy Review. 
+455
+
+--- Page 2 ---
+
+Robert Sinclair 
+Quine does not equate experience with sensory input, further 
+suggesting that he does not then appeal to any sort of sensory 
+given as the ultimate evidence for our beliefs. Related concerns 
+are offered by Peter Hylton (1997) when he defends Quine’s 
+adherence to the scheme-content distinction by noting its con- 
+nection to his scientific worldview rather than with any concern 
+in locating an empirical foundation for human knowledge. The 
+central issue then turns on how we are to understand Quine’s 
+apparent advocacy of the scheme-content distinction and, more 
+significantly, whether this commitment leads to the disastrous 
+errors suggested by Davidson. This essay deals with this specific 
+interpretive issue by readdressing the motivations behind 
+Quine’s commitment to the third dogma of empiricism. My main 
+interpretive claim builds on the suggestive remarks made by 
+both Gibson and Hylton when they locate the motives for this 
+distinction within Quine’s acceptance of a scientific perspective 
+in epistemology. However, unlike these commentators, I provide 
+a more detailed account of Quine’s adherence to this dualism, one 
+that highlights its connections to his conception of naturalized 
+epistemology and that is directly situated within the context of 
+Davidson’s critical remarks. More specifically, I argue that 
+Quine’s core project in epistemology, of which the scheme-content 
+distinction forms a part, should not be understood as concerned 
+with isolating some sensory foundation in experience that 
+serves to justify our system of beliefs. We should rather view 
+Quine’s main epistemological task as an explanatory one aimed 
+at providing a scientific account of how humans are capable of 
+moving from sense experience to scientific knowledge of the 
+world. It is from within this account that the scheme-content 
+distinction emerges as a basic scientific finding about the 
+structure of human knowledge and that then helps to further 
+clarify the route from sensory stimulation to our more advanced 
+scientific pronouncements. Quine’s concern with the “evidential 
+support” for science, as he sometimes describes it, refers to this 
+explanatory project and not the attempt to locate the ultimate 
+“evidence” for science within some sensory foundation. 
+I begin with a discussion of the Davidson-Quine dispute 
+over the status of this third dogma within Quine’s naturalized 
+epistemology. This will allow us to recognize not only Quine’s 
+explicit commitment to the scheme-content distinction, but also 
+how the debate itself is largely inconclusive. Quine does not 
+explicitly address Davidson’s critical remarks nor does he 
+clearly indicate the explanatory task of his epistemology. I then 
+consider in more detail the nature of Quine’s core epistemological 
+project and how it should be read as promoting the specific 
+explanatory aim described above. I further demonstrate how 
+this explains his lack of concern with Davidson’s specific worry 
+over evidence, and how this indicates where such issues are 
+properly located within Quine’s account. Lastly, I conclude that 
+456
+
+--- Page 3 ---
+
+Quine’s Naturalized Epistemology and the Third Dogma of Empiricism 
+Davidson’s critical remarks reflect a misunderstanding of the 
+basic project that supports Quine’s advocacy of the scheme- 
+content distinction, and attribute motives to his view that it does 
+not have. In the case of at least Quine’s naturalized version of 
+empiricism, Davidson’s critical attribution of the third dogma 
+fails to fully appreciate his scientific reformulation of the epis- 
+temological tasks of empiricism. 
+1. Davidson and Quine 
+on the Third Dogma 
+In his “On the Very Idea of a Conceptual Scheme,” Davidson 
+famously introduced the third dogma of empiricism by offering 
+this general characterization of the dualism: “The idea is ... 
+that something is a language, and associated with a conceptual 
+scheme, whether we can translate it or not, if it stands in a 
+certain relation (predicting, organizing, facing or fitting) to 
+experience (nature, reality, sensory promptings)” (1974, 191). 
+Elsewhere he further indicates that Quine’s specific formulation 
+of this apparent dogma is elaborated in accordance with his 
+chief concern over how, on the basis of sensory stimulation, we 
+are able to arrive at our current scientific theory. Among the 
+many passages2 where he finds evidence of this dualism, 
+Davidson emphasizes Quine’s “distinction between report and 
+invention, substance and style, cues and conceptualization” and 
+his further remark that 
+we cannot strip away the conceptual trappings sentence by sentence 
+... but we can investigate the world, and man as part of it, and 
+thus find out what cues he could have of what goes on around him. 
+Subtracting his cues from his worldview, we get man’s net contri- 
+bution as the difference. This difference marks the extent of man’s 
+conceptual sovereignty-the domain within which he can revise 
+theory while saving the data. (1960,5) 
+Here, Davidson finds the clear presence of a scheme-content 
+dualism with Quine’s explicit emphasis on the difference between 
+our worldview and cues, our theory and its data (Davidson 1989, 
+161). The further issue concerns exactly why this distinction 
+should be seen as detrimental to Quine’s epistemology. For 
+Davidson, the main problem concerns the view of justification 
+and evidence that is suggested by Quine’s position and that 
+emerges from this emphasis on the division between scheme 
+and content. 
+The general position is that sensory experience provides all the 
+evidence for the acceptance of sentences (where sentences may 
+include whole theories). A sentence or theory fits our sensory 
+promptings, successfully faces the tribunal of experience, predicts 
+457
+
+--- Page 4 ---
+
+Robert Sinclair 
+future experience, or copes with the pattern of our surface irrita- 
+tions, provided it is borne out by the evidence. (1984,193) 
+The central issue here emphasizes how accounts that adhere to 
+this sort of division between theory and data are inclined to 
+seek justification for our beliefs through comparison with this 
+data. Such views attempt to confer a level of justification to our 
+scheme of beliefs by their answerability to whatever is given in 
+experience, in Quine’s case, the sensory promptings that serve 
+as our ultimate “take” on what happens in our surrounding 
+scene. Consequently, Quine’s advocacy of the third dogma results 
+in what Davidson calls the “ultimate source of evidence” for our 
+knowledge of the world consisting of the stimulation of our 
+sensory surfaces (1989, 161-62). 
+Davidson’s main critical point wonders whether sensory 
+input can properly play this evidential role.3 In his “A Coher- 
+ence Theory of Truth and Knowledge” (1990), he further explains 
+how the attempt to ground our beliefs within what is empiri- 
+cally given is motivated by the thought that it is sensations 
+that connect our beliefs and the world, further enabling them to 
+then justify our beliefs because we are aware of them. However, 
+the main problem with this approach is that “justification 
+seems to depend on the awareness, which is just another belief“ 
+(2001b, 142). Since it is only beliefs themselves that are capable 
+of providing evidential support, our sensations are revealed as 
+playing no important epistemic role with regard to the justifica- 
+tion of our beliefs. The relationship between sensations and belief 
+should be understood only in causal terms and cannot without 
+confusion be understood as providing evidence. 
+This causal relation cannot be a relation of confirmation or discon- 
+firmation, since the cause is not a proposition or belief, but just an 
+event in the world or in our sensory apparatus. Nor can such events 
+be considered in themselves evidence, unless, of course, they cause 
+us to believe something. And then it is the belief that is properly 
+called the evidence, not the event. (1982,486) 
+Now it is here that Davidson claims Quine’s naturalized episte- 
+mology makes a fatal error, since by claiming that knowledge is 
+epistemologically grounded in some ultimate source of evidence 
+it wrongly assigns a justificatory role to sensation. Quine’s use 
+of observation sentences-sentences keyed to stimulations that 
+all speakers will assent to in response to the same stimulations- 
+is precisely for Davidson an attempt to utilize sensations so 
+they can serve as justificatory vehicles. 
+But this runs counter to the point we have just seen, that sen- 
+sations only play a causal role in the production of our beliefs. 
+It is on the basis of this claim that Davidson famously concludes 
+that “nothing can count as a reason for holding a belief except 
+458
+
+--- Page 5 ---
+
+Quine’s Naturalized Epistemology and the Third Dogma of Empiricism 
+another belief” (2001b, 141). His argument for this claim is a 
+familiar one and emphasizes how sensory or neural input lacks 
+propositional content and, thus, cannot stand as a potential 
+reason for a belief: 
+The reason sensations, percepts and sense-data cannot provide 
+epistemic support for beliefs is simple: reasons have to be geared 
+conceptually to what they are reasons for. The relation of epistemic 
+support requires that both relata have propositional content, and 
+entities like sensations and sense-data have no propositional 
+content. (1997, 2214 
+Appeals to the sensory given, even in terms of Quine’s more 
+scientifically acceptable neural intake or input, does not provide 
+the needed content required for serving as a reason. Neural 
+input then remains epistemologically irrelevant for the question 
+of evidential support for our beliefs. Davidson thus concludes 
+that any attempt to ground knowledge on some form of non- 
+propositional “experience” is untenable, and since Quine’s 
+naturalized epistemology fails to recognize this, it too fails to 
+adequately deal with the question of epistemic justification. 
+Quine’s response to these charges openly acknowledges his 
+adherence to the third dogma, but rather than viewing this 
+commitment as dogmatic, he takes it as central to a proper 
+naturalist rendering of the evidential support of science. 
+The third purported dogma, understood now in relation to ... 
+warranted belief, remains intact. It has a descriptive and normative 
+aspect, and in neither aspect do I think of it as a dogma. It is what 
+makes scientific method partly empirical rather than solely a quest 
+for internal coherence. It has indeed wanted some tidying up, and 
+has had it. (1981,39) 
+The “tidying up” that Quine refers to is his own naturalized 
+account of the relation between evidence and scientific theory, 
+which he argues is a more scientifically acceptable account of 
+the connections between sensory input and the theoretical 
+statements of advanced science. The rest of Quine’s reply 
+expands on this general theme, indicating the naturalist motives 
+that underlie his core epistemological project and further 
+explaining how these motives have lead to the main changes in 
+his developing epistemological perspective. What these remarks 
+show is that the main lines of Quine’s philosophical develop- 
+ment do not result in any significant change of outlook, but 
+highlight his underlying interest in presenting a more satis- 
+factory naturalistic depiction of the metaphorical statements 
+found in his earlier “Two Dogmas of Empiricism” (1953). In that 
+article, Quine had described our system of scientific knowledge 
+as a “man-made fabric which impinges on experience only along 
+459
+
+--- Page 6 ---
+
+Robert Sinclair 
+the edges” where his use of “experience” was left unexplained 
+(1953,421. By Word and Object (1960), Quine’s naturalist aspira- 
+tions are made more explicit with his construal of experience in 
+terms of the triggering of nerve endings, or the more recent 
+“neural intake.” The distinction between scheme and content or 
+scientific theory and evidence, which Quine openly admits is 
+found within his conception of epistemology, is part of his 
+continued emphasis on the “empiricist discipline” required for 
+an adequate theory of knowledge (1981, 40). While this reply 
+settles the question of Quine’s commitment to the scheme- 
+content distinction, it fails to sufficiently clarify the grounds of 
+this commitment, nor does this admission explicitly address 
+Davidson’s worry over “ultimate evidence.” More specifically, 
+Quine does not clarify the status of his project when he describes 
+it as concerned with the “theory of evidence” (1981, 39). As a 
+result, those critics who find no room for normative concerns 
+over justification within Quine’s project would appear to be 
+vindicated and the sort of problem Davidson raises for Quine’s 
+account would seem to remain.5 
+However, Quine’s remarks do indicate certain lines of thought 
+that are central to his conception of epistemology and when 
+further clarified can help address these issues. His adherence to 
+the scheme-content distinction is presented as part of his more 
+general commitment to empiricism, where Quine takes empiri- 
+cism itself as a finding of science. For him, our best scientific 
+theories confirm that all the evidence for science comes through 
+the senses and, thus, further supports the acceptance of a 
+scheme-content distinction, or divide between theory and 
+evidence as fundamental to the structure of human knowledge.‘j 
+Importantly, Quine does not think these claims are assumptions 
+in need of further independent philosophical support. Rather, 
+they constitute the inherited results of prior scientific theorizing, 
+which we now find ourselves working with as we attempt to 
+make further contributions to the ongoing progress of human 
+knowledge. What this then suggests is that Quine’s commit- 
+ments to empiricism and the scheme-content distinction are 
+based on his acceptance of a scientific perspective within epis- 
+temology and do not stem from any philosophical interest in 
+locating an empirical foundation for scientific knowledge. 
+This point gains further support from Quine’s general silence 
+concerning Davidson’s worry over the status of evidence and 
+justification. Quine conceives of his project as demonstrating 
+how we have moved from stimulus to science and, in turn, how 
+scientific theories gain support through their ability to predict 
+future experience. His commitments to empiricism and the 
+scheme-content distinction are part of this scientific project, 
+themselves accepted as receiving support from science and as 
+contributing to this scientific clarification of the connections 
+between our sensory surfaces and scientific discourse. Quine 
+460
+
+--- Page 7 ---
+
+Quine’s Naturalized Epistemology and the Third Dogma of Empiricism 
+does not show any interest in isolating a sensory foundation 
+that serves as the ultimate justification for our beliefs because 
+this task is not part of his scientific commitment to empiricism 
+and the scheme-content distinction. This view of empiricism 
+contrasts sharply with Davidson’s, who takes the connection 
+between empiricism and the scheme-content distinction as tied 
+to the pursuit of a sensory foundation in experience. Davidson’s 
+failure to note this disparity between his and Quine’s under- 
+standings of empiricism is precisely why his criticism of Quine’s 
+view fails. It leads him to attribute epistemic aims to Quine’s 
+project that it does not share with his own conception of empiri- 
+cism and its alleged third dogma. 
+In order to provide additional support for these interpretive 
+remarks, we need to discuss the relevant details of Quine’s 
+naturalized account of knowledge. This will help further high- 
+light the nature and status of his central explanatory aims and 
+indicate the way Davidson’s criticisms fail to engage with Quine’s 
+own conceptions of naturalized epistemology, empiricism, and 
+the scheme-content distinction. 
+2. Naturalized Epistemology 
+and Evidence 
+The main features of Quine’s naturalized account of knowledge 
+are quite familiar.7 He has recently offered this brief encapsula- 
+tion of his project: “The business of naturalized epistemology, for 
+me, is an improved understanding of the chains of causation 
+and implication that connect the bombardment of our surfaces, 
+at one extreme, with our scientific output at the other” (199513, 
+349). Understanding the import of such remarks requires noting 
+how they highlight the main explanatory task of epistemology 
+as Quine conceives it and further clarifying the status of the 
+claims made in the name of this project. Naturalized epis- 
+temology is presented here as providing an improved scientific 
+account of the connections between the activation of our sensory 
+surfaces and our theoretical discourse about the world. In 
+seeking to provide this account, Quine reformulates the core 
+epistemic question by describing it in terms that he takes to be 
+responsive to the methodological and evidential standards 
+found in the empirical sciences. His general elaboration of these 
+connections emphasizes the way observation sentences are 
+learned through direct association with their stimulus conditions. 
+Clarifying how theory is related to such expressions is a matter 
+of examining the way various hypotheses are introduced and 
+tested within the context of experimental method.8 
+For present purposes, the important issue involves the way 
+Quine understands his project as consisting of a scientific 
+reformulation of the concerns that remain relevant for episte- 
+mology. Quine implements his explanatory task by attempting 
+46 1
+
+--- Page 8 ---
+
+Robert Sinclair 
+to comply with the very intersubjective methods found in empir- 
+ical science itself, Set up in such terms, epistemology must now 
+become responsive to the demand for external evidence, where 
+“external” points to the possibility of applying the third-person 
+objective method that characterizes sound empirical reasoning. 
+It is such empirical constraints that he thinks all epistemo- 
+logical hypotheses must now be subject to. From this perspec- 
+tive, Quine views his own claims as scientific hypotheses that 
+stand or fall through adherence to the same empirical standards 
+of testability that are found in science more generally. We can 
+then appreciate how the various technical terms that form part 
+of this project, such as “observation sentence,” “neural intake” 
+and others, are all chosen for their perceived ability to adhere 
+to such methodological requirements. The clarification of the 
+links from stimulus to science requires scientifically acceptable 
+counterparts in the form of ”stimulations,” “the triggering of 
+sensory receptors” and “observation ~entence.”~ The usual philo- 
+sophical concepts of “experience,” “sense data,” and “the external 
+world” do not permit the formulation of hypotheses that can be 
+subjected to the type of empirical inquiry promoted by Quine’s 
+n a t u r a1 i z e d conception of epistemology. C 1 a ri t y, increased 
+precision, and the need for external evidence all contribute to 
+the prediction of observable consequences, and it is then such 
+requirements that Quine thinks we must strictly adhere to in 
+developing a naturalized account of knowledge. By setting up 
+our account of knowledge in scientific terms, we leave behind the 
+unchecked speculations of the past and enjoy the same methodo- 
+logical and evidential advantages found in the natural sciences. 
+It is these philosophical motives that underlie Quine’s presen- 
+tation of “naturalized epistemology” as a scientific clarification 
+of the evidential relation between scientific theory and its 
+sensory evidence. Davidson is clearly correct in noting the way 
+Quine’s emphasis on the division between stimulus and science 
+corresponds to the scheme-content distinction found in his third 
+dogma of empiricism. Moreover, we have seen Quine’s own 
+explicit acceptance of the distinction as central to his version of 
+empiricism and naturalized epistemology. However, the central 
+question concerns whether the presence of this division leads 
+Quine’s naturalized epistemology into the problem of ”ultimate 
+evidence,” where sensory input is meant to serve as justification 
+for what we believe. I have already indicated some reasons for 
+why the main explanatory task of Quine’s epistemology conflicts 
+with this general understanding of his project. However, part of 
+the problem stems from Quine’s own characterization of his 
+view, since as we have seen, he does at times describe it as con- 
+cerned with the evidential support of science (see Quine 1992). 
+One can imagine Davidson wondering how this appeal to neural 
+input clarifies the evidential support of science, when it is simply 
+mistaken to view neural input as capable of serving as evidence. 
+462
+
+--- Page 9 ---
+
+Quine’s Naturalized Epistemology and the Third Dogma of Empiricism 
+Quine’s remarks may also seem to challenge my interpretation 
+of his project as largely explanatory. The key here is to under- 
+stand how his concern with the “evidential support” of science 
+forms one part of his larger explanatory project. In order to see 
+this, we should reconsider Quine’s use of the term “evidence,” 
+beginning with his recent reflections on this issue: 
+“Evidence” is a term that I have used informally in introductory or 
+summary formulations. I have not found it useful in more detailed 
+inquiry. But let me now see what, more precisely, I would make of 
+it. My stated overall problem has been the quasi-epistemological 
+problem, within natural science, of man’s construction of natural 
+science on the datum base of neural intake. The intake is not what 
+we are aware of and infer from, but it does encompass our “infor- 
+mation,” in the computer engineer’s sense, as to what is going on 
+around us. It is perhaps a candidate for the title of evidence, but it 
+does not meet Davidson’s dictum that only a belief can be evidence 
+for a belief. The runner-up for the title is the observation sentence 
+that has been conditioned to that neural intake. Evidence in this 
+sense meets Davidson’s condition. (1997, 575-76) 
+This passage illustrates several important points. Quine’s use of 
+“evidence” is generally confined to summary statements of his 
+position, but the concept itself is too unclear for the more precise 
+scientific formulations required of his naturalist project. That 
+Quine adopts this attitude is not surprising, given both the 
+motives and main task that are central to his project. In 
+attempting to explain the connections between stimulation and 
+science from a scientific perspective, the term “evidence” is too 
+unclear to serve as part of a well-formed empirical hypothesis 
+about human knowledge.1° However, within his own scientific 
+account of knowledge, Quine does think that his scientific 
+analogue “neural input” can be thought of as evidence in the 
+sense of the causal source of our information about what is 
+around us, but he explicitly recognizes that this does not meet 
+Davidson’s standards.” Neural intake does not justify our 
+beliefs, since we are not aware of it, nor can we infer anything 
+from it. As Quine acknowledges in his earlier response to 
+Davidson, “few people, statistically speaking, know about their 
+nerve endings” (1981, 40). This type of “evidence” is purely 
+causal and is therefore of a piece with Quine’s naturalistic 
+rendering of the causal connections between our sensory surfaces 
+and theory.12 His emphasis on this causal form of evidence 
+indicates that while he still thinks it useful for his own project, 
+his debates with Davidson have made clear to him that such 
+“evidence” conflicts with Davidson’s own view of evidence.13 
+An additional type of evidence is revealed once we consider 
+the causal connections between observation sentences and 
+neural input. Observation sentences are linked through causal 
+463
+
+--- Page 10 ---
+
+Robert Sinclair 
+conditioning to our neural input, and Quine stresses that they 
+can meet Davidson’s standard of evidence because we are aware 
+of them and they can then justify our beliefs. This is best seen 
+with Quine’s understanding of the inferential connections 
+between observation sentences and theoretical sentences, and 
+how these connections reveal themselves within experimental 
+method. This process is captured with what Quine calls “observa- 
+tion categoricals,” whenever this, that constructions that link 
+two observation sentences, where the first indicates the experi- 
+mental condition and the second suggests a prediction. They 
+then express the general expectation that whenever one observa- 
+tion sentence holds, the other will also (Quine 1995a, 25). Simple 
+examples might include: Whenever there is a raven, it is black, 
+or, Wherever there is smoke, there is fire. For Quine, these con- 
+structions highlight the way in which evidence for a respective 
+hypothesis is to be found: “The scientist deduces from his 
+hypotheses that a certain observable situation should bring 
+about another observable situation; then he realizes the one 
+situation and watches for the other. Evidence for or against his 
+set of hypotheses ensues, however inconclusive” (2000a, 41 1). 
+The consequences predicted by the observation categorical 
+indicate how observation sentences through their conditioning 
+to stimulus conditions yield evidence for our hypotheses about 
+the w0r1d.l~ Once uttered, observation sentences become objects 
+of awareness and can then serve to support or discredit a respec- 
+tive prediction and hypothesis. We remain unaware of our 
+neural input, or sensory stimulation, but this neural activity 
+causes us to believe that something is the case, which is then 
+further expressed with the utterance of an observation sentence. 
+So sensory promptings cause us to have beliefs that have the 
+same content as the asserted observation sentence, which is 
+what then further serves as evidence supporting our respective 
+belief. This would seem to meet all the requirements that 
+Davidson places on an adequate conception of evidence, since 
+we have awareness of observation sentences that serve to both 
+justify and express the content of our beliefs. Moreover, since 
+observation sentences have content, they can serve as a reason 
+for our beliefs whose content they also share. Davidson’s 
+strictures on evidence are than addressed by Quine’s use of 
+observation sentences as the locus of evidence for our beliefs 
+about the w0r1d.l~ 
+This approach to the problem of evidence is then in line 
+with Quine’s general explanatory aims in epistemology. He 
+does not begin by accepting any preconceived philosophical 
+understandings of the troublesome terms “justification” and 
+“evidence” but attempts to formulate the question in what he 
+takes to be scientifically acceptable terms. His interest in the 
+evidential support of science includes an account of the causal 
+chains from our stimulatory surfaces to our scientific pronounce- 
+464
+
+--- Page 11 ---
+
+Quine’s Naturalized Epistemology and the Third Dogma of Empiricism 
+ments and an explanation of how our expectations and predica- 
+tions are supported or rejected through observation. Providing 
+an explanation of the way our predictions are related to observa- 
+tion is one central facet of Quine’s attempt to scientifically 
+clarify the steps from sensory stimulation to the creation of 
+successful scientific theories of the world. Nevertheless, his 
+account does retain the resources needed to accommodate certain 
+philosophical understandings of justification, most notably, 
+Davidson’s conception of evidence. 
+These remarks can be usefully compared with Quine’s early 
+programmatic statement of his view and the reaction that 
+ensued: “Epistemology, or something like it, simply falls into 
+place as a chapter of psychology and hence of natural science ... 
+a conspicuous difference between old epistemology and the 
+epistemological enterprise in this new psychological setting is 
+that we can now make free use of empirical psychology” (1969, 
+82-83). Here, Quine is explicitly rejecting any philosophical 
+autonomy for epistemology distinct from science by advocating 
+the use of empirical resources in addressing our epistemological 
+concerns. This relocation of epistemology within science has led 
+many to interpret Quine as forgoing any concern with the 
+critical evaluation and justification of our epistemic practices 
+and, instead, as favoring a psychological description of how we 
+have acquired our current beliefs. We have seen reasons for why 
+this conclusion is mistaken. While some of the fault here must 
+lie with Quine’s own exposition of his position, it is clearly not 
+his intention to remove such concerns from the province of epis- 
+temology.16 Instead, he seeks to reformulate them as a scientific 
+question to be addressed within his own explanatory account. 
+Once reformulated, the issue becomes one of accounting for how 
+our hypotheses and predications acquire evidential support 
+through their contact with observation. 
+However, this does further indicate that Quine rejects one 
+type of philosophical concern over justification, where one 
+attempts to justify science from some philosophical standpoint 
+outside of science. His naturalism famously rejects this possi- 
+bility, resulting in what we have seen as the justification of 
+science becoming a problem for science and, therefore, a problem 
+for naturalized epistemology. We should include in this rejection 
+various empiricist attempts to validate science by locating its 
+“ultimate” source of justification within some empirical founda- 
+tion. Quine thinks that no such philosophical support for science 
+is needed; it is sufficient to demonstrate-in scientific terms- 
+the “sensitivity” of theories and hypotheses to empirical data. 
+His core project in epistemology then focuses on clarifying how 
+science actually proceeds in developing theories that remain 
+responsive to observation. One of his most explicit statements 
+concerning how he conceives the problem of evidence is captured 
+in this passage: 
+465
+
+--- Page 12 ---
+
+Robert Sinclair 
+Some of my readers have wondered how expressions that are 
+merely keyed to our neural intake, by conditioning or in less direct 
+ways, could be said to convey evidence about the world. This is the 
+wrong picture. We are not aware of our neural intake, nor do we 
+deduce anything from it. What we have learned to do is to assert or 
+assent to some observation sentences in reaction to certain ranges 
+of neural intake. It is such sentences, then, thus elicited, that serve 
+as experimental checkpoints for theories about the world. (1993, 
+110-11)17 
+These remarks emphasize points that we have already noted in 
+discussing Quine’s treatment of the question of evidence. He 
+locates evidence for our predictions with observation sentences, 
+which are causally tied to our sensory receptors, and once 
+uttered, can serve as an object of awareness supporting or 
+refuting our prediction. Clearly, this conception of the problem 
+is not engaged in any large scale justification of science, nor 
+does it aim to isolate an empirical foundation for scientific 
+knowledge. Nevertheless, Quine thinks that it provides us with 
+all the justification or evidential support that one should want 
+from a proper epistemological account. For him, all questions 
+concerning the evidential support of science are to be handled 
+from within science, and this results in locating the evidence for 
+our hypotheses within the observation sentence that is keyed to 
+our neural input. 
+3. Empiricism and the Third Dogma 
+This overview of Quine’s core explanatory project in episte- 
+mology has indicated how it attempts to address the evidential 
+support of science from within science rather than from a 
+philosophical standpoint outside it. We can now consider how 
+this understanding of Quine’s view more directly responds to 
+Davidson’s critical remarks, and what this further suggests 
+about both the status of empiricism and the presence of the 
+scheme-content distinction within Quine’s conception of episte- 
+mology. 
+We have just seen that Quine’s scientific understanding of 
+the evidential support of science does not locate justification or 
+evidence at our sensory surfaces but finds it with the observation 
+sentence that is conditioned to our sensory input. This speaks 
+decisively against Davidson’s claim that a commitment to the 
+scheme-content distinction leads Quine to identify evidence 
+with neural intake. By not equating neural input with evidence, 
+Quine further demonstrates a general lack of interest in any 
+attempt to locate the empirical given.’* As we have seen, Quine 
+thinks that it is enough to scientifically clarify the way theories 
+are themselves responsive to observation. When noting the way 
+Quine replaces “experience” with his more technical alternative 
+466
+
+--- Page 13 ---
+
+Qume’s Naturalized Epistemology and the Third Dogma of Empiricism 
+“neural intake,” we should further realize that this strategic 
+move is not part of what Davidson takes to be a central feature 
+of the empiricist project, namely, the search for the empirical 
+given, or the “ultimate” source of our evidence for our beliefs. It 
+is rather, as we have already seen, a part of Quine’s scientific 
+clarification of the evidential relation between scientific theory 
+and sensory data. Quine does not fall prey to the question of 
+empirical giveness or “ultimate evidence,” since he is not 
+engaged in an epistemological project designed to elucidate the 
+nature of justification by locating its foundation in experience. 
+Instead, he is seeking a scientific clarification of the relation- 
+ship between our sensory stimulation and our theoretical organi- 
+zation of this stimulation, where this includes a discussion of 
+how hypotheses gain support from experience. Importantly, once 
+we have clarified how the creation and testing of scientific 
+theories rests on this sensory basis, we will have provided 
+science itself with all the evidential support that is required. 
+We might describe his general attitude and approach to the 
+problem in these terms. Quine wants to provide a fully natural- 
+istic and scientifically acceptable account of the evidential 
+support of science, but such a project requires appealing to the 
+relevant empirical details of the evidential relations between 
+observation and theory whether we are aware of these details or 
+not. In attempting to scientifically improve our understanding 
+of the question of evidential support, a beliefs justificatory status 
+may be the result of more than simply its evidential relations to 
+other beliefs. Nondoxastic perceptual, sensory, and memory 
+states may also be highly relevant in the development of a theory 
+of knowledge that is responsive to the empirical demands found 
+with natural science.lg This does not preclude addressing the 
+question of evidence promoted by Davidson, which enables us 
+to make sense of critically evaluating our respective beliefs. 
+But it does suggest that a full theory of the evidential support of 
+science will need to meet more than the demands set by 
+Davidson’s conception of evidence. From within Quine’s perspec- 
+tive, Davidson’s dismissal of neural input as epistemologically 
+significant is puzzling, since despite the nondoxastic status of 
+sensation, any empirical details concerning the nature of our 
+“sensory surfaces” will remain important in providing an empir- 
+ically detailed and adequate account of both the acquisition and 
+testability of our scientific theories. 
+What these remarks show is that Quine’s acceptance of the 
+scheme-content distinction does not lead to his confusing sensa- 
+tion, or neural input, with the conception of evidence and justi- 
+fication required by Davidson. Moreover, he agrees that neural 
+input is incapable of serving as a reason for a belief. Davidson’s 
+insistence that neural input is of no use for our concerns over 
+epistemic justification misses the full import of Quine’s motiva- 
+tions within epistemology because it fails to note how neural 
+467
+
+--- Page 14 ---
+
+Robert Sinclair 
+input contributes to Quine explanatory project in epistemology. 
+Rather than taking sides on this issue, Quine begins by noting 
+the way neural input as “evidence” is responsive to his aims as 
+an epistemologist, but continues by further indicating where 
+he would locate Davidson’s conception of evidence within his 
+naturalized account of knowledge.20 Quine adopts a conciliatory 
+tone with regard to the question of evidence, while Davidson 
+seems to retain a conceptually closed and rigid attitude toward 
+the problem. 
+This fixed attitude stems from Davidson’s understanding of 
+empiricism and its relation to the scheme-content distinction. 
+It is, after all, this infamous third dogma of empiricism that 
+Davidson argues leads to the epistemological search for a justi- 
+ficatory foundation in experience. And we have seen that it is 
+this reading of the consequences of this distinction that results 
+in his critical stance toward Quine’s project. But Quine’s accep- 
+tance of empiricism and the scheme-content distinction has 
+none of the foundationalist motivations or specific concerns over 
+justification found in Davidson’s critical remarks. The source of 
+both of these commitments is to be found in Quine’s adoption of 
+a scientific perspective in epistemology. We have noted that he 
+takes the truth of empiricism to be a scientific finding and that 
+the scheme-content distinction follows as a basic corollary of 
+this commitment. Quine’s insistence on a distinction between 
+theory and evidence is grounded in science itself, since he thinks 
+our best scientific understanding recommends we note a differ- 
+ence between our scientific theorizing and the evidence for this 
+theory. This division between scheme and content or theory and 
+evidence is then based on his scientific worldview, where scien- 
+tific theories explain that all our knowledge is based on sensory 
+stimulation, thereby marking a divide between human-made 
+theoretical attempts to explain the data and the data itself.21 
+Examining Quine’s emphasis on these elements of his view 
+requires noting how they are situated within his scientific per- 
+spective on epistemological issues. His philosophical commit- 
+ments remain scientific ones that exist as part of a larger overall 
+scientific theory that receives its support through the very sen- 
+sory channels that Quine seeks to clarify with his own epistemo- 
+logical project. Davidson’s criticisms do not then engage with 
+the real source of Quine’s commitments to this view and, thus, 
+do not see how they are connected to his different set of explan- 
+atory concerns. With regard to Quine’s naturalized conceptions 
+of epistemology and empiricism, Davidson’s critical attribution 
+of the third dogma fails to fully appreciate their role within 
+Quine’s scientific reformulation of the epistemological tasks of 
+empiricism.21 
+468
+
+--- Page 15 ---
+
+Quine’s Naturalized Epistemology and the Third Dogma of Empiricism 
+Notes 
+Davidson first makes this charge in his “On the Very Idea of a 
+Conceptual Scheme” (1974). Rorty’s critical remarks can be found in 
+his 1991 (51, 145). For a detailed reply to Rorty’s criticisms of Quine, see 
+Hylton 1997. 
+For Davidson’s further references to Quine’s view, see his 1974 
+and 1990. The quote given here is discussed by Davidson in his 1989 
+(161). 
+Davidson (2001a, 286) has recently mentioned that it is this point 
+that constitutes his central argument against empiricism, which is 
+why it is my main focus here. I thus pass over Davidson’s further 
+worries about the skeptical consequences of Quine’s adherence to the 
+third dogma. For some useful discussions of this issue see Bergstrom 
+2001, Gibson 1995, Ramberg 2001, and Tersman 2001. Davidson’s 
+depiction of uexperience” and its role in justification is widely disputed. 
+Philosophers such as McDowell (1994) and Pryor (2000) develop 
+alternative views of perceptual experience where it proves capable of 
+justifying our beliefs. My discussion should not then be read as an 
+endorsement of Davidson’s overall framing of these issues. 
+Also see Davidson 2001a, 286. When stated in such terms, 
+Davidson appears to be making a conceptual point concerning the 
+proper use of terms such as “evidence” and “justification.” While this 
+issue cannot be pursued further here, this framing of the problem 
+suggests a basic conflict with Quine’s insistence on the empirical 
+formulation of philosophical questions and hypotheses. 
+Of the many commentators who have raised this charge against 
+Quine, several prominent ones would include Bonjour 1998, Kim 1993, 
+and McDowell 1994. My 2004 defends an interpretation of Quine’s 
+epistemology that emphasizes its normative elements. 
+For Quine’s claim that empiricism is a finding of science see his 
+1966 (239) and 1969 (75). 
+For a recent overview see Quine’s 1995c. 
+Quine’s early programmatic statement of this project is found in 
+his 1969. He provides further details in his 1975, 1992, 1995a, and 
+elsewhere. 
+In order to avoid possible confusion over his use of “stimulation” 
+or “stimulus,” Quine now favors “neural intake” as his naturalistic 
+counterpart to sensory experience. This makes clear his continuing 
+interest in locating the relevant stimulus at the subject’s surfaces 
+rather than with objects in the subject’s surrounding environment. 
+lo This explains Quine’s agreement with Davidson that in his 
+theory of evidence, “evidence” is not clarified and plays no role (Quine 
+1990). 
+l1 For more on these differing senses of “evidence,” see Quine and 
+Ullian 1978 (14-15) and Koppelberg 1998 (263-64). 
+Quine makes a distinction between neural input as strictly causal 
+and observation sentences as containing processed information in his 
+“Grades of Theoreticity” (1970, 3). 
+l3 In response to Gibson, Quine notes that Davidson’s critical 
+remarks on his use of evidence led him to “fight shy of the word” (1994, 
+502). He makes similar comments in a recent reply to Grayling (2000a, 
+411). 
+469
+
+--- Page 16 ---
+
+Robert Sinclair 
+l4 Quine is explicit on this point in his “Response to Lehrer” (2000b, 
+l5 Here I am indebted to remarks from Jonathan Adler. 
+l6 For an account of Quine’s project in large harmony with my own, 
+but which does not stress its connections to the third dogma, see 
+Johnsen 2005. Johnsen argues that Quine never abandoned normative 
+epistemology although his presentation unfortunately makes it look 
+that way (2005,791. 
+l7 Gibson takes this passage as demonstrating that Quine is not 
+committed to the empirical given within his naturalized account of 
+knowledge, but he never fully explains why this is the case, nor does he 
+indicate how this point is connected to the scheme-content distinction. 
+The remarks that follow are intended to pursue these issues in more 
+detail. 
+l8 Hylton also emphasizes that sensory stimulations are not given, 
+but simply happen to us. They do not then form part of an epistemic, 
+justificatory relation (1997, 78). 
+412). 
+l9 Koppelberg also makes this point in his 1990 (209). 
+2o After reaching similar conclusions concerning Quine’s view of 
+evidence, Koppelberg wonders further whether Quine accepts what he 
+calls Davidson’s “doxastic requirement” on justification (1998, 264). 
+Given the interpretation defended here, we should recognize that for 
+Quine the question does not simply involve a choice between Davidson’s 
+conception of evidence and Quine’s own emphasis on the value of neural 
+input. Rather, as we have seen, Quine’s naturalized conception of 
+epistemology finds room for both conceptions of evidence, and to this 
+extent he accepts Davidson’s doxastic requirement. However, this 
+cannot be the entire story with regard to evidence, since it remains 
+important to consider the causal notions of evidence required to meet 
+Quine’s interest in scientifically clarifying the relation between stimulus 
+and science. The point that needs emphasizing is that rather than 
+taking a side on this issue, Quine demonstrates how he thinks the 
+demands of both conceptions of evidence can find a place in his natur- 
+alized account of knowledge. 
+21 Hylton makes this same point in criticizing Rorty’s use of the 
+scheme-content distinction as a basis for attacking Quine’s natural- 
+ized epistemology (1997, 80). 
+22 T am grateful to Jonathan Adler for his comments on an earlier 
+draft of this essay. 
+References 
+Bergstrom, Lars. 2001. Davidson’s objections to Quine’s empiricism. In 
+Interpreting Davidson, ed. Petr Kotatko, Peter Pagin, and Gabriel 
+Segal. Stanford, CA: CLSI Publications. 
+Bonjour, Laurence. 1998. In defense of pure reason. Cambridge: Cam- 
+bridge University Press. 
+Davidson, Donald. 1974. On the very idea of a conceptual scheme. 
+Proceedings and Addresses of the American Philosophical Associa- 
+tion 47:5-20. Reprinted in Davidson 1984, 183-98. 
+. 1982. Empirical content. Grazer Philosophische Studien 16-17: 
+471-89. Reprinted in Davidson 2001b, 159-75. 
+. 1984. Inquiries into truth and interpretation. Oxford: Clarendon 
+Press. 
+470
+
+--- Page 17 ---
+
+Quine’s Naturalized Epistemology and the Third Dogma of Empiricism 
+Davidson, Donald. 1989. The myth of the subjective. In Relativism: 
+Znterpretation and confrontation, ed. Michael Krausz. Notre Dame: 
+University of Notre Dame Press. Reprinted in Davidson 2001b, 39- 
+52. 
+. 1990. A coherence theory of truth and knowledge. In Reading 
+Rorty, ed. Alan Malachowski. Cambridge: Blackwell. Reprinted in 
+Davidson 2001b, 137-57. 
+. 1997. Seeing through language. In Thought and language, ed. 
+John Preston. Cambridge: Cambridge University Press. 
+. 2001a. Comments on Karlovy Vary papers. In Interpreting 
+Davidson, ed. Petr Kotatko, Peter Pagin, and Gabriel Segal. 
+Stanford, CA CLSI Publications. 
+.2001b. Subjective, intersubjective, objective. Oxford: Clarendon 
+Press. 
+Gibson, Roger F. 1995. Quine on the naturalizing of epistemology. In 
+On Quine: New essays, ed. Paolo Leonardi and Marco Santambrogio. 
+Cambridge: Cambridge University Press. 
+.1999. McDowell on Quine, Davidson and epistemology. In Donald 
+Davidson, Truth, Meaning and Knowledge, ed. Urszula Zeglen. 
+London: Routledge. 
+Hylton, Peter, 1997. Rorty and Quine on scheme and content. Philo- 
+sophical Topics 2567-86. 
+Johnsen, Bredo. 2005. How to read “Epistemology Naturalized.” Journal 
+of Philosophy 102:78-93. 
+Kim, Jaegwon. 1993. What is “naturalized epistemology”? In Super- 
+uenience and mind. Cambridge: Cambridge University Press. 
+Koppelberg, Dirk. 1990. Why and how to naturalize epistemology. In 
+Perspectives on Quine, ed. Robert Barrett and Roger Gibson. Oxford: 
+Blackwell. 
+. 1998. Foundationalism and coherentism reconsidered. Erkenntnis 
+49: 255-83. 
+McDowell, John. 1994. Mind and World. Cambridge, MA: Harvard 
+University Press. 
+Pryor, James. 2000. The sceptic and the dogmatist. Nolis 34:517-49. 
+Quine, W. V. 1953. Two dogmas of empiricism. In From a logical point 
+of view. Cambridge, MA: Harvard University Press. 
+. 1960. Word and object. Cambridge, MA: MIT Press. 
+. 1966. Posits and reality. In The ways of paradox and other 
+essays. New York Random House. 
+. 1969. Epistemology naturalized. In Ontological relativity and 
+other essays. New York Columbia University Press. 
+. 1970. Grades of theoreticity. In Experience and theory, ed. 
+Lawrence Foster and J. W. Swanson. Amherst: University of Massa- 
+chusetts Press. 
+.1975. The nature of natural knowledge. In Mind and language, 
+ed. Samuel Guttenplan. Oxford: Clarendon Press. 
+. 1981. On the very idea of a third dogma. In Theories and things. 
+Cambridge, MA: Harvard University Press. 
+. 1990. Comment on Davidson. In Perspectives on Quine, ed. 
+Robert Barrett and Roger Gibson. Oxford: Blackwell. 
+. 1992. Pursuit of truth. 2nd ed. Cambridge, MA: Harvard Uni- 
+versity Press. 
+. 1993. In praise of observation sentences. Journal of Philosophy 
+90:107-16. 
+47 1
+
+--- Page 18 ---
+
+Robert Sinclair 
+Quine, W. V. 1994. Response to Gibson. Inquiry 37:501-502. 
+. 1995a. From stimulus to science. Cambridge, MA: Harvard Uni- 
+versity Press. 
+. 199513. Reactions. In On Quine: New essays, ed. Paolo Leonardi 
+and Marco Santambrogio. Cambridge: Cambridge University Press. 
+. 1995c. Naturalism: Or livine within one’s means. Dialectica 49: ., 
+25 1-6 1. 
+. 1997. Response to Lewis and Holdcroft. Revue Znternationale de 
+Philosophie 51:575-77. 
+.2000a. Response to Grayling. In Knowledge, language and logic, 
+ed. Alex Orenstein and Petr Kotatko. London: Kluwer. 
+.2000b. Response to Lehrer. In Knowledge, language and logic, 
+ed. Alex Orenstein and Petr Kotatko. London: Kluwer. 
+Quine, W. V., and J. S. Ullian. 1978. The web of belief. New York Random 
+House. 
+Ramberg, Bjern. 2001. What Davidson said to the Sceptic or: Anti- 
+representationalism, triangulation and the naturalization of the 
+subjective. In Interpreting Davidson, ed. Petr Kotatko, Peter Pagin, 
+and Gabriel Segal. Stanford, CA: CLSI Publications. 
+Rorty, Richard. 1991. Objectivity, relativism and truth. Cambridge: Cam- 
+bridge University Press. 
+Sinclair, Robert. 2004. When naturalized epistemology turns normative: 
+Kim on the failures of Quinean epistemology. Southwest Philosophy 
+Review 20:53-67. 
+Tersman, Folke. 2001. Davidson and Quine’s empiricism. In Interpreting 
+Davidson, ed. Petr Kotatko, Peter Pagin, and Gabriel Segal. Stan- 
+ford, CA: CLSI Publications. 
+472

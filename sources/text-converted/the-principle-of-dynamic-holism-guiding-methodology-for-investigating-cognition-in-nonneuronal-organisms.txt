@@ -1,0 +1,969 @@
+--- Page 1 ---
+
+ARTICLE
+The Principle of Dynamic Holism: Guiding
+Methodology for Investigating Cognition in
+Nonneuronal Organisms
+Matthew Sims
+Institute for Philosophy II, Ruhr-University Bochum, Bochum, Germany
+Email: matthew.sims-m4e@RUB.de
+(Received 23 February 2023; revised 26 May 2023; accepted 06 August 2023; first published online 09 August 2023)
+Abstract
+Basal cognition investigates cognition working upward from nonneuronal organisms.
+Because basal cognition is committed to empirically testable hypotheses, a methodological
+challenge arises: how can experiments avoid using zoocentric assumptions that ignore the
+ecological contexts that might elicit cognitively driven behavior in nonneuronal organisms?
+To meet this challenge, I articulate the principle of dynamic holism (PDH), a methodological
+principle for guiding research on nonneuronal cognition. I describe PDH ’s relation to holistic
+research programs in human-focused cognitive science and psychology then present an
+argument from analogy based on holistic developmental biology. Last, I examine two
+experiments exemplifying the need for PDH.
+1. Introduction
+Recently, there has been a surge of interest in and empirical support for the idea that
+many of the cognitive capacities found in complex animals like us may be found in
+nonneuronal organisms, albeit in simpler form (Lyon 2015; Levin 2019; Keijzer 2021;
+Dussutour 2021; Gershman et al. 2021; Bechtel and Bich 2021; Levin and Dennett 2020;
+Lyon et al. 2021). Such capacities include associative-like learning in amoebas (de la
+Fuente et al. 2019), discrimination learning in paramecia (Armus, Montgomery, and
+Jellison 2006; Gershman et al. 2021), spatial memory in a cellular slime mold (Reid
+et al. 2012; Smith-Ferguson and Beekman 2019), complex avoidance behavior in
+Stentor roeselii (Dexter, Prabakaran, and Gunawardena 2019), bacterial decision-
+making (Shapiro 2021), and anticipatory behavior in plants (Ceccarini et al. 2021). This
+surge is significant for a number of reasons, one of which is that it suggests a slow but
+sure willingness on the part of biologists, cognitive scientists, and philosophers to
+abandon a long-running anthropocentric (or zoocentric) perspective on cognition.
+The idea of cognition in organisms like bacteria, fungi, protists, and plants directly
+challenges this deeply rooted anthropocentrism. Such a bias, by setting the bar for
+© The Author(s), 2023. Published by Cambridge University Press on behalf of the Philosophy of Science Association. This
+is an Open Access article, distributed under the terms of the Creative Commons Attribution licence ( http://
+creativecommons.org/licenses/by/4.0/), which permits unrestricted re-use, distribution and reproduction, provided
+the original article is properly cited.
+Philosophy of Science (2024), 91, 430 –448
+doi:10.1017/psa.2023.104
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 2 ---
+
+what counts as a cognitive process at human or humanlike capacities, introduces the
+risk that forms of cognition that are very different from ours will continue to slip
+through a distinctly human-shaped net, evading identification and further study.
+Breaking this anthropocentric enchantment is an important step forward, for only by
+doing so can many of the cognitive capacities that we take to be uniquely human (or
+uniquely animal, for that matter) be placed in their accurate evolutionary context.
+The program of basal cognition (Lyon et al. 2021; Levin et al. 2021) is an attempt to
+do just this. Basal cognition, as I see it, works under two basic assumptions, both of
+which find support in biology: first, cognition in so-called higher animals, whatever it
+may be, is a collection of biological processes, many of which evolved from cognitive
+and cognitive-like capacities and mechanisms that predate the complex forms of
+cognition that are often the focus of cognitive science and psychology, 1 and second,
+the most productive way to investigate cognition is via investigating what appear to
+be instances of concrete adaptive capacities belonging to the “basic cognitive toolkit”
+(Lyon et al. 2021) (i.e., memory, learning, decision-making, sensing and perception,
+anticipation, valence, and behavior). Each of these capacities has been selected for
+and/or maintained in various forms because of its contribution to survival and
+fecundity.2
+Where basal cognition shines as a research program is in its commitment to
+housing theories that produce empirically testable hypotheses. In this sense, it is an
+instance of what Pradeu et al. (forthcoming) have called “philosophy in science ” as
+opposed to “philosophy on science. ” Premised on letting experimental results
+determine whether some system is exhibiting cognitively driven behavior (Levin
+2022)—as opposed to a priori reasoning —basal cognition research proceeds
+methodologically by (re)interpreting results from empirical experiments so as to
+adjudicate the status of a given hypothesis and/or by constructing and testing newly
+formulated hypotheses by way of experiments at the bench. It is not only with respect
+to the former that philosophy plays an invaluable role; as I hope to illustrate, it also
+can influence aspects of the latter. It is with respect to this latter method that a
+formidable challenge arises: when designing experiments, how can investigators
+avoid using zoocentric assumptions that are insensitive to or even misrepresent how
+some nonneuronal model organism of interest makes its living within its econiche?
+Investigations into the behavior of Stentor roeselii provide an example of this
+challenge and its stubborn persistence. In 1902, Herbert Spencer Jennings showed
+that the unicellular ciliate S. roeselii , after being bombarded with toxic carmine
+powder, engages in a complex sequence of avoidance behaviors, each behavior
+becoming more effective than the previous until S. roeselii detaches and swims away.
+More than one hundred years later, Dexter, Prabakaran, and Gunawardena ( 2019)
+successfully replicated Jennings ’s findings using polystyrene beads in a toxic NaN
+3
+aqueous suspension rather than carmine powder. Although S. roeselii ’s behavior is
+nothing less than striking, eliciting such behavior with either carmine powder or
+1 The first assumption does not rule out the very likely possibility that some capacities find no
+ancestral homologue (i.e., apomorphy) or that some capacities have arisen independently of one another
+in different lineages (i.e., homoplasy).
+2 Basal cognition is not an a priori claim that cognition is synonymous with life or that it may be found
+to arise at a certain level of organismal complexity.
+Philosophy of Science 431
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 3 ---
+
+beads in NaN 3 fails to shed light on what this behavior is a response to in S. roeselii’s
+natural freshwater habitat; because neither of these stimuli are ones that S. roeselii
+encounters outside of controlled laboratory settings, inferring exclusively from
+observed responses to carmine powder or polystyrene beads in NaN 3 to how S. roeselii
+might deploy the same complex sequence of behavior in its natural habitat (if at all) is
+anything but straightforward. Thus understanding how to complement experiments
+like these to obtain a more complete and accurate understanding of how (or if)
+nonneuronal organisms might deploy putative cognitive capacities within the context
+of their ecologies poses a serious challenge.
+3 The aim of this article is to meet this
+challenge head-on by articulating and arguing for what I call the principle of dynamic
+holism (PDH), a methodological principle for guiding research on nonneuronal
+cognition.
+The PDH suggests that investigating cognition (or the possibility thereof) in
+nonneuronal organisms should, when it can, consider the ecological variables that
+make up the organism ’s niche —those variables that the organism ’s behavior is
+regularly responsive to and has evolved in relation to over multiple generations —and
+selectively incorporate those of central importance into the hypotheses being
+constructed and tested. By providing an ecologically based methodological principle
+that is aimed at improving hypothesis construction, experimental design and
+operationalization, and behavioral (data) interpretation for studies of nonneuronal
+cognition, this article contributes to the budding research program on basal
+cognition.
+4
+The article is organized as follows. Section 2 articulates the methodological PDH.
+Section 3 describes how this holistic principle may be seen in relation to various
+research programs in cognitive science and psychology that have similarly focused on
+the importance of environmental context. Section 4 presents an argument from
+analogy that is based on how a similar form of holism in developmental biology has
+provided a fruitful complement to a purely bottom-up genetic approach to
+developmental explanation. In section 5, I make a case for the PDH by looking at
+two potential examples of nonneuronal cognition: the tracking of motile algae by the
+marine bacterium Pseudoalteromonas haloplanktis and the farming of red yeast by
+Physarum polycephalum (acellular slime mold). I argue that progress on empirically
+investigating either of these behaviors is contingent on deploying PDH (or something
+very much like it).
+Before moving on, a few preliminary remarks are in order. My aim in this article is
+neither to argue for any particular conception of cognition associated with basal
+cognition (there are many) nor to argue for nonneuronal cognition in general; rather,
+my aim is to present and argue for the value of the PDH as an investigatory method
+and thereby impact scientific practice and/or philosophers interested in impacting
+scientific practice. There is a good chance, of course, if one does not find basal
+cognition or the more general project of investigating cognition in nonneuronal
+organisms to be worthy and/or compelling, then the principle that will be articulated
+in the pages to follow will seem unmotivated. That said, I ask the reader who does fall
+3 I thank an anonymous reviewer for urging me to use an example here.
+4 That said, the PDH, as it is developed in the following pages, may be used independently of basal
+cognition.
+432 Matthew Sims
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 4 ---
+
+into this category to momentarily suspend his or her intuition and a priori
+conceptions regarding nonneuronal cognition throughout the duration of this article,
+for in doing so, such a reader may be situated to see why, if the reader were to find
+value in the program of basal cognition, he or she would or wouldn’t find PDH and the
+methodological arguments supporting this principle compelling. Among those
+readers who do find the principle cogent after having evaluated the arguments in this
+manner, some, upon returning to their presuspended intuitions, may not recognize
+them as being as unshakable as they previously thought them to be.
+2. The principle of dynamic holism
+Often, cognition ’s expression (if it is expressed at all) in natural environments will
+have the features it does because of the presence of specific types of ecological
+variables (i.e., environmental conditions) that elicit behavior as such. Discovering
+which specific ecological variables elicit a certain behavior of interest in a particular
+taxon is paramount to designing experiments that have the potential to operation-
+alize cognitive phenomena. This is the general, yet nontrivial, idea on which the
+methodological PDH is grounded. This principle may be stated as follows:
+When investigating candidate cognitive capacities in nonneuronal organisms
+and/or attempting to investigate hypothesized aspects of empirically supported
+cognitive capacities in such organisms, close attention should be paid to the
+specific kinds of ecological variables that populate the organism ’s niche and how
+their dynamics change over time.
+PDH suggests that discovering and revealing important aspects about cognition in
+nonneuronal organisms will often require understanding the wider environmental
+context in which cognitively driven behavior might be thought to occur in an
+organism’s natural (nonlaboratory) environment; we must first inquire into the
+specifics of the environmental conditions to which some putative or hypothesized
+cognitive behavior is a response (i.e., how some capacity from the cognitive tool kit
+has been tuned to the specifics of the organism ’s echoniche). This principle is pitched
+specifically toward nonneuronal organisms (as opposed to neuronal organisms)
+because the environmental factors eliciting cognitively driven behavior in neuronal
+cases will presumably be easier to recognize than those eliciting behavior in
+nonneuronal cases. Unguided, there is a real threat that the choice of eliciting
+variables in experiments using nonneuronal organisms will tend toward those that
+have been effective in animal experiments, overlooking the fact that “due to
+differences in scale, niche and sensory apparatus, single cell organisms experience a
+totally different environment than most animals ” (Dussutour 2021, 98). Although PDH
+is pitched specifically toward nonneuronal organisms, it can be reasonably seen as
+complementing holistic approaches to investigating human and nonhuman animal
+cognition.
+PDH is a holistic principle in that it views cognitive investigation and explanation
+as methodologically aimed at cognitive processes in the kinds of natural
+Philosophy of Science 433
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 5 ---
+
+environmental circumstances that elicit such processes.5 To co-opt J. J. Gibson’s( 1979)
+phrase, our analysis must include how an organism lives, not just where it lives. This
+methodological principle for holistic explanation is premised on the more general
+idea that the behavior of an isolated biological system, whether it be a gene, a cell, an
+organ, or an organism, is “different from its behaviour in the context of the whole ”
+(von Bertalanffy 1952/2014, 12). As such, explaining biological behavior requires both
+understanding the properties of the living system and understanding the whole that
+contextualizes the system ’s behavior. The whole with which PDH is concerned is the
+organism in its nesting environment. This way of delimiting the whole from its parts,
+however, is only one of many ways; where one draws the line between the part and
+the whole for explanatory purposes will depend on the phenomenon of interest (e.g.,
+the cytoplasm of the nucleus, the tissue of the cell, the body of an organ) (Sims 2020;
+Levin 2019).
+PDH is a dynamic principle in that it recognizes that the relationship between
+cognition and the environment oscillates between stability and variation; this
+relationship—relative to both individuals and taxa —is something that develops as
+niches are modified by the (often purposive) activity in which organisms engage. The
+dynamic element of PDH thus allows room for the lively possibility that introducing
+increasing heterogeneity to a previously stable habitat or relocating to a new habitat
+may drive the evolution of phenotypic modifications that provide ways of coping with
+new heterogeneity, thereby changing the manner in which a previously established
+cognitive phenomenon should be investigated. More generally, the fact that biological
+processes like cognition “to a greater or lesser extent always have the character of
+processes determined within a dynamic system gives them adaptability to changing
+circumstances and regulability following disturbances ” (von Bertalanffy 1952/2014,
+18). The fact that this is true of developmental processes also, as we shall see in
+section 4, suggests that investigating cognition and development will require a similar
+focus on examining such dynamic processes holistically.
+6
+Three important points regarding PDH require clarification. The first is that the
+introduction of PDH is not meant to suggest that previous studies on nonneuronal
+cognitive capacities are somehow faulty, inaccurate, or have limited explanatory
+value. Myriad extremely well-designed and informative studies using nonneuronal
+organisms have taken into account how some model organism can be maintained in a
+controlled laboratory setting without, however, taking the ecology variables of the
+organism’s natural habitat into account; the former conditions are not exhaustive of
+the latter conditions. Moreover, many of these experiments represent the foundation
+on which the basal cognition program has been erected. That this is the case,
+however, does not diminish the value of PDH. To the contrary, using PDH, if I am
+correct, promises to further a number of explanations supported by the many
+5 Holism, as I am using the term, is a methodological-explanatory position and agnostic for the most
+part toward any particular ontological view of what cognition is. Importantly, this form of holism should
+not be confused with the now defunct and scientifically discredited position of vitalism, which has on
+occasion historically been referred to also as holism (Gilbert and Sarkar 2000).
+6 Some practitioners of basal cognition see the relationship between cognition and development as
+being close enough to warrant treatment of developmental processes (e.g., morphogenesis) as a cognitive
+process occurring at the level of the cell (see Levin 2019).
+434 Matthew Sims
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 6 ---
+
+important experiments that have failed to implicitly deploy PDH (or something
+like it).
+Here is a second point: there is no sense in which PDH implies that a cognitive
+investigation should privilege the environmental context and the dynamic place that
+an organism occupies in it over the features, states, and processes that make up the
+organism. Rather, PDH, in the tradition of methodological holistic programs like
+organicism, works under the assumption that biological cognition requires that
+attention be paid to the organism ’s parts, the organism as a whole, and how the
+organism functions and evolves within its wider environmental niche (Gilbert and
+Sarkar 2000; Baedke et al. 2023). In other words, PDH emphasizes a need for an
+integrative methodological approach.
+A third point is that PDH does not suggest that the ecological variables that one
+considers when formulating a specific testable hypothesis and that one incorporates
+into the experiment should represent the environmental context accurately in terms
+of the number of variables used. The more variables that are used in an experiment,
+the more difficult it becomes to control each variable, and thus the higher the
+likelihood is of introducing confounds.
+7 How, then, does one decide which variables to
+include? I would like to suggest the following rough, two-step procedure as one option
+(of many likely options): (1) observe the model organism in its natural environment,
+identifying roughly those variables with which that organism regularly interacts and
+which have a direct impact on its survival and fitness, and (2) select from these the
+minimum number of variables that may be relevant to eliciting the candidate
+cognitive capacity when constructing (or refining) a particular hypothesis and
+designing experiments to test that hypothesis. What the minimum number of
+relevant variables is and which variables they are will be based largely on an
+investigator’s intuitions and previous observations made over the course of step 1.
+The outcome of this procedure should thus respect the trade-off between ecological
+validity and simplicity (Kominsky et al. 2020). By limiting the number of variables
+introduced to those which are significant to an ecologically informed hypothesis , the
+procedure helps to avoid the introduction of confounds and yet acknowledges that
+the expression of cognitive phenomena and various facets thereof is context sensitive
+(cf. Kingstone, Smilek, and Eastwood 2008).
+8
+To take a toy example of how PDH might influence an experimental procedure,
+suppose that one would like to investigate the possibility of anticipatory behavior in a
+plant species, P. Prior to designing and running an experiment in the lab, one should
+observe and/or collect information about how P lives in its natural environment.
+Doing this might entail learning about local competitor plant species, the specifics of
+the resources being competed for (e.g., nutrient sources, pollinators), P’s local
+herbivores, the predators of P’s local herbivores, the timescales and ecological
+periodicities at which various fitness- and survival-relevant biotic and abiotic
+7 The introduction of confounds is often argued to be a reason for preferring controllable and easily
+manipulable simple experimental variables over the kinds of variables that are found in the model
+organism’s natural environment (cf. Kingstone et al. 2008). PDH, as I see it, attempts to find a middle
+ground, suggesting that some ecological variables should be introduced, but not in abundance.
+8 Another potentially interesting option consistent with this procedure that was suggested to me by
+Chris Reid (pers. comm., 2023) may be to utilize mesocosm experiments that are halfway between in situ
+and ex situ setups.
+Philosophy of Science 435
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 7 ---
+
+environmental events occur for P, and any regular patterns (correlational or causal)
+between contiguous environmental events on which P’s survival depends. Some of
+these characteristics will influence the construction of the hypothesis (H),
+ecologically constraining it: ( H) Species P engages in an anticipatory defense response
+that is guided by the presence of a volatile chemical cue, C, in the soil, which is produced by
+nematodes that prey on P-damaging herbivores. Moreover, some of the observed
+environmental characteristics will determine how the notion of anticipatory behavior
+is operationalized ( O), and those select features which do that will be partly
+dependent on the kind of anticipatory response that features in the hypothesis: ( O) If P
+regularly produces higher amounts of defense hormones upon detection of C than without C,
+and if the C-elicited response occurs prior to the onset of herbivore attack, then H can be
+supported. This kind of procedure that is premised on PDH does not guarantee
+anything in terms of results; it is only by carrying out the experiment that progress
+can be made with respect to the adjudicating status of a hypothesis. Moreover, it is an
+additional, theorical step to justifiably interpret this kind of anticipatory behavior as
+being cognitively driven. What this procedure does do, however, is bring the
+hypothesis, its operationalization, and the chosen experimental variables closer to
+some of the meaningful aspects of the model organism ’s( P’s) econiche. Interestingly,
+that something like H can be accepted is supported by the results of an experiment by
+Helms et al. ( 2019) on the priming of herbivory defenses in the potato plant ( Solanum
+tuberosum) against the Colorado potato beetle (Leptinotarsa decemlineata). Such priming
+was shown to occur in response to volatile chemical cues given off by nearby L.
+decemlineata that had been preyed on by entomopathogenic nematodes.
+With this rough procedure and PDH to hand, let us now examine some programs
+from primarily human-focused cognitive science and psychology that share with PDH
+an emphasis on methodological holism. Focusing on these programs will provide an
+opportunity to understand how such holism has featured specifically in efforts to
+investigate cognition. Moreover, the presence of such programs, I will argue,
+exemplifies a need that has been acknowledged on separate occasions in the mind
+sciences for a holistic approach that complements the analytic methodology that
+reductionist approaches emphasize.
+3. Some holistic programs in psychology and cognitive science
+The kind of methodological holism that PDH urges is not new to human-based
+cognitive science or psychology (cf. Hurley 2001). One instance of such a holistic
+program is gestalt psychology (Koffka 1935; Wertheimer 1938; Köhler 1959). Roughly,
+the gestalt approach to human perception and understanding viewed these as
+processes in which the whole configurations ( Gestalten in German) are perceived and
+understood as opposed to the component parts of the whole. For instance,
+components “of molar perceptual units often have characteristics which they do not
+exhibit when separated from those units ” (Köhler 1959, 729, emphasis added).
+Moreover, gestalt psychologists were committed to the idea that perception is a
+context-sensitive phenomenon in that what one perceives is often (or always)
+influenced by one ’s motivations. As such, human perception and understanding
+cannot be investigated in the absence of investigating the contexts (e.g., motivation)
+that influence perception. If motivation is thus typically related to the perceiver ’s
+436 Matthew Sims
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 8 ---
+
+own condition and/or what kind of environmental characteristics are influencing the
+perceiver’s motivation (i.e., object valence), then, according to this program,
+perception and understanding cannot be investigated without holistically considering
+these latter characteristics.
+We may see a similar holistic approach toward investigating perception and action
+espoused by proponents of ecological psychology (Gibson 1979). A central feature of the
+ecological approach is the theory of affordances. These are described as perceivable
+relational properties that are dependent on the environmental layout in addition to
+the morphological and physiological characteristics of the organism and its capacities
+(i.e., acquired skills) (Gibson 1979; Heft 1989). Affordances are said to reflect a history
+of organism –environment interaction in the sense that the affordances that are
+available to a certain organism are dependent on its sensory system and body having
+been tuned to the structure of the environment over evolutionary timescales. To
+investigate perception, according to ecological psychology, one must investigate the
+role that affordances play in guiding behavior, and doing so cannot be accomplished
+without taking environmental structure into account. Such investigation typically
+involves operationalizing and measuring affordances (Warren 1984; Cornus,
+Montagne, and Laurent 1999; Almeida et al. 2019).
+9
+A last example of another holistic program is embedded cognitive science (Kirsh and
+Maglio 1994; Hutchins 1995; Ballard, Hayhoe, and Pelz 1995; Clark 2008; Gaschler et al.
+2013). This research program is based on the central tenet that cognitive processes
+often involve a continuous and dynamic exchange between brain, body, and
+environment (Clark 2008). As such, investigating cognition, it is argued, requires
+methods and analysis that take into account how environments are both fluidly
+structured and used by agents as cognitive processes unfold (Clark 2008).
+Understanding both how and when agents structure their environments, in addition
+to how the cognitive load demanded of a particular task is offloaded onto the
+environment as a result of such structuring, is viewed as a primary explanatory goal
+for embedded cognitive science. Empirical investigation prompted by this research
+program has typically been directed at understanding the role that environmental
+structuring plays in specific exercises of cognition, such as spatial navigation,
+problem solving, memory, and learning (see, e.g., Kirsh and Maglio 1994; Ballard,
+Hayhoe, and Pelz 1995; Gaschler et al. 2013). Moreover, special attention is given to
+how the kinds of dynamic organism –environment interactions that underwrite
+cognitive offloading evolve with the occurrence of such interactions. Like gestalt
+psychology and ecological psychology, embedded cognition takes a holistic approach
+in which investigating cognition is merely shorthand for investigating a cognitive
+process in an environmental context, the latter both constraining and contributing to
+the former.
+PDH, like all these holistic programs, is a methodological antireductionist
+approach to cognition. Methodological antireductionism with respect to cognition
+can be understood as the general position that cognitive processes cannot be
+fruitfully investigated and hence adequately explained by focusing exclusively on the
+9 Strictly speaking, although ecological psychology is an example of a holistic approach that has
+focused primarily on human perception and action, some notable exceptions have focused on the active
+perception of plants (Calvo et al. 2020).
+Philosophy of Science 437
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 9 ---
+
+properties of the component parts of such processes (e.g., the patterned activity of
+neurons and neuromodulators) and/or in settings that are far removed from the
+kinds of natural settings and conditions in which such processes typically arise. To be
+sure, ecological psychology is committed to more than a methodological
+antireductionist (i.e., holist) stance. It adopts a stronger ontological antireductionist
+position, holding that active perception is constitutively more than the processes and
+parts that are bounded by the brain or central nervous system. An ontological
+antireductionist position has also been adopted by some proponents of the embedded
+cognition program (e.g., Clark and Chalmers 1998). However, because ontology and
+methodology come apart (Gilbert and Sarkar 2000), one can be committed to PDH as a
+methodological antireductionist principle for cognitive explanation and remain
+agnostic toward the ontological status of cognitive phenomena. It is perfectly
+consistent, for example, for one to hold that the most fruitful manner of investigating
+an instance of cognition that has hitherto gone unexplored requires understanding
+the environmental context without committing oneself to the position that the form
+of cognition being investigated is ontologically constituted by the causally influencing
+and/or eliciting environment.
+Do the cumulative results of these antireductionist programs in cognitive science
+and psychology suggest that a holistic approach to investigating human cognition is
+indeed more fruitful than a “ruthless reductionist ” (Bickle 2006) approach? Perhaps.
+Without needing to commit to answering one way or another, one can admit this: that
+a number of programs and frameworks have on separate occasions seen the need for a
+holistic methodology in human-focused mind sciences does suggest that at least some
+cognitive scientists and psychologists have been dissatisfied with reductionist
+explanations, and this is most likely because some have seen such reductionist
+methods as failing to tease out and provide explanations of some very important
+aspects of cognitive phenomena in humans (Hurley 2001). This, as methodological
+holism would have it, is due to a continued practice of denying the impact that
+ecological variables have on whether and how cognition is expressed in behavior —
+something that Broadbent ( 1991) criticized as being “pathological” science. If there is
+value to these primarily human-focused holistic research programs, something that
+their presence, continued influence on contemporary mind science frameworks (cf.
+Favela 2020), and longevity reveal, then there is no reason to think that such a holistic
+approach is limited to human-focused (or animal-focused, for that matter) ways to
+investigate cognition. Thus, by the same merit, a holistic approach to investigating
+cognition in nonneuronal organisms should also be of value. As such, the kind of
+methodological holism that PDH urges should be welcome and viewed as equally
+valuable in attempting to tease out cognitively driven behavior in nonneuronal
+organisms.
+In the next section, I take a different approach to arguing for the importance of
+using PDH. In contrast to looking to how holism has featured in the human-focused
+mind sciences to support the value of using PDH, I shall look at how a dynamic and
+holistic approach to method has led to progress in identifying and/or offering
+explanations for developmental phenomena in biology, phenomena that would have
+otherwise remained unaccounted for and/or failed to be recognized as developmen-
+tal. My aim in doing this is to lay the ground for an argument from analogy.
+438 Matthew Sims
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 10 ---
+
+4. From methodological reductionism to holism in developmental biology
+4.1. The route to developmental holism
+Around the middle of the twentieth century, the idea that genes provide complete
+phenotypic instructions for development became the prominent view of mainstream
+developmental biology (Gilbert and Sarkar 2000).10 In the 1960s, this view was
+couched in terms of a self-contained “genetic programme ” (Minelli 2021).
+Accordingly, all that is required to explain development is to investigate gene
+sequences that encode the phenotype. The environment, on the other hand, was
+viewed as being a mere background (or noise) against which development unfolded
+according to the genetic program. This genetic reductionist view was largely
+influenced by foundational studies in genetics, the methods of which held both
+environmental and genomic conditions constant while observing the phenotypic
+effects of variant DNA sequences (Neumann-Held 2006). As Sultan ( 2015) noted, the
+reasoning behind this kind of method (i.e., inferring that allelic variation is the only
+determinate of phenotypic change by way of exclusively observing allelic variation) is
+circular at best. Despite this circularity, the genetic reductionist approach to
+development took hold and maintained its status as the prevailing model among
+mainstream developmental biologists up until the latter half of the twentieth century
+and still has a persisting influence.
+Genetic (methodological) reductionism was met with and directly challenged by
+developmental holism , often referred to as organicism.
+11 This approach recognized the
+role of genetic information as constraining development but also emphasized the
+need to investigate development as a dynamic regulatory process that always —at
+least in natural, “real-life” settings—occurs in the context of an organism embedded
+in an environment (von Bertalanffy 1952/2014). Building from the experimental
+embryology of Weiss ( 1955), Lederer et al. ( 1949), Harrison ( 1969), and Waddington
+(1956), developmental holism “was not built bottom-up from theory, it was built top-
+down from observation ” (Gilbert and Sarkar 2000, 4). For example, by investigating
+exclusively how cells grow and develop in petri dish cultures that have very little to
+no resemblance to a cell’s cytoplasmic environment, various aspects of embryonic cell
+development are inaccessible because those aspects are dependent on the presence of
+factors in a cell ’s natural environment (von Bertalanffy 1952/2014; Gilbert and Sarkar
+2000). To conclude that a cell fails to engage in some behavior at all on the basis of its
+10 This gene-centric turn was not specific to developmental biology; it was also the dominant view of
+evolutionary biology as the study of evolution became slowly pulled apart from developmental biology
+over the first half of the twentieth century, under the influence of the newly formulated modern
+synthesis and the efforts of Mayr from the 1940s onward. See Amundson ( 2014) for a detailed account of
+the separation of developmental biology and evolutionary biology and of the rise of the modern
+synthesis.
+11 The use of the term organicism is meant to both emphasize the level of the organism as the primary
+explanandum and to distance the holistic developmental (and evolutionary) approach from the “spooky”
+holism associated with the developmental vitalists of the nineteenth century. For purposes of
+consistency within this article, I use the term developmental holism with the understanding that it is
+altogether distinct from vitalist explanation.
+Philosophy of Science 439
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 11 ---
+
+not behaving as such in a petri dish may be premature and/or inaccurate. Moreover,
+using this conclusion to support a general explanation about the development of cells
+carries this inaccuracy over to the general explanation. Be it an intercellular,
+intracellular, or organismal environment, context matters to how biological systems
+behave. Holistic developmental biology put the environment back into methodology
+and explanation (Gilbert and Sarkar 2000; Baedke et al. 2023). Investigating
+developmental processes involves investigating “developmental systems ” (Oyama
+2000) that include the dynamic interactions between the genome, the epigenome, and
+the inducing organismal environment. It is only by taking these interactions into
+consideration that both robust and flexible, context-sensitive developmental
+phenomena can be identified as such, further investigated, and adequately explained
+(cf. Newman 2002).
+Polyphenism is one phenomenon that both developmental biologists and ecologists
+have long recognized as requiring a holistic methodological approach. Polyphenism
+may be characterized as “the presence, in a population, of two or more kinds of
+individuals, the difference between which depends upon the environmental
+conditions in which development took place, at least in a critical or sometimes
+short phase” (Minelli 2021, 138).12 Such phenomena represent an example of extreme
+phenotypic plasticity —phenotypic change in the absence of nucleotide sequence
+change (West-Eberhard 2003). For example, whether the migratory locust ( Locusta
+migratoria) remains a solitary and inconspicuously colored individual or develops into
+a gregarious, brightly colored, swarming individual is determined by high locust
+population density (i.e., whether it encounters few or many other conspecifics within
+its environment) (Uvarov 1996); whether a high-ranking female goby of the species
+Trimma okinawae remains female or develops into the dominant male of the school is
+determined by the death of the dominant male (Sunobe et al. 2010). Moreover,
+whether the at one time T. okinawae female will revert from male to female again
+depends on whether a stronger dominant male is introduced to the same school,
+whether an American alligator ( Alligator mississippiensis ) develops into a female or a
+male is determined by the temperature at which the eggs are incubated (Ferguson and
+Joanen 1982), and whether a honeybee larva develops into a queen or a worker is
+determined by whether it is fed royal jelly at the larval stage (Slater, Yocum, and
+Bowsher 2020). Examples of polyphenism abound in the biological world and
+illustrate the importance of taking a holistic methodological approach. When using a
+purely genetic reductionist approach, polyphenism cannot be explained. Moreover,
+what goes for polyphenism also goes for other forms of phenotypic plasticity that
+contribute to development. In other words, “no phenotype is such that only genes are
+12 Evidence suggests that this form of plasticity is underwritten by epigenetic mechanisms (Sultan
+2015; Yang and Pospisilik 2019). These mechanisms, some of which include DNA methylation, histone
+modification, and sRNA interference (Jablonka and Raz 2009), mediate phenotypic changes by acting as
+transcriptional regulators, either preventing or allowing the binding of transcription factors and RNA
+polymerase to DNA promoter regions and intergenic sites, respectively inhibiting or activating gene
+transcription. Because they can be environmentally induced, epigenetic effects on gene expression
+straightforwardly illustrate that developmental explanation requires investigating not only the role of
+genetic information but regulatory activity at the level of the genome and epigenome and the inducing
+environment.
+440 Matthew Sims
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 12 ---
+
+needed for its development in the sense that they could, like Japanese flowers, be
+dropped into water and open up ” (Bateson and Gluckman 2011, 12).
+Developmental biology today is at the point where development is being
+approached by way of both genetic investigation and environmental investigation
+(Gilbert and Sarkar 2000, 7). This developmental holism, part and parcel of evo-devo,
+examines how genetic regulatory networks and the environment interact over both
+ontogenetic and phylogenetic timescales, in addition to the epigenetic mechanisms
+mediating such dynamic “bottom-up” and “top-down” interactions.
+4.2. An argument from analogy: What developmental biology teaches us
+By taking a holistic approach, developmental biologists have been able to offer
+explanations for phenomena that would have otherwise been difficult (if not
+impossible) to account for and/or identify when using genetic reductionist methods
+alone. Polyphenism, as we have seen, is one such example. I would like to argue that
+much like the explanatory progress that has accompanied deploying a holistic
+approach in developmental biology, a methodological holistic approach to cognitive
+explanation may also reveal facets of cognitive phenomena that would otherwise be
+difficult to explain and/or identify —particularly in the case of nonneuronal
+organisms. Why might a holistic approach be expected to benefit the investigation of
+nonneuronal cognition like it has benefited developmental biology?
+Assuming that both development and cognition qua biological processes “always
+have the character of processes determined within a dynamic system ” (von
+Bertalanffy 1952/2014, 18), investigating cognition, like investigating development,
+requires a dynamic and holistic methodological approach. To be sure, because we can
+infer many of the contextual factors that would drive intelligent behavior in
+organisms that are more similar to us than not, but because such contextual
+inferences are more likely to fail the further away an organism is phylogenetically
+from us, a holistic approach is crucial to being able to identify and access potential
+exhibitions of cognitively driven behavior in nonneuronal organisms on the basis of
+phylogenetic distance alone. Given the analogous natures of development and
+cognition as flexible and context-sensitive biological processes, if taking a holistic
+developmental approach has been crucial for revealing and explaining environmen-
+tally induced phenotypic changes like polyphenism, then we should also expect that
+deploying PDH (or something very much like it) can go a long way in helping to reveal
+facets of cognition that would otherwise be difficult to explain and/or identify in
+nonneuronal organisms.
+5. The value PDH: Two examples from experimental studies in biology
+One way of illustrating the value of deploying a methodological principle is to show
+what goes wrong when that principle is flouted. In this penultimate section, I proceed
+by looking at two biological experiments that provide an opportunity to understand
+two respective risks in flouting PDH, namely, the risk of an experiment failing to elicit
+any cognitively driven behavior whatsoever and the risk of eliciting a cognitively
+driven behavior but failing to recognize important and nuanced aspects of that
+behavior.
+Philosophy of Science 441
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 13 ---
+
+5.1. Experiment 1: Tracking motile algae with marine bacteria
+Barbara and Mitchell ’s( 2003) investigation of the ability of marine bacteria
+Pseudoalteromonas haloplanktis and Shewanella putrefaciens to track motile algae Pavlova
+lutheri provides a first experiment on which to elaborate for the purposes of
+illustrating the value of PDH. This experiment was based on the previous observation
+that marine bacterial chemotaxis in oligotrophic (i.e., nutrient-impoverished)
+environments sometimes displays features that are distinct from the form of
+chemotaxis found in terrestrial and/or enteric bacteria (e.g., E. coli). The latter form of
+chemotaxis is based on a bacterium differentially detecting nutrient gradients in the
+surrounding medium and modulating its run-tumble behavior accordingly; detection
+of a nutrient concentration increase is followed by a decrease in the frequency of
+swimming in random directions (i.e., “tumbling”) and an increase in the frequency of
+swimming in a straight line (i.e., “running”); detection of a decrease in gradient
+concentration is followed by a higher frequency of tumbling and diminished running.
+In addition to being able to engage in run-tumble chemotaxis, both P. haloplanktis and
+S. putrefaciens appear to be able to track nutrient-providing P. lutheri as these golden
+brown algae swim through open water, something that requires a more nuanced and
+controlled type of chemotactic behavior.
+To understand the nature of this tracking chemotaxis, Barbara and Mitchell ( 2003)
+placed P. lutheri together with ether P. haloplanktis or S. putrefaciens in the same one-
+millimeter-deep microscope slide chamber and recorded the swimming trajectories
+that ensued. Analyses across two spatial ( x,y) dimensions in addition to analyses of
+running speed changes showed that both types of marine bacteria track the motile
+algae by using a “run-reverse strategy which enables them to reverse direction after
+each stop instead of randomly tumbling, allowing them to react faster to chemical
+gradients” (83). The results of this carefully designed experiment uncovered the
+striking ability of both types of marine bacteria to track moving P. lutheri by sampling
+algal exudate gradients and using these gradient values as cues to modulate their
+swimming speed and steering direction accordingly. 13
+Although the authors of this study did not consider the cognitive status of the kind
+of complex bacterial behavior that they reported (and nor was it the aim of their
+study to do so), the tracking ability of both P. haloplanktis and S. putrefaciens as
+identified by Barbara and Mitchell ( 2003) seems to rely on capacities of sensing,
+learning, memory, and the influence of a context-sensitive behavioral control
+mechanism. On the basis of these capacities and characteristics, if we assume that this
+kind of run-reverse chemotactic tracking represents a behavior worth investigating
+as a form of cognition—something that some researchers might easily concede, given
+their chosen minimum requirements on cognition (see van Duijn, Keijzer, and
+Franken 2006; Bechtel and Bich 2021; Keijzer 2021)—we may reason as follows to a
+potential risk of flouting PDH: if the behavior of either P. haloplanktis or S. putrefaciens
+is experimentally investigated in the absence of P. lutheri , then their complex run-
+reverse behavior will not be elicited; given that P. lutheri is a regular part of the
+13 Simulations, however, have suggested that this tracking may not be the result of active steering
+behavior but can also be explained by hydrodynamic effects due to the algal cell ’s velocity, vorticity, and
+strain rate fields (Locsei and Pedley 2008). Further investigation is needed to rule out the latter
+explanation.
+442 Matthew Sims
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 14 ---
+
+oligotrophic environment in which both marine bacteria live and thus represents a
+survival-relevant ecological variable, if this ecological variable is absent from the
+experiment, then the complex run-reverse behavior will fail to be elicited. Hence,
+without incorporating this particular ecological variable into the experiment, a latent
+cognitively driven behavior would fail to be elicited. Without considering the
+ecological variables of the organism ’s environment and incorporating the most
+relevant of them (in this case, the motile algae) into the hypothesis and related
+experiment, there is a risk of failing to elicit a latent cognitive behavior and thus
+moving too quickly to the conclusion that such a cognitive behavior is altogether
+absent.
+To be sure, not being able to elicit a cognitive behavior could mean that a type of
+organism fails to possess any such capacity. PDH, however, reminds us that it would
+be premature to draw such a conclusion without observing the organism interacting
+within its established niche and identifying possible ecological variables that might
+elicit cognitively driven behavior (cf. Kingstone, Smilek, and Eastwood 2008). Despite
+that Barbara and Mitchell ’s( 2003) experiment was not aimed at uncovering
+cognitively driven behavior, its design nonetheless provides a clear example of how
+the same core methodological considerations that PDH emphasizes can be used to
+constrain empirical investigation and successfully tease out behavior that might
+otherwise remain suppressed.
+5.2. Experiment 2: Navigational decision-making and yeast farming in acellular slime
+mold
+Comparing the methods and results of experiments by Reid et al. ( 2012) and Epstein
+et al. ( 2021) on acellular slime mold Physarum polycephalum provides a further
+opportunity to illustrate the value of deploying PDH. Although the results of Reid
+et al. ( 2012) provide insights into P. polycephalum ’s behavior that are in and of
+themselves valuable, the holistic approach Epstein et al. ’s experiment deployed sheds
+light on a very important complementary dimension of this non-neuronal organism ’s
+decision-making capacities —capacities that would have otherwise gone unnoticed
+had a holistic approach not been used.
+Deploying the auxiliary hypothesis that P. polycephalum tends to avoid its own (and
+others’) extracellular slime trails, Reid et al. ( 2012) devised an experiment to test
+whether such extracellular slime avoidance might allow P. polycephalum to avoid
+revisiting previously forged locations. To test this, the researchers placed this
+unicellular multinucleate amoeboid on plated agar petri dishes. Experimental dishes
+were covered with extracellular slime (a nonliving mucus lining that is produced as
+P. polycephalum migrates across surfaces), whereas control dishes were not. Each dish
+also contained a U-shaped barrier that separated the P. polycephalum and a nutrient
+source (i.e., a defusing glucose solution). Reid et al. reasoned that the slime layer
+covering the agar surface of the experimental plates would hamper P. polycephalum’s
+ability to use its own extracellular slime to navigate out of the U-shaped barrier
+toward the glucose source. Measuring the length of time that P. polycephalum took
+to escape the barrier and reach the source, these researchers found that the
+P. polycephalum on the experimental plates took a considerably longer amount of time
+to reach the glucose source than did the P. polycephalum on the control plates. These
+Philosophy of Science 443
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 15 ---
+
+striking results provide compelling evidence in support of the hypothesis that
+P. polycephalum uses its extracellular slime as external navigational memory to avoid
+revisiting previously forged locations.
+Observations by Briard et al. ( 2020) have, however, suggested that P. polycephalum’s
+behavioral interaction with extracellular slime is not as simple as the auxiliary hypothesis
+would have it seem. These researchers demonstrated thatP. polycephalum in fact avoids
+biochemical cues diffuse in the substrate and presumably present in extracellular slime
+that has been produced by other conspecifics when those conspecifics have undergone
+stress (starvation); slime trails, on the other hand, left by nonstressed (well-nourished)
+P. polycephalum are not avoided but, instead, can act as attractants given the cues they
+contain. Taking both Reid et al. ’s( 2012)a n dB r i a r de ta l . ’s( 2020) results into
+consideration, Epstein et al. (2021) formulated a novel hypothesis based on the following
+observations and considerations: P. polycephalum,a si tm i g r a t e sa c r o s ss u r f a c e si nt h e
+wild, regularly preys on red yeast (and other microorganisms); the extracellular slime
+deposited at those sites at which it has c onsumed more red yeast tends to be more
+attractive to it than the slime at other sites where it or its conspecifics consumed no
+nutrients—the condition of the extracellular slime at the former sites chemically
+reflecting the well-nourished state of theP. polycephalumthat produced it. If the deposited
+extracellular slime also provides a source ofnutrients for a subsequent colony of growing
+red yeast, and if they do not consume all the slime, then the site of slime deposition might
+attract the P. polycephalum back to the newly grown yeast. As such, Epstein et al.
+hypothesized that“P. polycephalumis capable of exhibiting a sustainable feeding strategy
+by depositing a nutritive slime trail, allowing yeast to serve as a periodic food source” (1).
+In other words, the ecological relationship between P. polycephalum and red yeast may
+represent an example of oscillatory successional dynamics.
+Using advanced image technology to capture the population dynamics between
+P. polycephalum and red yeast that were introduced to the same dishes, Epstein et al.
+(2021) were able to detect an inverse growth relationship between the two organisms,
+suggesting a predator –prey relationship and, indeed, oscillatory successional
+dynamics.14 At first blush, this result may not strike one as relevant to the
+expression of any cognitive capacity. However, I argue that this would be too fast.
+First, it should be noted that these results are consistent with Reid et al. ’s( 2012)
+hypothesis that P. polycephalum uses its extracellular slime trails as a form of external
+navigational memory. These results and those of Briard et al. ( 2020), however,
+complicate the picture in showing that slime trails are not merely cues for avoidance
+navigation; depending on the condition of the P. polycephalum that deposited the trail
+and hence the chemical makeup of the trail, they can also be attractants. Epstein
+et al. ’s( 2021) results may suggest that what makes the extracellular slime an
+attractant later may be the presence of microorganisms that are more likely to grow
+14 It should be noted that Epstein et al. ’s( 2021) statistical analysis was based on growth patterns in
+only five dishes (ecosystems) and that each of the five dishes was exposed to different (blue) light
+treatments. Because each of the five conditions was not replicated, it is impossible to infer whether the
+oscillatory successional dynamics observed is a generalizable and robust feature of such ecosystems.
+Future replication of this experimental paradigm with a significantly larger sample size of each
+ecosystem condition is required.
+444 Matthew Sims
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 16 ---
+
+on slime that was produced by a less-stressed P. polycephalum .15 The question arises,
+however, as to where and when a P. polycephalum should migrate in a given area to
+optimize the number of consumable microorganisms that grow on its extracellular
+slime later. This is a decision-making problem, and some support as to what kind of
+decision P. polycephalum is making can be gleaned from Epstein et al. ( 2021, 9):
+We speculate that as P. polycephalum navigates its environment it occupies
+specific regions of a morphospace so that it may build a spatiotemporally
+optimal slime sheath to farm the most microorganisms.
+If Epstein et al. are correct, P. polycephalum exercises control over where and when
+it migrates, allowing the most microorganisms to grow on the extracellular slime
+prior to continued feeding. This kind of navigational control is underwritten by
+making choices regarding behavior that (nonexhaustively) balance potential
+metabolic costs and benefits with current physiological costs and benefits. Epstein
+et al.’s interpretation of P. polycephalum’s behavior as farming rests on the idea of the
+cell making spatiotemporally based decisions that allow for an “‘optimal’ yield”—
+waiting for the red yeast to grow to a cover a sizable area as opposed to consuming
+any and all yeast despite how few they are.
+16 However, from the perspective of Reid
+et al. ’s( 2012) results and the hypothesis that their results support, navigational
+decisions for optimal foraging are made primarily on the basis of the spatial
+distribution of extracellular slime. When considered in light of the results of Epstein
+and colleagues ’ (2021) experiment —results they obtained, I suggest, by implicitly
+deploying something like PDH—Reid et al.’s( 2012) explanation is accurate but may be
+also incomplete: it stops short of capturing important aspects of the kind of nuanced
+decision-making that drives P. polycephalum’s navigational behavior. The importance
+of using PDH-guided investigation to complement experiments from which the kind
+of ecological variables found in an organism ’s niche are abstracted away is made
+explicit when considering the difficulty of inferring the complex kind of navigational
+decision-making that occurs in Epstein et al. ’s( 2021) experiment strictly from the
+kind of externalized navigational memory use that is supported by Reid et al. ’s( 2012)
+experiment.
+6. Conclusion
+In this article, I have presented and argued for the methodological PDH. This principle
+serves the function to steer the investigation of nonneuronal cognition in a way that
+is aimed at circumventing anthropocentric (or zoocentric) assumptions. Empirically
+investigating potential cognitive capacities in nonneuronal organisms, however, will
+ultimately be very different than investigating cognition in brained animals, if only
+because the forms of environmental heterogeneity to which nonneuronal organisms
+15 This is consistent with the results of a follow-up study by Reid et al. ( 2013) that showed that
+Physarum polycephalum can override their aversion to extracellular slime if traversing slime allows them
+to reach a high-quality food source.
+16 The oscillatory growth dynamics captured more prominently in the experimental ecosystems 3a
+and 3b (and less so in 3c–3e) reflect some delay in eating red yeast while yeasts are repopulating and may
+possibly represent a delayed reward strategy.
+Philosophy of Science 445
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 17 ---
+
+are sensitive and which they must accommodate may be very different from our own.
+Be that as it may, such differences do not rule out the possibility of fruitfully
+investigating cognitively driven behavior in basal organisms. This much should be
+made clear by at least a century of groundbreaking experiments in biology that have
+edged us closer to understanding some of the various forms that cognition takes and
+their underlying mechanisms. However, to advance our understanding of non-
+neuronal cognition and its evolution even further, the role of ecological variables in
+eliciting potential cognitively driven behavior must be not only acknowledged but
+rather incorporated into the foundations of a (basal) methodology.
+Acknowledgments. This research is part of the project “Situated Cognition” led by Tobias Schlicht and
+funded by the Volkswagen Foundation. I thank the following people for their comments on earlier drafts
+of this article and for the many discussions that helped to refine the ideas presented here: Jan Baedke,
+Krys Dolega, Scott Gilbert, Fred Keijzer, Suilin Lavelle, Benjamin Little, Pamela Lyon, Kevin Mitchell, Nina
+Poth, Tobias Schlicht, and Qiuran Wang. I give very special thanks to Chris Reid for his invaluable
+feedback and engagement. The research was conducted in the absence of any commercial or financial
+relationships that could be construed as a potential conflict of interest.
+References
+Almeida, Gabriela, Jorge Bravo, Hugo Folgado, Hugo Rosado, Felismina Mendes, and Catarina Pereira.
+2019. “Reliability and Construct Validity of the Stepping-Forward Affordance Perception Test for Fall
+Risk Assessment in Community-Dwelling Older Adults. ” PLoS ONE 14 (11):e0225118.
+Amundson, Ron. 2014. “Charles Darwin’s Reputation: How It Changed during the Twentieth-Century and
+How It May Change Again. ” Endeavour 38 (3 –4): 257 –67.
+Armus, Harvard L., Amber R. Montgomery, and Jenny L. Jellison. 2006. “Discrimination Learning in
+Paramecia (P. Caudatum). ” Psychological Record 56 (4):489 –98.
+Baedke, Jan, and Alejandro Fábregas-Tejeda. 2023. “The Organism in Evolutionary Explanation: From
+Early Twentieth Century to the Extended Evolutionary Synthesis. ” Evolutionary Biology 6:121–50.
+Ballard, Dana H., Mary M. Hayhoe, and Jeff B. Pelz. 1995. “Memory Representations in Natural Tasks. ”
+Journal of Cognitive Neuroscience 7 (1):66 –80.
+Barbara, Greg M., and James G. Mitchell. 2003. “Bacterial Tracking of Motile Algae. ” FEMS Microbiology
+Ecology 44 (1):79 –87.
+Bateson, Patrick, and Peter Gluckman. 2011. Plasticity, Robustness, Development and Evolution . Cambridge:
+Cambridge University Press.
+Bechtel, William, and Leonardo Bich. 2021. “Grounding Cognition: Heterarchical Control Mechanisms in
+Biology.” Philosophical Transactions of the Royal Society B: Biological Sciences 376 (1820):20190751.
+Bickle, John. 2006. “Reducing Mind to Molecular Pathways: Explicating the Reductionism Implicit in
+Current Cellular and Molecular Neuroscience. ” Synthese 151 (3):411 –34.
+Briard, L., C. Goujarde, C. Bousquet, and A. Dussutour. 2020. “Stress Signalling in Acellular Slime Moulds
+and Its Detection by Conspecifics. ” Philosophical Transactions of the Royal Society B: Biological Sciences
+375 (1802):20190470.
+Broadbent, Donald E. 1991. “A Word before Leaving. ” In Attention and Performance , edited by David E.
+Meyer and Sylvan Kornblum, 863 –79. Cambridge, MA: Bradford Books/MIT Press.
+Calvo, Paco, Monica Gagliano, Gustavo M. Souza, and Anthony Trewavas. 2020. “Plants Are Intelligent,
+Here’s How. ” Annals of Botany 125 (1):11 –28.
+Ceccarini, Francesco, Silvia Guerra, Alessandro Peressotti, Francesca Peressotti, Maria Bulgheroni, Walter
+Baccinelli, Bianca Bonato, and Umberto Castiello. 2021. “On-Line Control of Movement in Plants. ”
+Biochemical and Biophysical Research Communication 564:86–91.
+Clark, Andy. 2008. Supersizing the Mind: Embodiment, Action, and Cognitive Extension . Oxford: Oxford
+University Press.
+Clark, Andy, and David Chalmers. 1998. “The Extended Mind. ” Analysis 58 (1):7 –19.
+Cornus, Sabine, Gilles Montagne, and Michel Laurent. 1999. “Perception of a Stepping-Across
+Affordance.” Ecological Psychology 11 (4):249 –67.
+446 Matthew Sims
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 18 ---
+
+de la Fuente, Ildefonso M., Carlos Bringas, Iker Malaina, María Fedetz, Jose Carrasco-Pujante, Miguel
+Morales, Shira Knafo et al. 2019. “Evidence of Conditioned Behavior in Amoebae. ” Nature
+Communications 10:3690.
+Dexter, Joseph P., Sudhakaran Prabakaran, and Jeremy Gunawardena. 2019. “A Complex Hierarchy of
+Avoidance Behaviors in a Single-Cell Eukaryote. ” Current Biology 29 (24):4323 –29.
+Dussutour, Audrey. 2021. “Learning in Single Cell Organisms. ” Biochemical and Biophysical Research
+Communications 564:92–102.
+Epstein, Leo, Zeth Dubois, Jessica Smith, K. Yunha Lee, and Kyle Harrington 2021. “Complex Population
+Dynamics in a Spatial Microbial Ecosystem with Physarum polycephalum .” Biosystems 208:104483.
+Favela, Luis H. 2020. “Cognitive Science as Complexity Science. ” WIREs Cognitive Science 11 (4):e1525.
+Ferguson, Mark W. J., and Ted Joanen. 1982. “Temperature of Egg Incubation Determines Sex in Alligator
+Mississippiensis.” Nature 296 (5860):850 –53.
+Gaschler, Robert, Bianca Vaterrodt, Peter A. Frensch, Alexandra Eichler, and Hilde Haider. 2013.
+“Spontaneous Usage of Different Shortcuts Based on the Commutativity Principle. ” PLoS ONE 8 (9):
+e74972.
+Gershman, Samuel J., Petra E. M. Balbi, C. Randy Gallistel, and Jeremy Gunawardena. 2021. “Reconsidering
+the Evidence for Learning in Single Cells. ” ELife 10 (January):e61907.
+Gibson, James J. 1979. The Ecological Approach to Visual Perception . New York: Psychology Press.
+Gilbert, Scott F., and Sahotra Sarkar. 2000. “Embracing Complexity: Organicism for the 21st Century. ”
+Developmental Dynamics 219 (1):1 –9.
+Harrison, Ross Granville. 1969. Organization and Development of the Embryo . New Haven: Yale University
+Press.
+Heft, Harry. 1989. “Affordances and the Body: An Intentional Analysis of Gibson ’s Ecological Approach to
+Visual Perception. ” Journal for the Theory of Social Behaviour 19 (1):1 –30.
+Helms, Anjel M., Swayamjit Ray, Nina L. Matulis, Margaret C. Kuzemchak, William Grisales, John F.
+Tooker, and Jared G. Ali. 2019. “Chemical Cues Linked to Risk: Cues from Below-Ground Natural
+Enemies Enhance Plant Defences and Influence Herbivore Behaviour and Performance. ” Functional
+Ecology 33 (5):798 –808.
+Hurley, Susan. 2001. “Perception and Action: Alternative Views. ” Synthese 129:3–40.
+Hutchins, Edwin. 1995. Cognition in the Wild . Cambridge, MA: MIT Press.
+Jablonka, Eva, and Gal Raz. 2009. “Transgenerational Epigenetic Inheritance: Prevalence, Mechanisms,
+and Implications for the Study of Heredity and Evolution. ” Quarterly Review of Biology 84 (2):131 –76.
+Keijzer, Fred. 2021. “Demarcating Cognition: The Cognitive Life Sciences. ” Synthese 198 (1):137 –57.
+Kingstone, Alan, Daniel Smilek, and John D. Eastwood. 2008. “Cognitive Ethology: A New Approach for
+Studying Human Cognition. ” British Journal of Psychology 99 (3):317 –40.
+Kirsh, David, and Paul Maglio. 1994. “On Distinguishing Epistemic from Pragmatic Action. ” Cognitive
+Science 18 (4):513 –49.
+Koffka, Kurt. 1935. Principles of Gestalt Psychology . New York: Harcourt, Brace, and World.
+Köhler, Wolfgang. 1959. “Gestalt Psychologists Today. ” American Psychologist 14 (12):727 –34.
+Kominsky, Jonathan F., Kelsey Lucca, Thomas Aparicio, Michael C. Frank, and K. Hamlin. 2020. “Simplicity
+and Validity in Infant Research. ” Cognitive Development 63.
+Lederer, Max, Hans Spemann, and Friedrich Wilhelm Spemann. 1949. “Forschung Und Leben. ” Books
+Abroad 23 (4):390.
+Levin, Michael. 2019. “The Computational Boundary of a ‘Self’: Developmental Bioelectricity Drives
+Multicellularity and Scale-Free Cognition. ” Frontiers in Psychology 10.
+Levin, Michael. 2022. “Technological Approach to Mind Everywhere: An Experimentally-Grounded
+Framework for Understanding Diverse Bodies and Minds. ” Frontiers in Systems Neuroscience 16.
+Levin, Michael, and Daniel Dennett C. 2020. Cognition All the Way Down . Melbourne, Australia: Aeon.
+Levin, Michael, Fred Keijzer, Pamela Lyon, and Detlev Arendt. 2021. “Uncovering Cognitive Similarities
+and Differences, Conservation and Innovation.” Philosophical Transactions of the Royal Society B: Biological
+Sciences 376 (1821):20200458.
+Locsei, Janos T., and Timothy J. Pedley. 2008. “Bacterial Tracking of Motile Algae Assisted by Algal Cell ’s
+Vorticity Field. ” Microbial Ecology 58 (1):63 –74.
+Lyon, Pamela. 2015. “The Cognitive Cell: Bacterial Behavior Reconsidered. ” Frontiers in Microbiology 6.
+Philosophy of Science 447
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press
+
+--- Page 19 ---
+
+Lyon, Pamela, Fred Keijzer, Detlev Arendt, and Michael Levin. 2021. “Reframing Cognition: Getting Down
+to Biological Basics. ” Philosophical Transactions of the Royal Society B: Biological Sciences
+376 (1820):20190750.
+Minelli, Alessandro. 2021. Understanding Development . Cambridge: Cambridge University Press.
+Neumann-Held, Eva M. 2006. “Genes–Causes–Codes: Deciphering DNA’s Ontological Privilege.” In Genes in
+Development: Re-Reading the Molecular Paradigm , edited by Eva M. Neumann-Held and Christoph
+Rehmann-Sutter, 238 –71. Durham: Duke University Press.
+Newman, Stuart A. 2002. “Developmental Mechanisms: Putting Genes in Their Place.” Journal of Biosciences
+27 (2):97 –104.
+Oyama, Susan. 2000. The Ontogeny of Information . Durham, NC: Duke University Press.
+Pradeu, Thomas, Mael Lemoine, Mahdi Khelfaoui, and Yves Gingras. Forthcoming. “Philosophy in Science:
+Can Philosophers of Science Permeate through Science and Produce Scientific Knowledge? ” British
+Journal for the Philosophy of Science .
+Reid, Chris R., M. Beekman, T. Latty, and A. Dussutour. 2013. “Amoeboid Organism Uses Extracellular
+Secretions to Make Smart Foraging Decisions. ” Behavioral Ecology 24 (4):812 –18.
+Reid, Chris R., T. Latty, A. Dussutour, and M. Beekman. 2012. “Slime Mold Uses an Externalized Spatial
+‘Memory’ to Navigate in Complex Environments. ” Proceedings of the National Academy of Sciences of the
+United States of America 109 (43):17490 –94.
+Shapiro, James A. 2021. “All Living Cells Are Cognitive. ” Biochemical and Biophysical Research
+Communications 564:134–49.
+Sims, Matthew. 2020. “How to Count Biological Minds: Symbiosis, the Free Energy Principle, and
+Reciprocal Multiscale Integration. ” Synthese 199:2157–79.
+Slater, Garett P., George D. Yocum, and Julia H. Bowsher. 2020. “Diet Quantity Influences Caste
+Determination in Honeybees (Apis mellifera). ” Proceedings of the Royal Society B: Biological Sciences
+287 (1927):20200614.
+Smith-Ferguson, Jules, and Madeleine Beekman. 2019. “Who Needs a Brain? Slime Moulds, Behavioural
+Ecology and Minimal Cognition. ” Adaptive Behavior 28 (6):105971231982653.
+Sultan, Sonia E. 2015. Organism and Environment: Ecological Development, Niche Construction, and Adaption .
+New York: Oxford University Press.
+Sunobe, Tomoki, and Akinobu Nakazono. 2010. “Sex Change in Both Directions by Alteration of Social
+Dominance in Trimma okinawae (Pisces: Gobiidae). ” Ethology 94 (4):339 –45.
+Uvarov, Boris P. 1996. Grasshoppers and Locusts . Cambridge: Cambridge University Press.
+van Duijn, Marc, Fred Keijzer, and Daan Franken. 2006. “Principles of Minimal Cognition: Casting
+Cognition as Sensorimotor Coordination. ” Adaptive Behavior 14 (2):157 –70.
+von Bertalanffy, Ludwig. 1952/2014. Problems of Life . Eastford, CT: Martino Fine Books.
+Waddington, C. H. 1956. Principles of Embryology . New York: Macmillan.
+Warren, William H. 1984. “Perceiving Affordances: Visual Guidance of Stair Climbing. ” Journal of
+Experimental Psychology: Human Perception and Performance 10 (5):683 –703.
+Weiss, Paul. 1955. “Beauty and the Beast: Life and the Rule of Order. ” SciMo 81 (6):286 –99.
+Wertheimer, M. 1938. “Gestalt Theory.” In A Source Book of Gestalt Psychology , edited and translated by W.
+D. Ellis, 1 –11. London: Routledge and Kegan Paul.
+West-Eberhard, Mary J. 2003. Developmental Plasticity and Evolution . Oxford: Oxford University Press.
+Yang, Chih-Hsiang, and John Andrew Pospisilik. 2019. “Polyphenism—a Window into Gene–Environment
+Interactions and Phenotypic Plasticity. ” Frontiers in Genetics 10:132.
+Cite this article: Sims, Matthew. 2024. “The Principle of Dynamic Holism: Guiding Methodology for
+Investigating Cognition in Nonneuronal Organisms. ” Philosophy of Science 91 (2):430–448. https://doi.org/
+10.1017/psa.2023.104
+448 Matthew Sims
+https://doi.org/10.1017/psa.2023.104 Published online by Cambridge University Press

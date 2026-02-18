@@ -1,0 +1,458 @@
+--- Page 1 ---
+
+ 
+European Journal of Pragmatism and
+American Philosophy 
+XI-2 | 2019
+Pragmatism and Theories of Emergence
+Introduction to Pragmatism and Theories of
+Emergence
+Guido Baggio and Andrea Parravicini
+Electronic version
+URL: http://journals.openedition.org/ejpap/1611
+DOI: 10.4000/ejpap.1611
+ISSN: 2036-4091
+Publisher
+Associazione Pragma
+ 
+Electronic reference
+Guido Baggio and Andrea Parravicini, « Introduction to Pragmatism and Theories of Emergence », 
+European Journal of Pragmatism and American Philosophy [Online], XI-2 | 2019, Online since 24
+December 2019, connection on 23 September 2020. URL : http://journals.openedition.org/ejpap/1611
+ ; DOI : https://doi.org/10.4000/ejpap.1611 
+This text was automatically generated on 23 September 2020.
+Author retains copyright and grants the European Journal of Pragmatism and American Philosophy right
+of ﬁrst publication with the work simultaneously licensed under a Creative Commons Attribution-
+NonCommercial-NoDerivatives 4.0 International License.
+
+--- Page 2 ---
+
+Introduction to Pragmatism and
+Theories of Emergence
+Guido Baggio and Andrea Parravicini
+1 Emergence is a pivotal concept for interpreting the reality of natural and soci al human
+life in all its processual complexity. The recently renewed debate about this  concept
+and  the  different  forms  of  emergentism  is  particularly  varied,  widely  referri ng  to
+biology, metaphysics, philosophy of mind (Kim 1999, 2005, 2006a,b; Cunningh am 2001;
+Pihlström 2002;  El-Hani  2002;  El-Hani  &  Pihlström  2002;  Chalmers  2006;  Bedau  &
+Humphreys 2008; Corradini & O’Connor 2010; Okasha 2012; Humphreys 2016; Sartenaer
+2016;  Lota  2017),  neuroscience  (Tononi  &  Koch  2015),  as  well  as  to  social  sciences
+(Hodgson 2000; Sawyer 2001; Lawson 2013). On such a perspective, some authors, like
+the proponents of the so-called Cambridge Social Ontology (Lawson 2013), support a
+form of emergentism which opposes to any kind of dualism that presupposes  total
+independence between the domains of matter and mind, the physical an d the social,
+thus  avoiding,  at  the  same  time,  any  reductionist  causal  explanation  of  the  latter
+through the former.
+2 From a general perspective on emergence, some characteristics of the world, whether
+these are objects, properties or other things, manifest themselves as the resul t of the
+interconnection of other existing entities, usually more elementary, to which, however,
+they  cannot  be  completely  reduced  (see  Humphreys  2005).  According  to  an
+evolutionary perspective, emergence is the occurrence of a new system that, before its
+appearance, cannot be predicted or explained through its antecedent conditions. In
+social  sciences,  Geoffrey  Hodgson  pointed  out  that  emergence  is  a  broader  notion
+which “provides a necessary means to focus on higher-level units and relations  and to
+avoid the potentially intractable problem of analytical reduction to lower-level uni ts”
+(Hodgson 2000: 74-5). 
+3 Although  the  concept  of  emergence  is  taken  as  a  point  of  reference  in  different
+disciplinary  fields,  it  is  nonetheless  acknowledged  to  be  very  complex  when
+investigated through a rigorous examination (for a recognition see Clayton & Davies
+2006).  Newsome  (2009:  61-2)  argued  that  “emergence”  is  “a  pivotal  concept  for
+Introduction to Pragmatism and Theories of Emergence
+European Journal of Pragmatism and American Philosophy, XI-2 | 2019
+1
+
+--- Page 3 ---
+
+interpreting the reality of human life in all its complexity, from scientif ic endeavor to
+personal  morality  to  religious  understanding.  Although  emergence  is  a  notoriously
+difficult phenomenon to study rigorously, few areas of study are likely to p rove as
+intellectually and practically consequential in the long run.” 
+4 The main difficulties actually concern the definition of what precisely is emergence
+(Kim 2006a), which is the nature of the related causal powers (Anjum & Mum ford 2017)
+and what is its causation role (Bedau 2008; Lota 2017; Baysan 2018). 
+5 According to Stephan (1999a), the term “emergence” has different roles to play in
+different  disciplines.  As  he  noted,  “there  are  three  theories  among  the  di fferent
+varieties  of  emergentism  deserving  particular  interest:  synchronic emergentism,
+diachronic emergentism, and a weak version of emergentism” (Stephan 1999a: 49).1 More
+recently, Richardson and Stephan (2007) indicated nine principal features of cl assical
+emergentism: 1) emergentism is naturalistic; 2) emergent properties are novel, though
+novelty  “need  not  be  a  temporal  claim”  (Richardson  &  Stephen  2007:  92);  3)
+emergentism  involves  systemic  properties  which  are  irreducible  and  novel;  4)  the
+systems are hierarchically organized; 5) emergence involves synchronic determination;
+6) emergent properties are irreducible and therefore; 7) not deducible; 8) emergent
+properties are not predictable from first principles; and 9) emergent properties  exhibit
+downward causation. According to Richardson and Stephan (2007: 94), the 8) an d 9) are
+the  most  demanding  conditions  for  emergence.  In  particular,  the  condition  of
+unpredictability has to face with the question whether the organizational properties
+are themselves straightforward consequences of constituent properties; whereas the
+downward causation is the most controversial of the conditions, because if th e higher
+levels of organisation are relevant to the behaviour of constituents, then the caus al
+links  provided  at  the  lower  levels  would  be  incomplete  or  would  violate  what  are
+thought of as “principles of physical closure” (see Campbell 1974; Kim 1992, 1993a,
+1993b). It has to be noted that the difficulties with the physical clos ure mainly relate to
+a theoretical frame that only supports a physicalist version of naturalism,  even though
+non-reductionist or “minimal” (Kim 2005: 13). However, different forms of scien tific
+naturalism  are  possible  which  can  help  to  face  with  the  demandin g  conditions  of
+emergence.2 On this point, Sami Pihlström proposed an alternative path to Stephan’s
+perspective according to which all emergentisms are based on a physicalis t monism. In
+Pihlström’s view, it is necessary to carry out a conceptual clarification about the notion
+of emergence, particularly regarding the theme of downward causation, which w ould
+bring that notion very close to the theoretical framework of pragmatist naturali sm.
+According to him, the concept of “nature” that belongs to the naturalism of Peirce,
+James, Dewey, and Mead, offers a richer vocabulary and a wider horizon th an those of
+physicalism, which dominates in contemporary metaphysical theories (Pihls tröm 2002:
+165).
+6 Now, although references to classical pragmatists and their more direct predeces sors
+have been and continue to be rare in literature, it is undoubtable that the contributions
+that those thinkers provided to the first reflections on the notion of emergence a re
+highly significant and deserve to be further investigated.
+7 The earliest formulations on the notion of emergence date back at least to  John Stuart
+Mill.3 In his System of Logic  Mill distinguished between, on the one hand, heteropathic
+effect  and  (chemical)  laws  and,  on  the  other  hand,  homeopathic  effects  and
+(mechanical)  laws,  arguing  that  “[t]o  whatever  degree  we  might  im agine  our
+Introduction to Pragmatism and Theories of Emergence
+European Journal of Pragmatism and American Philosophy, XI-2 | 2019
+2
+
+--- Page 4 ---
+
+knowledge of the properties of the several ingredients of a living body to b e extended
+and perfected, it is certain that no mere summing up of the separate action s of those
+elements will ever amount to the action of the living body itself” (Mill 1843, Bk.III, Ch.6,
+§1). A few years later, Chauncey Wright, the “coryphaeus” of the Metaphysical Club  in
+Cambridge  (Mass.)  and  the  philosophical  mentor  of  William  James  and  Charles S.
+Peirce, coped with the Darwinian difficulties about the continuity and the differences
+between animal and human forms and he put at the center of his refl ections the notion
+of “novelty,” whose meaning was quite the same to that of “emergence.” I n his long
+essay “The Evolution of Self-Consciousness” (Wright 1873), the American philosop her
+draw an evolutionary continuity between animal instincts and human intelli gence by
+showing that the latter emerged as a new function of some older traits and powers
+already  present,  to  a  lesser  degree,  in  our  proto-human  ancestors  (see  Parravicini
+2012). 
+8 In  1896,  the  British  biologist  C. Lloyd  Morgan,  who  would  have  led  early  in  the
+Twentieth century the emergentist movement, gave a lecture on “Habit and Instinct” at
+the University of Chicago (Morgan 1896), the very same year in which the functionalists
+James R.  Angell  and  Addison W.  Moore  undertook  a  psychological  experiment  on
+attention and habit under the guidance of John Dewey and George H. Mead  (Angell &
+Moore 1896). Morgan’s thesis was that human evolution occurred mainly at a socia l-
+economic emergent level, which is not explicable in merely biological terms. He further
+developed his ideas in the following years and in 1923, three years after th e publication
+of Alexander’s Space, Time, and Deity (1979 [1920]) he integrated his emergentist view of
+evolution  with  Einstein’s  special  and  general  theories  of  Relativity.  According  to
+Morgan, when basic physical processes achieve a certain level of complexity of  an
+appropriate kind, genuinely novel characteristics emerge that could not be predi cted
+neither from a full and complete knowledge of their lower level parts and relations.
+This theory was taken up a few years later by Mead (2002 [1932]), who tried to integrate
+his social psychology with the processual philosophy and the activity w hich structures
+the  reality  that  organisms  inhabit. In  Mead’s  attempt  to  link  together  his  social-
+behavioural psychology with the theory of relativity in order to avoid any psych o-
+physical dualism or reductionist naturalism, the notion of “emergence” refers to  an
+evolutionary relational process which happens in a “specious” present and th at can be
+explained only a posteriori. In the wake of Mead, Dewey developed a distinct variant of
+emergentism  based  on  the  concept  of  experience  as  “the  result,  the  sign,  and the
+reward of that interaction of organism and environment” (Dewey 1985 [1934]: 22. See
+also Alexander 1992). Before them, William James’s evolutionary epistemology (J ames
+1981 [1890]; 1977 [1909]). See Richards 1987; McGranahan 2017) can be seen as a way to
+explain the emergence of novelties in nature. New ideas and behaviours emerge i n our
+social  and  natural  environmental  interactions  as  possible  adaptive  respons es.
+Furthermore, many interpreters of Charles S. Peirce noted that his metaphysics entail s
+a form of emergentism (Hacking 1983; Prigogine & Stengers 1984; Tiercelin 1998).
+9 Summing  up,  for  the  classical  pragmatists,  emergentism  can  be  considered  as  a
+compromise between physicalist reductionism and all-out dualisms. 4 All pragmatists
+assumed  a  diachronic  form  of  emergentism.  Temporality  plays  a  key  role  in  their
+position and for their dynamic attitude to metaphysics in general, they were not much
+interested  in  synchronic  dependence  relations,  which  contemporary  emergence
+theoreticians usually talk about.5
+Introduction to Pragmatism and Theories of Emergence
+European Journal of Pragmatism and American Philosophy, XI-2 | 2019
+3
+
+--- Page 5 ---
+
+10 The focus of the European Journal of Pragmatism and American Philosophy  on “Pragmatism
+and Theories of Emergence” addresses the lack of attention, in the current litera ture,
+on pragmatist authors in relation to the debate on emergence and emergentism.  It is in
+fact  undoubtable  that  the  contributions  those  thinkers  provided  to  the  first
+elaborations  of  emergentism  and  to  the  related  notion  of  emergence  are  deeply
+significant  and  deserve  to  be  further  investigated.  The  issue,  therefore,  col lects
+contributions  that  offer  some  original  ideas  and  interesting  insights  on Pragmatist
+tradition, and provides some new historical-theoretical perspectives to the issues of
+emergentisms from which to look at the current debate on emergence.
+11 The issue, whose order of contributions follows, at least in principle,  the historical-
+genealogical development of the pragmatist reflections on emergence, begins wi th a
+study  on  the  thought  of  Chauncey  Wright,  the  coryphaeus  of  classical  pragmatis t
+philosophers  at  Metaphysical  Club  in  Cambridge  (Mass).  Andrea  Parravi cini’s
+“Pragmatism and Emergentism in Chauncey Wright’s Evolutionary Philosophy” focuses
+on  Wright’s  “forward-looking”  thought  and  its  close  relationship  with  the  ri sing
+pragmatist  philosophy.  In  the  framework  of  Wright’s  original  interpretation  of
+Darwin’s evolutionary theory, the article explores the key notions of “novelty” and
+“new uses,” through which Wright developed an “emergentist” thought well ahea d of
+its time. Furthermore, Parravicini analyzes Wright’s theoretical reflections about the
+origin of human self-consciousness as a paradigmatic case of authentic evolutionary
+novelty  and,  at  the  end  of  the  paper,  he  focuses  on  Wright’s  sketched  pragma tic
+realism.
+12 In  “The  Throne  of  Mnemosyne.  Pragmatism  and  Emergence  as  Aspects  of  Org anic
+Memory,” Kermit Snelson brings Peirce’s thought very close to that “organic mem ory”
+theories  which  flourished,  but  were  strongly  opposed,  at  Peirce’s  times,  and  are
+remembered  today  in  connection  with  discredited  theories  like  Lamarckian
+inheritance. The author argues, however, that those theories can be viewed as th e
+earliest attempt to build a “still-unrealized, post-nominalist re-foundation  of science,”
+if  we  read  them  in  the  context  of  their  own  time.  It  is  in  the  light  of  these
+considerations  about  the  affinities  between  Peirce’s  philosophy  and  those  “organic
+memory” theories that Snelson provides brilliant insights into the systemati c unity of
+the  various  aspects  of  Peirce’s  thought,  especially  regarding  the  close  relationship
+between pragmatism and what is now called “emergence.” 
+13 Both Jimmy Aames’s “Patternhood and Generality: A Peircean Approach to Emergence”
+and Maria Regina Brioschi, “Does Continuity Allow for Emergence? An Emergenti st
+Reading of Peirce’s Evolutionary Thought” provide an emergentist reading of Pei rce’s
+thought, although they draw their analyses from two different theoretical perspectives.
+Aames argues that the radical version of emergentism, which supports the idea  of the
+existence of ontological emergence, and the ontological reductionism, which claims
+that all instances of emergence are epistemological, are both problematic. I nspired by
+the philosophical ideas of Charles S. Peirce and Daniel Dennett, the aim  of the paper is
+to outline an alternative form of emergence that Aames calls “real pattern emergence.”
+Peirce’s pragmaticism and Scholastic realism help the author, in particular,  to identify
+such  a  real  pattern  with  what  Peirce  calls  a  real  general  (or  real  Third) .  It  is
+autonomous from the elements or processes instantiating it and supports prediction s
+not only about what will happen in a given situation, but also about what would happen
+in  a  number  of  not-yet  actualized  situations.  According  to  Aames,  the  autonomy
+Introduction to Pragmatism and Theories of Emergence
+European Journal of Pragmatism and American Philosophy, XI-2 | 2019
+4
+
+--- Page 6 ---
+
+attributed to the real patterns is the crucial element which distinguishes them  both
+from mere epistemological emergence and from ontological emergence. 
+14 In the wake of the path opened up by some recent emergentist readings of Peirce’s
+thought,  Brioschi  aims  to  clarify  the  theoretical  problem  of  emergence  from  a
+pragmatist perspective and to illustrate Peirce’s standpoint through special reference
+to his evolutionary doctrine. After a brief introduction to the contemporary debates on
+emergence and a historical overview of Classical Pragmatism and British E mergentists,
+Brioschi focuses on an emergentist reading of Peirce’s theory of evolution and shows
+how  Peirce’s  strong  emphasis  on  chance  and the  “growth”  of  the  universe  goes
+together with synechism, through what he calls agapasm.
+15 In  “Emergent  Sign-Action:  Classical  Ballet  as  a  Self-Organized  and  Tem porally
+Distributed Semiotic Process,” Pedro Atã and João Queiroz explore Peirce’s pragmatic
+conception of sign action in the light of a distributed and emergent view of cognition.
+The authors consider semiosis as a temporally distributed process in which  a regular
+tendency towards certain future outcomes emerges out of a history of sign actions.
+Within such a process, emergence is an ubiquitous condition, and the translati on of
+signs  into  signs  has  to  take  into  account  a  complex  multi-level  interpla y  of
+potentialities  and  tendencies,  or  upward  constitutive  determinative  relations  and
+downward  selective  determinative  relations.  According  to  this  view,  emergence  is
+identified as a central defining condition of the meaning processes, as  the authors
+illustrate well through the example of emergence of classical ballet, viewed as sign
+action and self-regulatory process.
+16 Michela Bella’s “Novelty and Causality in William James’s Pluralisti c Universe. From
+Psychology  to  Metaphysics”  addresses  William  James’s  understanding  of  ca usal
+connections  aiming  to  highlight  the  problematic  relationship  between  novelty  and
+continuity, that is to say, the issue of the emergence of genuinely new events in a
+paradigm of natural continuity. In particular, Bella focuses on the concept of causality
+that James already challenged in Principles of Psychology and, then, in a more systematic
+way, in Some Problems of Philosophy (1911) and A Pluralistic Universe (1909), attempting to
+clarify what his naturalism consists of in the light of emergentist conceptions.
+17 Stephen Pratten’s contribution on “Dewey on Organisation” compares Dewey’s remarks
+on organisation with Tony Lawson’s perspective on social ontology, and Mark Bickhard
+and Richard Campbell’s interactivist framework. In particular, the article f ocuses on
+the different treatments of the organization, showing how in Dewey’s later w ritings
+there are many remarks on organisation which anticipated some of the ins ights that
+have been systematically set out in the naturalistic perspectives of Lawson, Bickhard
+and Campbell, in which the thorough theorization of organization is consi dered to be
+crucial  in  accounting  for  emerging  phenomena,  resisting  ontological  and  causa l
+reductionism and resolving the ambiguities associated with certain formulations  of
+downward causality.
+18 The last three articles are mainly dedicated to G. H. Mead’s thought on  emergence. In “
+Evolution and Emergence. Comparing C. Lloyd Morgan’s Emergentism and G. H. M ead’s
+Processual Ontology,” Guido Baggio detects the most significant turning poi nts on the
+parallel intellectual paths that led Morgan and Mead to develop independ ently their
+theories of emergence. Taking as a starting point the Lowell Lectures Morgan gave in
+the  winter  of  1895-1896,  as  well  as  Mead’s  1890s  writings  on  psychophysics  and
+comparative psychology, Baggio points out a similarity between Mead and M organ’s
+Introduction to Pragmatism and Theories of Emergence
+European Journal of Pragmatism and American Philosophy, XI-2 | 2019
+5
+
+--- Page 7 ---
+
+ideas on organic and mental evolution at that time. He argues that Morga n’s theory of
+emergence and Mead’s processual ontology were conditioned by the reflections that
+the two thinkers had developed over the years and traces back their roots to the ea rly
+1890s. Furthermore,  Baggio  examines  Lloyd  Morgan’s  emergentism  and  Mead’s
+processual ontology, pointing out more interesting similarities and dissimilarities.
+19 Lawrence Cahoone’s “Mead and the Emergence of the Joint Intentional Self” exp lores
+Mead’s  both non-reductive  naturalistic  account  of  “emergence”  and  the  notion  of
+“joint  intentionality,”  employing  mainly  the  work  of  William C.  Wims att,  Michael
+Tomasello and Thomas Suddendorf. In particular, Cahoone compares, on one hand,
+Mead’s  idea  of  “teleological”  character  of  the  emergent  evolution  with  Wimsatt’s
+notion of emergent levels as hierarchical divisions of stuff organized by part-whole
+relations. On the other hand, he puts in relation Mead’s thesis that hum an mind is
+communicative,  i.e.,  that  thought  is  a  conversation  among  cognitive  and  aff ective
+socially acquired and imaginatively recombined perspectives, with Tomasello’s notion
+of “joint intentionality.” Cahoone then tries to extend the notion of joint in tentionality
+and to relate it to other features of human evolution, such as mental time travel ling,
+language, and culture.
+20 Scott Taylor’s “G. H. Mead’s Philosophical Hermeneutics of the Present” concludes th e
+issue by putting George H. Mead in dialogue with Hans-Georg Gadamer. The  paper aims
+to demonstrate how Mead’s notion of emergence in the present of both past an d future
+neatly aligns with Gadamer’s philosophical hermeneutics and that Mead’s  philosophy
+of  the  present  also  amounts  to  a  theory  of  interpretation.  Taylor  traces  back  the
+foundation of this claim to the pivotal influence of Wilhelm Dilthey on b oth Gadamer
+and the young Mead. The author, while putting Mead’s texts into dialogue  with some of
+Gadamer’s  most  fundamental  concepts,  criticizes  Hans  Joas’s  several  missed
+opportunities at providing a philosophical hermeneutic account of Mead’s work.
+BIBLIOGRAPHY
+ALEXANDER Samuel, (1979 [1920]), Space, Time, and Deity, 2 vols., Gloucester, Peter Smith. 
+ALEXANDER Thomas, (1992), “Dewey and the Metaphysical Imagination,” Transactions of the
+Charles S. Peirce Society 28, 203-15.
+ANGELL James Rowland & Addison W. MOORE, (1896), “Studies from the Psychological Laboratory of
+the University of Chicago: 1. Reaction-Time: A Study in Attention and Habit,” Psychological Review
+3, 245-58.
+ANJUM Rani Lill & Stephen MUMFORD, (2017), “Emergence and Demergence,” in Paolini Paoletti M.
+& Orilia F. (eds), Philosophical and Scientific Perspectives on Downward Causation, New York & London,
+Routledge, 92-109.
+BAYSAN Umut, (2018), “Causal Emergence and Epiphenomenal Emergence,” Erkenntnis, 1-14.
+Introduction to Pragmatism and Theories of Emergence
+European Journal of Pragmatism and American Philosophy, XI-2 | 2019
+6
+
+--- Page 8 ---
+
+BEDAU Mark A., (2008), “Downward Causation and Autonomy in Weak Emergence,” in Bedau M. A.
+& Humphreys P. (eds), Emergence: Contemporary Readings in Philosophy and Science, Cambridge, MA,
+MIT Press, 155-88.
+BEDAU Mark A. & Paul HUMPHREYS (eds) (2008), Emergence: Contemporary Readings in Philosophy and
+Science, Cambridge, MA, MIT Press.
+CAMPBELL Donald T., (1974), “‘Downward Causation’ in Hierarchically Organized Biological
+Systems,” in Ayala F. J. & Dobzhansky T. (eds), Studies in the Philosophy of Biology, Berkeley,
+University of California Press, 179-86.
+CHALMERS David J., (2006), “Strong and Weak Emergence,” in Clayton P. & Davies P. (eds), The Re-
+emergence of Emergence, New York, Oxford University Press, 244-54. 
+CLAYTON Philip & Paul C. W. DAVIES (eds) (2006), The Re-emergence of Emergence, New York, Oxford
+University Press.
+CORRADINI Antonella & Timothy O’CONNOR (eds) (2010), Emergence in Science and Philosophy, New
+York, London, Routledge. 
+CUNNINGHAM Bryon, (2001), “The Reemergence of ‘Emergence’,” Philosophy of Science, 68 (3), S62-
+S75.
+DEWEY John, (1985 [1934]), Art as Experience, in Boydston J. A., The Later Works of John Dewey, vol. 10,
+Carbondale, Southern Illinois University Press.
+EL-HANI Charbel Niño, (2002), “On The Reality of Emergents,” Principia, 6 (1), 51-87.
+EL-HANI Charbel Niño & Sami PIHLSTRÖM, (2002), “Emergence Theories and Pragmatic Realism,” 
+Essays in Philosophy, 3 (2), article 3 [commons.pacificu.edu/eip/vol3/iss2/3]. 
+HACKING Ian, (1983), “Nineteenth Century Cracks in the Concept of Determinism,” Journal of the
+History of Ideas, 44 (3), 455-75.
+HODGSON Geoffrey M., (2000), “The Concept of Emergence in Social Sciences: Its History and
+Importance,” Emergence: Complexity & Organization. A Journal of Complexity Issues in Organizations and
+Management 4, 65-77.
+HUMPHREYS Paul, (2005), “Emergence,” Encyclopedia of Philosophy (Encyclopedia.com. 15 Nov. 2019
+[encyclopedia.com]).
+HUMPHREYS Paul, (2008), “Synchronic and Diachronic Emergence,” Minds and Machines, 18 (4),
+431-42.
+HUMPHREYS Paul, (2016), Emergence. A Philosophical Account, New York, Oxford University Press.
+JAMES William (1977 [1909]), A Pluralistic Universe, edited by Fredson Bowers & Ignas K.
+Skrupskelis, introduction by Richard J. Bernstein, Cambridge, MA, and London, Harvard
+University Press.
+JAMES William, (1981 [1890]), Principles of Psychology, edited by Frederick H. Burkhardt, Fredson
+Bowers & Ignas K. Skrupskelis, introductions by Rand B. Evans & Gerald E. Myers, Cambridge,
+MA, and London, Harvard University Press.
+KIM Jaegwon, (1992), “‘Downward Causation’ in Emergentism and Nonreductive Physicalism,” in
+Beckermann A., Flohr H. & Kim J. (eds), Emergence or Reduction? Essays on the Prospects of
+Nonreductive Physicalism, Berlin, New York, de Gruyter, 119-38. 
+KIM Jaegwon, (1993a), Supervienience and Mind, Cambridge, Cambridge University Press.
+Introduction to Pragmatism and Theories of Emergence
+European Journal of Pragmatism and American Philosophy, XI-2 | 2019
+7
+
+--- Page 9 ---
+
+KIM Jaegwon, (1993b), “The Non-Reductivist’s Troubles with Mental Causation,” in Heil J. & Mele
+A. (eds), Mental Causation, Oxford, Oxford University Press, 189-210.
+KIM Jaegwon, (1999), “Making Sense of Emergence,” Philosophical Studies 95, 3-36.
+KIM Jaegwon, (2005), Physicalism, or Something Near Enough, Princeton and Oxford, Princeton
+University Press.
+KIM Jaegwon, (2006a), “Emergence: Core Ideas and Issues,” Synthese, 151 (3), 547-59.
+KIM Jaegwon, (2006b), “Being Realistic about Emergence,” in Clayton P. & Davies P. (eds), The Re-
+emergence of Emergence, New York, Oxford University Press, 189-202.
+LAUGHLIN Robert B., (2005), A Different Universe: Reinventing Physics From the Bottom Down, New York,
+Basic Books.
+LAWSON Tony, (2013), “Emergence and Morthogenesis: Causal Reduction and Downward
+Causation,” in Archer M. (ed.), Social Morphogenesis, Dodrecht, Springer, 61-84.
+LOTA Kenji, (2017), “Emergentism Reconsidered,” Res Cogitans, 8 (1), article 5.
+MCGRANAHAN Lucas, (2017), Darwinism and Pragmatism: William James on Evolution and Self-
+Transformation, London, Routledge.
+MCLAUGHLIN Brian P., (1992), “The Rise and Fall of British Emergentism,” in Beckermann A.,
+Flohr H. & Kim J. (eds), Emergence or Reduction? Essays on the Prospects of Nonreductive Physicalism,
+Berlin, New York, de Gruyter, 49-93.
+MEAD George H., (2002 [1932]), The Philosophy of the Present, Amherst, NY, Prometheus Books.
+MILL John Stuart, (1843), A System of Logic, Ratiocinative and Inductive: Being a Connected View of the
+Principles of Evidence, and the Methods of Scientific Investigation, London, J. W. Parker.
+MORGAN C. Lloyd, (1896), Habit and Instinct, London-New York, Edward Arnold.
+MORGAN C. Lloyd, (1927), Emergent Evolution, London, Williams And Norgate.
+NEWSOME William T., (2009), “Human Freedom and ‘Emergence’,” in Murphy N., Ellis G.F.R. &
+O’Connor T. (eds), Downward Causation and the Neurobiology of Free Will, Berlin Heidelberg,
+Springer-Verlag, 53-62.
+O’CONNOR Timothy & Hong Yu WONG, (2005), “The Metaphysics of Emergence,” Noûs, 39 (4), 658-78.
+OKASHA Samir, (2012), “Emergence, Hierarchy and Top-Down Causation in Evolutionary Biology,” 
+Interface Focus, 6, 2 (1), 49-54 [doi.org/10.1098/rsfs.2011.0046].
+PARRAVICINI Andrea, (2012), Il pensiero in evoluzione. Chauncey Wright tra darwinismo e pragmatismo, 
+Pisa, ETS.
+PIHLSTRÖM Sami, (2002), “The Re-Emergence of the Emergence Debate,” Principia, 6 (1), 133-81.
+PRIGOGINE Ilya & Isabelle STENGERS, (1984), Order out of Chaos: Man’s New Dialogue with Nature,
+London, Flamingo Edition.
+RICHARDS Robert J., (1987), Darwin and the Emergence of Evolutionary Theories of Mind and Behavior,
+Chicago, Chicago University Press.
+RICHARDSON Robert C. & Achim STEPHAN, (2007), “Emergence,” Biological Theory, 2 (1), 91-6.
+RUDDER BAKER Lynne, (2017), “Naturalism and the Idea of Nature,” Philosophy, 92 (3), 333-49.
+Introduction to Pragmatism and Theories of Emergence
+European Journal of Pragmatism and American Philosophy, XI-2 | 2019
+8
+
+--- Page 10 ---
+
+SARTENAER Olivier, (2016), “Sixteen Years Later: Making Sense of Emergence (Again),” Journal for
+General Philosophy of Science, 47 (1), 79-103.
+SAWYER R. Keith, (2001), “Emergence in Sociology: Contemporary Philosophy of Mind and Some
+Implications for Sociological Theory,” American Journal of Sociology, 107 (3), 551-85.
+STEPHAN Achim, (1999a), “Varieties of Emergentism,” Evolution and Cognition 5, 49-59.
+STEPHAN Achim, (1999b), Emergenz: Von der Unvorhersagbarkeit zur Selbstorganisation, Dresden,
+Dresden University Press.
+TIERCELIN Claudine, (1998), “Peirce’s Objective Idealism. A Defense,” Transactions of the Charles S.
+Peirce Socitety, 34 (1), 1-28.
+TONONI Giulio & Christof KOCH, (2015), “Consciousness: Here, There and Everywhere?,” 
+Philosophical Transactions of Royal Society B, 370, [doi.org/10.1098/rstb.2014.0167].
+WRIGHT Chauncey, (1873), “The Evolution of Self-Consciousness,” North American Review, Apr.; now
+in Philosophical Discussions, ed. by C. E. Norton, Burt Franklin, New York, 1877, repr. in F. X. Ryan
+(ed.), The Evolutionary Philosophy of Chauncey Wright, 3 vols., Thoemmes Press, Bristol-Sterling,
+vol. 1, 199-266.
+NOTES
+1. According to synchronic emergentism, a property of a system is emergent if it is irreducible to
+the  arrangement  and  the  properties  of  the  system’s  part,  whereas  diachronic  em ergentism
+argues that emergent properties could not have been predicted in principle before their first
+instantiation. These strong versions of emergentism are not independent of each other, “since
+irreducible  properties  are  eo  ipso  unpredictable  in  principle  before  their  f irst  appearance”
+(Stephan 1999a: 49). Stephan also argues that at the basis of these strong  versions there is a
+common  ‘weak’  theory  which  presents  three  basic  features,  namely:  the  thesis  of  physical
+monism,  the  thesis  of  systemic  (or  collective)  properties,  and  the  thesis  of  synchronic
+determinism. See also Stephan 1999b. 
+2. On different versions of naturalism see L. Rudder Baker 2017. As Laughlin ( 2005: 208) argues:
+“science has now moved from an Age of Reductionism to an Age of Emergence.”
+3. On the history of British Emergentism see McLaughlin 1992.
+4. For a similar version see O’Connor & Wong 2005; McLaughlin 1992.
+5. On  a  recent  version  of  diachronic  ontological  emergence  see  Humphreys  2016.  On  a
+confrontation between diachronic and synchronic emergence see Humphreys 2008.
+AUTHORS
+GUIDO BAGGIO
+Università Roma Tre
+guido.baggio[at]uniroma3.it
+Introduction to Pragmatism and Theories of Emergence
+European Journal of Pragmatism and American Philosophy, XI-2 | 2019
+9
+
+--- Page 11 ---
+
+ANDREA PARRAVICINI
+Università degli Studi di Milano
+andrea.parravicini[at]unimi.it
+Introduction to Pragmatism and Theories of Emergence
+European Journal of Pragmatism and American Philosophy, XI-2 | 2019
+10

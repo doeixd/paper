@@ -1,0 +1,1666 @@
+--- Page 1 ---
+
+EUR Research Information Portal
+Being Realist about Bayes, and the Predictive Processing Theory of Mind
+Published in:
+British Journal for the Philosophy of Science
+Publication status and date:
+Published: 01/03/2021
+DOI (link to publisher):
+10.1093/bjps/axy059
+Document Version
+Publisher's PDF, also known as Version of record
+Document License/Available under:
+CC BY-NC
+Citation for the published version (APA):
+Colombo, M., Elkin, L., & Hartmann, S. (2021). Being Realist about Bayes, and the Predictive Processing Theory of Mind.
+British Journal for the Philosophy of Science, 72(1), 185-220. https://doi.org/10.1093/bjps/axy059
+Link to publication on the EUR Research Information Portal
+Terms and Conditions of Use
+Except as permitted by the applicable copyright law, you may not reproduce or make this material available to any third party
+without the prior written permission from the copyright holder(s). Copyright law allows the following uses of this material
+without prior permission:
+            • you may download, save and print a copy of this material for your personal use only;
+            • you may share the EUR portal link to this material.
+In case the material is published with an open access license (e.g. a Creative Commons (CC) license), other uses may be
+allowed. Please check the terms and conditions of the specific license.
+Take-down policy
+If you believe that this material infringes your copyright and/or any other intellectual property rights, you may request its
+removal by contacting us at the following email address: openaccess.library@eur.nl. Please provide us with all the relevant
+information, including the reasons why you believe any of your rights have been infringed. In case of a legitimate complaint,
+we will make the material inaccessible and/or remove it from the website.
+
+--- Page 2 ---
+
+Being Realist about Bayes,
+and the Predictive Processing
+Theory of Mind
+Matteo Colombo, Lee Elkin,
+and Stephan Hartmann
+Some naturalistic philosophers of mind subscribing to the predictive processing theory of
+mind have adopted a realist attitude towards the results of Bayesian cognitive science. In this
+article, we argue that this realist attitude is unwarranted. The Bayesian research programme in
+cognitive science does not possess special epistemic virtues over alternative approaches for
+explaining mental phenomena involving uncertainty. In particular, the Bayesian approach
+is not simpler, more unifying, or more rational than alternatives. It is also contentious that
+the Bayesian approach is overall better supported by the empirical evidence. So, to develop
+philosophical theories of mind on the basis of a realist interpretation of results from Bayesian
+cognitive science is unwarranted. Naturalistic philosophers of mind should instead adopt an
+anti-realist attitude towards these results and remain agnostic as to whether Bayesian models
+are true. For continuing on with an exclusive focus and praise of Bayes within debates about
+the predictive processing theory will impede progress in philosophical understanding of sci-
+entiﬁc practice in computational cognitive science as well as of the architecture of the mind.
+1. Introduction
+Most contemporary philosophers of mind are methodological naturalists. They tend
+to believe that philosophical theories of mind should be evaluated by the same cri-
+teria that are employed in evaluating scienti ﬁc theories in the cognitive and brain
+sciences. Philosophers of mind subscribing to methodological naturalism are com-
+mitted to the ideas that the cognitive and brain sciences are the ultimate source of
+knowledge about minds, and that the construction of philosophical theories of mind
+should be empirically constrained.
+A consequence of these commitments is that if there is reason to suspend belief on
+what a scienti ﬁc theory in the cognitive sciences alleges regarding mental entities
+and processes, then methodological naturalists should not construct philosophical
+accounts of mind that assume the scienti ﬁc theory is true. On the other hand, if
+© 2018 The Author(s). All rights reserved.
+
+
+--- Page 3 ---
+
+the evidence is suf ﬁciently strong to warrant belief in the truth of the theory, then
+methodological naturalists would have good reason to construct philosophical ac-
+counts that take the scienti ﬁc theory at face value. In any case, naturalistic theories
+in the philosophy of mind should be coherent with the epistemically warranted
+views about the results of relevant scienti ﬁc investigations.
+It turns out that several philosophers of mind subscribing to methodological nat-
+uralism and who have formulated philosophical theories on the basis of results from
+Bayesian cognitive science tend to be scienti ﬁc realists. Before we articulate this
+point in detail, let us clarify how we understand the terms ‘scientiﬁc realism ’ and
+‘Bayesian’ in what is to follow. We understand‘scientiﬁc realism’ as a philosophical
+position concerning the epistemic status of scienti ﬁc theories and models. In partic-
+ular, a realist attitude towards Bayesian cognitive science amounts to believing that
+predictively successful Bayesian models deliver knowledge about both observable
+and unobservable aspects of the mind and/or brain. If the current evidence justi ﬁes
+this realist view, there is suf ﬁcient reason to believe that all entities and processes
+posited by predictively successful Bayesian models exist. Anti-realism, contras-
+tively, amounts to an agnostic or sceptical attitude towards the existence of any un-
+observable entity or process posited by predictively successful Bayesian models.
+According to the anti-realism we have in mind, successful scientiﬁc models and the-
+ories should be understood as conceptual tools or instruments for achieving practical
+goals and engaging with the world; they should not be understood as descriptions of
+how things stand in the world.
+Regarding the term ‘Bayesian’, we follow the common construal in philosophy
+and cognitive science where ‘Bayesian’ is meant to be a placeholder for a set of in-
+terrelated principles, methods, and problem-solving procedures, which are uni ﬁed
+by three tenets. First, uncertainty should be captured by a real-valued function that
+measures degrees of belief. Second, degrees of belief, at any given time, ought to
+satisfy the axioms of probability theory. Third, degrees of belief, represented by de-
+terminate probabilities, ought to be updated in the light of new information, typically
+by the canonical rule of conditionalization. However, the third tenet may be con-
+strued more broadly since other learning and inference rules have proved successful
+including Jeffrey conditionalization (Zhao and Osherson [2010]), the minimization
+of a statistical distance such as the Kullback –Leibler divergence (Diaconis and
+Zabell [1982]; Eva and Hartmann [2018]), and formal procedures for approximating
+posterior probability distributions like variational free-energy minimization (Hinton
+and Van Camp [1993]) and Monte Carlo methods (Sanborn et al. [2010]).
+Terminology aside, we now clarify the target of the article guilty of unwarranted
+Bayesian realism, namely the so-called predictive processing theory of mind and
+brain (Clark [2013], [2016]; Hohwy [2013]). In short, the theory views the mind
+as being fundamentally engaged in prediction error minimization—that is, minimiz-
+ing the mismatch between internally generated predictions of sensory inputs and
+actual sensory inputs generated externally. In the development of the theory, the
+186 Matteo Colombo et al.
+
+
+--- Page 4 ---
+
+predictive processing theory of mind has posited various theoretical entities and pro-
+cesses including neurally encoded ‘hierarchical probabilistic generative models ’,
+‘predictions’, and ‘prediction errors’, and ‘precision weighting’ of prediction errors.
+Insofar as predictive processing theorists adopt a positive epistemic stance towards
+these posits based on results in Bayesian cognitive science, the general argument we
+articulate below against such stance applies to these posits, which we argue are not
+yet worthy of the epistemic commitment.
+It is also worth clarifying early on why our contribution in this article is important
+for both philosophers and cognitive scientists. Bayesianism has become ever more
+prominent in the cognitive and brain sciences, as well as in naturalistic philosophy of
+mind that is concerned with predictive processing. Driven by mathematical advances
+in statistics and computer science, along with engineering successes in ﬁelds such
+as machine learning, Bayesian modelling has become incredibly useful for study-
+ing brain function and mental phenomena including perception, motor control, learn-
+ing, decision-making, and reasoning (Knill and Richards [1996]; Rao et al. [2002];
+Chater et al. [2006]; Körding [2007]; Oaksford and Chater [2007]; Tenenbaumet al.
+[2011]). Given Bayes’s success, it is thus important to examine the current epistemic
+status of Bayes, and how this status would re-conﬁgure our understanding of the na-
+ture of predictive processing.
+With these clari ﬁcations in place, we now point to textual evidence supporting
+the allegation that several philosophers of mind relying on results from Bayesian
+cognitive science tend to be scienti ﬁc realists. In a seminal article developing the
+predictive processing theory, for instance, Clark ([2013], p. 189) claims that ‘the
+computational framework of hierarchical predictive processing realizes [ …] a ro-
+bustly Bayesian inferential strategy, and there is mounting neural and behavioural
+evidence that such a mechanism is somehow implemented in the brain ’. Hohwy
+([2013], p. 25), even more explicit, says:
+[…] here is converging evidence that the brain is a Bayesian mechanism. This
+evidence comes from our conception of perception, from empirical studies of
+perception and cognition, from computational theory, from epistemology, and
+increasingly from neuroanatomy and neuroimaging. The best explanation of
+the occurrence of this evidence is that the brain is a Bayesian mechanism that
+is, in fact, engaged in inference, belief, and decision.
+In introducing a special journal issue, Kirchhoff ([2018]) echoes Hohwy and Clark
+on ‘Bayesian prediction processing’ being committed to the sweeping, causal claim
+that ‘all psychological phenomena come about through the same process: minimi-
+zation of prediction error and precision estimation ’. This commitment would pre-
+sumably be justiﬁed by evidence from Bayesian modelling in the cognitive sciences.
+Madary ([2016], pp. 95ff ) con ﬁrms this suspicion by taking evidence from the
+‘Bayesian predictive processing approach’ as providing empirical support to the the-
+sis that visual perception is an ongoing process of anticipation and fulﬁlment. While
+not a predictive processing theorist, Rescorla ([2015], [2016]) too holds a realist
+Being Realist about Bayes 187
+
+
+--- Page 5 ---
+
+stance towards the results of Bayesian sensorimotor psychology in arguing for in-
+tentional realism concerning mental representation. 1
+Despite the many predictive processers who are apparently committed to realism,
+we ﬁnd it is currently unwarranted as the appropriate epistemic attitude towards the
+results of Bayesian cognitive science. If philosophers of mind like Clark, Hohwy,
+Rescorla, and others are committed to methodological naturalism, then they should
+not believe predictively successful Bayesian models have actual counterparts in men-
+tal architectures or brains. Instead, their arguments about the architecture of the mind,
+mental representation, and the nature of mental phenomena, should re ﬂect agnosti-
+cism or scepticism in the existence of the theoretical entities and processes posited
+by Bayesian models.
+We suspect that most cognitive scientists employing Bayesian models are less
+concerned with the truth of any particular Bayesian model than with its degree of
+ﬁt with measurement outcomes. Philosophers of mind working on predictive pro-
+cessing, however, have unfortunately put relatively little effort towards making the
+nature, aims, and scope of Bayesian modelling in cognitive science transparent. Phil-
+osophical work on predictive processing has typically taken Bayesian results at face
+value, and has tried to draw conclusions for traditional debates in the philosophy of
+mind such as the nature of conscious experience, the relationship between perception
+and action, and representationalism by assuming that ‘Bayesian predictive process-
+ing’ is true.
+2
+This lack of attention to actual scientiﬁc practice has bolstered Bayes’s reputation
+in the philosophy of mind while covering up the controversies over the empirical and
+theoretical adequacy of Bayesianism (see Chater et al. [2011]; Jones and Love
+[2011]; Bowers and Davis [2012a], [2012b]; Grifﬁths et al. [2012]; Marcus and Da-
+vis [2013]; for recent philosophical treatments, see Eberhardt and Danks [2011]; Co-
+lombo and Seriès [2012]; Zednik and Jäkel [2016]; Colombo and Hartmann [2017];
+Icard [2018]). This lack of attention is consequential. If Bayesian models are not to be
+understood realistically, philosophical controversies about the status of representa-
+tions in Bayesian models, or their bearing on externalist (or internalist) arguments
+about mental states, are pointless. If our argument succeeds in undermining Bayesian
+realism, the nature and epistemic status of arguments concerning the predictive pro-
+cessing theory should be reappraised.
+In looking ahead, our argument will not appeal to an implausible version of
+underdetermination, wherein there are logically possible modelling approaches that
+1 Another example is Danks ([2014]) who argues for a version of ‘representation realism ’, according to
+which many cognitive representations in the human mind are graphical models. As Danks ([2014],
+p. 5) explains, graphical models consist ‘of two components: (i) a graph encoding qualitative information
+about the structure (causal, informational, or other) among various factors; and (ii) a quantitative repre-
+sentation of the relation strengths’. As graphical models may or may not involve Bayesian updating, they
+need not be Bayesian. Because Danks is careful not to equate graphical models with Bayesianism (see, in
+particular, Danks [2014], Chapter 8.2.2), his representation realism is beyond the scope of our article.
+2 For a sample of this expanding literature, see (Metzinger and Wiese [2017]).
+188 Matteo Colombo et al.
+
+
+--- Page 6 ---
+
+are equally well supported by available empirical evidence or rationally defensible
+as Bayesianism. Rather, our argument will start by reconstructing what we call the
+‘argument from uncertainty for Bayesian cognitive science ’. This argument pro-
+vides cognitive scientists with a common reason for choosing Bayesianism, and be-
+gins from the observation that uncertainty is an ineliminable feature of cognitive
+systems’ interactions with the world. In order to survive and behave adaptively, bi-
+ological cognitive systems must rely on knowledge derived from sparse, noisy, or
+ambiguous sensory data produced by a constantly changing environment. Because
+sensory data are often sparse, ambiguous, or corrupted by noise, cognitive systems
+would constantly face problems of inference and decision-making under uncer-
+tainty. Unless these problems are effectively solved, reliable action, accurate percep-
+tion, and adaptive learning would not be achievable.
+Since uncertainty is an ineliminable feature of cognitive systems’ interactions with
+the world—so continues this argument—the explanatory framework cognitive scien-
+tists use to seek explanations of mental capacities and phenomena should account for
+how cognitive systems effectively deal with uncertainty. That is, the framework
+ought to include sound inferential and decision-making procedures that biological
+cognitive systems would deploy when interacting with an uncertain environment.
+Given the success of Bayesianism in other ﬁelds dealing with inference and decision-
+making under uncertainty, one may conclude that Bayes should also serve as a suc-
+cessful explanatory approach in the cognitive sciences. Upon reconstructing the
+argument from uncertainty for Bayesian cognitive science, we will clarify the kinds
+of reasons that are commonly cited to justify the choice to adopt Bayesianism as a
+favourite approach for cognitive and neural modelling.
+After putting these reasons into focus, we will explicate under which conditions
+the choice to adopt a Bayesian framework is justi ﬁed. Over time, the issue will be
+resolved empirically; and, in fact, some debates in cognitive science are currently
+focused on the question of whether there is some non-Bayesian model that is equally
+good at ﬁtting behavioural or neural data. But in the meantime, the reasons for sup-
+porting the choice to adopt Bayesianism fails to include its non-empirical (or super-
+empirical) virtues. Our contribution ﬁlls this gap in the literature, and continues on
+by examining whether the argument from uncertainty provides enough support for
+choosing Bayes as the favourite approach to understanding mind and brain. If not,
+and if the empirical evidence fails to clearly favour Bayesianism over alternatives,
+then, based on both empirical considerations and a comparison of the non-empirical
+virtues enjoyed by Bayes and its alternatives, a realist attitude towards the results of
+Bayesian modelling is unwarranted.
+In developing this argument, we ﬁrst clarify what the argument from uncertainty
+is supposed to establish (Section 2) and what role it plays in scienti ﬁc practice (Sec-
+tion 3). Then, we consider whether there is any serious, actually conceived, alterna-
+tive to Bayesianism for representing uncertainty and explaining how biological cog-
+nitive systems can effectively manage it. We then go on to argue that if plausible
+Being Realist about Bayes
+189
+
+
+--- Page 7 ---
+
+alternatives are available but systematically neglected, then the strength of the argu-
+ment from uncertainty is signi ﬁcantly weakened (Section 4). A key feature of our
+argument at that point is that there is no convincing reason to believe that Bayes en-
+joys special epistemic virtues in comparison to its alternatives.
+In the conclusion of the article, we discuss a practical reason for choosing a Bayes-
+ian approach. We realise that many of the Bayesian cognitive scientists we cite are in
+principle open to non-Bayesian methods for modelling certain problems. Yet, these
+scientists hardly ever discuss the virtues and problems of the alternatives. One reason
+why alternatives might get neglected is that the Bayesian approach, in comparison to
+these alternatives, currently affords cognitive scientists with a richer body of concep-
+tual and empirical results as well as computational tools that have been well devel-
+oped and employed in neighbouring ﬁelds of machine learning and statistics. So,
+the popularity of Bayesianism in cognitive science, similar to other scienti ﬁc ﬁelds,
+is not necessarily grounded by the pursuit of truth, empirical evidence, or by super-
+empirical virtues like simplicity and unifying power. Cognitive scientists may choose
+Bayes because, pragmatically, there are a lot of tools and methods from neighbouring
+ﬁelds to draw from (Gigerenzer [1991]). Upon recognizing this sociological point,
+the claims put forward by naturalistic philosophers of mind like ‘the brain is literally
+Bayesian’ (Hohwy [2015], p. 17) or that current sensorimotor psychology strongly
+supports a realist attitude towards the theoretical posits of Bayesian models (Rescorla
+[2015], [2016]) are not well supported scientiﬁcally. We brieﬂy discuss how this con-
+clusion is consequential for framing current disputes about the predictive processing
+theory of mind; we’ll suggest that predictive processing may be best understood‘aes-
+thetically’, as a beautiful theory offering an invitation to see humans and the place of
+mind in the world from a new viewpoint (cf. Prinz [forthcoming]).
+2. From Uncertainty to Bayesian Brains
+The argument from uncertainty aims to provide a good reason for thinking that
+Bayesianism is the best way to explain mental phenomena involving uncertainty.
+The argument includes two steps. The ﬁrst step substantiates the claim that biolog-
+ical cognitive systems must effectively deal with uncertainty in order to survive and
+thrive (that is, in order to interact adaptively with their environment). The second
+step tries to establish that Bayesianism is the best approach for explaining how cog-
+nitive systems effectively deal with uncertainty.
+2.1. Uncertainty, underdetermination, and noise
+Bayesian cognitive scientists typically introduce their studies by pointing out that
+the mind must constantly grapple with uncertainty. For example, Knill and Pouget
+([2004], p. 712) introduce their discussion of the Bayesian brain hypothesis by
+claiming that ‘humans and other animals operate in a world of sensory uncertainty ’.
+190 Matteo Colombo et al.
+
+
+--- Page 8 ---
+
+Ma et al. ([2006], p. 1432) motivate their study on how populations of neurons
+might perform Bayesian computations by saying that ‘virtually all computations
+performed by the nervous system are subject to uncertainty ’. Oaksford and Chater
+([2007], p. 67) advocate a Bayesian approach to human cognition suggesting that
+‘human reasoning is well adapted to the uncertain character of everyday reasoning
+to integrating and applying vast amounts of world knowledge concerning a partially
+known and fast-changing environment ’.
+Orbán and Wolpert ([2011], p. 1) focus on Bayesian approaches to sensorimotor
+control and motivate their focus by saying that ‘uncertainty is ubiquitous in our sen-
+sorimotor interactions, arising from factors such as sensory and motor noise and am-
+biguity about the environment’. Tenenbaum et al. ([2011], p. 1279) point out that‘we
+build rich causal models, make strong generalizations, and construct powerful ab-
+stractions, whereas the input data are sparse, noisy, and ambiguous —in every way
+far too limited’. Vilares and Körding ([2011], p. 22) review several lines of research
+in Bayesian cognitive neuroscience emphasizing that‘uncertainty is relevant in most
+situations in which humans need to make decisions and will thus affect the problems
+to be solved by the brain’. Pouget et al. ([2013], p. 1170) write that ‘uncertainty is an
+intrinsic part of neural computation, whether for sensory processing, motor control or
+cognitive reasoning’.
+Provided the apparently broad consensus that cognitive systems inevitability face
+uncertainty, there are two ways to interpret these cognitive scientists ’ claims. Ac-
+cording to one reading, the point is merely expository. Claims like the ones just
+quoted get readers to see why the Bayesian approach is worth considering when
+one is interested in understanding how cognitive systems can deal with uncertainty.
+According to another reading, the point is justi ﬁcatory. The claims merely function
+as a way to convince readers that the choice to pursue the Bayesian approach is
+justiﬁed.
+3
+Granted, cognitive systems must grapple with uncertainty, but an inference from
+‘biological agents are faced with states of uncertainty ’ to ‘Bayes is the best ’ is in-
+valid on either reading. If the point is merely expository, then it is puzzling that
+no alternatives to the Bayesian approach are ever mentioned in the literature. Bayes-
+ianism is one possible approach for representing and handling inference under
+uncertainty, but it is by no means the only one. On the other hand, if the point is
+3 We should note that this justi ﬁcatory interpretation has few if any explicit proponents in the cognitive
+sciences. We suspect pretty much every cognitive scientist agrees that more direct empirical conﬁrmation
+than any current argument could possibly provide is needed for us to be justi ﬁed in believing that mental
+processes are Bayesian. Some philosophers, on the other hand, have come close to suggesting this jus-
+tiﬁcatory interpretation. Hohwy ([2013], p. 49), for example, presents Bayesian priors and likelihoods
+as furnishing minds with ‘required additional constraints’ with normative import for dealing with uncer-
+tainty. Gładziejewski ([2016], p. 561) motivates predictive processing by claiming that ‘the brain deals
+with uncertainty by implementing or realizing (approximate) Bayesian reasoning ’. Williams ([forthcom-
+ing]) advertises Bayesianism as offering ‘attractive explanations of [ …] how brains overcome the noise
+and ambiguity in their sensory evidence ’.
+Being Realist about Bayes 191
+
+
+--- Page 9 ---
+
+justiﬁcatory, then there is an implicit assumption that Bayesianism is somehow
+more empirically adequate, or enjoys greater (or more) non-empirical virtues over
+alternative frameworks. However, such an assumption can be easily undermined,
+as it is far from obvious that Bayesianism is simpler, more unifying, or more rational
+than alternative approaches. We will have much more to say on this issue later on in
+Section 4.
+2.2. The explanatory power of Bayes
+Biological cognitive systems access the world through their senses, which are viewed
+as sources of uncertain information about the state obtaining in the world at any given
+time. In statistical terminology, we may refer to the states of the world as ‘environ-
+mental parameters’ or ‘hidden states’, and the sensory information as ‘sensory data’
+or ‘evidence’. The problem biological cognitive systems face at any given time is in-
+ferring which hidden state in their environment generated their sensory data. Unless
+biological cognitive systems can effectively solve this problem, such systems be-
+come incapable of adaptive action and perception, and reliable learning.
+However, the values of environmental parameters are underdetermined by the
+available sensory data —that is, there are multiple, different states in the world that
+ﬁt the sensory data received by a biological cognitive system at any given time. Be-
+cause many different environmental states may be consistent with the same piece
+of sensory data received, processing sensory data alone is not suf ﬁcient to deter-
+mine which state in the world caused it. Hence, sensory data underdetermine their
+environmental causes, which manifests a state of uncertainty within the system.
+In Bayesian cognitive science, the term ‘uncertainty’ is used broadly to characterize
+this problem of underdetermination that biological cognitive systems must con-
+stantly solve.
+As an example, the sensory data generated by a convex object under normal light-
+ing circumstances underdetermines its external cause. In such environment, there
+are at least two possible states that can ﬁt the available sensory data: the object in
+the world that caused the data is convex and the light illuminating the object comes
+from overhead; or the object is concave and the illuminating light comes from be-
+low. In order to perceive the world as being in one speciﬁc state, as opposed to being
+in a superposition of two or more different states, cognitive systems must ﬁnd some
+method to solve this problem.
+Furthermore, uncertainty may also arise from noise, where the source is internal
+or external to biological cognitive systems. As noisy signals contain meaningless
+information, noise modiﬁes the original meaning of a signal and extends the cogni-
+tive system ’s freedom of choice in decoding that meaning. This is an undesirable
+freedom, to the extent that the adaptive behaviour the system can produce requires
+an appropriate degree of ﬁdelity between original and decoded signals. While noise
+poses a challenge for biological systems estimating environmental parameters,‘noise
+192 Matteo Colombo et al.
+
+
+--- Page 10 ---
+
+permeates every level of the nervous system, from the perception of sensory signals
+to the generation of motor responses ’ (Faisal et al. [2008], p. 292).
+Within a biological cognitive systems ’ signal processing, there are three sources
+of noise. The ﬁrst source of noise lies in the thermodynamic or quantal transduction
+of the energy comprised by sensory signals into electrical signals. ‘For example, all
+forms of chemical sensing (including smell and gustation) are affected by thermo-
+dynamic noise because molecules arrive at the receptor at random rates owing to dif-
+fusion and because receptor proteins are limited in their ability to accurately count
+the number of signalling molecules ’ (Knill and Richards [1996], p. 4). The second
+source of noise lies in biophysical features of ion channels, of synaptic transmission,
+of network interactions and random processes governing neural activations. These
+biophysical features introduce noise at the level of cellular signalling. A third source
+of noise lies in the transduction of signals carried by motor neurons into mechanical
+forces in muscle ﬁbres. This transduction introduces noise in the signals supporting
+motor control, and can make motor behaviour highly variable even in the same types
+of circumstances when the same motor goal is pursued. To perform motor com-
+mands reliably and behave optimally, biological systems must ﬁnd some strategy
+to handle the noise introduced at different levels of neural processing.
+We have described how uncertainty tends to manifest within a biological cognitive
+system either from noise (that is, random disturbances corrupting the sensory signals
+and processes of the system) or underdetermination of percepts, along with other
+cognitive states, by sensory data. Whether caused by noise or surfacing from ambi-
+guity, uncertainty arises from environment and behaviour. The environment (includ-
+ing the body) constantly changes; and even if the environment staysﬁxed, a cognitive
+system’s behaviour shows an ineliminable degree of variability. For example, if you
+reach for an object in darkness, your visual and motor systems will lack relevant in-
+formation about the location of the object. Your uncertainty about its location will be
+reﬂected by a lack of accuracy in any one reaching trial. If you try to reach for that
+object over and over again, you’ll observe a large variability in your movement over
+reaching trials. Likewise, when a visual stimulus is held constant, your visual percep-
+tions of the stimulus will still manage to vary over time. In order for biological sys-
+tems to have accurate perceptions and to display reliable motor behaviour, they must
+ﬁnd some way to tame this variability.
+Biological cognitive systems would effectively deal with sensory and motor un-
+certainty if they maintain, ‘at each stage of local computation, a representation of all
+possible values of the parameters being computed [in accordance to Bayes ’s rule]
+along with associated probabilities ’ (Knill and Pouget [2004], p. 713). This idea
+is borne out by recent advancements in machine learning, where Bayesian methods
+are often used to solve problems of underdetermination and to mitigate detrimental
+effects of noise (Ghahramani [2015]). As bene ﬁciaries of the computer scientists ’
+and machine learners ’ labour, cognitive scientists may employ the same methods
+to seek explanations of central aspects of cognition, brain and behaviour.
+Being Realist about Bayes
+193
+
+
+--- Page 11 ---
+
+2.3. Bayes and uncertainty: A natural marriage?
+The second step in the argument from uncertainty tries to establish that Bayesianism
+is the best for seeking explanations of how biological cognitive agents grapple with
+uncertainty, focusing speciﬁcally on non-empirical (or super-empirical) virtues. That
+is, the argument tries to show that Bayes is able to explain most simply, most gener-
+ally, and most rationally how biological cognitive agents solve the problem of under-
+determination and handle the effects of noise. If this step is successful, then we would
+be justiﬁed to claim that the Bayesian approach is the best for discovering and assess-
+ing explanations of cognitive, neural and behavioural phenomena. The thought that
+Bayes is in some sense ‘the best’ for explaining how a system grapples with uncer-
+tainty is widely assumed by both philosophers of mind and cognitive scientists. Un-
+fortunately, the thought is hardly clari ﬁed and thus left ambiguous.
+On one dimension, the Bayesian approach provides a better language for repre-
+senting uncertainty than alternatives. If true, Bayes should be the preferred way
+of modelling uncertainty and inference in cognitive science. On another dimension,
+systems that implement Bayesian algorithms deal with uncertainty in the most ratio-
+nal way. Bayesianism, then, should be the preferred way if we seek to provide a ‘ra-
+tional analysis’, guiding explanations of behaviour in terms of an adaptive response
+to speciﬁc problems posed by the environment. While the ‘optimal language’ fea-
+ture concerns the representational virtues of Bayesianism, the ‘rationality’ feature
+concerns its normative character. Both virtues pertain to non-empirical properties
+of Bayes. We will discuss the relevant evidence and literature for both of these vir-
+tues in Section 3 and evaluate Bayes against alternatives in terms of relative non-
+empirical virtues in Section 4.6. For now, we specify how Bayesian cognitive sci-
+entists represent uncertainty in their models, and how they understand the rational
+character of their models.
+Bayesian cognitive scientists represent uncertainty through probability.
+4 Cognitive
+systems are assumed to entertain degrees of ‘belief’ over a hypothesis space A. De-
+grees of belief concern what in the world could have caused the sensory data E cur-
+rently available to the system. Each belief is associated with a prior probabilityPHðÞ ,
+which represents the weight borne by the belief that H on the processes carried out
+by the system on its sensory data. Probabilities are also assigned to ( E, H ) pairs in
+the form of a generative model that speciﬁes a joint probability distribution over sen-
+sory data and hypotheses about states in the world generating those data. Generative
+models de ﬁne likelihood functions specifying how probable it is that the system
+would receive the current data E, given a hypothesized state H about the world,
+namely, PE jHðÞ . With a generative model, a likelihood PE jHðÞ , the current data
+E, and prior knowledge PHðÞ , the system computes the posterior conditional prob-
+ability PH jEðÞ , thereby reallocating probabilities across the hypothesis space in
+4 For simplicity, we will assume that the mathematical object is a ﬁnitely additive probability mass
+function.
+194 Matteo Colombo et al.
+
+
+--- Page 12 ---
+
+accordance with some learning rule, for instance with straight conditionalization, Jef-
+frey conditionalization, distance minimization, or free-energy minimization. 5
+Bayesian cognitive scientists generally see themselves as providing rational anal-
+yses of cognitive functions, where they make a speciﬁc hypothesis about the types of
+problems the mind would face, try to ﬁnd optimal solutions to these problems, and
+use these solutions to guide research on how the mind actually solves those prob-
+lems (see Grifﬁths et al. [2012]; Rahnev and Denison [2018]; for recent philosoph-
+ical treatments, see Icard [2018]; Zednik and Jäkel [2016]). Bayesian rational anal-
+yses are typically understood within David Marr ’s levels of analysis framework
+(Marr and Poggio [1977]). These levels include the computational, the algorithmic,
+and the implementation level. The computational level speci ﬁes the problem to be
+solved in terms of an input-output mapping. In the case of Bayesian modelling in
+cognitive science, this is typically a problem of inference under uncertainty. If the
+task is one of extracting some property of a noisy sensory stimulus, the input-output
+mapping that de ﬁnes the computational problem is a function mapping the noisy
+sensory data to an estimate of the stimulus that caused that data. The class of rules
+for generating the output and their associated representational posits are de ﬁned at
+the algorithmic level. At the level of implementation, the focus is on how probabilis-
+tic representations and Bayesian algorithms can be realized in neural circuits and
+activities (Pouget et al. [2013]; Ma and Jazayeri [2014]). In fact, many Bayesian
+cognitive scientists are interested in all of Marr ’s levels of analysis (Grif ﬁths et al.
+[2012]), and for many naturalistic philosophers of mind working on predictive pro-
+cessing, ‘the real interest [of Bayesian models] comes from the stronger notion that
+human beings might actually use the apparatus of probability theory to make their
+decisions, explicitly (if not consciously) representing prior probabilities, and updat-
+ing their beliefs in an optimal, normatively sound fashion based on the mathematics
+of probability theory’ (Marcus and Davis [2013], p. 2358).
+3. Representing Uncertainty and Explaining Rationally
+In the previous section, we distinguished between two ways one might understand
+the claim that Bayesianism is the best approach for explaining how cognitive systems
+grapple with uncertainty. One way is in terms of its representational virtues, while the
+other is in terms of its normative virtues. Both of these virtues rely on non-empirical
+(or super-empirical) features of Bayesianism. Hohwy et al.’s ([2008]) explanation of
+binocular rivalry offers a good illustration of how predictive processers may appeal
+to these virtues.
+5 Learning rules govern belief update, but they do not specify how the beliefs entertained by the system are
+used to produce a decision, action, or some other behavioural phenomenon. How the posterior is used to
+produce a decision requires de ﬁning a loss function, which speci ﬁes the relative cost of making a certain
+decision based on a certain belief. To determine the most rational decision available at a given time, the
+system needs to compute the estimated loss for any given decision and belief.
+Being Realist about Bayes 195
+
+
+--- Page 13 ---
+
+Binocular rivalry is the alternating percept that often results when incompatible
+images are presented dichoptically. Hohwy et al. ([2008], p. 688) have proposed
+a Bayesian, predictive processing mechanism as the ‘best’ for explaining binocular
+rivalry. They assume that the brain is a hierarchically organized probabilistic ma-
+chine, which would model and infer the environmental causes of its perceptual in-
+puts. Hohwy and colleagues ’ explanation speciﬁes two conditions under which we
+should expect binocular rivalry. The ﬁrst condition is that the visual system assigns
+both high prior probability and high likelihood to no single model of the environ-
+mental causes of current visual input. During binocular rivalry, the visual system se-
+lects the percept associated with the model that is assigned the highest prior proba-
+bility. The second condition is that, when one of the two images is selected by the
+visual system, the sensory input produced by the other image results in an ‘unex-
+plained but explainable prediction error signal [which] induces instability in per-
+ceptual dynamics that can give rise to perceptual alternations’ ([2008], p. 687). While
+to the best of our knowledge no speci ﬁc hypothesis based on this explanation has
+been experimentally tested, Hohwy and colleagues suggest the explanation they
+offer is ‘unifying’ ([2008], p. 688), ‘parsimonious’ ([2008], p. 690), but also ‘more
+principled than alternative non-epistemological accounts ’ ([2008], p. 694). In short,
+Hohwy et al. ([2008]) demonstrate how an appeal to the representational and nor-
+mative virtues of Bayes can be used to conclude that a Bayesian approach to explain-
+ing certain mental phenomena is the best.
+Unfortunately, these virtues alone do not provide philosophers of mind and cog-
+nitive scientists with a compelling reason to prefer the Bayesian approach over al-
+ternatives as one ’s basis for discovering and assessing explanations of mental phe-
+nomena. In the light of Hohwy et al.’s ([2008]) case and with the discussion in the
+previous section in hand, let ’s address the following questions: what are exactly
+the properties of Bayesianism that contribute to its representational power? And what
+are the properties of Bayesianism that contribute to its capacity to de ﬁne computa-
+tional problems and to provide‘rational’ (or ‘principled’) solutions to such problems?
+3.1. Representing uncertainty
+Explanatory frameworks possess certain non-empirical, epistemic properties that in-
+crease representational power. Two such properties are simplicity and uni ﬁcatory
+power. If frameworkF possesses all the properties or each of the properties to greater
+extent in comparison to an alternative framework, F ∗, then there is reason, based on
+non-empirical virtues, to prefer F to F ∗ as one’s working framework for scienti ﬁc
+explanation.
+In the proceeding discussion, simplicity may roughly be understood as some mea-
+sure of the number and conciseness of the framework ’s basic principles and repre-
+sentational posits, and uni ﬁcation may roughly be understood as some measure of
+the number of different kinds of phenomena or systems that the framework can
+196 Matteo Colombo et al.
+
+
+--- Page 14 ---
+
+be applied to. Taken together, the simplicity of a framework brings with it pragmatic
+advantages like being more perspicuous and easier to use and to manipulate, and
+uniﬁcation brings with it epistemic advantages related to explanation and con ﬁrma-
+tion (Sober [2003]).
+In thinking about the Bayesian approach in cognitive science along these lines, the
+approach achieves some degree of simplicity. The set of principles guiding the ap-
+proach is fairly minimal: (i) an agent ’s beliefs that differ in strength are modelled
+by real numbers; (ii) at any given time, an agent ’s beliefs obey the axioms of prob-
+ability; (iii) over time, an agent updates their beliefs according to a rule of condi-
+tionalization.
+6 These principles allow cognitive scientists to formulate research ques-
+tions compactly and precisely (Chater et al. [2006], p. 287). The language also has
+much unifying power (Tenenbaumet al. [2011], p. 1285). In fact, it offers a common,
+encompassing, and ﬂexible mathematical language for studying a wide variety of
+phenomena and systems.
+However, even though the Bayesian language appears to be simple, many Bayesian
+models of real-world, high-dimensional tasks are hard to formulate and manipulate.
+One challenge concerns computing the posterior distribution, which is intractable
+(or ‘computationally complex’) for most real-world problems and calls for approxi-
+mations and heuristics that might themselves be intractable (Kwisthoutet al. [2011]).
+Another challenge is choosing a suitable model and prior. A suitable model should
+not limit the form of probability distributions (for example, always normal) or func-
+tions (for example, always linear), which are part of the solution to a cognitive task.
+Priors should not rule out plausible candidate hypotheses by assigning them zero
+probability, nor should they spread uniform mass over all possible hypotheses. Upon
+resolving these modelling challenges, one ends up with Bayesian models that are sig-
+niﬁcantly complicated and hard to manipulate.
+7
+As for uniﬁcation, although Bayesianism has been used to ﬁt an impressive range
+of data from a diverse variety of cognitive and behavioural tasks, this kind of uni-
+ﬁcatory power does not obviously have explanatory or con ﬁrmatory import (Eber-
+hardt and Danks [2011]; Colombo and Hartmann [2017]). Similar to Bayesianism,
+the language of Lagrangian ﬁeld theory can be used for studying many kinds of sys-
+tems. For example, it can be applied both to the behaviour of a system of gravitational
+masses and that of an electric circuit. This fact, however, does not warrant the con-
+clusion that we have a common explanation of the behaviour of both systems. More
+6 Note that there are several schemes for representing precise probabilities such as a full probability distri-
+bution, or a scheme requiring the representation of at least two moments (for example, variance and skew-
+ness) of the sensory distribution. While most Bayesian models assume a full probability distribution, this
+assumption is not supported by empirical evidence (Rahnev [unpublished]).
+7 The notion of ‘simplicity’ regarding these modelling challenges is understood, respectively, as a property
+of a model itself and as a property of the activity of modelling. More precisely, the ‘simplicity’ (‘tracta-
+bility’ or ‘computational complexity’) of a model itself concerns the time a Turing machine requires to
+return an output for each input. The ‘simplicity’ of the activity of modelling may be explicated as the
+degree of ease with which a model can be built and manipulated to obtain a desired result (see Colombo
+[2015], Section 3).
+Being Realist about Bayes 197
+
+
+--- Page 15 ---
+
+generally, while the representational ﬂexibility of Bayesian models contributes to its
+unifying power, it might prompt cognitive scientists to select priors and likelihood
+functions post hoc to merely accommodate but not explain behavioural and neural
+data (for this kind of criticism, see Bowers and Davis [2012a]).
+3.2. Explaining rationally
+Bayesianism has undoubtedly much appeal to cognitive scientists because it pro-
+vides them with a clear normative standard on how adaptive agents should combine
+and weigh different degrees of belief, how they should update their degrees of be-
+lief upon receiving novel information, and how they should make decisions and in-
+ferences under uncertainty.
+The normative appeal of Bayesianism initially arose from synchronic and dia-
+chronic Dutch book arguments justifying its tenets: degrees of belief are (i) proba-
+bilistic and (ii) updated via conditionalization. Dutch book arguments aim to estab-
+lish that it is practically irrational for an agent to have degrees of belief that violate
+the probability calculus and/or rule of conditionalization. After all, either of these
+violations would expose an agent to accepting a set of bets that guarantees a net loss.
+While Dutch book arguments are purely pragmatic, the rationality of Bayesianism
+has more recently been grounded in accuracy considerations, where accuracy is con-
+strued as ‘closeness to truth’ (Joyce [1998]). The argument relies on a proper scoring
+rule for measuring the inaccuracy of a belief function at a possible world w that
+gradually penalizes the function as it becomes more distant from the ideal belief
+function at w. Leitgeb and Pettigrew ([2010a], [2010b]) have shown that for some
+proper scoring rule, S, an agent that has probabilistic degrees of belief and who up-
+dates by conditionalization will have less inaccurate degrees of beliefs compared to
+an agent with non-probabilistic degrees of belief and who updates in some other
+way. On the assumption that accuracy is a fundamental feature of epistemic rational-
+ity, then Bayesianism is epistemically rational.
+Each of these justi ﬁcations is not uncontroversial, however. Dutch book argu-
+ments imply that the utility for a bundle of bets is the summed utilities associated
+with the individual bets, but this is not true if utility is non-linear in money. Of
+course, one might counter by arguing that utility should be linear in money. How-
+ever, there is little empirical basis for mandating this requirement since non-linear
+utilities are common in ordinary decision-making as a result of risk aversion or di-
+minishing marginal utility.
+8 As for the accuracy-based justi ﬁcation, there is much
+controversy surrounding the central assumption —that is, accuracy is a fundamental
+feature of being epistemically rational. Littlejohn ([2015]) points out that some
+accurate beliefs are worthless, yet the accuracy argument seems to neglect the fact.
+8 Besides the linear versus non-linear utility contention with Dutch book arguments, we refer the reader to
+objections found in (Hájek [2008]), which also presents a ‘Czech Book Argument ’ with the conclusion
+that agents ought to violate the probability calculus.
+198 Matteo Colombo et al.
+
+
+--- Page 16 ---
+
+Besides worthless accuracy, some have argued that proponents have not established
+feasible epistemic interpretations for the objects of the mathematical framework
+(Carr [2017]). Without a compelling story, the accuracy argument is driven purely
+by fancy mathematics.
+9
+So, even though Bayesianism appears to be—as Hohwy and collaborators ([2008])
+put it—‘more principled than alternative non-epistemological accounts ’, its norma-
+tive force is in fact controversial.
+4. Tracking Uncertainty: A Plurality of Theories
+Early on, we alluded to a problem for proponents of the predictive processing theory
+and philosophers of mind who take results from Bayesian cognitive science at face
+value. The problem is a neglect of different yet promising approaches that represent
+several of the mental phenomena captured by current Bayesian models.
+Ignorance is bliss, of course, since naturalistic philosophers may avoid addressing
+the controversies ignited by sceptics and non-Bayesians. The neglect has also con-
+tributed to motivating an unwarranted scientiﬁc realism regarding Bayesian models.
+Bringing the problem into focus, we contend that it should not be taken for granted
+that states of uncertainty realized by cognitive systems are best (or most naturally)
+represented and explained within a Bayesian framework. This is because a system-
+atic comparison remains to be seen of the relative epistemic virtues (both empirical
+and non-empirical) of Bayesianism and alternative approaches to representing and
+handling uncertainty. Thus, we ﬁnd the view that ‘Bayes is best ’ has unjustiﬁably
+gained the endorsement of many philosophers of mind through systematic neglect
+of other plausible alternatives.
+In this section, we address this de ﬁciency in the philosophical literature by dis-
+cussing ﬁve formal approaches for representing uncertainty, including Dempster –
+Shafer (DS) theory, imprecise probability, possibility theory, ranking theory, and
+quantum probability theory. Along the way, we highlight their logical relationships
+with Bayes and one another.
+10 Of course, what follows is not intended to be an ex-
+haustive literature review (for thorough surveys, see Halpern [2003]; Huber [2016]).
+Nevertheless, the highlighted merits of each theory considered suf ﬁce to undermine
+the assumption that Bayesianism is the simplest, most unifying, or most rational ap-
+proach to explaining uncertainty-involving cognitive phenomena.
+9 Gelman ([2008]) offers a concise overview of arguments against Bayesian statistics. He focuses on two
+classes of objections: ﬁrst, Bayes is overly ﬂexible, since Bayesianism does not constrain which of
+many possible models should apply in any given task; second, hierarchical and empirical Bayes is implau-
+sibly over-sold as an all-purpose, automatic statistical engine.
+10 Although each framework we consider provides a representation of uncertainty within the scope of prob-
+ability theory broadly construed, there are also implicit, non-probabilistic approaches to uncertainty in
+cognitive science, and particularly in computational cognitive neuroscience (Drugowitsch and Pouget
+[2012]). We do not discuss such theories here, but making the reader aware of them at least expands
+the set of alternatives to consider. By expanding the space of possibilities, the case against the argument
+from uncertainty becomes more convincing.
+Being Realist about Bayes 199
+
+
+--- Page 17 ---
+
+Later in this section, we identify some important perceptual and cognitive phe-
+nomena that Bayesianism fails to adequately predict but are predicted by some of
+the alternative approaches we review. These observations count as strikes against
+Bayes, further undermining the assumption that Bayesianism is the best way to rep-
+resent and explain how cognitive systems manage uncertainty. We also think that
+predictive processers should take note of the different theoretical entities posited
+by these alternative theories, which, from a scientiﬁc realism perspective, would have
+signiﬁcant consequences on debates in philosophy of mind currently relying on re-
+sults from Bayesian cognitive science such as the nature of mental representation
+and internalism versus externalism. We conclude the section with a recommendation
+that naturalistic philosophers of mind should not be Bayesian realists given the em-
+pirical successes of these other models that posit different theoretical entities.
+4.1. The Dempster –Shafer framework
+Rather than modelling a state of uncertainty with a probability function, the DS the-
+ory of evidence represents ‘degrees of belief ’ through a pair of non-additive func-
+tions and accommodates learning through Dempster’s rule for aggregating evidence
+instead of simple conditionalization (Shafer [1976]). As a matter of logic, Bayes im-
+plies DS, but DS does not imply Bayes, thus yielding more expressive power.
+In the DS theory of evidence, there are three functions used in modelling a state
+of uncertainty: a mass function, a belief function, and a plausibility function. Let W
+be a ﬁnite set of states. A mass function, m, is a mapping of subsets from the power
+set or frame of discernment (the set of all subsets including ⊘ ), ℘ WðÞ , to the unit
+interval 0, 1½/C138 , where m ⊘ðÞ 5 0, and the sum of masses for all X ⊆ W is one. The DS
+belief function, Bel, and the plausibility function, Pl,d e ﬁne a lower and upper
+bound, respectively, representing the support and plausibility of each element
+X ∈ ℘ WðÞ . The lower bound, Bel XðÞ ,i sd e ﬁned as the sum of masses for all
+Y ⊆ X . The upper bound, Pl(X ), is de ﬁned as the sum of masses for all subsets that
+intersect X. A concrete example of these functions put to use can be seen in Table 1
+with W 5 fq1, q2, q3g.
+In the example, observe that ∑X ⊆W mXðÞ 5 Bel WðÞ 5 Pl WðÞ 5 1, thus indicat-
+ing complete certainty in the sure event W. For each proper subset of W, however,
+the same cannot be said. Levels of uncertainty associated with each proper subset are
+Table 1. DS example
+{} fq1gf q2gf q3gf q1, q2gf q1, q3gf q2, q3gf q1, q2, q3g
+Mass 0 0.1 0.2 0.1 0.1 0.1 0.3 0.1
+Belief 0 0.1 0.2 0.1 0.4 0.3 0.6 1
+Plausibility 0 0.4 0.7 0.6 0.9 0.8 0.9 1
+200 Matteo Colombo et al.
+
+
+--- Page 18 ---
+
+realized by Bel /C1ðÞ and Pl /C1ðÞ . Take the subset fq1, q3g, for example, which we will
+label X. The sum of masses assigned to fg, fq1g, fq3g, and fq1, q3g is the lower
+level, Bel XðÞ 5 0:3. The sum of masses for subsets that intersect the set of interest
+is the upper level, Pl XðÞ 5 0:8. Together, the pair generates a ‘belief interval ’,
+0:3, 0:8½/C138 , which, in addition to uncertainty, captures partial ignorance that is illus-
+trated by the difference between Pl and Bel where Bel XðÞ ≤ Pl XðÞ always.
+Another distinctive property of the DS theory is that the union of disjoint events is
+believed at least as strongly as the sum of the beliefs for each individual event in
+contrast to the strict equality between the probability of the union of disjoint events
+and the sum of the probabilities for each individual event. This implies that Bel is
+superadditive—that is, Bel X ∪ YðÞ ≥ Bel XðÞ 1 Bel YðÞ for all disjoint elements X,
+Y ∈ ℘ WðÞ . The conjugate Pl, on the other hand, is subadditive —that is, Pl X ∪ð
+Y Þ ≤ Pl XðÞ 1 Pl YðÞ for all disjoint elements X, Y ∈ ℘ WðÞ . Notice, then, that the
+mathematical objects representing ‘degrees of belief ’ in the DS theory are non-
+additive, thus distinguishing itself from the classical Bayesian theory.
+As for inference, the DS theory includes Dempster ’s rule of combination for ag-
+gregating mass functions associated with information from multiple, independent
+sources as follows:
+m1 ⊗ m2ðÞ XðÞ 5 1
+1 2 K ∑
+X1 ,X2 : X1 ∩ X2 5Xfg
+m1 X1ðÞ m2 X2ðÞ ,
+where K 5 ∑fX1 , X2 : X1 ∩ X2 5⊘ gm1 X1ðÞ m2 X2ðÞ , X ≠⊘ , and m1 ⊗ m2ðÞ ⊘ðÞ 5 0. This rule
+corresponds to a normalized joint operation in which information is combined by
+favouring the agreement between the sources and ignoring all con ﬂicting evidence
+(Dempster [1968]).
+4.2. The imprecise probability framework
+Another way of modelling uncertainty is with a non-empty set of probability func-
+tions, P, or imprecise probability, whose members are deﬁned on an algebra A over
+a set of states W (Levi [1974]; Walley [1991]; Augustin et al. [2014]). Similar to the
+DS theory of evidence, Bayes implies imprecise probability, but imprecise probabil-
+ity does not imply Bayes. So once again, we obtain more expressive power and yet
+preserve a connection to Bayes.
+In the imprecise probability framework, there are some unique features worth not-
+ing. For one, the belief model, P, is usually accompanied by a lower probability
+P XðÞ 5 inf fPXðÞ : P ∈ Pg and an upper probability PXðÞ 5 supfPXðÞ : P ∈ Pg
+for all X ∈ A. Comparatively, a lower probability plays a similar role as Bel and
+an upper probability plays a similar role as Pl. Likewise, lower and upper probabil-
+ities are non-additive. Instead, P is superadditive and P is subadditive —that is,
+P X ∪ YðÞ ≥ P XðÞ 1 P YðÞ and PX ∪ YðÞ ≤ PXðÞ 1 PYðÞ for all X, Y ∈ A.
+Being Realist about Bayes 201
+
+
+--- Page 19 ---
+
+Furthermore, if P is convex —that is, for any l ∈ 0, 1½/C138 and P1, P2 ∈ P, lP11
+1 2 lðÞ P2 ∈ P—then uncertainty is represented by interval-valued probabilities,
+P XðÞ 5 a, b½/C138 , for all X ∈ A and a, b ∈ 0, 1½/C138 . On the surface, imprecise probability
+and the DS theory look very much alike. In contrast, though, imprecise probability
+is even more general than DS given that every DS belief interval is an imprecise prob-
+ability, but not every imprecise probability is a DS belief interval (Huber [2016]).
+Another difference is that imprecise probability can reduce to Bayesianism with
+less restriction. To see this, suppose that P is a singleton set relative to some algebra.
+Then, the lower and upper probabilities are realized by a single probability function
+P—that is, P 5
+P 5 P. What we learn from this fact is that P can in principle al-
+ways be Bayesian by restricting P to a singleton set, but whether Bel is Bayesian
+or not ultimately depends on the masses assigned to subsets.
+In addition, imprecise probability more closely resembles Bayes in its inference
+procedure. Inference proceeds by way of conditioning each individually precise
+P ∈ P on new information E, assuming P EðÞ > 0. The result is a set of conditional
+probabilities P/C1 j EðÞ and lower and upper conditional probabilities, P /C1j EðÞ and
+P /C1j EðÞ . In the instance that P/C1ðÞ and P EðÞ are singleton sets, P/C1 j EðÞ is also a single-
+ton set, that is, P/C1 j EðÞ 5 fP /C1j EðÞ g . Once again, imprecise probability reduces to
+Bayesianism with less restriction than DS.
+We conclude that imprecise probability retains many of the bene ﬁts of Bayesian-
+ism while also enjoying increased expressive power.
+4.3. The possibility framework
+Possibility theory was inspired by ideas in fuzzy logic aiming at accommodating
+vagueness (Zadeh [1975]). Using possibility theory for the purpose of measuring de-
+grees of uncertainty rather than degrees of truth, a possibility measure, P, models
+‘the knowledge of an agent (about the actual state of affairs) distinguishing what
+is plausible from what is less plausible, what is the normal course of things from
+what is not, what is surprising from what is expected ’ (Dubois and Prade [2007]).
+Despite a difference in language, representations of uncertainty closely resemble DS
+uncertainty. Thus, we ﬁnd another generalization of Bayes, possessing increased ex-
+pressive power.
+In the possibility framework, we de ﬁne a possibility distribution, p, on a set of
+states W. p maps states w ∈ W to real numbers in the unit interval 0, 1 ½/C138 , and
+p wðÞ 5 1 for at least one w ∈ W . From a possibility distribution, we can construct
+a possibility measure P : A → R, where A is an algebra over W, that assigns zero to
+⊘ and one to W. A possibility measure is de ﬁned as P XðÞ 5 sup
+w∈X p wðÞ for all
+X ∈ A. P provides a degree to which an event is possible, where one is the maximum
+possibility and zero is the minimum possibility. Like the DS theory and imprecise
+probability, a possibility measure induces a conjugate measure N : A → R called
+202 Matteo Colombo et al.
+
+
+--- Page 20 ---
+
+‘necessity’. The necessity measure is deﬁned as N XðÞ 5 inf w∈X p wðÞ for all X ∈ A.
+A necessity measure N provides a degree to which an event is necessary.
+Distinct from additive probability functions, a possibility measure,P, has a unique
+property of ‘maxitivity’. The maxitivity property says that ifX and Y are disjoint sets,
+then P X ∪ YðÞ 5 max P XðÞ , P YðÞðÞ . This means that the union of disjoint sets is at
+least as possible as the maximally possible disjoint set, yet the union is no more pos-
+sible than such set —hence, subadditivity. While P XðÞ is an upper bound with re-
+spect to uncertainty toward X, N XðÞ is the lower bound where N XðÞ 5 12
+P X cðÞ . Consequently, we obtain a dual property,N X ∩ YðÞ 5 min N XðÞ , N YðÞðÞ .
+As for inference in possibility theory, if P YðÞ > 0 and the set X is non-empty,
+then one way to account for new information is as follows:
+P X jYðÞ 5
+1i f   P X ∩ YðÞ 5 P YðÞ ;
+P X ∩ YðÞ if   P X ∩ YðÞ < P YðÞ :
+(
+The difference between conditional possibility and conditional probability is that
+P X ∩ YðÞ cannot be the product P X jYðÞ /C2 P YðÞ in an ordinal setting, so # is re-
+placed by min.
+With the bigger picture in mind here, P and N are similar to Pl and Bel, respec-
+tively. In fact, if a mass function, m,o na ﬁnite frame of discernment is consonant by
+assigning positive mass only to an increasing sequence of sets, then a plausibility
+function, Pl, relative to, m, is a possibility measure (see Halpern [2003], Theo-
+rem 2.5.4). With Bel
+m being the conjugate of Plm, it follows that Belm is a necessity
+measure. Thus, possibility theory is closely linked to the DS theory.
+4.4. The ranking framework
+Ranking functions can be viewed as measures of how surprising it would be if an
+event were to occur (or if some hypothesis is true). Formally, ranking function
+K : A → N ∪f∞g, where A is an algebra over a set of states, W, models the degree
+of disbelief or surprise assigned to events (Spohn [2012]). We say that an event X is
+surprising or disbelieved just in case its rank is positive —that is, K XðÞ > 0. Events
+that are disbelieved are ranked gradually by the natural numbers to a maximum of∞.
+The higher rank, the higher degree of surprise. Intuitively, the empty set should be
+disbelieved to the highest degree.
+On the other hand, if an eventX is not at all surprising, then that event is assigned a
+rank of zero. As it is obvious, W should never be disbelieved, for it is not surprising
+that one of the states in W obtains. However, unsurprisingness does not necessarily
+imply that if X is assigned a rank of zero, then X is believed. An event X is said to be
+believed just in case its complement is disbelieved, that is, K X
+cðÞ > 0. Otherwise, a
+rank of zero assigned to X and X c would seem to suggest suspension of judgement
+since one has yet to come to disbelieve either X or X c.
+Being Realist about Bayes 203
+
+
+--- Page 21 ---
+
+As for inference in the ranking theory, a conditional model of uncertainty may be
+deﬁned like so: K X jYðÞ 5 K X ∩ YðÞ 2 K YðÞ . By using conditional ranks, a com-
+mon rule for updating on new information corresponds to Bayesian conditionaliza-
+tion through an analogue to Bayes ’s rule: K X jYðÞ 5 K Y jXðÞ 1 K XðÞ 2 K YðÞ .
+Fitting ranking theory into the larger picture, ranking functions are closely related
+to possibility measures and can be transformed in the following way: PK XðÞ 5
+1= 1 1 K XðÞðÞ and PK XðÞ 5 0i f K XðÞ 5 ∞. Given the latter transformation,
+the degree of surprise is over 0, 1½/C138 instead of N ∪f∞g. In either case, though, we
+obtain a generalization of Bayes, and its increased expressive power affords the
+modeller more ﬂexibility.
+4.5. The quantum probability framework
+Quantum probability theory is a geometric model of uncertainty. It uses fragments
+of the language of mathematical probability, but outcomes are distinctively repre-
+sented as sub-spaces of varying dimensionality in a multidimensional Hilbert space,
+which is a vector space used to represent all possible outcomes for questions asked
+about a system. Unit vectors correspond to possible states of the system and embody
+knowledge about the states of the system under consideration.
+Probabilities of outcomes are determined by projecting the state vector onto dif-
+ferent sub-spaces and computing the squared length of the projection. The determi-
+nation of probabilities is context and order-dependent since individual states can be
+superposition states and composite systems can be entangled. Thus, while in the
+Bayesian framework PX ∩ YðÞ 5 PY ∩ XðÞ , the commutative property in quan-
+tum probability does not always hold. More generally, unlike in Bayesianism, quan-
+tum probability does not obey the law of total probability (for a nice introduction,
+see Rédei and Summers [2007]).
+Incompatibility in quantum probability theory entails that it is impossible to concur-
+rently assign a truth-value to two hypotheses. Psychologically, two incompatible hy-
+potheses in this sense can be processed only serially because the processing of one hy-
+pothesis interferes with the other. Given hypothesesA and B, for example, if A is true
+at a certain time, then B can be neither true nor false at that time. Conjunctions be-
+tween incompatible hypotheses are then deﬁned in a sequential way as‘A and then B’.
+One advantage of quantum probability is that it permits explanations of cognitive
+systems in a superposition of different states. Superposition can give rise to a spe-
+ciﬁc kind of uncertainty that is dependent on the fuzziness and ambiguity of infor-
+mation and that characterizes the ambivalence of many of our normal judgements.
+Additionally, entanglement tracks the interdependencies between different parts of
+complex cognitive systems. In entangled systems, it is not possible to de ﬁne a joint
+probability distribution from the probability distributions of variables corresponding
+to different constituent parts —changes in one constituent part entails instantaneous
+changes in another part.
+204 Matteo Colombo et al.
+
+
+--- Page 22 ---
+
+Courtesy of interference, superposition, and entanglement, we are able to explain
+the conjunction fallacy, non-compositional conceptual semantics, order effects in per-
+ception, and violations of the sure thing principle (Busemeyer and Bruza [2012]).
+4.6. Heir to the throne?
+Each of the theories of uncertainty we have brie ﬂy reviewed has some epistemic ad-
+vantage over Bayesianism as well as limitations too. The DS theory, for instance,
+has an advantage of representing states of complete ignorance without precise de-
+grees of belief: zero mass everywhere except for the sure event. Alongside, evidence
+and beliefs are both formalized as belief functions. Furthermore, combining evi-
+dence with Dempster’s rule has the desirability of relaxing strong independence as-
+sumptions. Upon gathering new evidence, beliefs should be determined by combin-
+ing the vacuous belief function with the total evidence. Thus, when used to model
+problems of sensory integration, the DS approach can generate a measure of conﬂict
+between belief functions, which can be used to determine the degree of coherence
+between distinct sources of sensory information, and to reject unreliable sources.
+All of this suggests that Bayes might not be the most unifying or explanatory theory
+after all.
+A problem for the DS theory, however, is that inference is even more computa-
+tionally inefﬁcient than Bayesian inference. The inef ﬁciency stems from evidence
+being represented by a belief function that is induced by a mass function on the frame
+of discernment instead of a probability distribution over a partition. Combining ev-
+idence by Dempster ’s rule increases computational complexity as the number of
+possible states increases. In an attempt alleviate the complexity issue, though, Shafer
+and Tversky ([1985], p. 311) emphasized: ‘The usefulness of one of these formal
+languages [that is, the Bayesian and the DS language] for a speci ﬁc problem may
+depend both on the problem and on the skill of the user [ …] A person may ﬁnd
+one language better for one problem and another language better for another ’. De-
+spite their theoretical differences, virtues, and drawbacks, DS and Bayes are not
+incompatible theories. Precise probability distributions are limiting cases of DS
+belief functions and conditional probability distributions are limiting cases of ap-
+plying Dempster’s rule. As mentioned earlier, the DS theory is a generalization of
+Bayesianism. Thus, any evidence con ﬁrming Bayes con ﬁrms the DS theory also.
+The imprecise probability approach clearly has more expressive power than Bayes-
+ianism and therefore can capture more uncertainty-involving phenomena. For one,
+ignorance is better represented in terms of intervals rather than sharp probabilities. An-
+other advantage is that imprecise probability opens the door to a whole host of deci-
+sion rules, which have normative implications as well as an ability to explain certain
+behaviour like ambiguity aversion. Since Bayes fails on both counts, Bayesianism is
+neither the most unifying nor rational framework. Of course, imprecise probability is
+not without ﬂaws. For one, it has a computational inef ﬁciency problem involving
+Being Realist about Bayes
+205
+
+
+--- Page 23 ---
+
+greater complexity when updating convex sets of probabilities. The theory also en-
+counters trouble when it comes to updating ‘trivial states of uncertainty’ or the non-
+informative prior, 0, 1½/C138 , which has prompted some to rule out vacuous priors since
+they give rise to vacuous posteriors (Walley [1991]). But in doing so, the theory be-
+comes restricted to representing partial ignorance and loses the capability of represent-
+ing complete ignorance. In order to recover such representation, imprecise probability
+would need to be extended by a non-Bayesian updating rule. Despite these theoretical
+differences, virtues, and drawbacks, however, imprecise probability and Bayes are not
+incompatible. Any evidence that conﬁrms Bayes also conﬁrms the imprecise proba-
+bility theory.
+The possibility approach has a computational advantage over probability as
+‘maxitivity’ makes possibility measures compositional —that is, P X ∪ YðÞ is deter-
+mined by the maximum of P XðÞ and P YðÞ . Less computation indicates that possi-
+bility theory is at least simpler than Bayesianism. Within the larger picture, there are
+similarities between possibility theory and DS theory in which a Pl function can be
+a possibility measure. However, possibility need not be restricted to a DS interpre-
+tation. In general, possibility theory ‘can be seen either as a coarse, non-numerical
+version of probability theory, or as a framework for reasoning with extreme proba-
+bilities, or yet as a simple approach to reasoning with imprecise probabilities ’ (Du-
+bois and Prade [2007]). In cognitive science, possibility theory has been used for
+modelling default and non-monotonic reasoning (see Benferhat et al. [2005]). An-
+other advantage of the possibility approach is its usefulness in assessing vague state-
+ments like, ‘Bob is tall’,o r ‘the shirt is blueish ’. Given its application to vagueness,
+possibility theory offers cognitive scientists a more uni ﬁed modelling framework
+for explaining reasoning under uncertainty with fuzzy concepts (Smithson and
+Verkuilen [2006]). But since fuzzy approaches to uncertainty such as possibility the-
+ory are not isomorphic to probability theory, it could be suggested that Cox ’s theo-
+rem ([1946]) rules out possibility theory as a rational means of quantifying uncer-
+tainty (but see Colyvan ’s [2008] questioning of whether probabilism is the only
+‘coherent’ approach to uncertainty).
+Ranking theory has an intimate connection to possibility theory. But, distinct
+from Bayesianism and the other approaches we have considered, proponents point
+out that ranking theory accommodates the everyday, categorical notion of belief
+(and disbelief ), not just quantitative degrees of belief. On these grounds, they claim
+that the ranking theoretic approach has advantages over probabilistic approaches be-
+cause it allows for everything that we can do with quantitative measures and also
+tackling traditional problems in epistemology that centre around the traditional tri-
+partite concept of belief (Spohn [2012]). Ranking theory can then be thought of as
+more unifying than Bayesianism. While ranking functions seem intractable because
+of the computational expense involved, similar to DS and imprecise probability,
+Goldszmidt and Pearl ([1992]) have formulated a Spohn-like framework that makes
+learning actually tractable. More recently, Häming and Peters ([2011], p. 226) show
+206 Matteo Colombo et al.
+
+
+--- Page 24 ---
+
+that a ranking function can be used ‘as a ﬁlter on possible actions a reinforcement
+learning […] agent may take’. However, although ranking theory has received some
+attention, especially in the arti ﬁcal intelligence community (Kern-Isberner and
+Eichhorn [2014]), its applications in experimental psychology are currently limited
+in comparison to Bayesian approaches, but efforts are increasing in ﬁelds such as
+conditional and non-monotonic reasoning (Skovgaard-Olsen [2016]).
+Quantum probability theory is uniquely based on axioms that give the theory the
+advantage of accounting for fuzzy and ambiguous information, but a serious draw-
+back is that quantum probability allows for an agent to be ‘Dutch-booked’.A sw e
+noted, Dutch book arguments do not provide a decisive reason for the superiority
+of Bayesianism, but they do bear on the rationality of theories of uncertainty. But
+even though quantum probability theory ‘is perhaps a framework for bounded ratio-
+nality and not as rational as in principle possible ’ (Pothos and Busemeyer [2014],
+p. 2), courtesy of its unique properties, including superposition, entanglement, in-
+compatibility, and interference, it accommodates empirical results related to order
+and context effects that are not plausibly explained within a Bayesian framework
+(Pothos and Busemeyer [2013]). Such capability indicates that quantum probability
+is more unifying. An example of this will be detailed in the following subsection.
+With the exception of quantum probability, the other approaches are compatible
+with Bayesianism. However, all the approaches considered posit different theoreti-
+cal constructs. Because they posit different theoretical constructs, one ’s epistemic
+attitude towards the results from any of these modelling approaches will be conse-
+quential with respect to our understanding of the nature of mental states and pro-
+cesses. After all, the different theoretical constructs aim at picking out different
+structures and processes within a cognitive architecture. So, if predictive processers
+suppose a realist attitude towards Bayesian posits, then they must show that belief
+in these posits is better supported in terms of non-empirical virtues and empirical
+adequacy. But we have shown that Bayesianism does not possess special non-
+empirical virtues over the alternatives. In the next subsection, we will focus on the
+issue of empirical adequacy.
+4.7. Empirical doubts
+Observations made thus far undermine the assumption that Bayesianism is the best,
+relative to non-empirical considerations, for representing and explaining uncertainty,
+and that it is the most rational approach. However, virtually all Bayesian cognitive
+scientists and naturalistic philosophers of mind interested in Bayes omit the compet-
+itors in their work and proceed by taking for granted the superiority of Bayesianism.
+This behaviour is methodologically problematic, however, and will vitiate debates
+in philosophy of mind concerning, for instance, representationalism and externalism.
+In fact, several ﬁndings in perception, judgement, and decision-making have been
+shown to be better explained by some of the theories outlined above.
+Being Realist about Bayes
+207
+
+
+--- Page 25 ---
+
+Starting with perceptual effects, the experimental results of Conte et al. ([2009])
+on quantum-like interference effects in the perceptual domain clearly demonstrate
+the failure of a Bayesian explanation. In their experiment, participants were pre-
+sented with ambiguous images, which could be perceived in two mutually exclusive
+ways. One group of participants was presented with a single image A and asked to
+make a binary choice between A 5 a or A 5 q on the basis of the way in which they
+perceived the image at the instance of observation. Another group of participants
+was presented with two ambiguous images, B and A. After each presentation, par-
+ticipations had to make a binary choice between B 5 b and B 5 r, and between
+A 5 a and A 5 q.
+By the law of total probability, a Bayesian theory predicts that the probability
+a participant chooses A p a in any of the trials is: PA 5 aðÞ 5 PB 5 bðÞ PA 5ð
+ajB 5 bÞ 1 PB 5 rðÞ PA 5 ajB 5 rðÞ .T h eﬁndings of Conte and colleagues were
+inconsistent with this prediction.
+11 However, the results were consistent with a quan-
+tum probability prediction that participants’ choices would be affected by quantum-
+like interference where the context generated by making the ﬁrst perceptual choice
+interfered with the second so that the participants’ choices showed order effects, im-
+plying non-commutativity. Since such interference effects are ubiquitous in psychol-
+ogy (see Kvam et al. [2015]), but incompatible with Bayesian predictions, the quan-
+tum probability theory better accounts for some psychological phenomena. Although
+the evidence does not fully vindicate quantum probability, it does undermine the view
+that Bayesianism is the most empirically adequate explanatory framework for percep-
+tual phenomena.
+In the domain of sensorimotor psychology, on which Rescorla ([2016]) builds his
+case for intentional realism, some phenomena do not seem to be obviously ex-
+plained by Bayesianism. Anderson et al. ([2011]), for example, reported forms of
+visual interpolation generating strong illusory percepts. Because these percepts are
+highly improbable according to Bayesian models for contour synthesis, the authors
+describe their ﬁndings as ‘non-Bayesian’. Another sensorimotor phenomenon that is
+not obviously explained by Bayesian models of sensory cue integration is the size-
+weight illusion. In this illusion, smaller objects are perceived as heavier than larger
+objects of the same weight, even though the prior expectation is that smaller objects
+are lighter. As the perception of heaviness discounts this prior expectation, the phe-
+nomenon has been characterized as ‘anti-Bayesian’ (Brayanov and Smith [2010]).
+We ﬁnd that while Bayesian approaches to sensorimotor and perceptual performance
+have been successful in ﬁtting a variety of phenomena, scarce attention has been
+paid in both the cognitive sciences and philosophy of mind to the extensive literature
+11 Bayesians will be quick to point out that context effects can straightforwardly be handled in Bayesian
+models by adjusting the likelihoods so that they no longer assume independent and identically distrib-
+uted samples. While this move underwrites the ﬂexibility of Bayes, it also highlights the risk of ad
+hocery that may come with this ﬂexibility.
+208 Matteo Colombo et al.
+
+
+--- Page 26 ---
+
+documenting non-Bayesian performance in perceptual and sensorimotor tasks
+(Rahnev and Denison [2018]).
+Beyond perceptual effects, Bayesianism is not an accurate predictor of human
+judgement. Anyone who has come across the literature on cognitive biases has likely
+encountered the ‘Linda the Bank Teller’ study by Tversky and Kahneman ([1983]).
+In it, experimental participants were given a short description of ‘Linda’ and asked
+which is more probable: ‘Linda is a bank teller ’ (B)o r ‘Linda is a bank teller and is
+active in the feminist movement’ (B ∩ F ). Bayesianism seems to predict that respon-
+dents will say that B is more probable because PB ∩ FðÞ ≤ PBðÞ . But those familiar
+with the study will report that Bayesianism is not a very good predictor. For most
+respondents answered, ( B ∩ F ). The observed effect has become known as the in-
+famous ‘conjunction fallacy’. For a discussion, see (Bovens and Hartmann [2003];
+Hartmann and Meijs [2012]).
+Further empirical evidence against Bayes lies with the assumption that agents are
+coherent. Since Bayesianism conforms to classical probability, the sum of probabil-
+ities over a set of disjoint events is one, and the justi ﬁcations for why the additivity
+axiom should be held as a normative standard have been explored above. But as
+Offerman et al. ([2009]) demonstrate, ordinary agents sometimes form incoherent
+distributions leading to what they call ‘additivity bias’. While this fact was known
+beforehand, they sought to explain the bias as a result of risk attitudes affecting
+judgement. After constructing a correction measure for risk attitudes, they found ad-
+ditivity bias to persist. So, additivity bias exists independently of risk attitudes. In
+their paper, they claim that non-additive models, like imprecise probability, are bet-
+ter able to explain the subjects ’ judgements.
+Decision-making is another area where Bayes is not generally an adequate frame-
+work for modelling and explaining preferences. Ellsberg ’s ([1961]) paradox is an
+exemplary case where Bayesianism reveals its shortcomings. When presented with
+two urns, one containing ﬁfty red balls and ﬁfty black balls and the other containing
+100 red and black balls in unknown proportions, subjects were indifferent to choos-
+ing a bet on drawing a red ball to a bet on drawing a black ball from either urn. When
+presented with bets across urns, for example, red from the known proportioned urn
+or red from the unknown proportioned urn, the results were interesting. Bayesianism
+predicts that an agent would be indifferent, but the results were inconsistent with the
+prediction. Most prefer red from the known proportioned urn to red from the un-
+known proportioned urn. The explanation is that ordinary individuals tend to be
+averse to ambiguity, and their preferences can be better accommodated by imprecise
+probability and maximin expected utility (Gilboa and Schmeidler [1989]).
+The psychological ﬁndings we have just reviewed, along with several other be-
+havioural and psychological studies (on perceptual decision-making, see Rahnev
+and Denison [2018]; on judgement under uncertainty, see Tversky and Koehler
+[1994]), limit the degree of empirical adequacy of classical Bayesian models. While
+these anomalies may be explained within a Bayesian approach by models with
+Being Realist about Bayes
+209
+
+
+--- Page 27 ---
+
+alternative priors, likelihood functions, cost functions or decision rules, Bayesian
+cognitive scientists often lack knowledge of their experimental participants ’ actual
+likelihood functions, priors, and cost functions. Presuming to have such knowledge
+is done at the researcher ’s own peril.
+Despite the discussed anomalies and uncertainties, however, one might be quick
+to point out that Bayesian cognitive scientists, and predictive processers alike, make
+suggestions about the possible neural implementation of Bayesian posits (Friston
+[2009]; Pouget et al. [2013]; Ma and Jazayeri [2014]) whereas advocates of the al-
+ternative approaches outlined have not made an effort in this matter. One might con-
+clude that, unlike its alternatives, Bayesianism is more empirically fruitful, as it spans
+all Marr’s levels by including possible implementation.
+This conclusion is too quick, however. In fact, concrete suggestions have also been
+made about how algorithms based on DS theory of evidence might be implemented
+in neurorobotic architectures for integrating different sources of sensory information
+(Murphy [1996]). For quantum probability, some have gone so far as to propose not
+only that the brain directly implements quantum computations, but also that quantum
+computation might illuminate how the brain produces consciousness (Hameroff
+[2007]). While we are not aware of any application at the neural level of algorithms
+based on imprecise probability, possibility theory or ranking functions, we do not see
+any reason why these approaches cannot be brought to bear on questions about how
+brains handle uncertainty. It is also important to point out that, though Bayesian cog-
+nitive scientists are considering various hypotheses about how brains might realise
+the entities and processes Bayesian models posit, the evidence in favour of any par-
+ticular implementation of Bayesian inference is currently inconclusive.
+In the face of the evidential uncertainties and of the empirical anomalies we have
+highlighted, it is surprising that a number of naturalistic philosophers of mind are
+willing to make blanket assertions such as the mind or brain is Bayesian. For these
+assertions to be convincing, a better job needs to be done in addressing Bayes ’s fail-
+ures and the empirical successes of alternative models.
+4.8. A Bayesian argument
+In closing this section, we would like to give a Bayesian argument to the effect that the
+cognitive science, and especially the philosophical communities should not adopt a
+realistic attitude towards Bayes too quickly. To do so, we consider a theory H which
+accounts for the evidence E. Introducing binary propositional variablesH and E with
+the values H (‘The hypothesis is true’)a n d:H (‘The hypothesis is false’)a n dE (‘The
+evidence obtains’)a n d :E (‘The evidence does not obtain ’), the Bayesian network
+depicted in Figure 1 describes the probabilistic relation between H and E.
+12
+12 For an introduction to the application of Bayesian network methods in epistemology and philosophy
+of science, see (Bovens and Hartmann [2003]).
+210 Matteo Colombo et al.
+
+
+--- Page 28 ---
+
+We assume that H entails E, that is, that the evidence is a deductive consequence
+of the theory. Hence, we set
+PHðÞ 5 h, PE jHðÞ 5 1,  PE j:HðÞ 5 a, (1)
+with 0 < a < 1. It is then easy to show that the posterior probability of H, that is, the
+probability of H after learning that E is true, is given by 13:
+PH jEðÞ 5 h
+h 1 a ≠ /C22h > h: (2)
+Hence, E conﬁrms H. But how much? As one sees from Equation (2), PH jEðÞ is a
+decreasing function of a. For a → 0, that is, if we consider it to be impossible that
+an alternative theory (which is contained in the ‘catch-all’ :H ) accounts for the ev-
+idence, then PH jEðÞ → 1. For a → 1, that is, if we are convinced that an alternative
+theory accounts for the evidence, then PH jEðÞ → h. Hence, if we consider it quite
+likely that an alternative theory accounts for the evidence, that is, if we set a ≈ 1,
+then PH jEðÞ ≈ h and we won ’t get much con ﬁrmation for H after observing E.
+This situation changes is we consider several independent pieces of evidence
+E1 … En. Assuming Ei ⫫ Ej jH for i ≠ j 5 1, … , n and setting PHðÞ 5 h,
+PE ijHðÞ 5 1, and PE ij:HðÞ 5 a for i 5 1, … , n, we obtain
+PH jE1, … , EnðÞ 5 h
+h 1 aeff /C22h : (3)
+For large n, aeff ≔ an ≈ 0 and hence PH jEðÞ ≈ 1. Given that Bayesian cognitive sci-
+ence accounts for many different phenomena, this seems to justify taking it very se-
+riously. Note, however, that we made two important assumptions. First, we assumed
+that the different pieces of evidence E
+1, … , En are independent (given H ). This is
+controversial and needs to be justi ﬁed on a case by case basis. Second, we assumed
+that all pieces of evidence are a deductive consequence ofH, that is, we assumed that
+PE ijHðÞ 5 1 for all i 5 1, … , n. This is controversial as H may make Ei only
+highly likely, and so we should set PE ijHðÞ to a value smaller than 1. Assigning
+a value smaller than 1 to PE ijHðÞ is also supported by the observation that Ei typ-
+ically does not follow from H alone, but from H and some additional auxiliary
+13 Here and throughout we use the abbreviation /C22x : 5 1 2 x.
+Figure 1. The Bayesian network with the variables H and E.
+Being Realist about Bayes 211
+
+
+--- Page 29 ---
+
+assumptions. (This is the famous Duhem–Quine problem.) Hence, PE ijHðÞ < 1 (for
+all i 5 1, … , n), which effectively lowers the posterior probabilityPH jE1, … , EnðÞ .
+To accept H, we would also like to make sure that the posterior probability of H
+is fairly high. As Equation (2) shows, the value of PH jEðÞ also depends on the
+prior probability of H (that is, on h) and neglecting it would mean to commit the
+base-rate fallacy.
+So let us now explore what we can say about the prior probability of H. We will
+argue that it depends on our beliefs about the existence of alternative theories that
+explain the evidence. To proceed with our analysis, we additionally introduce the
+binary propositional variable A with the values A ≔ ‘There is an alternative explana-
+tion for E
+0 and :A accordingly and study the Bayesian network depicted in Figure 2.
+We set
+PAðÞ 5 a,  PH jAðÞ 5 b, (4)
+with 0 < a, b < 1. b will be large if we believe that H is part of a better explanation
+(provided there is one) or if we believe that there can be multiple equally acceptable
+explanations for E. b will be small if we believe that an alternative explanation will
+be better and eventually replace H. b will also be small if one beliefs that either H or
+some alternative is right and that there can be only one explanation for E. Hence, if
+there is an alternative, this alternative might well be the true theory and hence one
+assigns a small value to b. Given that there are several more or less unexplored al-
+ternative theoretical frameworks in cognitive science (as argued above), it seems ra-
+tional to assign a rather low value to the parameter b.
+We also set
+PH j:AðÞ 5 1, (5)
+as there must be (or so we assume) an explanation for E.I f A is false and there is no
+alternative explanation for E, then H has to be true.
+With this, we calculate
+PHðÞ 5 h 5 ab 1 /C22a: (6)
+Hence, if one has good reasons to believe that a is fairly large (that is, if, as in the
+case of Bayesian cognitive science, alternatives to H are known and we can assume
+Figure 2. The Bayesian network with the variables H, E, and A.
+212 Matteo Colombo et al.
+
+
+--- Page 30 ---
+
+that they provide alternative explanations of E) and if b is fairly small (as we ar-
+gued), then the ‘prior’ h is relatively small and hence the posterior probability
+PH jEðÞ is relatively small.
+To sum up, we have given a Bayesian argument to the effect that we must be very
+careful and not accept too quickly claims that brains are Bayesian mechanisms or
+that we should adopt a realist stance towards Bayesian models in general.
+5. Conclusion: Against Bayesian Realism
+If there is good reason to doubt that, currently, the Bayesian approach provides us
+with the best explanations of many cognitive phenomena, then there is good reason
+to remain agnostic about the truth of Bayesian models of cognitive phenomena and
+behaviour, contrary to what has been claimed in the philosophical literature (see
+Hohwy [2013]; Clark [2016]; Rescorla [2016]), as well as in fragments of the cog-
+nitive science literature (see Knill and Pouget [2004]; Ma et al. [2006]; Friston
+[2009]).
+Facts about the institutional organization of contemporary scienti ﬁc inquiry bol-
+ster this agnosticism, providing us with some explanation of why alternatives to
+Bayesianism have been neglected. As pointed out by Stanford ([2015]), the institu-
+tional apparatus of contemporary scientiﬁc inquiry has ‘served to reduce not only the
+incentives but also the freedom scientists have to pursue research that challenges
+existing theoretical orthodoxy or seeks to develop fundamental theoretical innova-
+tion’. While this conservatism has fostered specialization in the sciences, it has also
+shielded reputable theories and frameworks from comparison with relevant, under-
+considered alternatives. Jettisoning conservatism by reversing the neglect of avail-
+able alternatives, their relative non-empirical virtues, and their relative empirical ad-
+vantages over Bayes would pose a serious challenge for a realist stance towards the
+results of Bayesian cognitive science.
+But as things currently stand, Bayesianism remains the most popular approach for
+representing and managing uncertainty. The tools which a Bayesian cognitive sci-
+entist is currently afforded to address problems of uncertain inference are more
+abundant in comparison to alternatives, and continue to be re ﬁned in neighbouring
+ﬁelds. By comparison, Bayesian approaches prevail over the DS theory, imprecise
+probability, possibility theory, ranking theory, and quantum probability theory in
+disciplines ranging from statistics to machine learning, AI, and economics (Poirier
+[2006]). And the popularity of Bayesian modelling continues to grow in the cogni-
+tive sciences, too, as evidenced by an increase in the number of articles, conference
+papers, and workshops dedicated to Bayesian modelling of cognition and its foun-
+dations (Kwisthout et al. [2011], Footnote 1).
+Despite the fact that Bayesianism does not enjoy special epistemic virtues in com-
+parison to alternatives, the choice to employ Bayesian method by cognitive scientists
+may be explained in terms sociological factors connected with the reward structure
+Being Realist about Bayes
+213
+
+
+--- Page 31 ---
+
+of scienti ﬁc institutions, which is biased towards conservatism (Stanford [2015]).
+These sociological factors may have led researchers to approach their research ques-
+tions with a Bayesian eye that created a neglect of alternatives. Seeing that more and
+more researchers have addressed their questions within the Bayesian framework, a
+division of cognitive labour has been fostered in the ﬁelds of cognitive science, epis-
+temology, and philosophy of mind. Sophisticated tools have been developed and
+exploited to approach problems at a higher level of specialization in both machine
+learning and human cognition (Gershman et al. [2015]). But if this higher degree
+of specialization continues within research communities with an incentive structure
+that strongly favours conservatism, then exploring and developing novel or alter-
+native theoretical frameworks will ultimately face a much more dif ﬁcult path. As
+this will impact the trajectory of cognitive science, we believe —like Gigerenzer
+([1991])—that it is important to take a step back and evaluate whether the net result
+is the best way to advance our understanding of how minds work.
+Upon conceding to the point that the choice of the Bayesian approach in cognitive
+science is currently based on pragmatic and sociological considerations instead of
+epistemic considerations, and if there are plausible, actually conceived alternatives
+to Bayes that are systematically neglected, then naturalistic philosophers of mind
+ought to acknowledge that scientiﬁc realism is not the appropriate epistemic attitude
+towards the outputs of Bayesian cognitive science. If this is correct, then naturalistic
+theories of mind such as Hohwy’s ([2013]) or Clark’s ([2016]) predictive processing
+theory, which build on results from Bayesian cognitive science, cannot make the
+substantial empirical claims that brains are Bayesian mechanisms, that mental states
+are fundamentally ‘predictions’ or that mental activity is fundamentally prediction-
+error minimization. These theories, and the debates they generated in the philosophy
+of mind should instead re ﬂect an instrumental agnosticism about whether or not
+minds are ‘really’ Bayesian.
+An endorsement of anti-realism towards Bayes should re-con ﬁgure our under-
+standing of debates about predictive processing in a number of ways. In particular,
+controversies concerning the nature of mental representations within predictive pro-
+cessing should all be re-interpreted in a ﬁctionalist way (Sprevak [2013]). According
+to the kind of ﬁctionalism we have in mind, we should be agnostic concerning claims
+about representations within predictive processing debates; these claims do not aim at
+truth, but pretending they aim at truth is worthwhile for various purposes. One obvious
+purpose ofﬁction is aesthetic appeal. Perhaps, like Prinz ([forthcoming]) suggests, the
+predictive processing theory is in fact best understood not as making substantial em-
+pirical claims about mind, but as providing us with a grand unifying picture of mind
+and its place in the world. Because this picture invites us to see mind as a pro-active
+predictive engine instead of a passive feed-forward, input-dominated machine, we
+may well ﬁnd it aesthetically rewarding. From this viewpoint, a grand unifying theory
+like predictive processing is a useful tool for synthesizing recent research ﬁndings
+from various research programmes in computational cognitive science —including
+214 Matteo Colombo et al.
+
+
+--- Page 32 ---
+
+Bayesian cognitive science, reinforcement learning and deep learning—where the no-
+tion of‘prediction’ is centrepiece in one way or another. Predictive processing is also a
+useful tool for highlighting how such notions as ‘uncertainty’, ‘prediction’ and ‘pre-
+diction error minimization ’ elegantly ﬁt together to ground one possible image of
+humanity. Thus, the reason why the predictive processing theory has been so attractive
+for philosophers of mind may really have more to do with its aesthetic appeal than ep-
+istemic virtues.
+Acknowledgements
+The authors would like to thank Dominik Klein, Joe McCaffrey, Jan Sprenger, and
+two anonymous referees for their helpful comments on previous versions of this ar-
+ticle. In addition, the authors are grateful for the ﬁnancial support provided by the
+Deutsche Forschungsgesellschaft (DFG) priority programme ‘New Frameworks
+of Rationality’ ([SPP 1516]) and the Alexander von Humboldt Foundation.
+Matteo Colombo
+Tilburg Center for Logic, Ethics, and Philosophy of Science
+Tilburg University, Tilburg
+The Netherlands
+M.Colombo@uvt.nl
+Lee Elkin
+Institute for the History and Philosophy of Science and Technology and
+Department of Philosophy
+Université Paris-Est Créteil
+Paris
+France
+Lee.Elkin@u-pec.fr
+Stephan Hartmann
+Munich Center for Mathematical Philosophy
+Ludwig Maximilians Universität München
+Munich, Germany
+S.Hartmann@lmu.de
+References
+Anderson, B. L., O’Vari, J. and Barth, H. [2011]: ‘Non-Bayesian Contour Synthesis’, Current
+Biology, 21, pp. 492 –6.
+Augustin, T., Coolen, F., de Cooman, G. and Troffaes, M. C. M. [2014]: Introduction to Im-
+precise Probabilities, Somerset: Wiley.
+Benferhat, S., Bonnefon, J. F. and da Silva Neves, R. [2005]: ‘An Overview of Possibilistic
+Handling of Default Reasoning, with Experimental Studies ’, Synthese, 146, pp. 53 –70.
+Bovens, L. and Hartmann, S. [2003]: Bayesian Epistemology , Oxford: Oxford University
+Press.
+Being Realist about Bayes 215
+
+
+--- Page 33 ---
+
+Bowers, J. S. and Davis, C. J. [2012a]: ‘Bayesian Just-So Stories in Psychology and Neuro-
+science’, Psychological Bulletin, 138, pp. 389 –414.
+Bowers, J. S. and Davis, C. J. [2012b]: ‘Is That What Bayesians Believe? Reply to Grif ﬁths,
+Chater, Norris, and Pouget ’, Psychological Bulletin, 138, pp. 423 –6.
+Brayanov, J. B. and Smith, M. A. [2010]: ‘Bayesian and Anti-Bayesian Biases in Sensory In-
+tegration for Action and Perception in the Size-Weight Illusion ’, Journal of Neurophysiol-
+ogy, 103, pp. 1518 –31.
+Busemeyer, J. R. and Bruza, P. D. [2012]: Quantum Models of Cognition and Decision, Cam-
+bridge: Cambridge University Press.
+Carr, J. R. [2017]: ‘Epistemic Utility Theory and the Aim of Belief’, Philosophy and Phenom-
+enological Research, 95, pp. 511 –34.
+Chater, N., Goodman, N. D., Grif ﬁths, T. L., Kemp, C., Oaksford, M. and Tenenbaum, J. B.
+[2011]: ‘The Imaginary Fundamentalists: The Unshocking Truth about Bayesian Cogni-
+tive Science’, Behavioural and Brain Sciences , 34, pp. 194 –6.
+Chater, N., Tenenbaum, J. B. and Yuille, A. [2006]: ‘Probabilistic Models of Cognition: Con-
+ceptual Foundations’, Trends in Cognitive Sciences , 10, pp. 287 –91.
+Clark, A. [2013]: ‘Whatever Next? Predictive Brains, Situated Agents, and the Future of Cog-
+nitive Science’, Behavioural and Brain Sciences , 36, pp. 181 –204.
+Clark, A. [2016]: Surﬁng Uncertainty: Prediction, Action, and the Embodied Mind , Oxford:
+Oxford University Press.
+Colombo, M. [2015]: ‘For a Few Neurons More: Tractability and Neurally Informed Eco-
+nomic Modelling’, British Journal for Philosophy of Science , 66, pp. 713 –36.
+Colombo, M. and Hartmann, S. [2017]: ‘Bayesian Cognitive Science, Uniﬁcation, and Expla-
+nation’, British Journal for the Philosophy of Science , 68, pp. 451 –84.
+Colombo, M. and Seriès, P. [2012]: ‘Bayes in the Brain: On Bayesian Modelling in Neurosci-
+ence’, British Journal for the Philosophy of Science , 63, pp. 697 –723.
+Colyvan, M. [2008]: ‘Is Probability the Only Coherent Approach to Uncertainty?’, Risk Anal-
+ysis, 28, pp. 645 –52.
+Conte, E., Khrennikov, A. Y., Todarello, O., Federici, A., Mendolicchio, L. and Zbilut, J. P.
+[2009]: ‘Mental States Follow Quantum Mechanics during Perception and Cognition of
+Ambiguous Figures’, Open Systems and Information Dynamics , 16, pp. 85 –100.
+Cox, R. T. [1946]: ‘Probability, Frequency, and Reasonable Expectation ’, American Journal
+of Physics, 14, pp. 1 –13.
+Danks, D. [2014]: Unifying the Mind: Cognitive Representations as Graphical Models , Cam-
+bridge, MA: MIT Press.
+Diaconis, P. and Zabell, S. [1982]: ‘Updating Subjective Probability ’, Journal of the Ameri-
+can Statistical Association , 77, pp. 822 –30.
+Dempster, A. [1968]: ‘A Generalisation of Bayesian Inference ’, Journal of the Royal Statis-
+tical Society, 30, pp. 205 –47.
+Drugowitsch, J. and Pouget, A. [2012]: ‘Probabilistic vs. Non-probabilistic Approaches to the
+Neurobiology of Perceptual Decision-Making ’, Current Opinion in Neurobiology , 22,
+pp. 963–69.
+Dubois, D. and Prade, H. [2007]: ‘Possibility Theory’, Scholarpedia, 2, pp. 2074.
+Eberhardt, F. and Danks, D. [2011]: ‘Conﬁrmation in the Cognitive Sciences: The Problem-
+atic Case of Bayesian Models ’, Mind and Machines , 21, pp. 389 –410.
+216 Matteo Colombo et al.
+
+
+--- Page 34 ---
+
+Ellsberg, D. [1961]: ‘Risk, Ambiguity, and the Savage Axioms ’, The Quarterly Journal of
+Economics, 75, pp. 643 –69.
+Eva, B. and Hartmann, S. [2018]: ‘Bayesian Argumentation and the Value of Logical Valid-
+ity’, Psychological Review, 125, pp. 806 –21.
+Faisal, A. A., Selen, L. P. J. and Wolpert, D. M. [2008]: ‘Noise in the Nervous System ’, Na-
+ture Reviews Neuroscience , 9, pp. 292 –303.
+Friston, K. [2009]: ‘The Free-Energy Principle: A Rough Guide to the Brain?’, Trends in Cog-
+nitive Sciences, 13, pp. 293 –301.
+Gelman, A. [2008]: ‘Objections to Bayesian Statistics ’, Bayesian Analysis, 3, pp. 445 –9.
+Gershman, S. J., Horvitz, E. J. and Tenenbaum, J. B. [2015]: ‘Computational Rationality: A
+Converging Paradigm for Intelligence in Brains, Minds, and Machines ’, Science, 349,
+pp. 273–8.
+Ghahramani, Z. [2015]: ‘Probabilistic Machine Learning and Arti ﬁcial Intelligence’, Nature,
+521, pp. 452 –9.
+Gigerenzer, G. [1991]: ‘From Tools to Theories: A Heuristic of Discovery in Cognitive Psy-
+chology’, Psychological Review, 98, pp. 254 –67.
+Gilboa, I. and Schmeidler, D. [1989]: ‘Maximin Expected Utility with Non-unique Prior ’,
+Journal of Mathematical Economics , 18, pp. 141 –53.
+Gładziejewski, P. [2016]: ‘Predictive Coding and Representationalism ’, Synthese, 193,
+pp. 559–82.
+Goldszmidt, M. and Pearl, J. [1992]: ‘Reasoning with Qualitative Probabilities Can Be Trac-
+table’, in D. Dubois, M. P. Wellman, B. D ’Ambrosio and P. Smets ( eds), Uncertainty in
+Artiﬁcial Intelligence, Burlington, VT: Morgan Kaufmann, pp. 112 –20.
+Grifﬁths, T. L., Chater, N., Norris, D. and Pouget, A. [2012]: ‘How the Bayesians Got Their
+Beliefs (and What Those Beliefs Actually Are): Comments on Bower and Davis ’, Psycho-
+logical Bulletin, 138, pp. 415 –22.
+Grifﬁths, T. L., Vul, E. and Sanborn, A. N. [2012]: ‘Bridging Levels of Analysis for Proba-
+bilistic Models of Cognition’, Current Directions in Psychological Science, 21, pp. 263–8.
+Hájek, A. [2008]: ‘Dutch Book Arguments’, in P. Anand, P. Pattanaik and C. Puppe (eds), The
+Handbook of Rational and Social Choice , Oxford: Oxford University Press, pp. 173 –96.
+Halpern, J. [2003]: Reasoning about Uncertainty , Cambridge, MA: MIT Press.
+Häming, K. and Peters, G. [2011]: ‘Ranking Functions in Large State Spaces ’, in L. Iliadis, I.
+Maglogiannis and H. Papadopoulos ( eds), Artiﬁcial Intelligence Applications and Innova-
+tions, EANN 2011, AIAI 2011, IFIP Advances in Information and Communication Tech-
+nology, Volume 364, Berlin: Springer, pp. 219 –28.
+Hameroff, S. R. [2007]: ‘The Brain Is Both Neurocomputer and Quantum Computer ’
+, Cog-
+nitive Science, 31, pp. 1035 –45.
+Hartmann, S. and Meijs, W. [2012]: ‘Walter the Banker: The Conjunction Fallacy Reconsid-
+ered’, Synthese, 184, pp. 73 –87.
+Hinton, G. E. and Van Camp, D. [1993]: ‘Keeping the Neural Networks Simple by Minimiz-
+ing the Description Length of the Weights’, in Proceedings of the Sixth Annual Conference
+on Computational Learning Theory, New York, NY: ACM, pp. 5 –13.
+Hohwy, J. [2013]: The Predictive Mind , Oxford: Oxford University Press.
+Hohwy, J. [2015]: ‘The Neural Organ Explains the Mind ’, in T. Metzinger and J. M. Windt
+(eds), Open MIND, Frankfurt am Main: MIND Group.
+Being Realist about Bayes 217
+
+
+--- Page 35 ---
+
+Hohwy, J., Roepstorff, A. and Friston, K. [2008]: ‘Predictive Coding Explains Binocular Ri-
+valry: An Epistemological Review ’, Cognition, 108, pp. 687 –701.
+Huber, F. [2016]: ‘Formal Representations of Belief ’, in E. N. Zalta ( ed.), The Stanford En-
+cyclopedia of Philosophy , available at plato.stanford.edu/archives/spr2014/entries/formal
+-belief/.
+Icard, T. F. [2018]: ‘Bayes, Bounds, and Rational Analysis ’, Philosophy of Science , 85,
+pp. 79–101.
+Jones, M. I. and Love, B. C. [2011]: ‘Bayesian Fundamentalism or Enlightenment? On the
+Explanatory Status and Theoretical Contributions of Bayesian Models of Cognition ’,
+Behavioural and Brain Sciences , 34, pp. 169 –88.
+Joyce, J. [1998]: ‘A Nonpragmatic Vindication of Probabilism ’, Philosophy of Science , 65,
+pp. 575–603.
+Kern-Isberner, G. and Eichhorn, C. [2014]: ‘Structural Inference from Conditional Knowl-
+edge Bases’, Studia Logica, 102, pp. 751 –69.
+Kirchhoff, M. [2018]: ‘Predictive Brains and Embodied, Enactive Cognition: An Introduction
+to the Special Issue ’, Synthese, 195, pp. 2355 –66.
+Körding, K. [2007]: ‘Decision Theory: What “Should” the Nervous System Do? ’, Science,
+318, pp. 606 –10.
+Kvam, P. D., Pleskac, T. J., Yu, S. and Busemeyer, J. R. [2015]: ‘Interference Effects of
+Choice on Conﬁdence: Quantum Characteristics of Evidence Accumulation’, Proceedings
+of the National Academy of Sciences , 112, pp. 10645 –50.
+Knill, D. C. and Pouget, A. [2004]: ‘The Bayesian Brain: The Role of Uncertainty in Neural
+Coding and Computation ’, Trends in Neurosciences , 27, pp. 712 –19.
+Knill, D. C. and Richards, W. [1996]: Perception as Bayesian Inference , Cambridge: Cam-
+bridge University Press.
+Kwisthout, J., Wareham, T. and van Rooij, I. [2011]: ‘Bayesian Intractability Is Not an Ail-
+ment That Approximation Can Cure ’, Cognitive Science, 35, pp. 779 –84.
+Leitgeb, H. and Pettigrew, R. [2010a]: ‘An Objective Justiﬁcation of Bayesianism, I: Measur-
+ing Inaccuracy’, Philosophy of Science , 77, pp. 201 –35.
+Leitgeb, H. and Pettigrew, R. [2010b]: ‘An Objective Justi ﬁcation of Bayesianism, II: The
+Consequences of Minimising Inaccuracy ’, Philosophy of Science , 77, pp. 236 –72.
+Levi, I. [1974]: ‘On Indeterminate Probabilities’, The Journal of Philosophy, 71, pp. 391–418.
+Littlejohn, C. [2015]: ‘Who Cares What You Accurately Believe? ’, Philosophical Perspec-
+tives, 29, pp. 217 –48.
+Ma, W. J., Beck, J. M., Latham, P. E. and Pouget, A. [2006]: ‘Bayesian Inference with Prob-
+abilistic Population Codes ’, Nature Neuroscience, 9, pp. 1432 –8.
+Ma, W. J. and Jazayeri, M. [2014]: ‘Neural Coding of Uncertainty and Probability ’, Annual
+Review of Neuroscience , 37, pp. 205 –20.
+Madary, M. [2016]: Visual Phenomenology, Cambridge, MA: MIT Press.
+Marr, D. and Poggio, T. [1977]: ‘From Understanding Computation to Understanding Neural
+Circuitry’, Neurosciences Research Progress Bulletin , 15, pp. 470 –88.
+Metzinger, T. and Wiese, W. [2017]: Philosophy and Predictive Processing , Frankfurt am
+Main: MIND Group.
+Marcus, G. F. and Davis, E. [2013]: ‘How Robust Are Probabilistic Models of Higher-Level
+Cognition?’, Psychological Science, 24, pp. 2351 –60.
+218 Matteo Colombo et al.
+
+
+--- Page 36 ---
+
+Murphy, R. R. [1996]: ‘Biological and Cognitive Foundations of Intelligent Sensor Fusion ’,
+IEEE Transactions on Systems, Man, and Cybernetics A , 26, pp. 42 –51.
+Oaksford, M. and Chater, N. [2007]:Bayesian Rationality: The Probabilistic Approach to Hu-
+man Reasoning, Oxford: Oxford University Press.
+Offerman, T., Sonnemans, J., Van de Kuilen, G. and Wakker, P. P. [2009]:‘A Truth Serum for
+Non-Bayesians: Correcting Proper Scoring Rules for Risk Attitudes ’, The Review of Eco-
+nomic Studies, 76, pp. 1461 –89.
+Orbán, G. and Wolpert, D. M. [2011]: ‘Representations of Uncertainty in Sensorimotor Con-
+trol’, Current Opinion in Neurobiology , 21, pp. 629 –7.
+Poirier, D. J. [2006]: ‘The Growth of Bayesian Methods in Statistics and Economics since ’,
+Bayesian Analysis, 1, pp. 969 –80.
+Pothos, E. M. and Busemeyer, J. R. [2013]: ‘Can Quantum Probability Provide a New Direc-
+tion for Cognitive Modelling? ’, Behavioural and Brain Sciences , 36, pp. 255 –327.
+Pothos, E. M. and Busemeyer, J. R. [2014]: ‘In Search for a Standard of Rationality ’, Fron-
+tiers in Psychology , 5, p. 49.
+Pouget, A., Beck, J. M., Ma, W. J. and Latham, P. E. [2013]: ‘Probabilistic Brains: Knowns
+and Unknowns’, Nature Neuroscience, 16, pp. 1170 –8.
+Prinz, J. [forthcoming]: ‘Ways of Mindmaking ’, in M. Colombo, L. Irvine and M. Stapleton
+(eds), Andy Clark and His Critics , Oxford: Oxford University Press.
+Rao, R. P. N., Olshausen, B. A. and Lewicki, M. S. [2002]: Probabilistic Models of the Brain:
+Perception and Neural Function , Cambridge, MA: MIT Press.
+Rahnev, D. [unpublished]: ‘The Case against Full Probability Distributions in Perceptual De-
+cision Making’, available at www.biorxiv.org/content/10.1101/108944v2.
+Rahnev, D. and Denison, R. [2018]: ‘Suboptimality in Perception’, Behavioral and Brain Sci-
+ences, 41, p. 223.
+Rédei, M. and Summers, S. J. [2007]: ‘Quantum Probability Theory ’, Studies in the History
+and Philosophy of Modern Physics , 38, pp. 390 –417.
+Rescorla, M. [2015]: ‘Bayesian Perceptual Psychology ’, in M. Matthen ( ed.), The Oxford
+Handbook of the Philosophy of Perception , Oxford: Oxford University Press.
+Rescorla, M. [2016]: ‘Bayesian Sensorimotor Psychology’, Mind and Language, 31, pp. 3–36.
+Sanborn, A. N., Grif ﬁths, T. L. and Navarro, D. J. [2010]: ‘Rational Approximations to Ra-
+tional Models: Alternative Algorithms for Category Learning’, Psychological Review, 117,
+p. 1144.
+Shafer, G. [1976]: A Mathematical Theory of Evidence , Princeton, NJ: Princeton University
+Press.
+Shafer, G. and Tversky, A. [1985]: ‘Languages and Designs for Probability Judgment ’, Cog-
+nitive Science, 9, pp. 309 –39.
+Skovgaard-Olsen, N. [2016]: ‘Ranking Theory and Conditional Reasoning ’, Cognitive Sci-
+ence, 40, pp. 848 –80.
+Smithson, M. and Verkuilen, J. [2006]: Fuzzy Set Theory: Applications in the Social Sciences,
+Thousand Oaks: Sage.
+Sober, E. [2003]: ‘Two Uses of Uni ﬁcation’, in F. Stadler ( ed.), The Vienna Circle and Log-
+ical Empiricism, Dordrecht: Kluwer, pp. 205 –16.
+Spohn, W. [2012]: The Laws of Belief: Ranking Theory and Its Philosophical Applications ,
+Oxford: Oxford University Press.
+Being Realist about Bayes 219
+
+
+--- Page 37 ---
+
+Sprevak, M. [2013]: ‘Fictionalism about Neural Representations ’, The Monist, 96, pp. 539 –
+60.
+Stanford, P. K. [2015]: ‘Unconceived Alternatives and Conservatism in Science: The Impact
+of Professionalization, Peer-Review, and Big Science ’, Synthese, pp. 1 –18.
+Vilares, I. and Körding, K. [2011]:‘Bayesian Models: The Structure of the World, Uncertainty,
+Behaviour, and the Brain’, Annals of the New York Academy of Sciences , 1224, pp. 22–39.
+Tenenbaum, J. B., Kemp, C., Grif ﬁths, T. L. and Goodman, N. D. [2011]: ‘How to Grow a
+Mind: Statistics, Structure, and Abstraction ’, Science, 331, pp. 1279 –85.
+Tversky, A. and Kahneman, D. [1983]: ‘Extensional versus Intuitive Reasoning: The Con-
+junction Fallacy in Probability Judgment ’, Psychological Review, 90, pp. 293 –315.
+Tversky, A. and Koehler, D. J. [1994]: ‘Support Theory: A Nonextensional Representation of
+Subjective Probability’, Psychological Review, 101, pp. 547 –67.
+Walley, P. [1991]: Statistical Reasoning with Imprecise Probabilities, London: Chapman and
+Hall.
+Williams, D. [forthcoming]: ‘Predictive Coding and Thought ’, Syntheses, available at <doi
+.org/10.1007/s11229-018-1768-x>.
+Zadeh, L. [1975]: ‘Fuzzy Logic and Approximate Reasoning ’, Synthese, 30, pp. 407 –28.
+Zednik, C. and Jäkel, F. [2016]: ‘Bayesian Reverse-Engineering Considered as a Research
+Strategy for Cognitive Science ’, Synthese, 193, pp. 3951 –85.
+Zhao, J. and Osherson, D. [2010]: ‘Updating Beliefs in Light of Uncertain Evidence: Descrip-
+tive Assessment of Jeffrey ’s Rule’, Thinking and Reasoning , 16, pp. 288 –307.
+220 Matteo Colombo et al.

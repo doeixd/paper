@@ -1,0 +1,611 @@
+--- Page 1 ---
+
+Informational Realism 
+Luciano Floridi 
+Dipartimento di Scienze Filosofiche, Università degli Studi di Bari;  
+Faculty of Philosophy; Sub-Faculty of Computation; and Information Ethics Group, Oxford University.  
+Wolfson College, OX2 6UD, Oxford University, UK 
+luciano.floridi@philosophy.oxford.ac.uk 
+ 
+Abstract 
+What is th e ultimate n ature o f reality? This p aper 
+defends a n answer i n term s of informational rea lism 
+(IR). It does so in three stages. First, it is shown that, 
+within th e debate ab out structural re alism (SR ), 
+epistemic (ESR) and ontic (OSR) structural realism are 
+reconcilable by using the methodology of the levels of 
+abstractions. It fo llows th at OSR is defensible fr om a 
+structuralist-friendly position. Second, it is argu ed that 
+OSR is also plausible, beca use not all related objects  
+are log ically prior to  all relatio nal stru ctures. The 
+relation of differe nce is at least as funda mental as 
+(because co nstitutive o f) an y relata. Third , it is 
+suggested th at an  ontology of struct ural objects for 
+OSR can re asonably be  devel oped i n t erms of 
+informational o bjects, an d that Obje ct Oriented  
+Programming pr ovides a  fl exible a nd powerful 
+methodology wi th w hich t o cl arify and m ake p recise 
+the concept of “informational object”. The outcome is 
+informational rea lism, t he vi ew that the worl d is the  
+totality o f in formational o bjects d ynamically 
+interacting with each other. 
+Keywords: St ructural realis m, epistemic structural 
+realism, o ntic stru ctural realism, lev els o f ab straction, 
+informational ontology, object oriented programming. 
+1 Introduction: checkmate in three moves  
+This pa per defends a metaphysical po sition – 
+informational rea lism ( IR) – as a sol ution t o a  
+problem. The problem is deceptively elementary: what 
+is th e u ltimate n ature of reality? The answer is 
+misleadingly si mple: it is in formational. Th e 
+cumulative steps from the problem to the solution are 
+the difficult part of the process. To explain them, the 
+analogy of a  chess prob lem co mes h andy: wh ite 
+checkmates in three moves.  
+Here is th e outlin e o f th e strateg y. On th e board we 
+find the debate about structural realism (SR; Maxwell 
+[1970]; Worrall [1989]; Ladyman [1998]). This is the 
+view that knowledge of the world is kn owledge of its 
+structural prop erties. Epistemic structur al realism  
+(ESR; M organti [fo rthcoming]) h olds that objects a re 
+what rem ain i n pri nciple un knowable once t he 
+                                                           
+Copyright © 2004,  Aus tralian Computer S ociety, In c. This 
+paper app eared at the Computing and Philosophy 
+Conference, Canberra. Conferences in Research and Practice 
+in Information Technology, Vol. 37. J. Weck ert and Y. Al-
+Saggaf, Eds. Reproduction for academ ic, n ot-for profit 
+purposes permitted provided this text is included. 
+knowable structures of reality have been factored out. 
+Ontic struct ural realism  (OSR; Vo tsis [forth coming]) 
+holds that objects are themselves structures.  
+The first m ove s hows that ESR and OSR a re 
+reconcilable, and hence that OSR is defensible from a 
+structuralist-friendly perspective.  
+The second m ove s hows tha t OSR is also plausible 
+because not all related object s are logically pri or to all 
+relational structures: no relata are logically prior to the 
+relation of difference.  
+The th ird m ove sh ows th at an  on tology of stru ctural 
+objects (C hakravartty [2002]) can reas onably be  
+developed i n t erms of i nformational obj ects, and t hat 
+Object Ori ented Pr ogramming (OO P) pr ovides a 
+flexible an d powerful m ethodology with  wh ich t o 
+clarify and make precise the concept of “informational 
+object”.  
+The ou tcome o f th e th ree moves is in formational 
+realism, th e view th at th e world is t he totality o f 
+informational o bjects dynamically in teracting with 
+each other. Checkmate. 
+2 The piece s on the board: structural 
+realism and its ontological challenge 
+Broadly constructed, Structural Realism argues that:  
+SR) instrumentally and pre dictively successful models 
+(especially, bu t no t on ly, th ose propounded by 
+scientific theories) can be , in the best circ umstances, 
+increasingly informative about the relations that obtain 
+between t he (p ossibly u nobservable) objects t hat 
+constitute the system  under i nvestigation (through the 
+observable phenomena).  
+SR leaves uns pecified the nature of the relata in th e 
+structures. Th is prob lem h as resu scitated t he classic 
+question about the knowability of the ontological status 
+of ob jects. Consider the f ollowing fo rmalism. The 
+scheme of a structure S comprises four sets: 
+1) a non-empty set O of objects (the domain of S), 
+2) a non -empty set P of first- order, one -place 
+properties of the objects in O,  
+3) a non-empty set of relations R on O, and 
+4) a po tentially e mpty set  T o f transitio ns ru les 
+(operations) on O. 
+ 2
+
+--- Page 2 ---
+
+ 
+Table 1: the SLMS scheme 
+ 
+What are t he objects in O? A ccording to Epistemic 
+Structural Re alism, ob jects c an o nly be po sited as ontic 
+residua, what remains in principle unknowable once the 
+knowable structures of reality have been factored out: 
+ESR) models can be i ncreasingly informative only about 
+the relations t hat obtain bet ween t he objects, but not 
+about the  first-orde r, one-place predicates  (the i ntrinsic 
+nature) qualifying the objects in themselves. 
+According to  Ontic St ructural Re alism, h owever, th e 
+closing clause needs not to be granted:  
+OSR) ultimately, objects are themselves structures and in 
+the be st cases  they can be  indirectly cap tured in  our 
+models, at least in principle. 
+3 First move: ESR and OSR are not 
+incompatible  
+The first m ove is to  try to  co mbine th e virtu es of bo th 
+brands of SR without incurring their costs.  
+3.1 Indirect knowledge 
+Structural real ism seeks to  com bine som e ont ological 
+commitment with  a degree o f ep istemic resilien ce to 
+theory ch ange. It ach ieves t his flex ibility by d ecoupling 
+not knowledge fro m reality,  lik e in strumentalism d oes, 
+but, within kn owledge itself, th e descriptions of th e 
+knowable structural characteristics of the system from the 
+explanations of its in trinsic p roperties. Bo th can  still 
+crash, but the structural descriptions are far more resilient 
+to change than the ontological explanations.  
+All th is co mes at a price. SR g ains ep istemic resilience 
+only b y endo rsing a v iew of  kn owledge as an  indirect 
+relation between the epistemic (possibly multi-) agent and 
+the sy stem unde r a nalysis, an d at  t he expense o f a  
+somewhat w eakened on tological co mmitment. This ca n 
+be achi eved by rel ying o n t he method of levels of 
+abstraction (LoAs) (Floridi and Sa nders [ 2004]), i n t he 
+following way. 
+3.2 Levels of abstraction 
+The method of LoA comes from modelling in science and 
+is influe nced by an area  of Com puter Science, called 
+Formal Method s, in  which discrete mathematics is u sed 
+to sp ecify an d a nalyse t he be haviour of i nformation 
+systems.  
+A LoA co nsists of a col lection of observables. An 
+observable is an  interpreted typ ed va riable, th at is, a 
+variable wi th a wel l-defined p ossible s et of val ues 
+together with a statement of the properties of the system 
+under c onsideration for which i t st ands. T he t arget o f a  
+LoA is called the system. A system may be accessed and 
+described at a range of LoAs and s o can have a ra nge of 
+models.  
+An explicit reference to the LoA clarifies that  
+i) th e m odel of a system is a fu nction of the av ailable 
+observables; 
+ii) different LoA may be fairly ranked depending on how 
+well th ey satisfy m odelling sp ecifications (e.g. 
+informativeness, coherence, elegance, explanatory power, 
+consistency with the data, predictive power, etc.); and  
+iii) d ifferent an alyses can  be fairly co mpared provided 
+that they share the same LoA.  
+The m ethod of L oA i s al so an ef ficient way of m aking 
+explicit and  m anaging th e on tological co mmitment o f a 
+theory. Let us see how. 
+3.3 Ontological commitments and levels of 
+abstractions 
+A theory comprises at least a LoA and a m odel. The LoA 
+allows the theory to analyse the system and to elaborate a 
+model that identifies a structure of the system at the given 
+LoA. So the structuralist position becomes: 
+SRLOA) instrumentally and predictively successful models 
+(especially, but n ot only, those p ropounded by scientific 
+theories) at a given LoA can be, in the best circumstances,  
+ System 
+Model
+analysed at
+Structure 
+LoA
+identifies
+allowsbelongs to Theory 
+ 3
+
+--- Page 3 ---
+
+ 
+Table 2: the SLMS scheme with ontological commitment 
+ 
+increasingly inform ative abou t th e relations th at ob tain 
+between t he (p ossibly un observable) o bjects t hat 
+constitute the system  unde r i nvestigation (through the  
+observable phenomena).  
+This is th e system-level-model-structure (SLMS) scheme 
+(Table 1). 
+The ontol ogical co mmitment of a theory can now be  
+understood by distinguishing between a committing and a 
+committed component.  
+A the ory commits itself on tologically by adopting a (set 
+of) Lo A. C ompare th is to th e case in  which one h as 
+chosen a car model but has not bought one yet. A t heory 
+shows its o ntological co mmitment in  full th rough its 
+model, wh ich is th erefore the beare r of the actual 
+commitment. The a nalogy here is with the specific ca r 
+one has  act ually bo ught. S o Lo As c ommit a t heory t o 
+types while models commit it to the corresponding tokens 
+(Table 2).  
+The d istinction j ust introduced can no w be u sed to 
+reconcile ESR and OSR.  
+3.4 How to reconcile ESR and OSR 
+ESR e ndorses a minimalist approac h. It argues that a  
+theory is justified in adopting a LoA th at commits it (th e 
+theory itself) ontologically t o a realist in terpretation of 
+only the structural properties of the system id entified by 
+the m odel pr oduced by t he theory at the chosen LoA. 
+This minimal ontological commitment is primary or first-
+order, t hat i s, i t conce rns fi rst-order knowledge of t he 
+structural properties of the system under investigation.  
+ESR is arguably correct. On the one hand, the adoption of 
+any Lo A s upporting a degree of first-order o ntological 
+commitment higher than the epistemic-structuralist one is 
+metaphysically risk y an d su spicious. It is certain ly 
+unnecessary a nd not bac ked up  by  a general co nception 
+of knowledge as an indirect rel ation wi th the wo rld. In  
+short, Ockham’s ra zor a pplies. N ow, t he c urrent debate 
+on SR has bee n developing on the assumption that OSR 
+and ESR are incompatible, one of the two must go, and it 
+is not ESR.  
+This argum ent against OSR is misguided because ESR  
+and OSR work at sepa rate Lo A. A s fa r a s a first- order 
+analysis is co ncerned, SR ju stifies on ly o ne kind of 
+ontological commitm ent, th e one endors ed by ESR. 
+However, at  a deri vative or second-order lev el o f 
+analysis, OSR correctly ar gues in f avour o f an 
+economical view of objects.  
+Consider again the SLMS scheme. The assumption is that 
+there is no direct (i.e. Lo A-free) k nowledge of the  
+intrinsic nature o f th e objects co nstituting th e system 
+under i nvestigation. H owever, once a  t heory has  
+ontologically committed itself to the structural properties 
+of th e system, on e is en titled to infer indirectly th at, 
+whatever the system and i ts components (i.e., the objects 
+or relata) are in themselves, they must be such as to allow 
+the theory to capture their structural/relational properties. 
+But wh at are t he co nditions of possibility o f knowledge 
+(the k nowledge of fered by  t he the ory) of the struct ural 
+properties of th e system? The q uestion is whether th ere 
+might b e a j ustifiable Lo A that co mmits the th eory to 
+some kind of description of the type of relata that support 
+the structural properties of the system  id entified by th e 
+model produced by the theory. ESR simply has nothing to 
+offer here, f or i ts c oncern i s with a fi rst-order 
+commitment. OSR, on the contrary, can argue in favour 
+of a m inimalist appr oach. A nd t his i s a very  reaso nable 
+step to take. The LoA justifiably adoptable at this second 
+level is on e according to which the relata are th emselves 
+understood in structural terms.  
+To s ummarise, at the first- order le vel (see Table 3 ), we 
+adopt a transc endental appr oach t o k nowledge – as a  
+LoA-mediated relatio n with reality –  and  use Ockham’s 
+razor as  a m ethodologically sa fety m easure to  lim it th e 
+number o f (types o f) components to wh ich a theory 
+should be ontologically com mitted. In t he best 
+circumstances, LoAs s hould ontologically co mmit a  
+theory at most to the existence in the worl d of the (type 
+of) structures identified by its models. At a second-order 
+level, we re-adopt a t ranscendental ap proach t o what 
+makes possi ble t he previ ous fi rst-order k nowledge o f 
+structures, and ap ply a qu alitatively modified v ersion of 
+Ockham’s razor, which now suggests to keep the nature 
+of objects as  sim ple as pos sible: entia no n su nt 
+complicanda praeter necessitatem, as it we re. According 
+to th is new safety p rinciple, it is reaso nable to  assu me 
+that relata are structural objects, for this is all the theory  
+ System 
+Model (O-committed)
+analysed at
+Structure 
+LoA (O-committing) 
+identifies
+allowsbelongs to Theory 
+ 4
+
+--- Page 4 ---
+
+ 
+ 
+Table 3: the SLMS scheme with ordered ontological commitments 
+ 
+needs to justify its first-order commitment. Since the two 
+ontological commitments occur at different levels there is 
+no in compatibility an d h ence n o obj ection. End  o f t he 
+first move. 
+4 Second move: relata are not logical prior to 
+all relations 
+Unfortunately, elim inating the app arent inconsistency 
+between ESR  and OSR d oes not  y et show  t hat OSR  i s 
+plausible. A direct and quite substantial objection against 
+OSR still n eeds to  be neutralized. Th is is ou r secon d 
+move. Relations (st ructures) req uire relat a (struct ured 
+objects), w hich t herefore ca nnot be further i dentified as  
+relations without running into some vicious circularity or 
+infinite regress. Yet th is is p recisely what OSR n eeds to 
+argue, if the very idea of structural objects is supposed to 
+make sense. 
+Certainly external relatio ns u sually req uire relata. 
+Distance is  a  good exam ple. Yet internal relatio ns 
+constitute their relata for what they are. “Married” comes 
+easily t o one’ s mind: M ary and J ohn are  married o nly 
+because of their mutual relation.  
+Unfortunately, internal rela tions seem  t o supe rvene on 
+their relata and  further qualify them. Mary and John did 
+not co me into ex istence b y g etting m arried; th ey o nly 
+acquired a new c ontingent property, t heir marital st atus, 
+after t heir we dding. I f one wants t o defend t he l ogical 
+priority of internal relations over their relata, then one has 
+to show much more, namely that the essential properties 
+of the objects in question depend upon some fundamental 
+internal prop erties. This is difficu lt b ut not impossible. 
+For th ere is a sign ificant case, m etaphysically more 
+fundamental than the case i n wh ich th e essen ce of th e 
+relata is in  qu estion. Th is is th e (in ternal) relatio n of 
+difference, which con stitutes its relata as a p recondition 
+for their existence. Relata as merely differentiated entities 
+and n othing e lse (at  l east not  y et) a re possible only 
+because there is a relation of difference in the first place. 
+For consider what a c ompletely undifferentiated object x 
+might be. It  w ould be o ne u nobservable at  any  possi ble 
+LoA. This means that there would be no possible world in 
+which x would exist. And this is equivalent to saying that 
+x would not exist. Call th is the modified Leibnizian law 
+of the neces sary i nexistence of t he undifferentiable in 
+principle. The law still says very little about  the nature of 
+the entities/relata in question, but there is fin ally a c lear 
+sense in which relata are not necessarily prior to a m ore 
+fundamental internal relation of diffe rence. Difference is 
+our Ur-relation, as i t were . In E ddington’s wo rds: “T he 
+relations un ite th e relata; th e relata are  the meeting 
+points of the relations. The one is unthinkable apart from 
+the other. I do not think that a more general starting-point 
+of structure could be conceived” (Eddington [1928], 230–
+231, quoted in Fr ench [2003], 233). This leads us to the 
+last move. 
+5 Third move: the concept of a structural 
+object is empty 
+Even if ESR and OSR are compatible, and even if it is not 
+true th at, u ltimately, stru ctured relata are n ecessarily 
+logically p rior to  all stru ctural relatio ns, we still lack  a 
+System 
+Model (O-committed)
+analysed at 
+Structure 
+LoA (O-committing) 
+identifies 
+allowsbelongs to 
+1st order ontological commitment: 
+relational structures are knowable
+2nd order ontological commitment: 
+relata are structural objects
+makes possible feedback 
+Model (O-committed)
+identifies
+Objects 
+belong to 
+New LoA 
+(O-committing) 
+ 5
+
+--- Page 5 ---
+
+clear grasp of what these structural objects might be like, 
+even if indirectly or metatheoretically.  
+A straightforward way of making sense of these structural 
+objects is as informational ob jects, that is as clusters of  
+data, not in the alphanumeric sense of the word, but in an 
+equally com mon se nse o f d ifferences de re , i .e. m ind-
+independent points of lack of uniformity.  
+In its simplest form, a datum can be reduced to just a lack 
+of uniformity, t hat i s, a bi nary di fference, l ike t he 
+presence and the absence of a black dot, or a change of 
+state, from there being no black dot at all to the re being 
+one. Admittedly, a d atum is u sually classified  as t he 
+relatum exhi biting t he an omaly, oft en bec ause t his i s 
+perceptually m ore cons picuous or s ubjectively l ess 
+redundant t han t he other rel atum, seen as a  bac kground 
+condition. Howev er, th e rel ation of d ifference is b inary 
+and symmetric . A wh ite sh eet o f p aper is a co nstitutive 
+part of th e datum itself, to gether with th e fund amental 
+relation of difference that couples it with  the dot. In this 
+specific se nse, nothi ng is a  dat um per s e, wit hout its 
+counterpart, ex actly lik e nob ody can  be a wife withou t 
+there bei ng a  hus band. So , ont ologically, dat a, as st ill 
+unqualified d ifferences, are pu rely relational en tities. Of 
+course, from  a structural perspective, they rem ain 
+unknowable i n them selves. One never deals with pure  
+data bu t on ly with  so mewhat in terpreted d ata. Now 
+clusters of data as relatio nal entities are th e relata we are 
+looking for in our modified version of OSR. 
+As French [ 2001] points out, i n t he co ntext of t he 
+philosophy of physics, “if we want to continue to talk, in 
+everyday language , a bout el ectrons as objects - because 
+we lack the logico-linguistic resources to  do otherwise - 
+then we can do so ‘only indirectly’, ‘... not insofar as they 
+themselves, as individuals, a re give n, but so far as they 
+are desc ribable as “poi nts of i ntersection” of ce rtain 
+relations’ (Cassirer, ibid.)”.  
+So what an  i nformational ontology co uld l ook l ike? 
+Object Orien ted Pro gramming (O OP) pro vides an  
+excellent e xample of a  flexi ble a nd powerful 
+methodology with which to clarify and m ake precise the  
+concept of “informational object”.  
+OOP is a method of programming that radically changed 
+the app roach to software development. Histo rically, a 
+program was vi ewed as a n al gorithmic proce dure t hat 
+takes i nput dat a, pr ocesses i t, and p roduces out put dat a. 
+The difficulty was th en represented by the elaboration of 
+the algorithmic process. OOP has shifted the focus from 
+the logic procedures, required to m anipulate the objects , 
+to the objects that nee d t o be m anipulated. C onsider a  
+pawn in a chess game. Its identity is not determined by its 
+contingent p roperties as a physical bo dy, including i ts 
+shape and col our. Rathe r, a  pawn is a cluster of states 
+(properties like white or b lack, and its strateg ic position 
+on t he board) an d be havioural r ules (e. g., i t can m ove 
+forward only), which in turn are possible only in relation 
+to other pieces and the logic al space of the  board. For a 
+good player, the pawn is only a pl aceholder standing for 
+an “informational object”. It is not a material thing but a 
+set of  t yped variables, using t he Lo A t erminology, a  
+mental en tity, to pu t it in  Berk eley’s terms, o r an  en tity 
+constituted by a bundle of properties, t o use a Hu mean 
+expression, whose existence and nature is determined by 
+the di fferences an d nomological rel ations t hat 
+characterise the gam e of chess. Now in  OO P, d ata 
+structures (e.g. t he pa wn’s p roperty o f bei ng w hite) a nd 
+their behaviour ( programming c ode, e. g. t he pa wn’s 
+power to capture pieces only by moving diagonally 
+forward) are  packa ged t ogether as ( informational) 
+objects. Objects are then grouped in a hierarchy of classes 
+(e.g. pawns), with each class inhe riting characteristics 
+from the class above it (e.g. all pieces but the king ca n be 
+captured, s o e very pawn ca n be ca ptured). A class is a  
+named repres entation for an a bstraction, where  an 
+abstraction is a n amed c ollection of attributes and 
+behaviour relevant to modelling a g iven entity fo r so me 
+particular purpose at a certain  LoA. The routines or logic 
+sequences tha t can m anipulate the objec ts are called 
+methods. A m ethod is a p articular implementation of an 
+operation, i .e. an act ion or transformation that an object 
+performs o r i s s ubject t o by a certain class. Objects  
+communicate with each other through well-defined 
+interfaces called messages.  
+Clearly OOP provides us with a concept of informational 
+objects that is  richer t han our m inimalist approach t o 
+informational realism may allow us. Recall that all we are 
+placing in t he world are i nformational objects as the  
+conditions of possibility of those structures that our first-
+order LoAs allo w us to attribute to the world in the first 
+place. OOP is  not a viable way of doing philosophical 
+ontology, but a val uable methodology to cl arify t he 
+nature of our ontological components.  
+Time has come to summarise the proposed solution to the 
+ontological problem. 
+6 Informational realism 
+Informational realism (IR) is a versio n of SR. As a f orm 
+of realism, it is co mmitted t o th e ex istence o f a m ind-
+independent reality. Lik e ESR, it su pports a first-o rder, 
+minimal ont ological c ommitment i n fa vour of t he 
+structural properties of reality. Like OSR, it also supports 
+a second-orde r, m inimal o ntological commitm ent in 
+favour of o bjects u nderstood i nformationally. T his 
+second-order commitment is j ustified by ep istemic 
+reasons. We are allowe d to commit ourselves  
+ontologically to w hatever minimal conception of objects 
+is useful to make sense of our first-order commitment. IR 
+argues th at, as far as we can tell, th e u ltimate n ature of 
+reality is in formational, that is, it makes sense to adop t a 
+LoA at which our mind-independent reality is constituted 
+by relata th at are n either sub stantial n or material (th ey 
+might well be, but we have no reasons to suppose them to 
+be so) but informational. We are ready for a definition: 
+IR) in strumentally an d pred ictively su ccessful m odels 
+(especially, but n ot only, those p ropounded by scientific 
+theories) at a give n L oA can be, in the be st 
+circumstances, increasingl y in formative ab out the 
+relations that obtain between the (possibly unobservable) 
+informational objects t hat constitute t he system unde r 
+investigation (through the observable phenomena).  
+ 6
+
+--- Page 6 ---
+
+7 Conclusion 
+Philosophers often rely on  spatial an alogies to  ex plain 
+their the ories. Refere nces to room s are pa rticularly 
+popular. Sextus E mpiricus tho ught th at we are lik e men 
+searching for gold, or shooting at a target in a dark room: 
+no matter how long the search or the shooting proceeds, it 
+is poi ntless because in principle the re i s no way to 
+establish whether any of us has f ound a nugget or hit the 
+mark. Turing used different rooms for his test. And Searle 
+devised a C hinese r oom for  hi s cout erexample. I shal l 
+rely on thei r examples and suggest a double box analogy 
+to illustrate IR. But first, a final bit of terminology. 
+In software engineering, black-box refers to a test-desi gn 
+method t hat f ocuses on t esting functional o r behavioral 
+requirements of a program. The m ethodology t reats the  
+analyisandum as a no ntransparent an d c losed sy stem, 
+avoiding using explicit knowledge of its internal nature or 
+structure t o understand t he way it wo rks. Th e opp osite 
+methodology is known as white- or glass-box test design. 
+This allo ws on e to  “lo ok in side” th e sy stem, an d it 
+focuses on using specific and detailed knowledge of the 
+program code t o guide the selection of t est data. A grey-
+box approach is one that allows only a partial view of the 
+internal properties of the system. 
+According to IR, an y wh ite-box ap proach to  reality is  
+excluded i n pri nciple, gi ven t he i ndirect nat ure of 
+knowledge. We look at the world as if we were in Sextus’ 
+dark room. Th is i s t he fi rst bo x. We are i n i t, but our 
+target is n ot rep resentationalist, no r are our in teractions 
+with th e fu rniture in  t he ro om u nidirectional, as Sex tus 
+assumed. And contrary to Sextus’ it is a g rey-box. In the 
+best cases, it allows the rec onstruction of the structural  
+properties relating t he furniture of t he room, i.e. our 
+informational o bjects. The l atter are our s econd type of 
+boxes. Li ke i n Turi ng’s t est, t hey are bl ack-boxes, n ot 
+directly k nowable, but “ep istemically in teractable”. 
+Sometimes we can  in directly cap ture th eir n ature by 
+observing their behaviour and mutual interactions, but we 
+do not know their intrinsic properties.  
+IR t akes our epistemic goal  t o be co nstructionist, n ot 
+representationalist. Kn owledge is n ot a matter o f h itting 
+or finding, but of designing an d co nstructing, an d one 
+may construct  success fully ev en i n the dark. Since we 
+wish to devise an intelligible conceptual environment, we 
+do s o not by t rying t o photocopying whatever i s i n t he 
+room (rep resentationalist ep istemology), but by  
+interacting with it as a resource for ou r se mantic task s, 
+interrogating it through experience, tests and experiments. 
+Out of metaphor, reality is not a source but a resource for 
+knowledge. Str uctural obj ects ( clusters o f data as 
+relational en tities) wo rk lik e constraining af fordances, 
+exploitable by  a t heory, at  a gi ven L oA, as i nput o f 
+adequate qu eries to  produ ce information (th e m odel) as 
+output. In thi s respect, we  are more like Tu ring’s 
+interrogator, since the model of investigation is ero tetic: 
+we query th e world as a database. Bu t since ou r task  is 
+not to  find out who  is wh o, we resem ble Searle in  his 
+Chinese room: we get  the data on o ne side and produce 
+information on the other. The d ifference, in this case, is 
+that we understand the semantic rules of the game. 
+Black-boxes in a grey-box, th is is th e b asic idea b ehind 
+IR. T he last s pecification is that the qualifications a re 
+level-dependent, as t he di stinction between sy stem and  
+component or unit of the system is. A bl ack-box may be 
+opened, but opening i t t ransforms i t into a grey -box, i n 
+which m ore black-boxes m ay be foun d. Whether ad 
+infinitum we simply cannot know.  
+8 References 
+Chakravartty, A. forthcoming, "The Structuralist 
+Conception of Objects", in 18th Biennial 
+Meeting of the Philosophy of Science 
+Association, Nov. 7-10, 2002, Milwaukee, WI. 
+Eddington, A. 1928, The Nature of the Physical World 
+(Cambridge: Cambridge University Press).  
+Floridi, L., and Sanders, J. W. 2004, "The Method of 
+Abstraction" in Yearbook of the Artificial. 
+Nature, Culture and Technology. Models in 
+Contemporary Sciences, edited by M. Negrotti 
+(Bern: Peter Lang), Preprint from 
+http://www.wolfson.ox.ac.uk/~floridi/papers.htm
+French, S. 2001, "Symmetry, Structure and the 
+Constitution of Objects", in Symmetries in 
+Physics, New Reflections: Oxford Workshop, 
+January 2001, Oxford. 
+French, S. 2003, "Scribbling on the Blank Sheet: 
+Eddington’s Structuralist Conception of 
+Objects", Studies in History and Philosophy of 
+Modern Physics, 34, 227–59.  
+Ladyman, J. 1998, "What Is Structural Realism?" Studies 
+in History and Philosophy of Science, 29A(3), 
+409-24.  
+Maxwell, G. 1970, "Structural Realism and the Meaning 
+of Theoretical Terms" in Analyses of Theories, 
+and Methods of Physics and Psychology, edited 
+by Stephen Winokur and Michael Radner 
+(Minneapolis: University of Minnesota Press), 
+181-92.  
+Morganti, M. forthcoming, "On the Preferability of 
+Epistemic Structural Realism", Synthese.  
+Votsis, I. forthcoming, "Is Structure Not Enough?" 
+Philosophy of Science, Supplement. 
+Worrall, J. 1989, "Structural Realism: The Best of Both 
+Worlds?" Dialectica, 43, 99-124.  
+ 
+Acknowledgements 
+I am grateful to John Weckert and the Centre for Applied 
+Philosophy an d Pu blic Et hics (C APPE) for t he ki nd 
+invitation to deliver the keynote lecture at the Computing 
+and P hilosophy co nference (t he A ustralian Nat ional 
+University i n Canberra o n 31 Oct ober – 2 November, 
+2003) on which this article i s based. I wish  to thank the 
+colleagues attendi ng t he c onference for their use ful 
+feedback. Gian luca Paron itti an d Matteo  Tu rilli read  a 
+final ver sion of t he t ext and m ade several u seful 
+comments. Of course I am the only person responsible for 
+any remaining mistake.   
+ 7

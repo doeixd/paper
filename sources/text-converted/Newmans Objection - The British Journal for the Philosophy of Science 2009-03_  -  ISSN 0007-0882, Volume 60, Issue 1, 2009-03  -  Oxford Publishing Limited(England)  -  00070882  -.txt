@@ -1,0 +1,1575 @@
+--- Page 1 ---
+
+Brit. J. Phil. Sci. 60 (2009), 1 
+Newman’s Objection 
+Peter M. Ainsworth 
+ABSTRACT 
+This paper is a review of work on Newman’s objection to epistemic structural realism 
+(ESR). In Section 2, a brief statement of ESR is provided. In Section 3, Newman’s 
+objection and its recent variants are outlined. In Section 4, two responses that argue 
+that the objection can be evaded by abandoning the Ramsey-sentence approach to ESR 
+are considered. In Section 5, three responses that have been put forward specifically to 
+rescue the Ramsey-sentence approach to ESR from the modern versions of the objection 
+are discussed. Finally, in Section 6, three responses are considered that are neutral with 
+respect to one’s approach to ESR and all argue (in different ways) that the objection 
+can be evaded by introducing the notion that some relations/structures are privileged 
+over others. It is concluded that none of these suggestions is an adequate response to 
+Newman’s objection, which therefore remains a serious problem for ESRists. 
+Introduction 
+Epistemic Structural Realism 
+2.1 Ramsey-sentences and ESR 
+2.2 WESR and SESR 
+The Objection 
+3.1 Newman's version 
+3.2 Demopoulos and Friedman’s and Ketland’s versions 
+Replies that Abandon the Ramsey-Sentence Approach to ESR 
+4.1 Redhead’s reply 
+4.2 French and Ladyman’s reply 
+Replies Designed to Rescue the Ramsey-Sentence Approach 
+5.1. Zahar’s reply 
+5.2 Cruse’s reply 
+5.3 Melia and Saatsi’s reply 
+Replies that Argue that Some Structures/ Relations are Privileged 
+6.1. A Carnapian reply 
+6.2 Votsis’ reply 
+6.3 The Merrill/ Lewis/ Psillos reply 
+Summary 
+The Author (2009). Published by Oxford University Press on behalf of British Society fer the Philosophy of Science. All rights reserved 
+doi:10.1093/bjps/axn051 For permissions, please email: journals. permissions@oxfordjournals.org 
+Advance Access published on January 19, 2009
+
+--- Page 2 ---
+
+Peter M. Ainsworth 
+1 Introduction 
+The first fully elaborated statement of epistemic structural realism (ESR) can 
+be found in the work of Russell ({1912], [1927]) (although Worrall [1989], [1994] 
+argues that the doctrine can also be found in the writings of Duhem [1906] 
+and Poincaré [1903]); Russell himself abandoned the position in the face of 
+Newman’s objection (Newman [1928]). The doctrine was revived four decades 
+later by Maxwell ({1968], [1970a], [1970b]), who both coined the term ‘structural 
+realism’ and introduced the Ramsey-sentence approach to the doctrine, which 
+is adopted by most contemporary ESRists. 
+Demopoulos and Friedman ([1985]) and Ketland ((2004]) have put forward 
+variants of Newman’s objection aimed at the Ramsey-sentence approach to 
+ESR and numerous authors (Cruse [2005]; French and Ladyman [2003]; Melia 
+and Saatsi [2006]; Psillos [1999]; Redhead [2001]; Votsis [2003], [2004]; Zahar 
+[2001], [2004]) have suggested a variety of ways in which one might attempt to 
+evade the objection. 
+This paper consists of five main sections. In Section 2, a brief statement 
+of ESR is provided. In Section 3, Newman’s objection and its recent variants 
+are outlined. In Section 4, two responses that argue that the objection can 
+be evaded by abandoning the Ramsey-sentence approach to ESR are con- 
+sidered. In Section 5, three responses that have been put forward specifically 
+to rescue the Ramsey-sentence approach to ESR from the modern versions 
+of the objection are discussed. Finally, in Section 6, three responses are con- 
+sidered that are neutral with respect to one’s approach to ESR and all ar- 
+gue (in different ways) that the objection can be evaded by introducing the 
+notion that some relations/structures are privileged over others. It is con- 
+cluded that none of these suggestions is an adequate response to Newman’s 
+objection. 
+2 Epistemic Structural Realism 
+The ESRist upholds two main theses. On the one hand there is the ‘realist’ 
+thesis: 
+Mature scientific theories provide us with a substantial amount of knowl- 
+edge about both the observable and the unobservable world.! 
+' The qualification ‘mature’ is important: the ESRist, like the conventional realist, does not commit 
+himself to realism with respect to all scientific theories. Moreover, the ‘knowledge’ that science is 
+supposed to provide is taken to include claims that are not strictly true, but only approximately 
+true. Spelling out what maturity and approximate truth are may not be easy (although Worrall 
+[1989] has argued that it is straightforward to explicate maturity: he suggests that a theory 
+is mature if and only if it correctly predicts an empirically confirmed result that it was not 
+engineered to yield) but these issues will be held in abeyance throughout this paper.
+
+--- Page 3 ---
+
+Newman's Objection 137 
+On the other hand there is the ‘structuralist’ thesis, which, as a very rough 
+first approximation, we may state as follows: 
+All we know of the unobservable world is its structure. 
+2.1 Ramsey-sentences and ESR 
+From a formal point of view, languages are built out of two types of term:* 
+logical terms and non-logical terms. In a language of second-order logic these 
+two groups consist of the following: 
+[1] Logical terms: 
+(i) logical connectives (*—’, *&’, etc.) 
+(ii) quantifiers (“V’, “3”) 
+(iii) individual and predicate variables (x;, x2,... and X;, X2,...) 
+and possibly: 
+(iv) the identity predicate (“= °) 
+[2] Non-logical terms: 
+(i) a number of names (a), a2, .. .) denoting objects 
+(ii) a number of predicates (P;, P2, . . .) denoting properties and relations. 
+The claim that ‘all we know of the external world is its structure’ might 
+suggest that the ESRist thinks that our knowledge of the external world is 
+purely structural (that it consists of only logical terms). Despite the way they 
+sometimes talk, this is not a view held by any serious contemporary ESRist, 
+but it is a view sometimes imputed to ESRists by their critics. 
+The Ramsey-sentence approach to ESR was first proposed by Maxwell 
+({1968]) and is adopted by most (but not all) modern ESRists. Let an ob- 
+servational term be a non-logical term that refers to an observable object, 
+property, or relation and a theoretical term be a non-logical term that refers to 
+an unobservable object, property, or relation. The Ramsey-sentence of a theory 
+is obtained from a sentence expressing the theory by first replacing the theo- 
+retical terms (names and predicates) in the sentence with new variables (using 
+the same variable for each occurrence of the same term, and different variables 
+- Sometimes logicians use the word ‘term’ as a synonym for ‘name’. Throughout this paper it is 
+used in a broader sense, as explicated here.
+
+--- Page 4 ---
+
+138 Peter M. Ainsworth 
+for different terms). The resulting formula is then turned into a sentence (the 
+theory’s Ramsey-sentence) by binding the variables with the appropriate exis- 
+tential quantifiers (placed at the start of the formula, so that every occurrence 
+of the same new variable is in the scope of the same quantifier). Note that, in 
+general (as long as the original sentence contains at least one theoretical pred- 
+icate) constructing the Ramsey-sentence of a theory will require a language of 
+second-order logic.* 
+Maxwell provides an example (Maxwell [1970a], p. 186). Consider the ‘the- 
+ory’ expressed by the sentence: 
+Y¥x([Ax&Dx] — JyCy), 
+where ‘A’ and ‘D’ are ‘theoretical’ predicates such that ‘Ax’ means ‘x is a radium 
+atom’ and ‘Dx’ means ‘x radioactively decays’, and ‘C’ is an ‘observational’ 
+predicate such that ‘Cx’ means ‘x is a click in a suitably located Geiger counter’.4 
+Its Ramsey-sentence is: 
+IXSYVx([Xx&Yx] —> SyCy). 
+The ESRist (if he takes the Ramsey-sentence approach to ESR), elaborates 
+his structuralist thesis as follows: 
+A theory’s Ramsey-sentence is as much as a theory reliably tells us about 
+the world. 
+Notice that, when it is elaborated this way, the ESRist’s structuralist thesis 
+has the following corollary: 
+The knowledge provided by our mature scientific theories consists (in its 
+ultimate form) of statements constructed using only logical and observa- 
+tional terms. 
+This corollary is a claim the instrumentalist would also endorse. ESR re- 
+mains distinct from instrumentalism because the instrumentalist claims that 
+our theories provide knowledge only about the observable world, whereas the 
+ESRist maintains that the Ramsey-sentences of our theories provide knowledge 
+about both the observable world and about the structure of the unobservable 
+world. 
+> Zahar ((2001], p. 236) points out that we can construct an equivalent sentence using a first-order 
+language that contains the predicates ‘being a set’ and ‘e’. However, we would of course have to 
+leave these unRamseyfied, and it is hard to see what justification there could be for that, unless 
+one was prepared to take them as logical predicates, like * = °. 
+Of course this doesn’t express any real ‘theory’ and is, moreover, false: if a radium atom decays 
+on Mars, there will not be a click in a suitably located Geiger counter, because there will not be 
+a suitably located Geiger counter, but it will suffice to give the general idea. 
+4
+
+--- Page 5 ---
+
+Newman's Objection 139 
+At first sight, it may seem that as Ramsey-sentences are constructions formed 
+using only logical and observational terms, they could not tell us anything about 
+the unobservable world. This is certainly not true. As van Fraassen ([{1980], 
+p. 54) notes, the claim that ‘there are entities that are not O; and not O; 
+and ...’, where each QO; is an observational predicate and the sentence ascribes 
+to the entities it refers to the negation of every O; in the language, successfully 
+makes the claim that there are unobservables (which is a claim about the un- 
+observable world) using only logical and observational vocabulary. (However, 
+the essential claim of Newman’s objection is that Ramsey-sentences can’t tell 
+us anything substantial about the unobservable world.) 
+Given that ESR has been explicated in terms of Ramsey-sentences, one may 
+wonder if ESR is any more ‘structural’ than conventional scientific realism: 
+after all, the Ramseyfied version of a sentence is no more closely linked to 
+the structures that satisfy it than is the original sentence. However, although 
+there isn’t any particularly intimate relation between structural realism and 
+structures (in the set-theoretic sense) the term ‘structural’ is not totally inap- 
+propriate: the ESRist maintains that theoretical predicates (and the sets that 
+provide the extensional interpretation of these predicates) should not be given 
+an intensional interpretation, but should be treated purely extensionally, i.e. 
+treated in a purely mathematical or ‘structural’ way. 
+2.2 WESR and SESR 
+ESR can be subdivided into two doctrines: weak ESR (WESR) and strong ESR 
+(SESR) (as they will be called in this paper). SESR presupposes a particular 
+metaphysical and epistemological doctrine called ‘indirect realism’. This is the 
+view that although the external world exists, we do not have direct access to 
+it. It implies that there is a distinction between the ‘internal world’ of our 
+own consciousnesses, to which we have direct access, and the external world, 
+to which we do not (this internal/external distinction is sometimes called the 
+phenomenal/noumenal distinction or the mental/physical distinction). 
+It is important to separate the internal/external distinction from the ob- 
+servable/unobservable distinction. Within the indirect realist framework the 
+observable/unobservable distinction may be roughly characterized as a dis- 
+tinction between those external objects, properties, and relations (e.g. tables, 
+redness”) that have a direct counterpart in internal experience and those ex- 
+ternal objects, properties and, relations (e.g. quarks, strangeness) that do not. 
+Because the phrase ‘direct counterpart’ is so vague this characterization does 
+In fact, the indirect realist might say that we need to distinguish two ‘redness’ predicates: one 
+that refers to the redness of internal objects (sense-data) and another that refers to the redness 
+of external (physical) objects.
+
+--- Page 6 ---
+
+140 Peter M. Ainsworth 
+not succeed in unambiguously drawing the intended distinction, but hopefully 
+the general idea is clear enough. 
+The essential difference between WESR and SESR is that while the WESRist 
+thinks that theoretical terms (i.e. terms referring to unobservable objects, 
+properties, and relations) need to be Ramseyfied (leaving Ramsey-sentences 
+containing only logical and observational terms), the SESRist thinks that ex- 
+ternal terms (i.e. terms referring to external objects, properties, and relations) 
+need to be Ramseyfied (leaving Ramsey-sentences containing only logical and 
+internal terms). The version of ESR outlined in the previous section is thus 
+WESR. The SESRist’s structuralist thesis can still be stated as: 
+A theory’s Ramsey-sentence is as much as a theory reliably tells us about 
+the world. 
+But because of his different approach to Ramseyfication, the SESRist’s struc- 
+turalist thesis has a somewhat different corollary, viz: 
+The knowledge provided to us by our mature scientific theories consists (in 
+its ultimate form) of statements constructed using only logical and internal 
+terms. 
+In fact, although the example of Ramseyfication that was given in the previ- 
+ous section is Maxwell’s own and it suggests WESR, he himself was a SESRist. 
+He makes this quite clear when he states that ‘My own view [. . .] is that all items 
+should be considered theoretical [meaning that terms referring to them should 
+be Ramseyfied] unless they occur in direct experience; since I reject any form of 
+direct realism, this means that the observable [meaning the things referred to 
+by terms that do not need to be Ramseyfied] is instantiated only in inner events 
+of observers’ (Maxwell [1970a], p. 181). 
+On the face of it, however, Ramseyfying all terms except those that refer 
+to items of internal experience will result in the Ramsey-sentences of most 
+(if not all) theories being purely formal, and thus entirely devoid of empiri- 
+cal content, because, on the face of it, most (if not all) theories do not deal 
+with items of internal experience at all. Take for example the toy theory given 
+above. Clicks in suitably placed Geiger counters are not items of internal ex- 
+perience, so (taking the SESRist line) the predicates referring to them should 
+also be Ramseyfied away, leading to the following Ramsey-sentence for the 
+theory: 
+AXAYIAZVx([Xx&Yx] — dyZy), 
+which is purely formal, and therefore has no empirical content. 
+The proponent of SESR can avoid this unwelcome conclusion by arguing 
+that although most theories, in themselves, are not directly about internal
+
+--- Page 7 ---
+
+Newman's Objection 141 
+experience, they are nonetheless connected with internal experience by auxiliary 
+theories, which are always implicitly held. For example, we implicitly hold that 
+we will have an experience of a sense-data Geiger counter click only if, (i) there 
+is a (real) Geiger counter click, (ii) we are hallucinating Geiger counter clicks, 
+(iii) we are dreaming about Geiger counter clicks, (iv) somebody is playing a 
+practical joke, ... alongside the theory: 
+Vx([Ax&Dx] — dyCy); 
+we would thus also hold: 
+4x(C*x & Eax) — (Ay[Cy] v Ha...), 
+where a is a constant referring to oneself, “C*x’ means ‘x is a sense-data Geiger 
+counter click’, “Exy’ means ‘x experiences y’, ‘Cx’ means the same as before and 
+‘Hx’ means ‘x is hallucinating Geiger counter clicks’. The combined theory we 
+hold is thus expressed by the sentence: 
+Vx([Ax & Dx] > dyCy) & (Ax[C*x & Eax] — [By(Cy) v Ha...]). 
+Taking the SESRist approach to Ramseyfication, one obtains something like 
+the following Ramsey-sentence of the combined theory: 
+IW3AXIYIAZ...Wx((Wx & Xx] > SyYy) & (Ax[C*x & Eax]— [ByYy v Za...]), 
+which does contain some non-logical terms (*C*’, ‘E’ and ‘a’) and thus does 
+not fail to make an empirical claim for lack of them. 
+3 The Objection 
+3.1 Newman’s version 
+Newman ({1928]) takes Russell’s ESR to imply that the most that we can 
+know about the external world is its structure. He ascribes this view to Russell 
+on the basis of passages like the following (which Newman quotes in [1928], 
+p. 144): ‘Thus it would seem that wherever we infer from perceptions it is only 
+structure that we can validly infer; and structure is what can be expressed by 
+mathematical logic’ (Russell [1927], p. 254), ‘The only legitimate attitude about 
+the physical world seems to be one of complete agnosticism as regards all but 
+its mathematical properties’ (Russell [1927], p. 270). Newman then launches 
+the following objection to this view: 
+Any collection of things can be organised so as to have the structure W 
+[where W is an arbitrary structure], provided there are the right number of 
+them. Hence the doctrine that on/y structure is known involves the doctrine 
+that nothing can be known that is not logically deducible from the mere 
+fact of existence, except (‘theoretically’) the number of constituting objects. 
+(Newman [1928], p. 144, original emphasis)
+
+--- Page 8 ---
+
+142 Peter M. Ainsworth 
+For example, being told that a system has domain D = {a, b, c} (where 
+a, b, and c are arbitrary names for three distinct but unspecified objects) and 
+instantiates a relation R = {(a, b), (a,c), (b, c)} tells us no more than that the 
+system consists of three objects, because some elementary set-theory reveals 
+that any three objects instantiate seven non-empty one-place relations, 511 
+non-empty two-place relations (of which R is one) and 134,217,727 non-empty 
+three-place relations.° Being told that they instantiate R is both trivial (insofar 
+as it follows from some elementary set-theory) and perversely specific (insofar 
+as R is just one of the 134,218,245 non-empty relations they instantiate). Thus 
+being told that the system has structure (D, R) is being told no more than 
+that it contains three objects, because any system containing three objects can 
+be taken to have this structure, along with a vast number of other structures 
+(any tuple whose first member is D and whose other members are amongst the 
+134,218,245 relations instantiated by the members of D is a structure that can 
+be taken to be possessed by any system containing three objects). 
+The objection arises because our purely structural knowledge gives us only 
+extensional information about the structure of the system: if we had an inten- 
+sional interpretation of R, we would not have this problem. For instance, if 
+we knew that R was the ‘heavier than’ relation (restricted to the system) then 
+we would have some more useful information: we would know that the three 
+objects in the system were of unequal weights. However, the claim that we 
+have any such intensional information about the external world is exactly what 
+Newman thinks that Russell denies. 
+Newman considers two possible responses to this objection. The first is to 
+distinguish ‘real’ relations from ‘fictional’ relations and assume that when the 
+Russellian tells us what relations hold in a system he is talking only about 
+real relations. A fictional relation is defined as ‘one whose only property is 
+that it holds between the objects that it does hold between’ (Newman [1927], 
+p. 145). By this Newman does not mean to call real only those relations that 
+have interesting formal properties (such as reflexivity, transitivity etc.) because 
+the Russellian would presumably not wish to ignore all relations that lack in- 
+teresting formal properties (for example, all one-place relations lack interesting 
+formal properties, but the Russellian would presumably not wish to ignore all 
+one-place relations). Rather he means that real relations are those that are 
+the extensions of intensionally interpreted predicates. At first it seems that the 
+problem here is that all relations are fictional for Russell, because, according to 
+Newman, he denies that our knowledge claims about the external world involve 
+any intensionally interpreted predicates (except perhaps equality). However, 
+® Aset of n objects has 2" — 1 non-empty subsets. n objects can be arranged into a set of n.n distinct 
+pairs, which has 2"" — 1 non-empty subsets. n objects can be arranged into a set of n.n.n triples, 
+which has 2""" — | non-empty subsets.
+
+--- Page 9 ---
+
+Newman’s Objection 143 
+Newman claims that the problem is just the opposite, i.e. that all relations are 
+real, because, having named the objects in the domain, each relation will be 
+the extension of some intensionally interpreted predicate. In the above case, for 
+example, R is the extension of the relation that holds between x and y just in 
+case (x = a and y = b) or (x = aand y = c) or (x = band y=c). 
+This leads Newman to consider a second possible response, which is to 
+distinguish between ‘important’ and ‘trivial’ relations and assume that when 
+the Russellian tells us what relations hold in a system he is talking only about 
+important relations. Newman dismisses this response as follows: 
+we should have to compare the importance of relations of which nothing is 
+known save their incidence (the same for all of them) in a certain aggregate. 
+For this comparison there is no possible criterion, so that ‘importance’ 
+would have to be reckoned among the prime unanalysable qualities of 
+the constituents of the world, which is, I think, absurd. (Newman [1928], 
+p. 147) 
+Although Newman thought that this response was absurd, a number of 
+philosophers have put forward variants of it. These will be discussed in 
+Section 6. 
+However, isn’t there a much more obvious response to Newman: hasn’t he 
+misunderstood the position he attacks? Newman imputes to Russell something 
+like the following claim: 
+Our knowledge of the world is purely structural (i.e. it consists of claims 
+constructed using only logical terms). 
+However, it may be that Russell actually held only the following (weaker) 
+view: 
+Our knowledge of the world consists of claims constructed using only 
+logical and internal terms. 
+It is true that the passages of Russell that Newman quotes seem to suggest he 
+would go along with the former (stronger) of these claims, but elsewhere Russell 
+is quite explicitly committed to the view that we know how external objects 
+are connected with internal experience, which he allows us to legitimately de- 
+scribe with non-logical terms. For example, Russell says that ‘My knowledge of 
+the table is of the kind which we shall call “knowledge by description”. The 
+table is “the physical object which causes such-and-such sense-data”’. (Russell 
+[1912], p. 26). This seems to imply that he held only the latter (weaker) claim. If 
+we understand Russell this way then it seems that Newman has misunderstood 
+his position.
+
+--- Page 10 ---
+
+144 Peter M. Ainsworth 
+However, Russell did not respond to Newman this way (Russell’s response 
+is discussed in passing in Section 5.2, as it relates to Cruse’s [2005] response). 
+It is difficult to believe that Russell just missed such an obvious rejoinder. 
+Perhaps the reason he did not offer it is that he could see that although 
+Newman’s objection, as Newman states it, is not strictly speaking to the point, 
+nonetheless Newman’s line of thinking does lead one to the conclusion that 
+ESR is not significantly distinct from standard antirealism. This point has 
+been made by Demopoulos and Friedman ([{1985]) and Ketland ((2004]) with 
+respect to the Ramsey-sentence approach to ESR and is discussed in the next 
+subsection. 
+3.2 Demopoulos and Friedman’s and Ketland’s versions 
+Demopoulos and Friedman (anachronistically) impute to Russell a form of 
+the Ramsey-sentence approach to ESR (Demopoulos and Friedman [1985], 
+p. 622) whereby the knowledge a scientific theory provides is expressed by the 
+Ramsey-sentence of that theory, which will contain non-logical terms that refer 
+to either internal objects, properties, and relations (for the SESRist) or observ- 
+able objects, properties, and relations (for the WESRist) but will in either case 
+not be purely structural. They claim (although without substantial argument) 
+that if ‘our theory is consistent, and if all its purely observational consequences 
+are true, then the truth of the Ramsey-sentence fo//ows as a theorem of set the- 
+ory or second-order logic, provided our initial domain has the right cardinal- 
+ity’ (Demopoulos and Friedman [1985], p. 635, original emphasis). Although 
+Demopoulos and Friedman do not really back up this claim, Ketland ((2004]) 
+does provide a strong argument for (a slight variant of) the claim. 
+To understand Ketland’s argument we must distinguish between intended 
+and arbitrary interpretations of a language. An intended interpretation is a 
+function from the non-logical terms of the language to the objects, properties, 
+and relations in a structure that respects the intended meanings of the non- 
+logical terms. For example, under its intended interpretation, the name ‘Julius 
+Caesar’ is assigned the person Julius Caesar. Similarly, under its intended 
+interpretation, the predicate ‘larger than’ is assigned the set of pairs (x, y) such 
+that x is larger than y. An arbitrary interpretation does not respect intended 
+meanings in this way. In an arbitrary interpretation, the name ‘Julius Caesar’ 
+might be assigned any arbitrary object and the predicate ‘larger than’ might be 
+assigned any arbitrary set of pairs. 
+Ketland assumes that we have a two-sorted second-order language. A two- 
+sorted language (see, for example, Enderton [2001], pp. 295-6) has two types 
+of individual variables that range over two different domains. Many-sorted 
+languages are harmless in the sense that they can be reduced to standard one- 
+sorted languages without loss (except of convenience) (see Enderton [2001],
+
+--- Page 11 ---
+
+Newman's Objection 145 
+pp. 296-9). In this case the two domains (in the intended interpretation of the 
+language) are observable objects and unobservable objects. 
+The language is also assumed to have three types of predicates: observational 
+predicates, which (in the intended interpretation of the language) refer to ob- 
+servable properties and relations (which Ketland takes to be sets [of tuples] 
+of observable objects), theoretical predicates, which (in the intended interpre- 
+tation of the language) refer to unobservable properties and relations (which 
+Ketland takes to be sets [of tuples] of unobservable objects) and mixed pred- 
+icates, which (in the intended interpretation of the language) refer to mixed 
+relations (which Ketland defines as sets of tuples such that each tuple contains 
+at least one observable object and at least one unobservable object).’ 
+Let (Do, O;, O2,...) be the structure associated with the intended inter- 
+pretation of the observational part of the language, i.e. let Do be the set of 
+observable objects in the world and let O;, O2 etc. be (the sets corresponding 
+to) the observable properties and relations referred to by the observational 
+predicates of the language. 
+We can now define what it means for an arbitrary structure for the language, 
+((D;, D2), Ria, Riz R31, R3.2,...) to be empirically correct 
+((D;, D2) is an arbitrary two-sorted domain, each Rj; is an arbitrary interpre- 
+tation of an observational predicate over D, (i.e. a subset of D; or a subset of 
+D; x D, etc.), each R3j; is an arbitrary interpretation a theoretical predicate 
+over D> (i.e. a subset of D> or a subset of D> x D> etc.) and each R3>j; is an 
+arbitrary interpretation of a mixed predicate over D; U D> (i.e. a subset of D, 
+x D> ora subset of D> x D, etc.)). We do this as follows: 
+Definition 1: D,, Do), Riz, Ri2 >1, Roo, ‘np RRy Bea < 1S 
+empirically correct if and only if its reduct (D;, Rj.;, Ri.2, . . .) is isomorphic 
+to (Do, O}, O2,...). (cf. Ketland’s ‘Definition E’ [2004], p. 296) 
+In other words, a structure is empirically correct if and only if the appropriate 
+reduct of the structure is isomorphic to the structure of the observable world 
+(relative to some choice of predicates). This definition of empirical correctness is 
+in line with van Fraassen’s ([1980]) notion of empirical adequacy: van Fraassen 
+says that ‘a theory is empirically adequate exactly if [...] [it] has at least one 
+model that all the phenomena fit inside’ (van Fraassen [1980], p. 12). We will 
+Ketland himself notes that the characterization of observable (etc.) properties and relations as 
+sets (of tuples) of observable (etc.) objects has some counter-intuitive consequences. In particular 
+he notes that ‘many scientifically significant relations and quantities (e.g. various space-time 
+relations and quantities, various scientific quantities such as mass, length, duration, location, 
+etc.) will “decompose” into three strangely distinct relations, depending on the observational 
+status of their relata’ (Ketland [2004], p. 289, footnote 5). Cruse ({2005]) argues that the ESRist 
+(or at least the WESRist) can respond to Ketland’s version of Newman’s objection by denying 
+that this is an accurate characterization of the observable/unobservable distinction that he wishes 
+to draw. This response is discussed in Section 5.2
+
+--- Page 12 ---
+
+146 Peter M. Ainsworth 
+return to the issue of how this definition of empirical correctness compares with 
+other notions of empirical correctness (or adequacy) later. Let’s assume that 
+the Ramsey-sentence of a theory in this language is obtained by Ramseyfying 
+away the mixed and theoretical predicates that appear in the theory (cf. Ketland 
+[2004], p. 292). It follows that: 
+Theorem 1: The Ramsey-sentence of a theory A is true if and only if 
+there is some sequence of relations R2, R22 R31, R32,... such that 
+((Do, Dr), O1, O2 21, R22 , R32,...) F A (cf. Ketland’s 
+‘Theorem 4 [2004], p. 293) 
+where Dy is the set of unobservable objects in the world. (Ketland gives a 
+proof of this result; this has been omitted, as the result itself seems intuitively 
+obvious.) We need one more definition: 
+Definition 2: (D;, D2), Ry, Ri2 21, K22 ee a= 
+cardinality correct if and only if |D2| = |Dr|. (cf. Ketland’s ‘Definition G’ 
+[2004], p. 298) 
+and we can then prove: 
+Theorem 2: The Ramsey-sentence of a theory A is true if and only if A has 
+a model that is empirically correct and T-cardinality correct. (cf. Ketland’s 
+‘Theorem 6’ [2004], p. 298) 
+The proof is in two steps: 
+[1] Left-to-right: Suppose the Ramsey-sentence of A is true. Then, by The- 
+orem 1, there is some sequence of relations R2;, R22 
+such that (Do, Dr), O01, Or 2 R31, R32,...) F A, ice. 
+(Do, Dr), 01, O2,..-, Roi, R22 R3;, R32,...) is a model of A. 
+Clearly, (Do, O;, O2,...) is isomorphic to (Do, O;, O2,...), so (Do, Dr), 
+QO), O> R31, R32,...) is empirically correct (by 
+Definition 1). Equally clearly, |Dr| = |Dr|, so (Do, Dr), O1, O2 
+R31, R32,...) is T-cardinality correct (by Definition 2). 
+[2] Right-to-left: Suppose A has a model, ((D;, D2), Ri, Ri2 
+22 R31, R32,...), that is empirically correct and T-cardinality cor- 
+rect. As ((D;, D2), Ria, Ri2 > R31, R3.2,...) is empir- 
+ically correct, (D;, Rj.;, Ri2,...) is isomorphic to (Do, O;, O2,...), ie. 
+there is a bijection, f: D; ~ Do, such that, for every R; ; and every n-tuple, 
+Xn), Of elements of D;: 
+(x), X2,---,Xn) € Ry, if and only if (f(x;), f(x2) f(xn)) € Oj. 
+As ((D;, D2), Rui, Ri2 21, R22 R31, R32,...) is T-cardinality 
+correct, |D>| = |Dr|, i.e. there is a bijection, g: D2 — Dy. We can use fand g 
+to define a new function, fg: (D,;, D2) —~ (Do, Dr), such that f* g(x) = f(x)
+
+--- Page 13 ---
+
+Newman’s Objection 
+if x € D,; and f*g(x) = g(x) if x € D2 and we can use f*g to define new 
+relations such that, for every R2; and every R3;: 
+(i) Roi = ae {(f2(x1), fg(x2), 
+(ii) = R3i = ar {(f 2x1), f g(x2) 
+By the construction of the R> js and R3js, fg is an isomorphism between 
+21, R22 3.1, R32,-.- and ((Do, Dy 
+R31, R32,...). We know that ((D;, D2), Ry), 
+3 F A,so ((Do, Dr), O;, O2,... , Ro, 
+A. So by theorem 1, the Ramsey-sentence of A is 
+How does Ketland’s result compare to Demopoulos and Friedman’s claim 
+that if ‘our theory is consistent, and if all its purely observational consequences 
+are true, then the truth of the Ramsey-sentence follows as a theorem of set the- 
+ory or second-order logic, provided our initial domain has the right cardinality’ 
+(Demopoulos and Friedman [1985], p. 635, original emphasis)? Ketland notes 
+that his result is, strictly speaking, weaker, because it is in principle possible 
+that all a theory’s purely observational consequences could be true whilst it 
+might not have an empirically correct model but not vice versa. (An obser- 
+vational consequence here is assumed to be any statement formed using only 
+observational predicates and logical terms, excluding predicate variables. Ob- 
+servational consequences in this sense are thus assumed to include empirical 
+generalizations. Zahar’s reply to the modern version of the objection is based 
+on the claim that this is inappropriate; this is discussed in Section 5.1). 
+It is not easy to give an example that demonstrates how all a theory’s purely 
+observational consequences could be true whilst it might not have an empiri- 
+cally correct model, but Ketland gives an example that demonstrates how some- 
+thing analogous can occur in number theory. Say that a model is ‘arithmetically 
+correct’ if and only if it has a reduct isomorphic to the standard natural number 
+structure. Say that a theory has true ‘arithmetical consequences’ if and only if 
+all the consequences of the theory that are stated in the language of arithmetic 
+are satisfied in the standard natural number structure. Let L be the language 
+of arithmetic, and let Ly be the language of arithmetic extended by a monadic 
+predicate symbol, T (which is intended to behave like a truth predicate). Now 
+consider the theory FS*: this contains the axioms of Peano arithmetic and 
+certain axioms concerning the predicate T (these are axioms that, intuitively 
+As a referee pointed out, this proof assumes that we are dealing with a full (standard) second- 
+order model (i.e. a model in which the second-order quantifiers range over all the relations 
+on the domain{s]). If we were dealing with a non-full (Henkin) model then there would be no 
+guarantee that the relations that are defined in the proof would be in the scope of the second-order 
+quantifiers, so the proof would not go through.
+
+--- Page 14 ---
+
+148 Peter M. Ainsworth 
+speaking, a truth predicate should satisfy) (see Halbach [1999], pp. 368-9). 
+It can be shown that, (i) if M is a model of FS* then M does not have a reduct 
+isomorphic to the standard natural number structure, so FS* does not have a 
+model that is arithmetically correct, but nonetheless, (11) every consequence of 
+FS* that does not involve T is true in the standard natural number structure, 
+so FS* has only true arithmetical consequences. (For more on this see Ketland 
+[2004], pp. 295-8). 
+However, despite the fact that Ketland’s result is strictly speaking weaker 
+than the one Demopoulos and Friedman claim, the difference appears to be 
+immaterial: Ketland’s result still suggests that ESR is not significantly distinct 
+from antirealism. As noted, Ketland’s notion of empirical correctness formal- 
+izes van Fraassen’s notion of empirical adequacy. Since van Fraassen argues 
+that it is rational to believe that our mature theories are empirically adequate 
+(but not necessarily true) Ketland’s result shows that what the knowledge that 
+a theory’s Ramsey-sentence is (approximately) true would amount to, beyond 
+what van Fraassen’s antirealism allows, would be (at most) only knowledge of 
+the cardinality of the unobservable world. Thus ESR (in its Ramsey-sentence 
+form) is just van Fraassen’s antirealism, augmented by the peculiar claim that 
+we can (perhaps) know the cardinality of the unobservable world.’ 
+4 Replies that Abandon the Ramsey-Sentence Approach to ESR 
+In this section, two arguments that claim that Newman’s objection can be 
+evaded if one abandons the Ramsey-sentence approach to ESR are discussed. 
+On the face of it, this appears to be a strange line to take, because although 
+Demopoulos and Friedman’s and Ketland’s versions of the objection are di- 
+rected at the Ramsey-sentence approach to ESR, Newman’s original version of 
+the objection is not. This first impression remains on closer inspection of these 
+arguments. 
+4.1 Redhead’s reply 
+Redhead ((2001]) argues that the Ramsey-sentence approach to ESR is indeed 
+undermined by Newman’s objection, commenting that ‘the Ramsey sentence 
+AIR(S[R]), asserting the existence of a relation R which has structure S, is in 
+fact a logical truth, modulo the specification of the cardinality of the domain 
+over which the relation is defined’ (Redhead [2001], pp. 345-6). This is false: 
+the Ramsey-sentence of a theory is not satisfied by every model of the right 
+The qualifications ‘at most’ and ‘perhaps’ appear here because knowing that a theory’s Ramsey- 
+sentence is true doesn’t guarantee that we know the cardinality of the unobservable world, it 
+only guarantees that we know that the theory has some model with the right cardinality (and the 
+theory might have models of different cardinalities).
+
+--- Page 15 ---
+
+Newman’s Objection 149 
+cardinality, so the Ramsey-sentence is not, ‘a logical truth, modulo the speci- 
+fication of the cardinality of the domain’ (on the most obvious reading of this 
+expression). For example, consider the ‘theory’ expressed by the sentence Jw3x 
+([w 4 x] & Vy [(y = w) Vv (y = x)]) & Vz(Pz) (which says that there are two things, 
+and that everything is P). Its Ramsey-sentence is 3X[Sw3x ([w # x] & Vy [(y = 
+w) V (y = x)]) & Vz(Xz)] (assuming P needs to be Ramseyfied). This is satisfied 
+by the structure ({1, 2}, {1, 2}) but not by every structure with two elements in 
+its domain. For example, it is not satisfied by the structure ({1, 2}, {1}). Hence 
+it is not ‘a logical truth, modulo the specification of the cardinality of the do- 
+main’. What (Ketland’s version of) Newman’s objection actually shows is that 
+if the theory has an empirically correct model then the theory’s Ramsey-sentence 
+is bound to be satisfied by some structure (instantiated by the world) as long as 
+the world contains an appropriate number of (unobservable) things. 
+Redhead puts forward an alternative approach to ESR, which, he claims, 
+avoids Newman’s objection. He describes this alternative approach as 
+follows: 
+We need not deny that there are real physical relations posited by physical 
+theories [...] Thus S(R), where R refers to a specific relation having the 
+structure S, is of course logically stronger than the Ramsey sentence, and is 
+by no means a logical truth. But this means [. . .] that the reference of R must 
+be picked out in non-structural terms. But this is not denied in the above 
+account. Our claim is merely that R is hypothesised in some explanatory 
+theoretical context so it exists as an ontological posit, but all that we have 
+epistemic warrant for is the second-order structure S. (Redhead [2001], 
+p. 346). 
+Redhead appears to suggest that the Ramsey-sentence approach to ESR 
+denies that there are real physical relations posited by physical theories. This is 
+also false. The Ramsey-sentence approach does claim (roughly speaking) that 
+all we know about (some of) these relations is structural, and this is (roughly 
+speaking) why Newman’s objection operates against it. But this is a claim that 
+Redhead apparently endorses. The point of Newman’s objection is (roughly 
+speaking) that if all we know is that there is some (real) relation R (of which we 
+have only structural knowledge) then we know nothing more than a cardinality 
+constraint on the domain over which the relation is defined. 
+On the other hand, in parts of the above quote Redhead seems to suggest 
+that we can specify the relation R intensionally. If he does think this then he 
+appears to have abandoned ESR, and it is hard to see how he can maintain the 
+claim that we have only structural knowledge of R. 
+Perhaps the most charitable reading of Redhead’s position would be to 
+substitute the word ‘important’ or ‘natural’ for the words ‘real’ and ‘specific’ in 
+the above quote. This would lead us back to Newman’s own ‘absurd’ response 
+to his objection (variants of which are discussed in Section 6). However, it
+
+--- Page 16 ---
+
+150 Peter M. Ainsworth 
+is doubtful that this is really what Redhead intended. Neither ‘natural’ nor 
+‘important’ means the same as ‘real’, much less is either synonymous with 
+‘specific’. Moreover, there seems to be no reason why taking this line forces one 
+to abandon the Ramsey-sentence approach (as will be seen when this approach 
+is discussed in Section 6). 
+4.2 French and Ladyman’s reply 
+French and Ladyman ([2003]) appear to suggest that Newman’s objection does 
+not arise if one adopts the semantic view of theories (whereby a theory is taken 
+to be a collection of structures) as opposed to the syntactic view (whereby a 
+theory is taken to be a collection of sentences): 
+Worrall’s approach is thoroughly embedded in the so-called syntactic view 
+of theories that adopts first-order quantificational logic as the appropriate 
+form for the representation of physical theories. [Footnote omitted] We 
+will not rehearse our reasons here, but we consider this approach to be 
+deeply flawed, not only because of its inadequacy in reflecting scientific 
+practice, but also because of the pseudo-problems that arise once one has 
+adopted it. So for example, the Newman problem is obviated if one does not 
+think of structures and relations in first-order extensional terms. One of us 
+(Ladyman [1998]) has suggested an alternative descriptive framework for 
+SR [structural realism], namely the ‘semantic’ or model theoretic approach 
+to theories. (French and Ladyman [2003], p. 33) 
+On the face of it, it seems highly unlikely that moving to the semantic view 
+would really allow the ESRist to evade Newman’s objection. In fact, Newman’s 
+original version of the objection is posed against the view that scientific theories 
+directly specify a structure that represents the world. It is true that Demopoulos 
+and Friedman ([{1985]) and Ketland ((2004]) aim their objections at the Ramsey- 
+sentence approach, which does assume that science presents us with a linguistic 
+representation of the world. However, it is easy to show that an analogue of 
+their objections applies to a version of ESR framed using the semantic view. 
+Framed in terms of the semantic view, ESR would imply something like the 
+following limitation on our knowledge: 
+The most that we can know about the world is that some structure (pro- 
+vided by our scientific theories) is empirically correct and isomorphic to a 
+structure instantiated by the world. 
+Let (Do, O;, O2,...) be the structure instantiated by the observable world 
+(relative to some chosen observational predicates): i.e. let Do be the set of 
+observable objects in the world and let O;, O> etc. be the intended extensions 
+of observational predicates. Let a theory present us with a structure, ((D,, D>), 
+Ry, Riz,.--, Roa, Ro2,..., R31, R32,..-), where D; is a domain that is to
+
+--- Page 17 ---
+
+Newman's Objection 151 
+represent the set of observable objects, D> is a domain that is to represent the set 
+of unobservable objects, each Rj ; is to represent an observable relation (where 
+an observable relation is taken to be a set of [tuples of] observable objects), 
+each R>j; is to represent a mixed relation (where a mixed relation is taken to 
+be a set of tuples that each contain at least one observable object and at least 
+one unobservable object) and each R3, is to represent an unobservable relation 
+(where an unobservable relation is taken to be a set of (tuples of) unobservable 
+objects). Define such a structure to be empirically correct as before: 
+Definition 1: ((D;, D2), Ry1, Ri2,..., Ro, Ro2,..., Rai, Ra2,..-) is 
+empirically correct if and only if its reduct (D;, Ry.;, Ry. is isomorphic 
+to (Do, 01, O2,...). (cf. Ketland’s ‘Definition E’ [2004], p. 296) 
+Let Dy be the set of unobservable objects in the world. Define ((D;, D>), 
+Ri 1, 2 21, R22 3.1, R3.2,...) to be T-cardinality correct as 
+oefore: 
+Definition 2: D;, Dz), Ry, Ri2,.--, R21, R22 : » R31, R32,- -) 1S 
+T-cardinality correct if and only if |D2| = |Dy|. (cf. Ketland’s ‘Definition 
+G’ [2004], p. 298) 
+We can now prove that: 
+Theorem 3: ((D;, Dz), Ry, Ry2,..., Roi. Ro2,.... R31, R32, is em- 
+pirically correct and isomorphic to a structure instantiated by the world if 
+and only if it is empirically correct and T-cardinality correct 
+The proof comes in two stages: 
+[1] Left to right: Suppose ((D;, D2), Ry), Ri2,..., Roi, Ro2,.-., Rs 
+R3.2,...) is empirically correct and isomorphic to a structure instantiated 
+by the world. That is, ((D;, D2), Ry1,Ry2,...,R21,R22,..-,R31, R32, 
+is isomorphic to a structure of the form, ((Do, Dr), O;, O2,..., Ro, 
+R>> R31, R32,...), where O;, O> etc. are the intended extensions 
+of observational predicates. By stipulation it is empirically correct. And 
+clearly, |D2| = |Dr|, ie. (D;, Dz), Ry, Ri2 21, R22,.-.., R3 
+R32,...) is T-cardinality correct. 
+[2] Right to left: Suppose ((D;, Dz), Ry1, Ryi2..-. 21, R22, , R; 
+R32,...) is empirically correct and T-cardinality correct. By stipulation 
+it is empirically correct. As ((D;, D2), Ri). 2? 
+R32,...) 1s empirically correct there is some isomorphism between (D), 
+R) 1, Ryi2,...) and (Do, O;, Oo, . . .). That is, there is a bijection f: D;} + Do, 
+such that, for every R;; and every n-tuple, (x; x2,..., Xn), of elements 
+of D;: 
+te 3.15 
+(X1, X2,.--,Xn) € Ry, if and only if (f(x;), f(x2) f(x,)) € Oj.
+
+--- Page 18 ---
+
+Peter M. Ainsworth 
+As ((D;, D2), Ria, Riz 21, R22 31, R32,...) is T-cardinality 
+correct there is some bijection, g: D2 + Dry. We can use these functions to 
+define a new function, fg: (D;, D2) —~ (Do, Dr) such that f* g(x) = f(x) if 
+x € D, and f* g(x) = g(x) if x € D2 and we can use f*g to define new relations 
+such that, for every Rp; and every R3j: 
+(i) Roi =ar {(f (x1), fg(x2) Pete) ofp iKss os «5 Xn) € Roi}. 
+(ii) Ri = ar {(f (x1), e(x2) 
+By the construction of the R;s and R33 ;s, fg is an isomorphism between 
+(D,, D>), Ruy, 2 R21, 72 R31, R32,...) and (Do, Dr), 
+R31, R32,...). (Do, Dr), O1, Or 
+R>> R3,,, R3.2,...) is a structure instantiated by the world: we know 
+that O,, O> etc. are the intended extensions of observational predicates 
+and each R; is an arbitrary mixed relation that is obviously instantiated 
+by the world (all its tuples are built from objects in the set Do U Dr, 
+i.e. the set of objects in the world) and similarly, each R33; is an arbitrary 
+unobservable relation that is obviously instantiated by the world (all its 
+tuples are built from objects in the set Dy, i.e. the set of unobservable 
+objects in the world).'° @ 
+Theorem 3 states that the semantic view formulation of ESR (i.e. the 
+claim that the most that we can know about the world is that some 
+structure—provided by our scientific theories—is empirically adequate and 
+isomorphic to a structure instantiated by the world) is equivalent to the claim 
+that the most that we can know about the world is that some structure (pro- 
+vided by our scientific theories), ((D;, D2), Ri, Riz 3. 
+R3.2,...), is empirically correct and T-cardinality correct, so Theorem 3 pro- 
+vides a Newman-esque reductio of the semantic view formulation of ESR. It 
+is true that there is a slight difference between the ESRist who works with the 
+semantic view and the ESRist who works with the syntactic view/Ramsey- 
+sentence approach (because the latter’s claim is equivalent to the even less 
+optimistic view that the most we can know about the world is that one of 
+the—possibly many—structures that satisfy a given theory is empirically cor- 
+rect and T-cardinality correct) but this difference does not appear to be very sig- 
+nificant. (The difference arises because the proponent of the semantic view—at 
+least as he has been characterized here—thinks that the theory specifies a unique 
+structure, whereas the proponent of the syntactic view thinks that a theory is 
+a sentence that picks out only a family of structures, all of which satisfy the 
+sentence). 
+'0 Tt may be objected that the R2;s and the R'3,;s, presumably unlike the Os, may not correspond 
+to any natural relations; this again leads to essentially Newman’s own ‘absurd’ response to his 
+objection (variants of which are discussed in Section 6).
+
+--- Page 19 ---
+
+Newman’s Objection 
+5 Replies Designed to Rescue the Ramsey-Sentence Approach 
+In this section, three replies that are designed to save the Ramsey-sentence 
+approach to ESR from the modern versions of Newman’s objection are con- 
+sidered. 
+5.1 Zahar’s reply 
+Zahar ({2001], Appendix 4, co-written with John Worrall; [2004]) takes issue 
+with Demopoulos and Friedman’s version of Newman’s objection, which he 
+characterizes as the claim that it is ‘only what the Ramsey-sentence asserts 
+over and above its observational content [that] is reducible to [. . .] a cardinality 
+constraint’ (Zahar [2004], p. 10, original emphasis). Zahar goes on to say 
+that: 
+This ‘over and above’ however proves to be essentially indefinable; for 
+on the one hand, the Ramsey-sentence does not normally follow from 
+its empirical basis, i.e. from the set of true and empirically decid- 
+able, hence singular sentences. If, on the other hand, all the—generally 
+undecidable—empirical generalisations’ were included in the observa- 
+tional content of a theory, then the Ramsey-sentence might well turn out 
+to be one of them; in which case Demopoulos’s and Friedman’s thesis col- 
+lapses into the trivial claim that the Ramsey-sentence follows from itself 
+(Zahar [2004], p. 10, original emphasis). 
+Zahar’s first ‘hand’ holds the proposition that only singular sentences form 
+the observational content of a theory. He then demonstrates that Ramsey- 
+sentences can go beyond such observational content. He asks us (Zahar [2004], 
+p. 11) to consider a theory expressed by the sentence 
+A: Wx(Fx — Tx) & Vy(Ty — Ky), 
+where F and K are observational predicates and T is a theoretical predicate. 
+The Ramsey-sentence of this theory is 
+A* : 3X(Wx[Fx — Xx] & Vy[Xy — Ky]), 
+which is equivalent to 
+Vx(Fx — Kx) 
+and this last sentence (and hence the equivalent A*) goes beyond any number 
+of singular statements of the form 
+Fa; > Ka; 
+in the sense that no matter how many statements of this form we have, there 
+is always a model in which they are all true but in which the generalization
+
+--- Page 20 ---
+
+154 Peter M. Ainsworth 
+Vx(Fx — Kx) (and hence the equivalent A*) is false. So there is a clear sense in 
+which the Ramsey-sentence of the theory goes beyond (Zahar’s understanding 
+of) the observational content of the theory. 
+However, given Zahar’s understanding of the observational content of a 
+theory as consisting of the singular sentences (containing only observational 
+terms) entailed by the theory, then not only do Ramsey-sentences typically go 
+beyond observational content but, as Zahar’s example clearly illustrates, uni- 
+versal generalizations that involve only observational predicates (i.e. “empirical 
+generalisations’) also go beyond observational content. Even the antirealist 
+would typically agree that we can know such generalizations to be true, so 
+even the antirealist would agree that we can know more than the observational 
+content of a theory, in Zahar’s sense of observational content.'' Unless the 
+ESRist can demonstrate that Ramsey-sentences also go beyond empirical gen- 
+eralizations, he has failed to distinguish his position from antirealism. In fact, 
+Zahar clearly states (in the above quote) that the Ramsey-sentence of a theory 
+might often be (equivalent to) an empirical generalization. At this point he 
+seems to concede to Demopoulos and Friedman even more than they ask for: 
+they claim that ESR is antirealism plus a cardinality constraint, while Zahar 
+seems to concede that ESR is (often) plain antirealism (because he claims that 
+Ramsey-sentences are [often] equivalent to empirical generalizations, so the 
+ESRists’ claim that we can have knowledge of at most Ramsey-sentences is 
+[often] equivalent to the antirealists’ claim that we can have knowledge of at 
+most empirical generalizations). 
+Nonetheless, Zahar denies that ESR is just antirealism. This denial seems 
+to rest on an equivocation over the meaning of ‘observational content’. Zahar 
+claims that the difference between realists and antirealists is that the latter deny 
+that we can have knowledge that goes beyond the observational content of a 
+theory, which is true, but only if the observational content of a theory is taken 
+to include empirical generalizations. He then demonstrates that the Ramsey- 
+sentence of a theory goes beyond the observational content of a theory, where 
+this is now taken to exclude empirical generalizations. Thus his conclusion that 
+to know the Ramsey-sentence of a theory is to know more than the antirealist 
+would allow does not follow. 
+'! Typically, the antirealist would say that we can have knowledge of singular empirical state- 
+ments and empirical generalizations (i.e. generalizations that do not involve theoretical terms or 
+second-order variables) but would deny that we generally have knowledge of a theory’s Ramsey- 
+sentence (since, notwithstanding Zahar’s example, a theory’s Ramsey-sentence is not typically 
+equivalent to an empirical generalization). (Although what Newman’s objection purports to show 
+is—roughly speaking—that knowing a theory’s Ramsey-sentence to be true is knowing very little 
+beyond knowing that the singular empirical statements and empirical generalizations that fol- 
+low from the theory are true, so ESR collapses into a position not significantly distinct from 
+antirealism.)
+
+--- Page 21 ---
+
+Newman's Objection 
+5.2 Cruse’s reply 
+Cruse’s ((2005]) reply is directed at Ketland’s version of the objection. In 
+particular, Cruse objects that not all ESRists need draw the observational 
+term/theoretical term distinction in the way that Ketland suggests (and given 
+a suitably different construal of the distinction, Ketland’s proof of Theorem 2 
+would not go through). Recall that Ketland takes observational predicates 
+to refer exclusively to sets of (tuples of) observable objects, theoretical predi- 
+cates to refer exclusively to sets of (tuples of) unobservables objects and mixed 
+predicates to refer to sets of tuples that each contain at least one observable 
+and one unobservable object. As noted, Ketland acknowledges that this has 
+some rather counter-intuitive consequences. Cruse emphasizes this point: 
+consider the relation denoted by the predicate ‘larger than’. On Ketland’s 
+taxonomy, there is no such single relation; there are three. First, there is the 
+relation we might call observably larger than, which ranges entirely over ob- 
+servable objects. Second[,] there is the relation we might call unobservabl 
+larger than, which ranges entirely over unobservable objects. Third, there is 
+the relation we might call miscellaneously larger than, which applies to all 
+and only pairs of objects such that the first is observable, the second unob- 
+servable, and the first larger than the second.'? On Ketland’s terminology, 
+only the first class of relations—those which range entirely over observable 
+objects—count as observable [. . .] I will call this the strong version of the 
+observational-theoretical (O/T) distinction. (Cruse [2005], p. 561, original 
+emphasis, footnote added) 
+Cruse’s reply is based on rejecting the strong observational term/theoretical 
+term distinction. 
+Cruse notes that some ESRists do appear to be committed to this form of the 
+observational term/theoretical term distinction or rather (as he puts it) ‘some- 
+thing isomorphic to it’ (Cruse [2005], p. 563). Translated into the terminology 
+of this paper, he suggests that the internal term/external term distinction em- 
+ployed by SESRists (such as Russell) must take this form because ‘the mental 
+and physical domains are entirely disjoint, so no (non-mathematical) property 
+which applies to a mental event applies to a physical event or vice versa. Sim- 
+ilarly, no (non-mathematical) predicate which applies to a mental event will 
+apply to a physical event’ (Cruse [2005], p. 563). 
+In fact, in the face of Newman’s objection, Russell decided that he was not 
+committed to this form of the distinction. In a letter to Newman (reprinted in 
+his autobiography [1968] and by Demopoulos and Friedman [1985]) he wrote: 
+\2 This is splitting hairs, but it seems that we could also have an unobservable object that was larger 
+than an observable object if, for example, ‘the universe’ or ‘the nearest black hole’ qualifies as 
+unobservable object
+
+--- Page 22 ---
+
+Peter M. Ainsworth 
+It was quite clear to me, as I read your article, that I had not really intended 
+to say what in fact I did say, that nothing is known about the physical world 
+except its structure. I had always assumed spacio-temporal continuity with 
+the world of percepts, that is to say, I had assumed that there might be co- 
+punctuality between percepts and non-percepts [...] And co-punctuality 
+I regarded as a relation which might exist among percepts and is itself 
+perceptible. (Russell [1968], p. 176) 
+Russell is here putting forward the view that there is at least one non-logical 
+predicate (‘co-punctuality’) that refers to a relation that can hold between 
+(i) pairs of external objects, (ii) pairs consisting of one external object and one 
+internal object (in either order), and (iii) pairs of internal objects. Russell’s own 
+reply to Newman is actually essentially the same as Cruse’s reply to Ketland, 
+which is perhaps surprising, as Cruse cites Russell as the sort of ESRist for 
+whom this reply is not available. 
+There are good reasons to think that this sort of reply isn’t available to 
+Russell. As Demopoulos and Friedman ({1985]) point out, Russell’s move is 
+completely ad hoc: 
+in the earlier theory [i.e. Russell’s [1927] theory] we could not assume ac- 
+quaintance with a cross category notion such as spacio-temporal contiguity 
+or causality; but in the light of the difficulties of that theory we now find 
+that we can assume this! [Footnote omitted] We are not saying that one 
+cannot resolve the issue in this way. But it seems quite clear that without 
+a considerable advance in the theoretical articulation of this rather elusive 
+Russellian concept [i.e. acquaintance], no such resolution of the difficulty 
+can be very compelling. (Demopoulos and Friedman [1985], p. 632, original 
+emphasis) 
+I would go further: it seems that, given the supposedly radical difference 
+between external and internal objects, it is very unlikely that the issue could be 
+satisfactorily resolved this way. Moreover, if Russell makes this concession then 
+he seems to be left at the top of a slippery slope: if we can assume that external 
+objects can be ‘co-punctual’ with one another in the same way that internal 
+objects sometimes are, why can’t we assume that they can be ‘bigger than’ one 
+another in the same way? It thus does seem (as Cruse suggests) that SESRists 
+(such as Russell) are committed to an internal term/external term distinction 
+of the form Ketland suggests (so they cannot evade the Newman/Ketland 
+objection this way). 
+However, Cruse’s main point (translated into the current idiom) is that the 
+WESRist is not committed to anything like Ketland’s form of the observa- 
+tional term/theoretical term distinction. He proposes an alternative form of 
+the distinction according to which:
+
+--- Page 23 ---
+
+Newman’s Objection 
+observational predicates refer to, broadly speaking, perceptible, or observ- 
+able properties such as redness or squareness. A natural understanding 
+of this would be that these observable properties are unproblematic not 
+because they are a/ways observable, but simply because we can in at least 
+some cases observe them (Cruse [2005], p. 565, original emphasis) 
+This is supposed to capture the intuition that ‘we can meaningfully (and for 
+a realist, truly) assert the existence of red blood cells, or microscopic square 
+grids, for example’ (Cruse [2005], p. 564); i.e. that observational predicates can 
+be applied to unobservable objects. A natural interpretation of this suggestion 
+(natural in the light of the foregoing discussion, at any rate) is that rather than 
+taking an observational predicate to be one whose intended extension is a set 
+consisting only of (tuples of) observable objects (as Ketland suggests), we are 
+to take an observational predicate to be one whose intended extension is a set 
+consisting of at least some (tuples of) observable objects. Theoretical predicates 
+would then be those whose intended extension is a set consisting entirely of (tu- 
+ples of) unobservable objects. However, interpreted this way, Cruse’s suggestion 
+is also deeply counter-intuitive, because it classes as observational a number 
+of predicates that are, intuitively speaking, theoretical. It is true that ‘being a 
+superstring’ is on this account a theoretical predicate, because no superstring is 
+observable, but ‘being a collection of superstrings’ is observational, because it 
+applies to some (in fact, if the theory is correct, all) observable objects. And it is 
+(to say the least) counter-intuitive to classify “being a collection of superstrings’ 
+as observational. 
+However, this is not the only possible interpretation of Cruse’s suggestion. 
+Like Ketland’s original proposal, this interpretation of Cruse’s proposal makes 
+the assumption that either a predicate is observational if and only if its extension 
+contains only (tuples of) observable objects or that a predicate is theoretical 
+if and only if its extension contains only (tuples of) unobservable objects. But 
+why make this assumption? 
+The assumption seems to rest on the idea that we can determine whether an 
+object is observable or unobservable, but that we cannot (directly) determine 
+whether a property or relation is observable or unobservable, so whether or 
+not a property or relation is unobservable must be defined in terms of whether 
+or not the objects to which it applies are. But this idea is surely wrong. Surely 
+we know that red is an observable property as surely and directly as we know 
+that Jeff Ketland is an observable object. And surely we know that being a 
+collection of superstrings is an unobservable property as surely and directly as 
+we know that the nearest black hole is an unobservable object. It is true that 
+there are some properties and relations that we might hesitate to class either 
+way. But it is equally true that there are some objects that we might hesitate to 
+class either way (small particles of dust, for example). So the idea that we must
+
+--- Page 24 ---
+
+158 Peter M. Ainsworth 
+define the observability or unobservability of properties and relations in terms 
+of the observability or unobservability of the objects to which they apply is at 
+least questionable. 
+This suggests that the extensions of observational predicates can contain 
+both observable and unobservable objects, and that the extensions of theoretical 
+predicates can contain both observable and unobservable objects, depending on 
+what the criteria of observability are. If the WESRist adopts an observational 
+term/theoretical term distinction along these lines then it is true that Ketland’s 
+proof of Theorem 2 does not go through (Ketland’s proof crucially assumes 
+that observational predicates apply only to sets of [tuples of] observables, which 
+is not the case with this characterization of the observational term/theoretical 
+term distinction). The WESRist can thereby evade the conclusion that: 
+Theorem 2: The Ramsey-sentence of a theory A is true if and only if A has a 
+model which is empirically correct and T-cardinality correct. (cf. Ketland’s 
+‘Theorem 6’ [2004], p. 298) 
+However, the WESRist would be well advised to leave the champagne on 
+ice, if not in the cellar. Even using this more liberal characterization of the 
+observational term/theoretical term distinction, we can still prove a theorem 
+that casts doubt on the view that knowledge of a theory’s Ramsey-sentence is 
+the sort of knowledge that the WESRist wants to claim that we have. 
+We assume that we have a language containing a number of observational 
+predicates (construed as above, so that they may apply to observable and unob- 
+servable objects) and a number of theoretical predicates (construed as above, so 
+that they too may apply to observable and unobservable objects). The structure 
+associated with the intended interpretation of the observational predicates is: 
+(Da, O;, O>, cay 
+where Da is the domain of (observable and unobservable) objects in the world 
+that instantiate some observable property or relation that is referred to by one 
+of the observational predicates of the language and each Oj is the intended 
+extension of an observational predicate of the language. Now, given a theory, 
+A, the Ramsey-sentence of A is obtained by Ramseyfying away the theoretical 
+predicates. As before, it is obvious that: 
+Theorem 4: The Ramsey-sentence of a theory A is true if and only if there is 
+some sequence of relations, R2), R22,... such that ((Da, Dg), O;, O2 
+R21, R22,...)F A 
+where Dg is the domain of objects in the world that do not instantiate any 
+observable property or relation that is referred to by one of the observational 
+predicates of the language (depending on the choice of these predicates, Dg
+
+--- Page 25 ---
+
+Newman's Objection 159 
+may well be the empty set, e.g. if one of the observational predicates is ‘larger 
+than’, Dg will presumably be empty as every object is surely on at least one side 
+of this relation to at least one other object). We will say of an arbitrary structure 
+for the language, ((D;, D2), Ri, Ri2,..-, Ro, R22....), (where (D;, D>) is 
+an arbitrary two-sorted domain, each R,; is an arbitrary interpretation of an 
+observational predicate over D;, and each R2; is an arbitrary interpretation of 
+a theoretical predicate over D; U D>) that: 
+Definition 3: ((D;, D2), Ry... Ri2,....R21, Ro2,...) gets the extensions of 
+the observational predicates right if and only if its reduct (D,, Ry, R 
+is isomorphic to (Da, O;, Oo, 
+We will also say that: 
+Definition 4: (( D), D>), R, ls Ry Do 0+ «BRD Fy 2822,---7 18 B-cardinality correct 
+if and only if |D>| = |Dg}. 
+It is easy to prove: 
+Theorem 5: The Ramsey-sentence of a theory A is true if and only if A 
+has a model which gets the extensions of the observational predicates right 
+and which is B-cardinality correct. 
+The proof is in two steps: 
+[1] Left-to-right: Suppose the Ramsey-sentence of A is true. Then, by 
+Theorem 3, there is some sequence of relations R2;, R22,... such that 
+((Da, Dg), O1, Oo, ..., R21, R22,...) F A, ie. (Da, Dg), O;, Or, ..., Roi, 
+R>>,...) isa model of A. Clearly, (Da, O;, Or, ...) is isomorphic to (Da, 
+O;, O2,...), so (Da, Dg), O1, O2,..., Rai, Ro2,...) gets the extensions 
+of the observational predicates right (by Definition 3). Equally clearly, 
+|Dg| = |Dgl, 1-e. (Da, Dg), O1, O2 21, R22,...) is B-cardinality 
+correct (by Definition 4). 
+[2] Right-to-left: Suppose A has a model, ((D;, Dz), Rit, Ri2,..-,R2i, 
+22 ), which gets the extensions of the observational predicates right 
+and which is B-cardinality correct. As ((D,;, Dz), Ri, Riz R>| 
+R22,...) gets the extensions of the observational predicates right, (D;, 
+R,1, Ry.2,...) is isomorphic to (Da, O;, Oo,...), i.e. there is a bijection 
+f: D; — Da, such that, for every R;; and every n-tuple, (x), X2,...Xn), 
+of elements of D;: 
+(X1,X2,.-.,Xn) € Rj, jif and only if (f(x;), f(x2) f(x,)) € Oj. 
+As ((D;, D2), Rut, Riz 21, R22,...) is B-cardinality correct, there 
+is a bijection g: D. — Dg. We can use f and g to define a new function, 
+f*g: (D;, D2) — (Da, Dg) such that f* g(x) = f(x) ifx € D; and f* g(x) = g(x)
+
+--- Page 26 ---
+
+Peter M. Ainsworth 
+if x € D2 and we can use f*g to define new relations such that, for every 
+R3;: 
+R3; =ar {(f* 2(x1), f g(x) X,)) 2(X1, Xo 
+By the construction of the R2;’s, fg is an isomorphism between ((D;, D2), 
+Ri, Rj2 R>1, R22,...) and (Da, Dg), O;, O2 R31, Ro5,...). 
+We know that ((D;, D2), Ri, Ri2 ...) F A, so (Da, Dg), 
+R>;, R22,...) F A. So by Theorem 3, the Ramsey-sentence of 
+A is true. £ 
+Theorem 5 implies that the Ramsey-sentence of a theory can tell us something 
+substantial about the world, beyond what the antirealist typically allows: it tells 
+us about the ‘observable’ properties and relations of the unobservable world. So 
+ESR, construed on these lines, does represent a halfway house between realism 
+and antirealism. However, it doesn’t look like the house the ESRist claims to 
+inhabit: the position implies that we have no non-trivial knowledge of unob- 
+servable properties and relations (and, in particular, no interesting ‘structural’ 
+knowledge of such properties and relations). This implies that predicates such 
+as ‘strangeness’ or ‘being a collection of superstrings’ serve only an instrumen- 
+talist function in our theories, which seems to be at odds with the traditional 
+ESRist’s claims. !* 
+5.3 Melia and Saatsi’s reply 
+Melia and Saatsi’s ({2006]) response to Newman’s objection is based on the 
+observation that: 
+The properties postulated in scientific theories are typically taken to stand 
+in certain intensional relations to various other properties. Some properties 
+counterfactually depend on others, some are correlated in a law-like manner 
+with others, some are independent of others, and some are explanatory of 
+others. (Melia and Saatsi [2006], pp. 579-80, original emphasis) 
+Melia and Saatsi point out that such relations between properties (i.e. second- 
+order relations) cannot be expressed in standard second-order logic.'* More- 
+over, they claim that if we formulate scientific theories and their Ramsey- 
+sentences in a language that is capable of expressing such relations then 
+Newman’s objection will be blocked. 
+'3 Discussing whether or not this position was actually plausible would be tangential to the aims of 
+this paper. It would also be a highly scholastic exercise, because it is not a position that anyone 
+holds. 
+The terminology could become confusing here. I call properties and relations of properties and 
+relations second-order properties and relations. It is important to note that second-order logic is 
+so called because it allows for quantification over sets of (tuples of) objects as well as objects and 
+not because it accommodates second-order properties and relations in this sense. 
+14
+
+--- Page 27 ---
+
+Newman's Objection 161 
+As Melia and Saatsi note ({2006], p. 580) the obvious way to formulate such 
+relations would be to introduce higher-order predicates into one’s language. 
+This is not the approach they ultimately favour, but let’s consider this approach 
+first. Consider a ‘theory’ that states that there is a click on a Geiger counter if 
+and only if there is an atom in the vicinity of the Geiger counter that radioac- 
+tively decays. We might attempt to formalize this theory as follows: 
+IxCx — dy(Ay & Dy), 
+where ‘A’ and ‘D’ are ‘theoretical’ predicates such that ‘Ax’ means ‘x is an atom 
+in the vicinity of a Geiger counter’ and ‘Dx’ means ‘x radioactively decays’ and 
+‘C’ is an ‘observational’ predicate such that ‘Cx’ means ‘x is a click in a Geiger 
+counter’. Melia and Saatsi would say that implicit in the theory is the claim 
+that the correlation between Geiger counter clicks and radioactive decay is a 
+lawful (as opposed to accidental) correlation. Consequently, they would argue 
+that a more faithful formalization of the theory would be as follows: 
+(AxCx — dy[Ay & Dy]) & LDC, 
+where L is a second-order predicate such that LX Y means ‘X is lawfully corre- 
+lated with Y’. Consequently the Ramsey-sentence of the theory is not 
+AXSY (SxCx — dy[Xy & Yy)), 
+s 
+which would be contentless!> but is rather: 
+AX3SY[(AxCx <— Sy[Xy & Yy]) & LXC], 
+which is not so trivial: it states that some property has a lawful correlation with 
+clicks on Geiger counters. 
+However, this assumes that the second-order predicate L does not need to be 
+‘Ramseyfied’. If it does then we would obtain the following ‘Ramsey-sentence’: 
+IXSX3Y[(4xCx <— Jy[Xy & Yy]) & XXC], 
+which is, again, effectively contentless: it states that there is a click on a Geiger 
+counter if and only if there is something that has two (not necessarily distinct) 
+properties and that there is some (second-order) relation between one of these 
+properties and clicks on Geiger counters. This is contentless because there is 
+always some second-order relation between any two properties: given any two 
+properties P and Q we can construct the second-order relation {(P, Q)} between 
+them. 
+So this response is only viable if it is reasonable to suppose that second-order 
+relations between properties like ‘is lawfully correlated with’ do not themselves 
+'5 The Ramsey-sentence of this ‘theory’ (formalized this way) is completely contentless: it states that 
+there is a click on a Geiger counter if and only if there is something that has two (not necessarily 
+distinct) properties. This is utterly trivial since a click on a Geiger counter is something that has 
+at least one and hence two (not necessarily distinct) properties.
+
+--- Page 28 ---
+
+162 Peter M. Ainsworth 
+need to be Ramseyfied. But this is surely not something the ESRist could 
+consistently accept: ‘lawful correlations’ and their ilk are surely not observable, 
+much less internal, relations. 
+As noted, Melia and Saatsi do not advocate the use of higher-order predi- 
+cates to formalize the relations between properties. They suggest that we should 
+instead augment the language with a number of modal operators that express 
+the pertinent relations: ‘So, for instance, let Lp express “it is physically necessary 
+that. ..”. Then JXLpVx(Xx <Gx) says that there is a property that is /awfully 
+coextensive with G.’ (Melia and Saatsi [2006], p. 581). The claim is that scien- 
+tific theories, and their Ramsey-sentences, would typically (perhaps invariably) 
+include such modal operators. This sidesteps the problem that undermines the 
+previous approach, because there can be no question of ‘Ramseyfying’ modal 
+operators. This approach is, however, open to the objection that it requires us 
+to take these modal operators as logical primitives and we surely cannot accept 
+that modal operators expressing things like ‘it is physically necessary that...’ 
+can be taken as /ogical primitives, since whether or not something happens as 
+a matter of physical necessity is an issue that must be decided empirically, not 
+as a matter of logic. 
+6 Replies that Argue that Some Structures/ Relations are Privileged 
+In this section, three variants of Newman’s own ‘absurd’ response to his objec- 
+tion are considered. This response is founded on the claim that some relations 
+are more important than others. Newman took this response to be absurd be- 
+cause, as the ESRist believes, we have only structural knowledge of the relations 
+in question, we lack a criterion to distinguish the important relations from the 
+unimportant relations, so ‘importance’ must be left as an unanalyzed primitive, 
+a mysterious quality that attaches to some relations but not to others. How- 
+ever, the idea of a primitive important/unimportant distinction (or something 
+similar) has not appeared absurd to everyone. The proposal most similar to 
+Newman’s own was put forward by Carnap ([1967]) to resolve an analogue of 
+Newman’s problem that faces the theory he puts forward in the Aufbau. The 
+adaptation of this proposal to resolve Newman’s objection to ESR is discussed 
+in Section 6.1. The other two variants of this approach discussed here both 
+in some sense deny that ‘importance’ needs to be taken as primitive. Votsis’ 
+({2003}; [2004], Chapter 4) proposal (discussed in Section 6.2) grounds the im- 
+portance of a relation on the means by which it is discovered. Psillos’ ({1999], 
+Chapter 3) proposal (discussed in Section 6.3) takes the importance ofa relation 
+to be a contingent physical property of the relation. Psillos himself argues that 
+taking the approach ultimately amounts to abandoning ESR. (Both Merrill 
+[1980] and Lewis [1983] make suggestions similar to Psillos’ in response to
+
+--- Page 29 ---
+
+Newman's Objection 163 
+Putnam’s [1977] ‘model-theoretic’ argument against realism: an argument that 
+is very closely related to Newman’s objection to ESR). 
+6.1 A Carnapian reply 
+This reply has some similarities to Melia and Saatsi’s ({2006]) reply (discussed 
+in Section 5.3). The essence of the proposal is the suggestion that we should 
+take importance (or as Carnap [1967] calls it, ‘foundedness’) as a primitive 
+(second-order) logical property that attaches to some relations (in the way that 
+identity is sometimes taken as a primitive logical relation that holds between 
+some pairs). With a little adaptation of the Ramsey-sentence approach, this 
+enables the proponent of ESR to evade Ketland’s variant of the Newman 
+objection. Let the symbol for the foundedness property be ‘Found’. Instead 
+of advocating belief in a theory’s Ramsey-sentence, the ESRist who takes this 
+approach should advocate belief in the theory’s Ramsey-sentence*, where the 
+latter is just like a normal Ramsey sentence, except that, for each predicate 
+variable, X, we add (in the scope of the quantifier 3X) the phrase ‘&Found(X)’. 
+For example, consider the toy theory: 
+¥x(O,x — Tx) & Vy(T2y > Ory), 
+where O; and O> are observational predicates and T,; and T> are theoretical 
+predicates. This theory yields the Ramsey-sentence 
+AXISY(Vx[O,x > Xx] & Vy[Yy > O>y]) 
+and the Ramsey-sentence* 
+3X3Y(Vx[O,x > Xx] & Vy[Yy > Ory] & Found[X] & Found[Y]). 
+As ‘Found’ is taken as a logical primitive the Ramsey-sentence* contains only 
+logical and observational terms. It is thus hygienic, by the WESRist’s standards 
+(in that the WESRist’s claim does not imply that it is impossible to know the 
+Ramsey-sentence*). However, if Ramsey-sentences are swapped for Ramsey- 
+sentence*s then Ketland’s argument no longer goes through. In particular, the 
+relevant analogue of: 
+Theorem 1: The Ramsey-sentence of a theory A is true if and only if there 
+>,... such that ((Do, 
+Theorem |’: The Ramsey-sentence* of a theory A is true if and only if 
+there is some sequence of relations, R2;,R 3.1, R3.2,... such that 
+((Do, Dr), O1, Or 21, R22 R31, R32,...) = A and such that 
+each member of the sequence is a founded relation.
+
+--- Page 30 ---
+
+164 Peter M. Ainsworth 
+This blocks Ketland’s proof of Theorem 2 at the last step: although, given 
+that a theory has some model ((D;, Dz), Ri, 
+R3.2,...) that is empirically correct and T-cardinality correct, we can construct 
+a model of the theory of the form ((Do, Dr), O1, O2 R51, Ro2 
+R32,...), this does not guarantee that the theory’s Ramsey-sentence* is true, 
+as there is no guarantee that the relations R;, R22,... we have constructed 
+will be founded. 
+However, even Carnap does not have licence to invent logical predicates at 
+whim; if we are to accept ‘Found’ as a new logical term we surely must be given 
+reasons to do so. Here is what Carnap says: 
+[Found] does not belong to any definite extralogical domain, as all other 
+nonlogical objects do. Our considerations concerning the characterisation 
+of the basic relations of a constructional system as founded relation exten- 
+sions of a certain kind hold for every constructional system of any domain 
+whatever. It is perhaps permissible, because of this generality, to envisage 
+the concept of foundedness as a concept of logic and to introduce it, since 
+it is undefinable, as a basic concept of logic. (Carnap [1967], p. 237, original 
+emphasis) 
+We might, just possibly, think that the following was plausible: 
+If a property or relation is instantiated in every possible system then it is a 
+logical property or relation. 
+However, if I understand him correctly, Carnap seems to assume something 
+like the following: 
+If a property or relation is instantiated in every possible constructional 
+system then it is a logical property or relation. 
+The notion of a constructional system is central to Carnap’s theory in the Auf- 
+bau, but it is not the case that every possible system is a possible constructional 
+system, so it is hard to see why we should accept this assumption. Compare 
+Carnap’s assumption with the following assumption: 
+If a property or relation is instantiated in every possible system whose 
+domain contains human beings then it is a logical property or relation. 
+No one would accept this: it would lead to the conclusion that properties like 
+‘being a human being’ and ‘being a mammal’ are logical properties. So it seems 
+we at least need an argument that shows that constructional systems are more 
+important (founded, as it were) than systems whose domain contains human 
+beings.
+
+--- Page 31 ---
+
+Newman's Objection 165 
+It is instructive to contrast foundedness with identity, a relation we might 
+sensibly take to be logical. In the first place we can see that the identity relation 
+will be instantiated by some pairs of objects from any possible non-empty 
+domain; by contrast the foundedness property need not be instantiated by any 
+relations from a given set of relations. In the second place, given a domain, we 
+can determine the extension of the identity relation over that domain a priori; 
+by contrast we cannot determine the extension of the foundedness relation over 
+a set of (extensionally specified) relations a priori. 
+It seems that it is fair to say that taking the notion of the importance of a 
+relation as a primitive logical notion is absurd and cannot form the basis of a 
+reasonable response to Newman’s objection. 
+6.2 Votsis’ reply 
+Votsis claims that Newman’s objection purports to show that ‘the knowledge 
+claims of SR [structural realism] [are] of littlke worth or importance’ (Votsis 
+[2003], p. 886) by showing that ‘the information they offer can also be de- 
+rived a priori from set theory modulo a cardinality constraint, hence the only 
+important information contained in the structural realist claims concerns the 
+cardinality of the domain’ (Votsis [2003], p. 886).'° He also claims that the 
+inference from the latter to the former rests on the assumption that ‘any infor- 
+mation contained in a statement that is also derivable a priori lacks importance’ 
+(Votsis [2003], p. 886). Votsis takes issue with this assumption. There is a sense 
+in which everyone will surely agree that this assumption is false. The statement 
+that there is no largest prime is surely of some importance, at least in some 
+contexts, but the claim is derivable a priori. 
+However, Votsis does not dispute the assumption that ‘any information con- 
+tained in a statement that is also derivable a priori lacks importance’ by pointing 
+out that there is a sense in which some results that are obtained a priori are 
+important. Rather, he seems to make the extraordinary suggestion that how a 
+claim is arrived at affects its importance. In particular, he seems to suggest that 
+a claim is more important if it is arrived at empirically than if it is arrived at 
+a priori. He claims that ‘The method of arriving at the abstract structures is at 
+least partly empirical [. . .] The fact that set theory also allows me to derive the 
+same structure a priori does not mean that the information I have reached is 
+'6 This isn’t strictly true, at least if we take the modern version of Newman’s objection that is 
+directed at the Ramsey-sentence approach to ESR. In this form, what Newman’s objection shows 
+is that knowing that a theory’s Ramsey-sentence is true is only knowing that the theory has a 
+model that is T-cardinality correct and empirically correct. Moreover, it seems that the essence of 
+Newman’s objection is not so much that ESR implies that scientific theories are of little worth 
+but rather that it implies that all they tell us about the unobservable world is its cardinality, so 
+ESR is not significantly distinct from antirealism. So it seems that Votsis fails to address the right 
+issue in his reply to Newman’s objection. However, this is not too important: it will be argued 
+that he does not satisfactorily address the wrong issue.
+
+--- Page 32 ---
+
+166 Peter M. Ainsworth 
+devoid of importance’ (Votsis [2003], p. 887, original emphasis). But if some 
+fact is of no importance when it is acquired by set-theoretical reasoning, that 
+surely does mean that it is of no importance when it is acquired empirically. A 
+fact that is unimportant, insofar as it can be easily discovered, does not become 
+more important because it can also be discovered by an unnecessarily difficult 
+route. For example, suppose someone claims to have made the important dis- 
+covery that ‘eggs is eggs’. We might well reply that their discovery is not in fact 
+important, insofar as it is easy to show (a priori) that ‘eggs is eggs’: the claim 
+follows directly from the a priori principle that everything is self-identical. It 
+would be ridiculous if they were to reply that the discovery was important 
+because they arrived at it by an empirical study of eggs. Indeed, it seems that 
+Votsis’ contention comes down to the claim that ‘two’ results can be the same 
+but of different importance, a claim that violates the law of the indiscernibility 
+of identicals. 
+Votsis attempts to support his contention with a thought experiment: 
+Take the numbers 133 and 123. I can, restricting myself solely to arithmetic, 
+perform various operations on these numbers. One such operation is ad- 
+dition. Similarly, if I had two collections of 133 and 123 physical objects 
+respectively, I could count them one by one, and would reach the same 
+result. Despite the similarities, there is an important difference between 
+the two cases. The latter case is one in which the result is a property that 
+is then ascribed to the physical world, in particular to the physical objects 
+under consideration, and not merely an exercise of arithmetic. This claim is 
+warranted by the employment of an empirical method to arrive at the given 
+number. The main point is quite simple: The fact that arithmetic allows 
+me to do this a priori does not mean that the information I have reached 
+counting objects is of little or no importance. One need only consider the 
+consequences if I had made an error in counting. (Votsis [2003], p. 886, 
+original emphasis) 
+This case does not at all support Votsis’ contention. In this case the two 
+procedures, the a priori arithmetical procedure of adding 133 and 123 and 
+the empirical procedure of counting the objects in two collections, do not 
+achieve the same results. The former enables us to determine that 133 + 123 = 
+256, whereas, as Votsis notes, the latter enables us to determine that there are 
+256 objects in a particular collection. These results may well be of different 
+importance but we cannot infer from this, as Votsis does, that two procedures 
+yielding the same result can yield results of different importance, as the results 
+in this case are not the same: the former is a theorem of arithmetic, the latter is 
+a contingent fact about the world. 
+Votsis goes on to note that ‘Using the [. . .] a priori method, set theory allows 
+us to set up any structure we like [...] No structure is privileged in this sense. 
+The structural realist’s a posteriori method guarantees that some structures are 
+privileged over others.’ (Votsis [2003], p. 887, original emphasis). There is a
+
+--- Page 33 ---
+
+Newman’s Objection 167 
+trivial sense in which the structures that have been arrived at a posteriori are 
+privileged compared with those that have not been arrived at a posteriori, but 
+it is not clear that there is an important sense: it is not obvious why the fact 
+that some structures have been arrived at a posteriori guarantees that these 
+structures are more important than those structures that have been arrived at 
+‘merely’ a priori. Simply being arrived at via an a posteriori method does not 
+seem to be sufficient to make a result important, especially if that result could 
+have been arrived at a priori. After all, if the claim ‘eggs is eggs’ had been 
+discovered to be true a posteriori, it would not thereby be more important than 
+those identity claims that had been arrived at ‘merely’ a priori. 
+Newman argued (in effect) that the ESRist (unlike the conventional realist) 
+does not have the resources to distinguish the important structures instantiated 
+by a system from the unimportant structures, or even to say in what sense one 
+structure could be more important than another. Votsis seems to be suggesting 
+that the ESRist can make the distinction, because a structure is made important 
+simply in virtue of the fact that it has been arrived at via an a posteriori method. 
+This is surely untenable. 
+6.3 The Merrill/ Lewis/ Psillos reply 
+This proposal was first suggested as a possible response to Putnam’s model 
+theoretic argument against realism by Merrill ({1980]). It was adopted by Lewis 
+([1983]) and has been discussed in connection with Newman’s objection by 
+Psillos ({1999]). The key to the proposal is the suggestion that it is a contingent 
+fact that some relations instantiated by the world are more important than 
+others. The importance, or as proponents of this approach usually put it, 
+‘naturalness’, ofa relation is not a logical property of the relation, nor a property 
+the relation somehow acquires via the method by which it is discovered, but a 
+physical property. Proponents of this view would not, presumably, deny that 
+there is a perfectly good sense in which objects in the domain of the world, Dw, 
+instantiate every relation compatible with the cardinality of Dw. However, they 
+would add that only some of these relations are natural relations. The idea is 
+that the world isn’t just a collection of objects that can be grouped howsoever 
+we please; rather, it is a collection of objects that also have preferred natural 
+groupings. The world itself determines that some relations are more important 
+than others and in this way comes pre-structured. 
+This is just the ‘natural kinds’ doctrine (or something very similar) and so 
+this response is only open to those ESRists who are prepared to buy into this 
+doctrine (or something very similar).'’ However, if one does accept it then 
+'7 Worrall (personal communication) says that he takes natural kinds to be, by definition, the 
+properties and relations that we refer to with the predicates of our best theories. This response 
+to Newman’s objection is also not open to the ESRist who accepts only this form of the natural 
+kinds doctrine: saying that the predicates of our best theories refer to natural kinds does not limit
+
+--- Page 34 ---
+
+168 Peter M. Ainsworth 
+Newman’s objection misses the point. Let’s call a structure a structure of the 
+world if its domain is Dw (the set of objects in the world). Let’s call a structure 
+a natural structure of the world if in addition the relations in it are (the sets 
+corresponding to) natural relations. It is true that any structure whose domain 
+has the same cardinality as Dw is isomorphic to some structure of the world, 
+but it is certainly not true that any such structure is isomorphic to some natural 
+structure of the world (and presumably science aims to discover not just any 
+old structures of the world but only the natural structures). 
+In terms of the Ramsey-sentence approach to ESR, the claim would be 
+that the relations over which the quantifiers in the Ramsey-sentence range are 
+restricted to the natural relations. It follows that Theorem | 
+Theorem |: The Ramsey-sentence of a theory A is true if and only if there 
+is some sequence of relations, R2;, R22 R31, R3.2,... such that ((Do, 
+Dr), O;, O2 2.15 K2 31, R32,...) FA 
+must be replaced by 
+Theorem 1’: The Ramsey-sentence of a theory A is true if and only if there 
+is some sequence of natural relations, R2,, 
+that ((Do, Dr), 01, O2 
+because the relations R2;, R2> R31, R32,... are now only in the scope 
+of the existential quantifiers if they are natural. This blocks Ketland’s proof 
+of Theorem 2 at the last step: although given a theory has some model ((D,, 
+D2), Ria, Riz 21, R22 31, R32,..-) that is empirically correct 
+and T-cardinality correct we can construct a model of the theory of the form 
+((Do, Dr), O1, O2 51, R’ R31, R3.2,...), it does not guarantee that 
+the theory’s Ramsey-sentence is true, as there is no guarantee that the relations 
+R31, R22,... we have constructed are natural. As Merrill puts it: 
+So long as we ignore any intrinsic structuring of the world, there is nothing 
+to forbid us imposing a structure along any lines we chose. But if, as the 
+realist surely must hold, the real world is a structured domain, then we are 
+not free to ignore its intrinsic structuring in playing our model-theoretic 
+tricks. (Merrill [1980], p. 74, original emphasis) 
+It might be objected that the ESRist could have no warrant for the claim 
+that the second-order variables in the Ramsey-sentence range over only natural 
+properties and relations, because we can have no idea what the natural kinds 
+are independently of our theories. However, the ESRist needn’t claim that we 
+do know what natural kinds are independently of our theories. He will claim 
+that whatever reason we have to believe that our theories are true is also a 
+the properties and relations to which these predicates can refer if any property or relation that is 
+referred to by these predicates is, by definition, a natural kind.
+
+--- Page 35 ---
+
+Newman's Objection 169 
+good reason to think that the terms in our theories refer to natural kinds and 
+that the second-order variables in the Ramsey-sentence range over only natural 
+properties and relations. '* 
+As noted, Psillos ([1999]) considers this response to Newman’s objection but 
+argues that it is not available to the ESRist: 
+in order for them [i.e. ESRists] to distinguish between natural and non- 
+natural classes they have to admit that some non-structural knowledge is 
+possible, viz. that some classes are natural, while others are not. (Psillos 
+[1999], p. 66) 
+As long as we do not go down Carnap’s route and take naturalness to be a 
+logical property of properties and relations then it is true that the knowledge 
+that some property or relation is natural is not purely structural. However, 
+neither the WESRist nor the SESRist claims that we have only purely struc- 
+tural knowledge (WESRists claim that our knowledge is restricted to claims 
+constructed using logical and observational terms, SESRists claim that our 
+knowledge is restricted to claims constructed using logical and internal terms). 
+However, Psillos’ point is essentially unaffected by this consideration, because 
+the ‘naturalness’ of a property or relation is surely not an observable (or in- 
+ternal) property, so neither the WESRist nor the SESRist can consistently 
+treat ‘naturalness’ as a primitive second-order non-logical predicate, and if the 
+predicate ‘naturalness’ must itself be ‘Ramseyfied’, this response will not work; 
+cf. Section 5.3. 
+7 Summary 
+It has been argued that none of the attempts that have been made to evade 
+Newman’s objection is successful. Consequently, Newman’s objection remains 
+a very serious problem for the ESRist. Of course, one cannot rule out the 
+possibility that ESRist may in the future come up with a satisfactory reply, but 
+in the absence of such a reply it seems that the sensible attitude towards his 
+position is one of considerable scepticism. 
+'8 He might also suggest, as Lewis does, that, ‘It takes two to make a reference, and we will not 
+find the constraint [on what properties and relations we refer to] if we look for it always on the 
+wrong side of the relationship. Reference consists in part of what we do in language or thought 
+when we refer, but in part it consists in eligibility of the referent.’ (Lewis [1983], p. 371). Lewis’ 
+suggestion is that there is some feature of the world that restricts the range of our variables for 
+us. So it doesn’t matter whether we know that our terms refer to natural kinds or not. It is just 
+a fact that only certain properties and relations are eligible referents of terms, so, like it or not, 
+our (second-order) variables can only range over certain properties and relations. However, this 
+response is incoherent. It amounts to the claim that ‘there are some properties and relations 
+(the unnatural ones) that lie outside the scope of our quantifiers’ and this claim is obviously 
+self-defeating. Suppose (for reductio) that it is true. Then there is something in the scope of the 
+‘some properties and relations’ that lies outside the scope of the ‘some properties and relations’. 
+So the claim is false. Or, to put it in another way, we clearly can refer to unnatural relations, even 
+if we don’t typically do so.
+
+--- Page 36 ---
+
+Peter M. Ainsworth 
+Acknowledgements 
+I’m grateful to Roman Frigg and John Worrall for their comments on this 
+paper. 
+Department of Philosophy, Logic and Scientific Method 
+London School of Economics and Political Science 
+Houghton Street, London, WC2A 2AE, UK 
+P.M. Ainsworth@lse.ac.uk 
+References 
+Carnap, R. [1967]: The Logical Structure of the World: Pseudoproblems in Philosophy, 
+translated by R. A. George, London: Routledge & Kegan Paul. 
+Cruse, P. [2005]: ‘Ramsey Sentences, Structural Realism and Trivial Realization’, Studies 
+in the History and Philosophy of Science, 36, pp. 557-76. 
+Demopoulos, W. and Friedman, M. [1985]: ‘Bertrand Russell’s The Analysis of Mat- 
+ter: Its Historical Context and Contemporary Interest’, Philosophy of Science, 52, 
+pp. 621-39. 
+Duhem, P. [1906]: The Aim and Structure of Physical Theory, translated by P. P. Wiener, 
+reprinted 1991, Princeton, NJ: Princeton University Press. 
+Enderton, H. B. [2001]: A Mathematical Introduction to Logic, 2nd edition, San Diego, 
+CA: Harcourt. 
+French, S. and Ladyman, J. [2003]: ‘Remodelling Structural Realism: Quantum Physics 
+and the Metaphysics of Structure’, Synthese, 136, pp. 31—S6. 
+Halbach, V. [1999]: ‘Conservative Theories of Classical Truth’, Studia Logica, 62, 
+pp. 353-70. 
+Ketland, J. [2004]: ‘Empirical Adequacy and Ramsification’, British Journal for the 
+Philosophy of Science, 55, pp. 287-300. 
+Ladyman, J. [1998]: ‘What Is Structural Realism?’, Studies in the History and Philosophy 
+of Science, 29, pp. 409-24. 
+Lewis, D. [1983]: “New Work for a Theory of Universals’, Australasian Journal of 
+Philosophy, 61, pp. 343-77. 
+Maxwell, G. [1968]: ‘Scientific Methodology and the Causal Theory of Perception’, in 
+I. Lakatos and A. Musgrave (eds), Problems in the Philosophy of Science: Proceedings 
+of the International Colloquium in the Philosophy of Science, London, 1965, Vol. 3, 
+Amsterdam: North-Holland Publishing, pp. 148-60. 
+Maxwell, G. [1970a]: ‘Structural Realism and the Meaning of Theoretical Terms’, in 
+S. Winokur and M. Radner (eds), Analyses of Theories and Methods of Physics and 
+Psychology, Minneapolis, MN: University of Minnesota Press, pp. 181-92. 
+Maxwell, G. [1970b]: ‘Theories, Perception, and Structural Realism’, in R. Colodny (ed.), 
+Nature and Function of Scientific Theories, Pittsburgh, PA: University of Pittsburgh 
+Press, pp. 3-34. 
+Melia, J. and Saatsi, J. [2006]: ‘Ramseyfication and Theoretical Content’, British Journal 
+for the Philosophy of Science, 57, pp. 561-85.
+
+--- Page 37 ---
+
+Newman’s Objection 171 
+Merrill, G. H. [1980]: ‘The Model-Theoretic Argument Against Realism’, Philosophy of 
+Science, 47, pp. 69-81. 
+Newman, M. H. A. [1928]: “Mr. Russell’s “Causal Theory of Perception” Mind, 37, 
+pp. 137-48. 
+Poincaré, H. [1903]: Science and Hypothesis, reprinted in S. J. Gould (ed.), The Value of 
+Science: Essential Writings of Henri Poincaré, New York: Random House. 
+Psillos, S. [1999]: Scientific Realism. How Science Tracks Truth, London: Routledge. 
+Putnam, H. [1977]: ‘Realism and Reason’, Proceedings and Addresses of the American 
+Philosophical Association, 50, pp. 483-98. 
+Redhead, M. [2001]: ‘Quests of a Realist’, Metascience, 10, pp. 341-7 
+Russell, B. [1912]: The Problems of Philosophy, Oxford: Oxford University Press. 
+Russell, B. [1927]: The Analysis of Matter, London: Kegan Paul, Trench, Trubner. 
+Russell, B. [1968]: The Autobiography of Bertrand Russell, IT, London: Allen & Unwin. 
+van Fraassen, B. C. [1980]: The Scientific Image, Oxford: Clarendon Press. 
+otsis, I. [2003]: ‘Is Structure Not Enough?’, Philosophy of Science, 70, pp. 879-90. 
+Votsis, I. [2004]: The Epistemological Statue of Scientific Theories: An Investigation of the 
+Structural Realist Account, PhD thesis, London School of Economics and Political 
+Science. 
+Worrall, J. [1989]: ‘Structural Realism: The Best of Both Worlds?’, Dialectica, 43, 
+pp. 99-124. 
+Worrall, J. [1994]: ‘How to Remain (Reasonably) Optimistic: Scientific Realism and the 
+“Luminiferous Ether”, PSA 1994, 1, pp. 334-42. 
+Zahar, E. G. [2001]: Poincaré’s Philosophy: From Conventionalism to Phenomenology, 
+Chicago: Open Court. 
+Zahar, E. G. [2004]: ‘Ramseyfication and Structural Realism’, Theoria: Revista de Teoria, 
+Historia y Fundamentos de la Ciencia, 19, pp. 5—30.

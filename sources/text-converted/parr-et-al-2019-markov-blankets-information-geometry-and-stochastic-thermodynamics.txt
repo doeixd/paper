@@ -1,0 +1,831 @@
+--- Page 1 ---
+
+royalsocietypublishing.org/journal/rsta
+Research
+Citethisarticle: ParrT,DaCostaL,FristonK.
+2019Markovblankets,informationgeometry
+andstochasticthermodynamics. P h i l .T r a n s .R .
+Soc. A378:20190159.
+http://dx.doi.org/10.1098/rsta.2019.0159
+Accepted:11July2019
+Onecontributionof13toathemeissue
+‘Harmonizingenergy-autonomouscomputing
+andintelligence’.
+SubjectAreas:
+computationalbiology,thermodynamics,
+statistics,statisticalphysics,mathematical
+modelling,appliedmathematics
+Keywords:
+thermodynamics,informationgeometry,
+variationalinference,Bayesian,
+Markovblanket
+Authorforcorrespondence:
+ThomasParr
+e-mail:thomas.parr.12@ucl.ac.uk
+Markovblankets,information
+geometryandstochastic
+thermodynamics
+ThomasParr,LancelotDaCostaandKarlFriston
+WellcomeCentreforHumanNeuroimaging,InstituteofNeurology,
+UniversityCollegeLondon,LondonWC1N3AR,UK
+TP,0000-0001-5108-5743
+This paper considers the relationship between
+thermodynamics, information and inference.
+In particular, it explores the thermodynamic
+concomitants of belief updating, under a variational
+(free energy) principle for self-organization. In brief,
+any (weakly mixing) random dynamical system that
+possesses a Markov blanket—i.e. a separation of
+internal and external states—is equipped with an
+information geometry. This means that internal states
+parametrize a probability density over external states.
+Furthermore, at non-equilibrium steady-state, the
+ﬂow of internal states can be construed as a gradient
+ﬂow on a quantity known in statistics as Bayesian
+model evidence. In short, there is a natural Bayesian
+mechanics for any system that possesses a Markov
+blanket. Crucially, this means that there is an explicit
+link between the inference performed by internal
+states and their energetics—as characterized by their
+stochastic thermodynamics.
+This article is part of the theme issue ‘Harmonizing
+energy-autonomous computing and intelligence’.
+1. Introduction
+Any object of study must, implicitly or explicitly, be
+separated from the rest of the universe. This implies
+a boundary that separates it from everything else,
+and which persists, at least for the time period over
+which it is observable. In this article, we consider
+the ways in which a boundary mediates the vicarious
+interactions between things internal and external to a
+system. This provides a useful way to think about
+2019TheAuthors.PublishedbytheRoyalSocietyunderthetermsofthe
+Creative Commons Attribution Licensehttp://creativecommons.org/licenses/
+by/4.0/, which permits unrestricted use, provided the original author and
+sourcearecredited.
+ Downloaded from https://royalsocietypublishing.org/ on 26 November 2025
+
+--- Page 2 ---
+
+2royalsocietypublishing.org/journal/rstaP h i l .T r a n s .R .S o c .A378:20190159 ...............................................................
+biological systems, where these sorts of interactions occur at a range of scales [1,2]: the membrane
+of a cell acts as a boundary through which the cell communicates with its surroundings, and
+the same can be said of the sensory receptors and muscles that bound the nervous system.
+Appealing to concepts from information geometry and stochastic thermodynamics, we see
+that the dynamics of persistent, bounded systems may be framed as inferential processes
+[3]. Speciﬁcally, those states internal to a boundary appear to infer the states outside of it.
+An interesting consequence of this arises when we ask how we would evaluate the relative
+probabilities of future trajectories, given the inferences about the current state of the external
+world. The answer to this question takes the form of a ﬂuctuation theorem, which says
+that the most probable trajectories are those with the smallest expected free energy [ 4]. This
+provides an important point of contact with planning and decision-making for those creatures
+who engage in temporally deep inference [ 5,6]. In what follows, we try to develop the links
+between a purely mathematical formulation of Langevin dynamics—of the kind found in the
+physical sciences—and descriptions of belief updating (and behaviour) found in the biological
+sciences.
+This paper has three parts, each of which introduces a simple, but fundamental, move. The
+ﬁrst is to partition the world into internal and external states of a system. The conditional
+dependencies this implies equip the internal states of the system with an information geometry
+for a space of (Bayesian) beliefs about the external states. More precisely, the partition means
+that internal states parametrize a probability density over external states. Consequently, the
+internal state-space has an inherent information geometry (technically, this space is a statistical
+manifold). The second move is to equip these beliefs with dynamics by expressing their rate of
+change as a gradient ascent on their non-equilibrium steady-state densities. The key consequence
+of this is that the dynamics of the beliefs encoded by internal states become consistent with
+variational inference in statistics, machine learning and theoretical biology [ 7]. The third move
+is to characterize the probability density at the level of trajectories. Through considering the
+reversibility of a trajectory, we associate the inferential dynamics developed in the ﬁrst two
+sections with their thermodynamic homologues. Via the relevant ﬂuctuation theorems, this
+implies a thermodynamic (i.e. energetic) characterization of inference, and lets us characterize
+the probability of a given path in terms of its expected free energy.
+2. Markovblankets
+(a) Internalandexternal
+This section formalizes the idea of a boundary as a Markov blanket [ 8]. Put simply, a Markov
+blanket (b) is the set of states that separate the internal parts of a system (μ) from its surroundings
+(η)—see ﬁgure 1 for two intuitive examples of this. If the system we were interested in were a
+brain, internal (neural) states are statistically insulated from external objects by sensory receptors
+and muscles. If instead we were interested in a bacillus, the cell membrane and actin ﬁlaments
+segregate intracellular from extracellular variables. Formally, this is a statement of conditional
+independence. Given knowledge of the blanket, the internal and external states of a system are
+conditionally independent of one another:
+η⊥μ|b ⇔ p(η, μ|b) = p(η|b)p(μ|b). (2.1)
+Another way to phrase this is that any inﬂuence the external and internal states have on one
+another is mediated via the Markov blanket. The ﬁrst step towards unpacking the consequences
+of this is to note that the right-hand side of equation (2.1) tells us that every blanket state is
+associated with a most likely internal state and a most likely external state. Pursuing the example
+of the brain, any given combination of retinal activity and oculomotor angle (blanket states) will
+ Downloaded from https://royalsocietypublishing.org/ on 26 November 2025
+
+--- Page 3 ---
+
+3royalsocietypublishing.org/journal/rstaP h i l .T r a n s .R .S o c .A378:20190159 ...............................................................
+active states
+external states internal states
+sensory states
+brain
+external states
+internal states
+bacillus
+particular states
+blanket states
+s· = fs (h, b)+ ws
+a· = fa (m, b)+ wa
+p = (b, m)
+m· = fm (m, b)+ wmh· = fh (h, b)+ wh
+h Ã x s Ã x a Ã x m Ã x
+b = (s, a)
+Figure1.Markovblankets.Thisprobabilisticgraphicalmodelillustratesthepartitionofstatesintointernalstatesandhidden
+or external states that are separated by a Markov blanket—comprising sensory and active states. The upper panel shows
+thispartitionasitwouldbeappliedtoactionandperceptioninabrain.Theensuingself-organizationofinternalstatesthen
+correspondstoperception,whileactivestatescouplebrainstatesbacktoexternalstates.Thelowerpanelshowsthesame
+dependenciesbutrearrangedsothattheinternalstatesareassociatedwiththeintracellularstatesofacell,wherethesensory
+statesbecomethesurfacestatesorcellmembraneoverlyingactivestates(e.g.theactinfilamentsofthecytoskeleton).Note
+thattheonlymissinginfluencesarebetweeninternalandexternalstates—anddirectedinfluencesfromexternal(respectively,
+internal)toactive(respectively,sensory)states.Particularstatesconstituteaparticle;namely,blanketandinternalstates.The
+equationsofmotionintheupperpanelfollowfromtheconditionaldependenciesinequation(2.1)andtheLangevindynamics
+inequation(3.1).Seemaintextfordetails.(Onlineversionincolour.)
+be associated with a most probable object location (external state) and pattern of neural activity
+in the visual cortices (internal state).
+η(b) /Delta1= arg max
+η
+p(η|b)
+μ(b) /Delta1= arg max
+μ
+p(μ|b).
+⎫
+⎪⎪
+⎬
+⎪⎪
+⎭
+(2.2)
+This expression assumes a unique maximum for each of the two probability densities. If this
+assumption were violated, this could be repaired by adding an additional condition to select
+between alternative modes (or by choosing an alternative statistic, such as the expectation). Given
+that each blanket state is associated with this pair, we can deﬁne a function that maps between
+the two:
+η(b) = σ(μ(b)). (2.3)
+ Downloaded from https://royalsocietypublishing.org/ on 26 November 2025
+
+--- Page 4 ---
+
+4royalsocietypublishing.org/journal/rstaP h i l .T r a n s .R .S o c .A378:20190159 ...............................................................
+s
+a
+b
+–10 –5 0 5 10
+–4
+–3
+–2
+–1
+0
+1
+2
+3
+4
+–2 –1 0 1 2 3
+–8
+–6
+–4
+–2
+0
+2
+4
+6
+2 4 6 8 10
+–7
+–6
+–5
+–4
+–3
+–2
+–1
+0
+1
+–8 –6 –4 –2 0 2 4 6
+–8
+–6
+–4
+–2
+0
+2
+4
+6
+8
+h
+h|b
+h2
+h1
+qm (h) = N (s (mm), S(m)–1)
+m1
+m2 m1
+s (m)s (m)1
+s (m)2
+mh 1
+m2
+hh 2
+m|b
+m
+Figure 2.Information geometry and Markov blankets. The schematic on the left specifies the minimal set of conditional
+independenciesrequiredtorenderasetofinternalstates( μ)independentofexternalstates( η),conditionedupontheblanket
+states( b).Theseindependenciescomeintwoflavours:asindicatedbythearrows,theactivestates( a)mediatetheinfluenceof
+theinternalstatesontheexternalstatesbutare notinfluencedbytheexternalstates.Thesensorystates( s)mediateinfluences
+intheoppositedirectionandare not influencedbyinternalstates.Theplotsontherightaimtoprovidesomeintuitionfor
+theinformationgeometryinducedbyaMarkovblanket.Theuppertwoplotswerecreatedbygenerating(one-dimensional)
+blanketstatesfromastandardnormaldensity.Foreachblanketstate,wegeneratedapairoftwo-dimensionalinternal( μ1,
+μ2)andexternalstates( η1,η2).Theseweregeneratedfrombivariatenormaldensitiesfortheconditionalprobabilitiesofthe
+internalandexternalstates( p(μ|b)and p(η|b)),wherethemeanandcovariancewerelinearfunctionsoftheblanketstates.As
+theplotsshow,thesesufficientstatisticsarescatteredaroundalow-dimensional(statistical)manifold(ofthesamedimension
+astheblanketstates)embeddedwithinthehigher-dimensionalexternalandinternalstate-spaces.Thelowerleftplotshows
+eachpairofinternalandexternalstates(blueforthefirstelementineach,andgreenforthesecond).Selectingthemostlikely
+internalstate( μ)foragivenblanketstate,weseethatwecanmapfromthistothecorrespondingexternalstate.Thelower
+rightplotshowshow,equippingthismeanwithacovariance(undertheLaplaceassumption),wecanassociateaninternalstate
+withadensity( q
+μ(η))overexternalstates.(Onlineversionincolour.)
+This expression tells us that, if we knew the most likely internal state of a system, we could
+specify the most likely external state on the other side of the Markov blanket (ﬁgure 2). A sufﬁcient
+condition for this mapping to be well deﬁned is that the mapping from b to μ(b) is injective.
+Equation (2.3) implies an information geometry that links the statistics of the two, in virtue of the
+boundary that separates them.
+(b) Informationgeometry
+The central idea that underwrites information geometry [ 9] is that we can deﬁne a space of
+parameters (a statistical manifold), where each point in that space corresponds to a probability
+density (e.g. the expectation and variance of a normal density). For a comprehensive introduction
+to this ﬁeld, see [10]. In brief, this leverages methods from differential geometry to characterize a
+statistical manifold. Central to this characterization is the notion of information length, which
+requires that we can deﬁne an inner product on this manifold. Appealing to the Laplace
+assumption [ 11], the most likely internal states, given blanket states, parametrize a family of
+ Downloaded from https://royalsocietypublishing.org/ on 26 November 2025
+
+--- Page 5 ---
+
+5royalsocietypublishing.org/journal/rstaP h i l .T r a n s .R .S o c .A378:20190159 ...............................................................
+(normal) densities ( qμ) for the external states. The Laplace assumption is that the negative log
+probability (or surprise) is approximately quadratic in the region near the mode of the density
+(or, equivalently, that the probability density is Gaussian near its mode):
+p(η|b) ∝ p(η, b)
+ℑ(η, b) ≈ℑ (σ(μ), b) + 1
+2 (η− σ(μ)) · Σ (μ)−1(η− σ(μ))
+⇒ p(η|b) ≈ qμ (η) = N (σ(μ), Σ (μ)−1)
+Σ (μ)−1 /Delta1=∇ σσℑ(σ(μ), b)
+ℑ(x) /Delta1=− ln p(x).
+⎫
+⎪⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪⎪⎪
+⎬
+⎪⎪⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪⎪⎭
+(2.4)
+As both the expectation and the variance of the resulting density are functions of the
+(most likely) internal states, the space of internal states now speciﬁes a space of probability
+densities over external states. To characterize this, we need to borrow an important concept from
+differential geometry. This is a ‘metric tensor’ ( g), which equips the space with the notion of
+length. A common method for evaluating how far a probability density has moved is to express
+the KL-Divergence
+1 between the initial and ﬁnal density [ 12]. However, this does not qualify
+as a measure of length, as it is asymmetric (i.e. the divergence from one density to another is
+not necessarily the same as that from the second to the ﬁrst). A solution to this is to measure the
+divergence over a very small change, such that a second-order Taylor series expansion is sufﬁcient
+for its characterization. This provides a symmetric measure of length [ 13], as the Hessian matrix
+of the KL-Divergence is the (Fisher) information metric:
+D
+KL[qμ′ (η)||qμ (η)] ≈ 1
+2 dμ ·∇ μμ DKL[qμ′ (η)||qμ (η)]|dμ=0dμ,d μ /Delta1= μ − μ′
+√
+dμ · gdμ = dℓ
+⎫
+⎬
+⎭ (2.5)
+Note that the Euclidean inner product is a special case of this metric, when g is an identity
+matrix (i.e. the information gain along one coordinate is independent of that along other
+coordinates). Given that we could write down a parametrization ( λ) of the density over internal
+states—and we have seen above that the internal states parametrize beliefs about the external
+states—the internal states participate in two statistical manifolds, with the following metrics:
+g
+λ =∇ λλDKL[pλ′ (μ)||pλ(μ)]|dλ=0
+gμ =∇ μμ DKL[qμ′ (η)||qμ (η)]|dμ=0.
+}
+(2.6)
+The key conclusion from this section is that the presence of a Markov blanket induces a dual
+information geometry with two metric tensors: one that describes the space of densities over the
+internal states ( g
+λ), and one that treats the internal states as points in a space of densities over
+external states (gμ).
+3. Dynamicsandinference
+(a) Non-equilibriumsteadystate
+Building upon the previous section, we now ask: If a system maintains its separation from the
+outside world over time, what sort of dynamics must it exhibit? To answer this question, we start
+with a general description of stochastic dynamics. This is a Langevin equation, describing the rate
+of change of some variable (x) in terms of a deterministic function (f (x)), and fast ﬂuctuations (ω).
+1The KL-Divergence is a weighted average of the log ratio of two probability densities; also known as a relative entropy or
+information gain.
+ Downloaded from https://royalsocietypublishing.org/ on 26 November 2025
+
+--- Page 6 ---
+
+6royalsocietypublishing.org/journal/rstaP h i l .T r a n s .R .S o c .A378:20190159 ...............................................................
+The ﬂuctuations are assumed to be normally distributed, with an amplitude of 2 Γ (a diagonal
+covariance matrix):
+˙x = f (x) + ω
+E[ω(τ)] = 0
+E[ω(τ)ω(t)] = 2Γδ(τ− t)
+⎫
+⎪⎪
+⎬
+⎪⎪
+⎭
+⇔ ˙p(x) =∇· (Γ∇− f (x))p(x). (3.1)
+The expression on the right of equation (3.1) is the Fokker–Planck equation [ 14,15], which
+provides an equivalent description of the stochastic process on the left, but in terms of the
+deterministic dynamics of a probability density. This may be thought of as expressing a
+conservation law for probability, as the rate of change of the density is equal to the (negative)
+divergence (∇·) of the probability current. This is useful in formalizing the notion that a system
+maintains its form over time, as we may set the rate of change of the density to zero, and ﬁnd the
+ﬂow that satisﬁes this existential condition:
+˙p(x) = 0 ⇔ f (x) = (Q − Γ )∇ℑ(x)
+∇· (Q∇ p
+(x)) = 0.
+}
+(3.2)
+The above equation constitutes a general description for a system at non-equilibrium steady
+state [ 16,17]. This has two components (consistent with a Helmholtz decomposition), each of
+which depends upon the gradient of the negative log probability (or surprise) of the steady-
+state density. The ﬁrst ﬂow component is solenoidal (divergence-free) and involves a ﬂow
+around the contours of the surprise. This arises from the Q-matrix, often assumed to be skew-
+symmetric (i.e. Q =− Q
+T). The second part depends upon the amplitude of ﬂuctuations ( Γ )a n d
+performs a gradient descent on surprise (negative log probability). Intuitively, the greater the
+amplitude of the ﬂuctuations, the greater the velocity required to prevent dispersion due to
+random ﬂuctuations. In the following, we partition x into internal, external and blanket states.
+To keep things simple, we assume a block diagonal form for Q. This extends the concept of a
+Markov blanket to a dynamical setting such that, in addition to the current values of the internal
+and external states being conditionally independent of one another, their rates of change are also
+uncoupled.
+(b) Bayesianmechanics
+Taking equation (3.2) as our starting point, we can now examine the dynamics of a system with a
+Markov blanket. We focus upon those states that are not directly inﬂuenced by the external states,
+which include the internal states and a subset of the blanket states that we refer to as ‘active’ states
+(a) that mediate the inﬂuence of the internal states on the external states (as opposed to ‘sensory’
+states that mediate the opposite inﬂuence). First, using a (Moore–Penrose) pseudoinverse,
+2 we
+can use the chain rule to express the rate of change of the most likely internal states (i.e. the
+population dynamics [18]) in terms of the ﬂow of the most likely external states:
+˙η(b) =∇ μ σ˙μ(b)
+⇒ ˙μ(b) = (∇μ σ)− ˙η(b).
+}
+(3.3)
+A similar application of the chain rule lets us express the gradient of the surprise with respect
+to external states as a gradient with respect to internal states:
+∇μ ℑ(σ(μ), b) =∇ μ σ∇η ℑ(η, b)
+⇒ (∇μ σ)− ∇μ ℑ(σ(μ), b) =∇ η ℑ(η, b).
+}
+(3.4)
+2Assuming (∇µσ)− ∇µσ = I.
+ Downloaded from https://royalsocietypublishing.org/ on 26 November 2025
+
+--- Page 7 ---
+
+7royalsocietypublishing.org/journal/rstaP h i l .T r a n s .R .S o c .A378:20190159 ...............................................................
+This lets us write the ﬂow of external states as a function of the gradient of internal states
+(using equation (3.2)):
+˙η(b) = (Qηη − Γηη)∇η ℑ(η, b)
+= (Qηη − Γηη)(∇μ σ)− ∇μ ℑ(σ(μ), b).
+(3.5)
+Substituting this into equation (3.3) then gives
+˙μ(b) =− Γσσ∇μ ℑ(σ(μ), b)
+Γσσ
+/Delta1= (∇μ σ)− Γηη(∇μ σ)− .
+⎫
+⎬
+⎭ (3.6)
+This result has an interesting interpretation in the setting of statistical inference. Interpreting
+surprise in terms of a statistical (i.e. generative) model [ 19], as expressed in ﬁgure 3, equation
+(3.6) acquires the interpretation of a maximum a posteriori (MAP) inference scheme. Remembering
+that the internal states are associated not only with a most likely external state, but with a full
+probability density (equation (2.4)), we can go further and associate the dynamics of equation
+(3.6) with variational Bayesian inference [ 7]. Variational Bayes rests upon the minimization of
+a quantity known as ‘free energy’, which is an upper bound on the surprise (i.e. negative log
+probability) of blanket states (this is equivalent to maximizing an evidence lower bound, or
+‘ELBO’):
+F(μ, b)
+/Delta1=ℑ (b) + DKL[qμ (η)||p(η|b)]
+= Eqµ [ℑ(η, b) + ln qμ (η)]
+≈ℑ (σ(μ), b) + tr[Σ (μ) ∇σσℑ(Σ (μ), b)  
+Σ (μ)−1
+] − 1
+2 ln |Σ (μ)|.
+(3.7)
+The ﬁnal line makes the same Laplace assumption employed in equation (2.4). This means
+that the second and third terms in the last equality are constant with respect to the mode, as the
+curvature of a quadratic function is constant. As such, we can rewrite equation (3.6) as follows:
+˙μ(b) =− Γ
+σσ∇μ F(μ, b). (3.8)
+From the ﬁrst line of equation (3.7), this means we can interpret (the expected ﬂow of)
+internal states as minimizing a bound on the surprise of the blanket states. Interestingly, a similar
+interpretation applies to the active states (constituents of the Markov blanket). As the active states
+of the Markov blanket do not depend upon the external states, they will perform a gradient
+descent on the joint surprise of internal and blanket states:
+˙a(μ) = (Q
+aa − Γaa)∇aℑ(μ, b)
+= (Qaa − Γaa)∇aℑ(σ(μ), b)
+= (Qaa − Γaa)∇aF(μ, b).
+(3.9)
+The ﬁnal line of equation (3.9) summarizes the conclusion of this section. Both internal and
+active states minimize variational free energy, and therefore the surprise of blanket states. The
+latter is known in statistics as negative (Bayesian) model evidence. This implies that Markov-
+blanketed systems with a non-equilibrium steady state may be thought of as ‘self-evidencing’ [22].
+From a physiologist’s perspective, this is simply a statement of homeostasis [ 23], where (active)
+effectors correct any deviation of sensory states from normal physiological ranges.
+An interesting aspect of the analysis presented in this section is that it does not commit to a
+spatial or temporal scale. This is important, as it means that the interpretation of the dynamics
+of internal states depends upon the scale at which we identify their Markov blanket. Typically,
+this depends upon the system of interest, but it is important to recognize that we can recursively
+subdivide (or combine) Markov-blanketed systems and select alternative levels of description. For
+example, at the level of a population, blanket states are characteristics of those individuals who
+intersect with other populations. The internal states of one population will appear (on average) to
+infer those of other populations. We could, however, select an individual within this population
+ Downloaded from https://royalsocietypublishing.org/ on 26 November 2025
+
+--- Page 8 ---
+
+8royalsocietypublishing.org/journal/rstaP h i l .T r a n s .R .S o c .A378:20190159 ...............................................................
+inference
+generative model
+0 5 10 15 20
+–8
+–6
+–4
+–2
+0
+2
+4
+0 5 10 15 20
+–10
+–5
+0
+5
+10
+10 20 30 40 500
+50
+100F
+q (h)
+p(h)
+p(b|h)
+p(b, h) = p(b|h) p(h)
+p(b|h) = e–ℑ(b|h)
+p(h) = e–ℑ(h)
+mm·   = –Gss —m ℑ(b|s(m)) – Gss —m ℑ(s(m))
+= –Gss —meb · Pbeb – Gss —meh · Pheh
+eb
+eh
+m
+b
+b
+h
+m
+150
+200
+t
+Figure3. Inferentialdynamicsandgenerativemodels.Asoutlinedinthemaintext,thedynamicsoftheinternalstatesofa
+systemminimizethejointsurpriseofexternalandblanketstates.Interpretingthisjointdensityasagenerativemodel,we
+caninterpretgradientflowsatnon-equilibriumsteadystateintermsofvariationalinference,asshownhere.Theupperleft
+graph illustrates the interpretation of the surprise in terms of a generative model (using a factor graph formalism) with a
+priorandalikelihood(squares).Inthesettingofvariationalinference,thedynamicsthatsolvethisinferenceproblemmaybe
+framedasmessagepassing,wherethelikelihoodandprioreachcontributelocalmessages(pinkarrows)thatarecombinedto
+evaluatea(marginal)posteriorprobability.Thisprovidesanimportantpointofcontactwithconceptslikepredictivecoding[ 20]
+intheoreticalneurobiology,asillustratedinthepinkpanel,andinthegraphicontherightofthefactorgraph.Thisformulation
+usesthesecond-orderTaylorexpansionofsurpriseandinterpretsthedifferencebetweenthepredictedandobservedblanket
+statesasapredictionerror( ε
+b)—similarlyforthedifferencebetweenthepriorandposteriorexpectationsfortheexternal
+states( εη).Theseerrorsdriveupdatesintheinternalstatesrepresentingexpectedexternalstates.Thisleadstoaprocessof
+predictionerrorminimization.Theplotsontherightillustratethedynamicsofequations(3.6)and(3.8).Ifweinitializethe
+expectedinternalstatesawayfromtheirmodeunderthesteadystatedensity,weseethattheyreturntothis.Astheydoso,
+thebeliefstheyrepresentbecomeconsistentwiththoseshownin figure2,andthefreeenergy( F)differencefromitssteady-
+statevaluereturnstozero.ForreaderswhowishtogainanintuitionforthedynamicsofMarkov-blanketedsystems,aseries
+ofnumericaldemonstrations[ 21]maybeaccessedthroughacademicsoftwareavailableat http://www.fil.ion.ucl.ac.uk/spm/
+software/.TypingDEMattheMatlabpromptwillinvokeagraphicaluserinterfacethroughwhicharangeofsimulationsmay
+beaccessedandcustomized.ThisincludesexamplesofpracticalapplicationsofBayesianmechanicsinnumerousdomains.See
+alsohttps://tejparr.github.io/Physics/Slides%20main.htmforagraphicalintroductiontothesetopics.(Onlineversionincolour.)
+ Downloaded from https://royalsocietypublishing.org/ on 26 November 2025
+
+--- Page 9 ---
+
+9royalsocietypublishing.org/journal/rstaP h i l .T r a n s .R .S o c .A378:20190159 ...............................................................
+as our object of study. The internal states of this individual will appear to make inferences about
+those in the original population who, in virtue of our taking an alternative perspective, have gone
+from being internal states (performing inference) to external states (being inferred). We could go
+further, and select an organ, tissue, cell or molecule as our blanketed system. At each level, the
+content of the inference implicit in internal state dynamics will change, but will still be subject to
+the Bayesian mechanics outlined above.
+4. Stochasticthermodynamics
+(a) Pathintegralsandreversibility
+How do we go from the description above to concepts like ‘heat’ that are central in characterizing
+the energetics of inference? The key to this is to move from thinking about a density over a
+particle’s current location to quantifying the probability of it having followed a given path. This
+is given by the following (Stratonovich
+3) path integral [26]:
+ℑ(x[τ]) = 1
+4Γ
+∫ t
+o
+(˙x · ˙x − 2˙x · f + f · f + 2Γ∇· f )d τ. (4.1)
+If we compare this to the probability associated with the same path, but in the opposite
+direction (as if we had reversed time), we obtain:
+ℑ(x[t − τ]) −ℑ (x[τ]) = 1
+Γ
+∫ t
+0
+˙x · f dτ= 1
+Γ q. (4.2)
+This equation says that the amount of heat dissipated ( q) along a given path is an expression
+of how surprising it would be to observe a system following the same path backwards relative to
+forwards. Substituting equation (3.2) into this (ignoring solenoidal ﬂow) gives
+q =− Γ
+∫ t
+0
+˙x ·∇ℑ (x)dτ=− Γ
+∫ t
+0
+˙ℑ(x)dτ=− Γ/Delta1ℑ(x) =− kBT/Delta1ℑ(x). (4.3)
+The ﬁnal equality decomposes the amplitude of random ﬂuctuations into Boltzmann’s
+constant and the temperature of the system, ensuring consistency of units. Considering a
+trajectory for expected external states, this expresses the heat dissipated by a change in free
+energy:
+q =− k
+BT/Delta1ℑ(σ(μ), b) ≈− kBT/Delta1F(μ, b). (4.4)
+The approximate equality again rests upon the assumption that, as long as we do not move far
+from the mode, the Hessian of the surprise does not change. This allows us to equate changes in
+free energy with changes in the joint surprise of internal and blanket states, ignoring any changes
+in the entropy of the variational density (q(η)). The result is a limiting case of Jarzynski’s inequality
+[27], relating a change in free energy (i.e. an inference) to the heat dissipated in the process.
+(b) Fluctuationtheorems
+The use of time-reversal above, and the temporal asymmetry that gives rise to heat, is one example
+of the use of ‘conjugate’ dynamics (†). More generally, this concept may be exploited to derive
+a set of results known as the ‘ﬂuctuation theorems’ [ 28]. The idea here is that certain scalar
+functionals ( S) of a trajectory will have the same magnitude under an alternative (e.g. time-
+reversed) trajectory. For example, as indicated by equation (4.2), heat has the same magnitude
+3This expression for the path integral arises from the Stratonovich interpretation of a stochastic differential equation.
+However, it is worth noting that other interpretations are widely used, and may be more appropriate in many settings.
+For details, see [24,25].
+ Downloaded from https://royalsocietypublishing.org/ on 26 November 2025
+
+--- Page 10 ---
+
+10royalsocietypublishing.org/journal/rstaP h i l .T r a n s .R .S o c .A378:20190159 ...............................................................
+(but reversed sign) under a time-reversed protocol. Putting this more formally, we start with a
+functional consistent with the following:
+S†(x†[τ]) = εS(x[τ]), ε=± 1. (4.5)
+For an arbitrary function (g(S)), this may be used to derive the master ﬂuctuation theorem [28]:
+Ep(x[τ])[g(εS)] =
+∫
+g(εS)p(x[τ])dx[τ]
+=
+∫
+g(S†)p(x†[τ]) p(x[τ])
+p(x†[τ]) dx†[τ] = Ep(x†[τ])
+[
+g(S†)eℑ(x†[τ])−ℑ(x[τ])
+]
+.
+(4.6)
+Under different choices for g(S), or different choices of conjugate dynamics, equation (4.6)
+can be used to derive the ﬂuctuation theorems that underwrite stochastic thermodynamics. For
+interested readers, a comprehensive treatment of this subject is given by Seifert [ 28]. Here, we
+focus on a ﬂuctuation theorem that arises in virtue of the dual information geometry of equation
+(2.6). If we choose g(S) = 1, and set the conjugate dynamics to be those given knowledge of the
+current (average) internal state, we obtain an integral ﬂuctuation theorem that provides an upper
+bound for the expected surprise (or entropy) of a future trajectory:
+p(x
+†[τ]) = q(x[τ]) = p(x[τ]|μ)
+⇒ Eq
+[
+ln q(η[τ]|π[τ])
+p(η[τ], π[τ]) −ℑ (π[τ]|μ)
+]
+≥ 0.
+(4.7)
+We have used the notation π = (μ,b), to group the internal states and their blanket. Together,
+these are referred to as particular states. There is an interesting connection between equation (4.7)
+and the information length of a trajectory [ 29,30]. Once non-equilibrium steady state has been
+achieved, there is no further increase in information length. This means that, if the information
+length between μ and the most likely value for the internal states under non-equilibrium steady
+state were zero, the inequality above would be an equality, as the two densities would be
+identical. Rearranging equation (4.7), we can express an upper bound ( G) on the expected
+surprise associated with a given trajectory (where the tightness of the bound depends upon the
+information length):
+G(μ) ≥ E
+q[ℑ(π[τ]|μ)] = H[q(π[τ])]
+G(μ) /Delta1= Eq[ℑ(η[τ],π[τ]) + ln q(η[τ]|,π[τ])]
+= Eq[DKL[q(η[τ]|π[τ])||p(η[τ])]
+  
+Risk
++ Eq[H[p(π[τ]|η[τ])]]
+  
+Ambiguity
+.
+⎫
+⎪⎪
+⎪
+⎪
+⎪
+⎪
+⎬
+⎪⎪
+⎪⎪⎪
+⎪
+⎭
+(4.8)
+This implies that those future dynamics (i.e. choice of q(π[τ])) that would be least surprising
+(on average) given current internal states are those that have the lowest risk (i.e. where the
+predicted trajectory of the external states shows minimal divergence from those at steady state),
+while also minimizing the ambiguity of the association between external states and particular
+states. The interesting thing about this result is that the two quantities that comprise expected free
+energy, namely risk and ambiguity, are exactly the same quantities found in economics, decision
+theory and cognitive neuroscience. In short, many apparently purposeful behaviours can be cast
+in terms of minimizing risk (i.e. the KL-Divergence between predicted and ap r i o r ipredictions of
+outcomes in the future) and ambiguity (i.e. the expected uncertainty about particular states, given
+external states of the world). We conclude by considering to what extent this anthropomorphic
+interpretation is licensed by the underlying physics.
+ Downloaded from https://royalsocietypublishing.org/ on 26 November 2025
+
+--- Page 11 ---
+
+11royalsocietypublishing.org/journal/rstaP h i l .T r a n s .R .S o c .A378:20190159 ...............................................................
+5. Discussion
+In the above, we started from the simple, but fundamental, condition that a system must remain
+separable from its environment for an appreciable length of time [31]. On unpacking this notion—
+using concepts from information geometry and thermodynamics—we found that the states
+internal to a Markov blanket look as if they perform variational Bayesian inference, optimizing
+posterior beliefs about the external world. In fact, both active and internal states (on average)
+minimize an upper bound on surprise. This means that Markov-blanketed systems make their
+world less surprising in two ways. They change their beliefs to make them more consistent with
+sensory data and change their sensory data to make them more consistent with their beliefs.
+The sort of inference (or generalized synchrony [32,33]) we have described here is very simple,
+where we have grouped all external states together. However, the broad distinction we have
+drawn between internal and external states could be nuanced by subdividing the external states
+into other systems with Markov blankets. From the perspective of the internal states, this leads to
+a more interesting inference problem, with a more complex implicit generative model. It may be
+that the distinction between the sorts of systems we generally think of as engaging in cognitive,
+inferential, dynamics [ 34] and simpler systems [ 35] rests upon the level of sophistication of the
+generative models that best describe their dynamics or gradient ﬂows [ 36]. For example, if we
+distinguish between states as positions, velocities, accelerations, etc., of external states the ensuing
+dynamics of internal states become consistent with temporally deep inference, and generalized
+Bayesian ﬁltering [37] (a special case of which is an extended Kalman–Bucy ﬁlter [38]).
+Things become more interesting when we think not just about probabilities of states, but of
+their trajectories [39]. This provides an important connection to concepts from thermodynamics,
+including the concept of heat. Crucially, this quantity may be thought of as an expression of
+the differences in the probability of a trajectory under different sorts of (conjugate) dynamics.
+This is the idea that underwrites the ﬂuctuation theorems of stochastic thermodynamics, each of
+which depends upon alternative choices for the conjugate dynamics. Bringing the information
+geometry implied by a Markov blanket to bear on this, we can express an integral ﬂuctuation
+theorem that depends upon the beliefs implied by a system’s internal states. This tells us that the
+trajectories that are expected to be least surprising are those with the lowest expected free energy,
+an idea that has been exploited to reproduce a range of behaviours in computational neuroscience
+(e.g. saccadic eye movements in scene construction that seek out the least ambiguous sensory
+states [40]).
+The decomposition of expected free energy into ‘risk’ and ‘ambiguity’ offers some intuition
+as to what this means. Suppose we have a Markov-blanketed creature whose generative model
+is sufﬁciently sophisticated that it can draw inferences about the way in which it will act. The
+alternative trajectories it could take may be scored by the risk and ambiguity associated with
+these trajectories. Anthropomorphizing, we can think of this creature as behaving like a scientist;
+inferring a course of action (i.e. series of experiments) that will provide the most informative
+(least ambiguous) data, facilitating more precise inferences about external states of the world.
+However, this exploratory behaviour is not the whole story. Not only does this creature pursue
+those trajectories that afford uncertainty reduction [41,42], it also minimizes the divergence (risk)
+between anticipated external states, and those consistent with non-equilibrium steady state.
+Interpreting the latter as ‘preferences’, in the sense that the most likely trajectories tend towards
+these, we are left with a creature who acts like a ‘crooked’ scientist [ 43], seeking out those data
+that are most informative, with a bias towards those that comply with its prior beliefs.
+6. Conclusion
+This paper outlines some of the key relationships between non-equilibrium dynamics, inference
+and thermodynamics. These relationships rest upon partitioning the world into those things that
+are internal or external to a boundary, known as a Markov blanket. The blanket induces a dual
+information geometry that lets us treat internal states as if they represent densities over external
+ Downloaded from https://royalsocietypublishing.org/ on 26 November 2025
+
+--- Page 12 ---
+
+12royalsocietypublishing.org/journal/rstaP h i l .T r a n s .R .S o c .A378:20190159 ...............................................................
+states. When equipped with dynamics, the average internal states appear to engage in variational
+inference. Moving to a trajectory-level characterization, we can draw from the tools of stochastic
+thermodynamics to relate inference to the heat it dissipates, and develop an integral ﬂuctuation
+theorem that draws from the dual information geometric perspective above. This provides an
+(expected free energy) bound on the expected surprise (entropy) of future trajectories. Ultimately,
+the drive towards explorative and exploitative behaviours that this implies offers a principled
+way of writing down the prior beliefs of creatures who engage in planning as (active) inference.
+Dataaccessibility.
+This article has no additional data.
+Authors’contributions. All authors made substantial contributions to conception and design, and writing of the
+article; and approved publication of the ﬁnal version.
+Competinginterests. We have no competing interests.
+Funding. This study was funded by Rosetrees Trust (Award no. 173346) to T.P . K.F. is a Wellcome Principal
+Research Fellow (Ref: 088130/Z/09/Z).
+References
+1. Ramstead MJD, Badcock PB, Friston KJ. 2018 Answering Schrödinger’s question: a free-
+energy formulation. Phys. Life Rev. 24, 1–16. (doi:10.1016/j.plrev.2017.09.001)
+2. Palacios ER, Razi A, Parr T, Kirchhoff M, Friston K. 2017 Biological self-organisation and
+Markov blankets. bioRxiv, 227181.
+3. Friston K. 2013 Life as we know it. J. R. Soc. Interface 10, 20130475. ( doi:10.1098/
+rsif.2013.0475)
+4. Friston K, Rigoli F, Ognibene D, Mathys C, Fitzgerald T, Pezzulo G. 2015 Active inference and
+epistemic value. Cogn. Neurosci. 6, 187–214.
+5. Attias H (ed.). 2003 Planning by probabilistic inference. In Proc. of the 9th Int. Workshop on
+Artiﬁcial Intelligence and Statistics , AISTATS 2003, Key West, FL, 3–6 January . NJ, USA: Society
+for Artiﬁcial Intelligence and Statistics.
+6. Botvinick M, Toussaint M. 2012 Planning as inference. T rends Cogn. Sci. 16, 485–488.
+(doi:10.1016/j.tics.2012.08.006)
+7. Beal MJ. 2003 Variational algorithms for approximate Bayesian inference . London, UK: University
+of London.
+8. Pearl J. 1998 Graphical models for probabilistic and causal reasoning. In Quantiﬁed
+representation of uncertainty and imprecision (ed. P Smets), pp. 367–389. Dordrecht, The
+Netherlands: Springer.
+9. Amari S-I. 2012 Differential-geometrical methods in statistics . Berlin, Germany: Springer
+Science & Business Media.
+10. Amari S-I. 2016 Information geometry and its applications . Berlin, Germany: Springer.
+11. Friston K, Mattout J, Trujillo-Barreto N, Ashburner J, Penny W. 2007 Variational free
+energy and the Laplace approximation. Neuroimage 34, 220–234. ( doi:10.1016/j.neuroimage.
+2006.08.035)
+12. Kullback S, Leibler RA. 1951 On information and sufﬁciency. Ann. Math. Statist. 22, 79–86.
+(doi:10.1214/aoms/1177729694)
+13. Ay N. 2015 Information geometry on complexity and stochastic interaction. Entropy 17, 2432–
+2458. (doi:10.3390/e17042432)
+14. Risken H. 1996 Fokker-Planck equation. The Fokker-Planck equation , pp. 63–95. Berlin, Germany:
+Springer.
+15. Pavliotis GA. 2014 Stochastic processes and applications: diffusion processes, the Fokker-Planck and
+Langevin equations. Berlin, Germany: Springer.
+16. Ao P. 2004 Potential in stochastic differential equations: novel construction. J. Phys. A: Math.
+Gen. 37, L25–L30. (doi:10.1088/0305-4470/37/3/L01)
+17. Friston K, Ao P. 2012 Free energy, value, and attractors. Comput. Math. Methods Med. 2012, 27.
+(doi:10.1155/2012/937860)
+18. Marreiros AC, Kiebel SJ, Daunizeau J, Harrison LM, Friston KJ. 2009 Population
+dynamics under the Laplace assumption. Neuroimage 44, 701–714. (doi:10.1016/j.neuroimage.
+2008.10.008)
+ Downloaded from https://royalsocietypublishing.org/ on 26 November 2025
+
+--- Page 13 ---
+
+13royalsocietypublishing.org/journal/rstaP h i l .T r a n s .R .S o c .A378:20190159 ...............................................................
+19. Conant RC, Ashby WR. 1970 Every good regulator of a system must be a model of that system.
+Int. J. Syst. Sci. 1, 89–97. (doi:10.1080/00207727008920220)
+20. Rao RP, Ballard DH. 1999 Predictive coding in the visual cortex: a functional interpretation of
+some extra-classical receptive-ﬁeld effects. Nat. Neurosci. 2, 79–87. (doi:10.1038/4580)
+21. Friston K. 2019 A free energy principle for a particular physics. arXiv e-prints [Internet]. 2019
+June 01. See https://ui.adsabs.harvard.edu/abs/2019arXiv190610184F.
+22. Hohwy J. 2016 The self-evidencing brain. Noûs. 50, 259–285. (doi:10.1111/nous.12062)
+23. Cannon WB. 1929 Organization for physiological homeostasis. Physiol. Rev. 9, 399–431.
+(doi:10.1152/physrev.1929.9.3.399)
+24. Yuan R, Ao P. 2012 Beyond Itô versus Stratonovich. J. Stat. Mech: Theory Exp. 2012, P07010.
+(doi:10.1088/1742-5468/2012/07/P07010)
+25. Tang Y, Yuan R, Ao P. 2014 Summing over trajectories of stochastic dynamics with
+multiplicative noise. J. Chem. Phys. 141, 044125. (doi:10.1063/1.4890968)
+26. Cugliandolo LF, Lecomte V. 2017 Rules of calculus in the path integral representation of white
+noise Langevin equations: the Onsager–Machlup approach.J. Phys. A: Math. Theor. 50, 345001.
+(doi:10.1088/1751-8121/aa7dd6)
+27. Jarzynski C. 1997 Nonequilibrium equality for free energy differences.Phys. Rev. Lett. 78, 2690–
+2693. (doi:10.1103/PhysRevLett.78.2690)
+28. Seifert U. 2012 Stochastic thermodynamics, ﬂuctuation theorems and molecular machines.
+Rep. Prog. Phys. 75, 126001. (doi:10.1088/0034-4885/75/12/126001)
+29. Crooks GE. 2007 Measuring thermodynamic length. Phys. Rev. Lett. 99, 100602.
+(doi:10.1103/PhysRevLett.99.100602)
+30. Kim E-J. 2018 Investigating information geometry in classical and quantum systems through
+information length. Entropy 20, 574. (doi:10.3390/e20080574)
+31. Kirchhoff M, Parr T, Palacios E, Friston K, Kiverstein J. 2018 The Markov blankets of life:
+autonomy, active inference and the free energy principle. J. R. Soc. Interface 15, 20170792.
+(doi:10.1098/rsif.2017.0792)
+32. Barreto E, Josi´c K, Morales CJ, Sander E, So P. 2003 The geometry of chaos synchronization.
+Chaos Interdisc. J. Nonlinear Sci. 13, 151–164. (doi:10.1063/1.1512927)
+33. Hunt BR, Ott E, Yorke JA. 1997 Differentiable generalized synchronization of chaos.Phys. Rev.
+E 55, 4029–4034. (doi:10.1103/PhysRevE.55.4029)
+34. Friston KJ, Parr T, Vries BD. 2017 The graphical brain: belief propagation and active inference.
+Network Neurosci. 1, 381–414. (doi:10.1162/NETN_a_00018)
+35. Friston K, Levin M, Sengupta B, Pezzulo G. 2015 Knowing one’s place: a free-energy approach
+to pattern regulation. J. R. Soc. Interface 12, 20141383. (doi:10.1098/rsif.2014.1383)
+36. Yuﬁk YM, Friston K. 2016 Life and understanding: the origins of ‘understanding’ in self-
+organizing nervous systems. Front. Systems Neurosci. 10, 98. (doi:10.3389/fnsys.2016.00098)
+37. Friston K, Stephan K, Li B, Daunizeau J. 2010 Generalised ﬁltering. Math. Problems Eng. 2010,
+621670. (doi:10.1155/2010/621670)
+38. Kalman RE. 1960 A new approach to linear ﬁltering and prediction problems. J. Basic Eng. 82,
+35–45. (doi:10.1115/1.3662552)
+39. Georgiev GY, Chatterjee A. 2016 The road to a measurable quantitative understanding of self-
+organization and evolution. In Evolution and transitions in complexity: the science of hierarchical
+organization in nature (ed. GAJM Jagers op Akkerhuis), pp. 223–230. Cham, Switzerland:
+Springer International Publishing.
+40. Mirza MB, Adams RA, Mathys CD, Friston KJ. 2016 Scene construction, visual foraging, and
+active inference. Front. Comput. Neurosci. 10, 56. (doi:10.3389/fncom.2016.00056)
+41. Itti L, Baldi P. 2006 Bayesian surprise attracts human attention. Adv. Neural Inform. Process.
+Syst. 18, 547.
+42. Itti L, Koch C. 2000 A saliency-based search mechanism for overt and covert shifts of visual
+attention. Vision Res. 40, 1489–1506. (doi:10.1016/S0042-6989(99)00163-7)
+43. Bruineberg J, Kiverstein J, Rietveld E. 2016 The anticipating brain is not a scientist:
+the free-energy principle from an ecological-enactive perspective. Synthese 2016, 1–28.
+(doi:10.1007/s11229-016-1239-1)
+ Downloaded from https://royalsocietypublishing.org/ on 26 November 2025

@@ -1,0 +1,1250 @@
+--- Page 1 ---
+
+OO IN 
+~ 
+ECONOMETRICA 
+VOLUME 29 April 1961 NUMBER 2 
+AGGREGATION OF VARIABLES IN DYNAMIC SYSTEMS! 
+By HERBERT A. SIMON AND ALBERT ANDO 
+Previous studies have examined dynamic systems that are decomposable 
+into independent subsystems. This article treats of systems that are nearly 
+decomposable—systems with matrices whose elements, except within certain 
+submatrices along the main diagonal, approach zero in the limit. Sucha system 
+can be represented as a superposition of (1) a set of independent subsystems 
+(one for each submatrix on the diagonal) and (2) an aggregate system having 
+one variable for each subsystem. This superposition separates short-run from 
+long-run dynamics and justifies the ignoring of ‘‘weak’’ linkages in partial 
+equilibrium studies. 
+I. INTRODUCTION 
+In MANY problems of economic theory we need to use aggregates. The general 
+Walrasian system and its more modern dynamic extensions are relatively 
+barren of results for macroeconomics and economic policy. Hence, in our 
+desire to deal with such questions we use highly aggregated systems by sheer 
+necessity, often without having much more than the same necessity as our 
+justification. Perhaps the most important result to date for justifying aggre- 
+gation under certain circumstances is the Lange—Hicks? condition, about 
+which we shall say more later. 
+Concern with actual numerical coefficients in the Leontief input-output 
+model renewed interest in aggregation. It was hoped at first, perhaps, that 
+modern computers would handle matrices of about any desired size, and 
+hence would obviate the need for aggregation. By now it is clear that our 
+ambitions have outstripped the computers, for the time required to invert a 
+matrix by known methods increases with the cube of the number of rows and 
+1 An earlier version of this paper was the result of the research undertaken in the 
+Graduate School of Industrial Administration, Carnegie Institute of Technology, for 
+the project Planning and Control of Industrial Operations, under contract with the 
+Office of Naval Research and was circulated as O. N. R. Research Memorandum, 
+No. 31, December, 1956. Reproduction of this manuscript in whole or in part is permit- 
+ted for any purpose of the United States Government. Contract NONR-76001, Project 
+NR 047001. It was also read at the meetings of the Econometric Society, December, 
+1956. We are indebted to Drs. Allen Newell, Franklin Fisher, and S. Chakravarty for 
+several enlightening discussions on the subject of this paper, and to John Muth for 
+valuable suggestion on the proof given in Section IV. 
+2 Lange, O., Price Flexibility and Employment, pp. 103 ff., 1952. 
+111 
+
+
+--- Page 2 ---
+
+112 H. A. SIMON AND A. ANDO 
+columns. The high cost of inverting large matrices has led to a number of ex- 
+periments® to determine whether aggregation can be used to obtain approxi- 
+mate inverses more economically. 
+Hence, aggregation is a topic of considerable importance regardless of 
+whether we are interested in the general mathematical treatment of large 
+systems—in which case aggregation is essential for conceptual clarity and 
+for effective manipulation of the systems—or interested in numerical com- 
+putation—in which case aggregation is often necessary to make computa- 
+tion feasible with available means. 
+Let us consider an example. Suppose that government planners are in- 
+terested in the effects of a subsidy to a basic industry, say the steel industry, 
+on the total effective demand in the economy. Strictly speaking, we must deal 
+with individual producers and consumers, and trace through all interactions 
+among theeconomic agents in the economy. This being an obviously impossible 
+task, we would use such aggregated variables as the total output of the steel 
+industry, aggregate consumption and aggregate investment. The reasoning 
+behind such a procedure may be summarized as follows: (1) we can somehow 
+classify all the variables in the economy into a small number of groups; (2) 
+we can study the interactions within the groups as though the interaction 
+among groups did not exist ; (3) we can define indices representing groups and 
+study the interaction among these indices without regard to the interactions 
+within each group. 
+When thus explicitly written out, this reasoning appears rather bold. Yet, 
+we implicitly use it almost every day in our analysis of the economy. We 
+should at least make some attempt to specify the conditions that would 
+justify the aggregation. 
+The conditions for exact aggregation are very severe. Whether these con- 
+ditions are strictly satisfied in any practical situation is, of course, not im- 
+portant. We would be perfectly satisfied with aggregative models that were 
+only approximate; we have no illusions that any model we might employ is 
+more that an approximate description of reality. In exploring the aggregation 
+problem we seek rules and criteria—exact or heuristic—that indicate what 
+variables to aggregate and that show the circumstances under which aggre- 
+gation will yield satisfactory approximations. 
+In the more general sense, justifications for approximation must be related 
+to the decisions that depend on the approximating—if the decisions based 
+on the approximate model are not much “worse’’ than the decisions based on 
+the more elaborate model according to some criteria, then we may be justi- 
+fied in using the approximate, simpler model. This consideration is strength- 
+ened if, while the improvement of the final decision is very slight, the cost of 
+3 Baiderston, J. B., and T. M. Whitin, ‘“‘Aggregation in the Input-Output Model,” 
+in Economic Activity Analysis, ed. by O. Morgenstern, 1954. 
+
+
+--- Page 3 ---
+
+at 
+AGGREGATION OF VARIABLES 113 
+working with a larger model is very much greater than that of working with 
+an approximate, simpler model. Furthermore, the relation between the ag- 
+gregation problem here discussed and the identification problem when the 
+structural equations are misspecified—a relation pointed out recently by 
+Fisher4—can be better understood when both of these problems are viewed 
+as parts of a larger decision problem. We shall come back to this point in the 
+concluding section of this paper, but we must first make the statement of 
+our problem more precise. 
+We shall restrict our attention to aggregation defined within the following 
+algebraic model: We have two sets of (not necessarily all distinct) variables, 
+% = (%1,...,%4,...,%n), and y = (1,...,Vj,---,¥m), and a system of equations 
+giving y as a function of x; y = ¢(x). We wish to know under what circum- 
+stances there exist two sets of functions, X7(x), J = 1,....N, N <n, and 
+Yu(y), J = 1,...,.M, M < m, such that a set of relations between X and Y: 
+Y = &(X), can be derived from the given system of equations, ¢, relating 
+x and y. X and Y are vectors: X = (Xj,...,Xw), and Y = (¥i,..., Ym). 
+Sometimes additional conditions are imposed, e.g., that the functions X and 
+Y are given; or that there exist also relations, y = y(Y), such that if, for a 
+given set of values of x, %, ¥ = $(%), X = X(x), Y = &(X), and y = y(¥), 
+then ys —¥5| < e for all 7, where ¢ is a given positive number. 
+In the special case where the relations are all linear and the 4;’s are the 
+values of the %;’s in the following period, the function ¢ can be written as 
+(1.1) a(¢+1) = x(4)P 
+where x(t) is an m-dimensional row vector and P is an # Xm matrix of 
+constants. The question raised above will then be specialized to that of 
+conditions under which there exist N functions, 
+(1.2) X7(t) = Xi[x(t)] (P= 1,..,87 <2 
+and a new set of relations 
+(1.3) X(t+1) = XQ 
+where X(#) is an N-dimensional row vector, and Q is an N x N matrix of 
+constants. The elements of Q are functions of the elements of P. Further, we 
+seek to define an additional set of functions 
+(1.4) x(t) = fil X(d} (¢ = 1,...,8) 
+such that the time path of the x;’s defined by (1.3) and (1.4) can be considered 
+an acceptable approximation of the time path of the %;’s defined by (1.1) 
+according to some predetermined criteria. 
+The Lange-Hicks condition is a criterion of this kind. It states: if two or 
+4 Fisher, F. M., ‘‘On the Cost of Approximate Specification in Simultaneous Equa- 
+tion Estimation,’’ Econometrica, Vol. 29, April, 1961. 
+
+
+--- Page 4 ---
+
+114 H. A. SIMON AND A. ANDO 
+more variables always move together they may be aggregated into a single 
+variable, which will be an appropriately weighted average of the original 
+variables. This is a useful criterion, since it tells us that we may aggregate 
+classes of commodities that are perfect substitutes, or that are approximately 
+so. 
+At another level, the Lange-Hicks condition is unsatisfactory, for it 
+requires that we know in advance which variables move together. In reality, 
+it may be part of our problem to discover this. We may be confronted with 
+a dynamic system of many variables, and may have to infer from the equa- 
+tions of the system which variables will move together—or will move 
+nearly enough together to warrant aggregation. This is the problem we shall 
+set ourselves here: to determine conditions that, if satisfied by a (linear) 
+dynamic system, will permit approximate aggregation of variables. Note that 
+we shall be interested in sufficient, rather than necessary, conditions. 
+Hence, we may also view our task as that of discovering one or more 
+classes of dynamic systems whose variables may be aggregated. 
+In Section II, we shall present one such class of dynamic systems, which 
+we call “nearly decomposable’”’ systems, and suggest that in such systems, 
+the aggregation of variables described by equations (1.1) through (1.4) can 
+be performed. In Section III, we shall give a physical illustration of such a 
+system. In Sections IV and V, the mathematical analysis underlying the 
+propositions summarized in Section II will be given in some detail. Section 
+VI will present a numerical illustration of the behavior through time of 
+“nearly decomposable”’ systems, and, as a special case, an application of 
+the aggregation procedure discussed in this paper to the problem of the 
+inversion of matrices. Finally, in Section VII, we shall discuss some further 
+implications of our results and their relations to the recent works of others. 
+II. PROPERTIES OF NEARLY DECOMPOSABLE MATRICES 
+The dynamic characteristics of the system (1.1) depend on the properties 
+of the matrix of its coefficients, P = ||Pi;||. More specifically, we will be 
+interested in the patterns of zeros and near-zeros in the matrix P. Since we 
+are concerned with closed systems, we assume P to be a square matrix. 
+Let us consider a matrix P*, that can be arranged in the following form 
+after an appropriate permutation of rows and columns: 
+re | 
+(2.1) Pt = ee 
+= 
+where the P7’s are square submatrices and the remaining elements, not dis- 
+played, are all zero. Then the matrix is said to be completely decomposable. 
+
+
+--- Page 5 ---
+
+SS © mm 
+dis- 
+ble. 
+AGGREGATION OF VARIABLES 115 
+Let us denote the number of rows and columns in the Jth submatrix in 
+P* by v1. Then 
+a 
+; I 
+NI. 
+rM= 
+We shall also adopt the following notation for the vector {x;*()} on which P* 
+operates: 
+x(t) = (28(0} = eG)... LoL AOD 
+where ~;,[(#)] is the row vector of a subset of components of {x;*(¢)}, so that if 
+xi (0) = %,(t) 
+then 
+Ft 
+i= ¥ Ny +t. 
+J=1 
+It is clear that if the system (1.1) is specified to 
+(2.2) x*(t) = «*(0) P* 
+then the subset [xi,(2)] of x(t) at any stage ¢ depends only on [xi,(0)] and Pr * 
+and is independent of [%:,(0)] and P3,1 4 J. 
+Let us next consider a slightly altered matrix P defined by 
+(2.3) P= P*+0C 
+where ¢ is a very smal] real number, and C is an arbitrary matrix of the same 
+dimension as P*. In this introductory discussion, the phrase “‘a very small 
+real number”’ is intentionally left unprecise ; it will be defined later. We shall 
+refer to matrices such as P as nearly decomposable matrices. Using P thus 
+defined, we restate equation (1.1) below: 
+(2.4) e(¢+1)=—x()P. 
+It is the dynamic behavior of the system given by (2.4) in which we are 
+interested. 
+Let the roots of the submatrix P; of P* be designated as: At, dz, aaa Any 
+Weassume that these roots are distinct, and the subscripts are so arranged that 
+A, > 42, >,.-. > dn, . In addition, if aij, 4i,,..., Aly are all distinct, 
+then without loss of generality, we can arrange rows and columns so that 
+ai, = di, ee ai, . When all these conditions are satisfied, i.e., when all 
+roots of P* are distinct, we can analyze the dynamic behavior of (2.4) with 
+relative ease. In most cases, we feel that this assumption is not too restric- 
+tive as a description of reality. There is, however, an important exception, 
+namely, the case where P* is a stochastic matrix in which case all a, are 
+
+
+--- Page 6 ---
+
+116 H. A. SIMON AND A. ANDO 
+unity. It turns out, fortunately, that our analysis of the case with all 
+distinct roots can readily be extended to the stochastic case. In the remainder 
+of this section, we shall summarize the results of more detailed mathemat- 
+ical analysis presented in Sections IV and V. 
+Let us define 
+(2.5) _ | AF—AF | =a O*. 
+‘#3 
+If P* is stochastic, the N largest roots of P* take the identical values of 
+unity. In this case, (2.5) should be interpreted to mean the selection of the 
+minimum of the differences among all roots whose values are not unity 
+and their differences from unity. 
+Since the roots of a matrix are continuous functions of its elements,5 
+we can define, for any positive real number 6, however small, a small enough 
+eso that, for every root of P* i. there exists a root of P, A;, such that 
+(2.6) |4,—a8| <6. 
+We can choose 6 sufficiently smaller than 6* so that there is no confusion as 
+to which root of P corresponds to any particular root of P*. The only ex- 
+ceptions to this proposition are the N largest roots of the stochastic P*. If 
+P* is stochastic, we have 
+(2.7a) A* = 1 OF ee D2 a 
+7 
+(2.7b) Paes (ty = 2Z,...,%¢ ; FS 1,...50¥). 
+Hence, for P, we must have 
+(2.8a) 1 —A,,| <6 (fF = 1,2,...,N), 
+(2.8b) |1—Ay,| > o* —6 (jz = 2,...,%7 ; P= 1,...,2N). 
+Because of the correspondence of the characteristic roots of P and P* 
+described above, we expect x(t), when its time path is defined by (2.4), to 
+exhibit the following dynamic behavior: 
+(1) In the short run, the behavior of %;,(¢) will be dominated by roots 
+belonging to the /th subset, so that the time path of x;,(¢) will be very close 
+to the time path of xi.(t), and almost independent of j,(t), J AJ, and 
+Py, J #1. Here, Pz is defined to be the submatrix of P corresponding to 
+P3 of P*. If we are interested in the behavior of the system at this stage, 
+we can treat the system as though it were completely decomposable. 
+(2) Unlike P*, P is not completely decomposable, so that the weak links 
+among the subsystems will eventually make their influence felt. But the 
+time required for these influences to appear is long enough so that when 
+5 See, for instance, E. C. Titchmarsh, The Theory of Functions, 2nd ed., 1939. 
+
+
+--- Page 7 ---
+
+AGGREGATION OF VARIABLES 117 
+they do become visible, within each subsystem the largest root, A; p Will have 
+dominated all other roots, da, ,--+s Any Thus, at this stage, the variables 
+within each subset, [%;,(¢)], will move proportionately, and the behavior of 
+the whole system will be dominated by N roots, Ai, ss Ay. Notice that, 
+since the variables in each subsystem move roughly proportionately, the 
+Lange-Hicks condition for aggregation is approximately satisfied. 
+(3) At the end, however, the behavior of x(t) will be dominated by the 
+largest root of P, as in any linear dynamic system. 
+It is quite clear that all these statements refer to the limiting properties 
+of the system (2.4), and can be made more precise and meaningful only with 
+more careful mathematical analyses of the system, which are presented in 
+Sections IV and V. 
+III. A PHYSICAL ILLUSTRATION 
+Before we proceed with a more complete statement of the mathematics 
+that underlies our analysis, it may be useful to provide an example of a 
+physical system that can be approximately decomposed in the manner 
+just described. We shall see that the principle of aggregation we are employ- 
+ing is essentially that which justifies the replacement of microvariables by 
+macrovariables in classical thermodynamics. 
+Consider a building whose outside walls provide perfect thermal insulation 
+from the environment. The building is divided into a large number of rooms, 
+the walls between them being good, but not perfect, insulators. Each room 
+is divided into a number of offices by partitions. The partitions are poor 
+insulators. A thermometer hangs in each of the offices. Suppose that at 
+time f the various offices within the building are in a state of thermal 
+disequilibrium—there is a wide variation in temperature from office to office 
+and from room to room. When we take new temperature readings at time 
+#1, several hours after f, what will we find? At 4, there will be very little 
+variation in temperature among the offices within each single room, but 
+there may still be large temperature variations among rooms. When we take 
+readings again at time é, several days after 4, we find an almost uniform 
+temperature throughout the building; the temperature differences among 
+rooms have virtually disappeared. 
+The well-known equations for the diffusion of heat allow us to represent 
+this situation by a system of differential equations—or approximately by a 
+system of difference equations. Let F;,(t) be the temperature of the 7th 
+office which is in the Jth room, at time ¢. Let F(é) be the vector consisting 
+of these temperatures as components, F (¢) = [Fi,, Fo,,..-,Ftp---Fiys-++ 
+Fy,] . Then 
+(3.1) F(t+1) = F(R 
+
+
+--- Page 8 ---
+
+118 H. A. SIMON AND A. ANDO 
+where R is a matrix whose element, 74;, represents the rate of heat transfer 
+between office 7 and office 7 per degree difference in temperature. 
+A temperature equilibrium within each room will be reached rather 
+rapidly, while a temperature equilibrium among rooms will be reached only 
+slowly, if the 74; are generally large when 7 and 7 are offices in the same room, 
+and are close to zero when 7 and j are offices in different rooms—that is 
+to say, if the matrix R is nearly decomposable. When this is the case, and 
+as long as we are not interested in the rapid fluctuations in temperature 
+among offices in the same room, we can learn all we want to know about the 
+dynamics of this system by placing a single thermometer in each room—it 
+is unnecessary to place a thermometer in each office. 
+IV. MATHEMATICAL ANALYSIS 
+In this section, we shall make precise the meaning of propositions stated 
+at the end of Section II, and provide their proofs for the case where the 
+roots of P* are all distinct. 
+Every matrix with distinct roots is similar to a diagonal matrix whose 
+nonzero elements are those roots. Hence, there exist nonsingular matrices 
+Z and Z* such that 
+(4.1) PZ =ZA, 
+(4.2) P*Z* = Z*A*, 
+where A and A* are diagonal matrices whose nonzero elements are roots of 
+P and P*, respectively. Since Z and Z* are defined only up to a scalar 
+factor and permutations, we select Z* so that the ii, appear in order of 
+magnitude for each J. 
+From the argument leading to (2.6), it is clear that the ;’s are functions 
+of «. Let us take a particular value of 6, say 69, and choose a value of ¢, é0, 
+which satisfies (2.6). Then, we can define 
+(4.3) 64(e0) = As(eo) — Az, |44(€0)| < do ; 
+(4.4) hoo, inl <1 ; do 
+and a diagonal matrix whose elements are vj’s, i.e., 
+(4.5) 
+
+
+--- Page 9 ---
+
+AGGREGATION OF VARIABLES 119 
+We can then write 
+(4.6) A=A*+d6o/. 
+Substitution of (2.3) and (4.6) with these choices of « and 6 into (4.1) 
+yields 
+(4.7) (P* + aC)Z = Z(A* + doV) 
+and 
+(4.8) P*Z —ZA* = b9ZV —aQqQCZ . 
+As 69 > 0, and hence ¢9 — 0, the Z’s remaining bounded, the right hand 
+side of (4.8) approaches a matrix whose elements are all zero. Comparison 
+of the left hand side of (4.8) with (4.2) indicates that, if 2 and zij are 
+elements of Z and Z*, we must have a relation 
+(4.9) lim 24; = C244 
+6970 
+for all 7 and 7, where c is some constant. Since c is arbitrary, we let c = 1. 
+Thus, we can state: 
+THEOREM 4.1: There is a way of selecting the matrices Z such that, for an 
+arbitrary positive real number C, there exists e9 such that, for © < &, 
+* 
+(4.10) max |243—2zy| <C. 
+is 
+Let us take a value of ¢, , that satisfies the condition (4.10). Corre- 
+sponding to this «1, we can define A;(e1), 7 = 1,...,m. These values can then 
+be inserted in (4.1) to yield a specific Z. We then define, using this Z and 
+the Z* given by (4.2), a new set of values 
+* 
+(4.11) Cig = 243 — 24 - 
+Because of the way in which the ¢;;’s are constructed, we are assured that 
+\Caj| < ¢ for all ¢ and 7. Let us further define 
+(4.12) tay = 28 ¢ 
+We note that |wj;| < 1 . We can then write 
+(4.13) Z=Z*+tU 
+where U is the matrix whose elements are the 4j’s. We know that 
+t 
+(4.14) x(t) = x(0)Pt; —-x*(t) = x*(0)P* 
+
+
+--- Page 10 ---
+
+120 H. A. SIMON AND A. ANDO 
+Consider next vectors y(t) and y*(t) defined by q 
+(4.15a) y(t) = x()Z-1 
+(4.15b) y*(t) = x¥Z* } 
+Substituting (4.15) into (4.14), we obtain: | 
+(4.16a) y(t) = x(0)(Z-1Z)P#Z-1 = ¥(0)(ZPZ-1)* = y(0)At 
+(4.16b) y*(t) = «*(0)(Z* 1Z*)P*'z*"! — y*(0)(Z*P*Z*"')t = y*(0)A*". 
+The inverse transformations of (4.15), when the results of (4.16) are sub- 
+stituted into them, yield: 
+(4.17a) a(t) = y(O)AtZ ; 
+(4.17b) x*(t) = y*(0)A*'Z* . 
+Let us now look at elements of (4.17) more closely. They have the form ) 
+(4.18) x(t) = = ay Atys(0) . 
+It is obvious, from the structure of the decomposable matrix *, that 
+a, =0 er se Fs } ps 
+This, together with (4.13), implies that | 
+) 
+(4.19) a, =u, , fori 7. rey ry | 
+Hence, we can divide the right hand side of (4.18) into five sets of terms 
+according to the scheme: 
+(4.20) x, (é) = Cy 1,0) +e A” (0) 
+> Sy | C At i 0)j+¢ tO)... 
+- + ee i; ids ot Pe ody ay’ ) 4 an ae ty i i, | ) I¢J I¢J 
+In the special case where J = 1, the first term is absent. In order to discuss 
+the meaning and implications of (4.20), let us give names to each term on 
+the right hand side of (4.20) as follows: 
+(4.21) x, (t) = CS) +S) + (SB) + SM + CSS) | J j j j j j 
+For almost all choices of (0), each of the five terms on the right side of 
+(4.21) will be nonzero at ¢ = 0. We limit ourselves to this case, which is the 
+general one. The following propositions are now self evident, and we state 
+them as a theorem: 
+
+
+--- Page 11 ---
+
+—— 
+AGGREGATION OF VARIABLES 121 
+THEOREM 4.2. PaRT (1): Since a1, > 4j,,7 = 2,...,, for any real positive 
+number no there exists an integer Ty such that, fort >To, 
+ISeo| (4.22) SP < %.- 
+For a given Ty; >To and arbitrary positive real number mi, there exists a 
+number Ci, and hence a number e, by Theorem 4.1, such that, for t <T; and 
+é < 4, 
+[cS +5) +.S)| (4.23) maa ge SO +SM| <m-.- 
+Theorem 4.2, Part 1, states that, for a sufficiently small «, the system 
+characterized by a nearly decomposable matrix P behaves in a manner 
+similar to the behavior of the completely decomposable system P* for 
+small ¢. This is even clearer when we express x*(#) as 
+(4.24) x* (t) = 2* . axtys (0) + Dex, axtys (0) Sy 1 dy 1; 1; iy J ima tyiy ty 
+and compare (4.24) with (4.20), remembering that 
+2, > 3? , A, a as e>QO. 
+j j 
+THEOREM 4.2 Part (2): Given e satisfying condition (4.23), for an arbitrary 
+positive real number nz, there exists a number Tz > Ty, such that, for t >To, 
+(4) 4. 6S (5) IS + 2S @| 
+eam sp Tsp +e) < 72 
+and, for any positive real number ng, there exists a number Tz > T2 such that, 
+fort >Ts, 
+IS + o5e) + SY + cS) (4.26) ge <-Mg 4 
+These two inequalities are direct consequences of the fact that we have 
+arranged the index of roots in such a way that A, > hi, for +—1,...,%, 
+Ai, = Ai, a Pre Ff. 
+We may summarize the above propositions by saying that the dynamic 
+behavior of the system represented by the nearly decomposable matrix P 
+can be analyzed in the following four stages: (1) ¢ < Tp», where Sz and S4 
+dominate the rest of the terms in the summation (4.20); (2) To <¢ < Ti, 
+where Sz dominates all the rest ; (3) # > T2 >T1 where Si, Se, and Sg together 
+
+
+--- Page 12 ---
+
+122 H. A. SIMON AND A. ANDO 
+dominate S4 and S5; and (4) ¢ >Ts3 >Tse, where S; finally dominates all the 
+rest. 
+If |A1,| <1 so that the system as a whole is stable, we may use the 
+terminology: stage (1) is the short-run dynamics; stage (2), the short-run 
+equilibrium; stage (3), the long-run dynamics; stage (4), the long-run 
+equilibrium. Note that the terms Si, Sz, and Sg involve only the aggregate 
+variables yi,(0), J = 1,...,N 
+Thus we conclude: In the short-run, or for stages (1) and (2), we may 
+treat our system as though it consists of N independent subsystems; in the 
+long-run, i.e., for stages (3) and (4), we may look at our system as a set of 
+relations among N aggregative variables, the ¥1,’s, ignoring the relations 
+within each of the subsystems. 
+Finally, it is perfectly clear how our argument above can be extended 
+to cover the special case where P* is stochastic. If P* is stochastic, the largest 
+roots of all P7’s are unity, and this violates the condition for the existence 
+of the matrix Z*. However, each submatrix, Pi, wili have a similar matrix, 
+Ai. Then, we can define Zi such that 
+(4.27) P*Z* = Z*A*. 
+Let us now construct, for each Z7 and Aj, an n Xn matrix appropriately 
+bordered with zeros. We shall designate these bordered matrices by the same 
+symbols as are employed for the corresponding ; x n; matrices. We then 
+define 
+N N 
+Z*= Zt; At*= LA. I=1 I I=1 I 
+Although the bordered Z7’s are singular, Z* defined above is not singular, 
+and we can define Z*-! to be the inverse of Z*. When Z*, A*, Z*-1 thus 
+defined are inserted into equation (4.2) and the following equations, the 
+argument can proceed in the same manner as above. 
+V. A SPECIAL CASE: STOCHASTIC MATRICES 
+The proof of the basic theorem presented in the preceding section has 
+the advantage that it is straightforward and fairly general. In studying this 
+problem, however, we have found it rather difficult to appreciate the im- 
+plications of the mathematical results adequately, and we feel that another, 
+somewhat more specialized, but substantially equivalent way of stating our 
+theorems is very helpful. At least, it enables us to follow the dynamic 
+process of the system in more detail. In the present section, we shall state 
+these alternative theorems, leaving their proofs to the Appendix. Having 
+given the general proof in the preceding section, the sole purpose of stating 
+es 
+
+
+--- Page 13 ---
+
+ea ee 
+Ww mmA \Y "— 
+Ve er 
+ww oO 
+AGGREGATION OF VARIABLES 123 
+the alternative theorems is to provide for the reader some aid which we 
+ourselves have found useful in getting further insight into the nature of the 
+problem. This being the case, we shall restrict ourselves to the simplest 
+case of the stochastic matrix, and sacrifice mathematical rigor whenever it 
+interferes with the simplicity of our presentation. 
+Let us restate our systems: 
+(5.1a) x(¢+1) = x()P, 
+(5.1b) x*(¢-+1) = x*()P*. 
+These relations are identical to equations (2.4) and (2.2) except that now x, 
+x*, and P, P* are restricted to probability vectors and stochastic matrices, 
+respectively. We assume that the matrix C in (2.3) has the necessary 
+property to keep both P and P* stochastic. Thus, we may think of the 
+system as having x possible states, the subscript running over these states; 
+xi(t) is the unconditional probability that the system is in the 7th state in 
+period ¢; Py is the conditional probability that the system is in the jth 
+state in period (¢ + 1), given that the system is in state 7 in period ¢. We note 
+that the relations (2.8) among the roots of P hold for sufficiently small «. 
+We wish to express x(¢) and x*(¢) in terms of the roots of the respective 
+matrices. In Section IV we have done so by means of the theorem asserting 
+the existence of a similar diagonal matrix. We shall proceed in a somewhat 
+different manner in this section, as follows: We rewrite (5.1a) and (5.1b) as 
+(5.2a) x(t) = x(0)P*, 
+(5.2b) x*(t) = x*(0)P*’ . 
+Now, for any nonsingular ” x matrix A whose roots, fi,...,Rn, are dis- 
+tinct, there exists a unique set of m matrices, «,...,«( with the following 
+characteristics : 
+(i) a2) +a) = ~@), g = 1,...,%. (idempotency) , 
+(ii) “@)-x6)—0; ef#a0; o,o=1,...,n (orthogonality) , 
+n 
+(iii) Late) =I, o=1 
+n 
+(iv) kext) = A, 1 e 
+where 0 in (ii) is an x m matrix whose elements are all zero, and J in (iii) 
+is Xn identity matrix. It is easy to see that, from these properties, it 
+follows that 
+(v) At= Sata, o=1 ° 
+6 See, for instance, J. H. M. Wedderburn, Lectures on Matrices, 1934, pp. 25ff. 
+
+
+--- Page 14 ---
+
+124 H. A. SIMON AND A. ANDO 
+Using this representation, we can express Pt thus: 
+(5.3) pt= Satan e=1 @ 
+where the z(®)’s are matrices associated with P that satisfy the conditions 
+(i) to (iv) above. Remembering the classification of roots described by (2.8), 
+we divide the terms in the right hand side of (5.3) into three parts: 
+N NPT 
+(5.4) Pt= ay + Dat wz) + BD Vat weep. r=2 °F T=1 9=2 °F 
+We cannot expand P* directly into idempotent matrices as above because 
+the N largest roots of P* are all unity. However, any non-decomposable 
+submatrix P7 of P* can be so expanded, and we may write 
+(5.5) ot == e*(1zp) + ¥ A* a* (ey) for all J. 
+er? e; 
+As in the argument we used at the end of Section IV, let us construct 
+n Xn matrices by bordering those in (5.5) with the appropriate number of 
+rows and columns of zeros, and designate these by the same symbols as 
+those used for the mz x mz matrices in (5.5). Then 
+N 
+(5.6) p+ = Pt = Zatap + zy Az xt (ep I=1 I= I=1 @7=2 ® 
+and for the ‘th power of P* 
+N "I 
+(5.7) p* = = Batty + x Hs * (0p) , I=1 @7;=2 er 
+When we compare equations (5.4) and (5.7) with equations (4.20) and 
+(4.24), we see that they are analogous expressions, but they also have some 
+differences. Equation (4.20) was very convenient for obtaining information 
+on the variations in the relative influences of various /’s as the size of 
+varied. Equation (5.4) gives clearer indications of the characteristics of the 
+time path of x, as we shall show presently. 
+We first note that, since the iis are unity and the /1,’s are very close to 
+unity for all J, the first summation term on the right hand side of equation 
+(5.7) and the first and second summation terms of equation (5.4) remain 
+almost unchanged for a relatively small ¢. This means that, for x to behave 
+very much like x* for small ¢ as indicated by Theorem 4.2, Part 1, 2(°7) must 
+approach a*(°) for 9 = 2,...,.2and I = 1,...,N, as e goes to zero. Further- 
+
+
+--- Page 15 ---
+
+yf 
+LS 
+1d 
+ne 
+on 
+he 
+on 
+in 
+ve 
+ist 
+AGGREGATION OF VARIABLES 125 
+more, if x is to exhibit the behavior described by Part 2 of Theorem 4.2 
+when ¢ becomes so large that the Ai,’s are no longer nearly unity, the 
+elements of ap, J = 1,...,N, must be functions of j, J, and J, but in- 
+dependent of 7. 
+Before we proceed to state our basic propositions as theorems, we need a 
+few additional definitions, which we list below: 
+PY: elements of the matrix P*, i.e., the th power of the matrix P; 
+Py: elements of the matrix P**; 
+x*: equilibrium value of x*; 
+ees alr =-; ; Sa Ge I 
+> x* t;=1 ‘7 
+Note that the vector (tal, 4 = 1,...,m7, is the characteristic vector of P? 
+associated with the root of unity. 
+ny ny 
+5.8 m1) = Y Let ap 1% tp-ljy- Wl? 
+for! = 1,....N,.1=1,...,.N, and J=1,...,.N. 
+N 
+(5.9) Pry = Ed, why. 
+The subscript of 4 and superscript of x are written 1; instead of the usual 17 
+to avoid confusion. 
+In terms of these definitions, the following three theorems are proved in 
+the Appendix. 
+THEOREM 5.1: For an arbitrary positive real number &2 there exists a number e2 
+such that for ¢ < &2, 
+max |ar{Pr) — 7,0 | < &> 
+i,j 
+J et 2.8, Oe t= l,..,N. 
+THEOREM 5.2: For an arbitrary positive real number w there exists a number 
+Eq such that for e < & 
+max |w(,) —x* 2GD| << mw 
+if | ty LE 
+je iat, R, 21. Fs hag. 
+
+
+--- Page 16 ---
+
+126 H. A. SIMON AND A. ANDO 
+THEOREM 5.3: The right hand side of equation (5.9) ts the idempotent expansion 
+of the matrix Pry. 
+The implications of the above theorems are quite clear. Since the A, are 
+almost unity for / = 1,...,N as indicated in (2.8), for a relatively small ¢, 
+say t < Te, a, 1 = 1,...,N, will be very close to unity. Hence the first two 
+terms on the right hand side of equation (5.4) will not change very much, 
+while the first term on the right hand side of equation (5.7) will not change 
+at all. Hence, for t < T:2, the time behavior of x and x* are completely 
+determined by the last terms on the right hand side of equation (5.4) and 
+(5.7), respectively. But, Theorem 5.1 asserts that the z’s appearing in the 
+last term of equation (5.4) can be made as close as we please to the corre- 
+sponding z*’s in equation (5.7), by taking « sufficiently small. We may 
+recall that 4; —> Ai as e > 0. Hence, for ¢ < Tz the time path of x must be 
+very close to the time path of x*. Note that Tz can be made as large as we 
+please by taking e sufficiently small. 
+Since the ii, are independent of ¢, and for 7; = 2,...,m; less than unity as 
+is indicated in (2.7), for any positive real &; we can define Ti such that for 
+t >Ti the absolute value of the last summation term on the right hand 
+side of (5.7) is less than &. Ti is independent of ¢. On the other hand, (2.8) 
+and Theorem 5.1 insure not only that for any positive real £; there exists T; 
+such that for ¢ > 7, the absolute value of the last summation term on the 
+right hand side of (5.4) is less than &, but that T1 > Ti for the same &, as 
+e —> 0. That is, for any positive real number &;, there exist qT and 7; such 
+that 
+wn % 
+(5.10) » Lar n*(o))| <& fort >T* 
+(5.11) is 3 diay <é: for t > T, and 
+I=1 gy=2 ° T, >Tfase> 0. 
+Since Ls can be made as large as we please by taking « sufficiently small 
+while 77 is independent of ¢, let us take ¢ such that T2 is very much larger than 
+T;. Provided that ¢ is not identically zero so that none of A;, except A; is 
+identically unity, the second summation term on the right hand side of 
+equation (5.4) will eventually become negligible as ¢ becomes indefinitely 
+large. Let us define T3, corresponding to an arbitrary positive real number 
+és, such that for >T3 
+(5.12) max | at mt) | < &. 
+inj 
+Ts also increases without limit as e > 0. 
+| 
+| 
+
+
+--- Page 17 ---
+
+nN 
+ich 
+ind 
+1all 
+lan 
+, is 
+. of 
+ely 
+ber 
+AGGREGATION OF VARIABLES 127 
+We show the relations among the various T’s schematically below: 
+Pte rece i —>t 
+For Tz < t < Ts, corresponding to the period which we called the long run 
+dynamics in Section IV, the last summation term on the right hand side of 
+equation (5.4) has very little influence on the time path of x. The path is 
+determined by the first and second summation terms on the right hand 
+side of equation (5.4). But, Theorem 5.2 asserts that the elements of x‘), 
+Pat De. aes - ee only of7, J, J,andindependent of7. That is, forany 
+EF; asi (may? oe Mj? , -++, Nin," ], are proportional to the characteris- 
+tic vector of P3 associated swith the root of unity, and are the same for 
+47 = 1,...,mz. Hence, [¥1,>--- +) Ktyy+ ++) Xn] will move, for the period Tz <¢ <Ts, 
+keeping a roughly constant proportionality relationship among individ- 
+ual elements for a given J. This permits us, following the Hicks-Lange 
+condition, to replace the m-dimensional vector by an N-dimensional vector, 
+and the ” x m matrix P by an N x N matrix ||Pr,|| . 
+The usefulness of Theorem 5.3 will become apparent in the next section 
+when we shall discuss the application of our theorems to the problems of 
+inverting nearly decomposable matrices. Here we merely note that, since 
+(1) Ni, has Xi, as its rows where its elements are not zero, oo mi, are 
+orthogonal to Ti, for 7 = 2,...,m, (3) m4, > mi, for +7 = 2, ..., m1, we can 
+express Py as 
+ee Oe 
+(5.13) Pi = = a Eg e 
+iy=1 4-1 aft ry 
+VI. A NUMERICAL ILLUSTRATION 
+The above results can be understood more readily with the aid of a simple 
+numerical example. Let us consider a nearly decomposable stochastic matrix 
+| .9700 0295 .0005 0 
+a | .0200 .9800 0 0 
+0 0 .9600 .0400 | 
+| 0002 .0002 .0396 -9600 | 
+(6.1) 
+and the corresponding completely decomposable matrix 
+| 9700 03000 0 _ || 0200 ©9800 =O 0 | _ |p o | ee ee ee 0 9600 0400 || ~ lo P2* | 0 0 0400 9600 
+
+
+--- Page 18 ---
+
+128 
+_* 
+We can compute Zj\y: 
+(6.6) 
+0.20050125 
+(1,)e|0-20050125 
+0.20050125 
+(0.200501 25 
+.202740062 
+I. 199496221 
+197501259 
+| 198685261 
++ (.9996)¢ 
+.6004874 
+—.4030171 
+—.0008141 
+.0000403 
++ (.952004)¢ 
+0002636 
+—.0000878 
+—.0209766 
+.0208776 
++ (.92019)¢ 
+The roots of P and their selected powers are 
+A128 — 1.845 x 10-8; 
+4128 — 2.381 x 10-5; 
+A, es 
+A, = .9996; S28 = .9511; 
+A, = .952004; 
+A, = -9202; 
+The idempotent expansion of P is given by 
+Pt=n”9%) 4+ Ata (?) + Atn'8) +4. Ata (4) : 
+0.29824561 
+0.29824561 
+0.2982+561 
+0.29824561 
+.296522699 
+302574184 
+—.297732997 
+—.294755666 
+—.5952777 
+3995206 
+.0008070 
+—.0000399 
+—.0007692 
+.0002397 
+.0577601 
+—.056988 1 
+H. A. SIMON AND A. ANDO 
+(6.3) [#jin] = [.4 6], 
+(6.4) [jlo] = [.5 51; 
+and Pry: 
+(6.5) ||Pra\| = |.9998  .0002I| 
+0002 —_.9998/| 
+a2)” — 001724; 
+ag28)” — 1.091 x 10-350; 
+A128)" — 1.622 x 10-592, 
+0.25062657 
+0.25062657 
+0.25062657 
+0.25062657 
+—.248356576 
+—.253425078 
+.249370276 
+.246876573 
+0019774 
+—.0013271 
+—.0000027 
+0000001 
+—.0062681 
+.0020960 
+.9007744 
+—.4983870 
+0.25062657 
+0.25062657 
+0.25062657 
+0.25062657 
+—.250865228 | 
+—.255984927 
+.251889168 
+.249370276 
+—.0807124 
+.0541701 
+0001094 
+—.0000054 
+0062939 
+—.0021003 
+—.5017791|| © 
+4993957 
+From (6.7), we also readily compute P128 (the matrix for the ‘‘middle-run” 
+dynamic system) and P(28)*, the matrix for the long run: 
+
+
+--- Page 19 ---
+
+AGGREGATION OF VARIABLES 129 
+390089 .579037 .016631 .014244 
+(6.8) pis — 392503 .586246 .011831 .009419 
+, 009465 .013138 .487509 .489888)| ’ 
+011385 :015999 .485107 .487509) 
+|.200776 .298656 .250286 .250282| 
+(6.9) Pre)? — .200782 .298664 .250279 .250275 
+. .200222 .297829 .250973 .250976)| © 
+.200225 .297833 .250970 .250973 
+Note that, if we neglect roots smaller than 0.002, we have 
+(6.10) P128 = yl) + 412872) , 
+(6.11) Pazs)? — x). 
+The reader’s attention is called to the behavior of elements of P* from 
+P128 to P(128)"elements of Pj and P2 maintain the same proportion over 
+the columns and independently of rows within each submatrix while moving 
+toward the full equilibrium. 
+It is of some interest to see whether or not our results are useful for in- 
+verting the nearly decomposable matrix, P. We know that 
+N *1 3 
+(6.12) P-l= > DaA-inee). 
+I=1 @)=1 % 
+This relation is of little use for computational purposes, since the z’s are 
+very difficult to compute. But, in the case of nearly decomposable matrices, 
+this leads to a potentially useful approximation. We note that, from Theorem 
+9.4, 
+. n a. = a (6.13) PAs Raat) + P*" — Darr. a ie | I=1 
+Since P* is completely decomposable, it is much simpler to invert. The 
+z*(1) are, of course, matrices with identical rows, and their rows are the 
+characteristic vectors of the respective submatrices Pi, I = 12,...,N, asso- 
+ciated with roots of unity. Hence, our problem reduces to that of computing 
+the first term on the right hand side of (6.13). By Theorem 5.2, we can 
+write 
+N N 
+(6.14) = Andy = iy = Ata gy) ; 
+But, by Theorem 5.3, we have 
+N 
+(6.15) Zang) = Po. 
+
+
+--- Page 20 ---
+
+130 H. A. SIMON AND A. ANDO 
+Hence, 
+w - 
+(6.16) Pp» Apa = ths ry 
+To summarize: in order to obtain #-!, (i) find the inverses of Py; (ii) 
+compute Xj\s and form x*() directly from them; (iii) form the aggregate 
+matrix ||Pz7\| by (5.13); (iv) invert ||PzJ||; (v) substitute these results into 
+(6.13) to obtain P-. 
+Going back to the numerical example of P and P* given by (6.1) and 
+(6.2), we readily find 
+(6.17) ps xi | 1.031578947 —.031578947 | 
+—.021032617 1.021052620 
+1.043478260 —.043478260 | 
+—.043478260 1.043478260 || ° 
+[zl] and ||Pz,|| have already been given by (6.3), (6.4), and (6.5). We also 
+have 
+(6.17) Py? =| 
+(6.18) |Prall-4 = || 1.00020008 —.00020008 | 
+—.00020008 1.00020008 || © 
+Substituting these results into (6.16), we have 
+(6.19) | 400080032  .600120048 —.000100040  —.000100040 2 400080032 .600120048 —.000100040 —.000100040 
+—.000800320 —.001200480  .500100040 .500100040)| © 
+|_.000800320 —.001200480 .500100040 500100040 
+Z Avian) = 
+l=1 “1 
+Further substitutions into (6.13) yield 
+1.031658979 —.034588990 —.000100040 —.000100040), 
+—.020972585 1.021172668 —.000100040 —.000100040 
+—.000800320 —.001200480 1.043578300 —.043378220)| © 
+|—.000800320 —:001200480 —.043378220 1.043578300 
+(6.20) P-1 ~ 
+This result may be compared with the inverse obtained by the per- 
+turbation method, which is probably the most efficient way of obtaining the 
+approximate inverse of a matrix of the type treated here.’ 
+Let C be defined by 
+(6.21) P= P*+e&C 
+where « is a small positive number. Let C be defined by 
+(6.22) P-1 = P** +4 eC 
+7 See, for instance, Courant, R. and D. Hilbert, Methods of Mathematical Physics, 
+pp. 42-43 and 343-350. 
+
+
+--- Page 21 ---
+
+AGGREGATION OF VARIABLES 131 
+where ¢ is the same number as in equation (6.21). Then, we have 
+(6.23) P-P-1 = (P* + eC)(P* + eC). 
+Ignoring the terms in higher powers of ¢, we get: 
+(6.24) C =—pe "cps", 
+If, in the numerical example of (6.1) and (6.2), we take e to be 0.0001, we have 
+jo -—5 5 0 
+oO) O78 (6.25) ae) ae ania 
+2 ae 8 
+| |-.0000 11 000527 —.000538 +.000022 
+(6.26) Pe || .000000 —.000011 -+.000011 .000000 
+, 000009 000009 —.000018 .000001/} ’ 
+000211 .000206 .000436 .000018 
+|| 1.031568 —.031052 —.000538 -000022| 
+(6.27) Pre EE 1.021042 000011 000000) 
+| 
+.000009 000009 1.043460 —.043477 
+—.000211 —.000206 —.043042 1.043460) 
+The direct multiplication of P-! given by (6.27) with P given by (6.1) 
+shows that the approximate inverse obtained by the perturbation method 
+is accurate to the 6th decimal place. The estimate of the inverse given by 
+(6.20), obtained by the aggregation procedure, hasan error of about 0.0001 in 
+each element in the product. This relatively large error is caused by the 
+restriction, implicit in the aggregation procedure, that the matrix elements 
+within each subset are replaced by the eigenvectors corresponding to the 
+middle-run equilibrium. 
+On the other hand, the perturbation method assumes implicitly that 
+there is a zero probability that the system will move more than once from 
+a state belonging to one subset to a state belonging to another subset. Hence, 
+we can conclude that, while the perturbation method gives us agood approxi- 
+mation to the short-run behavior of the system, and hence to P-!, its 
+approximation to the middle-run behavior (and hence to (P-1)' for relatively 
+large ¢) will be much less good. The aggregation method permits us to study 
+this middle-run behavior, as we have seen earlier in this section. 
+For those readers who may be interested in the comparison, we give 
+P-1 obtained by equating ¢ = —1 in equation (6.7): 
+
+
+--- Page 22 ---
+
+H. A. SIMON AND A. ANDO 
+| 1.0306708 —.0302846 —.0026491 —.0783382 
+—.0206318  1.0209660 —.0019932 0492225 
+0440999 —.1027626 1.0505158 —.0510149)| ° 
+—.0408082 .1067156 —.0495267 =1.0505238 
+(6.28) P-1 = 
+VII. SOME CONCLUDING COMMENTS 
+In the preceding sections, we have analyzed the structure of dynamic 
+systems represented by nearly-decomposable matrices. We have seen that 
+such systems may be viewed as composite systems, constructed by the 
+superposition of: (1) terms representing interactions of the variables within 
+each subsystem; and (2) terms representing interactions among the sub- 
+systems. We concluded that, over a relatively short period, the first group 
+of terms dominates the behavior of the system, and hence each subsystem 
+can be studied (approximately) independently of other subsystems. Over a 
+relatively long period of time, on the other hand, the second group of terms 
+dominates the behavior of the system, and the whole system moves, keeping 
+the state of equilibrium within each subsystem—i.e., the variables within 
+each subsystem move roughly proportionately. Hence, the variables within 
+each subsystem can be aggregated into indexes representing the subsystem. 
+Thus, the system of variables in the case just described can be represented 
+as a two-level hierarchy, with the aggregative variables at the higher level. 
+Now, there is no reason why we need to restrict ourselves to a two-level hier- 
+archy. For, in such a hierarchy, each of the subsystem variables at the lower 
+level might be an aggregate of variables at a still lower level of aggregation. 
+The matrix of a three-level hierarchy, for example, might look something 
+like this: 
+| Pr Qi: Si Se | 
+Q: Pai Ss Sa| 
+Ry Re Ps Qs 
+i Qa Pa | 
+In this matrix, the elements of the submatrices designated as Q’s are of 
+the first order of smallness, and the elements of the R’s and S’s of the second 
+order of smallness. At the first level of aggregation, there will be four aggre- 
+gative variables corresponding to the four submatrices along the diagonal, 
+respectively. At the second level of aggregation, there will be two aggregative 
+variables, corresponding to the blocks indicated by broken lines. 
+It is of some interest to consider the implications of our analysis concerning 
+the computation involved in inverting a matrix in this context. To invert a 
+
+
+--- Page 23 ---
+
+or te. ee ee 
+AGGREGATION OF VARIABLES 133 
+matrix like the one above, we would first invert the matrices P;, then the 
+two aggregative matrices 
+P 1 Qi P 3 Qs 
+Q2 Pell a | Qa Pa | , 
+and finally the second level aggregative matrix. 
+In ordinary methods of matrix inversion, the number of multiplications 
+increases as the cube of the size of the matrix. On the other hand, under 
+the method of inversion suggested above, if the size of the largest matrix to 
+be inverted at any level of aggregation remains constant as ™ increases, 
+then the number of matrices to be inverted will increase proportionately 
+with , their size will not increase, and the total number of multiplications 
+will increase only slightly more than proportionately with n. 
+It may be objected that decomposable matrices are rare objects, mathe- 
+matically speaking, and nearly decomposable matrices almost as rare. For 
+if the elements of a matrix are selected in any ordinary way by a random 
+process, the probability that the matrix will be decomposable is zero. There 
+is every reason to believe, however, not only that near-decomposability is a 
+very common characteristic of dynamic systems that exist in the real world, 
+but also that many economists and other social scientists conduct their 
+research as through this were the case. As we have pointed out in the intro- 
+ductory remarks, every time economists construct indices representing 
+groups of variables and construct a theory in terms of such indices, they are 
+implicitly assuming that the economic system they study is constructed in 
+the hierarchical form described above. 
+It is interesting to note that many recent discussions on the problems of 
+aggregation can be looked at as studies of various aspects of a system like 
+the one analyzed here. 
+Interest in the aggregation of the static input-output matrices largely 
+stems from the desire to facilitate the inversion of the matrices involved.® 
+As we have shown in Section VI, the method suggested by our analysis is not 
+so efficient as the perturbation method, in the sense that the product of the 
+original matrix with its inverse obtained by our method deviates further from 
+8 See, for instance, J. B. Balderston and T. M. Whitin, op. cit.; O. Morgenstern and 
+Whitin, ‘“‘Aggregation and Errors in Input-Output Models,” Logistics Research Pro- 
+ject, George Washington University, cited in F.T. Moore, ‘“‘A Survey of Current 
+Inter-Industry Models,” in Input-Output Analysis, an Appraisal, Studies in Income 
+and Wealth, vol. 18, p. 228 (National Bureau of Economic Research). J. C. H. Fei, 
+“A Fundamental Theorem for the Aggregation Problem of Input-Output Analysis,” 
+Econometrica,1956, pp. 400-412; S. B. Noble, ‘‘Structure and Classification in Resource 
+Flow Models,” The George Washington University Logistic Research Project, Serial 
+T-100/59, May 19, 1959; and A. Ghosh, “Input-Output Analysis with Substantially 
+Independent Groups of Industries, Econometrica, 1960, pp. 88-96. 
+
+
+--- Page 24 ---
+
+134 H. A. SIMON AND A. ANDO 
+the identity matrix than the product of the original matrix with the in- 
+verse obtained by the perturbation method. Our analysis provides, however, 
+a better ground for interpreting the approximate result than the mechanical 
+application of the perturbation method. Furthermore, the goodness of the 
+approximation must be judged in terms of the decisions that will be based 
+on the approximation rather than the closeness of the product to the identity 
+matrix, and in this sense, it is by no means clear that the perturbation 
+method is superior to ours. 
+Some of the recent work of Theil can also be related to our analysis.® One 
+of his aggregation problems may be looked at in the following way: Suppose 
+that we have a set of observations over time on the x’s, and estimate from 
+these observations the matrix of coefficients P. Suppose further that we 
+classify the x’s into a few groups, construct indices representing these 
+groups, consider a new linear system relating these indices, and estimate 
+the new aggregate coefficients from the same set of observations. Theil in- 
+vestigated, among other things, the relations between the micro and macro 
+coefficients then estimated. Theil’s results show that the conditions under 
+which there exists a relatively simple relation between micro and macro 
+variables are very severe. Our result suggests that, if the underlying structure 
+generating the x’s is nearly decomposable, then, as the x’s are aggregated, 
+the unit of time over which observations are made should be changed 
+accordingly. However, a more complete analysis of the relation between 
+our results and those of Theil must be deferred to a future study. 
+In a paper presented at the December, 1959, meetings of the Econometric 
+Society, F. Fisher explored yet another problem that is closely related to 
+our analysis.!° The conditions that permit the identification of a structural 
+relationship ordinarily state that a certain set of structural coefficients are 
+identically zero, and the estimation can be carried out on the assumption 
+that there exist no relations among the variables under consideration other 
+than those explicitly stated in the system. Suppose, however, that these 
+conditions are only approximately satisfied. Fisher has shown that, as the 
+approximation of these conditions becomes better and better, the estimates 
+of the structural parameters, obtained by the usual estimation method such 
+as the limited information method or the generalized least squares method, 
+are asymptotically consistent. 
+In the framework of our analysis, Fisher’s problem is analogous to that 
+of specifying the conditions under which one of the subsystems can be 
+treated in isolation from all other parts of the system for the purposes of 
+estimation. 
+The comparison of our result with that of Fisher immediately raises two 
+® H. Theil, Linear Aggregation of Economic Relations, 1954. 
+10 F. M. Fisher, op. cit. 
+
+
+--- Page 25 ---
+
+AGGREGATION OF VARIABLES 135 
+important questions. The first has already been suggested by Fisher; since 
+his results apply to what he calls block recursive systems, nearly triangular 
+matrices must possess some properties analogous to those we have shown in 
+nearly decomposable matrices. The investigation of these analogous pro- 
+perties would open a way to generalize Goodwin’s justification of partial 
+dynamics to the case where the coupling is only “nearly-unilateral,”’ as well 
+as to the case where the whole system is “‘nearly-block-recursive.’’!1 The 
+second is that, according to our analysis, even a very weak link will eventual- 
+ly make its influence felt given a long enough period of time. Thus, in inter- 
+preting Fisher’s result, we must be careful to choose the appropriate period 
+over which the observations are made. 
+Finally, we note that there are a number of other discussions in the eco- 
+nomic literature upon which the notion of nearly-decomposable systems 
+appears to throw some light. We have already pointed out that the argument 
+here may be regarded as a statement of the circumstances under which the 
+Lange-Hicks condition will be satisfied. It can easily be seen from our ana- 
+lysis that if the micro-system is dynamically stable, this will also be true of 
+the aggregated system, since the characteristic roots of the aggregative 
+matrix are also roots of the original matrix. This stability theorem has been 
+proved earlier by Tamotsu Yokoyama.!2 Yokoyama assumes that the 
+Lange-Hicks condition is satisfied, and derives the stability theorem from 
+this assumption. 
+Samuelson points out that aggregation of commodities can seek its 
+justification in either of two kinds of principles that, at first blush, appear 
+rather antithetical to each other.13 On the one hand (the Lange-Hicks con- 
+dition), we can aggregate the parts of a subsystem when these are much 
+more closely linked with each other than they are with the rest of the system. 
+On the other hand, we can aggregate a set of variables if each of them is 
+linked with the remainder of the system in just the same way as are the 
+others. Our analysis of near-decomposability shows that the former condition 
+is really a special case of the latter. For if x; and x; are variables belonging to 
+different subsets of a nearly decomposable system, then 4; is very small, but 
+by, for sufficiently large ¢, is almost independent of 7. That is to say, the 
+linkage between 7 and 7 is negligible in the short run, and satisfies the second 
+condition in the middle run for which it is not negligible. 
+Carnegie Institute of Technology and Massachusetts Institute of Technology 
+11 R. M. Goodwin, ‘‘Dynamic Coupling with Especial Reference to Markets Having 
+Production Lags,’’ Econometrica, 1947, pp. 181-204. 
+12 Tamotsu Yokoyama, ‘“‘A Theory of Composite Commodity,” Osaka Economic 
+Papers, May, 1952. 
+13 P. A. Samuelson, Foundations of Economic Analysis, 1948, pp. 144-46. 
+
+
+--- Page 26 ---
+
+H. A. SIMON AND A. ANDO 
+APPENDIX 
+PROOF OF THEOREM 5.1: 
+We note first that the elements of the th power of a matrix are continuous functions 
+of the elements of the original matrix. Hence, for any positive real number &) and an 
+arbitrary integer T2 there exists a number e, such that for ¢ < Tz, and e < ¢) 
+(A.1) max |P_[]— Pst] < & tof tj 2 
+ee Fe and a are elements of ‘th power of matrices P and P*. 
+Substituting (5.4) and (5.7) into (A.1), we obtain 
+N N we SE Nit 
+(A.2) max |Datap—atpy— Ba aty+ DE ante — s i ater <&, aj) ren? I=2 ay: ig” I=1 e,=2 @; 4 I=1 @,=2 @; 
+Introducing for convenience 
+(A.3) Dt — B nett; )— ally aoe s at my i 
+I=1 req 1, 44 
+we rewrite (A.2): 
+N *, 
+(A.4) — |Dt +z x (Ast— .* age + 5 y a? aan) eS - I=1 o=2 7 I=1 9-2 97 oF eg 
+* t 
+By (2.6), (Ae, — 4e,) > 0 as e +0. Hence, for any positive real 2, we can choose a 
+new ¢,’ so that for e < «’, 
+Wie 
+(A.5) max |Dtel + ZZ Asety(a* ey) — m(@;) << &. I=1 ¢ 2 Or a 
+But, since 4* are all distinct for i; > 2, and py becomes independent of ¢ as a 71 
+for all I, this inequality can hold for all ¢ < To only if the coefficients of 1* become 
+vanishingly small; hence, for anv positive real number £2, we can choose a value of 
+é, €2 SO that for e < é2, 
+(A.6) max |ar*(@,)— m{21)| < & tj 
+for 97 = 2,...,n; and I = 1,...,N. 
+PROOF OF THEOREM 5.2: 
+As indicated in the text and in the above proof of Theorem 5.1, we know that (1) as 
+e—>0, T: >T*, (2) Tz can be made as large as we please for a given é; by taking 
+small enough e, and (3) T* isindependent of e. Hence, by taking ¢ sufficiently small, we 
+can make T2 very much larger than T; for a given set of £, and &. Then, for T; < ¢ < Ts, 
+we have 
+(A.7) [Pte 7: ty 4 |(Ple tee + ( (Pe — x 
+ty Jala ty iysy jgla N<&+é, 4,5 
+
+
+--- Page 27 ---
+
+AGGREGATION OF VARIABLES 137 
+for 1; = 1,...,m1, jy = 1,...,n, I, J = 1,...,N, and where 47, is Kronecker’s delta. 
+Let us now consider art for a large enough ¢ so that it can be expressed in the 
+following scheme: 
+(A.8) Pll = YD Y Plt] Pletal Plegl tj ‘= «= %8 km mj 
+where ¢ = 4, +72+4#3, and 
+i= 14; 
+I1<i3<Ts2, 
+I1<th+<T2, 
+Fe. te. 
+Then, conditions (5.11) and (A.7) assures us that, for any real positive number wo, 
+there exists a value of ¢, em, such that for e< «e,, we have 
+N N 
+(1,) = 7* (1,))[#* (A.9) ea As . 2 = rx 4% Mia Win We 4y,] * ad? 
+mz lead <m% where the usual 1;, the subscript of A and the superscript of 2, is replaced by 1, in 
+order to avoid the confusion with the identification of a block of rows and columns of 
+P in this context. 
+(A.9) becomes, after a rearrangement of terms, 
+n n 
+N N I J 
+(A.10) Daal = Daest [De EY alt] to, tor 1, 9 tan 4; IY ‘m1 “alr 9’ =a ry j 
+max jo |<o. ij ij 0 
+For this to hold for all permissible values of t2, we must have 
+we wy 
+(A.11) Aly tg)aet) = 4° 2 a“ Dad + o> j\J alt § =1 #73 l | tna ‘alr g,=a “1a 
+@, >0as w >0,/ = 1,...,N. 
+Comparison of (A.11) with the definition (5.8), remembering that 4, > 1 for] = 1,...,N 
+and for ¢ < Te, and that t; + t2 < Toa, yields the result summarized in Theorem 5.2. 
+PrRooF OF THEOREM 5.3: 
+Let us define 
+~ N 
+A.12 = a). ( ) Ps e nae 
+The omission of terms 2;,...,”; will guarantee that we may write 
+~ N 
+) {t] — %* t 7(1)) (A.13) Pl a | at m(4) . 
+IY nt 14 
+Suppose that there exists an N x N nonsingular matrix Q satisfying the condition 
+~ 
+(A.14) Eat G 
+(A.15) Pra = #0. 
+for all ¢. 
+
+
+--- Page 28 ---
+
+138 H. A. SIMON AND A. ANDO 
+Let the idempotent expansion of Q be given by 
+N 
+(A.16) gt) = zo 
+where yy; are characteristic roots and ¢" are corresponding idempotent matrices. 
+Substituting (A.16) in (A.15) and comparing the result with (A.13), we must have 
+(A.17) Eu pi) = = a 
+for all ¢. As we shall show presently, this implies that 
+(A.18) pr = As, (/ =1,...,N), 
+(A.19) gp) = xy) Pie: } 
+These conditions obviously imply that | 
+(A.20) [Pi] = [Qu], 
+proving Theorem 5.3. 
+To justify equation (A.18), we note that 41, > dig >... > Ay. 
+Let us also assume, without loss of generality, that the subscript of uw is arranged so 
+that wi > we... > wn. Dividing both sides of (A.17) by 41, and rearranging terms, 
+we have 
+A Ma t N 1; t N Ma t 
+(aa) age = op (F) + Zag (z) + B9y (Z)- ee 1, l=2 1; 
+Because of the way the matrix Q, and hence w are defined,|u;| < 1 for / = 1,...,N. 
+Hence, as ¢ becomes large, (A.21) may be written as 
+f1\° 
+(A.2) mi = 91 (77) + mo 1 
+(1,) ° . . : 1 
+where mo is an arbitrarily small real number, since a?’ and oi 2 are not zero. For Iv 
+(A.22) to hold for all ¢, we must have 
+(A.23) mtty) = gi), 
+(A.24) A, =m. } 
+It is clear that this argument can be repeated N times, justifying (A.18) and (A.19).

@@ -1,0 +1,708 @@
+--- Page 1 ---
+
+ 1
+ TRUE ENOUGH* 
+Catherine Z. Elgin 
+Harvard University 
+ Epistemology valorizes truth.  Sometimes practical, or prudential, or political reasons 
+convince us to accept a known falsehood, but most  epistemologists deny that we can have 
+cognitively good reasons to do so.  Our overriding cogn itive objective, they maintain, is the truth, 
+preferably the whole truth, and definitely nothing but the truth. 1  If they are right, then at least 
+insofar as our ends are cognitive, we should accept only what we consider true, take pains to 
+insure that the claims we accept are in fact tr ue, and promptly repudiate any previously accepted 
+claims upon learning that they are false.  I suggest, however, that the relation between truth and 
+epistemic acceptability is both more tenuous and more  circuitous than is standardly supposed.  
+Sometimes, I contend, it is epistemically res ponsible to prescind from truth to achieve more 
+global cognitive ends. 
+ At first blush, this looks mad.  To retain a falsehood merely because it has other 
+epistemologically attractive features seems the height of cognitive irresponsibility.  Allegations of 
+intellectual dishonesty, wishful thinking, false con sciousness, or worse immediately leap to mind.  
+But science routinely transgresses the boundary betw een truth and falsehood.  It smoothes curves 
+and ignores outliers.  It devel ops and deploys simplified models that diverge, sometimes 
+considerably, from the phenomena they purport to re present.  Even the best scientific theories are 
+not true.  Not only are they plagued with anoma lies and outstanding problems, but where they are 
+successful, they rely on laws, models, idealizati ons and approximations that diverge from the 
+truth.  Truth-centered epistemology, or veritism, as Alvin Goldman calls it, easily accommodates 
+  
+* I would like to thank Jonathan Adler, Nancy Nersessian, Robert Schwartz, Bas van Fraassen, and Stephen 
+Yablo for helpful comments on earlier drafts of this paper. 
+1 Alvin Goldman, Knowledge in a Social World, (Oxford: Clarendon, 1999), p. 5; Keith Lehrer, ‘The 
+Coherence Theory of Knowledge,’ Philosophical Topics  XIV, (1986), p. 6; Laurence BonJour, The 
+Structure of Empirical Knowledge, Cambridge, MA: Harvard University Press, 1985, p. 9. 
+
+--- Page 2 ---
+
+ 2
+anomalies and outstanding problems, since they are readily construed as defects.  The problem 
+comes with the laws, models, idealizations, a nd approximations which are acknowledged not to 
+be true, but which are nonetheless critical to, indeed constitutive of, the understanding that a 
+science delivers.  Far from being defects, they figure ineliminably in the success of science.  If 
+truth is mandatory, much of our best science tu rns out to be epistemologically unacceptable and 
+perhaps intellectually dishonest.  Our predicament is this: We can retain the truth requirement and 
+construe science either as cognitively defective or  as non-cognitive, or we can reject, revise, or 
+relax the truth requirement and remain cognitivists about, and fans of science.  
+ I take it that science provides an understanding of the natural order.  By this I do not 
+mean merely that an ideal science would provide such an understanding or that in the end of 
+inquiry science will provide one, but that much actual science has done so and continues to do so.  
+I take it then that much actual science is cognitiv ely reputable.  So an adequate epistemology 
+should explain what makes good science cognitively good.  Too strict a commitment to truth 
+stands in the way.  Nor is science the only casua lty.  In other disciplines such as philosophy, and 
+in everyday discourse, we often convey info rmation and advance understanding by means of 
+sentences that are not literally true.  An adequate  epistemology should account for this as well.  A 
+tenable theory is a tapestry of interconn ected sentences which together constitute an 
+understanding of a domain. 2  My thesis is that some sentences that figure ineliminably in tenable 
+theories make no pretense of being true, but are not defective on that account.  If I am right, 
+theories and the understandings they embed have a more intricate symbolic structure than we 
+standardly suppose.  Nevertheless, I do not th ink that we should jettison concern for truth 
+completely.  The question is what role a tr uth commitment should play in a holism that 
+recognizes a multiplicity of sometimes conflicting epistemological desiderata. 
+  
+2 I use the term ‘theory’ broadly, to comprehend the ways mature sciences and other disciplines account for 
+the phenomena in their domains.  Under my usage, a phy sical theory would include its models rather than 
+being distinct from them. 
+
+--- Page 3 ---
+
+ 3
+ Consensus has it that epis temic acceptability requires something like justified and/or 
+reliable, true belief.  The justification, relia bility, and belief requirements involve thresholds. 
+‘[O]ne may need to be confident enough and we ll enough justified and one’s  belief must perhaps 
+derive from a reliable enough source, a nd be little enough liable to be false.’ 3  But truth, unlike 
+the other requirements, is supposed to be an absolute matter.  Either the belief is true or it is not.  I 
+suggest, however, that the truth requirement on epistemic acceptability involves a threshold too.  I 
+am not saying that truth itself is a threshold concept.  Perhaps such a construal of truth would 
+facilitate treatments of vagueness, but that is not my  concern.  My point is rather that epistemic 
+acceptability turns not on whether a sentence is true , but on whether it is true enough – that is, on 
+whether it is close enough to the truth.  ‘True enough’ obviously has a threshold. 
+ I should begin by attempting to block so me misunderstandings.  I do not deny that 
+(unqualified) truth is an intelligible concept or a realizable ideal.  We readily understand instances 
+of the (T) schema: 
+ ‘Snow is white’ is true ≡ snow is white 
+ ‘Power corrupts’ is true ≡ power corrupts 
+ ‘Neutrinos have mass’ is true ≡ neutrinos have mass 
+and so on.  A disquotational theory of truth suffices to show that the criterion expressed in 
+Convention (T) can be satisfied.  One might of course want more from a theory of truth than 
+satisfaction of Convention (T), but to make the case that the concept of truth is unobjectionable, 
+such a minimalist theory suffices (assuming, of course, that it evades the paradoxes). Moreover, 
+not only does it make sense to call a sentence true, we can often tell whether it is true.  We are 
+well aware not only that ‘Snow is white’ is true ≡ snow is white, but also that ‘Newly fallen snow 
+is white’ is true.  The intelligibility and realizability  of truth, of course, show nothing about which 
+  
+3 Ernest Sosa, ‘Skepticism and Contextualism,’ Skepticism, ed., Ernest Sosa and Enrique Villanueva, 
+Boston: Blackwell, 2000, p. 2. 
+
+--- Page 4 ---
+
+ 4
+sentences are true or which truths we can discover.  Nevertheless, as far as I can see, nothing 
+about the concept of truth discredits veritism.  Sin ce truth is an intelligible concept, epistemology 
+can insist that only truths are epistemically acceptabl e.  Since truth is a realizable objective, such 
+a stance does not lead inexorably to skepticsm.  I do not deny that veritism is an available 
+epistemic stance.  But I think it is an unduly limiting one.  It prevents epistemology from 
+accounting for the full range of our cognitive achievements. 
+ To be sure, if epistemic acceptance is c onstrued as belief, and epistemic acceptability as 
+knowledge, the truth requirement seems reasonable.  For cognizers like ourselves, there does not 
+seem to be an epistemically significant gap between believing that p, and believing that p is true.  
+Ordinarily, upon learning that our belief that p is false, we cease to believe that p.  Moreover, we 
+consider it cognitively obligatory to do so.  One ought to believe only what is true.  Perhaps a 
+creature without a conception of truth can harbor beliefs.  A cat, for example, might believe that 
+there is a mouse in the wainscoting without believi ng that ‘There is a mouse in the wainscoting’ 
+is true.4  In that case, the connection between believing that p and believing that p is true is not 
+exceptionless.  But whatever we should say about  cats, it does not seem feasible for any creature 
+that has a conception of truth to believe that p without believing that p is true.  If epistemic 
+acceptance is a matter of belief, acceptance is closely linked to truth.  Assertion is too.  Although 
+asserting that p is not the same as asserting that p is true, it seems plain that one ought not to 
+assert that p if one is prepared to deny that p is true or to suspend judgment about whether p is 
+true; nor ought one assert that p is true if one is prepared to deny that p or to suspend judgment 
+about whether p.  Assertion and belief then seem committed to truth.  So does knowledge.  
+Whether or not we take knowledge to  be equivalent to justified or  reliably generated true belief, 
+once we discover the falsity of something we took ourselves to know, we withdraw the claim to 
+knowledge.  We say, ‘I thought I knew it, but I was wrong,’ not ‘I knew it, but I was wrong’. 
+  
+4 I do not have strong intuiti ons about this case, but I do not think it is clearly wrong to say that the cat has 
+ 
+
+--- Page 5 ---
+
+ 5
+ Being skeptical about analyticity, I do not contend that a truth commitment is part of the 
+meanings of ‘belief,’ ‘assertion, ’ and ‘knowledge’.  But whatever the explanation, because the 
+truth commitment tightly intertwines with our  views about belief, assertion, and knowledge, it 
+seems best to retain that connection and revise epistemology by making compensatory 
+adjustments elsewhere.  Once those adjustments are made, knowledge and belief turn out to be 
+less central to epistemology than we standardly th ink.  I do not then claim that it is epistemically 
+acceptable to believe what is false or that it is linguistically acceptable to  assert  what is false.  
+Rather, I suggest that epistemic accep tance is not restricted to belief.
+5  Analogously, uttering or 
+inscribing seriously and sincerely for cognitive purposes – call it ‘professing’ – is not limited to 
+asserting.  Understanding is often couched in and conveyed by sy mbols that are not, and do not 
+purport to be, true.  Where such symbols are sen tential, I call them felicitous falsehoods.  I 
+contend that we cannot understand the cognitive contributions of science, philosophy, or even our 
+ordinary take on things, if we fail to account for such symbols.  Let’s look at some cases: 
+ Curve smoothing: Ordinarily, each data point is s upposed to represent an independently 
+ascertained truth.  (The temperature at t
+1,,the temperature at t2, . . .) By interpolating between and 
+extrapolating beyond these truths, we expect to di scern the pattern they in stantiate.  If the curve 
+we draw connects the data points, this is reas onable.  But the data rarely fall precisely on the 
+curve adduced to account for them .  The curve then reveals a pattern that the data do not 
+instantiate.  Veritism would seem to require accepting the data only if we are convinced that they 
+are true, and connecting these truths to adduce mo re general truths.  Unwavering commitment to 
+truth would seem then to require connecting a ll the data points no matter how convoluted the 
+resulting curve turned out to be.  This is not  done.  To accommodate every point would be to 
+abandon hope of finding order in most data sets, for jagged lines and complicated curves mask 
+  
+such a belief. 
+5 See L. Jonathan Cohen, An Essay on Belief and Acceptance , (Oxford: Clarendon, 1992) for an argument 
+to this effect. 
+
+--- Page 6 ---
+
+ 6
+underlying regularities.  Nevertheless, it seems cogn itively disreputable to let hope triumph over 
+experience here.  Surely we need a better reason to  skirt the data and ignore the outliers than the 
+fact that otherwise we will not get the kind of th eory we want.  Nobody, after all, promised that 
+the phenomena would accommodate themselves to the kind of theory we want. 
+ There are often quite good reasons for thinking that the data ought not, or at least need 
+not be taken as entirely accurate.  Sometimes we recognize that our measurements are relatively 
+crude compared with the level of precision we ar e looking for.  Then any curve that is within 
+some δ of the evidence counts as accommodating the ev idence.  Sometimes we suspect that some 
+sort of interference throws our measurements off.  Then in plotting the cu rve, we compensate for 
+the alleged interference.  Sometimes the measure ments are in fact accurate, but the phenomena 
+measured are complexes only some of whose aspect s concern us.  Then in curve smoothing we, 
+as it were, factor out the irrelevant aspects.  Sometimes we have no explanation for the data’s 
+divergence from the smooth curve.  But we may be  rightly convinced that what matters is the 
+smooth curve the data indicate, not the jagged cu rve they actually instantiate.  Whatever the 
+explanation, we accept the curve, taking its proximity  to the data points as our justification.  We 
+understand the phenomena as displaying the pattern the curve marks out.  We thus dismiss the 
+data’s deviation from the smooth curve as negligible. 
+ Ceteris paribus claims: Many lawlike claims in science obtain only ceteris paribus.
+6  The 
+familiar law of gravity 
+ F=Gm
+1m2/r2 
+  
+6 Whether so-called ceteris paribus laws are really laws  is a subject of controversy.  See, for example, 
+Erkenntnis 57, 2002, for a range of papers on the issue.  Although for brevity I speak of them as laws, for 
+my purposes, nothing hangs on whether th e generalizations in questions really are laws, at least insofar as 
+this is an ontological question.  I am interested in the role such generalizations play in ongoing science.  
+Whether or not they can (in some sense of ‘can’) be  replaced by generalizations where all the caveats and 
+restrictions are spelled out, in practice scientists  typically make no effort to do so.  Nor, often, do they 
+know (or care) how to do so. 
+
+--- Page 7 ---
+
+ 7
+is not universally true, for other forces may be in play.  The force between charged bodies, for 
+example, is a resultant of electrical and gravitationa l forces.  Nevertheless, we are not inclined to 
+jettison the law of gravity.  The complication th at charge introduces just shows that the law 
+obtains only ceteris paribus, and when bodies are ch arged, ceteris are not paribus.  This is no 
+news.  ‘Ceteris paribus’ is Latin for ‘other thi ngs being equal’, but it is not obvious what makes 
+for equality in a case like this.  Sklar glosses it as ‘other things being normal’ 7, where ‘normal’ 
+seems to cash out as ‘typical’ or ‘usual’.  Then  a ‘ceteris paribus law’ states what usually 
+happens.  In that case, to construe the law of gr avity as a ceteris paribus law is to contend that 
+although there are exceptions, bodies usually attract each other in direct proportion to the product 
+of their masses and in inverse proportion to the square of the distance between them. 
+ This construal does not always work.  Some laws do not even usually hold.  The law of 
+gravity is one.  Snell’s law  
+ n
+1sini=n2sinr 
+which expresses the relation between the angle of in cidence and the angle of refraction of a light 
+ray passing from one medium to another, is a second. 8  As standardly stated, the law is perfectly 
+general, ranging over every case of refraction.  It is not true of every case, though; it obtains only 
+where both media are optically isotropic.  The law th en is a ceteris paribus law.  But it is not even 
+usually true, since most media are optically anisotropic. 9  One might wonder why physicists don’t 
+simply restrict the scope of the law: ‘For any two optically isotropic media, n 1sini=n2sinr’.  The 
+reason is Gricean: expressly restricting the scope of the law implicates that it affords no insight 
+into cases where the restriction does not obtain.  Snell’s law is more helpful.  Even though the law 
+is usually false, it is often not far from the truth.  Most media are anisotropic, but lots of them – 
+  
+7 Lawrence Sklar, ‘Philosophy of Science,’ Cambridge Dictionary of Philosophy , ed. Robert Audi, 
+Cambridge: Cambridge University Press, 1999, p. 702. 
+8 i and r are the angles made by the in cident beam to the normal and n 1 and n2 are the refractive indices of 
+the two media.  
+9 Nancy Cartwright, How the Laws of Physics Lie,  Oxford: Oxford University Press, 1983, pp. 46-47. 
+
+--- Page 8 ---
+
+ 8
+and lots of the ones physicists are interested in  – are nearly isotropic.  The law supplies good 
+approximations for nearly isotropic cases.  So a lthough explanations and cal culations that rely on 
+Snell’s law do not yield truths, they are often not off by much.   
+ The law is valuable for another reason as well.   Sometimes it is useful to first represent a 
+light ray as conforming to Snell’s law, and later introduce ‘corrections’ to accommodate 
+anisotropic media.  If we were interested only in  the path of a particular light ray, such a 
+circuitous approach would be unattractive.  But if we are interested in optical refraction in 
+general, it might make sense to start with a prototypical case, and then show how anisotropy 
+perturbs.  By portraying anisotropic cases as perturbations, we point up affinities that direct 
+comparisons would not reveal.  The issue then is  what sort of understanding we want.  Showing 
+how a variety of cases diverge from the prototypi cal case contributes valuable insights into the 
+phenomenon we are interested in.  And what makes the case prototypical is not that it usually 
+obtains, but that it cleanly exemplifies the features we deem important. 
+ Idealizations: Some laws never obtain.  They characterize ideal cases that do not, perhaps 
+cannot, occur in nature.  The ideal gas law repr esents gas molecules as perfectly elastic spheres 
+that occupy negligible space and exhibit no mutual  attraction.  There are no such molecules.  
+Explanations that adduce the ideal gas law would be epistemically unacceptable if abject fidelity 
+to truth were required.  Since helium molecules are not dimensionless, mutually indifferent, 
+elastic spheres, an account that represents them as such is false.  If veritism is correct, it is 
+epistemically unacceptable.  But, at least if the explanation concerns the behavior of helium in 
+circumstances where divergence from the ideal gas law is negligible (roughly, where temperature 
+is high and pressure is low), scientists are apt to find it unexceptionable. 
+ Stylized facts are close kin of ceteris paribus claims.  They are ‘broad generalizations, 
+true in essence, though perhaps not in detail’.
+10  They play a major role in economics, constituting 
+  
+10 Graham Bannock, R.E. Baxter, Even Davis, Penguin Dictionary of Economics, 1998. 
+
+--- Page 9 ---
+
+ 9
+explananda that economic models are required to  explain.  Models of economic growth, for 
+example, are supposed to explain the (stylized ) fact that the profit rate is constant. 11  T h e  
+unvarnished fact of course is that profit rates ar e not constant.  All sorts of non-economic factors 
+– such as war, pestilence, drought, and political chi canery – interfere.  Manifestly, stylized facts 
+are not (what philosophers would call) facts, for the simple reason that they do not obtain.  It 
+might seem then that economics takes itself to be required to explain why known falsehoods are 
+true.  (Voodoo economics, indeed!)  This cannot be  correct.  Rather, economics is committed to 
+the view that the claims it recognizes as stylized facts are in the right neighborhood, and that their 
+being in the right neighborhood is something economic models  need to account for.  The models 
+may show them to be good approximations in  all cases, or where deviations from the 
+economically ideal are small, or where economic factors dominate non-economic ones.  Or the 
+models might afford some other account of their often being nearly right.  The models may differ 
+over what is actually true, or as to where, to what degree, and why the stylized facts are as good 
+as they are.  But to fail to acknowledge the sty lized facts would be to lose valuable economic 
+information (for example, the fact that if we  control for the effects of such non-economic 
+interference as war, disease, and the president fo r life absconding with the national treasury, the 
+profit rate is constant).  Stylized facts figure in  other social sciences as well.  I suspect that under 
+a less alarming description, they occur in the natu ral sciences too.  The standard characterization 
+of the pendulum, for example, strikes me as a stylized fact of physics.  The motion of the 
+pendulum that physics is supposed to explain is a motion that no actual pendulum exhibits.  What 
+such cases point to is this: The fact that a stric tly false description is in the right neighborhood is 
+sometimes integral to our understanding of a domain. 
+  A fortiori arguments from limiting cases:  Some accounts focus on a single, carefully 
+chosen case and argue that what holds in that case holds in general.  If so, it does no harm to 
+  
+11 ‘The profit rate is the level of profits in the economy relative to the value of capital stock.’ Ibid. 
+
+--- Page 10 ---
+
+ 10
+represent the phenomena as having the features that  characterize the exemplary case.  Astronomy 
+sometimes represents planets as point masses.  Mani festly, they are not.  But because the distance 
+between planets is vastly greater than their size, their spatial dimensions can safely be neglected.  
+Given the size and distribution of planets in the solar system, what holds for properly 
+characterized point masses also holds for the pl anets.  Another familiar example comes from 
+Rawls.  A Theory of Justice  represents people as mutually disinterested.  Rawls is under no 
+illusion that this representation is accurate.  He  recognizes that people are bound to one another 
+by ties of affection of varying degrees of strength,  length, and resiliency.  But, he believes, if 
+political agents have reason to cooperate even under conditions of mutual disinterest, they will 
+have all the more reason to cooperate when ties of  affection are present.  I do not want to discuss 
+whether Rawls is right.  I just want to highlight the form of his argument.  If what holds for the 
+one case holds for the others, then it does no harm to represent people as mutually disinterested.  
+That people are mutually disinterested is far from the truth.  It is possible that no one on Earth is 
+wholly indifferent to the fates of everyone else.  But if Rawls is right, the characterization’s being 
+far from the truth does not impede its function in his argument. 
+ The foregoing examples show that in some cognitive endeavors we accept claims that we 
+do not consider true.  But we do not indiscrim inately endorse falsehoods either.  The question 
+then is, what makes a claim accepta ble?  Evidently, to accept a claim is not to take it to be true, 
+but to take it that the claim’s divergence from truth, if any, is negligible.  The divergence need not 
+be small, but whatever its magnitude, it can be safely neglected.  We accept a claim, I suggest, 
+when we consider it true enough.  The success of  our cognitive endeavors indicates that we are 
+often right to do so.  If so, a claim is acceptable wh en its divergence from truth is negligible.  In 
+that case it is true enough. 
+ In practical, political, or prudential contex ts, both the acceptance and the acceptability of 
+falsehoods are widely recognized.  One can accept, a nd be right to accept the dean’s latest dictim, 
+if what matters is that the dean hath said it, not that it is true.  But epistemic contexts are supposed 
+
+--- Page 11 ---
+
+ 11
+to be different.  Many epistemologists contend that when our concerns are cognitive we should 
+accept only what we consider true.  I disagree.  I suggest that to accept that p is to take it that p’s 
+divergence from truth, if any, does not matter.  To cognitively accept that p, is to take it that p’s 
+divergence from truth, if any, does not matter cognitively.  The falsehood is ‘as close as one 
+needs for the purposes at hand.’ 12  In what follows, I take ‘acceptance’ to mean ‘cognitive 
+acceptance’. 
+ This raises a host of issues.  Perhaps the mo st pressing is to say something about what I 
+mean by ‘cognitive’.  A familiar line is that for a consideration to be cognitive is for it to aim at 
+truth or to be truth conducive.   Plainly, I can say no such thing.  I suggest rather that a 
+consideration is cognitive to the extent that it fi gures in an understanding of how things are.  This 
+is admittedly vague, but I am not sure that it is  any worse than untethered remarks about truth-
+conduciveness and the like. 
+ It might seem that my characterization just postpones the evil day (and not for long 
+enough!), since ‘an understanding of how things are’ mu st itself be explicated in terms of truth or 
+truth-conduciveness.  To see the problem, compare three concepts – belief, thought, and 
+understanding.  Belief aims at truth.  Roughly, a belief fulfills its goal in life only if it is true.
+13  
+Thought, however, can be aimless.  Musings, fantasies, and imaginings can be fully in order 
+whether or not they are true.  Understanding, the argument goes, is more like belief than like 
+thought.  Since there is such a thing as misunders tanding, understanding is subject to a standard 
+of rightness.  It has an aim.  Misunderstanding evidently involves representing things as they are 
+not.  This suggests that the aim of understanding is truth.  If so, it may seem, divergences from 
+truth, even if unavoidable, are always cognitive defects. 
+  
+12 Robert Stalnaker, Inquiry, (Cambridge, Massachusetts: MIT Press, 1987), p. 93. 
+13 Ralph Wedgwood, ‘The Aim of Belief’, Philosophical Perspectives, forthcoming.  Jonathan Adler, 
+Belief’s Ethics, Cambridge: MIT Press, 2002. 
+
+--- Page 12 ---
+
+ 12
+ The argument goes too fast.  That misunderstanding involves representing things as they 
+are not does not entail that whenever we represent things as they are not, we misunderstand them.  
+At most it indicates that understanding is not indifferent to truth.  But it does not follow that every 
+sentence – or for that matter, any sentence – that  figure in an understanding of how things are has 
+its own truth as an objective.  Understanding i nvolves a network of commitments.  It is not 
+obvious that an aim of the network must be an aim of every, or indeed any, sentential node in the 
+network.  A goal of the whole need not be a goal of each of its parts.  I do not expect these 
+sketchy remarks to persuade anyone that I am right to loosen the tie between understanding and 
+truth.  My hope is that they are enough to persua de you that the jig is not yet up, that a willing 
+suspension of disbelief is still in order. 
+ Let us turn then to acceptance.  To accept that p, I said, is to take it that p’s divergence 
+from truth, if any, is negligible.  In that case, p is true enough.  Whether this is so is manifestly a 
+contextual matter.  A sentence can be true enough in  some contexts but not in others.  A variety 
+of factors contribute constraints.  Background assumptions play a role.  ‘A freely falling body 
+falls at a rate of 32 ft/sec. 2’ is true enough, assuming that the body is within the Earth’s 
+gravitational field, that nothing except the Eart h exerts a significant gravitational force on the 
+body, that the effects of non-gravitational forces ar e insignificant, and so on.  But even when 
+these assumptions are satisfied, the formula is not always true enough, since gravity varies 
+slightly with longitude.  Sometimes it matters where in the gravitational field the freely falling 
+body is.  Whether ‘G=32ft./sec. 2’ is true enough depends on what we  want the formula for, what 
+level of precision is needed for the calculation or  explanation or account it figures in.  There is no 
+saying whether a given contention is true enough i ndependently of answering, or presupposing an 
+answer to the question ‘True enough for what?’  So purposes contribute constraints as well.  
+Whether a given sentence is true enough depends  on what ends its acceptance is supposed to 
+serve. 
+
+--- Page 13 ---
+
+ 13
+ Function is critical too.  If to accept that p is simply to take it that p’s divergence from 
+truth does not matter, it might seem that we accep t all irrelevant propositions.  None of my 
+projects, cognitive or otherwise, is affected by the truth or falsity of the claim that Ethelred the 
+Unready was a wise leader.  So, its divergence from truth, if any, does not matter to me.  Since 
+acceptance can be tacit, the fact that I have never considered the issue is not decisive.  
+Nevertheless it seems wrong to say that my indifference makes the claim true enough.  The 
+reason is that the contention is idle.  It perfo rms no function in my cognitive economy.  Owing to 
+my indifference, there is no answer to the question ‘True enough for what?’ 
+ Context provides the framework.  Purposes fix the ends. Function is a matter of means.  
+The sentences that concern us tend not to have purposes in isolation.  Rather, they belong to 
+larger bodies of discourse, such as arguments, expl anations, or theories that have purposes.  The 
+function of such a sentence consists in its contribution to such a body of discourse.  In accepting a 
+sentence then we treat it in a given context as performing a function in a body of discourse which 
+seeks to achieve some end.  Whether ‘G=32ft./sec.
+2’ is acceptable depends on whether the body 
+of discourse it figures in serves its cognitive purpose – whether, that is, it yields the understanding 
+of the domain that we seek. 
+ A statement’s divergence from truth is neglig ible only if that divergence does not hinder 
+its performing its cognitive function.  Hence whet her a contention is true enough depends not just 
+on its having a function, but on what its functi on is – on what role it plays in the account it 
+belongs to.  To determine whether a statement is true enough, we thus need to identify its 
+function.  It might seem that for cognitive purposes only one function matters.  If the criterion for 
+felicity is being true enough, one  might think, the function of all felicitous falsehoods is to 
+approximate.  There is, as it were, a tacit ‘more or less’ in front of all such claims.  This will not 
+do. 
+ One reason is that the proposal is not su fficiently sensitive.  Not all approximations 
+perform the same function.  Some are accepted simp ly because they are the best we can currently 
+
+--- Page 14 ---
+
+ 14
+do.  They are temporary expedients which we hope and expect eventually to replace with truths.  
+We improve upon them by bringing them closer to the truth.  Such approximations are, in 
+Sellars’s terms, promissory notes that remain to be discharged.  The closer we get to the truth, the 
+more of the debt is paid.  They are, and are known to be, unsatisfactory.  But not all 
+approximations have this character.  Some are pr eferable to the truths they approximate.  For 
+example, it is possible to derive a second-order pa rtial differential equation that exactly describes 
+fluid flow in a boundary layer.  The equation, being non-linear, does not admit of an analytic 
+solution.  We can state the equation, but cannot solve it.  This is highly inconvenient.  To 
+incorporate the truth into the theory would bri ng a line of inquiry to a halt, saying in effect: 
+‘Here’s the equation; it is impossible to solve.’  Fluid dynamicists prefer a first-order partial 
+differential equation, which approximates the tr uth, but admits of an analytical solution. 14  The 
+solvable equation advances unders tanding by providing a close enough approximation that yields 
+numerical values which can serve as evidence for or constraints on future theorizing.  The 
+approximation then is more fruitful than the trut h.  There is no hope that future inquiry will 
+remedy the situation, for it is demonstrable that the second-order equation cannot be solved 
+numerically, while the first-order equation can. 15  That reality forces such a choice upon us may 
+be disappointing, but under the circumstances it does not seem intellectually disreputable to 
+accept and prefer the tractable first-order equati on.  One might say that acceptance of the first-
+order approximation is only practical.  It is prefer able merely because it is more useful.  This may 
+be so, but the practice is a cognitive one.  Its goa l is to understand fluid fl ow in boundary layers.  
+In cases like this, the practical and the theoretical in extricably intertwine.  The practical value of 
+  
+14 Margaret Morrison, ‘Models as Autonomous Agents,’ Models as Mediators,  ed. Mary S. Morgan and 
+Margaret Morrison, Cambridge: Cambridge University Press, 1999, pp. 56-60. 
+15 Conceivably, of course, the equa tions in question will be superceded  by some other understanding of the 
+subject, but the fact that the equation we consider true does not have an analytical solution provides no 
+reason to think so.  Nor does it provide reason to think that the considerations that supersede it will be 
+mathematically more tractable, much less that in the long run science will be free of all such irksome 
+equations. 
+
+--- Page 15 ---
+
+ 15
+the approximation is that it advances understanding of a domain.  A felicitous falsehood thus is 
+not always accepted only in default of the truth.  Nor is its acceptance always ‘second best’.  It 
+may make cognitive contributions that the unvarnished truth cannot match. 
+ Moreover, not all felicitous falsehoods are approximations.  Idealizations may be far from 
+the truth, without thereby being epistemically inadequate.  Political agents are not mutually 
+disinterested.  They are not nearly mutually di sinterested.  Nor is it the case that most political 
+agents are mutually disinterested.  There is no way I can see to construe Rawls’s model as 
+approximately true.  Nevertheless, for Rawls’s purposes, the characterization of political agents 
+as mutually disinterested is felicitous if the features it highlights are constitutive of fair terms of 
+cooperation underlying the basic structure of a demo cratic regime.  There is no reason to think 
+that in general the closer it is to the truth, the more felicitous a falsehood. 
+ I suggest that felicitous falsehoods figure in cognitive discourse not as mistaken or 
+inaccurate statements of fact, but as fictions.  We are familiar with fictions and with reasoning 
+about fictions.  We regularly reason within the constraints dictated by a fiction, inferring for 
+example that Hamlet may not have been mad, but Ophelia surely was.  We also reason (with 
+more trepidation) from a fiction to matters of f act.  We may come to see a pattern in the facts 
+through the lens that a fiction supplies.  Fo r example, we might understand the contemporary 
+youth gang conception of being ‘dissed’ by refe rence to the wrath of Achilles at Agamemnon’s 
+affront.
+16  What is needed then is an account of how fictions can advance understanding. 
+ This requires explicating another piece of the puzzle – exemplification.  To exemplify is 
+to highlight, exhibit, display, or otherwise make manifest. 17  A commercial paint sample consists 
+of a patch of color on a card.  The patch is not merely an instance of the color, but a telling 
+instance – an instance that exemp lifies the color.  By so doing, the sample equips us to recognize 
+the color, to differentiate it fro m similar shades.  The sample th en affords epistemic access to the 
+  
+16 I am indebted to Amelie Rorty for this example. 
+
+--- Page 16 ---
+
+ 16
+color.  Although the patch on the sample card has a host of other features – size, shape, location, 
+and so on – it standardly does not exemplify them.  Exemplification is selective.  It brings out 
+some features of an exemplar by overshadowing, downplaying, or marginalizing others.  Nothing 
+in the nature of things dictates that the patch’s co lor is worthy of selection, but its shape is not.  
+What, if anything, an item exemplifies depends on its function.  The very same item might 
+perform any of a variety of functions.  The patch on the sample card could be used to teach 
+children what a rectangle is.  In that case, it woul d exemplify its shape, not its color.  The sample 
+card could be used as a fan.  Then the patch woul d not exemplify at all.  Exemplification is not 
+restricted to commercial and pedagogical contexts .  Whatever an item exhibits, highlights, or 
+displays, it exemplifies.  A poem might exemplify its rhyme scheme, its imagery, its style.  A 
+water sample might exemplify its mineral content, its flavor, or its impurities.  Exemplification, I 
+have argued elsewhere, is ubiquitous in art and science.18    
+ Treating paint samples as paradigmatic exemplars may encourage the idea that 
+exemplified features are all like expanses of co lor – homogeneous qualities spread out before us, 
+lacking depth and complexity, hence able to be take n in at a glance.  Many are not like that.  Pick 
+up a rock containing iron ore.  It might serve as a sample of iron, or of hematite, or of something 
+that bears a striking resemblance to your high sc hool algebra teacher.  It can exemplify such 
+features only where certain background assumptions are in place.  Not just anyone looking at the 
+rock could tell that it exemplified these features. 
+ Moreover, although in principle any item can serve as an exemplar and any feature can be 
+exemplified, sometimes a good deal of effort is required to bring about the exemplification of a 
+recondite feature.  Some of that effort is ment al.  Just as we ignore the shape of the paint sample 
+and focus on the color, we can ignore the fact th at the rock looks like your algebra teacher and 
+focus on its hardness.  This is a start.  But some irrelevant features so intricately intertwine with 
+  
+17 See Nelson Goodman, Languages of Art, Indianapolis: Hackett, 1968, pp. 45-67. 
+
+--- Page 17 ---
+
+ 17
+relevant ones that more drastic measures are calle d for.  If we seek to exemplify some recondite 
+features of iron, mental agility alone may not be e nough to bracket the effects of other minerals in 
+the rock.  So we refine the ore and filter out the impurities.  The result of our efforts is pure iron.  
+It is a product of a good deal of processing 19 which eliminates complicating factors and brings to 
+the fore characteristics that are hard to detect a nd difficult to measure in nature.  To facilitate the 
+exemplification of the feature of interest, we do not just mentally sideline features we consider 
+irrelevant, we physically remove some of them. 
+ Even then, we do not just contemplate the bit of iron as we might a paint sample.  We 
+subject it to a variety of tests.  We seek to produce circumstances where the features of interest 
+stand out.  We not only investigate the iron’s be havior in standard conditions, we study what 
+happens in extreme conditions – very high or lo w pressure or temperature, in a vacuum, under 
+intense radiation, and so forth.  Although we r ecognize that the test conditions do not ordinarily 
+(or perhaps ever) obtain in nature, we take it that  the behavior of the refined metal in the test 
+conditions discloses something about the natural or der.  If so, by understanding what happens in 
+the lab, we can understand something of what happens in the world.  The connection is, of course, 
+indirect.  It involves a complicated extrapolation from situations and materials that are highly 
+artificial and carefully contrived.  One might argue  that the lab itself is a fictional setting and the 
+conclusions we draw about nature on the basis of our laboratory findings are projections from 
+fiction to fact.  I don’t quite want to say that  (although I suspect that Nancy Cartwright does).  
+But I do want to point out that experimentation involves a lot of stage setting. 
+ There is a tendency to think of experiment s as processes that generate information, hence 
+as ways to find things out.  This of course is true.  But it is worth noting that an experiment is not 
+  
+18 See my Considered Judgment, Princeton: Princeton University Press, 1997, pp. 171-183. 
+19 This is why Nancy Cartwright thinks the laws of physics lie.  The laws are developed on the basis of, and 
+are strictly true only of the processed samples, not their naturally occurring counterparts. 
+
+--- Page 18 ---
+
+ 18
+like an oracle, 20 or an anchorman or a fortune cookie.  It does not just issue a report stating its 
+results.  It displays them.  It shows what happe ns to the magnetic properties of iron in conditions 
+near the melting point.  The experiment exemplifies its results. 
+ No matter how carefully we set the stage, irrelevancies remain.  We do not and ought not 
+read every aspect of the experimental result back  onto the world.  Not only are there irrelevant 
+features, there are issues about the appropriate vocabulary and level of precision for 
+characterizing what occurs.  The fact that the e xperiment occurred in Cleveland is unimportant.  
+The fact that the sample has a certain mass or latti ce structure may or may not be significant.  The 
+fact that the temperature is within 100° C of the melting point of iron may matter, while the fact 
+that it was within 5° of 1500° C does not.  Some f eatures of the iron in the experimental situation 
+are telling features.  Others are not.  The telling features are the ones that the experiment discloses 
+or makes manifest.  By exemplifying certain features, the experiment brings them to light and 
+affords epistemic access to them.  That is its cognitive contribution.  Other features, though 
+equally real, are not exemplified.  The experiment embodies an understanding of the phenomenon 
+in question through its exemplification of telling features.  By making these features manifest, it 
+affords an understanding of the phenomenon. 
+ If the cognitive contribution of an exemplar consists in the exemplification of select 
+features, then anything that exemplifies exactly t hose features can, in a suitable context, make the 
+same contribution.  Return for a moment to the paint sample.  I spoke of it as though it is a 
+sample of paint, a telling instance of the stuff you might use to paint the porch.  This is not true.  
+The sample on the card does not consist of paint, but of an ink or dye of the same color as the 
+paint whose color it exemplifies.  If the sample were  supposed to exemplify the paint itself, or the 
+chemical features of the paint, the fact that it is  not paint or has a different chemical composition 
+would be objectionable.  But since it exemplifies onl y the color, all that is needed is something 
+  
+20 Actually, of course, I don’t know how oracles are suppos ed to operate.  I have always assumed that they 
+ 
+
+--- Page 19 ---
+
+ 19
+that is the same color as the paint.   The exemplar need not itself be paint.  Similarly in scientific 
+cases.  Consider a DNA molecule that exemplifi es its molecular structure.  Anything that 
+exemplifies the same structure has the capacity to perform the same function in our understanding 
+of DNA.  No more than the paint sample needs to  consist of paint, does the exemplar of DNA’s 
+molecular structure need to consist of DNA.  A schematic model that exemplifies the same 
+features but has a different material (or even immaterial) substrate could to the job. 
+ Here is where felicitous falsehoods enter th e picture.  Something other than paint can 
+serve as a paint sample, affording epistemic access to  a color also instantiated by the paint.  
+Something other than a molecule can exemplify mo lecular structure, thereby affording epistemic 
+access to a structure also instantiated by the molecule .  A felicitous falsehood then is a fiction that 
+exemplifies a feature in a context where the ex emplification of that feature contributes to 
+understanding.  The utility of such a falsehood is plai n.  It is sometimes inconvenient, difficult, or 
+even impossible to bring it about that the phe nomena exemplify all and only the features that 
+interest us.  (DNA molecules are very small, charged pions are short lived.)  If we introduce a 
+falsehood that exemplifies those features – a bigger, longer-lasting model, for example – we can 
+highlight them and display their significan ce for the understanding of the phenomenon in 
+question.  By exemplifying features it shares w ith the phenomena, a felicitous falsehood affords 
+epistemic access to how things actually are.  The camel’s nose is now officially inside the tent. 
+ There is more than one role that such fictions can play.  Some serve as points of 
+reference.  We understand things in terms of  them.  In the simplest cases, like the model 
+displaying the helical structure of the DNA molecu le, they are simply schemata that exemplify 
+factors they share with the phenomena they c oncern.  They qualify as fictions because they 
+diverge from the phenomena in unexemplified properties.  (DNA molecules are not made of pipe 
+cleaners.)  In other cases, the connection to the fact s is less direct.  No real gas has the properties 
+  
+simply emit true sentences like ‘Socrates is the wisest of men.’ 
+
+--- Page 20 ---
+
+ 20
+of the ideal gas.  The model is illuminating though, because we understand the properties of real 
+gases in terms of their deviation from the ideal .  In such cases, understanding involves a pattern 
+of schema and correction.  We represent the phe nomena with a schematic model, and introduce 
+corrections as needed to closer acco rd with the facts.  Different corrections are needed to accord 
+with the behavior of different gases. The ficti onal ideal then serves as a sort of least common 
+denominator that facilitates reasoning about and co mparison of actual gases.  We ‘solve for’ the 
+simple case first, then introduce complications as needed. 
+ Acknowledging the role of corrections might  seem to suggest that the detour through 
+fictions is just a circuitous route to the truth.  Rather than a simple true description of the behavior 
+of neon, we get a complicated truth that makes re ference to deviations from some ideal.  But the 
+full cognitive contribution of the exercise resides in th e truth, not the fiction.  I don’t think this is 
+right for several reasons.  The first is that sometimes the corrections that would be needed to yield 
+a truth are unnecessary or even counterproductive.  A fortiori arguments from limiting cases 
+succeed because the corrections ar e unnecessary.  If a consideration holds for one case, even if 
+that case is a fiction, it holds for all.  The multiple and complicate ways actual cases diverge from 
+the fictive ideal make no difference.  If Rawls’ s argument is sound, ‘correcting for’ ties of 
+affection just muddies the waters.  Nor is this the only case where fidelity to the facts can prove a 
+hindrance.  It follows from the ideal gas law that as volume goes to zero, pressure becomes 
+infinite.  This would not happen.  Given a fixed number of molecules, pressure increases as 
+volume decreases – not to infinity, but only to the point where the container explodes.  No one of 
+course denies this.  But to understand what woul d happen in the limit, we need to prescind from 
+such material inconveniences and pretend that the wa lls of the container are infinitely strong.  We 
+need then to introduce not corrections that bring us  back to the facts, but further idealizations.  A 
+second reason is that the requisite corrections ofte n yield not truths, but more refined models.  
+They supplant one falsehood with another.  A thir d reason is that even where corrections yield 
+truths, the fiction may be more than a façon de parler .  It can structure our understanding in a 
+
+--- Page 21 ---
+
+ 21
+way that makes available information we would not otherwise have access to.  If, e.g., we draw a 
+smooth curve that skirts the data and construe th e data as a complex of relevant and irrelevant 
+factors (signal and noise), or construe a transacti on in terms of an economic model overlaid with 
+non-economic factors which skew the outcome, we impose an order on things, highlight certain 
+aspects of the phenomena, reveal connections, patterns and discrepancies, and make possible 
+insights that we could not otherwise obtain.  We put ourselves in a position to see affinities 
+between disparate occurrences by recognizing them as variations on a common theme. 
+    Still, to say that felicitous falsehoods  figure ineliminably in our understanding of 
+certain phenomena is not to say that without them we would have no understanding whatsoever 
+of those phenomena.  Even without Snell’s law, inspection and instantial induction would provide 
+some insight into what happens when light p asses between air and water, or between any other 
+two specified media.  What we would lack is a systematic understanding of how the several cases 
+are alike.  Felicitous falsehoods configure a domain, enabling us to characterize the phenomena in 
+ways that would otherwise be unavailable.  When, for example, we can construe seemingly 
+divergent phenomena as variants of a common scheme,  or as perturbations of a regular pattern, or 
+as deviations from a simple norm, we see them and their relations to one another in a new light.  
+We can discern systematic interconnections that direct inspection of the facts would not reveal.  
+The fictions and the configurations of the dom ains that they engender provide conceptual 
+resources for representing and reasoning about the phenomena in new and sometimes fruitful 
+ways. 
+ If I am right, not every theory is a conjunction of sentences all of which are supposed to 
+be true.  Rather, a theory may be composed of both factual and fictional sentences, and the 
+fictional sentences may play any of several different  roles.  This means that to understand what a 
+theory conveys, and to understand the phenomena in terms of the theory requires sensitivity to the 
+different roles the different sentences play.  A nd to assess a theory requires determining whether 
+the component sentences are true enough for the parts they are assigned to play.  Yablo is 
+
+--- Page 22 ---
+
+ 22
+investigating the metaphysical implications of the idea that fictions infuse even our must 
+fundamental theories. 21  I want to underscore the epistemological implications.  One obvious 
+consequence is that it is not plausible to think of  an acceptable theory as a mirror of nature.  Even 
+if the goal of a theory is to afford an understandi ng of a range of facts, it need not approach or 
+achieve that goal by providing a direct reflection of those facts. 
+  I have argued that a variety of components of cognitively acceptable theories neither are 
+nor purport to be true.  Rather, they are fictions  that shed light on the phenomena they concern.  
+They thereby contribute to our understanding of those phenomena.  Even if my account makes 
+sense of models and idealizations in science, a wo rry remains.  My position threatens to make the 
+world safe for postmodernist claptrap.  If truth is not required for epistemic acceptability, why 
+isn’t a flagrantly false account acceptable?  What  is the objection to claiming that a theory 
+attesting to the healing powers of crystals is  as acceptable as the theories constituting mainstream 
+crystallography?  We seem to lose a valuable resource if we can’t simply say, ‘Because it is 
+false!’  My seemingly wimpy requirement that an acceptable account must yield an understanding 
+of how things are gives us what we need.  An  account that yields such an understanding must 
+accommodate the facts in a domain.  The accommodation may be indirect.  Strictly false 
+idealizations may be deployed.  Detours through stylized facts may be made.  The justification for 
+the falsehoods is that they figure in accounts that make sense of the facts.  A cognitively 
+acceptable account sheds light on its subject.  Wher e felicitous falsehoods are involved, the light 
+may be oblique. 
+ A theory can claim to make sense of a range of facts only if it is factually defeasible – 
+only if, that is, there is some reasonably determinate, epistemically accessible factual arrangement 
+which, if it were found to obtain, would discred it the theory.  A felicitous falsehood is acceptable 
+only if the theory or system of thought it belongs to accommodates the epistemically accessible 
+  
+21 Stephen Yablo, ‘Does Ontology Rest on a Mistake?’ Proceedings of the Aristotelian Society,  
+ 
+
+--- Page 23 ---
+
+ 23
+facts.  Exactly what this requires needs to be  spelled out.  The usua l considerations about 
+evidence, simplicity, scope, and so forth come into  play.  Even though some of the sentences in a 
+theory are not supposed to be true, the way the wo rld is constrains the acceptability of the theory 
+they figure in.  If, for example, evidence shows that friction plays a major role in collisions 
+between gas molecules, theories that model co llisions as perfectly elastic spheres will be 
+discredited.  An acceptable theory must be at least as good as any available alternative, when 
+judged in terms of currently available standard s of cognitive goodness.  So such a theory would 
+also be discredited by a theory that better satisfi ed those standards.  Neither a defeated nor an 
+indefeasible theory is tenable.  Because it is indi fferent to evidence, claptrap is indefeasible.  
+Hence it is untenable.  I said earlier that even in  theories that include felicitous falsehoods truth 
+plays a role.  We see now what the role is.  A factually defeasible theory has epistemically 
+accessible implications which, if found to be false,  discredit the theory.  So a defeasible theory, 
+by preserving a commitment to testable consequen ces retains a commitment to truth.  Quine said 
+that the sentences of a theo ry face the tribunal of experience as a corporate body. 22  He probably 
+believed that although not all the members of the corporation could be separately tested against 
+experience, all were supposed to be fine, upstanding truths.  I sugg est that this is not so.  An 
+acceptable theory must make its case before the tr ibunal of experience.  But the members of the 
+corporation are more various and some a bit shadier than Quine suspected. 
+ 
+  
+Supplementary volume 72 ( 1998), pp. 229-261; and ‘Abstract Objects,’ Philosophical Issues, forthcoming.  
+22 W. V. Quine,’ ‘Two Dogmas of Empiricism,’ From a Logical Point of View, New York: Harper & Row, 
+1961, p. 41.

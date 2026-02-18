@@ -1,0 +1,1579 @@
+Here is the text transcription of the provided PDF document "Fact, Fiction, and Forecast" by Nelson Goodman (Fourth Edition).
+
+---
+
+**[Cover Page]**
+
+FOURTH EDITION
+**FACT**
+**FICTION**
+**AND**
+**FORECAST**
+Nelson Goodman
+
+[Library Sticker: 6096132]
+
+---
+
+**[Back Cover]**
+
+Fourth Edition
+**FACT, FICTION, AND FORECAST**
+
+NELSON GOODMAN New foreword by Hilary Putnam
+
+"Quite possibly the best book by a philosopher in the last twenty years. It changed, probably permanently, the way we think about the problem of induction, and hence about a constellation of related problems like learning and the nature of rational decision. This is the work of contemporary philosophy that I would most like to have written." —J. A. Fodor
+
+Here, in a new edition, is Nelson Goodman's provocative philosophical classic—a book that, according to *Science*, "raised a storm of controversy" when it was first published in 1954, and one that remains on the front lines of philosophical debate. How is it that we feel confident in generalizing from experience in some ways but not in others? How are generalizations that are warranted to be distinguished from those that are not? Goodman shows that these questions resist formal solution and his demonstration has been taken by nativists like Chomsky and Fodor as proof that neither scientific induction nor ordinary learning can proceed without an *a priori*, or innate, ordering of hypotheses. In his new foreword to this edition, Hilary Putnam forcefully rejects these nativist claims. The controversy surrounding these unsolved problems is as relevant to the psychology of cognitive development as it is to the philosophy of science. No serious student of either discipline can afford to misunderstand Goodman's classic argument.
+
+In Putnam's words, it is "one of the few books that every serious student of philosophy in our time has to have read."
+
+Nelson Goodman was Professor of Philosophy, Emeritus, Harvard University.
+
+Harvard University Press
+Cambridge, Massachusetts
+and London, England
+
+ISBN 0-674-29071-2
+
+---
+
+**[Page 3]**
+
+**PREDICAMENT**
+1946
+
+*The chapter to follow was originally delivered as a lecture at the New York Philosophical Circle on May 11, 1946; and published with some revisions in the Journal of Philosophy in February 1947, volume xliv, pages 113-28. Only minor changes have been made in the present text.*
+
+[Barcode: 6096132]
+
+---
+
+**[Page 4]**
+
+**Fact, Fiction, and Forecast**
+
+*Fourth Edition*
+
+NELSON GOODMAN
+
+Harvard University Press
+Cambridge, Massachusetts
+and London, England
+
+---
+
+**[Page 5]**
+
+Copyright © 1979, 1983 by Nelson Goodman
+
+Foreword copyright © 1983 by the President and Fellows of Harvard College
+All rights reserved
+Printed in the United States of America
+
+This book has been digitally reprinted. The content remains identical to that of previous printings.
+
+Library of Congress Cataloging in Publication Data
+Goodman, Nelson.
+Fact, fiction, and forecast.
+Includes bibliographical references and index.
+1. Induction (Logic)—Addresses, essays, lectures.
+2. Conditionals (Logic)—Addresses, essays, lectures.
+3. Possibility—Addresses, essays, lectures. 4.
+
+**[Page 5 - Right Side]**
+
+**CONTENTS**
+
+FOREWORD TO THE FOURTH EDITION
+by Hilary Putnam . . . vii
+
+INTRODUCTORY NOTES . . . xvii
+*Introduction to the First Edition, 1954* . . . xvii
+*Note to the Third Edition, 1973* . . . xxi
+*Note to the Fourth Edition, 1983* . . . xxiv
+
+**PREDICAMENT**
+1946
+
+I. THE PROBLEM OF
+COUNTERFACTUAL CONDITIONALS . . . 3
+*1. The Problem in General* . . . 3
+*2. The Problem of Relevant Conditions* . . . 9
+*3. The Problem of Law* . . . 17
+
+**PROJECT**
+1953
+
+II. THE PASSING OF THE POSSIBLE . . . 31
+*1. Foreword: On the Philosophic Conscience* . . . 31
+*2. Counterfactuals* . . . 34
+*3. Dispositions* . . . 40
+*4. Possibles* . . . 49
+*5. The Passing* . . . 57
+
+III. THE NEW RIDDLE OF INDUCTION . . . 59
+*1. The Old Problem of Induction* . . . 59
+*2. Dissolution of the Old Problem* . . . 62
+*3. The Constructive Task of*
+*Confirmation Theory* . . . 66
+
+---
+
+**[Page vi]**
+
+*4. The New Riddle of Induction* . . . 72
+*5. The Pervasive Problem of Projection* . . . 81
+
+IV. PROSPECTS FOR A
+THEORY OF PROJECTION . . . 84
+*1. A New Look at the Problem* . . . 84
+*2. Actual Projections* . . . 87
+*3. Resolution of Conflicts* . . . 92
+*4. Presumptive Projectibility* . . . 99
+*5. Comparative Projectibility* . . . 108
+*6. Survey and Speculations* . . . 120
+
+INDEX . . . 125
+
+---
+
+**[Page vii]**
+
+**FOREWORD TO**
+**THE FOURTH EDITION**
+
+*Fact, Fiction, and Forecast* has achieved the paradoxical status of a contemporary classic. It is a classic by virtue of being one of the few books that every serious student of philosophy in our time *has* to have read; it is contemporary not just because it is by a contemporary philosopher but because it speaks to what are still among the most widely discussed issues in philosophy.
+
+Goodman totally recasts the traditional problem of induction. For him the problem is not to guarantee that induction will succeed in the future—we have no such guarantee—but to characterize what induction *is* in a way that is neither too permissive nor too vague. The central difficulty, which Goodman was the first to highlight, is the projection problem: what distinguishes the properties one can inductively project from a sample to a population from the properties that are more or less resistant to such projection?
+
+Goodman's celebrated argument, which he uses to show that all predicates are not equally projectible, depends on his invention of the strange predicate "grue". He defines something as grue if it is either observed before a certain date and is green, or is not observed before that date and is blue. There is something very much like a
+
+---
+
+**[Page viii]**
+
+work of art about this piece of philosophical invention, but why? It isn't just that it has the aesthetic virtues of elegance, novelty, and simplicity. Perhaps what makes the argument so stunning is the rarity in philosophy of proofs that really *are* proofs. However, Goodman doesn't present his argument as a proof, but rather as a puzzle. Perhaps *that* is the artistry—that, and the fact that an elegant proof is conveyed by means of a simple example.
+
+What did Goodman show? In his contribution to a widely read discussion, Jerry Fodor claimed it was that an innate ordering of hypotheses is needed for induction.¹ But that *isn't* what he showed; in fact, it isn't even right. There are models for induction in which no innate ordering of hypotheses or predicates is presupposed; Goodman's own model is one such. Hypotheses are ordered in a way that changes in the course of cultural and scientific history in his model. Even the principles Goodman uses to order hypotheses in the light of past inductive practice, for example, the principle of 'entrenchment', aren't innate in his view but are arrived at by philosophical reflection on the practice of our community.
+
+Catherine Elgin has recently suggested to me a strong resemblance between Goodman's views and those of the later Wittgenstein, at least on one reading.² Such a comparison is more to the point than any attempt to relate Goodman's ideas to those of Noam Chomsky. Like Witt-
+
+¹ See Fodor's and Chomsky's comments in Massimo Piattelli-Palmarini, ed., *Language and Learning* (Cambridge, Mass.: Harvard University Press, 1980), pp. 259–261, for example.
+² The reading Elgin has in mind is due to Saul Kripke; see his *Wittgenstein on Rules and Private Language* (Cambridge, Mass.: Harvard University Press, 1982).
+
+---
+
+**[Page ix]**
+
+genstein, Goodman doesn't believe in looking for guarantees, foundations, or the 'furniture of the universe'. (He goes even farther than Wittgenstein in his rejection of traditional philosophy, describing himself in his most recent writing as a 'relativist' and an 'irrealist'.) What we have in Goodman's view, as, perhaps, in Wittgenstein's, are practices, which are right or wrong depending on how they square with our standards. And our standards are right or wrong depending on how they square with our practices. This is a circle, or better a spiral, but one that Goodman, like John Dewey, regards as virtuous.
+
+I referred to Goodman's celebrated argument as a proof. What he proved, even if he did not put it that way, is that inductive logic isn't formal in the sense that deductive logic is. The *form* of an inference, in the sense familiar from deductive logic, cannot tell one whether that inference is inductively valid.
+
+In order to 'solve' Goodman's problem one has therefore to provide some principle capable of selecting among inferences that do not differ in logical form, that is, on the basis of the particular predicates those inferences contain. Philosophers who dislike Goodman's proposal, because of its dependence on the actual history of past inductive projections in the culture, have come up with a number of 'solutions' that *don't* work. For example, some philosophers think a valid inductive inference must not contain any disjunctive predicates. However, this fails because, from the point of view of logic, being disjunctive is a *relational* attribute of predicates: whether a predicate is disjunctive is relative to the choice of a language. If one takes the familiar color predicates as primitive, then Goodman's predicate "grue" is a disjunctive predicate; if
+
+---
+
+**[Page x]**
+
+one takes the unfamiliar predicates grue and bleen as primitive, however, then being green may be defined as being grue and observed prior to time *t* or being bleen and not observed prior to time *t*. Thus the predicate grue is disjunctive in a language with normal color predicates as primitive, while the normal color predicates are disjunctive in a language having as primitive the nonstandard predicates (call them "gruller" predicates) Goodman invented. No predicate is disjunctive or nondisjunctive in itself.
+
+What I have just described is the situation as it looks to a logician. Rudolf Carnap proposed that over and above this way in which a predicate can be disjunctive or nondisjunctive, that is, relative to a language or a choice of primitives, a predicate can be *intrinsically* disjunctive or nondisjunctive. In effect, he postulates a metaphysical pointer that singles out, we know not how, certain predicates as qualitative, that is, as kosher from the point of view of induction. However, even if we rule out predicates like grue, which are, in Carnap's view, nonqualitative, problems still remain, at least in his systems of inductive logic. For example, we get abnormal degrees of confirmation for certain hypotheses if we take the magnitude "the square of the length" as primitive instead of the magnitude "length".³ Yet both "length" and "length squared" are qualitative, according to Carnap. To
+
+³ For example, in Carnap's systems, relative to the evidence "*x* has length between 0 and 1", the degree of confirmation of the hypothesis "*x* has length between 0 and ½" is 0.5 if "length" is primitive, but 0.25 if "length squared" is primitive. This is so because the hypothesis can be rewritten as "the square of the length of *x* is between 0 and ¼".
+
+---
+
+**[Page xi]**
+
+justify the choice of the standard primitive magnitude, length, he therefore postulated that some qualitative magnitudes, including length, are intrinsically fundamental. Logical Heaven itself tells us which predicates to take as primitive in our theories! These Carnapian views do not solve Goodman's problem; they merely turn logic into metaphysics.
+
+A more radical solution proposed by Wesley Salmon—and several other philosophers have made similar proposals—is that *ostensively defined* primitive predicates are what is needed for inductive logic. "Ostensive definability is the basis for distinguishing normal from pathological predicates".⁴ However, ostensively definable predicates are all *observational* predicates, and the proposal to rule out all nonobservational predicates is unmotivated and too severe.
+
+*Unmotivated*: Call a bacillus "S-shaped" if it looks so under a microscope. Then "is an S-shaped bacillus" isn't observational but perfectly projectible. If one weakens "ostensively definable" by allowing oneself to use instruments, then, as Goodman points out, grue is ostensively definable: all one has to do is build a measuring instrument that flashes a red light if the time is before *t* (imagine that the measuring instrument contains an internal clock) and the instrument is scanning something green or if the time is later than *t* and the instrument is scanning something blue.⁵ Using such an instrument, one can tell whether or
+
+⁴ From Salmon, "Russell on Scientific Inference", in *Bertrand Russell's Philosophy*, ed. G. Nakhnikian (New York: Barnes and Noble, 1974), p. 190.
+⁵ I have here shifted from Goodman's definition of grue to one proposed by Stephen Barker and Peter Achinstein, which can be used to make the same points.
+
+---
+
+**[Page xii]**
+
+not something is grue without knowing what time it is, by seeing whether or not the red light is flashing. Critics might object that such an instrument is really measuring the time, but there is a sense in which any measuring instrument that contains internal moving parts and whose correct functioning depends on those parts moving at the appropriate rate may be said to contain an internal clock. The point is that unless we rule out the use of mechanical aids to observation altogether, then we cannot rule out grue for the reason given.⁶
+
+*Too severe*: If only ostensively definable predicates are projectible, then how do we make inferences to the unobservable? One strength of Goodman's account is that it includes a mechanism by which new predicates, including nonobservation predicates, can acquire projectibility. These mechanisms, which are similar to what Hans Reichenbach called "cross induction", depend upon a relation between one hypothesis and another, called by Goodman an "overhypothesis", that contains higher-level predicates than the first. For example, "all the marbles in any bag are the same color" is an overhypothesis of "all the marbles in this bag are red". But if the higher-level predicates we are allowed to use are all ostensively definable (as on Salmon's proposal), then an underhypothesis of a projectible hypothesis will always be about observables because the overhypothesis is, so the objector can't use Goodman's mechanisms to transfer projectibility from projectible observation predicates to nonobservation predicates, and Goodman's critics have failed to come up with any alternative mechanisms to do the job.
+
+⁶ See Goodman's discussion in *Languages of Art*, 2nd ed. (Indianapolis: Hackett, 1976), pp. 100-101.
+
+---
+
+**[Page xiii]**
+
+In any case, we don't want to rule out grue completely. Sometimes it is projectible, and his discussion allows for this explicitly.
+
+The failure of these attempts to evade Goodman's problem does not show that our ordering of predicates must be based on entrenchment, but his choice of entrenchment accords with his metaphilosophy. Entrenchment depends on the frequency with which we have actually inductively projected a predicate in the past; whether Goodman is writing about art or induction, what he prizes is *history*. This may seem paradoxical in a philosopher who also prizes novelty and who is a friend of modernity, but Goodman sees no conflict here. In his view, what makes it possible to value and operate within both inherited traditions and novel activities and versions is the truth of *pluralism*. This pluralism is only hinted at in the present work, for instance, in the clear statement that which predicates are projectible is a matter of the contingent history of the culture, but it has become the dominant theme in his most recent work.⁷ Even if the choice of entrenchment as the primary source of projectibility is congruent with Goodman's metaphilosophy, that does not mean he excludes the possibility of any other solution to the projectibility problem a priori. Few philosophers are less aprioristic than Goodman. What he insists upon, and that he insists upon in this connection, is that any proposed solution be judged by its ability to systematize what we actually do.
+
+In this connection as in others, it is important to recog-
+
+⁷ See especially his *Ways of Worldmaking* (Indianapolis: Hackett, 1978).
+
+---
+
+**[Page xiv]**
+
+nize that Goodman is not interested in formalisms that we can't use. This pragmatism, in the best sense of the term, is apparent in his work on counterfactuals—another vexed area of contemporary philosophy in which Goodman's work, although negative in its upshot, has set the agenda for the subsequent discussion. Recent workers on the problem, for example, David Lewis, have produced formalistic schemes that presuppose a given totality of 'possible worlds' and a 'similarity metric' that measures their similarity.⁸ Such 'solutions' to the problem of counterfactuals are not solutions at all in Goodman's view, since we are not given any principles for telling which possible worlds are more or less similar to the actual world. Relying on intuition for the answer is no improvement on relying on intuition to tell us that the counterfactual we are interested in is right or wrong in the first place. Also, there aren't any 'possible but not actual' worlds. Carnap's formalized inductive logics, mentioned earlier, are in the same boat. Goodman respects formal logic but not when it dresses up a problem in a way that has no payoff in practice. He deplores the current love of formalism for formalism's sake.
+
+This brings me to perhaps my most important remark about Goodman's philosophical methods and attitudes. Although he starts as, say, Rorty does, by rejecting certainty and by rejecting the idea of an ontological ground floor independent of our theorizing and, even more like Rorty, by rejecting the most fashionable problems of philosophy, he is totally free of the "now philosophy is over"
+
+⁸ See David Lewis, *Counterfactuals* (Cambridge, Mass.: Harvard University Press, 1973).
+
+---
+
+**[Page xv]**
+
+mood that haunts much of twentieth-century philosophy.⁹ If there isn't a ready-made world, then let's construct worlds, says Goodman. If there aren't objective standards, then let's construct standards! Nothing is ready-made, but everything is to be made.
+
+Goodman's prodigious output and enormous breadth of interest—he has written on the theory of constructional systems, on nominalistic foundations for mathematics, on the general theory of signs, on the philosophy of psychology, as well as on aesthetics and on the tasks of philosophy today—illustrates how far he is from sharing the view that philosophy is over. So does the constructive nature of much of his writing. Most philosophers are people with theses to defend; Goodman is a man with methods and concepts to sell (his word). But, he would remark, if there is no ready-made world, the line between a thesis and a construction dissolves.
+
+As I already remarked, it's a mistake to see Goodman as providing support for any doctrine of innate ideas. It is not that he is uninterested in psychology; he has worked in it most of his life. The real problem, in his view, isn't what is innate; the real problem has to do with cultural evolution. We are world-makers; we are constantly making 'new worlds out of old ones'. What we see, perceive, touch, is all in flux—a flux of our own creation. The real psychological question is how we shape this flux and how we maneuver in it. In thinking about Goodman, I keep coming back to his optimism, or perhaps I should say his energy. He doesn't believe in progress in any sense that
+
+⁹ See Richard Rorty, *Philosophy and the Mirror of Nature* (Princeton: Princeton University Press, 1979).
+
+---
+
+**[Page xvi]**
+
+implies things are getting better, or must in the future. But he does believe that novelty can be exciting and good as well as boring and bad; he finds construction and creation exciting and challenging. He believes, in short, that there is much, much we can do, and he prefers concrete and partial progress to grand and ultimately empty visions.
+
+Hilary Putnam
+
+---
+
+**[Page xvii]**
+
+**INTRODUCTORY NOTES**
+
+INTRODUCTION TO THE FIRST EDITION, 1954
+
+The chapters to follow were all originally delivered as lectures. Although seven years and a few thousand miles separated the delivery of the first from the delivery of the remaining three, the four represent a consecutive effort of thought on a closely integrated group of problems. Only the first has been published before.
+
+In the summer of 1944, I had nearly completed a manuscript entitled 'Two Essays on Not-Being'. The first essay explained the counterfactual conditional, and the second made use of this explanation in dealing with potentiality, possibility, and dispositions. Some minor difficulties in the first essay still needed attention, however, and these led to less minor ones until, a few weeks later, my two essays were instances rather than treatments of not-being.
+
+Grasping at the scientist's slim straw of solace, that failure is as significant as success, I used the detailed history of this frustration as the subject for a talk given in New York in May of 1946. It was published a few months later in the *Journal of Philosophy* as 'The Problem of Counterfactual Conditionals'.
+
+The scores of articles that have been published since then have made so little progress towards settling the matter that current opinion varies all the way from the view that the problem is no problem at all to the view
+
+---
+
+**[Page xviii]**
+
+that it is insoluble. Neither of these extremes is very well substantiated. The former is usually supported by the claim that we can, theoretically at least, get along without counterfactuals in the sciences. But however that may be, we do not yet by any means know how to get along without them (or transparent substitutes for them) in philosophy. The view that the problem is insoluble is sometimes supported by the citation of paradoxical counterfactuals that confound commonsense. But such cases do not argue insolubility; for if we can provide an interpretation that handles the clear cases successfully, we can let the unclear ones fall where they may.
+
+The urge to dispose of the problem as spurious or insoluble is understandable, of course, in view of the repeated failures to find a solution. The trouble is, though, that what confronts us is not a single isolated problem but a closely knit family of problems. If we set one of them aside, we usually encounter much the same difficulties when we try to deal with the others. And if we set aside all the problems of dispositions, possibility, scientific law, confirmation, and the like, we virtually abandon the philosophy of science.
+
+For some years, work on a book dealing with other matters took most of my time; but after *The Structure of Appearance* was published in 1951, I turned again to the problem of counterfactuals and kindred problems—and began to travel in all the old circles. When, in 1952, the University of London invited me to give some lectures the following year, I set to work with a conviction that some new approach must be found. The results of that work were reported in three lectures delivered in Lon-
+
+---
+
+**[Page xix]**
+
+don in May of 1953 under the general title *Fact, Fiction, and Forecast*.
+
+In the present book, the first part 'Predicament—1946' consists of 'The Problem of Counterfactual Conditionals', reprinted without major changes. The second part 'Project—1953' consists of the three London lectures now printed for the first time. These have been somewhat revised, and rather extensive notes have been added. The greatest change, involving many additions and improvements, has occurred in the expansion of the last quarter of the final lecture into the last half of the fourth chapter. I am indebted to C. G. Hempel for many useful suggestions, and to Elizabeth F. Flower for valuable editorial assistance.
+
+The two parts of the book are intimately related to each other in the ways I have described; but no attempt has been made to revise them to make a more continuous whole. The occasional duplications and minor disparities between the work of 1946 and the work of 1953 have been left untouched. Thus readers familiar with the article on counterfactuals or unready for its technicalities will find the second part a more or less self-contained unit, while other readers will find in the first part an essentially unaltered description of the state of affairs from which the London lectures took their departure. The layman and the beginning student may well read the second part first.
+
+Throughout I have used commonplace and even trivial illustrations rather than more intriguing ones drawn from the sciences; for I feel that examples that attract the least interest to themselves are the least likely to divert attention from the problem or principle being explained. Once
+
+---
+
+**[Page xx]**
+
+the reader has grasped a point he can make his own more consequential applications. Thus although I talk of the freezing of radiators and the color of marbles, which are seldom discussed in books on chemistry or physics, what I am saying falls squarely within the philosophy of science.
+
+As yet we are able to deal with only a few aspects of a few problems. We have to isolate for study a few simple aspects of science just as science has to isolate a few simple aspects of the world; and we are at an even more rudimentary stage in philosophy than in science. This, admittedly, is over-simplification. But conscious and cautious over-simplification, far from being an intellectual sin, is a prerequisite for investigation. We can hardly study at once all the ways in which everything is related to everything else.
+
+Four lectures do not make a treatise. This is a report of work in process that I hope may prove to be work in progress. It might be thought of as consisting of first thoughts towards a far-off sequel to *The Structure of Appearance*. But no acquaintance with that book, and no knowledge of symbolic logic, is required for an understanding of the present work.
+
+---
+
+**[Page xxi]**
+
+NOTE TO THE THIRD EDITION, 1973
+
+Happily, the three rules set forth in the final chapter of the first edition, reduced to two in the second edition, can now be reduced to one. In the second edition, the second of the three rules was dropped since I had found that the cases this rule was designed to cover were taken care of by the first rule. Now, slight modification of the first rule, together with explicit recognition that a hypothesis may at a given time be neither projectible nor unprojectible but rather nonprojectible, has made the third of the original rules also unnecessary. Accordingly IV.4 has been rewritten, and changes thus required in IV.5 have been made.
+
+For this result and others along the way, I am heavily indebted to Robert Schwartz and Israel Scheffler. Our joint report was published in the *Journal of Philosophy*, volume 67 (1970), pages 605 through 608, under the title "An Improvement in the Theory of Projectibility".
+
+In the rather extensive discussion relating to this book, some interesting points have been made. Scheffler's examination of selective confirmation paved the way for Marsha Hanen's convincing argument that all the familiar so-called adequacy conditions for confirmation are dispensable. Wolfgang Stegmüller has corrected the
+
+---
+
+**[Page xxii]**
+
+notion that 'anti-inductivists' of the school of Karl Popper escape the new riddle of induction. Elizabeth Shipley has quite justly remarked that along with number of projections, such other factors as the importance, variety, and Humean 'liveliness' of the projections contribute to the entrenchment of a predicate. Other writers have noted additional defects in the attempt to delimit the relevant conditions for counterfactuals; but since that attempt is here (I.2) rejected anyway on other grounds, further flaws are of minor interest. Some brief reservations and clarifications carried over from the second edition resulted from discussions with Scheffler, C. G. Hempel, and Howard Kahane. Kahane indeed deserves special, if left-handed, credit. Ironically, his persistent efforts to demolish the whole theory of projectibility by counterexample have instead shown that this admittedly tentative and fragmentary theory is, with some modifications and simplications, more nearly adequate and more durable than I had supposed.
+
+Among the most common mistakes in discussions of this book have been failures to recognize (1) that the projectibility status of a hypothesis normally varies from time to time, (2) that even an emerald existing from prehistoric time may be grue while remaining green, (3) that a major obstacle to a nonpragmatic way of ruling out 'grue-like' predicates is the lack of any non-question-begging definition of "grue-like", (4) that the discussion of possibility in Chapter II is concerned not with the question raised when we say that something may or may not be in fact a soandso but with the question raised when we say that something that is not in fact a soandso is nevertheless a possible soandso, (5) that since at any
+
+---
+
+**[Page xxiii]**
+
+time as many supported, unviolated, and unexhausted hypotheses are not projectible as are projectible, projectible hypotheses or predicates cannot be defined in terms of survival of the fittest, and (6) that the analogy I have drawn between justification of induction and justification of deduction is quite independent of the obvious fact that, when valid, deductive but not inductive inference always yields a true conclusion from true premisses.
+
+Some of these matters, both positive and negative, have been discussed a little more fully in my *Problems and Projects* (Hackett, 1976, Chapter VIII), but could not be incorporated in the present text.
+
+In addition to the important improvement mentioned above, several minor revisions have been made in this edition, and a new index has been prepared by Samuel Scheffler.
+
+---
+
+**[Page xxiv]**
+
+NOTE TO THE FOURTH EDITION, 1983
+
+That this book not only continues to be widely read by philosophers but also is coming to be recognized as relevant far beyond induction and even beyond philosophy is especially gratifying. The conclusion that projectibility cannot be defined syntactically or semantically has been seen to be highly consequential for psychology and has inspired lively controversy over just what the consequences are. In my own recent work—for example, *Ways of Worldmaking*—the treatment of inductive validity developed here has unexpected ramifications, for rightness of many sorts, including fairness of sample and rightness of representation and design, involves rightness of categorization. And since rightness of categorization is obviously a matter not of discovering 'natural' kinds but of organizing relevant kinds, the role of entrenchment must be taken into account.
+
+The book's effectiveness as an irritant seems not to lessen through the years. Attacks upon it do not decline in volume or vehemence or futility. All this smoke is no sign of fire. Philosophers not bothering to unravel the specious arguments frequently offered for objections advertised as fatal should be warned against supposing that the theory sketched in Chapter IV has been shown to have the con-
+
+---
+
+**[Page xxv]**
+
+sequence that no hypothesis is projectible or that only false hypotheses are projectible, or that every projection requires countless decisions concerning other hypotheses, or that no new predicates can be projected, or that the new riddle never was any riddle anyway. Occasionally in the course of controversy some point in the book has been clarified or underlined; for example, that one condition upon projectibility is *not* that there is an *assumption of no conflict* with any no-less-well-entrenched hypothesis but that there is *no assumption of conflict* with any such hypothesis. But in most such cases the attentive reader of the book will find his own way well enough without help.
+
+The following papers mentioned in the text—"An Improvement in the Theory of Projectibility" (page xxi), "A Query on Confirmation" (Notes I.16, III.9, III.11), and "Infirmities of Confirmation Theory" (Note III.11)—have been reprinted, along with other relevant material, in Chapter VIII of my *Problems and Projects* (Indianapolis: Hackett, 1976).
+
+Nelson Goodman
+
+---
+
+**[Page 16]**
+
+**Fact, Fiction, and Forecast**
+
+*Fourth Edition*
+
+---
+
+**[Page 17]**
+
+*Other Books by Nelson Goodman*
+
+The Structure of Appearance
+
+Problems and Projects
+
+Languages of Art
+
+Ways of Worldmaking
+
+**I**
+
+**THE PROBLEM OF**
+**COUNTERFACTUAL CONDITIONALS¹**
+
+*1. The Problem in General*
+
+The analysis of counterfactual conditionals is no fussy little grammatical exercise. Indeed, if we lack the means for interpreting counterfactual conditionals, we can hardly claim to have any adequate philosophy of science. A satisfactory definition of scientific law, a satisfactory theory of confirmation or of disposition terms (and this includes not only predicates ending in "ible" and "able" but almost every objective predicate, such as "is red"), would solve a large part of the problem of counterfactuals. Conversely, a solution to the problem of counterfactuals would give us the answer to critical questions about law, confirmation, and the meaning of potentiality.
+
+I am not at all contending that the problem of counterfactuals is logically or psychologically the first of these related problems. It makes little difference where we start if we can go ahead. If the study of counterfactuals has up to now failed this pragmatic test, the alternative approaches are little better off.
+
+¹ My indebtedness in several matters to the work of C. I. Lewis has seemed too obvious to call for detailed mention.
+
+---
+
+**[Page 4]** [Note: Page numbering in the text starts at 3, but the screenshot numbering follows the PDF file, where this is Page 18. The actual page number is 4.]
+
+**COUNTERFACTUAL CONDITIONALS**
+
+What, then, is the *problem* about counterfactual conditionals? Let us confine ourselves to those in which antecedent and consequent are inalterably false—as, for example, when I say of a piece of butter that was eaten yesterday, and that had never been heated,
+
+If that piece of butter had been heated to 150° F., it would have melted.
+
+Considered as truth-functional compounds, all counterfactuals are of course true, since their antecedents are false. Hence
+
+If that piece of butter had been heated to 150° F., it would not have melted
+
+would also hold. Obviously something different is intended, and the problem is to define the circumstances under which a given counterfactual holds while the opposing conditional with the contradictory consequent fails to hold. And this criterion of truth must be set up in the face of the fact that a counterfactual by its nature can never be subjected to any direct empirical test by realizing its antecedent.
+
+In one sense the name "problem of counterfactuals" is misleading, because the problem is independent of the form in which a given statement happens to be expressed. The problem of counterfactuals is equally a problem of factual conditionals, for any counterfactual can be transposed into a conditional with a true antecedent and consequent; e.g.,
+
+Since that butter did not melt, it wasn't heated to 150° F.
+
+The possibility of such transformation is of no great importance except to clarify the nature of our problem. That
+
+---
+
+**[Page 5]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+"since" occurs in the contrapositive shows that what is in question is a certain kind of connection between the two component sentences; and the truth of statements of this kind—whether they have the form of counterfactual or factual conditionals or some other form—depends not upon the truth or falsity of the components but upon whether the intended connection obtains. Recognizing the possibility of transformation serves mainly to focus attention on the central problem and to discourage speculation as to the nature of counterfacts. Although I shall begin my study by considering counterfactuals as such, it must be borne in mind that a general solution would explain the kind of connection involved irrespective of any assumption as to the truth or falsity of the components.
+
+The effect of transposition upon conditionals of another kind, which I call "semifactuals", is worth noticing briefly. Should we assert
+
+Even if the match had been scratched, it still would not have lighted,
+
+we would uncompromisingly reject as an equally good expression of our meaning the contrapositive,
+
+Even if the match lighted, it still wasn't scratched.
+
+Our original intention was to affirm not that the non-lighting could be inferred from the scratching, but simply that the lighting could *not* be inferred from the scratching. Ordinarily a semifactual conditional has the force of denying what is affirmed by the opposite, fully counterfactual conditional. The sentence
+
+Even had that match been scratched, it still wouldn't have lighted
+
+**[Page 6]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+is normally meant as the direct negation of
+
+Had the match been scratched, it would have lighted.
+
+That is to say, in practice full counterfactuals affirm, while semifactuals deny, that a certain connection obtains between antecedent and consequent.² Thus it is clear why a semifactual generally has the same meaning as its contrapositive.
+
+There are various special kinds of counterfactuals that present special problems. An example is the case of 'counteridenticals', illustrated by the statements
+
+If I were Julius Caesar, I wouldn't be alive in the twentieth century,
+
+and
+
+If Julius Caesar were I, he would be alive in the twentieth century.
+
+Here, although the antecedent in the two cases is a statement of the same identity, we attach two different consequents which, on the very assumption of that identity, are incompatible. Another special class of counterfactuals is that of the 'countercomparatives', with antecedents such as
+
+If I had more money, . . . .
+
+The trouble with these is that when we try to translate the counterfactual into a statement about a relation between
+
+² The practical import of a semifactual is thus different from its literal import. Literally a semifactual and the corresponding counterfactual are not contradictories but contraries, and both may be false (cf. Note I.9 below). The presence of the auxiliary terms "even" and "still", or either of them, is perhaps the idiomatic indication that a not quite literal meaning is intended.
+
+---
+
+**[Page 7]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+two tenseless, non-modal sentences, we get as an antecedent something like
+
+If "I have more money than I have" were true, . . . ,
+
+which wrongly represents the original antecedent as self-contradictory. Again there are the 'counterlegals', conditionals with antecedents that either deny general laws directly, as in
+
+If triangles were squares, . . . ,
+
+or else make a supposition of particular fact that is not merely false but impossible, as in
+
+If this cube of sugar were also spherical, . . . .
+
+Counterfactuals of all these kinds offer interesting but not insurmountable special difficulties.³ In order to concentrate upon the major problems concerning counterfactuals in general, I shall usually choose my examples in such a way as to avoid these more special complications.
+
+As I see it, there are two major problems, though they are not independent and may even be regarded as aspects of a single problem. A counterfactual is true if a certain connection obtains between the antecedent and the con-
+
+³ Of the special kinds of counterfactuals mentioned, I shall have something to say later about counteridenticals and counterlegals. As for countercomparatives, the following procedure is appropriate:—Given "If I had arrived one minute later, I would have missed the train", first expand this to "I arrived at a given time. If I had arrived one minute later than that, I would have missed the train". The counterfactual conditional constituting the final clause of this conjunction can then be treated in the usual way. Translation into "If 'I arrive one minute later than the given time' were true, then 'I miss the train' would have been true" does not give us a self-contradictory component.
+
+---
+
+**[Page 8]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+sequent. But as is obvious from examples already given, the consequent seldom follows from the antecedent by logic alone. (1) In the first place, the assertion that a connection holds is made on the presumption that certain circumstances not stated in the antecedent obtain. When we say
+
+If that match had been scratched, it would have lighted,
+
+we mean that conditions are such—i.e. the match is well made, is dry enough, oxygen enough is present, etc.—that "That match lights" can be inferred from "That match is scratched". Thus the connection we affirm may be regarded as joining the consequent with the conjunction of the antecedent and other statements that truly describe relevant conditions. Notice especially that our assertion of the counterfactual is not conditioned upon these circumstances obtaining. We do not assert that the counterfactual is true *if* the circumstances obtain; rather, in asserting the counterfactual we commit ourselves to the actual truth of the statements describing the requisite relevant conditions. The first major problem is to define relevant conditions: to specify what sentences are meant to be taken in conjunction with an antecedent as a basis for inferring the consequent. (2) But even after the particular relevant conditions are specified, the connection obtaining will not ordinarily be a logical one. The principle that permits inference of
+
+That match lights
+
+from
+
+That match is scratched. That match is dry enough. Enough oxygen is present. Etc.
+
+---
+
+**[Page 9]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+is not a law of logic but what we call a natural or physical or causal law. The second major problem concerns the definition of such laws.
+
+*2. The Problem of Relevant Conditions*
+
+It might seem natural to propose that the consequent follows by law from the antecedent and a description of the actual state-of-affairs of the world, that we need hardly define relevant conditions because it will do no harm to include irrelevant ones. But if we say that the consequent follows by law from the antecedent and *all* true statements, we encounter an immediate difficulty:—among true sentences is the negate of the antecedent, so that from the antecedent and all true sentences everything follows. Certainly this gives us no way of distinguishing true from false counterfactuals.
+
+We are plainly no better off if we say that the consequent must follow from *some* set of true statements conjoined with the antecedent; for given any counterfactual antecedent *A*, there will always be a set *S*—namely, the set consisting of *not-A*—such that from *A·S* any consequent follows. (Hereafter I shall regularly use the following symbols: "*A*" for the antecedent; "*C*" for the consequent; "*S*" for the set of statements of the relevant conditions or, indifferently, for the conjunction of these statements.)
+
+Perhaps then we must exclude statements logically incompatible with the antecedent. But this is insufficient; for a parallel difficulty arises with respect to true statements which are not logically but are otherwise incompatible with the antecedent. For example, take
+
+If that radiator had frozen, it would have broken.
+
+---
+
+**[Page 10]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+Among true sentences may well be (*S*)
+
+That radiator never reached a temperature below 33° F.
+
+Now we have as true generalizations both
+
+All radiators that freeze but never reach below 33° F. break,
+
+and also
+
+All radiators that freeze but never reach below 33° F. fail to break;
+
+for there are no such radiators. Thus from the antecedent of the counterfactual and the given *S*, we can infer any consequent.
+
+The natural proposal to remedy this difficulty is to rule that counterfactuals cannot depend upon empty laws; that the connection can be established only by a principle of the form "All *x*'s are *y*'s" when there are some *x*'s. But this is ineffective. For if empty principles are excluded, the following non-empty principles may be used in the case given with the same result:
+
+Everything that is either a radiator that freezes but does not reach below 33° F., or that is a soap bubble, breaks;
+
+Everything that is either a radiator that freezes but does not reach below 33° F., or is powder, does not break.
+
+By these principles we can infer any consequent from the *A* and *S* in question.
+
+The only course left open to us seems to be to define relevant conditions as the set of all true statements each of which is both logically and non-logically compatible with *A* where non-logical incompatibility means violation of a
+
+---
+
+**[Page 11]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+non-logical law.⁴ But another difficulty immediately appears. In a counterfactual beginning
+
+If Jones were in Carolina, . . .
+
+the antecedent is entirely compatible with
+
+Jones is not in South Carolina
+
+and with
+
+Jones is not in North Carolina
+
+and with
+
+North Carolina plus South Carolina is identical with Carolina;
+
+but all these taken together with the antecedent make a set that is self-incompatible, so that again any consequent would be forthcoming.
+
+Clearly it will not help to require only that for *some* set *S* of true sentences, *A·S* be self-compatible and lead by law to the consequent; for this would make a true counterfactual of
+
+If Jones were in Carolina, he would be in South Carolina,
+
+and also of
+
+If Jones were in Carolina, he would be in North Carolina,
+
+which cannot both be true.
+
+It seems that we must elaborate our criterion still further, to characterize a counterfactual as true if and only if there is some set *S* of true statements such that *A·S* is self-compatible and leads by law to the consequent, while there
+
+⁴ This of course raises very serious questions, which I shall come to presently, about the nature of non-logical law.
+
+---
+
+**[Page 12]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+is no such set *S'* such that *A·S'* is self-compatible and leads by law to the negate of the consequent.⁵ Unfortunately even this is not enough. For among true sentences will be the negate of the consequent: *—C*. Is *—C* compatible with *A* or not? If not, then *A* alone without any additional conditions must lead by law to *C*. But if *—C* is compatible with *A* (as in most cases), then if we take *—C* as our *S*, the conjunction *A·S* will give us *—C*. Thus the criterion we have set up will seldom be satisfied; for since *—C* will normally be compatible with *A*, as the need for introducing relevant conditions testifies, there will normally be an *S* (namely, *—C*) such that *A·S* is self-compatible and leads by law to *—C*.
+
+Part of our trouble lies in taking too narrow a view of our problem. We have been trying to lay down conditions under which an *A* that is known to be false leads to a *C* that is known to be false; but it is equally important to make sure that our criterion does not establish a similar connection between our *A* and the (true) negate of *C*. Because our *S* together with *A* was to be so chosen as to give us *C*, it seemed gratuitous to specify that *S* must be compatible with *C*; and because *—C* is true by supposition, *S* would necessarily be compatible with it. But we are testing whether our criterion not only admits the true counterfactual we are concerned with but also excludes the
+
+⁵ Note that the requirement that *A·S* be self-compatible can be fulfilled only if the antecedent is self-compatible; hence the conditionals I have called "counterlegals" will all be false. This is convenient for our present purpose of investigating counterfactuals that are not counterlegals. If it later appears desirable to regard all or some counterlegals as true, special provisions may be introduced.
+
+---
+
+**[Page 13]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+opposing conditional. Accordingly, our criterion must be modified by specifying that *S* be compatible with both *C* and *—C*.⁶ In other words, *S* by itself must not decide between *C* and *—C*, but *S* together with *A* must lead to *C* but not to *—C*. We need not know whether *C* is true or false.
+
+Our rule thus reads that a counterfactual is true if and only if there is some set *S* of true sentences such that *S* is compatible with *C* and with *—C*, and such that *A·S* is self-compatible and leads by law to *C*; while there is no set *S'* compatible with *C* and with *—C*, and such that *A·S'* is self-compatible and leads by law to *—C*.⁷ As thus stated, the rule involves a certain redundancy; but simplification is not in point here, for the criterion is still inadequate.
+
+The requirement that *A·S* be self-compatible is not strong enough; for *S* might comprise true sentences that although compatible with *A*, were such that *they would*
+
+⁶ It is natural to inquire whether for similar reasons we should stipulate that *S* must be compatible with both *A* and *—A*, but this is unnecessary. For if *S* is incompatible with *—A*, then *A* follows from *S*; therefore if *S* is compatible with both *C* and *—C*, then *A·S* cannot lead by law to one but not the other. Hence no sentence incompatible with *—A* can satisfy the other requirements for a suitable *S*.
+
+⁷ Since the first edition of this book, W. T. Parry has pointed out that no counterfactual satisfies this formula; for one can always take *—(A·—C)* as *S*, and take *—(A·C)* as *S'*. Thus we must add the requirement that neither *S* nor *S'* follows by law from *—A*. Of course this does not alleviate the further difficulties explained in the following paragraphs of the text above. (See Parry's 'Reexamination of the Problem of Counterfactual Conditionals', *Journal of Philosophy*, vol. 54 [1957], pp. 85-94, and my 'Parry on Counterfactuals', same journal, same volume, pp. 442-5.)
+
+---
+
+**[Page 14]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+*not be true if A were true*. For this reason, many statements that we would regard as definitely false would be true according to the stated criterion. As an example, consider the familiar case where for a given match *m*, we would affirm
+
+(i) If match *m* had been scratched, it would have lighted,
+
+but deny
+
+(ii) If match *m* had been scratched, it would not have been dry.⁸
+
+According to our tentative criterion, statement (ii) would be quite as true as statement (i). For in the case of (ii), we may take as an element in our *S* the true sentence
+
+Match *m* did not light,
+
+which is presumably compatible with *A* (otherwise nothing would be required along with *A* to reach the opposite as the consequent of the true counterfactual statement (i)). As our total *A·S* we may have
+
+Match *m* is scratched. It does not light. It is well made. Oxygen enough is present . . . etc.;
+
+and from this, by means of a legitimate general law, we can infer
+
+It was not dry.
+
+And there would seem to be no suitable set of sentences *S'* such that *A·S'* leads by law to the negate of this conse-
+
+⁸ Of course, some sentences similar to (ii), referring to other matches under special conditions, may be true; but the objection to the proposed criterion is that it would commit us to many such statements that are patently false. I am indebted to Morton G. White for a suggestion concerning the exposition of this point.
+
+---
+
+**[Page 15]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+quent. Hence the unwanted counterfactual is established in accord with our rule. The trouble is caused by including in our *S* a true statement which though compatible with *A* would not be true if *A* were. Accordingly we must exclude such statements from the set of relevant conditions; *S*, in addition to satisfying the other requirements already laid down, must be *merely compatible* with *A* but 'jointly tenable' or *cotenable* with *A*. *A* is cotenable with *S*, and the conjunction *A·S* self-cotenable, if it is not the case that *S* would not be true if *A* were.⁹
+
+Parenthetically it may be noted that the relative fixity of conditions is often unclear, so that the speaker or writer has to make explicit additional provisos or give subtle verbal clues as to his meaning. For example, each of the following two counterfactuals would normally be accepted:
+
+If New York City were in Georgia, then New York City would be in the South.
+
+If Georgia included New York City, then Georgia would not be entirely in the South.
+
+Yet the antecedents are logically indistinguishable. What happens is that the direction of expression becomes important, because in the former case the meaning is
+
+⁹ The double negative cannot be eliminated here; for ". . . if *S* would be true if *A* were" actually constitutes a stronger requirement. As we noted earlier (Note I.2), if two conditionals having the same counterfactual antecedent are such that the consequent of one is the negate of the consequent of the other, the conditionals are contraries and both may be false. This will be the case, for example, if every otherwise suitable set of relevant conditions that in conjunction with the antecedent leads by law either to a given consequent or its negate leads also to the other.
+
+---
+
+**[Page 16]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+If New York City were in Georgia, and the boundaries of Georgia remained unchanged, then . . . ,
+
+while in the latter case the meaning is
+
+If Georgia included New York City, and the boundaries of New York City remained unchanged, then . . . .
+
+Without some such cue to the meaning as is overtly given by the word-order, we should be quite uncertain which of the two consequents in question could be truly attached. The same kind of explanation accounts for the paradoxical pairs of counteridenticals mentioned earlier.
+
+Returning now to the proposed rule, I shall neither offer further corrections of detail nor discuss whether the requirement that *S* be cotenable with *A* makes superfluous some other provisions of the criterion; for such matters become rather unimportant beside the really serious difficulty that now confronts us. In order to determine the truth of a given counterfactual it seems that we have to determine, among other things, whether there is a suitable *S* that is cotenable with *A* and meets certain further requirements. But in order to determine whether or not a given *S* is cotenable with *A*, we have to determine whether or not the counterfactual "If *A* were true, then *S* would not be true" is itself true. But this means determining whether or not there is a suitable *S₁*, cotenable with *A*, that leads to *—S* and so on. Thus we find ourselves involved in an infinite regressus or a circle; for cotenability is defined in terms of counterfactuals, yet the meaning of counterfactuals is defined in terms of cotenability. In other words to establish any counterfactual, it seems that we first have to determine the truth of another. If so, we can never explain a counterfactual except in terms of others, so that
+
+---
+
+**[Page 17]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+the problem of counterfactuals must remain unsolved.
+
+Though unwilling to accept this conclusion, I do not at present see any way of meeting the difficulty. One naturally thinks of revising the whole treatment of counterfactuals in such a way as to admit first those that depend on no conditions other than the antecedent, and then use these counterfactuals as the criteria for the cotenability of relevant conditions with antecedents of other counterfactuals, and so on. But this idea seems initially rather unpromising in view of the formidable difficulties of accounting by such a step-by-step method for even so simple a counterfactual as
+
+If the match had been scratched, it would have lighted.
+
+*3. The Problem of Law*
+
+Even more serious is the second of the problems mentioned earlier: the nature of the *general statements* that enable us to infer the consequent upon the basis of the antecedent and the statement of relevant conditions. The distinction between these connecting principles and relevant conditions is imprecise and arbitrary; the 'connecting principles' might be conjoined to the condition-statements, and the relation of the antecedent-conjunction (*A·S*) to the consequent thus made a matter of logic. But the same problems would arise as to the kind of principle that is capable of sustaining a counterfactual; and it is convenient to consider the connecting principles separately.
+
+In order to infer the consequent of a counterfactual from the antecedent *A* and a suitable statement of relevant conditions *S*, we make use of a general statement; namely,
+
+**[Page 18]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+the generalization¹⁰ of the conditional having *A·S* for antecedent and *C* for consequent. For example, in the case of
+
+If the match had been scratched, it would have lighted
+
+the connecting principle is
+
+Every match that is scratched, well made, dry enough, in enough oxygen, etc., lights.
+
+But notice that *not every* counterfactual is actually sustained by the principle thus arrived at, *even if that principle is true*. Suppose, for example, that all I had in my right pocket on VE day was a group of silver coins. Now we would not under normal circumstances affirm of a given penny *P*
+
+If *P* had been in my pocket on VE day, *P* would have been silver,¹¹
+
+even though from
+
+*P* was in my pocket on VE day
+
+¹⁰ The sense of "generalization" intended here is that explained by C. G. Hempel in 'A Purely Syntactical Definition of Confirmation', *Journal of Symbolic Logic*, vol. 8 (1943), pp. 122-43. See also III.3, below.
+¹¹ The antecedent in this example is intended to mean "If *P*, while remaining distinct from the things that were in fact in my pocket on VE day, had also been in my pocket then", and *not* the quite different, counteridentical "If *P* had been identical with one of the things that were in my pocket on VE day". While the antecedents of most counterfactuals (as, again, our familiar one about the match) are—literally speaking—open to both sorts of interpretation, ordinary usage normally calls for some explicit indication when the counteridentical meaning is intended.
+
+---
+
+**[Page 19]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+we can infer the consequent by means of the general statement
+
+Everything in my pocket on VE day was silver.
+
+On the contrary, we would assert that if *P* had been in my pocket, then this general statement would not be true. The general statement will *not permit* us to infer the given consequent from the counterfactual assumption that *P* was in my pocket, because the general statement will not itself withstand that counterfactual assumption. Though the supposed connecting principle is indeed general, true, and perhaps even fully confirmed by observation of all cases, it is incapable of sustaining a counterfactual because it remains a description of accidental fact, not a law. The truth of a counterfactual conditional thus seems to depend on whether the general sentence required for the inference is a law or not. If so, our problem is to distinguish accurately between causal laws and casual facts.¹²
+
+The problem illustrated by the example of the coins is closely related to that which led us earlier to require the cotenability of the antecedent and the relevant conditions, in order to avoid resting a counterfactual on any statement that would not be true if the antecedent were true. For decision as to the cotenability of two sentences depends partly upon decisions as to whether certain general statements are laws, and we are now concerned directly with
+
+¹² The importance of distinguishing laws from non-laws is too often overlooked. If a clear distinction can be defined, it may serve not only the purposes explained in the present paper but also many of those for which the increasingly dubious distinction between analytic and synthetic statements is ordinarily supposed to be needed.
+
+---
+
+**[Page 20]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+the latter problem. Is there some way of so distinguishing laws from non-laws, among true universal statements of the kind in question, that laws will be the principles that will sustain counterfactual conditionals?
+
+Any attempt to draw the distinction by reference to a notion of causative force can be dismissed at once as unscientific. And it is clear that no purely syntactical criterion can be adequate, for even the most special descriptions of particular fact can be cast in a form having any desired degree of syntactical universality. "*Book B* is small" becomes "Everything that is *Q* is small" if "*Q*" stands for some predicate that applies uniquely to *B*. What then does distinguish a law like
+
+All butter melts at 150° F.
+
+from a true and general non-law like
+
+All the coins in my pocket are silver?
+
+Primarily, I would like to suggest, the fact that the first is accepted as true while many cases of it remain to be determined, the further, unexamined cases being predicted to conform with it. The second sentence, on the contrary, is accepted as a description of contingent fact *after* the determination of all cases, no prediction of any of its instances being based upon it. This proposal raises innumerable problems, some of which I shall consider presently; but the idea behind it is just that the principle we use to decide counterfactual cases is a principle we are willing to commit ourselves to in deciding unrealized cases that are still subject to direct observation.
+
+As a first approximation then, we might say that a law is a true sentence used for making predictions. That laws are
+
+---
+
+**[Page 21]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+used predictively is of course a simple truism, and I am not proposing it as a novelty. I want only to emphasize the Humean idea that rather than a sentence being used for prediction because it is a law, it is called a law because it is used for prediction; and that rather than the law being used for prediction because it describes a causal connection, the meaning of the causal connection is to be interpreted in terms of predictively used laws.
+
+By the determination of all instances, I mean simply the examination or testing by other means of all things that satisfy the antecedent, to decide whether all satisfy the consequent also. There are difficult questions about the meaning of "instance", many of which Professor Hempel has investigated. Most of these are avoided in our present study by the fact that we are concerned with a very narrow class of sentences: those arrived at by generalizing conditionals of a certain kind. Remaining problems about the meaning of "instance" I shall have to ignore here. As for "determination", I do not mean final discovery of truth, but only enough examination to reach a decision as to whether a given statement or its negate is to be admitted as evidence for the hypothesis in question.
+
+Our criterion excludes vacuous principles as laws. The generalizations needed for sustaining counterfactual conditionals cannot be vacuous, for they must be supported by evidence.¹³ The limited scope of our present problem
+
+¹³ Had it been sufficient in the preceding section to require only that *A·S* be self-compatible, this requirement might now be eliminated in favor of the stipulation that the generalization of the conditional having *A·S* as antecedent and *C* as consequent should be non-vacuous; but this stipulation would not guarantee the self-cotenability of *A·S*.
+
+---
+
+**[Page 22]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+makes it unimportant that our criterion, if applied generally to all statements, would classify as laws many statements—e.g., true singular predictions—that we would not normally call laws.
+
+For convenience, I shall use the term "lawlike" for sentences that, whether they are true or not, satisfy the other requirements in the definition of law. A law is thus a sentence that is both lawlike and true, but a sentence may be true without being lawlike, as I have illustrated, or lawlike without being true, as we are always learning to our dismay.
+
+Now if we were to leave our definition as it stands, lawlikeness would be a rather accidental and ephemeral property. Only statements that happen actually to have been used for prediction would be lawlike. And a true sentence that had been used predictively would cease to be a law when it became fully tested—i.e., when none of its instances remained undetermined. The definition, then, must be restated in some such way as this: A general statement is lawlike if and only if it is acceptable prior to the determination of all its instances. This is immediately objectionable because "acceptable" itself is plainly a dispositional term; but I propose to use it only tentatively, with the idea of eliminating it eventually by means of a non-dispositional definition. Before trying to accomplish that, however, we must face another difficulty in our tentative criterion of lawlikeness.
+
+Suppose that the appropriate generalization fails to sustain a given counterfactual because that generalization, while true, is unlawlike, as is
+
+Everything in my pocket is silver.
+
+---
+
+**[Page 23]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+All we would need to do to get a law would be to broaden the antecedent strategically. Consider, for example, the sentence
+
+Everything that is in my pocket or is a dime is silver.
+
+Since we have not examined all dimes, this is a predictive statement and—since presumably true—would be a law. Now if we consider our original counterfactual and choose our *S* so that *A·S* is
+
+*P* is in my pocket. *P* is in my pocket or is a dime,
+
+then the pseudo-law just constructed can be used to infer from this the sentence "*P* is silver". Thus the untrue counterfactual is established. If one prefers to avoid an alternation as a condition-statement, the same result can be obtained by using a new predicate such as "dimo" to mean "is in my pocket or is a dime".¹⁴
+
+The change called for, I think, will make the definition of lawlikeness read as follows: A sentence is lawlike if its acceptance does not depend upon the determination of any given instance.¹⁵ Naturally this does not mean that
+
+¹⁴ Apart from the special class of connecting principles we are concerned with, note that under the stated criterion of lawlikeness, any statement could be expanded into a lawlike one; for example: given "This book is black" we could use the predictive sentence "This book is black and all oranges are spherical" to argue that the blackness of the book is the consequence of a law.
+¹⁵ So stated, the definition counts vacuous principles as laws. If we read instead "given class of instances", vacuous principles will be non-laws since their acceptance depends upon examination of the null class of instances. For my present purposes the one formulation is as good as the other.
+
+---
+
+**[Page 24]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+acceptance is to be independent of *all* determination of instances, but only that there is no *particular* instance on the determination of which acceptance depends. This criterion excludes from the class of laws a statement like
+
+That book is black and oranges are spherical
+
+on the ground that acceptance requires knowing whether the book is black; it excludes
+
+Everything that is in my pocket or is a dime is silver
+
+on the ground that acceptance demands examination of all things in my pocket. Moreover, it excludes a statement like
+
+All the marbles in this bag except Number 19 are red, and Number 19 is black
+
+on the ground that acceptance would depend on examination of or knowledge gained otherwise concerning marble Number 19. In fact the principle involved in the proposed criterion is a rather powerful one and seems to exclude most of the troublesome cases.
+
+We must still, however, replace the notion of the *acceptability* of a sentence, or of its acceptance *depending* or *not depending* on some given knowledge, by a positive definition of such dependence. It is clear that to say that the acceptance of a given statement depends upon a certain kind and amount of evidence is to say that given such evidence, acceptance of the statement is in accord with certain general standards for the acceptance of hypotheses that are not fully tested. So one turns naturally to theories of induction and confirmation to learn the distinguishing factors or circumstances that determine whether or not a sentence is acceptable without complete evidence. But
+
+---
+
+**[Page 25]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+publications on confirmation not only have failed to make clear the distinction between confirmable and non-confirmable statements, but show little recognition that such a problem exists.¹⁶ Yet obviously in the case of some sentences like
+
+Everything in my pocket is silver
+
+or
+
+No twentieth-century president of the United States will be between 6 feet 1 inch and 6 feet 1½ inches tall,
+
+not even the testing with positive results of all but a single instance is likely to lead us to accept the sentence and predict that the one remaining instance will conform to it; while for other sentences such as
+
+All dimes are silver
+
+or
+
+All butter melts at 150° F.
+
+or
+
+All flowers of plants descended from this seed will be yellow,
+
+positive determination of even a few instances may lead us to accept the sentence with confidence and make predictions in accordance with it.
+
+There is some hope that cases like these can be dealt with by a sufficiently careful and intricate elaboration of current confirmation theories; but inattention to the problem
+
+¹⁶ The points discussed in this and the following paragraph have been dealt with a little more fully in my 'A Query on Confirmation', *Journal of Philosophy*, vol. xliii (1946), pp. 383-5.
+
+---
+
+**[Page 26]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+of distinguishing between confirmable and non-confirmable sentences has left most confirmation theories open to more damaging counterexamples of an elementary kind.
+
+Suppose we designate the 26 marbles in a bag by the letters of the alphabet, using these merely as proper names having no ordinal significance. Suppose further that we are told that all the marbles except *d* are red, but we are not told what color *d* is. By the usual kind of confirmation theory this gives strong confirmation for the statement
+
+*Ra. Rb. Rc. Rd. . . . Rz*
+
+because 25 of the 26 cases are known to be favorable while none is known to be unfavorable. But unfortunately the same argument would show that the very same evidence would equally confirm
+
+*Ra. Rb. Rc. Re. . . . Rz. —Rd*,
+
+for again we have 25 favorable and no unfavorable cases. Thus "*Rd*" and "*—Rd*" are equally and strongly confirmed by the same evidence. If I am required to use a single predicate instead of both "R" and "—R" in the second case, I will use "P" to mean:
+
+is in the bag and either is not *d* and is red, or is *d* and is not red.
+
+Then the evidence will be 25 positive cases for
+
+All the marbles are P
+
+from which it follows that *d* is P, and thus that *d* is not red. The problem of what statements are confirmable merely becomes the equivalent problem of what predicates are projectible from known to unknown cases.
+
+So far, I have discovered no way of meeting these diffi-
+
+---
+
+**[Page 27]**
+
+**COUNTERFACTUAL CONDITIONALS**
+
+culties. Yet as we have seen, some solution is urgently wanted for our present purpose; for only where willingness to accept a statement involves predictions of instances that may be tested does acceptance endow that statement with the authority to govern counterfactual cases, which cannot be directly tested.
+
+In conclusion, then, some problems about counterfactuals depend upon the definition of cotenability, which in turn seems to depend upon the prior solution of those problems. Other problems require an adequate definition of law. The tentative criterion of law here proposed is reasonably satisfactory in excluding unwanted kinds of statements, and in effect, reduces one aspect of our problem to the question how to define the circumstances under which a statement is acceptable independently of the determination of any given instance. But this question I do not know how to answer.
+
+---
+
+**[Page 30]**
+
+**PROJECT**
+
+1953
+
+*The three chapters to follow are somewhat revised versions of the Special Lectures in Philosophy delivered at the University of London on May 21, 26 and 28, 1953. The first of the three was repeated at Harvard University on December 2 of the same year. All are now published for the first time. The Introductory Notes to this book (pp. xvii–xxv) contain some remarks on the relationship between these three chapters and the preceding one.*
+
+---
+
+**[Page 31]**
+
+**II**
+
+**THE PASSING OF THE POSSIBLE**
+
+*1. Foreword: On the Philosophic Conscience*
+
+In life our problems often result from our indulgences; in philosophy they derive rather from our abnegations. Yet if life is not worthwhile without its enjoyments, philosophy hardly exists without its restraints. A philosophic problem is a call to provide an adequate explanation in terms of an acceptable basis. If we are ready to tolerate everything as understood, there is nothing left to explain; while if we sourly refuse to take anything, even tentatively, as clear, no explanation can be given. What intrigues us as a problem, and what will satisfy us as a solution, will depend upon the line we draw between what is already clear and what needs to be clarified.
+
+Yet I am afraid that we are nowhere near having any sound general principle for drawing this line. Surely I need not in this place and before this audience recount the tragic history of the verification theory of meaning.¹ The failure of this gallant effort to distinguish sense from nonsense,
+
+¹ I allude here, of course, to A. J. Ayer's diligent but unsuccessful attempts to formulate the theory; see his *Language, Truth, and Logic*, London, 1946, pp. 5–16, 35–42. For a compact but comprehensive survey of the matter, see Hempel's article 'Problems and Changes in the Empiricist Criterion of Meaning' in *Revue Internationale de Philosophie*, vol. iv (1950), pp. 41-63. A verification
+
+---
+
+**[Page 32]**
+
+**THE PASSING OF THE POSSIBLE**
+
+like the failure of various worthy efforts to codify the difference between right and wrong, has encouraged in some quarters the libertine doctrine that anything goes. The perverse maxim that whatever you can get away with is right has its counterpart in the claim that whatever works is clear. So crude a pragmatism deserves mention only because it seems to be spreading. I may not *understand* the devices I employ in making useful computations or predictions any more than the housewife understands the car she drives to bring home the groceries. The utility of a notion testifies not to its clarity but rather to the philosophic importance of clarifying it.
+
+In the absence of any convenient and reliable criterion of what is clear, the individual thinker can only search his philosophic conscience. As is the way with consciences, it is elusive, variable, and too easily silenced in the face of hardship or temptation. At best it yields only specific judgments rather than general principles; and honest judgments made at different times or by different persons may differ in any degree. Indeed this talk of conscience is simply a figurative way of disclaiming any idea of justifying these basic judgments. Beyond making them carefully
+
+criterion of meaningfulness was earnestly sought as a definitive basis for ruling out of court an immense amount of philosophical rubbish. But to find a formula that will do that without ruling out at the same time a good deal of perfectly respectable scientific theory has proved embarrassingly difficult. The disproportionate emphasis put on the problem has resulted in gross exaggeration of the consequences of the failure to solve it. Lack of a general theory of goodness does not turn vice into virtue; and lack of a general theory of significance does not turn empty verbiage into illuminating discourse.
+
+---
+
+**[Page 33]**
+
+**THE PASSING OF THE POSSIBLE**
+
+and declaring them loudly, about all we can do is to disparage any alternatives. If your conscience is more liberal than mine, I shall call some of your explanations obscure or metaphysical, while you will dismiss some of my problems as trivial or quixotic.
+
+All this is by way of preface to declaring that some of the things that seem to me unacceptable without explanation are powers or dispositions, counterfactual assertions, entities or experiences that are possible but not actual, neutrinos, angels, devils, and classes. Concerning the last of these, I have had a good deal to say elsewhere,² and I shall not press the point in these lectures. I shall use the language of classes rather freely because means have now been provided for giving a satisfactory interpretation of most ordinary statements about classes, and because I don't want to grind too many axes at once. Some other items on my list—angels and devils—enter so little into my daily discourse or into scientific discussions that I can wait patiently a long time for them to be explained. As for neutrinos and some other particles of physics, I think they are as yet beyond our philosophic reach. But the interrelated problems of dispositions, counterfactuals, and possibles are among the most urgent and most pervasive that confront us today in the theory of knowledge and the philosophy of science. It is this cluster of problems that I want to discuss in these lectures.
+
+My sample listing of suspect notions is of course far from complete. Some of my other prejudices will be revealed by what I abjure in seeking a solution to the problems
+
+² See my book *The Structure of Appearance*, 3d ed. (Dordrecht: D. Reidel, 1977), chap. II, sec. 2–3, and the articles there cited.
+
+---
+
+**[Page 34]**
+
+**THE PASSING OF THE POSSIBLE**
+
+mentioned. For example, I shall not rely on the distinction between causal connections and accidental correlations, or on the distinction between essential and accidental properties, or on the distinction between analytic and synthetic statements. You may decry some of these scruples and protest that there are more things in heaven and earth than are dreamt of in my philosophy. I am concerned, rather, that there should not be more things dreamt of in my philosophy than there are in heaven or earth.
+
+Today let us examine briefly first the problem of counterfactuals, second the problem of dispositions, and finally the problem of possible entities. The reasons for this ordering will become apparent as we proceed.
+
+*2. Counterfactuals*
+
+A common habit of speech, a recent trend in philosophy, and the apparent ease of expressing in counterfactual form what we want to say about dispositions and possible entities make it natural to begin with the problem of counterfactual conditionals. Nowadays I think few of us are any longer willing to accept a counterfactual conditional, however impressively intoned, as providing in itself an explanation that requires no further analysis. The legal mind investigating the question what is meant by the value of real estate may rest content with the pronouncement that the value is the price the property would bring if it were sold by a willing seller to a willing buyer; but the philosopher (at least I) will regard this as reframing the question rather than answering it.
+
+Nevertheless, replacement of a statement like
+
+*k* was flexible at time *t*
+
+---
+
+**[Page 35]**
+
+**THE PASSING OF THE POSSIBLE**
+
+by a statement like
+
+If *k* had been under suitable pressure at time *t*, then *k* would have bent
+
+has obvious promise as a step towards clarification. The disposition-term "flexible" is eliminated without the introduction of any such troublesome word as "possible"; only non-dispositional predicates appear to remain, even if they are slightly jaundiced with a modal inflection. Moreover, the counterfactual formulation seems already to effect at least a preliminary analysis, since a conditional is made up of simpler statements. Indeed, if we interpret the counterfactual conditional as saying
+
+If the statement "*k* was under suitable pressure at time *t*" were true, then the statement "*k* bent at time *t*" would be true,
+
+the modality is removed from the predicates and we may focus attention upon the relationship affirmed to hold between two simple indicative statements. By thus moving to the plane of relations between statements, we feel that we have exchanged an ontological problem for a linguistic one.³ Also, we half-consciously expect that the truth-functional treatment of ordinary indicative conditionals will somehow serve as a helpful model for the analysis of counterfactuals. All these factors, I think—together with the prospect of acquiring at a single stroke the means for dealing with a whole tangle of problems—have contributed to a notable quickening of philosophical interest in the counterfactual conditional during the past few years.
+
+³ Cf. the discussion in Morton White's 'Ontological Clarity and Semantic Obscurity' in the *Journal of Philosophy*, vol. xlviii (1951), pp. 373-80.
+
+---
+
+**[Page 36]**
+
+**THE PASSING OF THE POSSIBLE**
+
+Plainly, the truth-value of a counterfactual does not derive simply from the truth-value of its components; for since the antecedent and consequent of every counterfactual are both false,⁴ all counterfactuals will have the same truth-value by any truth-functional criterion. Counterfactual connection must be defined in some quite different way. Some philosophers, or course, prefer to regard counterfactuals as rules or licenses for making inferences rather than as statements that are true or false. But whether we are seeking to distinguish valid from invalid licenses, the task is to discover the necessary and sufficient conditions under which counterfactual coupling of antecedent and consequent is warranted.
+
+The relationship between the component statements of a true counterfactual is seldom a matter of logical implication. The statement
+
+Match *m* lit at time *t*
+
+does not follow by any familiar logical principle from the statement
+
+Match *m* was scratched at time *t*;
+
+there is an appeal to a general physical principle about matches. But two difficulties arise.
+
+In the first place, matches do not always light when scratched. They light only if attendant circumstances are propitious. Let us, for easy reference, give the name "*S*" to the counterfactual statement
+
+⁴ Although I use the term "counterfactual" thus narrowly here, convenience is often served by including semifactuals—with false antecedents and true consequents—among the counterfactuals.
+
+---
+
+**[Page 37]**
+
+**THE PASSING OF THE POSSIBLE**
+
+If *m* had been scratched at *t*, then *m* would have lit.
+
+*S* does not merely affirm that if the circumstances had been propitious then the match would have lit; *S* affirms that the circumstances *were* propitious. A counterfactual is true if and only if the antecedent conjoined with relevant true statements about the attendant circumstances leads by way of a true general principle to the consequent. But what statements are relevant? Surely not, in the case of *S*, all true statements about *m* at *t*; for some of these (e.g. "*m* was not scratched at *t*", and "*m* did not light at *t*") are incompatible with the antecedent or with the consequent. We soon find that other exclusions are needed; and after a long series of failures to arrive at a competent formula that is not itself counterfactual and therefore question-begging, we come to recognize this aspect of the problem is very troublesome.⁵
+
+In the second place, not every true general principle is capable of sustaining a counterfactual conditional. It is true that every person now in this room is safe from freezing. It is also true that every person now in this room is English-speaking. Now consider a certain Eskimo who is at this moment nearly frozen to death somewhere in the Arctic. If he were now in this room he would be safe from freezing, but he would not be English-speaking. What makes the difference? We may say that the generalization about safety from freezing expresses a causal relationship
+
+⁵ But it is often neglected in published discussions of counterfactuals. The problem of relevant conditions—most acutely felt as the problem of cotenability (see I.2)—does not, as some writers seem to suppose, reduce in any ready and obvious way to the problem of law.
+
+---
+
+**[Page 38]**
+
+**THE PASSING OF THE POSSIBLE**
+
+or follows from a *law*, while the generalization about knowledge of English is only contingently or accidentally true; but to define this distinction is a delicate matter. Since we shall soon encounter the problem again, I shall go into no details at the moment; but this second aspect of the problem of counterfactuals, like the first, is formidable enough to have defied many intensive efforts to solve it.
+
+These difficulties and the unsullied record of frustration in attempting to meet them have pretty thoroughly deflated our initial hope of finding a relatively easy approach to our problems through the study of the counterfactual conditional. We are still a very long way from having a solution to the problem of counterfactuals;⁶ and by this time we may be ready to try another tack. After a number of years of beating our heads against the same wall and of chasing eagerly up the same blind alleys, we may welcome a change in strategy if only for its psychological benefits. But I think there are at least two better reasons for turning our attention for a while to the problem of dispositions.
+
+First, in dealing with counterfactuals we are looking less at what is said than at the way it is said. We are expressly concerning ourselves with a *form* of statement; and the pattern of analysis we seek is largely dictated by
+
+⁶ I am not alone in this opinion. For example, Roderick Chisholm in a review in *Philosophy and Phenomenological Research* for September 1953 (vol. 14), p. 120, has just written concerning my article on counterfactuals: "It is safe to say, I think, that the extensive amount of material which has subsequently been published on this difficult philosophical problem has not thrown any additional light upon it."
+
+---
+
+**[Page 39]**
+
+**THE PASSING OF THE POSSIBLE**
+
+the structure of the conditional. This structure, although it promised at the outset to be a valuable aid, may actually have become a hindrance. The very disanalysis effected by returning to consider dispositional statements, which are indicative and simple in form, may free us to explore a better scheme of analysis.
+
+Second, I suspect that the problem of dispositions is really simpler than the problem of counterfactuals. This may sound strange in view of the apparent full convertibility between dispositional and counterfactual statements; but it turns out that ordinary dispositional statements often correspond to abnormally weak counterfactuals. Suppose that *w* is a piece of dry wood during a given brief period of time. We commonly suppose that a statement like
+
+*w* is inflammable
+
+amounts to some such normal counterfactual as
+
+If *w* had been heated enough, it would have burned.
+
+Once we look more closely, however, we can readily describe circumstances—for example, a lack of oxygen near *w*—under which the dispositional statement is true and the counterfactual false. For a translation guilty of no discrepancies like this we should be forced back to some such fainthearted counterfactual as
+
+If all conditions had been propitious and *w* had been heated enough, it would have burned.
+
+To speak very loosely, the dispositional statement says something exclusively about the 'internal state' of *w*, while our original counterfactual says in addition some-
+
+---
+
+**[Page 40]**
+
+**THE PASSING OF THE POSSIBLE**
+
+thing about the surrounding circumstances; but the important point is that the dispositional statement is the weaker. And in the margin of difference may lie some of the obstacles that have blocked our way so far.
+
+These, then, are some of the reasons for dropping the problem of counterfactuals for a time and seeing what can be done about the problem of dispositions; but I am by no means suggesting that this reorientation solves anything by itself or opens any royal road to progress.
+
+*3. Dispositions*
+
+Besides the observable properties it exhibits and the actual processes it undergoes, a thing is full of threats and promises. The dispositions or capacities of a thing—its flexibility, its inflammability, its solubility—are no less important to us than its overt behavior, but they strike us by comparison as rather ethereal. And so we are moved to inquire whether we can bring them down to earth; whether, that is, we can explain disposition-terms without any reference to occult powers.
+
+Perhaps we ought to notice at the very beginning that more predicates than we sometimes suppose are dispositional. To say that a thing is hard, quite as much as to say that it is flexible, is to make a statement about potentiality. If a flexible object is one capable of bending under appropriate pressure, a hard object is one capable of resisting abrasion by most other objects. And for that matter, a red object is likewise one capable of certain color-appearances under certain lights; and a cubical object is one capable of fitting try squares and measuring instruments
+
+---
+
+**[Page 41]**
+
+**THE PASSING OF THE POSSIBLE**
+
+in certain ways. Indeed, almost every predicate commonly thought of as describing a lasting objective characteristic of a thing is as much a dispositional predicate as any other. To find non-dispositional, or manifest, predicates of things we must turn to those describing events—predicates like "bends", "breaks", "burns", "dissolves", "looks orange", or "tests square". To apply such a predicate is to say that something specific actually happens with respect to the thing in question; while to apply a dispositional predicate is to speak only of what *can* happen.⁷
+
+Now, however, we see that to put the problem of dispositions as a problem of explaining occult properties in terms of manifest ones is somewhat misleading. For even the manifest properties we have illustrated are hardly to be countenanced as elements of our universe. There are inflammable things and burning things but I should not want to say that there is any such entity as the attribute inflammable or the attribute burning. The predicate "burns" like the predicate "inflammable" is a word or label that applies to certain actual things and has the class of these things as its extension. Use of these predicates
+
+⁷ I have no illusion that this constitutes an adequate definition of the distinction between dispositional and manifest predicates. Indeed this distinction, like that between primitive and defined terms, may be a purely relative one. A predicate like "bends", for example, may be dispositional under a phenomenalistic system; and there may be no terms that are manifest—as there are no terms that are primitive—for all systems. The particular distinction drawn in the above text is thus perhaps best regarded as one chosen for the purpose of illustrating in a convenient and natural way the general problem of construing dispositional predicates on the basis of whatever predicates may be chosen as manifest.
+
+---
+
+**[Page 42]**
+
+**THE PASSING OF THE POSSIBLE**
+
+does not imply that they designate attributive entities;⁸ the predicates merely denote the things they apply to. A dispositional predicate, like a manifest predicate, is simply a term that applies to actual things; it need embrace no non-actuals in its extension.
+
+The peculiarity of dispositional predicates is that they seem to be applied to things in virtue of possible rather than actual occurrences—and possible occurrences are for us no more admissible as unexplained elements than are occult capacities. The problem, then, is to explain how we can assign a predicate to things solely on the basis of actual occurrences and yet in due accordance with ordinary or scientific usage. In other words, what we want is a criterion in terms of actual occurrences—that is, in terms of manifest predicates—for the correct assignment of dispositional predicates to things.
+
+The obvious first proposal is that a dispositional predicate is simply a summary description of certain aspects of the total history of a thing. Saying that an object is flexible is thus regarded as saying that it always bends whenever suitable pressure is applied. But the defects in this too-simple proposal are well-known. It results in ascribing flexibility to even the most rigid object that is never under
+
+⁸ Concerning the non-designative rôle of predicates, see various articles by W. V. Quine, most recently Essays I and II in his *From a Logical Point of View*, Cambridge (Mass.) and London, 1953. However, the reader's assent to Quine's views is not essential to my present purpose. I am primarily concerned above with pointing out that the problem about dispositional predicates does not arise from their failing to perform some designatory function that is performed by manifest predicates.
+
+---
+
+**[Page 43]**
+
+**THE PASSING OF THE POSSIBLE**
+
+suitable pressure; for such an object bends on all those occasions (none) when it is under suitable pressure. And this proposal belies the fact that an object that is under suitable pressure at various times and bends at all such times may yet be inflexible at some other time when, for example, its temperature is very low. In short, a dispositional predicate may apply to a thing when the correlative manifest predicate does not apply at all. A thing that never bends may yet be flexible; an inflammable thing may never burn to burn.
+
+The familiar and inevitable suggestion at this point is that a thing is flexible, even though it never bends, provided that it *would* bend if suitable pressure were applied. Then, however, we are no longer restricting ourselves to what actually happens but talking also about what fictively happens under certain possible conditions. Furthermore, we have seen that this way of translating dispositional statements is often inaccurate, and that anyhow no ground is gained by taking the problem of counterfactuals in trade for the problem of dispositions. Let us look for some more promising course.
+
+In dealing with a particular disposition, say flexibility, we may start with such predicates as "bends" and "(is) under suitable pressure". If both apply at one time, then the predicate "bends under suitable pressure" applies; while if "under suitable pressure" applies when "bends" does not, then the predicate "fails to bend under suitable pressure" applies. For simplicity, we may take as our things not long-enduring physical objects but temporal segments of such objects brief enough so that none covers any two separate occasions when the object is under suit-
+
+---
+
+**[Page 44]**
+
+**THE PASSING OF THE POSSIBLE**
+
+able pressure. We may also hereafter abbreviate "bends under suitable pressure" as "flexes" and "fails to bend under suitable pressure" as "fails to flex".
+
+Now "flexes" and "fails to flex" are mutually exclusive, and together they exhaust the realm of things that are under suitable pressure; but neither applies to anything outside that realm. Thus from the fact that "flexes" does not apply to a thing, we cannot in general infer that "fails to flex" does apply. Within the realm of things under suitable pressure, however, the two predicates not only effect a dichotomy but coincide exactly with "flexible" and "inflexible". What the dispositional predicates do is, so to speak, to project this dichotomy to a wider or even to the universal class of things; and a predicate like "flexible" may thus be regarded as an expansion or projection of a predicate like "flexes". The problem is to define such projections solely in terms of manifest predicates.
+
+Everyone knows, we are often told, that a thing not under pressure is called flexible if it is of the same kind as the things that flex; or in other words, that if among things under suitable pressure, "flexes" applies to all and only those that are of kind *K*, then "flexible" applies to all and only things that are of kind *K* whether they are under pressure or not. Nothing could be much simpler—or much less illuminating. For just when are two things of the same kind? Merely to belong to one class is not enough; for any two things belong to some one class. And to belong to *all* the same classes is far too much; for no two things belong to all the same classes. Perhaps, then, to be of the same kind is to have the same 'essential' properties? I shall spare you a diatribe on the notion of essen-
+
+---
+
+**[Page 45]**
+
+**THE PASSING OF THE POSSIBLE**
+
+tiality, and remark only that even should we take the distinction between essential and accidental for granted, it might not help much in the present context. For whereas our problem is to give an explanation in terms of manifest predicates, we might well find that only dispositional predicates are essential and all manifest predicates accidental.⁹
+
+What matters is not how essential a property is but how it is related to the manifest property we start from. If certain other manifest properties are somehow intimately connected with flexing, not merely casual accompaniments of it, exhibition of these properties by a thing not under pressure will be grounds for regarding the thing as flexible. In other words, we can define "flexible" if we find an auxiliary manifest predicate that is suitably related to "flexes" through 'causal' principles or *laws*. The problem of dispositions is to define the nature of the connection involved here: the problem of characterizing a relation such that if the initial manifest predicate "Q" stands in this relation to another manifest predicate "A", then "A" may be equated with the dispositional counterpart—"Q-able" or "Qd"—of the predicate "Q". But the question when such a 'causal' connection obtains or how laws are to be dis-
+
+⁹ For the essential characters of things are usually thought of as enduring, and it is the predicates for enduring characters that we normally regard as dispositional. Thus those who propose to deal with the problem of dispositions by means of classes defined in terms of the microcosmic structure of things often beg the question; for among the dispositional predicates they set out to explain lie the very predicates they need for describing these structures.
+
+---
+
+**[Page 46]**
+
+**THE PASSING OF THE POSSIBLE**
+
+tinguished from accidental truths is an especially perplexing one.
+
+In this grim picture, we can find one small note of comfort. Observe first that solution of the general problem will not automatically provide us with a definition for each dispositional predicate; we shall need additional special knowledge in order to find the auxiliary predicate that satisfies the general formula—i.e. that is related in the requisite way to the initial manifest predicate. But on the other hand, discovery of a suitable definition for a given dispositional predicate need not wait upon solution of the general problem. If luck or abundant special information turns up a manifest predicate "P" that we are confident coincides in its application with "flexible", we can use "P" as definiens for "flexible" without inquiring further about the nature of its connection with "flexes". This point needs to be borne in mind because in any investigation, even the present one, we may on occasion find it important progress can be made if one particular dispositional predicate can be defined. In that case, lack of a general formula ought not to deter us from a real try at defining the predicate in question.
+
+Some, of course, object that the effort to define ordinary physical disposition-terms is philosophically immoral.¹⁰ The scientist, it is held, never defines such a term;
+
+¹⁰ The view to be discussed in this and the following paragraph is by now so prevalent that I felt it must be dealt with here even at the cost of digressing from the main course of our investigation. See Carnap, 'Testability and Meaning' in *Philosophy of Science*, vol. 3 (1936), especially p. 449; Kaplan, 'Definition and Specification of Meaning' in the *Journal of Philosophy*, vol. xliii (1946), pp. 281-8—also my review of this article in the *Journal of Sym-*
+
+---
+
+**[Page 47]**
+
+**THE PASSING OF THE POSSIBLE**
+
+he partially and progressively specifies its meaning as he learns more and more. To represent scientific procedure accurately, then, we ought to introduce these terms as primitives, by means of postulates, and add new postulates as needed.¹¹ This does not bear on what I have called the general problem of dispositions but on the question of defining specific disposition-terms; yet even here the point seems to me ill-taken. Philosophy, to my way of thinking, has rather the function of explicating scientific—and everyday—language than of depicting scientific or everyday procedure. In its search for an exact and systematic application of terms, it need not reflect the manner or order of their presystematic adoption; rather it must seek maximum coherence and articulation. Thus a legitimate and sufficient incentive for introducing terms into the explanatory discourse by means of definition wherever possible, rather than as primitives, lies in the economy and resultant integration thereby achieved. The
+
+*bolic Logic*, vol. 11 (1946), p. 80; and Hempel, *Fundamentals of Concept Formation*, Chicago, 1952, pp. 28-9.
+¹¹ There are just two ways of introducing terms into a system: (1) as primitives, (2) by definition. Passages in the Carnap article cited in Note 10 have given rise to the impression that there is a new, third, method of introducing terms: by reduction sentences. Carnap writes, for example, (p. 443): "If we wish to construct a language for science we have to take some descriptive (i.e. non-logical) terms as primitive terms. Further terms may then be introduced not only by explicit definitions but also by other reduction sentences. The possibility of introduction . . . by physical reduction is very important for science but so far not sufficiently noted in the logical analysis of science." This is rather misleading; for to introduce a term by means of reduction postulates is to introduce it as an ineliminable primitive.
+
+---
+
+**[Page 48]**
+
+**THE PASSING OF THE POSSIBLE**
+
+argument that we do better to refrain from defining a term in explanatory discourse unless that term is customarily defined by scientists or laymen is like the argument that philosophy ought not to be coherent unless the reality it describes is coherent. One might as well argue that philosophy should not be written in English because the world is not written in English. There is no positive virtue in not defining disposition terms.
+
+Still, it is sometimes contended that to define even the most ordinary dispositional predicates is so inordinately difficult that if we refuse to use other means than definition for introducing them into our system, we shall be forced either to forego introducing them altogether or else to use tentative definitions that will soon have to be withdrawn. This overlooks the fact that wherever we are prepared to set up reduction postulates for given dispositional predicates, we have the alternative of setting up definitions for more restricted dispositional predicates. If, for example, we decide that exhibition of a given spectroscopic pattern is a good sign of the flexibility of a thing and yet want to leave the way open for other tests that may prove useful when neither suitable pressure nor spectroscopic inspection can be applied, we may define the predicate "flexible-thing-under-pressure-or-spectroscopic-inspection" and the predicate "inflexible-thing-under-pressure-or-spectroscopic-inspection".¹² This defi-
+
+¹² The first of these hyphenated predicates will be defined as applying to all and only those things that either are under suitable pressure and bend, or are spectroscopically inspected and exhibit the pattern in question. The second hyphenated predicate will be defined as applying to all and only those things that either are under suitable pressure and fail to bend, or are spectroscopically inspected and fail to exhibit the pattern in question. (These for-
+
+---
+
+**[Page 49]**
+
+**THE PASSING OF THE POSSIBLE**
+
+nitionally projects the "flex"-"fails to flex" dichotomy to a wider though not universal realm, and has the advantage that the predicates introduced are fully eliminable.
+
+However, nothing in this digression on the desirability of defining dispositional predicates helps to solve the central and pressing problem of the nature of the relation between initial manifest predicates and the manifest predicates used to project them. This general problem of dispositions remains independent of the decision whether such auxiliaries when found are to be employed in definitions or in reduction postulates.
+
+In closing this brief survey of the problem of dispositions, I suggest that two points be kept in mind for future reference: the formulation of the general problem, and the recognition that dispositional as well as manifest predicates are labels used in classifying actual things.
+
+*4. Possibles*
+
+While dispositional statements may be treated as speaking of actual things, what of other statements that ostensibly speak of possible entities?
+
+Let us begin with a case rather far removed from the context of our preceding discussion. Suppose we are using not a physicalistic thing-language but a phenomenalistic language for which the atomic elements are places in the visual field, moments of phenomenal time, minimal phenomenal colors, sounds, etc.¹³ Now there are moments —for example, when one eye is closed—when the visual
+
+mulations, like earlier passages in the above text, have been simplified by using "things" not for long-enduring objects but for brief temporal segments of them.)
+¹³ Such a system is outlined in *The Structure of Appearance*, cited in Note 2; see especially Chapter VI.
+
+---
+
+**[Page 50]**
+
+**THE PASSING OF THE POSSIBLE**
+
+field is smaller (that is, contains fewer phenomenal places) than at other moments. Select a certain moment *t* at which the field is thus narrowed, and a certain place *p* that is not presented at the moment *t*. Both *p* and *t* are actual phenomenal elements,¹⁴ but there is no such entity as the place-time composed of *p* and *t*. Nevertheless, we must often talk about this fictive place-time. The question, in its (possible) color, for example, is regarded as legitimate and may be important to knowledge.
+
+We have here a very simple example of the filling in of gaps in actual experience with a fabric of possibles. The problem of what to do about such fictive or possible sense-data inevitably confronts the phenomenalist at an early stage in his work. I am afraid that too often he resigns himself to letting possible sense-data in on the ground floor along with actual sense-data. While he may succeed in teaching himself to do this without choking or blushing, his critics happily chalk up a fatal concession.
+
+To return to our example, the situation is this: there is no such place-time as place-*p*-at-time-*t*, and every statement affirming that some color occurs at this place-time is false. How then, without introducing the fictive place-time as an element, can we frame the question we want to ask about the color at this place-time? We may, of course, put the question in counterfactual form; but we have seen that there is little help in that direction.
+
+¹⁴ This statement is of course to be taken as tenseless. Tenselessly speaking, a place or color that occurs at any time is actual, just as Thales is an actual man. An actual color or place need not occur at all times any more than an actual man need live forever. See *The Structure of Appearance*, Chapter VI, Section 4; Chapter XI.
+
+---
+
+**[Page 51]**
+
+**THE PASSING OF THE POSSIBLE**
+
+The first thing to observe in our example is that although there is no such *place-time* as *p*-at-*t*, there is the actual entity comprised of *p* and *t*, whether we choose to treat it as the class {*p*, *t*} or—as I shall here—as the sum individual *p + t*.¹⁵ This entity, for lack of a certain relationship among its parts, misses being a place-time much as the scattered whole comprised of the body of one automobile and the chassis of another across the street misses being an automobile. In other words, the predicate "place-time", though it applies to many entities composed of a place and a time, does not apply to our *p + t*. To speak of the "fictive" or "possible" place-time *p + t* is not to speak of a new non-actual entity but to say something new about (i.e. apply a new predicate to) the old actual entity *p + t*. For some purposes we want to consider together under one heading all place-times and certain other entities like *p + t*. The usual heading is such a predicate as "possible place-time". The class of possible place-times is, then, simply a certain class of actual entities that includes the smaller class of actual place-times.
+
+The relation between the predicates "place-time" and "possible place-time" is thus closely analogous to that between "flexes" and "flexible"; indeed, only grammatical primness prevents us from describing *p + t* as 'place-time-able' rather than as a 'possible place-time'. Of course, as
+
+¹⁵ The sign "+" as used here belongs to the calculus of individuals and "*p + t*" simply stands for the whole comprised of *p* and *t*. The reader who wants fuller explanation may consult Chapter II, Section 4, of *The Structure of Appearance*, while the reader who shudders at the thought of adding individuals may sustitute "{*p, t*}"—standing for the class having *p* and *t* as members—throughout our present discussion.
+
+---
+
+**[Page 52]**
+
+**THE PASSING OF THE POSSIBLE**
+
+with disposition-terms, our way of putting the matter shifts the burden to the question how the projection is made. In the present example, the projection happens to be easy; for "possible place-time" may well be defined as applying to all and only those entities that are made up of one place and one time. But we may on occasion use the same predicate to cover a class that is wider or narrower than this and harder to define. And other questions, such as our question about what color occurs at *p + t* (or, as we may now frame it, the question which color predicate is to be projected over *p + t*) may raise subtle and difficult problems of projection. Nevertheless, a way of reinterpreting some ostensible references to other than actual sense-data has at least been outlined.
+
+To repeat the main point, if *p + t* is not a place-time and so no color occurring at it, the predicate "place-time" obviously applies only to certain wholes consisting of a place and a time, and the predicate "crimson" (i.e. "crimson occurs at") applies only to some among these place-times. The elliptical statement that the place-time *p + t* is crimson is then to be interpreted as involving two projections. It projects both the predicate entity "place-time" and the predicate "crimson" over the actual entity *p + t*; or better, it applies to *p + t* a certain projection of "place-time" and a certain projection of "crimson".
+
+Yet how are we to deal with a case where, so to speak, instead of thus filling in gaps, we are describing alternatives to actual experiences? Suppose, for example, that at a certain actual place-time *p₁ + t₁*, the color emerald green actually occurs; but suppose that (because, say, I was looking at a wall painted in blue and green stripes) the color cobalt blue 'would have occurred' at the visual
+
+---
+
+**[Page 53]**
+
+**THE PASSING OF THE POSSIBLE**
+
+place *p₁* at the time *t₁*, had my head been turned further to the right at the time. Consider now the ascription to this place-time, *p₁ + t₁*, of the color cobalt blue under the hypothetical circumstance (call it circumstance "C") that my head was turned slightly further to the right than it actually was. This problem looks different from our first one because we have here no entities like our old *p + t* waiting around to be assigned colors; the actual place-time *p₁ + t₁* already has one color, and it cannot have two. Rather than patching in our actual experience, we seem here to be starting to portray a whole new possible experience. Even so, this case can be handled in much the same way. To say that *p₁ + t₁* is actually green but is possibly (i.e. under circumstance C) blue is in effect to ascribe to *p₁ + t₁*, in addition to the predicate "green", some such predicate as "C-blueable".¹⁶ This predicate, again, simply projects the predicate "blue" over a certain wider range of actual entities. And just as "C-blueable" may other predicates as well; for example, where *D, E*,
+
+¹⁶ "C-blueable" and a predicate such as "E-blueable"—applying to place-times that are blue under the different circumstance *E*—are related much as "water soluble" and "acid soluble". Incidentally, I trust it will be understood that I do not advocate daily use of barbarous predicates like "place-timeable" and "C-blueable" but introduce them solely for expository purposes. In daily discourse, we usually make familiar predicates like "blue" and "possibly blue" serve many different purposes in different contexts. We often apply "blue" not only to things that are actually blue but to things that are blue under some particularly important fictive circumstance; and we use "possibly blue" for things that are blue under whatever fictive circumstance is explicitly or implicitly indicated by the context.
+
+---
+
+**[Page 54]**
+
+**THE PASSING OF THE POSSIBLE**
+
+and *F* are other circumstances, all the predicates "*D*-redable", "*E*-blueable", and "*F*-whiteable" may also apply to *p₁ + t₁*.
+
+Leaving the language of phenomenalism, let us now look at statements concerning possible physical events. From what has been said already it is clear how to proceed. For when we say that a certain thing *k* is flexible at time *s*, we are in effect describing a fictive event happening to *k* at *s*. The actual event that is the temporal segment of *k* that occupies *s* is not a flexing event; but to speak of it as a possible flexing event is simply to classify it under the dispositional predicate "flexible". Familiar dispositional predicates are not always available; but once the principle is understood, new predicates can be coined as needed. The fictive accident to a given train under the hypothetical circumstance that a given rail was missing can be taken care of, for example, by saying that the train at that time was "accidentable" or, more fully, "rail-missing-accidentable".
+
+Perhaps I should remind you that I am discussing just those possible occurrences that we know to be non-actual. If a train is late and I say that it possibly had an accident, I am saying no more than that I do not know that it has not had an accident. But if I know that the train has arrived after a normal run, any talk of possible accidents to it on the way must obviously have a quite different interpretation. The difference is the difference between saying that a train may have had an accident (when I don't know whether it had one or not) and saying that a train might have had an accident (when I know that it had none). Statements of the latter sort present the more acute prob-
+
+---
+
+**[Page 55]**
+
+**THE PASSING OF THE POSSIBLE**
+
+lem of translation, and it is these alone that I am concerned with here.
+
+Offhand, we might expect to encounter new difficulties when faced with discourse ostensibly pertaining to non-actual enduring things rather than to non-actual happenings to actual things; but even such discourse can readily be interpreted as the application of certain predicates to certain actual things. We can truthfully put fictive mountains in the middle of London simply by applying to London a certain projection of the predicate "mountainous".¹⁷
+
+I am not at all attempting, of course, to provide means for determining the truth or falsity of statements about possibles, but suggesting a way of translating these statements into statements about actuals. Once such a translation has been accomplished, the question of determining the truth or falsity of the statement is simply a question of ascertaining a matter of fact.
+
+Thus we begin to perceive the general way in which statements affirming that certain possible so-and-sos are not actual so-and-sos may be reconciled with the doctrine that the only possible entities are actual ones. To consider further special cases would be to risk losing ourselves in a
+
+¹⁷ Although we talk in general of possibles, we are seldom concerned with what is merely possible, i.e. possible under some stateable circumstance or other. We are more often concerned with what occurs under some specific fictive circumstance. Thus the mountains we are likely to put in London are not merely-possible mountains, but mountains that belong there under, for example, the fictive circumstance that a certain volcanic action took place.
+
+---
+
+**[Page 56]**
+
+**THE PASSING OF THE POSSIBLE**
+
+welter of detail. It should merely be remarked that some 'predicates of possibles' may not be simple projections of manifest predicates but may extensionally intersect them in more complicated ways.¹⁸ However, the question naturally arises whether, if we restrict ourselves to predicates of actual things, we shall have enough equipment to say about the actual everything we need to say that ordinarily passes for talk about the possible. It is comforting to observe that if there are only three atomic elements, then there are seven individuals in all, and these supply differing extensions (none of them null) for some 127 one-place predicates. For any normal system that admits at least hundreds of atomic elements, either phenomenal or physical, the number of available extensions runs into billions. The threat of enforced silence is remote.
+
+My main purpose here, then, has been to suggest that discourse, even about possibles, need not transgress the
+
+¹⁸ The predicate "flexible" is a simple projection of the predicate "flexes"; for all things that flex and that do not flex are flexible. But I use the term "projection" broadly enough to count "flexible" as a projection of "bends" also, even though some things that bend (e.g. under extraordinary pressure) are not flexible. Again, the dispositional predicate "is orange" is a projection of the manifest predicate "looks orange", even though not everything that looks orange (e.g. under yellow light) is orange. In these examples, "projection" in effect covers two steps: the elimination of certain cases belonging to the extension of the original manifest predicate (e.g. the step from "bends" to "flexes", or from "looks orange" to "looks orange in daylight"); and the addition of other cases, not belonging to the extension of the narrower manifest predicate thus arrived at (e.g. the step from "flexes" to "flexible", or from "looks orange in daylight" to "is orange").
+
+---
+
+**[Page 57]**
+
+**THE PASSING OF THE POSSIBLE**
+
+boundaries of the actual world. What we often mistake for the actual world is one particular description of it. And what we mistake for possible worlds are just equally true descriptions in other terms. We have come to think of the actual as one among many possible worlds. We need to repaint that picture. All possible worlds lie within the actual one.
+
+*5. The Passing*
+
+Possible processes and possible entities vanish. Predicates supposedly pertaining to them are seen to apply to actual things, but to have extensions related in peculiar ways to, and usually broader than, the extensions of certain manifest predicates. A predicate ostensibly of possibles as compared to a correlative manifest predicate, like an open umbrella as compared to a closed one, simply covers more of the same earthly stuff.
+
+Our attention is thus centered upon what I have called the general problem of dispositions, which has in effect become the general problem of possibles as well. To repeat, this is the problem of- explaining how a given manifest predicate, say "P", must be related to others if the fact that these others apply to a thing is to be ground for applying to that thing a broader correlative of "P"—say "Pj". I have spoken of this as a problem of projection because it is the problem how, beginning with a manifest predicate like "burns", we can in effect spread it over a wider range by defining a correlative predicate like "inflammable" that covers things that burn and certain other things also, but nothing that *fails* to burn.
+
+Now the problem of making the projection from mani-
+
+---
+
+**[Page 59]**
+
+**III**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+*1. The Old Problem of Induction*
+
+At the close of the preceding lecture, I said that today I should examine how matters stand with respect to the problem of induction. In a word, I think they stand ill. But the real difficulties that confront us today are not the traditional ones. What is commonly thought of as the Problem of Induction has been solved, or dissolved; and we face new problems that are not as yet very widely understood. To approach them, I shall have to run as quickly as possible over some very familiar ground.
+
+The problem of the validity of judgments about future or unknown cases arises, as Hume pointed out, because such judgments are neither reports of experience nor logical consequences of it. Predictions, of course, pertain to what has not yet been observed. And they cannot be logically inferred from what has been observed; for what *has* happened imposes no logical restrictions on what *will* happen. Although Hume's dictum that there are no necessary connections of matters of fact has been challenged at times, it has withstood all attacks. Indeed, I should be inclined not merely to agree that there are no necessary connections of matters of fact, but to ask whether there
+
+---
+
+**[Page 60]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+are any necessary connections at all¹—but that is another story.
+
+Hume's answer to the question how predictions are related to past experience is refreshingly non-cosmic. When an event of one kind frequently follows upon an event of another kind in experience, a habit is formed that leads the mind, when confronted with a new event of the first kind, to pass to the idea of an event of the second kind. The idea of necessary connection arises from the felt impulse of the mind in making this transition.
+
+Now if we strip this account of all extraneous features, the central point is that to the question "Why one prediction rather than another?", Hume answers that the elect prediction is one that accords with a past regularity, because this regularity has established a habit. Thus among alternative statements about a future moment, one statement is distinguished by its consonance with habit and thus with regularities observed in the past. Prediction according to any other alternative is errant.
+
+How satisfactory is this answer? The heaviest criticism has taken the righteous position that Hume's account at best pertains only to the *source* of predictions, not their *legitimacy*; that he sets forth the circumstances under which we make given predictions—and in this sense explains *why* we make them—but leaves untouched the
+
+¹ Although this remark is merely an aside, perhaps I should explain for the sake of some unusually sheltered reader that the notion of a necessary connection of ideas, or of an absolutely analytic statement, is no longer sacrosanct. Some, like Quine and White, have forthrightly attacked the notion; others, like myself, have simply discarded it; and still others have begun to feel acutely uncomfortable about it.
+
+---
+
+**[Page 61]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+question of our license for making them. To trace origins, runs the old complaint, is not to establish validity: the real question is not why a prediction is in fact made but how it can be *justified*. Since this seems to point to the awkward conclusion that the greatest of modern philosophers completely missed the point of his own problem, the idea has developed that he did not really take his solution very seriously, but regarded the main problem as unsolved and perhaps as insoluble. Thus we come to speak of 'Hume's problem' as though he propounded it as a question without answer.
+
+All this seems to me quite wrong. I think Hume grasped the central question and considered his answer to be passably effective. And I think his answer is reasonable and relevant, even if it is not entirely satisfactory. I shall explain presently. At the moment, I merely want to record a protest against the prevalent notion that the problem of justifying induction, when it is so sharply dissociated from the problem of describing how induction takes place, can fairly be called Hume's problem.
+
+I suppose that the problem of justifying induction has called forth as much fruitless discussion as has any half-way respectable problem of modern philosophy. The typical writer begins by insisting that some way of justifying predictions must be found; proceeds to argue that for this purpose we need some resounding universal law of the Uniformity of Nature, and then inquires how this universal principle itself can be justified. At this point, if he is tired, he concludes that the principle must be accepted as an indispensable assumption; or if he is energetic and ingenious, he goes on to devise some subtle justification for it. Such an invention, however, seldom satisfies
+
+---
+
+**[Page 62]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+anyone else; and the easier course of accepting an unsubstantiated and even dubious assumption much more sweeping than any actual predictions we make seems an odd and expensive way of justifying them.
+
+*2. Dissolution of the Old Problem*
+
+Understandably, then, more critical thinkers have suspected that there might be something awry with the problem we are trying to solve. Come to think of it, what precisely would constitute the justification we seek? If the problem is to explain how we know that certain predictions will turn out to be correct, the sufficient answer is that we don't know any such thing. If the problem is to *find* some way of distinguishing antecedently between true and false predictions, we are asking for prevision rather than for philosophical explanation. Nor does it help matters much to say that we are merely trying to show that or why certain predictions are *probable*. Often it is said that while we cannot tell in advance whether a prediction concerning a given throw of a die is true, we can decide whether the prediction is a probable one. But if this means determining how the prediction is related to actual frequency distributions of future throws of the die, surely there is no way of knowing or proving this in advance. On the other hand, if the judgment that the prediction is probable has nothing to do with subsequent occurrences, then the question remains in what sense a probable prediction is any better justified than an improbable one.
+
+Now obviously the genuine problem cannot be one of attaining unattainable knowledge or of accounting for knowledge that we do not in fact have. A better under-
+
+---
+
+**[Page 63]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+standing of our problem can be gained by looking for a moment at what is involved in justifying *non*-inductive inferences. How do we justify a *deduction*? Plainly, by showing that it conforms to the general rules of deductive inference. An argument that so conforms is justified or valid, even if its conclusion happens to be false. An argument that violates a rule is fallacious even if its conclusion happens to be true. To justify a deductive conclusion therefore requires no knowledge of the facts it pertains to. Moreover, when a deductive argument has been shown to conform to the rules of logical inference, we usually consider it justified without going on to ask what justifies the rules. Analogously, the basic task in justifying an inductive inference is to show that it conforms to the general rules of induction. Once we have recognized this, we have gone a long way towards clarifying our problem.
+
+Yet, of course, the rules themselves must eventually be justified. The validity of a deduction depends not upon conformity to any purely arbitrary rules we may contrive, but upon conformity to valid rules. When we speak of the rules of inference we mean the valid rules—or better, *some* valid rules, since there may be alternative sets of equally valid rules. But how is the validity of rules to be determined? Here again we encounter philosophers who insist that these rules follow from some self-evident axiom, and others who try to show that the rules are grounded in the very nature of the human mind. I think the answer lies much nearer the surface. Principles of deductive inference are justified by their conformity with accepted deductive practice. Their validity depends upon accordance with the particular deductive inferences we actually make and sanction. If a rule yields unacceptable inferences,
+
+---
+
+**[Page 64]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+we drop it as invalid. Justification of general rules thus derives from judgments rejecting or accepting particular deductive inferences.
+
+This looks flagrantly circular. I have said that deductive inferences are justified by their conformity to valid general rules, and that general rules are justified by their conformity to valid inferences. But this circle is a virtuous one. The point is that rules and particular inferences alike are justified by being brought into agreement with each other. *A rule is amended* if it yields an inference we are unwilling to accept; *an inference is rejected* if it violates a rule we are unwilling to amend. The process of justification is the delicate one of making mutual adjustments between rules and accepted inferences; and in the agreement achieved lies the only justification needed for either.
+
+All this applies equally well to induction. An inductive inference, too, is justified by conformity to general rules, and a general rule by conformity to accepted inductive inferences. Predictions are justified if they conform to valid canons of induction; and the canons are valid if they accurately codify accepted inductive practice.
+
+A result of such analysis is that we can stop plaguing ourselves with certain spurious questions about induction. We no longer demand an explanation for guarantees that we do not have, or seek keys to knowledge that we cannot obtain. It dawns upon us that the traditional smug insistence upon a hard-and-fast line between justifying induction and describing ordinary inductive practice distorts the problem. And we owe belated apologies to Hume. For in dealing with the question how normally
+
+---
+
+**[Page 65]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+accepted inductive judgments are made, he was in fact dealing with the question of inductive validity.² The validity of a prediction consisted for him in its arising from habit, and thus in its exemplifying some past regularity. His answer was incomplete and perhaps not entirely correct; but it was not beside the point. The problem of induction is not a problem of demonstration but a problem of defining the difference between valid and invalid predictions.
+
+This clears the air but leaves a lot to be done. As principles of deductive inference, we have the familiar and highly developed laws of logic; but there are available no such precisely stated and well-recognized principles of inductive inference. Mill's canons hardly rank with Aristotle's rules of the syllogism, let alone with *Principia*
+
+² A hasty reader might suppose that my insistence here upon identifying the problem of justification with a problem of description is out of keeping with my parenthetical insistence in the preceding lecture that the goal of philosophy is something quite different from the mere description of ordinary or scientific procedure. Let me repeat that the point urged there was that the organization of the explanatory account need not reflect the manner or order in which predicates are adopted in practice. It surely must describe practice, however, in the sense that the extensions of predicates as explicated must conform in certain ways to the extensions of the same predicates as applied in practice. Hume's account is a description in just this sense. For it is an attempt to set forth the circumstances under which those inductive judgments are made that are normally accepted as valid; and to do that is to state necessary and sufficient conditions for, and thus to define, valid induction. What I am maintaining above is that the problem of justifying induction is not something over and above the problem of describing or defining valid induction.
+
+---
+
+**[Page 66]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+*Mathematica*. Elaborate and valuable treatises on probability usually leave certain fundamental questions untouched. Only in very recent years has there been any explicit and systematic work upon what I call the constructive task of confirmation theory.
+
+*3. The Constructive Task of Confirmation Theory*
+
+The task of formulating rules that define the difference between valid and invalid inductive inferences is much like the task of defining any term with an established usage. If we set out to define the term "tree", we try to compose out of already understood words an expression that will apply to the familiar objects that standard usage calls trees, and that will not apply to objects that standard usage refuses to call trees. A proposal that plainly violates either condition is rejected; while a definition that meets these tests may be adopted and used to decide cases that are not already settled by actual usage. Thus the interplay we observed between rules of induction and particular inductive inferences is simply an instance of this characteristic dual adjustment between definition and usage, whereby the usage informs the definition, which in turn guides extension of the usage.
+
+Of course this adjustment is a more complex matter than I have indicated. Sometimes, in the interest of convenience or theoretical utility, we deliberately permit a definition to run counter to clear mandates of common usage. We accept a definition of "fish" that excludes whales. Similarly we may decide to deny the term "valid induction" to some inductive inferences that are commonly considered valid, or apply the term to others not
+
+---
+
+**[Page 67]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+usually so considered. A definition may modify as well as extend ordinary usage.³
+
+Some pioneer work on the problem of defining confirmation or valid induction has been done by Professor Hempel.⁴ Let me remind you briefly of a few of his results. Just as deductive logic is concerned primarily with a relation between statements—namely the consequence relation—that is independent of their truth or falsity, so inductive logic as Hempel conceives it is concerned primarily with a comparable relation of confirmation between statements. Thus the problem is to define the relation that obtains between any statement *S₁* and another *S₂* if and only if *S₁* may properly be said to confirm *S₂* in any degree.
+
+With the question so stated, the first step seems obvious. Does not induction proceed in just the opposite direction from deduction? Surely some of the evidence-statements that inductively support a general hypothesis are consequences of it. Since the consequence relation is already well defined by deductive logic, will we not be on firm ground in saying that confirmation embraces the converse relation? The laws of deduction in reverse will then be among the laws of induction.
+
+Let's see where this leads us. We naturally assume fur-
+
+³ For a fuller discussion of definition in general see Chapter I of *The Structure of Appearance*.
+⁴ The basic article is 'A Purely Syntactical Definition of Confirmation', cited in Note I.10. A much less technical account is given in 'Studies in the Logic of Confirmation', *Mind*, n.s., vol. 54 (1945), pp. 1–26 and 97-121. Later work by Hempel and others on defining *degree* of confirmation does not concern us here.
+
+---
+
+**[Page 68]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+ther that whatever confirms a given statement confirms also whatever follows from that statement.⁵ But if we combine this assumption with our proposed principle, we get the embarrassing result that every statement confirms every other. Surprising as it may be that such innocent beginnings lead to such an intolerable conclusion, the proof is very easy. Start with any statement *S₁*. It is a consequence of, and so by our present criterion confirms, the conjunction of *S₁* and any statement whatsoever—call it *S₂*. But the confirmed conjunction, *S₁·S₂*, of course has *S₂* as a consequence. Thus every statement confirms all statements.
+
+The fault lies in careless formulation of our first proposal. While some statements that confirm a general hypothesis are consequences of it, not all its consequences confirm it. This may not be immediately evident; for indeed we do seem to find support for a state-ment when we establish one of its consequences. We settle one of the questions about it. Consider the heterogeneous conjunction:
+
+⁵ I am not here asserting that this is an indispensable requirement upon a definition of confirmation. Since our commonsense assumptions taken in combination quickly lead us to absurd conclusions, some of these assumptions have to be dropped; and different theorists may make different decisions about which to drop and which to preserve. Hempel gives up the converse consequence condition, while Carnap (*Logical Foundations of Probability*, Chicago and London, 1950, pp. 474–6) drops both the consequence condition and the converse consequence condition. Such differences of detail between different treatments of confirmation do not affect the central points I am making in this lecture.
+
+---
+
+**[Page 69]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+8497 is a prime number and the other side of the moon is flat and Elizabeth the First was crowned on a Tuesday.
+
+To show that any one of the three component statements is true is to support the conjunction by reducing the net undetermined claim. But support⁶ of this kind is not confirmation; for establishment of one component endows the whole statement with no credibility that is transmitted to other component statements. Confirmation of a hypothesis occurs only when an instance imparts to the hypothesis some credibility that is conveyed to other instances. Appraisal of hypotheses, indeed, is incidental to prediction, to the judgment of new cases on the basis of old ones.
+
+Our formula thus needs tightening. This is readily accomplished, as Hempel points out, if we observe that a hypothesis is genuinely confirmed only by a statement that is an instance of it in the special sense of entailing not the hypothesis itself but its relativization or restriction to the class of entities mentioned by that statement. The relativization of a general hypothesis to a class results from restricting the range of its universal and existential quantifiers to the members of that class. Less technically, what the hypothesis says of all things the evidence statement says of one thing (or
+
+⁶ Any hypothesis is 'supported' by its own positive instances; but support—or better, direct factual support—is only one factor in confirmation. This factor has been separately studied by John G. Kemeny and Paul Oppenheim in 'Degree of Factual Support', *Philosophy of Science*, vol. 19 (1952), pp. 307–24. As will appear presently, my concern in these lectures is primarily with certain other important factors in confirmation, some of them quite generally neglected.
+
+---
+
+**[Page 70]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+of one pair or other n-ad of things). This obviously covers the confirmation of the conductivity of all copper by the conductivity of a given piece; and it excludes confirmation of our heterogeneous conjunction by any of its components. And, when taken together with the principle that what confirms a statement confirms all its consequences, this criterion does not yield the untoward conclusion that every statement confirms every other.
+
+New difficulties promptly appear from other directions, however. One is the infamous paradox of the ravens. The statement that a given object, say this piece of paper, is neither black nor a raven confirms the hypothesis that all non-black things are non-ravens. But this hypothesis is logically equivalent to the hypothesis that all ravens are black. Hence we arrive at the unexpected conclusion that the statement that a given object is neither black nor a raven confirms the hypothesis that all ravens are black. The prospect of being able to investigate ornithological theories without going out in the rain is so attractive that we know there must be a catch in it. The trouble this time, however, lies not in faulty definition, but in tacit and illicit reference to evidence not stated in our example. Taken by itself, the statement that the given object is neither black nor a raven confirms the hypothesis that everything that is not a raven is not black as well as the hypothesis that everything that is not black is not a raven. We tend to ignore the former hypothesis because we know it to be false from abundant other evidence—from all the familiar things that are not ravens but are black. But we are required to assume that no such evidence is available. Under this circumstance, even a much stronger hypothesis is also obviously confirmed: that nothing is
+
+---
+
+**[Page 71]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+either black or a raven. In the light of this confirmation of the hypothesis that there are no ravens, it is no longer surprising that under the artificial restrictions of the example, the hypothesis that all ravens are black is also confirmed. And the prospects for indoor ornithology vanish when we notice that under these same conditions, the contrary hypothesis that no ravens are black is equally well confirmed.⁷
+
+On the other hand, our definition does err in not forcing us to take into account all the *stated* evidence. The unhappy results are readily illustrated. If two compatible evidence statements confirm two hypotheses, then naturally the conjunction of the evidence statements should confirm the conjunction of the hypotheses.⁸ Suppose our evidence consists of the statements *E₁* saying that a given thing *b* is black, and *E₂* saying that a second thing *c* is not black. By our present definition, *E₁* confirms the hypothesis that everything is black, and *E₂* the hypothesis that everything is non-black. The conjunction of these perfectly compatible evidence statements will then confirm the self-contradictory hypothesis that everything is both black and non-black. Simple as this anomaly is, it requires drastic modification of our definition. What given evidence confirms
+
+⁷ An able and thorough exposition of this paragraph is given by Israel Scheffler in his *Anatomy of Inquiry*, New York, 1963, pp. 286-91.
+⁸ The status of the conjunction condition is much like that of the consequence condition—see Note III.5. Although Carnap drops the conjunction condition also (p. 394), he adopts for different reasons the requirement we find needed above: that the total available evidence must always be taken into account (pp. 211-13).
+
+---
+
+**[Page 72]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+is not what we arrive at by generalizing from separate items of it, but—roughly speaking—what we arrive at by generalizing from the total stated evidence. The central idea for an improved definition is that, within certain limitations, what is asserted to be true for the narrow universe of the evidence statements is confirmed for the whole universe of discourse. Thus if our evidence is *E₁* and *E₂*, neither the hypothesis that all things are black nor the hypothesis that all things are non-black is confirmed; for neither is true for the evidence-universe consisting of *b* and *c*. Of course, much more careful formulation is needed, since some statements that are true of the evidence-universe—such as that there is only one black thing—are obviously *not* confirmed for the whole universe. These matters are taken care of by the studied formal definition that Hempel develops on this basis; but we cannot follow how things move along once the problem of definition displaces the problem of justification. Important and long-unnoticed questions are brought to light and answered; and we are encouraged to expect that the many remaining questions will in time yield to similar treatment.
+
+But our satisfaction is shortlived. New and serious trouble begins to appear.
+
+*4. The New Riddle of Induction*
+
+Confirmation of a hypothesis by an instance depends rather heavily upon features of the hypothesis other than
+
+---
+
+**[Page 73]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+its syntactical form. That a given piece of copper conducts electricity increases the credibility of statements asserting that other pieces of copper conduct electricity, and thus confirms the hypothesis that all copper conducts electricity. But the fact that a given man now in this room is a third son does not increase the credibility of statements asserting that other men now in this room are third sons, and so does not confirm the hypothesis that all men now in this room are third sons. Yet in both cases our hypothesis is a generalization of the evidence statement. The difference is that in the former case the hypothesis is a *lawlike statement*; while in the latter case, the hypothesis is a merely contingent or accidental generality. Only a statement that is *lawlike*—regardless of its truth or falsity or its scientific importance—is capable of receiving confirmation from an instance of it; accidental statements are not lawlike from accidental statements.
+
+So long as what seems to be needed is merely a way of excluding a few odd and unwanted cases that are inadvertently admitted by our definition of confirmation, the problem may not seem very hard or very pressing. We fully expect that minor defects will be found in our definition and that the necessary refinements will have to be worked out patiently one after another. But some further examples will show that our present difficulty is of a much graver kind.
+
+Suppose that all emeralds examined before a certain time *t* are green.⁹ At time *t*, then, our observations support the
+
+⁹ Although the example used is different, the argument to follow is substantially the same as that set forth in my note 'A Query on Confirmation', cited in Note I.16.
+
+---
+
+**[Page 74]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+hypothesis that all emeralds are green; and this is in accord with our definition of confirmation. Our evidence statements assert that emerald *a* is green, that emerald *b* is green, and so on; and each confirms the general hypothesis that all emeralds are green. So far, so good.
+
+Now let me introduce another predicate less familiar than "green". It is the predicate "grue" and it applies to all things examined before *t* just in case they are green but to other things just in case they are blue. Then at time *t* we have, for each evidence statement asserting that a given emerald is green, a parallel evidence statement asserting that that emerald is grue. And the statements that emerald *a* is grue, that emerald *b* is grue, and so on, will each confirm the general hypothesis that all emeralds are grue. Thus according to our definition, the prediction that all emeralds subsequently examined will be green and the prediction that all will be grue are alike confirmed by evidence statements describing the same observations. But if an emerald subsequently examined is grue, it is blue and hence not green. Thus although we are well aware which of the two incompatible predictions is genuinely confirmed, they are equally well confirmed according to our present definition. Moreover, it is clear that if we simply choose an appropriate predicate, then on the basis of these same observations we shall have equal confirmation, by our definition, for any prediction whatever about other emeralds—or indeed about anything else.¹⁰ As in our earlier example, only the predictions subsumed under law-
+
+¹⁰ For instance, we shall have equal confirmation, by our present definition, for the prediction that roses subsequently examined will be blue. Let "emerose" apply just to emeralds examined before time *t*, and to roses examined later. Then all emeroses so far examined are grue, and this confirms the hypothesis that all
+
+---
+
+**[Page 75]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+like hypotheses are genuinely confirmed; but we have no criterion as yet for determining lawlikeness. And now we see that without some such criterion, our definition not merely includes a few unwanted cases, but is so completely ineffectual that it virtually excludes nothing. We are left once again with the intolerable result that anything confirms anything. This difficulty cannot be set aside as an annoying detail to be taken care of in due course. It has to be met before our definition will work at all.
+
+Nevertheless, the difficulty is often slighted because on the surface there seem to be easy ways of dealing with it. Sometimes, for example, the problem is thought to be much like the paradox of the ravens. We are here again, it is pointed out, making tacit and illegitimate use of information outside the stated evidence: the information, for example, that different samples of one material are usually alike in conductivity, and the information that different men in a lecture audience are usually not alike in the number of their older brothers. But while it is true that such information is being smuggled in, this does not by itself settle the matter as it settles the matter of the ravens. There the point was that when the smuggled information is forthrightly declared, its effect upon the confirmation of the hypothesis in question is immediately and properly registered by the definition we are using. On the other hand, if to our initial evidence we add statements concerning the conductivity of pieces of other materials or concerning the number of older brothers of members of
+
+emeroses are grue and hence the prediction that roses subsequently examined will be blue. The problem raised by such antecedents has been little noticed, but is no easier to meet than that raised by similarly perverse consequents. See further IV, 4 below.
+
+---
+
+**[Page 76]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+other lecture audiences, this will not in the least affect the confirmation, according to our definition, of the hypothesis concerning copper or of that concerning this lecture audience. Since our definition is insensitive to the bearing upon hypotheses of evidence so related to them, even when the evidence is fully declared, the difficulty about accidental hypotheses cannot be explained away on the ground that such evidence is being surreptitiously taken into account.
+
+A more promising suggestion is to explain the matter in terms of the effect of this other evidence not directly upon the hypothesis in question but indirectly through other hypotheses that *are* confirmed, according to our definition, by such evidence. Our information about other materials does by our definition confirm such hypotheses as that all pieces of iron conduct electricity, that no pieces of rubber do, and so on; and these hypotheses, the explanation runs, impart to the hypothesis that all pieces of copper conduct electricity (and also to the hypothesis that none do) the character of lawlikeness—that is, amenability to confirmation by direct positive instances when found. On the other hand, our information about other lecture audiences disconfirms many hypotheses to the effect that all the men in one audience are third sons, or that none are; and this strips any character of lawlikeness from the hypothesis that all (or the hypothesis that none) of the men in *this* audience are third sons. But clearly if this course is to be followed, the circumstances under which hypotheses are thus related to one another will have to be precisely articulated.
+
+The problem, then, is to define the relevant way in which such hypotheses must be alike. Evidence for the
+
+---
+
+**[Page 77]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+hypothesis that all iron conducts electricity enhances the lawlikeness of the hypothesis that all zirconium conducts electricity, but does not similarly affect the hypothesis that all the objects on my desk conduct electricity. Wherein lies the difference? The first two hypotheses fall under the broader hypothesis—call it "*H*"—that every class of things of the same material is uniform in conductivity; the first and third fall only under some such hypothesis as—call it "*K*"—that every class of things that are either all of the same material or all on a desk is uniform in conductivity. Clearly the important difference here is that the property appearing in *H* is lawlike, while the property appearing in *K* is not. We are faced anew with the very problem we are trying to solve: the problem of distinguishing between lawlike and accidental hypotheses.
+
+The most popular way of attacking the problem takes its cue from the fact that accidental hypotheses seem typically to involve some spatial or temporal restriction, or reference to some particular individual. They seem to concern the people in some particular room, or the objects on some particular person's desk; while lawlike hypotheses characteristically concern all ravens or all pieces of copper whatsoever. Complete generality is thus very often supposed to be a sufficient condition of lawlikeness; but to define this complete generality is by no means easy. Merely to require that the hypothesis contain no term naming, describing, or indicating a particular thing or location will obviously not be enough. The troublesome
+
+---
+
+**[Page 78]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+hypothesis that all emeralds are grue contains no such term; and where such a term *does* occur, as in hypotheses about men in *this room*, it can be suppressed in favor of some predicate (short or long, new or old) that contains no such term but applies only to exactly the same things. One might think, then, of excluding not only hypotheses that actually contain reference to specific individuals but also all hypotheses that have *some* equivalent containing such reference. But this will not help; for every hypothesis has some equivalent containing such a term—e.g., the hypothesis that all grass is green has as an equivalent
+
+All grass in London or elsewhere is green.
+
+The next step, therefore, has been to consider ruling out *predicates* of certain kinds. A syntactically universal hypothesis is lawlike, the proposal runs, if its predicates are 'purely qualitative' or 'non-positional'.¹¹ This will obviously accomplish nothing if a purely qualitative
+
+¹¹ Carnap took this course in his paper 'On the Application of Inductive Logic', *Philosophy and Phenomenological Research*, vol. 8 (1947), pp. 133-47, which is in part a reply to my 'A Query on Confirmation', cited in Note I.16. The discussion was continued in my note 'On Infirmities of Confirmation Theory', *Philosophy and Phenomenological Research*, vol. 8 (1947), pp. 149-51; and in Carnap's 'Reply to Nelson Goodman', same journal, same volume, pp. 461-2.
+
+---
+
+**[Page 79]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+predicate is then conceived either as one that is equivalent to some expression free of terms for specific individuals, or as one that is equivalent to no expression that contains such a term; for this only raises again the difficulties just pointed out. The claim appears to be rather that at least in the case of a simple enough predicate we can readily determine by direct inspection of its meaning whether or not it is purely qualitative. But even aside from obscurities in the notion of 'the meaning' of a predicate, this claim seems to me wrong. I simply do not know how to tell whether a predicate is qualitative or positional, except perhaps by completely begging the question at issue and asking whether the predicate is 'well-behaved'—that is, whether simple syntactically universal hypotheses applying it are lawlike.
+
+This statement will not go unprotested. "Consider", it will be argued, "the predicates 'blue' and 'green' and the predicate 'grue' introduced earlier, and also the predicate 'bleen' that applies to emeralds examined before time *t* just in case they are blue and to other emeralds just in case they are green. Surely it is clear", the argument runs, "that the first two are purely qualitative and the second two are not; for the meaning of each of the latter two plainly involves reference to a specific temporal position." To this I reply that indeed I do recognize the first two as well-behaved predicates admissible in lawlike hypotheses, and the second two as ill-behaved predicates. But the argument that the former but not the latter are purely qualitative seems to me quite unsound. True enough, if we start with "blue" and "green", then "grue" and "bleen" will be explained in terms of "blue" and "green" and a temporal term. But equally truly, if we start with "grue"
+
+---
+
+**[Page 80]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+and "bleen", then "blue" and "green" will be explained in terms of "grue" and "bleen" and a temporal term; "green", for example, applies to emeralds examined before time *t* just in case they are grue, and to other emeralds just in case they are bleen. Thus qualitativeness is an entirely relative matter and does not by itself establish any dichotomy of predicates. This relativity seems to be completely overlooked by those who contend that the qualitative character of a predicate is a criterion for its good behavior.
+
+Of course, one may ask why we need worry about such unfamiliar predicates as "grue" or about accidental hypotheses in general, since we are unlikely to use them in making predictions. If our definition works for such hypotheses as are normally employed, isn't that all we need? In a sense, yes; but only in the sense that we need no definition, no theory of induction, and no philosophy of knowledge at all. We get along well enough without them in daily life and in scientific research. But if we seek a theory at all, we cannot excuse gross anomalies resulting from a proposed theory by pleading that we can avoid them in practice. The odd cases we have been considering are clinically pure cases that, though seldom encountered in practice, nevertheless display to best advantage the symptoms of a widespread and destructive malady.
+
+We have so far neither any answer nor any promising clue to an answer to the question what distinguishes lawlike or confirmable hypotheses from accidental or non-confirmable ones; and what may at first have seemed a minor technical difficulty has taken on the stature of a major obstacle to the development of a satisfactory theory
+
+---
+
+**[Page 81]**
+
+**THE NEW RIDDLE OF INDUCTION**
+
+of confirmation. It is this problem that I call the new riddle of induction.

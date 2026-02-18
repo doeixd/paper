@@ -1,0 +1,103 @@
+--- Page 1 ---
+
+JID:PLREV AID:962 /DIS [m3SC+; v1.276; Prn:3/01/2018; 12:14] P .1 (1-2)
+Available online at www.sciencedirect.com
+ScienceDirect
+Physics of Life Reviews ••• (••••) •••–•••
+www.elsevier.com/locate/plrev
+Comment
+Hierarchical Markov blankets and adaptive active inference
+Comment on “Answering Schrödinger’s question: A free-energy 
+formulation” by Maxwell James Désormeau Ramstead et al.
+Michael Kirchhoff
+Received 28 December 2017; accepted 28 December 2017
+Communicated by J. Fontanari
+Ramstead MJD, Badcock PB, Friston KJ. Answering Schrödinger’s question: A free-energy formulation. Phys 
+Life Rev 2018. https://doi.org/10.1016/j.plrev.2017.09.001 [this issue] motivate a multiscale characterisation of living 
+systems in terms of hierarchically structured Markov blankets – a view of living systems as comprised of Markov 
+blankets of Markov blankets [1–4]. It is effectively a treatment of what life is and ho w it is realised, cast in terms of 
+how Markov blankets of living systems self-organise via active inference – a corollary of the free energy principle 
+[5–7].
+A Mark ov  blanket deﬁnes the boundary of a system, and can thus be understood as a universal requirement for life 
+[6,8]. Crucially, a Markov blanket is a statistical partitioning of a system into internal states and external, environment 
+states [6]. Speciﬁcally, the blanket itself consists of the states that separate internal and e xternal states; namely, active 
+and sensory states [7]. Under the free energy principle, active inference, in its simplest formulation, describes the 
+tendency of any random dynamical system to minimise (on average and over time) its variational free energy, where 
+the free energy quantity functions as an upper bound on (ne gative)  marginal likelihood or evidence. In the context of 
+Markov blankets, this means that the active and sensory states comprising a Markov blanket can be understood to work 
+to optimise evidence for the dynamics underlying the organisation of a (living) system. In their survey, Ramstead et al.
+propose that the very same statistical structure of a single Mark ov blanket (enveloping a cell, say) can be recapitulated 
+at increasingly larger and larger scales of self-organisation, inducing a series of hierarchically nested systems such as 
+the body of a single organism [1,2]. They claim that this multilayered view of Markov blankets of Markov blank ets  
+follows from the existence of a single Markov blanket, where this Markov blanket is mandated by the fact that its 
+internal states can be distinguished from its external milieu [8, p. 8].
+In my opinion the thesis that the or ganisation of living systems consists of nested Markov blankets should be viewed 
+as reasonably uncontroversial, even if non-trivially signiﬁcant. Yet there is nevertheless an apparent complication with 
+Ramstead et al.’s preferred account. The problem is that the Markov blanket formulation of life is overbroad in its 
+e
+xplanatory scope. Indeed, Ramstead et al. mention that one can think of the surface of a cell or the skin membrane of 
+an individual as a Markov blanket. But they also think it possible to cast particular nodes of the World Wide Web as 
+possessing a Markov blanket. The scope of this formulation is lik ely to be too encompassing. If the Markov blanket 
+formulation can apply to living things as well as non-living things (I assume that the internet or a pair of Huygens 
+pendulums [6] are uncontroversially non-living), their proposal is open to being explanatorily vacuous. In other words, 
+DOI of original article: https://doi.org/10.1016/j.plrev.2017.09.001.
+E-mail address: kirchhof@uow.edu.au.
+https://doi.org/10.1016/j.plrev.2017.12.009
+1571-0645/© 2018 Elsevier B.V . All rights reserved.
+
+--- Page 2 ---
+
+JID:PLREV AID:962 /DIS [m3SC+; v1.276; Prn:3/01/2018; 12:14] P .2 (1-2)
+2 M. Kirchhoff / Physics of Life Reviews ••• (••••) •••–•••
+the larger the scope of their preferred Markov blanket formulation, the less likely it is to say much about the speciﬁcs 
+of living organisation [8]. In my opinion, the following distinction is underemphasised in their account: the difference 
+between ‘mere active inference’ and ‘adaptive active inference’ [3]. The remainder of this commentary will speak 
+to this distinction and address ho
+w it might augment Ramstead et al.’s view of how life is realised and how it is 
+maintained.
+The main dif ference between ‘mere active inference’ and ‘adaptive active inference’ turns on the ability to sample 
+over different actions, which, in turn, is based upon temporally – and therefore spatially – deep generative models that 
+minimise the free energy expected under different (counterfactual) courses of action. A Markov blanketed system that 
+e
+xhibits only mere active inference cannot sample over counterfactual outcomes of its own actions. But, this ability is 
+arguably an essential feature of the organisation of life – at least of life as we know it. This implies that not all Markov 
+blanketed systems that engage in active inference are li ving.  Friston [6] associates a pair of Huygens pendulums with 
+having a Markov blanket (the motion of the beam from which the pendulums are suspended). A pair of pendulums 
+however cannot modulate their relation to the world, and therefore cannot be said to be able to adapt to a set of 
+changing circumstances. The reason is that the dynamics of Huygens pendulums tak
+e the form of a Markov chain 
+over (successive) time. A Markov chain captures the idea that events are conditionally independent of previous or past 
+events given the current state of the system [9]. Markov chained systems are thus ‘ensla ved’  by the dynamics of the 
+here-and-now, viz., they do not exhibit adaptivity. Living systems are adaptive. Any adaptive system are not merely 
+enslaved to their proximate conditions. This means that adaptive active inference is what enables living systems to 
+make inferences about certain probabilistic future states and act to as to reduce the e xpected uncertainty associated 
+with those future states [3,10].
+The role of adapti ve active inference in self-organising and maintaining the organisation of living systems highlight 
+why it is not enough that the same statistical form of a single Markov blanket can be generalised recursively at larger 
+and larger scales of systemic organisation when accounting for the hierarchical (Markov blanketed) organisation of 
+life. This means that what is important is that the kind of acti
+ve inference that underlies the self-organisation of 
+hierarchical Markov blankets is associated with adaptive, future (and backward) oriented dynamics. Adaptive active 
+inference not only speaks to the species of dynamics required for something to be and remain alive, it also pro vides a 
+means by which to appropriately restrict the explanatory scope of one’s account of life and its organisation.
+Acknowledgements
+Kirchhoff’s work was supported by an Australian Research Council Discovery Project “Minds in Skilled Perfor-
+mance” (DP170102987) and by a John Templeton Foundation Academic Cross-Training Fellowship (ID#60708). The 
+opinions expressed in this publication are those of the author and do not necessarily reﬂect the views of the John 
+Templeton Foundation.
+References
+[1] Allen M,  Friston KJ. From cognitivism to autopoiesis: towards a computational framework for the embodied mind. Synthese 2016:1–24. 
+https://doi.org/10.1007/s11229-016-1288-5.
+[2] Clark A.  How to knit your own Markov blanket. In: Metzinger T, Wiese W, editors. Philosophy and predictive processing. Frankfurt am Main: 
+MIND Group; 2017.
+[3] Kirchhoff MD,  Parr T, Palacios E, Friston K, Kiverstein J. The Markov blankets of life: autonomy, active inference and the free energy 
+principle. J R Soc Interface 2018:20170792. https://doi.org/10.1098/rsif.2017.0792 [in press].
+[4] Palacios E,  Razi A, Parr T, Kirchhoff MD, Friston K. Biological self-organisation and Markov blankets. BioRxiv. https://doi.org/10.1101/
+227181.
+[5] Friston KJ.  The free-energy principle: A uniﬁed brain theory?. Nat Rev Neurosci 2010;11(2):127–38.
+[6] Friston K. Life as we know it. J R Soc Interface 2013;10(86):20130475. https://doi.org/10.1098/rsif.2013.0475.
+[7] Friston KJ,  Levin M,  Sengupta B,  Pezzulo G.  Knowing one’s place: a free energy approach to pattern regulation. J R Soc Interface 
+2015;12:20141383. https://doi.org/10.1098/rsif.2014.1383.
+[8] Kirchhoff M, Froese T. Where there is life there is mind. Entropy 2017;16:1–18. https://doi.org/10.3390/e19040169.
+[9] Pearl J.  Probabilistic reasoning in intelligent systems: networks of plausible inference. San Francisco: Morgan Kaufmann Publishers; 1988.
+[10] Di Paolo E. Extended life. Topoi 2009;28:9–21.

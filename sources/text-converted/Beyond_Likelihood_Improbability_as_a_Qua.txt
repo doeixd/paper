@@ -1,0 +1,95 @@
+--- Page 1 ---
+
+Beyond Likelihood: Improbability as a Quantiﬁable
+Field in Quantum Epistemology
+Mahammad Ayvazov
+April 2025
+Abstract
+This paper introduces a conceptual and mathematical framework for treat ing im-
+probability as a structured and measurable ﬁeld within quantum epis temology. Build-
+ing on the idea that standard probabilistic models fail to capture eve nts that are singu-
+lar, horizon-constrained, or structurally undecidable, we propose a d ual-ﬁeld approach:
+the total epistemic structure is composed of both classical probabilit y P(x, t) and an
+improbabilistic coherence ﬁeld I(x, t). We provide formal axioms, phase-coupled dy-
+namics, and examples from quantum systems, cognition, and cosmology. This theory
+reframes improbability as latent coherence and opens a path toward epis temic com-
+pleteness.
+1. Introduction
+Probability theory has long been the primary language for re asoning under uncertainty.
+However, the classical approach presumes the availability of large ensembles and repetitive
+trials. In this paper, we argue that improbability is not merely the complement of probability,
+but a distinct ontological and epistemological entity. We i ntroduce the improbabilistic ﬁeld
+I(x, t) as a quantiﬁable measure of latent coherence in settings wh ere probability fails to
+stabilize. Building on the epistemic structure Tquantum = P + I, we present a framework in
+which improbability has formal, dynamic, and cognitive sig niﬁcance.
+2. The Historical Primacy of Probability and the Neglect of Im-
+probability
+The dominance of probabilistic reasoning in science relies on convergence theorems and the
+logic of frequency. Yet rare, singular, or structurally ina ccessible events defy this logic. They
+may be improbable in terms of repetition, but coherent in str ucture. We trace this imbalance
+to the historical commitment to stabilizing measures and ar gue for a reconceptualization in
+which improbability gains formal standing.
+1
+
+--- Page 2 ---
+
+3. Toward a Formal Deﬁnition of the Improbabilistic Field
+We deﬁne the total epistemic ﬁeld:
+Tquantum(x, t) = P(x, t) + I(x, t) (1)
+where P represents classical likelihood and I denotes phase-aligned coherence in low-trial
+or untrialed regimes. The ﬁeld I is not derivable from P, but interacts with it through
+coherence constraints.
+4. Axiomatic Structure of Probability–Improbability Duality
+1. Field Duality: Tquantum = P + I
+2. Coherence Bound: ∥I(x, t)∥ ≤ ∥ ρO − ρH∥2
+HS
+3. Irreducibility: I /∈ F [P]
+4. Phase Sensitivity: θ(∆ϕ) regulates local activation
+5. Time Symmetry: I(x, − t) ≈ I (x, t)
+5. Applications and Illustrative Contexts
+5.1 Rare Event Observation in Quantum Systems
+Non-Markovian coherence revivals modeled by I(x, t).
+5.2 Single-Trial Cognition and Decision Latency
+Mental events modeled via phase thresholds and latent coher ence.
+5.3 Horizon-Induced Epistemic Shadowing
+Event horizon regions modeled by non-zero I despite inaccessible observation.
+6. Conclusion and Future Directions
+We have introduced the improbabilistic ﬁeld as a quantiﬁabl e expression of latent coher-
+ence. This structure complements classical probability an d extends the range of epistemic
+modeling to include rare, singular, and structurally undec idable events. Future work may
+include simulations, empirical exploration, and formal ex tension into generalized inference
+theory. Recognizing improbability as a structured ﬁeld may m ark a shift toward epistemic
+completeness in quantum theory.
+2
+
+--- Page 3 ---
+
+References
+[1] A. N. Kolmogorov, Foundations of the Theory of Probability , Chelsea Publishing (1950).
+[2] W. Heisenberg, The Physical Principles of the Quantum Theory , University of Chicago
+Press (1930).
+[3] C. Rovelli, “Relational Quantum Mechanics,” International Journal of Theoretical
+Physics, 35, 1637–1678 (1996).
+[4] L. Hardy, “Quantum Theory from Five Reasonable Axioms,” arXi v:quant-ph/0101012
+(2001).
+[5] W. H. Zurek, “Decoherence, einselection, and the quantum o rigins of the classical,” Rev.
+Mod. Phys. , 75, 715 (2003).
+[6] M. Burgin, “Uncertainty Principle: From Heisenberg to Inf ormation Theory,” Informa-
+tion, 11, 151 (2020).
+[7] M. Gell-Mann and J. Hartle, “Quantum Mechanics in the Light of Quantum Cosmol-
+ogy,” arXiv:gr-qc/9304023 (1993).
+[8] H.-P. Breuer and F. Petruccione, The Theory of Open Quantum Systems , Oxford Uni-
+versity Press (2002).
+[9] G. Calcagni, “Fractal universe and quantum gravity,” Phys. Rev. Lett. , 104, 251301
+(2010).
+[10] J. Ladyman and D. Ross, Every Thing Must Go: Metaphysics Naturalized , Oxford
+University Press (2007).
+[11] I. Prigogine, The End of Certainty: Time, Chaos, and the New Laws of Nature , Free
+Press (1997).
+[12] J. D. Barrow, Impossibility: The Limits of Science and the Science of Limits , Oxford
+University Press (1998).
+[13] M. Tegmark, “Importance of quantum decoherence in brai n processes,” Phys. Rev. E ,
+61, 4194 (2000).
+[14] R. Penrose, The Road to Reality: A Complete Guide to the Laws of the Universe ,
+Jonathan Cape (2004).
+3

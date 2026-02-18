@@ -1,0 +1,1292 @@
+--- Page 1 ---
+
+Quantifying causal emergence shows that macro
+can beat micro
+Erik P. Hoel, Larissa Albantakis, and Giulio Tononi 1
+Department of Psychiatry, University of Wisconsin, Madison, WI 53719
+Edited by Michael S. Gazzaniga, University of California, Santa Barbara, CA, and approved October 22, 2013 (received for review August 6, 2013)
+Causal interactions within complex systems can be analyzed at
+multiple spatial and temporal scales. For example, the brain can be
+analyzed at the level of neurons, neuronal groups, and areas, over
+tens, hundreds, or thousands of milliseconds. It is widely assumed
+that, once a micro level is ﬁxed, macro levels are ﬁxed too, a rela-
+tion called supervenience. It is also assumed that, although macro
+descriptions may be convenient, only the micro level is causally
+complete, because it includes e very detail, thus leaving no room
+for causation at the macro level. However, this assumption can only
+be evaluated under a proper measure of causation. Here, we use
+am e a s u r e[ e f f e c t i v ei n f o r m a t i o n(EI)] that depends on both the
+effectiveness of a system ’s mechanisms and the size of its state
+space: EI is higher the more the mechanisms constrain the system ’s
+possible past and future states. By measuring EI at micro and macro
+levels in simple systems whose micro mechanisms areﬁxed, we show
+that for certain causal architectures EI can peak at a macro level in
+space and/or time. This happens when coarse-grained macro mecha-
+nisms are more effective (more deterministic and/or less degenerate)
+than the underlying micro mechanisms, to an extent that overcomes
+the smaller state space. Thus, although the macro level supervenes
+upon the micro, it can supersede it causally, leading to genuine causal
+emergence—the gain in EI when moving from a micro to a macro
+level of analysis.
+I
+n science, it is usually assumed that, the better one can char-
+acterize the detailed causal mechanisms of a complex system,
+the more one can understand how the system works. At times, it
+may be convenient to resort to a “macro”-level description, ei-
+ther because not all of the “micro”-level data are available, or
+because a rough model may suf ﬁce for one ’ s purposes. However,
+a complete understanding of how a system functions, and the
+ability to predict its behavior precisely, would seem to require the
+full knowledge of causal interactions at the micro level. For ex-
+ample, the brain can be characterized at a macro scale of brain
+regions and pathways, a meso scale of local populations of neu-
+rons such as minicolumns and their connectivity, and a micro scale
+of neurons and their synapses (1). With the goal of a complete
+mechanistic understanding of the brain, ambitious programs have
+been launched with the aim of modeling its micro scale (2).
+The reductionist approach common in science has been suc-
+cessful not only in practice, but has also been supported by
+strong theoretical arguments. The chief argument starts from the
+intuitive notion that, when the properties of micro-level physical
+mechanisms of a system are ﬁxed, so are the properties of all its
+macro levels— a relation called “supervenience” (3). In turn, this
+relation is usually taken to imply that the micro mechanisms do
+all of the causal work, i.e., the micro level is causally complete.
+This leaves no room for any causal contribution at the macro
+level; otherwise, there would be “multiple causation ” (4). This
+“causal exclusion” argument is often applied to argue against the
+possibility for mental causation above and beyond physical cau-
+sation (5), but it can be extended to all cases of supervenience,
+including the hierarchy of the sciences (6).
+Some have nevertheless argued for the possibility that genuine
+emergence can occur. Purported examples go all of the way from
+the behavior of ﬂocks of organisms (7) to that of ant colonies (8),
+brains (9), and human societies (10). Unfortunately, it remains
+unclear what would qualify some systems as truly emergent and
+others as reducible to their micro elements. Also, most arguments
+in favor of emergence have been qualitative (11). A convincing
+case for emergence must demonstrate that higher levels can be
+causal above and beyond lower levels [ “causal emergence” (CE)].
+So far, the few attempts to characterize emergence quantitatively
+(12) have not been based on causal models.
+Here, we make use of simple simulated systems, including neural-
+like ones, to show quantitatively that the macro level can causally
+supersede the micro level, i.e., causal emergence can occur. We do
+so by perturbing each system through its entire repertoire of pos-
+sible causal states (“counterfactuals,” in the general sense of alter-
+native possibilities) and evaluating the resulting effects using
+“effective information” (EI)( 1 3 ) .EI is a general measure for causal
+interactions because it uses perturbations to capture the effective-
+ness/selectivity of the mechanisms of a system in relation to the size
+of its state space. As will be pointed out, EI is maximal for systems
+that are deterministic and not degenerate, and decreases with
+noise (causal divergence) and/or degeneracy (causal convergence).
+For each system, we completely characterize the causal mech-
+anisms at the micro level, ﬁxing what can happen at any macro
+level (supervenience). Macro levels are deﬁned by coarse graining
+the micro elements in space and/or time, and this mapping deﬁnes
+the repertoire of possible causes and effects at each level. By
+comparing EI at different levels, we show that, depending on how
+a system is organized, causal interactions can peak at a macro
+rather than at a micro spatiotemporal scale. Thus, the macro may
+be causally superior to the micro even though it supervenes upon
+it. Evaluating the changes in EI that arise from coarse or ﬁne
+graining a system provides a straightforward way of quantifying
+both emergence and reduction.
+Theory
+In what follows, we consider discrete systemsS of connected binary
+micro elements that implement logical functions (mechanisms)
+over their inputs. We ﬁrst introduce a state-dependent measure of
+causation, the “cause” and “effect information ” of a single
+Signiﬁcance
+Properly characterizing emergence requires a causal approach.
+Here, we construct causal models of simple systems at micro
+and macro spatiotemporal scales and measure their causal ef-
+fectiveness using a general measure of causation [effective
+information ( EI)]. EI is dependent on the size of the system ’s
+state space and re ﬂects key properties of causation (selectivity,
+determinism, and degeneracy). Although in the example sys-
+tems the macro mechanisms are completely speci ﬁed by their
+underlying micro mechanisms, EI can nevertheless peak at a
+macro spatiotemporal scale. This approach leads to a straight-
+forward way of quantifying causal emergence as the super-
+sedence of a macro causal model over a micro one.
+Author contributions: E.P.H., L.A., and G.T. designed research; E.P.H. and L.A. performed
+research; E.P.H., L.A., and G.T. analyzed data; and E.P.H., L.A., and G.T. wrote the paper.
+The authors declare no con ﬂict of interest.
+This article is a PNAS Direct Submission.
+1To whom correspondence should be addressed. E-mail: gtononi@wisc.edu.
+This article contains supporting information online at www.pnas.org/lookup/suppl/doi:10.
+1073/pnas.1314922110/-/DCSupplemental.
+19790–19795 | PNAS | December 3, 2013 | vol. 110 | no. 49 www.pnas.org/cgi/doi/10.1073/pnas.1314922110
+
+--- Page 2 ---
+
+system state s0, before we describe the state-independent EI of
+the system S.
+State-Dependent Causal Analysis.The micro mechanisms of S specify
+its state-to-state transition probability matrix (TPM) at a micro time
+step t. Building upon the perturbational framework of causal anal-
+ysis developed by Judea Pearl (14; see also ref. 18), the TPM can
+be obtained by perturbing S at t0 (13) into all possible n initial
+states with equal probability 1/ n [doðS = siÞ   ∀i ∈ 1 ...n ]. Per-
+turbing the system in this way corresponds to the unconstrained
+repertoire (probability distribution) of possible causes UC,a n d
+determines the probability of the resulting states at t+1, corre-
+sponding to the unconstrained repertoire of possible effects UE.
+Although UC is thus identical to the uniform distribution U [with
+pðsÞ = 1=n;  ∀s ∈ S ], UE is typically not uniform. A current system
+state S = s0 is associated with the probability distribution of past
+states that could have caused it ( “cause repertoire SPjs0,”
+obtained by Bayes’ rule), and the probability distribution of
+future states that could be its effects ( “effect repertoire SFjs0”).
+As y s t e m’ s mechanisms and current state thus constrain both
+the repertoire of possible causes UC and that of possible effects
+UE. An informational measure of the causal interactions in the
+system (15) can then be deﬁned as the difference [here Kullback –
+Leibler divergence ( DKL) (16)] between the constrained and
+unconstrained distributions:
+Cause  informationðs0Þ= DKL
+/C0
+ðSPjs0Þ; UC/C1
+;
+Effect  informationðs0Þ= DKL
+/C0
+ðSFjs0Þ; UE/C1
+:
+Cause/effect information depends on two properties: (i )t h e
+size of the system ’ s state space (repertoire of alternatives), be-
+cause both are bounded by log 2(n); ( ii ) the effectiveness of the
+system ’ s mechanisms in specifying past and future states. To
+isolate effectiveness from size, we de ﬁne the following nor-
+malized coef ﬁcients: Cause   coefficient ðs0Þ = Cause   Information ðs0 Þ
+log2 ðnÞ ;
+Effect   coefficient ðs0Þ = Effect   Information ðs0 Þ
+log2 ðnÞ .
+The “cause coef ﬁcient ” describes to what extent a state is
+sufﬁcient to specify its past causes, and the “effect coef ﬁcient”
+indicates how necessary a state is to specify its future effects
+(Fig. 1B). In turn, the effect coef ﬁcient itself is a function of two
+terms, “determinism” and “degeneracy” (see Effect Coef ﬁcient
+and Effectiveness (Eff) Expressed as Determinism and Degeneracy
+for derivation):
+Effect  coefficientðs0Þ = Determinism  coefficientðs0Þ
+− Degeneracy coefficient ðs0Þ
+  = 1
+log2ðnÞ 
+X
+sF ∈U E
+pðsF js0Þlog 2ðn · pðsF js0ÞÞ
+− 1
+log2ðnÞ​
+X
+sF ∈U E
+pðsF js0Þlog 2ðn · pðsF ÞÞ:
+:
+The determinism coef. is the difference DKLððSF js0Þ; UÞ between
+the effect repertoire and the uniform distribution ( U) of system
+states, divided by log 2(n), and measures how deterministically
+(reliably) s0 leads to the future state of the system: it is “1”
+(complete determinism) when the current state leads to a single
+future state with probability p = 1, and is “0” (complete in-
+determinism or noise) if it could be followed by every future state
+with p = 1/n. The degeneracy coef. measures to what degree there
+is deterministic convergence (not due to noise) from other states
+onto the future states speci ﬁed by s0. In broad terms, degeneracy
+refers to multiple ways of deterministically achieving the same
+effect or function (17, 18). The degeneracy coef. is 1 (complete
+degeneracy) when s0 speciﬁes the same future state as all other
+states, and 0 whens0 speciﬁes a unique future state (no degeneracy).
+Both cause and effect coef ﬁcients are minimal (0) in a com-
+pletely noisy or completely degenerate system (Fig. 1 C and D)
+and maximal (1) in a deterministic, nondegenerate system (Bounds
+of Cause and Effect Coef ﬁcients and Effectiveness Eff(S).T h ec o n -
+tribution of a single state to the system’ s determinism and degeneracy
+are best demonstrated by decomposing the effect coef ﬁcient. Al-
+though the cause coef ﬁcient also re ﬂects the degeneracy and de-
+terminism of the system, it is not subdivided further here.
+State-Independent Causal Analysis.A state-independent informational
+measure of a system’ s causal architecture can be obtained by taking
+the expected value of cause or effect information over all system
+states, a quantity called effective information ( EI):
+EIðSÞ = hCause  Informationðs0Þi =
+X
+s0 ∈U E
+pðs0ÞDKL
+/C0
+ðSP js0Þ; UC/C1
+= hEffect  Informationðs0Þi = 1
+n
+X
+s0 ∈U C
+DKL
+/C0
+ðSF js0Þ; UE/C1
+:
+The two terms are identical, because the system is assumed to
+be time invariant (h t−1 → t0i = ht0 → t+1i), and cause and effect
+information are related via Bayes ’ rule. EI is also the mutual
+information ( MI) between all possible causes and their effects,
+MI(UC;UE)( Effective Information EI(S) Expressed in Terms of
+Cause and Effect Information and Mutual Information MI ).
+As a measure of causation, EI captures how effectively (de-
+terministically and uniquely) causes produce effects in the sys-
+tem, and how selectively causes can be identi ﬁed from effects. As
+with the state-dependent measures, the effectiveness ( Eff) of the
+causal interactions within a system can be captured by normalizing
+EI by the system’ ss i z e :EffðSÞ = EIðSÞ=log2ðnÞ. Also as in the state-
+independent case, effectiveness can be split into two components,
+determinism and degeneracy:
+Eff ðSÞ = hDeterminism  coefficientðs
+0Þi
+− hDegeneracy coefficient ðs0Þi
+  = hDKLððSF js0Þ; UÞi=log2ðnÞ − DKL
+/C0
+UEjU
+/C1/C14
+log2ðnÞ:
+Thus, Eff(S) = 1i f EI is maximal for a given system size, and de-
+creases with indeterminism (divergence due to noise) or degeneracy
+(deterministic convergence), with Eff(S) = 0 for completely noisy
+or degenerate systems (Fig. 1 C and D). In a system with perfect
+Fig. 1. Cause and effect coefﬁcients in example systems with different causal
+architectures. (A) The systems consist of two interconnected binary COPY gates
+with possible states 0 and 1. (B) A causally perfect system,in which each state has
+one cause and one effect. Thus,s0 = [11] has a cause and effect coefﬁcient (coef.)
+of 1. Moreover, there is no divergence (determinism coef. = 1) and no conver-
+gence (degeneracy coef.= 0). (C and D) In both the completely indeterministic
+and completely degenerate systems, states0 = [11] is completely insufﬁcient to
+specify past system states and complete ly unnecessary to specify future states
+(cause and effect coefﬁcient = 0). Note that the degeneracy coef. is 0 in the
+completely noisy system, because all convergence is due to noise alone.
+Hoel et al. PNAS | December 3, 2013 | vol. 110 | no. 49 | 19791
+BIOPHYSICS AND
+COMPUTATIONAL BIOLOGY
+
+--- Page 3 ---
+
+effectiveness (Fig. 1B), each cause has a unique effect, and each
+effect has a unique cause. Thus, such a system [where Eff(S) = 1]
+is perfectly retrodictive/predictive, in the sense that not only the
+unique future trajectory, but also the unique past trajectory of all
+states can be deduced from the TPM (complete causal reversibility).
+Levels of Analysis. A ﬁnite, discrete system S can be considered at
+various levels, from the most ﬁne-grained micro causal model Sm
+through various coarse-grained causal modelsSM. All macro levels
+SM a r ea s s u m e dt ob e“supervenient” on the micro level Sm:g i v e n
+the micro elements of Sm and the causal relationships between
+them, all other members of {S }— the set of all possible causal
+models of system S— are ﬁxed as well (19). Although Sm ﬁxes SM,
+any SM may be ﬁxed by a number of different lower level descrip-
+tions, a property known as “multiple realizability” (20).
+Groupings. Micro elements are binary and labeled by Latin letters
+{A, B, C... }, macro elements by Greek letters {α , β, γ... }. Micro
+states are labeled {1, 0} and macro states { “on,”“ bursting, ”
+“quiet”... ). Micro elements can be grouped into macro elements
+spatially, temporally, or both. Micro states are grouped into macro
+states through a mapping M : Sm → SM . The mapping must be
+exhaustive and disjunctive over micro elements (all of the states
+of one micro element must be mapped to the states of the same
+macro element; note that a macro element can consist of a single
+micro element as long as the state space of the system is reduced).
+Moreover, the mapping must be such that no micro-level in-
+formation is available at the macro level (the identity of the micro
+elements grouped into a macro element is lost). For example, the
+grouping of the four states of two micro elements into the two
+states of one macro element as [[00, 01, 10] = off, [11] = on] is
+permitted, whereas the grouping [[00, 01], [10, 11]] is not, because
+distinguishing 01 from 10 requires knowing the identity of the
+micro elements.
+Level-Speciﬁc Perturbations. Causal analysis at the micro level Sm,
+requires setting S into all possible micro states with equal prob-
+ability (i.e., testing all micro alternatives) and determining the
+resulting effects. When moving to a macro level S
+M, S must sim-
+ilarly be set into all possible macro states with equal probability
+(i.e., testing all macro alternatives). To causally assess any macro
+state, then, one must set S into all of the n
+micro micro states {s m}
+that are grouped into the corresponding macro state sM, and av-
+erage over the effects. This is done using a “macro perturbation”:
+doðSM = sM Þ = 1
+nmicro
+P
+sm:i ∈sM doðSm = sm;iÞ. Using such macro per-
+turbations, one can obtain cause/effect information and EI for
+every coarse grain of Sm. EI at each macro level is then equivalent
+to the MI between the set of macro causes and their macro effects.
+Causal Emergence/Reduction. Finally, by assessing EI(S) over all
+coarse grains of Sm, one can ask at which level of {S } causation
+reaches a maximum. This provides an analytical de ﬁnition of
+causal emergence, expressed in bits: CE = EIðSM Þ − EIðSmÞ.
+Thus, if EI(S) is maximal for a macro-level SM rather than the
+micro-level Sm, then CE > 0 and causal emergence occurs. If for
+every macro-level CE < 0, causal reduction holds. Although the
+focus here is on emergence/reduction relative to the micro-
+level S
+m, the above measure can of course be used to compare
+different macro levels.
+As mentioned above, EI(S) depends on both the size of the
+system’ s repertoire of states and on the effectiveness of its
+mechanisms. When moving from one system level to another,
+b o t ht e r m sc h a n g ea st h es t a t es p a c eb e c o m e ss m a l l e ro rl a r g e r ,
+and the individual states become more or less selective with re-
+spect to the past, and more or less determined or degenerate with
+respect to the future. The respec tive informational contribu-
+tions of repertoire size and effectiveness to ΔEI(S) can be ex-
+pressed separately as follows:Δ I
+Eff =ðEffðSMÞ− EffðSmÞÞ· log2ðnMÞ;
+Δ ISize = EffðSmÞ· ðlog2ðnM Þ− log2ðnmÞÞ,w h e r enm/M is the state re-
+pertoire size of Sm/M. It follows that ΔEI = ΔIEff + ΔISize = CE.
+A positive ΔIEff can thus be due to the macro reducing the
+degeneracy of the micro level, increasing the determinism of the
+micro level, or both. Notably, coarse graining the micro-level Sm
+into macro-level SM implies that ΔISize is always negative. Hence,
+for causal emergence to occur [ EI(SM) > EI(Sm)], the increase in
+effectiveness ΔIEff must outweigh the decrease in ΔISize.
+Results
+Causal analysis was performed across all coarse grains of a sys-
+tem [only the SM with maximal EI(S) is shown in the ﬁgures] with
+a custom-made Python program. Data plots were created using
+MATLAB. Below, we consider examples of spatial, temporal,
+and spatiotemporal emergence (see Fig. S1 for an example of
+spatial reduction).
+Spatial Causal Emergence. As a proof-of-principle example, con-
+sider a system of four binary elements Sm = {ABCD} (Fig. 2A).
+Each micro mechanism is an AND-gate (two inputs) operating
+over some intrinsic noise. The 16 × 16 S
+m TPM was constructed
+by setting the system into all possible micro states from [0000]
+to [1111] with equal probability (Fig. 2 B). At the micro level S
+m,
+effective information EI(S) = 1.15 bits, out of maximally 4 bits,
+with effectiveness Eff(Sm) = 0.29. The macro level SM (Fig. 2 D),
+composed of two elements {α, β}, each with states {“on,”“off”}, is
+ac o a r s eg r a i n i n go fSm as deﬁned by the mappingM in Fig. 2C.T h e
+4 × 4 SM TPM was obtained by setting the system into all possible
+macro states from [off, off] to [on, on] with equal probability (Fig.
+2E). For the macro level, EI(S
+M) = 1.55 bits, higher than EI(Sm) =
+1.15 bits. Thus, CE(S) = 0.40 bits, demonstrating that in this case
+the macro SM beats the micro Sm and constitutes the optimal
+causal model of system S. This is because the TPM for SM is much
+closer to perfect effectiveness [Eff(SM) = 0.78] and the increase in
+effectiveness gained by grouping ΔIEff = 0.97 bits outweighs the
+loss in size ΔISize = −0.57 bits. In this example, the gain in
+effectiveness ΔIEff at the macro level comes primarily (91%)
+from counteracting noise [determinism coef. ( Sm) = 0.34;
+(SM) = 0.78] and less so (9%) from reducing degeneracy [de-
+generacy coef. ( Sm) = 0.05; ( SM) = 0.006].
+The higher effectiveness of the macro level is also evident com-
+paring Sm and SM in a state-dependent manner. As an example, the
+cause/effect distributions for Sm in state {ABCD} = [0001] are
+compared with the corresponding SM state { αβ} = [off, off] in
+Fig. 3. Comparing the cause/effect distributions of Sm = [0001]
+against the unconstrained repertoires (using DKL) yields 0.83 bits
+of cause information and 0.43 bits of effect information. For the
+macro S
+M, cause information is 2 bi ts and effect information
+Fig. 2. Spatial causal emergence (counteracting indeterminism). (A)T h em i c r o
+level Sm of system S is composed of identical noisy micro mechanisms. ( B)T h e
+micro TPM. (C) A macro causal levelSM and its TPM are deﬁned by the mapping
+M (shown for AB to α,C Dt o β is symmetric). (D) SM and its macro mechanisms.
+(E) By reducing indeterminism and increasing effectivenessEff,t h em a c r ob e a t s
+the micro in terms of EI despite the reduced repertoire size (CE = 0.40 bits).
+19792 | www.pnas.org/cgi/doi/10.1073/pnas.1314922110 Hoel et al.
+
+--- Page 4 ---
+
+1.35 bits. The macro beats the micro because {αβ } = [off, off] is
+both more selective and more reliable than {ABCD} = [0001].
+Causal emergence may arise not only from macro gains in de-
+terminism (as above), but also from reducing degeneracy. In Fig. 4,
+micro elements A –F are deterministic AND gates connected in
+a way that ensures high degeneracy (Fig. 4A, determinism coef.= 1;
+degeneracy coef. = 0.6), resulting in Eff(Sm) = 0.4 and EI(Sm) =
+2.43 bits (Fig. 4 C). The optimal macro groups the six micro
+AND gates into three macro COPY gates ( αβγ) (Fig. 4B). Both
+macro and micro are deterministic, but by eliminating degeneracy
+ΔIEff = 1.79 bits > −ΔISize = 1.22 bits. As a result, Eff(SM) = 1, EI
+(SM) = 3 bits, and the macro emerges over the micro (CE = 0.57 bits).
+Temporal Causal Emergence. The same principles allowing for
+emergence through spatial groupings hold for temporal groupings,
+which coarse grain micro time steps ( t
+x) into macro time steps
+(Tx). The example in Fig. 5 shows micro elements that, upon
+receiving an input “burst” of two spikes, respond with an output
+burst of two spikes. Thus, elements implement second-order
+Markov mechanisms over both inputs and outputs (Fig. 5 A). Fig.
+5B shows that causal interactions assessed over one micro time
+step are weak [EI (Sm) = 0.16 bits; Eff(Sm) = 0.03] because they
+fail to capture the second-order mechanisms. By contrast, causal
+analysis over two micro time steps (Fig. 5 C) gives EI = 1.38 bits
+and Eff(S
+m) = 0.34. The temporal grouping of micro into
+macro states α = {At,A t+1}a n d β = {Bt,B t+1}( F i g .5D)i s
+analogous to the spatial grouping in Fig. 2: {00, 01, 10} = {off}
+and {11} = {on}. Over macro time steps, the system becomes
+fully deterministic and nondegenerate,EI(SM) = 2b i t s ,Eff(SM) =
+1, and CE(S) = 0.62 bits (Fig. 5 E and F).
+Spatiotemporal Causal Emergence. In general, emergence may
+occur simultaneously over space and time (Fig. 6). As in Fig.
+5, the nine neural-like micro elements in Fig. 6 A are second-
+order Markov mechanisms, integrating inputs and outputs over
+two micro time steps, t
+−2 t−1, and t0 t+1, respectively [compare
+to longer time constants of NMDA receptors (21)]. Moreover,
+in the examples above, the micro elements within a macro
+element were not connected and were causally equivalent. To
+demonstrate that this is not a requisite for causal emergence, in Fig.
+6, the micro elements are fully connected and causally heteroge-
+neous (self-connections not drawn). All elements are spontane-
+ously active (1) with heterogeneous probabilities: p(A/D/G)= 0.45;
+p(B/E/H) = 0.5; p(C/F/I) = 0.55. The elements are structured
+into three groups {ABC, DEF, GHI} due to different intra-
+group and intergroup mechanisms: within each group, if the
+sum of intragroup connections Σ(intra) = 0 (for two time steps),
+all elements stay 0 (for the next two time steps). However, if the
+sum of intergroup connections Σ(inter) = 6 from one or both of
+the other two groups over two time steps (burst of synchronous
+activity), p(1) is raised by 0.5 for the next two time steps (see Fig.
+S2 for macro and micro TPMs of a spatial system with equivalent
+rules). At the macro-levelS
+M (Fig. 6B), the three groups of neurons
+become macro elements, and two micro time steps ( tx)a r e
+grouped into one macro time step ( Tx). In neural terms, these
+macro elements could represent “minicolumns” having three
+states: “inhibited” (all minicolumn neurons silent at Tx), “receptive”
+(some ﬁring at T x), or “bursting” (all ﬁring at T x). Macro causal
+interactions can be summarized as follows: if a macro element is
+inhibited, only receiving a burst can move it to the receptive or
+(more unlikely) the bursting state; otherwise, it stays inhibi-
+ted. As in previous examples, the coarse-grained S
+M has higher
+EI(SM) = 3.51 bits and Eff(SM) = 0.74 than Sm [EI(Sm) = 0.59
+bits; Eff(Sm) = 0.033]. In this case, spatiotemporal causal emergence
+[CE(S) = 2.92 bits] is due to an increase in determinism that far
+outweighs a slight increase in degeneracy and the decrease in size.
+Discussion
+This paper provides a principled way of assessing at which spatio-
+temporal grain size the causal interactions within a system reach
+a maximum. Causal interactions are evaluated by effective in-
+formation ( EI), a measure that is sensitive both to the effec-
+tiveness of the system ’ s mechanisms and to the size of its state
+space. Examples with simulated systems demonstrate that, after
+coarse graining the micro mechanisms in both space and time, EI
+can be higher at a macro level than at a micro level. In these
+cases, the macro mechanisms, rather than the micro ones, can
+be said to be doing the causal work within a system.
+Effective Information, Effectiveness, and Emergence. As shown here,
+EI corresponds to the “effectiveness” of a system ’ s mechanisms
+multiplied by repertoire size, expressed in bits. Effectiveness Eff
+(S) is the average of the effect coef ﬁcients over all system states.
+The effect coef ﬁcient measures to what extent the current system
+state is necessary to specify the system’ s future state. This, in turn, is
+a function of determinism minus degeneracy. On the cause side,
+the equivalent to the effect coef ﬁcient is the cause coef ﬁcient,
+which measures to what extent the current state is suf ﬁcient to
+specify the system ’ s past state. For a particular current state,
+cause and effect coef ﬁcients may differ: for example, a state may
+have many causes but only one effect. However, the average of
+the effect coef ﬁcients over system states, i.e., effectiveness,
+Fig. 3. State-dependent cause/effect information. (A) The cause information of
+Sm in micro state {ABCD} = [0001] is calculated as the difference (DKL) between
+the cause repertoire of state [0001] and the unconstrained micro repertoireUC
+(Left). The cause information ofSM in the supervening macro state {αβ} = [off/off]
+(Right) is the difference (DKL), between the cause repertoire of [off/off] and the
+unconstrained macro repertoire UC.( B) Effect information. The higher
+cause and effect information at the macro level is due to an increase in
+determinism and decrease in degeneracy, re ﬂecting higher selectivity.
+Fig. 4. Spatial causal emergence (counteracting degeneracy). (A) A degenerate
+Sm with deterministic AND gates. (B) The cycle of AND gates is mapped onto
+a cycle of COPY gates at the macro level. (C) The deterministic but degenerate
+micro TPM. ( D) The deterministic macro TPM with zero degeneracy. By
+eliminating degeneracy and achieving perfect effectiveness, the macro
+beats the micro ( CE = 0.57 bits).
+Hoel et al. PNAS | December 3, 2013 | vol. 110 | no. 49 | 19793
+BIOPHYSICS AND
+COMPUTATIONAL BIOLOGY
+
+--- Page 5 ---
+
+corresponds to the average of the cause coef ﬁcients (weighted by
+the probability of the effects). In other words, within a time-
+invariant system the average selectivity of the causes corre-
+sponds to the average selectivity of the effects. Note that, in
+principle, other measures of causation that, like EI,r e ﬂect
+causal structure (selectivity, determinism, degeneracy) and
+system size, should demonstrate causal emergence as well.
+The main result obtained in the simulations is that coarse
+g r a i n i n g ,b o t hi ns p a c ea n di nt i m e ,c a ny i e l dah i g h e rv a l u eo f
+EI. This happens even though the micro has, by de ﬁnition, a
+larger state space than the macro — an advantage with respect to
+EI. Given this inherent advantage of the micro, it is under-
+standable why the default scienti ﬁc strategy for analyzing systems
+has been one of reduction ( Causal Reduction ). However, the
+examples presented above show that the inherent loss in EI due to
+the macro ’ s smaller repertoire size can be offset if the macro
+achieves a greater gain in effectiveness. In turn, greater effective-
+ness stems from macro mechanisms constructed from their con-
+stituting micro mechanisms in such a way that, at the macro level,
+determinism is increased and/or degeneracy is decreased. Genuine
+causal emergence can then be said to occur whenever there is
+ag a i ni nEI (CE > 0) at the optimal macro level. If instead there is
+a loss in EI (CE < 0), causal reduction is appropriate, and the
+micro level is the optimal level of causal analysis. The causal
+approach pursued here suggests that qualitative or noncausal
+accounts of emergence may have been hindered by not being
+able to characterize how and why a macro level can actually
+have greater causal effectiveness than a micro level (22, 23).
+Micro Macro Mappings and Repertoires of Alternatives. The present
+approach makes it possible to compare causation at the micro
+and macro levels in a fair manner. First, the simulated examples
+are such that the macro supervenes strictly upon the micro: once
+the micro is deﬁned, all macro levels areﬁxed. Speciﬁcally, no extra
+causal ingredients are added at the macro level, such as rules that
+apply to the macro only (24). Furthermore, the mapping of micro
+into macro elements is such that the identity of micro elements is
+lost; otherwise, the macro level would have access to micro-level
+information that could offset its reduced repertoire size. Finally,
+when causation is evaluated a uniform distribution of alternatives
+is imposed independently at the micro and macro levels. For this
+uniform distribution of perturbations to be imposed at the macro
+level, the probability of the underlying micro perturbations must
+be modiﬁed by averaging the micro states that map into the same
+macro state. The modiﬁ ed distribution of micro perturbations
+yielding a uniform distribution of macro perturbations makes EI
+sensitive to the causal structure at each level, ultimately allowing
+the supervening macro EI to exceed the micro EI.
+Emergence as an Intrinsic Property of a System. EI is a causal mea-
+sure, because it requires perturbing the system in all possible ways
+and evaluating the resulting effects on the system. It is also an
+informational measure, because its value depends on the size of
+the repertoire of alternatives. Indeed, in the present approach,
+causation and information are necessarily linked (25), hence
+the term “effective information.” Finally, measuring EI reveals an
+“intrinsic” property of the system, namely the average effectiveness/
+selectivity of all possible system states with respect to the system
+itself. Effectiveness/selectivity can be assessed at multiple spatio-
+temporal grains, and the particular spatiotemporal grain at which
+EI reaches a maximum is again an intrinsic property of the system.
+This in no way precludes an observer from pro ﬁtably investigating
+the system’ s properties at other macro levels, at the micro level, or
+at multiple levels at once (e.g., neuroscientists studying the brain at
+the level of ion channels, individual neurons, local ﬁeld potentials,
+or functional magnetic resonance signals). However, causal
+emergence implies that the macro level with highest EI is the one
+that is optimal to characterize, predict, and retrodict the behavior
+of the system — the one that “carves nature at its joints ” (26).
+The search for the macro level at which EI is maximal has a par-
+allel in information theory: channel capacity is an intrinsic property
+deﬁned as the maximal amount of information that can be trans-
+mitted along the channel at a certain rate, found by searching over all
+possible input distributions (27). Finding the optimal level of coarse
+graining for causal emergence is based on a similar search, with
+several differences. First,EI is evaluated using perturbations over the
+system itself, rather than across a channel (the system is its own input
+and output). Second, the probability distributions over micro states
+that can be considered must conform to a proper mapping of micro
+into macro elements (or time intervals). Additional connections of
+causal emergence to established measures, such as reversibility
+Fig. 5. Temporal causal emergence. (A) Sm is composed of second-order Mar-
+kov mechanisms A and B: att0, each mechanism responds based on the inputs at
+t−2 and t−1, and outputs over t0 and t+1.( B) Causal analysis over one micro time
+step gives an incomplete view of the system. (C) A causal analysis over two micro
+time steps reveals the second-order Markov mechanisms. (D) The optimal macro
+system SM groups two micro time steps into one macro time step for macro
+elements {α,β}. (E) Each coarse grained macro mechanism effectively corresponds
+to a deterministic COPY gate. (F) The macro one-time step TPMSM has Eff(SM) =
+1, and the micro two-time step TPM has Eff(Sm) = 0.34; CE = 0.62 bits.
+Fig. 6. Spatiotemporal causal emergence. ( A)A “neuronal” system merging
+the temporal characteristics of the system in Fig. 5 with a differentiated
+spatial structure ( Fig. S2 ). Regular and rounded arrows indicate intergroup
+and intragroup connections, respectively. ( B) Each macro element receives
+inputs from itself and the other macro element. The macro level beats the
+micro level, leading to spatiotemporal emergence [ CE(S) = 2.92 bits].
+19794 | www.pnas.org/cgi/doi/10.1073/pnas.1314922110 Hoel et al.
+
+--- Page 6 ---
+
+and lumping in Markov processes (28), or epsilon machines (29),
+are a potential subject for future work.
+Causal Exclusion and Its Implications. Causal analysis as presented
+here endorses both supervenience (no extra causal ingredients at
+the macro level) and causal exclusion [for a given system at
+a given time, causation occurs at one level only, otherwise causes
+would be double counted (4)]. However, causal analysis also
+demonstrates that EI can actually be maximal at a macro level,
+depending on the system ’ s architecture. In such cases, causal ex-
+clusion turns the reductionist assumption on its head, because to
+avoid double-counting causes, optimal macro causation must
+exclude micro causation. In other words, macro mechanisms can
+always be decomposed to their constituting micro mechanisms
+(supervenience); however, if there is emergence, macro causation
+does not reduce to micro causation, in which case the macro wins
+causally against the micro and takes its place (supersedence). The
+notion of irreducibility among levels (does the macro beat the
+micro?) is complemented by the notion of irreducibility among
+subsets of elements within a level [is the whole more than its
+parts (15, 25)?]. From the perspective of a system, emergence
+(CE > 0) implies causal “self-deﬁnition” at the optimal macro
+level— the one at which its causal interactions “come into fo-
+cus” (30) and “the action happens. ”
+Applicability to Real Systems. Measuring EI exhaustively, across all
+micro/macro levels, is not feasiblefor complex physical or biological
+systems (Applicability—Network Motifs as Indicators of Emergence).
+However, some useful guidelines can be derived from the above
+analysis: (i)i f Eff(S
+m) ≥ Eff(SM), then causal emergence is impos-
+sible and causal reduction holds; (ii)i f EI(Sm) > log2(nM), where nM
+is the state repertoire size of SM, causal reduction holds; (iii)i ff o r
+some coarse graining, Eff increases drastically, causal emergence is
+to be suspected (as ΔIEff >> −ΔISize). Therefore, systems that al-
+ready are close to maximal effectiveness at the micro level (Fig. S1)
+indicate causal reduction. By contrast, heavily interconnected
+groups of elements with spontaneous activity and the ability to dis-
+tinguish between intragroup and intergroup connections, such as the
+simpliﬁed neural system of Fig. 6, are more suitable for emergence.
+In real neural systems, one could compare the respective
+effective information at the micro scale of single neurons over
+millisecond intervals, the meso scale of neuronal groups over
+hundreds of milliseconds, and the macro scale of brain regions
+over several seconds (using tools such as optogenetics and calcium
+imaging). In this way, classic notions, such that cortical minicolumns
+may constitute the fundamental units of brain function (31), or that
+the cortex works by population coding in space (32) or rate coding
+in time (33) in the face of high intertrial variability (34), could then
+be tested rigorously using a measure of effectiveness. Examining
+small motifs that are overrepresented in complex networks [such as
+brains (35)] could determine whether the network as a whole is
+biased toward emergence or reduction. Heuristic assessments of
+the likelihood of emergence co uld also rely on the analysis of
+wiring diagrams, which can offer an estimate of degeneracy,
+combined with knowledge of the amount of intrinsic noise in a
+system, which can provide an estimate of determinism.
+Conclusions
+The approach to emergence investigated here provides theoretical
+support for the intuitive idea that, to ﬁnd out how a system works,
+one should ﬁnd the “differences that make [most of] a difference”
+to the system itself (25) (cf. ref. 36). It also suggests that complex,
+multilevel systems such as brains are likely to “work” at a macro
+level because, in biological systems, selectional processes must deal
+with unpredictability and lead to degeneracy (18). This may also
+apply to some engineered systems designed to compensate for noise
+and degeneracy. More broadly, this view of causal emergence sug-
+gests that the hierarchy of the sciences, from microphysics to mac-
+roeconomics, may not just be a matter of convenience but a genuine
+reﬂection of causal gains at the relevant levels of organization.
+ACKNOWLEDGMENTS. We thank M. Boly, C. Cirelli, A. Hashmi, C. Koch,
+L. Morton, A. Nere, M. Oizumi, and L. Shapiro for helpful discussions, and
+P. Rana for assisting with the Python software. This work has been supported
+by Defense Advanced Research Planning Agency Grant HR 0011-10-C-0052
+and The Paul G. Allen Family Foundation.
+1. Sporns O, Tononi G, Kötter R (2005) The human connectome: A structural description
+of the human brain. PLoS Comput Biol 1(4):e42.
+2. Markram H (2006) The blue brain project. Nat Rev Neurosci 7(2):153–160.
+3. Davidson D (1980) Mental events. Readings in Philosophy of Psychology , ed Block N
+(Harvard Univ Press, Cambridge, MA), Vol 1, pp 107 –119.
+4. Kim J (1993) Supervenience and Mind: Selected Philosophical Essays (Cambridge Univ
+Press, Cambridge, UK).
+5. Kim J (2000) Mind in a Physical World: An Essay on the Mind-Body Problem and
+Mental Causation (MIT Press, Cambridge, MA).
+6. Bontly T (2002) The supervenience argument generalizes. Philos Stud 109:75–96.
+7. Seth A (2008) Measuring emergence via nonlinear Granger causality.ALIFE 2008:545–552.
+8. Hölldobler B, Wilson E (2009) The Superorganism: The Beauty, Elegance, and Strangeness
+of Insect Societies(W. W. Norton, New York).
+9. Sperry R (1983) Science and Moral Priority: Merging Mind, Brain, and Human Values
+(Columbia Univ Press, New York).
+10. Sawyer R (2005) Social Emergence: Societies as Complex Systems (Cambridge Univ
+Press, Cambridge, UK).
+11. Broad C (1925) The Mind and Its Place in Nature (Routledge & Kegan Paul, London).
+12. Bar ‐Yam Y (2004) A mathematical theory of strong emergence using multiscale variety.
+Complexity9:15–24.
+13. Tononi G, Sporns O (2003) Measuring information integration. BMC Neurosci 4:31.
+14. Pearl J (2000) Causality: Models, Reasoning and Inference (Cambridge Univ Press,
+Cambridge, UK).
+15. Albantakis L, Hoel EP, Koch C, Tononi G (2013) Intrinsic Causation and Consciousness.
+Association for the scienti ﬁc study of consciousness conference (ASSC17) . Available at
+www.theassc.org/ﬁles/assc/docs/ASSC17-PB-070113-online-version-with-Addendum.pdf.
+Accessed November 2, 2013.
+16. Kullback S (1997) Information Theory and Statistics (Dover Publications, New York).
+17. Edelman GM (1987) Neural Darwinism: The Theory of Neuronal Group Selection (Basic
+Books, New York).
+18. Tononi G, Sporns O, Edelman GM (1999) Measures of degeneracy and redundancy in
+biological networks. Proc Natl Acad Sci USA 96(6):3257–3262.
+19. Stalnaker R (1996) Varieties of supervenience. Philos Perspect 10:221–241.
+20. Fodor J (1974) Special sciences (or: The disunity of science as a working hypothesis).
+Synthese 28:97–115.
+21. Jahr CE, Stevens CF (1990) Voltage dependence of NMDA-activated macroscopic
+conductances predicted by single-channel kinetics. J Neurosci 10(9):3178–3182.
+22. Bedau M (1997) Weak emergence. Noûs 31:375–399.
+23. Chalmers D (2006) Strong and weak emergence. The Reemergence of Emergence , eds
+Clayton P, Davies P (Oxford Univ Press, Oxford), pp 244 –256.
+24. Butter ﬁeld J (2012) Laws, causation and dynamics at different levels. Interface Focus
+2(1):101–114.
+25. Tononi G (2012) Integrated information theory of consciousness: An updated ac-
+count. Arch Ital Biol 150(2-3):56–90.
+26. Hamilton E, Cairns H (1961) The Collected Dialogues of Plato: Including the Letters
+(Pantheon Books, New York).
+27. Shannon CE (1997) The mathematical theory of communication. 1963. MD Comput
+14(4):306–317.
+28. Kemeny J, Snell J (1976) Finite Markov Chains (Springer, New York).
+29. Shalizi C, Crutch ﬁeld J (2001) Computational mechanics: Pattern and prediction,
+structure and simplicity. J Stat Phys 104:817–879.
+30. Alexander S (1920) Space, Time, and Deity: The Gifford Lectures at Glasgow, 1916–1918
+(Macmillan, London).
+31. Buxhoeveden DP, Casanova MF (2002) The minicolumn hypothesis in neuroscience.
+Brain 125(Pt 5):935 –951.
+32. Georgopoulos AP, Schwartz AB, Kettner RE (1986) Neuronal population coding of
+movement direction. Science 233(4771):1416–1419.
+33. London M, Roth A, Beeren L, Häusser M, Latham PE (2010) Sensitivity to perturbations in
+vivo implies high noise and suggests rate coding in cortex. Nature 466(7302):123–127.
+34. Knoblauch A, Palm G (2005) What is signal and what is noise in the brain? Biosystems
+79(1-3):83–90.
+35. Sporns O (2010) Networks of the Brain (MIT Press, Cambridge, MA).
+36. Fitelson B, Hitchcock C (2010) Probabilistic Measures of Causal Strength (Oxford
+Univ Press, Oxford, UK).
+Hoel et al. PNAS | December 3, 2013 | vol. 110 | no. 49 | 19795
+BIOPHYSICS AND
+COMPUTATIONAL BIOLOGY
+
+--- Page 7 ---
+
+Supporting Information
+Hoel et al. 10.1073/pnas.1314922110
+Effect Coef ﬁcient and Effectiveness ( Eff) Expressed as
+Determinism and Degeneracy
+The state-dependent effect coef ﬁcient ðs0Þ = effect  information ðs0 Þ
+log2 ðnÞ
+can be described as a function of two terms, the determinism
+and degeneracy coef ﬁcient. To derive these two terms, the effect
+information ðs0Þ, the distance between the effect repertoire
+ðSF js0Þ and the unconstrained r epertoire of effects UE,i ss p l i t
+into the distance between ðSF js0Þ and the uniform distribution U
+with pðsU Þ = 1=n, and a residual term:
+Effect  Informationðs0Þ = DKL
+/C0
+ðSF js0Þ; UE/C1
+=
+X
+sF ∈UE
+pðsF js0Þlog2
+/C18 pðsF js0Þ
+pðsF Þ
+/C19
+[S1]
+=
+X
+sF ∈UE
+pðsF js0Þlog2
+/C18 pðsF js0Þ
+pðsU Þ + pðsU Þ
+pðsF Þ
+/C19
+[S2]
+=
+X
+sF ∈UE
+pðsF js0Þ
+/C18
+log2
+/C18 pðsF js0Þ
+pðsU Þ
+/C19
+− log2
+/C18 pðsF Þ
+pðsU Þ
+/C19/C19
+[S3]
+=
+X
+sF ∈UE
+pðsF js0Þlog2
+/C18 pðsF js0Þ
+pðsU Þ
+/C19
+−
+X
+sF ∈UE
+pðsF js0Þlog2
+/C18 pðsF Þ
+pðsU Þ
+/C19
+[S4]
+ðusing  pðsU Þ = 1=nÞ =
+X
+sF ∈UE
+pðsF js0Þlog2ðn · pðsF js0ÞÞ
+−
+X
+sF ∈UE
+pðsF js0Þlog2ðn · pðsF ÞÞ [S5]
+= DKLððSF js0Þ; UÞ −
+X
+sF ∈UE
+pðsF js0Þlog2ðn · pðsF ÞÞ; [S6]
+where sF denotes a state of the system SF at t+1 with probability
+pðsF Þ according to the unconstrained distribution of effects UE.
+s0 is the present system state. The determinism coef ﬁcient is then
+the left term in lines S5 and S6 divided by log2(n):
+Determinism coefficientðs0Þ =
+X
+sF ∈UE pðsF js0Þlog2ðn · pðsF js0ÞÞ
+log2ðnÞ
+= DKLððsF js0Þ; UÞ
+log2ðnÞ ;
+[S7]
+the degeneracy coef ﬁcient the right term:
+Degeneracy coefficientðs0Þ =
+X
+sF ∈UE pðsF js0Þlog2ðn · pðsF ÞÞ
+log2ðnÞ ;
+[S8]
+as de ﬁned in the main article.
+The effectiveness (Eff) of a system assesses the causal relations
+in a system in a state-independen t manner, irrespective of the
+size of the system ’s state space:
+Eff ðSÞ = EIðSÞ
+log2ðnÞ = hEffect  Informationðs0Þi
+log2ðnÞ
+=
+X
+s0 ∈UC pðs0ÞDKL
+/C0
+ðSF js0Þ; UE/C1
+log2ðnÞ ; [S9]
+where the effective information EI(S) is the average effect in-
+formation of all system states s0, distributed according to UC, the
+unconstrained repertoire of causes, which is identical to the uniform
+distributionU; thus, here pðs0Þ = 1=n. EI(S) can then be divided in
+the same way as the state-dependent effect information:
+EIðSÞ = hEffect Informationðs0Þi; [S10]
+=
+*
+DKLððSF js0Þ; UÞ −
+X
+sF ∈UE
+pðsF js0Þlog2
+/C18 pðsF Þ
+pðsU Þ
+/C19 +
+; [S11]
+= hDKL ððSF js0Þ; UÞi−
+* X
+sF ∈UE
+pðsF js0Þlog2
+/C18 pðsF Þ
+pðsU Þ
+/C19 +
+; [S12]
+= hDKLððSF js0Þ; UÞi −
+X
+s0 ∈UC
+pðs0Þ
+X
+sF ∈UE
+pðsF js0Þlog2
+/C18 pðsF Þ
+pðsU Þ
+/C19
+;
+[S13]
+= hDKLððSF js0Þ; UÞi −
+X
+sF ∈UE
+pðsF Þlog2
+/C18 pðsF Þ
+pðsU Þ
+/C19
+; [S14]
+= hDKLððSF js0Þ; UÞi − DKL
+/C0
+UE; U
+/C1
+: [S15]
+The last equality is due to the fact that pðsF Þ is the probability of
+state sF to occur at t+1 following UE, the unconstrained distribu-
+tion of effects (future states) obtained by setting the system S at
+t0 into all possible states s0 with equal probability pðs0Þ = 1=n.
+Both, indeterminism and degeneracy at the micro level may
+be indicative of causal emergence ( Discussion , main text). Note
+that, in previous work, it was suggested that a convergence of
+two causes onto the same effect—an instance of degeneracy—may
+actually disqualify the micro level from causation (1, 2) (although
+see ref. 3).
+Effective Information EI(S) Expressed in Terms of Cause and
+Effect Information and Mutual Information MI
+The effective information of a system, EI(S), can be obtained as
+the expected value of the cause or effect information. Moreover,
+EI(S) is identical to the mutual information MIðUC; UEÞ : the MI
+between the system S set to all possible counterfactuals (system
+states) with equal probability (unconstrained repertoire of cau-
+ses, UC) and the resulting distribution of system states at the next
+time step (unconstrained repertoire of effects, UE). Note that EI
+was originally introduced as a measure of causal in ﬂuence of one
+subset of a system over another (1), whereas here it captures the
+1. Yablo S (1992) Mental causation. Philos Rev 101:245–280.
+2. List C, Menzies P (2009) Non-reductive physicalism and the limits of the exclusion
+principle. J Philos CVI(9):475–502.
+3. Shapiro L, Sober E (2012) Against proportionality. Analysis 72:89–93.
+Hoel et al. www.pnas.org/cgi/content/short/1314922110 1o f4
+
+--- Page 8 ---
+
+overall effectiveness of system S onto itself (see refs. 2 and 3 for
+related measures).
+In the following derivation, we start from the de ﬁnition of
+EI(S) as the average effect information of all system states s0 as
+counterfactual causes [distributed according to UC with equal
+probability pðs0Þ = 1=n for all system states]:
+EIðSÞ = hEffect  Informationðs0Þi =
+X
+s0 ∈UC
+pðs0ÞDKL
+/C0
+ðSF js0Þ; UE/C1
+=
+[S1]
+ðusing  pðs0Þ = 1=n ∀s0Þ = 1
+n
+X
+s0 ∈UC
+DKL
+/C0
+ðSF js0Þ; UE/C1
+: [S2]
+Using Bayes ’ rule and time invariance, we then show that the
+average effect information is indeed equivalent to the mutual
+information MIðUC; UEÞ and to the expected value of the cause
+information, which is the aver age cause information of each
+accessible state at t0,w e i g h t e db ypðs0Þ according to UE :
+EIðSÞ = hEffect  Informationðs0Þi = MI
+/C0
+UC; UE/C1
+= hCause  Informationðs0Þi: [S3]
+In detail:
+EIðSÞ = hEffect  Informationðs0Þi =
+X
+s0 ∈UC
+pðs0ÞDKL
+/C0
+ðSF js0Þ; UE/C1
+=
+[S4]
+=
+X
+s0 ∈UC
+pðs0Þ
+X
+sF ∈UE
+pðsF js0Þlog2
+/C18 pðsF js0Þ
+pðsF Þ
+/C19
+=
+[S5]
+=
+X
+s0 ∈UC
+X
+sF ∈SF
+pðs0ÞpðsF js0Þlog2
+/C18 pðsF js0Þ
+pðsF Þ
+/C19
+= [S6]
+ðBayes’  ruleÞ =
+X
+s0 ∈UC
+X
+sF ∈UE
+pðs0; sF Þlog2
+/C18 pðs0; sF Þ
+pðs0ÞpðsF Þ
+/C19
+= [S7]
+= MI
+/C0
+UC; UE/C1
+= [S8]
+ðtime  invarianceÞ =
+X
+sP ∈UC
+X
+s0 ∈UE
+pðsP; s0Þlog2
+/C18 pðsP ; s0Þ
+pðsP Þpðs0Þ
+/C19
+= [S9]
+ðBayes’  ruleÞ =
+X
+sP ∈UC
+X
+s0 ∈UE
+pðs0ÞpðsP js0Þlog2
+/C18 pðsP js0Þ
+pðsP Þ
+/C19
+=
+[S10]
+=
+X
+s0 ∈UE
+pðs0Þ
+X
+sP ∈UC
+pðsP js0Þlog2
+/C18 pðsP js0Þ
+pðsP Þ
+/C19
+=
+[S11]
+=
+X
+s0 ∈UE
+pðs0ÞDKL
+/C0
+ðSP js0Þ; UC/C1
+= hCause  Informationðs0Þi:
+[S12]
+MI is originally a statistical measure of how much information
+is shared between a source and a target (4). In the present
+context, MI is applied between two time steps of a system that is
+ﬁrst perturbed into all counterfactuals (alternative states) with equal
+probability and then observed at the next time step. Because of the
+system perturbations,MI here is a causal measure. In other words,
+EI(S)i st h e MI between the set of all possible causes UC and the
+set of all their effects UE. Usually, however, MI is calculated for
+observed distributions of system states and thus not a causal
+measure, but a statistical measure of correlation.
+Bounds of Cause and Effect Coef ﬁcients and Effectiveness
+Eff(S)
+In the following, we will show that the cause and effect coefﬁcients,
+as well as the effectiveness Eff(S), are bounded between 0 and 1
+ð∈½0 ... 1/C138Þ :
+Cause  coefficientðs0Þ = Cause  informationðs0Þ
+log2ðnÞ
+= DKL
+/C0
+ðSP js0Þ; UC/C1
+log2ðnÞ ; [S1]
+Effect  coefficientðs0Þ = Effect  informationðs0Þ
+log2ðnÞ
+= DKL
+/C0
+ðSF js0Þ; UE/C1
+log2ðnÞ ; [S2]
+Eff ðSÞ = EIðSÞ
+log2ðnÞ =
+1
+n
+X
+s0 ∈UC DKL
+/C0
+ðSF js0Þ; UE/C1
+log2ðnÞ
+= hEffect  coefficientðs0Þi: [S3]
+The lower bound (0) is given by the fact that the Kullback –
+Leibler divergenceðDKLÞ is always nonnegative (Gibbs’ inequality).
+Because the cause and effect information are expressed in terms
+of DKL and the state-independent effective information EI(S)i s
+just an average of the state-dependent values, neither of the three
+coefﬁcients can be negative. It thus remains to show that cause
+and effect coef ﬁcients cannot exceed 1.
+The cause information ðs0Þ is the DKL between the cause rep-
+ertoire ðSP js0Þ and UC, the unconstrained cause repertoire, which
+is identical to the uniform distribution with pðsP Þ = 1=n ∀sP.I t
+follows that
+Cause  informationðs0Þ = DKL
+/C0
+ðSP js0Þ; UC/C1
+=
+X
+sP ∈UC
+pðsP js0Þlog2
+/C18 pðsP js0Þ
+pðsP Þ
+/C19
+= [S4]
+=
+X
+sP ∈UC
+pðsPjs0Þlog2ðn · pðsP js0ÞÞ [S5]
+ðsince  pðsP js0Þ ≤ 1Þ ≤
+X
+sP ∈UC
+pðsP js0Þlog2ðnÞ = log2ðnÞ; [S6]
+and thus
+1. Tononi G, Sporns O (2003) Measuring information integration. BMC Neurosci 4:31.
+2. Ay N, Polani D (2008) Information ﬂows in causal networks. Adv Complex Syst 11(1):
+17–41.
+3. Korb KB, Nyberg EP, Hope L (2011) Causality in the Sciences , eds Illari P, Russo F,
+Williamson J (Oxford Univ Press, Oxford), pp 628 –652.
+4. Cover TM, Thomas JA (2006) Elements of Information Theory (Wiley-Interscience,
+Hoboken, NJ).
+Hoel et al. www.pnas.org/cgi/content/short/1314922110 2o f4
+
+--- Page 9 ---
+
+Cause  coefficientðs0Þ ≤ 1: [S7]
+The effect information ðs0Þ is the DKL between the effect rep-
+ertoire ðSF js0Þ and UE, the unconstrained effect repertoire. UE is
+in general not identical to the uniform distribution. However,
+pðsF Þ =
+X
+s0 ∈UC
+pðsF js0Þ · pðs0Þ; [S8]
+where pðs0Þ = 1=n ∀s0 and thus:
+pðsF js0Þ ≤ n · pðsF Þ; ∀sF : [S9]
+Using Eq. S9, if follows that:
+Effect  informationðs0Þ = DKL
+/C0
+ðSF js0Þ; UE/C1
+=
+X
+sF ∈UE
+pðsF js0Þlog2
+/C18 pðsF js0Þ
+pðsF Þ
+/C19
+= [S10]
+ðusing Eq: S9Þ≤
+X
+sF ∈UE
+pðsF js0Þlog2
+/C18 n · pðsF Þ
+pðsF Þ
+/C19
+=
+X
+sF ∈UE
+pðsF js0Þlog2ðnÞ
+[S11]
+= log2ðnÞ; [S12]
+and thus
+Effect  coefficientðs0Þ ≤ 1: [S13]
+Finally, because the effect coef ﬁcient ðs0Þ ∈ ½0 ... 1/C138 ∀s0,a l s oi t s
+average over all system states, the state-independent effectiveness
+EffðSÞ ∈ ½0 ... 1/C138 .
+Causal Reduction
+To complement the examples of causal emergence in the main
+text, we here provide an exampl e in which causal reduction is
+called for. In Fig. S1, a macro mechanism works as an XOR logic
+gate (as an isolated part of a larger circuit board) with inputs X, Y,
+and output Z (Fig. S1 A). At the macro level, the system (XOR,X,
+Y,Z) generates 2 bits of EI over one macro time step Tx (the XOR
+operates after a “decision” period where it processes the input)
+and Eff ðSM Þ = 0:5. The macro XOR gate is actually composed of
+(supervenes upon) nine determini stic micro logic gates (COPY,
+NOT, AND, OR). In this case, however, causal interactions are
+stronger at the micro level and over a single micro time step tx
+[EIðSM Þ = 7:43  bits and Eff ðSM Þ = 0:83 ]. Thus, CE = −5.43 bits,
+corresponding to negative causal emergence, i.e., reduction. Note
+that in this case the micro circuit is deterministic and minimally
+degenerate (0.17), so the macro cannot offset the loss of effective
+information due to its reduced size by a gain in determinism or a
+reduction in degeneracy.
+To demonstrate this case of causal reduction, we have assumed
+that a deterministic micro circuit underlies the above macro
+circuit. In general, however, real digital circuits are often built
+from many stochastic analog micro elements in a highly degenerate
+manner, to compensate for noise at the lower level and to create
+deterministic macro elements. In this way, digital circuits and other
+engineered systems follow simil ar design principles as the more
+physiological examples presented in the main text. Consequently,
+there is the potential for either causal emergence or reduction
+in digital circuits, depending on the underlying micro level, just as
+in physiological systems.
+More generally, the notion of causal reduction ðCE < 0Þ stands
+in contrast to previous accounts of reduction that focused on the
+relationship between scienti ﬁc theories and whether or not they
+are reducible to one another (1). In the present account based on
+causal analysis, the focus is instead on the relationship between
+micro and macro levels of mechanisms. This account reveals why
+there is a bias in favor of reductionism in mechanistic scienti ﬁc
+explanations. The bias is understandable given that, everything
+else being equal, the micro would always beat the macro: being
+more detailed by de ﬁnition, the micro has an inherent advantage
+in how informative its causal mechanisms are. This inherent ad-
+vantage is captured quantitatively in causal analysis because the
+micro can bene ﬁtf r o mb o t hΔIEff and ΔISize , whereas the macro
+c a no n l yg a i nf r o mΔIEff .
+Causal Emergence in a System with Causally Heterogeneous
+Elements
+Although the examples in the main text (with the exception of
+Fig. 6) all have macro elements with underlying unconnected and
+causally equivalent micro eleme nts, this is not a necessity for
+causal emergence. In Fig. S2 A, the six micro elements are fully
+interconnected and causally hete rogeneous. The elements are
+structured into two groups {ABC, DEF} due to different intra-
+group and intergroup mechanisms: within each group, if the sum of
+intragroup connections Σ(intra) = 0, all elements stay 0 (inactive)
+the next time step. However, if the sum of intergroup connections
+Σ(inter) = 3 (synchronous activity from the other group), all ele-
+ments turn 1, unless they are all 0, in which case they become
+spontaneously active (1) with probabilities: p(A/D) = 0.45; p(B/
+E) = 0.5; p(C/F) = 0.55. Because the micro transition proba-
+bility matrix (TPM) is noisy, EIðSmÞ = 1:13  bits and
+EffðSmÞ = 0:19 (Fig. S2B). The optimal macro grouping SM (Fig.
+S2C) has a more deterministic TPM (Fig. S2 D),
+EIðSM Þ = 1:84  bits and Eff ðSM Þ = 0:58. Thus, the macro super-
+sedes the micro [ CE(S) = 0.72 bits] despite its reduced reper-
+toire size, because it counteracts noise by responding almost
+deterministically to synchronous activity over intergroup con-
+nections.
+The neural-like system of Fig. 6 in the main text has equivalent
+spatial properties to the example system of Fig. S2 (fully con-
+nected, causally heterogeneous elements, sensitive to differences
+in intraconnections and interconnections). In addition, it has the
+same temporal properties as the system shown in Fig. 5 (main text),
+with second-order Markov mechanisms at the micro level. The
+system’s states space at the micro level thus contains 2 18 states,
+which prohibited an exhaustive search for the optimal macro level.
+Nevertheless, the spatiotemporally emergent macro grouping
+shown in Fig. 6 B (main text) is assumed to be the optimal macro
+grouping based on the results obtained from the examples of
+Fig. S2 and Fig. 5 (main text).
+Applicability—Network Motifs as Indicators of Emergence
+Measuring EI exhaustively, across all micro/macro levels, is not
+feasible for large systems. This is because, assuming N binary
+elements, BN − 1( Nth Bell number) possible groupings of those
+micro elements into macro elements exist, each of which entails
+∏ k
+j=1ðBmðjÞ+1 − 1Þ possible groupings of micro into macro states,
+where k is the number of macro elements with mð jÞ micro ele-
+ments each. The number of EI computations to determine the
+spatiotemporal grain with maximal EI thus increases dramatically
+with N (N = 1, 1; N = 2, 5; N = 3, 27; N = 4, 180 computations,
+etc.) if calculated exhaustively.
+In large, complex networks where an exhaustive causal analysis is
+unfeasible, overrepresented network motifs could already indicate
+whether the network as a whole is biased toward emergence or
+reduction. For example, the two most common network motifs
+1. Nagel E (1961) The structure of science: problems in the logic of scienti ﬁc explanation
+(Harcourt, Brace & World, New York).
+Hoel et al. www.pnas.org/cgi/content/short/1314922110 3o f4
+
+--- Page 10 ---
+
+shared by the gene networks in Escherichia coli and the brain
+of Caenorhabditis elegans are the feedforward loop and the bifan
+(1). Both these network motifs mimic in their connectivity
+precisely the micro element groups that made up the optimal
+(winning) macro elements in our chosen examples. In Fig. 2 (main
+text), the ﬁrst spatial example, the macro elements are bifans,
+whereas in Fig. 6 (main text), the ﬁrst temporal example, the
+macro elements are feedforward loops. These are perhaps the
+simplest possible functionally relevant macro elements. Both
+the bifan and the feedforward loop show causal convergence
+(degeneracy) in either space or time. A greater than random
+prevalence of these or similar network motifs, paired with some
+amount of intrinsic noise in the system, may indicate that the
+system operates at a macro level.
+1. Milo R, et al. (2002) Network motifs: Simple building blocks of complex networks.
+Science 298(5594):824–827.
+Fig. S1. Causal reduction. (A) A part of a larger circuit is presented, which performs a macro XOR logic function over its inputs X, Y, and outputs to Z. ( B)A tt h e
+micro level, the XOR consists of nine deterministic logic gates. The system is deterministic at both the micro and the macro level. Moreover, the degen eracy
+coefﬁcient at the micro level is lower than at the macro level. Therefore, i n this case, the micro beats the macro, leading to causal reduction. CE(S) = −5.43 bits.
+Fig. S2. Causal emergence in a system with differentiated connectivity. ( A) Micro system Sm with six elements. Regular and rounded arrows indicate in-
+tergroup and intragroup connections, respectively. ( B) Noisy micro-level TPM. ( C) Macro system SM. Each macro element receives inputs from itself and the
+other macro element. ( D) More deterministic macro-level TPM. CE(S) = 0.72 bits.
+Hoel et al. www.pnas.org/cgi/content/short/1314922110 4o f4

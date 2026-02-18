@@ -1,0 +1,81 @@
+PDF backend: pypdf
+Converted this run: 26
+  OK  Material Beings -- van Inwagen, Peter -- 2017 dec 31 -- Cornell University Press -- 9780801419690 -- 59a5bf06fbe3563052b7771493d89ac0 -- Anna’s Archive.pdf -> Material Beings -- van Inwagen, Peter -- 2017 dec 31 -- Cornell University Press -- 9780801419690 -- 59a5bf06fbe3563052b7771493d89ac0 -- Anna’s Archive.txt
+  OK  Methodology, Ontology, and Interventionism.pdf -> Methodology, Ontology, and Interventionism.txt
+  OK  modal structuralism simplified.pdf -> modal structuralism simplified.txt
+  OK  Moghaddam_Soroush_MA_2013.pdf -> Moghaddam_Soroush_MA_2013.txt
+  OK  neuberg-review.pdf -> neuberg-review.txt
+  OK  Newmans Objection - The British Journal for the Philosophy of Science 2009-03_  -  ISSN 0007-0882, Volume 60, Issue 1, 2009-03  -  Oxford Publishing Limited(England)  -  00070882  -.pdf -> Newmans Objection - The British Journal for the Philosophy of Science 2009-03_  -  ISSN 0007-0882, Volume 60, Issue 1, 2009-03  -  Oxford Publishing Limited(England)  -  00070882  -.txt
+  OK  parr-et-al-2019-markov-blankets-information-geometry-and-stochastic-thermodynamics.pdf -> parr-et-al-2019-markov-blankets-information-geometry-and-stochastic-thermodynamics.txt
+  OK  Pearl_2009_Causality (1).pdf -> Pearl_2009_Causality (1).txt
+  OK  Pearl_2009_Causality.pdf -> Pearl_2009_Causality.txt
+  OK  Physicalism or Something Near Enough -- Kim, Jaegwon(Author) -- Princeton monographs in philosophy, 1, 2008 -- Princeton University Press -- 9780691113753 -- 6c0eb947065ac207b26473f6ac83eacb -- Anna’s Archive.pdf -> Physicalism or Something Near Enough -- Kim, Jaegwon(Author) -- Princeton monographs in philosophy, 1, 2008 -- Princeton University Press -- 9780691113753 -- 6c0eb947065ac207b26473f6ac83eacb -- Anna’s Archive.txt
+  OK  Predictive Minds Can Be Human Minds.pdf -> Predictive Minds Can Be Human Minds.txt
+  OK  Quantifying causal emergence shows that macro can beat micro Erik P Hoel, Larissa Albantakis, Giulio Tononi.pdf -> Quantifying causal emergence shows that macro can beat micro Erik P Hoel, Larissa Albantakis, Giulio Tononi.txt
+  OK  Real patterns, the predictive mind.pdf -> Real patterns, the predictive mind.txt
+  OK  Real Patterns.pdf -> Real Patterns.txt
+  OK  Really Real Patterns Millhouse 2021.pdf -> Really Real Patterns Millhouse 2021.txt
+  OK  sinclair2007.pdf -> sinclair2007.txt
+  OK  Special sciences or The disunity of science as a working hypothesis J A Fodor.pdf -> Special sciences or The disunity of science as a working hypothesis J A Fodor.txt
+  OK  The British Journal for the Philosophy of Science 2009-03_ -- ISSN 0007-0882, Volume 60, Issue 1, 2009-03 -- Oxford Publishing Limited(England) -- 00070882 -- 35e9616c51f422399fdb28a83dffeeef -- Anna’s Archive.pdf -> The British Journal for the Philosophy of Science 2009-03_ -- ISSN 0007-0882, Volume 60, Issue 1, 2009-03 -- Oxford Publishing Limited(England) -- 00070882 -- 35e9616c51f422399fdb28a83dffeeef -- Anna’s Archive.txt
+  OK  The inner screen model of consciousness 2305.02205v4.pdf -> The inner screen model of consciousness 2305.02205v4.txt
+  OK  The ontology of resonance.pdf -> The ontology of resonance.txt
+  OK  the-principle-of-dynamic-holism-guiding-methodology-for-investigating-cognition-in-nonneuronal-organisms.pdf -> the-principle-of-dynamic-holism-guiding-methodology-for-investigating-cognition-in-nonneuronal-organisms.txt
+  OK  TheInformationTheoreticImperative.pdf -> TheInformationTheoreticImperative.txt
+  OK  Towards a phase epistemology.pdf -> Towards a phase epistemology.txt
+  OK  True Enough.pdf -> True Enough.txt
+  OK  trueno.pdf -> trueno.txt
+  OK  zollman_-_communication_structure_revised_version.pdf -> zollman_-_communication_structure_revised_version.txt
+Skipped: 43
+  SKIP Ando A Simon Aggragation of variables in dynamic systems - Econometrica  1961-04_ Vol 29 Iss 2  -  ISSN 0012-9682, Volume 29, Issue 2, 1961-04  -  Blackwell Publishing Ltd_  -  00129682.pdf (already converted)
+  SKIP baggio_parravicini_2019.pdf (already converted)
+  SKIP Being_Realist_about_Bayes_and_the_Predictive_Processing_Theory_of_Mind.pdf (already converted)
+  SKIP Beni-Pietarinen2021_Article_AligningTheFree-energyPrincipl.pdf (already converted)
+  SKIP Between pebbles and organisms, weaving autonomy into the markov blanket.pdf (already converted)
+  SKIP beyond bayesian accuracy, skill, abduction, and the free energy principle in normative rationality.pdf (already converted)
+  SKIP Beyond_Likelihood_Improbability_as_a_Qua.pdf (already converted)
+  SKIP Causation with a Human Face_ Normative Theory and -- James Francis Woodward -- Oxford Studies.pdf (already converted)
+  SKIP Claude-Bridging thermodynamics and epistemology.md (already converted)
+  SKIP Community as Phase.pdf (already converted)
+  SKIP Dennett_RealPatterns.pdf (already converted)
+  SKIP dretske.precis knowledge flow of info.pdf (already converted)
+  SKIP Econometrica  1961-04_ Vol 29 Iss 2 -- ISSN 0012-9682, Volume 29, Issue 2, 1961-04 -- Blackwell Publishing Ltd_ -- 00129682 -- 38bf90eba6e118bc184f571a97de9265 -- Anna’s Archive.pdf (already converted)
+  SKIP Elements of Information Theory -- Thomas M_ Cover & Joy A_ Thomas -- 2_, Auflage, New York, NY, 2012 -- Wiley-Interscience -- 9780470303153 -- 2fcfe3e8a16b3aeefeaf9429fcf9a513 -- Anna’s Archive.epub (already converted)
+  SKIP Elgin, True Enough Philosophical Issues, 14, Epistemology, 2004.pdf (already converted)
+  SKIP Elgin-2017-Crossref-metadata.json (already converted)
+  SKIP Elgin-2017-kntoun.pdf (already converted)
+  SKIP Elgin-2017-kntoun.txt (already .txt)
+  SKIP Elgin-2017-SearchWithin-From-Knowledge-to-Understanding.json (already converted)
+  SKIP Elgin-2017-SearchWithin-The-Fabric-of-Understanding.json (already converted)
+  SKIP Elgin.pdf (already converted)
+  SKIP Emperor's new markov blankets.pdf (already converted)
+  SKIP entropy-22-00889-v2.pdf (already converted)
+  SKIP Every Thing Must Go.pdf (already converted)
+  SKIP Finite Markov Chains.pdf (already converted)
+  SKIP Free Energy Pragmatics_ Markov blankets don’t prescribe objective ontology, and that’s okay.pdf (already converted)
+  SKIP Free Energy Principle.pdf (already converted)
+  SKIP Hierarchical Markov blankets and adaptive active inference.pdf (already converted)
+  SKIP HPC.pdf (already converted)
+  SKIP Information Theoretic Imparative.pdf (already converted)
+  SKIP Informational Realism.pdf (already converted)
+  SKIP kntoun.pdf (already converted)
+  SKIP Lewis-David-(1986)-On-the-Plurality-of-Worlds (1).pdf (already converted)
+  SKIP Lewis-David-(1986)-On-the-Plurality-of-Worlds.pdf (already converted)
+  SKIP Living with Darwin_ Evolution, Design, and the Future of -- Philip Kitcher.pdf (already converted)
+  SKIP Logic and the structure of the web of belief.pdf (already converted)
+  SKIP Markov blankets of life.pdf (already converted)
+  SKIP Software in the Natural World.md (already converted)
+  SKIP Software in the natural world.pdf (already converted)
+  SKIP temp_woodward.txt (already .txt)
+  SKIP True-Enough.txt (already .txt)
+  SKIP trueno.txt (already .txt)
+  SKIP woodward2021.bib (already converted)
+Failed: 8
+  FAIL 3027PutnamPsychPredicates.pdf (No extractable PDF text)
+  FAIL ayvazov.pdf (Stream has ended unexpectedly)
+  FAIL baysan_2025.pdf (Stream has ended unexpectedly)
+  FAIL Finite Markov Chains (university Series In Undergraduate -- by John G_ Kemeny and J_ Laurie Snell -- University series in undergraduate mathematics, -- 9780442043285 -- 8dd013a9fe35cc7f5e65cd7405c53002 -- Anna’s .pdf ([Errno 2] No such file or directory: 'C:\\Users\\Patrick\\paper\\sources\\text-converted\\Finite Markov Chains (university Series In Undergraduate -- by John G_ Kemeny and J_ Laurie Snell -- University series in undergraduate mathematics, -- 9780442043285 -- 8dd013a9fe35cc7f5e65cd7405c53002 -- Anna’s .txt')
+  FAIL goodman_fact_fiction_and_forecast.pdf (No extractable PDF text)
+  FAIL Having thought _ essays in the metaphysics of mind -- John Haugeland -- Cambridge, Mass, Massachusetts, 1998 -- Harvard University, Department of -- 9780674004153 -- 675a74737644d82e43cfed4277ec7914 -- Anna’s Arc.pdf ([Errno 2] No such file or directory: 'C:\\Users\\Patrick\\paper\\sources\\text-converted\\Having thought _ essays in the metaphysics of mind -- John Haugeland -- Cambridge, Mass, Massachusetts, 1998 -- Harvard University, Department of -- 9780674004153 -- 675a74737644d82e43cfed4277ec7914 -- Anna’s Arc.txt')
+  FAIL Mind in a Physical World_ An Essay on the Mind-Body Problem -- Kim, Jaegwon -- Representation and mind, 1st MIT Press paperback ed, -- The MIT Press -- 9780262112345 -- 4285d30437ba6dd38674f1fc38f5bbfd -- Anna’s .pdf ([Errno 2] No such file or directory: 'C:\\Users\\Patrick\\paper\\sources\\text-converted\\Mind in a Physical World_ An Essay on the Mind-Body Problem -- Kim, Jaegwon -- Representation and mind, 1st MIT Press paperback ed, -- The MIT Press -- 9780262112345 -- 4285d30437ba6dd38674f1fc38f5bbfd -- Anna’s .txt')
+  FAIL PredictiveMindreviewFINALVERSIONJuly2016.doc (Legacy .doc not supported in this environment)

@@ -1,0 +1,81 @@
+Converted: 70
+  OK   Ando A Simon Aggragation of variables in dynamic systems - Econometrica  1961-04_ Vol 29 Iss 2  -  ISSN 0012-9682, Volume 29, Issue 2, 1961-04  -  Blackwell Publishing Ltd_  -  00129682.pdf -> Ando A Simon Aggragation of variables in dynamic systems - E__4803dfc853.txt
+  OK   ayvazov.pdf -> ayvazov.txt
+  OK   baggio_parravicini_2019.pdf -> baggio_parravicini_2019.txt
+  OK   baysan_2025.pdf -> baysan_2025.txt
+  OK   Being_Realist_about_Bayes_and_the_Predictive_Processing_Theory_of_Mind.pdf -> Being_Realist_about_Bayes_and_the_Predictive_Processing_Theory_of_Mind.txt
+  OK   Beni-Pietarinen2021_Article_AligningTheFree-energyPrincipl.pdf -> Beni-Pietarinen2021_Article_AligningTheFree-energyPrincipl.txt
+  OK   Between pebbles and organisms, weaving autonomy into the markov blanket.pdf -> Between pebbles and organisms, weaving autonomy into the markov blanket.txt
+  OK   beyond bayesian accuracy, skill, abduction, and the free energy principle in normative rationality.pdf -> beyond bayesian accuracy, skill, abduction, and the free energy principle in normative rationality.txt
+  OK   Beyond_Likelihood_Improbability_as_a_Qua.pdf -> Beyond_Likelihood_Improbability_as_a_Qua.txt
+  OK   Causation with a Human Face_ Normative Theory and -- James Francis Woodward -- Oxford Studies.pdf -> Causation with a Human Face_ Normative Theory and -- James Francis Woodward -- Oxford Studies.txt
+  OK   Claude-Bridging thermodynamics and epistemology.md -> Claude-Bridging thermodynamics and epistemology.txt
+  OK   Community as Phase.pdf -> Community as Phase.txt
+  OK   Dennett_RealPatterns.pdf -> Dennett_RealPatterns.txt
+  OK   dretske.precis knowledge flow of info.pdf -> dretske.precis knowledge flow of info.txt
+  OK   Econometrica  1961-04_ Vol 29 Iss 2 -- ISSN 0012-9682, Volume 29, Issue 2, 1961-04 -- Blackwell Publishing Ltd_ -- 00129682 -- 38bf90eba6e118bc184f571a97de9265 -- Anna’s Archive.pdf -> Econometrica  1961-04_ Vol 29 Iss 2 -- ISSN 0012-9682, Volume 29, Issue 2, 1961-04 -- Blackwell Publishing Ltd_ -- 00129682 -- 38bf90eba6e118bc184f571a97de9265 -- Anna’s Archive.txt
+  OK   Elements of Information Theory -- Thomas M_ Cover & Joy A_ Thomas -- 2_, Auflage, New York, NY, 2012 -- Wiley-Interscience -- 9780470303153 -- 2fcfe3e8a16b3aeefeaf9429fcf9a513 -- Anna’s Archive.epub -> Elements of Information Theory -- Thomas M_ Cover & Joy A_ T__9093e12894.txt
+  OK   Elgin, True Enough Philosophical Issues, 14, Epistemology, 2004.pdf -> Elgin, True Enough Philosophical Issues, 14, Epistemology, 2004.txt
+  OK   Elgin-2017-Crossref-metadata.json -> Elgin-2017-Crossref-metadata.txt
+  OK   Elgin-2017-kntoun.pdf -> Elgin-2017-kntoun.txt
+  OK   Elgin-2017-SearchWithin-From-Knowledge-to-Understanding.json -> Elgin-2017-SearchWithin-From-Knowledge-to-Understanding.txt
+  OK   Elgin-2017-SearchWithin-The-Fabric-of-Understanding.json -> Elgin-2017-SearchWithin-The-Fabric-of-Understanding.txt
+  OK   Elgin.pdf -> Elgin.txt
+  OK   Emperor's new markov blankets.pdf -> Emperor's new markov blankets.txt
+  OK   entropy-22-00889-v2.pdf -> entropy-22-00889-v2.txt
+  OK   Every Thing Must Go.pdf -> Every Thing Must Go.txt
+  OK   Finite Markov Chains (university Series In Undergraduate -- by John G_ Kemeny and J_ Laurie Snell -- University series in undergraduate mathematics, -- 9780442043285 -- 8dd013a9fe35cc7f5e65cd7405c53002 -- Anna’s .pdf -> Finite Markov Chains (university Series In Undergraduate --__f9b5ada0c8.txt
+  OK   Finite Markov Chains.pdf -> Finite Markov Chains.txt
+  OK   Free Energy Pragmatics_ Markov blankets don’t prescribe objective ontology, and that’s okay.pdf -> Free Energy Pragmatics_ Markov blankets don’t prescribe objective ontology, and that’s okay.txt
+  OK   Free Energy Principle.pdf -> Free Energy Principle.txt
+  OK   Having thought _ essays in the metaphysics of mind -- John Haugeland -- Cambridge, Mass, Massachusetts, 1998 -- Harvard University, Department of -- 9780674004153 -- 675a74737644d82e43cfed4277ec7914 -- Anna’s Arc.pdf -> Having thought _ essays in the metaphysics of mind -- John H__4ee8f9ff79.txt
+  OK   Hierarchical Markov blankets and adaptive active inference.pdf -> Hierarchical Markov blankets and adaptive active inference.txt
+  OK   HPC.pdf -> HPC.txt
+  OK   Information Theoretic Imparative.pdf -> Information Theoretic Imparative.txt
+  OK   Informational Realism.pdf -> Informational Realism.txt
+  OK   kntoun.pdf -> kntoun.txt
+  OK   Lewis-David-(1986)-On-the-Plurality-of-Worlds (1).pdf -> Lewis-David-(1986)-On-the-Plurality-of-Worlds (1).txt
+  OK   Lewis-David-(1986)-On-the-Plurality-of-Worlds.pdf -> Lewis-David-(1986)-On-the-Plurality-of-Worlds.txt
+  OK   Living with Darwin_ Evolution, Design, and the Future of -- Philip Kitcher.pdf -> Living with Darwin_ Evolution, Design, and the Future of -- Philip Kitcher.txt
+  OK   Logic and the structure of the web of belief.pdf -> Logic and the structure of the web of belief.txt
+  OK   Markov blankets of life.pdf -> Markov blankets of life.txt
+  OK   Material Beings -- van Inwagen, Peter -- 2017 dec 31 -- Cornell University Press -- 9780801419690 -- 59a5bf06fbe3563052b7771493d89ac0 -- Anna’s Archive.pdf -> Material Beings -- van Inwagen, Peter -- 2017 dec 31 -- Cornell University Press -- 9780801419690 -- 59a5bf06fbe3563052b7771493d89ac0 -- Anna’s Archive.txt
+  OK   Methodology, Ontology, and Interventionism.pdf -> Methodology, Ontology, and Interventionism.txt
+  OK   Mind in a Physical World_ An Essay on the Mind-Body Problem -- Kim, Jaegwon -- Representation and mind, 1st MIT Press paperback ed, -- The MIT Press -- 9780262112345 -- 4285d30437ba6dd38674f1fc38f5bbfd -- Anna’s .pdf -> Mind in a Physical World_ An Essay on the Mind-Body Problem__15c7e1de45.txt
+  OK   modal structuralism simplified.pdf -> modal structuralism simplified.txt
+  OK   Moghaddam_Soroush_MA_2013.pdf -> Moghaddam_Soroush_MA_2013.txt
+  OK   neuberg-review.pdf -> neuberg-review.txt
+  OK   Newmans Objection - The British Journal for the Philosophy of Science 2009-03_  -  ISSN 0007-0882, Volume 60, Issue 1, 2009-03  -  Oxford Publishing Limited(England)  -  00070882  -.pdf -> Newmans Objection - The British Journal for the Philosophy of Science 2009-03_  -  ISSN 0007-0882, Volume 60, Issue 1, 2009-03  -  Oxford Publishing Limited(England)  -  00070882  -.txt
+  OK   parr-et-al-2019-markov-blankets-information-geometry-and-stochastic-thermodynamics.pdf -> parr-et-al-2019-markov-blankets-information-geometry-and-stochastic-thermodynamics.txt
+  OK   Pearl_2009_Causality (1).pdf -> Pearl_2009_Causality (1).txt
+  OK   Pearl_2009_Causality.pdf -> Pearl_2009_Causality.txt
+  OK   Physicalism or Something Near Enough -- Kim, Jaegwon(Author) -- Princeton monographs in philosophy, 1, 2008 -- Princeton University Press -- 9780691113753 -- 6c0eb947065ac207b26473f6ac83eacb -- Anna’s Archive.pdf -> Physicalism or Something Near Enough -- Kim, Jaegwon(Author)__e679cebe4a.txt
+  OK   Predictive Minds Can Be Human Minds.pdf -> Predictive Minds Can Be Human Minds.txt
+  OK   Quantifying causal emergence shows that macro can beat micro Erik P Hoel, Larissa Albantakis, Giulio Tononi.pdf -> Quantifying causal emergence shows that macro can beat micro Erik P Hoel, Larissa Albantakis, Giulio Tononi.txt
+  OK   Real patterns, the predictive mind.pdf -> Real patterns, the predictive mind.txt
+  OK   Real Patterns.pdf -> Real Patterns.txt
+  OK   Really Real Patterns Millhouse 2021.pdf -> Really Real Patterns Millhouse 2021.txt
+  OK   sinclair2007.pdf -> sinclair2007.txt
+  OK   Software in the Natural World.md -> Software in the Natural World.txt
+  OK   Software in the natural world.pdf -> Software in the natural world.txt
+  OK   Special sciences or The disunity of science as a working hypothesis J A Fodor.pdf -> Special sciences or The disunity of science as a working hypothesis J A Fodor.txt
+  OK   The British Journal for the Philosophy of Science 2009-03_ -- ISSN 0007-0882, Volume 60, Issue 1, 2009-03 -- Oxford Publishing Limited(England) -- 00070882 -- 35e9616c51f422399fdb28a83dffeeef -- Anna’s Archive.pdf -> The British Journal for the Philosophy of Science 2009-03_ -__f46c7d3a30.txt
+  OK   The inner screen model of consciousness 2305.02205v4.pdf -> The inner screen model of consciousness 2305.02205v4.txt
+  OK   The ontology of resonance.pdf -> The ontology of resonance.txt
+  OK   the-principle-of-dynamic-holism-guiding-methodology-for-investigating-cognition-in-nonneuronal-organisms.pdf -> the-principle-of-dynamic-holism-guiding-methodology-for-investigating-cognition-in-nonneuronal-organisms.txt
+  OK   TheInformationTheoreticImperative.pdf -> TheInformationTheoreticImperative.txt
+  OK   Towards a phase epistemology.pdf -> Towards a phase epistemology.txt
+  OK   True Enough.pdf -> True Enough.txt
+  OK   trueno.pdf -> trueno.txt
+  OK   woodward2021.bib -> woodward2021.txt
+  OK   zollman_-_communication_structure_revised_version.pdf -> zollman_-_communication_structure_revised_version.txt
+Failed (supported but not converted): 2
+  FAIL 3027PutnamPsychPredicates.pdf
+  FAIL goodman_fact_fiction_and_forecast.pdf
+Unsupported format: 1
+  UNSUPPORTED PredictiveMindreviewFINALVERSIONJuly2016.doc
+Already text in sources: 4
+  TXT  Elgin-2017-kntoun.txt
+  TXT  temp_woodward.txt
+  TXT  True-Enough.txt
+  TXT  trueno.txt

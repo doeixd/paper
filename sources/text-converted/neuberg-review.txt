@@ -1,0 +1,463 @@
+--- Page 1 ---
+
+CAUSALITY: MODELS, REASONING,
+AND INFERENCE
+by Judea Pearl
+Cambridge University Press, 2000
+REEEVVVIIIEEEWWWEEEDDDBBBYYY
+LEEELLLAAANNNDDD GEEERRRSSSOOONNN NEEEUUUBBBEEERRRGGG
+Boston University
+This book seeks to integrate research on cause and effect inference from cog-
+nitive science , econometrics, epidemiology, philosophy, and statistics + It puts
+forward the work of its author , his collaborators , and others over the past two
+decades as a new account of cause and effect inference that can aid practical
+researchers in many fields, including econometrics+ Pearl adheres to several prop-
+ositions on cause and effect inference + Though cause and effect relations are
+fundamentally deterministic ~he explicitly excludes quantum mechanical phe-
+nomena from his concept of cause and effect !, cause and effect analysis in-
+volves probability language + Probability language helps to convey uncertainty
+about cause and effect relations but is insufficient to fully express those rela-
+tions+ In addition to conditional probabilities of events , cause and effect analy-
+sis requires graphs or diagrams and a language that distinguishes intervention
+or manipulation from observation + Cause and effect analysis also requires coun-
+terfactual reasoning and causal assumptions in addition to observations and sta-
+tistical assumptions +
+Chapter 1 sketches some of the ingredients of the new approach to cause and
+effect inference : probability theory , graphs, Bayesian causal networks , causal
+models, and causal and statistical terminology + Chapter 2 builds the elements
+of Chapter 1 into a theory of inferred causation + Chapter 3 focuses on causal
+diagrams and identifying causal effects + Chapter 4 studies intervention or ma-
+nipulation and direct causal effects + Chapter 5 considers causality and struc-
+tural equation models+ Chapter 6 examines Simpson’s paradox and confounding+
+Chapter 7 blends structural modeling with counterfactual reasoning + Chapter 8
+is an approach to imperfect random assignment experiments through bounding
+effects and counterfactuals + Chapter 9 analyzes notions of necessary cause and
+sufficient cause + Chapter 10 explicates a concept of single event causality + The
+epilogue is a public lecture that Pearl gave at UCLA that , in mostly not too
+technical language , places the new approach to causality within the long his-
+tory of thought on the subject +
+The interdisciplinary nature of the book , a great strength , at times makes it
+difficult to read because its theory of inferred causation blends the languages
+Address correspondence to : Leland Neuberg , Department of Mathematics and Statistics , Boston University , 111
+Cummington Street , Boston, MA 02215, USA+
+Econometric Theory , 19, 2003, 675–685+ Printed in the United States of America +
+DOI: 10+10170S0266466603004109
+© 2003 Cambridge University Press 0266-4666 003 $12 +00 675
+
+--- Page 2 ---
+
+of econometrics and statistics , mathematical graph theory , and Bayesian net-
+works with philosophical notions of cause and effect + However, Pearl facili-
+tates reader understanding by using reasonably straightforward mathematics and
+examples to help to connect the separate disciplinary discourses + Nevertheless ,
+an only semiformal approach does not ease sorting the theory into assumptions
+and deduced conclusions + The chapters less build one upon the next than take
+cuts at the subject of causality from slightly different angles + Hence the reader
+must struggle to sort assumptions from conclusions and to assemble the theory
+from the slices + The book rewards perseverance in such an effort + Pearl deep-
+ens one’s sense of the nuances involved in cause and effect inference and of-
+fers intriguing proposals to deal with some unresolved conceptual issues in such
+inference+
+1. THE BASIC IDEAS OF THE THEORY OF INFERRED CAUSATION
+By probability Pearl means degree of belief + Let V be a set of variables , pre-
+ordered by hypothesized cause-effect relations , whose joint probability distri-
+bution is P~v!+ He calls a minimal set of predecessors of any X
+i in V that make
+it independent of all of its other predecessors the Markov parents or immediate
+causes ~PA
+j ! of Xi + That is , if Qi ~$ PAj ! is the set of predecessors of Xi then
+P~xj 6 pai ! 5 P~xj 6qi ! and the equality fails to hold if any proper subset of PAj
+replaces PAj + The functional causal model associated with V is a set of equa-
+tions of the form xi 5 fi~ paj , uj !, i 5 1,+++, n “where the Uj represent errors ~or
+‘disturbances’! due to omitted factors” ~p+ 27! and the fi are functions +
+From mathematical graph theory , Pearl takes a graph as a set of nodes with
+some edges between them + Edges are either directed or not + Points, lines, and
+arrows represent nodes , edges, and directed edges , respectively+ A path is a se-
+quence of edges , and a cycle is a path with at least two edges that ends at the
+node where it began + A directed acyclic graph ~DAG! is one with no cycles
+whose edges are all directed + Pearl depicts the preordering of V by hypoth-
+esized cause-effect relations with a graph whose nodes are the variables of V
+where the arrows entering any node are from its hypothesized immediate causes +
+So a causal structure consists of the set of variables V, its joint probability dis-
+tribution P~v!, its preordering by hypothesized cause-effect relations , its func-
+tional causal model , and its associated graph +
+Pearl holds that his functional causal model concept “is a nonlinear , nonpara-
+metric generalization of the linear structural equation models ~SEMs!” ~p+ 27!
+of econometrics + The graphs associated with causal structures , developed by
+him and others in Bayesian networks , resemble the path analytic diagrams that
+the Wrights sought , only partially successfully , to introduce into econometrics
+in the 1920s ~see Morgan , 1992, pp+ 178–179!+ Pearl stresses that in “linear
+models, paj corresponds to those variables on the r +h+s++++ that have nonzero
+coefficients” ~p+ 27!+
+676 BOOK REVIEWS
+
+--- Page 3 ---
+
+Pearl maintains that the absence in probability language of a way to distin-
+guish setting a variable from observing it impedes the modeling of cause and
+effect relations + He introduces “do ~x!” for setting X 5 x, and “x” for observing
+X 5 x+ The expression “do ~x
+j !” means to delete the arrows from PAj to Xj
+from the graph and the equation xi 5 fi~ paj ,uj ! from the functional causal model
+and to set Xj 5 xj in the right-hand sides of the other equations of a causal struc-
+ture+ Pearl calls the mapping from x to P~ y6do~x!! for all x the causal effect of
+X on Y+ He calls the mapping from ~x, paY \ X ! to P~ y6do~x!, do~ paY \ X !! for all
+~x, paY \ X !, where paY \ X is a realization of the Markov parents of Y ~excluding
+X !, the direct effect of X on Y+
+Setting variables is not always ethical or possible + If P~ y6x! Þ P~ y6do~x!!,
+Pearl says that there is confounding bias + He argues that even without setting
+X 5 x one can sometimes estimate P~ y6do~x!! from observations and assump-
+tions embedded in the graph of the functional causal model+ Whereas path analy-
+sis uses arrows primarily to depict coefficients that are not a priori zero , Pearl
+develops work on causality by analytic philosophers beginning in the 1950s
+~see Eells , 1991, pp+ 59–80! into a fuller graphical formalism + In particular , he
+shows that two graphical criteria are sufficient conditions for causal effects to
+be expressible in terms of probabilities without the “do” operator +
+A set of nodes , Z, blocks ~or d-separates! a path p if and only if p contains
+a chain i r z r j with z [ Z, a fork i R z r j with z [ Z, or a collider
+i r m R j with neither m nor any descendant of m [ Z+ Here Z satisfies the
+back-door criterion relative to an ordered pair of nodes ~X,Y! in DAG G if no
+node in Z is a descendant of X and Z blocks every path between X and Y that
+contains an arrow into X+ Pearl proves that if Z satisfies the back-door crite-
+rion relative to ~X,Y! then P~ y6do~x!! 5 S
+z P~ y6x, z!P~z!+
+The variable Z satisfies the front-door criterion relative to an ordered pair of
+nodes ~X,Y! in DAG G if Z intercepts all paths from X to Y, there is no back-
+door path from X to Z, and X blocks all back-door paths from Z to Y+ Pearl
+proves that if Z satisfies the front-door criterion relative to ~X,Y! and P~x, z! .
+0 then P~ y6do~x!! 5 Sz P~z6x!S x ' P~ y6x ', z!P~x ' !+
+Figure 1 contains graphs of hypotheses of the causal relations among three
+variables+ In ~i! Z is a common cause of X and Y, Z satisfies the back-door
+criterion relative to ~X,Y!, and the Pearl adjustment formula makes intuitive
+sense+ In ~ii! Z is not a common cause of X and Y, Z fails to satisfy the back-
+door criterion relative to ~X,Y!, and to combine the direct and indirect causal
+effects of X on Y no adjustment for Z makes intuitive sense + In ~iii! Z is not a
+common cause of X and Y, Z fails to satisfy the back-door criterion relative to
+~X,Y!, but adjustment for Z seems to make intuitive sense if X and Y are asso-
+ciated+ That is , from an econometric perspective if Z and X are collinear then
+shouldn’t one adjust for Z when assessing the effect of X on Y?
+For Pearl a “node in a directed graph is called a root if it has no parents”
+~p+ 13! “and root variables ~as the d-separation criterion dictates ! are indepen-
+dent of all other variables except their descendants” ~p+ 25!+ So his graphical
+BOOK REVIEWS 677
+
+--- Page 4 ---
+
+formalism appears to assume that the root nodes X and Z in Figure 1 ~iii! are
+independent and hence not associated + The philosophical literature that Pearl
+formalizes in his back-door criterion takes third variable common causes as the
+only source of confounding bias + Yet Mill draws a distinction between “laws of
+causation and collocations of the original causes” ~1973, p+ 348!+ Two associ-
+ated causes of an effect can confound attempts to separate their impacts + In a
+single equation linear model , this is the problem of multicollinearity , and the
+Pearl approach appears to rule it out a priori +
+Figure 2 contains a graph of a hypothesis of the causal relations among X,
+Y, and Z+ That graph differs from Figure 1 ~i! in two respects + It contains a
+new variable T that is an intermediate effect between cause X and effect Y,
+and Z is now unobservable + That Z is unobservable makes application of the
+back-door criterion to the fork X R Z r Y impossible+ However, T in Fig-
+ure 2 satisfies the front-door criterion relative to ~X,Y! so that P~ y6do~x!! is
+expressible in terms of probabilities and observable variables without the “do”
+operator using the adjustment formula of that criterion + Pearl notes that this
+conclusion is controversial , at least among statisticians , by quoting Cox : “the
+concomitant observations @or those that one adjusts for # should be quite un-
+affected by the treatment” ~p+ 81! and T is not unaffected by X+ Hence Pearl’s
+graphical formalism suggests that in situations like Figure 2 , one should ad-
+Figure 1. The back-door criterion +
+678 BOOK REVIEWS
+
+--- Page 5 ---
+
+just for an intermediate effect when assessing the effect of X on Y, though
+conventional statistical practice is not to do so +
+The theory of inferred causation also leaves a puzzle about the indepen-
+dence of causally unrelated variables + In the theory framework , doesn’t the
+independence of causally unrelated variables Z and X, e+g+, root nodes , mean
+that P~z6do~x!! 5 P~z! and P~x6do~z!! 5 P~x!? But does P~z6do~x!! 5 P~z!
+imply that P~z, x! 5 P~z!P~x!?I f Z and X are causally unrelated but P~z, x! Þ
+P~z!P~x! and one thinks that Z is a cause of Y, then isn’t adjustment for Z in
+the back-door or front-door adjustment formula appropriate when finding
+P~ y6do~x!!?
+2. SEMs AND THE THEORY OF INFERRED CAUSATION
+Pearl regards SEMs as a specialization—to linear functional causal models—of
+his theory of inferred causation but claims that the algebraic language of SEMs
+makes it hard to express causal assumptions + He argues that the left- and right-
+hand sides of an SEM equation do not relate strictly algebraically : implicit is
+the idea that the variables on the right cause the variable on the left + He won-
+ders if “SEM practitioners have sought to gain respectability for SEM by keep-
+ing causal assumptions implicit , since statisticians , the arbiters of respectability ,
+abhor assumptions that are not directly testable” ~p+ 138!+
+The probability formalism behind the Markov parent notion implies that one
+can intervene in SEM equation i, i+e+, change f
+i , without changing the other
+functions+ To illustrate the difference between observing and intervening in in-
+ferred causation , Pearl borrows a simple SEM from Arthur Goldberger :
+q 5 b1 p 1 d1 i 1 u1,
+p 5 b2 q 1 d2 w 1 u2 +
+He notes that the Goldberger model graph is cyclic and refers to it as a “canon-
+ical economic problem of demand and price equilibrium” ~p+ 215!+ He adds
+Figure 2. The front-door criterion +
+BOOK REVIEWS 679
+
+--- Page 6 ---
+
+that “q is the quantity of household demand for a product A , p is the unit price
+of product A , i is household income , w is the wage rate for producing product
+A, and u1 and u2 represent error terms—unmodeled factors that affect quantity
+and price , respectively” ~p+ 215!+
+Pearl asks two questions of the Goldberger model + First: “What is the ex-
+pected value of the demand Q if the price is controlled at P 5 p0?” ~p+ 216!+
+He answers that to set P 5 p0 is to replace the second model equation with p 5
+p0+ He uses the independence of U1 and I to find that E @Q6do~P 5 p0!, i# 5
+E~Q! 1 b1~ p0 2 E~P!! 1 d1~i 2 E~I!!+ Second, “What is the expected value of
+the demand Q if the price is reported to be P 5 p0?” ~p+ 216!+ He answers that
+both equations operate in this case and finds that E~Q6 p0, i,w! 5 b1 p0 1 d1 i 1
+E~U16p0, i,w!+ He adds that the “computation of E @U16p0, i,w# is a standard pro-
+cedure once @the covariance matrix #S ij is given +++ Note that, although U1 was
+assumed to be independent of I and W, this independence no longer holds once
+P 5 p0 is observed” ~p+ 216!+
+Pearl also notes that the nodes “associated with the variables U1, U2, I, and
+W are root nodes , conveying the assumption of mutual independence” ~p+ 28!+
+In addition he observes that it “is well known in economics ~dating back to
+Wright 1928 ! that the assumptions of linearity , normality, and the indepen-
+dence of $I,W% and $U1,U2% permit consistent estimation of all model param-
+eters including the covariance matrix Sij ” ~p+ 215!+ Hence precisely what
+assumptions full answers to the two Pearl questions of the SEM require re-
+mains slightly unclear +
+As important as what assumptions Pearl uses to answer questions with the
+Goldberger model is the question : How do SEMs and graphs relate? Wermuth
+sought to clarify the relation “between graphical chain models for continuous
+variables on the one hand and linear structural equations discussed in the econo-
+metric +++ literature on the other hand” ~1992, p+ 1!+ Wermuth argued that a
+SEM follows from its reduced form “by premultiplying the residual matrix +++
+with an arbitrary nonsingular matrix ” ~1992, p+ 19!+ That suggested to Gold-
+berger that Wermuth thought the reduced form more fundamental than the SEM
+itself+ He responded that Wermuth was guilty of a “failure to pay attention to
+the substance of the phenomenon being modelled by the economist” ~1992,
+p+ 47!+ He introduced the SEM that Pearl borrows because its reduced form is
+the equation Wermuth seemed to suggest was more fundamental , and then he
+argued that the essence of the economics was in the SEM itself rather than its
+reduced form +
+However, one can go a step further than Goldberger did + He justified the
+second equation of his SEM : “On the other side of the market , the price that
+producers will charge is an increasing function of the quantity” ~1992, p+ 46!+
+Consider another simple SEM with variables defined as for his :
+q 5 a
+1 p 1 c1 i 1 u1,
+q 5 a2 p 1 c2 w 1 u2 +
+680 BOOK REVIEWS
+
+--- Page 7 ---
+
+Better than the Goldberger SEM , the new SEM captures the substantive eco-
+nomic idea that in competitive markets all agents take prices as given + Most
+remarkably, apparently no associated graph for the new SEM exists + Although
+any graph has a corresponding class of SEMs , evidently not all SEMs are mem-
+bers of a class with an associated graph +
+The new and Goldberger–Pearl SEMs both embody an economic problem of
+demand, supply, and price equilibrium , not just an “economic problem of de-
+mand and price equilibrium ,” as Pearl maintains , because in both SEMs the
+second equations are supply equations + A refinement clarifies the economic sub-
+stance of the new SEM :
+qD 5 a1 p 1 c1 i 1 u1,
+qS 5 a2 p 1 c2 w 1 u2 ,
+qD 5 qS
+with qD the quantity of product A consumers want to consume and qS the quan-
+tity of product A producers want to produce + A DAG of the first two equations
+of the SEM exists , but no graph of the three equations together does + The third
+equation represents the price-quantity equilibrium condition , not a cause-effect
+relation+ SEMs might require a stretch of mathematical graph theory to encom-
+pass equations of noncausal economic substance simultaneously with equa-
+tions that may convey cause-effect relations +
+However, do the first two equations of a demand-supply SEM such as the
+new three-equation one actually reflect cause and effect relations as Pearl sug-
+gests, i+e+, with effects on the left and causes on the right? Intervention and
+expectations under intervention with the new three-equation SEM should
+also reflect economic substance + For example , economic intuition of the effect
+of government price controls suggests that setting P 5 p
+0 ought to result in
+E @QD 6do~ p!, i, w# 5 E @QS 6do~ p!, i, w# when p0 is an equilibrium price
+and to result in deletion of the third equation and E @QD 6do~ p!, i, w# Þ
+E @QS 6do~ p!, i,w# otherwise+ Government directly setting QD or QS —how much
+consumers want to consume or producers want to produce—is hard to envi-
+sion+ However, government can manipulate Q
+D indirectly by altering con-
+sumer utility functions , e+g+, by taxing consumption or declaring some illegal +
+Government can also manipulate QS indirectly by altering firm production func-
+tions, e+g+, subsidizing production or patenting a new technology + Such gov-
+ernment manipulation of consumption and 0or production would replace SEM
+demand and 0or supply equations with new ones but not with the constant func-
+tions qD 5 qDo or qS 5 qSo that the Pearl approach suggests properly repre-
+sents intervention +
+So econometricians may not mention causal assumptions in demand-supply
+SEMs—not to gain statistician approval ~as Pearl suggests!—but because inter-
+ventions in such SEMs may occur at the implicit utility-production function
+level+ Pearl sometimes uses physics analogies , and one seems apt here + The
+BOOK REVIEWS 681
+
+--- Page 8 ---
+
+expression X ' 0+5gt 2 describes the distance X from the drop point of a falling
+body near the earth’s surface in terms of time t elapsed+ Yet a physicist proba-
+bly would not say that t causes X but rather that X ' 0+5gt 2 is the equation of
+motion of the falling body + The equation follows deductively from Newton’s
+universal gravity force and second laws + Change the force acting on the body ,
+e+g+, superimpose a rocket force on gravity , and a new equation of motion fol-
+lows deductively from the new force equations + Forces cause the motion +
+A demand-supply SEM may be more akin to a Newtonian mechanical equa-
+tion of motion than to something that directly embodies cause-effect relations +
+The demand-supply SEM follows deductively from the utility-production func-
+tion equations and profit and utility maximization , where the basic causes of
+the market demand and supply relations may lie + How would graph theory rep-
+resent the equations that imply the demand-supply SEM , the cause and effect
+relations possibly embodied in them, and their mathematical relation to the SEM
+equations? Is graph theory formalism adequate to represent the possibly com-
+plicated cause and effect relations behind demand-supply SEMs?
+3. RANDOM ASSIGNMENT EXPERIMENTS, SEMs, AND THE THEORY
+OF INFERRED CAUSATION
+Let x
+' and x '' be values of X denoting treatment and control groups and let
+u index units or subjects + Make the stable unit treatment value assumption
+~SUTV A!, i+e+, each subject in a group receives identical treatment , the re-
+sponse of a subject does not depend on the responses of other subjects , and
+identical repetitions of an experiment result in identical responses + Then one
+can represent the response of subject u as ~Yu~x '!,Yu~x '' !! ~where one and only
+one of the components of the response is observable !, define the causal effect
+of X on Y for u as Yu~x '! 2 Yu~x '' !, and define the average causal effect of X on
+subjects as Su~Yu~x '! 2 Yu~x '' !!0N where N is the number of units + On this
+view ~for a more detailed account , see Rubin , 1980! the purpose of cause and
+effect inference is to say something about the ~Yu~x '! 2 Yu~x '' !!’s+ Pearl calls
+this outlook on cause and effect inference the potential-outcome approach +
+Pearl maintains that his theory of inferred causation incorporates , along with
+SEMs, the potential-outcome approach and that the potential-outcome defini-
+tion of causal effect is a special case of his own :
+The difference E~Y 6do~x '!! 2 E~Y 6do~x '' !! is sometimes taken as the definition
+of “causal effect” +++ where x ' and x '' are two distinct realizations of X+ This
+difference can always be computed from the general function P~ y6do~x!!, which
+is defined for every level x of X and provides a more refined characterization of
+the effect of interventions + ~p+ 70!
+Certainly he is right that P~ y6do~x!! for x ' and x '' implies E~Y 6do~x '!! 2
+E~Y 6do~x '' !!+ However, he mistakes the potential-outcome definition of aver-
+age causal effect for its unit-level definition of causal effect + Pearl’s approach
+infers what for the potential-outcome approach is an average causal effect , but
+682 BOOK REVIEWS
+
+--- Page 9 ---
+
+does his approach make room for inference of unit-level causal effects per se?
+For example , how would Pearl’s theory encompass the Fisher randomization
+test of the hypothesis that Yu~x '! 5 Yu~x '' ! for all u?
+Pearl does argue that “the probability P~ y6do~x!! +++ may be interpreted as
+the conditional probability +++ corresponding to a controlled experiment in which
+X is randomized” ~p+ 184!+ So evidently P~ y6do~x!! and P~ y6x! are the same if
+X is randomized + However, this appears to take “do x” beyond the mere setting ,
+rather than observing , of X+ One can conduct an experiment in which one sets
+X at various levels without randomizing X+ Pearl suggests that in an experiment
+the setting of X is not sufficient for inferring causal effects—randomization is
+necessary+
+Consider a random assignment experiment , with causal inference within the
+subject population only , that assigns n ~N 2 n! subjects at random to a treat-
+ment ~control! group t ' ~t '' !+ There are then C~N, n! possible sets of observa-
+tions, and the randomization makes each of them equally likely , i+e+, gives them
+each probability 1 0C~N, n!+ That is , randomization is equivalent to random se-
+lection of subjects for whom the treatment group response will be observed
+and for a simultaneous nonindependent random selection of subjects for whom
+the control group response will be observed +
+Let d be the difference between the mean of the observed Y
+u~t '!’s and the
+mean of the observed Yu~t '' !’s— i+e+, the difference between the mean observed
+treatment response and the mean observed control response + On the potential-
+outcome approach , given SUTV A, E~d ! 5 Su~Yu~t '! 2 Yu~t '' !!0N, the average
+causal effect , where the expectation is over the C~N, n! possible sets of obser-
+vations, each with probability 1 0C~N, n!+ Thus the randomization assures that d
+is an unbiased estimate of the average causal effect , Su~Yu~t '! 2 Yu~t '' !!0N—
+i+e+, that the estimate d entails no selection bias +
+Let Y, T, and X be response, treatment, and blocking ~in the statistical sense !
+variables, respectively+ For example , X may be an attribute on which sub-
+jects are paired prior to the experiment and then assignment occurs randomly
+within each pair + Rubin explains : “The physical act of randomization in the
+experiment +++ is designed to ensure that all scientists will accept the specifi-
+cation Pr ~T 6Y, X ! 5 Pr~T 6X !” ~1980, p+ 591!+ He adds : “If treatments are as-
+signed using characteristics Z of the units that are correlated with Y +++ , then
+Pr~T 6Y, X ! 5 Pr~T 6X ! would generally not be acceptable” ~1980, p+ 591!+
+Rubin’s outlook blends into Pearl’s + On the graph theory approach , if treat-
+ments are assigned using Z correlated with Y then Z becomes a third variable
+common cause of Y and T, confounding the cause and effect relation between Y
+and T+ Random assignment makes no Z a cause of T, and hence the assumption
+that there are no third variable common causes of Y and T becomes plausible +
+Then the average causal effect of T on Y is E~Y 6do~t
+'!! 2 E~Y 6do~t '' !!, which
+is evidently Su~Yu~t '! 2 Yu~t '' !!0N of the potential-outcome approach +
+The Fisher randomization test answers the question : Is Yu~t '! 5 Yu~t '' ! for
+all u? Rubin argues ~1980, p+ 592!: “More complicated questions , such as those
+arising from the need to adjust for covariates brought to attention after the con-
+BOOK REVIEWS 683
+
+--- Page 10 ---
+
+duct of the experiment , simultaneously estimate other effects , or generalize re-
+sults to other units , require statistical tools more flexible than” the Fisher
+randomization test + He adds : “Such tools are essentially based on a specifica-
+tion for Pr ~Y 6X, Z!, where now Y refers to outcome variables in general , X re-
+fers to blocking and design variables , and Z refers to covariates” ~p+ 592!+
+However, the difficult question remains : What justifies a particular specifi-
+cation of Pr ~Y 6X, Z!? For example , how does one know if one leaves out im-
+portant variables or chooses inappropriate functional forms? Pearl’s emphasis
+on the distinction between causal and direct effects may help to answer this
+question, at least in the context of a random assignment experiment + If T is the
+treatment variable with two settings in such an experiment , then the random-
+ization certainly helps to answer the question of the Fisher randomization test :
+Is Y
+u~t '! 5 Yu~t '' ! for all u? Yet it does more than that : it underpins an unbiased
+estimate of the average causal effect , E~Y 6do~t '!! 2 E~Y 6do~t '' !!+
+An SEM is a way to specify Pr ~Y 6X, Z! where, in SEM language , X are en-
+dogenous and Z are exogenous variables + One can certainly specify an SEM
+and use it with data from the experiment , as Rubin suggests , to “simultaneous-
+ly estimate other effects+” However, the effects that come directly from the SEM,
+including the effect of T on Y if there are exogenous variables in the equation
+with Y and T, are what Pearl calls direct effects+ The various direct effect esti-
+mates of the SEM combine into an estimate of the average causal effect of T
+on Y+ Cannot one compare that estimate of the causal effect of T on Y with the
+randomization-based estimate of the same thing to judge the quality of the SEM
+specification?
+4. CONCLUSION
+Pearl came to the issue of causality as an artificial intelligence researcher who
+asked: “How do humans infer cause and effect relations?” He and others first
+answered with the notion that humans implicitly employ Bayesian networks to
+infer cause and effect relations + In Causality Pearl seeks , among other things ,
+to extend his Bayesian network theory of causality to encompass what statisti-
+cians and econometricians do to infer cause and effect relations + The book won
+the 2001 Lakatos Award in Philosophy of Science and certainly poses an im-
+portant challenge to econometricians trying to estimate economic cause and
+effect relations +
+Among the questions that the book poses for econometricians are the follow-
+ing+ In judging if X causes Y, are there any possible sources of confounding
+other than possible variables Z of which X and Y may both be effects? When an
+econometrician tries to deal with multicollinearity is that econometrician doing
+something connected to estimating cause and effect relations? If so , does Pearl’s
+graph theory approach to causality provide anything that could help? If there
+are situations where the graph theory approach says to adjust for intermediate
+effects but statisticians say not to do so , how can we decide who is right? If all
+SEMs do not have associated causal graphs , then is there something wrong with
+684 BOOK REVIEWS
+
+--- Page 11 ---
+
+the graph theory approach to causality or something wrong with the SEMs that
+do not have causal graphs?
+Econometricians should read Causality and start contributing to the cross-
+disciplinary discussion of the subject that Pearl has begun + Hopefully mutual
+enlightenment will be the effect of our reading and talking about the book among
+ourselves and with the Bayesian causal network thinkers +
+REFERENCES
+Eells, E+ ~1991! Probabilistic Causality + New York: Cambridge University Press +
+Goldberger, A+S+ ~1992! Models of substance + Brazilian Journal of Probability and Statistics 6,
+46– 48+
+Mill, J+S+ ~1973! A System of Logic: Ratiocinative and Inductive , Collected Works of John Stuart
+Mill, vol+ VII+ Toronto: University of Toronto Press +
+Morgan, M+ ~1992! The History of Econometric Ideas + New York: Cambridge University Press +
+Rubin, D+B+ ~1980! Randomization analysis of experimental data : The Fisher randomization test
+comment+ Journal of the American Statistical Association 75, 591–593+
+Wermuth, N+ ~1992! On block-recursive regression equations + Brazilian Journal of Probability and
+Statistics 6, 1–56+
+BOOK REVIEWS 685
