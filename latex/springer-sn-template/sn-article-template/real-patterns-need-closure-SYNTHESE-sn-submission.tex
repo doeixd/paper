@@ -36,7 +36,7 @@ Dennett's core thought is still compelling. Scientific and everyday
 inquiry often succeeds by tracking patterns rather than exhaustively
 tracking microstates, and this success is not always reducible to
 convenience language. His criterion is explicit: ``A pattern exists in
-some data---is real---if there is a description of the data that is more
+some data, and is real, if there is a description of the data that is more
 efficient than the bit map, whether or not anyone can concoct it''
 \citep[p. 34]{dennett1991}. In that sense, real-pattern realism captures
 something correct about the structure of explanation.
@@ -49,12 +49,12 @@ target extends beyond the memorized cases \citep[pp. 32--33]{dennett1991}.
 His response is that the coding must be part of an entirely general
 system, not an ad hoc renaming trick. That constraint excludes the most
 obvious cheats. But it does not close the gap. A coding strategy can be
-genuinely general and non-trivially compressive while still grouping
+genuinely general and compressive while still grouping
 together microstates whose onward transition profiles diverge. Such
 constructions compress, yet they require persistent within-class
-bookkeeping to maintain forecast quality, precisely because the
-macro-label hides transition-relevant heterogeneity. This is the
-residual permissiveness that survives Dennett's own anti-cheating move,
+bookkeeping to maintain forecast quality, because the
+macro-label hides transition-relevant heterogeneity. This residual
+permissiveness survives Dennett's own anti-cheating move,
 and it is the target of the present paper.
 
 The worry has a well-established lineage beyond Dennett's initial
@@ -69,7 +69,7 @@ real-pattern realism and a defensible macro-ontology.
 
 A contrast makes the gap concrete. Lewis observed that we have no
 principled reason to deny existence to the mereological sum of ``the
-right half of my left shoe plus the moon plus the sum of all her
+right half of my left shoe plus the Moon plus the sum of all Her
 Majesty's ear-rings,'' however sensible it is to ignore such things in
 ordinary thought \citep[p. 213]{lewis1986}. That is correct as far as it
 goes. But consider the difference between that composite and a
@@ -125,9 +125,9 @@ The novelty claim has three parts.
 
 This is a conditional metaphysical proposal. Under structural realist
 and interventionist commitments, closure under admissible conditions is
-sufficient for macro-objecthood in regime. Readers with different priors
-can still accept a narrower conclusion: closure is at least a necessary
-anti-gerrymandering constraint on serious macro-ontology claims.
+sufficient for macro-objecthood in regime. Readers who withhold those
+commitments can still accept a narrower conclusion: closure is at least
+a necessary anti-gerrymandering constraint on serious macro-ontology claims.
 
 This positioning is deliberately dialogical. With Dennett, the paper
 keeps compression realism while rejecting permissiveness \citep{dennett1991}. With Ladyman and Ross, it keeps structural and projectibility
@@ -139,7 +139,13 @@ support a philosophical criterion that remains stable in non-ideal cases
 gains as corroborating diagnostics rather than as a standalone ontology
 test \citep{hoel2013}. With Kim-style exclusion pressure, it defends
 non-redundancy at explanatory and control levels without denying
-microphysical implementation \citep{kim1998}.
+microphysical implementation \citep{kim1998}. One consequence of
+intervention indexing is that the present criterion can diverge from
+purely observational diagnostics: a macro-variable can achieve
+predictive sufficiency by tracking a common cause rather than by
+instantiating autonomous transition structure, passing observational
+tests while failing under admissible intervention
+(\S\ref{what-the-formal-machinery-alone-does-not-provide}).
 
 A related line of work traces the cognitive origins of real-pattern
 commitments, linking predictive coding and free-energy minimization to
@@ -164,7 +170,7 @@ within-class micro-bookkeeping to sustain its forecasts, because the
 macro-label groups together microstates whose onward profiles diverge
 once perturbation or horizon extension is applied. Closure catches
 exactly that residual failure mode. It asks not only whether a pattern
-projects, but whether macro-level what-follows is self-contained at the
+projects, but whether onward macro-transitions are self-contained at the
 declared grain. That is the gap even the most charitable reading of
 Dennett leaves open.
 
@@ -187,10 +193,10 @@ anti-analytic rhetoric sometimes associated with naturalized
 metaphysics. The claim is narrower: closure is a usable philosophical
 constraint that can be motivated by dynamical and coarse-graining
 practice, whether or not one accepts every meta-metaphysical commitment
-in the broader ETMG program \citep{ladyman2007}.
+in the broader \emph{Every Thing Must Go} (ETMG) program \citep{ladyman2007}.
 
 The roadmap is direct. Section 2 states the criterion and admissibility
-framework. Section 3 gives the exact benchmark. Section 4 extends the
+discipline. Section 3 gives the exact benchmark. Section 4 extends the
 criterion to non-ideal settings. Section 5 addresses the strongest
 objections. Section 6 summarizes gains and limits.
 
@@ -217,7 +223,7 @@ convenience, which is the pressure on the second.
 
 \subsection{Contribution Map}\label{contribution-map}
 
-The paper makes three linked contributions.
+The paper makes four linked contributions.
 
 \begin{enumerate}
 	\item
@@ -229,9 +235,15 @@ The paper makes three linked contributions.
 	\item
 	      It offers a disciplined verdict structure with explicit downgrade
 	      conditions, so realism claims remain answerable to failure.
+	\item
+	      It shows that closure supplies the dynamical condition the
+	      Putnam-Fodor autonomy tradition always needed but left implicit:
+	      multiple realizability groups realizers extensionally, while
+	      closure demands that those realizers produce the same
+	      macro-transitions (\S\ref{autonomy-pluralism-and-distinctiveness}).
 \end{enumerate}
 
-The central payoff is selective commitment. The framework can support
+The central payoff is selective commitment. The account can support
 strong commitments where transition autonomy is robust, while avoiding
 forced commitments where evidence is fragile or regime-sensitive.
 
@@ -242,14 +254,23 @@ forced commitments where evidence is fragile or regime-sensitive.
 
 Closure can be stated without heavy formalism. A candidate macro-object
 passes when knowing its current macrostate is enough to determine
-macro-level what-follows over a specified horizon and intervention
+its macro-future over a specified horizon and intervention
 class. If two microstates inside one macrostate produce different
 macro-transitions, closure fails at that grain.
+
+Static patterns are not exceptions to this rule. They represent dynamical regimes where micro-fluctuations are screened off rather than absent, rendering persistence a particular type of macro-transition that falls squarely within the closure criterion.
 
 The key point is dynamic. The criterion concerns transition sufficiency,
 not mere descriptive fit. A representation can summarize trajectories
 elegantly and still fail objecthood if it requires persistent
 within-class micro-bookkeeping to preserve forecast quality.
+
+Since the formal machinery evaluates partitions of state spaces rather
+than physical things directly, an explicit bridge is needed. On the
+structural realist commitments defended below
+(\S\ref{why-closure-carries-ontological-weight}), a macro-object just is
+stable relational and causal organization at the relevant grain; the
+partition identifies the object by identifying that organization.
 
 \subsection{Formal Statement}\label{formal-statement}
 
@@ -277,7 +298,7 @@ transition autonomy at the macro level.
 Compression is necessary but not sufficient for objecthood. A compressed
 code can hide transition-relevant heterogeneity and still score well on
 narrow tasks. Closure blocks that loophole by asking whether hidden
-heterogeneity matters for macro-level what-follows.
+heterogeneity matters for onward macro-behavior.
 
 This is why closure functions as an anti-gerrymandering condition. It
 does not reward convenient coding alone. It rewards coarse-grainings
@@ -324,17 +345,16 @@ constraints:
 \end{enumerate}
 
 These constraints are physically anchored in available control channels
-and implementation structure. They are not analyst preferences about
+and implementation structure, not in analyst preferences about
 favored ontologies. The explanatory constraint is set before closure
 verdicts and does not assume in advance which candidate partition will
 prove stable. This makes the interventionist notion of a ``possible
 experiment'' concrete and bounded, rather than leaving it at conceptual
 possibility where nearly any hypothetical manipulation might count
-\citep{woodward2015}. This aligns with \citet{woodward2021}'s argument
-that correct variable choice is a matter of satisfying
-``proportionality''---minimizing the omission of dependency relations.
-The procedure constrains judgment without
-eliminating it: domain expertise still shapes regime identification and
+\citep{woodward2015}. It also aligns with \citet{woodward2021}'s argument
+that correct variable choice requires satisfying
+``proportionality'': minimizing the omission of dependency relations.
+Domain expertise still shapes regime identification and
 control-channel selection, but that shaping is declared, auditable, and
 separated from partition scoring.
 
@@ -360,6 +380,20 @@ available in the regime, not relative to arbitrary mathematical
 surgeries. This is not a rejection of Pearl's framework. It is a
 restriction on which of its outputs carry ontological weight.
 
+A critical clarification prevents this admissibility requirement from
+collapsing into anthropocentrism. While we often speak of
+``interventions'' as laboratory actions performed by human scientists,
+admissibility is ultimately anchored in the objective physical ecology
+of the system. Nature intervenes on itself. A system's boundaries are
+constantly probed by naturally occurring environmental perturbations:
+thermal noise, chemical diffusion gradients, and mechanical impacts. A
+cell membrane objectively screens out certain molecular fluctuations
+whether a human experimenter is observing it or not. Admissibility
+tracks these naturally occurring physical boundary conditions and energy
+scales. The intervention class is therefore not a human invention; it is
+a formalization of the physical perturbations the target system already
+reliably processes or resists.
+
 Evaluation order matters.
 
 \begin{enumerate}
@@ -380,6 +414,9 @@ Stated as a discipline, admissibility has two stages: first, intervention
 classes are fixed from independent physical constraints and established
 control practice in the target domain; second, closure is evaluated only
 relative to that fixed class.
+
+\subsection{Regime Individuation and
+	Circularity}\label{regime-individuation-and-circularity}
 
 A structural worry deserves explicit treatment here. If regime
 individuation already commits to which macro-variables matter, the
@@ -405,16 +442,16 @@ within it.
 
 The independence is imperfect in some domains, particularly biology and
 social science, where macro-variable choice and regime characterization
-can be genuinely entangled. The framework treats that entanglement as a
+can be genuinely entangled. The present account treats that entanglement as a
 source of evidential weakness rather than a concealed defect. When
 alternative, independently motivated regime specifications produce
 divergent closure verdicts, the verdict ceiling should be downgraded to
 at most qualified. More broadly, regime individuation and partition
-evaluation should be understood as iterative rather than viciously
-circular: initial regime characterizations are provisional, closure
-testing can refine them, and the process stabilizes into reflective
-equilibrium, in the sense Goodman articulated: rules of inference and
-particular inferential judgments are justified by their mutual coherence
+evaluation are iterative rather than viciously
+circular. Initial regime characterizations are provisional, and closure
+testing can refine them. The process stabilizes into reflective
+equilibrium in the sense Goodman articulated: rules of inference and
+particular inferential judgments are justified by mutual coherence
 rather than by either serving as the unilateral foundation for the
 other \citep{goodman1955}. If iteration does not stabilize across nearby
 defensible starting specifications, the result should be treated as
@@ -441,7 +478,7 @@ not any and every projectible summary. This is why the paper can
 preserve a generous attitude toward pattern detection while denying
 ontological standing to high-leak candidates.
 
-The same distinction also clarifies what this framework contributes to
+The same distinction also clarifies what this view contributes to
 composition debates. In van Inwagen's terms, the standing question is
 when some things compose a further thing \citep{vaninwagen1990}. The
 present proposal does not offer a full mereology. It gives a
@@ -485,7 +522,7 @@ concerns whether transition structure is autonomous under physically
 meaningful controls, not whether labels can be protected by stipulation.
 
 When two intervention classes are both admissible and target the same
-regime, the framework permits plural testing rather than forced monism.
+regime, the criterion permits plural testing rather than forced monism.
 Verdicts should report which admissibility class was used and how
 sensitive results are across nearby defensible classes. A candidate
 partition that appears closed only under one narrowly tuned class should
@@ -555,12 +592,28 @@ metaphysical foundation beyond stable dynamical autonomy under
 admissible intervention mistakes a philosophical habit for a substantive
 requirement.
 
+A persistent metaphysical worry is that prediction and interventional
+control are merely epistemic lenses, leaving the underlying ontology
+untouched. This confuses the test with what is being tested. Prediction
+and intervention are diagnostic tools that reveal pre-existing
+statistical structure. The conditional independencies that allow a
+macro-state to screen off micro-details exist whether or not anyone
+computes them; they are the terrain, not the lens. Locality, finite
+signal propagation, and thermodynamic limits create these
+independencies as physical facts. Our predictive models succeed when
+they align with this objective causal topology, and fail when they do
+not. Closure is therefore an ontological criterion because it identifies
+where the world's phase space objectively decouples, not just where our
+minds prefer to chunk it.
+
 Given those commitments, closure does not function as a convenient
 heuristic layered on top of ontology. It is the criterion that
 identifies when a candidate macro-description tracks stable structure at
 the level where explanation and intervention are being assessed. This is
-why the framework can remain compatible with microphysical completeness
+why the view can remain compatible with microphysical completeness
 while still defending non-redundant macro commitment.
+
+\subsection{Structural Contrasts}\label{structural-contrasts}
 
 The connection to Pearl's notion of modularity is worth noting. Pearl
 argues that causal models work because nature consists of autonomous
@@ -576,7 +629,7 @@ closure can be understood as an ontological precondition for the kind of
 modularity Pearl's framework presupposes, rather than as a restatement
 of it.
 
-This is also why the proposal is not vulnerable to standard ``bare
+The proposal is accordingly not vulnerable to standard ``bare
 structure'' worries. The criterion is modal and dynamical, not merely
 extensional. It is about counterfactual transition organization under
 interventions, not about abstract isomorphism alone.
@@ -593,10 +646,10 @@ that encoding dependence is itself evidence of leakiness.
 Why not stop at ``good variable'' language? Because a good variable can
 be merely convenient, and the worry is that closure only tracks
 inferential convenience rather than what is objectively there. The
-framework rejects that deflation because closure claims are indexed to
+present account rejects that deflation because closure claims are indexed to
 intervention classes, not only to passive prediction. A representation
 can score well on retrospective fit by exploiting accidental
-correlations and still fail quickly when admissible interventions shift
+correlations and still fail when admissible interventions shift
 transition pathways. A closure-supporting partition survives those
 shifts because the screened-off structure is not accidental. If a
 candidate supports reliable counterfactual control and regime-stable
@@ -604,13 +657,13 @@ transition laws, it is tracking objective modal structure: stable
 counterfactual dependencies and lawlike transition regularities under
 admissible intervention. On the paper's commitments, treating that
 structure as merely representational would undercut the very realism the
-framework is designed to preserve. The modal profile, not the in-sample
+criterion is designed to preserve. The modal profile, not the in-sample
 fit, carries the ontological burden. Predictive sufficiency can reveal
 compression, but interventional stability identifies difference-makers:
 it tests whether the same macro-transition structure survives admissible
 manipulation rather than merely fitting observed trajectories.
 
-The framework therefore distinguishes epistemic humility from
+The view therefore distinguishes epistemic humility from
 ontological deflation. Finite agents will often have partial, noisy, and
 regime-limited evidence. But that uncertainty does not collapse the
 difference between dynamically autonomous and dynamically incoherent
@@ -642,7 +695,7 @@ claims in this paper are primarily type-level claims under specified
 regimes, then secondarily claims about token reliability under
 perturbation.
 
-This is why the criterion does not equate model performance with
+The criterion therefore does not equate model performance with
 ontology. It asks whether the represented transition structure is
 genuinely autonomous, not whether one representation currently performs
 well.
@@ -655,7 +708,7 @@ stated, a reviewer may argue that many distinct coarse-grainings can be
 tuned to look acceptable on available data. If so, closure might seem to
 collapse back into model choice rather than objecthood discipline.
 
-The framework's answer is to separate three questions that are often
+The answer is to separate three questions that are often
 conflated.
 
 \begin{enumerate}
@@ -676,15 +729,16 @@ the regime is probed. Fewer still remain stable across nearby defensible
 setups. This staged filtering is exactly where closure earns its
 metaphysical role.
 
-The framework does not claim that every domain yields one uniquely
+The account does not claim that every domain yields one uniquely
 privileged partition. It claims that objecthood commitments should be
 constrained by transition autonomy and robustness, rather than by fit
 alone. When underdetermination persists after those filters, the
 responsible result is qualified or plural commitment under transparent
 constraints, not forced monism and not unconstrained relativism.
 
-Before moving to the formal benchmark, the framework can be summarized
-in three lines.
+Before moving to the formal benchmark, two operational consequences
+follow from the criterion stated in
+\S\ref{canonical-criterion-statement}.
 
 \begin{enumerate}
 	\item
@@ -791,7 +845,7 @@ between legitimate macro-candidates and merely codable aggregates.
 
 A common reaction is that a strange disjunctive partition might satisfy
 the formal condition in a symmetric system. That is correct. On this
-framework, if such a partition genuinely supports autonomous
+account, if such a partition genuinely supports autonomous
 macro-transitions under fixed constraints, it counts as real at that
 grain.
 
@@ -800,7 +854,7 @@ transition coherence, not intuitive naturalness. If one wants a separate
 naturalness filter, that is an additional criterion and should be
 declared as such.
 
-The exclusion claim should therefore be read carefully. The framework
+The exclusion claim should therefore be read carefully. The criterion
 excludes dynamically incoherent, high-leak aggregates. It does not
 exclude every unusual grouping.
 
@@ -808,7 +862,7 @@ exclude every unusual grouping.
 	Provide}\label{what-the-formal-machinery-alone-does-not-provide}
 
 The mathematical property and the philosophical criterion are different
-things. Four elements of the present framework have no counterpart in
+things. Four elements of the present proposal have no counterpart in
 the formal literature alone.
 
 First, intervention indexing. Causal-state constructions classify
@@ -835,7 +889,7 @@ should be downgraded or withdrawn.
 
 Third, a graded commitment protocol. The formal literature offers exact
 conditions and, more recently, approximate-closure measures. It does not
-supply a framework for translating those measures into warranted
+supply a protocol for translating those measures into warranted
 ontological verdicts with explicit robustness requirements and downgrade
 rules. The selective commitment structure (robust, qualified,
 indeterminate) is a philosophical addition.
@@ -847,11 +901,40 @@ codings that effectively preserve hidden micro-identities, is not a
 theorem. It is a
 philosophical claim defended by the structure of Sections 2 through 4.
 
+A simple case shows the divergence concretely. An aggregate
+macro-variable can track a latent process so faithfully that it achieves
+observational predictive sufficiency: an \(\varepsilon\)-machine built
+on the proxy compresses past observations and predicts future ones as
+efficiently as the full-state representation. Classical computational
+mechanics would recognize it as identifying a real pattern. But under
+admissible intervention on the proxy itself, transition structure
+collapses, because the variable was tracking a common cause rather than
+instantiating an autonomous mechanism.
+
+Consider a concrete instance. Suppose a composite variable aggregates
+two subsystems that are both driven by a shared upstream oscillator. Under
+passive observation, the composite's macro-state predicts its own future
+as well as the full micro-state does, because the shared driver
+synchronizes the subsystems and makes their joint trajectory
+compressible. An \(\varepsilon\)-machine built on the composite would
+find no residual micro-information worth adding. Yet if an admissible
+intervention targets the composite directly, say by perturbing one
+subsystem while leaving the driver intact, the previously synchronized
+trajectories decouple and the composite's macro-transition structure
+breaks down. The predictive sufficiency was parasitic on the common
+cause, not grounded in autonomous transition organization within the
+composite itself. Observational diagnostics alone cannot distinguish
+this case from genuine closure; the intervention-indexed criterion can.
+
+The present criterion delivers a
+different verdict precisely because it indexes objecthood to
+intervention-stability, not to observational compression alone.
+
 A similar point applies to causal-emergence work. Effective-information
 analyses identify when macro-descriptions gain determinism relative to
 micro-descriptions \citep{hoel2013}. That is a valuable diagnostic,
 but a partition can increase effective information while remaining
-fragile under intervention or horizon variation. The present framework
+fragile under intervention or horizon variation. The present approach
 treats such gains as corroborating evidence within a closure-governed
 criterion, not as a standalone ontology test.
 
@@ -869,12 +952,12 @@ is the right fix for pattern-realism's permissiveness problem.
 
 In complex systems, boundaries leak and couplings shift across regimes.
 Exact closure is therefore unusual. A credible realism criterion cannot
-require perfect closure everywhere. The mathematical study of
+require perfect closure everywhere. The study of
 approximate aggregation has a long history, including analyses of
-nearly decomposable dynamic systems that separate short-run
+nearly decomposable systems that separate short-run
 within-subsystem dynamics from long-run aggregate behavior
 \citep[pp.~111--117]{ando1961}. The present extension is
-philosophical rather than technical. It uses graded closure to
+philosophical rather than technical: it uses graded closure to
 support graded ontological verdicts, not to improve estimation.
 
 Approximation here is not concession to arbitrariness. It is the
@@ -900,6 +983,20 @@ quantity is the conditional mutual information \(I(X_t; Z_{t+1} \mid Z_t)\)
 \citep[eqs.~(2.60)--(2.61)]{cover2006}. Low values support closure.
 High values indicate hidden transition-relevant heterogeneity.
 
+Using information-theoretic measures to define ontology might appear to
+assume a computationalist metaphysics, but the justification is
+strictly physical. Information processing incurs thermodynamic costs
+\citep{landauer1961}. A system, whether a biological organism or an
+engineered control mechanism, that tracks full micro-details without
+gaining macro-predictive advantage incurs unsustainable energetic
+overhead. Evolution and physical self-organization therefore robustly
+select against leaky boundaries. Measuring leakiness is not an
+imposition of computer-science metaphors onto nature; it is a formal
+accounting of the physical and thermodynamic constraints that force
+systems to dimensionally reduce their own state spaces. A low-leakage
+partition tracks the precise joints where the physical world
+successfully minimizes this metabolic and computational cost.
+
 In this paper, leakiness is the default target quantity. Other
 diagnostics, such as within-class transition divergence and predictive
 gain from added micro-features, function as estimators or proxies when
@@ -913,17 +1010,17 @@ defensible modeling choices is itself a downgrade trigger.
 Comparative ranking is necessary but not sufficient. A candidate can
 beat nearby alternatives and still fail objecthood if absolute leakiness
 remains high and instability persists under modest robustness checks.
-The framework therefore requires both relative superiority and minimum
+The criterion therefore requires both relative superiority and minimum
 viability.
 
 The viability floor can be stated without a numeric threshold. A
-partition fails minimum viability if, across the declared robustness
+partition fails minimum viability when, across the declared robustness
 checks, within-class micro-features yield consistent, non-negligible
 gains in macro-future prediction or intervention response relative to
-the best macro-only model. When that pattern persists across diagnostics
-and perturbation tests, the partition has not achieved the transition
-autonomy the criterion requires, regardless of how it ranks against
-competitors.
+the best macro-only model. Persistence of that pattern across
+diagnostics and perturbation tests is decisive: the partition has not
+achieved the transition autonomy the criterion requires, regardless of
+how it ranks against competitors.
 
 The term ``non-negligible'' can be given a comparative anchor without
 fixing a universal numeric threshold. Leakiness is most clearly
@@ -988,7 +1085,7 @@ itself.
 
 \textbf{Selection discipline.} One concern from both reviewers and
 readers is that flexibility can silently re-enter through upstream
-choices. The framework answers this with a single discipline rule:
+choices. The answer is a single discipline rule:
 admissibility, state construction, horizon, and diagnostics are fixed
 before scoring, and post hoc revisions trigger restart and disclosure.
 This does not eliminate judgment. It makes judgment auditable and
@@ -1077,7 +1174,7 @@ on taking a stance on broader social ontology.
 \subsection{Failure Conditions and Downgrade
 	Rules}\label{failure-conditions-and-downgrade-rules}
 
-The framework should also say clearly when commitment should be
+The account should also say clearly when commitment should be
 withdrawn or downgraded. Four failure patterns are especially relevant.
 
 \begin{enumerate}
@@ -1091,7 +1188,7 @@ withdrawn or downgraded. Four failure patterns are especially relevant.
 	      High sensitivity of verdicts to small, defensible changes in
 	      admissibility or horizon.
 	\item
-	      Candidate sets where every partition remains above the
+	      Candidate sets where no partition clears the
 	      minimum-viability floor.
 \end{enumerate}
 
@@ -1113,7 +1210,7 @@ constraints.
 \subsection{Stable Versus Merely Entailed
 	Patterns}\label{stable-versus-merely-entailed-patterns}
 
-The graded framework also supports an important distinction. A pattern
+The graded account also supports an important distinction. A pattern
 can be entailed by microhistory and laws without being stable as a
 macro-handle. Entailment alone is cheap. Stability under admissible
 perturbation is demanding.
@@ -1131,7 +1228,7 @@ weight upon burning, theorists introduced ``negative phlogiston''; when
 different substances showed different weight changes, further ad hoc
 parameters appeared. Each patch was a new within-class distinction
 imported to preserve macro-prediction. By contrast, oxygen theory
-required no such ongoing repair: the macro-variable (oxidation state)
+required substantially less such repair: the macro-variable (oxidation state)
 screened off the relevant chemistry without persistent bookkeeping. The
 critique here is structural, not retrospective ridicule. A candidate
 that continually imports corrections to preserve macro-prediction
@@ -1166,7 +1263,7 @@ fail under novel perturbation. For that reason, claims should be
 qualified by available intervention access and downgraded when
 out-of-regime behavior is unstable.
 
-The paper therefore does not treat in-sample prediction as decisive. The
+In-sample prediction is therefore not treated as decisive. The
 standard remains robustness under admissible perturbation, even when
 that robustness must be assessed indirectly.
 
@@ -1193,7 +1290,7 @@ interventions, \(P_1\) preserves stable macro-transition structure while
 performance. Observationally, they may look close. Structurally, they
 are not.
 
-On the present framework, \(P_1\) receives the stronger objecthood
+On the present account, \(P_1\) receives the stronger objecthood
 verdict because it remains transition-autonomous under the fixed
 constraints. \(P_2\) can remain useful as a representation, but its
 dependence on recurring hidden repair counts against macro-object
@@ -1234,6 +1331,29 @@ Mini-walkthrough under the reporting schema:
 	      remains instrumentally useful in calibration but is downgraded once
 	      perturbation and modest horizon extension are applied.
 \end{enumerate}
+
+A second illustration shows the criterion sorting between two
+scientifically rigorous partitions. Consider two ways to divide an
+organism into macroscopic parts. One partition, \(P_{\text{organ}}\),
+follows functional physiological boundaries: heart, lungs, liver. A
+rival partition, \(P_{\text{slice}}\), divides the body into strict
+transverse geometric planes, as used in medical tomography. Under
+resting observation, both achieve comparable short-horizon compression of
+local mass, fluid density, and electrical activity. Under an admissible
+physical perturbation, such as cardiovascular drug administration or
+sudden exertion, their transition autonomy diverges.
+\(P_{\text{organ}}\) preserves its macro-transition structure: the heart
+responds as a coordinated unit and its macroscopic variables remain
+sufficient for predicting onward causal trajectory.
+\(P_{\text{slice}}\) fractures, because functional tissues span across
+geometric planes; predicting the macro-future of a given slice now
+requires tracking the specific intercellular signals and fluid volumes
+crossing its boundary. On the present view,
+\(P_{\text{organ}}\) earns robust objecthood in the physiological regime
+because it isolates transition-autonomous parts;
+\(P_{\text{slice}}\) remains a valuable diagnostic tool but its
+recurring dependence on hidden micro-state repair prevents it from
+qualifying as a macro-object under the declared constraints.
 
 \subsection{Reporting and Evidential
 	Discipline}\label{reporting-and-evidential-discipline}
@@ -1280,7 +1400,7 @@ hoc.
 Diagnostics do not replace criterion-level argument. They provide
 evidence about whether a candidate satisfies the criterion under
 declared constraints. This distinction matters because reviewers can
-otherwise misread the framework as reducing ontology to whichever metric
+otherwise misread the proposal as reducing ontology to whichever metric
 happens to be available. The evidential logic is comparative and
 convergent. No single proxy is treated as infallible. Confidence
 increases when different diagnostics track the same rank-order among
@@ -1288,7 +1408,7 @@ candidate partitions and when those rankings remain stable under modest
 perturbation tests. Confidence decreases when diagnostics diverge
 persistently or when rankings are brittle under small design changes.
 
-This is why verdict categories are graded. Robust verdicts require
+Verdict categories are graded accordingly. Robust verdicts require
 convergence and stability. Qualified verdicts fit mixed but non-trivial
 evidence. Indeterminate verdicts fit persistent instability. The
 diagnostic set can vary by domain, but it should answer one fixed
@@ -1326,7 +1446,7 @@ ontological discipline without demanding a single privileged descriptive
 level.
 
 Three standing commitments apply throughout the replies below and will
-not be restated each time. First, the framework does not deny
+not be restated each time. First, the account does not deny
 microphysical completeness; it claims non-redundancy at the explanatory
 and interventional level for declared macro-targets. Second, all
 verdicts are indexed to regime, horizon, and admissible intervention
@@ -1350,22 +1470,22 @@ explicit constraints.
 The stronger version invokes Dennett's Martian \citep[p.~42]{dennett1991}. If an ideal
 micro-predictor can forecast everything, macro realism looks optional.
 The mistake is to infer ontological redundancy from representational
-power. Micro omniscience can coexist with objectively better macro
-bottlenecks for target dynamics. Refusing those bottlenecks increases
-representational burden. It does not erase macro transition structure.
+power. Even a micro-omniscient predictor coexists with objectively
+better macro-bottlenecks for target dynamics. Ignoring those
+bottlenecks increases representational burden without erasing macro
+transition structure.
 
 The deeper point is that observer power changes convenience, not closure
 facts. Whether a partition is transition-autonomous under fixed
 constraints does not vary with who computes it.
 
 Admissibility version of the same objection: admissibility criteria
-already encode what counts as the relevant level. The framework answers
-this by hierarchical order and disclosure rules. Admissibility is fixed
+already encode what counts as the relevant level. The reply is hierarchical order and disclosure rules. Admissibility is fixed
 by physically realizable, regime-preserving control channels before
 partition scoring. Post hoc admissibility revision triggers restart.
 This makes back-fitting explicit and sanctionable.
 
-Residual disagreement can remain. The framework does not promise
+Residual disagreement can remain. The account does not promise
 universal convergence from one pass. It promises disciplined comparison
 and explicit downgrade when verdicts are unstable across nearby
 defensible admissibility specifications. This is a feature for skeptical
@@ -1374,7 +1494,7 @@ stipulation.
 
 Instrumentalist pressure hides in two forms: ontology should track
 predictive utility only, or ontology is unnecessary once predictive
-utility is available. The framework rejects both. Utility without
+utility is available. The present view rejects both. Utility without
 closure is too permissive, and closure without ontology understates what
 stable intervention-guiding structure provides. What closure adds is not
 metaphysical extravagance. It is commitment discipline. If a candidate
@@ -1400,24 +1520,34 @@ identifies when macro-description is sufficient for prediction and
 intervention at the relevant target level. Microphysical implementation
 remains untouched.
 
-The non-redundancy claim is explanatory and control-theoretic. A closed
-macro-partition carries autonomous transition structure for target
-dynamics. In that respect, macro-level variables are not placeholders
-for arbitrary omitted micro-details. They are level-appropriate carriers
-of intervention-relevant structure.
+The standard reply to Kim's exclusion argument is that macro-causation
+is explanatorily indispensable. The closure criterion allows a stronger,
+structural reply: macro-states are non-redundant because they filter out
+causal degeneracy. Due to multiple realizability, myriad distinct
+micro-configurations map to identical macro-outcomes. Tracking every
+electron is not merely computationally expensive; it actively introduces
+non-difference-making noise into the causal model. When a system
+achieves closure, the macro-boundary strips out this micro-level
+degeneracy, effectively concentrating causal power. The macro-variable
+is therefore not a convenient shorthand competing with a fundamental
+micro-cause; it is a more informative causal parameter for the target
+outcome because it isolates the relevant difference-maker. Supervenience
+establishes a dependency relation, not an identity relation, and causal
+priority follows the level where conditional independence actually
+screens off this noise.
 
 This reply aligns with interventionist causation. Macro-level
 interventions can be successful and projectible across perturbations
-without denying microphysical realization \citep{woodward2003,pearl2000}.
+without denying microphysical realization \citep{woodward2003,pearl2000,hoel2013}.
 Compatibility with microphysical completeness is a design feature, not a
 concession.
 
-The overdetermination worry can be handled directly. The framework does
-not claim two independent sufficient causes at one event. It claims one
-implemented process with multiple adequate descriptions for different
+The overdetermination worry can be handled directly. The proposal does
+not claim two independent sufficient causes for one event. It claims one
+implemented process with multiple adequate descriptions at different
 explanatory and control targets. Exclusion pressure weakens once
 adequacy is indexed to target and intervention class rather than to a
-single privileged descriptive level.
+single privileged level.
 
 Relative to Kim's strongest formulations, the key move is
 target-indexing rather than layer multiplication \citep{kim1998,kim2005}. A
@@ -1446,14 +1576,14 @@ discriminating closure condition with explicit exclusion and downgrade
 rules. That addition changes verdict structure.
 
 The difference is practical and philosophical. Practical, because the
-framework gives a protocol for ruling out high-maintenance,
+account gives a protocol for ruling out high-maintenance,
 transition-incoherent candidates. Philosophical, because it ties realism
 commitment to transition autonomy under admissible interventions rather
 than to explanatory convenience alone. In this respect, causal-emergence
 style results are treated as evidence within a closure-governed
-framework, not as a replacement for the criterion itself \citep{hoel2013}.
+approach, not as a replacement for the criterion itself \citep{hoel2013}.
 
-The paper should therefore be read as a constrained realism refinement
+The view should therefore be read as a constrained realism refinement
 of autonomy views, not as an unrelated alternative and not as a mere
 restatement. The conceptual difference can be stated directly. Generic
 autonomy claims assert that higher levels matter. Closure specifies
@@ -1480,10 +1610,10 @@ under the same label but must produce the same macro-transitions under
 the declared constraints. This gap, between what a kind groups together
 extensionally and how those instances behave dynamically, is precisely
 where gerrymandered kinds exploit multiple-realizability intuitions
-without earning genuine macro-object status. The present framework
+without earning genuine macro-object status. The present criterion
 formalizes the transition condition that the autonomy tradition always
 needed to separate genuine higher-level kinds from merely disjunctive
-aggregates \citep{shapiro2000}. The monetary illustration in §4.5
+aggregates \citep{shapiro2000}. The monetary illustration in \S\ref{one-distributed-illustration}
 provides a concrete instance: coins, ledger entries, and digital
 balances are heterogeneous realizers, but what earns money macro-object
 status is not the heterogeneity of realizers but the
@@ -1526,7 +1656,7 @@ grain.
 
 Minimality still matters. Enrichment should be the least extension
 needed to preserve closure performance under fixed constraints. The
-framework also accepts an important edge case: if the minimally
+account also accepts an important edge case: if the minimally
 sufficient enriched state approaches micro-level complexity, then
 closure may be recovered without meaningful compression. In that regime,
 the result is not robust macro-objecthood. It is a warning that no
@@ -1565,7 +1695,7 @@ notoriously leaky. The criterion eliminates the ontology it was supposed
 to discipline.
 
 Reply: this objection conflates robust objecthood with any objecthood
-verdict at all. The framework provides three verdict categories, not
+verdict at all. The account provides three verdict categories, not
 one. Robust objecthood requires stable closure under fixed constraints.
 Qualified objecthood fits cases where closure is partial,
 regime-limited, or supported by convergent but incomplete evidence.
@@ -1578,14 +1708,14 @@ autonomy within ecological and evolutionary regimes while leaking at
 boundary cases (hybrid zones, ring species, horizontal gene transfer).
 Psychological kinds often support predictive and interventional
 regularity within clinical or experimental regimes while failing under
-broader perturbation. The framework does not eliminate these kinds. It
+broader perturbation. The criterion does not eliminate these kinds. It
 gives them the status their closure evidence supports: qualified
 objecthood with explicit regime limitations, rather than either full
 robust status or wholesale elimination.
 
 The objection therefore proves too much. A criterion that granted robust
 objecthood to every special-science kind regardless of leakiness would
-be the permissive framework this paper is designed to replace. The gain
+be the permissive view this paper is designed to replace. The gain
 from graded verdicts is that they match evidential reality rather than
 forcing a binary choice between full realism and eliminativism.
 
@@ -1595,7 +1725,7 @@ forcing a binary choice between full realism and eliminativism.
 Objection: a model can predict well without warranting ontological
 commitment.
 
-Reply: that is correct, and the framework does not deny it. Prediction
+Reply: that is correct, and the account does not deny it. Prediction
 alone is not the criterion. The criterion is transition autonomy under
 admissible interventions and fixed constraints. Predictive success
 functions as evidence only when it aligns with closure diagnostics and
@@ -1609,14 +1739,14 @@ is asserted but left too unconstrained to guide verdicts. The claim
 remains conceptual. Diagnostics do not replace argument. They
 operationalize what the argument says should matter.
 
-Second, the framework is falsifiable in its own terms. If candidate
+Second, the criterion is falsifiable in its own terms. If candidate
 partitions repeatedly fail closure diagnostics across defensible regimes
 and admissibility classes, commitment should be withdrawn or downgraded.
 The same applies when verdicts are unstable under small, defensible
 changes in horizon, admissibility, or diagnostic proxy. A proposal that
 cannot risk downgrade is not a serious realism criterion.
 
-The framework does not promise certainty from one metric or
+The proposal does not promise certainty from one metric or
 one pass. It promises explicit criteria for when confidence increases,
 when confidence should pause, and when commitment should retreat.
 
@@ -1648,8 +1778,8 @@ structure. It is not acceptable when it is introduced only after score
 inspection to salvage a preferred partition.
 
 This distinction is central for pre-emption. Critics are right that any
-framework can be trivialized if timescales are unconstrained. The
-present framework avoids that outcome by tying horizons to ex ante
+criterion can be trivialized if timescales are unconstrained. The
+present account avoids that outcome by tying horizons to ex ante
 justification and by requiring modest-extension robustness. If
 robustness fails, the verdict downgrades. The criterion does not break.
 It reports that the claim was too strong for the evidence.
@@ -1657,11 +1787,11 @@ It reports that the claim was too strong for the evidence.
 \subsection{``The Criterion Is Too
 	Conservative''}\label{the-criterion-is-too-conservative}
 
-Objection: by demanding closure and downgrade discipline, the framework
+Objection: by demanding closure and downgrade discipline, the criterion
 may be too conservative and may miss emerging macro-objects.
 
 Reply: conservatism is partly intentional. The paper aims to avoid
-premature ontological inflation. Still, the framework is not rigid. It
+premature ontological inflation. Still, the criterion is not rigid. It
 allows qualified verdicts for emerging patterns when closure evidence is
 partial but improving, and it allows verdict revision as regimes
 stabilize and intervention evidence accumulates.
@@ -1678,7 +1808,7 @@ instantaneous.
 
 This is also where compression and closure reconnect in a non-vacuous
 way. Early in a domain's development, compression gains may appear
-before robust closure is demonstrated. The framework treats this as
+before robust closure is demonstrated. The account treats this as
 evidential lead, not ontological conclusion. As closure evidence
 accumulates, commitment can strengthen. If closure evidence fails to
 accumulate, commitment should remain qualified or be withdrawn even when
@@ -1697,7 +1827,7 @@ class. Strong lumpability provides the exact benchmark. Leakiness and
 convergent diagnostics extend the same criterion to non-ideal settings
 without changing its content.
 
-What the framework buys is selective commitment. It supports robust
+What the proposal buys is selective commitment. It supports robust
 commitment where closure is stable, qualified commitment in borderline
 cases, and explicit downgrade where verdicts depend on fragile
 admissibility or horizon choices. The proposal is intentionally
@@ -1707,12 +1837,12 @@ metaphysics because it is restricted to induced closure in
 spatiotemporal systems under declared constraints.
 
 This is also where the view separates itself from eliminativist
-pressure. The framework does not treat higher-level descriptions as
+pressure. The view does not treat higher-level descriptions as
 fictions by default, and it does not grant them standing by convenience
 alone. It asks whether they track stable transition structure under
 admissible intervention.
 
-The paper also marks clear limits. It is not a complete metaphysics of
+Clear limits remain. The proposal is not a complete metaphysics of
 levels and not a universal methods manual. Its contribution is a
 philosophical criterion with application discipline. Methodological
 implementation details remain downstream of this argument, and refining
@@ -1724,18 +1854,6 @@ commitments, not because circularity, instrumentalist drift, or scope
 ambiguity were left unresolved.
 
 \backmatter
-
-\section*{Acknowledgements}
-
-Acknowledgements are omitted for blind review.
-
-\section*{Declarations}
-
-\noindent\textbf{Competing interests} The author declares no competing
-interests.
-
-\par\noindent\textbf{Data availability} Data sharing is not applicable to
-this article as no datasets were generated or analyzed.
 
 \label{references}
 
