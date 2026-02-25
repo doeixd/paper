@@ -108,6 +108,8 @@ Elgin, Catherine Z. 2017. *True Enough*. Cambridge, MA: MIT Press. ISBN 978-0262
 
 Fields, Thomas, and Karl J. Friston. 2025. "How do inner screens enable imaginative experience? Applying the free-energy principle directly to the study of conscious experience" *Neuroscience of Consciousness* 2025(1): niaf009. https://doi.org/10.1093/nc/niaf009.
 
+Fodor, Jerry A. 1974. "Special Sciences (or: The Disunity of Science as a Working Hypothesis)." *Synthese* 28(2): 97–115. https://doi.org/10.1007/BF00485230.
+
 Fogel, Robert William, and Stanley L. Engerman. 1995. *Time on the Cross*. Boston: Little, Brown and Company. ISBN 978-0393312188.
 
 Foot, Philippa. 2001. *Natural Goodness*. Oxford: Clarendon Press. ISBN 978-0198235088. https://doi.org/10.1093/0198235089.001.0001.
@@ -132,7 +134,7 @@ Gell-Mann, Murray, and Seth Lloyd. 1996. "Information Measures, Effective Comple
 
 Gil Martín, Francisco Javier, and Jesús Vega Encabo. 2008. "Truth and Moral Objectivity: Procedural Realism in Putnam's Pragmatism." *Theoria: An International Journal for Theory, History and Foundations of Science* 23(3): 343-356.
 
-Brenner, Paweł. 2014. "Mereological nihilism and the special arrangement question" *Synthese* 206: 225. https://doi.org/10.1007/s11229-025-05311-0.
+Gładziejewski, Paweł. 2025. "Real Patterns, the Predictive Mind, and the Cognitive Construction of the Manifest Image." *Synthese* 206: 225. https://doi.org/10.1007/s11229-025-05311-0.
 
 Glenn, Patrick. 2025. "The Architecture of Inquiry: Extending Quine's Web for A Pragmatic and Naturalistic Account of Objectivity" PhilPapers. https://philpapers.org/rec/GLETAO.
 
@@ -157,6 +159,8 @@ Harding, Sandra. 1991. *Whose science? Whose knowledge?*. Ithaca, NY: Cornell Un
 Hartmann, Stephan, and Borut Trpin. 2023. "Conjunctive Explanations: A Coherentist Appraisal." In *Conjunctive Explanations: The Nature, Epistemology, and Psychology of Explanatory Multiplicity*, edited by Jonah N. Schupbach and David H. Glass, 111–129. Cham: Springer.
 
 Haugeland, John. 1987. *Derrida*. Cambridge, MA: Harvard University Press. ISBN 978-0674198234.
+
+Haugeland, John. 1998. *Having Thought: Essays in the Metaphysics of Mind*. Cambridge, MA: Harvard University Press. ISBN 978-0674004153.
 
 Henrich, Joseph. 2016. *The secret of our success*. Princeton, NJ: Princeton University Press. ISBN 978-0691178431.
 
@@ -292,7 +296,7 @@ Patterson, Orlando. 2018. *Slavery and Social Death*. Cambridge, MA: Harvard Uni
 
 Pearl, Judea. 1988. *Probabilistic Reasoning in Intelligent Systems*. San Mateo, CA: Morgan Kaufmann. ISBN 978-0934613736.
 
-Pearl, Judea. 2000. *Causality*. Cambridge: Cambridge University Press. ISBN 978-0521773621.
+Pearl, Judea. 2009. *Causality: Models, Reasoning, and Inference*. 2nd ed. Cambridge: Cambridge University Press. ISBN 978-0521895606.
 
 Peirce, Charles S. 1992. "How to Make Our Ideas Clear." In *The Essential Peirce: Selected Philosophical Writings*, vol. 1 (1867–1893), edited by Nathan Houser and Christian Kloesel, 124–41. Bloomington: Indiana University Press (originally 1878).
 
@@ -315,6 +319,8 @@ Price, Huw. 1992. "Metaphysical Pluralism." *Journal of Philosophy* 89(8): 387�
 Pritchard, Duncan. 2016. "Epistemic Risk." *Journal of Philosophy* 113(11): 550–571. https://doi.org/10.5840/jphil20161131137.
 
 Psillos, Stathis. 1999. *Scientific realism*. London: Routledge. ISBN 978-0415208192.
+
+Putnam, Hilary. 1967. "Psychological Predicates." In *Art, Mind, and Religion*, edited by W. H. Capitan and D. D. Merrill, 37–48. Pittsburgh: University of Pittsburgh Press.
 
 Putnam, Hilary. 2004. *The Collapse of the Fact/Value Dichotomy and Other Essays*. Cambridge, MA: Harvard University Press. ISBN 978-0674013803.
 
@@ -366,6 +372,8 @@ Sevilla, Jaime, Lennart Heim, Anson Ho, Tamay Besiroglu, Marius Hobbhahn, and Pa
 
 Shalizi, Cosma Rohilla, and James P. Crutchfield. 2001. "Computational Mechanics: Pattern and Prediction, Structure and Simplicity." *Journal of Statistical Physics* 104(3-4): 817–879. https://doi.org/10.1023/A:1010388907793.
 
+Shapiro, Lawrence A. 2000. "Multiple Realizations." *The Journal of Philosophy* 97(12): 635–654. https://doi.org/10.2307/2678460.
+
 Shannon, Claude E. 1948. "A Mathematical Theory of Communication." *Bell System Technical Journal* 27(3): 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x.
 
 Sims, Matthew. 2023. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91(2): 430–48. https://doi.org/10.1017/psa.2023.104.
@@ -415,6 +423,10 @@ Varley, Thomas F., and Erik Hoel. 2022. "Emergence as the conversion of informat
 Watson, James D., and Francis H.C. Crick. 1953. "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid." *Nature* 171(4356): 737–738. https://doi.org/10.1038/171737a0.
 
 Woodward, James. 2003. *Making Things Happen*. Oxford: Oxford University Press. ISBN 978-0195155273.
+
+Woodward, James. 2015. "Methodology, Ontology, and Interventionism." *Synthese* 192(11): 3577–3599. https://doi.org/10.1007/s11229-014-0479-1.
+
+Woodward, James. 2021. *Causation with a Human Face: Normative Theory and Descriptive Psychology*. New York: Oxford University Press. https://doi.org/10.1093/oso/9780197585412.001.0001.
 
 World Bank. 2011. *World Development Report 2011*. Washington, DC: World Bank. ISBN 978-0821388105.
 

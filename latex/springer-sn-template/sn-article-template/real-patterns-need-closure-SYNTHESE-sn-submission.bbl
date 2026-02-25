@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{25}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -15,8 +15,8 @@ Ando A, Simon HA (1961) Aggregation of variables in dynamic systems.
   Econometrica 29(2):111--138. \doi{10.2307/1909285}
 
 \bibitem[{Cover and Thomas(2006)}]{cover2006}
-Cover TM, Thomas JA (2006) Elements of Information Theory, 2nd edn. Wiley,
-  Hoboken, NJ.
+Cover TM, Thomas JA (2006) Elements of Information Theory, 2nd edn.
+  Wiley-Interscience, Hoboken, NJ.
 \newblock \doi{10.1002/047174882X}
 
 \bibitem[{Dennett(1991)}]{dennett1991}
@@ -35,13 +35,14 @@ G{\l}adziejewski P (2025) Real patterns, the predictive mind, and the cognitive
   construction of the manifest image. Synthese 206:225.
   \doi{10.1007/s11229-025-05311-0}
 
-\bibitem[{Goodman(1955)}]{goodman1955}
-Goodman N (1955) Fact, Fiction, and Forecast. Harvard University Press,
-  Cambridge, MA
+\bibitem[{Goodman(1983)}]{goodman1955}
+Goodman N (1983) Fact, Fiction, and Forecast, 4th edn. Harvard University
+  Press, Cambridge, MA.
+\newblock Originally published 1955
 
 \bibitem[{Haugeland(1998)}]{haugeland1998}
 Haugeland J (1998) Having Thought: Essays in the Metaphysics of Mind. Harvard
-  University Press
+  University Press, Cambridge, MA
 
 \bibitem[{Hoel et~al.(2013)Hoel, Albantakis, and Tononi}]{hoel2013}
 Hoel EP, Albantakis L, Tononi G (2013) Quantifying causal emergence shows that
@@ -49,28 +50,34 @@ Hoel EP, Albantakis L, Tononi G (2013) Quantifying causal emergence shows that
   110(49):19790--19795. \doi{10.1073/pnas.1314922110}
 
 \bibitem[{van Inwagen(1990)}]{vaninwagen1990}
-van Inwagen P (1990) Material Beings. Cornell University Press
+van Inwagen P (1990) Material Beings. Cornell University Press, Ithaca, NY
 
 \bibitem[{Kemeny and Snell(1960)}]{kemeny1960}
-Kemeny JG, Snell JL (1960) Finite Markov Chains. Van Nostrand.
+Kemeny JG, Snell JL (1960) Finite Markov Chains. Van Nostrand, Princeton, NJ.
 \newblock Reprinted 1976, Springer
 
 \bibitem[{Kim(1998)}]{kim1998}
-Kim J (1998) Mind in a Physical World. MIT Press
+Kim J (1998) Mind in a Physical World. MIT Press, Cambridge, MA
 
 \bibitem[{Kim(2005)}]{kim2005}
-Kim J (2005) Physicalism, or Something Near Enough. Princeton University Press
+Kim J (2005) Physicalism, or Something Near Enough. Princeton University Press,
+  Princeton, NJ
 
 \bibitem[{Ladyman and Ross(2007)}]{ladyman2007}
 Ladyman J, Ross D (2007) Every Thing Must Go: Metaphysics Naturalized. Oxford
-  University Press
+  University Press, Oxford
+
+\bibitem[{Landauer(1961)}]{landauer1961}
+Landauer R (1961) Irreversibility and heat generation in the computing process.
+  IBM Journal of Research and Development 5(3):183--191.
+  \doi{10.1147/rd.53.0183}
 
 \bibitem[{Lewis(1986)}]{lewis1986}
-Lewis D (1986) On the Plurality of Worlds. Blackwell
+Lewis D (1986) On the Plurality of Worlds. Blackwell, Oxford
 
-\bibitem[{Pearl(2000)}]{pearl2000}
-Pearl J (2000) Causality: Models, Reasoning, and Inference. Cambridge
-  University Press
+\bibitem[{Pearl(2009)}]{pearl2000}
+Pearl J (2009) Causality: Models, Reasoning, and Inference, 2nd edn. Cambridge
+  University Press, Cambridge
 
 \bibitem[{Putnam(1967)}]{putnam1967}
 Putnam H (1967) Psychological predicates. In: Capitan WH, Merrill DD (eds) Art,
@@ -94,7 +101,7 @@ Shapiro LA (2000) Multiple realizations. The Journal of Philosophy
 
 \bibitem[{Woodward(2003)}]{woodward2003}
 Woodward J (2003) Making Things Happen: A Theory of Causal Explanation. Oxford
-  University Press
+  University Press, Oxford
 
 \bibitem[{Woodward(2015)}]{woodward2015}
 Woodward J (2015) Methodology, ontology, and interventionism. Synthese
@@ -102,7 +109,7 @@ Woodward J (2015) Methodology, ontology, and interventionism. Synthese
 
 \bibitem[{Woodward(2021)}]{woodward2021}
 Woodward J (2021) Causation with a Human Face: Normative Theory and Descriptive
-  Psychology. Oxford University Press, New York.
+  Psychology. Oxford University Press, Oxford.
 \newblock \doi{10.1093/oso/9780197585412.001.0001}
 
 \end{thebibliography}
