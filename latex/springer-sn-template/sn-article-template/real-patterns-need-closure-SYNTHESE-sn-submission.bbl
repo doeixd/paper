@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -19,9 +19,19 @@ Cover TM, Thomas JA (2006) Elements of Information Theory, 2nd edn.
   Wiley-Interscience, Hoboken, NJ.
 \newblock \doi{10.1002/047174882X}
 
+\bibitem[{Craver(2007)}]{craver2007}
+Craver CF (2007) Explaining the Brain: Mechanisms and the Mosaic Unity of
+  Neuroscience. Oxford University Press, Oxford.
+\newblock \doi{10.1093/acprof:oso/9780199299317.001.0001}
+
 \bibitem[{Dennett(1991)}]{dennett1991}
 Dennett DC (1991) Real patterns. The Journal of Philosophy 88(1):27--51.
   \doi{10.2307/2027085}
+
+\bibitem[{Dewhurst(2021)}]{dewhurst2021}
+Dewhurst J (2021) Causal emergence from effective information: Neither causal
+  nor emergent? Thought: A Journal of Philosophy 10(3):158--168.
+  \doi{10.1002/tht3.489}
 
 \bibitem[{Elgin(2017)}]{elgin2017}
 Elgin CZ (2017) True Enough. MIT Press, Cambridge, MA
@@ -75,6 +85,10 @@ Landauer R (1961) Irreversibility and heat generation in the computing process.
 \bibitem[{Lewis(1986)}]{lewis1986}
 Lewis D (1986) On the Plurality of Worlds. Blackwell, Oxford
 
+\bibitem[{Machamer et~al.(2000)Machamer, Darden, and Craver}]{machamer2000}
+Machamer P, Darden L, Craver CF (2000) Thinking about mechanisms. Philosophy of
+  Science 67(1):1--25. \doi{10.1086/392759}
+
 \bibitem[{Pearl(2009)}]{pearl2000}
 Pearl J (2009) Causality: Models, Reasoning, and Inference, 2nd edn. Cambridge
   University Press, Cambridge
@@ -98,6 +112,20 @@ Shalizi CR, Crutchfield JP (2001) Computational mechanics: Pattern and
 \bibitem[{Shapiro(2000)}]{shapiro2000}
 Shapiro LA (2000) Multiple realizations. The Journal of Philosophy
   97(12):635--654. \doi{10.2307/2678460}
+
+\bibitem[{Simon(1962)}]{simon1962}
+Simon HA (1962) The architecture of complexity. Proceedings of the American
+  Philosophical Society 106(6):467--482. \doi{10.2307/985254}
+
+\bibitem[{Wimsatt(1981)}]{wimsatt1981}
+Wimsatt WC (1981) Robustness, reliability, and overdetermination. In: Brewer
+  MB, Collins BE (eds) Scientific Inquiry and the Social Sciences. Jossey-Bass,
+  San Francisco, p 124--163
+
+\bibitem[{Wimsatt(2000)}]{wimsatt2000}
+Wimsatt WC (2000) Emergence as non-aggregativity and the biases of
+  reductionisms. Foundations of Science 5(3):269--297.
+  \doi{10.1023/A:1011342202830}
 
 \bibitem[{Woodward(2003)}]{woodward2003}
 Woodward J (2003) Making Things Happen: A Theory of Causal Explanation. Oxford

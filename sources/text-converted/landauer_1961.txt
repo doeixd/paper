@@ -1,0 +1,48 @@
+--- PAGE 1 ---
+
+R. Landauer
+Irreversibility and Heat Generation in the Computing Process
+IBM JOURNAL • JULY 1961
+
+Abstract: It is argued that computing machines inevitably involve devices which perform logical functions
+that do not have a single-valued inverse. This logical irreversibility is associated with physical irreversibility
+and requires a minimal heat generation, per machine cycle, typically of the order of kT for each irreversible
+function. This dissipation serves the purpose of standardizing signals and making them independent of their
+exact logical history.
+
+1. Introduction
+The search for faster and more compact computing circuits leads directly to the question: What are the ultimate physical limitations on the progress in this direction? ... we can show, or at least very strongly suggest, that information processing is inevitably accompanied by a certain minimum amount of heat generation.
+
+--- PAGE 2 ---
+
+Figure 1: Bistable potential well.
+Figure 2: Potential well in which ZERO and ONE state are not separated by barrier.
+
+RESTORE TO ONE, which leaves the particle in the ONE state, regardless of its initial location. ... Note, however, that in order to avoid energy expenditure we have used two different routines, depending on the initial state of the device. This is not how a computer operates. In most instances a computer pushes information around in a manner that is independent of the exact data which are being handled.
+
+--- PAGE 3 ---
+
+2. Classification
+Computers can be built that contain either only cryotrons, or only magnetic cores. The second class of devices consists of structures which are in a steady (time invariant) state, but in a dissipative one, while holding on to information. ... This analogy leads us to expect that in the case of the dissipative device there will be transitions from the desired state, to the other stable state, resulting from thermal agitation or quantum mechanical tunneling.
+
+--- PAGE 4 ---
+
+3. Logical irreversibility
+We shall call a device logically irreversible if the output of a device does not uniquely define the inputs. We believe that devices exhibiting logical irreversibility are essential to computing. Logical irreversibility, we believe, in turn implies physical irreversibility, and the latter is accompanied by dissipative effects.
+
+--- PAGE 5 ---
+
+4. Logical irreversibility and entropy generation
+Consider a statistical ensemble of bits in thermal equilibrium. If these are all reset to ONE, the number of states covered in the ensemble has been cut in half. The entropy therefore has been reduced by k loge 2 = 0.6931 k per bit. The entropy of a closed system, e.g., a computer with its own batteries, cannot decrease; hence this entropy must appear elsewhere as a heating effect, supplying 0.6931 kT per restored bit to the surroundings.
+
+--- PAGE 8 ---
+
+Summary
+The information-bearing degrees of freedom of a computer interact with the thermal reservoir... This interaction plays two roles. First of all, it acts as a sink for the energy dissipation involved in the computation. This energy dissipation has an unavoidable minimum arising from the fact that the computer performs irreversible operations.
+
+--- PAGE 9 ---
+
+References
+1. L. Brillouin, Science and Information Theory, Academic Press Inc., New York, New York, 1956.
+2. R. Landauer and J. A. Swanson, Phys. Rev., 121, 1668 (1961).
+8. D. Hilbert and W. Ackermann, Principles of Mathematical Logic, Chelsea Publishing Co., New York, 1950.

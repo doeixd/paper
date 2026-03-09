@@ -1,0 +1,1112 @@
+--- Page 1 ---
+
+FACT
+FICTION
+AND
+FORECAST
+Nelson Goodman
+
+--- Page 2 ---
+
+
+
+--- Page 3 ---
+
+|
+PREDICAMENT
+1946
+. The chapter to follow was originally delivered as a lecture
+at the New York Philosophical Circle on May 11, 1946; and |
+published with some revisions in the Journal of Philosophy in |
+February 1947, volume xliv, pages 113-28. Only minor
+changes have been made in the present text. |
+|
+|
+,
+|
+
+\.
+
+COMMA
+
+6096132 "
+
+--- Page 4 ---
+
+Fact, Fiction,
+and Forecast
+| Fourth Edition
+NELSON GOODMAN
+Harvard University Press
+Cambridge, Massachusetts
+and London, England
+
+--- Page 5 ---
+
+| CONTENTS
+FOREWORD TO THE FOURTH EDITION
+by Hilary Putnam vii
+INTRODUCTORY NOTES XVii
+Introduction to the First Edition, 1954 XVil
+Copyright Â© 1979, 1983 by Nelson Goodman Note to the Third Edition, 1973 xxi
+; Note to the Fourth Edition, 1983 XXIV
+Foreword copyright Â© 1983 by the President and Fellows
+of Harvard College
+All rights reserved
+Printed in the United States of America PREDI C4 MENT
+194
+This book has been digitally reprinted. .The content
+remains identical to that of previous printings. I. THE PROBLEM OF
+COUNTERFACTUAL CONDITIONALS 3
+1. The Problem in General 3
+2. The Problem of Relevant Conditions 9
+Library of Congress Cataloging in Publication Data 3. The Problem of Law 17
+Goodman, Nelson.
+Fact, fiction, and forecast. , PROJECT
+Includes bibliographical references and index. 1953
+1. Induction (Logic)â€”Addresses, essays, lectures.
+2. Conditionals (Logic) â€”Addresses, essays, lectures, Il. THE PASSING OF THE P OSSIBLE 31
+3. Possibilityâ€”Addresses, essays, lectures. 4. Fore- 1, Foreword: On the P bilosophic Conscience 31
+castingâ€” Addresses, essays, lectures. 5. Scienceâ€” 2. Counterfactuals 34
+Philosophyâ€”Addresses, essays, lectures. I. Title. 3. Dispositions 40
+BC91.G66_ 1983 161 82-15764 4. Possibles . 49
+ISBN 0-674-29070-4 5: The P. assing 57
+ISBN 0-674-29071-2 (pbk) II. THE NEW RIDDLE OF INDUCTION 59
+1. The Old Problem of Induction 59
+2. Dissolution of the Old Problem 62
+3. The Constructive Task of
+Confirmation Theory 66
+, v
+|
+
+--- Page 6 ---
+
+
+
+--- Page 7 ---
+
+
+
+--- Page 8 ---
+
+
+
+--- Page 9 ---
+
+
+
+--- Page 10 ---
+
+
+
+--- Page 11 ---
+
+* FOREWORD -
+implies things are getting better, or must in the future. But
+he does believe that novelty can be exciting and good as
+well as boring and bad; he finds construction and creation
+exciting and challenging. He believes, in short, that there
+is much, much we can do, and he prefers concrete and
+partial progress to grand and ultimately empty visions. INTRODUCTORY NOTES
+Hilary Putnam INTRODUCTION TO THE First Eprrion, 1954. |
+The chapters to follow were all originally delivered as
+lectures, Although seven years and a few thousand miles |
+separated the delivery of the first from the delivery of |
+the remaining three, the four represent a consecutive
+effort of thought on a closely integrated group of prob-
+lems. Only the first has been published before.
+In the summer of 1944, I had nearly completed a manu-
+| script entitled â€œTwo Essays on Not-Beingâ€™. The first essay
+explained the counterfactual conditional, and the second
+made use of this explanation in dealing with potentiality,
+possibility, and dispositions. Some minor difficulties in the
+first essay still needed attention, however, and these led to
+less minor ones until, a few weeks later, my two essays
+were instances rather than treatments of not-being.
+Grasping at the scientistâ€™s slim straw of solace, that
+failure is as significant as success, I used the detailed his-
+tory of this frustration as the subject for a talk given in
+New York in May of 1946. It was published a few months
+later in the Journal of Philosophy as â€˜The Problem of
+Counterfactual Conditionalsâ€™.
+The scores of articles that have been published since
+then have made so little progress towards settling the
+matter that current opinion varies all the way from the
+| view that the problem is no problem at all to the view ,
+xvi xvii |
+
+--- Page 12 ---
+
+* INTRODUCTORY NOTES : * INTRODUCTORY NOTES -
+
+that it is insoluble. Neither of these extremes is very well don in May of 1953 under the general title Fact, Fiction,
+substantiated. The former is usually supported by the and Forecast.
+claim that we can, theoretically at least, get along without In the present book, the first part â€˜Predicamentâ€”1946â€™
+counterfactuals in the sciences, But however that may be, consists of â€˜The Problem of Counterfactual Conditionalsâ€™,
+we do not yet by any means know how to get along with- reprinted without major changes. The second part â€˜Pro-
+out them (or transparent substitutes for them) in philoso- jectâ€”1953â€™ consists of the three London lectures now
+phy. The view that the problem is insoluble is sometimes printed for the first time. These have been somewhat
+supported by the citation of paradoxical counterfactuals revised, and rather extensive notes have been added. The
+that confound commonsense. But such cases do not argue greatest change, involving many additions and improve-
+insolubility; for if we can provide an interpretation that ments, has occurred in the expansion of the last quarter of
+handles the clear cases successfully, we can let the unclear the final lecture into the last half of the fourth chapter.
+ones fall where they may. . I am indebted to C. G. Hempel for many useful sugges-
+
+The urge to dispose of the problem as spurious or in- tions, and to Elizabeth F. Flower for valuable editorial
+soluble is understandable, of course, in view of the re- assistance,
+peated failures to find a solution. The trouble is, though, The two parts of the book are intimately related to each
+that what confronts us is not a single isolated problem but other in the ways I have described; but no attempt has
+a closely knit family of problems. If we set one of them been made to revise them to make a more continuous
+aside, we usually encounter much the same difficulties whole. The occasional duplications and minor disparities
+when we try to deal with the others. And if we set aside between the work of 1946 and the work of 1953 have
+all the problems of dispositions, possibility, scientific law, been left untouched. Thus readers familiar with the article
+confirmation, and the like, we virtually abandon the phi- on counterfactuals or unready for its technicalities will
+losophy of science. find the second part a more or less self-contained unit,
+
+For some years, work on a book dealing with other while other readers will find in the first part an essentially
+matters took most of my time; but after The Structure of unaltered description of the state of affairs from which the
+Appearance was published in 1951, I turned again to the London lectures took their departure. The layman and the
+problem of counterfactuals and kindred problemsâ€”and beginning student may well read the second part first.
+began to travel in all the old circles. When, in 1952, the ; Throughout I have used commonplace and even trivial
+University of London invited me to give some lectures illustrations rather than more intriguing ones drawn from
+the following year, I set to work with a conviction that the sciences; for I feel that examples that attract the least
+some new approach must be found. The results of that interest to themselves are the least likely to divert atten-
+work were reported in three lectures delivered in Lon- tion from the problem or principle being explained. Once
+
+xvii xix
+
+--- Page 13 ---
+
+
+
+--- Page 14 ---
+
+
+
+--- Page 15 ---
+
+
+
+--- Page 16 ---
+
+Fact, Fiction, and Forecast
+Fourth Edition
+|
+|
+|
+|
+|
+|
+|
+| |
+|
+
+--- Page 17 ---
+
+
+
+--- Page 18 ---
+
+
+
+--- Page 19 ---
+
+
+
+--- Page 20 ---
+
+
+
+--- Page 21 ---
+
+
+
+--- Page 22 ---
+
+
+
+--- Page 23 ---
+
+
+
+--- Page 24 ---
+
+
+
+--- Page 25 ---
+
+
+
+--- Page 26 ---
+
+
+
+--- Page 27 ---
+
+
+
+--- Page 28 ---
+
+- !
+|
+|
+* COUNTERFACTUAL CONDITIONALS - * COUNTERFACTUAL CONDITIONALS :
+|
+acceptance is to be independent of all determination of in- | publications on confirmation not only have failed to make
+stances, but only that there is no particular instance on the i clear the distinction between confirmable and non-con-
+determination of which acceptance depends. This crite- firmable statements, but show little recognition that such
+rion excludes from the class of laws a statement like a problem exists.Â® Yet obviously in the case of some sen- |
+. . i tences like
+That book is black and oranges are spherical
+. . Everything in my pocket is silver
+on the ground that acceptance requires knowing whether r munginmyP
+the book is black; it excludes or
+Everything that is in my pocket or is a dime is silver No twentieth-century president of the United States will be
+between 6 feet 1 inch and 6 feet 14 inches tall,
+on the ground that acceptance demands examination of all the test} ith positi Its of all b incl
+things in my pocket. Moreover, it excludes a statement like Not even ene esting wilh Positive results oF al Dut a single
+instance is likely to lead us to accept the sentence and pre-
+All the marbles in this bag except Number 19 are red, and dict that the one remaining instance will conform to it;
+Number 19 is black ; while for other sentences such as
+on the ground that acceptance would depend on examina- All dimes are silver
+tion of or knowledge gained otherwise concerning marble . or
+Number 19. In fact the principle involved in the proposed 7
+criterion is a rather powerful one and seems to exclude All butter melts at 150Â° F.
+most of the troublesome cases. or
+We must still, however, replace the notion of the accep- . .
+tability of a sentence, or of its acceptance depending or not ' All flowers of plants descended from this seed will be yellow,
+depe nding on some given knowledge, by a positive defini- | positive determination of even a few instances may lead us
+tion of such dependence. It is clear that to say that the ac- | to accept the sentence with confidence and make predic-
+ceptance of a given statement depends upon a certain kind | tions in accordance with it.
+and amount of evidence is to say that given such evidence, | There is some hope that cases like these can be dealt with
+acceptance of the statement is in accord with certain | by a sufficiently careful and intricate elaboration of cur-
+general standards for the acceptance of statements that are rent confirmation theories; but inattention to the problem
+not fully tested. So one turns naturally to theories of in- '
+duction and confirmation to learn the distinguishing fac- | 16 The points discussed in this and the following paragraph
+tors or circumstances that determine whether or not 2 | have been dealt with a little more fully in my â€˜A Query on Con-
+sentence is acceptable without complete evidence. But firmationâ€™, Journal of Philosophy, vol. xliii (1946), pp. 383-5. |
+24 25
+ee
+
+--- Page 29 ---
+
+
+
+--- Page 30 ---
+
+|
+|
+| PROJECT
+1953
+q The three chapters to follow are somewhat revised versions
+, of the Special Lectures in Philosopby delivered at the Univer- |
+| | sity of London on May 21, 26 and 28,1 953. The first of the |
+three was repeated at Harvard University on December 2 of |
+â€˜| the same year, All are now published for the first time. The
+| Introductory Notes to this book (pp. xvii-xxv) contain
+some remarks on the relationship between these three
+' chapters and the preceding one.
+| ;
+| |
+|
+|
+|
+|
+
+--- Page 31 ---
+
+fi
+| ,
+|
+| 2
+| i
+|
+
+|
+| :
+|
+ji II
+| THE PASSING OF THE POSSIBLE |
+! |
+| 1. Foreword: On the Philosophic Conscience
+| In life our problems often result from our indulgences; in :
+
+| philosophy they derive rather from our abnegations. Yet
+
+| if life is not worthwhile without its enjoyments, philos-
+
+ophy hardly exists without its restraints. A philosophic
+
+I problem is a call to provide an adequate explanation in
+| terms of an acceptable basis. If we are ready to tolerate |
+| everything as understood, there is nothing left to explain; |
+| while if we sourly refuse to take anything, even tenta- |
+
+tively, as clear, no explanation can be given. What in-
+
+| trigues us as a problem, and what will satisfy us as a solu-
+
+| tion, will depend upon the line we draw between what is
+| already clear and what needs to be clarified.
+1 Yet I am afraid that we are nowhere near having any
+| sound general principle for drawing this line. Surely I need |
+| not in this place and before this audience recount the tragic |
+history of the verification theory of meaning.â€™ The failure |
+: of this gallant effort to distinguish sense from nonsense,
+1 J allude here, of course, to A. J. Ayerâ€™s diligent but unsuccess- |
+] ful attempts to formulate the theory; see his Language, Truth, and |
+Logic, London, 1946, pp. 5-16, 35-42. For a compact but compre- |
+hensive survey of the matter, see Hempelâ€™s article â€˜Problems and
+Changes in the Empiricist Criterion of Meaningâ€™ in Revue Inter- |
+nationale de Philosophie, vol. iv (1950), pp. 41~63. A verification |
+|
+|
+i |
+| |
+
+--- Page 32 ---
+
+|
+|
+* THE PASSING OF THE POSSIBLE -: { * THE PASSING OF THE POSSIBLE -
+like the failure of various worthy efforts to codify the | and declaring them loudly, about all we can do is to dis-
+difference between right and wrong, has encouraged in | parage any alternatives. If your conscience is more liberal |
+some quarters the libertine doctrine that anything goes. | than mine, I shall call some of your explanations obscure or |
+The perverse maxim that whatever you can get away with metaphysical, while you will dismiss some of my prob-
+is right has its counterpart in the claim that whatever | lems as trivial or quixotic. |
+works is clear. So crude a pragmatism deserves mention | All this is by way of preface to declaring that some of |
+only because it seems to be spreading. I may not under- the things that seem to me inacceptable without explana-
+stand the devices I employ in making useful computations | tion are powers or dispositions, counterfactual assertions,
+or predictions any more than the housewife understands I entities or experiences that are possible but not actual,
+the car she drives to bring home the groceries, The utility neutrinos, angels, devils, and classes. Concerning the last
+of a notion testifies not to its clarity but rather to the phi- of these, I have had a good deal to say elsewhere,? and I
+losophic importance of clarifying it. shall not press the point in these lectures. I shall use the |
+In the absence of any convenient and reliable criterion | language of classes rather freely because means have now |
+of what is clear, the individual thinker can only search his ! been provided for giving a satisfactory interpretation of
+philosophic conscience. As is the way with consciences, it most or dinary statements about classes, and because I donâ€™t |
+is elusive, variable, and too easily silenced in the face of want to grind too many axes at once. Some other items on |
+hardship or temptation. At best it yields only specific | my listâ€”angels and devilsâ€”enter so little into my daily
+judgments rather than general principles; and honest judg- discourse or into scientific discussions that I can wait :
+ments made at different times or by different persons may ' patiently a long time for them to be explained. As for
+differ in any degree. Indeed this talk of conscience is neutrinos and some other particles of physics, I think they
+simply a figurative way of disclaiming any idea of justify- : are as yet beyond our philosophic reach, But the interre- |
+ing these basic judgments. Beyond making them carefully | lated problems of dispositions, counterfactuals, and pos-
+| sibles are among the most urgent and most pervasive that
+et ws : confront us today in the theory of knowledge and the |
+criterion of meaningfulness was earnestly sought as a definitive philosophy of science. It is this cluster of problems that
+basis for ruling out of court an immense amount of philosophical | . :
+rubbish. But to find a formula that will do that without ruling out I want to discuss in these lectures,
+at the same time a good deal of perfectly respectable scientific | My sample listing of suspect notions is of course far from
+theory has proved embarrassingly difficult. The disproportionate : | complete. Some of my other prejudices will be revealed
+emphasis put on the problem has resulted in gross exaggeration of | by what I abjure in seeking a solution to the problems
+the consequences of the failure to solve it. Lack of a general nals
+theory of goodness does not turn vice into virtue; and lack of a : 2See my book The Structure of Appearance, 3d ed. (Dor-
+general theory of significance does not turn empty verbiage into drecht: D, Reidel, 1977), chap. II, sec. 2~3, and the articles there
+illuminating discourse. cited.
+32 33 :
+
+--- Page 33 ---
+
+
+
+--- Page 34 ---
+
+
+
+--- Page 35 ---
+
+. POSSIBLE - |
+* THE PASSING OF THE POSSIBLE - | THE PASSING OF THE
+
+} +s i e, although
+
+or follows from a law, while the generalization about _| the structure of the conditional, ahs te aid, may actually |
+knowledge of English is only contingently or acciden- it promised at the outset to * heer disanalysis effected :
+tally true; but to define this distinction is a delicate mat- have become a hin farce ihe ve y statements, which
+ter. Since we shall soon encounter the problem again, I by returning to consider eh ong free us to explore |
+shall go into no details at the moment; but this second are indicative and simple un forms may
+aspect of the problem of counterfactuals, like the first, is a better scheme of ote ch roblem of dispositions is
+formidable enough to have defied Many intensive efforts Second, , oehen the  oble P of counterfactuals. This |
+to solve it. really simpler than the p |
+
+in vi ent full converti
+
+These difficulties and the unsullied record of frustra- may sound strange in view of the ap Pate rfactual state-
+tion in attempting to meet them have pretty thoroughly bility between Cispositiona o_ disnositional state. |
+deflated our initial hope of finding a relatively easy ap- ments; but it turns ond t nbn wait wk counterfac- |
+proach to our problems through the study of the counter- ments often correspond to cof dr ye d during a given |
+factual conditional. We are still a very long way from tuals. Suppose that wisa pie oe aly suppose that a state- |
+having a solution to the problem of counterfactuals;Â® and brief period of time. We co y |
+by this time we may be ready to try another tack. After ment like
+a eee of years of Peating our heads against the ame | aw is inflammable
+wall and of chasing eagerly up the same blind a eys, f 1 |
+. . . ounterfactual as
+we may welcome a change in strategy if only for its psy- amounts to some such normal c
+chological benefits. But I think there are at least two better _ If w had been heated enough, it would have burned. |
+reasons for turning our attention for a while to the prob- i
+lem of dispositions P | Once we look more closely, however, nck of readily
+Â° . . 0) I
+
+First, in dealing with counterfactuals we are looking describe Circumstances for, oxample, I statement en
+less at what is said than at the Way it is said. We are near wâ€”under whic t . a translation guilty of no
+expressly concerning ourselves with a form of statement; and the counterfactual a < or rv Cored beck t come
+and the pattern of analysis we seek is largely dictated by discrepancies like this we I
+such fainthearted counterfactual as |
+
+ene! |
+Â°I am not alone in this opinion. For example, Roderick If all conditions had been propitious and w had been heated |
+Chisholm in a review in Philosophy and Phenomenological Re- enough, it would have burned. if
+search for September 1953 (vol. 14), p. 120, has just written con- ia . .. t savs |
+cerning my article on counterfactuals: â€œIt is safe to say, I think, To speak very loosely, the dispositional statemen y
+that the extensive amount of material which has subsequently 5 omething exclusively about the â€˜internal state of w,
+been published on us dificule Philosophical problem has not while our original counterfactual says in addition some- |
+thrown any additiona Ignt upon it,
+38 39 |
+
+|
+
+|
+
+--- Page 36 ---
+
+
+
+--- Page 37 ---
+
+
+
+--- Page 38 ---
+
+
+
+--- Page 39 ---
+
+
+
+--- Page 40 ---
+
+
+
+--- Page 41 ---
+
+
+
+--- Page 42 ---
+
+
+
+--- Page 43 ---
+
+
+
+--- Page 44 ---
+
+
+
+--- Page 45 ---
+
+7: Be il
+
+y
+
+* THE PASSING OF THE POSSIBLE -
+
+fest to non-manifest cases is obviously not very different
+from the problem of going from known to unknown or | !
+from past to future cases. The problem of dispositions |
+looks suspiciously like one of the philosopherâ€™s oldest
+friends and enemies: the problem of induction. Indeed, |
+the two are but different aspects of the general problem Il
+of proceeding from a given set of cases to 2 wider set. The { i|
+critical questions throughout are the same: when, how, | THE NEW RIDDLE OF INDUCTION
+why is such a transition or expansion legitimate? In the 1. The Old Problem of Induction :
+next lecture, then, we must see how matters stand at |
+present with the familiar problem of induction. At the close of the preceding lecture, I said that today I :
+Thus passes the possible. It passes, indeed, only into should examine how matters stand with respect to the |
+another and exceedingly difficult problem. But that prob- j problem of induction, In a word, I think they stand ill. ;
+lem has been troubling our sleep for a long time on its own ; But the real difficulties that confront us today are not the
+account. There is perhaps some solace in the thought that traditional ones. What is commonly thought of as the }
+at least the ghost of the possible will no longer be thump- Problem of Induction has been solved, or dissolved, and |
+ing in the attic. we face new problems that are not as yet very widely |
+; understood. To approach them, I shall have to run as
+
+: quickly as possible over some very familiar ground. i
+
+The problem of the validity of judgments about future
+
+| or unknown cases arises, as Hume pointed out, because
+
+such judgments are neither reports of experience nor logi-
+
+cal consequences of it. Predictions, of course, pertain to |
+
+what has not yet been observed. And they cannot be
+
+logically inferred from what has been observed; for what !
+
+bas happened imposes no logical restrictions on what will \
+
+happen. Although Humeâ€™s dictum that there are no neces- |
+
+sary connections of matters of fact has been challenged 1
+
+at times, it has withstood all attacks. Indeed, I should be
+
+inclined not merely to agree that there are no necessary 1
+
+connections of matters of fact, but to ask whether there
+
+59
+
+8 ,
+
+| |
+
+| :
+
+--- Page 46 ---
+
+
+
+--- Page 47 ---
+
+|
+- HE NEW RIDDLE OF INDUCTION - * THE NEW RIDDLE OF INDUCTION -
+
+anyone else; and the easier course of accepting an unsub- standing of our problem can be gained by looking for a |
+stantiated and even dubious assumption much more sweep- ] moment at what is involved in justifying non-inductive |
+ing than any actual predictions we make seems an odd and inferences. How do we justify a deduction? Plainly, by
+expensive way of justifying them. showing that it conforms to the general rules of deductive
+inference. An argument that so conforms is justified or
+valid, even if its conclusion happens to be false. An argu- |
+2. Dissolution of the Old Problem ment that violates a rule is fallacious even if its conclusion |
+Understandably, then, more critical thinkers have sus- happens to be true. To justify a deductive conclusion |
+pected that there might be something awry with the prob- therefore requires no knowledge of the facts it pertains to.
+
+lem we are trying to solve. Come to think of it, what | Moreover, when a deductive argument has been shown to
+
+precisely would constitute the justification we seek? If j conform to the rules of logical inference, we usually con-
+the problem is to explain how we know that certain pre- sider it justified without going on to ask what justifies the
+dictions will turn out to be correct, the sufficient answer : rules. Analogously, the basic task in justifying an inductive :
+is that we donâ€™t know any such thing. If the problem is to j inference is to show that it conforms to the general rules
+find some way of distinguishing antecedently between | of induction. Once we have recognized this, we have gone
+true and false predictions, we are asking for prevision a long way towards clarifying our problem. |
+rather than for philosophical explanation. Nor does it help q Yet, of course, the rules themselves must eventually be :
+
+matters much to say that we are merely trying to show ; justified. The validity of a deduction depends not upon
+that or why certain predictions are probable. Often it is { conformity to any purely arbitrary rules we may contrive, :
+said that while we cannot tell in advance whether a pre- : but upon conformity to valid rules, When we speak of |
+diction concerning a given throw of a die is true, we can the rules of inference we mean the valid rulesâ€”or better, |
+decide whether the prediction is a probable one. But if this ; some valid rules, since there may be alternative sets of
+means determining how the prediction is related to actual equally valid rules. But how is the validity of rules to be
+frequency distributions of future throws of the die, surely determined? Here again we encounter philosophers who
+there is no way of knowing or proving this in advance. | insist that these rules follow from some self-evident axiom, |
+On the other hand, if the judgment that the prediction is and others who try to show that the rules are grounded
+probable has nothing to do with subsequent occurrences, j in the very nature of the human mind. I think the answer
+then the question remains in what sense a probable pre- lies much nearer the surface, Principles of deductive in- |
+diction is any better justified than an improbable one. ference are Justified by their conformity with accepted
+Now obviously the genuine problem cannot be one of j deductive practice. Their validity depends upon accord- |
+attaining unattainable knowledge or of accounting for ance with the particular deductive inferences we actually
+
+knowledge that we do not in fact have. A better under- q make and sanction. If a rule yields inacceptable inferences,
+
+62 7 63
+|
+: |
+|
+
+--- Page 48 ---
+
+
+
+--- Page 49 ---
+
+
+
+--- Page 50 ---
+
+- i
+|
+- THE NEW RIDDLE OF INDUCTION - | - THE NEW RIDDLE OF INDUCTION -
+ther that whatever confirms a given statement confirms 5497 A a priine number and the other side of the moon is flat |
+also whatever follows from that statement.> But if we 4 an rst was crowned on a Tuesday. _ |
+combine this assumption with our proposed principle, we | To show that any one of the three component statements
+get the embarrassing result that every statement confirms is true is to support the conjunction by reducing the net |
+every other. Surprising as it may be that such innocent undetermined claim. But supportÂ® of this kind is not con- |
+ry prising 7 ; = pp |
+beginnings lead to such an intolerable conclusion, the j firmation; for establishment of one component endows |
+proof is very easy. Start with any statement $i. It is a " the whole statement with no credibility that is transmit- [
+consequence of, and so by our present criterion confirms, 5 ted to other component statements. Confirmation of a
+the conjunction of S: and any statement whatsoeverâ€” . hypothesis occurs only when an instance imparts to the
+call it Sz. But the confirmed conjunction, S:Â°S2, of course hypothesis some credibility that is conveyed to other
+has Sz as a consequence. Thus every statement confirms instances. Appraisal of hypotheses, indeed, is incidental
+all statements. ; e prediction, to the judgment of new cases on the basis |
+The fault lies in careless formulation of our first pro- f of o ones. . .
+posal. While some statements that confirm a general hy- : Our nn mes needs rgntening: his is readily
+pothesis are consequences of it, not all its consequences ! ane ished, as Hempel points out, if we observe that
+confirm it. This may not be immediately evident; for a ypothesis Is genuinely confirmed only by a state-
+indeed we do in some sense furnish support for a state- 4 ment that Is an instance of it in the special sense of
+, : Ww entailing not the hypothesis itself but its relativization or
+ment when we establish one of its consequences. We ; an a !
+f th : bout it. Consider the hetero- : restriction to the class of entities mentioned by that |
+settle one 0 Ene questions a statement. The relativization of a general hypothesis to
+geneous conjunction: a class results from restricting the range of its uni-
+! versal and existential quantifiers to the members of that |
+5] am not here asserting that this is an indispensable require- , class. Less technically, what the hypothesis says of all |
+ment upon a definition of confirmation. Since our commonsense ; things the evidence statement says of one thing (or |
+assumptions taken in combination quickly lead us to absurd con- , |
+clusions, some of these assumptions have to be dropped; and dif- : ; oo . oa a
+ferent theorists may make different decisions about which to drop Any hypothesis is supported by its own positive instances;
+and which to preserve. Hempel gives up the converse conse- but supportâ€”or better, direct factual supportâ€”is only one factor
+quence condition, while Carnap (Logical Foundations of Proba- : in confirmation. This factor has been separately studied by John
+bility, Chicago and London, 1950, pp. 474-6) drops both the j G. Kemeny and Paul Oppenheim in â€˜Degree of Factual Supportâ€™,
+3 oe , . . \
+consequence condition and the converse consequence condition. 4 Philosophy of Science, vol. 19 (1952), PP- 307-24. As will appear
+Such differences of detail between different treatments of con- 7 presently, my concern in these lectures is primarily with certain
+firmation do not affect the central points [ am making in this ' other important factors in confirmation, some of them quite gen-
+lecture. i erally neglected.
+68 ' 69
+
+--- Page 51 ---
+
+
+
+--- Page 52 ---
+
+
+
+--- Page 53 ---
+
+
+
+--- Page 54 ---
+
+
+
+--- Page 55 ---
+
+
+
+--- Page 56 ---
+
+
+
+--- Page 57 ---
+
+* THE NEW RIDDLE OF INDUCTION - | * THE NEW RIDDLE OF INDUCTION -
+
+admitted, our definition makes no distinction whatsoever ! confirmed by statements related to it in the prescribed way
+between valid and invalid inductive inferences. provided it is so confirmed. This is a good deal like having
+
+The real inadequacy of Humeâ€™s account lay not in his : a theory that tells us that the area of a plane figure is one-
+descriptive approach but in the imprecision of his descrip- half the base times the altitude, without telling us for what |
+tion. Regularities in experience, according to him, give figures this holds. We must somehow find a way of dis- |
+rise to habits of expectation; and thus it is predictions tinguishing lawlike hypotheses, to which our definition of |
+conforming to past regularities that are normal or valid. confirmation applies, from accidental hypotheses, to |
+But Hume overlooks the fact that some regularities do and which it does not.
+some do not establish such habits; that predictions based | Today I have been speaking solely of the problem of |
+on some regularities are valid while predictions based on induction, but what has been said applies equally to the |
+other regularities are not. Every word you have heard me more general problem of projection. As pointed out |
+say has occurred prior to the final sentence of this lecture, ' earlier, the problem of prediction from past to future cases :
+but that does not, I hope, create any expectation that | is but a narrower version of the problem of projecting |
+every word you will hear me say will be prior to that sen- from any set of cases to others. We saw that a whole clus-
+tence. Again, consider our case of emeralds. All those | ter of troublesome problems concerning dispositions and |
+examined before time Â¢ are green; and this leads us to . possibility can be reduced to this problem of projection. |
+expect, and confirms the prediction, that the next one That is why the new riddle of induction, which is more
+will be green. But also, all those examined are grue; and broadly the problem of distinguishing between projectible |
+this does not lead us to expect, and does not confirm the and non-projectible hypotheses, is as important as it is
+prediction, that the next one will be grue. Regularity in exasperating. |
+greenness confirms the prediction of further cases; regu- Our failures teach us, I think, that lawlike or project-
+larity in grueness does not. To say that valid predictions ible hypotheses cannot be distinguished on any merely |
+are those Dased on. past regularities, without being able fo syntactical grounds or even on the ground that these hy- |
+we ene you Ã© i Ath on â€˜and y on find om a ny- | potheses are somehow purely general in meaning. Our |
+where. As we have seen Humeâ€™s failure to recognize and ) Y nope ies in re-examining the problem ones more
+
+. ; gn and looking for some new approach. This will be my
+
+deal with this problem has been shared even by his most course in the final lecture.
+recent successors. |
+
+As a result, what we have in current confirmation |
+theory is a definition that is adequate for certain cases that
+so far can be described only as those for which it is ade-
+quate. The theory works where it works. A hypothesis is |
+
+82 83
+
+--- Page 58 ---
+
+i â€˜ ee
+
+* THEORY OF PROJECTION -
+
+I
+
+| | and hypotheses. The fact is that whenever we set about
+
+: determining the validity of a given projection from a given :
+
+: base, we have and use a good deal of other relevant i
+
+: knowledge. I am not speaking of additional evidence state-
+
+ments, but rather of the record of past predictions actually
+
+IV | made and their outcome. Whether these predictionsâ€”
+
+â€˜| regardless of their success or failureâ€”were valid or not \
+
+PROSPECTS FOR A remains in question; but that some were made and how
+
+THEORY OF PROJECTION | they turned out is legitimately available information. |
+| Proper use of such information will admittedly require
+
+1. A New Look at the Problem some care. Surely we cannot subscribe to the naive sug- |
+
+The problem of confirmation, or of valid projection, is the | gestion that induction is validated simply by its past '
+
+problem of defining a certain relationship between evi- successes. Every so often someone proclaims that the |
+
+dence or base cases on the one hand, and hypotheses, whole problem is solved just by recognizing that the pre- |
+
+predictions or projections on the other. Since numerous diction of future from past cases of a hypothesis is justified |
+and varied attacks on the problem have brought us no by the success of past predictions according to the hypoth-
+solution, we may well ask ourselves whether we are still in | esis. Critics quickly point out that all the questions that
+
+any way misconceiving the nature of our task. I think the arise about the validity of predicting future cases from past
+answer is affirmative: that we have come to mistake the i ones arise also about the validity of predicting future suc-
+statement of the required result for an unduly restricted a cesses from past ones. But the fact that legitimately avail-
+
+statement of the means allowed for reaching that result. able information has been ineptly used should not lead us |
+What we want, indeed, is an accurate and general way to discard it. In our present straits, we cannot afford to
+
+of saying which hypotheses are confirmed by, or which deprive ourselves of any honest means that may prove to
+
+projections are validly made from, any given evidence. be helpful. .
+
+Thus each particular case that arises does concern the [think we should recognize, therefore, that our task is to i
+
+relationship of given evidence to entertained hypotheses. define the relation of confirmation or valid projection i
+
+But this does not imply that the only materials available between evidence and hypothesis in terms of anything :
+
+to us in determining the relationship are the given evidence that does not beg the question, that meets our other de- |
+
+and the entertained hypotheses. In other words, while mands for acceptable terms of explanation, and that may i
+
+confirmation is indeed a relation between evidence and reasonably be supposed to be at hand when a question of
+
+hypotheses, this does not mean that our definition of this inductive validity arises, This will include, among other
+
+relation must refer to nothing other than such evidence things, some knowledge of past predictions and their
+
+84 85 |
+
+:
+
+7 |
+
+--- Page 59 ---
+
+
+
+--- Page 60 ---
+
+
+
+--- Page 61 ---
+
+
+
+--- Page 62 ---
+
+
+
+--- Page 63 ---
+
+
+
+--- Page 64 ---
+
+
+
+--- Page 65 ---
+
+
+
+--- Page 66 ---
+
+
+
+--- Page 67 ---
+
+
+
+--- Page 68 ---
+
+
+
+--- Page 69 ---
+
+
+
+--- Page 70 ---
+
+| 1
+go |
+- THEORY OF PROJECTION - Â» THEORY OF PROJECTION -
+ously covers all hypotheses, whether projected or not; only moderate inherited entrenchment, Ho will not have
+that is, a hypothesis not actually projected may be pro- a high initial projectibility index. Now suppose further
+jectible according to the rule and may override other that we have emptied a few other bags from the stack |
+hypotheses. In effect, our rule offers us the following and have found that while the marbles in different bagfuls
+definitions: a hypothesis is projectible when and only so examined sometimes differ in color, still all the marbles
+when it is supported, unviolated, and unexhausted, and all in each bagful are of the same color. This information, |
+such hypotheses that conflict with it are overridden; non- which of course furnishes no direct evidence for or against |
+projectible when and only when it and a conflicting Ho, appreciably enhances the projectibility of Ho in the ;
+hypothesis are supported, unviolated, unexhausted, and following way: Each time we find that all the marbles in
+not overridden; and unprojectible when and only when a given bagful are of the same color, we establish a positive | |
+it is unsupported, violated, exhausted, or overridden. instance of the hypothesis G |
+These formulae, though, are only provisional, and the Every bagful in stack S is uniform in color;
+projectibility here defined is at best presuzizptive projecti- . . wey . |
+bility. The sorting into three categories is gross and tenta- by thus confirming G we increase the credibility of its
+tive. Hypotheses assigned to the same category may differ undetermined instances, among them the statement Gi |
+greatly in degree of projectibility; and the degree of pro- Bagful B is uniform in color;
+jectibility of a given hypothesis may be affected by indi- . . ays .
+rect evidence. and by so increasing the credibility of Gi, we increase the |
+credibility HÂ» derives from its own positive cases. In short, |
+
+s. Comparative Projectibility the evidence for G, by increasing the credibility of Gi,
+
+hmong presumptively projectible hypotheses, the ini- increases the projectibility of He. |
+tial index of degree of projectibility is determine i
+on the basis of comparative entrenchment, But wha now b * have supposed that every marble from each of the emptied
+demand special attention are the factors that result in a ags has been examined for color; but all that is really required Js |
+. . . that from each bag we have examined enough to be willing to
+higher or lower ultimate index. accept, as a positive case for G, the statement that all the marbles |
+Consider, for example, the hypothesis Ho in that bagful are of a certain color. As pointed out earlier, the |
+All the marbles in bag B are red nature of the examination that yields a determined case of a hy- }
+â€™ pothesis is irrelevant to our central problem. Just as a glance at
+
+where B is one in a recently discovered stack $ of bags of donce stent thatthe arble ed, so plane as bagful may
+marbles; and let us suppose that the evidence is such that be enough for acceptance of the evidence evatement thet all the
+9 is presumptively projectible. With a well entrenched marbles in it are, say, green. Projected hypotheses, in other words, |
+consequent but with an antecedent having no earned and may sometimes be accepted as positive cases for other hypotheses. |
+|
+
+108 109
+
+|
+
+|
+
+|
+
+--- Page 71 ---
+
+
+
+--- Page 72 ---
+
+
+
+--- Page 73 ---
+
+* THEORY OF PROJECTION : * THEORY OF PROJECTION -
+level can acquire appreciable projectibility only through noted fact that some new predicates derive entrenchment
+some overhypothesis at the next higher level; and the over- from coextensive or from parent predicates, shows how ,
+hypotheses at this next higher level are in the same pre- groundless is the complaint that our theory excludes
+dicament. Nowhere in this hierarchy do we reach a hypotheses with unfamiliar predicates. |
+hypothesis that is appreciably projectible in its own right The projectibility of and evidence for an overhypothe- |
+and thus capable of increasing the projectibility of hy- sis are not the only factors that must be considered. Much |
+potheses beneath it. Hence the initial negligible index of depends also upon, so to speak, how closely the evidence :
+our hypothesis concerning zig A will remain unmodified; for an overhypothesis is allied to the hypothesis in ques- |
+and any hypothesis with an extremely low initial index tion, or in other words, upon how specific the overhy- |
+will have an extremely low final degree of projectibility. pothesis is. Information concerning bagfuls examined |
+
+This has two useful consequences. One, as we have from stack S clearly has more bearing upon HÂ» than upon i
+already seen, is that the process of appraising the projecti- a similar hypothesis concerning marbles in some bag in
+bility of a hypothesis need not run up through an endless another stack in Utahâ€”for example, the hypothesis 110 |
+hierarchy of overhypotheses. The other is that even when All the marbles in bag W are red,
+a hypothesis such as the one about zig A is presumptively |
+projectible, its lack of any appreciable degree of projecti- where W is a bag in stack T. Our examination of bagfuls
+bility can be inferred from its very low initial index. from S provides us with exactly the same number of posi- i
+
+Emphatic warnings must be issued at this point against tive cases for the overhypothesis U ;
+some misunderstandings. In the first place, nothing I have Every bagful of marbles in Utah is uniform in color |.
+said implies that a hypothesis with more than a negligible a
+initial index may not have a considerably higher final as it does for G i!
+degree of projectibility. For example, since a predicate Every bagful of marbles in stack $ is uniform in color.
+with no earned entrenchment and a modest inheritance â€œhet . â€œnai ive i
+may have parent predicates of very appreciable entrench- Yet the information we have is plainly less effe coven
+ment, a hypothesis containing this predicate may have *AlsIng the projectibility of Ho through U than in raising |
+overhypotheses with considerable power to increase pro- the projectibility of Ho through G. Briefly, where both |
+jectibility. Moreover, even a hypothesis with a negligible projectibility and amount of support are equal, the effect
+initia] index at one time may gain greatly in projectibility rs ,
+when circumstances changeâ€”for example, when the asia hae sacolent predates that are nor mutually exclusive,
+predicates in question become well-entrenched through a further factor that must be taken into account is the extent of
+
+frequent projection, or when new evidence violates con- duplication in the evidence claimed by two or more of these | |
+flicting hypotheses. All this, together with the already hypotheses. |
+114 Img |
+
+|
+
+--- Page 74 ---
+
+
+
+--- Page 75 ---
+
+
+
+--- Page 76 ---
+
+|
+* THEORY OF PROJECTION - * THEORY OF PROJECTION -
+(
+extending the treatment of comparative projectibility The suggestion I have been developing here is that such |
+even further: to hypotheses that, though supported and agreement with regularities in what has been observed is
+unviolated and unexhausted, are unprojectible through a function of our linguistic practices. Thus the line be- |
+being overridden. But I shall not pursue this here. Compli- tween valid and invalid predictions (or inductions or |
+cations have already multiplied almost beyond manage- projections) is drawn upon the basis of how the world is j
+ability, with the degree of projectibility of a hypothesis and has been described and anticipated in words.
+being affected by numerous positive and negative over- -You will remember that in our inspection of several in-
+hypotheses varying in projectibility, specificity, and terrelated problems we found that some of them could in
+supporting evidence. effect be reduced to the problem of projectibiliry. Thus
+To appraise the projectibility of a hypothesis, methodi- insofar as we have found a way of dealing with that prob- i
+cally taking all these factors into account, could be a dis- lem, we have not only found a way of handling a neglected |
+couraging task; but in practice we seldom need to go dimension of confirmation theory and so of answering the |
+through all that. When faced with a conflict between two persistent residual question concerning induction, but we |
+actually entertained hypotheses, we usually know quite have also found a way of dealing with the problem of dis-
+well where to look for circumstances likely to make for positions and the problem of possible entities.
+a significant difference in projectibiliry. Moreover, the A theory of projectibility or lawlikeness also removes
+present inquiry has not been devoted to describing or pre- one of the obstacles to a satisfactory treatment of counter-
+scribing a procedure. The concern here has been with factual conditionals; but the problem of counterfactuals,
+definition rather than description, with theory rather than as we saw, offers other difficulties of its own. One further
+practice. The results are indeed intricate, incomplete, and suggestion, however, may perhaps help some here. I said
+often tentative, falling far short of a full and final theory. earlier that the falsity of such a counterfactual? as V |
+All I have offered is a study of some of the resources that If that penny (also) had been put in my pocket on VE day,
+a new approach offers us for dealing with a difficult prob- it (also) would have been silver on VE day
+lem. If you were expecting more, may I remind you of .. .
+the title of this lecture? results from the fact that the requisite general principle P
+6. Survey and Speculations â€˜ny the coins put in my pocket on VE day were silver on VE
+. If Lam at all correct, then, the roots of inductive valid- even though true, is not lawlike. But this analysis is incom-
+ity are to be found in our use of language. A valid pre- plete. For suppose that circumstances are such as to make |
+diction is, admittedly, one that is in agreement with past |
+regularities in what has been observed; but the difficulty 28 The example used earlier (1.8) has here been altered a little | |
+has always been to say what constitutes such agreement. to remove some ambiguities. |
+120 12 |
+
+--- Page 77 ---
+
+
+
+--- Page 78 ---
+
+
+
+--- Page 79 ---
+
+
+
+--- Page 80 ---
+
+* INDEX : - INDEX - ;
+ill-behaved predicates; see predi- lawâ€”Cont. non-positional predicates, see â€” possibleâ€”Cont.
+___ Gates and empty (vacuous) princi- predicates passing of the, 31-58 |
+induction ples, 10, 21 P nonprojectible hypotheses, see processes, 57 ,
+canons (laws) of, 64, 65 of logic, 65 hypotheses, nonprojectible sense-data, 50
+justification of, xxiii, 60~65 non-logical, 10-11 novel predicates; see predicates worlds, 57
+new riddle of, xxii, 59-83, esp. problem of, 17-27 biective ch . adi postulates, reduction of, 46-47,
+- simplicity of, 123 objective characteristics and dis- 47n.
+old problem of, 59-66 lawlike, 22 ff., 73-83, 116, 121-1223 positions, 41 potentiality, 3
+_ Valid, . see also projectibility observable properties, 40 powers, 33
+inferences, see induction Lewis, C. I., 37. observation statements, accept- occult, 40
+infinite regressus, 16 ; licenses ance of, 88 pragmatism, 91, 917.
+initial index of degree of projecti- for making inferences, 36 Oppenheim, Paul, 697. crude, 32
+___ bility; see projectibilicy _ for making predictions, 60-61 ornithology, indoor, 70-71 predicates
+initial manifest predicates; see â€” linguistic vs. ontological problem, overhypothesis, 110-116, 117-120 auxiliary, 45-46 &
+__ predicates 35 negative, 118-120 dispositional, 42 ff., 86
+instance, 21, 69 ff.; see also cases postive, 110-111, 117-120 entrenchment of, xxii, 94-98,
+confirming, 69 ff. manifest statistical, 119 100, 1047.-1057., 106-109,
+pase instance tatement gr Preperties â€˜ee predicates aradox of the ravens 7 ill â€˜behaved - ff.
+c-1 : perties; see properties paradox e ravens, 70-72 aie B y ,
+pottery cone 89-91. 109 meaning and qualitativeness, 78- parent of predicate; see predicates initial manifest, 45 8. 8
+; termined, 89-91, 109 79 Parry, William T., 137. manifest, 41740, 49, 57-75%
+instantiation of a hypothesis, 69, Mill, John Stuart, 65 phenomenal place-time; see place- non-designative role of, 41-42,
+9 Mill's canons, 65; see also induc- time 7p sitional, 78-8
+. tion, Jaw henomenalism ead eran nen Feat |
+judgments about future or un- modal terms, 35; see also disposi- phil osophic constienee 31-343 see novel (unfamiliar), 97
+. known cases; see induction tion-terms, possible also explication , , parent, 106-107, 110, [I2-ITÂ§,
+justification; see description and physical objects or events 118 198 fF
+justification i : positional, 78 1.
+of a deduction, xxiii, 63-64 negate connections, Â§9~60, 6072. long-enduring, 43-44, 487-497. of possibles, 55-56
+of induction; see induction Of antecedent, 9 ep ements of, 43-44, projectible, xxi, 84-124
+. of consequent, 12, 13, 14-15 : li oo quaitatlve, ee
+Kahane, Howard, xxii of a counterfactual; see cou physicalistic language; 49 well-behaved, 78 ff.
+Kant, Immanuel, 96 terfactual , coun- place-time prediction, 20-21, 59-62, 69, 74-
+Kaplan, Abraham, 467-477. negative; see cases fictive, 5Â° f ft 75s 81-83, 84 Bs, ae oon
+Kemeny, John G., 697. instance; see instance P ossible. st gom 1 vessfi ry ad aso projection
+Kina ae overhypothesisy see overhy- Pepper Karl xxii pre-systematic application of
+cial, pothesis we were . : . : fo
+genuine, 122-123 non-actual, 35, 42; see also possi- positional predicates; see predi- ori terms: see, expacarion postu:
+label, 41 enduring things, 55 possibility, xxii, 31-58, esp. 49-58 lates, 46-47
+law, 11-14, 17-27, 38, 45; see also entity, 51 possible principles; see also law
+connecting principles happenings to actual things, 55 entities, 49 ff. 121 general, 36-37, 121
+causal (natural, physical), 9, 37, occurrences, 54 experience, 53 physical, 36
+45 non-dispositional predicates; see merely, 557. vacuous, 21
+definition of, 20-22 predicates, manifest occurrences, 54 probability, 66
+128 129
+
+--- Page 81 ---
+
+â€”â€” BS if
++ INDEX -; | * INDEX -
+projectibility, xxi-xxiii, 84-124 sapphirubies, 105 truth functional , ; unprojectible hypotheses, see hy- |
+comparative, 108-120 Scheffler, Israel, xxi-xxii, 717. compounds, counterfactuals as, potheses, unprojectible |
+degree of, 1037., 108 ff. Schwartz, Robert, xxi, 104. criter} 5 utterance, 957., 10072. |
+habitual, 97-98 scientific law; see law truth ee i f 1 36 validity, inductive, 65, 85, 120; see
+initial index of degree of, 109, selective confirmation, xxi ruth value of a counterfactual, 3 _also induction, projectibility |
+12-114, 117-118 self-compatible, 11-13, 217. types, 957. verification theory o' meaning, 31 |
+overall, 117, 1177. self-contradictory hypothesis and . violated; see hypothesis |
+presumptive, 99" 120 confirmation, 71 unexamined cases; see cases, in- well-behaved predicates, see
+theory of, xxi-xxii, 121 stance ; ,
+varieties of, 10. self-cotenable, 15, 217. any . ; predicates
+os Â», 104 self-evidence and validity, 63 unfamiliar predicates; see predi- well entrenched 96-98, 102-103
+Projection, xxii, 57-58, 81-83, 84â€” â€™ , D â€™
+. i minati _  self-incompatible, 11 cates 105; see also entrenchment
+124; see also elimination, hy. Pp UT Uniformity of N. Whi
+potheses, predicates, rules sernifactual; see conditionals niformity of Nature, 61 hite, Morton, 147., 357., 6on. |
+actual, 85-92 ff. sense-data |
+conflicting, 92 ff. actual, 50, 52
+could have been projected, 88, possible, 50
+94, 100-101 Shipley, Elizabeth, xxii
+Lars 85 fi. 1047. simplicity of ideas, laws, theories,
+valid, 8 . 123
+projective class, go source of predictions, 60
+property statements
+essential, 44-45 analytic, 197., 34, 607.
+aie. 41, 42, 45 confirmable and non-confirm-
+occult, 41 able, 25-26
+pseudo-law, 23 synthetic, 197., 34
+se . . Stegmiiller, Wolfgang, xxi
+qualitative predicates; see predi- sure individual, s B
+cates ; .
+Quine, Willard Van Orman, q427., suPPom amount of; see hypoth
+6on. syntactical, see also predicates
+randomness, 123 criterion for lawlikeness, im- |
+â€™ ossibility of, 20
+security 96-97; see also regu- form and confirmation, 72-73
+reduetion postulates or sentences. grounds, 83
+ne 48 , universality, 20, 79
+re tary, 60, 65, 82, 87, 120 system, phenomenialistic, 417.
+relation of confirmation; see con- ,
+firmation tempora d qualitati
+relevant conditions; see condi- Position and qualltativeness, 79
+tions segment, 4872.~497., 54
+replicas, 957. tenseless, 7, 507., 88, toon.
+roles of elimination, 92 ff.; see terms, defined vs. primitive, 417.
+also deduction, elimination, token, 957.
+induction, projectibility total evidence; see evidence
+130 131
+'

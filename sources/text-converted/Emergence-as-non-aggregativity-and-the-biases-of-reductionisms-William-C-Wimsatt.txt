@@ -1,0 +1,1221 @@
+=== PAGE 1 ===
+
+WILLIAM C. WIMSATT
+EMERGENCE AS NON-AGGREGATIVITY AND THE BIASES
+OF REDUCTIONISMS
+ABSTRACT. Most philosophical accounts of emergence are incompatible with
+reduction. Most scientists regard a system property as emergent relative to prop-
+erties of its parts if it depends upon their mode of organization-a view consistent
+with reduction. Emergence is a failure of aggregativity, in which “the whole
+is nothing more than the sum of its parts”. Aggregativity requires four condi-
+tions, giving powerful tools for analyzing modes of organization. Differently
+met for different decompositions of the system, and in different degrees, the
+structural conditions can provide evaluation criteria for choosing decompositions,
+“natural kinds”, and detecting functional localization fallacies, approximations,
+and various biases of vulgar reductionisms. This analysis of emergence and
+use of these conditions as heuristics is consistent with a broader reductionistic
+methodology.
+KEY WORDS: additivity, aggregativity, emergence, functional localization falla-
+cies, heuristics, near-decomposeability, reduction, whole-parts relations
+I. INTRODUCTION: REDUCTION AND EMERGENCE
+Philosophers commonly suppose that emergent properties are irre-
+ducible, but some rather nice things fall out of a reductive account
+of emergence. Claims involving emergent properties in discussions
+of non-linear dynamics, connectionist modelling, chaos, artiﬁcial
+life, and elsewhere give no support for traditional anti-reductionism
+or woolly-headed anti-scientism. But reductionists often misinter-
+pret their success, claiming more than they can possibly deliver.
+Emergent phenomena like those discussed here are often subject
+to surprizing and revealing reductionistic explanations.
+1 But such
+explanations do not deny their importance or make them any less
+emergent – quite the contrary: it explains why and how they
+are important, and ineliminably so. This requires a broader view
+of reduction (and emergence) than common among philosophers,
+Foundations of Science 5: 269–297, 2000.
+© 2001 Kluwer Academic Publishers. Printed in the Netherlands.
+
+
+=== PAGE 2 ===
+
+270 WILLIAM C. WIMSATT
+but one scientists would recognize. 2 A reductive explanation of a
+behavior or a property of a system is one which shows it to be
+mechanistically explicable in terms of the properties of and inter-
+actions among the parts of the system (See also Kauffman, 1971).
+3
+The relevant explanations are causal, but needn’t be deductive or
+involve laws – contrary to conventional wisdom (Wimsatt 1976b;
+Cartwright 1983).
+This account analyzes emergence in terms of dependence of
+a system property on the arrangements of the parts – ultimately
+therefore on the context-sensitivity of relational parts’ properties
+to intra-systemic conditions. Some accounts of emergence suppose
+extra-systemic context-sensitivity of system properties.
+4 Neither
+need be anti-reductionistic. The latter would require ﬁnding a larger
+embedding system including the initially extra-systemic properties
+engaging the broader context-sensitivities. If an adequate mechan-
+istic account could then be provided, a reductive account using the
+original system would have failed, but one at a higher level would
+have succeeded – (including the original system together with more
+variables from its environment).
+5
+Such level and context or scope switching – a well-hidden
+secret of reductionistic approaches – can also be a useful strategy
+to remove modeling biases resulting from “perceptual focus” on
+objects at a preferred level. These biases can be mutually reinfor-
+cing and extremely powerful. They led to the invisibility of false
+simplifying assumptions about the structure of groups in models of
+group selection (Wade, 1978; Wimsatt 1980b). The models focussed
+in a plausible way on genes and individual organisms, making in
+the process standard simplifying assumptions appropriate for some
+questions at those levels, but not for almost any questions at higher
+levels of organization, and equivalent to assuming that groups did
+not exist. Not surprizingly, these assumptions led to the conclusion
+that group selection was not signiﬁcant! We must work back and
+forth between levels to check that features crucial to phenomena at
+an upper level are not simpliﬁed out of existence when modelling at
+the lower level. On the analysis below, we would have shown that
+these group properties were emergent at the higher level, although
+consistent with a sensitive reductive analysis.
+
+
+=== PAGE 3 ===
+
+EMERGENCE AND REDUCTIONISMS 271
+Some philosophers who defend “qualia” type accounts of
+subjective experience suppose a third (“mystical”) notion of emer-
+gence which – if coherent – would be anti-reductionistic. I
+won’t consider it here. Finally, many accounts appeal to multiple-
+realizeability as a criterion for emergence, and link it with failures
+of reduction. I have argued elsewhere (1981a, 1994) that multiple
+realizeability is entailed by the existence of compositional levels of
+organization, is much broader than commonly supposed, and neither
+mysterious nor contrary to reductionism.
+Many cases were classically considered as involving emergence
+– cases motivating claims that “the whole is more than the sum of
+the parts.” – like an electronic oscillator circuit. There’s nothing anti-
+reductionistic, mysterious, or inexplicable about being an oscillator.
+You hook up an inductance, a capacitor, and a resistor in the right
+way with a voltage source. The system oscillates although none
+of its parts in isolation do so. Moreover, it is how these disparate
+parts are strung together that makes them an oscillator. (Thus, an
+oscillator must contain a closed circuit.) A deductive theory relates
+properties of the parts to the frequency and amplitude of the oscil-
+lator; reductionistic even by the strong conditions of the formal
+model of reduction, and also by the weaker characterization given
+here. This is intuitively a case of emergence, though it can’t be if we
+tie emergence to non-reduceability.
+More generally, emergence of a system property relative to the
+properties of the parts of that system indicates its dependence
+on their mode of organization . It thus presupposes the system’s
+decomposition into parts and their properties, and its dependence
+is explicated via a mechanistic explanation. Ten out of twelve cases
+from Table I below fail one or more of the conditions for aggreg-
+ativity, are consistent with totally reductionistic accounts of the
+systemic phenomena in question, depend in some way on the mode
+of organization of the parts, and are prima facie examples of emer-
+gence. Not every counterexample kills an analysis, but too many
+which are too central do. These surely qualify. We need an analysis
+of emergence consistent with reductionism.
+I proceed indirectly by focussing on another question: When
+intuitively is a system “more than the sum of its parts”? This
+question has been classically connected with discussions of reduc-
+
+
+=== PAGE 4 ===
+
+272 WILLIAM C. WIMSATT
+tion and of emergence, and has stimulated a variety of erroneous
+but revealing views. How these views arise and may contribute
+to species of vulgar reductionism – “Nothing-but-isms” – through
+biases in reductionistic problem-solving strategies is discussed at
+the end. Their pervasiveness is a back-handed tribute to the impor-
+tance of approximations, idealizations, and limiting case arguments
+in science. These are powerful tools, but like any tool, they can be
+misused – we must learn how to use them properly.
+II. AGGREGATIVITY
+Emergence should involve some kind of organizational interdepend-
+ence of diverse parts, but there are many possible forms of such
+organizational interaction, and it is hard to know how to classify
+them. One can’t easily turn examples of the organizational inter-
+action of diverse parts into a general analysis of emergence. It is
+easier to discuss failures of emergence, so I proceed in a backwards
+fashion (Wimsatt, 1986), by determining conditions for the system
+property not to be emergent (i.e, for it to be a “mere aggregate” of its
+parts properties). This has a straightforward, revealing and compact
+analysis. Forms of emergence can then be classiﬁed and analyzed
+more systematically by looking at how these conditions can fail to
+be met. Examples for different properties and decompositions of the
+system into parts are given in Table I.
+Four conditions seem separately necessary and jointly sufﬁcient
+for aggregativity
+6 or non-emergence. Aggregativity and emergence
+concern the relationship between a property of a system under study,
+and properties of its parts. For each condition, the system property
+must remain invariant or stable under modiﬁcations of the system
+in the speciﬁed way, a kind of independence of the property over
+changes in the mode of organization of the parts. This invariance
+indicates that the system property is not affected by wide variation
+in relationships between and among the parts and their proper-
+ties. To be aggregative, the system property would have to depend
+upon the parts’ properties in a very strongly atomistic manner,
+under all physically possible decompositions – an almost impossibly
+strong demand. It is rare indeed that all of these conditions are
+met (See Table I). Aggregativity is the complete antithesis of func-
+
+
+=== PAGE 5 ===
+
+EMERGENCE AND REDUCTIONISMS 273
+TABLE I
+EXAMPLES OF FAILURES OF AGGREGATIVITY as discussed in
+Wimsatt, 1986 (with indications of the decompositions assumed and which
+conditions are met)
+Examples:
+Invariance Conditions:
+R= restricted or qualiﬁed
+(for some decompositions
+only)
+IS: QS: RA: CI: Relevant parts
+or conditions:
+1. mass yes yes yes yes none known. Only
+case of true aggrega-
+tivity in table.
+2. volume R yes yes no not for solvent/solute.or
+packing diff. solids
+3. critical mass of yes no yes no keep geometrically
+ﬁssionable material. and density invariant
+(ignoring neutron
+absorbers in context)
+4. stability of rock pile no/yes no no no
+(yes for IS if same =
+exactly similar)
+5. oxygen binding in
+hemoglobin molecule
+R no ? no w/i alpha, beta chains
+6. gamete frequency
+(classical model)
+no no no yes units are genes
+(these two cases differ
+in unit chosen)
+7. gamete frequency
+(classical model)
+yes no no yes units are
+chromosomes (w/o
+disturbing mitosis)
+8. gene effects
+(classical model)
+yes no yes yes units are genes
+(these two cases reﬂect
+a change in theory)
+9. position effect
+(molecular model)
+no no no ? units are genes
+10. ampliﬁcation ratio in
+multi-stage linear ampliﬁer
+yes yes yes yes idealization; not found
+in Nature (Figure 1)
+11. ampliﬁcation ratio in
+multi-stage non-linear
+ampliﬁer
+no yes no? yes analogous natural case
+(Figure 2)
+
+
+=== PAGE 6 ===
+
+274 WILLIAM C. WIMSATT
+TABLE I
+Continued
+Examples:
+Invariance Conditions:
+R= restricted or qualiﬁed
+(for some decompositions
+only)
+IS: QS: RA: CI: Relevant parts
+or conditions:
+12. solving a nearly-
+decomposeable problem
+yes yes R yes units are subproblems;
+aggregativity usually is
+partial or qualiﬁed.
+13. computer memory yes yes R yes memory chips having
+characteristics
+14. ﬁtness (total additivity)
+(QS is met if positive
+alleles are substituted
+for others at same locus
+without affecting genome
+size) (for different groups
+of genes in same organism)
+yes no R yes units are genes for a
+“quantitative trait”.
+15. ﬁtness (partial
+additivity-classical)
+no? no R no units are genes w. on-0
+16. Levins’ ﬁne and coarse
+grained ﬁtness functions
+yes yes yes yes approximations
+invalidate claim of
+aggregativity*
+Appearances are deceiving: conditions of derivation violate conditionsIS, RA,
+CI, even though the composition functions for both the coarse-grained and ﬁne-
+grained adaptive functions appear to meet all conditions. This situation should
+be generalizeable to many idealizations, or derivations involving approxima-
+tions. (See Wimsatt, 1986 and below for details.)
+(1) In addition to the advantages of breaking down claims of emergence into
+these 4 criteria which can be met in various combinations, thus providing
+a ﬁner classiﬁcation of types of emergence, there is a substantial heuristic
+advantage in using these criteria in the analysis of complex systems. This
+arises because the criteria are met usually under restricted conditions on the
+parts decomposition involved, and sometimes with some additional restric-
+tions. These criteria then become heuristic templates for uncovering these
+conditions, and for ﬁnding parts decompositions which realize these criteria to
+the greatest extent. These decompositions are prime candidates for specifying
+“natural kinds.” (2) Example #16 shows that a purely formal account in terms
+of conditions on the composition function will not do; one needs also to look
+at the assumptions made in the derivation of the composition function. (3)
+See also sub-aggregativity, neighborhood aggregativity, modular aggregativity,
+semi-aggregativity, and near-aggregativity in Wimsatt, 1986 for other kinds of
+qualiﬁed aggregativity.
+
+
+=== PAGE 7 ===
+
+EMERGENCE AND REDUCTIONISMS 275
+tional organization. Our reductionistic science to date has focussed
+disproportionately upon such properties, or properties which do
+somewhat less – meeting some of these conditions, approximately,
+some of the time and studying them under conditions in which they
+are “well-behaved”. Aggregative or even such “pseudo-aggregative”
+properties are treated as relatively fundamental (Martinez, 1992). In
+consequence, their import in the description of the natural world has
+been substantially exaggerated.
+These conditions are: (1) a condition on the intersubstitution or
+rearrangement of parts; (2) on size scaling (primarily, though not
+exclusively, for quantitative properties) with addition or subtraction
+of parts; (3) on invariance under decomposition and reaggregation
+of parts; and (4) a linearity condition that there be no cooperative
+or inhibitory interactions among parts in the production or real-
+ization of the system property. These conditions are not entirely
+independent of one another. In fact, there seem to be close connec-
+tions between (1) and (3) and between (2) and (4). The conditions
+(Wimsatt, 1986) are as follows:
+For a system property to be an aggregate with respect to a
+decomposition of the system into parts and their properties, the
+following four conditions must be met:
+Suppose P(S
+i)=F { [ p1,p2,::: ,p n(s1)], [p1,p2,::: ,p n(s2)],::: ,
+[p1,p2,::: ,p n(sm)]} is a composition function for system property
+P(Si) in terms of parts’ properties p1,p2, ::: ,p n, of parts s1,s 2,
+::: ,s m The composition function is an equation – an inter-level
+synthetic identity, with the lower level speciﬁcation a realization or
+instanciation of the system property.
+7
+1. IS (Inter Substitution) Invariance of the system property under
+operations rearranging the parts in the system or interchanging any
+number of parts with a corresponding numbers of parts from a
+relevant equivalence class of parts. (cf. commutativity of compos-
+ition function).
+2. QS (Size scaling) Qualitative Similarity of the system property
+(identity, or if a quantitative property, differing only in value) under
+
+
+=== PAGE 8 ===
+
+276 WILLIAM C. WIMSATT
+addition or subtraction of parts. (cf. recursive generability of a class
+of composition functions).
+3. RA (Decomposition and ReAggregation) Invariance of the
+system property under operations involving decomposition and
+reaggregation of parts. (cf. associativity of composition function).
+4. CI (Linearity) There are noCooperative orInhibitory interactions
+among the parts of the system which affect this property.
+Note that conditions IS and RA are obviously relative to given
+parts decompositions, as are (less obviously) QS and CI. A system
+property may meet these conditions for some decompositions, but
+not for others. Table I presents different examples of aggregativity
+and its failure – species of emergence (Many of these examples are
+discussed in Wimsatt, 1986).
+Figure 1 illustrates the ﬁrst three conditions for the ampliﬁca-
+tion ratio in an (idealized) multi-stage linear ampliﬁer. The system
+property, total ampliﬁcation ratio, is the product of the component
+ampliﬁcation ratios (Figure 1a), a composition function which is
+commutative (Figure 1b, condition IS), and associative (Figure 1d,
+condition RA), and shows qualitative similarity when adding or
+subtracting parts (Figure 1c, condition QS). (This example seems
+to violate the 4th condition (non-linearity), but we act as if it
+doesn’t: geometric rates of increase are treated linearly here (and in
+other relevant cases) because it is the exponent which is theoretic-
+ally signiﬁcant for the properties we are interested in.) Subjective
+volume grows linearly with the exponent (as our decibels scale
+reﬂects), and both of them grow linearly with addition of compo-
+nents to the chain. The 4th condition is found for cooperative
+interactions in the hemoglobin molecule: the four subunits take
+up and release oxygen more efﬁciently by being organized into
+a tetramer than they would as four independent units. (A mono-
+meric hemoglobin can be found for comparison in the lamprey.)
+The staged linear ampliﬁers are interesting because they show that
+aggregativity does not literally mean “additivity” – here multiplic-
+ative relations do equally well.
+8 (Exponential growth is also much
+more common in biology than linear relations.)
+The linear ampliﬁer of Figure 1a–d is case 10 of Table I. To meet
+all criteria, we must assume that each sub-ampliﬁer is exactly linear
+
+
+=== PAGE 9 ===
+
+EMERGENCE AND REDUCTIONISMS 277
+Figure 1. Conditions of Aggregativity illustrated with idealized linear un-
+bounded ampliﬁers.
+throughout the entire range – from the smallest input to the largest
+output – required of the entire system. No real-world ampliﬁers
+here: this is an idealization, which I will return to below.
+Even this simple story has some important limits however.
+Ampliﬁers are themselves integrated functional wholes with differ-
+entiated parts – which cannot be permuted with impunity. (That is
+why we need circuit diagrams to assemble and to understand them –
+
+
+=== PAGE 10 ===
+
+278 WILLIAM C. WIMSATT
+we cannot put them together in just any fashion!) Even the parts are
+integrated wholes. If you cut randomly through a resistor or capa-
+citor, the pieces do not perform like the original. This is interesting:
+testing these conditions against different ways of decomposing the
+system is revealing of its organization . This suggests broader uses
+for the conditions and the analysis.
+We aren’t done yet: all examples so far (Figures 1a–1d) have
+the ampliﬁers arranged in series. This is an implicit organizational
+constraint on the whole system – readily accepted because our
+common uses of ampliﬁers connect them in this way. But we could
+also connect them differently, as in the three series-parallel networks
+diagrammed in Figure 1e, and then the invariances in total ampli-
+ﬁcation ratio,A, disappear. To calculate their ampliﬁcation ratios,
+we make three (simplifying) assumptions: (1) branching parallel
+paths divide currents equally; (2) converging parallels add currents;
+(3) serial circuits (included aggregated sub-assemblies) multiply
+signal strengths (as before). In Figure 1e, starting with a signal of
+magnitude 1 unit, and following these rules we get:
+For the ﬁrst circuit,A = [(A1 + A2 + A3)/3] x A4.
+For the second circuit,A = [(A1 + A2)/2] x [(A3 + A4)/2]
+For the third circuit,A = [(A1 x A3)/2] + [(A2 x A4)/2]
+If all component ampliﬁers, A1, A2, A3, A4 have equal ampliﬁc-
+ation ratios, a,t h eA’s of these circuits are all equal. They each have
+two staged subassemblies, each with a net ampliﬁcation ratio of a,
+soA= a a = a
+2. (For these ideal linear ampliﬁers, parallating
+at any stage has no effect: the signal is just multiplied by the same
+amount along each path, so they collectively have the same effect
+as a single ampliﬁer with the same ampliﬁcation ratio.) But the
+decreased amplifying depth reducesA from a
+4 to a2, so changing
+to any of these modes from a strictly serial circuit decreases the
+ampliﬁcation ratio. But there is worse to come:
+Suppose that the ampliﬁcation ratios of the component ampliﬁers
+are not equal.
+If A1 = a,A 2=2 a,A 3=4 a,a n dA 4=8 a,t h e n
+circuit 1 = [(7/3) a] 8a = 56/3 a2 = 18.67a2.
+circuit 2 = (3/2) a 6a =9 a2.
+circuit 3 = (5/2) a2 + (10/2) a2 =7 . 5a2.
+
+
+=== PAGE 11 ===
+
+EMERGENCE AND REDUCTIONISMS 279
+For comparison, all of them in series (as above) would give
+64a4. So how the ampliﬁers are connected together does make a
+difference. Despite ﬁrst appearances, ampliﬁcation ratio is not an
+aggregative property, both because it is not invariant across decom-
+positions internal to the ampliﬁers, or internal to their parts, and
+also because it is not invariant across aggregations of the ampliﬁers
+which are not serially organized. (This covers manipulations at three
+levels of organization: rearrangements of parts of the ampliﬁer parts,
+rearrangements of parts of the ampliﬁers, and rearrangements of the
+ampliﬁers.)
+Finally, we have assumed that each sub-ampliﬁer is exactly linear
+throughout the entire range from the smallest input to the largest
+output – required of the entire system. They must multiply input
+signals of different frequencies and amplitudes by the same amount
+over this entire range. This is an idealization – case 10 of Table I.
+Real-world ampliﬁers are approximately linear through given power
+and frequency ranges of input signals. (See Figure 2a and case 11 of
+Table I). (Frequency correction curves are published so that the user
+can restore linearity by “boosting” different frequencies by different
+amounts, but these curves are themselves functions of the amplitude
+of the input signal.) The ampliﬁers – not perfectly linear to begin
+with – become increasingly non-linear outside these ranges. They
+are most commonly limited on the low side by insensitivity to inputs
+below a certain value, and on the high side by not having enough
+power to keep the transformation linear. So with real ampliﬁers the
+order of the ampliﬁers does matter, even in the serial circuit.
+Thirty years ago hi-ﬁ systems had separate pre-ampliﬁers and
+ampliﬁers. Hooked up in the right order, they worked just ﬁne. In
+the wrong order, the ampliﬁer would be too insensitive to detect
+the signal from the phono-cartridge, but small amounts of “white
+noise” it generated internally would be ampliﬁed enough to “fry”
+the downstream pre-amp. So-called linear ampliﬁers really mean
+approximately linear over a given range, within a speciﬁed toler-
+ance, ". Different uses require different tolerances and ranges, so
+a system may be treated as linear for some purposes, but not for
+(more demanding) others. (See below for more on the implications
+of tolerances).
+
+
+=== PAGE 12 ===
+
+280 WILLIAM C. WIMSATT
+Figure 2. Varieties of Partial Aggregativity illustrated with ampliﬁers which are
+linear only within a bounded range.
+The ampliﬁers may be linear through a large enough range that
+there is some adjustability – some restricted intersubstituteability
+among the components, yielding “partial” or “sub”-aggregativity,
+(Figure 2b) or “neighborhood” aggregativity (Figure 2c). Restricted
+kinds of intersubstitutability (see also “modular” aggregativity,
+Wimsatt, 1986) can also help characterize different modes or dimen-
+sions of organization in many kinds of complex systems. Similar
+qualiﬁcations for supposedly aggregative properties arise in discus-
+sions of additive ﬁtness components, and ﬁne vs. coarse-grained
+
+
+=== PAGE 13 ===
+
+EMERGENCE AND REDUCTIONISMS 281
+patterns of environmental change (Wimsatt, 1999). Indeed, the
+appearance of common and unqualiﬁed aggregativity is a chimera
+– usually a product of uninspected assumed constancies, idealiza-
+tions, and overlooked possible dimensions of variation . The ampli-
+ﬁer case demonstrates how known idealizations and uninspected
+assumptions (treating ampliﬁers and their parts as unbreakable
+modules because they are commonly treated as such in our theory
+and practice, and considering only serially organized ampliﬁers
+because these modes are common for functional reasons) can lead
+us to exaggerate the aggregativity of a property. In the analysis of
+complex system properties, such kinds of errors are so easy to
+commit that they are almost the rule rather than the exception,
+ontributing to design failures in engineering, modelling errors and
+errors of experimental design in science, and conceptual errors in
+philosophy.
+But some properties at least seem like paradigmatic aggreg-
+ative properties. The great conservation laws of physics – those of
+mass (case 1), energy, (now replaced by the hybrid, mass-energy),
+momentum,a n d net charge , (if we include its sign) in effect
+indicate that these properties actually do ﬁll the bill. They appear
+aggregative under any and all decompositions. Indeed, that’s why
+there are conservation laws for them! Curiously, some properties
+you might have expected to don’t measure up. Thus,volume,( T a b l e
+I, case 2) isn’t aggregative, if we consider solvent-solute interactions
+in chemistry. If you dissolve salt in water, the volume of the water +
+salt will be less than that of the water before the salt was added, and
+surely less than their volumes taken independently and separately.
+(So sometimes the whole is less than the sum of its parts!)
+A system property may be aggregative for some decompositions
+but not for others, or, more generally, any of the conditions may be
+met for some decompositions, but not for others. (This is probably
+most common.)
+This has critical importance in theory construction: these vari-
+ations allow for and suggest feedback between these criteria and
+the choice of decompositions of a system for further analysis. We
+look for invariances, so these conditions are treated as desiderata
+and we experiment with alternative descriptions of and manipu-
+lations on the system hoping to ﬁnd ways to make them work –
+
+
+=== PAGE 14 ===
+
+282 WILLIAM C. WIMSATT
+decomposing, cutting, pasting, and adjusting until they are satis-
+ﬁed to the greatest degree possible. Furthermore, we will tend
+to regard decompositions better meeting aggregativity conditions
+as “natural”, because they provide simpler and less context-
+dependent regularities, theory, and mathematical models involving
+these aspects of their behavior.
+9
+Other central grounds for regarding decompositions and the
+parts produced as “natural” include ‘robustness’ (Levins, 1966;
+Wimsatt, 1981a), and more enigmatically, ‘generative entrench-
+ment’ (Wimsatt, 1986). Other heuristics are also used with these
+conditions in constructing and validating decompositions – see the
+reductionistic problem solving strategies discussed in my 1980b,
+1985, and 1997. These heuristics have systematic biases, which
+may give misleading results. One of the most systematic biases in
+discussions of supposedly aggregate behavior is to generate it under
+very special conditions or strong constraints on the system and its
+environment, which are then forgotten in subsequent discussions.
+These four conditions are sufﬁciently formal in character to
+suppose that we could move right to an evaluation of the properties
+found in the equations of theories. But I show elsewhere (Wimsatt,
+1999, 1986) that we can’t properly do so without considering at
+least (1) the choice of a parts-decomposition, (2) idealizations and
+assumptions made in the description of a system, and (3) further
+idealizations and approximations made in the derivation of equa-
+tions relating system-level and parts-level properties.
+10 Examples#7
+and #8 from Table I reveal how the apparent aggregativity of a
+system property depends upon the decomposition used.
+Moreover one cannot simply look at the form of an expression
+relating system and parts’ properties to tell whether a system prop-
+erty is aggregative. You need to look also at the assumptions made
+in deriving the “composition function” for the system property, and
+make sure that all of them are empirically adequate for the case in
+question. This places important limitations on a formalistic account
+of aggregativity, for it is not enough to look at the equations in the
+ﬁnished empirically adequate theories. You also have to know how
+you got there, because the approximations you made along the way
+cannot be forgotten in evaluating aggregativity.
+
+
+=== PAGE 15 ===
+
+EMERGENCE AND REDUCTIONISMS 283
+III. AGGREGATIVITY AS A HEURISTIC FOR EV ALUATING
+DECOMPOSITIONS, AND OUR CONCEPTS OF NATURAL KINDS
+These cases have yielded many interesting features of claims of
+aggregativity or partial aggregativity. Seeing them together suggests
+interactions among the development of theory, methods of decom-
+position, and experimental design, and what we make of what
+we have found. Together they give a very different picture of the
+nature and uses of aggregativity than commonly assumed, and have
+further implications for the assessment (and biases) of reductionistic
+methodologies.
+(1) From Table I, we see that very few system properties are aggreg-
+ative functions of parts’ properties, suggesting that emergence – as
+failure of aggregativity – is extremely common; the rule, rather than
+the exception. (The conservation laws of physics pick out aggreg-
+ative properties, but little else does.) So this analysis could – perhaps
+fairly – be criticized as yielding a very weak notion of emergence.
+Nonetheless it accords with intuitions of most scientists, who are not
+willing to give up either their reductionism or their emergence, and
+who agree with its classiﬁcation of particular cases.
+(2) But then one might wonder why the temptation for “Nothing but-
+ism”– the ontological war-cry of what Dennett (1995) calls “greedy
+reductionism” – is so strong. We see statements quite regularly in
+science like “Genes are the only units of selection”, “Organisms
+are nothing but bags of genes”, “The mind is nothing but neural
+activity”, “Social behavior is reducible to or nothing more than
+the behavior of individuals.” If total aggregativity is so rare, why
+are claims like these so common? They clearly aren’t claiming
+full-blown aggregativity in the sense explicated here. While true
+aggregativity requires invariance of the system property under all
+decompositions and reaggregations, we may (fallaciously) think of
+behavior at higher levels as being aggregates of the behavior of
+parts for particular decompositions which do show this invariance
+– or show it only approximately. Such properties look aggreg-
+ative for some decompositions, but reveal themselves as emergent,
+or context or organization-dependent for other decompositions or
+conditions. This is particularly clear in the discussion of multi-
+
+
+=== PAGE 16 ===
+
+284 WILLIAM C. WIMSATT
+locus genetic systems in the context of a theory, population genetics,
+which currently emphasizes the evolutionary role of additive ﬁtness
+interactions, and ignores the central role of epistasis (Wade, 1996;
+Wimsatt, 2002, 1980b). Pointing to such practices naturally changes
+our focus of investigation from how to specify relations between
+system and parts’ properties to looking at the reasons for, process of,
+and idealizations used in choosing a decomposition, and the broader
+effects of that choice.
+(3) Properties may be aggregative for some decompositions and
+not for others, or more so for some than for others. If so, the
+degree of aggregativity may be used, consciously or unconsciously
+– but in any case quite rationally – as a criterion for choosing
+among decompositions: we will tend to see aggregative or more
+aggregative decompositions as natural decompositions, and their
+parts as instances of natural kinds, because these decompositions
+provide simpler and less context-dependent regularities, theory, and
+mathematical models for the behavior they capture. These may be
+particularly revealing cuts on nature, but we must not make too
+much of this fact. We will tend to see these parts as special, and
+to make “nothing but” style reductionistic claims particularly for
+them. This is a pervasive kind of functional localization fallacy – a
+move from the claim that a decomposition is particularly powerful
+or revealing to the claim that the entites and forces it yields are all
+that matters (Wimsatt, 1974; Bechtel and Richardson, 1992). Such
+“nothing-but” claims are false or methodologically misleading if
+taken to suggest that one shouldn’t bother to construct models or
+theories of the system at levels or with methods or decompositions
+other than that of the parts in question, or that these preferred
+entities are the only “real” ones (Wimsatt, 1994).
+(4) To the extent that partial aggregativity leads to greater physical
+or functional modularity of the parts (likely in evolving systems
+Wimsatt, 1981b: 141–142), it will tend to promote a consilience
+or robustness of parts’ boundaries individuated using different
+properties of the system. Greater robustness of the parts under
+that decomposition – a standard criterion of objecthood (Wimsatt,
+1981a) – will also strongly contribute to the judgement that this is
+a decomposition into natural or real parts . Such claims are prima
+
+
+=== PAGE 17 ===
+
+EMERGENCE AND REDUCTIONISMS 285
+facie reasonable. (Robustness is a degree-property, so justifying
+these claims is not an all-or-nothing affair.) These judgements are
+all context-sensitive, so they still don’t support “nothing-but” style
+claims.
+(5) The four conditions all specify invariance of the system property
+under operations on the parts. For quantitative properties one can
+easily generate criteria for approximate or local aggregativity, in
+which variation of the system property within" are tolerated for
+various values of " (Wimsatt, 1986). In (1974) I used this strategy
+to describe different degrees of near-decomposeability or modu-
+larity in systems. Tolerances are useful theoretical tools because
+we use quantitative or formal qualitative frameworks as templates
+which nature may meet in varying degrees. For particularly adapt-
+able frameworks which can be ﬁtted to nature in various places in
+different possible ways, we may try many such mappings, looking
+for “best ﬁts”. (Maximizing the “coefﬁcient of determination” or
+r-value of an equation in a linear regression is a simple example.)
+Using “tolerances” for key qualitative concepts is a particularly
+useful strategy in a messy, inexact, and approximate world which
+has many regularities and stable patterns, but few exceptionless
+generalizations.
+(6) Since approximations are frequently used to produce equa-
+tions of aggregative form, evaluating a property as aggregative
+depends upon the accuracy of the approximation under the condi-
+tions – which requires investigation. This may take two forms, with
+different consequences:
+(a) Emphasizing conditions for accuracy focuses attention upon
+the context-dependence of system properties, with failure of
+aggregativity often leading to using or studying the system
+under different conditions, hoping to ﬁnd conditions under
+which its behavior is more aggregative, or other conditions
+where it may be qualitatively different. (Here the search simpli-
+ﬁes conceptualization and analysis of data, and will also likely
+generate better experimental control – indicating conditions
+one should attempt to realize or avoid.) If conditions for
+aggregative behavior are found, we will be tempted (see (3)
+
+
+=== PAGE 18 ===
+
+286 WILLIAM C. WIMSATT
+above) to regard that as the real nature of the system, however
+unjustiﬁed that may ultimately be.
+(b) Emphasizing the requiredaccuracy highlights our purposes and
+demands of our applications, adjusting demands or methods as
+required – using methods suited to the study of non-aggregative
+behavior (for greater accuracy) or weaker methods treating it
+as aggregative (for less). Awareness of our role in classifying
+the property as aggregative may make us more self-critical of
+our idealizations, and of possible biases in our problem-solving
+heuristics (Wimsatt, 1987, 1980b, 1985). Such awareness is
+important, but ﬁxation on it may yield complementary errors:
+the view that classiﬁcation of the system property is merely
+instrumental, or – even less accurately – is just conventional
+or socially determined. (‘Determines’ is commonly misused in
+such contexts – equivocating between “plays a role in determ-
+ining” and “by itself, is sufﬁcient to uniquely determine.”)
+(7) One can also assess aggregativity in past and present theories of
+the relation of system and parts’ properties. In doing so, one must
+look not only at the ﬁnal derived equations, but also at their deriv-
+ation, to see if the idealizations and approximations used assume
+one or more of the conditions of aggregativity, and whether they
+are legitimate for the conditions at hand. One may thereby derive
+an aggregative model, and also come to understand its conditions of
+applicability. As the genetic and environmental examples treated in
+the longer version of this paper in my (2002) show, apparent units of
+aggregation can be very misleading, and the respects in which they
+can be treated as aggregates quite limited.
+(8) One can track systematic changes in our view of the relation
+between system and parts’ properties, both analyzing their status in
+historically important disputes, and comparing their changing status
+in successively better theories of a phenomenon. Does this raise
+Hempel or Nagel’s worries (Wimsatt, 1986) – that aggregativity and
+emergence are really about our knowledge of the world, not about
+the world itself? But this information is just what a sophisticated
+realist needs – to see how the world changes as viewed through our
+theories, when our theories change. As long as you can tell one from
+
+
+=== PAGE 19 ===
+
+EMERGENCE AND REDUCTIONISMS 287
+the other – object of study from tool of access – you’re okay, and
+you need to be able to varyboth to assess and separate these effects.
+This shows that in at least some cases, a standard argument for
+theory-relativity can be turned to the opposite conclusion – to get
+at the world behind the theories . Criteria for aggregativity can be
+viewed either as statements about ontological relations in the world,
+or as tools for constructing and characterizing theories. It’s just that
+these are different uses. If one make their aims clear, there are no
+inescapable threats to objectivity.
+(9) Earlier reductionistic theories of the behavior of a system will
+tend to have more simplifying assumptions, controlled variables,
+and assumed constancies, and predicates treated as monadic or of
+reduced order than later ones. With more realistic theories (with
+higher order relational properties and more complex interactions
+between parts), the degree and kinds of emergence postulated of
+system properties should tend to increase with increasingly detailed
+speciﬁcation of the internal structure and environmental relations of
+the system in the model. This is just the opposite of that predicted
+on the classical positivist model of emergence, which saw emer-
+gence disappearing with the progress of science, but appears to
+be just what is actually happening with recent increased interest in
+the study of complex systems . Consider, for example the increased
+talk of holism and emergence accompanying the rising interest in
+non-linear dynamics (systems which violate (at least) the fourth
+condition for aggregativity). Though this move towards holism often
+goes along with a lot of loose (and sometimes misleading) anti-
+reductionist talk, it is clearly a conﬁrmation of the strategy of
+analysis for the concept of emergence advanced here.
+IV . REDUCTIONISMS AND BIASES REVISITED
+I will now use this analysis to address some broader questions
+concerning reductionism – particularly how it is used and perceived
+in the context of an incomplete analysis – i.e our usual situation! The
+four conditions of aggregativity represent a powerful approximate
+and adjustable framework. In any given case one could evaluate
+how well each condition is met across different decompositions of
+
+
+=== PAGE 20 ===
+
+288 WILLIAM C. WIMSATT
+a system into parts. The better a decomposition meets these condi-
+tions, the more easily we can treat it as factoring the system into a set
+of modular parts having monadic, intrinsic, or context-independent
+properties. With particularly simple and theoretically productive
+decompositions, we will tend to view these parts and properties
+as instances of natural kinds, as robust, and to regard the system
+as “nothing more” than the collection of its parts. We have here
+turned an architectonic distinction between kinds of properties into
+a search heuristic for ﬁnding preferred, simple, “maximally reduc-
+tionistic” decompositions of systems into parts – decompositions
+which lead readily to extremes of “nothing but” talk and disciplinary
+imperialism.
+A reductive explanation of a behavior or a property of a system
+is one showing it to be mechanistically explicable in terms of the
+properties of and interactions among the parts of the system. What
+does this kind of explanation have to do with “nothing but” style
+reductionism? In principle, nothing – but in practice, they are tempt-
+ingly connected – and confused. With total knowledge of a system,
+the two species of “reduction” are clearly distinguishable, but with
+increasing degrees of ignorance about a system, they come to look
+more and more alike! In our state of partial knowledge, it is not
+surprizing that they should often be confused. A closer look at what
+we do in conditions of partial ignorance is especially important
+for ﬁelds and for explanatory tasks whose major questions are still
+“in process”, and just the kinds of judgements we should seek for
+limited, fallible, and error-prone scientists.
+A system which is aggregative for a given decomposition is
+almost trivially mechanistically explicable: the parts all have the
+property in question, and enter into the explanation of how the
+system has it in the same simple way. Relationships with other
+parts are usually either monadic (i.e., nonexistent) or of relatively
+low order, and would tend to meet strong conditions of symmetry
+and homogeneity. The system would be relatively uninteresting: its
+parts would show no functional differentiation. But none of these
+conditions follow from saying that the properties of a system are
+mechanistically explicable. So to say that the behavior of a system
+is totally explicable in terms of the behavior of its parts isnot to say
+that it is an aggregative function of the parts. (The inference does
+
+
+=== PAGE 21 ===
+
+EMERGENCE AND REDUCTIONISMS 289
+go the other way. That might contribute to the confusion. But given
+the rarity of true aggregativity, even this fallacious inference doesn’t
+explain much: there are too few occasions to invoke it.)
+But now suppose that early in the investigation of a system (say,
+an organism) we think we know a good set of parts (say, the collec-
+tion of its genes). If we don’t yet know the diversity of ways in
+which these genes may interact with each other and with the phys-
+ical conditions in the the organism (on all of the relevant size and
+time scales), we may tend to treat their interactions as all alike. We
+may do so either in a ﬁrst-order simpliﬁed model of the system,
+which we simulate or analyze to explore its behavior, or in the “out
+of sight out of mind” blissful ignorance which often accompanies
+our view of a complex task before we have really gotten into it. In
+either case we are likely to overestimate how aggregative the system
+is, how simple it will be to understand its behavior, and to make the
+most simple-minded reductionistic claims about what can be learned
+from studying it at the lowest (or indeed only at the lowest!) level.
+(My 1979, 1980b, and 1985 provide examples of how reductionistic
+approaches often involve these assumptions, and how they emerge
+– and can cause trouble in seemingly benign applications of often
+effective reductionistic problem-solving heuristics.)
+Thus, e.g., I think this – the aggregative character of models at
+early stages of a mechanistic investigation – explains (1) the charac-
+teristic oversimpliﬁcations in early claims made for the human
+genome project, and (2) the subsequent (necessary) broadening of
+the project to make it viable. (This included adding parallel compar-
+ative studies of a diversity of genomes of other species at different
+phylogenetic distances to determine what varies across those species
+groups, and to get some idea of its signiﬁcance; and developmental
+and physiological studies at a variety of levels of organization of
+the expression of the genetic traits of interest). It also explains (and
+predicts) (3) the increasing moderation of claims for what we will
+learn from it. Finally, (4) if I am right, explanations which come out
+of it will also be far more contextual and qualiﬁed (and may involve
+the discovery of qualitatively new kinds of mechanisms and inter-
+actions). This pattern – these four changes in the character of the
+program and the claims made for it – are not only explicable after
+the fact, but predictable in advance, given the normally applicable
+
+
+=== PAGE 22 ===
+
+290 WILLIAM C. WIMSATT
+reductionistic research strategies and their biases (see 1980b and
+1985).
+This pattern is not a necessary one. There are many technologies
+[e.g., the computer, the automobile, or the airplane] for which early
+projections – indeed, projections at almost every stage – have under-
+estimated their potential for development and their impacts on our
+way of life. So it is striking that we can explain this one, and how
+common it is.
+I neglect here the obvious political purposes served by exag-
+gerating how much could be achieved with how little. They aren’t
+needed to explain the phenomena, which arise simply out of
+cognitive biases, but the phenomena are also often overdetermined,
+and reductionistic claims often do serve political ends, inside and
+outside of academe. (And most of the offending claimants do (or
+should, if they are honest) start with the disclaimer, “In principle,
+::: ”. Yes, the road to hellis paved with good intentions!)
+11 If we are
+to assess these claims fairly, we must recognize the limitations of
+our knowledge, the heuristic character of our tools, and the speciﬁc
+biases which are likely to result from their application. Such wide-
+spread knowledge earlier of how we tend to construct models and
+theories, and how we make claims in contexts of partial ignorance
+might well have produced a better project, pursued at a more reason-
+able pace, with more realistic ends, and at lower cost to the other
+ﬁelds which we will have to support and develop in any case in
+order to decode the texts we ﬁnd in “the book of life”.
+But this chastening scepticism about reductionism appears to
+run counter to the facts. If this is true, why should reductionist
+methodologies have appeared to be so successful? In 1985, I noted
+four general properties of heuristic principles,
+12 the last of which is
+particularly relevant here. A heuristic principle succeeds in part by
+transforming a problem into a different but related problem (which
+is easier to solve). But if it does so very effectively, there will be a
+strong tendency to identify the new problem as the old one – saying,
+“Now that we’ve clariﬁed the problem so that it can be solved,::: ”o r
+some such thing! In this way quite substantial changes in a paradigm
+can be hidden – particularly a cumulative string of such changes,
+each too small to be regarded as “fundamental”. I think that this
+kind of ex post facto reiﬁcation is central to the exaggeratedly high
+
+
+=== PAGE 23 ===
+
+EMERGENCE AND REDUCTIONISMS 291
+opinion we have of reductionistic methodologies, and more gener-
+ally to the largely mistaken belief that work elaborating a paradigm
+is merely playing out options which are already given.
+But wait a minute, hasn’t the reduction succeeded? Well, it has
+and it hasn’t: its successes are often genuine, but quite misleading
+– it will often succeed via a series of subtle shifts in the question
+such that important aspects of the original question have not been
+answered. And by shifting them outside of the bounds of the new
+science, there will be a natural tendency to downgrade their impor-
+tance. We work on problems that yield to our methods, and we all
+have a tendency to overestimate their power, and the importance and
+centrality of our own ﬁeld. (It’s what we know best after all!) Scient-
+ists share with others a bias which is quite general across ﬁelds and
+contexts.
+13 So questions that can’t be addressed using our own very
+successful methods must be not very scientiﬁc, not very important,
+or both! This sounds like it’s worth a good laugh, but not so fast: it
+may be even more dangerous than failing to solve a problem – we
+may now even fail to recognize that it exists!
+The whole of embryology was differentiated out of the study of
+heredity with the rise of classical transmission genetics, between
+1900 and 1926, even though developmental phenomena had ﬁgured
+centrally there earlier, and were regarded through much of this
+period as important constraints on the form of acceptable theories
+of heredity.
+14 Morgan was originally sceptical of Mendelism for
+that very reason – until the spectacular successes of their research
+program led them to simply ignore its quite paradoxical inadequa-
+cies on that score. Development again achieved the promise of a
+resurgence in genetics in the early 1960’s with the discovery of
+the lac operon – the ﬁrst account of how a gene could perform
+a complex and conditional control function in the expression of a
+trait, but a simplistic and incorrect promise it turned out to be. The
+genetics of elephants (or any eucaryote) was not like the genetics
+of bacteria after all – especially not the developmental genetics
+of metazoa. Development is now again at center stage (acceler-
+ating since the late 1970’s or early 1980’s) for various reasons.
+Important aspects of it can now be studied molecularly, and we have
+discovered some extremely powerful and general large-scale gene
+complexes (the related HOM, HOX and DHOX families) which
+
+
+=== PAGE 24 ===
+
+292 WILLIAM C. WIMSATT
+give us a handle on many more (but far from all) developmental
+phenomena. Is this a triumph for reductionism? In part, but it has
+succeeded in this by entraining and using a successively broader
+diversity of kinds of data and theories from other sources, and recog-
+nizing a whole new cast of causal entities. This very diversity of
+major players makes it much less reductionistic. The methodology
+(and even more, the rhetoric!) are still quite reductionistic (in the
+character of the heuristics used), but neither the ontology nor the
+epistemology are anywhere close!
+NOTES
+* This paper is part of a longer one prepared originally for a festschrift for
+Richard Levins. The paper in that extended form will appear in my (2002).
+My thoughts here owe a lot to 2 writers – Ernest Nagel and Richard Levins.
+Some distinctions are noted by Nagel in his classic, “Wholes, Sums and
+Organic Unities” – though we diverge in what we make of them. Levins’
+germinal essay “Complexity” (1973) and his distinction between aggregate,
+engineering, and evolved systems, was the immediate stimulus for this
+analysis and also inﬂuenced my 1974. Stuart Glennan, Peter Taylor, Bill
+Bechtel, Paul Humphries, and those acknowledged in my 1986 gave useful
+comments on prior versions.
+1. Herbert Simon’s new essay on complexity (1996, chapter 7) adopts this view
+of emergence. See also Kauffman, 1992.
+2. Wimsatt, 1976a, 1976b, 1979. For recent similar views, see Sarkar 1992,
+Waters 1990 and Bechtel and Richardson 1993. Some characterized by
+Waters (1990) as anti-reductionists are better viewed as opposing the standard
+philosophical analysis of reduction. (I do not cede ownership of the term to
+philosophers.) Most scientists see reductionism as a species of explanatory
+mechanistic materialism which may not even involve laws or theories, as
+those terms are traditionally understood by philosophers. (See the discussion
+of “particularistic mechanism” in Wimsatt, 1992.)
+3. For a complementary account of the relation between causation and mechan-
+istic explanation, see Glennan 1992.
+4. There is a curious mis-match here: such philosophers also talk about
+“supervenience” – a relation between a system property and lower-level
+realizations of that property in which there is a many-one relationship
+from micro-states to that higher level property, using micro-state variables
+that are solely intra-systemic. Now called “narrow supervenience”, this is
+contrasted with “wide” supervenience, where the mappings depend also
+on the context of the system (e.g. Rosenberg (1978) on ﬁtness). Philos-
+ophers of mind often mistakenly see “wide supervenience” as irrelevant to
+
+
+=== PAGE 25 ===
+
+EMERGENCE AND REDUCTIONISMS 293
+their problems. Reductionistic biases (Wimsatt, 1980b) can lead us to think
+that narrow supervenience will do when “wide supervenience” is required.
+So we slip into treating ﬁtness as a property of organisms (or even of
+genes), rather than as a relation between organism and environment. Moss
+(1992) catalogues ways in which we have attributed properties to genes
+that are properly characteristics of the cellular milieu or larger entities.
+McClamrock (1995) argues that our Cartesian heritage has mislead us –
+seeing consciousness as an organismally or computationally “inner” prop-
+erty, rather than a fundamentally relational set of properties of a developed,
+socialized, embodied brain (Wimsatt, 1976a gives an early statement of this
+view).
+5. As urged by Sarkar (1989, 1992) this corrects earlier analyses (1976a, 1976b),
+where I called an account reductionistic if there were a mechanism at any
+level or combination of them which explained the phenomena – even if it
+included mechanisms at a higher level or external to the system in question.
+In drawing the distinction, I would now require explicitly relativising an
+account to two (or more) reference levels: (1) a bottom level – the lowest
+level at which speciﬁc parts of a mechanism must be invoked to explain the
+phenomena (so an explanation of “position effect” requires characterizing an
+operon as a genetic control structure and how it works, but not the atomic
+physics accounting for the relevant electron orbitals which yield the binding
+which occurs.) (2) a top level – drawing the system boundaries broadly
+enough so that all relevant parts of the mechanisms involved are included.
+[Still broader things may sometimes be required, but taken for granted, as
+features of solar and planetary dynamics may be crucial to evolutionary
+processes on a variety of different time scales.] This “multi-level reduction-
+istic analysis” picks out the appropriate levels for objects, processes, and
+phenomena, and explicates their relations to complete the explanatory task
+with no further mystery.
+6. These are relevant and important criteria, but may not be completely inde-
+pendent, and thus fail to be separately necessary (in all combinations). They
+seem sufﬁcient, but I’d welcome additional sensible requirements: each gives
+new handles on tough cases or special circumstances. This ‘heuristic’ attitude,
+ﬁrst urged upon me 25 years ago by Dick Levins, makes sense – aggregat-
+ivity emerges in most cases as highly conditional and qualiﬁed, with little
+or no foundational signiﬁcance. But it may have lots of practical import: by
+choosing decompositions of the system to maximize their ﬁt, these criteria
+can help us choose good boundaries around objects and parts of objects,
+acting as tools of discovery in theory formulation and construction .S e e
+below.
+7. Some philosophers distinguish synthetic identities from realizations or
+instanciations. It doesn’t matter here, but see my 1994, note 30, pp. 228–229.
+8. Addition, multiplication, and other operations (e.g., logical disjunction) could
+be appropriate in different contexts. The context of the parts properties, the
+system property, the question being asked, the purposes of the investiga-
+
+
+=== PAGE 26 ===
+
+294 WILLIAM C. WIMSATT
+tion, and the relevant applicable theories can all play important roles in such
+judgements.
+9. This realization was brought most strikingly to my attention by Sergio
+Martinez in the context of a historical discussion of and argument for the
+robustness of primary qualities. He points out that in the 17th century some-
+thing very much like aggregativity was used, together with robustness, as a
+criterion for natural kinds. See Martinez, 1992.
+10. These approximations are endemic in the formal sciences, and in all attempts
+I know to build mathematical models of phenomena. Ramsey (1990) gives an
+analysis of the role of approximations in theory construction and justiﬁcation.
+11. In 1976b I discuss the purported meaning and testability of these in principle
+claims, and show that they are better seen as corollaries of identity (or local-
+ization) claims which don’t make impossible demands on our computational
+capabilities.
+12. More recently (Griesemer and Wimsatt, 1989), I have added a ﬁfth – the
+explicit recognition that heuristics are purpose-relative–they are normally
+designed and introduced for a given purpose, which they could be expected
+to perform quite well. With this success, they are likely to be applied in other
+contexts where they do less well. Knowing the original purpose of a heuristic
+(or tool) may thus be very useful in determining the conditions under which
+(and why) it is likely to break down.
+13. Abbott (2001) provides a revealing analysis of a related phenomenon.
+His example dealt with tendencies of the very rich and very poor to see
+themselves as closer to the norm than they actually were, but his mech-
+anism seems importantly genralizeable. His proposed mechanism involves
+tendencies to exaggerate perceived differences among positions near our
+own, and contracting differences among positions further away. This leads
+to systematic and predictable metrical distortions exaggerating the cent-
+rality/importance of one’s own position. [Indeed, just such distortions char-
+acterize our visual worlds]. I urge that this is a quite general property of
+perspectives and of any perspectival view of the world.
+14. See Allen’s (1979) biography of Morgan, Mainschein’s (1991) study of
+Wilson, Conklin, Morgan, and Harrison, Darden (1992) on early theory
+construction in genetics, and Wimsatt (1992) on the early history of linkage
+mapping.
+REFERENCES
+Abbott, A.: 2001, Chaos of disciplines. Chicago: University of Chicago Press, ch.
+6. This analysis will appear as ch. 8 of his forthcoming book, Chaos among the
+Disciplines.
+Allen, G.: 1979, Thomas Hunt Morgan: The Man and His Science . Princeton:
+Princeton University press.
+
+
+=== PAGE 27 ===
+
+EMERGENCE AND REDUCTIONISMS 295
+Bechtel, W. and R.C. Richardson: 1992, Discovering Complexity: Decomposi-
+tion and Localization as Scientiﬁc Research Strategies . Princeton: Princeton
+University Press.
+Callebaut, W.: 1993, Taking the Naturalistic Turn, or How Real Philosophy of
+Science is Done. Chicago: The University of Chicago Press.
+Cartwright, N.: 1983, How the Laws of Physics Lie. London: Cambridge U. P.
+Darden, L.: 1992,Theory Change in Science: Strategies from Mendelian Genetics.
+New York: Oxford U. P.
+Dennett, D.: 1995, Darwin’s Dangerous Idea. New York: Simon and Schuster.
+Downes, S. M.: 1992, The Importance of Models in Theorizing: A Deﬂationary
+Semantic View. In D. Hull, M. Forbes and K. Okruhlik (eds.), PSA-1992.E a s t
+Lansing: The Philosophy of Science Association, 1: 142–153.
+Glennan, S. S.: 1992, Mechanisms, Models, and Causation , Ph. D. dissertation,
+Department of Philosophy, The University of Chicago.
+Griesemer, J. and W. Wimsatt: 1989, Picturing Weismannism – Case Study of
+Conceptual Evolution. In M. Ruse (ed.), What Philosophy of Biology is Not ,
+(Festschrift for David Hull) Dordrecht: Martinus-Nijhoff, 75–137.
+Kauffman, S.: 1971, Articulation of Parts Explanations in Biology and the
+Rational Search for Them. In R. Buck and R.S. Cohen (eds.), PSA-1970.
+Dordrecht: Reidel, 257–272.
+Kauffman, S.: 1993, The Origins of Order: Self-organization and Selection in
+Evolution. London: Oxford U. P.
+Levins, R.: 1966, The Strategy of Model Building in Population Biology,
+American Scientist: 421–431.
+Levins, R.: 1968, Evolution in Changing Environments , Princeton: Princeton
+University Press.
+Levins, R.: 1973, Complexity. In C.H. Waddington (ed.), Towards a Theoretical
+Biology, v. 3. Edinburgh: University of Edinburgh Press
+Levins, R. and R.C. Lewontin: 1985, The Dialectical Biologist , Cambridge:
+Harvard University Press.
+Lewontin, R.C.: 1978, Adaptation, Scientiﬁc American, September.
+Mainschein, J.: 1991, Transforming Traditions in American Biology, 1880–1915.
+Baltimore: Johns Hopkins University press.
+Martinez, S.: 1992, Robustness and Objectivity, draft ms. in English, 1992
+(Spanish version published in Dianoia, (Annual of Instituto de Investigaciones
+Filosoﬁcas, Universidad Nacional Autonoma de Mexico)), 1992.
+McClamrock, R.: 1991, Marr’s Three Levels: A Re-Evaluation, Minds and
+Machines 1: 185–196.
+Moss, L.: 1992, A Kernel of Truth? On the Reality of the Genetic Program. In
+D. Hull, M. Forbes and K. Okruhlik (eds.), PSA-1992, volume 1. East Lansing:
+The Philosophy of Sciences Association, 335–348.
+Nagel, E.: 1961, The Structure of Science, New York: Harcourt Brace & World.
+Ramsey, J.L.: 1990,Meta-Stable States: The Justiﬁcation of Approximative Proce-
+dures in Chemical Kinetics, 1923–1947 . Ph.D., Committee on Conceptual
+Foundations of Science, University of Chicago.
+
+
+=== PAGE 28 ===
+
+296 WILLIAM C. WIMSATT
+Rosenberg, A.: 1978, The Supervenience of Biological Concepts, Philosophy of
+Science 45: 368–386.
+Sarkar, S.: 1992, Models of Reduction and Categories of Reductionism, Synthese
+91: 167–194.
+Schank, J.C. and W.C. Wimsatt: 1993, ModelBuilding 2.0, Simulation software
+to run on the Macintosh family for teaching model building and its critical
+analysis. Part of the BioQUEST library of Strategic Simulations. New York:
+Academic Press.
+Simon, H.A.: 1962, The Architecture of Complexity, reprinted in hisThe Sciences
+of the Artiﬁcial. MIT Press, 1981. 3rd. ed., 1996.
+Wade, M.J.: 1996, Adaptation in Subdivided Populations: Kin Selection and Inter-
+demic Selection. In M. Rose and G. Lauder (eds.), Adaptation.N e wY o r k :
+Academic Press, 381–405.
+Waters, K.: 1990, Why the Anti-reductionist Consensus Won’t Survive the Case
+of Classical Mendelian Genetics. In A. Fine, M. Forbes and L. Wessels (eds.),
+PSA-1990. East Lansing: The Philosophy of Science Association, 1: 125–139.
+Wimsatt, W.C.: 1971, Some Problems with the Concept of ‘Feedback’. In R.C.
+Buck and R.S. Cohen (eds.), PSA-1970 (Boston Studies in the Philosophy of
+Science, vol. 8), Dordrecht: Reidel, 241–256.
+Wimsatt, W.C.: 1974, Complexity and Organization. In R. Buck and R.S. Cohen
+(eds.), PSA-1972, Boston Studies in Phil. Sci. 20: 67–86.
+Wimsatt, W.C.: 1976a, Reductionism, Levels of Organization and the Mind-Body
+Problem. In G.G. Globus, G. Maxwell and I. Savodnik (eds.), Consciousness
+and the Brain. New York: Plenum, 199–267.
+Wimsatt, W.C.: 1976b, Reductive Explanation – A Functional Account. In A.C.
+Michalos, C.A. Hooker, G. Pearce and R.S. Cohen (eds.), PSA-1974 (Boston
+Studies in the Philosophy of Science, volume 30) Dordrecht: Reidel, 671–710.
+Wimsatt, W.C.: 1979, Reduction and Reductionism. In P.D. Asquith and H.
+Kyberg (eds.), Current Research in Philosophy of Science . East Lansing,
+Michigan: The Philosophy of Science Association, 352–377.
+Wimsatt, W.C.: 1980b, Reductionistic Research Strategies and their Biases in the
+Units of Selection Controversy. In T. Nickles (ed.), Scientiﬁc Discovery-vol.II:
+Case Studies. Dordrecht: Reidel. 213–259.
+Wimsatt, W.C.: 1981a, Robustness, Reliability and Overdetermination. In R.
+Brewer and B. Collins (eds.), Scientiﬁc Inquiry and the Social Sciences .S a n
+Francisco, Jossey-Bass. (festschrift for Donald Campbell)
+Wimsatt, W.C.: 1985, Heuristics and the Study of Human Behavior. In D.W.
+Fiske and R. Shweder (eds.), Metatheory in Social Science: Pluralisms and
+Subjectivities. Chicago: University of Chicago Press, 293-314.
+Wimsatt, W.C.: 1986, Forms of Aggregativity. In A. Donagan, N. Perovich and M.
+Wedin (eds.), Human Nature and Natural Knowledge, (Festschrift for Marjorie
+Grene), Dordrecht: Reidel, 259–293.
+Wimsatt, W.C.: 1987, False Models as means to Truer Theories. In M. Nitecki
+and A. Hoffman (eds.), Neutral Models in Biology. London: Oxford University
+Press, 23–55.
+
+
+=== PAGE 29 ===
+
+EMERGENCE AND REDUCTIONISMS 297
+Wimsatt, W.C.: 1992, Golden Generalities and Co-opted Anomalies: Haldane
+vs. Muller and the Drosophila Group on the Theory and Practice of Linkage
+mapping. In S. Sarkar (ed.), The Foundars of Evolutionary Genetics. Martinus-
+Nijhoff, Dordrecht, 107–166.
+Wimsatt, W.C. and J.C. Schank: 1993, Modelling – A Primer , 230 page lab
+manual/textbook accompanying BioQUEST software (Schank and Wimsatt,
+1993) to teach model building and its critical analysis using as examples single
+species growth equations (logistic and minimum-density limited logistic) and a
+model of blending inheritance, showing that we can use false models to build
+better ones. New York: Academic Press.
+Wimsatt, W.C.: 1994, The Ontology of Complex Systems: Levels, Perspectives,
+and Causal Thickets. In M. Matthen and R. Ware (eds.), Biology and Society:
+Reﬂections on Methodology, Canadian Journal of Philosophy 20: 207–274.
+Wimsatt, W.C.: 1997, Functional Organization, Functional Analogy, and Func-
+tional Inference, Evolution and Cognition 3(2): 102–133.
+Wimsatt, W.C.: 2002, Re-Engineering Philosophy for Limited Beings: Piecewise
+Approximations to Reality. Cambridege: Harvard U. P.
+Department of Philosophy
+Committee on Evolutionary Biology and
+Committee on the Conceptual Foundations of Science
+University of Chicago
+E-mail: w-wimsatt@uchicago.edu
+
+
+=== PAGE 30 ===

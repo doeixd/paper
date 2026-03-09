@@ -1,0 +1,1115 @@
+=== PAGE 1 ===
+
+Thinking About Mechanisms* 
+Peter MachamerH 
+Department of History and Philosophy of Science, University of Pittsburgh 
+Lindley Darden 
+Committee on History and Philosophy of Science, University of Maryland 
+Carl F. Craver 
+Department of Philosophy, Florida International University 
+The concept of mechanism is analyzed in terms of entities and activities, organized such 
+that they are productive of regular changes. Examples show how mechanisms work in 
+neurobiology and molecular biology. Thinking in terms of mechanisms provides a new 
+framework for addressing many traditional philosophical issues: causality, laws, expla­
+nation, reduction, and scientific change. 
+1. Introduction. In many fields of science what is taken to be a satisfactory 
+explanation requires providing a description of a mechanism. So it is not 
+*Received November 1998; revised July 1999. 
+tSend requests for reprints to Lindley Darden, Department of Philosophy, 1125A 
+Skinner Building, University of Maryland, College Park, MD 20742; 
+darden@carnap.umd.edu. 
+~We thank the following people for their help: D. Bailer-Jones, A. Baltas, J. Bogen, 
+R. Burian, G. Carmadi, R. Clifton, N. Comfort, S. Culp, F. di Poppa, G. Gale, 
+S. Glennan, N. Hall, L. Holmes, T. Iseda, J. Josephson, J. Lederberg, J. E. McGuire, 
+G. Piccinini, P. Pietroski, H. Rheinberger, W. Salmon, S. Sastry, K. Schaffner, 
+R. Skipper, P. Speh, D. Thaler, and N. Urban. Lindley Darden's work was supported 
+by the General Research Board of the Graduate School of the University of Maryland 
+and as a Fellow in the Center for Philosophy of Science at the University of Pittsburgh; 
+Carl Craver's work was supported by a Cognitive Studies Postdoctoral Fellowship of 
+the Department of Philosophy of the University of Maryland. Both Lindley Darden 
+and Carl Craver were supported by a National Science Foundation Grant (SBR-
+9817942); any opinions, findings and conclusions or recommendations expressed in this 
+material are those of the authors and do not necessarily reflect those of the National 
+Science Foundation. 
+Philosophy of Science, 67 (March 2000) pp. 1-25.0031-8248/2000/6701-0001$2.00 
+Copyright 2000 by the Philosophy of Science Association. All rights reserved.
+
+
+=== PAGE 2 ===
+
+2 PETER MACHAMER, LINDLEY DARDEN, AND CARL F. CRAVER 
+surprising that much of the practice of science can be understood in terms 
+of the discovery and description of mechanisms. Our goal is to sketch a 
+mechanistic approach for analyzing neurobiology and molecular biology 
+that is grounded in the details of scientific practice, an approach that may 
+well apply to other scientific fields. 
+Mechanisms have been invoked many times and places in philosophy 
+and science. A key word search on "mechanism" for 1992-1997 in titles 
+and abstracts of Nature (including its subsidiary journals, such as Nature 
+Genetics) found 597 hits. A search in the Philosophers' Index for the same 
+period found 205 hits. Yet, in our view, there is no adequate analysis of 
+what mechanisms are and how they work in science. 
+We begin (Section 2) with a dualistic analysis of the concept of mech­
+anism in terms of both the entities and activities that compose them. Sec­
+tion 3 argues for the ontic adequacy of this dualistic approach and indi­
+cates some of its implications for analyses offunctions, causality, and laws. 
+Section 4 uses the example of the mechanism of neuronal depolarization 
+to demonstrate the adequacy of the mechanism definition. Section 5 char­
+acterizes the descriptions of mechanisms by elaborating such aspects as 
+hierarchies, bottom out activities, mechanism schemata, and sketches. 
+This section also suggests a historiographic point to the effect that much 
+of the history of science might be viewed as written with the notion of 
+mechanism. Another example in Section 6, the mechanism of protein syn­
+thesis, shows how thinking about mechanisms illuminates aspects of dis­
+covery and scientific change. The final sections hint at new ways to ap­
+proach and solve or dissolve some major philosophical problems (viz., 
+explanation and intelligibility in Section 7 and reduction in Section 8). 
+These arguments are not developed in detail but should suffice to show 
+how thinking about mechanisms provides a distinctive approach to many 
+problems in the philosophy of science. 
+Quickly, though, we issue a few caveats. First, we use "mechanism" 
+because the word is commonly used in science. But as we shall detail more 
+precisely, one should not think of mechanisms as exclusively mechanical 
+(push-pull) systems. What counts as a mechanism in science has developed 
+over time and presumably will continue to do so. Second, we will confine 
+our attention to mechanisms in molecular biology and neurobiology. We 
+do not claim that all scientists look for mechanisms or that all explanations 
+are descriptions of mechanisms. We suspect that this analysis is applicable 
+to many other sciences, and maybe even to cognitive or social mechanisms, 
+but we leave this as an open question. Finally, many of our points are 
+only provocatively and briefly stated. We believe there are full arguments 
+for these points but detailing them here would obscure the overall vision. 
+2. Mechanisms. Mechanisms are sought to explain how a phenomenon 
+comes about or how some significant process works. Specifically:
+
+
+=== PAGE 3 ===
+
+THINKING ABOUT MECHANISMS 3 
+Mechanisms are entities and activities organized such that they are 
+productive of regular changes from start or set-up to finish or termi­
+nation conditions. 
+For example, in the mechanism of chemical neurotransmission, a presyn­
+aptic neuron transmits a signal to a post-synaptic neuron by releasing 
+neurotransmitter molecules that diffuse across the synaptic cleft, bind to 
+receptors, and so depolarize the post-synaptic cell. In the mechanism of 
+DNA replication, the DNA double helix unwinds, exposing slightly 
+charged bases to which complementary bases bond, producing, after sev­
+eral more stages, two duplicate helices. Descriptions of mechanisms show 
+how the termination conditions are produced by the set-up conditions and 
+intermediate stages. To give a description of a mechanism for a phenom­
+enon is to explain that phenomenon, i.e., to explain how it was produced. 
+Mechanisms are composed of both entities (with their properties) and 
+activities. Activities are the producers of change. Entities are the things 
+that engage in activities. Activities usually require that entities have spe­
+cific types of properties. The neurotransmitter and receptor, two entities, 
+bind, an activity, by virtue of their structural properties and charge dis­
+tributions. A DNA base and a complementary base hydrogen bond be­
+cause of their geometric structures and weak charges. The organization of 
+these entities and activities determines the ways in which they produce the 
+phenomenon. Entities often must be appropriately located, structured, 
+and oriented, and the activities in which they engage must have a temporal 
+order, rate, and duration. For example, two neurons must be spatially 
+proximate for diffusion of the neurotransmitter. Mechanisms are regular 
+in that they work always or for the most part in the same way under the 
+same conditions. The regularity is exhibited in the typical way that the 
+mechanism runs from beginning to end; what makes it regular is the pro­
+ductive continuity between stages. Complete descriptions of mechanisms 
+exhibit productive continuity without gaps from the set up to termination 
+conditions. Productive continuities are what make the connections be­
+tween stages intelligible. If a mechanism is represented schematically by 
+A-+B-+C, then the continuity lies in the arrows and their explication is in 
+terms of the activities that the arrows represent. A missing arrow, namely, 
+the inability to specify an activity, leaves an explanatory gap in the pro­
+ductive continuity of the mechanism. 
+We are not alone in thinking that the concept of "mechanism" is central 
+to an adequate philosophical understanding of the biological sciences. 
+Others have argued for the importance of mechanisms in biology (Bechtel 
+and Richardson 1993, Brandon 1985, Kauffman 1971, Wimsatt 1972) and 
+molecular biology in particular (Burian 1996, Crick 1988). Wimsatt, for 
+example, says that, "At least in biology, most scientists see their work as
+
+
+=== PAGE 4 ===
+
+4 PETER MACHAMER, LINDLEY DARDEN, AND CARL F. CRAVER 
+explaining types of phenomena by discovering mechanisms ... " (Wimsatt 
+1972, 67). Schaffner often gestures to the importance of mechanisms in 
+biology and medicine, but argues, following Mackie (1974), that talk of 
+causal mechanisms is dependent upon prior and more fundamental talk 
+of "laws of working" (Schaffner 1993, 287, 306-307). Elsewhere Schaffner 
+claims that "mechanism," as used by Wimsatt and others, is an "unana­
+lyzed term" that he wishes to avoid (Schaffner 1993,287). 
+When the notion of a "mechanism" has been analyzed, it has typically 
+been analyzed in terms of the decomposition of "systems" into their 
+"parts" and "interactions" (Wimsatt 1976; Bechtel and Richardson 1993). 
+Following in this "interactionist" tradition, Glennan (1992; 1996) defines 
+a mechanism as follows: 
+A mechanism underlying a behavior is a complex system which pro­
+duces that behavior by ... the interaction of a number of parts ac­
+cording to direct causal laws. (Glennan 1996, 52) 
+He claims that all causal laws are explicated by providing a lower level 
+mechanism until one bottoms out in the fundamental, non-causal laws of 
+physics. We find Glennan's reliance on the concept of a "law" problematic 
+because, in our examples, there are rarely "direct causal laws" to char­
+acterize how activities operate. More importantly, as we argue in Section 
+3, the interactionist's reliance on laws and interactions seems to us to leave 
+out the productive nature of activities. 
+Our way of thinking emphasizes the activities in mechanisms. The term 
+"activity" brings with it appropriate connotations from its standard usage; 
+however, it is intended as a technical term. An activity is usually desig­
+nated by a verb or verb form (participles, gerundives, etc.). Activities are 
+the producers of change. They are constitutive of the transformations that 
+yield new states of affairs or new products. Reference to activities is mo­
+tivated by ontic, descriptive, and epistemological concerns. We justify this 
+break from parsimony, this dualism of entities and activities, by reference 
+to these philosophical needs. 
+3. Ontic Status of Mechanisms (Ontic Adequacy). Both activities and en­
+tities must be included in an adequate ontic account of mechanisms. Our 
+analysis of the concept of mechanism is explicitly dualist. We are attempt­
+ing to capture the healthy philosophical intuitions underlying both sub­
+stantivalist and process ontologies. Substantivalists confine their attention 
+to entities and properties, believing that it is possible to reduce talk of 
+activities to talk of properties and their transitions. Substantivalists thus 
+speak of entities with capacities (Cartwright 1989) or dispositions to act. 
+However, in order to identify a capacity of an entity, one must first identify 
+the activities in which that entity engages. One does not know that aspirin
+
+
+=== PAGE 5 ===
+
+THINKING ABOUT MECHANISMS 5 
+has the capacity to relieve a headache unless one knows that aspirin pro­
+duces headache relief. Substantivalists also talk about interactions of en­
+tities (Glennan 1996) or their state transitions. We think state transitions 
+have to be more completely described in terms of the activities of the 
+entities and how those activities produce changes that constitute the next 
+stage. The same is true of talk of interactions, which emphasizes spatio­
+temporal intersections and changes in properties without characterizing 
+the productivity by which those changes are effected at those intersections. 
+Substantivalists appropriately focus attention upon the entities and 
+properties in mechanisms, e.g., the neurotransmitter, the receptor, and 
+their charge configurations or DNA bases and their weak polarities. It is 
+the entities that engage in activities, and they do so by virtue of certain of 
+their properties. This is why statistical relevance relations (cf. Salmon 
+1984) between the properties of entities at one time and the properties of 
+entities at another (or generalizations stating "input-output" relations and 
+state changes) are useful for describing mechanisms. Yet it is artificial and 
+impoverished to describe mechanisms solely in terms of entities, proper­
+ties, interactions, inputs-outputs, and state changes over time. Mecha­
+nisms do things. They are active and so ought to be described in terms of 
+the activities of their entities, not merely in terms of changes in their prop­
+erties. 
+In contrast to substantivalists, process ontologists reify activities and 
+attempt to reduce entities to processes (cf. Rescher 1996). While process 
+ontology does acknowledge the importance of active processes by taking 
+them as fundamental ontological units, its program for entity reduction is 
+problematic at best. As far as we know, there are no activities in neuro­
+biology and molecular biology that are not activities of entities. N onethe­
+less, the process ontologists appropriately highlight the importance of ac­
+tive kinds of changing. There are kinds of changing just as there are kinds 
+of entities. These different kinds are recognized by science and are basic 
+to the ways that things work. 
+Activities are identified and individuated in much the same way as are 
+entities. Traditionally one identifies and individuates entities in terms of 
+their properties and spatiotemporallocation. Activities, likewise, may be 
+identified and individuated by their spatiotemporal location. They also 
+may be individuated by their rate, duration, types of entities and types of 
+properties that engage in them. More specific individuation conditions 
+may include their mode of operation (e.g., contact action versus attraction 
+at a distance), directionality (e.g., linear versus at right angles), polarity 
+(attraction versus attraction and repulsion), energy requirements (e.g., 
+how much energy is required to form or break a chemical bond), and the 
+range of activity (e.g., electro-magnetic forces have a wider influence than 
+do the strong and weak forces in the nucleus). Often, generalizations or
+
+
+=== PAGE 6 ===
+
+6 PETER MACHAMER, LINDLEY DARDEN, AND CARL F. CRAVER 
+laws are statements whose predicates refer to the entities and properties 
+that are important for the individuation of activities. Mechanisms are 
+identified and individuated by the activities and entities that constitute 
+them, by their start and finish conditions, and by their functional roles. 
+Functions are the roles played by entities and activities in a mechanism. 
+To see an activity as a function is to see it as a component in some mech­
+anism, that is, to see it in a context that is taken to be important, vital, or 
+otherwise significant. It is common to speak of functions as properties 
+"had by" entities, as when one says that the heart "has" the function of 
+pumping blood or the channel "has" the function of gating the flow of 
+sodium. This way of speaking reinforces the substantivalist tendency 
+against which we have been arguing. Functions, rather, should be under­
+stood in terms of the activities by virtue of which entities contribute to the 
+workings of a mechanism. It is more appropriate to say that the function 
+of the heart is to pump blood and thereby deliver (with the aid of the rest 
+of the circulatory system) oxygen and nutrients to the rest of the body. 
+Likewise, a function of sodium channels is to gate sodium current in the 
+production of action potentials. To the extent that the activity of a mech­
+anism as a whole contributes to something in a context that is taken to be 
+antecedently important, vital, or otherwise significant, that activity too 
+can be thought of as the (or a) function of the mechanism as a whole 
+(Craver 1998, Craver under review). 
+Entities and a specific subset of their properties determine the activities 
+in which they are able to engage. Conversely, activities determine what 
+types of entities (and what properties of those entities) are capable of being 
+the basis for such acts. Put another way, entities having certain kinds of 
+properties are necessary for the possibility of acting in certain specific 
+ways, and certain kinds of activities are only possible when there are en­
+tities having certain kinds of properties. Entities and activities are correl­
+atives. They are interdependent. An ontically adequate description of a 
+mechanism includes both. 
+3.1. Activities and Causing. Activities are types of causes. Terms like 
+"cause" and "interact" are abstract terms that need to be specified with a 
+type of activity and are often so specified in typical scientific discourse. 
+Anscombe (1971, 137) noted that the word "cause" itself is highly general 
+and only becomes meaningful when filled out by other, more specific, 
+causal verbs, e.g., scrape, push, dry, carry, eat, burn, knock over. An entity 
+acts as a cause when it engages in a productive activity. This means that 
+objects simpliciter, or even natural kinds, may be said to be causes only 
+in a derivative sense. It is not the penicillin that causes the pneumonia to 
+disappear, but what the penicillin does. 
+Mackie's (1974) attempt to analyze the necessity of causality in terms
+
+
+=== PAGE 7 ===
+
+THINKING ABOUT MECHANISMS 7 
+of laws of working is similar to our analysis in many ways. He stresses 
+that laws of working must be discovered empirically and are not found a 
+priori (213, 221). He also claims that counterfactuals are supported by the 
+inductive evidence that such basic processes are at work (229). However, 
+he wants to analyze causality in terms of qualitative or structural conti­
+nuity of processes (224), and more vaguely in terms of "flowing from" or 
+"extruding" (226). It is unclear how to apply such concepts in our bio­
+logical cases. But perhaps he is trying to use them to refer to what we call 
+"activities" and to capture what we mean by "productivity." 
+Our emphasis on mechanisms is compatible, in some ways, with 
+Salmon's mechanical philosophy, since mechanisms lie at the heart of the 
+mechanical philosophy. Mechanisms, for Salmon, are composed of pro­
+cesses (things exhibiting consistency of characteristics over time) and in­
+teractions (spatiotemporal intersections involving persistent changes in 
+those processes). It is appropriate to compare our talk of activities with 
+Salmon's talk of interactions. Salmon identifies interactions in terms of 
+transmitted marks and statistical relevance relations (Salmon 1984) and, 
+more recently, in terms of exchanges of conserved quantities (Salmon 
+1997, 1998). Although we acknowledge the possibility that Salmon's anal­
+ysis may be all there is to certain fundamental types of interactions in 
+physics, his analysis is silent as to the character of the productivity in the 
+activities investigated by many other sciences. Mere talk of transmission 
+of a mark or exchange of a conserved quantity does not exhaust what 
+these scientists know about productive activities and about how activities 
+effect regular changes in mechanisms. As our examples will show, much 
+of what neurobiologists and molecular biologists do should be seen as an 
+effort to understand these diverse kinds of production and the ways that 
+they work. 
+3.2. Activities and Laws. The traditional notion of a universal law of 
+nature has few, if any, applications in neurobiology or molecular biology. 
+Sometimes the regularities of activities can be described by laws. Some­
+times they cannot. For example, Ohm's law is used to describe aspects of 
+the activities in the mechanisms of neurotransmission. There is no law that 
+describes the regularities of protein binding to regions of DNA. Nonethe­
+less, the notion of activity carries with it some of the characteristic features 
+associated with laws. Laws are taken to be determinate regularities. They 
+describe something that acts in the same way under the same conditions, 
+i.e., same cause, same effect. (Schaffner 1993, 122, calls these "universal 
+generalizations z.") This is the same way we talk about mechanisms and 
+their activities. A mechanism is the series of activities of entities that bring 
+about the finish or termination conditions in a regular way. These regu­
+larities are non-accidental and support counterfactuals to the extent that
+
+
+=== PAGE 8 ===
+
+8 PETER MACHAMER, LINDLEY DARDEN, AND CARL F. CRAVER 
+they describe activities. For example, if this single base in DNA were 
+changed and the protein synthesis mechanism operated as usual, then the 
+protein produced would have an active site that binds more tightly. This 
+counterfactual justifies talking about mechanisms and their activities with 
+some sort of necessity. No philosophical work is done by positing some 
+further thing, a law, that underwrites the productivity of activities. 
+In sum, we are dualists: both entities and activities constitute mecha­
+nisms. There are no activities without entities, and entities do not do any­
+thing without activities. We have argued for the ontic adequacy of this 
+dualism by showing that it can capture insights of both substantivalists 
+and process ontologists, by showing how activities are needed to specify 
+the term "cause," and by an analysis of activities showing their regularity 
+and necessity sometimes characterized by laws. 
+4. Example of a Mechanism (Descriptive Adequacy). Consider the classic 
+textbook account of the mechanisms of chemical transmission at synapses 
+(Shepherd 1988). Chemical transmission can be understood abstractly as 
+the activity of converting an electrical signal in one neuron, the relevant 
+entity, into a chemical signal in the synapse. This chemical signal is then 
+converted to an electrical signal in a second neuron. Consider Shepherd's 
+diagram in Figure 1. 
+The diagram is a two-dimensional spatial representation of the entities, 
+properties, and activities that constitute these mechanisms. Mechanisms 
+are often represented this way. Such diagrams exhibit spatial relations and 
+structural features of the entities in the mechanism. Labeled arrows often 
+represent the activities that produce changes. In these ways, diagrams rep­
+resent features of mechanisms that could be described verbally but are 
+more easily apprehended in visual form. 
+In Shepherd's diagram, the entities are almost exclusively represented 
+pictorially. These include the cell membrane, vesicles, microtubules, mol­
+ecules, and ions. The activities are represented with labeled arrows. These 
+include biosynthesis, transport, depolarization, insertion, storage, recy­
+cling, priming, diffusion, and modulation. The diagram is complicated in 
+its attempt to represent the many different mechanisms that can be found 
+at chemical synapses. We use the first stage of this mechanism, depolari­
+zation, to exhibit the features of mechanisms in detail. 
+Neurons are electrically polarized in their resting state (i.e., their resting 
+membrane potential, roughly - 70 m V); the fluid inside the cell membrane 
+is negatively charged with respect to the fluid outside of the cell. Depo­
+larization is a positive change in the membrane potential. Neurons de­
+polarize when sodium (Na+) selective channels in the membrane open, 
+allowing Na + to move into the cell by diffusion and electrical attraction. 
+The resulting changes in ion distribution make the intracellular fluid pro-
+
+
+=== PAGE 9 ===
+
+E. 
+E. 
+0'. Insertion 
+THINKING ABOUT MECHANISMS 
+- + 
+CD DepOlarization - + 
+@ Conductance Change 
++-+ 
+@Synaptic + 
+Potential + 
++ 
++ 
+Fig. 4.8 A summary of some of the main biochemical mechanisms that have been identified at 
+chemical synapses. A-E. Long-term steps in synthesis, transport, and starage of neurotransmitters 
+and neuromodulators; insertion of membrane channel proteins and receptors; and neuromodulatoey 
+effects. <D-@. These summarize the more rapid steps involved in immediate signaling at the syn· 
+apse. These steps arc described in the text, and arc further discussed for different eypes of synapses 
+in Chapter 8. Abbrevations: IPj , inositol triphosphate; CAM II, Ca/calmodulin·dependent protein 
+kinase II; DAG, diacylglycerol; PK, protein kinase; R, receptar; G, G protein; AC, adenyl ate cy­
+clase. 
+9 
+Figure 1. Biochemical mechanisms at chemical synapses. From Gordon M. Shepherd, Neu­
+robiology, 3/e; © 1994 by Oxford University Press, Inc. Reproduced by permission. 
+gressively less negative and, eventually, more positive than the extracel­
+lular fluid (peaking at roughly + 50 m V). Shepherd represents this change 
+in the top left of Figure 1 with pluses ( + ) inside and minuses ( - ) outside 
+the membrane of the presynaptic cell. Figure 2, which we have drawn from 
+Hall's (1992) verbal description of the voltage sensitive Na + channel, is 
+an idealized close up of the mechanism by which the pluses in Figure 1 
+(actually Na+ ions) get inside the neuronal membrane. The panels in Fig-
+
+
+=== PAGE 10 ===
+
+10 PETER MACHAMER, LINDLEY DARDEN, AND CARL F. CRAVER 
+(2) a-helix 
+turns, opens 
+channel 
+(1) Increasing 
+depolarization 
+repels a-helix 
+Figure 2. An idealized voltage-sensitive Na+ channel and the mechanisms of depolariza­
+tion. Panels (top to bottom) represent set-up conditions , intermediate activities, and termi­
+nation conditions (modeled on verbal description in Hall 1992).
+
+
+=== PAGE 11 ===
+
+THINKING ABOUT MECHANISMS 11 
+ure 2 represent, from top to bottom, the set-up conditions, intermediate 
+activities, and termination conditions of the depolarization mechanism. 
+4.1. Set- Up Conditions. Descriptions of mechanisms begin with ideal­
+ized descriptions of the start or set-up conditions. These conditions may be 
+the result of prior processes, but scientists typically idealize them into static 
+time slices taken as the beginning of the mechanism. The start conditions 
+include the relevant entities and their properties. Structural properties, spa­
+tial relations, and orientations are often crucial for showing how the entities 
+will be able to carry out the activities comprising the first stage of the mech­
+anism. The set-up also includes various enabling conditions (such as avail­
+able energy, pH, and electrical charge distributions). For simplicity in, e.g., 
+textbook descriptions, many of these conditions are omitted, and only the 
+crucial entities and structural descriptions appear. Among relevant entities 
+and properties, some are crucial for showing how the next step will go. The 
+bulk of the features in the set-up (spatial, structural, and otherwise) are not 
+inputs into the mechanism but are parts of the mechanism. They are crucial 
+for showing what comes next; thus we avoid talk of "inputs," "outputs," 
+and "state changes" in favor of "set-up conditions," "termination condi­
+tions," and "intermediate stages" of entities and activities. 
+The lines of pluses and minuses along the membrane at the top of the 
+Shepherd diagram represent the spreading depolarization of the axon, a 
+crucial set-up condition for the depolarization of the axon terminal. This 
+set-up condition is labeled in the top panel of Figure 2. 
+Also crucial are the locations, orientations, and charge distributions of 
+the components of the Na + channel and the differential intra- and extra­
+cellular concentrations of N a +. Two structural features of the N a + chan­
+nel are crucial; each is depicted in the top panel of Figure 2. The first is 
+the corkscrew shaped portion of the protein (an alpha helix) known as the 
+"voltage gate." It contains evenly spaced, positively charged amino acids. 
+The second is a hairpin turn in the protein, known as the "pore lining," 
+that has its own particular configuration of charges. Other factors impor­
+tant for the activity of the mechanism include temperature, pH, and the 
+presence or absence of pharmacological agonists or antagonists; such 
+factors are the contents of the ceteris paribus clauses often implicit in de­
+scriptions of the channel's activity. The structural and spatial set-up con­
+ditions are not inputs to the mechanism; neither are temperature and pH. 
+Yet these factors and relations are crucial to seeing how the mechanism 
+will go. 
+4.2. Termination Conditions. Descriptions of mechanisms end with fin­
+ish or termination conditions. These conditions are idealized states or pa­
+rameters describing a privileged endpoint, such as rest, equilibrium, neu-
+
+
+=== PAGE 12 ===
+
+12 PETER MACHAMER, LINDLEY DARDEN, AND CARL F. CRAVER 
+tralization of a charge, a repressed or activated state, elimination of 
+something, or the production of a product. There are various reasons why 
+such states are privileged. For example, the end product may be the pro­
+duction of a particular kind of entity or state of affairs that we set out to 
+understand or create. Or, it may be the final stage of what is identified as 
+a unitary, integral process. The termination conditions are most often 
+idealized as end points or final products; misleadingly, they are called 
+"outputs." 
+In the case of the depolarization mechanism, we take the termination 
+condition to be an increase in intracellular Na + concentration and a cor­
+responding increase in membrane voltage. This is illustrated in the bottom 
+panel of Figure 2. This condition is privileged, and so a termination con­
+dition, because it is the end of what is taken to be a unitary process, 
+namely, the depolarization of the axon terminal. This is illustrated in the 
+bottom panel of Figure 2 as the N a + channels lining up against the intra­
+cellular membrane surface. Calling this termination stage the "output" 
+inaccurately suggests something comes out. 
+4.3. Intermediate Activities. Obviously, mechanisms are made up of 
+more than their set-up and termination conditions. In addition, complete 
+descriptions of mechanisms characterize the intervening entities and activ­
+ities that produce the end from the beginning. A description of a mecha­
+nism describes the relevant entities, properties, and activities that link 
+them together, showing how the actions at one stage affect and effect those 
+at successive stages. In a complete description of mechanism, there are no 
+gaps that leave specific steps unintelligible; the process as a whole is ren­
+dered intelligible in terms of entities and activities that are acceptable to 
+a field at a time. In the simplest case, the stages of a mechanism are or­
+ganized linearly, but they also may be forks, joins, or cycles. Often, mech­
+anisms are continuous processes that may be treated for convenience as a 
+series of discrete stages or steps. 
+Look again at the depolarization example. The activities by which the 
+cell will depolarize are presaged in the set-up conditions. These interme­
+diate activities are presented in the central panel of Figure 2. The spreading 
+depolarization from the axonal action potential (1) repels the positive 
+charges in the alpha helix voltage gates, (2) rotates them about their central 
+axis and opens a pore or channel through the membrane. The resulting 
+conformation change in (or bending of) the protein (3) moves the extra­
+cellular hairpins into the pore. The particular configuration of charges on 
+this pore lining makes the channel selective for N a +. As a result, (4) N a + 
+ions move through the pore and into the cell. This increase in intracellular 
+Na+ concentration depolarizes the axon terminal (see the final panel, Fig­
+ure 2). Although we may describe or represent these intermediate activities
+
+
+=== PAGE 13 ===
+
+THINKING ABOUT MECHANISMS 13 
+as stages in the operation of the mechanism, they are more accurately 
+viewed as continuous processes. As the axonal depolarization spreads, the 
+repulsive forces acting on the positive charges in the corkscrew are in­
+creasingly pushed outward, rotating the helix and opening the Na + selec­
+tive channel pore. 
+The activities of the voltage-sensitive Na I channel are thus crucial com­
+ponents in the depolarization mechanism. It is through these activities of 
+these entities that we understand how depolarization occurs. 
+5. Hierarchies, Bottoming Out, Mechanism Schemata, and Sketches. Mech­
+anisms occur in nested hierarchies and the descriptions of mechanisms in 
+neurobiology and molecular biology are frequently multi-level. The levels 
+in these hierarchies should be thought of as part-whole hierarchies with 
+the additional restriction that lower level entities, properties, and activities 
+are components in mechanisms that produce higher level phenomena 
+(Craver 1998, Craver and Darden forthcoming). For example, the acti­
+vation of the sodium channel is a component of the mechanism of depo­
+larization, which is a component of the mechanism of chemical neuro­
+transmission, which is a component of most higher-level mechanisms in 
+the central nervous system. Similar hierarchies can be found in molecular 
+biology. James Watson (1965) discusses mechanisms for forming strong 
+and weak chemical bonds, which are components of the mechanisms of 
+replication, transcription, and translation of DNA and RNA, respectively, 
+which are components of the mechanisms of numerous cell activities. 
+5.1. Bottoming Out. Nested hierarchical descriptions of mechanisms 
+typically hottom out in lowest level mechanisms. These are the components 
+that are accepted as relatively fundamental or taken to be unproblematic 
+for the purposes of a given scientist, research group, or field. Bottoming 
+out is relative: Different types of entities and activities are where a given 
+field stops when constructing mechanisms. The explanation comes to an 
+end, and description of lower-level mechanisms would be irrelevant to 
+their interests. Also, scientific training is often concentrated at or around 
+certain levels of mechanisms. Neurobiologists with different theoretical or 
+experimental interests bottom out in different types of entities and activ­
+ities. Some neurobiologists are primarily interested in behaviors of organ­
+isms, some are primarily interested in the activities of molecules composing 
+nerves cells, and others devote their attention to phenomena in between. 
+The fields of molecular biology and neurobiology, in 1999, do not typically 
+regress to the quantum level to talk about the activities of, e.g., chemical 
+bonding. Rarely are biologists driven by anomalies or any other reason 
+to go to such lower levels, although some problem might require it. Levels 
+below molecules and chemical bonding are not fundamental for the fields
+
+
+=== PAGE 14 ===
+
+14 PETER MACHAMER, LINDLEY DARDEN, AND CARL F. CRAVER 
+of molecular biology and molecular neurobiology. But remember, what is 
+considered the bottom out level may change. 
+In molecular biology and molecular neurobiology, hierarchies ofmech­
+anisms bottom out in descriptions of the activities of macromolecules, 
+smaller molecules, and ions. These are commonly recognized as bottom 
+out entities; we believe that we have identified the most important types 
+of bottom out activities. These bottom out activities in molecular biology 
+and molecular neurobiology can be categorized into four types: 
+(i) geometrico-mechanical; 
+(ii) electro-chemical; 
+(iii) energetic; 
+(iv) electro-magnetic. 
+(i) Geometrico-mechanical activities are those familiar from seven­
+teenth-century mechanical philosophy. They include fitting, turning, open­
+ing, colliding, bending, and pushing. The rotation of the alpha helix in the 
+sodium channel and the geometrical fitting of a neurotransmitter and a 
+post-synaptic receptor are examples of geometrico-mechanical activities. 
+(ii) Attracting, repelling, bonding, and breaking are electro-chemical 
+kinds of activity. Chemical bonding, such as the formation of strong co­
+valent bonds between amino acids in proteins, is a more specific example. 
+The lock and key docking of an enzyme and its substrate involves geo­
+metrical shape and mechanical stresses and chemical attractions. As we 
+will see, the historical development of the mechanism of protein synthesis 
+required finding an activity to order linearly the constituents of the pro­
+tein, its amino acids; an early idea using primarily geometrico-mechanical 
+activities was replaced by one involving, primarily, the weak electro­
+chemical activities of hydrogen bonding. 
+(iii) Energetic activities have thermodynamics as their source. A kind 
+of energetic activity involves simple diffusion of a substance, as, for ex­
+ample, when concentrations on different sides of a membrane lead to 
+movement of substances across the membrane. 
+(iv) Electro-magnetic activities are occasionally used to bottom out 
+mechanisms in these sciences. The conduction of electrical impulses by 
+nerve cells and the navigational mechanisms of certain marine species are 
+examples. 
+5.2. An Historical Aside. These categories of relatively fundamental ac­
+tivities suggest an historical strategy for examining the history of mecha­
+nisms. The discovery and individuation of different entities and activities 
+are important parts of scientific practice. In fact, much of the history of 
+science has been well written, albeit unwittingly, by tracing the discoveries 
+of new entities and activities that mark the changes in a discipline.
+
+
+=== PAGE 15 ===
+
+THINKING ABOUT MECHANISMS 15 
+The modern idea of explaining with mechanisms became current in the 
+seventeenth century when Galileo articulated a geometrico-mechanical 
+form of explanation based on Archimedes's simple machines (Machamer 
+1998). Soon an expanded version of this geometrico-mechanical way of 
+describing and thinking about the world became widespread across Eu­
+rope (and the New World) and was called the "mechanical philosophy." 
+In the eighteenth and nineteenth centuries, chemists and electricians 
+began to discover and describe other entities and activities that they took 
+as fundamental to the structure of the world, and so expanded the concept 
+of what could occur in mechanisms. The nineteenth century also saw an 
+emerging emphasis on the concept of energy and electromagnetism. These 
+different kinds of forces acting were new and different kinds of activities. 
+In every case, scientists were compelled to add new entities and new 
+forms of activity in order to better explain how the world works. To do 
+this they would postulate an entity or activity, present criteria for its iden­
+tification and recognition, and display the patterns by which these formed 
+a unity that constituted a mechanism. These became the new laws or ways 
+of working of the various sciences. Documenting such new entities and 
+activities allows us to map out the changes that become the substance of 
+the history of science. 
+This pastiche of history is a quick and simplistic way to show that the 
+discovery of different kinds of mechanisms with their kinds of entities and 
+different activities is an important part of scientific development. Contem­
+porary sciences such as neurobiology and molecular biology are in this 
+tradition and draw on the entities and activities made available through 
+some of these historical discoveries. 
+The history of these changes implies that what count as acceptable types 
+of entities, activities, and mechanisms change with time. At different his­
+torical moments, in different fields, different mechanisms, entities, and 
+activities have been discovered and accepted. The set of types of entities 
+and activities so far discovered likely is not complete. Further develop­
+ments in science wi111ead to the discovery of additional ones. 
+5.3. Mechanism Schemata and Sketches. Scientists do not always pro­
+vide complete descriptions of mechanisms at all levels in a nested hierar­
+chy. Also, they are typically interested in types of mechanisms, not all the 
+details needed to describe a specific instance of a mechanism. We introduce 
+the term "mechanism schema" for an abstract description of a type of 
+mechanism. A mechanism schema is a truncated abstract description of a 
+mechanism that can be filled with descriptions of known component parts 
+and activities. An example is represented in Watson's (1965) diagram of 
+the central dogma of molecular biology (see Figure 3). 
+Schemata exhibit varying degrees of abstraction, depending on how
+
+
+=== PAGE 16 ===
+
+16 PETER MACHAMER, LINDLEY DARDEN, AND CARL F. CRAVER 
+RNA ~ Protein 
+{\ TRANSCRIPTION 
+'- DNA .. 
+TRANSLATION 
+DUPLICATION 
+Figure 3. Watson's central dogma diagram (redrawn, based on Watson 1965). 
+much detail is included. Abstractions may be constructed by taking an 
+exemplary case or instance and removing detail. For example, a constant 
+can be made into a variable (Darden 1995). A particular DNA sequence 
+may be abstracted to any DNA sequence. Often, scientists use schema 
+terms, such as "transcription" and "translation," to capture compactly 
+many aspects of the underlying mechanism. These may be characterized 
+as activities in higher-level mechanisms. 
+Degrees of abstraction should not be confused with degrees of gener­
+ality or scope (Darden 1996). Abstraction is an issue of the amount of 
+detail included in the description of one or more mechanism instances. 
+The generality of a schema is the scope (small or large) of the domain in 
+which it can be instantiated. One can describe a single instance of a mech­
+anism more or less abstractly. Alternatively, the schema, at whatever de­
+gree of abstraction, may have a quite general scope. The schema for the 
+central dogma is nearly terrestrially universal, holding for most instances 
+of protein synthesis in most species. However, the schema for protein syn­
+thesis in some RNA viruses is just 
+RNA-+protein. 
+In other RNA retroviruses, it is 
+RNA-+DNA-+RNA-+protein. 
+These schemata are just as abstract as Watson's schema of the central 
+dogma (Figure 3) but they are much more limited in scope. 
+Neurobiologists and molecular biologists sometimes use the term "the­
+ory" to refer to hierarchically organized mechanism schemata of variable, 
+though generally less than universal, scope. Mechanism schemata, as well 
+as descriptions of particular mechanisms, play many of the roles attributed 
+to theories. They are discovered, evaluated, and revised in cycles as science
+
+
+=== PAGE 17 ===
+
+THINKING ABOUT MECHANISMS 17 
+proceeds. They are used to describe, predict, and explain phenomena, to 
+design experiments, and to interpret experimental results. 
+Thinking about mechanisms as composed of entities and activities pro­
+vides resources for thinking about strategies for scientific change. Known 
+types of entities and activities in a field provide the intelligible building 
+blocks from which to construct hypothesized mechanism schemata. If one 
+knows what kind of activity is needed to do something, then one seeks 
+kinds of entities that can do it, and vice versa. Scientists in the field often 
+recognize whether there are known types of entities and activities that can 
+possibly accomplish the hypothesized changes and whether there is em­
+pirical evidence that a possible schemata is plausible. 
+When instantiated, mechanism schemata yield mechanistic explana­
+tions of the phenomenon that the mechanism produces. For example, the 
+schema for the Na + channel depicted in Figure 2, when instantiated, can 
+be used to explain the depolarization of a specific nerve cell. Mechanism 
+schemata can also be specified to yield predictions. For example, the order 
+of the amino acids in a protein can be predicted from specification of the 
+central dogma schema that includes a specific order of DNA bases in its 
+coding region. Third, schemata provide "blueprints" for designing re­
+search protocols (Darden and Cook 1994). A technician can instantiate a 
+schema in an experiment by actually choosing physical instantiations of 
+each of the entities and the set-up conditions and letting the mechanism 
+work. While the mechanism is operating, the experimenter may intervene 
+to alter some part of the mechanism and observe the changes in a termi­
+nation condition or what the mechanism does. Changes produced by such 
+interventions can provide evidence for the hypothesized schema (Craver 
+and Darden forthcoming). 
+When a prediction made on the basis of a hypothesized mechanism 
+fails, then one has an anomaly and a number of responses are possible. If 
+the experiment was conducted properly and the anomaly is reproducible, 
+then perhaps something other than the hypothesized mechanism schema 
+is at fault, such as hypotheses about the set-up conditions. If the anomaly 
+cannot be resolved otherwise, then the hypothesized schema may need to 
+be revised. One might abandon the entire mechanism schema and propose 
+a new one. Alternatively, one can revise a portion of the failed schema. 
+Reasoning in the light of failed predictions involves, first, a diagnostic 
+process to isolate where the mechanism schema is failing, and, then, a 
+redesign process to change one or more entities or activities or stages to 
+improve the hypothesized schema (Darden 1991, 1995). 
+Mechanism schemata can be instantiated in biological wet-ware (as in 
+the experimental case discussed above) or represented in the hardware of 
+a machine. For example, a computational biologist can write an algorithm 
+that depicts the relations between the order of DNA bases, RNA bases,
+
+
+=== PAGE 18 ===
+
+18 PETER MACHAMER, LINDLEY DARDEN, AND CARL F. CRAVER 
+and amino acids in proteins. This algorithm represents the mechanism 
+schema of the central dogma. Yet the algorithm itself becomes an actual 
+mechanism of a very different kind when written in a programming lan­
+guage and instantiated in hardware that can run it as a simulation. 
+For epistemic purposes, a mechanism sketch may be contrasted with a 
+schema. A sketch is an abstraction for which bottom out entities and 
+activities cannot (yet) be supplied or which contains gaps in its stages. The 
+productive continuity from one stage to the next has missing pieces, black 
+boxes, which we do not yet know how to fill in. A sketch thus serves to 
+indicate what further work needs to be done in order to have a mechanism 
+schema. Sometimes a sketch has to be abandoned in the light of new 
+findings. In other cases it may become a schema, serving as an abstraction 
+that can be instantiated as needed for the tasks mentioned above, e.g., 
+explanation, prediction, and experimental design. 
+6. Case Study: Discovering the Mechanism of Protein Synthesis. The dis­
+covery of the mechanism of protein synthesis illustrates piecemeal discov­
+ery of a mechanism schema, with different components discovered by dif­
+ferent fields. It also emphasizes the importance of finding the activities, as 
+well as the entities, during mechanism discovery. 
+Prior to the discovery of messenger RNA (mRNA), biochemists and mo­
+lecular biologists proposed mechanisms for protein synthesis focusing on 
+different entities and activities. The contrasting mechanism schemata are 
+vividly illustrated in two diagrams (see Figure 4): one by Zamecnik, a bio­
+chemist, and the other by Watson, a molecular biologist. 
+Zamecnik's 1953 diagram focuses upon energy production (formation 
+of A TP) and the activation of amino acids prior to their incorporation 
+into the protein'S polypeptide chain. It depicts the micro somes (labeled 3 
+in the diagram) as the site of protein synthesis. (Microsomes were later 
+shown to be ribosomes associated with other cellular components; see 
+Zamecnik 1969, discussed in Rheinberger 1997.) This diagram clearly 
+lacks any step for ordering the amino acids as they are incorporated into 
+the protein. Although the nucleic acid RNA was known to be part of the 
+microsomes, Zamecnik does not explicitly represent any nucleic acids as 
+component entities of the mechanism. The biochemist's diagram is there­
+fore an incomplete sketch; it lacks crucial entities and, more importantly, 
+any reference to activities capable of ordering the amino acids.! 
+1. In a letter of December 8, 1999, Zamecnik recalls that they were aware of the need 
+to include a role for DNA, beginning in 1944, because of Avery's work. Sanger's pre­
+sentation in 1949 at the Cold Spring Harbor Symposium at which Zamecnik spoke 
+showed that protein sequences did not have simple repeats. Watson and Zamecnik were 
+discussing connections between their work, beginning with a visit in 1954 and subse­
+quent contacts. The role of RNA was also being considered as an intermediary because
+
+
+=== PAGE 19 ===
+
+THINKING ABOUT MECHANISMS 19 
+ZAMECNIK'S BIOCHEMICAL FLOW FOR PROTEIN SYNTHESIS, 1953 
+(I.) (2.) amino acid-Cl4 
+P..ucreatine - -, }~ 
+I (7J7JiJjj<31 
+e nzyme\ fro~ I05,OOOxg 1 
+supernatant 
+incorpora tion 
+WATSON'S FLOW OF INFORMATION, FEBRUARY 1954 
+dte"w;tll Utllll'cr"."titm. ~ 
+d'tlribtl.le - rib".,. 
+o 
+co"'pl,,.,,,,t 
+"'plicatit11f 
+Figure 4. Biochemical and molecular biological sketches for protein synthesis. (From Hor­
+ace Judson, The Eighth Day of Creation, expanded edition; © 1996 by Cold Spring Harbor 
+Press. Used by permission of CSHP, James Watson, and Paul Zamecnik.) 
+Watson's 1954 diagram exhibits the molecular biological focus on the 
+activities of the nucleic acids, DNA and RNA. It depicts an early, geo­
+metrico-mechanical schema for determining the order of the amino acids. 
+George Gamow (1954), a physicist, had proposed that proteins were syn­
+thesized directly on the DNA double helix by fitting into "holes" in the 
+helix (more technically, the major and minor grooves of the helix). Watson 
+was aware of biochemical evidence that proteins do not form directly on 
+DNA but instead are associated with RNA. Modifying Gamow's idea in 
+of work by others. He concludes with an apt metaphor showing how the two lines of 
+investigation were joined: "As in building a transcontinental railroad, one team starts 
+from San Francisco, and the other from the mid-continent. They are both conscious of 
+the way the compass is pointing, if they are to meet somewhere in the middle."
+
+
+=== PAGE 20 ===
+
+20 PETER MACHAMER, LINDLEY DARDEN, AND CARL F. CRAVER 
+light of this evidence, Watson proposed that RNA had "Gamow holes" 
+whose shapes were determined by the surrounding bases. Different amino 
+acids would then fit into different holes. The ordering of the RNA bases 
+determined the shape of the sequential holes and, therefore, the ordering 
+of the amino acids (via a geometrico-mechanical activity). After amino 
+acids fell into the holes, adjacent amino acids would covalently bond (an 
+electro-chemical activity) to one another, forming the protein (discussed 
+in Watson 1962). 
+This geometrical "holes" schema was plausible: It provided entities and 
+activities that could produce the end product (the ordered amino acids in 
+the protein), and it was consistent with available evidence that RNA was 
+involved in the mechanism. However, evidence soon disproved this plau­
+sible schema. Although the DNA base sequences in different species were 
+very different, the base sequences of ribosomal RNA (where most RNA 
+was concentrated) were very similar across species (Belozersky and Spirin 
+1958, discussed in Crick 1959). If ribosomes were similar from species to 
+species, then it was unlikely that they had sufficiently differently shaped 
+holes to produce the different orderings of amino acids in different pro­
+teins. 
+Thus, both the biochemical and molecular biological schemata proved 
+problematic. Although the biochemical schema clearly indicated the 
+source of energy for the formation of covalent bonds (ATP) and identified 
+microsomes as the site of protein synthesis, it had no activity to order the 
+amino acids. The hypothesized molecular biological mechanism proved to 
+be wrong because the ordering of amino acids is not accomplished by 
+geometrically arranging them in holes in RNA. Additional theoretical and 
+empirical work was required to discover the additional entities and activ­
+ities necessary for protein synthesis. These include transfer RNAs (Crick 
+1958), which deliver each of the 20 amino acids to the ribosome, and 
+messenger RNA. Messenger RNA is the linear copy of DNA that provides 
+the ordering of the amino acids via the activity of hydrogen bonding be­
+tween its bases and the complementary ones in the transfer RNAs. The 
+ribosome turned out to be the non-specific site where mRNA and transfer 
+RNAs come together to properly orient the amino acids in space for co­
+valent bonding in the proper order. (For more on the discovery of transfer 
+and messenger RNA, see Judson 1996, Morange 1998, Olby 1970, Rhein­
+berger 1997). The discovery of the mechanism of protein synthesis re­
+quired entities and activities from both fields to correct and elaborate 
+hypotheses about the RNA stage of the mechanism and to find the ap­
+propriate activity, hydrogen bonding, for ordering amino acids during 
+protein synthesis. 
+The theories in the field of molecular biology can be viewed as sets of 
+mechanism schemata. The primary ones are DNA replication, the mech-
+
+
+=== PAGE 21 ===
+
+THINKING ABOUT MECHANISMS 21 
+anism of protein synthesis, and the many mechanisms of gene regulation. 
+A complete history of their development would emphasize the importance 
+of the discovery of weak chemical bonding by Linus Pauling and the criti­
+cal role of this activity in these discoveries by Francis Crick (1988, 1996) 
+and others. Thus, descriptively adequate historical accounts need to dis­
+cuss the discovery of new kinds of activities, such as hydrogen bonding, 
+as well as the discovery of new entities (which is where the focus usually 
+lies). This example also illustrates how thinking about a kind of activity 
+can guide the construction of a mechanism, when Crick reasoned that 
+nucleic acid bases were particularly suited to hydrogen bonding and used 
+that activity to postulate transfer RNAs and their action. Further, the 
+example shows how incomplete sketches point to black boxes that need 
+to be filled and how incorrect schemata can be changed by substituting 
+another kind of activity. Explicit knowledge of kinds of activities is thus 
+crucial when resolving anomalies and constructing new mechanisms. 
+7. Activities, Intelligibility, and Explanation (Epistemic Adequacy). Yet an­
+other justification (our third, along with the ontic and descriptive) for 
+thinking about mechanisms in terms of activities and entities is epistemic: 
+as we have illustrated, both are integral to giving mechanistic explana­
+tions. The contemporary mechanical world view, among other things, is 
+a conviction about how phenomena are to be understood. Activities are 
+essential for rendering phenomena intelligible (Machamer forthcoming). 
+The intelligibility consists in the mechanisms being portrayed in terms of 
+a field's bottom out entities and activities. 
+Let us briefly, and incompletely, sketch some of the implications of this 
+claim. The understanding provided by a mechanistic explanation may be 
+correct or incorrect. Either way, the explanation renders a phenomenon 
+intelligible. Mechanism descriptions show how possibly, how plausibly, or 
+how actually things work. Intelligibility arises not from an explanation's 
+correctness, but rather from an elucidative relation between the explanans 
+(the set-up conditions and intermediate entities and activities) and the ex­
+planandum (the termination condition or the phenomenon to be ex­
+plained). Protein synthesis can be elucidated by reference to Gamow holes. 
+The ability of nerves to conduct signals can be rendered intelligible by 
+reference to their internal vibrations. Neither of these explanations is cor­
+rect; yet each provides intelligibility by showing how the phenomena might 
+possibly be produced. 
+We should not be tempted to follow Bume and later logical empiricists 
+into thinking that the intelligibility of activities (or mechanisms) is reduc­
+ible to their regularity. Descriptions of mechanisms render the end stage 
+intelligible by showing how it is produced by bottom out entities and 
+activities. To explain is not merely to redescribe one regularity as a series
+
+
+=== PAGE 22 ===
+
+22 PETER MACHAMER, LINDLEY DARDEN, AND CARL F. CRAVER 
+of several. Rather, explanation involves revealing the productive relation. 
+It is the unwinding, bonding, and breaking that explain protein synthesis; 
+it is the binding, bending, and opening that explain the activity of Na + 
+channels. It is not the regularities that explain but the activities that sustain 
+the regularities. 
+This discussion brings us back to our four bottom out kinds of activi­
+ties: geometrico-mechanical, electro-chemical, electro-magnetic and ener­
+getic. These bottom out activities are quite general kinds of abstract means 
+of production that can fruitfully be applied in particular cases to explain 
+phenomena. (For a discussion of how this works in the case of balancing, 
+a geometrico-mechanical kind of activity, see Machamer and Woody 
+1994.) Mechanistic explanation in neurobiology and molecular biology 
+involves showing or demonstrating that the phenomenon to be explained 
+is a product of one or more of these abstract and recurring types of activity 
+or the result of higher-level productive activities. 
+There is no logical story to be told about how these bottom out activ­
+ities, these kinds of production, come to inhabit a privileged explanatory 
+position. What is taken to be intelligible (and the different ways of making 
+things intelligible) changes over time as different fields within science bot­
+tom out their descriptions of mechanisms in different entities and activities 
+that are taken as, or have come to be, unproblematic. This suggests quite 
+plausibly that intelligibility is historically constituted and disciplinarily 
+relative (which is nonetheless consistent with there being universal general 
+characteristics of intelligibility). 
+We also believe it to be likely, although we cannot argue for it here, 
+that what we take to be intelligible is a product of the ontogenic and 
+phylogenetic development of human beings in a world such as ours. 
+Briefly, sight is an important source for what we take to be intelligible; we 
+directly see many activities, such as movement and collision (Cutting 1986, 
+Schaffner 1993). But seeing is not our only means of access to activities. 
+Importantly, our kinesthetic and proprioceptive senses also provide us 
+with experience of activities, e.g., pushing, pulling, and rotating. Emo­
+tional experiences also are likely experiential grounds of intelligibility for 
+activities of attraction, repulsion, hydrophobicity, and hydrophilicity. 
+These activities give meanings that are then extended to areas beyond 
+primitive sense perception. The use of basic perceptual verbs, such as "see" 
+or "show," are extended to wider forms of intelligibility, such as proof or 
+demonstration. 
+Intelligibility, at least in molecular biology and neurobiology, is pro­
+vided by descriptions of mechanisms, that is, through the elaboration of 
+constituent entities and activities that, by an extension of sensory experi­
+ence with ways of working, provide an understanding of how some phe­
+nomenon is produced.
+
+
+=== PAGE 23 ===
+
+THINKING ABOUT MECHANISMS 23 
+8. Reduction. Philosophical discussions of reduction have attempted to 
+shed light on issues in ontology, scientific change, and explanation. Be­
+cause we have introduced the notion of relative bottoming out, we do not 
+address issues about ultimate ontology. Instead, our focus, vis-a-vis re­
+duction, is on scientific change and explanation. 
+Models of reduction, including deductive models (e.g., Nagel 1961, 
+Schaffner 1993), have been claimed to be ways to characterize scientific 
+change and scientific explanation. These models do not fit neuroscience 
+and molecular biology. Instead, we suggest the language of mechanisms. 
+Theory change in neuroscience and molecular biology is most accu­
+rately characterized in terms of the gradual and piecemeal construction, 
+evaluation and revision of multi-level mechanism schemata (Craver 1998, 
+Craver and Darden forthcoming). Elimination or replacement should be 
+understood in terms of the reconceptualization or abandonment of the 
+phenomenon to be explained, of a proposed mechanism schema, or of its 
+purported components. This contrasts with the static two-place relations 
+between different theories (or levels) and with the case oflogical deduction. 
+Deductive models have also been taken to provide an analysis of ex­
+planation, with lower levels explaining higher levels through the identifi­
+cation of terms and the derivation of the higher-level laws from the lower­
+level (for the details, see Schaffner 1993). Aside from the fact that 
+identification and derivation are peripheral to the examples we have dis­
+cussed (as Schaffner admits), this model cannot accommodate the preva­
+lent multi-level character of explanations in our sciences. In these cases, 
+entities and activities at multiple levels are required to make the expla­
+nation intelligible. The entities and activities in the mechanism must be un­
+derstood in their important, vital, or otherwise significant context, and this 
+requires an understanding of the working of the mechanism at multiple lev­
+els. The activity of the N a + channel cannot be properly understood in iso­
+lation from its role in the generation of action potentials, the release of neu­
+rotransmitters, and the transmission of signals from neuron to neuron. 
+Higher-level entities and activities are thus essential to the intelligibility of 
+those at lower levels, just as much as those at lower levels are essential for 
+understanding those at higher levels. It is the integration of different levels 
+into productive relations that renders the phenomenon intelligible and 
+thereby explains it. 
+9. Conclusion. Thinking about mechanisms gives a better way to think 
+about one's ontic commitments. Thinking about mechanisms offers an 
+interesting and good way to look at the history of science. Thinking about 
+mechanisms provides a descriptively adequate way of talking about sci­
+ence and scientific discovery. Thinking about mechanisms presages new 
+ways to handle some important philosophical concepts and problems. In
+
+
+=== PAGE 24 ===
+
+24 PETER MACHAMER, LINDLEY DARDEN, AND CARL F. CRAVER 
+fact, if one does not think about mechanisms, one cannot understand 
+neurobiology and molecular biology. 
+REFERENCES 
+Anscombe, Gertrude Elizabeth Margaret ([1971]1981), "Causality and Determination", in 
+Metaphysics and the Philosophy of Mind, The Collected Philosophical Papers ofG. E. M. 
+Anscombe, v. 2. Minneapolis: University of Minnesota Press, 133-147. 
+Bechtel, William and Robert C. Richardson (1993), Discovering Complexity: Decomposition 
+and Localization as Strategies in Scientific Research. Princeton: Princeton University 
+Press. 
+Belozersky, Andrei N. and Alexander S. Spirin (1958), "A Correlation between the Com­
+positions of Deoxyribonucleic and Ribonucleic Acids", Nature 182: 111-112. 
+Brandon, Robert (1985), "Grene on Mechanism and Reductionism: More Than Just a Side 
+Issue", in Peter Asquith and Philip Kitcher (eds.), PSA 1984, v. 2. East Lansing, MI: 
+Philosophy of Science Association, 345-353. 
+Burian, Richard M. (1996), "Underappreciated Pathways Toward Molecular Genetics as 
+Illustrated by Jean Brachet's Cytochemical Embryology", in Sahotra Sarkar (ed.), The 
+Philosophy and History of Molecular Biology: New Perspectives. Dordrecht: Kluwer, 
+671-85. 
+Cartwright, Nancy (1989), Nature's Capacities and Their Measurement. Oxford: Oxford Uni­
+versity Press. 
+Craver, Carl F. (1998), Neural Mechanisms: On the Structure, Function, and Development of 
+Theories in Neurobiology. Ph.D. Dissertation. Pittsburgh, PA: University of Pittsburgh. 
+---. (under review), "Functions, Mechanisms, and Hierarchy in Contemporary Neu­
+robiology". 
+Craver, Carl F. and Lindley Darden (forthcoming), "Discovering Mechanisms in Neuro­
+biology: The Case of Spatial Memory", in Peter Machamer, R. Grush, and 
+P. McLaughlin (eds.), Theory and Method in the Neurosciences. Pittsburgh: University 
+of Pittsburgh Press. 
+Crick, Francis (1958), "On Protein Synthesis", Symposium of the Society of Experimental 
+Biology 12: 138-167. 
+---. (1959), "The Present Position of the Coding Problem", Structure and Function of 
+Genetic Elements: Brookhaven Symposia in Biology 12: 35-39. 
+---. (1988), What Mad Pursuit: A Personal View of Scientific Discovery. New York: 
+Basic Books. 
+---. (1996), "The Impact of Linus Pauling on Molecular Biology", in Ramesh S. Krish­
+namurthy (ed.), The Pauling Symposium: A Discourse on the Art of Biography. Corvallis, 
+OR: Oregon State University Libraries Special Collections, 3-18. 
+Cutting, James E. (1986), Perception with an Eyefor Motion. Cambridge, MA: MIT Press. 
+Darden, Lindley (1991), Theory Change in Science: Strategies from Mendelian Genetics. New 
+York: Oxford University Press. 
+---. (1995), "Exemplars, Abstractions, and Anomalies: Representations and Theory 
+Change in Mendelian and Molecular Genetics", in James G. Lennox and Gereon Wol­
+ters (eds.), Concepts, Theories, and Rationality in the Biological Sciences. Pittsburgh: 
+University of Pittsburgh Press, 137-158. 
+---. (1996), "Generalizations in Biology: Essay Review of K. Schaffner's Discovery and 
+Explanation in Biology and Medicine", Studies in History and Philosophy of Science 27: 
+409-419. 
+Darden, Lindley and Michael Cook (1994), "Reasoning Strategies in Molecular Biology: 
+Abstractions, Scans and Anomalies", in David Hull, Micky Forbes, and Richard M. 
+Burian (eds.), PSA 1994, v. 2. East Lansing, MI: Philosophy of Science Association, 
+179-191. 
+Gamow, George (1954), "Possible Relation between Deoxyribonucleic Acid and Protein 
+Structures", Nature 173: 318. 
+Glennan, Stuart S. (1992), Mechanisms, Models, and Causation. Ph.D. Dissertation. Chicago, 
+IL: University of Chicago.
+
+
+=== PAGE 25 ===
+
+THINKING ABOUT MECHANISMS 25 
+(1996), "Mechanisms and The Nature of Causation", Erkenntnis 44: 49-71, 
+Hall, Zach W. (ed.) (1992), An Introduction to Molecular Neurohiology. Sunderland, MA: 
+Sinauer Associates. 
+Judson, Horace F. (1996), The Eighth Day of Creation: The Makers of the Revolulion in 
+Biology. Expanded Edition. Cold Spring Harbor, NY: Cold Spring Harbor Laboratory 
+Press. 
+Kauffman, Stuart A. (1971), "Articulation of Parts Explanation in Biology and the Rational 
+Search for Them", in Roger C. Buck and Robert S. Cohen (eds.), PSA 1970. Dordrecht: 
+ReideL 257 272. 
+Machamer, Peter (1998), "Galileo's Machines, His Mathematics and His Experiments", in 
+Peter Machamer (ed.), Camhridge Companion to Ga1i1eo. New York: Cambridge Uni­
+versity Press, 27-52. 
+(forthcoming), "The Nature of Metaphor and Scientific Descriptions", in Fernand 
+Hallyn (ed.), Ivlelaphor allil Modcls in Science. Dordrecht: Khmer. 
+Machamer, Peter and Andrea Woody (1994), "A Model of Intelligibility in Science: Using 
+Galileo's Balance as a Model for Understanding the Motion of Bodies", Science and 
+Education 3: 215 244. 
+Mackie, John Leslie (1974), The Cellleni of the Universe: A Siudy 0/ Causation. Oxford: 
+Oxford University Press. 
+Morange, Michel (1998), A History of Molecular Biology. Translated by Matthew Cobb. 
+Cambridge, MA: Harvard University Press. 
+Nagel, Ernest (1961), The Structure of Science. New York: Harcourt, Brace and World. 
+Olby, Robert (1970), "Francis Crick, DNA, and the Central Dogma", in Gerald Holton 
+(ed.), The Twentieth Ccntury Sciences. New York: W. W. Norton, 227-280. 
+Rescher, Nicholas (1996), Process Metaphysics: An Introduction to Process Philosophy. Al­
+bany, NY: State University of New York Press. 
+Rheinberger, Hans-Jarg (1997), E;-.:perilllelltal Systems: TOll'ards a History 0/ L/Jislelllic 
+Things. Syllthesi::ing Proleins ill the Test Tuhe. Stanford: Stanford University Press. 
+Salmon, Wesley (1984) Scientific Ecplmwtion and the Causal Structure oOhe World. Prince­
+ton: Princeton University Press. 
+(1997), "Causality and Explanation: A Reply to Two Critiques", Philosophy of 
+Science 64: 461- 477. 
+---, (1998), Causality and Explanation. New York: Oxford University Press. 
+Schaffner, Kenneth (1993), Discovery and Explanation in Biology and Medicine. Chicago: 
+University of Chicago Press. 
+Shepherd, Gordon M, (1988), Neurohiology, 2nd ed. New York: Oxford University Press. 
+Watson, James D. ([1962] 1977), "The Involvement of RNA in the Synthesis of Proteins", 
+in Nobel Lectures in Molecular Biology 1933 1975. New York: Elsevier. 179 203. 
+(1965) Molecular Biology o{tlze Gene. New York: W. A. Benjamin. 
+Wimsatt, William (1972), "Complexity and Organization", in Kenneth F. Schaffner and 
+Robert S. Cohen (eds.), PSA j972, Proceeding.l· olthe Philosophy o/Science Association. 
+Dordrecht: Reidel, 67-86. 
+---, (1976), "Reductive Explanation: A hmctional Account", in Robert S. Cohen (ed.), 
+PSA 1974. Dordrecht: Reidel, 671-710. Reprinted in Elliott Sober (ed.) (1984), Con­
+ceptual Issues in Evolutionary Billlogr: An Anthology, 1st ed. Cambridge, M A: MIT 
+Press, 477-508. 
+Zamecnik, Paul C. (1969), "An Historical Account of Protein Synthesis, With Current Over­
+tones -A Personalized View", Cold Spring Harhor Symposia on Quantitative Biology 
+34: 1-16,

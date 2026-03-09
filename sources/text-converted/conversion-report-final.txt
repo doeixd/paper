@@ -1,4 +1,5 @@
-Converted: 70
+Converted: 73
+  OK   3027PutnamPsychPredicates.pdf -> 3027PutnamPsychPredicates.txt
   OK   Ando A Simon Aggragation of variables in dynamic systems - Econometrica  1961-04_ Vol 29 Iss 2  -  ISSN 0012-9682, Volume 29, Issue 2, 1961-04  -  Blackwell Publishing Ltd_  -  00129682.pdf -> Ando A Simon Aggragation of variables in dynamic systems - E__4803dfc853.txt
   OK   ayvazov.pdf -> ayvazov.txt
   OK   baggio_parravicini_2019.pdf -> baggio_parravicini_2019.txt
@@ -24,10 +25,12 @@ Converted: 70
   OK   Emperor's new markov blankets.pdf -> Emperor's new markov blankets.txt
   OK   entropy-22-00889-v2.pdf -> entropy-22-00889-v2.txt
   OK   Every Thing Must Go.pdf -> Every Thing Must Go.txt
+  OK   Fact, Fiction, and Forecast_ Fourth Edition -- Nelson Goodman, Hilary Putnam -- 4th ed_, Cambridge, Mass, Massachusetts, 1983 -- Harvard University, -- 9780674290709 -- 5f7a4bfb162b29f9fcc357ac9f99d2ea -- Anna’s .pdf -> Fact, Fiction, and Forecast_ Fourth Edition -- Nelson Goodma__66cb37b315.txt
   OK   Finite Markov Chains (university Series In Undergraduate -- by John G_ Kemeny and J_ Laurie Snell -- University series in undergraduate mathematics, -- 9780442043285 -- 8dd013a9fe35cc7f5e65cd7405c53002 -- Anna’s .pdf -> Finite Markov Chains (university Series In Undergraduate --__f9b5ada0c8.txt
   OK   Finite Markov Chains.pdf -> Finite Markov Chains.txt
   OK   Free Energy Pragmatics_ Markov blankets don’t prescribe objective ontology, and that’s okay.pdf -> Free Energy Pragmatics_ Markov blankets don’t prescribe objective ontology, and that’s okay.txt
   OK   Free Energy Principle.pdf -> Free Energy Principle.txt
+  OK   goodman_fact_fiction_and_forecast.pdf -> goodman_fact_fiction_and_forecast.txt
   OK   Having thought _ essays in the metaphysics of mind -- John Haugeland -- Cambridge, Mass, Massachusetts, 1998 -- Harvard University, Department of -- 9780674004153 -- 675a74737644d82e43cfed4277ec7914 -- Anna’s Arc.pdf -> Having thought _ essays in the metaphysics of mind -- John H__4ee8f9ff79.txt
   OK   Hierarchical Markov blankets and adaptive active inference.pdf -> Hierarchical Markov blankets and adaptive active inference.txt
   OK   HPC.pdf -> HPC.txt
@@ -69,9 +72,7 @@ Converted: 70
   OK   trueno.pdf -> trueno.txt
   OK   woodward2021.bib -> woodward2021.txt
   OK   zollman_-_communication_structure_revised_version.pdf -> zollman_-_communication_structure_revised_version.txt
-Failed (supported but not converted): 2
-  FAIL 3027PutnamPsychPredicates.pdf
-  FAIL goodman_fact_fiction_and_forecast.pdf
+Failed (supported but not converted): 0
 Unsupported format: 1
   UNSUPPORTED PredictiveMindreviewFINALVERSIONJuly2016.doc
 Already text in sources: 4

@@ -1,0 +1,10 @@
+https://www.tandfonline.com/loi/rajp20
+https://www.tandfonline.com/action/showCitFormats?doi=10.1080/00048402.2021.1941153
+https://doi.org/10.1080/00048402.2021.1941153
+https://www.tandfonline.com/action/authorSubmission?journalCode=rajp20&show=instructions
+https://www.tandfonline.com/action/authorSubmission?journalCode=rajp20&show=instructions
+https://www.tandfonline.com/doi/mlt/10.1080/00048402.2021.1941153
+https://www.tandfonline.com/doi/mlt/10.1080/00048402.2021.1941153
+http://crossmark.crossref.org/dialog/?doi=10.1080/00048402.2021.1941153&domain=pdf&date_stamp=2021-06-28
+http://crossmark.crossref.org/dialog/?doi=10.1080/00048402.2021.1941153&domain=pdf&date_stamp=2021-06-28
+https://www.tandfonline.com/action/journalInformation?journalCode=rajp20

@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{31}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -15,17 +15,26 @@ Ando A, Simon HA (1961) Aggregation of variables in dynamic systems.
   Econometrica 29(2):111--138. \doi{10.2307/1909285}
 
 \bibitem[{Cover and Thomas(2006)}]{cover2006}
-Cover TM, Thomas JA (2006) Elements of Information Theory, 2nd edn. Wiley.
+Cover TM, Thomas JA (2006) Elements of Information Theory, 2nd edn.
+  Wiley-Interscience, Hoboken, NJ.
 \newblock \doi{10.1002/047174882X}
+
+\bibitem[{Craver(2007)}]{craver2007}
+Craver CF (2007) Explaining the Brain: Mechanisms and the Mosaic Unity of
+  Neuroscience. Oxford University Press, Oxford.
+\newblock \doi{10.1093/acprof:oso/9780199299317.001.0001}
 
 \bibitem[{Dennett(1991)}]{dennett1991}
 Dennett DC (1991) Real patterns. The Journal of Philosophy 88(1):27--51.
   \doi{10.2307/2027085}
 
+\bibitem[{Dewhurst(2021)}]{dewhurst2021}
+Dewhurst J (2021) Causal emergence from effective information: Neither causal
+  nor emergent? Thought: A Journal of Philosophy 10(3):158--168.
+  \doi{10.1002/tht3.489}
+
 \bibitem[{Elgin(2017)}]{elgin2017}
-Elgin CZ (2017) From knowledge to understanding. In: True Enough. MIT Press, p
-  33--62.
-\newblock \doi{10.7551/mitpress/9780262036535.003.0003}
+Elgin CZ (2017) True Enough. MIT Press, Cambridge, MA
 
 \bibitem[{Fodor(1974)}]{fodor1974}
 Fodor JA (1974) Special sciences (or: {T}he disunity of science as a working
@@ -36,13 +45,14 @@ G{\l}adziejewski P (2025) Real patterns, the predictive mind, and the cognitive
   construction of the manifest image. Synthese 206:225.
   \doi{10.1007/s11229-025-05311-0}
 
-\bibitem[{Goodman(1955)}]{goodman1955}
-Goodman N (1955) Fact, Fiction, and Forecast. Harvard University Press,
-  Cambridge, MA
+\bibitem[{Goodman(1983)}]{goodman1955}
+Goodman N (1983) Fact, Fiction, and Forecast, 4th edn. Harvard University
+  Press, Cambridge, MA.
+\newblock Originally published 1955
 
 \bibitem[{Haugeland(1998)}]{haugeland1998}
 Haugeland J (1998) Having Thought: Essays in the Metaphysics of Mind. Harvard
-  University Press
+  University Press, Cambridge, MA
 
 \bibitem[{Hoel et~al.(2013)Hoel, Albantakis, and Tononi}]{hoel2013}
 Hoel EP, Albantakis L, Tononi G (2013) Quantifying causal emergence shows that
@@ -50,28 +60,38 @@ Hoel EP, Albantakis L, Tononi G (2013) Quantifying causal emergence shows that
   110(49):19790--19795. \doi{10.1073/pnas.1314922110}
 
 \bibitem[{van Inwagen(1990)}]{vaninwagen1990}
-van Inwagen P (1990) Material Beings. Cornell University Press
+van Inwagen P (1990) Material Beings. Cornell University Press, Ithaca, NY
 
 \bibitem[{Kemeny and Snell(1960)}]{kemeny1960}
-Kemeny JG, Snell JL (1960) Finite Markov Chains. Van Nostrand.
+Kemeny JG, Snell JL (1960) Finite Markov Chains. Van Nostrand, Princeton, NJ.
 \newblock Reprinted 1976, Springer
 
 \bibitem[{Kim(1998)}]{kim1998}
-Kim J (1998) Mind in a Physical World. MIT Press
+Kim J (1998) Mind in a Physical World. MIT Press, Cambridge, MA
 
 \bibitem[{Kim(2005)}]{kim2005}
-Kim J (2005) Physicalism, or Something Near Enough. Princeton University Press
+Kim J (2005) Physicalism, or Something Near Enough. Princeton University Press,
+  Princeton, NJ
 
 \bibitem[{Ladyman and Ross(2007)}]{ladyman2007}
 Ladyman J, Ross D (2007) Every Thing Must Go: Metaphysics Naturalized. Oxford
-  University Press
+  University Press, Oxford
+
+\bibitem[{Landauer(1961)}]{landauer1961}
+Landauer R (1961) Irreversibility and heat generation in the computing process.
+  IBM Journal of Research and Development 5(3):183--191.
+  \doi{10.1147/rd.53.0183}
 
 \bibitem[{Lewis(1986)}]{lewis1986}
-Lewis D (1986) On the Plurality of Worlds. Blackwell
+Lewis D (1986) On the Plurality of Worlds. Blackwell, Oxford
 
-\bibitem[{Pearl(2000)}]{pearl2000}
-Pearl J (2000) Causality: Models, Reasoning, and Inference. Cambridge
-  University Press
+\bibitem[{Machamer et~al.(2000)Machamer, Darden, and Craver}]{machamer2000}
+Machamer P, Darden L, Craver CF (2000) Thinking about mechanisms. Philosophy of
+  Science 67(1):1--25. \doi{10.1086/392759}
+
+\bibitem[{Pearl(2009)}]{pearl2000}
+Pearl J (2009) Causality: Models, Reasoning, and Inference, 2nd edn. Cambridge
+  University Press, Cambridge
 
 \bibitem[{Putnam(1967)}]{putnam1967}
 Putnam H (1967) Psychological predicates. In: Capitan WH, Merrill DD (eds) Art,
@@ -93,12 +113,31 @@ Shalizi CR, Crutchfield JP (2001) Computational mechanics: Pattern and
 Shapiro LA (2000) Multiple realizations. The Journal of Philosophy
   97(12):635--654. \doi{10.2307/2678460}
 
+\bibitem[{Simon(1962)}]{simon1962}
+Simon HA (1962) The architecture of complexity. Proceedings of the American
+  Philosophical Society 106(6):467--482. \doi{10.2307/985254}
+
+\bibitem[{Wimsatt(1981)}]{wimsatt1981}
+Wimsatt WC (1981) Robustness, reliability, and overdetermination. In: Brewer
+  MB, Collins BE (eds) Scientific Inquiry and the Social Sciences. Jossey-Bass,
+  San Francisco, p 124--163
+
+\bibitem[{Wimsatt(2000)}]{wimsatt2000}
+Wimsatt WC (2000) Emergence as non-aggregativity and the biases of
+  reductionisms. Foundations of Science 5(3):269--297.
+  \doi{10.1023/A:1011342202830}
+
 \bibitem[{Woodward(2003)}]{woodward2003}
 Woodward J (2003) Making Things Happen: A Theory of Causal Explanation. Oxford
-  University Press
+  University Press, Oxford
 
 \bibitem[{Woodward(2015)}]{woodward2015}
 Woodward J (2015) Methodology, ontology, and interventionism. Synthese
   192(11):3577--3599. \doi{10.1007/s11229-014-0479-1}
+
+\bibitem[{Woodward(2021)}]{woodward2021}
+Woodward J (2021) Causation with a Human Face: Normative Theory and Descriptive
+  Psychology. Oxford University Press, Oxford.
+\newblock \doi{10.1093/oso/9780197585412.001.0001}
 
 \end{thebibliography}
