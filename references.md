@@ -88,6 +88,8 @@ Conquest, Robert. 1990. *The great terror*. Oxford: Oxford University Press. ISB
 
 Cover, Thomas M., and Joy A. Thomas. 2006. *Elements of Information Theory*. 2nd ed. Hoboken, NJ: Wiley-Interscience. ISBN 978-0471241959. https://doi.org/10.1002/047174882X.
 
+Craver, Carl F. 2007. *Explaining the Brain: Mechanisms and the Mosaic Unity of Neuroscience*. Oxford: Oxford University Press. https://doi.org/10.1093/acprof:oso/9780199299317.001.0001.
+
 Davidson, Donald. 1986. "Truth and interpretation" In *Truth and Interpretation: Perspectives on the Philosophy of Donald Davidson*, edited by Ernest LePore, 307-319. Oxford: Basil Blackwell. ISBN 0-631-14811-6.
 
 Davidson, Donald. 2001. “A Coherence Theory of Truth and Knowledge.” In *A Coherence Theory of Truth and Knowledge*, edited by Ernest LePore, 137–158. Oxford: Clarendon Press. https://doi.org/10.1093/0198237537.003.0010.
@@ -254,6 +256,8 @@ Mac Lane, Saunders. 1994. *Categories for the Working Mathematician*. New York: 
 
 Mackie, J. L. 1991. *Ethics*. London: Penguin Books. ISBN 978-0140135589.
 
+Machamer, Peter, Lindley Darden, and Carl F. Craver. 2000. "Thinking about Mechanisms." *Philosophy of Science* 67(1): 1–25. https://doi.org/10.1086/392759.
+
 Mangalam, Madhur. 2025. "The Emperor's New Pseudo-Theory: How the Free Energy Principle Ransacked Neuroscience." Preprint. DOI: 10.31234/osf.io/azkgc. https://osf.io/azkgc.
 
 March, James G. 1978. "Bounded Rationality, Ambiguity, and the Engineering of Choice." *The Bell Journal of Economics* 9, no. 2: 587–608. https://doi.org/10.2307/3003600.
@@ -376,6 +380,8 @@ Shapiro, Lawrence A. 2000. "Multiple Realizations." *The Journal of Philosophy* 
 
 Shannon, Claude E. 1948. "A Mathematical Theory of Communication." *Bell System Technical Journal* 27(3): 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x.
 
+Simon, Herbert A. 1962. "The Architecture of Complexity." *Proceedings of the American Philosophical Society* 106(6): 467–482. https://doi.org/10.2307/985254.
+
 Sims, Matthew. 2023. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91(2): 430–48. https://doi.org/10.1017/psa.2023.104.
 
 Snow, John. 1855. *On the Mode of Communication of Cholera*. 2nd ed. London: John Churchill.
@@ -421,6 +427,10 @@ Van Inwagen, Peter. 1990. *Material Beings*. Ithaca, NY: Cornell University Pres
 Varley, Thomas F., and Erik Hoel. 2022. "Emergence as the conversion of information: a unifying theory." *Philosophical Transactions of the Royal Society A* 380(2227): 20210150. https://doi.org/10.1098/rsta.2021.0150.
 
 Watson, James D., and Francis H.C. Crick. 1953. "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid." *Nature* 171(4356): 737–738. https://doi.org/10.1038/171737a0.
+
+Wimsatt, William C. 1981. "Robustness, Reliability, and Overdetermination." In *Scientific Inquiry and the Social Sciences*, edited by Marilynn B. Brewer and Barry E. Collins, 124–163. San Francisco: Jossey-Bass.
+
+Wimsatt, William C. 2000. "Emergence as Non-Aggregativity and the Biases of Reductionisms." *Foundations of Science* 5(3): 269–297. https://doi.org/10.1023/A:1011342202830.
 
 Woodward, James. 2003. *Making Things Happen*. Oxford: Oxford University Press. ISBN 978-0195155273.
 
