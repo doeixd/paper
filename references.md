@@ -118,6 +118,8 @@ Foot, Philippa. 2001. *Natural Goodness*. Oxford: Clarendon Press. ISBN 978-0198
 
 Fricker, Elizabeth. 2006. *EPISTEMOLOGY OF TESTIMONY; ED. BY JENNIFER LACKEY.*. Oxford: Oxford University Press. ISBN 978-0199276011.
 
+French, Steven. 2014. *The Structure of the World: Metaphysics and Representation*. Oxford: Oxford University Press. https://doi.org/10.1093/acprof:oso/9780199684847.001.0001.
+
 Friston, Karl J., and Stefan Kiebel. 2009. "Predictive Coding under the Free-Energy Principle." *Philosophical Transactions of the Royal Society B: Biological Sciences* 364(1521): 1211–1221. https://doi.org/10.1098/rstb.2008.0300.
 
 Friston, Karl J., Thomas Parr, Conor Heins, Axel Constant, Daniel Friedman, Takuya Isomura, Chris Fields, Tim Verbelen, Maxwell Ramstead, John Clippinger, and Christopher Frith. 2025. "What the Flock Knows That the Birds Do Not: Exploring the Emergence of Joint Agency in Multi-Agent Active Inference." *arXiv* preprint arXiv:2511.10835. https://arxiv.org/abs/2511.10835.
