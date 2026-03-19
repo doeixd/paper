@@ -116,6 +116,8 @@ Fogel, Robert William, and Stanley L. Engerman. 1995. *Time on the Cross*. Bosto
 
 Foot, Philippa. 2001. *Natural Goodness*. Oxford: Clarendon Press. ISBN 978-0198235088. https://doi.org/10.1093/0198235089.001.0001.
 
+French, Steven, and James Ladyman. 2003. "Remodelling Structural Realism: Quantum Physics and the Metaphysics of Structure." *Synthese* 136(1): 31–56. https://doi.org/10.1023/A:1024156116636.
+
 Fricker, Elizabeth. 2006. *EPISTEMOLOGY OF TESTIMONY; ED. BY JENNIFER LACKEY.*. Oxford: Oxford University Press. ISBN 978-0199276011.
 
 French, Steven. 2014. *The Structure of the World: Metaphysics and Representation*. Oxford: Oxford University Press. https://doi.org/10.1093/acprof:oso/9780199684847.001.0001.
@@ -127,6 +129,8 @@ Friston, Karl J., Thomas Parr, Conor Heins, Axel Constant, Daniel Friedman, Taku
 Friston, Karl J. 2010. "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience* 11 (2): 127–138. https://doi.org/10.1038/nrn2787.
 
 Friston, Karl J. 2013. "Life as We Know It." *Journal of the Royal Society Interface* 10 (86): 20130475. https://doi.org/10.1098/rsif.2013.0475.
+
+Galavotti, Maria Carla. 2019. "Pragmatism and the Birth of Subjective Probability." *European Journal of Pragmatism and American Philosophy* 11(1). https://doi.org/10.4000/ejpap.1509.
 
 Gottlob Frege, Gottlob. 1884. *Die Grundlagen der Arithmetik: Eine logisch-mathematische Untersuchung über den Begriff der Zahl*. Breslau: Verlag von Wilhelm Koebner. Translated as *The Foundations of Arithmetic* by J.L. Austin (1950). Oxford: Blackwell.
 
@@ -183,6 +187,10 @@ Holling, C. S. 1973. "Resilience and Stability of Ecological Systems." *Annual R
 Hull, David L. 1988. *Science as a process*. Chicago: University of Chicago Press. ISBN 978-0226360508.
 
 Ingthorsson, Rögnvaldur D. 2013. "Properties: Qualities, Powers, or Both?" *Dialectica* 67, no. 1: 55–80. https://doi.org/10.1111/1746-8361.12011.
+
+Lin, Hanti. 2025. "Convergence to the Truth." In *The Blackwell Companion to Epistemology*, 3rd ed., edited by Kurt Sylvan, Ernest Sosa, Jonathan Dancy, and Matthias Steup. Hoboken, NJ: Wiley-Blackwell.
+
+Pils, Raimund. 2026. "Structural Realism in Quinean Philosophy." *Erkenntnis*. https://doi.org/10.1007/s10670-026-01065-4.
 
 William James, William. 1890. *The Principles of Psychology*. 2 vols. New York: Henry Holt and Company.
 
@@ -386,7 +394,7 @@ Simon, Herbert A. 1962. "The Architecture of Complexity." *Proceedings of the Am
 
 Sims, Matthew. 2023. "The Principle of Dynamic Holism: Guiding Methodology for Investigating Cognition in Nonneuronal Organisms." *Philosophy of Science* 91(2): 430–48. https://doi.org/10.1017/psa.2023.104.
 
-Snow, John. 1855. *On the Mode of Communication of Cholera*. 2nd ed. London: John Churchill.
+Snow, John. 1855. *On the Mode of Communication of Cholera*. 2nd ed., much enlarged. London: John Churchill, New Burlington Street.
 
 Snowden, Linda Trinkaus. 1995. *Naples in the Time of Cholera, 1884–1911*. Cambridge: Cambridge University Press. ISBN 978-0521570602. https://doi.org/10.1017/CBO9780511582233.
 
@@ -408,9 +416,9 @@ Tainter, Joseph A. 1990. *The Collapse of Complex Societies*. Cambridge: Cambrid
 
 Taleb, Nassim Nicholas. 2012. *Antifragile*. New York: Random House. ISBN 978-1400067824.
 
-Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä.
+Tauriainen, Teemu. 2017. "Quine on Truth." *The Philosophical Forum* 48(4): 397–416. https://doi.org/10.1111/phil.12170.
 
-Tauriainen, Teemu. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, University of Jyväskylä, Department of Social Sciences and Philosophy. https://urn.fi/URN:NBN:fi:jyu-201705312584.
+Tauriainen, Teemu Juhani. 2017. "Quine's Naturalistic Conception of Truth." Master's thesis, Department of Social Sciences and Philosophy, University of Jyväskylä. https://urn.fi/URN:NBN:fi:jyu-201705312584.
 
 Tauriainen, Teemu. 2022. "Quine's Conflicts with Truth Deflationism." *Asian Journal of Philosophy* 1 (46): 1–25. https://doi.org/10.1007/s44204-022-00047-x. ISSN 2731-6641.
 
@@ -444,11 +452,11 @@ World Bank. 2011. *World Development Report 2011*. Washington, DC: World Bank. I
 
 Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica* 43(1–2): 99–124. https://doi.org/10.1111/j.1746-8361.1989.tb00933.x.
 
-Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." *Proceedings of the Sixth International Congress of Genetics* 1: 356–66.
+Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." In *Proceedings of the Sixth International Congress of Genetics*, vol. 1, 356–66. Brooklyn, NY: Brooklyn Botanic Garden.
 
 Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind*. Cambridge: Cambridge University Press. ISBN 978-0521578264. https://doi.org/10.1017/CBO9781139174763.
 
-Zollman, Kevin J. S. 2009. "The Epistemic Benefit of Transient Diversity." *Erkenntnis* 72: 17–35. https://doi.org/10.1007/s10670-009-9194-6. ISSN 0165-0106.
+Zollman, Kevin J. S. 2010. "The Epistemic Benefit of Transient Diversity." *Erkenntnis* 72(1): 17–35. https://doi.org/10.1007/s10670-009-9194-6. ISSN 0165-0106.
 
 Zollman, Kevin J. S. 2013. "Network Epistemology: Communication in Epistemic Communities." *Philosophy Compass* 8(1): 15–27. https://doi.org/10.1111/j.1747-9991.2012.00534.x.
 

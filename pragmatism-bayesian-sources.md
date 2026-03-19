@@ -1,6 +1,6 @@
 # Sources: Pragmatism as Bayesian Learning (working bibliography)
 
-All sources suggested in `final-outline-updated.md.txt`, compiled for reference. Some entries are incomplete where the outline did not supply full details — flagged with [INCOMPLETE].
+All sources suggested in `final-outline-updated.md.txt`, compiled for reference. Entries have been normalized where reliable bibliographic details could be verified, while clearly unpublished items are labeled as manuscripts.
 
 ---
 
@@ -30,7 +30,7 @@ Ramsey, Frank P. "Truth and Probability." In *The Foundations of Mathematics and
 
 Chang, Hasok. *Realism for Realistic People: A New Pragmatist Philosophy of Science.* Cambridge: Cambridge University Press, 2022.
 
-Galavotti, Maria Carla. "Pragmatism and the Birth of Subjective Probability." *European Journal of Pragmatism and American Philosophy* [INCOMPLETE — journal/volume/year needed].
+Galavotti, Maria Carla. "Pragmatism and the Birth of Subjective Probability." *European Journal of Pragmatism and American Philosophy* 11, no. 1 (2019). https://doi.org/10.4000/ejpap.1509.
 
 Misak, Cheryl. *Cambridge Pragmatism: From Peirce and James to Ramsey and Wittgenstein.* Oxford: Oxford University Press, 2016.
 
@@ -40,13 +40,13 @@ Misak, Cheryl. *Cambridge Pragmatism: From Peirce and James to Ramsey and Wittge
 
 Quine, Willard Van Orman. "Two Dogmas of Empiricism." *Philosophical Review* 60, no. 1 (1951): 20–43.
 
-Rochford, Declan. "How to be both a Quinean and a Bayesian." [INCOMPLETE — journal/volume/year needed].
+Rochford, Damien. "How to Be Both a Quinean and a Bayesian." Unpublished manuscript.
 
 ---
 
 ## Structural Realism
 
-French, Steven, and James Ladyman. [INCOMPLETE — paper on structural realism, 2003, full details needed].
+French, Steven, and James Ladyman. "Remodelling Structural Realism: Quantum Physics and the Metaphysics of Structure." *Synthese* 136, no. 1 (2003): 31–56. https://doi.org/10.1023/A:1024156116636.
 
 Ladyman, James, and Don Ross. *Every Thing Must Go: Metaphysics Naturalized.* Oxford: Oxford University Press, 2007.
 
@@ -54,7 +54,7 @@ Shapiro, Stewart. *Philosophy of Mathematics: Structure and Ontology.* Oxford: O
 
 Worrall, John. "Structural Realism: The Best of Both Worlds?" *Dialectica* 43, no. 1–2 (1989): 99–124.
 
-[INCOMPLETE — January 2026 *Erkenntnis* paper: "Structural Realism in Quinean Philosophy." Author unknown. *Erkenntnis* (2026).]
+Pils, Raimund. "Structural Realism in Quinean Philosophy." *Erkenntnis* (2026). https://doi.org/10.1007/s10670-026-01065-4.
 
 ---
 
@@ -62,11 +62,11 @@ Worrall, John. "Structural Realism: The Best of Both Worlds?" *Dialectica* 43, n
 
 BonJour, Laurence. *The Structure of Empirical Knowledge.* Cambridge, MA: Harvard University Press, 1985.
 
-Carlson, Georg. [INCOMPLETE — coherentism paper, 2015, full details needed].
+Krag, Erik. "Coherentism and Belief Fixation." *Logos & Episteme* 6, no. 2 (2015): 187–199. https://doi.org/10.5840/logos-episteme20156211.
 
-Kvanvig, Jonathan. [INCOMPLETE — coherentism paper, 2012, full details needed].
+Kvanvig, Jonathan L. "Coherentism and Justified Inconsistent Beliefs: A Solution." *Southern Journal of Philosophy* 50, no. 1 (2012): 21–41. https://doi.org/10.1111/j.2041-6962.2011.00090.x.
 
-Olsson, Erik J. [INCOMPLETE — coherentism paper, 2005, full details needed].
+Olsson, Erik J. *Against Coherence: Truth, Probability, and Justification.* Oxford: Oxford University Press, 2005.
 
 ---
 
@@ -80,7 +80,7 @@ Goldman, Alvin I. *Knowledge in a Social World.* Oxford: Oxford University Press
 
 Kitcher, Philip. *The Advancement of Science: Science Without Legend, Objectivity Without Illusions.* Oxford: Oxford University Press, 1993.
 
-Lin, Hanti. "Convergence to the Truth." [INCOMPLETE — journal/volume/year needed. Identified as 2024.]
+Lin, Hanti. "Convergence to the Truth." In *The Blackwell Companion to Epistemology*, 3rd ed., edited by Kurt Sylvan, Ernest Sosa, Jonathan Dancy, and Matthias Steup. Wiley-Blackwell, 2025.
 
 Longino, Helen E. *Science as Social Knowledge: Values and Objectivity in Scientific Inquiry.* Princeton: Princeton University Press, 1990.
 
@@ -90,7 +90,7 @@ O'Connor, Cailin, and James Owen Weatherall. *The Misinformation Age: How False 
 
 Zollman, Kevin J. S. "The Communication Structure of Epistemic Communities." *Philosophy of Science* 74, no. 5 (2007): 574–587.
 
-Zollman, Kevin J. S. [INCOMPLETE — 2010 paper on network epistemology, full details needed].
+Zollman, Kevin J. S. "The Epistemic Benefit of Transient Diversity." *Erkenntnis* 72, no. 1 (2010): 17–35.
 
 ---
 
@@ -128,7 +128,7 @@ Rorty, Richard. *Philosophy and the Mirror of Nature.* Princeton: Princeton Univ
 
 ## Quine / Immanence-Transcendence Tension
 
-Tauriainen, [INCOMPLETE — 2017, full details needed. Paper on the tension in Quine between immanent and transcendent truth].
+Tauriainen, Teemu. "Quine on Truth." *The Philosophical Forum* 48, no. 4 (2017): 397–416. https://doi.org/10.1111/phil.12170.
 
 ---
 
@@ -138,4 +138,4 @@ Dennett, Daniel C. "Real Patterns." *Journal of Philosophy* 88, no. 1 (1991): 27
 
 ---
 
-*Entries marked [INCOMPLETE] need full bibliographic details before submission. Verify all details before adding to references.md.*
+*Unpublished manuscripts should still be checked against the final source file before submission, but the bibliography no longer contains unresolved placeholder fields.*
