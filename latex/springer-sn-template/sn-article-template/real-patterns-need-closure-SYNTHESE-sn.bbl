@@ -1,4 +1,4 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{39}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -9,6 +9,10 @@
 \bibitem[{Ainsworth(2009)}]{ainsworth2009}
 Ainsworth PM (2009) Newman's objection. The British Journal for the Philosophy
   of Science 60(1):135--171. \doi{10.1093/bjps/axn051}
+
+\bibitem[{Andersen(2025)}]{andersen2025}
+Andersen HK (2025) The density of structure. Synthese 206(5):237.
+  \doi{10.1007/s11229-025-05305-y}
 
 \bibitem[{Ando and Simon(1961)}]{ando1961}
 Ando A, Simon HA (1961) Aggregation of variables in dynamic systems.
@@ -33,12 +37,14 @@ Dewhurst J (2021) Causal emergence from effective information: Neither causal
   nor emergent? Thought: A Journal of Philosophy 10(3):158--168.
   \doi{10.1002/tht3.489}
 
-\bibitem[{Elgin(2017)}]{elgin2017}
-Elgin CZ (2017) True Enough. MIT Press, Cambridge, MA
-
 \bibitem[{Fodor(1974)}]{fodor1974}
 Fodor JA (1974) Special sciences (or: {T}he disunity of science as a working
   hypothesis). Synthese 28(2):97--115. \doi{10.1007/BF00485230}
+
+\bibitem[{Franklin and Robertson(2024)}]{franklinrobertson2024}
+Franklin A, Robertson K (2024) Emerging into the rainforest: Emergence and
+  special science ontology. European Journal for Philosophy of Science
+  14(4):90. \doi{10.1007/s13194-024-00622-4}
 
 \bibitem[{G{\l}adziejewski(2025)}]{gladziejewski2025}
 G{\l}adziejewski P (2025) Real patterns, the predictive mind, and the cognitive
@@ -62,6 +68,14 @@ Hoel EP, Albantakis L, Tononi G (2013) Quantifying causal emergence shows that
 \bibitem[{van Inwagen(1990)}]{vaninwagen1990}
 van Inwagen P (1990) Material Beings. Cornell University Press, Ithaca, NY
 
+\bibitem[{Jiang(2024)}]{jiang2024}
+Jiang Y (2024) The metaphysics of mechanisms: An ontic structural realist
+  perspective. Synthese 204:32. \doi{10.1007/s11229-024-04684-y}
+
+\bibitem[{Jiang(2025)}]{jiang2025}
+Jiang Y (2025) Biological object as real patterns: Reconciling processualism
+  and scientific realism. Synthese 206(4):185. \doi{10.1007/s11229-025-05285-z}
+
 \bibitem[{Kemeny and Snell(1960)}]{kemeny1960}
 Kemeny JG, Snell JL (1960) Finite Markov Chains. Van Nostrand, Princeton, NJ.
 \newblock Reprinted 1976, Springer
@@ -72,6 +86,16 @@ Kim J (1998) Mind in a Physical World. MIT Press, Cambridge, MA
 \bibitem[{Kim(2005)}]{kim2005}
 Kim J (2005) Physicalism, or Something Near Enough. Princeton University Press,
   Princeton, NJ
+
+\bibitem[{Ladyman(2024)}]{ladyman2024}
+Ladyman J (2024) Patterns all the way up: Prolegomena to a future naturalised
+  metaphysics. In: Millhouse T, Petersen S, Ross D (eds) Dennett's Real
+  Patterns in Science and Nature. MIT Press, Cambridge, MA.
+\newblock Preprint available via PhilSci-Archive
+
+\bibitem[{Ladyman and Lorenzetti(2024)}]{ladymanlorenzetti2024}
+Ladyman J, Lorenzetti L (2024) Effective ontic structural realism. The British
+  Journal for the Philosophy of Science \doi{10.1086/729061}
 
 \bibitem[{Ladyman and Ross(2007)}]{ladyman2007}
 Ladyman J, Ross D (2007) Every Thing Must Go: Metaphysics Naturalized. Oxford
@@ -89,6 +113,16 @@ Lewis D (1986) On the Plurality of Worlds. Blackwell, Oxford
 Machamer P, Darden L, Craver CF (2000) Thinking about mechanisms. Philosophy of
   Science 67(1):1--25. \doi{10.1086/392759}
 
+\bibitem[{Millhouse(2022)}]{millhouse2022}
+Millhouse T (2022) Really real patterns. Australasian Journal of Philosophy
+  100(4):664--678. \doi{10.1080/00048402.2021.1941153}
+
+\bibitem[{Millhouse et~al.(2026)Millhouse, Petersen, and
+  Ross}]{millhouseetal2026}
+Millhouse T, Petersen S, Ross D (eds)  (2026) Dennett's Real Patterns in
+  Science and Nature. MIT Press, Cambridge, MA.
+\newblock \doi{10.7551/mitpress/15550.001.0001}
+
 \bibitem[{Pearl(2009)}]{pearl2000}
 Pearl J (2009) Causality: Models, Reasoning, and Inference, 2nd edn. Cambridge
   University Press, Cambridge
@@ -102,7 +136,8 @@ Putnam H (1967) Psychological predicates. In: Capitan WH, Merrill DD (eds) Art,
 Rosas FE, Geiger BC, Luppi AI, Seth AK, Polani D, Gastpar M, Mediano PAM (2024)
   Software in the natural world: A computational approach to hierarchical
   emergence. arXiv preprint arXiv:2402.09090.
-\newblock \urlprefix\url{https://arxiv.org/abs/2402.09090}
+\newblock \doi{10.48550/arXiv.2402.09090},
+  \urlprefix\url{https://arxiv.org/abs/2402.09090}
 
 \bibitem[{Shalizi and Crutchfield(2001)}]{shalizi2001}
 Shalizi CR, Crutchfield JP (2001) Computational mechanics: Pattern and
@@ -116,6 +151,11 @@ Shapiro LA (2000) Multiple realizations. The Journal of Philosophy
 \bibitem[{Simon(1962)}]{simon1962}
 Simon HA (1962) The architecture of complexity. Proceedings of the American
   Philosophical Society 106(6):467--482. \doi{10.2307/985254}
+
+\bibitem[{Wallace(2024)}]{wallace2024}
+Wallace D (2024) Real patterns in physics and beyond.
+\newblock \urlprefix\url{https://philsci-archive.pitt.edu/id/eprint/23888/},
+  preprint
 
 \bibitem[{Wimsatt(1981)}]{wimsatt1981}
 Wimsatt WC (1981) Robustness, reliability, and overdetermination. In: Brewer
