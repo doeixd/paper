@@ -1,0 +1,1340 @@
+[Source note: this file was converted from a DOCX preprint. Stable source page numbers are not preserved in the DOCX export, so this transcription does not include page markers.]
+Biological Object as Real Patterns: Reconciling Processualism and
+Scientific Realism[1]
+
+Yihan Jiang,
+
+Institute of Philosophy, Chinese Academy of sciences (CASIP)
+
+Abstract
+
+In recent years, the philosophy of biology has undergone a significant
+shift known as the ‘processual turn,’ largely influenced by the works of
+John Dupré and his collaborators (Dupré, 2013, 2020; Nicholson and
+Dupré, 2018; Nicholson, 2019). Processualism argues that dynamic
+processes, rather than static objects, form the fundamental ontology of
+biological reality. This perspective, however, appears to be in tension
+with scientific realism, at least in its standard form, which is
+committed to the existence of discrete, mind-independent entities as
+posited in scientific theories. To reconcile these perspectives, I
+propose that effective realism, particularly the framework based on the
+real pattern account (Ladyman and Ross 2007; Wallace 2010), offers a
+promising solution. According to this account, real patterns are defined
+by their utility—they are patterns that are indispensable for
+formulating useful generalizations, enabling us to explain and predict
+phenomena efficiently. These patterns are objective features of the
+world, but their recognition depends on the stance or perspective we
+adopt, which is shaped by our explanatory purposes and cognitive tools.
+By understanding biological objects as patterns of processes—stable,
+emergent features within the dynamic flux of underlying processes—we can
+maintain a (minimal) realist commitment to the entities posited by
+scientific theories without abandoning the processualist ontology.
+Drawing on the real pattern account, I argue that interpreting objects
+as patterns of processes resolves the tension between processualism and
+scientific realism, affirming the reality of biological objects while
+preserving the primacy of processes. Meanwhile, this paper extends the
+application of the ​real patterns framework​ by demonstrating its utility
+in addressing specific challenges in the philosophy of biology. In doing
+so, it highlights how this Dennettian legacy continues to profoundly
+enhance our understanding of the fundamental reality revealed by the
+sciences.
+
+Key Words
+
+Processualism; Scientific Realism; Real Patterns; Philosophy of Biology;
+Metaphysics
+
+Introduction
+
+In recent years, the philosophy of biology has undergone a significant
+shift known as the ‘processual turn,’ largely influenced by the works of
+John Dupré and his collaborators (Dupré, 2013, 2020; Nicholson and
+Dupré, 2018; Nicholson, 2019). This emerging perspective challenges the
+traditional ontological framework that prioritizes discrete entities
+with intrinsic properties (e.g., Psillos 1999; Chakravartty 2007;
+2017a)[2]. Instead, it posits that the ontology of biology should be
+grounded in dynamic processes that unfold over temporal durations. This
+processual approach emphasizes the fluid, interactive, and dynamic
+nature of biological phenomena.
+
+The processual turn has garnered considerable support among philosophers
+of biology and biologists alike, who recognize its potential to address
+longstanding conceptual limitations in the field. By shifting the focus
+from static entities to dynamic processes, this framework provides a
+more accurate representation of biological reality, which is inherently
+characterized by change, interdependence, and temporal development. As a
+result, the processual approach is increasingly regarded as a
+paradigmatic framework within the philosophy of biology, with the
+potential to reshape how biological phenomena are conceptualized and
+studied.
+
+Despite its growing influence, the revolutionary nature of processualism
+necessitates significant philosophical work to establish its
+compatibility with widely accepted views in the philosophy of science.
+One of the most pressing challenges in this regard is its apparent
+tension with scientific realism. This tension arises because biological
+theories are predominantly framed in object-oriented terms, positing
+entities such as DNA, cells, and viruses. Scientific realism, in its
+standard form, asserts that our scientific theories (approximately)
+describe the mind-independent, objective world as it truly is. This view
+takes scientific statements at ‘face value,’ maintaining that the
+entities posited by scientific theories refer to real, mind-independent
+objects ‘out there’ in the world. The metaphysical picture endorsed by
+scientific realists is typically object-oriented. For example, Psillos
+(1999, 2001) argues that ‘the world we live in (and science cares about)
+is made of individuals, properties, and their relations’ (2001, S23; see
+also Franklin and Robertson 2024)[3]. The primary rationale for
+scientific realism stems from the need to explain the success of
+science. It is argued that the ability of scientific theories to make
+accurate novel predictions and guide technological advancements requires
+an explanation, and the best explanation is that these theories are true
+descriptions of the world (Putnam 1975; Chakravartty 2017b).
+
+Given the object-oriented ontology that underpins scientific realism,
+which appears to conflict with processualism’s emphasis on dynamic
+processes, a critical question arises: Can processualism reconcile its
+commitments with scientific realism? Specifically, can it maintain
+realism about scientific theories and their posited entities, thereby
+explaining the success of science? Without a satisfactory answer,
+processualism risks being perceived as less appealing or even
+incompatible with the empirical and explanatory successes of scientific
+practice. One might argue that a realist stance toward biological
+objects presupposes an ontology in which objects exist independently and
+primitively, possessing intrinsic properties—a view seemingly at odds
+with processualism’s dynamic framework. This apparent incompatibility
+could lead to the conclusion that processualism cannot align with
+scientific realism.
+
+However, I argue that this dichotomy is false. It is not necessarily the
+case that realism about objects requires an ontologically ‘thick’
+interpretation, where objects are understood as independent, primitive
+entities with intrinsic properties. Instead, the reality of objects can
+be understood in functionalist terms. Drawing on Dennett’s real patterns
+account (1991), many philosophers have argued that objects can be
+conceptualized as patterns, and the reality of such patterns depends on
+their usefulness in explaining and predicting phenomena (e.g., Wallace
+2010). Building on this insight, I propose that processualism can adopt
+a scientific realist stance by reinterpreting objects as stable, real
+patterns emerging from underlying dynamic processes. This approach
+allows processualism to affirm the reality of scientific entities
+without committing to an object-oriented ontology, thereby reconciling
+its processual framework with the explanatory success of science. By
+understanding objects as patterns of processes, processualism can
+maintain its commitment to dynamism while accommodating the realist
+intuition that scientific theories accurately describe a
+mind-independent reality.
+
+This synthesis offers three significant advantages. ​First, it resolves
+the tension between processualism and scientific realism, strengthening
+processualism’s position as a viable framework in the philosophy of
+biology. By providing a processualist account that aligns with
+scientific realism, it demonstrates how processualism can engage more
+effectively with the ontological commitments of contemporary science.
+​Second, it offers a valuable contribution to those committed to
+scientific realism by presenting a view that better aligns with the
+philosophy of biology. Although processual ontology has increasingly
+become the dominant paradigm in the field, scientific realists have yet
+to engage seriously with its implications. This paper represents a first
+attempt to bridge this gap, providing a realist account that is
+compatible with the processual turn in contemporary biology. Third, it
+extends the application of the ​real patterns framework​ by demonstrating
+its utility in addressing specific ontological and epistemic challenges
+in the philosophy of biology. By showcasing how this concept can solve
+problems in this domain, I highlight its broader potential as a robust
+theoretical tool. Together, these benefits underscore the value of
+understanding objects as real patterns of processes, offering a nuanced
+and integrative perspective that advances both processualism and
+scientific realism.
+
+The paper is structured as follows: In Section 2, I introduce
+processualism and its core ontological commitments. In Section 3, I
+discuss how the object-oriented ontology derived from scientific realism
+poses a challenge to processualism. Section 4 reviews existing attempts
+by processualists to secure realism within their framework, along with
+my critique that more needs to be said to differentiate their stance
+from anti-realist positions, such as instrumentalism. In Section 5, I
+argue that effective realism offers a potential solution to this
+problem. Section 6 introduces a specific form of effective realism based
+on the real pattern account. In the final two sections, I present my
+view on how interpreting objects as real patterns of processes can help
+processualism maintain a realist commitment to them.
+
+What is Processualism
+
+Contemporary biological processualism has emerged and gained significant
+influence in recent years, building on the process ontology of the 20th
+century, primarily developed by Nicholas Rescher, Johanna Seibt, Dan
+Nicholson, and John Dupré, along with their collaborators (Rescher,
+1996; Seibt, 2009; Dupré, 2013, 2020; Nicholson and Dupré, 2018;
+Nicholson 2019). Processualism advocates an ontological shift from
+objects to processes, claiming that all that exists are processes.
+Processualism thinks that everything is in flux. It believes dynamicity
+is more fundamental and stability is derived from dynamicity (see Seibt,
+2023). According to processualism, processes are dynamic and extended in
+time. They conform to some philosophers’ characterization of
+“occurrents”, a kind of existences that have different temporal parts
+strung together over time[4] (Lewis, 2001).
+
+Numerous arguments have been advanced in support of processualism, with
+one of the key motivations stemming from the observation that living
+systems are inherently interdependent rather than independent. Dupré and
+Nicholson (2018) argue that two features typically attributed to
+objects—having clear boundaries and exhibiting a degree of autonomy or
+independence (p. 20)—are largely inapplicable in the biological realm.
+These features are challenged by the fact that biological systems are
+not isolated or self-sufficient entities; rather, they exist in a state
+of deep interdependence. This interdependence is exemplified by the
+prevalence of symbiotic relationships. For instance, the normal
+functioning of many systems within the human body relies on cooperative
+interactions with symbiotic microbes. This raises significant questions
+about where the boundaries of human organisms should be drawn, as the
+inclusion of these microbes is, to a considerable extent, indeterminate.
+
+A more detailed illustration of this point is provided by Dupré and
+Guttinger (2016), who specifically discuss the case of viruses. They
+propose that viruses should be regarded as processes rather than stable
+entities with intrinsic properties. When we think of viruses, we
+typically envision virions, i.e., the stable, inert state in which
+viruses exist when not actively interacting with host cells. A virion
+consists of a core of nucleic acid (RNA or DNA) surrounded by a protein
+coat, or capsid, which protects the viral genetic material and
+facilitates attachment to host cells. However, the virion state
+represents only one phase of the virus’s lifecycle. Upon attaching to a
+host, the virus undergoes a dramatic transformation, initiating a series
+of events that often lead to the destruction of the host cell and the
+production of numerous new virions. In some cases, the viral DNA
+integrates into the host genome, replicating alongside it during cell
+division. This integration blurs the distinction between the virus and
+the host, raising questions about whether the viral genome should be
+considered an independent entity or a component of the host genome.
+Given this fluidity and the difficulty of drawing clear boundaries,
+Dupré and Guttinger argue that viruses are better understood as
+processes rather than discrete objects. They state, “rather than worry
+whether an episome, or a piece of naked DNA replicating in its host
+cell, is a virus, we should simply recognize that it is part of the
+viral process. It is because of this belonging to a specific process
+that it qualifies as ‘viral’ DNA” (p. 113).
+
+Moreover, processualists argue that the principle of interdependence
+applies to all levels of biological organization, including entities
+typically regarded as objects, such as organs. For instance, the heart,
+often seen as a discrete biological entity, is better understood as a
+dynamic process according to processualists, because its normal
+functioning depends on its integration within broader systems, such as
+the respiratory and circulatory systems, highlighting its reliance on
+continuous interactions rather than isolated existence. Consequently,
+processual ontologists reject the notion of biological objects as
+entities with intrinsic properties altogether, arguing all that exist
+are dynamic processes. (Dupré, 2011, 2016, 2018, 2020, 2021b)
+
+Despite its compelling motivations, the ontological framework of
+processualism generates a significant tension with the ontological
+commitments held by many scientific realists. In the following section,
+I will elaborate on this tension and demonstrate how it poses a
+challenge to processualism.
+
+Scientific Realism and Metaphysics
+
+A significant challenge faced by processualism arises from the
+object-centered nature of biological practice. In biological research,
+scientists routinely employ object-terms, such as molecules, cells, and
+organisms, and the advancement of biological understanding is often
+driven by the discovery and characterization of mechanisms involving
+discrete entities (Machamer, Darden, and Craver 2000)[5]. The practical
+and explanatory success of such object-centered methodologies appears to
+lend strong support to a metaphysics that privileges stable,
+identifiable objects. For the processualist, then, a pressing question
+is how to account for the remarkable success of scientific practices
+that are deeply committed to object-based representations.
+
+For many philosophers of science, the success of science is best
+explained through a realist lens. This intuition is most famously
+encapsulated in the “no miracles” argument, as formulated by Hilary
+Putnam: “The positive argument for realism is that it is the only
+philosophy that doesn’t make the success of science a miracle” (Putnam
+1975, p. 73). The argument relies on inference to the best explanation
+(IBE): the empirical success of science—its capacity to generate novel
+predictions, produce effective technologies, and systematically explain
+natural phenomena—would be miraculous unless its theories are at least
+approximately true descriptions of a mind-independent reality.
+
+The standard formulation of scientific realism maintains that scientific
+theories aim to (and often do) provide approximately true descriptions
+of an objective, mind-independent world. On this view, theoretical terms
+are interpreted literally, and the entities they refer to are understood
+as real, independent objects. Psillos (1999) has defended a
+causal-descriptive theory of reference to account for how scientific
+terms latch onto real entities. According to this view, reference is
+secured by a “core causal description” that captures the essential
+properties of an entity in virtue of its causal role in generating
+observable phenomena (p. 295). This account assumes a metaphysics of
+individuals with intrinsic properties, exemplified by Psillos’s
+treatment of electrons as discrete objects with well-defined attributes
+such as mass and charge. As he puts it, “the world we live in (and
+science cares about) is made of individuals, properties, and their
+relations” (Psillos 2001, S23; see also 1999).
+
+This metaphysical framework is further supported by Chakravartty (2007,
+2017), who argues that realism requires commitment to mind-independent
+entities whose causal powers ground the success of scientific theories.
+In his semirealist position, objects function as the “nodes” within
+causal structures, bearing dispositional properties that underwrite
+empirical regularities. For Chakravartty, realism is not merely a
+semantic thesis about truth but an ontological commitment to the
+existence of entities that possess causal powers and are detectable via
+scientific instrumentation.
+
+In addition, the rapid rise of the new mechanistic philosophy, as a
+promising metaphysical framework for biology, has also reinforced this
+object-oriented outlook. Many proponents of New Mechanism (e.g., Glennan
+2017) argue that the explanatory power of mechanisms lies in their
+accurate representation of real entities and their interactions.
+Mechanisms are successful, on this view, precisely because the
+components they invoke correspond to actual entities in the world. These
+philosophers therefore uphold a version of scientific realism that
+affirms the reality of the objects postulated by science.
+
+Viruses are among the entities frequently discussed in debates about
+scientific realism. Very recently, Franklin and Robertson (2024) stated
+at the beginning of their paper that, “If anything is real, viruses are
+real. That’s because viruses enter into robust generalizations that are
+outstandingly empirically successful. And it is just this empirical
+success that motivates the scientific realist’s commitment to them” (pp.
+60–61). They focus on a specific virus, the Tobacco Mosaic Virus (TMV),
+which is well known for its ability to damage tobacco crops. According
+to Klug (1999), TMV has a rod-like structure that “results from its
+basic design, namely a regular helical array of identical protein
+subunits, within which is embedded a single molecule of RNA wound as a
+helix” (p. 531). Furthermore, Liu and Nelson (2013) explain that
+“Tobacco mosaic virus (TMV) encodes four known functional proteins: the
+126 and 183 kDa replication-associated proteins, the movement protein
+(MP), and the structural capsid or coat protein (CP).” Scientists have
+also identified the mechanisms by which TMV causes disease in tobacco
+crops (Liu and Nelson 2013). For scientific realists, the fact that
+TMV’s causal relationships with specific diseases are empirically
+testable, and that TMV can be used as a tool to manipulate and
+investigate biological processes, provides strong grounds for adopting a
+realist stance toward its existence[6]. The empirical success of
+theories involving TMV, they argue, would be inexplicable if TMV were
+not a real, mind-independent, and causally efficacious entity.
+
+Such realist attitudes, which are committed to an object-oriented
+metaphysics, stand in fundamental contrast to processualism, which holds
+that dynamic processes, rather than static objects, constitute the
+fundamental structure of the world. This contrast gives rise to a
+pressing question: can processualism nonetheless sustain a realist
+attitude toward biological objects, in order to account for the success
+of biological theories? As discussed earlier, processualists argue that
+the ontology underlying biological phenomena involving viruses is better
+understood in terms of dynamic processes, but can it also maintain a
+realist stance toward viruses—a kind of entities that scientists have
+identified and studied extensively? In the next section, I will review
+how the leading processualist, John Dupré, has approached this issue,
+along with my critique of his position.
+
+Realism in a Processual Ontology
+
+Dupré supports a form of realism he calls “cautious realism” or
+“qualified realism” (2016). Yet, as I will argue, his position remains
+tenuous and under-specified in crucial respects. Consider Dupré’s
+discussion of DNA. He observes that the familiar three-dimensional
+structure of DNA, often used to teach students about its structure and
+function, is far from a complete representation of reality. In reality,
+the genome comprises not only the helix itself but also histones (the
+proteins forming the core of chromosomes) and a host of other
+dynamically associated molecules that critically influence genomic
+behavior. Moreover, the genome is not a static entity but highly
+dynamic, with its shape and behavior constantly changing. Thus, the
+conventional model represents merely a snapshot of one transient state
+within an ever-changing system. Nevertheless, Dupré maintains that this
+simplified representation manifests partial truth—it does correspond to
+aspects of the real biological phenomenon, even though it omits much.
+From this he infers that we ought to adopt a realist stance toward the
+DNA model, but this realism needs to be more cautious than the standard
+scientific realism, acknowledging the limitations and partiality of such
+representations.
+
+However, Dupré’s quick and somewhat cursory endorsement of this
+“cautious realism” raises several significant problems. First, it is
+unclear how this position fits within the broader scientific realism
+debate and how it relates to other existing views, such as standard
+scientific realism. Resolving this question is not straightforward.
+Second, and more problematically, can one coherently deny that objects
+are merely temporary stabilizations of processes (see also Dupré and
+O’Malley, 2007)—essentially claiming they do not fundamentally
+exist—while simultaneously asserting that these objects represent
+aspects of reality? This tension raises the worry that objects, in this
+view, might simply be epistemic tools or instruments created to help
+explain certain phenomena, rather than representations of
+mind-independent reality. If so, Dupré’s “cautious realism” risks
+collapsing into instrumentalism (Rowbottom, 2017), a position that
+denies the reality of theoretical entities and treats them merely as
+useful constructs for prediction and explanation. This ambiguity calls
+for a more rigorous defense of how processualism can reconcile its
+dynamic ontology with a realist commitment to the partial reality of
+biological objects[7].
+
+The problem of how Dupré’s realism differs from instrumentalism becomes
+more pressing when we consider another key feature of his view: his
+commitment to pluralism. Dupré argues that there is no single, objective
+way to carve nature into individual biological entities. Instead, there
+are multiple, equally justified ways to do so, and the resulting
+entities are all equally real. This idea is closely tied to his concept
+of promiscuous individualism. As Dupré illustrates in an example from
+his work:
+
+“Consider a lichen. This consists of a fungus (a multicellular organism)
+and a very large number of photosynthetic bacteria. Presumably all of
+these—the fungus, all of the bacteria, and the lichen itself—are
+individuals. What about the population of bacteria? Or subpopulations
+with a particular mutation? Or what about the lichen-covered tree of
+which this particular lichen is part? There surely could be reasons for
+distinguishing any of these individuals, and ways in which the entities
+composing them could be integrated and differentiated from other
+entities that could ground such distinctions” (2021b, p. 44).
+
+In this example, Dupré suggests that there are multiple valid ways to
+identify different entities within a lichen, depending on the context
+and the questions being asked. Importantly, he emphasizes that the act
+of carving up nature into distinct entities has a “subjective,
+anthropocentric aspect.” In other words, how we divide nature depends on
+human purposes, interests, and the specific phenomena we aim to explain.
+This pragmatic element is central to Dupré’s pluralism, as it allows for
+diverse and context-dependent ways of understanding biological reality.
+According to Dupré, the entities resulting from these different ways of
+carving up nature are all equally real, a position that aligns with his
+processual ontology and his rejection of object-based metaphysics.
+
+However, this pluralistic and pragmatic approach raises a significant
+challenge: how does Dupré’s realism about objects differ from
+instrumentalism? Dupré bears the burden of clarifying why the entities
+identified through these various “carvings” are not simply human-created
+devices for explaining phenomena but instead correspond to something
+real in the world. Without further elaboration, his position risks being
+indistinguishable from instrumentalism, which denies the objective
+reality of theoretical entities and views them solely as epistemic tools
+or constructs for prediction and explanation.
+
+In my view, to address this challenge, processualists must provide a
+more detailed account of how objects, despite being context-dependent
+and pragmatically identified, nevertheless capture objective features of
+reality. While Dupré asserts that objects “partially represent reality,”
+this claim remains underdeveloped. Without specifying which objective
+features these representations correspond to, his cautious realism risks
+amounting to little more than paying lip service to scientific realism,
+offering no substantive advancement or resolution to the debate. While I
+am sympathetic to the idea that processualism is compatible with
+scientific realism, I believe that its supporters must articulate how
+this pluralistic and processual framework can uphold a robust realism
+about biological objects while avoiding the pitfalls of instrumentalism.
+In the rest of the paper, I aim to provide such a development, offering
+a clearer and more rigorous account of how processualism can reconcile
+its dynamic ontology with a realist commitment to biological objects.
+
+Effective Realism
+
+To summarize, processualism faces a two-horned dilemma in sustaining a
+realist attitude toward scientific theories. On the one hand, standard
+scientific realism, anchored in an object-oriented metaphysics, stands
+in fundamental opposition to a processual ontology and thus cannot be
+embraced by processualists. On the other hand, the alternative realist
+positions advanced by processualists (such as Dupré’s) remain opaque
+regarding their commitment to realism and risk collapsing into
+instrumentalism.
+
+I argue that a more promising route to reconciling processualism with a
+realist interpretation of biological objects lies in functionalism or,
+more recently, what has been termed effective realism. Effective realism
+has gained widespread support, particularly among phyiscs-informed
+philosophers of science (Ladyman and Ross 2007; Wallace 2010,
+forthcoming; Williams 2019; Fraser 2018, 2020; Eggs 2019; Saatsi 2021;
+Robertson and Wilson 2024; Ladyman and Lorenzetti 2024), as a way to
+make sense of non-fundamental ontology and clarify its relationship with
+fundamental ontology.
+
+In Dupré and Nicholson (2018), an illuminating analogy is drawn between
+the relationship of substance ontology to processual ontology and that
+of classical physics to modern physics:
+
+“Beyond any such inherent bias, we surmise that the widespread
+prevalence of substance ontology also reflects the fact that in many
+circumstances it does the job sufficiently well. The relation between
+substance and process ontology is not completely unlike the relation
+between classical and modern physics. Just as classical physics provides
+a convenient approximation of middle-sized physical entities moving at
+relatively slow speeds but does not constitute an accurate description
+of physical reality, so substance ontology provides a serviceable
+characterization of biological entities, especially when considered over
+short temporal intervals, despite being a fundamentally inappropriate
+description of the living world” (p. 39).
+
+This analogy points to a persistent challenge in the philosophy of
+science: How should we understand and remain realist about the
+theoretical entities posited by once-successful yet ultimately
+superseded theories? Throughout the history of science, numerous
+theories (including classical physics) have been superseded by more
+accurate or comprehensive successors. Yet most realists agree that the
+entities posited by these superseded theories, much like how
+processualists view biological objects, at least partially describe the
+objective world correctly. The central question, then, is this: If we
+are to remain realists about the entities of an approximately true
+theory, what must the nature of that realism be?
+
+In response to this question, Wilson and Robertson (2024) propose a form
+of effective realism about ‘theoretical relicts’, the term they used to
+refer to entities posited by superseded theories. They argue that past
+theories that remain explanatorily useful or non-redundant should be
+understood as effective theories, which “aspire to describe phenomena
+only within a limited range and to a limited range of accuracy” (p. 17).
+Effective theories, in contrast to more fundamental theories, describe
+the same target phenomena in a more abstract, coarse-grained manner.
+Consequently, the theoretical relics of these theories are understood to
+effectively represent some aspects of reality, even if they do not
+capture the full or fundamental truth.
+
+One example of such a theoretical relic discussed in their work is space
+(as opposed to spacetime). Since the advent of special relativity and
+its spacetime interpretation, ordinary three-dimensional space is no
+longer regarded as a fundamental component of physical reality. However,
+spatial distances and temporal durations are not dismissed as mere
+illusions; they remain relevant and continue to play important roles in
+explanations within certain higher-level sciences. Newtonian mechanics,
+along with its theoretical relics of space and time, is thus validated
+as providing accurate descriptions of low-velocity motion, rather than
+being purely fictional.
+
+Given that processualists also view object descriptions as abstract,
+coarse-grained, and accurate only within certain spatial and temporal
+limits, I argue that effective realism offers a promising framework for
+understanding objects within a processualist ontology. On this view,
+objects are effectively real—they emerge from the underlying dynamic
+processes and are indispensable for explaining and predicting phenomena
+within specific domains. The specific theories of effective realism I
+wish to invoke here are those developed based on Daniel Dennett’s real
+patterns account (e.g., Ladyman and Ross 2007; Ladyman and Lorenzetti
+2024; Wallace 2010), which has been highly influential and has received
+extensive scholarly discussion[8]. I will introduce this account in the
+next section.
+
+Real Pattern
+
+Philosophers’ interest in ‘real patterns’ starts with Daniel Dennett’s
+1991 paper, where he illustrates the idea of real pattern through the
+‘Game of Life,’ designed by mathematician John Conway[9]. The game is
+set in a pixelated computer world where the primary rule is that each
+pixel can either be on or off. The state of each pixel over time is
+determined by an algorithm based on a simple set of rules that consider
+the states of neighboring pixels. At the most basic level, all pixels
+are controlled deterministically by equations that describe how their
+states evolve from initial conditions. In this pixel-level description,
+there are discernable but simple patterns defined by the behavior of
+individual pixels switching on and off. The bitmap represents the entire
+state of the world by showing the exact state of each pixel. However,
+when we look beyond the pixel level, there are stable and recognizable
+patterns that exist within Conway’s Game of Life. These patterns can be
+described with a new vocabulary that isn’t limited to individual pixels.
+For example, ‘gliders’ are a type of pattern: they are stable pixel
+configurations that go through a cycle of state changes, causing the
+glider to “move” across the screen and start the cycle again. Another
+type of pattern is “eaters”, which destroy the stability of other
+patterns like gliders when they encounter them, thus “eating” the glider
+(see Andersen 2017 for a nice summary).
+
+Dennett’s insight is that there is a class of objective,
+observer-independent facts about those higher-level objects such as
+gliders and eaters such that they are not merely epistemic but really
+exist. Although Game of Life operates as a fully deterministic system
+with simple rules, calculating the future states of the system based on
+these rules and the bitmap can be very costly. However, keeping track of
+the system in terms of the higher-level patterns such as gliders and
+eaters allows us to make prediction much more efficiently, and it is an
+objective fact that a description of the system in terms of higher-level
+patterns compresses the information. Thus, Dennett defines a ‘real’
+pattern in the following way: “a pattern exists in some data—is real—if
+there is a description of the data that is more efficient than the bit
+map, whether or not anyone can concoct it” (1991, p. 34). Haugeland
+(1998) understands these patterns as referring to an “orderly or
+non-random arrangement—the opposite of chaos” (Haugeland 1998, p. 274),
+and the order of these arrangements exists objectively and
+observer-independently. In other words, the existence of such patterns
+in a given patch of pixels is an objective fact.
+
+Critics have pointed out that Dennett’s account of real patterns is
+ambiguous, as it remains unclear whether leads to realism or mere
+instrumentalism. Subsequent developments have aimed to strengthen the
+realist interpretation of patterns. Millhouse (2021), for example,
+argues that for a pattern to be considered real, it must not only
+provide a more efficient description of a system but also exhibit a
+sufficiently high degree of similarity to the system’s physical
+structure. In his paper, he further proposes a way to quantify this
+similarity.
+
+Despite this, a significant concern remains inherent in Dennett’s
+original framework: it implies that any pattern offering a more
+compressed description than a raw bitmap qualifies as real. This
+permissiveness risks generating an overabundance of ‘real’ patterns,
+which dilutes the concept’s realist credentials. Therefore, Laydman and
+Ross (2007) contend that while Dennett provides a necessary condition
+for real-patternhood—namely, increased descriptive efficiency—he fails
+to specify sufficient conditions that would secure a genuinely realist
+account. In response, they propose non-redundancy as a key sufficient
+condition, attempting to define it via the notion of logical depth. Suñé
+and Martínez (2019) later advanced an alternative by defining real
+patterns directly in terms of their contribution to reducing the
+conditional Kolmogorov complexity of a dataset, offering a potentially
+simpler and more effective criterion for non-redundancy.
+
+The debate over how best to define real patterns from the standpoint of
+information theory is highly technical and, while important, lies beyond
+the scope of this paper. For present purposes, I will take the real
+pattern account as an established and sufficiently developed framework
+ready for application. My proposal in the subsequent section builds upon
+and is ​​compatible with multiple existing, well-developed definitions of
+real pattern​​. Readers who subscribe to a particular view of real pattern
+are free to adopt whichever definition they find most compelling and
+interpret my arguments through that lens. What matters more for the aim
+of this paper, however, is the metaphysical interpretation of real
+pattern.
+
+Among proponents of real patterns, there is broad agreement that their
+reality is grounded not in their material constitution, but in their
+usefulness, function, and participation in higher-order regularities.
+Haugeland (1998), in his critical engagement with Dennett, emphasizes
+that the ontological import of patterns lies in what he calls their
+“specialness from above.” This phrase captures the idea that a pattern’s
+ontological status as is not determined by its constituent elements but
+by how it participates in or contributes to overarching, higher-order
+structures and rule-governed systems.
+
+Haugeland illustrate this metaphysical point with the example of chess
+pieces. He argues that chess pieces are “manifestly not” substantial
+things in the metaphysical sense. The very “being” of a chess piece is
+constituted by its functional role: how they move, threaten, protect,
+and are captured according to the rules of the game. Their identity is
+not tied to their material instantiation—whether as plastic figurines or
+pixelated images in a virtual environment. Haugeland asserts that chess
+pieces are “strictly speaking, not at all real, not even a little bit,”
+yet in a pragmatic or functional sense, they are “genuine, full-fledged
+entities, one hundred percent.” This view provides a compelling
+framework for thinking about entities whose reality is grounded not in
+intrinsic essence but in their functionality. It is especially
+well-aligned with and useful for a processualist metaphysics.
+
+Haugeland’s idea of grounding the reality of patterns in their
+functional utility has been preserved and further developed by later
+proponents of the real pattern account, notably Ladyman (2009, with Ross
+2007; with Lorenzetti 2024) and Wallace (2010). In applying the real
+pattern framework to the metaphysics of sciences, they think real
+patterns are those that play an indispensables role in scientific
+theories that successfully explain and predict phenomena. In particular,
+real patterns are those feature in counterfactual and nomological
+generalizations. Counterfactual generalizations express what would occur
+under hypothetical conditions (e.g., “If a tiger were to encounter prey,
+it would stalk and hunt it”), while nomological generalizations
+articulate law-like regularities in nature (e.g., “Tigers hunt prey to
+survive”). These generalizations form the core of scientific theorizing
+and are essential to the explanatory and predictive ambitions of the
+sciences. For Ladyman, a pattern’s status as real hinges precisely on
+its ​​indispensability to such generalizations​​, enabling reliable
+prediction and explanation of phenomena (Ladyman 2017, p. 157) [10].
+
+Wallace (2010) offers a similar account, asserting that “a macro-object
+is a pattern, and the existence of a pattern as a real thing depends on
+the usefulness—in particular, the explanatory power and predictive
+reliability—of theories which admit that pattern in their ontology” (p.
+6) [11]. Wallace emphasizes that the reality of a pattern—and, by
+extension, the objects we ordinarily regard as real—is grounded in its
+pragmatic utility. He illustrates this point through the example of
+describing and predicting a tiger’s hunting behavior. One could attempt
+this at the molecular or cellular level, tracing the behavior of a vast
+number of biological constituents of the tiger. Alternatively, one could
+operate at the level of the whole animal, modeling its behavior in terms
+of observable intentions and ecological contexts (e.g., “a hungry tiger
+hunts a deer”). Clearly, the latter approach is vastly more efficient
+and explanatory. According to Wallace, it is precisely this efficiency
+and the resulting explanatory power that justify treating the tiger,
+understood as a macro-pattern, as a real and legitimate object of
+scientific inquiry. Crucially, the fact that explanations invoking the
+tiger are objectively more efficient than those at lower levels of
+description indicates that such patterns are not arbitrary human
+constructs, but objective features of the world. (see Seifert 2023 for a
+recent application of this idea to chemical bonds).
+
+The criterion for a pattern’s reality—its grounding in explanatory power
+and pragmatic utility—directly resonates with the principles of
+​​effective realism​​ discussed previously. This deep connection leads
+Ladyman and Lorenzetti (2024) to explicitly integrate the accounts. They
+contend that the reality ascribed to a pattern by this account is
+fundamentally an effective reality. Thus, they argue that ​​the real
+patterns framework is best understood as a form of effective
+realism[12].
+
+Such kind of realist account differ significantly from standard
+scientific realism and the scientific ontology it entails. Unlike
+traditional realism, which posits that objects exist independently and
+discretely, possessing intrinsic identities, real pattern accounts
+define what is real or what exists in terms of explanatory utility
+within scientific theories. In other words, the reality of an entity is
+grounded in its role in enabling successful explanations and
+predictions, rather than in its status as an independent, discrete
+object with intrinsic properties. This approach avoids an ontologically
+‘thick’ reading of objects, making it more compatible with a processual
+framework and opening the possibility for alignment between the two. I
+argue that processualism can maintain a realist commitment toward
+biological objects by adopting the framework of real pattern accounts,
+understanding the existence of objects in a functionalist or effective
+sense. In the next section, I will discuss this idea in greater detail.
+
+Interpreting Objects as Real Patterns in a Processual Framework
+
+The kind of ontological picture I envision, where processualism is
+combined with a real pattern account, can be understood as a two-level
+ontology. At the more fundamental level, the ontology is ‘thicker,’
+while at the less fundamental level, it is ‘thinner’ but still robust
+enough to support realist claims. In my view, processualism informs us
+about the more fundamental level, revealing that the basic ontological
+constituents of our world are dynamic processes—entities that are
+constantly changing and unfolding over spatiotemporal dimensions (rather
+than merely spatial ones) [13]. In other words, these processes
+constitute the foundational fabric of reality.
+
+Within this processual world, patterns emerge here and there. These
+patterns are not static or independent entities but rather patterns of
+processes. They help us track regularities that objectively exist in the
+world in a more efficient and informative way. These patterns are what
+we describe in object terms, such as cells, viruses, tigers, and so on.
+Importantly, these patterns are not mere human constructs or illusions;
+they are real in the sense that they objectively exist, compress
+information, and support counterfactual generalizations. These patterns
+are robust, provide novel explanatory value, and are indispensable for
+scientific understanding. In this sense, we can affirm that objects (or
+the patterns they track) exist and are real. However, it is crucial to
+recognize that their existence is ‘thinner’ and more derivative compared
+to processes. The reality of objects should be understood only
+functionally rather than substantively. That is, they do not constitute
+the fundamental material ‘stuff’ of the world in the way processes do.
+Their existence is secondary to the primacy of processes.
+
+Consider the example of viruses. Processualists may very well be correct
+in arguing that the biological phenomenon of a virus infecting a host
+and causing damage is better understood, from an ontological
+perspective, as a dynamic process. However, it is often more
+efficient—or even indispensable—to describe this process in object
+terms, such as ‘viruses,’ ‘host cells,’ and the causal relationships
+between them. This does not mean that viruses are discrete objects with
+intrinsic properties, as traditional object-oriented ontologies might
+suggest. Nor does it mean that viruses are not real at all. Instead,
+viruses should be understood as patterns of processes—patterns that are
+indispensable for formulating counterfactual generalizations, which in
+turn help us explain, predict, and manipulate the corresponding
+phenomena. The objective fact that these patterns compress information
+and enable us to better explain, predict, and intervene in the world
+supports a realist attitude toward them. In other words, while viruses
+are not independent, static entities with intrinsic properties, their
+reality is grounded in their role as patterns of processes that are
+embedded in robust, explanatory frameworks. This perspective allows us
+to reconcile the dynamic, processual nature of biological reality with a
+realist commitment to the entities posited by scientific theories.
+
+Let’s examine another example in depth to show how biological objects
+should be treated as real patterns, compressing the information of
+underlying processes, and in doing so dramatically enhance our ability
+to predict and manipulate living systems. In contemporary evolutionary
+and developmental biology, the classical doctrine of molecular genetics,
+which is often dubbed “gene–trait atomism” (Difrisco & Jaeger 2019), is
+now recognized as an oversimplification. According to this older view,
+DNA is transcribed into mRNA, translated into protein, and thereby gives
+rise to discrete phenotypic traits in a straightforward, one-to-one
+correspondence between genotype and phenotype (Griffiths and Stotz 2013,
+ch. 3; Huang 2012). By contrast, we now appreciate that
+genotype-phenotype mapping is neither linear nor deterministic but is
+instead embedded within a highly interconnected, nonlinear system of
+regulatory interactions.
+
+At the heart of this revised picture lie gene regulatory networks
+(GRNs), which model how genes influence one another through promotion,
+inhibition, and other regulatory mechanisms (Jaeger & Monk 2014). GRNs
+reveal that phenotypic outcomes emerge from the self-organized dynamics
+of thousands of genes, each reciprocally affecting and being affected by
+its peers (Huang et al. 2005). Moreover, gene expression is not solely a
+function of endogenous interactions: it is modulated by non-coding RNAs,
+symbiotic microbiota, protein feedback, and extracellular factors such
+as nutrition, temperature, and light (Griffiths & Stotz 2013, ch. 5).
+Thus, the same genome can yield different phenotypes in different
+contexts, underscoring the context-sensitivity of developmental
+processes.
+
+A processualist understanding of genes arguably dates back to Waddington
+(1957), but it is Griffiths and Stotz (2018) who bring this insight to
+the fore in contemporary philosophy of biology. They explicitly defend a
+processual ontology of genetics, arguing that genes should be understood
+not as discrete, self-contained entities but as dynamic processes
+embedded within the ongoing flux of developmental interactions. On their
+view, genes are not primary building blocks but are defined by and
+intelligible only within the continuous flux of developmental
+interactions. Dynamics, they contend, is not an ancillary feature of
+developmental systems but their very essence[14].
+
+However, despite the widespread appeal of a processual ontology of
+genetics, the day-to-day practice of experimental genetics remains
+overwhelmingly gene-centric. Most genetic interventions, such as gene
+editing, gene knockouts, transgenic insertions, are justified and
+interpreted in terms of discrete DNA segments whose manipulation
+produces predictable phenotypic effects. For instance, Cohen and Boyer’s
+classic experiments involved transferring two distinct DNA fragments
+into Escherichia coli strains that were originally antibiotic-sensitive;
+upon acquisition, these cells became resistant, leading Cohen and Boyer
+to designate the inserts as “antibiotic resistance genes” on the
+strength of their direct causal efficacy (Cohen et al. 1973).
+
+Philosophers have accordingly emphasized the special causal status of
+genes. Waters (2007) contends that DNA sequences function as genuine
+difference-makers for phenotypic traits, since precise changes in
+nucleotide order produce equally precise shifts in RNA outputs (p. 574).
+Woodward (2010) builds on this idea, framing it within his
+interventionist theory of causation. He emphasizes that the specificity
+of DNA’s role lies in the fine-grained control it exerts over protein
+synthesis. According to Woodward, the many possible states of a DNA
+sequence are systematically associated with different corresponding
+states of mRNA molecules. This means that variations in the DNA sequence
+enable precise control over which RNA molecules or proteins are
+synthesized. Waters further insists that this manipulability reflects an
+ontological distinctiveness: genes are “used as levers to manipulate and
+investigate a wide variety of biological processes” (Waters 2008, p.
+259), supporting an object-based interpretation of genes. Yet such
+commitments sit uneasily alongside a fully processual view of
+development (See Jiang, forthcoming, for a detailed discussion).
+
+The widespread success of gene-centric mechanisms and their
+experimentally verified causal efficacy thus poses a serious challenge
+for processualist accounts. On the one hand, the very real predictive
+and manipulative power of gene-editing, knockout, and related techniques
+renders any wholesale anti-realism about genes untenable. On the other
+hand, the standard scientific-realist insistence that genes are
+discrete, world-existing objects seems at odds with a processual
+ontology in which dynamic interactions—not static entities—are primary.
+
+This apparent tension, however, dissolves once we reconceive genes and
+their associated mechanisms as real patterns manifesting within
+particular spatiotemporal scales (cf. Ladyman & Ross). From this
+perspective, a mechanism involving a discrete DNA segment does not carve
+nature at its joints by isolating an immutable object, but rather
+identifies a stable, reproducible pattern of regulatory activity
+embedded in a broader developmental process. In principle, one could
+model the entire, high-dimensional gene-regulatory system—accounting for
+feedback loops, environmental inputs (nutrition, temperature, light,
+etc.), and intercellular interaction—to predict phenotypic outcomes with
+maximal precision. In practice, however, we exploit the fact that
+localized regulatory modules reliably emerge: by isolating these
+“stable” subnetworks, we uncover counterfactual interdependencies
+between specific gene-patterns and traits under defined conditions.
+These patterns provide robust levers for intervention, enabling
+efficient prediction and manipulation, while remaining fully compatible
+with a processual ontology in which systems are best understood as
+networks of processes. This hierarchical determination of genetic
+identity resonates with Haugeland’s concept of ‘specialness from above,’
+much like how chess pieces derive their functional significance not from
+their physical composition but from their position in the game’s
+governing structure.
+
+Following this line of reasoning, I propose that genes are real in an
+effective sense. I argue that effective realism, grounded in the
+real-pattern account, delivers exactly the kind of realism that
+processualism requires. First and foremost, it is a realist stance.
+According to this view, genes (and other object terms in biology)
+accurately describe features of the objective world rather than serving
+as mere instrumental or epistemic tools. They capture real patterns,
+which are orderly arrangements of processes that exist independently of
+our descriptions. These patterns are not illusions or human constructs;
+they reflect genuine features of the world that enable us to explain,
+predict, and intervene in natural phenomena.
+
+At the same time, this realism is effectively constrained: it is valid
+only within particular domains and spatiotemporal scales. Thus, while
+genes are indispensable for explaining inheritance, development, and
+many molecular manipulations, they are not posited as discrete entities
+endowed with intrinsic essences, as many standard scientific realists
+maintain. Instead, each “gene” designation picks out a pattern of
+regulatory activity that holds reliably under specified conditions. This
+avoids any metaphysical commitment to thick, object-based entities,
+which would contradict a processual ontology. By embracing effective
+realism, processualists can retain the explanatory virtues and
+interventionist leverage of object-oriented descriptions yet keep their
+core claim that reality consists fundamentally of dynamic processes.
+
+Accommodating Pluralism
+
+Furthermore, another advantage of the real pattern account is that it
+provides a natural accommodation of Dupré’s commitment to the
+pluralistic way of delineating objects. Recall that Dupré’s realism is
+pluralistic, meaning there are multiple valid ways of carving nature
+into objects, and the way we choose depends on our explanatory purposes
+and interests. The question I raised earlier was: How can Dupré maintain
+a realist stance toward biological objects while acknowledging the
+‘subjective, anthropocentric aspects’ and ‘pragmatic elements’ involved
+in individuating them, without collapsing into instrumentalism?
+
+Adopting Dennett’s (1991) framework offers a compelling answer to this
+question. He emphasizes that real patterns are candidates for
+recognition and are closely tied to the stance or perspective that the
+observer adopts. This stance includes the observer’s cognitive
+capacities, explanatory purposes, and interests. Dennett identifies
+three primary stances we commonly use in both everyday and scientific
+explanations: the physical stance, the design stance, and the
+intentional stance. Adopting the physical stance might lead us to
+identify patterns at the molecular level, while the design stance or
+intentional stance might highlight patterns related to function or
+goal-directed behavior. Importantly, the patterns themselves are
+objective—they exist independently of the observer—but the specific
+patterns we focus on depend on the stance we take.
+
+This aligns well with Dupré’s pluralism. Different stances allow us to
+identify different kinds of real patterns, each of which is valid within
+its specific explanatory context. Consider Dupré’s example of a lichen,
+a symbiotic organism composed of a fungus and photosynthetic bacteria.
+Scientists delineate different individuals within this system depending
+on their stances. An ecologist might treat the lichen as a whole,
+focusing on its role within an ecosystem, while an evolutionary
+biologist might focus on the population of bacteria or specific genetic
+lineages as individuals undergoing selection. A microbiologist, on the
+other hand, might zoom in further, treating each bacterial cell or
+fungal hypha as an individual to study cellular interactions. Similarly,
+a biochemist might define individuals based on metabolic networks,
+viewing the lichen as a system of functional exchanges. Each perspective
+identifies different real patterns within the lichen, and all are valid
+within their respective explanatory contexts. Both perspectives are
+legitimate and capture different aspects of reality, even though they
+emphasize different patterns.
+
+By grounding the delineation of objects in real patterns, we can
+maintain a realist stance without denying the role of human perspectives
+and pragmatic considerations. The objectivity of the patterns ensures
+that realism is preserved, while the flexibility of stances accommodates
+the pluralistic and context-dependent nature of scientific inquiry. This
+approach avoids the pitfalls of instrumentalism by affirming that the
+patterns we identify are genuine features of the world, even if our
+choice of which patterns to focus on is shaped by our explanatory goals
+and cognitive tools. A commitment to the real pattern account thus
+resolves the tension: the choice of epistemic stance is pragmatic and
+subjective, but the biological objects scientists delineate are always
+constrained and grounded by the real patterns that objectively exist in
+the world[15].
+
+Conclusion
+
+In conclusion, this paper has explored the tension between processualism
+and scientific realism, particularly the challenge posed by the
+object-oriented ontology that underpins many realist accounts in the
+philosophy of science. Processualism, with its emphasis on dynamic
+processes as the fundamental constituents of reality, offers a
+compelling alternative to traditional substance ontology. However, its
+compatibility with scientific realism has been called into question, as
+realism typically commits to the existence of discrete objects with
+intrinsic properties.
+
+To address this tension, I have argued that effective realism,
+particularly the real pattern account, provides a promising framework
+for reconciling processualism with a realist stance toward biological
+objects. By understanding objects as real patterns, we can maintain a
+realist commitment to the entities posited by scientific theories
+without abandoning the processualist ontology. This approach
+acknowledges that objects are not fundamental but are instead
+effectively real, grounded in their explanatory power and indispensable
+role in scientific theorizing. The real pattern account, as developed by
+Dennett (1991) and refined by Ladyman and Ross (2007) and others, offers
+a robust way to understand how objects can be both real and emergent.
+
+Patterns are objective features of the world, but their recognition
+depends on the stance or perspective we adopt, which is shaped by our
+explanatory purposes and cognitive tools. This pluralistic approach
+aligns well with Dupré’s processualism, allowing for multiple, equally
+valid ways of delineating objects depending on the context and goals of
+inquiry. By interpreting objects as real patterns of processes,
+processualism can maintain a realist stance without collapsing into
+instrumentalism. This synthesis resolves the tension between
+processualism and scientific realism, further defending processualism as
+a compelling ontological framework for biology. Meanwhile, this paper
+also showcases a further application of the ​real patterns account,
+demonstrating how this Dennettian legacy can continue to profoundly
+enhance our understanding of the fundamental reality revealed by the
+sciences.
+
+Acknowledgement
+
+I am deeply grateful to Juha Saatsi, Steven French, Alistair Wilson, and
+Yuyou Wu for their invaluable discussions and insightful comments on
+earlier drafts of this paper. I would also like to thank Gregory Radick
+and John Dupré, who, as examiners of my doctoral thesis, provided
+critical feedback on the material that forms the basis of this work.
+Finally, I would like to thank the three anonymous reviewers whose
+constructive feedback has greatly improved the quality of the paper.
+
+Bibliography
+
+Andersen, H. (2017). Patterns, Information, and Causation. Journal of
+Philosophy, 114(11), 592-622.
+
+Anderson-Tempini, G., Verd, B., & Jaeger, J. (2023). Drawing to extend
+Waddington’s epigenetic landscape. In G. Anderson-Tempini & J. Dupré
+(Eds.), Drawing Processes of Life: Molecules, Cells, Organisms (pp.
+39–56). Intellect. https://www.jstor.org/stable/jj.6947019.9
+
+Beni, Majid D. (forthcoming). Constraining the Compression:
+Thermodynamic Depth and Composition. Philosophical Quarterly.
+
+Bird, Alexander (2023). Restricted Composition is Information
+Compression. Philosophical Quarterly 73 (3):677-700.
+
+Chakravartty, A. (2007). A Metaphysics for Scientific Realism: Knowing
+the Unobservable. Cambridge University Press.
+
+Chakravartty, Anjan (2017a). Scientific Ontology: Integrating
+Naturalized Metaphysics and Voluntarist Epistemology. New York, NY: OUP.
+
+Chakravartty, A. (2017b). Scientific Realism. In E. N. Zalta (Ed.), The
+Stanford Encyclopedia of Philosophy (Summer 2017 ed.). Metaphysics
+Research Lab, Stanford University.
+
+Cohen, S. N., et al. (1973). Construction of biologically functional
+bacterial plasmids in vitro. Proceedings of the National Academy of
+Science of USA, 70(11), 3240-3244.
+
+Dennett, D. C. (1991). Real patterns. The Journal of Philosophy, 88(1),
+27–51.
+
+DiFrisco, J., & Jaeger, J. (2019). Beyond networks: Mechanism and
+process in evo-devo. Biology and Philosophy, 34(6), 54.
+
+Dupré, J. (2011). Processes of Life: Essays in the Philosophy of
+Biology. Oxford University Press.
+
+Dupré, J. (2013). I—John Dupré: Living Causes. Aristotelian Society
+Supplementary Volume, 87(1), 19–37.
+
+Dupré, J. (2016). Realism, Pluralism, and Naturalism in Biology. In N.
+Cartwright & K. Ward (Eds.), Rethinking Order: After the Laws of Nature.
+Bloomsbury.
+
+Dupré, J. (2020). Life as Process. Epistemology and Philosophy of
+Science, 57(2), 96–113.
+
+Dupré, John (2021a). Causally powerful processes. Synthese 199
+(3-4):10667-10683.
+
+Dupré, J. (2021b). The Metaphysics of Biology. Cambridge University
+Press.
+
+Dupré, J., & Guttinger, S. (2016). Viruses as living processes. Studies
+in History and Philosophy of Science Part C: Studies in History and
+Philosophy of Biological and Biomedical Sciences, 59, 109–116.
+
+Dupré, J., & Nicholson, D. (2018). A Manifesto for a Processual
+Philosophy of Biology. In D. J. Nicholson & J. A. Dupré (Eds.),
+Everything Flows: Towards a Processual Philosophy of Biology. Oxford
+University Press.
+
+Dupré, J., & O’Malley, M. A. (2007). Metagenomics and biological
+ontology. Studies in History and Philosophy of Science Part C: Studies
+in History and Philosophy of Biological and Biomedical Sciences, 38(4),
+834–846.
+
+Egg, M. (2019). Dissolving the measurement problem is not an option for
+the realist. Studies in History and Philosophy of Science Part B:
+Studies in History and Philosophy of Modern Physics, 66, 62–68.
+
+Griffiths, P. E., & Stotz, K. (2013). Genetics and philosophy: An
+introduction. Cambridge University Press.
+
+Griffiths, P. E., & Stotz, K. (2018). Developmental Systems Theory as a
+Process Theory. In D. J. Nicholson & J. Dupre (Eds.), Everything Flows:
+Towards a Processual Philosophy of Biology (pp. 225-245). Oxford
+University Press.
+
+Franklin, A., & Robertson, K. (2024). Emerging into the rainforest:
+Emergence and special science ontology. European Journal for Philosophy
+of Science, 14, 61. https://doi.org/10.1007/s13194-024-00622-4
+
+Fraser, J. D. (2018). Renormalization and the formulation of scientific
+realism. Philosophy of Science, 85(5), 1164–1175.
+
+Fraser, J. D. (2020). Toward a realist view of quantum field theory. In
+S. French & J. Saatsi (Eds.), Scientific Realism and the Quantum. Oxford
+University Press.
+
+French, S. (2017). Realism and Metaphysics. In J. Saatsi (Ed.), The
+Routledge Handbook of Scientific Realism (pp. 13–26). Routledge.
+
+French, S. & Ladyman, J. (2011). In defence of ontic structural realism.
+In Alisa Bokulich & Peter Bokulich (eds.), Scientific Structuralism.
+Springer Science+Business Media. pp. 25-42.
+
+Hacking, I. (1983). Representing and Intervening: Introductory Topics in
+the Philosophy of Natural Science. New York: Cambridge University Press.
+
+Haueis, P., & Kästner, L. (2019). Discovering Patterns: On the Norms of
+Mechanistic Inquiry. Erkenntnis, 86(6), 1635–1660.
+
+Huang, S., Eichler, G., Bar-Yam, Y., & Ingber, D. E. (2005). Cell fates
+as high-dimensional attractor states of a complex gene regulatory
+network. Physical Review Letters, 94(12), 128701.
+https://doi.org/10.1103/PhysRevLett.94.128701
+
+Huang, S. (2012). The molecular and mathematical basis of Waddington’s
+epigenetic landscape: A framework for post-Darwinian biology? BioEssays,
+34(2), 149–157. https://doi.org/10.1002/bies.201100031
+
+Jaeger, J., & Monk, N. (2014). Bioattractors: Dynamical systems theory
+and the evolution of regulatory processes. Journal of Physiology,
+592(11), 2267–2281. https://doi.org/10.1113/jphysiol.2014.272385
+
+Jiang, Y. The metaphysics of mechanisms: an ontic structural realist
+perspective. Synthese 204, 32 (2024).
+https://doi.org/10.1007/s11229-024-04684-y
+
+Jiang, Yihan (forthcoming). Reconciling Mechanism and Processualism: A
+Structuralist Twist in Processual Ontology. British Journal for the
+Philosophy of Science. https://doi.org/10.1086/737741
+
+Klug, A. (1999). The tobacco mosaic virus particle: Structure and
+assembly. Philosophical Transactions of the Royal Society of London.
+Series B: Biological Sciences, 354(1383), 531–535.
+
+Knox, E. (2016). Abstraction and Its Limits: Finding Space for Novel
+Explanation.
+
+Noûs, 50, pp. 41–60.
+
+Ladyman, J. (2009). Weak Physicalism and Special Science Ontology. In
+Alexander Hieke & Hannes Leitgeb, Reduction, abstraction, analysis:
+proceedings of the 31th International Ludwig Wittgenstein-Symposium in
+Kirchberg, 2008. Frankfurt: de Gruyter. pp. 113-126.
+
+Ladyman, J. (2017). An Apology for Naturalized Metaphysics. In M. H.
+Slater & Z. Yudell (Eds.), Metaphysics and the Philosophy of Science:
+New Essays. Oxford University Press.
+
+Ladyman, J., & Lorenzetti, L. (2024). Effective Ontic Structural
+Realism. British Journal for the Philosophy of Science.
+
+Ladyman, J., & Ross, D. (2007). Every Thing Must Go: Metaphysics
+Naturalized. Oxford University Press.
+
+Lee, J., & Dewhurst, J. (2021). The mechanistic stance. European Journal
+for Philosophy of Science, 11(1), 1–21.
+
+Lewis, D. (2001). On the Plurality of Worlds. Wiley-Blackwell.
+
+Liu, C., & Nelson, R. S. (2013). The cell biology of tobacco mosaic
+virus replication and movement. Frontiers in Plant Science, 4, 12.
+
+Millhouse, Tyler (2021). Compressibility and the Reality of Patterns.
+Philosophy of Science 88 (1):22-43.
+
+Mulder, R. (2024). The Classical Stance: Dennett’s Criterion in
+Wallacian quantum mechanics. Studies in History and Philosophy of
+Science Part A 107 (C):11-24.
+
+Nicholson, D. J. (2019). Is the Cell Really a Machine? Journal of
+Theoretical Biology, 477, 108–126.
+
+Petersen, S. Composition as pattern. Philos Stud 176, 1119–1139 (2019).
+https://doi.org/10.1007/s11098-018-1050-6
+
+Psillos, S. (1999). Scientific Realism: How Science Tracks Truth.
+Routledge.
+
+Psillos, S. (2001). Is Structural Realism Possible? Philosophy of
+Science, 68, S13–S24.
+
+Putnam, H. (1975). Mathematics, Matter, and Method. Cambridge University
+Press.
+
+Rescher, N. (1996). Process metaphysics: An introduction to process
+philosophy. SUNY Press.
+
+Robertson, K., & Wilson, A. (2024). Theoretical relicts: Progress,
+reduction, and autonomy. British Journal for the Philosophy of Science.
+
+Rowbottom, D. P. (2017). Instrumentalism. In J. Saatsi (Ed.), The
+Routledge Handbook of Scientific Realism. Routledge.
+
+Saatsi, J. (Ed.). (2017). The Routledge Handbook of Scientific Realism.
+Routledge.
+
+Saatsi, J. (2022). (In)effective realism? European Journal for
+Philosophy of Science, 12(2), 1–16.
+
+Schaffer, J. (2021). Ground Functionalism. Oxford Studies in the
+Philosophy of Mind 1.
+
+Seibt, J. (2004). Free Process Theory: Towards a Typology of Processes.
+Axiomathes. 14(3): 23–57.
+
+Seibt, J. (2009). Forms of emergent interaction in general process
+theory. Synthese, 166(3), 479.
+
+Seibt, J. (2018) What is A Process? Modes of Occurrence and Forms of
+Dynamicity in General Process Theory. in R. Stout (ed.), Processes,
+Experiences,and Actions, Oxford: Oxford University Press.
+
+Seibt, J. (2023). Process Philosophy. In E. N. Zalta & U. Nodelman
+(Eds.), The Stanford Encyclopedia of Philosophy (Winter 2023 ed.).
+https://plato.stanford.edu/archives/win2023/entries/process-philosophy/
+
+Seifert, V. A. (2023). The Chemical Bond is a Real Pattern. Philosophy
+of Science, 1–47.
+
+Suné, A., & Martínez, M. (2021). Real patterns and indispensability.
+Synthese, 198(5), 4315–4330.
+
+Wallace, D. (2010). Decoherence and Ontology: Or: How I Learned to Stop
+Worrying and Love FAPP. In S. Saunders, J. Barrett, A. Kent, & D.
+Wallace (Eds.), Many Worlds? Everett, Quantum Theory, & Reality (pp.
+53–72). Oxford University Press.
+
+Wallace, D. (forthcoming). Real Patterns in Physics and Beyond.
+Preprint.
+
+ 
+
+Waters, K. (2007). Causes that make a difference. The Journal of
+Philosophy, 104, 551–579. https://doi.org/10.5840/jphil2007104111
+
+Waters, C. K. (2008). Beyond Theoretical Reduction and Layer-Cake
+Antireduction: How DNA Retooled Genetics and Transformed Biological
+Practice. In M. Ruse (Ed.), The Oxford Handbook of Philosophy of
+Biology. https://doi.org/10.1093/oxfordhb/9780195182057.003.0011
+
+Waddington, C. H. (1957). The strategy of the genes. George Allen and
+Unwin.
+
+Williams, P. (2019). Scientific realism made effective. British Journal
+for the Philosophy of Science, 70(1), 209–237.
+
+Wilson, J. M. (2014). No Work for a Theory of Grounding. Inquiry: An
+Interdisciplinary Journal of Philosophy 57, (5-6):535-579.
+
+Woodward, J. (2010). Causation in biology: Stability, specificity, and
+the choice of levels of explanation. Biology & Philosophy, 25, 287–318.
+https://doi.org/10.1007/s10539-010-9200-z
+
+[1] Forthcoming in Synthese.
+
+[2] Structuralism (ontic structural realism) is another recent prominent
+approach that challenges these longstanding metaphysical assumptions in
+the philosophy of science. Moreover, pragmatist-inspired philosophy has
+traditionally been skeptical of appeals to metaphysical “intrinsic”
+properties. I am grateful to an anonymous reviewer for drawing my
+attention to this point.
+
+[3] Some scientific realists focus exclusively on the epistemic
+dimension of the scientific realism debate, embracing what French (2017,
+p. 394) describes as “an epistemically rich, metaphysically poor form of
+the realist stance” (see, for instance, Saatsi, 2017). However, within
+the framework of processual ontology, which is inherently engaged with
+metaphysical discussions, I contend that processualists bear a greater
+responsibility to articulate their metaphysical framework with clarity.
+While not all processualists may agree that scientific realism
+necessitates a metaphysics-heavy approach, the proposal I present below
+should at least engage those who are sympathetic to the idea that
+scientific realism ought to be grounded in a robust metaphysical
+foundation.
+
+[4] The presentation of processualism in this paper is intentionally
+concise and aligns with the accounts found in key works on biological
+processualism (Dupré and Nicholson, 2018), in order to maintain focus on
+the central argument. For a more detailed metaphysical treatment, see
+Seibt (2004, 2018). I am grateful to an anonymous reviewer for prompting
+this clarification.
+
+[5] It should be noted that later mechanists, particularly William
+Bechtel, have emphasized the inherently dynamical character of
+mechanisms, thereby expanding the original account beyond the more
+static picture in Machamer, Darden, and Craver (2000). Some critics have
+suggested that this move risks stretching the notion of mechanism too
+far, but it does bring mechanistic accounts into closer alignment with
+process-oriented perspectives. I thank an anonymous reviewer for
+highlighting this point.
+
+[6] This perspective is also supported by ​Ian Hacking’s entity realism​
+(1983), encapsulated in his famous dictum: "If you can spray them, then
+they are real."
+
+[7]  An anonymous reviewer has suggested that processualists could adopt
+a related form of realism by treating ostensibly discrete biological
+entities as “object-like processes.” On this view, the explanatory and
+epistemic success of, say, cell-talk is secured by the claim that cells
+are essentially processes that behave like objects (see also Dupré 2021a
+for a similar proposal). Although prima facie attractive, I believe this
+proposal demands further metaphysical elaboration in at least two
+respects. First, if processes are fundamentally dynamic and relational,
+what principled basis is there for carving out a single “object-like”
+process from its environment? How can we justify drawing a boundary
+around a cell given the ontological continuity characteristic of living
+systems? Second, the position must provide a metaphysical account of why
+processes need to approximate the hallmarks of objects in order to
+underwrite successful reference or explanation. In particular, what is
+it, within such a metaphysical framework, that renders “objecthood”
+epistemically or explanatorily indispensable? In my view, only once
+these questions are addressed can this framework be regarded as a
+serious metaphysical option.
+
+[8] To clarify, I am not claiming the ​real patterns account​ is the only
+way to make sense of objects within processualism. There are numerous
+alternative approaches that can also be employed. For instance, one
+might utilize the notion of ​emergence that is proposed by Knox (e.g.,
+Knox, 2016; Wilson and Robertson, 2024), or explore the concept of
+​grounding, as discussed, for example, by Schaffer (2021) and Wilson
+(2014). These frameworks offer distinct yet potentially viable pathways
+for understanding objects within a processualist ontology. My focus on
+the real patterns account is intended to highlight its potential
+utility, not to exclude or diminish the value of other theoretical
+perspectives.
+
+[9] For an interactive demonstration, access the online simulation of
+Conway's Game of Life at https://playgameoflife.com/.
+
+[10] See Beni (forthcoming) for another recent attempt to advance the
+theory of ​real patterns. Beni introduces ​collective entropy minimization​
+as an objective criterion for determining real patternhood and
+integrates the Free Energy Principle (FEP)​ into his framework. His
+account was developed to address the problem of identifying when
+multiple entities can constitute a genuine composite object, as well as
+to resolve key challenges raised in earlier discussions (Petersen 2018;
+Bird 2023).
+
+[11] For a critical evaluation of the philosophical preconditions
+underlying Wallace’s approach, see Mulder (2024).
+
+[12] Ladyman also endorse ​ontic structural realism (OSR)​ or a
+structuralist ontology. The discussion here is ​orthogonal​ to the
+question of whether OSR is true. Nevertheless, a combination of
+structuralism and processualism remains a viable possibility (see Jiang
+2024 for an initial discussion).
+
+[13] The discussion here is restricted to the ​biological domain, and the
+notion of ​fundamentality​ refers solely to what is fundamental within
+biology, not to the concept of ‘absolute’ fundamental reality, which is
+arguably determined by fundamental physics. I remain open to the
+question of whether fundamental physics should adopt a ​processual
+ontology. However, regardless of the ontological framework adopted by
+fundamental physics, it should not influence or undermine the discussion
+presented here within the biological domain.
+
+[14] See Anderson-Tempini, Verd, and Jaeger (2023, p. 94) for a drawing
+resulting from a collaboration between an artist and scientists. The
+illustration depicts an evolutionary developmental system from a
+processualist perspective, combining the topology of a Klein bottle with
+developmental biology to convey the “ongoing
+generation–transformation–evolution” of developmental systems. It thus
+embodies a processual ontology in which processes are fundamental and
+the system is best understood as a network of interrelated processes.
+
+[15] The application of the real pattern account to biology has been
+explored in recent literature. For instance, Kästner and Haueis (2019)
+have proposed a real pattern account of mechanisms in biology, a view
+further supported by Lee and Dewhurst (2021). They argue that the
+discovery of mechanisms is fundamentally a process of pattern
+recognition, and the mechanisms that can be discovered are ontologically
+constrained by the patterns that objectively exist in the world.
+

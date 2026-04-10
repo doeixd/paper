@@ -1,0 +1,1094 @@
+=== PAGE 1 ===
+
+ORIGINAL RESEARCH
+Synthese (2024) 204:32
+https://doi.org/10.1007/s11229-024-04684-y
+Abstract
+Existing metaphysical accounts of mechanisms commit to the existence of objects 
+or entities posited in scientific theories, and thus fall within the category of maxi -
+mal metaphysics. In this paper, I demonstrate the incompatibility of object-based 
+metaphysics of mechanisms with the prevailing trend in the philosophy of physics 
+by discussing the so-called bottoming-out problem. In response, I propose and flesh 
+out a structuralist metaphysics of mechanisms based on Ontic Structural Realism 
+(OSR), which is a kind of minimal metaphysics. I argue that the metaphysical un -
+derpinnings of mechanisms are structures, whose metaphysical nature is elaborated 
+through comparison with existing metaphysical theories of mechanisms. After that, 
+I address the concern of whether objects in mechanisms can be accommodated in 
+my account by invoking existing metaphysical theories of objects in special sci -
+ence by structuralists, such as Ladyman, J., & Ross, D. ( 2007). Every Thing Must 
+Go: Metaphysics Naturalized. Oxford University Press.)’s real pattern account, and 
+suggesting a potential alignment between OSR and processual ontology. Finally, I 
+demonstrate how my view can naturally serve as the metaphysics for Mechanism 
+2.0 and be applied to systems biology.
+Keywords Minimal metaphysics · Ontic structural realism · Mechanism · 
+Philosophy of biology
+1 Introduction
+Over the past 20 years or so, the focus of discussions on explanation in the special 
+sciences (as opposed to fundamental physics) has shifted from laws to mechanisms. 
+The shift was the result of philosophers of science paying more attention to the actual 
+Received: 3 December 2023 / Accepted: 19 June 2024 / Published online: 9 July 2024
+© The Author(s) 2024
+The metaphysics of mechanisms: an ontic structural realist 
+perspective
+Yihan Jiang1
+  Yihan Jiang
+humyj@leeds.ac.uk
+1 School of Philosophy, Religion, and History of Science, University of Leeds, Leeds, UK
+1 3
+
+
+=== PAGE 2 ===
+
+Synthese _#####################_ (2024) 204:32
+practice of scientists, and much of the contemporary practices of sciences (especially 
+the life sciences) are driven by the search for mechanisms, which can be broadly 
+defined as the interaction of objects that are organized in a certain way. The group 
+of philosophers that have been spurring this shift are commonly referred to as new 
+mechanists. The success achieved by the new mechanists in scientific explanation 
+has also led to a new trend in the metaphysics of science. Metaphysics-minded new 
+mechanists have engaged in a series of discussions regarding the metaphysical com-
+mitments of mechanisms (e.g., Machamer et al., 2000; Glennan, 1996, 2011, 2017; 
+Illari & Williamson, 2013; Kaiser & Krickel, 2017, Krickel, 2018).
+It should be noted that all existing metaphysical accounts of mechanisms are based 
+on an ontology of objects or entities, which can be traced back to an atomist tradition 
+that holds that, “[t]he entities which we see in the world are typically composed of 
+smaller entities, with these entities being composed in turn of smaller entities, and so 
+on until one reaches some bottom level of entities– the atoms” (Glennan, 2010, p.1). 
+In other words, proponents of these accounts believe that there are (object-like) enti-
+ties all the way down to some fundamental level. By committing to the existence of 
+objects posited in scientific theories, existing metaphysical theories of mechanisms 
+fall within the category of maximal metaphysics. I take this metaphysical commit -
+ment to be maximal because they typically invoke a ‘thick’ notion of objecthood just 
+like standard scientific realism. According to this view, objects exist independently 
+of the practice of sciences, possess intrinsic properties and identity, and often serve 
+as the seat of causal dispositions.
+In the debate on the metaphysics of science, the dominance of maximal metaphys-
+ics is gradually being replaced by minimal metaphysics, with its supporters exhibit -
+ing more restricted and minimal ontological commitments. In philosophy of physics, 
+ontic structural realists argue that physical objects (with intrinsic identity and proper-
+ties) are not part of our fundamental ontology, and all that exists at the fundamental 
+level are structures (Ladyman & Ross, 2007; French & Ladyman, 2003, 2006, 2011; 
+French, 2014) where the notion of ‘structure’ has been interpreted in different ways 
+(see Ladyman, 2007/2023) but can be broadly understood as a set of modal relations. 
+Ontic Structural Realism (OSR) is a form of minimal metaphysics because its onto -
+logical commitments are confined to structures, with objects being reconceptualized 
+as either ontologically ‘thin’ or merely conceptual. As ontic structural realists also 
+aim to unify the metaphysics of different sciences and believe that the metaphysics 
+of fundamental physics constrains that of special science (Ladyman & Ross, 2007), 
+it is well-motivated to consider the question of whether we can incorporate the meta-
+physics of mechanisms into the framework of OSR and have a structuralist account 
+of mechanisms. 1
+In this paper, I offer a positive answer to this question by proposing and fleshing 
+out a structuralist metaphysics of mechanism. The significance of this paper should 
+be twofold: on the one hand, I fill a gap in existing metaphysical theories of mecha -
+1  It is worth noting that that Glennan, the leading metaphysician of mechanisms, views it as an important 
+task to reconcile the ontology of fundamental physics and that of special sciences. He says, “[w]e should 
+not assume, just because it conforms with our intuitions, that nature is ultimately grounded by a funda -
+mental level of ‘little things and micro-bangings’”. (2017, p.190).
+1 3
+32 Page 2 of 23
+
+
+=== PAGE 3 ===
+
+Synthese _#####################_ (2024) 204:32
+nisms by providing a metaphysics that is compatible with the leading metaphysi -
+cal account of fundamental physics. On the other hand, given the current relative 
+lack of exploration into how OSR applies to the special sciences (for initial work 
+in this direction, see French, 2011; Ladyman & Ross, 2007; Beni, 2016), and the 
+near absence of discussions on OSR and mechanisms, I demonstrate how to extend 
+OSR to the special sciences within the framework of the new mechanical philosophy. 
+This further rebuts objections asserting that OSR is only applicable to fundamental 
+physics (see Ladyman, 2007/2023). Moreover, successfully extending OSR to new 
+mechanical philosophy can be more broadly viewed as promoting the success of 
+minimal metaphysics. In this regard, this paper contributes to the ongoing transition 
+towards minimal metaphysics in the metaphysics of science debate. 2
+The paper is structured as follows: after I briefly introduce two leading metaphysi-
+cal accounts of mechanisms in the first section, I then discuss the so-called bottom -
+ing-out problem which poses a serious challenge to these two accounts and serves 
+as a motivation for the structuralist metaphysics of mechanisms. I further strengthen 
+this motivation in Sect. 3. Afterwards, I briefly introduce Ontic Structural Realism 
+in Sect. 4 before I flesh out my structuralist metaphysics of mechanisms. After that, I 
+address the concern of whether objects in mechanisms can be accommodated in my 
+account by invoking existing metaphysical theories of objects in special science by 
+structuralists, such as Ladyman and Ross ( 2007)’s real pattern account and suggest-
+ing a potential alignment between OSR and processual ontology. Finally, I demon -
+strate how my view can naturally serve as the metaphysics for Mechanism 2.0 and be 
+applied to systems biology.
+2 New mechanism and metaphysics
+According to new mechanists, mechanisms can be defined as follows,
+The most fruitful way to define mechanisms is that a mechanism for a phe -
+nomenon consists of entities (or parts) whose activities and interactions are 
+organized so as to be responsible for the phenomenon (Glennan et al., 2022, p. 
+145, italics original).
+Within this definition, ‘entities’ refer to physical objects, which are the entities that 
+engage in activities. Entities occupy spatio-temporal regions and serve as bearers 
+of properties. Some examples include calcium ions, neurons, cells, DNA strands, 
+ATP, chloroplasts, muscles, hearts, and organisms. On the other hand, ‘activities’ 
+are the actions performed by these entities and are described by verbs. Activities are 
+2  According to Hüttemann (2021), we should establish a metaphysics for scientific practice in the sense 
+of ‘making explicit assumptions concerning the structure of reality that best explain the success of [that] 
+practice’ (p. 1). Furthermore, this metaphysics should be minimal in that ‘it should contain no assumption 
+that does not do any work in explaining scientific practice’ (p. 11) (See French’s book review, 2022) I am 
+going to show that the mechanists’ invocation of an object-based ontology does no work in explaining 
+the scientific practice they appeal to and that as a result, a structuralist account offers a metaphysically 
+more minimal explanation.
+1 3
+Page 3 of 23 32
+
+
+=== PAGE 4 ===
+
+Synthese _#####################_ (2024) 204:32
+temporally extended and require the involvement of entities. Examples of activities 
+encompass binding, opening, diffusion, phosphorylation, triggering, pumping, inhi -
+bition, reproduction, and stabilization (Glennan, 2017; Kaiser, 2017; Krickel, 2018).
+There are (at least) two different ontological views regarding mechanisms. I fol -
+low Kaiser ( 2018) and refer to them as dualism and monism. Monism only com -
+mits to the existence of entities, positing that all that exist are entities. According to 
+monism, activities are reducible to entities and are the manifestation of the powers 
+of the entities involved in the activity (Glennan, 2017, p. 32). Glennan, the leading 
+monist, acknowledges that his view on (causal) powers is similar to that of Cart -
+wright (1994, 1999), who supports a form of the dispositionalist account of causation 
+(p. 188). Therefore, he believes that causal power is located in the powers or disposi-
+tions of entities3.
+In contrast to monists, dualists (Machamer et al., 2000; Krickel, 2018; Illari & 
+Williamson, 2013) commit to the existence of both entities and activities and they do 
+not think that activities are reducible to the powers of entities. Instead, they argue that 
+“the term ‘activity’ refers to a basic unit of the world that exists additionally to enti -
+ties” (Krickel, 2018, p.76), and they hold that activities and entities are ontologically 
+on a par with each other.
+Krickel ( 2018) provides a comprehensive metaphysical analysis of the dualist 
+notion of activities. According to her, the features of activities include, but are not 
+limited to, the following:
+1. Activities are the causal components of mechanisms.
+2. Activities involve activeness.
+3. Activities are occurrents, whereas entities are continuants.
+4. Activities are necessarily manifest or actualized.
+5. Activities are irreducible (p. 90).
+The first two features mean that activities are inherently active and causal, serving 
+as the ‘locus’ of causal power. According to Krickel, “activities are supposed to be 
+the causal components of mechanisms,” and they (activities) ‘produce change’ (p. 
+74). Illari and Williamson (2013) explain this point well by stating: “[a]ctivities in a 
+mechanism have modal force; they can ground counterfactuals about how the mecha-
+nisms would operate in other circumstances), and therefore, they can explain how 
+the mechanism makes a difference to the phenomenon for which it is responsible” 
+(p.75). 4
+Moving on to the third feature, Krickel defines occurrents as something that 
+extend in time and have different temporal parts. For example, a football match con-
+sists of two temporal parts: the first half and the second half. Continuants, on the 
+other hand, do not have temporal parts in this sense. An example would be a table, 
+3  Thanks to an anonymous reviewer for pointing out that the late Glennan (2017) has arguably converged 
+to dualism and Kaiser’s interpretation of him as a monist is potentially controversial. Nevertheless, we 
+agree that monism, supported at least by early Glennan (1996), is something worth considering.
+4  This feature is also picked up in Ontic Structural Realism, according to which, structures have modal 
+force.
+1 3
+32 Page 4 of 23
+
+
+=== PAGE 5 ===
+
+Synthese _#####################_ (2024) 204:32
+which remains the same over different time spans. Activities are occurrents that are 
+temporally extended.
+The fourth feature is entailed by the third one, suggesting that activities are neces-
+sarily manifest or actualized, rather than being merely dispositional. Krickel ( 2018) 
+explains the difference between activities and entities’ dispositions by stating, “[a]
+n entity might instantiate the capacity or disposition to φ even if it never φs. For 
+activities it does not make sense to say that an entity engages in an activity without 
+the activity actually occurring. If something is engaged in an activity φ, it is actually 
+φ-ing” (p.76). Fifthly, activities are irreducible to entities but are ontologically on a 
+par with entities.
+The above is a brief introduction to New Mechanism and the two mainstream 
+metaphysical theories of mechanisms. In the next section, I will discuss a significant 
+challenge faced by these two theories, namely, the bottoming-out problem.
+3 Bottoming-out problem
+New mechanists argue that there exists a hierarchy or hierarchical organization of 
+mechanisms. That is, mechanisms at a particular level of hierarchy depend on several 
+mechanisms at lower levels, and the causal power manifested at a certain level can 
+be reduced to the causal power at lower levels. Glennan ( 2017), for example, holds 
+that “the productive capacities of wholes derive from the productive capacities of 
+parts,” and “[t]he causal powers of systems arise from the organized causal powers 
+of their components” (pp. 184). This concept can be illustrated through the following 
+example provided by Glennan:
+“When Franz speaks to Sisi, the utterance is composed of words, the words of 
+phonemes, and so on down to the physical motions of the air produced by Franz’s 
+vocal tract, which, in turn, create vibrations within Sisi’s ear. Franz’s ability to com-
+municate in this manner depends on various parts of his vocal system—his mouth, 
+his teeth, his diaphragm, his vocal cords, etc.” (Ibid, pp. 184–185).
+In this example, the event of Franz speaking to Sisi, or Franz causing Sisi to hear 
+him, relies on the mechanism where Franz’s vocal system causes the surrounding air 
+to move, subsequently leading to vibrations within Sisi’s ear. Moreover, the causal 
+power of Franz’s vocal system further depends on the causal power of its components 
+(e.g., mouth, teeth, diaphragm), and the causal powers of these components, in turn, 
+depend on the causal power of their components at lower levels, and so on. Below 
+(Fig. 1) is a demonstration of mechanistic levels where higher-level mechanisms 
+reduce to lower ones.
+The question then arises: when and how does this reduction process reach its end-
+point, or when and how does the hierarchy bottom out? The engagement between 
+the metaphysics of mechanisms and philosophy of physics becomes inevitable at 
+this point when addressing the bottoming-out problem, because both monism and 
+dualism need to explicate the ontology for fundamental reality to tackle this issue. 
+In response, Glennan (2017) proposes the concept of “fundamental mechanism.” He 
+says, “[l]et us call a mechanism (that is, a set of entities engaging in activities and 
+interactions) that does not depend upon other mechanisms, a fundamental (or basic) 
+1 3
+Page 5 of 23 32
+
+
+=== PAGE 6 ===
+
+Synthese _#####################_ (2024) 204:32
+mechanism” (p.185, italics original). Furthermore, he thinks what constitute funda -
+mental mechanisms are going to be decided by physics. He writes, “[…] physical 
+theory will, at any given time, have identified some set of entities and activities as the 
+most fundamental known, and that such a set of entities and activities might turn out 
+to constitute a genuine ontologically fundamental level” (p.187). According to him, 
+entities within the fundamental mechanisms are going to possess the fundamental 
+causal properties, and fundamental mechanisms will be the places where higher-level 
+mechanisms bottom out.
+Dualists offer a similar response. When addressing the question of where the 
+causal power bottoms out, Krickel ( 2018) inclines to believe that “there is activity 
+causation at the fundamental level but that we have to accept this as a brute fact about 
+nature that is not grounded in anything more fundamental” (p.87). This leads her 
+to hold a position similar to Glennan’s and to accept the existence of fundamental 
+mechanisms. However, the fundamental mechanism here is understood within a dual-
+ist framework, which means it consists of fundamental entities and activities.
+The problem with Glennan and Krickel lies in their consideration of entities with 
+intrinsic identity and properties as parts of their fundamental ontology. Several prom-
+inent philosophers of physics have argued against the existence of such entities or 
+objects at the fundamental level. In other words, they find an object-based ontol -
+ogy of fundamental physics problematic, and this position is supported by meta -
+physical implications found in major theories of modern physics, including quantum 
+mechanics (QM), quantum field theory (QFT), and the general theory of relativity 
+(GTR) (see Esfeld & Lam, 2011). One major criticism of the existence of fundamen-
+tal physical objects is pointed out by French and Redhead ( 1988), who argue that 
+an object-based ontology of quantum mechanics would lead to underdetermination 
+regarding the individuality of quantum particles. The argument is later discussed in a 
+series of works by French and Ladyman (e.g., French & Ladyman, 2003, and French 
+Fig. 1 A schematic of mechanistic levels. (adapted from Povich & Craver, 2017, p. 187)
+ 
+1 3
+32 Page 6 of 23
+
+
+=== PAGE 7 ===
+
+Synthese _#####################_ (2024) 204:32
+& Ladyman, 2011), which motivated them to develop Ontic Structural Realism (see 
+more below).
+Given that prominent metaphysical accounts of physics believe that no objects 
+or entities exist at the fundamental level, object-based metaphysics of mechanism 
+faces a serious challenge in explaining where higher-level mechanisms bottom out 5. 
+This problem significantly undermines the object-based metaphysics of mechanism 
+and motivates us to develop a metaphysical theory of mechanisms from the bot -
+tom up, which must be informed by the metaphysics of physics. As indicated at the 
+beginning of the paper, Ontic Structural Realism (OSR) is a metaphysical theory 
+of physics that has received much sympathy from many philosophers of physics, 
+with its advocate arguing that it offers an ontology “best befitting of modern phys -
+ics” (McKenzie, 2017, p.1). In this paper, I will propose and flesh out a structural 
+metaphysics of mechanisms based on OSR. However, before doing that, I would like 
+to further strengthen the motivation for my account, firstly by responding to a push-
+back from Glennan in his co-authored paper ( 2014), and then by demonstrating that 
+the bottoming-out problem is not just a matter of philosophical concerns, but it also 
+relates to scientific practices.
+4 Strengthening the motivation
+I shall strengthen the motivation for a structuralist account of mechanisms by consid-
+ering how to respond to two questions.
+4.1 Is there a ‘fundamental classical level’ where higher-level mechanisms 
+bottom out?
+Kuhlmann and Glennan (2014) defend mechanical explanation in light of the appar-
+ent incompatibility between QM and the new mechanical philosophy by appealing 
+to the phenomenon of decoherence. Specifically, a quantum system’s wave function 
+is typically expressed as a linear combination of wave functions representing differ -
+ent states, implying that the system is often in a superposition state, where it exists 
+as a linear combination of different possible states. Interactions between different 
+quantum systems can result in interference effects. The phenomenon of decoherence 
+refers to the interaction of a quantum system with its macroscopic environment, lead-
+ing to entanglement with the environment and causing the superposition and interfer-
+ence to disappear locally. In other words, decoherence results in the quantum system 
+losing some of its ‘quantumness’, exhibiting behaviors that is approximately classi -
+cal and deterministic. Kuhlmann and Glennan argue that decoherence leads to the 
+emergence of a so-called “fundamental classical level”, which consists of entities or 
+objects behaving classically, that can be used to ground the mechanistic explanation 
+of higher-level phenomena.
+5  See Kuhlman & Glennan ( 2014) for a presentation of the incompatibility between QM and mechanist 
+ontology, and also Kuhlman (2018) for a discussion on physics and mechanism.
+1 3
+Page 7 of 23 32
+
+
+=== PAGE 8 ===
+
+Synthese _#####################_ (2024) 204:32
+Some might interpret their claim metaphysically and think that classical objects 
+really exist, which undermines the motivation for the structuralist account of the 
+mechanism that I am going to develop. However, it is important to note that the 
+‘quantumness’ is not eliminated entirely in decoherence, and the resulting behavior 
+can be described as classical only for practical purposes. Hence, it is worth emphasiz-
+ing that decoherence says nothing about metaphysics; that is, it says nothing about 
+what QM tells us exists in the world, and it is compatible with multiple interpreta -
+tions of QM that give rise to different ontologies (See e.g., Maudlin, 2019).
+Kuhlmann and Glennan explicitly admit this point in their paper (p.352) and 
+emphasize that they are defending an epistemic claim about why we might legiti -
+mately use mechanical explanations in the macroscopic world. While we might agree 
+with their defense here, the metaphysical issues about mechanisms in the light of fun-
+damental physics are still unsolved. As Cordovil (2023) nicely puts it, “even though 
+decoherence can give an approximate explanation of why the ‘classic level’ seems 
+to be different from the ‘quantum level,’ it does not solve the problem of how to 
+bridge the two realms since, in the end, everything is part of QM’s domain” (p.186)6. 
+Therefore, developing a metaphysical theory of mechanisms that is compatible with 
+fundamental physics remains a pressing task.
+4.2 Is the bottoming-out problem purely philosophical (instead of practical)?
+A structuralist metaphysics of mechanism can be further motivated by considering 
+scientific practice. Doing so can also address the worries that potentially come from 
+new mechanists who focus on practical issues regarding scientific explanation. In 
+fact, a considerable number of new mechanists, unlike Glennan and Krickel, do not 
+aim to defend a ‘global’ metaphysics of mechanisms applicable to all levels includ -
+ing the fundamental level of physics. Instead, they are only concerned with the local 
+reduction of mechanisms in certain domains. For them, mechanisms bottom out at 
+the levels that “are accepted as relatively fundamental or taken to be unproblematic 
+for the purposes of a given scientist, research group, or field,” and “the description 
+of lower-level mechanisms would be irrelevant to their interest” (Machamer et al., 
+2000, p.13). Since fundamental physics is rarely involved in the discussions of mech-
+anisms in sciences concerned with macroscopic phenomena, they would consider 
+the incompatibility between the metaphysics of mechanisms and the metaphysics of 
+physics to be an inadequately motivated problem.
+However, it turns out that at least in certain research domains of special sciences, 
+fundamental physics is indispensable for the explanation of phenomena. Hence, in 
+these fields it is necessary for the metaphysics of mechanisms to be compatible with 
+that of fundamental physics 7. Quantum biology is such an example, which utilizes 
+6  Cordovil (2023) proposes a solution to this problem by treating classical objects as ontologically emer-
+gent. He makes sense of the emergence by appealing to Santos (2015)’s relational ontology. I don’t have 
+space here to evaluate his proposal, but just to note that Santos’s relational ontology, as I will discuss 
+more below, is friendly to structuralism. Cordovil’s writing seems to also indicate this point.
+7  Thanks to an anonymous reviewer for pointing out that Kuhlman and Glennan do not maintain that 
+decoherence provides a single fundamental classical level and think that classicality (and with it the 
+possibility of classical mechanisms) emerges as a local/piecemeal matter. In this sense, Kuhlman and 
+1 3
+32 Page 8 of 23
+
+
+=== PAGE 9 ===
+
+Synthese _#####################_ (2024) 204:32
+quantum theory to explain biological phenomena beyond the reach of classical phys-
+ics. Quantum properties like superposition, coherence, and entanglement are increas-
+ingly recognized as vital in understanding diverse biological processes, including 
+photosynthesis, magnetoreception, olfaction, enzyme catalysis, respiration, and neu-
+rotransmission (Marais et al., 2018).
+Consider the case of light-harvesting in photosynthesis. Photosynthetic organisms 
+convert sunlight into energy via antenna systems, absorbing photon energy as elec -
+tronic excitation. This excitation energy travels to the reaction center, where it is 
+converted to chemical energy through charge separation (Lambert et al., 2013). The 
+energy transport mechanism used to be thought as a classical ‘hopping’ mechanisms 
+through which the excitation energy randomly moved from one chlorophyll to the 
+next neighboring chlorophyll step by step. However, as early as the 1930s, Franck 
+and Teller (1938) proposed a quantum-coherent mechanism for the transmission of 
+the excitation energy, characterized by wave-like properties that enable simultaneous 
+propagation through multiple pathways. Initially met with skepticism, the quantum-
+coherent model gained credibility when quantum ‘beats’ were observed in 2007 dur-
+ing photosynthetic processes in distinct bacterial species (Engel et al., 2007; Lee et 
+al., 2007). Subsequent studies by the Engel and Scholes groups confirmed signifi -
+cant quantum-coherent energy transfer at physiological temperatures in bacteria and 
+marine algae (Panitchayangkoon et al., 2010; Collini et al., 2010).
+According to new mechanists, explaining photosynthesis requires us to break it 
+down into several mechanisms at a lower level. One of these lower-level mechanisms 
+is going to involve the movement of the excited electron from its original location 
+to the reaction center. Since the travel of the exciton is a quantum phenomenon, the 
+metaphysical picture behind it must be in alignment with the metaphysics of quantum 
+mechanics. As noted above, structuralist accounts of quantum mechanics posit that 
+there is no fundamental object possessing intrinsic properties and identity, which is 
+in contradiction with object-based metaphysical theories. The failure of object-based 
+metaphysics at this lower level would further impact its legitimacy in the upper level. 
+New mechanists argue that higher-level mechanisms are reducible to lower-level 
+mechanisms. However, if we consider that higher-level mechanisms are composed 
+of entities understood by monists and dualists, then these higher-level mechanisms 
+cannot be reduced to lower-level mechanisms that involve no such entities.
+The above discussion about quantum biology shows that the bottoming-out prob-
+lem is not merely a philosophical issue but is closely related to scientific practices, 
+further challenging the object-based metaphysics of mechanisms. I argue that the 
+best solution to the problem here is to develop a metaphysics of mechanisms that is 
+physics-informed and applicable to the special sciences. In the following, I flesh out 
+such an account based on OSR, starting with an introduction to OSR.
+Glennan are on board with the idea that certain kinds of biological phenomena may be explicable by 
+appealing to quantum mechanical effects. I believe that this strengthens the motivation to the introduction 
+into the philosophy of biology arena of a philosophical stance adopted with respect to QM, namely, OSR.
+1 3
+Page 9 of 23 32
+
+
+=== PAGE 10 ===
+
+Synthese _#####################_ (2024) 204:32
+5 Ontic structural realism
+One of the motivations behind OSR is to address the metaphysical implications 
+of modern physics (especially quantum physics). As briefly mentioned earlier, an 
+object-based metaphysics faces fundamental underdetermination regarding the indi -
+viduality of physical objects in quantum mechanics. 8 OSR overcomes this under -
+determination by advocating an ontological shift from objects to structures, arguing 
+that all that exist in the fundamental level are structures that are represented by math-
+ematical equations of fundamental theories of physics (see Ladyman 1998; French & 
+Ladyman, 2003, 2011; French, 2006, 2014, 2019; Ladyman & Ross, 2007). 9 It has 
+also been argued that OSR is supported by various features of quantum mechanics, 
+quantum field theory, and the general theory of relativity (Esfeld, 2004; Esfeld & 
+Lam, 2008, 2012).
+Ontic structural realists clarify the stance of OSR by comparing it to dispositional-
+ism. According to the ‘standard’ form of dispositionalism (Vetter, 2014), what exist 
+at the fundamental level of physics are physical objects with dispositions. Dispo -
+sitions are intrinsically possessed by objects and are understood as properties that 
+are associated with causal powers, e.g., the negative charge of an electron. Disposi -
+tions necessarily manifest themselves when the corresponding stimuli are present. 
+Dispositionalists hold that the causal or modal force ‘sit’ in dispositional properties 
+possessed by objects, which ground the truth of counterfactual statements regard -
+ing causation (Mumford, 1998; Hüttemann and Kaiser, 2013, 2018).10 Consider 
+a scenario in which an electron is under the influence of an electromagnetic field. 
+Dispositionalists would argue that there exists an electron as a physical object and 
+it intrinsically possesses dispositional properties, e.g., its negative charge, and the 
+acceleration of the electron is the manifestation state of the disposition when it is sub-
+jected to an electromagnetic field (the stimulus condition). The modality is rooted in 
+the disposition. Maxwell’s laws, which describe how electrons move in this scenario, 
+arise from or depend in some way on this disposition. And it is the disposition that 
+renders the following counterfactual statement true: if an electron were to fall under 
+the influence of an electromagnetic field, it would experience an appropriate force 
+and associated acceleration.
+French (2014) argues that OSR can be derived by ‘reverse-engineering disposition-
+alism’ (p.264). While dispositionalists argue that objects are ontologically primitive, 
+and laws depend on the dispositions of these objects, structuralists propose that laws 
+8  Simply put, there are two perspectives regarding the nature of these objects. One perspective considers 
+them as individuals, each with well-defined identity conditions. The other perspective views them as 
+non-individuals (see more on French & Krause, 2006). For the anti-realist, this poses a challenge to the 
+realist because the realist cannot clarify the metaphysical status of the objects central to their ontology, 
+given that both perspectives are equally valid.
+9 According to French ( 2014), structures are what, in particular, are embodied in the relevant laws and 
+symmetries, together with the concrete representations of the latter, in fundamental physics.
+10  I am aware that there are many new developments in dispostionalism (e.g., Synthese topical collection 
+on New Foundations of Dispositionalism, Mumford, 2009, Austin, 2017, Anjum & Mumford, 2018). I am 
+referring to this form of dispositionalism here for the sake of illustrating OSR, following French ( 2014, 
+p.239).
+1 3
+32 Page 10 of 23
+
+
+=== PAGE 11 ===
+
+Synthese _#####################_ (2024) 204:32
+themselves, which should be understood as features of structures, are ontologically 
+primitive. In this view, objects asymmetrically depend on these structures. Structur -
+alists shift the bearer of modal power from objects to structures by considering the 
+laws themselves to be inherently modal. In the above example, what exist primitively 
+are Maxwell’s law or the structure(s) captured by Maxwell’s law that possess modal 
+power, and the electron asymmetrically depends on the structure. And it is the struc-
+tures themselves that ground the truth of the corresponding counterfactual (French, 
+2014, Chap. 10).
+In sum, there are two major differences between dispositionalism and OSR. 
+Whereas the former takes physical objects to exist primitively, the latter believes 
+structures are ontologically fundamental. Second, dispositionalists hold that modality 
+resides in the dispositions of objects, but structuralists believe that the modal force is 
+possessed by structures themselves.
+Furthermore, objects in OSR are ‘reconceptualized’. A frequently discussed chal-
+lenge to OSR is to say that it is inconceivable that there are relations but no relata 
+(Ladyman, 2007/2023; Ladyman & Ross, 2007). However, this objection has no 
+force against OSR because there are still relata according to OSR. What structural -
+ists insist is that relata here should not be interpreted in an ontologically robust way. 
+Instead, relata (objects) asymmetrically depend on relations (structures).
+French (2010, 2014) distinguishes two forms of asymmetrical dependency: the 
+first one states that the identity of objects depends on the relations of the structure, 
+which then yields a form of contextual (as opposed to intrinsic) identity of entities. 
+This supports a ‘thin’ notion of entities that can be understood to exist derivatively 
+and depend on structures, holding that objects have identities that are given con -
+textually by structures (Ladyman, 2007; Saunders, 2003). Another option is to say 
+that ‘the very constitution (or essence)’ of objects is dependent on the relations of 
+the structure. In this case, objects have no metaphysical status at all but only serve 
+as merely ‘heuristic devices’ that allow us to “construct, articulate, or appropriately 
+represent the relevant structure” (French, 2019, p.26). 11I will not take sides between 
+these two views because each of them has its own strengths and weaknesses, and 
+ultimately, whichever stance is more correct will not affect my argument in this paper. 
+The minimal stance I adopt in this paper is to reject the ‘thick’ notion of objects, and 
+I remain agnostic about how we ‘reconceptualize’ objects.
+To recap, OSR argues that at the fundamental level of reality, what exists are inher-
+ently modal structures, and there are no objects that possess intrinsic identity and 
+properties. In the next section, I propose a structuralist metaphysics of mechanisms 
+based on OSR.
+11  It should be noted that eliminativist OSR still allows the usage of the concept of objects for pragmatic 
+purposes, as French ( 2014) points out, “the elimination is with respect to our fundamental ontology—to 
+suggest that tables, chairs, people, particles, whatever should be eliminated from that ontology is not to 
+suggest that we may not speak of such things, or pragmatically negotiate our way around them, or what -
+ever.” (p.166, note2).
+1 3
+Page 11 of 23 32
+
+
+=== PAGE 12 ===
+
+Synthese _#####################_ (2024) 204:32
+6 Structuralist metaphysics of mechanisms
+My structuralist metaphysics of mechanisms claims that the metaphysical underpin -
+nings of mechanisms are structures. I argue that only structures exist primitively, and 
+entities should be reconceptualized along the lines indicated above, that is, as either 
+‘thin’ objects whose identities are contextually given by the relevant mechanisms 
+or simply as heuristic devices that enable us to construct, articulate, or represent the 
+relevant mechanisms.
+Structuralists have clarified their position through a comparison with disposition-
+alism, and a similar strategy can also be applied to clarify the stance of my structural 
+metaphysics of mechanisms. Glennan argues that mechanisms describe the causal 
+framework of the world. He (2017) states, “[a] statement of the form ‘Event c causes 
+event’ will be true just in case there exists a mechanism by which c contributes to 
+the production of e” (p. 156). Glennan’s monism adopts a theory of causation that 
+is essentially a form of dispositionalism 12. He argues that the causal production in 
+mechanisms should be best understood as “[i]nteractions occur in virtue of the causal 
+powers of individual entities involved in the interactions” (p.188, my italics). When 
+referring to causal power, he means ‘capacities or dispositions not yet manifested’ (p. 
+32). This entails that he commits to a metaphysical picture in which what exists fun-
+damentally are entities with intrinsic dispositions, and causation is the manifestation 
+of these entities’ dispositions.
+A structuralist metaphysics of mechanisms can be derived by inverting the onto -
+logical order in Glennan’s view. Within a structuralist metaphysics of mechanisms, 
+mechanistic statements pick up structures that are ontologically primitive.  Causal 
+power should be shifted from objects to structures, which means that structures 
+are inherently causal. Entities here are not ontologically primitive but secondary to 
+structures.
+An important question that needs to be addressed is how to understand the meta -
+physical nature of the mechanistic structures. I believe that a good way to answer this 
+question is to compare mechanistic structures with the notion of ‘activity’ proposed 
+by dualism. Recall that dualism posits that activities are one of the basic units of the 
+world in addition to entities. According to dualists, activities are, from a metaphysical 
+point of view, inherently causal occurrents. Occurrents, as an ontological category in 
+contrast to constituents, extend in time and have different temporal parts. We can find 
+many similarities between the notions of activity and structure; in particular, both 
+are active and dynamic relations (cf. Glennan, 2017, p. 51), which are inherently 
+causal and act as the ‘seat’ of causal power. Thus, I argue that we can give activities 
+a structuralist reading to accommodate mechanisms within structuralism by viewing 
+activities as structures that are ontologically primary. In other words, I contend that 
+mechanistic structures are activities understood in structuralist terms, which means 
+that mechanistic structures are also inherently causal occurrents.
+A further comparison with dualism will help clarify my position. In fact, a structur-
+alist metaphysics can be derived from the dualist account by simply reinterpreting the 
+12  Thanks to an anonymous reviewer for pointing out that it is debatable whether Glennan adopts disposi-
+tionalism, but this account is worth exploring here for the sake of illustrating my view.
+1 3
+32 Page 12 of 23
+
+
+=== PAGE 13 ===
+
+Synthese _#####################_ (2024) 204:32
+ontological status of entities. Dualists support an ontologically thick notion of enti -
+ties, considering them to possess intrinsic identity and properties and to exist primi -
+tively. However, structuralists reject this thick notion of entities and views entities as 
+merely ‘nodes’ of structures. As mentioned earlier, there are two different approaches 
+to this re-conceptualization within OSR, in which entities are reinterpreted as either 
+‘thin’ objects, whose identities are contextually determined by the relevant mecha -
+nisms, or as ‘heuristic devices’ that enable us to construct, articulate, or represent the 
+relevant mechanisms. As alluded above, I commit to the rejection of an ontologically 
+thick notion of entities but do not hold a specific stance on how to reconceptualize 
+entities, and my account is compatible with both approaches to reconceptualization. 
+Accordingly, while dualists believe that entities and activities symmetrically depend 
+on each other, structures are considered to be more fundamental within the structur -
+alist metaphysics of mechanisms, and entities asymmetrically depend on structures.
+Krickel (2018) characterizes mechanisms as Entity-involving Occurrents (EIOs). 
+As a dualist, she argues that mechanisms are metaphysically composed of entities 
+and activities, which should be understood as actualized occurrents. Importantly, 
+she emphasizes that entities and activities (occurrents) have a strong relationship 
+of interdependence in the sense that “there are no entities that […] are not engaged 
+in at least one occurrent […] Similarly, occurrents do not exist free-floating without 
+any entity that engages in them.” Put differently, she holds that “an entity necessarily 
+participates in an occurrent, and occurrents necessarily involve at least one entity” (p. 
+79). EIOs are therefore spatiotemporally extended. Consider a moving car. An EIO 
+can be the car moving from t 1 to t 2. For Krickel, a car that does not engage in any 
+activities cannot exist, which implies that we must always understand the existence 
+of the car in temporal terms. Similarly, she thinks that no activities can occur without 
+being dependent on entities, meaning that we must always understand activities in 
+spatial terms.
+Structuralists can accept this metaphysical picture with some adjustments, that is, 
+by deflating the metaphysical status of entities and inflating the metaphysical status 
+of activities. In a structuralist metaphysics, entities need to be understood as being 
+asymmetrically dependent on the activities. In my view, Dualists have been mistaken 
+in assuming that there are two kinds of existences, one as entities, and the other as 
+activities– they want the ontological category of entities to account for the fact that 
+activities are not free-floating and spatially extended, and the ontological category 
+of activities to accounts for the fact that mechanisms are dynamic and “do things”, 
+and are thus temporally extended (Machamer et al., 2000; see also Kaiser, 2017, 
+p.123). However, a structuralist metaphysics can capture the spatiotemporal features 
+of mechanisms by only committing to the existence of activities understood in struc-
+turalist terms, which are spatiotemporally extended 13. Structuralists can accept that 
+the activities (occurrents) always involve entities (thus are not free-floating), but only 
+in the sense that entities are reconceptualized as merely conceptual or ontologically 
+13  I have been using different labels here, including ‘mechanistic structures,’ ‘causal occurrents,’ and 
+‘activities understood in structuralist terms.’ For me, they all refer to the same ‘thing,’ which might also be 
+expressed as inherently causal/modal dynamical structures. Thanks to an anonymous reviewer for pushing 
+me to clarify this.
+1 3
+Page 13 of 23 32
+
+
+=== PAGE 14 ===
+
+Synthese _#####################_ (2024) 204:32
+‘thin’. Hence, I believe the phrase “entity-involving Occurrents (eIO)”, where the 
+lowercase ‘e’ highlights the rejection of the ‘thick’ notion of entities, best summarizes 
+the metaphysical nature of mechanisms in my account.
+However, since objects play foundational roles in the actual practices of biology 
+and other special sciences, one might worry whether objects can be appropriately 
+accommodated in my structuralist account. In response, I shall first emphasize that 
+the main aim of this paper is to show that the recent ‘mechanism turn’ in the philoso-
+phy of science discussion is compatible with OSR, and I take it to be a further task 
+to provide a fully-fledged metaphysics of objects in the special sciences within the 
+framework of OSR, which will have to be addressed in future work14. Nevertheless, I 
+shall elaborate further in the following section on why the indispensability of objects 
+in the special sciences does not constitute a reductio ad absurdum to OSR’s advocacy 
+of the ontological shift away from objects. My discussion will consider the existing 
+attempts by structuralists to accommodate objects in special sciences and suggest 
+potential routes for further development.
+7 Object in special sciences
+Structuralists have already done a lot of work on how objects in the special sci -
+ences should be metaphysically reinterpreted along the lines of OSR. Perhaps the 
+most discussed approach is the one presented in the seminal book by Ladyman and 
+Ross (2007, Chap. 4), where L&R make sense of the existence of such objects as 
+viruses in terms of the account of real patterns inspired by Dennett’s work ( 1991) 
+(See also Ladyman and Lorenzetti forthcoming; See Ladyman, 2017, 2007/2023 for 
+summary). They argue that existence should be explicated in terms of real patterns or 
+‘to be is to be a real pattern’. According to them, real patterns are ‘those that indis -
+pensably figure in projectable generalizations that allow us to predict and explain the 
+behavior of the world’ (Ladyman, 2017, p.157). For example, they suggest that ‘a 
+wave on the beach is a real pattern to a surfer, or a lifeguard, because it is taken as the 
+basis for prediction and explanation’ (Ladyman, 2023, p.49). Waves are ephemeral 
+and fuzzy real patterns, and in general, real patterns are more or less definite and 
+durable, such as viruses and similar putative objects in biology. L&R’s account can 
+thus provide a metaphysic for objects described in mechanisms– they exist as local -
+ized real patterns.
+However, it should also be noted that L&R’s account of objects in special sciences 
+is not the only option on the table. Wallace ( 2012, 2022, 2024) defends a different 
+account of real patterns, interpreting them in a pragmatist way15. In addition, Steven 
+French (2011, 2013, 2014, Chap. 12) has also attempted to extend OSR to biology, 
+14  Thanks to an anonymous reviewer for highlighting this point and suggesting potential ways to respond 
+to the aforementioned worry.
+15  Wallace’s discussion primarily focuses on physics. He argues that mathematized physical theories suc-
+cessfully represent the reality of the objective world (thus, he supports a kind of structural realism). How-
+ever, mathematized theories can be redescribed in terms of objects. Such redescriptions, or, in his own 
+term, ‘predicate precification’ of a theory, are useful for our thinking and understanding. For him, objects 
+do not correspond to anything in the underlying reality of the world.
+1 3
+32 Page 14 of 23
+
+
+=== PAGE 15 ===
+
+Synthese _#####################_ (2024) 204:32
+where he (2016) argues for an eliminativism of biological objects. However, French 
+(2014) does not deny the usefulness of the concept of objects and, therefore, does 
+not object to their use in scientific practice and everyday life. For him, objects exist 
+conceptually as heuristic devices.
+Moreover, I argue that OSR can benefit from aligning more closely with the so-
+called processual ontology, which has recently come to the fore through the discus -
+sion of Dupré and others (e.g., Dupré & Nicholson 2018; Dupré, 2021). This account 
+also argues against object ontology and advocates for a processual ontology accord -
+ing to which all that exists are processes. Dupré & Nicholson (2018) defend their 
+account by invoking several empirical motivations in biology, including ecological 
+interdependence. They argue that the fact that biological entities, ranging from mol -
+ecules to cells, organisms, and ecosystems, exist interdependently and interconnect -
+edly motivates an ontological shift from discrete objects to dynamic processes in 
+biology. Furthermore, they hold that ‘objects’ in general should be more appropri -
+ately understood as ‘temporarily stable nexuses’ that can be abstracted from ‘the flux 
+of dynamic biological processes’ (Dupré & O’Malley, 2007, p. 842). Reconciling 
+OSR and processual ontology is a complex task that deserves more thorough treat -
+ment, which will be deferred to future work. But the preliminary remark I can at least 
+make is that these empirical motivations for the ontological shift away from objects, 
+as listed in processual ontology, should certainly open up more room for a biology-
+based OSR, with objects retained, at least heuristically, as the afore-mentioned stable 
+nexuses. In any case, I hope what I have presented so far has indicated serval poten-
+tial ways for accommodating objects in OSR.
+8 Systems biology and mechanism 2.0
+This section presents an additional benefit of the structuralist metaphysics of mech -
+anisms, namely, that structuralism can be very naturally applied to some fields of 
+biology, serving as the relevant metaphysical framework. The fields I am referring 
+to are those discussed in the literature of the so-called mechanism 2.0, which calls 
+for expanding the mechanistic explanation framework and extending the concept of 
+mechanisms. Mechanism 2.0 mostly focuses on systems biology, where the mecha -
+nisms involved are nonlinear, dynamic, and described quantitatively, with mathe -
+matical models playing indispensable roles in explanation (Brigandt, 2013; Levy & 
+Bechtel, 2013, 2016; Fang, 2021). This is in contrast to mechanism 1.0, which mostly 
+concerns fields such as cell biology and molecular biology, where mechanisms are 
+linear and non-dynamic. I will show in the following how structuralism is a perfect 
+fit for the metaphysics of mechanism 2.0 in systems biology and deserves serious 
+attention from philosophers interested in this topic16.
+Levy and Bechtel (2016), in their seminal paper advancing mechanism 2.0, point 
+out that there are many examples of mechanisms, especially from systems biology, 
+16  Outside of mechanical explanation, I also think structuralism is a suitable ontology for dynamical expla-
+nation (e.g., Meyer, 2020). Thanks to an anonymous reviewer for drawing my attention to the close link 
+between structuralism and dynamical systems.
+1 3
+Page 15 of 23 32
+
+
+=== PAGE 16 ===
+
+Synthese _#####################_ (2024) 204:32
+where the components involved are not discrete entities but change continuously and 
+have no clear boundaries. They also comment on the dualist position developed in 
+Kaiser and Krickel, stating that they find it unclear whether the notion of biological 
+objects can be retained in the examples they have looked at. They have also sug -
+gested ‘to view Mechanism 2.0 in the context of process ontology’ (p.14), though do 
+not further elaborated on this point.
+In light of this, Fang ( 2021) proposes a new concept of mechanism, arguing that 
+mechanisms should be defined as “dynamic causal systems that involve various com-
+ponents interacting, typically nonlinearly, with one another to produce a phenomenon 
+of interest” (p.796). Fang raises serval examples of mechanisms describing causal 
+structures with no clearly identified entities, which create a very sympathetic context 
+for structuralism. One of such examples comes from neuroscience where scientists 
+have identified a mechanism whose dynamic character are best captured with cer -
+tain quantitative tools. Moreover, the relevant mechanisms can be decomposed into 
+several sub-mechanisms where the components are not clearly identifiable entities 
+but rather quantities representing things like ‘changes in blood flow’ and ‘changes 
+in blood volume’. These are obviously not entities understood in the object-based 
+metaphysics of mechanisms and may be more appropriately characterized as activi -
+ties. Whereas an object-oriented metaphysics of mechanisms is inapplicable in this 
+case, I argue that the metaphysics here can be well articulated through a structural -
+ist account. Structuralism allows us to read ontology directly off the mathematical 
+models, and hence according to which dynamic causal processes are metaphysically 
+underpinned by structures, with entities being reconceptualized accordingly.
+Let us look at another example in systems biology in more detail, which concerns 
+active matter composed of cytoskeletal components, such as filaments and molecular 
+motors. Active matter refers to a category of materials or systems made up of indi -
+vidual constituents capable of converting energy into directed motion or mechanical 
+work, resulting in emergent properties and dynamic behaviors at larger scales (Das 
+et al., 2020). Filaments are thread-like structures made of proteins, serving as the 
+primary building blocks of the cytoskeleton, a dynamic and adaptable cellular struc-
+ture (Fletcher & Mullins, 2010). The molecular motor refers to a specialized protein 
+molecule that moves along filaments (Schliwa & Woehlke, 2003). The interaction 
+of a large number of molecular motors and filaments at high density leads to the 
+self-assembly of complex and intricate configurations, giving rise to the emergence 
+of new properties and collective behaviors at larger time and length scales 17. These 
+configurations play essential roles in mechanisms related to cell motility, muscle con-
+traction, and cell division, among others (Needleman & Dogic, 2017; Popkin, 2016; 
+Das et al., 2020)18.
+Biophysicists have developed quantitative theories aiming at modeling filament-
+motor mixtures. One prominent theory is the active gel theory (Joanny et al., 2007; 
+17  ‘Emergence’ is a complex notion in philosophy. There are different understandings of emergence, such 
+as strong emergence, weak emergence, epistemic emergence, ontic emergence, etc. My discussion here 
+leaves these possibilities open. What matters is that on all these accounts ‘emergent’ properties can only be 
+ascribed to the whole system, not its constitunts.
+18  See Sanchez et al. (2012) for a picture of an active filament-molecular motor network viewed on a large 
+scale (p.431).
+1 3
+32 Page 16 of 23
+
+
+=== PAGE 17 ===
+
+Synthese _#####################_ (2024) 204:32
+Jülicher et al., 2007; Joanny & Prost, 2009), where scientists employ a coarse-grained 
+continuum model and treat the filament-motor mixture as a viscoelastic gel. It should 
+be emphasized that the model does not focus on the microscopic molecular level, 
+describing the dynamics of individual motors and filaments. Instead, it operates on 
+larger time and length scales, modelling the emerging system as a whole and describ-
+ing the system’s properties using macroscopic variables.
+It is important to note that the subject of the model constructed by biophysicists 
+does not conform to the traditional notions of entities as understood by monists and 
+dualists. Consider any mechanism that involves the filament-motor mixture, for 
+instance, in cell crawling. (Ananthakrishnan & Ehrlicher, 2007). An object-oriented 
+metaphysics of mechanisms is going to face difficulties in elucidating the meta -
+physics here. A mechanist can say there are activities going on here, but they would 
+struggle to identify a stable object with clear boundaries. However, structuralism 
+can accommodate this case by saying all that exists here is an active and temporally 
+extended occurrent that is inherently causal, whose causal features are captured by 
+the corresponding equations.
+Some might still want to defend an object-oriented metaphysics here by arguing 
+that we can find a way to decompose the system into discrete objects, namely, fila -
+ments and motors, so what is really going on here metaphysically is a story of objects 
+and their activities 19. Burnston ( 2021) has recently argued that we can decompose 
+dynamic, complex systems with emergent behaviors and properties into discrete 
+parts. But the price of doing so is that we must abandon an atomistic reading of parts 
+that possess intrinsic properties, but instead, think that the properties of parts depend 
+on the context in which they are embodied, and they acquire properties through inter-
+action with other parts. In a similar vein, Santos ( 2015, 2020; 2023) has developed 
+the so-called Dynamic Relational Ontology, according to which the identity and 
+properties of an object in an integrated system depend on the relations it is involved 
+in, and he also shows how his account is compatible with mechanistic explanation.
+My responses to this objection are twofold. Firstly, we should note that the parts 
+of a system and the dynamic system per se are on different levels. If ontic emergence 
+happens in this case, then the dynamic system is something that is over and above 
+the individual parts. In that case, the metaphysical underpinning of the system is best 
+understood as causal occurrents. Mathematical equations, instead of the language of 
+objects, are the means we use to describe them.
+Nevertheless, since I am open about whether there exists ontic emergence in this 
+paper, we should also consider the possibility that the thesis of ontic reductionism is 
+true, in which case the higher-level system is metaphysically reducible and identical 
+with its lower-level parts. I argue that even in that case, Santos’s ontology is more of 
+a friend to structuralism than to object-oriented metaphysics. According to Santos’s 
+ontology, objects do not possess intrinsic properties and identity; instead, he believes 
+that objects’ properties and identity are contextually determined by relations. This 
+is directly contradictory to what object-oriented metaphysics says. Although dual -
+ists think objects symmetrically depend on activities, they still believe that objects 
+possess intrinsic properties and identity! Santos’ understanding of objects is there -
+19  Thanks to an anonymous reviewer for pressing me to consider this objection.
+1 3
+Page 17 of 23 32
+
+
+=== PAGE 18 ===
+
+Synthese _#####################_ (2024) 204:32
+fore closer to how structuralists understand objects. Though Santos (2015) explicitly 
+claims that he does not ‘subscribe to ontological structural realism in either its elimi-
+native or moderate versions’ (p.440, note 17), I think that this may be due to a mis -
+reading of OSR, as the reasons he rejects OSR are that he thinks ‘no relatum exists 
+without being related to something else, and no relation instantiates without relating 
+some relata’ (Ibid). However, as alluded above, structuralists can well agree on this 
+point in the sense that they are not denying there are relata, but just claiming that such 
+relate are not constituted by ontologically thick objects. In any case, if Santos and his 
+supporters are dissatisfied with the radicalness of eliminative versions of structural -
+ism, the moderate structuralism (Esfeld & Lam, 2011), which argues that relata and 
+relation symmetrically depend on each other, is something for them. But I think their 
+notion of an object is also very close to the ‘thin’ notion of an object that is defended 
+by Ladyman and others, which says there are still objects but whose properties and 
+identity are given contextually by structural relations. Thus, I think that Santos’s 
+position can potentially be accommodated within structuralism.
+9 Conclusion
+Due to the dominance of new mechanical philosophy within the discussions of spe -
+cial sciences (especially life sciences), a successful defense of minimal metaphysics 
+of mechanisms should significantly contribute to the shift towards minimal meta -
+physics in the metaphysics of science debate. I provide such a defense in this paper 
+by reconciling the metaphysics of mechanisms with OSR and proposing a structural-
+ist account of mechanisms. In my account, the ontological commitments for mecha -
+nisms are only confined to structures. It ‘contains no assumption that does not do any 
+work in explaining scientific practice’ (Hüttemann, 2021, p.11), and should therefore 
+be embraced by minimal metaphysicians.
+In this paper, I highlight the tension between existing metaphysical accounts of 
+mechanisms and leading metaphysical theories of physics by presenting the bottom-
+ing-out problem. This problem motivates the development of a physics-informed 
+metaphysics of mechanisms. I further strengthen the motivation by contesting claims 
+regarding the existence of a fundamental classical level and showing that fundamental 
+physics is indispensable in some fields of special sciences, such as quantum biology.
+In light of this, I elaborate on a structuralist account of mechanisms by arguing that 
+the metaphysical underpinnings of mechanism are structures that should be under -
+stood as inherently causal occurrents. Entities asymmetrically depend on structures 
+and should be reconceptualized accordingly. Additionally, I discuss the potential 
+ways for my account to offer a metaphysics of entities or objects in mechanisms by 
+referring to existing attempts of structuralists and suggesting a potential alignment 
+between OSR and processual ontology. Finally, I demonstrate how my view can natu-
+rally serve as the metaphysics for Mechanism 2.0 and be applied to systems biology.
+However, the questions regarding which metaphysical view of objects structural -
+ists should adopt and how OSR and processual philosophy can be reconciled in biol-
+ogy still deserve further exploration. I hope this paper can serve as a starting point 
+1 3
+32 Page 18 of 23
+
+
+=== PAGE 19 ===
+
+Synthese _#####################_ (2024) 204:32
+that paves the way for further research, ultimately leading to the development of a 
+fully-fledged structuralist reading of biology.
+Acknowledgements I am grateful to Wei Fang and Stefan Bernhardt-Radu for reading my paper and 
+providing valuable feedback. Special thanks to Nanxin Wei for guiding me to the example of active matter 
+discussed in the paper. I would like to thank the audiences at the following events where I presented the 
+paper: The British Society for the Philosophy of Science 2023 Annual Conference, The 21st (Chinese) 
+National Academic Conference of Philosophy of Science, The 2023 Meeting of the Asia-Pacific Philoso-
+phy of Science Association, Workshop on The Philosophy of Biophysics at Bristol, Philosophy of Science 
+Around the World 2023, University of Leeds Philosophy Post-Graduate Seminar, University of Leeds His-
+tory and Philosophy of Science Work-in-Progress Seminar. Among the audience, I extend special thanks 
+to Kal Kalewold, Phyllis Illari, Jonathon Hricko, Liyang Tan, Margarida Hermida, and Kenneth Aizawa 
+for their helpful comments. I would also like to thank the two anonymous reviewers whose comments 
+have significantly enhanced the quality of the paper. Finally, I would like to express profound gratitude 
+to Juha Saatsi and Steven French, for their inspirations, discussions, and support throughout the multiple 
+revisions of the paper. Without them, this paper would not have been possible. I received funds from the 
+China Scholarship Council-University of Leeds Scholarship for PhD students.
+Statements and Declarations
+The research leading to these results received funding from the China Scholarship Council-University of 
+Leeds Scholarship for PhD students. The authors have no other relevant financial or non-financial interests 
+to disclose.
+Open Access  This article is licensed under a Creative Commons Attribution 4.0 International License, 
+which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long 
+as you give appropriate credit to the original author(s) and the source, provide a link to the Creative 
+Commons licence, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line 
+to the material. If material is not included in the article’s Creative Commons licence and your intended use 
+is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission 
+directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/
+licenses/by/4.0/.
+References
+Ananthakrishnan, R., & Ehrlicher, A. (2007). The forces behind cell movement. International Journal 
+of Biological Sciences, 3(5), 303–317. https://doi.org/10.7150/ijbs.3.303PMID: 17589565; PMCID: 
+PMC1893118.
+Anjum, R. L., & Mumford, S. (2018). Dispositionalism: A dynamic theory of Causation. Everything flows: 
+Towards a Processual Philosophy of Biology. Oxford University Press.
+Austin, C. J. (2017). Evo-devo: A science of dispositions. European Journal for Philosophy of Science , 
+7(2), 373–389.
+Beni, M. D. (2016). Structural realist account of the self. Synthese, 193(12), 3727–3740.
+Brigandt, I. (2013). Systems Biology and the integration of mechanistic explanation and Mathematical 
+Explanation. Studies in History and Philosophy of Science Part C, 44(4), 477–492.
+Burnston, D. C. (2021). Getting over atomism: Functional decomposition in complex neural systems. Brit-
+ish Journal for the Philosophy of Science, 72(3), 743–772.
+Cartwright, N. (1994). Nature’ s Capacities and Their Measurement. Oxford University Press. https://doi.
+org/10.1093/0198235070.001.0001.
+Cartwright, N. (1999). The Dappled World: A study of the boundaries of Science . Cambridge University 
+Press.
+1 3
+Page 19 of 23 32
+
+
+=== PAGE 20 ===
+
+Synthese _#####################_ (2024) 204:32
+Collini, E., Wong, C. Y ., Wilk, K. E., Curmi, P. M. G., Brumer, P., & Scholes, G. D. (2010). Coherently 
+wired light-harvesting in photosynthetic marine algae at ambient temperature. Nature, 463, 644–647. 
+https://doi.org/10.1038/nature08811.
+Cordovil, J. L. (2023). Fundamental Physics and (New-)Mechanistic Ontologies. In João L. Cordovil, Gil 
+Santos & Davide Vecchi (Eds.), New Mechanism Explanation, Emergence and Reduction. Springer. 
+pp. 179–189.
+Das, M., Christoph, F. S., & Michael, M. (2020). Introduction to active matter. Soft Matter , 16(31), 
+7185–7190.
+Dennett, D. (1991). Real patterns. The Journal of Philosophy, 88(1), 27–51.
+Dupré, J., & Nicholson, D. (2018). A manifesto for a processual philosophy of biology. In D. J. Nicholson 
+& J. Dupré (Eds.), Everything flows: Towards a processual philosophy of biology. Oxford University 
+Press.
+Dupré, J. (2021). The Metaphysics of Biology. Cambridge University Press.
+Dupré, J., & O’Malley, M. A. (2007). Metagenomics and biological ontology. Studies in history and phi-
+losophy of Science Part C: Studies in history and philosophy of. Biological and Biomedical Sciences, 
+38(4), 834–846.
+Engel, G. S., Calhoun, T. R., Read, E. L., Ahn, T. K., Mancal, T., Cheng, Y . C., Blankenship, R. E., & 
+Fleming, G. R. (2007). Evidence for wavelike energy transfer through quantum coherence in photo-
+synthetic systems. Nature, 446, 782–786. https://doi.org/10.1038/nature05678.
+Esfeld, M. (2004). Quantum entanglement and a metaphysics of relations. Studies in History and Philoso-
+phy of Modern Physics, 35, 601–617.
+Esfeld, M., & Lam, V . (2008). Moderate structural realism about space-time. Synthese, 160, 27–46.
+Esfeld, M., & Lam, V . (2011). Ontic structural realism as a Metaphysics of objects. In A. Bokulich, & P. 
+Bokulich (Eds.), Scientific structuralism (pp. 143–159). Springer Science + Business Media.
+Fang, W. (2021). Toward mechanism 2.1: A dynamic Causal Approach. Philosophy of Science , 88(5), 
+796–809.
+Fletcher, D., & Mullins, R. (2010). Cell mechanics and the cytoskeleton. Nature, 463, 485–492. https://
+doi.org/10.1038/nature08908.
+Franck, J., & Teller, E. (1938). Migration and photochemical action of excitation energy in crystals. Jour-
+nal of Chemical Physics, 6, 861–872. https://doi.org/10.1063/1.1750182.
+French, S. (2006). Structure as a weapon of the realist. Proceedings of the Aristotelian Society , 106(2), 
+167–185.
+French, S. (2010). The interdependence of structure, objects, and dependence. Synthese, 175(S1), 89–109.
+French, S. (2013). Eschewing Entities: Outlining a Biology Based Form of Structural Realism. In V . Kara-
+kostas & D. Dieks (Eds.), EPSA11 Perspectives and Foundational Problems in Philosophy of Science 
+(pp. 30). Springer. https://doi.org/10.1007/978-3-319-01306-030.
+French, S. (2014). The structure of the World: Metaphysics and representation. Oxford University Press.
+French, S. (2019). Defending eliminative structuralism and a whole lot more. Studies in History and Phi-
+losophy of Science Part A, 74, 22–29.
+French, S. (2016). Eliminating objects across the sciences. In Thomas, Pradeu, & A. Guay (Eds.), Individu-
+als across the sciences. Oxford University Press.
+French, S. (2022). ‘Andreas Hüttemann’s A Minimal Metaphysics for Scientific Practice’. BJPS Review of 
+Books, 2022. www.thebsps.org/reviewofbooks/french-on-huttemann/.
+French, S., & Krause, D. (2006). Identity in physics. Oxford University Press.
+French, S., & Ladyman, J. (2003). Remodeling structural realism: Quantum physics and the metaphysics 
+of structure. Synthese, 136(1), 31–56.
+French, S., & Ladyman, J. (2011). In defense of ontic structural realism. In A. Bokulich, & P. Bokulich 
+(Eds.), Scientific structuralism (pp. 25–42). Springer Science + Business Media.
+French, S., & Redhead, M. (1988). Quantum physics and the identity of indiscernibles. British Journal for 
+the Philosophy of Science, 39(2), 233–246.
+Glennan, S. (1996). Mechanisms and the nature of causation. Erkenntnis, 44(1), 49–71.
+Glennan, S. (2010). Mechanisms, causes, and the layered model of the World. Philosophy and Phenom-
+enological Research, 81(2), 362–381.
+Glennan, S. (2011). Singular and general causal relations: A mechanist perspective. In P. McKay, F. Illari, 
+Russo, & J. Williamson (Eds.), Causality in the sciences. Oxford University Press.
+Glennan, S. (2017). The New Mechanical Philosophy. Oxford University Press.
+Glennan, S., Illari, P., & Weber, E. (2022). Six theses on mechanisms and mechanistic science. Journal 
+for General Philosophy of Science / Zeitschrift für Allgemeine Wissenschaftstheorie, 53(2), 143–161.
+1 3
+32 Page 20 of 23
+
+
+=== PAGE 21 ===
+
+Synthese _#####################_ (2024) 204:32
+Hüttemann, A. (2021). ). A minimal metaphysics for scientific practice. Cambridge University Press.
+Hüttemann, A., & Kaiser, M. I. (2018). Potentiality in Biology. In K. Engelhardt & M. Quante (Eds.), 
+Handbook of Potentiality, 401–428.
+Illari, P., & Williamson, J. (2013). In defence of activities. Journal for General Philosophy of Science / 
+Zeitschrift für Allgemeine Wissenschaftstheorie, 44(1), 69–83.
+Joanny, J. F., & Prost, J. (2009). Active gels as a description of the actin-myosin cytoskeleton. HFSP 
+J.;3(2):94–104. doi: 10.2976/1.3054712. Epub 2009 Jan 6. PMID: 19794818; PMCID: PMC2707794.
+Joanny, J. F., et al. (2007). Hydrodynamic theory for multi-component active polar gels. New Journal of 
+Physics, 9, 422. https://doi.org/10.1088/1367-2630/9/11/422.
+Jülicher, K., Kruse, J., Prost, J., & Joanny, J. F. (2007). Active behavior of the Cytoskeleton. Physics 
+Reports, 449(1–3), 3–28. https://doi.org/10.1016/j.physrep.2007.02.018.
+Kaiser, M. I. (2017). The components and boundaries of mechanisms. In S. Glennan, & P. Illari (Eds.), The 
+Routledge Handbook of mechanisms and Mechanical Philosophy. Routledge.
+Kaiser, M. I., & Hüttemann, A. (2013). Disposition. In W. Dubitzky, O. Wolkenhauer, K.-H. Cho & H. 
+Yokota (Eds.), Encyclopedia of Systems Biology, V ol. X, 594–597.
+Kaiser, M. I., & Krickel, B. (2017). The Metaphysics of Constitutive mechanistic phenomena. British 
+Journal for the Philosophy of Science, 68(3).
+Krickel, B. (2018). The Mechanical World: The metaphysical commitments of the new mechanistic 
+Approach. Springer.
+Kuhlmann, M., & Glennan, S. (2014). On the relation between Quantum Mechanical and neo-mechanistic 
+ontologies and explanatory strategies. European Journal for Philosophy of Science, 4(3), 337–359.
+Kuhlmann, M. Mechanisms in physics. S. Glennan, & P. Illari (Eds.), (Eds.), the Routledge Handbook of 
+mechanisms and Mechanical Philosophy. Routledge.
+Ladyman, J. (2007). James Ladyman: On the identity and diversity of objects in a structure. Aris-
+totelian Society Supplementary Volume , 81(1), 23–43. https://doi.org/10.1093/acprof:
+oso/9780199363209.003.0008.
+Ladyman, J. (2017). An apology for naturalized metaphysics. In H. Matthew, Slater, & Z. Yudell (Eds.), 
+Metaphysics and the philosophy of Science: New essays. Oxford University Press.
+Ladyman, J., & Lorenzetti, L. (forthcoming) (Eds.). Effective ontic structural realism. British Journal for 
+the Philosophy of Science.
+Ladyman, J., & Ross, D. (2007). Every thing must go: Metaphysics Naturalized. Oxford University Press.
+Ladyman, J. (2007/2023). Structural realism. In E. N. Zalta (Ed.), The Stanford Encyclopedia of Philoso-
+phy. Metaphysics Research Lab, Stanford University.
+Lam, V ., & Esfeld, M. (2012). The Structural Metaphysics of Quantum Theory and General Relativity. 
+Journal for General Philosophy of Science / Zeitschrift für Allgemeine Wissenschaftstheorie , 43(2), 
+243–258.
+Lambert, N., Chen, Y . N., Cheng, Y . C., et al. (2013). Quantum biology. Nature Physics, 9, 10–18. https://
+doi.org/10.1038/nphys2474.
+Lee, H., Cheng, Y . C., & Fleming, G. R. (2007). Coherence dynamics in photosynthesis: protein protection 
+of excitonic coherence. Science, 316(5830), 1462–1465. https://doi.org/10.1126/science.1142188 
+PMID: 17556580.
+Levy, A., & Bechtel, W. (2013). Abstraction and the Organization of mechanisms. Philosophy of Science, 
+80(2), 241–261.
+Levy, A., & Bechtel, W. (2016). Towards mechanism 2.0: Expanding the scope of mechanistic explanation. 
+PhilSci-Archive.
+Machamer, P., Darden, L., & Craver, C. F. (2000). Thinking about mechanisms. Philosophy of Science , 
+67(1), 1–25.
+Marais, A., et al. (2018). The future of quantum biology. Journal of the Royal Society, Interface , 15, 
+20180640. https://doi.org/10.1098/rsif.2018.0640.
+Maudlin, T. (2019). Philosophy of physics: Quantum Theory. Princeton University Press.
+McKenzie, K. (2017). Ontic structural realism. Philosophy Compass, 12(4), e12399.
+Meyer, R. (2020). Dynamical causes. Biology and Philosophy, 35(5), 1–21.
+Mumford, S. (1998). Dispositions. Oxford University Press.
+Mumford, S. (2009). Causal Powers and Capacities. In H. Beebee, C. Hitchcock & P. Menzies (Eds.), The 
+Oxford Handbook of Causation.
+Needleman, D., & Dogic, Z. (2017). Active matter at the interface between materials science and cell biol-
+ogy. Nature Reviews Materials, 2, 17048. https://doi.org/10.1038/natrevmats.2017.48.
+1 3
+Page 21 of 23 32
+
+
+=== PAGE 22 ===
+
+Synthese _#####################_ (2024) 204:32
+Panitchayangkoon, G., et al. (2010). Long-lived quantum coherence in photosynthetic complexes at physi-
+ological temperature. Proceedings of the National Academy of Sciences USA , 107, 12766–12770. 
+https://doi.org/10.1073/pnas.1005484107.
+Popkin, G. (2016). The physics of life. Nature, 529, 16–18. https://doi.org/10.1038/529016a.
+Povich, M., & Craver, C. F. (2017). Mechanistic levels, reduction, and Emergence. In S. Glennan, & P. M. 
+Illari (Eds.), The Routledge Handbook of mechanisms and Mechanical Philosophy  (pp. 185–197). 
+Routledge.
+Sanchez, T., Chen, D., DeCamp, S., et al. (2012). Spontaneous motion in hierarchically assembled active 
+matter. Nature, 491, 431–434. https://doi.org/10.1038/nature11591.
+Santos, G. (2015). Ontological emergence: How is that possible? Towards a New Relational Ontology. 
+Foundations of Science, 20(4), 429–446.
+Santos, G. (2020). Integrated-structure emergence and its mechanistic explanation. Synthese, 198(9), 
+8687–8711.
+Santos, G. (2023). Emergence, Downward Causation, and Interlevel Integrative Explanations. In João L. 
+Cordovil, Gil Santos & Davide Vecchi (Eds.), New Mechanism Explanation, Emergence and Reduc-
+tion. Springer. pp. 235–265.
+Saunders, S. (2003). Physics and Leibniz’s principles. In K. Brading, & E. Castellani (Eds.), Symmetries in 
+physics: Philosophical reflections (pp. 289–307). Cambridge University Press.
+Schliwa, M., & Woehlke, G. (2003). Molecular motors. Nature, 422, 759–765. https://doi.org/10.1038/
+nature01601.
+Vetter, B. (2014). Dispositions without conditionals. Mind, 123(489), 129–156.
+Wallace, D. (2012). The Emergent Multiverse: Quantum Theory according to the Everett Interpretation . 
+Oxford University Press.
+Wallace, D. (2022). Stating structural realism: Mathematics-first approaches to physics and metaphysics. 
+Philosophical Perspectives, 36(1), 345–378.
+Wallace, D. (2024). Real Patterns in Physics and Beyond. [Preprint] URL: https://philsci-archive.pitt.edu/
+id/eprint/23307 (accessed 2024-05-04).
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps 
+and institutional affiliations.
+1 3
+32 Page 22 of 23

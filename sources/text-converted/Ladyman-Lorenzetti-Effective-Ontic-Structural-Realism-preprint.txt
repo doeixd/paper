@@ -1,0 +1,926 @@
+=== PAGE 1 ===
+
+Effective Ontic Structural Realism
+James Ladyman∗ Lorenzo Lorenzetti†
+Forthcoming in The British Journal for the Philosophy of Science ‡
+Abstract
+Three accounts of effective realism (ER) have been advanced in this
+journal to solve three problems for scientific realism: Fraser and Vickers
+([forthcoming]) develop a version of ER about non-relativistic quantum me-
+chanics that they argue is compatible with all the main realist versions
+(‘interpretations’) of quantum mechanics avoiding the problem of underde-
+termination among them; Williams ([2019]) and Fraser ([2020 b]) propose
+ER about quantum field theory as a response to the problems facing realist
+interpretations; Robertson and Wilson ([forthcoming]) propose ER to deal
+with the dubious ontological status of the entities belonging to superseded
+theories. This paper argues for the unification of these proposals based on
+realism about modal structure and the idea of scale relativity of ontology
+developed by ontic structural realists. This solves problems some or all the
+accounts of ER face, especially that of making explicit in what way they are
+realist. Furthermore, we respond to a recent critique that has been raised
+against the ontic structural realist account of quantum mechanics that we
+employ.
+Contents
+1 Introduction 2
+2 The Effective Ontology of Quantum Mechanics 4
+2.1 On Fraser and Vickers’ effective realism about quantum mechanics . 4
+2.2 On Egg’s challenge to structural realist quantum mechanics . . . . . 10
+3 Effective Realism and Quantum Field Theories 13
+∗Department of Philosophy, University of Bristol. Email: james.ladyman@bristol.ac.uk
+†Department of Philosophy, University of Bristol. Email: lorenzo.lorenzetti@bristol.ac.uk
+‡This is the accepted author manuscript (AAM).
+1
+
+
+=== PAGE 2 ===
+
+4 The Effective Ontology of Old Theories 16
+5 Conclusion 19
+1 Introduction
+Effective realism (ER) is a form of scientific realism about effective theories, which
+have a limited range and domain of applicability. An effective ontology is the on-
+tology of an effective theory. Three accounts of ER have been advanced to solve
+problems for scientific realism raised in recent literature: Egg ([2021]) and Fraser
+and Vickers ([forthcoming]) develop a version of ER about non-relativistic quan-
+tum mechanics that they argue is compatible with all the main different versions
+(‘interpretations’) of quantum mechanics avoiding the problem of underdetermi-
+nation among them; Williams ([2019]) and Fraser ([2020 b]) propose ER about
+quantum field theory as a response to the problems facing realist interpretations;
+and Robertson and Wilson ([forthcoming]) propose ER to deal with the dubious
+ontological status of the entities belonging to superseded theories, defending the
+possibility of retaining in our ontology ‘theoretical relicts’, that is the ontological
+posits of old and superseded scientific theories, via an effective ontology account.
+This paper connects effective realism to ontic structural realism (OSR) because
+some of the key features of the latter seem to have been forgotten in the most
+recent literature, and in particular OSR can unify the above forms of ER – and
+their different kinds of effective ontologies – with the theses of realism about modal
+structure and the scale relativity of ontology. Indeed, although it goes unremarked
+in the literature on ER, the idea of effective ontology is explicitly invoked by
+Ladyman and Ross, and their collaborators, in their programme to provide a
+unified realism that addresses both quantum physics, and the problem of theory
+change and theoretical relicts for scientific realism. Their OSR involves realism
+about modal structure, combined with the theses of scale-relativity and the theory
+of real patterns (Ladyman and Ross [2007], Ladyman [2011], [2015], [2017], [2018],
+Berenstain and Ladyman [2012]). 1 OSR treats the entities of superseded theories
+and the entities of the special sciences, which are often the same things, as part
+1An important terminological point should be noted. The combination of scale relativity of
+ontology and the theory of real patterns, developed in the context of realism about modal struc-
+ture and the rejection of self-subsistent individuals, is called by Ladyman and Ross ‘Rainforest
+Realism’ and is applied to the ontology of special sciences. The term ‘Ontic Structural Realism’
+is sometimes taken as a view restricted to realism about modal structure within fundamental
+physics, and also understood in other ways (see Ladyman [2020]). Here, by ‘OSR’ we denote
+the general framework proposed by Ladyman and Ross ([2007]), and Ladyman ([2017]) which
+comprises a core commitment to modal structures both within physics and special sciences, and
+we understand Rainforest Realism as part of the OSR programme. Ladyman’s and Ross’s ER
+about the special sciences contrasts with French’s eliminativist form of OSR (cf. French [2014]).
+2
+
+
+=== PAGE 3 ===
+
+of effective ontology vindicated by the theory of real patterns. 2 Taking effective
+entities as scale-relative real patterns in the modal structure of the world is clearly
+a realist position, and OSR thus provides a metaphysics for ER and clarifies it.
+Some but not all of the authors discussed in what follows already make commit-
+ment to modal structure explicit, and doing so addresses problems that otherwise
+face their accounts, especially that of making clear in what way they are realist.
+Furthermore, some but not all of the authors discussed in what follows make a
+commitment to the scale relativity of ontology explicit, and doing so addresses
+problems that otherwise face their accounts, and in particular, it provides the ba-
+sis for a reply to Saatsi’s ([2022]) criticism of ER. To be more specific: (i) realism
+about modal structure can be linked to Fraser and Vickers’ scientific realist ac-
+count of quantum mechanics and to the debate on realism within quantum field
+theories; (ii) the scale-relativity of ontology is explicit in ER applied to quantum
+field theories, and implicitly assumed by Robertson and Wilson in their account of
+theoretical relicts in terms of ER, and it can also be shown to solve the problem of
+the ontology of quantum mechanics raised by Saatsi; finally (iii) the notion of real
+patterns can be linked to all the debates addressed here. Connecting OSR with
+these debates is a very natural and profitable move that fills a gap in the discussion
+in the recent literature. Furthermore, in relation to the debate on the ontology
+of quantum mechanics as discussed by Fraser and Vickers, we respond to Egg’s
+([2019]) challenge that structural realism cannot provide an adequate ontology and
+a realist account of quantum mechanics. Overall, by linking the complex litera-
+ture on OSR with the emerging literature on ER, this paper shows that structural
+realism should not be neglected in this context, and provides a starting point for
+further lines of research.
+The structure of the paper is as follows. Section 2 focuses on ER as applied
+to quantum mechanics. In particular, Section 2.1 shows how OSR can underpin
+this form of ER, also responding to Saasti’s challenge. Section 2.2 then specifically
+addresses an objection by Egg ([2019]) to the account we defend about quantum
+mechanics. Section 3 focuses on ER about quantum field theories and shows how
+consideration of OSR advances the debate. Section 4 shows how accounting for
+the ontology of a superseded theory by regarding it as effective is improved by
+reframing ER in terms of OSR.
+2By ‘special sciences’ we include also quantum mechanics as discussed by the mentioned
+authors since it is not the most fundamental physics. Indeed, arguably every theory in physics
+is currently effective since none of them apply in every domain (with the possible exception of
+thermodynamics).
+3
+
+
+=== PAGE 4 ===
+
+2 The Effective Ontology of Quantum Mechanics
+2.1 On Fraser and Vickers’ effective realism about quantum
+mechanics
+Quantum mechanics is a challenge for scientific realism.3 Several different versions
+of quantum mechanics have been proposed to solve the notorious measurement
+problem, and they share the same empirical consequences at least in respect of
+the current experimental evidence. 4 The standard realist options are dynamical
+collapse theories, Bohmian mechanics and Everettian quantum mechanics. These
+versions of quantum mechanics say very different things about how the world is.
+Hence the issue of underdetermination. One option for the realist advocated by
+Callender ([2020]) among others is to appeal to extra-empirical features in favour
+of a particular version.
+On the other hand, philosophers such as Egg ([2021]) and Fraser and Vick-
+ers ([forthcoming]) have recently advanced another strategy. According to this
+approach, we should be realists only about specific aspects of quantum mechan-
+ics. More precisely, we should treat quantum mechanics as an effective theory
+that is correct only about particular regimes and domains, for which it provides
+an effective ontology. They do not take quantum mechanics to tell us about the
+fundamental nature of the world, but just about certain non-fundamental features.
+Egg ([2021]) argues that we can explicate this form of ER by appealing to
+so-called ‘textbook quantum mechanics’, that is, the kind of quantum theory we
+find in textbooks, which is neutral with respect to the realist versions of quantum
+mechanics mentioned above. However, Fraser and Vickers ([forthcoming]) convinc-
+ingly argue that it is vague what should count as textbook quantum mechanics,
+and that appealing to this kind of ‘theory’ would eventually lead us to adopt a
+specific interpretation of quantum theory, as “the measurement problem arguably
+shows that attempts to precisify what is meant by textbook quantum mechanics
+turn out to be either inconsistent or incoherent” (Fraser and Vickers [forthcoming],
+p. 14). 5
+Fraser and Vickers point out that different versions of quantum mechanics,
+despite being different in many respects, share certain commitments, and they
+3See for instance the debate between Hoefer ([2020]) and Callender ([2020]), and the essays
+in Saatsi and French ([2020]).
+4Collapse models make different predictions in principle to standard quantum mechanics,
+but standard formulations of Bohm theory agree with it completely. Note though that any claim
+of empirical equivalence is restricted to the domain of the theory which is much more limited
+than that of quantum physics in general, hence Wallace ([unpublished b]) argues that there is no
+real underdetermination. The present paper accepts the underdetermination for the purposes of
+engaging with the literature that presupposes it.
+5Also Callender ([2020]) criticises the appeal to textbook quantum mechanics.
+4
+
+
+=== PAGE 5 ===
+
+argue that scientific realists should restrict their realist commitments to those
+common aspects. One of their key claims is that there is: 6
+a powerful sense in which we can associate non-trivial physical content
+with the wave function without committing ourselves to a particular
+interpretation. [...] we can take the decoherent branches of the wave
+function to represent ‘possible’ outcomes for quantum observables on
+all three interpretations. [...] Our suggestion then is that we can under-
+stand statements about the wave function as encoding claims about the
+physically possible states and evolutions of a quantum system while re-
+maining open to different, more precise, analyses of the nature of these
+‘possibilities’ provided by particular ontic interpretations. (Fraser and
+Vickers [forthcoming], pp. 20-21)
+This is the kind of commitment they recommend if we want to be realists
+about quantum mechanics without endorsing a specific version. In this way, one
+can be neutral about claims on which different versions disagree, and yet assign
+some physical meaning to claims made in terms of the wave function. Another
+commitment shared by all versions that we should therefore similarly endorse stems
+from the theory of quantum decoherence and from the fact that for each observer,
+thanks to decoherence, it is an objective fact which branch is effectively selected.
+That is, decoherence brings about an effective collapse of the wave function, and
+this mechanism is shared by all versions of quantum mechanics, and we can thus
+be realists about this as well. Fraser and Vickers argue that, by focusing on
+the common commitments that are shared by all the main versions of quantum
+mechanics, we can arrive at a set of statements about which we can be realists, so
+building a form of ER about quantum mechanics.
+However, the metaphysics of this view is not specified. Indeed, Fraser and Vick-
+ers consider (Section 3.4) the objection that to assign genuine physical meaning to
+those statements we need to provide a metaphysics, and grant that their account
+does not do this. As they point out, Egg ([2021]) puts forward an ontology. In
+particular, Egg proposes a functionalist ontology for ER:
+Questions about the ontology of effective theories must be answered
+in functional terms. They cannot be answered by any reference to the
+nature of their theoretical posits, insofar as that would require knowl-
+edge about how these posits emerge from a fundamental theory, which
+is just what the effective theory does not provide. Instead, the posits
+of an effective theory are characterized by what they do (effectively),
+rather than by what they are (fundamentally). (Egg [2021], p. 7)
+6On this point they closely follow Rosaler ([2016]).
+5
+
+
+=== PAGE 6 ===
+
+For instance, the spin quantity performs some explanatory work in quantum
+mechanics taken as an effective theory, and all quantum theories agree on the key
+behaviour of spin systems. That is, they all agree to say that quantum systems
+instantiate spin properties that perform certain roles. The realist should therefore
+be committed to those features, without having to step into the debate concerning
+which quantum theory is the right one, i.e. we should simply be realists about
+spin as that property of systems that play the thus-and-so role as required by all
+versions of quantum mechanics.7 In this sense, we should treat quantum mechanics
+as an effective theory providing an effective ontology.
+However, some issues can be raised concerning this proposal. First, remember
+that we are trying to define an account which can provide a metaphysical under-
+pinning for Fraser and Vickers’ effective realism. Even though Egg’s proposal is
+prima facie supposed to provide such an account – via functionalism – it is very
+difficult to see in practice how we could use this framework to supply Fraser and
+Vickers’ realism with an adequate ontology. Recall the quote we mentioned above,
+where they argue that scientific realists should be committed to physically possible
+states as described by wavefunctions. The question is how can a functionalist ac-
+count of the kind sketched by Egg provide an ontology for such claims. Secondly,
+as stressed by Fraser and Vickers ([forthcoming]) too, Saatsi ([2022]) has recently
+raised an important objection to Egg’s account of effective ontology. Saatsi argues
+that, on a general level, Egg’s ontological account is too permissive and can po-
+tentially allow for the reification of inconsistent entities, thereby undermining the
+proposal.8 Saatsi takes for instance Newtonian gravitation as a counterexample to
+Egg’s form of effective realism. He claims that, given that Newtonian gravitational
+forces play a role in Newtonian gravitation, and this can be considered an effective
+theory which is correct in a certain regime, an effective realist like Egg should be
+committed to gravitational forces. However, Saatsi continues, General Relativ-
+ity tells us that gravity is not a force and being realists about both Newtonian
+gravitational forces and general relativistic gravitation would lead us to accept
+inconsistent ontological elements in our theory. Because of this general problem
+with Egg’s account, Fraser and Vickers ([forthcoming]) discard that account as
+unsuitable to provide an adequate ontology for their view.
+Hence, although Fraser and Vicker’s recent proposal for an effective scientific
+realist account of quantum mechanics looks promising, it lacks a clear account of
+the metaphysical consequences of this form of realism, given the failure of Egg’s
+proposal of an effective ontology for effective realism. However, given that the topic
+is scientific realism, the need for a clear account concerning ontology is arguably
+7Here Egg appeals to textbook quantum mechanics to define the role of spin, and we have
+stressed how referring to this allegedly neutral theory can be problematic. However, we set this
+problem aside, since we are just interested here in describing his functionalist effective ontology.
+8See also (Ruetsche [2018]) on a related critique to effective ontologies.
+6
+
+
+=== PAGE 7 ===
+
+very pressing. Without a metaphysics, it is not clear that their account is really a
+form of scientific realism, as opposed to a position along the lines of van Fraasen’s
+constructive empiricism, according to which accepting a theory involves believing
+in its empirical adequacy, as well as being pragmatically committed to its ontology
+for the purposes of scientific practice, but does not require genuine ontological
+commitment to unobservables.
+Ontic structural realism provides a metaphysical picture that can supplement
+Fraser and Vickers’ account. In particular, it is based on realism about modal
+structure, which clarifies the ontology we should be committed to and links it with
+a developed account of scientific realism that is highly coherent with the realism
+endorsed by Fraser and Vickers. Indeed, as granted by Fraser and Vickers, their
+account also lacks a clear metaphysical underpinning. Furthermore, and crucially,
+OSR avoids the issues faced by Egg’s effective realist account, since it provides a
+more refined account of effective ontology.
+Structural realism, in its ontic form defended by Ladyman and Ross ([2007]), is
+a scientific realist position that is committed to the existence of modal or nomolog-
+ical structures in the world: “Ontic Structural Realism (OSR) is the view that the
+world has an objective modal structure that is ontologically fundamental, in the
+sense of not supervening on the intrinsic properties of a set of individuals.” (Lady-
+man and Ross [2007], p. 130). 9 This picture fits particularly well with Fraser and
+Vickers’ realist account. Consider Berenstain’s and Ladyman’s ([2012], p. 153)
+claim that “If theoretical claims about electrons are to be taken literally as refer-
+ring to unobservable entities bearing certain properties, then so too should claims
+about laws, causes, and other modalities.”. In this case, Fraser and Vickers argue
+that we should be committed to the claims shared by all the interpretations about
+the possible branches quantum states can embed. If we further ask about the
+metaphysical implications of such a scientifically realist commitment, embracing
+structural realism is a natural strategy: those modal claims should commit us to
+objective modal structures in the world that are represented by the mathematical
+formalism of branching structures. OSR is an ideal option for an effective realist
+and commitment to modal structure can be shared by all interpretations.
+Notably, it fits within Everettian quantum mechanics: prima facie, one could
+be puzzled by the claim that a theory like Everettian quantum mechanics, a the-
+ory in which modality is usually interpreted epistemically, should be committed
+to ontic modality, however, there is a sense in which also Everettian quantum
+9It is important to stress that ‘fundamental’ does not mean here ‘belonging to the fundamen-
+tal ontological level’. Ladyman and Ross ([2007], Sect. 1.6) make clear they are not committed
+to the existence of a fundamental ontological level and take the ontology of physics as on a par
+with the ontology of special sciences (see Ladyman [2017], p. 151). The modal structures to
+which OSR is committed are instead fundamental in the sense of not being reducible to objects
+and their properties
+7
+
+
+=== PAGE 8 ===
+
+mechanics embeds non-epistemic modality. As Wallace ([2010], p. 62-70) puts it:
+“Decoherence allows us to extract from the unitary dynamics a space of histories
+(strings of projectors onto decoherence-preferred states) and to assign probabil-
+ities to each history in a consistent way [...] Worlds are mutually dynamically
+isolated structures instantiated within the quantum state, which are structurally
+and dynamically ‘quasiclassical’.”. Thus, the quantum state embeds an objec-
+tive structure of branches representing possible histories. 10 And, crucially for our
+purposes, all interpretations agree on those possibilities.
+There are several reasons to prefer structural realism over Egg’s proposal and
+in general to adopt OSR in this context. First, OSR fits very naturally with the
+modal claims at the centre of Fraser and Vickers’ approach to quantum mechanics
+and provides a clearer metaphysics for effective realism than Egg’s functionalist
+ontology. Second, adopting OSR makes sure that ER is genuinely realism. OSR
+requires that scientific realists should be committed to modal features of the world
+as they are described by the structure of theories and their scale-relative ontol-
+ogy. In this way, structural realism is a more refined kind of scientific realism that
+fits very nicely with Fraser and Vickers’ account. Third, Fraser and Vickers are
+already implicitly committed to central tenets of OSR, as they are scientific real-
+ists but quietist about fundamental ontology, and they are committed to realism
+about objective modal claims: “Our suggestion then is that we can understand
+statements about the wave function as encoding claims about the physically pos-
+sible states and evolutions of a quantum system while remaining open to different,
+more precise, analyses of the nature of these ‘possibilities’ provided by particular
+ontic interpretations” (Fraser and Vickers [forthcoming], p. 20). Finally, the last
+but crucial reason to adopt OSR in this context is that it provides an approach
+to effective ontology for quantum mechanics that avoids the challenge raised by
+Saatsi against Egg as argued below.
+As discussed above, Fraser and Vickers discard Egg’s effective account on the
+grounds that it falls prey to Saatsi’s objection and thus is not a good candidate to
+be a general ontological framework for effective ontology. However, OSR provides
+an account of effective ontology that can address and avoid the challenge in terms
+of a scale-relative metaphysical picture based on the notion of real patterns. We
+present each notion in turn.
+We have seen how OSR is committed to the existence of objective modal struc-
+tures in the world. This kind of general commitment is suitable to account for
+the kind of modal claims endorsed by Fraser and Vickers, but it is hard to make
+sense of the existence of objects like viruses or even the existence of forces if our
+ontology is just spelt out in those terms. To make more precise the ontology of
+OSR, Ladyman and Ross ([2007]) employ the notion of real patterns, which is
+10See (Ladyman and Ross [2007], p. 180) on the same topic in more detail.
+8
+
+
+=== PAGE 9 ===
+
+an inherently modal concept inspired by the work of Dennett ([1991]), and claim
+that:11
+To be is to be a real pattern, and a pattern is real iff: (i) it is projectible
+under at least one physically possible perspective; and (ii) it encodes
+information about at least one structure of events or entities S where
+that encoding is more efficient, in information-theoretic terms, than the
+bit-map encoding of S, and where for at least one of the physically pos-
+sible perspectives under which the pattern is projectible, there exists
+an aspect of S that cannot be tracked unless the encoding is recovered
+from the perspective in question. (Ladyman and Ross [2007], p. 226)
+Thus entities earn their keep by being real patterns, and the real patterns
+account explains how we can make things out of the modal structure posited by
+OSR. The real patterns ontology is then naturally combined within standard OSR
+with a scale-relative view of ontology:
+Scale relativity of ontology is the [...] hypothesis that claims about
+what (really, mind-independently) exists should be relativized to (real,
+mind-independent) scales at which nature is measurable. (Ladyman
+and Ross [2007], p. 200)
+According to this position, what exists should be indexed to the particular
+domain that is considered, because there are scales at which theories and their
+associated ontologies are not effective. In this sense, objects like mountains do not
+exist at the quantum scale, but exist at the macroscopic scale. If entities exist
+by virtue of being real patterns, and real patterns are carved out of specific scale-
+relative and domain-relative structures, then existence is relativized to the scale
+or domain considered. In this sense, the ontology of structural realism is clearly
+always effective ontology. Consider now how this makes OSR immune to Saatsi’s
+challenge. As applied to gravitation, this view entails that being realist about
+Newtonian gravitational forces and about General Relativity’s gravitation does
+11It should be stressed that the definition of real patterns quoted here is the one originally
+provided by Ross ([2004]) and not the refined version developed by Ladyman and Ross ([2007]).
+We employ this version here because it is simpler and fulfils our goals. The improved version
+of the definition is: “To be is to be a real pattern; and a pattern x → y is real iff (i) it is
+projectable; and (ii) it has a model that carries information about at least one pattern P in
+an encoding that has logical depth less than the bit-map encoding of P, and where P is not
+projectible by a physically possible device computing information about another real pattern of
+lower logical depth than x → y.” (p. 233), where ‘logical depth’ is “a normalized quantitative
+index of the execution time required to generate the model of the real pattern in question [by a
+computer program] not itself computable as the output of a significantly more concise program”
+(Ladyman and Ross [2007], p. 220).
+9
+
+
+=== PAGE 10 ===
+
+not pose any threat of inconsistency. Newtonian gravity and General Relativity
+describe reality at different scales and they have different ontological implications
+at each scale. In this sense, the ontology of each theory does not rival the ontology
+of the other, and including both kinds of gravitation in our general ontology does
+not entail any inconsistency.
+Summing up, OSR provides a suitable ontology for Fraser and Vickers’ effective
+realism about quantum mechanics, making their account more precise and avoid-
+ing the issues that undermine Egg’s account of effective ontology. More than this,
+as we have argued, Fraser and Vickers’ own account can be deemed as a struc-
+tural realist view, and thus we argue that the best current view about ER within
+quantum mechanics is easily accommodated within the structural realist frame-
+work. Overall, this improves the current debate on scientific realism concerning
+quantum mechanics by bridging it with the literature on structural realism. 12
+Having addressed this topic allows us also to address some of the more recent
+objections that have been raised against the original structural realist account of
+quantum mechanics. The next section reviews the critique by Egg ([2019]) and, in
+light of the present discussion, defends structural realism from his objections.
+2.2 On Egg’s challenge to structural realist quantum mechanics
+We have shown how OSR is an ideal framework for an effective realist reading
+of quantum mechanics, and accommodates recent such accounts. However, Egg
+([2019]) has raised an extensive critique of the structural realist approach to quan-
+tum mechanics. He argues that structural realism does not have the resources to
+provide a realist-enough view of quantum mechanics, and cannot be regarded as
+a viable position concerning the ontology of quantum mechanics. If Egg is correct
+this would undermine the arguments of the previous section, as structural real-
+ism would not be able to provide the required metaphysical underpinning for an
+effective realist account of quantum theory. This section defends OSR from this
+challenge.
+The target of Egg’s critique is the structural realist view that we can provide
+a realist account of quantum mechanics while remaining neutral concerning the
+measurement problem and thus the choice between different versions of quantum
+mechanics. This is basically the kind of strategy pursued by Egg ([2021]) himself
+and by Fraser and Vickers ([forthcoming]), which we have defended in Section 2.1,
+but his focus is on the specific way in which Ladyman and Ross ([2007]) implement
+the approach. The core of his objection is that “the dissolution of the measurement
+problem proposed by Ladyman and Ross undermines some specific commitments
+12Note that the main goal of this section is to show how OSR can accommodate and improve
+the ER approach to quantum mechanics developed by Fraser and Vickers, and of course it does
+not provide an exhaustive structural realist picture of non-relativistic quantum mechanics.
+10
+
+
+=== PAGE 11 ===
+
+that should be part of any position deserving to be called realism (even only a
+partial one).” (Egg [2019], p. 62).
+He begins by pointing out that Ladyman and Ross ([2007]) sympathize with
+Bohr’s approach to quantum mechanics, but also believe that such a view is com-
+patible with a form of scientific realism, and can be made explicit by structural
+realism. In this way they propose to be realist about quantum mechanics with-
+out being committed to any solution to the measurement problem. However, Egg
+stresses that the notion of measurement is problematically vague, which is the
+reason why the Bohrian interpretation of quantum mechanics is usually deemed as
+not viable. He grants that in some situations it is clear that the notion of measure-
+ment applies, but, he asks: “what about ambiguous cases, for example, a device
+that displays a measurement outcome which is not (even indirectly) observed by
+anyone?” (Egg [2019], p. 66). He then considers how this problem can be solved,
+and highlights how Ladyman and Ross opt for a verificationist approach to the
+issue, which considers
+[...] any question about unobserved measurements as a pseudo-question:
+Such events (by definition) do not make any difference to what we ob-
+serve, hence we should not suppose that there are any matters of fact
+concerning them. However, this is hard to square with realism, under-
+stood as a stance that refuses to limit reality to what we can observe,
+or worse still, to what we actually do observe. (Egg [2019], p. 66)
+Having raised this issue, Egg concedes that OSR is not a standard form of sci-
+entific realism, but a structuralist one, which is therefore committed to objective
+modal structures. He thus admits that structuralists do not share the same onto-
+logical commitments as standard scientific realists, and therefore that they could
+respond that non-structural features of quantum mechanics are outside the scope
+of realism. However, even granting this, he argues that a deeper issue lingers, i.e.
+the structural realist approach conflicts with aspects of realism that even structural
+realists like Ladyman and Ross endorse.
+According to Egg, this stems from the anthropocentric reading of the notion
+of measurement in approaches to quantum mechanics such as Bohr’s. Even if
+structural realists are just minimally ontologically committed to objective modality
+as represented in Bohr’s rule, there would be situations in which OSR would not
+deliver a realist reading, but in which a realist reading seems uncontroversial, such
+as situations in which measurement occurs but there are no observers to register
+them. In Egg’s words:
+In order to satisfy OSR’s demand, the regularities need to be invested
+with modal force, which enables us to answer questions about counter-
+factual situations. Among such questions are those about what would
+11
+
+
+=== PAGE 12 ===
+
+have happened if we had not been around to observe the phenomena
+in question, and an explanation would hardly be deemed satisfactory if
+it postulated regularities that only obtain if some observer is present.
+But this is precisely what the Born rule does, if it is interpreted as a
+modally charged law but not supplemented by a non-anthropocentric
+account of “measurement”. (Egg [2019], p. 66-7)
+As a result, he claims OSR does not provide an adequate realist view of quan-
+tum mechanics, and cannot satisfy the desiderata for one. If this is right, OSR
+cannot be put on par with the accounts by Egg ([2021]) and Fraser and Vickers
+([forthcoming]), and the proposal of the last section fails.
+To respond to this objection, we argue that OSR can incorporate a kind of
+verificationist stance to quantum measurements, while also avoiding the charge of
+anthropocentrism. It can do this by adopting an account like the one defended in
+the previous section. Indeed, structural realism is not committed to any specific
+notion of measurement, and can instead be combined with an approach to quan-
+tum mechanics like the one proposed by Fraser and Vickers, to build a structuralist
+effective modal ontology based on that. In particular, concerning the specific chal-
+lenge raised by Egg ([2019]), structural realism can adopt an approach based on
+decoherence and the effective collapse of the wavefunction, and employ objective
+modal structures and real patterns to build an adequate effective ontology. By ap-
+pealing to decoherence, we avoid the need for an allegedly anthropocentric notion of
+measurement in the first place, while sticking with a verificationist approach which
+is also scientifically realist in a structuralist way. Summing up, Egg’s challenge is
+based on the misguided opinion that an anthropocentric notion of measurement
+is mandatory for the structural realist, but the account developed in Section 2.1
+demonstrates that this is not the case.
+Note that adopting this strategy is not in contrast with Ladyman’s and Ross’
+(2007) version of OSR, or with their defence of Bohr’s approach, even though the
+latter is sometimes associated with an anthropocentric account of measurement.
+The structural realist view adopted here invokes decoherence, which Schlosshauer
+and Camilleri ([unpublished], [2017]) use to vindicate and make sense of the
+quantum-classical cut invoked by Bohr. So understood neither Bohr’s nor La-
+dyman’s and Ross’ views are anthropocentric. 13
+13Naturally, if one disagrees with the arguments by Schlosshauer and Camilleri, one is free to
+take our response as incompatible with the Bohrian approach and as contrasting with it. Nothing
+substantial about our response hinges on this.
+12
+
+
+=== PAGE 13 ===
+
+3 Effective Realism and Quantum Field Theories
+It is clear that quantum field theories and the Standard Model of particle physics
+present specific problems for scientific realism (see Ruetsche [2011]). This section
+considers ER in this context as proposed by Fraser ([2018], [2020 a], [2020b]) and
+Williams ([2019]) to develop a scientific realist account in the context of theories
+that are effective because there are intrinsic limits to their applications. We explain
+how bringing OSR into this discussion helps, especially by making clear how these
+views can qualify as realist, and by making explicit the notion of scale-relativity. 14
+The effective nature of quantum field theories is stressed by Wallace ([unpub-
+lished]) in his account of the emergence of particles in terms of quantum field
+theory and the way that cut-offs are introduced to renormalize the calculations
+of scattering amplitudes. 15 Perturbative quantum field theories and effective field
+theories are incredibly successful empirical theories but they only apply at certain
+energy scales. Fraser ([2020 b]) points out that while they clearly satisfy the em-
+pirical criteria for scientific realism because they made some of the most accurate
+predictions in history, as well as novel predictions, there is no agreed characterisa-
+tion of their physical content. Furthermore, many perturbative calculations seem
+ad hoc and renormalisation involves length-scale cut-offs that could be made dif-
+ferently. However, renormalisation group methods can be used to show that the
+results are independent of exactly how the cut-offs are made. Furthermore, the
+behaviour and nature of entities in particle physics is independent of the details
+of the structure of the physics at the length scales beyond current quantum field
+theories.
+In the context of quantum field theories, as before, effective ontology is the
+ontology of an effective theory which has a limited range and domain of appli-
+cability, and ER is the form of scientific realism which is just committed to the
+entities and phenomena described by such theories. The ‘Effective Realism’ of
+Williams and the ‘Renormalisation Group Realism’ of Fraser are effective realist
+accounts which are intended as forms of selective realism. Selective realism is the
+defence of realism on the basis of criteria for picking out, in advance, the parts of
+the theories liable to be retained after otherwise radical theory change. However,
+it is important that this form of ER does not involve require a complete inter-
+pretation and ontology that is expected to survive theory change, just the claim
+that the theory will remain effective in its domain after future theory change (see
+below). This is surely so, although of course what is understood as the domain
+of the theory may change to some or indeed a considerable extent. Interestingly,
+in the case of perturbative quantum field theories it is built into the models that
+14Ruetsche ([2011]) also criticises OSR but not in the form that we defend here. Dougherty
+([forthcoming]) criticises other forms of ER and proposes his own involving scale-relative realism.
+15See also (Wallace [2021]).
+13
+
+
+=== PAGE 14 ===
+
+they only apply within certain scales.
+However, at this point, an issue arises for these views, as Ruetsche ([2018],
+[2020]) points out. That is, ER so characterised does not seem different to accept-
+ing the empirical adequacy of the theories as well as pragmatic commitments to
+their ontology.16 ER, as proposed by them, is vulnerable to the charge that it is
+compatible with structuralist empiricism and other forms of antirealism, because
+it does not amount to more than talking and reasoning as if entities are real for
+the purposes of scientific practice in some domain. For it to qualify as a form of
+realism we need to make clear the realist commitments of the account.
+We argue that combining these views with OSR can dissolve the problem and
+hence improve this form of ER. The explicit commitment to realism about modal
+structure is the core component of OSR that makes it distinct from van Fraassen’s
+structural empiricism and a scientific realist metaphysics. Furthermore, from the
+perspective of the OSR of Ladyman and Ross, the kind of realism prompted by
+quantum field theories and proposed by Fraser, Williams and Dougherty, is not
+special to quantum field theories but rather is an example of the scale relativity of
+ontology that they regard as ubiquitous and which is naturally embedded within
+OSR’s ER.17
+To see how OSR can improve ER about quantum field theories, let’s start
+by looking more closely at how the charge pointed out above affects for instance
+Williams’ account.18 The ER he develops departs from standard versions of scien-
+tific realism. Instead of being committed to the whole theory of quantum fields at
+all scales, we just focus on certain limited domains, and consider the theory in its
+effective form. The realist is then allowed to use renormalisation group analysis
+to pick out those elements of the theory that are invariant under renormalisation
+groups flow, and to be committed to those. In particular, the renormalisation
+group analysis shows that certain quantities have their values independently of
+the exact choices made and so that they are ‘robust’. Williams uses Wimsatt’s
+definition of robust here: “accessible (detectable, measurable, derivable, definable,
+producible, or the like) in a variety of independent ways” (Wimsatt [2007] p. 95).
+These quantities are preserved by renormalisation group coarse-graining transfor-
+16Fraser ([2020b], p. 290) explicitly mentions OSR while saying that “There are certainly
+frameworks on the table that the effective field theory realist might turn to in order to clarify
+their position” but does not elaborate. This is a point in favour of the worth of the present
+discussion.
+17It should be noted again however that French, Ladyman and Ross do not understand struc-
+tural realism as a form of selective realism, departing from the authors quoted above in this
+respect. Nonetheless, the present account of ER can frame Williams, Fraser and Dougherty’s
+accounts, since these accounts can be classified as forms of effective realism, regardless of their
+relationship with the notion of selective realism. We thus stress that ER should be distinguished
+from selective realism. For more on this topic see (Ladyman [2021]).
+18Fraser ([2020b]) follows a very similar strategy.
+14
+
+
+=== PAGE 15 ===
+
+mations and encode the long-distance structure of quantum field theory models.
+As such, we should be ‘effectively’ committed to them.
+Now, our point is that it is difficult to see how where exactly this account and
+a non-realist position such as e.g. van Fraassen’s ([2006], [2008]) empiricist struc-
+turalism differ, since antirealists including van Fraassen allow that those accepting
+a theory can be pragmatically committed to the ontology of a theory, and that this
+has a role in the application and development of the theory. Since Williams’ (and
+Fraser’s) account are compatible with a view like this, it seems that his form of
+ER is realist in letter but not in spirit. To obtain a genuinely realist position, this
+approach to ER must be combined with some kind of realist metaphysics. This
+is basically the same point raised earlier in Section 2 about Fraser and Vicker’s
+account of quantum mechanics, and is granted by some of the authors working
+on this debate as well, as mentioned. As such, just as in Section 2, we contend
+that bringing OSR into the picture – and in particular a metaphysics of modal
+structures and a scale-relative picture of ontology – can solve the problem.
+As explained in Section 2, the present form of OSR involves scale relativity of
+ontology in general. Thus, the status of effective field theories is not special at all
+within this picture. Just as we can be realist about the modal structures that are
+represented in non-relativistic quantum mechanics models as described in Fraser
+and Vickers ([forthcoming]), we can be realist about the modal structures identified
+by renormalisation group techniques in quantum field theories. In this sense, ER
+applied to quantum field theories can easily become clearly a form of realism by
+granting that the elements of the theory that are invariant under renormalisation
+groups flow actually represent modal structures in the world, and those structures
+are to what we are ontologically committed. Realism about modal structure thus
+allows us to make ER about quantum field theories a genuine form of scientific re-
+alism. This structuralist version of ER about quantum field theories vindicates the
+general claim that ontology is scale-dependent and this accommodates the remark
+often made by the authors working on quantum field theory that the structures
+revealed by the renormalisation group techniques are essentially scale-dependent.
+These structures fit the criteria for real patterns since they capture projectible
+features of the world as discussed by Ladyman ([2015], p. 203-4): “The crite-
+rion of ontological commitment is as follows: real patterns (genuine individuals)
+must figure in projectable generalizations/causal laws that allow us to predict and
+explain the behaviour of the world.”
+Employing the OSR package of realism about modal structure, real patterns,
+and scale-relativity of ontology, thus provides a metaphysics to go with the ER for
+quantum field theories recently proposed.
+15
+
+
+=== PAGE 16 ===
+
+4 The Effective Ontology of Old Theories
+So far we have discussed the topic of effective ontology within the context of
+quantum physics, and have shown how OSR moves both the debate about realism
+about quantum mechanics, and the debate about realism about quantum field
+theories and the Standard Model forward. This section focuses on a different
+context in which effective realism has been discussed and argues that the same
+structural realist approach to effective ontology is applicable to and advances this
+debate as well.
+The issue is the problematic ontological status of the entities of superseded
+theories that were once held to be true. The scientific realist must say whether we
+should keep them in our ontology given that they were once considered to be real,
+and, if so, how they should be understood. Robertson and Wilson ([forthcoming])
+have recently argued against the common view that the entities of superseded
+theories (that they call ‘theoretical relicts’) should simply be eliminated, and pro-
+vided an effective realist account of them. They argue that we can retain them,
+provided that we can appropriately restrict the old theory to which they belong
+to a domain in which it holds, and if we can show that those entities still play a
+relevant explanatory role in currently accepted explanations. As they put it, these
+effective and non-fundamental entities “earn their keep through playing a role in
+our best explanations” (Robertson and Wilson [forthcoming], p. 22). They thus
+consider those entities to be emergent, and on a par with the entities posited by
+special sciences. One example is space (as opposed to spacetime), which can be
+recovered and therefore considered as an entity of the same kind of higher-level
+items like viruses or gasses. It should be highlighted that by pursuing this strategy
+they are following OSR’s idea that “entities that are now regarded as emergent are
+also often the entities of past theories” (Ladyman [2018], p. 102) (this statement
+is quoted by Robertson and Wilson).
+Crucially, they argue that their framework is better than Egg’s account con-
+cerning effective ontology. Recall Saatsi’s objection that if we liberally include in
+our ontology any entity that plays a role in some explanation then we can end
+up with inconsistent ontological commitments, e.g. by being realists about both
+Newtonian gravitational forces and General-relativity gravitation. Robertson and
+Wilson’s account avoids the problem, as they stress, since the domain-restriction
+step removes the inconsistency: the theories are made to agree as the old theory
+is now restricted in a way that makes it true only in a limited domain. Therefore,
+when we reify the entities of the restricted old theory they do not conflict with the
+entities of the new theory, because they exist as effective and higher-level entities:
+On this approach, Galilean spacetime (for example) is no longer un-
+derstood as merely a useful fiction; we understand Galilean spacetime
+16
+
+
+=== PAGE 17 ===
+
+as a description of spacetime structure at a ‘classical’ level of abstrac-
+tion. Likewise, Newtonian gravity and general relativity characterize
+different structural features of gravitation located at different levels of
+abstraction. (Robertson and Wilson [forthcoming], p. 25)
+OSR’s ER offers an equivalent ontological account of theoretical relicts and
+Robertson and Wilson’s proposal can thus be easily embedded within the struc-
+tural realist framework. Structural realism is motivated in part by the problem of
+reconciling scientific realism with the history of changes in the ontology of science.
+Furthermore, OSR implements structural realism with an ontological account of
+higher-level entities and entities of superseded theories in terms of real patterns
+that perfectly fits in the present context and naturally accommodates Robertson
+and Wilson’s proposal. As pointed out, Robertson and Wilson explicitly refer to
+OSR and Ladyman’s work, and making clear the full connection between their
+account and OSR fills a gap in their discussion. We also argue that OSR improves
+on their proposal by replacing reference to levels of abstraction with the notion of
+scale relativity.
+To see how OSR fits into the picture let us first consider the topic of theory
+change, which is the starting point of the whole discussion about theoretical re-
+licts. Briefly put, structural realism avoids the problem of theory change against
+scientific realism by arguing that even in cases of radical ontological discontinuity
+more than the empirical content of the abandoned theories is retained. For ex-
+ample, the theory of phlogiston has been discarded by modern science, but that
+theory did correctly capture the modal structure of the world by identifying that
+the processes of ordinary combustion, calcination of metals and respiration are all
+instances of the same kind of process, and there is a reciprocal kind of process
+exemplified by the smelting of ore using charcoal. Thus, instead of claiming that
+the phlogiston theory was completely wrong about reality, and concluding that
+scientific realism is undermined by the falsification of the theory, we can say that
+the theory was right about certain aspects of reality:
+We can say that phlogiston theory identified a number of real patterns
+in nature and that it correctly described aspects of the causal/nomological
+structure of the world as expressed in the unification of reactions into
+phlogistication and dephlogistication. (Ladyman [2011], p. 100)
+Scientific realists should not simply be realists about the entities posited by
+theories, but should be ontologically committed to the causal/nomological struc-
+ture represented by theory – as explained in the previous sections – which is likely
+to be retained within some domain or to some degree of accuracy even on rad-
+ical theory change. In this sense, scientific realists should not be committed to
+17
+
+
+=== PAGE 18 ===
+
+entities as ontological posits understood independently from the structure of the
+theories.19 This leads us to the connection between OSR and effective realism
+about theoretical relicts.
+OSR delivers a metaphysical picture that accommodates in its ontology those
+elements described by old theories that play a relevant explanatory role and can
+be classified as modal structures or real patterns, thereby delivering an effective
+ontology. This effective ontology is scale-relative, as illustrated in Section 2, and
+this idea can serve instead of that of ‘levels of abstraction’ described by Roberson
+and Wilson (more on this below), and is importantly tied with the explanatory
+power of the entities at stake that we want to retain (another key feature in
+Robertson and Wilson’s account) via the criteria for real patterns. Furthermore,
+just like Robertson and Wilson’s framework, OSR provides a unified picture of old
+theories’ entities and special sciences’ entities, in this case via the notion of real
+patterns. Indeed, the real patterns ontology can account both for elements like
+Newtonian forces and for entities like viruses, provided that the entities of special
+sciences are projectible and explanatory useful. Moreover, OSR has the additional
+advantage of placing its account of theoretical relicts within a clear and broader
+strategy accounting for theory change as related to scientific realism and effective
+realism, as in the example about phlogiston. Finally, OSR accommodates all the
+features of Robertson and Wilson’s account and thus can account for Saatsi’s
+challenge against effective ontologies too, as also independently argued in Section
+2.1. We thus claim that Robertson and Wilson’s proposal is perfectly accounted
+for by OSR and can be embedded within it.
+But we also argue for the stronger thesis that OSR delivers an account of ef-
+fective realism that satisfies all the desiderata of Robertson and Wilson’s account
+while also improving it. The main point concerns the notion of levels of abstrac-
+tion employed by Robertson and Wilson, for instance in the quote above. We
+contend that such a notion can muddy the waters, and appealing to the concept
+of scale relativity improves the view. Recall for instance their claim that “New-
+tonian gravity and general relativity characterize different structural features of
+gravitation located at different levels of abstraction.”. Employing the notion of
+‘abstraction’ in this context is not the best way to explain the relationship be-
+tween the theories. Rather, saying that Newtonian gravity and general relativity
+describe reality at different energy scales is more appropriate. Mathematically,
+the Poisson equation of Newtonian gravitation is the low-energy limit of General
+relativity’s gravitation and Einstein constructed it to be so. In this sense, it is bet-
+ter to think of Newtonian gravity as defined at a different energy scale to General
+Relativity and to claim that each theory is correct about reality at that scale. If
+we link this scale-relative approach to theories with the structural realist’s account
+19See also (Ladyman [2020], Sect. 2) for more discussion of scientific realism and OSR.
+18
+
+
+=== PAGE 19 ===
+
+of real patterns and scale-relative ontology presented in Section 2, we can claim
+that Newtonian gravitational forces and General Relativity’s gravitation both ex-
+ist at different scales. This is the way in which OSR can reformulate the kind of
+emergent ontology proposed by Robertson and Wilson and embed it in a more
+precise framework.
+5 Conclusion
+This paper shows how OSR provides a framework for effective realism that links
+this form of scientific realism with a metaphysical picture, and readily addresses
+three different topics recently linked to ER, showing how three accounts that
+seemed to be disconnected from each other can be brought under the umbrella
+of structural realism to provide a comprehensive account of effective ontologies
+unifying three separate debates in the literature.
+In particular, concerning quantum mechanics, OSR provides an ontological
+view that neatly fits with effective realist readings of quantum theories such as
+the one proposed by Fraser and Vickers, while avoiding challenges like Saatsi’s.
+Moreover, Egg’s ([2019]) objection against structural realist quantum mechanics
+can be rebutted. Concerning quantum field theories, OSR provides a realist meta-
+physics and can account for the effective realist accounts developed in this area.
+Concerning the ontology of old theories which were once regarded to be true,
+OSR can readily account for Robertson and Wilson’s proposal and reformulate it
+in structuralist terms. Using OSR’s view of modal structures, real patterns and
+scale-relative ontology, structural realism can also improve the account and re-
+place emergent entities and levels of abstraction with scale-relative real patterns.
+Structural realism should thus be brought back into the debate to develop further
+these fruitful lines of research.
+Acknowledgements
+We are grateful to the anonymous referees for their helpful comments on the paper.
+Lorenzo Lorenzetti was supported by the Arts and Humanities Research Council
+via the South, West and Wales Doctoral Training Partnership.
+James Ladyman
+Department of Philosophy
+University of Bristol
+Bristol, United Kingdom
+james.ladyman@bristol.ac.uk
+Lorenzo Lorenzetti
+19
+
+
+=== PAGE 20 ===
+
+Department of Philosophy
+University of Bristol
+Bristol, United Kingdom
+lorenzo.lorenzetti@bristol.ac.uk
+References
+Berenstain, N. and Ladyman, J. [2012]: Ontic structural realism and modality,
+in E. Landry and D. Rickles, eds, ‘Structural Realism: Structure, Object, and
+Causality’, Springer.
+Callender, C. [2020]: Can we quarantine the quantum blight?, in S. French and
+J. Saatsi, eds, ‘Scientific Realism and the Quantum’, Oxford University Press.
+Dennett, D. C. [1991]: ‘Real patterns’, The journal of Philosophy 88(1), 27–51.
+Dougherty, J. [forthcoming]: ‘Effective and selective realisms’, British Journal for
+the Philosophy of Science .
+Egg, M. [2019]: ‘Dissolving the measurement problem is not an option for the
+realist’, Studies in History and Philosophy of Science Part B: Studies in History
+and Philosophy of Modern Physics 66, 62–68.
+Egg, M. [2021]: ‘Quantum ontology without speculation’, European Journal for
+Philosophy of Science 11(1), 1–26.
+Fraassen, B. C. V. [2008]: Scientific Representation: Paradoxes of Perspective ,
+Oxford, GB: Oxford University Press UK.
+Fraser, J. D. [2018]: ‘Renormalization and the formulation of scientific realism’,
+Philosophy of Science 85(5), 1164–1175.
+Fraser, J. D. [2020a]: ‘The real problem with perturbative quantum field theory’,
+British Journal for the Philosophy of Science 71(2), 391–413.
+Fraser, J. D. [2020b]: Toward a realist view of quantum field theory, in S. French
+and J. Saatsi, eds, ‘Scientific Realism and the Quantum’, Oxford University
+Press.
+Fraser, J. D. and Vickers, P. [forthcoming]: ‘Knowledge of the quantum domain:
+An overlap strategy’, British Journal for the Philosophy of Science .
+French, S. [2014]: The structure of the world: Metaphysics and representation ,
+Oxford University Press, USA.
+20
+
+
+=== PAGE 21 ===
+
+Hoefer, C. [2020]: Scientific realism without the quantum, in S. French and
+J. Saatsi, eds, ‘Scientific Realism and the Quantum’, Oxford University Press.
+Ladyman, J. [2011]: ‘Structural realism versus standard scientific realism: The
+case of phlogiston and dephlogisticated air’, Synthese 180(2), 87–101.
+Ladyman, J. [2015]: Are There Individuals in Physics, and If So, What Are They?,
+in A. Guay and T. Pradeu, eds, ‘Individuals Across the Sciences’, Oxford Uni-
+versity Press.
+Ladyman, J. [2017]: An apology for naturalized metaphysics, in M. Slater and
+Z. Yudell, eds, ‘Metaphysics and the Philosophy of Science’, Oxford University
+Press.
+Ladyman, J. [2018]: ‘Scientific realism again’, Spontaneous Generations 9(1), 99–
+107.
+Ladyman, J. [2020]: Structural Realism, in E. N. Zalta, ed., ‘The Stanford Encyclo-
+pedia of Philosophy’, Metaphysics Research Lab, Stanford University, available
+at <plato.stanford.edu/archives/win2020/entries/structural-realism/>.
+Ladyman, J. [2021]: Structure not Selection, in ‘Contemporary Scientific Realism:
+The Challenge from the History of Science’, Oxford University Press.
+Ladyman, J. and Ross, D. [2007]: Every Thing Must Go , Oxford University Press.
+Robertson, K. and Wilson, A. [forthcoming]: ‘Theoretical relicts: Progress, reduc-
+tion, and autonomy’, British Journal for the Philosophy of Science .
+Rosaler, J. [2016]: ‘Interpretation neutrality in the classical domain of quantum
+theory’, Studies in History and Philosophy of Science Part B: Studies in History
+and Philosophy of Modern Physics 53, 54–72.
+Ross, D. [2004]: Rainforest realism: A dennettian theory of existence, in D. Ross,
+A. Brooks and D. Thompson, eds, ‘Dennett’s Philosophy: A Comprehensive
+Assessment’, MIT Press, pp. 147–168.
+Ruetsche, L. [2011]: Interpreting Quantum Theories: The Art of the Possible ,
+Oxford University Press UK, Oxford, GB.
+Ruetsche, L. [2018]: ‘Renormalization group realism: The ascent of pessimism’,
+Philosophy of Science 85(5), 1176–1189.
+Ruetsche, L. [2020]: Perturbing realism, in S. French and J. Saatsi, eds, ‘Scientific
+Realism and the Quantum’, Oxford University Press.
+21
+
+
+=== PAGE 22 ===
+
+Saatsi, J. [2022]: ‘(in)effective realism?’, European Journal for Philosophy of Sci-
+ence 12(2), 1–16.
+Saatsi, J. and French, S. [2020]: Scientific Realism and the Quantum , Oxford:
+Oxford University Press.
+Schlosshauer, M. and Camilleri, K. [2017]: ‘Bohr and the problem of the quantum-
+to-classical transition’, Niels Bohr and the philosophy of physics: Twenty-first-
+century perspectives pp. 223–233.
+Schlosshauer, M. and Camilleri, K. [unpublished]: The quantum-to-classical tran-
+sition: Bohr’s doctrine of classical concepts, emergent classicality, and decoher-
+ence, available at <arxiv.org/abs/0804.1609>.
+van Fraassen, B. C. [2006]: ‘Structure: Its shadow and substance’, British Journal
+for the Philosophy of Science 57(2), 275–307.
+Wallace, D. [2010]: Decoherence and Ontology, in S. Saunders, J. Barrett, A. Kent
+and D. Wallace, eds, ‘Many Worlds?’, Oxford University Press, pp. 53–72.
+Wallace, D. [2021]: The quantum theory of fields, in E. Knox and A. Wilson, eds,
+‘The Routledge Companion to Philosophy of Physics’, Routledge, pp. 275–295.
+Wallace, D. [unpublished a]: Emergence of particles from bosonic quantum field
+theory, available at <arxiv.org/abs/quant-ph/0112149>.
+Wallace, D. [unpublished b]: The sky is blue, and other reasons quan-
+tum mechanics is not underdetermined by evidence, available at
+<https://arxiv.org/abs/2205.00568>.
+Williams, P. [2019]: ‘Scientific realism made effective’, British Journal for the
+Philosophy of Science 70(1), 209–237.
+Wimsatt, W. C. [2007]: Re-engineering philosophy for limited beings: Piecewise
+approximations to reality, Harvard University Press.
+22

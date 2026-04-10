@@ -1,0 +1,3856 @@
+=== PAGE 1 ===
+
+Software in the natural world: A computational approach to hierarchical emergence
+Fernando E. Rosas, 1, 2, 3, 4,∗ Bernhard C. Geiger, 5, 6 Andrea I Luppi, 7
+Anil K. Seth, 1, 2 Daniel Polani, 8 Michael Gastpar, 9 and Pedro A.M. Mediano 10, 11
+1Department of Informatics, University of Sussex
+2Sussex Centre for Consciousness Science and Sussex AI, University of Sussex
+3Center for Psychedelic Research and Centre for Complexity Science,
+Department of Brain Science, Imperial College London
+4Center for Eudaimonia and Human Flourishing, University of Oxford
+5Know-Center GmbH, Graz, Austria
+6Signal Processing and Speech Communication Laboratory, Graz University of Technology, Graz, Austria
+7Montreal Neurological Institute, McGill University
+8Department of Computer Science, University of Hertfordshire, Hatfield, UK
+9School of Computer and Communication Sciences, EPFL, Lausanne, Switzerland
+10Department of Computing, Imperial College London
+11Division of Psychology and Language Sciences, University College London
+Understanding the functional architecture of complex systems is crucial to illuminate their inner
+workings and enable effective methods for their prediction and control. Recent advances have in-
+troduced tools to characterise emergent macroscopic levels; however, while these approaches are
+successful in identifying when emergence takes place, they are limited in the extent they can de-
+termine how it does. Here we address this important limitation by developing a computational
+approach to emergence, which characterises macroscopic processes in terms of their computational
+capabilities. Concretely, we articulate a view on emergence based on how software works, which
+is rooted on a mathematical formalisation of how macroscopic processes can express self-contained
+informational, interventional, and computational properties. This framework reveals a hierarchy of
+nested self-contained processes that determines what computations take place at what level, which
+in turn delineates the functional architecture of a complex system. This approach is illustrated on
+paradigmatic models from the statistical physics and computational neuroscience literature, which
+are shown to exhibit macroscopic processes that are akin to software in human-engineered systems.
+Overall, this framework enables a deeper understanding of the multi-level structure of complex sys-
+tems, revealing specific ways in which they can be efficiently simulated, predicted, and controlled.
+I. INTRODUCTION
+Complex systems — such as the global economy, the
+global weather, and the human brain — are composed
+of many elements whose intricate dynamical interac-
+tions give rise to distinct phenomena at various spatio-
+temporal scales [1, 2]. For example, the interaction be-
+tween the synaptic activity of individual neurons can give
+rise to mesoscopic oscillatory patterns involving entire
+brain regions [3], which in turn exhibit distinct coupling
+patterns at a macroscopic, whole-brain level that are im-
+plicated in distinct cognitive functions [4]. Crucially, phe-
+nomena at certain scales may not be relevant for identi-
+fying what is relevant for another; for instance, particle
+physics may not be relevant for neuroscience despite neu-
+rons being made of particles.
+In order to successfully understand, predict, and con-
+trol such complex systems, it is crucial to be able to char-
+acterise their functional architecture — i.e., to identify
+the relevant macroscopic spatio-temporal levels and de-
+lineate the activity that ‘makes a difference’ for each of
+them. Unfortunately, such characterisation is often done
+in ad-hoc ways, as finding rigorous, principled, and gen-
+∗ email: f.rosas@sussex.ac.uk
+eral methods is highly non-trivial [2, 5]. Importantly, this
+is not just a problem of lack of data or insufficient system
+specification: as the opacity of deep learning models dra-
+matically illustrates [6, 7], even a full description of the
+microscopic components and their interactions may not
+facilitate the identification of when and where emergent
+phenomena may take place.
+Providing a rigorous characterisation of the functional
+architecture of multi-level complex systems remains an
+important, yet unsolved challenge. A promising line
+of investigation has developed general methods to iden-
+tify and characterise macroscopic levels with emergent
+properties [8–12]. These works provide new information-
+theoretic tools for researchers to rigorously frame conjec-
+tures about emergence on a wide range of dynamical pro-
+cesses, and statistical tools to test these conjectures on
+data. Despite being only recently developed, the practi-
+cal efficacy of these approaches has already been demon-
+strated in a number of empirical investigations [13–18].
+However, as promising as these developments are in
+providing effective methods to determine when emer-
+gence takes place, they are limited in the degree they
+can specify how this happens. For example, existing
+methods might be able to determine whether the dynam-
+ics of a recurrent neural network have emergent charac-
+ter via the calculation of specific information-theoretic
+quantities. However, these approaches could not specify
+arXiv:2402.09090v2  [nlin.AO]  5 Jun 2024
+
+
+=== PAGE 2 ===
+
+2
+which exactly are the underlying dynamical properties
+facilitating this, or how these properties are distributed
+across the various spatio-temporal scales of the system.
+Answering those questions is critical to deepen our un-
+derstanding of how those systems work, and under what
+conditions they may break down.
+Here we address these open questions by investigat-
+ing emergence from a computational perspective, com-
+plementing information-theoretic methods with princi-
+ples of theoretical computer science — more specifically,
+automata theory [19] and computational mechanics [20].
+Concretely, we investigate emergence by operationalising
+three ways in which a macroscopic process can be self-
+contained: informational, causal, and computational clo-
+sure — which correspond to optimal prediction of spon-
+taneous dynamics, exhaustive capability to perform in-
+terventions, and containment of computational process-
+ing (respectively). By developing these notions within
+a unified mathematical framework, this approach estab-
+lishes formal foundations to reason about the emergence
+of self-contained effective macroscopic theorieswithin mi-
+croscopic stochastic dynamical processes, which are akin
+to software in human-engineered systems in their abil-
+ity to that carry out computations independently of the
+substrate they are implemented in.
+The results facilitated by our framework specify the
+conditions under which systems give rise to informa-
+tional, causal, and computational closed macroscopic lev-
+els, and clarify the relationships between these proper-
+ties. Furthermore, our framework reveals how compu-
+tationally closed levels are hierarchically organised into
+a lattice of nested computational structures ordered by
+coarse-graining relationships. This lattice constitutes a
+blueprint for the functional architecture of a complex sys-
+tem, which describes what computations take place at
+what level. Additionally, our results establish links with
+the theory of lumpable time series [21], which open the
+door for efficient algorithms to estimate these properties
+in real-world applications. The power and scope of this
+approach is illustrated in various case studies, includ-
+ing diffusion processes, spin models, random walks on
+networks, agent-based models, and neural systems that
+model processes of memory consolidation and retrieval.
+Our framework deepens our understanding of the multi-
+level dynamics of these systems, revealing specific ways
+in which they can be efficiently predicted and controlled.
+Moreover, its generality and broad applicability opens
+the way for a wide range of future theoretical develop-
+ments and practical applications.
+The rest of the paper is structured as follows. First
+Section II provides background information, and then
+Section III gives an intuitive overview of the proposed
+framework. After this, Section IV presents a number of
+case studies to showcase the proposed framework. Fi-
+nally, Section V outlines the main implications of our
+findings, and discusses related work. A complete expo-
+sition of the formal theory supporting our framework is
+provided in the Appendix.
+II. PRELIMINARIES
+A. The ‘software-ness’ of software
+Here we investigate systems whose macroscopic lev-
+els posses a certain degree of causal ‘self-containment’
+with respect to their microscopic instantiation, which we
+describe as emergent. Under this view, phenomena tak-
+ing place at an emergent macroscopic level depend solely
+on other phenomena at the same level, without being
+causally affected by more fine-grained distinctions ob-
+served at microscopic levels. To illustrate these ideas,
+consider a simple scenario where a computer is running a
+script that executes the command c=a+b. Crucially, the
+value assigned to the variable c depends on the values as-
+signed to a and b, but does not depend on peculiarities of
+the physical substrate over which the program is running
+(e.g. the spin of the electrons that make the transistors,
+etc). This relative autonomy from its substrate is a key
+feature of what software is: software is always ‘running
+on top’ of hardware while having some ‘life of its own’ —
+following its own rules irrespective of many details of the
+substrate over which it is instantiated.
+Following this line of thinking, one can say that a
+system is running software when it has a macroscopic
+scale that is causally closed with respect to lower scales.
+Technically speaking, causal closure takes place when
+interventions at a set of macroscopic (i.e. aggregated,
+coarse-grained) variables are sufficient to guarantee spe-
+cific outcomes on other macroscopic variables. Conse-
+quently, ‘programs’ can be understood as specific (sets
+of) relations between macroscopic variables that do not
+depend on specific microscale instantiations — in fact,
+one can imagine many different microscale instantiations
+with precisely equivalent macroscopic behaviour. In the
+case of the computer script considered above, the value
+assigned to the variable c only depends on the value pre-
+viously assigned to a and b, and not on details of the
+physical instantiation of those variables in terms of tran-
+sistors and other hardware aspects. Hence, causal clo-
+sure implies that events that happen at a macroscale are
+‘shielded’ from how they are instantiated at a microscopic
+level — i.e. from their implementation.
+The distinction of software/hardware has been instru-
+mental in the development of our modern technologi-
+cal world [22]. Distinguishing software from hardware
+is what allows designers to create programs that can be
+implemented over an variety of different physical sub-
+strates. From a philosophical perspective, the notions
+of software and causal closure are related to the princi-
+ple of ‘multiple realisability’ [23, 24], which states that
+there being many different microscopic ways to realise a
+specific macroscopic function, and the idea of ‘substrate
+independence’ [25], which highlights that some functions
+may be agnostic with respect to the substrate over which
+they are implemented (e.g. carbon vs silicon). From a
+scientific perspective, these notions are related to the
+idea of minimal model explanations , which aims to ex-
+
+
+=== PAGE 3 ===
+
+3
+plain a phenomenon via a minimal set of macroscopic
+features that remain stable after perturbations to their
+microscopic details [26].
+While the idea of software was conceived in the con-
+text of device design, an interesting question arises as to
+whether natural, non-engineered systems could be use-
+fully described in terms of hardware-software distinc-
+tions. For example, under what conditions is it reason-
+able to say that different natural systems (e.g. different
+living organisms of the same species) are running the
+same software? Also, would it be reasonable to think of
+the human brain as running software over neural hard-
+ware [25, 27][28]?
+Arguments can be made, based on evolutionary and
+thermodynamic considerations, for why and to what de-
+gree biological systems may display software-like, macro-
+scopic levels that are causally closed. Living organisms
+perform actions (i.e. interventions over their environ-
+ments and themselves) in order to guarantee their sur-
+vival. However, some interventions are more feasible to
+implement than others — e.g., while it is almost im-
+possible to intervene on the momentum of a particular
+molecule in a glass of water, it is much easier to increase
+its mean temperature together with all other molecules
+in the glass. Causally closed systems are those for which
+macroscopic interventions are efficacious in controlling
+their macroscopic scale. Hence, one can say that sys-
+tems are as if running software to the extent they are
+controllable at a particular scale at a reasonable ther-
+modynamic cost. Building on similar arguments, causal
+closure has often been regarded by theoretical biologists
+as a necessary — albeit not sufficient — condition for the
+subsistence of living systems [29–31].
+In this paper we argue for a pragmatic approach
+to these issues, as our motivation is the development
+of analytical methods to turn these ideas into empir-
+ical questions that can be investigated quantitatively.
+While causal closure is certainly a necessary condition
+for software-like processes to exist, in this paper we ex-
+plore the consequences of taking this condition to be also
+sufficient. Indeed, our framework reveals that causal clo-
+sure is closely connected with a notion of computational
+closure, which opens — as our theory shows — fertile av-
+enues to analyse multi-level physical processes with the
+tools of theoretical computer science.
+B. From causality to computation
+Above we described the nature of software from the
+perspective of interventions and causal closure, and sug-
+gested how it can be used for investigating natural sys-
+tems. However, while such approach would allow us to
+determine if a system is running software or not in terms
+of causal relations, it does not facilitate a direct way to
+describe this in terms of computations. One of the cen-
+tral aims of this paper is to illuminate the computational
+implications of causal closure.
+Causal states
+e0
+e1
+0 1 1 0 1 0 1
+0 0 1 1 0 1 0
+1 1 0 1 0 0 1
+Xt+1 Xt+2 Xt+3
+FIG. 1. Illustration of causal states . Causal states are
+sets of of trajectories which bear equal predictions for the
+future evolution of the system, as defined by the equivalence
+relationship in Eq. (1).
+To attain this, our approach takes inspiration and
+builds upon the rich literature of computational mechan-
+ics — a framework for the study of stochastic dynami-
+cal processes from a computational perspective [20, 32–
+34]. Specifically, computational mechanics studies pat-
+terns and statistical regularities observed in time series
+data by asking quantitative questions such as: how much
+historical information does the system store, where is
+that information stored, and how is it processed to gen-
+erate future behaviour [35–37]? The answers to those
+questions, according to computational mechanics, can
+be found in the states and transitions of so-called ‘ ϵ-
+machines’ [32, 37, 38].
+Computational mechanics introduces ϵ-machines as op-
+timal (i.e. complete and minimimal) representations of a
+computational ‘engine’ that can generate the patterns
+observed in data. Such representation can be built by
+grouping past trajectories according to their forecasted
+futures into so-called causal states (see Figure 1). More
+precisely, the causal states of a time series X = {Xt}t∈N
+are the equivalence classes of past trajectories ⃗xt :=
+(. . . , xt−1, xt) that are established by the following equiv-
+alence relationship:
+⃗xt ≡ϵ ⃗x′
+t iff p(⃗xL
+t+1| ⃗xt) = p(⃗xL
+t+1| ⃗x′
+t) ∀⃗xL
+t+1, L ∈ N,
+(1)
+where ⃗xL
+t+1 = (xt+1, . . . , xt+1+L) and p(a|b) denotes the
+probability of a given b [40]. Hence, the causal states are
+given by a mapping ϵ which coarse-grains past trajecto-
+ries ⃗X t, thereby generating a new time series of causal
+states E = {Et}t∈N with Et = ϵ( ⃗X t). Formally, the ϵ-
+machine of X is defined as the pair ( ϵ, T x
+e,e′), where ϵ is
+the above mapping to causal states and T x
+e,e′ is a collec-
+tion of transition probabilities of the form
+T x
+e,e′ = P{Et = e′, Xt = x|Et−1 = e} . (2)
+
+
+=== PAGE 4 ===
+
+4
+Et−1
+Xt
+Et
+Xt+1
+Et+1
+Xt+2
+. . .. . .
+Mechanism
+Observations
+...
+e0
+e1
+e2 e3
+e4
+x0,x1
+x0
+x1
+x0
+x0
+x1
+x1
+x0
+x1
+Inputs
+{x0, x1}
+States
+{e0, e1, e2, e3, e4}
+a1) b1)
+a2) b2)
+FIG. 2. The two faces of ϵ-machines. Illustration of the dual interpretation of ϵ-machines that establish a bridge between
+causality and computation. a) Causal face: View of ϵ-machines as the effective mechanism driving the system, acting ‘behind
+the scenes’ to generate observable data (a1). Technically, this corresponds to interpreting it as a hidden Markov process
+— i.e., dynamics that take place on variables Et on a latent state-space, while generating the observable data Xt (a2). b)
+Computational face. Alternative view of ϵ-machines as discrete automata, where the data corresponds to inputs given by
+a user driving the system between different states (b1). Technically, this corresponds to seeing it as a discrete automata with
+states ek, whose deterministic transitions are governed by the input data xi (b2). Note that (a1) focuses on variables (e.g.
+Xt, Et), while (b2) portraits the states that those variables can take (e.g. x0, e0). Fig. (a1) is adapted from Ref. [39].
+Hence, the causal states correspond to a kind of infor-
+mation bottleneck [33]: ϵ is the coarsest coarse-graining
+of past trajectories ⃗xt that retains full predictive power
+over future variables (i.e. I( ⃗X t; ⃗X L
+t+1) = I(Et; ⃗X L
+t+1) for
+all L ∈ N). Additionally, the causal states have Markov
+dynamics, and by ‘Markovianising’ the process this forces
+the effective states of the process to become explicit.
+In summary, the ϵ-machine provides the simplest com-
+putational mechanism capable of giving rise to the sys-
+tem’s dynamics. Hence, the ϵ-machine of a process can
+be regarded as its effective theory — akin to its equations
+of motion [36]. It is important, nonetheless, to note that
+the causal states provide counterfactual guarantees only
+if the system at hand is fully observed, or equivalently,
+if the conditional probabilities that describe X are re-
+spected by interventions [41]. In the case of partially ob-
+served scenarios, causal states ought to be understood in
+the Granger sense, i.e. as states of maximal non-mediated
+predictive ability [42], and as such, the best possible at-
+tempt to identify the causal drivers given the available
+knowledge.
+A key contribution of computational mechanics is es-
+tablishing a bridge between causality and computation,
+which is rooted in two alternative perspectives that can
+be used to interpret what ϵ-machines are (see Figure 2):
+a) From a causal perspective, ϵ-machines can be con-
+ceived as Markov processes taking place at a hid-
+den, latent space [43], corresponding to the under-
+lying mechanism at work ‘under the hood.’ From
+this view, the system is driven by the dynamics of
+causal states, and the data that one measures is a
+consequence of the transitions between them.
+b) From a computational perspective, ϵ-machines can
+be thought of as deterministic automata — i.e. (fi-
+nite or infinite) state machines whose transitions
+are fully determined by an input sequence [44]. De-
+terministic automata are a paradigmatic example
+of computational systems (typically used to drive
+vending machines, elevators, and traffic lights),
+where a string of inputs is used to drive the system
+through a sequence of internal states [45]. Under
+this view, the input driving the automata is the ob-
+served data, and the dynamics over causal states is
+the result of those.
+These two quite distinct views are both consistent with
+what a ϵ-machine formally is, and their duality opens a
+principled link between principles of causality and com-
+putation [46].
+III. A COMPUTATIONAL APPROACH TO
+EMERGENCE
+After setting the background and clarifying founda-
+tional ideas, this section presents the ideas at the core
+of our proposed framework in an intuitive manner. The
+
+
+=== PAGE 5 ===
+
+5
+exposition provides links to formal definitions and theo-
+rems in the Appendix, where the theory is presented with
+full technical detail. The ideas discussed here are then
+illustrated by a number of case studies in Section IV.
+A. What drives the macro? A story of two
+machines
+Our approach starts by combining computational me-
+chanics [20, 33] and an interventionist view on causa-
+tion [47] to investigate the causality of macroscopic phe-
+nomena. Concretely, let us consider a dynamical process
+Xt and a coarse-grained, macroscopic process Zt = f(Xt)
+derived from it, and ask: what are the causes of events
+in Zt?
+We address this question by building on the principle
+that a cause of an effect is singled out by the minimal
+set of distinctions that make a difference for that level.
+Concretely, by taking inspiration from ϵ-machines (see
+Section II B and Definition 1), our approach is to iden-
+tify the minimal set of distinctions between past trajec-
+tories of X that lead to different potential outcomes in
+the future of Z. Mathematically, we build a new com-
+putational mechanics ‘machine’ based on the following
+equivalence relationship (see Definition 2):
+⃗xt ≡υ ⃗x′
+t iff p(⃗zL
+t+1| ⃗xt) = p(⃗zL
+t+1| ⃗x′
+t) ∀⃗zL
+t+1, L ∈ N.
+In contrast with Eq. (1), the resulting equivalence classes
+are based on the prediction of the future ofZ, and not the
+future of X. This gives rise to another, usually simpler
+set of distinctions in the past trajectories of X (i.e. a dif-
+ferent set of causal states), which we call the υ-machine
+— with upsilon the greek equivalent to the latin u (al-
+though when combined with other letters it sounds like
+i), referring to ‘underlying’ for reasons explained below.
+The causal states of the υ-machine are given by a map-
+ping υ which coarse-grains ⃗X t, thereby generating a new
+time series U = {Ut}t∈N with Ut = υ( ⃗X t). Analogously
+than for the ϵ-machine, our results show that the causal
+states of the υ-machine to be an optimal information bot-
+tleneck — concretely, υ is the coarsest coarse-graining of
+past trajectories ⃗xt that retains full predictive power over
+the future of Z (see Proposition 1).
+With this construction, each macroscopic process Zt =
+f(Xt) now possesses two associated machines (see Fig-
+ure 3): its υ-machine (with causal states Ut) that de-
+termines the states of X that make a difference for the
+future of Z (Definition 2), and its ϵ-machine (with causal
+states E′
+t) that corresponds to the set of distinctions
+within the past of Z that make a difference for its own
+evolution (Definition 1). Note that the ϵ-machine of Z is
+often different from the ϵ-machine of the underlying mi-
+croscopic process X (with causal states Et). These three
+machines are related as follows. On the one hand, the
+υ-machine of Z is usually more powerful than its own
+ϵ-machine (see Lemma 2), as it is not restricted to what
+can be observed from the macroscopic level, but also can
+. . . , Zt−1, Zt Zt+1, Zt+2, . . .
+E′
+t
+. . . , Xt−1, Xt Xt+1, Xt+2, . . .
+Et
+Ut
+Macro process
+Micro process
+FIG. 3. The various machines associated with a macro-
+scopic process . Diagram of the relationship between the
+different machines associated with a macroscopic process Z
+and its corresponding microscopic process X. The ϵ-machines
+with causal states Et and E′
+t correspond to the optimal pre-
+diction of the future of X and Z, respectively, using data
+from the same level. In contrast, the υ-machine with causal
+states Ut provides optimal prediction of the future of Z us-
+ing data from X, hence using the minimal amount of micro
+information for optimally predicting the future of the macro.
+access what is at the microscopic level — as illustrated
+in Figure 3. On the other hand, the υ-machine of Z is
+usually weaker than the ϵ-machine of X, as the former
+only accounts for what is relevant for predicting Z.
+Seen under this light, one can conclude that the υ-
+machine of Z capture its ‘genuine cause’ (or at least its
+best estimation based on the information available from
+the micro level), while its own ϵ-machine is the best pos-
+sible reconstruction of the causal states Ut using only
+what is available at the level of Z. That being said,
+please note that while the causal states Et and Ut are
+coarse-grainings of ⃗X t and E′
+t is a coarse-graining of ⃗Z t,
+their relationship can be highly non-trivial (see Coun-
+terexamples 1 and 2).
+B. Causal and information closure
+What happens if a macroscopic process Zt = f(Xt) is
+such that both its ϵ-machines and υ-machines are equiv-
+alent (i.e. if there exists a bijection between the states
+of the ϵ- and υ-machines)? If that is the case, then all
+the distinctions in the past trajectories of X that make a
+difference (i.e. the causal states of the macroscopic pro-
+cess, given by its υ-machine) can be effectively accessed
+from the macroscopic level. Pragmatically, this implies
+that all interventions that make a difference for Z can
+be implemented at the level of Z without checking ‘mi-
+croscopic details’ related to how it is implemented by X.
+Put simply, this means that the differences that make a
+difference for Zt are actually macroscopic differences. In
+this sense, it is fair to say thatZt is causing its own future
+— or more precisely, that all the causes of Zt are within
+its own level, and not below in a microscale. Building
+on these observations, we take this condition (i.e. the
+
+
+=== PAGE 6 ===
+
+6
+equivalence between the ϵ-machine and υ-machine of a
+macroscopic process Z) as a formal definition of causal
+closure (Definition 3), and hence, following the discus-
+sion in Section II A, we say that such are software-like
+processes running over their corresponding microscopic
+instantiations.
+A somehow related notion is the idea of information
+closure, which focuses on prediction instead of causa-
+tion. Information closure was first introduced as a way
+to quantify the degree of autonomy of an organism with
+respect to its environment [48], and was then extended to
+explore the degree to which a macroscopic level depends
+on its underlying microscale [49]. This, in turn, has been
+used to investigate emergence [12], understanding it as
+macroscopic processes which can optimally predict them-
+selves. Concretely, a macroscopic process Z can be said
+to be informationally closed with respect to the micro-
+scopic process X if the following condition is satisfied
+(see Definition 4):
+I( ⃗Z t; ⃗Z L
+t+1) = I( ⃗X t; ⃗Z L
+t+1) ∀L ∈ N, (3)
+where I is Shannon’s mutual information, which quanti-
+fies the amount of predictive information linking its argu-
+ments [50]. This condition implies that knowledge about
+the micro-scale does not enhance the predictability of the
+macro-scale process above the self-predictive power of the
+process over itself. This makes the macro-scale ‘informa-
+tionally sufficient’ to predict itself, making it unnecessary
+to refer to the micro-scale [51].
+What is the precise relationship between causal and
+informational closure? Information closure only requires
+that one is able to predict the same amount of infor-
+mation from micro or macro, which may sound weaker
+than requiring that the actual structure of the underly-
+ing machines to be equivalent. Perhaps surprisingly, a
+first consequence of our framework (Theorem 1) proves
+that information and causal closure are equivalent for
+any macroscopic process Zt = g( ⃗X t). That said, it is
+important to note that causal closure (as defined here)
+only provides counterfactual guarantees if the system de-
+scribed by X is fully observed; otherwise, it ought to
+be understood in the Granger sense, i.e. as a best guess
+given the available knowledge (see the related discussion
+in Section II B).
+C. Computational closure and renormalisation
+After establishing a rigorous definition of causal clo-
+sure, identifying it with our intuitions of software, and
+clarifying its relationship with information closure, our
+next step is to investigate its properties in terms of com-
+putational principles. For this, we leverage the duality of
+ϵ-machines as both state-space models and as determin-
+istic automata (see Figure 2b) as follows.
+As discussed in Section II B, automata use sequences
+of input symbols to generate transitions between their in-
+ternal states, and hence it is natural to ask: what would
+1
+1 1
+0 0
+0
+FIG. 4. Example of computational closure . Illustration
+where micro causal states are shown as small golden nodes
+and macro causal states are represented as big pale-yellow
+nodes. Transitions of micro causal states are represented as
+simple arrows responding to three possible inputs: two inputs
+denoted by a and b (not shown) trigger transitions within the
+same macro state, and one input denoted byc (not show) trig-
+gers a transition to a new macro state. The coarse-graining
+f(a) = f(b) = 0 and f(c) = 1 generate deterministic dynam-
+ics for the macro states represented by double arrows, whereas
+0 makes the state to remain and 1 makes a transition to the
+next state.
+happen if — due to e.g. noise or compression — one
+only has access to coarse-grained versions of the input
+symbols? In general, the transitions of an automata un-
+der coarse-grained symbols are not anymore determinis-
+tic, which breaks its internal structure. However, under
+some circumstances it is possible to recover determinis-
+tic transitions by considering coarse-grained states — a
+condition that we call computational closure. More for-
+mally, computational closure applies to coarse-grainings
+of input symbols of an automaton for which there ex-
+ists a corresponding coarse-graining of states such that
+the resulting transitions — between coarse-grained states
+following the coarse-grained symbols — are again deter-
+ministic (Definition 5). Put simply, computational clo-
+sure takes place when a new deterministic automaton
+can be obtained by coarse-graining both the states of the
+original automaton and its input alphabet (see Figure 4).
+To build some intuition about computational closure,
+let’s consider a simple example: imagine a finite-state
+machine that actually consists of two independent ma-
+chines, so its state is the vector of the states of each
+individual machine, and its input alphabet is the Carte-
+sian product of the individual alphabets. It is clear that
+in this case different parts of the inputs satisfy the defi-
+nition of computational closure, as different parts of the
+input are processed separately. The definition of com-
+putational closure generalises this to cases of machines
+
+
+=== PAGE 7 ===
+
+7
+a) b)
+Macro level
+Coarse-graining
+Meso level
+Coarse-graining
+Micro level
+Macro
+Meso
+Micro
+FIG. 5. Multilevel analysis via ϵ-machines. a) Optimal automata can be built at different levels of coarse-graining of
+observed data. Each automaton accounts for the resulting patterns taking place at that scale. b) If the considered levels of
+description are computationally closed, then the automata of higher levels are coarse-grainings of the ones of levels below. This
+process of coarse-graining of machines reveals the computations taking place at each of those levels.
+that are nested, where part of the information can be
+processed autonomously but another part cannot.
+Computational closure have a natural characterisation
+for the case of ϵ-machines (see Figure 5). Let’s consider a
+microscopic process X and a coarse-graining Z, and de-
+note by Et and E′
+t the causal states of the ϵ-machines of
+them, respectively. Then, the ϵ-machine of a macroscopic
+process Z is computationally closed if there is a coarse-
+graining mapping f ∗ such that E′
+t = f ∗(Et). In effect,
+if that is the case, then E′
+t are coarse-grained states of
+the automata with states Et, and Z provides a coarse-
+graining of the input symbols X. Interestingly, com-
+putational closure implies that the operations of coarse-
+graining and calculating the ϵ-machine are interchange-
+able, or equivalently, that the following diagram com-
+mutes:
+Z
+EX
+E′ϵ′
+ϵ
+f f∗
+(Input sequence)
+Real space
+(Causal states)
+Mechanism space
+where f and f ∗ are coarse-graining operations and ϵ and
+ϵ′ are the coarse-grainings that lead to the causal states
+of the corresponding ϵ-machines. Therefore, computa-
+tionally closed levels can be said to carry out a specific
+portion of the computations of the whole process — the
+part that remains after coarse-graining the ϵ-machine of
+the base level.
+An attractive aspect of computational closure is that
+it can be understood from a renormalisation theory [52]
+perspective as follows. The ϵ-machines of the micro-
+and macroscropic processes can be seen as the ‘theory’,
+or model, that best explains the statistical patterns ob-
+served at each level. Hence, the question we are consider-
+ing can be reframed as asking how can one obtain an ef-
+fective theory to explain the patterns observed in coarse-
+grained data. The commuting diagram above says that, if
+computational closure holds, then effective theories to ex-
+plain macro levels can be found simply by coarse-graining
+the theory that explains the level below [53]. Therefore,
+macroscopic levels that are computationally closed can be
+thoroughly described without relying on the full micro-
+scopic theory, but using solely a simpler, coarse-grained
+version of it. Conversely, the part of the computations
+that take place at a computationally closed level can
+be extracted by an appropriate coarse-graining of the
+theory/ϵ-machine of the microscopic level. Please note
+that this is certainly not true for arbitrary macroscopic
+processes, whose ϵ-machines are often incompatible —
+and hence incomparable — with the one of the micro
+(for a minimal example, see Counterexample 1).
+D. Causal closure, computational closure, and
+lumpability
+At this point one may wonder: what is the relation
+between computational and causal closure? Our second
+
+
+=== PAGE 8 ===
+
+8
+TABLE I. Summary of main concepts
+Term Explanation
+Micro level Basic time-series
+Macro level A coarse-graining of a micro process
+ϵ-machine Model of a process built on
+the history at the same level
+υ-machine Model of a process built on
+the history at a level below
+Causal states Hidden states of ϵ- or υ-machines
+Information
+closure
+When best predictions of macro
+can be done from the same macro
+Causal closure When ϵ- and υ-machines coincide
+Computational
+closure
+When ϵ-machine of macro is a
+coarse-graining of ϵ-machine of micro
+Lumpability The ability of a Markov process to remain
+Markovian after being coarse-grained
+main result (Theorem 2) reveals that, for macroscopic
+processes of the form Zt = f(Xt), information closure
+implies computational closure [54]. This result may be
+surprising, as computational closure sounds more restric-
+tive than information/causal closure. The reason why
+computational closure does not imply information/causal
+closure is that whereas the former is based on sufficiency,
+the latter also requires necessity. In effect, while for com-
+putational closure it is enough if the causal states of the
+macro are compatible with the causal states at the micro
+(i.e., induce a coarser equivalence class), causal closure
+also requires every relevant causal state at the micro to
+be accessible from the macro. Hence, a computationally
+closed coarse-graining may nonetheless be coarser than
+the partition induced by its υ-machine, and hence fail to
+guarantee causal closure. For a minimal example of this,
+see Counterexample 4.
+Theorem 2 is important, as it provides a computa-
+tional interpretation for causally closed systems — i.e., to
+macroscopic processes that can be described as software-
+like. Indeed, this result shows that systems that exhibit
+software-like macroscopic processes are characterised by
+having a portion of the computations that are carried
+out autonomously from the rest of the system, which can
+be efficiently controlled. Hence, our framework puts the
+arguments developed in Section II A on a rigorous theo-
+retical footing, while providing quantitative tools to in-
+vestigate them in concrete, empirical data.
+The relationship between causal and computational
+closure is further clarified by our final theoretical re-
+sult, which relates these notions with weak and strong
+lumpability. Lumpability pertains to the study of how
+the memory of a stochastic process is affected after it
+is coarse-grained. More specifically, a memoryless (i.e.
+Markovian) process is lumpable if it has a coarse-graining
+that gives rise to equally memoryless dynamics — be-
+ing strongly lumpable if this only depends on the tran-
+sition probabilities, and weakly lumpable if this only
+holds for specific initial conditions (see Definition 7 and
+Ref. [21]). This type of inquiry leads to a question: which
+coarse-grainings of causal states give rise to ϵ-machines
+of macroscopic processes of the original process? Our
+framework shows (Theorem 3) that weakly lumpable
+coarse-grainings of causal states are enough to guarantee
+this, but the resulting levels may satisfy computational
+but not information/causal closure. In contrast, coarse-
+grainings that are strongly lumpable are guaranteed
+to give rise to the ϵ-machine of causal/informationally
+closed macroscopic processes. These results imply that
+causal/informational closure is a more ‘robust’ property
+than computational closure, as the latter can be dis-
+rupted by deviations from the stationary distribution
+while the former cannot.
+In summary, lumpability identifies necessary and suffi-
+cient conditions for a microscopic process to have emer-
+gent macroscopic processes: a microscopic process has
+causally/informationally closed levels if and only if its
+causal states are strongly lumpable. By doing this, The-
+orem 3 also opens the door to the discovery of emer-
+gent levels in systems of interest. In effect, this theorem
+also allows us to leverage the rich literature of numerical
+methods that has been developed to empirically discov-
+ering lumpable partitions of a Markov chain. Thanks to
+this link, those methods can be readily used to empow-
+ering data-driven discovery of emergent coarse-grainings
+— with the trick of applying them not in ‘real space’
+but on the space of causal states. Algorithms for finding
+lumpable partitions are discussed in Section 7.
+E. The hierarchy of emergent computational levels
+The findings discussed above have a number of impor-
+tant consequences. First, the collection of all causally
+closed coarse-grainings can be shown to be hierarchically
+organised as a lattice — more precisely, they form a sub-
+lattice of the lattice of all coarse-grainings. Moreover, the
+fact that for spatial coarse-grainings information closure
+implies computational closure (discussed in the previous
+subsection) means that the collection of ϵ-machines of all
+informationally closed spatial coarse-grainings are also
+hierarchically organised in another lattice : a lattice of
+strongly-lumpable coarse-grainings of ϵ-machines, whose
+finest element is the ϵ-machine of the micro level and its
+coarsest is an ϵ-machine with a single state.
+This sequence of three compatible hierarchies is impor-
+tant, as the mapping from one lattice to the next provide
+a more refined and simpler view of the multi-level struc-
+ture of the system of interest (see Figure 6). Indeed, the
+lattice of all coarse-grainings grows super-exponentially
+with the number of values a process can take, and focus-
+
+
+=== PAGE 9 ===
+
+9
+Real space Theory space
+All coarse-grainings Causally closed
+processes
+Strongly lumpable
+ϵ-machines
+FIG. 6. The multiple hiearchies describing multi-level computations in a complex system. Left: Lattice of all
+possible coarse-grainings, here illustrated for the case of a process that can take five possible values. Center: Sub-lattice of
+only those coarse-grainings that are causally/informationally closed. Right: Lattice of strongly-lumpable coarse-grainings of the
+ϵ-machine of the microscopic level. Only the last lattice provides a minimal blueprint that highlights the distinct computational
+processes, and distinguishes which computations take place at what level.
+ing only on causally closed processes provides a first im-
+portant simplification. Furthermore, the mapping from
+the lattice of all causally-closed processes is found to
+be sometimes many-to-one, as different coarse-grainings
+may have an equivalent ϵ-machine. This ‘degeneration’
+of the mapping gives rise to the notion of computational
+equivalence (Definition 6), which correspond to coarse-
+grainings that map into the same ϵ-machines and hence
+are effectively carrying out the same computations, even
+if they look different.
+Let us further explore the benefits of focusing on the
+hierarchy of strongly lumpable coarse-grainings of the
+ϵ-machine instead of the hierarchy of causally closed
+coarse-grainings. Causal/information closure can take
+place in processes that are not causally-driven; for ex-
+ample, if Xt = ( Yt, Wt) with Wt being just noise
+(i.e., an i.i.d. process), then g(Xt) = Wt satisfies
+causal/informational closure while having no real causal
+structure. Our approach identifies such coarse-graining
+as being computationally trivial, being mapped to the
+top of the lattice of ϵ-machines and hence being compu-
+tationally equivalent to the constant coarse-graining (i.e.
+the mapping g( ⃗xt) = 1 for all trajectories ⃗xt, whose ϵ-
+machine has a single causal state). More generally, the
+lattice of causally closed coarse-grainings fails to recog-
+nise levels that are computationally equivalent. For ex-
+ample, if Xt = (Ut, Vt) with Ut and Vt being two copies
+of the same process (i.e. Ut = ϕ(Vt) with ϕ a bijection),
+then both g1(Xt) = Ut and g2(Xt) = Vt may be regarded
+as two distinct emergent levels — while they should be
+considered to be copies of the same process.
+The above examples illustrate how an analysis based
+solely on causal/informational closure can potentially
+overestimate the effective number of different emergent
+macro-scales that a system of interest may have. Indeed,
+it is the hierarchy of strongly lumpable coarse-grainings
+of the ϵ-machines, and not the other ones, what deter-
+mines what computations are taking place where by re-
+vealing which levels are running which software. For this
+reason, we propose to regard the hierarchy of strongly
+lumpable coarse-grainings of the ϵ-machine provide as the
+natural blueprint of the functional architecture of a com-
+plex system.
+Let us illustrate the power of the hierarchy of ϵ-
+machines as a guiding blueprint in a simple analysis. For
+this, let’s consider a microscopic process X, a causally
+closed macroscopic process Z, and the trivial constant
+coarse-graining 1 (which assigns the number 1 to all pos-
+sible states of the micro process). These three processes
+form a totally ordered set in ‘real space’ with X below,
+1 above, and Z between (indeed, 1 is always a — rather
+trivial — coarse-graining of Z too). How does the result-
+ing hiearchy of ϵ-machines of these processes look like?
+Despite of the specific properties of X and Z, an analysis
+
+
+=== PAGE 10 ===
+
+10
+based on the ϵ-machines reveals that the computations
+done by Z can be described as falling into one of four
+possible scenarios (see Figure 7):
+a) Non-trivial computation different from microscale :
+the ϵ-machine of Zt is non-trivial (i.e. different from
+the ϵ-machine of 1), and also different from the one
+of Xt.
+b) Non-trivial computation equivalent to microscale :
+the ϵ-machine of Zt is non-trivial, but is equal to
+the one of Xt.
+c) Trivial computation different from microscale : ϵ-
+machine of Zt is trivial and different from the one
+of Xt.
+d) Trivial computation equivalent to microscale: Xt is
+i.i.d., so there are no actual computations taking
+place in it or any of its coarse-grainings.
+Please note that while the lattice of coarse-grainings in
+‘real space’ is always the same, the lattice of the corre-
+sponding ϵ-machines clearly illuminates the character of
+the computations being done.
+In summary, our theory reveals that it is the hierarchy
+of strongly lumpable causal states, and not the one of
+causally/informationally closed spatial coarse-grainings,
+what provides the most illuminating blueprint of the
+software-like processes running over a give microscopic
+layer at which different computations take place. By
+grouping together all computationally equivalent pro-
+cesses, the lattice of the resulting ϵ-machines is generally
+simpler than the other lattices, and provides a more ac-
+curate representation of the computations happening at
+different levels. These ideas are illustrated in a series of
+case studies presented in the next section.
+IV. CASE STUDIES
+This section presents a number of examples that help
+to illustrate, exemplify, and develop further intuitions
+about our theory. The investigated systems include var-
+ious paradigmatic models of complexity including cellu-
+lar automata, diffusion processes, Ising models, random
+walks over networks, and recurrent neural networks.
+A. Invariant quantities
+Let us start by considering a system whose microscopic
+evolution is described by the time series X, and has a
+scalar coarse-graining Zt = f(Xt) such that Zt = Zt0 for
+all t — i.e., Z is constant for all values of t, being an
+invariant property of X. Such invariants may, or may
+not, depend on initial condition. A direct calculation
+1
+Zt
+Xt
+1
+Zt
+Xt
+1
+Zt
+Xt
+1
+Zt
+Xt
+a) b)
+c) d)
+FIG. 7. Possible computational architectures of an
+emergent macroscopic level . Our theory shows that the
+computations carried out by a causally closed process Z with
+respect to a microscopic process X and the trivial coarse-
+graining 1 can be categorised within four groups, illustrated
+here. The computations are the same as the ones at the mi-
+croscale if the ϵ-machine of X and Z are equivalent (as in
+b and d), and are trivial if the ϵ-machines of Z and 1 are
+equivalent (as in c and d). At the left of each subplot is the
+lattice of coarse-grainings in real space, which is the same for
+the four cases; at the right is the lattice of corresponding ϵ-
+machines in theory space, which better illustrates the effective
+computational structure of the system.
+shows that invariants are informationally closed, as
+I( ⃗X t; ⃗Z L
+t+1| ⃗Z t) = H(⃗Z L
+t+1| ⃗Z t) − H(⃗Z L
+t+1| ⃗X t)
+= H(Zt0 |Zt0) − H(Zt0 | ⃗X t)
+= 0 .
+Invariants may be computationally trivial (i.e. compu-
+tationally equivalent to a constant coarse-graining, as in
+classes (c) or (d) in Fig. 7) or not (i.e. classes (a) or (b)),
+depending on their entropy. Specifically, a Markov pro-
+cess has invariants that are computationally non-trivial
+when the state space of the Markov chain can be divided
+in regions such that the process can move between states
+within individual regions but not between states of differ-
+ent regions (i.e., if the Markov chain is reducible). If that
+is the case, the identity of each isolated group is a non-
+trivial invariant, and the corresponding coarse-graining
+looks like a Markov chain that only has self-transitions.
+In contrast, a computationally trivial invariant is a way
+of describing the part of the phase space that is not ac-
+
+
+=== PAGE 11 ===
+
+11
+a) Rule 90
+09/11/2023, 16:19 1D Elementary Cellular Automata
+https://elife-asu.github.io/wss-modules/modules/1-1d-cellular-automata/ 1/4
+CA Rule:  Size: 
+    
+Set initial cells:  
+1D Elementary Cellular Automata (1D
+ECA)
+Introductio
+to the 1D
+ECA
+Simulator
+09/11/2023, 16:19 1D Elementary Cellular Automata
+https://elife-asu.github.io/wss-modules/modules/1-1d-cellular-automata/ 1/4
+CA Rule:  Size: 
+    
+Set initial cells:  
+1D Elementary Cellular Automata (1DECA)
+Introductioto the 1DECASimulator
+Macro
+Micro
+b) Rule 150
+09/11/2023, 16:17 1D Elementary Cellular Automata
+https://elife-asu.github.io/wss-modules/modules/1-1d-cellular-automata/ 1/4
+CA Rule:  Size: 
+    
+Set initial cells:  
+1D Elementary Cellular Automata (1D
+ECA)
+Introductio
+to the 1D
+ECA
+Simulator
+09/11/2023, 16:17 1D Elementary Cellular Automata
+https://elife-asu.github.io/wss-modules/modules/1-1d-cellular-automata/ 1/4
+CA Rule:  Size: 
+    
+Set initial cells:  
+1D Elementary Cellular Automata (1DECA)
+Introductioto the 1DECASimulator
+Macro
+Micro
+FIG. 8. Conserved quantities in elementary cellular automata. Illustration of the computations associated to different
+types of conserved quantities. a) Rule 60 forces configurations to have even parity. Hence, the parity is a conserved quantity
+which is computationally trivial, akin to case (c) in Figure 7. b) In contrast, rule 150 keeps the parity of the initial condition.
+Hence, while the parity is also a conserved quantity for these dynamics, the computations associated with it are non-trivial,
+akin to case (a) in Figure 7.
+cessible. For example, if Zt = f(Xt) = c is a constant
+coarse-graining, that means that all micro-states X ′
+t such
+that f(X ′
+t) ̸= c cannot occur.
+Let us illustrate these ideas in an concrete example
+based on cellular automata (see Figure 8). Consider an
+elementary cellular automaton whose state of itsn binary
+cells at time t is denoted by Xt = (X(1)
+t , . . . , X(n)
+t ) [55].
+Let’s focus on the so-called ‘rule 150’, whose temporal
+evolution is equivalent to a triple xor logic gate:
+X(k)
+t+1 ≡ X(k−1)
+t + X(k)
+t + X(k+1)
+t (mod 2) (4)
+for 2 ≤ k ≤ n − 1. For the sake of symmetry, let’s also
+impose circular conditions, so that X(1)
+t+1 ≡ X(n)
+t + X(1)
+t +
+X(2)
+t (mod 2) and X(n)
+t+1 ≡ X(n−1)
+t + X(n)
+t + X(1)
+t (mod 2).
+It can be shown (e.g. via direct numerical evaluation)
+that this system is stationary under the uniform dis-
+tribution on the 2 n possible states. This implies that
+I(Xt; Xt−1) = H(Xt+1) = n, where the first equality is
+a consequence of the fact that the automaton’s evolution
+is deterministic.
+Consider now a coarse-graining that returns the parity
+of a given state, i.e. Zt ≡Pn
+k=1 X(k)
+t (mod 2). A direct
+calculation shows that this is a conserved quantity of the
+dynamics of rule 150, as
+Zt+1 ≡
+nX
+k=1
+X(k)
+t+1 (mod 2) (5)
+≡
+nX
+k=1
+3X(k)
+t (mod 2) (6)
+≡
+nX
+k=1
+X(k)
+t (mod 2) (7)
+≡ Zt . (8)
+Moreover, it can be seen that H(Zt) = 1, as the par-
+ity of the state can be 0 or 1 with equal probability if
+X is initialised at the uniform distribution. Therefore,
+while the microscopic system computes n bits, Zt only
+computes one — in this case, in the form of information
+storage [56]. This shows that this invariant is not trivial
+and also not equal to the microstate, hence corresponding
+to class (a) in Fig. 7.
+For a contrast, let us consider another elementary cel-
+lular automata: number 60, whose rule of evolution is
+equivalent to a single xor
+X(k)
+t+1 ≡ X(k)
+t + X(k+1)
+t (mod 2). (9)
+It can be shown that, for this case, the parity Zt ≡Pn
+k=1 X(k)
+t (mod 2) is always even, i.e. that Zt = 0.
+
+
+=== PAGE 12 ===
+
+12
+This makes Z an invariant whose associated computa-
+tion, however, is trivial, representing class (c) in Fig. 7.
+This also reveals, as argued above, that certain micro-
+scopic states are not reached by the dynamics — namely,
+the states with odd parity (see Figure 8).
+B. Ehrenfest diffusion model
+Let us now study a computationally closed quantity
+that is not invariant. For this, let us consider the
+Ehrenfest model [21, §7.3], which is a popular diffu-
+sion model in statistical mechanics. This model describes
+the behaviour of a gas in a container made of two in-
+terconnected chambers (see Fig. 9a). The state of the
+n molecules of the gas at time t is described by a n-
+dimensional binary vector Xt = (X(1)
+t , . . . , X(n)
+t ), where
+X(k)
+t ∈ { 0, 1} determines in which of the two chambers
+the k-th molecule is located. The dynamics of the gas
+are then established as follows:
+• At each timepoint, one of the n molecules is chosen
+randomly with equal probability.
+• With probability q, move the chosen particle to the
+other chamber. Otherwise, leave the molecule in
+its current chamber.
+The system has two parameters: the total number of
+particles n, and q ∈ [0, 1] that regulates how easy is for
+molecules to move between the two chambers. Hence, if
+there are z ∈ { 0, . . . , n} particles in the first chamber,
+there is a probability of z/n of choosing one of them.
+Therefore, one can find that there are three possible
+actions: (i) move a molecule from the first to the sec-
+ond chamber with probability qz/n, (ii) move a particle
+from the second to the first chamber with probability
+q(n − z)/n, or (iii) leave the particles the way they are
+with probability 1 − q. These dynamics on X are equiv-
+alent to a random walk (i.e., a Markov chain) on the
+edges of an n-dimensional cube, as each step involves at
+modifying the state along not more than one dimension.
+Let us now consider the following coarse-graining:
+Zt =
+nX
+k=1
+X(k)
+t , (10)
+which tracks the number of molecules in each partition.
+At each timepoint, Zt can either increase by 1, decrease
+by 1, or stay the same; however, for n ≫ 1 there is a
+trend for Zt to move towardsn/2, which makes the model
+a useful testbed to study thermalisation processes [57].
+It can be shown that Z is a (time-homogeneous)
+Markov chain [21], which implies that only the number of
+particles — and not their identities — in each chamber
+matters for the evolution of Zt. The finite state machine
+equivalent of Z is given in Figure 9b. Moreover, it can be
+shown [21, p. 170] that Z is a Markov chain irrespective
+of the initial distribution of X — i.e. that it is strongly
+Xt = (0,0,1,0,1, . . . ,1)
+Zt = ∑ X k
+t n − Zt
+zz − 10 z + 1 n···
+···
+···
+···
+q(n−z−1)
+n
+qz
+n
+q(n−z)
+n
+q(z+1)
+n1 − q 1 − q 1 − q 1 − q 1 − q
+0 500 1,000 1,500 2,000
+10
+20
+30
+Time
+Zt
+a)
+b)
+c)
+FIG. 9. Ehrenfest diffusion model. a) The model con-
+siders particles contained in two connected chambers. The
+microscopic description of the system ( Xt) is a binary vector
+that specifies in which container is each particle, while the
+macroscopic description (Zt) is the number of particles in the
+left chamber. b) Illustration of the finite state machine de-
+scription of the ϵ-machine corresponding to the macroscopic
+variable. c) One realisation of the dynamics of the macro-
+scopic process of a system of n = 40 particles, which naturally
+oscillates around n/2.
+lumpable (see Definition 7). Thanks to Proposition 4,
+this implies that Z is causally closed in the sense of Def-
+inition 3, and furthermore is also computationally closed
+thanks to Theorem 2.
+The implications of these results can be contemplated
+from various angles. From a interventional perspective,
+this implies that if one wants to control the evolution of
+the number of particles in each chamber, one does not
+need to worry about the exact placement of individual
+particles Xt beyond what is specified by Zt — that is,
+setting Zt gives all the control that is possible about fu-
+ture values. From the point of view of simulations, this
+implies that one can investigate the dynamics of Z (as
+shown in Fig. 9b) by direct simulation of their Markov dy-
+namics while disregarding X. This is guaranteed by the
+fact that, thanks to causal closure, including the full state
+X into the simulation adds nothing relevant to the evolu-
+tion of Z. Finally, from an theoretical perspective, these
+results imply that this system has a non-trivial macro-
+scopic level that runs and processes information irrespec-
+
+
+=== PAGE 13 ===
+
+13
+tive of the microscopic details in a software-like manner.
+Following Proposition 3, the total information processed
+by the system at each time-step (given by I(Xt; Xt+1))
+can be decomposed into the portion that is processed at
+the macro level (given by I(Zt; Zt+1)) and the one that
+is not (given by I(Xt; Xt+1) − I(Zt; Zt+1)). Overall,
+these findings enable a deeper view on the dynamics of
+the Ehrenfest model, revealing specific ways in which it
+can be efficiently predicted and controlled.
+C. Ising model with Glauber dynamics
+Let us now study another open system, this time in-
+cluding interactions between its microscopic components.
+Consider a collection of n magnetic spins, whose state at
+time t is described by the vector Xt = (X(1)
+t , . . . , X(n)
+t ),
+where X(k)
+t = 1 if the k-th spin is pointing up and
+X(k)
+t = −1 if it is pointing down. The energy of the sys-
+tem on state Xt is determined by a Hamiltonian E(Xt).
+Furthermore, let’s consider standard Glauber dynam-
+ics [58, 59] (which is closely related with the so-called
+kinetic Ising model [60]) observing the following transi-
+tion probability:
+pXt+1|Xt(x′|x) =
+
+
+
+1+tanh β∆E
+2n if x′ ∈ B(x),
+1 −P
+x′∈B(x)
+1+tanh β∆E
+2n if x′ = x,
+0 otherwise,
+where B(x) are the set of configurations that differ from
+x in exactly one spin, and ∆E = E(x) − E(x′) [61]. These
+statistics can be conceived as arising from the following
+procedure:
+• While being at state x at timepoint t, choose one of
+the n spins randomly with equal probability. De-
+note by x′ ∈ B(x) the state that is equal tox except
+with one selected spin being flipped.
+• Calculate the energy difference between x and x′ as
+∆E = E(x) − E(x′).
+• Adopt x′ as state in timepoint t+1 with probability
+p = (1 + tanhβ∆E)/2, otherwise stay in x.
+It can be shown [58] that those dynamics satisfies detailed
+balance, and gives rise to a unique stationary distribu-
+tion that corresponds to the standard Boltzmann-Gibbs
+distribution given by
+˜p(x) = e−βE(x)
+Z , (11)
+with Z =P
+x e−βE(x) being the partition function.
+Let us now consider the coarse-graining Zt = E(Xt),
+which establishes the dynamics of the energy of the sys-
+tem. For simplicity of the analysis, let’s assume that the
+system is such that its Hamiltonian is invariant under
+Xt Xt+1
+Zt = E(Xt) Zt+1 = E(Xt+1) . . .. . .
+Macro
+Micro
+FIG. 10. Energy dynamics of an Ising model are
+causally closed. When considering the Ising model under
+Glauber dynamics, it can be shown that its energy is a macro-
+scopic variable whose dynamics are causally — and hence also
+computationally — closed.
+spin permutations [62]. Using this symmetry, it is possi-
+ble to show that
+pZt+1|Xt(z|x) = ψ
+ 
+z, E(x)
+
+, (12)
+where ψ(z, e) is a function of the binary vector z and the
+scalar e. This implies that the υ-machine of Z is equal
+to its ϵ-machine — i.e. that Z is causally closed. Thanks
+to Theorem 2, this in turn implies that Z is also com-
+putationally closed. It can be shown Z is generally not
+computationally equivalent to X as the ϵ-machine of X
+is generally richer than the one of Z (as the specific con-
+figuration x often makes a difference for pXt+1|Xt(x′|x)),
+hence belonging to class (a) in Figure 7.
+The fact that the Hamiltonian of an Ising model is com-
+putationally closed under Glauber dynamics implies that
+the dynamics of the energy does not depend on micro-
+scopic details, but only on the current energy level. This
+has similar implications for simulations and interventions
+as in the case of the Ehrenfest model: a simulation of en-
+ergy dynamics in absence of its microscopic instantiation
+can be exact, and macroscopic interventions to drive its
+future evolution can exhert as much control as it is pos-
+sible.
+D. Random walks over modular networks
+Let us now study a system that has several nested
+levels of causally closed dynamics. For this, consider a
+random walk over a weighted network with a modular
+structure, made by M strongly connected communities
+of nodes that are weakly connected between each other.
+For simplicity, let’s assume that the links of this net-
+work are characterised by two parameters: the weight
+of the connections within individual modules, rw, and
+the weight of the connection between different modules,
+
+
+=== PAGE 14 ===
+
+14
+rb, with rw ≫ rb. Additionally, let’s consider a random
+walker which moves from node to node on this network
+over discrete time-steps; it decides to move to another
+node with probability q, and chooses its destination with
+probability proportional to the strength of the link con-
+necting them.
+Let us calculate the statistics of such random walk.
+For this, let’s denote as cx the label of the community
+to which node x belongs and N the set of nodes of the
+network. Consider Xt ∈ N to be the state of the random
+walker at time t, whose transition probabilities are
+pXt+1|Xt(x′|x) =
+
+
+
+1 − q if x = x′,
+qrw/ϕ(cx) if cx = cx′,
+qrb/ϕ(cx) if cx ̸= cx′.
+(13)
+Above, ϕ(cx) = rw|cx|+rb(n−|cx|− 1) is a normalisation
+term to guanrantee that the probabilities sum up to one,
+which depends only on the size of the current commu-
+nity, denoted by |cx|. With this conditional probability,
+the resulting random walk will tend to roam around a
+given module, and will jump between modules only oc-
+casionally due to the significantly greater connectivity
+within than between modules.
+Let us now consider the following coarse-graining:
+Zt = cXt = f(Xt), where f : N → { 1, . . . M} is a func-
+tion that returns the index of the module to which the
+given node — its argument — belongs. One can show
+that
+pZt+1|Xt(z|x) =
+(
+|z| · rw/K if z = f(x),
+|z| · rb/K if z ̸= f(x). (14)
+where z ∈ { 1, . . . , M} is a community index, |z| its
+size, and K is a normalising constant. The fact that
+pZt+1|Xt(z|x) only depends on f(x) but not on x itself
+shows that Z is causally closed. Furthermore, thanks to
+Theorem 2, Z is also computationally closed. Addition-
+ally, if the probability of staying in the same node (1 − q)
+is different from the one moving to another node in the
+same community, then X and Z are not computationally
+equivalent. Indeed, in that case pXt+1|Xt(x′|x) changes
+for different nodes x within the same community, making
+the ϵ-machine of X have more states than the ϵ-machine
+of Z — and hence belonging in class (a) in Figure 7.
+Under some circumstances, this system exhibits mul-
+tiple nested levels that are causally closed. To see this,
+let’s consider the coarse-graining Wt = h(Zt) which iden-
+tifies communities of different cardinalities but does not
+disambiguate between communities of the same size. For
+example, if the network considers two communities of
+10 elements and three of 20 elements, Wt only discrim-
+inates if the random walker is located in a community
+with 10 elements or in one with 20. Following an argu-
+ment analogous to the one made with respect toZ, it can
+be shown that W is also causally closed: by considering
+the conditional probability pWt+1|Xt(w|x), one can show
+that it depends only in h
+ 
+f(x)
+
+, which shows that the
+Size= 25 Size= 9
+D
+C
+E
+B
+A
+FIG. 11. Causally closed coarse-grainings of a random
+walk over a network. A random walk on a modular net-
+work can be coarse-grained such that the dynamics over the
+module’s labels is causally closed. Furthermore, by consider-
+ing equivalence classes of modules given by their size provides
+a further causally closed macroscopic process.
+υ-machine of W is equal to its ϵ-machine and hence it is
+causally close. Hence, thanks to Theorem 2, W is also
+computationally closed.
+This analysis shows that the computations involved in
+this random walk can be construed as taking place in (at
+least) three nested levels: first the cardinality of the fu-
+ture community is determined, then the specific identity
+of the community is chosen, and finally the specific node
+within that community is decided. Crucially, Proposi-
+tion 3 states that the information processed by the com-
+putations taking place at high levels is done in isolation of
+what happens in the lower ones. This has similar conse-
+quences as for previous examples: macroscopic dynamics
+
+
+=== PAGE 15 ===
+
+15
+can be predicted and simulated in isolation of microscopic
+details, and macroscopic interventions guarantee optimal
+macroscopic controllability.
+E. Agent-based simulation
+Further examples for systems with computational clo-
+sure can be found in the literature of agent-based models,
+which provides useful tools to investigate collective hu-
+man and animal behaviour [63]. Agent-based models are
+usually Markov chains defined over large state-spaces,
+which establish the possible configurations for a collec-
+tion of interacting agents. In most cases the aim of a
+simulation is not to identify the exact behaviour of indi-
+vidual agents, but rather to characterise their aggregate
+statistics — e.g., the number of agents in a given state.
+These aggregate statistics can be seen as coarse-grainings
+Z of the underlying agent-based model X.
+The literature has studied settings under which agent-
+based models are lumpable — i.e., conditions under
+which the sequence of aggregate statistics is itself a
+Markov chain. Examples for this line of work are studies
+on opinion dynamics such as the voter models [64, 65] or
+agent movement on graphs [66]. Lumpability is a useful
+feature in agent-based modelling, as it implies that one
+can avoid running the whole model X and instead run
+a reduced Markov chain that gives the evolution on the
+coarse-graining Z. Indeed, as shown in Proposition 4, in
+this case the coarse-graining Z is computationally closed.
+To illustrate this principle, let us follow Ref. [66] and
+consider an agent-based model that can be used to inves-
+tigate agent mobility, e.g. to simulate the movement of
+refugees in conflict locations. In this model, n agents
+randomly move on a graph with L nodes, and Xt =
+(X1
+t , . . . , Xn
+t ) denotes the microscopic state of the sys-
+tem where X i
+t ∈ { 1, . . . , L} denotes the location of the
+i-th agent at timepoint t. At each iteration, an agent de-
+cides to leave their current vertex with some probability
+depending on the attributes of the current vertex. If the
+agent decides to leave, then it moves to a neighbouring
+vertex with a probability depending on the attributes of
+the respective location and the weight of the connect-
+ing edge. This procedure is repeated for all agents and
+for a predefined number of iterations. Simulating the
+full model has a computational cost that scales linearly
+with the number of agents. However, the main aim of
+refugee movement simulation is to identify not individ-
+ual but collective behaviours — for example to deter-
+mine the dynamics of the number of agents at particular
+locations (e.g., humanitarian camps). Hence, the goal
+is not to study the dynamics of so-called ‘world config-
+uration’ Xt, but rather to infer properties of a coarse-
+graining Zt defined as the vector of the number of agents
+at specific locations. Mathematically, Zt = (Z1
+t , . . . , ZL
+t ),
+where Z ℓ
+t = Pn
+i=1 |{i : X i
+t = ℓ}| with |A| denoting the
+cardinality of the set A.
+Importantly, it has been shown that — under cer-
+tain conditions — the original agent-based model X is
+lumpable w.r.t. this coarse-graining, i.e., that the con-
+ditional probability of the agent population vector state
+Zt depends only on the agent population Zt−1 of the
+previous iteration, and not on the world state Xt−1 [66].
+Thanks for Theorem 3, it follows that the coarse-graining
+Z is informationally closed, and due to Theorem 2 it is
+also computationally closed.
+As a consequence, rather than simulating the full
+agent-based model, it is sufficient to simulate the re-
+distribution of populations over vertices, i.e., to simulate
+Z. Importantly, the computational complexity of sim-
+ulating Z does not depend strongly on the number of
+agents n, but rather on the number of locations L, which
+is typically much smaller than the number of agents. This
+example illustrates an important aspect of computational
+closure: computationally closed coarse-grainings may al-
+low exact simulations — and hence forecasting and pre-
+dictions — that may be unfeasible to run otherwise.
+F. Memory retrieval and attractor dynamics
+To conclude, let us study a recurrent neural network
+architecture that models how associative memory works
+in the human brain [67]. For this, we will focus on the
+well-known Hopfield network model [68–70], which pro-
+vides a simple but foundational instantiation to the long-
+standing principle that memories are not stored inside
+individual neurons, but rather in their synapses [71, 72].
+Following Ref. [73], let us consider a Hopfield network
+of n neurons, which is a system with Markovian dynamics
+where neurons are modeled as binary units that can be in
+states on (X j
+t = 1) or off (X j
+t = −1). Neurons interact
+with each other via synapses, whereas the weight of the
+synapsis from the i-th towards the j-th neuron is denoted
+by wi,j. The input potential of the j-th neuron at time t
+is then given by
+hj
+t =
+X
+i
+wi,jX j
+t . (15)
+This potential determines the update of the j-th neuron
+as follows:
+P
+
+X j
+t+1 = 1|Xt
+	
+= g
+ 
+hj
+t
+
+, (16)
+where Xt = ( X1
+t , . . . , Xn
+t ) and g is a monotonous non-
+linear function of hj
+t. A common choice is
+g(h) = (1 + tanhβh)/2, (17)
+with the inverse temperature parameter β controlling
+the stochasticity of the system. In particular, β → ∞
+leads to deterministic dynamics given by g(h) =
+ 
+1 +
+sign(h)
+
+/2. Furthermore, for simplicity it is assumed
+that the dynamics of the whole system are simply a com-
+bination of the individual dynamics, i.e.
+P
+
+Xt+1 = xt+1|Xt
+	
+=
+Y
+j
+P
+
+X j
+t+1 = xj
+t+1|Xt
+	
+. (18)
+
+
+=== PAGE 16 ===
+
+16
+How can a Hopfield network store and retrieve memory
+patterns? Let us denote the patterns to be stored as
+p1, . . . , pm, with pµ = ( pµ
+1 , . . . , pµ
+n). Then, one defines
+the synaptic weights as follows:
+wi,j = 1
+n
+mX
+µ=1
+pµ
+i pµ
+j . (19)
+Using those weights, the resulting dynamics of the Hop-
+field network can be shown to have the mentioned pat-
+terns as attractors. This can be seen by noting that the
+energy function
+E(Xt) = −
+X
+i
+X
+j
+wi,jX i
+t X j
+t (20)
+is a Lyapunov function of the deterministic dynamics
+(β → ∞ ), and the m patterns pj constitute its local
+minima (see Ref. [73]). Please note that the number of
+patterns a network can retain depends on the stochastic-
+ity of the system and the desired level of reliability, and is
+usually much smaller than the number of neurons [74, 75].
+Let us now consider a macroscopic description of the
+system that is based on the memory patterns instead of
+neurons. Following Ref. [73, Sec. 17.2.3], we consider
+the projection of the current neural activity on the j-
+th memory pattern as given by the dot product between
+them:
+Z µ
+t = 1
+n
+X
+i
+pµ
+i X i
+t . (21)
+Note that −1 ≤ Z µ
+t ≤ 1, with
+• Z µ
+t = 1 if Xt and pµ are equal,
+• Z µ
+t = −1 if Xt and pµ are opposite, and
+• Z µ
+t ≈ 0 if Xt and pµ are uncorrelated (for large n,
+which we assume here).
+Finally, we define Zt = (Z1
+t , . . . , Zm
+t ) as the vector of all
+m projections at time t (see Figure 12).
+Let us show that Z is computationally closed. For this,
+first we show that the neuron potential can be re-written
+in terms of these projections as follows:
+hj
+t =
+X
+i
+wi,jX j
+t = 1
+n
+X
+i
+X
+µ
+pµ
+j pµ
+i X i
+t =
+X
+µ
+pµ
+j Z µ
+t . (22)
+This, combined with Eqs. (16) and (18), imply that
+the transition probabilities P
+
+Xt+1 = xt+1|Xt
+	
+depend
+only on Zt, which in turns implies that H(Zt+1|Xt) =
+H(Zt+1|Zt) guaranteeing that Z is informationally
+closed. This, in turn, implies — due to Theorem 2 —
+that Z is computationally closed with respect to X.
+These results imply that Hopfield networks implement
+processes of memory retrieval — more specifically, the
+calculation of the similarity between the present and the
+stored patterns — at a macroscopic level, such that its
+processing of information takes place independently of
+the microscopic level of individual neurons.
+Z 1
+t
+Z 2
+t
+Z 3
+t
+Z 4
+t
+Z 5
+t
+Zt = (Z 1
+t , Z2
+t , Z3
+t , Z4
+t , Z5
+t )
+Macro
+Micro
+FIG. 12. Hopfield network compute memory retrieval
+on a causally closed macroscopic level . The state of
+a Hopfield network is determined by the activity of each
+of the involved neurons, here represented as a square grid.
+Nonetheless, the similarity between the present pattern and
+the patterns that the network stores (denoted by Z µ
+t , with
+µ ∈ {1, 2, 3, 4, 5} in the figure), which determines to which of
+the stored patterns is more similar to the current configura-
+tion. Our results show that Zt = ( Z 1
+t , . . . , Z5
+t ) is a causally
+closed coarse-graining of the neural system, which critically
+determines the memory retrieval process.
+V. DISCUSSION
+Understanding the nature of emergent macroscopic
+phenomena is a fundamental theoretical challenge, and
+also central for advancing in important open questions in
+various branches of science. In this paper we introduce
+a theory that investigates emergent phenomena from a
+computational perspective, illuminating their inner work-
+ings via core principles of theoretical computer science.
+Specifically, the theory introduced in this paper explains
+what it means for a natural system to display software-
+like macroscopic processes in a way that is theoretically
+sound and practically useful. In the sequel, we highlight
+various implications of the theory, while also discussing
+related work and outlining future research directions.
+
+
+=== PAGE 17 ===
+
+17
+A. A computational blueprint of the functional
+architecture of complex systems
+By taking inspiration on how software works, our
+approach articulates a view on emergence in terms of
+macroscopic processes that are self-contained in causal,
+informational, and computational terms. Our mathe-
+matical formalism revealed a single condition (namely,
+the equivalence between ϵ-machines and υ-machines) un-
+der which macroscopic processes resulting from spatial
+coarse-grainings guaratee all three properties. Processes
+satisfying these properties possess a number of interest-
+ing features. First, due to causal closure, all interventions
+that drive such processes are accounted by events of the
+processes themselves — and, in that sense, it can be said
+that such a process ‘causes itself.’ Second, due to infor-
+mation closure, microscopic events don’t have any addi-
+tional predictive power over such process that couldn’t
+be found in the process itself. This implies that optimal
+prediction of such macroscopic processes can be attained
+while disregarding all details about their microscopic in-
+stantiation. Finally, due to computational closure, such
+processes run a particular subset of the computations
+carried out by the whole system in an autonomous man-
+ner. As a consequence of this, such processes can be
+thoroughly described without relying on the full micro-
+scopic theory, but using solely a simpler, coarse-grained,
+self-contained version of it.
+In addition of characterising the properties of emer-
+gent macroscopic processes individually, our theory also
+accounts for the properties of them as a group. Indeed,
+our formalism revealed that the collection of all emer-
+gent processes are hierarchically organised into a lattice.
+Furthermore, our results show that this lattice can be-
+come substantially simpler when considered not in ‘real
+space’ (i.e. in terms of coarse-grainings of states) but in
+‘theory space’ (i.e. as nested computational machines),
+which only accounts for processes that are computation-
+ally distinct. Our results show how this hierarchy of
+nested computational machines delineates a blueprint for
+the functional architecture of the system, while also char-
+acterising the computations running at each level.
+Overall, the theoretical framework introduced in this
+paper establishes a rigorous foundation to study emer-
+gent processes akin of human-designed software on nat-
+ural systems. Specifically, our theory provides concrete
+criteria to answer under what conditions natural systems
+can be said to be ‘running software’, and what are the
+consequences of this.
+B. The benefits of emergent macroscopic processes
+The examples investigated in Section IV provide some
+hints of why complex natural systems may exhibit macro-
+scopic levels that are software-like.
+First and foremost, causally closed levels can be ef-
+ficiently controlled from just macroscopic interventions,
+without needing to intervene on microscopic conditions.
+For example, if one needs to control the dynamics of the
+number of particles in each chamber in the Ehrenfest
+model (see Section IV B), or the total energy in an Ising
+model (see Section IV C), one can do this to the highest
+possible precision by setting an initial condition that only
+constrains the macroscopic property in question but oth-
+erwise leaves the remaining details unspecified/random.
+These results have an important practical implication:
+these macroscopic thermodynamic quantities can be op-
+timally controlled by the actions of macroscopic organ-
+isms, whose scope of actions is restricted to set values
+on macroscopic variables. This property may explain the
+fact that macroscopic organisms can be highly causally-
+effective on their environments without the need of hav-
+ing to intervene on microscopic variables.
+Additionally, the analysis done over Hopfield networks
+(Section IV F) opens the door to interesting analyses of
+biological process in general, and neural systems in par-
+ticular. Our results show how the neural dynamics asso-
+ciated to a process of memory retrieval can take place at a
+macro level, being driven by macroscopic neural patterns
+while being independent of the implementation of these
+on the firing of individual neurons. As such, this analy-
+sis establishes an objective procedure to evaluate when a
+neural process is implementing a computation at a higher
+level, having interesting parallels with the classic distinc-
+tion of levels of analysis introduced by Marr [76]. Also,
+these results provide a concrete operationalisation to the
+notion of multiple realisability [23, 24], articulating how
+equivalent software-like process may take place over dif-
+ferent microscopic systems (see Section II A). However,
+this approach does not satisfies — at least in princi-
+ple — the idea of substrate independence [25], as the
+causal relationships of the microscopic process determine
+which macroscopic processes can take place over it, and
+hence some processes may only be compatible with spe-
+cific types of substrates. Building on these insights, fu-
+ture work may investigate the applicability of such ap-
+proaches to identify algorithms implemented on different
+biological processes — neural and beyond.
+Finally, causally closed processes have interesting
+properties not only for the system itself, but also for the
+scientist that study them. As remarked in the study of
+agent-based modelling (Section IV E), computationally
+closed levels allow the simulation of aspects of these pro-
+cesses in an efficient yet precise manner. Indeed, the evo-
+lution of causally closed levels can be thoroughly simu-
+lated without accounting for the microscopic details that
+underlie it, which can enable efficacious exact simulation
+procedures of processes that may be unfeasible to run
+otherwise.
+C. Related literature and future work
+The theory introduced here extends the framework
+of dynamical independence proposed in Ref. [12], from
+
+
+=== PAGE 18 ===
+
+18
+which it takes direct inspiration. Dynamical indepen-
+dence proposes to identify emergent macroscopic pro-
+cess via information closure, inheriting its strengths and
+weaknesses (for example, as discussed in Section III E,
+noise processes may satisfy dynamical independence
+while having no underlying causal structure). One way to
+circumvent these limitations is by requiring information
+closure to be ‘non-trivial’, i.e. for emergent levels to actu-
+ally carry some information processing [48]. In this work
+we take a different approach by interpreting this limita-
+tions as symptoms of a deeper issue: that information-
+theoretic metrics alone are limited in the degree they can
+assess the mechanisms driving the data-generating pro-
+cess. This greatly limits the capability of these frame-
+works not only to determine if a macro-variable is emer-
+gent or not, but to provide a more detailed assessment
+of how this may be taking place. Importantly, it has
+been shown that statistical patterns can be qualitatively
+different from their data-generating mechanisms [77]. By
+embracing principles of computational mechanics and the
+related notion of intrinsic computation [78, 79], our pro-
+posed theory takes a first step in the direction of charac-
+terising the mechanisms driving emergent processes from
+a computational perspective.
+The framework presented here have similar motiva-
+tions to recent work reported in Ref. [34, Sec. VIII].
+This approach characterises the degree of dependency
+between microscopic and macroscopic levels combining
+principles of computational mechanics with insights and
+formal tools from fluid dynamics and dynamical systems
+theory, being highly complementary with the approach
+and tools developed here and well-suited for analysing
+systems with continuous variables. Our framework also
+has similar motivations and aims (although relying on
+a radically different approach) with work reported in
+Ref. [80], which introduces scalable methods to model
+hidden dynamics driving time series data and hence being
+promising in terms of its practical applicability. Future
+work may try to combine the complementary strengths
+of these approaches.
+More broadly, there is an extensive literature consid-
+ering efficient representations of microscopic processes,
+which selects macroscopic processes via a variety of crite-
+ria. Classic approaches include ‘lumpability’ techniques
+(see Section 7 and Refs. [81–83]) and other aggrega-
+tion approaches (e.g. Ref. [84, 85]). An interesting angle
+on this problem is taken by Ref. [86], which considers
+coarse-graining processes that balance predictability at
+the macro level with the degree of computational com-
+plexity involved in the coarse-graining mapping relating
+microscopic and macroscopic levels. This idea is related
+to a definition of emergence in terms of computational
+mechanics properties presented in Ref. [20, Sec. 11.2.1],
+based on the ratio between the information processed
+by coarse-grainings and the informational cost of their
+ϵ-machine (i.e. the entropy of the causal states). Includ-
+ing the computational complexity of the coarse-graining,
+and potentially linking it with thermodynamic consider-
+ations, are important avenues for future work.
+The framework presented here provides a natural com-
+plement to the work presented in Ref. [87], which de-
+scribes natural computation as the dual of prediction
+— i.e., while prediction is a logical procedure that tell
+us the result of the evolution of a system without run-
+ning it, computation corresponds to the act of letting
+a system run so that its evolution provides an answer
+a query. While our theory can also be interpreted in
+terms of relationships between ‘physical’ and ‘abstract’
+processes and their predictability, our framework is ori-
+ented to highlight the role of micro-to-macro relation-
+ships, being closer in spirit to the recent literature on
+information-theoretic methods to quantify emergence [8–
+13] and other theoretical work focused on the relevance
+of coarse-grainings [88]. Thus, further developing the no-
+tion of ‘computation’ implied in the present framework is
+a relevant avenue of future work, either by working along
+the lines of Ref. [87], or by further developing the frame-
+work with richer constructs from the theoretical com-
+puter science literature — for instance, by considering
+other machines from Choamsky’s computational hierar-
+chy [44] instead of focusing solely in deterministic au-
+tomata.
+It is important to highlight that while the present
+work follows a characterisation of emergence similar to
+the one investigated by Ref. [12], other characterisations
+of emergence exist (see e.g. Refs. [8–10]). An interest-
+ing direction for future work is to investigate the fea-
+sibility of operationalising other views on emergence in
+terms of computational mechanics. Also, in this work
+we conceive causality following the computational me-
+chanics literature, following the principle of ‘differences
+that make a difference.’ However, the quantitative char-
+acterisation of causation is a challenging subject, with
+a wide literature and no agreed-upon approach for its
+quantification (see e.g. [89–92]). Note that while some of
+the proposed metrics establish causation at the level of
+individual events, the framework introduced here iden-
+tified causation of variables in terms of other variables.
+Extensions from variables to individual events could be
+attempted via point-wise information-theoretic metrics
+(see e.g. [93, 94]), being an interesting avenue for future
+work.
+Some of our results related to causal and informa-
+tional closure are related with work reported in Ref. [95],
+where the authors investigated how informational clo-
+sure relates to other properties, including causal clo-
+sure (which they call ‘commutativity’) and Markovianity.
+Their results imply that informational closure is equiv-
+alent to causal closure for spatial coarse-grainings, a re-
+sult we generalise to non-Markovian processes and spatio-
+temporal coarse graining functions in Theorem 1 [96].
+Finally, it is important to remark that it is not straight-
+forward to apply the present theory to empirical data of
+large systems. The main limitation is the practical esti-
+mation of potentially large ϵ-machines. There is promis-
+ing work in this direction [97–99]), particularly exploiting
+
+
+=== PAGE 19 ===
+
+19
+the relationship between ϵ- machines and the informa-
+tion bottleneck [100], and recent extensions of state-space
+modelling [101]. We leave it to future work to develop
+suitably efficient and robust estimations procedures.
+D. Final remarks
+Given the central position that the notion of ‘computa-
+tion’ has in our modern scientific worldview, it is natural
+to wonder what a computational perspective can offer
+to our fundamental understanding of natural processes
+studied by physics, chemistry, and biology. While com-
+puter science provides a rigorous and fundamental the-
+ory based on the construct of Turing machines [102], the
+application of these ideas to concrete scientific scenarios
+(e.g. in physics or neuroscience) is not always straightfor-
+ward [103]. We hope that the theory introduced in this
+paper may serve as a first step towards a thorough char-
+acterisation of emergent processes in a way that advances
+theoretical discussions and also facilitate breakthroughs
+in empirical scientific questions.
+ACKNOWLEDGEMENTS
+We thank Patricio Orio for helpful discussions
+about cellular automata, and Lionel Barnett, Sebastian
+Dohnany, and Clemens von Stengel for useful comments
+about the manuscript. F.R. was supported by the Fellow-
+ship Programme of the Institute of Cultural and Creative
+Industries of the University of Kent, and the DIEP vis-
+itors programme at the University of Amsterdam. The
+work of B.G. was funded by the European Union’s Hori-
+zon Europe research and innovation programme within
+the KNOWSKITE-X project, under grant agreement No.
+101091534. M.G. was supported in part by the Swiss Na-
+tional Science Foundation under Grant 200364.
+APPENDIX: THE CALCULI OF MULTI-LEVEL
+COMPUTATIONS
+Here we present the fundamental mathematical results
+that are at the basis of our framework, which was infor-
+mally described in Section III.
+1. Scenario and basic assumptions
+Let us consider a dynamical process of interest whose
+evolution can be described by a time series — i.e., a
+stochastic process Xt sampled at discrete times t ∈ Z.
+To simplify the results presented in this paper, we adopt
+two assumptions. First, it is assumed that Xt takes val-
+ues on a discrete alphabet X . Secondly, the statistics of
+the system of interest (which may be Markovian or non-
+Markovian) are assumed to be stationary — i.e. to have
+the same statistics for different timepoints. Extensions
+for non-stationary processes and/or general alphabets are
+possible, but will be left for future work.
+As for notation, random variables are in general de-
+noted by capital letters (e.g. X, Y ) and their realisations
+by lower case letters (e.g. x, y). Time series are denoted
+by bold letters without subscript X = {Xt}t∈Z, finite
+trajectories by ⃗X L
+t := ( Xt, . . . , Xt+L), the infinite fu-
+ture as ⃗Xt = ( Xt, Xt+1, . . .), and the infinite past as
+⃗X t = (. . . , Xt−1, Xt). For distributions of random vari-
+ables, we use the random variables as subscripts, i.e.,
+pX(x) = P(X = x). We drop the subscript if it is clear
+from the context. The Shannon entropy of a random
+variable X is denoted by H(X), and the mutual infor-
+mation between X and Y by I(X; Y ). Finally, we call
+random variables X and Y equivalent if and only if there
+is a bijection f such that X = f(Y ) almost surely, i.e.
+with probability 1.
+2. Coarse-grainings and ϵ-machines
+A coarse-grained description of a variable X is another
+variable Z such that a (deterministic) coarse-graining
+mapping g exists such that Z = g(X). For example,
+X could be a Gaussian random variable and Z could be
+1 if X ≥ 0 and 0 otherwise. The range of values that
+a coarse-grained representation can adopt is equal to or
+smaller than the range of the original system. Crucially,
+if Z = g(X) then observing a change in Z always implies
+that there was a change in X, but if X is changed this
+does not imply that Z will — an asymmetry known as
+‘supervenience’ [104].
+Let us extend the idea of coarse-graining from vari-
+ables to time series. A coarse-graining of a time series X
+is another time series Z such that there exists a coarse-
+graining mapping g such that Zt = g( ⃗X t) for all t, so
+that Z summarises spatio-temporal trajectories of X. A
+coarse-grained time series Z will be described informally
+as being a macroscopic process related to a microscopic
+process X. We denote by GX := [ X ∗ → R] the set of
+all possible coarse-graining functions taking the past ⃗X t
+as input (with X ∗ denoting the set of infinite strings
+corresponding to all possible past trajectories), and by
+FX := [X → R] the subset of all purely spatial (i.e. non-
+temporal) coarse-grainings of the form Zt = f(Xt).
+When considering two coarse-grainings Z(1) and Z(2),
+we use the notation Z(1) ⪰ Z(2) to denote when Z(1)
+is by itself also a coarse-graining of Z(2). Two coarse-
+grainings are equivalent if they satisfy both Z(1) ⪰ Z(2)
+and Z(2) ⪰ Z(1), which corresponds to cases where there
+exists a bijection between them. Two coarse-graining
+functions g1, g2 ∈ G X are said to be equivalent if they
+lead to equivalent coarse-grainings.
+Lemma 1. For a given processX, the collection GX with
+⪰ forms a lattice, with the infimum given by the identity
+mapping and supremum given by a constant mapping.
+The set FX constitutes a sublattice of GX .
+
+
+=== PAGE 20 ===
+
+20
+Proof. Let us consider two coarse-grainings of X denoted
+by Z and Z ′. To show that ⪰ induces a partial ordering,
+one needs to prove that if X ⪰ Y and Y ⪰ Z, then X ⪰
+Z, which is a natural consequence of the composition of
+coarse-graining functions. The proof of the infimum and
+supremum follows from the fact that X ⪰ Z ⪰ 0 for all
+coarse-grainings Z, where the supremmum X is obtained
+via the identity function and 0 is a trivial coarse-graining
+obtained from a constant function mapped to 0. Finally,
+the fact that both X and 0 also belong to FX shows that
+it is a sublattice.
+We now introduce the idea of ϵ-machines of a macro-
+scopic processes. For this, we build on the classic defini-
+tion of ϵ-machine [20].
+Definition 1 (ϵ-machine). The causal states of a pro-
+cess X are the equivalence classes corresponding to the
+following equivalence relationship (see Figure 1):
+⃗xt ≡ϵ ⃗x′
+t iff p(⃗xL
+t+1| ⃗xt) = p(⃗xL
+t+1| ⃗x′
+t) ∀⃗xL
+t+1, L ∈ N.
+The ϵ-machine of a process X is given by the pair
+(ϵ, T x
+e,e′), where ϵ( ⃗X t) = Et is the mapping that assigns
+their causal state to individual trajectories, and T x
+e,e′ is
+the resulting transition probabilities of the form
+T x
+e,e′ = P{Et = e′, Xt = x|Et−1 = e} .
+It can be shown that the causal states are the coarsest
+coarse-graining of past trajectories of the process that
+retains full predictive power over its future evolution —
+i.e. if the time series of causal states is denoted by E,
+then I( ⃗X t; ⃗X L
+t+1) = I(Et; ⃗X L
+t+1) for all future horizons
+L ∈ N [37, 38]. Moreover, it can be shown that E always
+exhibits Markovian dynamics, irrespective of the com-
+plexity of the memory structure of X. The ϵ-machine
+is thought to describe the computations that give rise
+to the observed data representing them via an automa-
+ton [44], as it is the most parsimonious state machine
+whose transitions generate the actual data that is ob-
+served (see Section II B).
+By noting that the dynamics in X naturally induce
+dynamics on a coarse-graining Z, one can directly ap-
+ply Definition 1 to Z. Intuitively, the ϵ-machine of a
+coarse-graining Z is an optimal representation of past
+trajectories at that level of resolution (i.e. trajectories
+of ⃗zt instead of ⃗xt), which are grouped according to
+their forecasting abilities into causal states E′. Note that
+the causal states of Z are also Markovian and informa-
+tionally optimal at a macroscopic level, i.e. they satisfy
+I( ⃗Z t; ⃗Z L
+t+1) = I(E′
+t; ⃗Z L
+t+1) for all L ∈ N.
+Let us think how the different machines relate to each
+other. If X represents a fully observed (physical) process
+governed by a given (physical) law, then theϵ-machine of
+X represents the computations taking place at this most
+resolved level — representing ‘the laws’ governing the
+system. Similarly, the ϵ-machine of Z is the best possible
+reconstruction of the computations that take place at
+scale of resolution. Critically, such reconstruction may
+be losing relevant information about the underlying laws,
+i.e. about the ϵ-machine of X. It is natural to wonder
+how the collection of ϵ-machines of all coarse-grainings of
+a given process X are related. Unfortunately, in general
+the members of such collection do not — to the best of
+our knowledge — relate to each other in a simple manner.
+For example, theϵ-machine of a coarse-graining ofX may
+not be a coarse-graining of the ϵ-machine of X, as shown
+in the next example.
+Counterexample 1 (Incompatibility between
+ϵ-machines at different levels) . Consider a Markov
+chain X with three states a, b, and c. Let us assume
+that the vectors of outgoing transition probabilities of a
+and b are positive and identical. Then, the ϵ-machine E
+has only two causal states, namely, {a, b} and c.
+Now assume that there is no transition from c to b,
+and that the transitions from b to a and from c to a
+have different probabilities. Suppose the coarse-graining
+Zt = f(Xt) is such that Zt = A if Xt = a and Zt = B
+otherwise. It can be shown that Z is not Markov. In-
+deed, the longer Z remains in state B, the higher the
+probability that Xt = c (as there are no transitions from
+c to b). Thus, since the transition probabilities into a are
+different for b and c, the ϵ-machine E′ of Z has causal
+states {A, (BA), (BBA), (BBBA ), . . .}. Since evidently
+E′ has more than two causal states, it cannot be a coarse-
+graining of the ϵ-machine E of X.
+3. υ-machines
+We now introduce a new class of machines associated
+with coarse-grainings, which we call υ-machines — which
+are illustrated in Figure 3.
+Definition 2 (υ-machine). The causal states of the pro-
+cess X with respect to its coarse-graining Z are the col-
+lection of equivalence classes given by
+⃗xt ≡υ ⃗x′
+t iff p(⃗zL
+t+1| ⃗xt) = p(⃗zL
+t+1| ⃗x′
+t) ∀⃗zt+1, L ∈ N.
+The υ-machine of the coarse-graining Z is then given by
+the pair (υ, T x
+e,e′), where υ( ⃗X t) = Ut is the mapping that
+assigns the causal state with respect to Z to individual
+trajectories ⃗xt, and T z
+u,u′ is the resulting transition prob-
+abilities of the form
+T z
+u,u′ = P{Ut = u′, Zt = z|Ut−1 = u} .
+Unlike the ϵ-machine of X that predicts the whole (de-
+tailed) future ⃗Xt+1, the υ-machine of a coarse-graining
+Z is made of the collection of causal states of the micro-
+scopic process X that are needed to optimally predict
+only its coarse-graining ⃗Zt+1. Building on this intuition,
+we now show that the causal states of the υ-machine
+correspond to the coarsest coarse-graining of X that is
+maximally predictive of Z (which provides an alternative
+characterisation of them).
+
+
+=== PAGE 21 ===
+
+21
+Proposition 1. Consider Z a coarse-graining of X, and
+U the time series of causal states of the υ-machine. Then
+I(Ut; ⃗Z L
+t+1) = I( ⃗X t; ⃗Z L
+t+1) for all L ∈ N. Moreover, if D
+is another coarse-graining of X such that I(Dt; ⃗Z L
+t+1) =
+I( ⃗X t; ⃗Z L
+t+1) for all L ∈ N, then the υ-machine of Z is a
+coarse-graining of D.
+Proof. The first assertion follows directly from the defi-
+nition of the υ-machine. Namely, observe that
+I( ⃗X t; ⃗Z L
+t+1) =
+X
+⃗xt
+p( ⃗xt)D
+
+p(⃗zL
+t+1| ⃗xt)
+p(⃗zL
+t+1)
+
+. (A.1)
+Noting that p(⃗zL
+t+1| ⃗xt) only depends on which equiva-
+lence class ut the sequence ⃗xt belongs to, and by the
+construction of ut, we can equivalently write
+I( ⃗X t; ⃗Z L
+t+1) =
+X
+ut
+p(ut)D
+
+p(⃗zL
+t+1|ut)
+p(⃗zL
+t+1)
+
+, (A.2)
+and the latter is precisely equal to I(Ut; ⃗Z L
+t+1).
+For the second assertion, let us consider D a coarse-
+graining of X, and express the mutual information be-
+tween D and Z in terms of Kullback-Leibler divergences
+as follows:
+I(Dt; ⃗Z L
+t+1) =
+X
+dt
+p(dt)D
+
+p(⃗zL
+t+1|dt)
+p(⃗zL
+t+1)
+
+. (A.3)
+Our strategy will be to investigate under which condi-
+tions this expression is smaller than I( ⃗X t; ⃗Z L
+t+1).
+Let’s first consider what happens if Dt only lumps
+together trajectories of ⃗xt that have the same condi-
+tional probabilities p(⃗zL
+t+1| ⃗xt). Then, I(Dt; ⃗Z L
+t+1) =
+I( ⃗X t; ⃗Z L
+t+1), as each Kullback-Leibler term in the sum-
+mation stays the same, and the probabilities p(dt) just
+group together probabilities of the corresponding trajec-
+tories. Said differently, lumping together terms with sim-
+ilar conditionals results on a rearranging of the summa-
+tion terms and their weights, but nothing more.
+Let’s now consider what happens if Dt lumps at least
+two trajectories with different conditional probabilities
+p(⃗zL
+t+1| ⃗xt), and show that in this scenario the mutual
+information will necessarily drop. For this, let’s assume
+that Dt = d0 is lumping together trajectories ⃗xt and ⃗x′
+t
+that have different conditional probabilities. Then, first
+notice that
+p(dt)p(⃗zL
+t+1|dt) = p(dt, ⃗zL
+t+1)
+= p( ⃗xt, ⃗zL
+t+1) + p( ⃗x′
+t, ⃗zL
+t+1)
+= p( ⃗xt)p(⃗zL
+t+1| ⃗xt) + p( ⃗x′
+t)p(⃗zL
+t+1| ⃗x′
+t)
+and then
+p(⃗zL
+t+1|dt) = r · p(⃗zL
+t+1| ⃗xt) + s · p(⃗zL
+t+1| ⃗x′
+t), (A.4)
+where r + s = 1 is an affine combination. Using then the
+fact that the KL is strictly convex, i.e. that if q1 and q2
+are different then
+D(r · q1 + s · q2||p) < r · D(q1||p) + s · D(q2||p), (A.5)
+one can show that the mutual information with such
+coarse-graining cannot be maximal, i.e. that some infor-
+mation must be lost.
+This shows that any maximally informative coarse-
+graining can only lump trajectories that have the same
+conditionals. And the coarsest one is the one that lumps
+them all, which is by definition the υ-machine. There-
+fore, any coarse-graining that is maximally informative
+will be compatible with the υ-machine, but may be less
+coarse.
+It is natural to wonder how the υ-machine and ϵ-
+machine of a coarse-graining are related to each other.
+Our next result shows that the υ-machine of Z is al-
+ways more information-powerful than the ϵ-machine of
+Z. Intuitively, this is a consequence of the fact that the
+former can rely on information that is in X but may not
+be accessible in Z.
+Lemma 2. Consider Z to be a coarse-graining ofX, and
+denote by U and E′ the time series of the causal states
+of its υ-machine and ϵ-machine, respectively. Then, the
+following relationship is satisfied for all future horizons
+L ∈ N:
+I(Ut; ⃗Z L
+t+1) ≥ I(E′
+t; ⃗Z L
+t+1).
+Proof. By the definition of ϵ-machines, we must have
+I(E′
+t; ⃗Z L
+t+1) = I( ⃗Z t; ⃗Z L
+t+1), while by the definition of
+υ-machines, we have I(Ut; ⃗Z L
+t+1) = I( ⃗X t; ⃗Z L
+t+1). The
+lemma is then proven by a simple application of the
+data processing inequality, which states that since ⃗Z t
+is a function (a coarse-graining) of ⃗X t, we must have
+I( ⃗Z t; ⃗Z L
+t+1) ≤ I( ⃗X t; ⃗Z L
+t+1).
+This lemma could perhaps give the impression that
+the causal states of the ϵ-machine of Z may simply be a
+coarse-graining of the causal states of its υ-machine. Un-
+fortunately, this is not the case — rather, these machines
+can be related in highly non-trivial ways, as illustrated
+by our next example.
+Counterexample 2 (Incompatibility between
+υ-machine and ϵ-machine of a macroscopic process). We
+reconsider the Markov chain X and its coarse-graining
+from Counterexample 1. Recall that the time series of
+causal states of X, E, alternate between two causal
+states states, {a, b} and {c}. As we will show later in
+Proposition 2, since the coarse-graining mapping f that
+defines Z is spatial, the causal states of the υ-machine
+U of Z is a coarse-graining of E; hence, it can have
+at most two causal states. Recall further that the time
+series of causal states of the ϵ-machine of Z, E′, has
+causal states states {A, (BA), (BBA), (BBBA ), . . .}.
+Since evidently E′ has more than two causal states (i.e.,
+more states than U has), there cannot be a mapping
+f ∈ F E such that E′
+t = f(Ut).
+
+
+=== PAGE 22 ===
+
+22
+4. Information and causal closure
+The υ-machine of a coarse-grainingZ captures the hid-
+den states whose computations drive its evolution as seen
+from X, while the ϵ-machine of Z is the best effort to cap-
+ture such states using only information from that scale
+of resolution (see Figure 3). Hence, if the ϵ-machine of
+a macroscopic process is as powerful as its υ-machine
+(concretely, if there exists a bijection between the causal
+states of both, E′
+t and Ut), then one can say that all the
+relevant causal relationships take place at that macro-
+scopic scale. This principle sets the basis for defining
+macroscopic processes that are causally closed.
+Definition 3 (Causal closure). A coarse-graining Z is
+said to be causally closed if the coarse-grainings induced
+by its ϵ-machine and υ-machine are equivalent.
+Let us illustrate how coarse-grainings can be causally
+closed in a minimal example.
+Example 1. Consider a stationary Markov chain X that
+can take one of three values X = {a, b, c}. This system is
+fully described by a 3×3 transition probability matrix that
+gives the probabilities p(x′|x) := P{Xt+1 = x′|Xt = x}
+for x, x′ ∈ X , which has 6 degrees of freedom (as there are
+three conditional probabilities that sum up to 1). Let us
+consider a generic coarse-graining of such system given
+by Zt = g(Xt), with the mapping g defined by
+g(x) =
+(
+0 if x ∈ {a, b},
+1 if x = c.
+To investigate under what conditions is Zt causally
+closed, let’s build the υ-machine for predicting Zt+1 in
+terms of Xt. For this, first note that
+P{Zt+1 = 0|Xt = x} = p(a|x) + p(b|x),
+P{Zt+1 = 1|Xt = x} = p(c|x).
+From here one can realise that the ϵ-machine and υ-
+machine of Z are equivalent if the υ-machine is unable
+to distinguish the states that are merged by the coarse-
+graining, i.e. we need P{Zt+1 = r|Xt = a} = P{Zt+1 =
+r|Xt = b} for r ∈ { 0, 1}. Furthermore, by noticing that
+P{Zt+1 = 1 |Xt = v} = 1 − P{Zt+1 = 0 |Xt = v}, this
+leads to a single condition: p(c|a) = p(c|b).
+Let us add one further definition of a similar but seem-
+ingly weaker condition.
+Definition 4 (Information closure) . A coarse-graining
+Z of X is said to be informationally closed if it satisfies
+I( ⃗X t; ⃗Z L
+t+1| ⃗Z t) = 0 for all L ∈ N.
+An informationally closed coarse-graining is such that
+knowing the corresponding micro-state does not provide
+additional information about its future evolution over
+what can be obtained from the past of the coarse-graining
+itself. More technically, this condition corresponds to the
+following Markov chain: ⃗X t − ⃗Z t − ⃗Zt+1, where knowing
+⃗Z t makes ⃗X t and ⃗Zt+1 conditionally independent. This
+condition makes ⃗Z t to be a sufficient statistic of ⃗X t for
+predicting ⃗Zt+1. Information closure of coarse-grainings
+have been studied by Refs. [12, 49].
+While one could intuitively think that informational
+closure would be a weaker notion than computational clo-
+sure, our next result shows that both are, in fact, equiv-
+alent.
+Theorem 1. Let Z be a coarse-graining of X. Then,
+the following conditions are equivalent:
+(i) Z is causally closed.
+(ii) Z is informationally closed.
+(iii) The causal states of its υ-machine and ϵ-machine
+of Z, denoted by U and E′, satisfy I(Ut; ⃗Z L
+t+1) =
+I(E′
+t; ⃗Z L
+t+1) for all L ∈ N.
+Proof. Let us first prove the equivalence between (ii) and
+(iii). This follows directly from the following calculation:
+I( ⃗X t; ⃗Z L
+t+1| ⃗Z t) = I( ⃗X t, ⃗Z t; ⃗Z L
+t+1) − I( ⃗Z t; ⃗Z L
+t+1) (A.6)
+= I( ⃗X t; ⃗Z L
+t+1) − I( ⃗Z t; ⃗Z L
+t+1) (A.7)
+= I(Ut; ⃗Z L
+t+1) − I(E′
+t; ⃗Z L
+t+1) . (A.8)
+Above, the first equality uses the chain rule for mutual
+information (see e.g. [105, Thm.2.5.2]) which states that
+I(W, V ; U) = I(V ; U) + I(W ; U |V ) for any random vari-
+ables ( U, V, W), the second the fact that Z is a coarse-
+graining (i.e. a deterministic function) of X, and the
+third the properties of ϵ- and υ-machines.
+Now, let’s prove the equivalence between (i) and (iii).
+If Z is causally closed then there exists a bijection be-
+tween E′
+t and Ut, and hence I(Ut; ⃗Z L
+t+1) = I(E′
+t; ⃗Z L
+t+1)
+follows directly. To prove the converse, note that E′ is a
+coarse-graining of X, since the causal states of a coarse-
+graining is a coarse-graining of the original process. Now
+note that I(Ut; ⃗Z L
+t+1) = I(E′
+t; ⃗Z L
+t+1) implies that E′
+t is
+maximally predictive of Z. Due to Proposition 1, this
+implies that Ut = f(E′
+t). This, however, implies that U
+is also a coarse-graining of Z. This, combined with the
+minimality of E′
+t with respect to Z (i.e. that it is the
+coarses coarse-graining of ⃗Z t that still attains optimal
+prediction), implies that the mapping f is a bijection.
+Note that Lemma 2 shows that υ-machines are gen-
+erally more powerful than the corresponding ϵ-machines;
+the present result states that informational and causal
+closure are characterised by the fact of them being
+equally powerful.
+5. The lattice of spatial υ-machines
+While the results presented in previous sections in-
+troduce useful relationships between υ-machines and ϵ-
+machines of coarse-grainings, the relationship between
+
+
+=== PAGE 23 ===
+
+23
+them and the ϵ-machine of the process itself remains
+unclear. Unfortunately, no general simple relationship
+exists between the ϵ-machine of X and υ-machines
+of coarse-grainings for general (spatio-temporal) coarse-
+grainings, as shown in the following example — which
+illustrates how spatio-temporal coarse-grainings can in-
+duce substantial changes into the causal organisation of
+the process.
+Counterexample 3 (Incompatibility between
+υ-machine and ϵ-machine of the micro) . Let X be
+i.i.d., from which follows that the ϵ-machine E is
+trivial. Let’s focus on the following coarse-graining
+Zt = g( ⃗X t) = Xt−1. The υ-machine can, by definition,
+access the entire past ⃗X t to construct a causal state for
+Zt+1. But since Zt+1 = Xt, we can set Ut = Xt and
+obtain H(Zt+1|Ut) = 0 . Note that such Ut is minimal,
+since any non-trivial coarse-graing of Xt will loose
+entropy and hence ability to predict itself. However,
+since E is trivial, there is no function f ∈ F E such that
+Ut = f(Et).
+While the collection of all ϵ-machines of coarse-
+grainings Z often don’t have a clear structure linking
+them, our next result shows that the υ-machines aris-
+ing from spatial coarse-grainings arrange naturally into
+a lattice.
+Proposition 2. Let f ∈ F X be a spatial coarse-graining
+function and let Zt = f(Xt). Then, the causal states Ut
+of the υ-machine of Z, are a coarse-graining of the causal
+states Et of the ϵ-machine of X. Moreover, the collection
+of υ-machines of all coarse-grainings of X form a lattice,
+which is homomorphic to the lattice of coarse-grainings
+of X.
+Proof. Let us first show that there exists a spatial coarse-
+graining f ′ ∈ F X such that Ut = f ′(Et). Recall that Et
+corresponds to the equivalence class of trajectories ⃗X t
+that have the same conditional distribution p(⃗xL
+t+1|et),
+and that Ut corresponds to the equivalence class of tra-
+jectories ⃗X t that have the same conditional distribution
+p(⃗zL
+t+1|ut). Now, by considering a given future trajectory
+⃗zL
+t+1, one sees directly that
+p(⃗zL
+t+1| ⃗xt) =
+X
+⃗xL
+t+1∈f −1(⃗zt+1)
+p
+ ⃗xL
+t+1| ⃗xt
+
+. (A.9)
+Therefore, if ⃗xt and ⃗x′
+t are two trajectories such that
+p(⃗xL
+t+1| ⃗xt) = p(⃗xL
+t+1| ⃗x′
+t) for all ⃗xL
+t+1 and L ∈ N, then also
+p(⃗zL
+t+1| ⃗xt) = p(⃗zL
+t+1| ⃗x′
+t). This implies that the coarse-
+graining that leads to Et contains all distinctions made
+by the coarse-graining that leads toUt, and perhaps some
+more — the ones needed to predict ⃗X L
+t+1 rather than just
+⃗Z L
+t+1. This shows that Ut necessarily is a coarse-graining
+of Et.
+From the previous argument, it is clear that the collec-
+tion of all υ-machines of spatial coarse-grainings inherit
+the partial-ordering relationship of their corresponding
+coarse-grainings. Furthermore, it is direct to see that the
+υ-machine of the coarse-graining function f(x) = x is
+the finest of all, and the one of f(x) = 0 is the coarsest.
+This proves that the partial ordering over υ-machines
+generates a lattice, and the fact that the mapping from
+coarse-grainings Z to υ-machines may not be one-to-one
+makes it an homomorphism.
+This result formally shows that, at least for spatial
+coarse-grainings, the υ-machine corresponds to the part
+of the underlying ϵ-machine that plays a role in running
+the macroscopic process Z.
+6. Computational closure and the structure of
+emerging scales
+Let us now consider the notion of closure from a com-
+putational perspective. For this, let us focus on a de-
+terministic automaton (not necessarily related to an ϵ-
+machine) with states in the set E and inputs in the alpha-
+bet X , so that a tuple (et, xt+1) with et ∈ E and xt+1 ∈ X
+uniquely determine the next state et+1 ∈ E [44]. Then,
+for a given initial state e0, an input sequence of symbols
+x1, . . . , xT generate a corresponding sequence of states
+e0, e1, . . . , eT . Let us consider what happens if one has
+sequences not of symbols in X , but from a coarse-grained
+alphabet Z = {f(x) : x ∈ X } established by a spatial
+coarse-graining mapping z = f(x), f ∈ F X . In general,
+the symbols in Z may not be sufficient to uniquely spec-
+ify the transitions between states in E, so that the states
+E do not constitute a deterministic automaton under in-
+puts in Z. If it does, we say that the coarse-graining is
+computationally closed. We formalise these ideas in the
+next definition.
+Definition 5 (Computational closure). For a given de-
+terministic automaton with states in E and inputs in X ,
+the coarse-grainings of inputs f and of states f ∗ are said
+to be computationally closed if the resulting transitions
+between coarse-grained states E ′ = {E′ = f ∗(E) : E ∈ E}
+is also a deterministic automaton under inputs in Z =
+{z = f(x) : x ∈ X }.
+Put simply, computational closure refers to a pair of
+coarse-grainings ( f, f ∗) such that the coarse-graining of
+the state is ‘compatible’ with the coarse-graining of the
+input — in the sense that they give rise to a new discrete
+automaton.
+The notion of computational closure can be naturally
+applied to macroscopic coarse-grainings, by considering
+how their ϵ-machines — which can be seen as a deter-
+ministic automata (see Section II B) — relates to the ϵ-
+machine of the underlying microscopic process. Follow-
+ing Definition 5, one can say that a macroscopic process
+Zt = g( ⃗X t) is computationally closed if the time seriesE′
+of causal states of its ϵ-machine is computationally closed
+with respect to the time series of causal states E of the
+ϵ-machine of the microscopic process X. In other words,
+
+
+=== PAGE 24 ===
+
+24
+Zt = g( ⃗X t) is computationally closed if and only if there
+is a spatial coarse-graining f ∗ such that E′
+t = f ∗(Et).
+While computational closure seems to be a stronger
+condition than causal closure, our next example (adapted
+from [95, Example 6.1]) shows this is not the case.
+Counterexample 4 (Computational closure does not
+imply information closure, adapted from [95, Ex-
+ample 6.1]) . Consider the following time-homogeneous
+Markov chain X with transition probability matrix
+P =
+
+
+0.5 0 .5 0 0
+0 0 0.5 0 .5
+0.5 0 .5 0 0
+0 0 0.5 0 .5
+
+
+, (A.10)
+where, following standard convention, the entry in row i
+and column j denotes P{Xt+1 = j|Xt = i}, i.e., tran-
+sition probability matrices are row stochastic. The lines
+indicate that the coarse-graining function f merges states
+1 and 2 to A and states 3 and 4 to B. If the start-
+ing distribution pX0 coincides with the uniform distribu-
+tion on {1, 2, 3, 4}, then the resulting coarse-graining Z
+is i.i.d. Hence, its ϵ-machine is a trivial one, and hence
+is a coarse-graining of the ϵ-machine of X. However,
+this coarse-graining is not causally closed. In effect, by
+knowing Xt one can perfectly predict Zt+1. Namely, writ-
+ing out explicitly, one can find for this particular Markov
+chain that
+p(Zt+1 = A|Xt = xt) =
+
+
+
+1 if xt = 1 or xt = 4,
+0 otherwise,
+(A.11)
+and likewise for coarse state B. Hence the υ-machine of Z
+is non-trivial. Similarly, Z is not informationally closed
+since
+I( ⃗X t; Zt+1| ⃗Z t) = H(Zt+1| ⃗Z t) − H(Zt+1| ⃗X t, ⃗Z t)
+= H(Zt+1) = 1. (A.12)
+To establish this, we observe that since Z is i.i.d., we
+have H(Zt+1| ⃗Z t) = H(Zt+1); due to Equation (A.11),
+we have H(Zt+1| ⃗X t, ⃗Z t) = 0; and the last equality fol-
+lows since the marginal distribution of Zt is uniform in
+our example.
+With all in place, we have all the pieces to put forward
+our next result (illustrated by Figure 6).
+Theorem 2. Spatial coarse-grainings that are causally
+closed are also computationally closed. Moreover, the set
+of all computationally closed coarse-grainings form a sub-
+lattice, which maps (possibly not one-to-one) into a lat-
+tice of coarse-grainings of ϵ-machines via an homomor-
+phism. Furthermore, when restricted to this collection,
+the following diagram commutes:
+Z
+EX
+E′ϵ′
+ϵ
+f f∗
+(Input sequence)
+Real space
+(Causal states)
+Mechanism space
+where f, f ∗ are coarse-graining mappings, and ϵ, ϵ′ are
+operators that goes from stochastic processes to their ϵ-
+machine.
+Proof. To prove the first part of the theorem, let’s con-
+sider a causally closed macroscopic process Z which is
+generated by a spatial coarse-graining — i.e. Zt = f(Xt).
+Proposition 2 guarantees that, because of coming from a
+spatial coarse-graining, the causal states of theυ-machine
+of Z are a coarse-graining of the causal states of X. Ad-
+ditionally, due to the definition of causal closure, the ϵ-
+machine of Z is equal to its υ-machine. Combining these
+two facts one can conclude that the causal states of the
+ϵ-machine of Z must be a coarse-graining of the causal
+states of the ϵ-machine of X, proving that Z is com-
+putaionally closed.
+Let us prove now that all computationally closed
+coarse-grainings for a lattice, and that their ϵ-machines
+also do. All causally closed spatial coarse-grainings are a
+sub-lattice of FX . Furthermore, as causal closure in this
+case implies computational closure, then the collection of
+all ϵ-machines of those are also sub-lattice of the set of
+all possible spatial coarse-grainings of the ϵ-machine of
+X. In virtue of this, the operation of calculating the ϵ-
+machine of a causally closed coarse-graining, denoted by
+ϵ′(·), establishes a natural map between coarse-grainings
+of X and coarse-grainings of its ϵ-machines.
+To conclude, let’s prove the conmutation between
+coarse-graining f and calculation of causal states ϵ(·).
+For this, let’s note that ϵ(·) preserves the partial or-
+dering relationship of coarse-grainings of X — indeed,
+if the coarse-graining of X f is finer than f ′, then
+the υ-machine of Zt = f(Xt) is finer than the one of
+Z ′
+t = f ′(Xt). This fact, combined with the identity
+between υ-machines and ϵ-machines that holds due to
+causal closure, concludes the proof.
+We note that the requirement of focusing on spatial
+coarse-grainings is essential, as the implication from in-
+formation closure to computational closure can be broken
+in the case of general spatio-temporal coarse-grainings —
+as illustrated by our next example.
+Counterexample 5 (Causal closure doesn’t always im-
+ply computational closure) . Let Xt be a Markov chain
+such that its causal states Et satisfy Et = Xt. In this
+scenario, let’s consider the coarse-graining Zt = g( ⃗X t) =
+
+
+=== PAGE 25 ===
+
+25
+Xt−1. A direct calculation shows that
+I(⃗Z L
+t+1; ⃗X t| ⃗Z t) = H(⃗Z L
+t+1| ⃗X t) − H(⃗Z L
+t+1| ⃗Z t)
+= H( ⃗X L
+t | ⃗X t) − H( ⃗X L
+t | ⃗X t−1)
+= 0, (A.13)
+which implies that Zt is informationally closed, and hence
+— due to Theorem 2 — also causally closed. Note that
+Z is a Markov chain, and E′
+t = Xt−1. But then E′
+t =
+Et−1, so that in general there no spatial coarse-graining
+mapping Et to E′
+t.
+Let us now turn towards characterising the collections
+of coarse-grainings that lead to the same ϵ-machine, cor-
+responding to the pre-images of the mapping ϕ′.
+Definition 6. Two coarse-grainings Z and Z ′ are said
+to be computationally equivalent if their ϵ-machines are
+equivalent.
+Let us illustrate how coarse-grainings can be compu-
+tationally equivalent in a minimal example.
+Example 2. Let us revisit the setting of Example 1. To
+investigate under what conditions is Zt causally closed,
+let’s build the υ-machine for predicting Zt+1 in terms of
+Xt. For this, first note that
+P{Zt+1 = 0|Xt = x} = p(a|x) + p(b|x),
+P{Zt+1 = 1|Xt = x} = p(c|x).
+From here one can realise that the ϵ-machine and υ-
+machine of Z are equivalent if the υ-machine is unable
+to distinguish the states that are merged by the coarse-
+graining, i.e. we need P{Zt+1 = r|Xt = a} = P{Zt+1 =
+r|Xt = b} for r ∈ { 0, 1}. Furthermore, by noticing that
+P{Zt+1 = 1 |Xt = v} = 1 − P{Zt+1 = 0 |Xt = v}, this
+leads to a single condition:
+p(c|a) = p(c|b).
+Furthermore, a direct calculation shows that
+P{Zt+1 = r|Zt = s} = P{Zt+1 = r, Zt = s}
+P{Zt = s}
+=
+X
+u∈g−1(r)
+X
+v∈g−1(s)
+ξ(v)p(u|v),
+where ξ(v) are non-negative weights withP
+v∈g−1(s) g(v) = 1 given by
+ξ(v) = P{Xt = v}P
+v′∈g−1(v) P{Xt = v′} . (A.14)
+This implies that
+P{Zt+1 = 1|Zt = 0} = p(c|a), (A.15)
+P{Zt+1 = 1|Zt = 1} = p(c|c). (A.16)
+Clearly, if p(c|a) ̸= 1 /2 or p(c|c) ̸= 1 /2, then the Zt is
+not independently distributed and hence its ϵ-machine is
+isomorphic to itself.
+From this analysis, one can see that there are two
+types of scenarios in where Zt is causally closed. One
+is whether Zt carries non-trivial computations or not
+(i.e. if Zt is i.i.d.); the other is if Zt carries different
+computations than Xt or not (equivalence happens when
+p(x|a) = p(x|b) for x ∈ {a, b, c}, which leads to the causal
+states of Xt to be equal than Zt). It is direct to confirm
+that the four possible combinations of these two binary
+possibilities give rise to the four scenarios illustrated in
+Figure 7.
+Let us define ∆L(X, Z) = I( ⃗X t; ⃗X L
+t+1) − I( ⃗Z t; ⃗Z L
+t+1),
+which is the information that is being processed in X
+but not in Z within a time horizon L. If Z a coarse-
+graining of X, then ∆ L(X, Z) ≥ 0 for all L due to the
+data-processing inequality. Note, for example, that if Z
+is a spatial coarse-graining of X and the statistics of both
+are i.i.d., then they are computationally equivalent and
+also satisfy ∆ L(X, Z) = 0. Our next result generalises
+this relationship.
+Lemma 3. If a computationally closed spatial coarse-
+graining Zt = f(Xt) satisfies ∆(X, Z) = 0, then Z and
+X are computationally equivalent.
+Proof. Note that ∆( X, Z) = 0 if and only if
+I(Et; ⃗Xt+1) = I(E′
+t; ⃗Zt+1), where Et and E′
+t are the
+causal states of X and Z. Also, because of computa-
+tional closure, there is a function f ∗ such that E′
+t =
+f ∗(Et).
+If X and Z are not computationally equivalent, then
+f ∗ is not invertible. If that is the case, then the def-
+inition of causal states implies that there exists a tra-
+jectory ⃗X L
+t+1 such that I( ⃗X L
+t+1; E′
+t) < I ( ⃗X L
+t+1; Et), as
+Et is by definition the coarsest coarse-graining that at-
+tains I( ⃗X L
+t+1; Et) = I( ⃗X L
+t+1; ⃗X t) and thus E′
+t needs to
+be coarser than Et. The data processing inequality then
+shows that
+I(⃗Z L
+t+1; E′
+t) ≤ I( ⃗X L
+t+1; E′
+t) < I ( ⃗X L
+t+1; Et), (A.17)
+proving the desired result.
+We conclude this section studying how sequences of
+coarse-grainings decompose the total information pro-
+cessed by the system.
+Proposition 3. Consider Z = {Z i}m
+i=1 a sequence of
+computationally closed coarse grainings with Z1 = X
+and Z m = 1 the constant coarse-graining. Then
+I( ⃗X t; ⃗Xt+1) =
+m−1X
+i=1
+∆(Z k, Z k+1). (A.18)
+
+
+=== PAGE 26 ===
+
+26
+Proof. A direct calculation shows that
+I( ⃗X t; ⃗Xt+1) = I( ⃗X t; ⃗Z1
+t+1, ⃗Z2
+t+1, , . . . ,⃗Z m
+t+1)
+=
+m−1X
+k=1
+I( ⃗X t; ⃗Z k
+t+1|⃗Z k+2
+t+1 , . . . , ⃗Z m
+t+1)
+=
+m−1X
+i=1
+I( ⃗X t; ⃗Z k
+t+1|⃗Z k+1
+t+1 ) . (A.19)
+Then, the results follows from noting that
+I( ⃗X t; ⃗Z k
+t+1|⃗Z k+1
+t+1 ) = I( ⃗X t; ⃗Z k+1
+t+1 ) − I( ⃗X t; ⃗Z k
+t+1)
+= I( ⃗Z k+1
+t ; ⃗Z k+1
+t+1 ) − I( ⃗Z k
+t ; ⃗Z k
+t+1),
+where the last equality uses the fact that each coarse-
+gaining is informationally closed.
+This result shows that a computationally closed coarse-
+graining Z that is not computationally equivalent to X
+decomposes the information processed by X into what
+is processed in the macro-scale (i.e. by Z, quantified by
+I( ⃗Z t; ⃗Zt+1) and what goes below (in X but not Z, quan-
+tified by ∆(X, Z)).
+7. Closure and lumpability
+Here we explore the relationship between informa-
+tional, causal, and computational closure and ‘lumpa-
+bility’ — see Figure 13 for an overview of the results
+we will develop in this subsection. Loosely speaking,
+lumpability refers to Markov chains that have coarse-
+grainings that also exhibit Markov dynamics. Markedly,
+one should note that lumpability is the exception and not
+the rule [106, Th. 31], as most coarse-graininings break
+the Markov property of the base system.
+Example 3. Let’s consider X where Xt can take one
+of four possible values, denoted as a, b, c, and d. Con-
+sider the random initial condition where X0 can take any
+value with equal probability, and the following Markov
+dynamics: if Xt ∈ { a, b} then Xt+1 is equal to c or
+d with equal probability, and if Xt ∈ { c, d} then Xt+1
+is equal to a or b with equal probability. Now, consider
+a coarse-graining Z determined by the following coarse-
+graining function: g(a) = g(b) = A and g(c) = g(d) = B.
+It can be seen than Z has deterministic dynamics, as
+p(B|A) = p(A|B) = 1 . Furthermore, one can see that
+there are two causal states: one of all sequences that fin-
+ish with A, and another with all sequences that finish
+in B. Interestingly, one can check that this ϵ-machine
+is isomorphic to the one of X, and capture the same
+amount of future information (1 bit). So, Z is essen-
+tially a more compact representation than X of the same
+computational process.
+Building on these ideas, let us start by introducing
+the formal definition of lumpability [21, §6.3 & §6.4] —
+while acknowledging that other flavours of lumpability
+exist [107].
+Definition 7 (Strong and weak lumpability) . A time-
+homogeneous Markov chain (W0, W1, . . .) is strongly
+lumpable w.r.t. a spatial coarse-graining function f if
+for every initial distribution pW0 the resulting coarse-
+graining Zt = f(Wt) is a Markov chain, and its tran-
+sition probabilities do not depend on the choice of pW0.
+A time-homogeneous Markov chain is weakly lumpable
+if Z is Markov for at least one initial distribution pW0.
+Evidently, if a Markov chain is strongly lumpable,
+then it is also weakly lumpable. A useful information-
+theoretic characterisation of lumpability is given as fol-
+lows. Thanks to the data-processing inequality, the fol-
+lowing relationships always hold if X is Markovian:
+H(Zt|Zt−1) ≥ H(Zt| ⃗Z t−1) ≥ H(Zt| ⃗X t−1) = H(Zt|Xt−1) .
+As shown by the next lemma, strong lumpability is equiv-
+alent to the collapse of the two inequalities into an equal-
+ity, while weak lumpability is just the collapse of the first
+one.
+Lemma 4. If X is a stationary, irreducible and aperi-
+odic Markov chain and if f is a coarse-graining function
+defined on the state space X of X, then strong lumpability
+is equivalent to
+H(Zt+1|Zt) = H(Zt+1|Xt) for all t (A.20)
+where Zt = f(Xt). In contrast, weak lumpability is equiv-
+alent to
+H(Zt+1|Zt) = H(Zt+1| ⃗Z t) for all t. (A.21)
+Proof. See Ref. [108, Th. 9 & Prop. 6].
+Note that this results applies to the stationary setting,
+i.e., in the context of Definition 7, the initial distribution
+pX0 must coincide with an invariant distribution (which
+is unique in the irreducible and aperiodic case).
+This result can be understood as follows. When trying
+to estimate Zt+1 from its past, one can consider this a
+two-step process: first one estimates Xt from ⃗Z t, and
+then one estimates Zt+1 from Xt. Strong and weak
+lumpability are connected to these two steps. Indeed,
+Counterexample 4 shows that, by carefully choosing the
+initial distribution pX0, one can ensure that no matter
+the value of Zt, Zt−1, Zt−2, . . ., one always ends up with
+the same conditional distribution p(Xt| ⃗Z t). Thus, know-
+ing more of the past ⃗Z t than Zt does not help to obtain
+a better estimate of Xt. Hence, even if the conditional
+distribution of Zt+1 given Xt differs for all Xt, knowing
+more than just Zt does not allows us to make a better
+estimate of Zt+1. In contrast, in strong lumpability the
+distribution of Zt+1 is the same for all values of Xt that
+are compatible with Zt. Therefore, while knowing more
+of the past ⃗Z t than Zt may give us a better estimate of
+the current Xt, this additional knowledge cannot improve
+our estimate of Zt+1.
+
+
+=== PAGE 27 ===
+
+27
+Informationally
+closed/causally
+closed
+computationally
+closed
+Prop. 4
+(spatial)
+weakly
+lumpable
+weakly k-
+lumpable
+strongly k-
+lumpable
+Counterex. 6
+Counterex. 7
+Counterex. 4
+strongly
+lumpable
+Ex. 1
+FIG. 13. Diagram illustrating the relationships between closure and lumpability of Markov chains. Informational/causal closure
+imply computational closure (Theorem 2). Within the space of Markov X, strong lumpability of X implies information closure
+(Proposition 4). The same does not hold for weak lumpability and computational closure: If X is weakly lumpable, then the
+same does not need to hold for E due to the minimality property of ε-machines. The diagram refers to (counter)examples in
+the text. Indeed, Example 1 is strongly lumpable, while Counterexample 4 is weakly lumpable.
+Our first result shows that, if a microscopic process
+X has Markov dynamics and is strongly lumpable w.r.t.
+the coarse graining function f, then the resulting macro-
+scopic process Zt = f(Xt) is informationally closed.
+Proposition 4. Let X be a stationary, irreducible, and
+aperiodic Markov chain, and suppose that it is strongly
+lumpable w.r.t. the coarse graining function f ∈ F X .
+Then, the process Zt = f(Xt) is informationally closed.
+Further, if a coarse-graining Z is informationally closed
+and Markov, then X is strongly lumpable w.r.t. the
+coarse-graining function f.
+Proof. Using Lemma 4, a direct derivation shows that
+I(⃗Z L
+t+1; ⃗X t| ⃗Z t)
+= H(⃗Z L
+t+1| ⃗Z t) − H(⃗Z L
+t+1| ⃗X t, ⃗Z t) (A.22)
+(a)
+= H(⃗Z L
+t+1|Zt) − H(⃗Z L
+t+1|Xt) (A.23)
+(b)
+=
+t+LX
+ℓ=t+1
+
+H(Zℓ|Zℓ−1) − H(Zℓ|⃗Z ℓ−1
+t+1 , Xt)
+
+(A.24)
+(c)
+≤
+t+LX
+ℓ=t+1
+
+H(Zℓ|Zℓ−1) − H(Zℓ|Xℓ−1)
+
+(A.25)
+(d)
+= 0 . (A.26)
+Above, (a) follows because Zt = f(Xt) and because both
+X and Z are Markov; (b) from the chain rule of entropy
+and Markovianity of Z; (c) from the data processing in-
+equality, stating that Xℓ−1 contains at least as much in-
+formation about Zℓ as (Z ℓ−1
+t+1 , Xt) does; and (d) from sta-
+tionarity and Eq. (A.20).
+For the second part of the proof, note that information
+closure and Markovianity of Z imply that (A.23) holds
+for all L. Instantiating this for L = 1 yields Eq. (A.20),
+which completes the proof with [108, Th. 9].
+
+
+=== PAGE 28 ===
+
+28
+Please note that the above lemma is only valid for sta-
+tionary, irreducible, and aperiodic Markov chains. The
+reason for this is that the equivalence between strong
+lumpability and Eq. (A.20) is only guaranteed for this
+class of Markov chains [109]. Also note that if the coarse-
+graining function f does not produce a first-order, but
+a higher-order Markov chain, the connection between
+(higher-order) lumpability and informational closure can
+break down — as illustrated by our next two examples.
+Counterexample 6 (Lumpability is not implied by in-
+formation closure and high-order Markovianity) . Let’s
+consider X where Xt can take one of four possible val-
+ues, denoted as a, b, c, and d, and a coarse-graining
+Z determined by the following coarse-graining function:
+g(a) = g(b) = A and g(c) = g(d) = B. Suppose that X0
+is uniformly distributed and that we have fully determin-
+istic dynamics where a → b → c → d → a. Then, one
+can check that Z becomes a deterministic Markov pro-
+cess with memory 2 (indeed, it can be shown that X is
+strongly 2-lumpable), and its ϵ-machine is given by four
+causal states: one for all sequences that finish with AA,
+another for AB, other for BA, and the last for BB. It
+can be shown that Z is informationally closed, although
+X with f is not strongly (first-order) lumpable.
+Counterexample 7 (High-order strong lumpability
+does not imply information closure) . Let X be the
+Markov process from [108, Example 15]. Specifically, let
+the transition probability matrix of X be given as
+P =
+
+
+0.6 0 .4 0 0
+0.3 0 .2 0.1 0 .4
+0.2 0 .05 0.375 0 .375
+0.2 0 .05 0.375 0 .375
+
+
+. (A.27)
+The lines indicate that the coarse graining-function g
+merges states 1 and 2 to A and states 3 and 4 to B.
+It can be shown that the resulting coarse-graining Z,
+Zt = g(Xt) is a second-order Markov chain, and that the
+coarse-graining is strongly 2-lumpable. A coarse graining
+is strongly 2-lumpable if and only if we have [108, Th. 9]
+H(Zt+1|Zt, Xt−1) = H(Zt+1|Zt, Zt−1) ≈ 0.733. (A.28)
+Informational closure, for a Markov chain X and
+a second-order Markov chain Z, requires that
+I(⃗Z L
+t+1; ⃗X t| ⃗Z t) = 0 for every L. However,
+I(⃗Z L
+t+1; ⃗X t| ⃗Z t) ≥ I(Zt+1; ⃗X t| ⃗Z t)
+= H(Zt+1|Zt, Zt−1) − H(Zt+1|Xt). (A.29)
+A computation of the latter quantity yields H(Zt+1|Xt) ≈
+0.552, which with (A.28) leads to I(⃗Z L
+t+1; ⃗X t| ⃗Z t) ≥ 0.18,
+indicating that informational closure is ruled out.
+Additionally, it can be shown that Markovianity of the
+coarse-graining Z is in general not sufficient for informa-
+tion closure to hold [95]. Indeed, if the Markov chainX is
+only weakly (but not strongly) lumpable w.r.t. the coarse
+graining function f, then Z may be a Markov chain but
+may fail to be informationally closed, as illustrated in
+Counterexample 4 above.
+We now establish a general relationship between strong
+lumpability and information closure on the one hand,
+and weak lumpabiliy and computational closure in the
+other. We knew from Theorem 2 that information clo-
+sure is stronger than computational closure, and weak
+and strong lumpability provide a complementary angle
+to contemplate this relationship. The following result
+builds on Proposition 4 and the fact that while many pro-
+cesses X may not be Markovian, the dynamics of their
+ϵ-machines always are.
+Theorem 3. Let E be the ϵ-machine of a stationary
+process X. Then, the following statements hold true:
+1. If Z is a computationally closed coarse-graining of
+X, then E is weakly lumpable.
+2. If E is weakly lumpable w.r.t. a coarse-graining
+function f ∈ F E, then Z = f(E) is a computa-
+tionally closed coarse-graining of X.
+Now let E additionally be irreducible and aperiodic.
+Then:
+3. If Z is an informationally closed spatial coarse-
+graining of X, then E is strongly lumpable.
+4. If E is strongly lumpable w.r.t. a coarse-graining
+function f ∈ F E, then, Z = f(E) is an informa-
+tionally closed coarse-graining of X.
+Proof. We first show that Z = f(E), for an arbitrary
+spatial coarse-graining f ∈ F E, is a (potentially spatio-
+temporal) coarse-graining of X. By definition, the ϵ-
+machine E is a coarse-graining of X, i.e., there exists an
+ϵ ∈ G X such that Et = ϵ( ⃗X t). Further, since Zt = f(Et)
+for some f ∈ F E, Z is a coarse-graining of X in the sense
+that Zt = f
+ 
+ϵ( ⃗X t)
+
+.
+To prove the first statement, note that computational
+closure implies that there exists a function f ∈ F E such
+that E′ (the causal states of the ϵ-machine of Z) is given
+by E′
+t = f(Et). Since, by definition, the causal states of
+ϵ-machines have Markovian dynamics, weak lumpability
+follows from this.
+For the second statement, assume that E is weakly
+lumpable w.r.t. some coarse-graining function f ∈ F E.
+As a consequence Z, defined by Zt = f(Et), is Markov.
+The ϵ-machine of Z is therefore a spatial coarse-graining
+of Z, i.e., E′
+t = ϵ′(Zt) for some ϵ′ ∈ F Z. We hence
+have that E′
+t = ϵ′(f(Et)), with ϵ′ ◦ f ∈ F E. Hence, the
+causal states of the ϵ-machine of Z are a (spatial) coarse-
+graining of the causal states of theϵ-machine of X, which
+is the definition of computational closure.
+
+
+=== PAGE 29 ===
+
+29
+For the third statement, we make use of a fact of ϵ-
+machines, namely that the current causal state and the
+future state of the process determine the future causal
+state, i.e.,
+H(E′
+t+1|E′
+t, Zt+1) = 0. (A.30a)
+Since for informationally closed spatial coarse-grainings
+we have computational closure, i.e., that E′
+t is a function
+of Et, we have also, by the fact that conditioning reduces
+entropy,
+H(E′
+t+1|Et, Zt+1) = H(E′
+t+1|E′
+t, Et, Zt+1)
+≤ H(E′
+t+1|E′
+t, Zt+1) = 0. (A.30b)
+and
+H(Zt+1|E′
+t+1, E′
+t) − H(Zt+1|E′
+t+1, Et) =
+H(Zt+1|E′
+t+1, E′
+t) − H(Zt+1|E′
+t+1, E′
+t, Et) =
+I(Zt+1; Et|E′
+t, E′
+t+1) (A.30c)
+Now note that information closure implies that
+I(Zt+1; ⃗X t| ⃗Z t) = 0. Hence, with the definitions of ϵ-
+and υ-machines, we get:
+0 = H(Zt+1| ⃗Z t) − H(Zt+1| ⃗X t)
+= H(Zt+1|E′
+t) − H(Zt+1|Ut)
+(a)
+= H(Zt+1|E′
+t) − H(Zt+1|Et)
+(b)
+= H(Zt+1, E′
+t+1|E′
+t) − H(Zt+1, E′
+t+1|Et)
+(c)
+= H(E′
+t+1|E′
+t) − H(E′
+t+1|Et) + I(Zt+1; Et|E′
+t, E′
+t+1)
+(d)
+≥ H(E′
+t+1|E′
+t) − H(E′
+t+1|Et)
+(e)
+≥ 0 ,
+where (a) follows because for spatial coarse-grainings Ut
+is a function of Et, since thus Et must contain all in-
+formation about Zt+1 that is necessary, and since Ut
+is minimal, and where ( b) follows from adding (A.30a)
+and subtracting (A.30b), ( c) follows from applying the
+chain rule to the conditional entropies and (A.30c), ( d)
+from the non-negativity of the mutual information, and
+(e) from the fact that informational closure of spa-
+tial coarse-grainings implies computational closure, and
+hence H(E′
+t+1|Et) = H(E′
+t+1|Et, E′
+t). This derivation
+proves that H(E′
+t+1|E′
+t) = H(E′
+t+1|Et), which is the
+equivalent condition for strong lumpability [108, Th. 9].
+We finally show that Z is informationally closed in the
+sense of Definition 4 if E is irreducible, aperiodic, and
+strongly lumpable w.r.t. some f ∈ F E. In this setting,
+we have H(Zt|Et−1) = H(Zt|Zt−1) for any t. Hence, for
+every finite L,
+I(⃗Z L
+t+1; ⃗X t| ⃗Z t) (A.31)
+= H(⃗Z L
+t+1| ⃗Z t) − H(⃗Z L
+t+1| ⃗X t, ⃗Z t) (A.32)
+=
+t+LX
+ℓ=t+1
+
+H(Zℓ| ⃗Z ℓ−1) − H(Zℓ| ⃗Z ℓ−1, ⃗X t)
+
+(A.33)
+(a)
+≤
+t+LX
+ℓ=t+1
+
+H(Zℓ|Zℓ−1) − H(Zℓ| ⃗X ℓ−1)
+
+(A.34)
+(b)
+=
+t+LX
+ℓ=t+1
+
+H(Zℓ|Zℓ−1) − H(Zℓ|Eℓ−1)
+
+(A.35)
+= 0, (A.36)
+where ( a) follows because Z is Markov, because Zt =
+f(ϵ( ⃗X t)) since Et = ϵ( ⃗X t) is lumpable w.r.t. f ∈ F E,
+and from the fact that conditioning reduces entropy, and
+(b) because all information of ⃗X t relevant for the future
+of E’s coarse-graining must be contained in Et. The rest
+of the proof follows along the lines of Proposition 4.
+This result provides another view on the relation-
+ship between information/causal closure and computa-
+tional closure, which can be seen now via the relation-
+ship between strong and weak lumpability. In particular,
+this result highlights information closure as a more ‘ro-
+bust’ property. In effect, due to its relationship with
+strong lumpability, this shows that information closure
+is (mostly) a property of the transition probabilities be-
+tween causal states and not their marginal distribution.
+In contrast, computational closure — as weak lumpabil-
+ity — depends on the marginal as much as on the tran-
+sitions. This property is, hence, less robust than infor-
+mation closure, as small deviations from the stationary
+distribution may break the former but not the latter.
+Additionally, this result is also important because it
+allows us to use numerical methods that has been de-
+veloped to empirically discover lumpable partitions of
+a Markov chain. Indeed, Theorem 3 shows that those
+methods can be readily used to empower data-driven
+discovery of emergent coarse-grainings, requiring only
+mild conditions on the transitions of the corresponding
+ϵ-machines.
+The literature of practical methods for discovering
+lumpable coarse grainings is extensive. For example, an
+algorithm that constructs the coarsest lumpable coarse-
+graining of a Markov chain using binary search trees has
+been presented in Ref. [110], while an eigenvector-based
+approach is suggested by [111, 112]. Also, an algorithm
+for the certain class of successively lumpable Markov
+chains was developed in [113]. Since in many practi-
+cally relevant cases the measurements of X are noisy,
+a number of algorithms for detecting quasi-lumpable
+coarse-grainings (i.e., for which the lumpability condi-
+tion holds approximately) have also been developed. An
+algorithm based on spectral theory was developed by Ja-
+
+
+=== PAGE 30 ===
+
+30
+cobi in [114], while algorithms based on the information-
+theoretic characterization of lumpability have been pro-
+posed by [115]. To prevent these algorithmic approaches
+to terminate at trivial, e.g., i.i.d. coarse-grainings, an-
+nealing procedures have been proposed [116] [117].
+[1] M. M. Waldrop, Complexity: The emerging science at
+the edge of order and chaos. Simon and Schuster, 1993.
+[2] H. J. Jensen, Complexity science: the study of emer-
+gence. Cambridge University Press, 2022.
+[3] G. Deco, V. K. Jirsa, P. A. Robinson, M. Breakspear,
+and K. Friston, “The dynamic brain: from spiking neu-
+rons to neural masses and cortical fields,” PLoS compu-
+tational biology, vol. 4, no. 8, p. e1000092, 2008.
+[4] M. D. Fox, A. Z. Snyder, J. L. Vincent, M. Corbetta,
+D. C. Van Essen, and M. E. Raichle, “The human
+brain is intrinsically organized into dynamic, anticorre-
+lated functional networks,” Proceedings of the National
+Academy of Sciences , vol. 102, no. 27, pp. 9673–9678,
+2005.
+[5] L. Pessoa, “The entangled brain,” Journal of Cognitive
+Neuroscience, vol. 35, no. 3, pp. 349–360, 2023.
+[6] Z. C. Lipton, “The mythos of model interpretability:
+In machine learning, the concept of interpretability is
+both important and slippery.” Queue, vol. 16, no. 3, pp.
+31–57, 2018.
+[7] Y. Zhang, P. Tiˇ no, A. Leonardis, and K. Tang, “A sur-
+vey on neural network interpretability,” IEEE Trans-
+actions on Emerging Topics in Computational Intelli-
+gence, vol. 5, no. 5, pp. 726–742, 2021.
+[8] A. K. Seth, “Measuring autonomy and emergence via
+granger causality,” Artificial Life , vol. 16, no. 2, pp.
+179–196, 2010.
+[9] E. P. Hoel, L. Albantakis, and G. Tononi, “Quantifying
+causal emergence shows that macro can beat micro,”
+Proceedings of the National Academy of Sciences , vol.
+110, no. 49, pp. 19 790–19 795, 2013.
+[10] F. E. Rosas, P. A. Mediano, H. J. Jensen, A. K.
+Seth, A. B. Barrett, R. L. Carhart-Harris, and D. Bor,
+“Reconciling emergences: An information-theoretic ap-
+proach to identify causal emergence in multivariate
+data,” arXiv:2004.08220, 2020.
+[11] T. F. Varley and E. Hoel, “Emergence as the conversion
+of information: a unifying theory,” Philosophical Trans-
+actions of the Royal Society A , vol. 380, no. 2227, p.
+20210150, 2022.
+[12] L. Barnett and A. K. Seth, “Dynamical independence:
+discovering emergent macroscopic processes in complex
+dynamical systems,” Physical Review E, vol. 108, no. 1,
+p. 014304, 2023.
+[13] B. Klein and E. Hoel, “The emergence of informative
+higher scales in complex networks,” Complexity, vol.
+2020, 2020.
+[14] B. Klein, E. Hoel, A. Swain, R. Griebenow, and
+M. Levin, “Evolution and emergence: higher order in-
+formation structure in protein interactomes across the
+tree of life,” Integrative Biology, vol. 13, no. 12, pp. 283–
+294, 2021.
+[15] A. I. Luppi, P. A. Mediano, F. E. Rosas, N. Holland,
+T. D. Fryer, J. T. O’Brien, J. B. Rowe, D. K. Menon,
+D. Bor, and E. A. Stamatakis, “A synergistic core for
+human brain evolution and cognition,” Nature Neuro-
+science, vol. 25, no. 6, pp. 771–782, 2022.
+[16] A. I. Luppi, P. A. Mediano, F. E. Rosas, J. Allanson,
+J. D. Pickard, G. B. Williams, M. M. Craig, P. Finoia,
+A. R. Peattie, P. Coppola et al. , “Reduced emergent
+character of neural dynamics in patients with a dis-
+rupted connectome,” Neuroimage, vol. 269, p. 119926,
+2023.
+[17] A. M. Proca, F. E. Rosas, A. I. Luppi, D. Bor,
+M. Crosby, and P. A. Mediano, “Synergistic informa-
+tion supports modality integration and flexible learn-
+ing in neural networks solving multiple tasks,” arXiv
+preprint arXiv:2210.02996, 2022.
+[18] M. I. Sas, P. A. Mediano, F. E. Rosas, H. Leone, A. Sas,
+C. Lockwood, H. J. Jensen, and D. Bor, “Synch. live:
+Collective problem-solving through flocking motion in-
+duces higher connectedness to others,” 2024.
+[19] M. L. Minsky, Computation. Prentice-Hall Englewood
+Cliffs, 1967.
+[20] C. Shalizi, “Causal architecture,” Complexity, and Self-
+Organization in Time Series and Cellular Automata
+PhD thesis (Univ Wisconsin–Madison, Madison, WI) ,
+2001.
+[21] J. G. Kemeny and J. L. Snell, Finite Markov Chains ,
+2nd ed. Springer, 1976.
+[22] D. A. Patterson and J. L. Hennessy, “Computer orga-
+nization and design: the hardware/software interface
+(the morgan kaufmann series in computer architecture
+and design),” Paperback, Morgan Kaufmann Publishers,
+2013.
+[23] W. Bechtel and J. Mundale, “Multiple realizability re-
+visited: Linking cognitive and neural states,” Philoso-
+phy of science , vol. 66, no. 2, pp. 175–207, 1999.
+[24] T. W. Polger and L. A. Shapiro, The multiple realization
+book. Oxford University Press, 2016.
+[25] N. Bostrom, “Are we living in a computer simulation?”
+The philosophical quarterly , vol. 53, no. 211, pp. 243–
+255, 2003.
+[26] R. W. Batterman and C. C. Rice, “Minimal model ex-
+planations,” Philosophy of Science , vol. 81, no. 3, pp.
+349–376, 2014.
+[27] N. Block, “The mind as the software of the brain,” New
+york, vol. 3, pp. 377–425, 1995.
+[28] We remark that a simplistic interpretation of the
+brain/mind dichotomy in terms of a hardware/software
+distinction has most likely long outlived its useful-
+ness [118]. Nonetheless, a computational perspective
+might still usefully be applied to brains to identify emer-
+gent functional architectures.
+[29] F. J. Varela, Principles of biological autonomy . North
+Holland, 1979.
+[30] J. L. Chandler and G. Van de Vijver, “Emergent or-
+ganizations and their dynamics,” New York: New York
+Academy of Sciences, 2000.
+[31] H. H. Pattee, J. Raczaszek-Leonardi, and H. H. Pat-
+tee, “Cell psychology: an evolutionary approach to
+the symbol-matter problem,” LAWS, LANGUAGE and
+
+
+=== PAGE 31 ===
+
+31
+LIFE: Howard Pattee’s classic papers on the physics of
+symbols with contemporary commentary , pp. 165–179,
+2012.
+[32] J. P. Crutchfield, “The calculi of emergence: compu-
+tation, dynamics and induction,” Physica D: Nonlinear
+Phenomena, vol. 75, no. 1-3, pp. 11–54, 1994.
+[33] C. R. Shalizi and J. P. Crutchfield, “Computational me-
+chanics: Pattern and prediction, structure and simplic-
+ity,” Journal of Statistical Physics, vol. 104, no. 3-4, pp.
+817–879, 2001.
+[34] A. T. Rupe and J. P. Crutchfield, “On prin-
+ciples of emergent organization,” arXiv preprint
+arXiv:2311.13749, 2023.
+[35] M. Barbaresi, “Computational mechanics: from theory
+to practice,” Ph.D. dissertation, Universita di Bologna,
+2017.
+[36] J. P. Crutchfield, “The origins of computational me-
+chanics: A brief intellectual history and several clarifi-
+cations,” arXiv preprint arXiv:1710.06832 , 2017.
+[37] P. Grassberger, “Toward a quantitative theory of self-
+generated complexity,” International Journal of Theo-
+retical Physics, vol. 25, no. 9, pp. 907–938, 1986.
+[38] J. P. Crutchfield and K. Young, “Inferring statistical
+complexity,” Physical Review Letters, vol. 63, no. 2, p.
+105, 1989.
+[39] J. P. Crutchfield and D. P. Feldman, “Regularities un-
+seen, randomness observed: Levels of entropy conver-
+gence,” arXiv e-prints, pp. cond–mat, 2001.
+[40] Through the article we use uppercase letters ( X, Y ) to
+denote random variables and lowercase letters ( x, y) to
+denote their realisations.
+[41] J. Pearl, Causality. Cambridge University Press, 2009.
+[42] S. L. Bressler and A. K. Seth, “Wiener–Granger causal-
+ity: A well established methodology,” Neuroimage,
+vol. 58, no. 2, pp. 323–329, 2011.
+[43] Y. Ephraim and N. Merhav, “Hidden markov pro-
+cesses,” IEEE Transactions on information theory ,
+vol. 48, no. 6, pp. 1518–1569, 2002.
+[44] J. E. Hopcroft, R. Motwani, and J. D. Ullman, “Intro-
+duction to automata theory, languages, and computa-
+tion,” Acm Sigact News, vol. 32, no. 1, pp. 60–65, 2001.
+[45] For an introduction to automata and their interpreta-
+tion as computational systems, please see Refs. [19, 44].
+[46] This equivalence between hidden Markov models and
+discrete automatas is not general, but only holds be-
+cause the Markov dynamics of ϵ-machines have the
+so-called unifilar property: transitions between causal
+states (e.g. from Et to Et+1) are deterministic after the
+next symbol (in this case Xt+1 has been emitted.
+[47] J. Pearl and D. Mackenzie, The Book of Why: The New
+Science of Cause and Effect . Basic Books, 2018.
+[48] N. Bertschinger, E. Olbrich, N. Ay, and J. Jost, “Infor-
+mation and closure in systems theory,” in Explorations
+in the Complexity of Possible Life. Proceedings of the
+7th German Workshop of Artificial Life . IOS Press:
+Amsterdam, The Netherlands, 2006, pp. 9–21.
+[49] A. Y. Chang, M. Biehl, Y. Yu, and R. Kanai, “Infor-
+mation closure theory of consciousness,” Frontiers in
+Psychology, vol. 11, p. 1504, 2020.
+[50] To make this point precise, prediction quality is as-
+sessed in terms of expected logarithmic loss, rather than
+directly via prediction error probability. See for exam-
+ple [119] for an in-depth discussion.
+[51] More technically, a informationally-close macro-scale is
+a sufficient statistic [120] with respect to the micro-scale
+to predict its own future.
+[52] K. G. Wilson, “Problems in physics with many scales of
+length,” Scientific American, vol. 241, no. 2, pp. 158–
+179, 1979.
+[53] In such interpretation, the macroscopic level is the
+coarse-graining Z, and its ϵ-machine E′
+t is its corre-
+sponding theory.
+[54] Note that this implication holds only for macroscopic
+processes based on a spatial, but not temporal, coarse-
+grainings.
+[55] A. Wuensche and M. Lesser, Global dynamics of cel-
+lular automata: an atlas of basin of attraction fields of
+one-dimensional cellular automata. Andrew Wuensche,
+1992, vol. 1.
+[56] J. T. Lizier, M. Prokopenko, and A. Y. Zomaya, “Local
+measures of information storage in complex distributed
+computation,” Information Sciences, vol. 208, pp. 39–
+54, 2012.
+[57] N. H. Bingham, “Fluctuation theory for the ehrenfest
+urn,” Advances in Applied Probability, vol. 23, no. 3, pp.
+598–611, 1991.
+[58] R. J. Glauber, “Time-dependent statistics of the ising
+model,” Journal of mathematical physics , vol. 4, no. 2,
+pp. 294–307, 1963.
+[59] D. A. Levin and Y. Peres, Markov chains and mixing
+times. American Mathematical Soc., 2017, vol. 107.
+[60] M. Aguilera, S. A. Moosavi, and H. Shimazaki, “A uni-
+fying framework for mean-field theories of asymmetric
+kinetic ising systems,” Nature communications, vol. 12,
+no. 1, p. 1197, 2021.
+[61] Please note that one could sub-sample the temporal evo-
+lution of this process (so to account for updates of k
+spins instead of only one), and the arguments that fol-
+low still hold.
+[62] This is the case, for example, when the systems observes
+a uniform and fully-connected graph of interactionsJi,k.
+[63] A. T. Crooks and A. J. Heppenstall, “Introduction to
+agent-based modelling,” in Agent-based models of geo-
+graphical systems. Springer, 2011, pp. 85–105.
+[64] S. Banisch, Markov Chain Aggregation for Agent-Based
+Models. Cham et al.: Springer, 2016.
+[65] R. Lamarche-Perrin, S. Banisch, and E. Olbrich, “The
+information bottleneck method for optimal prediction
+of multilevel agent-based systems,” Adv. Complex Syst.,
+vol. 19, no. 01n02, p. 1650002, 2016.
+[66] B. C. Geiger, A. Jahani, H. Hussain, and D. Groen,
+“Markov aggregation for speeding up agent-based move-
+ment simulations,” in Proc. Int. Conf. on Autonomous
+Agents and Multiagent Systems (AAMAS) , London,
+United Kingdom, 2023, p. 1877–1885, open-access.
+[67] For a comprehensive review on the state of the art of
+the neuroscience of memory, see Ref. [121].
+[68] S.-I. Amari, “Learning patterns and pattern sequences
+by self-organizing nets of threshold elements,” IEEE
+Transactions on computers, vol. 100, no. 11, pp. 1197–
+1206, 1972.
+[69] W. A. Little, “The existence of persistent states in the
+brain,” Mathematical biosciences, vol. 19, no. 1-2, pp.
+101–120, 1974.
+[70] J. J. Hopfield, “Neural networks and physical systems
+with emergent collective computational abilities.” Pro-
+ceedings of the national academy of sciences , vol. 79,
+no. 8, pp. 2554–2558, 1982.
+
+
+=== PAGE 32 ===
+
+32
+[71] S. Ram´ on y Cajal, “La fine structure des centres
+nerveux. the croonian lecture,” Proc. Roy. Soc. Lond ,
+vol. 55, pp. 443–468, 1894.
+[72] D. O. Hebb, The organisation of behaviour: a neuropsy-
+chological theory. Science Editions New York, 1949.
+[73] W. Gerstner, W. M. Kistler, R. Naud, and L. Paninski,
+Neuronal dynamics: From single neurons to networks
+and models of cognition . Cambridge University Press,
+2014.
+[74] D. J. Amit, H. Gutfreund, and H. Sompolinsky, “Stor-
+ing infinite numbers of patterns in a spin-glass model
+of neural networks,” Physical Review Letters , vol. 55,
+no. 14, p. 1530, 1985.
+[75] ——, “Statistical mechanics of neural networks near sat-
+uration,” Annals of physics , vol. 173, no. 1, pp. 30–67,
+1987.
+[76] D. Marr, Vision: A computational investigation into the
+human representation and processing of visual informa-
+tion. MIT press, 2010.
+[77] F. E. Rosas, P. A. Mediano, A. I. Luppi, T. F. Varley,
+J. T. Lizier, S. Stramaglia, H. J. Jensen, and D. Mari-
+nazzo, “Disentangling high-order mechanisms and high-
+order behaviours in complex systems,” Nature Physics,
+vol. 18, no. 5, pp. 476–477, 2022.
+[78] D. P. Feldman, C. S. McTague, and J. P. Crutch-
+field, “The organization of intrinsic computation:
+Complexity-entropy diagrams and the diversity of nat-
+ural information processing,” Chaos: An Interdisci-
+plinary Journal of Nonlinear Science , vol. 18, no. 4,
+2008.
+[79] J. P. Crutchfield, W. L. Ditto, and S. Sinha, “Introduc-
+tion to focus issue: intrinsic and designed computation:
+information processing in dynamical systems—beyond
+the digital hegemony,” Chaos: An Interdisciplinary
+Journal of Nonlinear Science , vol. 20, no. 3, 2010.
+[80] A. C. Costa, T. Ahamed, D. Jordan, and G. J. Stephens,
+“Maximally predictive states: From partial observations
+to long timescales,” Chaos: An Interdisciplinary Jour-
+nal of Nonlinear Science , vol. 33, no. 2, 2023.
+[81] P. Auger, R. B. de La Parra, J.-C. Poggiale, E. S´ anchez,
+and L. Sanz, “Aggregation methods in dynamical sys-
+tems and applications in population and community dy-
+namics,” Physics of Life Reviews , vol. 5, no. 2, pp. 79–
+105, 2008.
+[82] H. A. Simon and A. Ando, “Aggregation of variables in
+dynamic systems,” Econometrica: journal of the Econo-
+metric Society, pp. 111–138, 1961.
+[83] L. B. White, R. Mahony, and G. D. Brushe, “Lumpable
+hidden markov models-model reduction and reduced
+complexity filtering,” IEEE Transactions on Automatic
+Control, vol. 45, no. 12, pp. 2297–2306, 2000.
+[84] B. Munsky and M. Khammash, “The finite state projec-
+tion algorithm for the solution of the chemical master
+equation,” The Journal of chemical physics , vol. 124,
+no. 4, 2006.
+[85] J. Garcıa and V. A. Gonz´ alez-L´ opez, “Minimal markov
+models,” arXiv preprint arXiv:1002.0729 , 2010.
+[86] D. H. Wolpert, J. A. Grochow, E. Libby, and S. DeDeo,
+“Optimal high-level descriptions of dynamical systems,”
+arXiv preprint arXiv:1409.7403 , 2014.
+[87] D. Horsman, S. Stepney, R. C. Wagner, and V. Kendon,
+“When does a physical system compute?” Proceedings
+of the Royal Society A: Mathematical, Physical and En-
+gineering Sciences, vol. 470, no. 2169, p. 20140182, 2014.
+[88] J. C. Flack, “Coarse-graining as a downward causation
+mechanism,” Philosophical Transactions of the Royal
+Society A: Mathematical, Physical and Engineering Sci-
+ences, vol. 375, no. 2109, p. 20160338, 2017.
+[89] D. Janzing, D. Balduzzi, M. Grosse-Wentrup, and
+B. Sch¨ olkopf, “Quantifying causal influences,”The An-
+nals of Statistics , vol. 41, no. 5, pp. 2324–2358, 2013.
+[90] M. Kocaoglu, A. Dimakis, S. Vishwanath, and B. Has-
+sibi, “Entropic causal inference,” in Proceedings of the
+AAAI Conference on Artificial Intelligence , vol. 31,
+no. 1, 2017.
+[91] L. Albantakis, W. Marshall, E. Hoel, and G. Tononi,
+“What caused what? a quantitative account of actual
+causation using dynamical causal networks,” Entropy,
+vol. 21, no. 5, p. 459, 2019.
+[92] R. Comolatti and E. Hoel, “Causal emergence is
+widespread across measures of causation,” arXiv
+preprint arXiv:2202.01854, 2022.
+[93] C. Finn and J. T. Lizier, “Pointwise partial informa-
+tion decompositionusing the specificity and ambiguity
+lattices,” Entropy, vol. 20, no. 4, p. 297, 2018.
+[94] M. Prokopenko and J. T. Lizier, “Transfer entropy
+and transient limits of computation,” Scientific reports,
+vol. 4, no. 1, p. 5394, 2014.
+[95] O. Pfante, N. Bertschinger, E. Olbrich, N. Ay, and
+J. Jost, “Comparison between different methods of level
+identification,” Adv. Complex Syst. , vol. 17, no. 02, p.
+1450007, 2014.
+[96] Please note that the definition of informational closure
+used in Ref. [95] only requires I(Zt+1; Xt|Zt) = 0 due to
+Markovianity of X, and is hence identical to the char-
+acterisation of strong lumpability in [108, Th. 9].
+[97] P. Tino and G. Dorffner, “Predicting the future of
+discrete sequences from fractal representations of the
+past,” Machine Learning, vol. 45, pp. 187–217, 2001.
+[98] C. Shalizi and K. L. Klinkner, “Blind construction of
+optimal nonlinear recursive predictors for discrete se-
+quences,” arXiv preprint arXiv:1408.2025 , 2014.
+[99] S. Marzen and J. P. Crutchfield, “Circumventing the
+curse of dimensionality in prediction: causal rate-
+distortion for infinite-order markov processes,” arXiv
+preprint arXiv:1412.2859, 2014.
+[100] N. Tishby, F. C. Pereira, and W. Bialek, “The
+information bottleneck method,” arXiv preprint
+physics/0004057, 2000.
+[101] A. Gu and T. Dao, “Mamba: Linear-time sequence
+modeling with selective state spaces,” arXiv preprint
+arXiv:2312.00752, 2023.
+[102] A. M. Turing et al., “On computable numbers, with an
+application to the entscheidungsproblem,” J. of Math ,
+vol. 58, no. 345-363, p. 5, 1936.
+[103] An illustrative example is the old but still ongoing de-
+bate in neuroscience of whether the brain ought to be
+conceived as a computer [122–126] or not [127–129]:
+while under some definitions the brain is clearly a com-
+puter and under others it is not, it is not entirely evident
+how any of these outcomes advances our actual under-
+standing of how the brain works.
+[104] B. McLaughlin and K. Bennett, “Supervenience,” in
+The Stanford Encyclopedia of Philosophy , E. N. Zalta,
+Ed. Metaphysics Research Lab, Stanford University,
+2021.
+[105] T. M. Cover and J. A. Thomas,Elements of Information
+Theory. John Wiley & Sons, 2012.
+
+
+=== PAGE 33 ===
+
+33
+[106] L. Gurvits and J. Ledoux, “Markov property for a func-
+tion of a Markov chain: a linear algebra approach,” Lin-
+ear Algebra Appl., vol. 404, pp. 85–117, 2005.
+[107] There are also other notions of lumpability, such as ex-
+act lumpability [130], and higher-order lumpability [106]
+(where the coarse-graining Z is a Markov chain of higher
+order).
+[108] B. C. Geiger and C. Temmel, “Lumpings of Markov
+chains, entropy rate preservation, and higher-order
+lumpability,” J. Appl. Probab., vol. 51, no. 4, pp. 1114–
+1132, Dec. 2014, extended version: arXiv:1212.4375
+[cs.IT].
+[109] In essence, strong lumpability requires an equality of
+certain probability distributions (cf. [21, Th. 6.3.2]);
+this equality of distributions is implied by the equal-
+ity H(Zt|Zt−1) = H(Zt|Xt−1) only if the conditioning
+event Xt−1 covers the whole state space X with posi-
+tive probability. This is ensured for irreducible Markov
+chains with finite X [21, Th. 4.1.4]. Whether the re-
+quirement of aperiodicity can be removed, or whether
+the requirement of stationarity can be relaxed, is cur-
+rently unclear.
+[110] S. Derisavi, H. Hermanns, and W. H. Sanders, “Opti-
+mal state-space lumping in markov chains,”Information
+Processing Letters, vol. 87, no. 6, pp. 309–315, 2003.
+[111] D. R. Barr and M. U. Thomas, “Technical note—an
+eigenvector condition for markov chain lumpability,”
+Operations Research, vol. 25, no. 6, pp. 1028–1031, 1977.
+[112] M. N. Jacobi and O. G¨ ornerup, “A dual eigenvector
+condition for strong lumpabilit of Markov chains,” 2008,
+arXiv:0710.1986.
+[113] M. N. Katehakis and L. C. Smit, “A successive lumping
+procedure for a class of Markov chains,” Probability in
+the Engineering and Information Sciences , vol. 26, pp.
+483–508, 2012.
+[114] M. N. Jacobi, “A robust spectral method for find-
+ing lumpings and meta stable states of non-reversible
+Markov chains,” 2010, arXiv:0810.1127.
+[115] B. C. Geiger, T. Petrov, G. Kubin, and H. Koeppl,
+“Optimal Kullback-Leibler aggregation via informa-
+tion bottleneck,” IEEE Trans. Automatic Control ,
+vol. 60, no. 4, pp. 1010–1022, Apr. 2015, open-access:
+arXiv:1304.6603 [cs.SY] .
+[116] R. A. Amjad, C. Bl¨ ochl, and B. C. Geiger, “A gen-
+eralized framework for Kullback-Leibler Markov ag-
+gregation,” IEEE Trans. Automatic Control , vol. 65,
+no. 7, pp. 3068–3075, Jul. 2020, open-access:
+arXiv:1709.05907 [cs.SY] .
+[117] Code for this type of approaches can
+be found at https://github.com/stegsoph/
+Constrained-Markov-Clustering.
+[118] M. Cobb, The Idea of the Brain: The Past and Future
+of Neuroscience. Basic Books, 2020.
+[119] M. Bondaschi and M. Gastpar, “Alpha-NML universal
+predictors,” in 2022 IEEE International Symposium on
+Information Theory (ISIT). IEEE, 2022, pp. 468–473.
+[120] G. Casella and R. L. Berger, Statistical inference. Cen-
+gage Learning, 2021.
+[121] E. R. Kandel, Y. Dudai, and M. R. Mayford, “The
+molecular and systems biology of memory,” Cell, vol.
+157, no. 1, pp. 163–186, 2014.
+[122] J. A. Fodor, The Language of Thought . Harvard Uni-
+versity Press, 1975, vol. 5.
+[123] Z. Pylyshyn and W. Turnbiull, “Computation and cog-
+nition: Toward a foundation for cognitive science,”
+Canadian Psychology, vol. 27, no. 1, pp. 85–87, 1986.
+[124] M. Rescorla, “From Ockham to Turing – and back
+again,” in Philosophical Explorations of the Legacy of
+Alan Turing. Springer, 2017, pp. 279–304.
+[125] M. Milkowski, Explaining the Computational Mind .
+MIT Press, 2013.
+[126] B. A. Richards and T. P. Lillicrap, “The brain-computer
+metaphor debate is useless: A matter of semantics,”
+Frontiers in Computer Science , vol. 4, p. 810358, 2022.
+[127] T. Van Gelder, “What might cognition be, if not com-
+putation?” The Journal of Philosophy , vol. 92, no. 7,
+pp. 345–381, 1995.
+[128] ——, “The dynamical hypothesis in cognitive science,”
+Behavioral and Brain Sciences , vol. 21, no. 5, pp. 615–
+628, 1998.
+[129] L. B. Smith, “Cognition as a dynamic system: Princi-
+ples from embodiment,” Developmental Review, vol. 25,
+no. 3-4, pp. 278–298, 2005.
+[130] P. Buchholz, “Exact and ordinary lumpability in finite
+markov chains,” Journal of Applied Probability, vol. 31,
+no. 1, p. 59–75, 1994.
