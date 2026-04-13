@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  13 APR 2026 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  13 APR 2026 14:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -825,7 +825,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
-Underfull \hbox (badness 6236) in paragraph at lines 1710--1714
+Underfull \hbox (badness 6236) in paragraph at lines 1711--1715
 []\T1/lmr/m/n/10.03749 Diagnostics: pre-dic-tive gain from within-class micro-f
 ea-tures, within-class
  []
@@ -846,7 +846,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
-Underfull \hbox (badness 1097) in paragraph at lines 1997--2007
+Underfull \hbox (badness 1097) in paragraph at lines 1995--2005
 []\T1/lmr/m/n/10.03749 This reply also han-dles the fat-handedness worry that m
 acro-interventions
  []
@@ -877,7 +877,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
-Underfull \hbox (badness 1533) in paragraph at lines 117--119
+Underfull \hbox (badness 1533) in paragraph at lines 112--114
 []\T1/lmr/m/n/10.03749 Millhouse T (2022) Really real pat-terns. Aus-tralasian 
 Jour-nal of Phi-los-o-phy
  []
@@ -886,7 +886,7 @@ Jour-nal of Phi-los-o-phy
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [42]
-Underfull \hbox (badness 5637) in paragraph at lines 179--181
+Underfull \hbox (badness 5637) in paragraph at lines 174--176
 []\T1/lmr/m/n/10.03749 Woodward J (2015) Method-ol-ogy, ontol-ogy, and inter-ve
 n-tion-ism. Syn-these
  []
@@ -905,10 +905,10 @@ has not changed.
 (rerunfilecheck)             Checksum: B275AEB04C008677591C7617BC5CD925;11654.
  ) 
 Here is how much of TeX's memory you used:
- 12801 strings out of 474486
- 202792 string characters out of 5738073
+ 12797 strings out of 474486
+ 202695 string characters out of 5738073
  1937542 words of memory out of 5000000
- 34678 multiletter control sequences out of 15000+600000
+ 34675 multiletter control sequences out of 15000+600000
  644359 words of font info for 99 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
  90i,8n,93p,1578b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -932,10 +932,10 @@ C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/lm/
 lmri10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type
 1/public/lm/lmsy10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/instal
 l/fonts/type1/public/lm/lmsy7.pfb>
-Output written on real-patterns-need-closure-SYNTHESE-sn.pdf (43 pages, 561447 
+Output written on real-patterns-need-closure-SYNTHESE-sn.pdf (43 pages, 560169 
 bytes).
 PDF statistics:
- 849 PDF objects out of 1000 (max. 8388607)
- 174 named destinations out of 1000 (max. 500000)
+ 845 PDF objects out of 1000 (max. 8388607)
+ 173 named destinations out of 1000 (max. 500000)
  369 words of extra memory for PDF output out of 10000 (max. 10000000)
 
