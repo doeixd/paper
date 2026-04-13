@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  13 APR 2026 08:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  13 APR 2026 08:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -757,12 +757,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [6]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7{C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/lm
-/lm-mathit.enc}{C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/
-enc/dvips/lm/lm-rm.enc}]
+ [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
+ [8{C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/lm
+/lm-mathit.enc}{C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/
+enc/dvips/lm/lm-rm.enc}]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
@@ -774,24 +774,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12{C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/l
-m/lm-mathsy.enc}]
+ [12]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+ [13{C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/l
+m/lm-mathsy.enc}]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15{C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/l
-m/lm-mathex.enc}]
+ [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+ [17{C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/l
+m/lm-mathex.enc}]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
@@ -813,7 +813,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-Underfull \hbox (badness 6236) in paragraph at lines 1500--1504
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \hbox (badness 6236) in paragraph at lines 1610--1614
 []\T1/lmr/m/n/10.03749 Diagnostics: pre-dic-tive gain from within-class micro-f
 ea-tures, within-class
  []
@@ -821,22 +827,10 @@ ea-tures, within-class
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [27]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28]
-Underfull \hbox (badness 1097) in paragraph at lines 1766--1776
-[]\T1/lmr/m/n/10.03749 This reply also han-dles the fat-handedness worry that m
-acro-interventions
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
@@ -846,6 +840,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
+Underfull \hbox (badness 1097) in paragraph at lines 1886--1896
+[]\T1/lmr/m/n/10.03749 This reply also han-dles the fat-handedness worry that m
+acro-interventions
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
@@ -854,14 +854,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34])
-(real-patterns-need-closure-SYNTHESE-sn.bbl
+ [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [36]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [37])
+(real-patterns-need-closure-SYNTHESE-sn.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
 Underfull \hbox (badness 1533) in paragraph at lines 117--119
 []\T1/lmr/m/n/10.03749 Millhouse T (2022) Really real pat-terns. Aus-tralasian 
 Jour-nal of Phi-los-o-phy
@@ -870,7 +879,7 @@ Jour-nal of Phi-los-o-phy
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
+ [40]
 Underfull \hbox (badness 5637) in paragraph at lines 175--177
 []\T1/lmr/m/n/10.03749 Woodward J (2015) Method-ol-ogy, ontol-ogy, and inter-ve
 n-tion-ism. Syn-these
@@ -879,7 +888,7 @@ n-tion-ism. Syn-these
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+ [41]
 (real-patterns-need-closure-SYNTHESE-sn.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -887,16 +896,16 @@ L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `real-patterns-need-closure-SYNTHESE-sn.out' 
 has not changed.
-(rerunfilecheck)             Checksum: D3FF147F4F5B492F89504AC4E9CFE4CD;11666.
+(rerunfilecheck)             Checksum: F166BCA65CFD3E70CBB54198CFACEBB1;11967.
  ) 
 Here is how much of TeX's memory you used:
- 12802 strings out of 474486
- 202768 string characters out of 5738073
- 1938542 words of memory out of 5000000
- 34677 multiletter control sequences out of 15000+600000
+ 12808 strings out of 474486
+ 202868 string characters out of 5738073
+ 1937542 words of memory out of 5000000
+ 34679 multiletter control sequences out of 15000+600000
  644359 words of font info for 99 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,8n,93p,1578b,649s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,8n,93p,1578b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/
 lm/lmbx10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/t
 ype1/public/lm/lmbx12.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/ins
@@ -917,10 +926,10 @@ C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/lm/
 lmri10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type
 1/public/lm/lmsy10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/instal
 l/fonts/type1/public/lm/lmsy7.pfb>
-Output written on real-patterns-need-closure-SYNTHESE-sn.pdf (38 pages, 536164 
+Output written on real-patterns-need-closure-SYNTHESE-sn.pdf (41 pages, 548413 
 bytes).
 PDF statistics:
- 793 PDF objects out of 1000 (max. 8388607)
- 176 named destinations out of 1000 (max. 500000)
- 377 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 825 PDF objects out of 1000 (max. 8388607)
+ 180 named destinations out of 1000 (max. 500000)
+ 385 words of extra memory for PDF output out of 10000 (max. 10000000)
 
