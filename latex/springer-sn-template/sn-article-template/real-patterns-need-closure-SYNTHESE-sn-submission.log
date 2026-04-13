@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  13 APR 2026 09:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  13 APR 2026 09:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -822,15 +822,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
-Underfull \hbox (badness 6236) in paragraph at lines 1684--1688
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \hbox (badness 6236) in paragraph at lines 1728--1732
 []\T1/lmr/m/n/10.03749 Diagnostics: pre-dic-tive gain from within-class micro-f
 ea-tures, within-class
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
@@ -840,15 +840,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-Underfull \hbox (badness 1097) in paragraph at lines 1964--1974
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Underfull \hbox (badness 1097) in paragraph at lines 2008--2018
 []\T1/lmr/m/n/10.03749 This reply also han-dles the fat-handedness worry that m
 acro-interventions
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
@@ -904,11 +904,11 @@ ssion.out' has not changed.
 Here is how much of TeX's memory you used:
  12801 strings out of 474486
  202753 string characters out of 5738073
- 1938542 words of memory out of 5000000
+ 1937542 words of memory out of 5000000
  34676 multiletter control sequences out of 15000+600000
  644359 words of font info for 99 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,8n,93p,1589b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,8n,93p,1589b,639s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/
 lm/lmbx10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/t
 ype1/public/lm/lmbx12.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/ins
@@ -930,9 +930,9 @@ lmri10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type
 1/public/lm/lmsy10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/instal
 l/fonts/type1/public/lm/lmsy7.pfb>
 Output written on real-patterns-need-closure-SYNTHESE-sn-submission.pdf (42 pag
-es, 557158 bytes).
+es, 558021 bytes).
 PDF statistics:
- 865 PDF objects out of 1000 (max. 8388607)
+ 861 PDF objects out of 1000 (max. 8388607)
  181 named destinations out of 1000 (max. 500000)
  385 words of extra memory for PDF output out of 10000 (max. 10000000)
 
