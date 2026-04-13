@@ -364,6 +364,8 @@ Rorty, Richard. 1980. *Philosophy and the Mirror of Nature*. Princeton, NJ: Prin
 
 Rorty, Richard. 1989. *Contingency, Irony, and Solidarity*. Cambridge: Cambridge University Press. ISBN 978-0521367813.
 
+Ross, Don. 1995. "Real Patterns and the Ontological Foundations of Microeconomics." *Economics and Philosophy* 11(1): 113-136. https://doi.org/10.1017/S0266267100003242.
+
 Rosas, Fernando E., Bernhard C. Geiger, Andrea I. Luppi, Anil K. Seth, Daniel Polani, Michael Gastpar, and Pedro A. M. Mediano. 2024. "Software in the natural world: A computational approach to hierarchical emergence" arXiv preprint arXiv:2402.09090.
 
 Rosenstock, Sarita, Cailin O'Connor, and Justin Bruner. 2017. "In Epistemic Networks, Is Less Really More?" *Philosophy of Science* 84(2): 234–52. https://doi.org/10.1086/690717.

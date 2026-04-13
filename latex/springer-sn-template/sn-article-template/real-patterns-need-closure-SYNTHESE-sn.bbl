@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -138,6 +138,10 @@ Rosas FE, Geiger BC, Luppi AI, Seth AK, Polani D, Gastpar M, Mediano PAM (2024)
   emergence. arXiv preprint arXiv:2402.09090.
 \newblock \doi{10.48550/arXiv.2402.09090},
   \urlprefix\url{https://arxiv.org/abs/2402.09090}
+
+\bibitem[{Ross(1995)}]{ross1995}
+Ross D (1995) Real patterns and the ontological foundations of microeconomics.
+  Economics and Philosophy 11(1):113--136. \doi{10.1017/S0266267100003242}
 
 \bibitem[{Shalizi and Crutchfield(2001)}]{shalizi2001}
 Shalizi CR, Crutchfield JP (2001) Computational mechanics: Pattern and
