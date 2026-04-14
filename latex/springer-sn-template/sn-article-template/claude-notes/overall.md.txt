@@ -1,0 +1,446 @@
+# Paper Revision Summary: From "Real Patterns Need Closure" to Rainforest Realism Framing
+
+Working companion note:
+
+- `2026-04-13-rainforest-reframing-status-plan.md` tracks what from this plan has already been implemented, what is only partly done, and what still needs writing or review.
+
+**Source Chats:**
+- https://claude.ai/chat/d645b098-2682-4bba-a9fa-70801295dded (original reframing + before/after suggestions)
+- https://claude.ai/chat/f86d0b13-71fd-4ae5-8f92-189ae0520336 (OSR engagement, Franklin & Robertson, section-by-section edit plan, recent literature)
+- https://claude.ai/chat/3e2d52b9-9460-4f87-932e-6a3a003abd35 (peer review, anti-instrumentalism defense, structural realism argument)
+
+Also relevant:
+- https://claude.ai/chat/1d98506d-f433-4876-b515-34b66f8fdf05 (platonism breadcrumb discussion)
+- https://claude.ai/chat/9624f0d6-fa06-4eeb-91da-73edc3e1ecbc (review of revisions to Synthese version)
+- https://claude.ai/chat/0ca60f60-a084-4f3f-ae0a-15c78c724c8a (early OSR exploration)
+- https://claude.ai/chat/507b8dd7-d7e6-4106-9cbf-73e7802292ec (lumpability = real patterns, platonism as substrate independence)
+
+---
+
+## Claude Notes Quick Index
+
+These files in `claude-notes/` are worth treating as functionally distinct notes rather than one undifferentiated archive.
+
+- `2026-04-13-rainforest-reframing-status-plan.md`
+  Current status tracker. Separates what has already been implemented in the rainforest reframing from what is only partly done, still missing, or still in need of review.
+- `Claude-When do things begin to exist!.md`
+  Main March 2026 development chat for the current reframing. This is the key source for the rainforest-admission repositioning, the Franklin and Robertson engagement, the section-by-section edit plan, and the recent-literature list.
+- `Claude-Closure and real patterns in naturalized metaphysics.md`
+  External-style assessment of the paper's strengths and pressure points. Most useful for reviewer-facing diagnosis, especially on novelty, instrumentalism risk, and where the argument needs more explicit defense.
+- `Claude-Seeking perspective.md`
+  Review of the Synthese submission draft after earlier revisions. Useful as a high-level "what works / what still invites pushback" note, especially on admissibility, regime-individuation worries, and multiple realizability.
+- `Claude-Pragmatist epistemology and predictive power.md`
+  Early conceptual note on predictive success, pragmatist ontology, and the danger of collapsing usefulness into reality. Helpful background for explaining why mere predictive utility is too weak and why closure needs a stronger standard.
+- `Claude-Real patterns as lumpable, substrate-independent things.md`
+  Development note on closure, lumpability, substrate independence, and the possible link to mathematical or platonic structures. Most relevant for the lattice payoff, substrate-independence framing, and future work on abstracta.
+- `Claude-Closure, substrate independence, and platonism.md`
+  Short focused follow-up on the platonism breadcrumb. Useful if the conclusion eventually adds a one-sentence gesture toward naturalized or regime-indexed substrate independence, but best treated as optional because it opens a new debate.
+
+Practical use:
+
+- For the actual revision roadmap, use `overall.md.txt` together with `2026-04-13-rainforest-reframing-status-plan.md`.
+- For reconstructing why the reframing took its present form, use `Claude-When do things begin to exist!.md`.
+- For pressure-testing the paper against reviewer objections, use `Claude-Closure and real patterns in naturalized metaphysics.md` and `Claude-Seeking perspective.md`.
+- For optional future extensions on substrate independence or platonism, use the two platonism-related notes, but keep them secondary to the current admission-criterion argument.
+
+---
+
+## Source Status for This Revision
+
+This section tracks the recent-literature sources named in the plan, where they are stored locally, whether we have searchable text, and what cautions should govern their use.
+
+### Where the source files live
+
+- PDFs, DOCX files, and other primary source files are in `sources/`.
+- Searchable conversions are in `sources/text-converted/`.
+- Earlier source summaries for some already-cited works are in `sources/detailed-source-summaries/`.
+- The manuscript bibliography for the Synthese track is `latex/springer-sn-template/sn-article-template/real-patterns-need-closure-SYNTHESE.bib`.
+
+### Sources we currently have locally, with searchable text
+
+- **Franklin and Robertson (2024), "Emerging into the Rainforest"**
+  - PDF: `sources/Franklin-Robertson-2024-Emerging-into-the-rainforest-preprint.pdf`
+  - Text: `sources/text-converted/Franklin-Robertson-2024-Emerging-into-the-rainforest-preprint.txt`
+  - Status: good local coverage, with page-marked converted text suitable for careful citation checking.
+
+- **Ladyman and Lorenzetti (2024), "Effective Ontic Structural Realism"**
+  - PDF: `sources/Ladyman-Lorenzetti-Effective-Ontic-Structural-Realism-preprint.pdf`
+  - Text: `sources/text-converted/Ladyman-Lorenzetti-Effective-Ontic-Structural-Realism-preprint.txt`
+  - Status: good local coverage, with searchable text.
+
+- **Rosas et al. (2024), "Software in the Natural World"**
+  - PDF: `sources/Rosas-et-al-2024-Software-in-the-natural-world.pdf`
+  - Text: `sources/text-converted/Rosas-et-al-2024-Software-in-the-natural-world.txt`
+  - Additional summary: `sources/detailed-source-summaries/18-rosas2024.md`
+  - Status: strong local coverage and already integrated into prior work.
+
+- **Andersen (2025), "The Density of Structure"**
+  - PDF: `sources/Andersen-2025-The-density-of-structure-preprint.pdf`
+  - Text: `sources/text-converted/Andersen-2025-The-density-of-structure-preprint.txt`
+  - Status: local PDF plus searchable text available.
+
+- **Jiang (2024), "The Metaphysics of Mechanisms: An Ontic Structural Realist Perspective"**
+  - PDF: `sources/Jiang-2024-The-metaphysics-of-mechanisms.pdf`
+  - Text: `sources/text-converted/Jiang-2024-The-metaphysics-of-mechanisms.txt`
+  - Status: local PDF plus searchable text available.
+
+- **Jiang (2025), "Biological Object as Real Patterns"**
+  - Source file: `sources/Jiang-2025-Biological-object-as-real-patterns-preprint.docx`
+  - Text: `sources/text-converted/Jiang-2025-Biological-object-as-real-patterns-preprint.txt`
+  - Status: text available, but the source is a DOCX conversion rather than a paginated PDF.
+  - Caution: use this for conceptual engagement, but do not pretend to have stable page-number support where the source format does not preserve it.
+
+- **Wallace (2024), "Real Patterns in Physics and Beyond"**
+  - PDF: `sources/Wallace-2024-Real-patterns-in-physics-and-beyond.pdf`
+  - Text: `sources/text-converted/Wallace-2024-Real-patterns-in-physics-and-beyond.txt`
+  - Status: local preprint with searchable text.
+
+- **Ladyman, "Patterns All the Way Up"**
+  - PDF: `sources/Ladyman-2024-Patterns-all-the-way-up.pdf`
+  - Text: `sources/text-converted/Ladyman-2024-Patterns-all-the-way-up.txt`
+  - Status: local preprint text available.
+  - Bibliography note: the `.bib` now records the final chapter as `ladyman2026`, with a note that the preprint circulated earlier. When quoting or engaging, be clear whether the claim is drawn from the local preprint or from final book metadata.
+
+- **Millhouse (2022), "Really Real Patterns"**
+  - PDFs: `sources/Really Real Patterns Millhouse 2021.pdf` and `sources/Really Real Patterns Tyler Millhouse.pdf`
+  - Text: `sources/text-converted/Really Real Patterns Millhouse 2021.txt` and `sources/text-converted/Really Real Patterns Tyler Millhouse.txt`
+  - Additional per-page conversion: `sources/text-converted/Really Real Patterns Tyler Millhouse/`
+  - Additional summary: `sources/detailed-source-summaries/27-millhouse2021.md`
+  - Status: local text coverage is strong, but filenames reflect earlier download naming rather than final publication year. Use the bibliography metadata, not the filename, when citing.
+
+### Sources we have bibliographic metadata for, but not full local text as a book file
+
+- **Millhouse, Petersen, and Ross, eds. (2026), _Dennett's Real Patterns in Science and Nature_**
+  - Bib entry present as `millhouseetal2026` in `real-patterns-need-closure-SYNTHESE.bib`
+  - Metadata includes ISBN and DOI.
+  - Current local status: no full edited-volume PDF or book text appears to be stored in `sources/`.
+  - Practical consequence: we can accurately cite the volume bibliographically, but claims about the volume's substantive content should be tied to specific locally held chapters or independently verified descriptions, not to an assumed reading of the whole book.
+
+### Missing or only partly available sources, relative to the plan
+
+- The main substantive gap is the **full edited volume** `Dennett's Real Patterns in Science and Nature`.
+- We do appear to have the **Ladyman chapter preprint**, which covers one planned engagement point, but not the volume as a complete local text.
+- Everything else in the "must-cite" and "should-cite" cluster listed in this plan now has at least one local source file plus searchable text, with the one pagination limitation noted for the Jiang 2025 DOCX.
+
+### Accuracy and engagement guardrails
+
+As we continue following this plan, keep the source discipline explicit:
+
+- **Franklin and Robertson**
+  - Do not overstate what their criterion has already been shown to admit.
+  - If we claim that the common-cause proxy satisfies their conditions, the paper must explicitly reconstruct their conditions on their own terms and show the result step by step.
+  - Until then, safer formulations like "can appear to satisfy" or "can survive passive observational screening" are more defensible.
+
+- **Ladyman and Lorenzetti**
+  - Treat closure as supplying operational discipline or a sharper diagnostic for effective realism, not as something their paper straightforwardly already contains unless the textual support is explicit.
+
+- **Rosas et al.**
+  - Keep the division of labor clear: they provide formal and computational architecture; this paper is adding philosophical interpretation about what closure means for ontology and admission.
+  - Do not credit them with claims about rainforest admission unless the source actually makes them.
+
+- **Andersen**
+  - Use the paper for the density-of-structure point, especially against a sparse-levels assumption.
+  - Do not inflate it into a general endorsement of every pluralist conclusion unless the manuscript makes the connection explicit.
+
+- **Jiang**
+  - Use the Jiang papers as evidence that these debates are live across mechanisms and biology.
+  - Be careful not to flatten the distinction between utility, explanatory organization, and the stronger transition-autonomy criterion defended here.
+
+- **Wallace**
+  - If we connect his framework to closure, present that as a philosophical alignment or extension unless the commuting-map connection is textually demonstrated with care.
+
+- **Ladyman chapter / MIT volume**
+  - Distinguish between what we know from the local chapter preprint and what we know only from final volume metadata.
+  - Avoid implying we have read the full book unless we actually obtain it.
+
+- **Millhouse**
+  - Use the actual article text and bibliography metadata, not the inconsistent local filenames, to avoid year confusion.
+
+### Working rule for future revisions
+
+Any new argumentative use of these sources should satisfy three conditions:
+
+1. We have the relevant text locally, or we clearly mark the claim as bibliographic rather than textual.
+2. We distinguish between direct textual support, reasonable inference, and our own extension.
+3. We do not let the revised paper sound more certain about another author's commitments than the source itself warrants.
+
+This matters especially because the current plan now leans heavily on live interlocutors rather than just on broad background literature.
+
+---
+
+## 1. THE CORE REPOSITIONING
+
+**From:** "Dennett's compression is too permissive → closure fixes it"
+
+**To:** "Rainforest Realism lacks a formal admittance criterion → closure provides it, building on and going beyond Franklin & Robertson's screening-off condition"
+
+**Narrative arc:** Dennett gave us real patterns → Ladyman & Ross gave us the rainforest → Franklin & Robertson (2024) gave us the best current admittance criterion (screening-off + novelty) → screening-off is necessary but insufficient because parasitic macro-variables satisfy it → closure fills the remaining gap.
+
+**Key principle:** The paper is *completing* the rainforest, not competing with it. Position closure as independently motivated from dynamical considerations that *happens to* fill a gap, rather than designed to serve it.
+
+---
+
+## 2. WHAT CLOSURE FORMALIZES IN LADYMAN & ROSS
+
+| Ladyman & Ross Say | You Formalize As |
+|---|---|
+| "Real patterns make a difference" | Patterns achieving Causal Closure (ε-machine = υ-machine) |
+| "The rainforest is structured" | The lattice of computationally closed coarse-grainings |
+| "Patterns are projectible" | Closure robust across intervention classes |
+| "Not all patterns are equal" | Patterns vary along measurable axes (leakage, invariance) |
+| "Fundamentality is not privileged" | All levels achieving closure are equally causally autonomous |
+
+---
+
+## 3. THREE PHILOSOPHICAL TENSIONS TO ADDRESS
+
+### 3a. The Causation Problem
+Ladyman & Ross are broadly Russellian about causation (skeptical it's fundamental). Your framework is thoroughly Woodwardian/interventionist. **Resolution:** Intervention isn't metaphysically fundamental in the paper — it's a *diagnostic probe* for structural autonomy. The structure is what's real (consistent with OSR). The intervention tests whether it's genuinely autonomous. Cite Ladyman & Lorenzetti (2023) on effective OSR as compatible with this move. **Needs its own subsection.**
+
+### 3b. The Primacy of Physics Constraint (PPC)
+Ladyman & Ross already have a filter: the PPC says patterns must be compatible with physics and non-redundant. Closure *operationalizes* the PPC's vague second clause ("can't be captured at a lower level") by specifying dynamically what that means — transition autonomy such that micro-details become irrelevant. The §3.3 common-cause example is essential: a macro-variable can be PPC-compliant, projectible, and still parasitic. **Needs its own subsection.**
+
+### 3c. Projectibility Is Necessary but Insufficient
+Ladyman & Ross treat projectibility as central. You agree but show a projectible pattern can still be parasitic (tracking a common cause). Closure separates genuinely autonomous patterns from projectibly parasitic ones. This should be a key dialectical moment in the paper.
+
+---
+
+## 4. FRANKLIN & ROBERTSON AS PRIMARY INTERLOCUTOR
+
+**Paper:** "Emerging into the Rainforest" (*European Journal for Philosophy of Science*, December 2024)
+
+**Their criterion:** Screening-off + novelty. Two parts: conditional irrelevance (macro screens off micro-details) and unconditional relevance (macro genuinely matters for outcome). Built around *nomic macrodependencies* — law-like regularities at the macro level.
+
+**Your criterion:** Transition autonomy under admissible intervention. Built around *transitions under perturbation*. That's a stronger demand.
+
+**The wedge case:** §3.3 common-cause example. A variable tracking a common cause can satisfy Franklin & Robertson's conditions — it enters into robust, novel macrodependencies, it screens off micro-details. But it fails closure under intervention because the apparent autonomy was borrowed from upstream structure. The screening-off was real but parasitic.
+
+**Tone:** Be generous, not adversarial. Their screening-off is genuinely good — it catches trout-turkeys and gerrymandered composites. The disagreement is narrow and constructive.
+
+**Staged admittance protocol:** Dennett's compression identifies candidates → Franklin & Robertson's screening off filters gerrymanders → closure determines which survivors carry genuinely autonomous transition structure. Each step is cumulative, not competing.
+
+---
+
+## 5. THE LATTICE AS CENTRAL NOVEL CLAIM
+
+Nobody has previously said: "The structure of Rainforest Realism is precisely the lattice of computationally closed coarse-grainings."
+
+**Three metaphysical implications:**
+
+1. **Levels aren't metaphors.** They're mathematically discoverable features of dynamical systems. Different investigators analyzing the same system converge on the same lattice because it's determined by dynamics, not representational choices.
+
+2. **How levels relate.** Higher levels are coarse-grainings of lower levels. Each level's ε-machine is derivable from the one below. This is *nesting*, not elimination. Each level runs its own autonomous computation while being systematically related to adjacent levels.
+
+3. **Undermines nihilism's "ground floor" assumption.** The lattice is flat with respect to causal autonomy even though hierarchical with respect to coarse-graining. The micro-level is the implementation layer, but that doesn't make it "more real."
+
+**Graded verdicts map naturally onto lattice ontology.** Robust, qualified, indeterminate map more naturally onto a lattice than onto Dennettian "is the pattern real or not" binary. In a rainforest, you'd expect fuzzy boundaries. Your graded structure *is* that fuzziness made disciplined.
+
+---
+
+## 6. THE ANTI-INSTRUMENTALISM DEFENSE (currently missing from paper)
+
+The objection "leakiness is just predictive error, not ontology" smuggles in the assumption that there's a deeper layer of Real Stuff that prediction merely tracks. But on structural realism:
+
+- Predictive/causal relationships *are* the kind of thing reality is made of
+- There's no intelligible gap between "tracks causal structure" and "is real"
+- That gap only appears if you assume a God's-eye layer, which is exactly what structural realism denies
+- Leakiness measures how much autonomous causal structure a partition actually has
+- A high-leak partition isn't one where we fail to see the real object — it's one where the candidate genuinely lacks transition autonomy
+- The prediction miss *is* the structural fact
+
+**This should strengthen §9.1 / the instrumentalism objection response. It's the strongest anti-instrumentalism move available to the paper.**
+
+---
+
+## 7. THE PLATONISM BREADCRUMB (strategic decision: keep implicit)
+
+Closure implies something larger: when achieved, you've found a structure whose identity is exhausted by its relational/transition properties, substrate-independent in exactly the way platonic objects are — except earned from physics rather than posited independently. Mathematical constructs like chess and numbers are *fully* computationally closed (their future depends only on same-level information). This explains "the platonic realm" — they're substrate-independent patterns that can be instantiated in reality.
+
+**Strategic choice:** Leave implicit, like Dennett's original paper (nominally about Conway's Life, but everyone saw bigger implications). If stated explicitly, reviewers would spend energy on platonism debates rather than evaluating the closure criterion. Consider a single sentence in the conclusion gesturing toward it as future work.
+
+---
+
+## 8. RECENT LITERATURE TO ENGAGE
+
+### Must-cite:
+- **Franklin & Robertson (2024)** — "Emerging into the Rainforest," *EJPS*. Primary interlocutor.
+- **Ladyman & Lorenzetti (2023/2024)** — "Effective Ontic Structural Realism," *BJPS*. Gives official Ladyman-endorsed language for regime-dependent, scale-relative ontology. Closure operationalizes their effective realism.
+- **Rosas et al. (2024)** — "Software in the Natural World." Formal lattice machinery. Position as: they provide the architecture, you provide the philosophical interpretation of what lattice membership means for ontology.
+- **Millhouse, Petersen & Ross, eds. (2025)** — *Dennett's Real Patterns in Science and Nature*, MIT Press. First book dedicated to real patterns.
+- **Ladyman, "Patterns All The Way Up" (2025)** — Chapter in above volume. Extends real patterns in the dynamic/structural direction closure also targets. Engage directly: does his phase-space formulation already capture what closure adds?
+
+### Should-cite:
+- **Millhouse (2022)** — "Really Real Patterns," *Australasian Journal of Philosophy*. Middle ground between Dennett and closure. Tightens interpretive constraints but doesn't require transition autonomy. Closure is the next step beyond Millhouse.
+- **Andersen (2025)** — "The Density of Structure," *Synthese*. Structure can be dense, not sparse. Multiple closed partitions at multiple scales isn't embarrassment — it's expected. Bolsters your pluralism response in §5.3.
+- **Jiang (2024, 2025)** — "Biological Object as Real Patterns" and "Metaphysics of Mechanisms: An OSR Perspective," both *Synthese*. Shows demand for this work across domains. Jiang's framework remains at "utility" level — illustrates why closure is needed beyond "useful for generalization."
+- **Wallace (2024/2025)** — "Real Patterns in Physics and Beyond." Higher-level entities are patterns in distributions/dynamics, not collections of parts. His "commuting map" framework connects to closure: closure determines when such a commuting map genuinely exists vs. artifact of in-sample fit.
+
+---
+
+## 9. SECTION-BY-SECTION EDIT PLAN
+
+### §1 Introduction — Major Restructure
+- Cut from ~5 pages motivating Dennett's permissiveness to ~2 pages
+- **Page 1:** Open with the admittance problem directly. Credit Ross (2000), Ladyman & Ross (2007). Name Franklin & Robertson (2024) as most developed answer.
+- **Page 2:** State screening-off is necessary but insufficient. Give parasitic-variable intuition immediately. State thesis: closure fills the gap. Keep hurricane vs. shoe-moon example.
+- **Page 3:** The staged admittance pipeline (compression → screening off → closure). This is the narrative spine — make it visible early.
+- Dennett moves from primary target to historical origin. Compress steelman Dennett engagement to one paragraph.
+
+### §1.1 Novelty — Rewrite
+Three-part novelty claim, repositioned:
+1. Beyond screening off (Franklin & Robertson's criterion retained as necessary, closure adds interventionist transition test)
+2. Beyond formal closure results alone (Rosas et al. provide diagnostics, this paper supplies the philosophical ontological layer)
+3. Beyond effective realism without downgrade conditions (Ladyman & Lorenzetti give regime-relative ontology, closure adds downgrade discipline)
+
+### NEW §1.5 — The Causation Tension
+Why interventionist criterion is appropriate for a framework whose architects distrust causation. Argument: intervention is diagnostic for structure, not metaphysical primitive.
+
+### §2 — Moderate Edits
+- §2.6 "Pattern Reality vs. Macro-Objecthood" — add sentence connecting to Franklin & Robertson explicitly
+- §2.10 "Why Closure Carries Ontological Weight" — some content migrates to new §1.5; what remains should cite Ladyman & Lorenzetti (2023)
+
+### §3 Exact Benchmark — Minimal Edits
+- §3.2 "If an Unusual Partition Closes" — add reference to Andersen (2025) on density of structure
+- §3.3 "What Formal Machinery Alone Does Not Provide" — **EXPAND.** This becomes much more important. Add explicit paragraph showing common-cause case satisfies Franklin & Robertson's screening-off while failing closure. Walk through why. Also sharpen the Rosas et al. tool-user relationship.
+
+### §4 Approximate Closure — Moderate Edits
+- §4.4 "Regime Dependence and Projectibility" — add paragraph on Ladyman & Lorenzetti's effective OSR and regime-relative ontology
+- §4.5 monetary system example — connect to Ross's economic ontology in ETMG
+
+### §5 Objections — Key Addition
+- **NEW §5.1: "Beyond Screening Off"** — Direct engagement with Franklin & Robertson. Walk through the common-cause case showing screening-off passes but closure fails. Most important addition to objections section. Be generous; disagreement is narrow.
+- §5.4–§5.9 — minor edits, framework-independent, survive reframing
+
+### §6 Conclusion — Rewrite
+- Lead with staged admittance result (compression → screening off → closure)
+- State specific advance over Franklin & Robertson, Rosas et al., and compatibility with Ladyman & Lorenzetti
+- Keep honest limits (conditional on structural realist and interventionist commitments)
+- Frame limits as limits of the staged protocol, not isolated criterion
+
+### §9.1 (Instrumentalism objection) — Add structural realism argument
+Add the anti-instrumentalism paragraph: on the metaphysics the paper is committed to, there's no gap between "tracks causal structure" and "is real." Leakiness measures autonomous causal structure, not our ignorance.
+
+---
+
+## 10. WHAT DOESN'T CHANGE
+
+The formal criterion (§2.2). The strong lumpability benchmark (§3). The leakiness framework (§4.2). The procedural safeguards (§4.3). The reporting schema (§4.10). The verdict structure (robust, qualified, indeterminate). The Putnam-Fodor argument (§5.3). The causal exclusion reply (§5.2). The phlogiston example (§4.7). The hurricane and cell cases. The tone and discipline.
+
+**The reframing is about what the paper is talking to and what gap it claims to fill, not about the philosophical content of the criterion itself.**
+
+---
+
+## 11. TITLE OPTIONS (in order of evolution)
+
+### Round 1 (Rainforest-first):
+- *Closing the Rainforest: Transition Autonomy as the Missing Criterion for Scale-Relative Ontology*
+- *What Structures the Lattice? Transition Closure as a Criterion for Scale-Relative Macro-Objecthood*
+
+### Round 2 (Franklin & Robertson-first, stronger):
+1. **Beyond Screening Off: Transition Closure as the Dynamical Criterion for Rainforest Admission** ← preferred
+2. *What Screening Off Misses: Transition Autonomy and the Admittance Problem for Scale-Relative Ontology*
+3. *The Admittance Problem: Closure, Screening Off, and Scale-Relative Macro-Objecthood*
+
+---
+
+## 12. REVISED ABSTRACT (final version from chat)
+
+> Scale-relative structural realism holds that real patterns inhabit a multi-level ontological lattice, but the admittance criteria for this lattice remain underdetermined. Franklin and Robertson (2024) offer the most developed recent proposal: emergence, understood as screening off plus novelty, earns an entity its place in the rainforest. This paper argues that screening off is necessary but not sufficient. A macro-variable can satisfy screening off — entering into robust, novel macrodependencies that render micro-details conditionally irrelevant — while remaining parasitic on upstream structure rather than instantiating autonomous macro-dynamics. What is missing is a transition criterion. A candidate macro-object qualifies when, for a fixed regime, horizon, and admissible intervention class, macrostate information is sufficient for macro-transitions, so within-class micro-differences do not change macro-level what-follows. This closure condition catches what screening off alone misses: macro-variables that pass observational and explanatory tests but collapse under admissible intervention because their apparent autonomy was borrowed from a common cause. In exact Markov settings, strong lumpability provides a benchmark realization. In non-ideal settings, closure is graded through leakiness and convergent diagnostics under fixed constraints. The interventionist machinery is compatible with structural realism because interventions serve as diagnostic probes for relational stability, not as metaphysical primitives. The result completes rather than replaces existing admittance proposals: Dennett's compression identifies candidate patterns, Franklin and Robertson's screening off filters out gerrymandered composites, and closure determines which survivors carry genuinely autonomous transition structure. Together these provide a staged admittance protocol for rainforest ontology — with explicit downgrade conditions when closure degrades. The criterion also supplies the dynamical condition that the Putnam-Fodor autonomy tradition left implicit: multiple realizability groups realizers extensionally, while closure demands those realizers produce the same macro-transitions under declared constraints.
+
+---
+
+## 13. KEY STRATEGIC NOTES
+
+- **Audience consideration:** Dennett is widely read; Ladyman & Ross are niche. Keep opening accessible through Dennett-style examples, but pivot the dialectical target.
+- **Consider dropping "real patterns" from title:** It pulls readers into a Dennett-first reading. "Structural patterns" or "macro-candidates" might be better.
+- **Timing is ideal:** The 2024–2025 burst of work (MIT Press volume, Franklin & Robertson, Ladyman & Lorenzetti, Jiang, Andersen) means this community is actively looking at exactly these questions.
+- **Target venues:** *Synthese*, *European Journal for Philosophy of Science*, *Philosophy of Science*, *British Journal for Philosophy of Science*.
+- **The paper's discipline is its main asset.** The revisions add material that's already implied and make the strongest philosophical moves explicit rather than buried.
+
+
+Several major parts of the plan are done, but a few important pieces are still incomplete or only partially done.
+
+Done
+
+The core repositioning is in place. The paper now opens with the admittance problem, treats Franklin and Robertson as the primary interlocutors, and presents closure as a further filter rather than a rival framework.
+The staged protocol is visible early: compression, then screening off, then closure.
+The new causation-tension subsection is in place.
+Franklin and Robertson are now engaged directly in §3 and in the objections section.
+The anti-instrumentalism move has been added to the instrumentalism objection.
+Recent literature is now in the bibliography and cited in the body.
+The conclusion has been rewritten around the staged admittance result.
+The title has been switched to the preferred Beyond Screening Off... formulation in the Springer wrapper.
+Partly done
+
+The Franklin–Robertson wedge is present, but it still does not fully do what the plan asks.
+The plan wanted an explicit walk-through showing that the common-cause case satisfies their screening-off and novelty conditions, then fails closure.
+Right now the paper argues that the case can look that way under passive observation. That is safer, but weaker than the planned move.
+If you want the stronger dialectical result, this still needs a slower reconstruction of their criterion on its own terms.
+The Ladyman & Lorenzetti engagement is present, but in a moderated form.
+We now say closure supplies operational discipline for effective realism.
+That is better than the earlier overclaim, but it still does not yet amount to a deep engagement with their paper.
+The recent literature is cited, but not all of it is really “engaged.”
+Some items are still functioning more as positioning citations than as argumentative interlocutors.
+Still missing or underdeveloped
+
+The PPC section is not really done.
+Your plan called for the Primacy of Physics Constraint to get its own subsectional treatment.
+That has not happened.
+The paper hints at it through the common-cause and projectibility discussion, but it does not yet explicitly say:
+“closure operationalizes the PPC’s non-redundancy clause.”
+The lattice is not yet the central novel claim.
+This is the biggest remaining gap relative to the plan.
+The paper does cite Rosas and mentions formal closure machinery, but it does not yet really claim or argue:
+“the structure of rainforest realism is the lattice of computationally closed coarse-grainings.”
+Nor does it draw out the three metaphysical implications you listed.
+The “What closure formalizes in Ladyman & Ross” table has not really been cashed out in prose.
+Pieces of it are there, but not as a visible argumentative payoff.
+The graded verdict structure has not yet been tied explicitly to lattice ontology.
+The plan wanted robust/qualified/indeterminate to be shown as naturally fitting a lattice rather than a binary real/not-real framework.
+That connection is still mostly implicit.
+The Ross/ETMG economic ontology connection in the monetary example is still not explicitly developed.
+The Ladyman chapter is cited, but the specific engagement you wanted is still missing.
+The paper does not yet ask whether his phase-space formulation already captures what closure adds.
+Wallace is cited, but the “commuting map” connection is not really worked through.
+Jiang is cited, but the contrast with a more utility-level framework is not yet sharply drawn.
+The platonism breadcrumb has not been added at all.
+That may be fine, since your strategic instruction was to keep it implicit, but if you want the single-sentence future-work gesture, it still remains to be written.
+Most important remaining work
+If you want to finish this revision plan rather than stop at “good enough,” I would prioritize these in order:
+
+Add a real PPC subsection.
+Say explicitly that closure operationalizes the vague “non-redundancy” side of the PPC by making micro-irrelevance a dynamical matter about transitions, not just descriptive convenience.
+
+Make the lattice claim central.
+Add one compact subsection, probably in §3 or near the Rosas discussion, arguing that the structure of rainforest realism is the lattice of computationally closed coarse-grainings.
+Then extract the three implications:
+levels are discovered, not metaphorical;
+levels are nested, not eliminable;
+causal autonomy does not privilege the micro-level.
+
+Strengthen the Franklin–Robertson wedge one more step.
+Right now it is reviewer-safe.
+It is not yet maximally forceful.
+You still need the tighter “by their own conditions, here is why the proxy qualifies observationally and explanatorily” passage if you want that section to carry the full burden of the paper’s new target.
+
+Deepen one or two literature engagements instead of just citing them.
+Best candidates:
+
+Ladyman chapter: what does his dynamic/phase-space approach capture, and what does closure add beyond it?
+Wallace: when is a higher-level commuting structure genuine rather than an artifact?
+Andersen: use her density point more directly in the pluralism section.
+Tie the verdict structure to the lattice.
+Make explicit that robust, qualified, and indeterminate are not ad hoc epistemic labels, but the right ontology-reporting scheme once the rainforest is understood as a structured space of more and less stable closure relations.
+
+Bottom line
+The paper now reflects the plan’s main direction, but not its full ambition.
+
+If I had to score completion relative to the plan:
+
+Core reframing: done
+Major section restructuring: mostly done
+Franklin/OSR engagement: partly done
+Lattice-centered metaphysical payoff: not yet done
+Full recent-literature engagement: partly done
+Final polish of all planned philosophical tensions: not yet done
+The next pass should probably focus on just two things: PPC and the lattice. Those are the biggest remaining structural absences.

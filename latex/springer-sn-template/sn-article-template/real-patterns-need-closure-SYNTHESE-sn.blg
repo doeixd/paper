@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99e
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: real-patterns-need-closure-SYNTHESE-sn.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
@@ -7,44 +7,47 @@ Reallocating 'name_of_file' (item size: 1) to 36 items.
 Database file #1: real-patterns-need-closure-SYNTHESE.bib
 sn-basic.bst [2024/07/19 v1.1 bibliography style]
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-You've used 39 entries,
+Warning--can't use both volume and number fields in boyd1991
+Warning--missing publisher in boyd1991
+You've used 41 entries,
             3571 wiz_defined-function locations,
-            961 strings with 10275 characters,
-and the built_in function-call counts, 25398 in all, are:
-= -- 2339
-> -- 623
-< -- 40
-+ -- 249
-- -- 181
-* -- 1916
-:= -- 3797
-add.period$ -- 69
-call.type$ -- 39
-change.case$ -- 255
-chr.to.int$ -- 48
-cite$ -- 39
-duplicate$ -- 2123
-empty$ -- 2385
-format.name$ -- 259
-if$ -- 5371
+            975 strings with 10574 characters,
+and the built_in function-call counts, 26497 in all, are:
+= -- 2435
+> -- 643
+< -- 44
++ -- 259
+- -- 187
+* -- 1982
+:= -- 3959
+add.period$ -- 74
+call.type$ -- 41
+change.case$ -- 268
+chr.to.int$ -- 50
+cite$ -- 43
+duplicate$ -- 2214
+empty$ -- 2489
+format.name$ -- 267
+if$ -- 5608
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 293
-newline$ -- 135
-num.names$ -- 163
-pop$ -- 651
+missing$ -- 309
+newline$ -- 143
+num.names$ -- 171
+pop$ -- 685
 preamble$ -- 1
-purify$ -- 214
+purify$ -- 224
 quote$ -- 0
-skip$ -- 580
+skip$ -- 620
 stack$ -- 0
-substring$ -- 1990
-swap$ -- 677
-text.length$ -- 2
+substring$ -- 2046
+swap$ -- 720
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 309
-warning$ -- 0
-while$ -- 183
+type$ -- 324
+warning$ -- 2
+while$ -- 192
 width$ -- 0
-write$ -- 464
+write$ -- 490
+(There were 2 warnings)

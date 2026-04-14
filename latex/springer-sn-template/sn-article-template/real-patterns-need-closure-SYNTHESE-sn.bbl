@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{41}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -17,6 +17,16 @@ Andersen HK (2025) The density of structure. Synthese 206(5):237.
 \bibitem[{Ando and Simon(1961)}]{ando1961}
 Ando A, Simon HA (1961) Aggregation of variables in dynamic systems.
   Econometrica 29(2):111--138. \doi{10.2307/1909285}
+
+\bibitem[{Batterman(2002)}]{batterman2002}
+Batterman RW (2002) The Devil in the Details: Asymptotic Reasoning in
+  Explanation, Reduction, and Emergence. Oxford University Press, New York.
+\newblock \doi{10.1093/0195146476.001.0001}
+
+\bibitem[{Boyd(1991)}]{boyd1991}
+Boyd R (1991) Realism, anti-foundationalism and the enthusiasm for natural
+  kinds. In: Philosophical Studies, vol~61. p 127--148.
+\newblock \doi{10.1007/BF00385837}
 
 \bibitem[{Cover and Thomas(2006)}]{cover2006}
 Cover TM, Thomas JA (2006) Elements of Information Theory, 2nd edn.
