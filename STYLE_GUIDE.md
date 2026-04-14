@@ -20,13 +20,11 @@ Philosophy is the art of "hand-holding" the reader down a complex path. Do not t
 
 **Goal:** Complex ideas, simple words. The sophistication should be in the *architecture of the argument*, not the obscurity of the vocabulary. Its ok to be slightly casual.
 
-**Rule: No Clause Stacking**
-Do not embed multiple dependent clauses in a single sentence. Break them into linear steps.
+**Prefer clarity over choppiness.** Complex sentences are fine when the complexity serves the idea. Avoid academic bloat, but do not over-fragment into staccato short sentences either.
 
-| Feature | ❌ **Incorrect (Academic Bloat/Dense)** | ✅ **Correct (Logical/Step-by-Step)** |
+| Feature | ❌ **Incorrect** | ✅ **Correct** |
 | :--- | :--- | :--- |
-| **Clause Stacking** | "The model, being reliant on variable A, which inherently implies condition B, subsequently fails..." | "The model relies on variable A. Since A implies condition B, the model is constrained. Consequently, it fails..." |
-| **Describing a Mechanism** | "The proliferation of systemic error manifests as a cascading failure state due to the inherent fragility..." | "As errors accumulate, the system fails. This occurs because individual nodes cannot sustain the increased load." |
+| **Academic Bloat** | "The proliferation of systemic error manifests as a cascading failure state due to the inherent fragility..." | "As errors accumulate, the system fails because individual nodes cannot sustain the increased load." |
 | **Connecting Ideas** | "In contradistinction to the prior argument, the reality is substantively divergent." | "However, this view is incorrect. The reality is different." |
 
 ## 3. Rhetorical Standards: Logical vs. Empirical
@@ -131,7 +129,7 @@ The document must be formatted strictly to ensure compatibility with the project
     *   Are list indentations consistent?
 
 **Phase 2: Clarity & Simplicity (The "Fog" Filter)**
-*   [ ] **The "Clause Stacking" Audit:** Did I bury the subject under three dependent clauses? (If yes, break into linear sentences).
+*   [ ] **The "Bloat vs. Chop" Audit:** Is complexity serving the idea, or is the sentence just hard to parse? Conversely, did I over-fragment into staccato beats?
 *   [ ] **The "Ten-Dollar Word" Tax:** Did I use "utilize/elucidate" where "use/explain" works?
 *   [ ] **The "High-Res, Low-Noise" Ratio:** Is the complexity in the *idea*, not the *syntax*?
 *   [ ] **Pronoun Precision:** Do "This," "That," or "It" have unambiguous antecedents? (Replace "This proves..." with "This mechanism proves...").
