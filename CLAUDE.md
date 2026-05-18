@@ -156,6 +156,7 @@ Relation: This is a domain-specific application of the general theory found in f
 - Build and submission files for that paper are under `latex/springer-sn-template/sn-article-template/`.
 - `real-patterns-as-closure.md` draft on closure/lumpabilty
 - For `real-patterns-as-closure.md`, release via `python scripts/release.py real-patterns-as-closure.md --format typst --output releases/real-patterns-as-closure.pdf`. Citation parser is sensitive to grouped parentheticals, so prefer parser-safe author-year citations in separate parentheses when needed.
+- `pan/` contains the panpsychism paper materials: `pan/pan_notes.txt` is the working notes dump, and `pan/pan_plan.txt` is the current plan for developing those notes into a LaTeX philosophy paper.
 - `references.md` stores the Chicago-style bibliography. Append new citations alphabetically and mirror existing formatting exactly.
 - `edits/` houses mandatory timestamped summaries (`YYYY-MM-DD - HH-MM - SUMMARY ...`) after substantial work. 
 - `sources/`, `random/`, `physics/`, `old/`, and `backups/` contain supporting material or archives. Treat them as read-only unless the user explicitly instructs otherwise. You can search them for background info or keywords if you need to. Just make sure to verify the information is correct/up-to-date before using it.
