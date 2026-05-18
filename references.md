@@ -142,6 +142,10 @@ Gładziejewski, Paweł. 2025. "Real Patterns, the Predictive Mind, and the Cogni
 
 Glenn, Patrick. 2025. "The Architecture of Inquiry: Extending Quine's Web for A Pragmatic and Naturalistic Account of Objectivity" PhilPapers. https://philpapers.org/rec/GLETAO.
 
+Goff, Philip. 2017. *Consciousness and Fundamental Reality*. Oxford: Oxford University Press. ISBN 9780190677015.
+
+Goff, Philip. 2017. "The Phenomenal Bonding Solution to the Combination Problem." In *Panpsychism: Contemporary Perspectives*, edited by Godehard Bruntrup and Ludwig Jaskolla, 283-302. Oxford: Oxford University Press.
+
 Godfrey-Smith, Peter. 2003. *Theory and Reality*. Chicago: University of Chicago Press. ISBN 978-0226300634.
 
 Goldman, Alvin I. 1979. "What Is Justified Belief?" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel. https://doi.org/10.1007/978-94-009-9493-5_1.
@@ -296,6 +300,8 @@ Padgett Walsh, Teemu. 2017. "All You Need is Love? Frankfurt and Hegel on Love a
 
 Palacios, Ensor Rafael, Adeel Razi, Thomas Parr, Michael Kirchhoff, and Karl Friston. 2020. "On Markov blankets and hierarchical self-organisation." *Journal of Theoretical Biology* 486: 110089. https://doi.org/10.1016/j.jtbi.2019.110089.
 
+Papineau, David. 2002. *Thinking about Consciousness*. Oxford: Oxford University Press. ISBN 9780199243822.
+
 Parkes, John. 2013. *Mode of Communication of Cholera. By John Snow, MD: Second Edition - London, 1855, pp 162.*. 2nd ed. London: John Churchill. Reprinted in *International Journal of Epidemiology* 42, no. 6 (2013): 1543–1552. https://doi.org/10.1093/ije/dyt193.
 
 Patterson, Orlando. 2018. *Slavery and Social Death*. Cambridge, MA: Harvard University Press. ISBN 978-0674986909.
@@ -370,6 +376,10 @@ Russell, Bertrand. 1913. "On the Notion of Cause." *Proceedings of the Aristotel
 
 Russell, Bertrand. 2007. *The Principles Of Mathematics V1*. Cambridge: Cambridge University Press. ISBN 978-1430476030.
 
+Schwitzgebel, Eric. 2008. "The Unreliability of Naive Introspection." *The Philosophical Review* 117(2): 245-273. https://doi.org/10.1215/00318108-2007-037.
+
+Schwitzgebel, Eric. 2011. *Perplexities of Consciousness*. Cambridge, MA: MIT Press. ISBN 9780262014908.
+
 Schwartz, Joshua. 2016. "Quine and the Problem of Truth." *Journal for the History of Analytical Philosophy* 4, no. 10. https://pdfs.semanticscholar.org/870d/383f9d0daf33b4a8d0fe8a4b79bd34e06e6c.pdf. ISSN 2159-0303.
 
 Scott, James C. 1998. *Seeing Like a State*. New Haven, CT: Yale University Press. ISBN 978-0300070163.
@@ -397,6 +407,8 @@ Staffel, Julia. 2020. "Reasons Fundamentalism and Rational Uncertainty – Comme
 Staffel, Julia. 2021. "Reasons, Justification, and Defeat" In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press. ISBN 9780198847205.
 
 Staffel, Julia. 2025. "Unfinished Business" Oxford: Oxford University Press. ISBN 0198916345, 9780198916345.
+
+Strawson, Galen. 2006. "Realistic Monism: Why Physicalism Entails Panpsychism." *Journal of Consciousness Studies* 13(10-11): 3-31.
 
 Street, Sharon. 2006. "A Darwinian Dilemma for Realist Theories of Value." *Philosophical Studies* 127(1): 109–66. https://doi.org/10.1007/s11098-005-1726-6.
 
