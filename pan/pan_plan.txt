@@ -1,0 +1,281 @@
+# Panpsychism Paper Plan
+
+Working title: Overdrawing on Experience: Panpsychism and the Limits of First-Person Warrant
+
+Alternate titles:
+- The Introspective Warrant Problem for Panpsychism
+- Panpsychism and the Limits of First-Person Evidence
+- First-Person Evidence and Hidden Phenomenal Ontology
+
+## Core Thesis
+
+The paper argues that panpsychism often gains much of its initial plausibility from first-person experience, but then extends that warrant beyond what first-person experience actually discloses.
+
+First-person experience warrants consciousness as a datum. It also discloses ordinary conscious life as structured, content-involving, temporal, affective, embodied, attentive, and often self-involving. It does not, by itself, disclose micro-experience, proto-experience, cosmic subjectivity, hidden phenomenal fields, or relations of phenomenal inheritance between universal and local minds.
+
+Those further posits may still be defended. The paper should not claim that panpsychism is disproved, or that unobservable entities are illegitimate. The narrower and stronger claim is that these posits must be defended as theoretical entities. They cannot inherit the special epistemic authority of ordinary first-person consciousness merely by being called "phenomenal," "proto-phenomenal," or "experiential."
+
+Best short formulation:
+
+First-person experience gives panpsychism a datum, not a metaphysics.
+
+## Argument Spine
+
+1. Panpsychism is often motivated by the claim that consciousness is known directly from the first-person point of view.
+2. Direct first-person experience warrants only what is actually disclosed in first-person experience.
+3. What is disclosed is structured, content-involving consciousness: pain, color, thought, attention, memory, time, affect, embodiment, and self-relation.
+4. First-person experience does not disclose bare subjectivity, micro-experience, proto-experience, cosmic subjectivity, hidden phenomenal fields, or phenomenal inheritance relations.
+5. These panpsychist posits therefore cannot inherit the epistemic privilege of first-person consciousness.
+6. They may still be defended by other arguments, but then their warrant is theoretical, not first-personal.
+7. Once treated as theoretical posits, they must earn their keep by explaining the structure, unity, temporal grain, content, valence, and subjecthood of consciousness.
+8. If organization and information processing already do the explanatory work for those features, then the hidden phenomenal layer risks becoming explanatorily idle.
+
+Do not write this as a refutation of panpsychism as such. Write it as a constraint on one prominent route to panpsychism.
+
+## Paper Structure
+
+### 1. Introduction: Panpsychism's Appeal and Overreach
+
+Open charitably. Panpsychism is attractive because it appears to take consciousness seriously. It begins from the fact that consciousness is not merely inferred; it is lived from within. I do not infer my pain in the way I infer an electron, gene, or gravitational wave. I undergo the pain.
+
+Then introduce the problem. If first-person experience is the source of panpsychism's special warrant, then panpsychism must respect the limits of what first-person experience actually gives. It cannot move freely from ordinary conscious experience to micro-experience, proto-experience, cosmic subjectivity, or hidden phenomenal fields.
+
+The introduction should state the paper's central claim:
+
+First-person experience establishes consciousness as a datum and discloses certain features of ordinary conscious life. It does not establish that consciousness is fundamental, ubiquitous, microphysical, cosmic, or hidden in the categorical basis of physical structure.
+
+Use the draft introduction in `pan_notes.txt` as the starting point. Keep its measured tone and its distinction between direct acquaintance with ordinary consciousness and speculative metaphysical extension.
+
+### 2. Scope and Bracketing
+
+This section protects the paper from predictable objections.
+
+State that the paper does not attack every possible argument for panpsychism. It brackets:
+- anti-emergentist arguments;
+- appeals to simplicity or continuity;
+- general dissatisfaction with physicalism;
+- the general explanatory gap;
+- the full independent case for Russellian monism.
+
+But do not bracket the Russellian structure/dynamics move entirely. The paper should engage one crucial step:
+
+Even if physics gives only structure and dynamics, it does not follow that the categorical nature behind that structure is phenomenal or proto-phenomenal.
+
+Key sentence to preserve:
+
+The structure/dynamics argument may create a vacancy. It does not show that consciousness fills it.
+
+This prevents the paper from straw-manning sophisticated panpsychists while keeping the target narrow.
+
+### 3. The Introspective Warrant Constraint
+
+This is the load-bearing section.
+
+Define the principle:
+
+The introspective warrant constraint: a theory that motivates itself by appeal to first-person experience may claim first-person warrant only for what first-person experience actually discloses.
+
+Clarify what the constraint does not say:
+- It is not verificationism.
+- It does not deny hidden or unobservable entities.
+- It does not say micro-experience, proto-experience, or cosmic subjectivity is impossible.
+- It does not deny that theoretical posits can be warranted.
+
+Clarify what the constraint does say:
+- Hidden phenomenal posits cannot claim first-person warrant unless they are disclosed in first-person experience.
+- If they are not disclosed in first-person experience, they must be defended by explanatory, predictive, unificatory, or other theoretical virtues.
+- First-person warrant is not a transferable credit.
+
+Use the three-step distinction:
+1. Datum: consciousness exists.
+2. Characterization: consciousness is structured, determinate, temporal, affective, embodied, attentive, and often self-involving.
+3. Metaphysical inflation: consciousness or proto-consciousness is fundamental, microphysical, cosmic, ubiquitous, or hidden in matter's intrinsic nature.
+
+The constraint allows the first step and the second step. It blocks any automatic passage to the third.
+
+### 4. What First-Person Experience Discloses
+
+Develop the phenomenology in plain language.
+
+First-person experience discloses concrete conscious episodes: seeing, hurting, hearing, remembering, imagining, anticipating, attending, feeling anxious, feeling embodied, and feeling time pass. It does not disclose "bare subjectivity" as a freestanding item.
+
+The original notes' "you need something to feel" argument belongs here, but it should be made academic:
+
+The claim is not that every conscious state must represent an external object. The claim is that every conscious state we can identify has some phenomenal character. Even allegedly objectless states have some character: calm, blankness, silence, duration, mineness, clarity, opacity, intensity, or bodily absence.
+
+State the contentless-subjectivity dilemma explicitly:
+- If fundamental consciousness has phenomenal character, then it already has structure, and that structure requires explanation.
+- If it has no phenomenal character, then it is not something first-person experience ever discloses.
+
+This closes the escape route in which the panpsychist retreats to "minimal phenomenal character" without explaining why that minimal character is both fundamental and genuinely given in experience.
+
+### 5. The Failure of Warrant Transfer
+
+Apply the constraint.
+
+Panpsychist and panprotopsychist views may posit:
+- micro-experience;
+- proto-experience;
+- proto-phenomenal properties;
+- cosmic subjectivity;
+- hidden phenomenal fields;
+- phenomenal inheritance, phenomenal bonding, or qualia-transfer relations.
+
+None of these is directly disclosed in ordinary first-person experience. Therefore, none can automatically inherit the epistemic privilege of ordinary first-person consciousness.
+
+Use the overdraft metaphor carefully:
+
+Panpsychism overdraws on first-person evidence when it treats the epistemic privilege of ordinary consciousness as support for a hidden phenomenal ontology.
+
+For panprotopsychism, frame the problem as a dilemma:
+
+If proto-experience is sufficiently like experience, it inherits the problems of explaining structure, unity, subjecthood, and combination. If it is sufficiently unlike experience, it loses its claim to first-person warrant.
+
+### 6. Structure/Dynamics Does Not Rescue the Inference
+
+Present the Russellian argument fairly before criticizing it.
+
+The Russellian thought:
+- Physics describes matter structurally, relationally, dispositionally, or dynamically.
+- It tells us what matter does, not what matter is intrinsically.
+- Consciousness is known from within.
+- Therefore, perhaps consciousness or proto-consciousness reveals the intrinsic nature of matter.
+
+The reply:
+
+Even if physics gives only structure and dynamics, it does not follow that the categorical nature underlying that structure is phenomenal. The step from "matter has some intrinsic nature" to "that intrinsic nature is experiential or proto-experiential" is not disclosed by first-person experience. It is a speculative metaphysical inference.
+
+Do not claim this refutes Russellian monism. Claim only that first-person evidence alone does not license the phenomenal filling-in of the categorical vacancy.
+
+### 7. Goff, Strawson, and Degrees of Violation
+
+Use this section to show nuance.
+
+Treat Strawson as the austere baseline. His "realistic monism" argues that serious physicalism, if it takes experience seriously and rejects radical emergence, leads toward panpsychism. The paper should treat this as a serious position, not as a crude "atoms have tiny minds" view.
+
+Treat Goff's later cosmopsychist and hybrid cosmopsychist machinery as the starker target. These views are designed to avoid the combination problem, but they add more metaphysical structure: cosmic subjectivity, local derivation, phenomenal inheritance, phenomenal bonding, or qualia-transfer relations.
+
+Core claim:
+
+The more panpsychism elaborates the machinery needed to solve its internal problems, the farther it moves from the first-person datum that gave it plausibility.
+
+Cosmopsychism should be singled out as the sharpest case. Cosmic subjectivity is not merely hidden from third-person science. It is unlike anything first-person experience discloses. Nothing in ordinary first-person consciousness reveals a unified cosmic experiencer.
+
+This does not show Goff is wrong. It shows that his view cannot retain the rhetorical force of direct first-person evidence. It becomes speculative metaphysics and must be defended as such.
+
+### 8. Explanatory Burden, with Sleep and Temporal Grain as Case Illustrations
+
+Collapse the earlier sleep, temporal-grain, and explanatory-burden sections into one tighter section.
+
+Once panpsychist posits are treated as theoretical rather than first-personal, the question is no longer whether they are possible. The question is what they explain.
+
+Ask whether hidden phenomenal posits explain:
+- why consciousness is unified;
+- why it has contents;
+- why it has temporal grain;
+- why it is altered by sleep, anesthesia, attention, memory, trauma, and brain damage;
+- why some processing is conscious and other processing is not;
+- why there is one subject rather than many;
+- why experience has valence.
+
+Then press the key point:
+
+If the actual structure of consciousness is explained, if at all, by organization, integration, attention, memory, and information processing, then the hidden phenomenal layer is not competing with rival explanations. It is standing beside them while they do the work.
+
+The "decorative layer" point from the notes belongs here, but use academic phrasing such as "explanatorily idle" or "explanatorily under-motivated."
+
+Dreamless sleep should be used modestly:
+
+Dreamless sleep does not prove that consciousness is absent. But it illustrates the problem of positing hidden experience where first-person evidence is absent or ambiguous. The claim that there was experience with no memory, no report, and no phenomenological trace requires independent warrant.
+
+Temporal grain should also be used modestly:
+
+Human consciousness appears to have thresholds and integration windows. Very brief stimuli may be processed without entering conscious experience. If panpsychism responds by assigning hidden experientiality below the threshold of consciousness, it has not explained conscious temporal structure. It has multiplied hidden phenomenal facts beneath it.
+
+These are conceptual illustrations, not empirical proofs.
+
+### 9. Conclusion: The Forfeiture of Special Warrant
+
+End with bite, but not overreach.
+
+The conclusion should say:
+
+Panpsychism is not thereby refuted. But its first-person motivation is significantly weakened. First-person experience establishes that consciousness exists; it does not establish that consciousness is fundamental, ubiquitous, microphysical, cosmic, or proto-phenomenal.
+
+Then close with the main diagnostic:
+
+Panpsychism overdraws on experience when it treats the epistemic privilege of ordinary consciousness as support for a hidden phenomenal ontology. Those further posits may be possible, but they do not have the warrant panpsychism often implies they have.
+
+## Literature Anchors
+
+The LaTeX draft should include appropriate scholarly anchors. Add exact Chicago-formatted references only after verifying bibliographic details.
+
+Required anchors:
+- Galen Strawson, especially "Realistic Monism," as the austere panpsychist baseline.
+- Philip Goff on Russellian monism, phenomenal acquaintance or phenomenal concepts, phenomenal bonding, and cosmopsychism.
+- David Papineau on the explanatory gap, phenomenal concepts, and the explanatory idleness or causal/explanatory impotence of phenomenal properties.
+- Eric Schwitzgebel on introspective unreliability, used cautiously as a defensive point.
+
+Possible framing for Goff:
+
+If phenomenal acquaintance gives knowledge of the essence of experience, that knowledge extends only to the experience with which one is acquainted. It does not extend to micro-experience, proto-experience, cosmic subjectivity, or phenomenal inheritance relations that are not themselves disclosed in acquaintance.
+
+Possible framing for Schwitzgebel:
+
+If introspection is fallible even within its proper domain, then it is even less suitable as warrant for claims about unexperienced micro- or cosmic consciousness.
+
+## Style Requirements
+
+Write the paper as an academic philosophy article. It should not read like a blog post, manifesto, or empirical science paper.
+
+Required style:
+- simple, clear, detailed prose;
+- measured academic tone;
+- strong but qualified claims;
+- no unnecessary jargon;
+- no pseudo-quantification;
+- no em dashes;
+- no footnotes;
+- no grandiose claims;
+- examples framed as conceptual illustrations, not evidence;
+- direct handling of likely reviewer objections.
+
+The paper should repeatedly distinguish:
+- "first-person experience does not disclose X";
+- from "X does not exist."
+
+Only the first claim is part of the argument.
+
+## Drafting TODO List
+
+1. Create the LaTeX source file under `pan/` unless a later submission target requires a different location.
+2. Draft the abstract using the core thesis above.
+3. Draft Section 1 from the existing introduction in `pan_notes.txt`.
+4. Draft Section 2 early to avoid strawman objections.
+5. Draft Section 3 with the introspective warrant constraint as the main hinge.
+6. Draft Section 4 around structured, content-involving consciousness and the contentless-subjectivity dilemma.
+7. Draft Section 5 as the warrant-transfer argument.
+8. Draft Section 6 as a careful reply to the Russellian structure/dynamics move.
+9. Draft Section 7 with Strawson as the respectful baseline and Goff's cosmopsychism as the sharpest target.
+10. Draft Section 8 by folding sleep and temporal grain into the explanatory-burden argument.
+11. Draft Section 9 with the "forfeiture of special warrant" conclusion.
+12. Verify citations and add Chicago-formatted references in alphabetical order.
+13. Run a redundancy pass to ensure the paper does not repeat the same warrant-transfer point in every section.
+14. Run a style pass for no em dashes, no footnotes, no pseudo-quantification, and no overclaiming.
+15. After a substantial draft or revision, add a timestamped summary in `edits/` using the required filename format.
+16. Commit completed work with a detailed rationale and no assistant attribution.
+
+## Acceptance Criteria for the Future Paper
+
+The finished LaTeX paper should satisfy these criteria:
+- It can be summarized in one sentence: first-person experience warrants ordinary consciousness, not panpsychism's hidden phenomenal ontology.
+- It clearly distinguishes full panpsychism, panprotopsychism, Russellian monism, and cosmopsychism.
+- It does not rely on dreamless sleep or temporal thresholds as decisive evidence.
+- It explicitly explains why the argument is not verificationist.
+- It treats sophisticated panpsychists charitably before criticizing them.
+- It preserves the strongest lines from the notes:
+  - First-person experience gives panpsychism a datum, not a metaphysics.
+  - The structure/dynamics argument may create a vacancy. It does not show that consciousness fills it.
+  - Panpsychism overdraws on first-person evidence.
+- It leaves panpsychism possible but under-motivated unless independent explanatory work is supplied.
+
