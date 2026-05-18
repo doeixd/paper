@@ -6,6 +6,8 @@ Acemoglu, Daron, and James A. Robinson. 2013. *Why Nations Fail*. New York: Crow
 
 Ainsworth, Peter M. 2009. "Newman's Objection." *The British Journal for the Philosophy of Science* 60(1): 135–171. https://doi.org/10.1093/bjps/axn051.
 
+Albahari, Miri. 2019. "Beyond Cosmopsychism and the Great I Am: How the World Might Be Grounded in Universal 'Advaitic' Consciousness." In *The Routledge Handbook of Panpsychism*, edited by William Seager, 119–130. New York: Routledge.
+
 Anderson, Elizabeth. 1995. "Knowledge, Human Interests, and Objectivity in Feminist Epistemology" *Philosophical Topics* 23(2): 27-58. https://doi.org/10.5840/philtopics199523213.
 
 Ando, Albert, and Herbert A. Simon. 1961. "Aggregation of Variables in Dynamic Systems." *Econometrica* 29(2): 111–138. https://doi.org/10.2307/1909285.
@@ -62,6 +64,8 @@ Brenner, Andrew. 2014. "Mereological nihilism and the special arrangement questi
 
 Bruineberg, Jelle, Krzysztof Dołęga, Joe Dewhurst, and Manuel Baltieri. 2021. "The Emperor's New Markov Blankets." *Behavioral and Brain Sciences* 45: e183. https://doi.org/10.1017/S0140525X21002351.
 
+Brüntrup, Godehard, and Ludwig Jaskolla, eds. 2017. *Panpsychism: Contemporary Perspectives*. New York: Oxford University Press. ISBN 9780199359943.
+
 Buchanan, Allen, and Russell Powell. 2018. *Evolution of Moral Progress*. New York: Oxford University Press. ISBN 978-0190868413.
 
 Campbell, Donald T. 1974. "The Philosophy of Karl Popper" In *The Philosophy of Karl R. Popper*, The Library of Living Philosophers XIV, edited by Paul Arthur Schilpp, 412-463. La Salle, IL: Open Court. ISBN 0-87548-141-8.
@@ -76,6 +80,10 @@ Cartwright, Nancy. 1999. *The dappled world*. Cambridge: Cambridge University Pr
 
 Chalmers, David J. 2006. "The re-emergence of emergence" In *The Re-Emergence of Emergence: The Emergentist Hypothesis from Science to Religion*, edited by Philip Clayton and Paul Davies, 244–54. Oxford: Oxford University Press. ISBN 9780199287147. https://doi.org/10.1093/acprof:oso/9780199287147.003.0011.
 
+Chalmers, David J. 2015. "Panpsychism and Panprotopsychism." In *Consciousness in the Physical World: Perspectives on Russellian Monism*, edited by Torin Alter and Yujin Nagasawa, 246–276. New York: Oxford University Press.
+
+Chalmers, David J. 2017. "The Combination Problem for Panpsychism." In *Panpsychism: Contemporary Perspectives*, edited by Godehard Brüntrup and Ludwig Jaskolla, 179–214. New York: Oxford University Press.
+
 Churchland, Paul M. 1981. "Eliminative Materialism and the Propositional Attitudes." *Journal of Philosophy* 78(2): 67-90. https://doi.org/10.2307/2025900.
 
 Christensen, David. 2007. "Epistemology of Disagreement: The Good News." *Philosophical Review* 116(2): 187–217. https://doi.org/10.1215/00318108-2006-035.
@@ -83,6 +91,8 @@ Christensen, David. 2007. "Epistemology of Disagreement: The Good News." *Philos
 Clark, Andy. 2013. "Whatever next? Predictive brains, situated agents, and the future of cognitive science." *Behavioral and Brain Sciences* 36(3): 181–204. https://doi.org/10.1017/S0140525X12000477.
 
 Cogitate Consortium. 2025. "Adversarial testing of global neuronal workspace and integrated information theories of consciousness." *Nature* 642(8066): 133–142. https://doi.org/10.1038/s41586-025-08888-1.
+
+Coleman, Sam. 2014. "The Real Combination Problem: Panpsychism, Micro-Subjects, and Emergence." *Erkenntnis* 79(1): 19–44. https://doi.org/10.1007/s10670-013-9431-x.
 
 Conquest, Robert. 1990. *The great terror*. Oxford: Oxford University Press. ISBN 978-0195055801.
 
@@ -115,6 +125,8 @@ Fodor, Jerry A. 1974. "Special Sciences (or: The Disunity of Science as a Workin
 Fogel, Robert William, and Stanley L. Engerman. 1995. *Time on the Cross*. Boston: Little, Brown and Company. ISBN 978-0393312188.
 
 Foot, Philippa. 2001. *Natural Goodness*. Oxford: Clarendon Press. ISBN 978-0198235088. https://doi.org/10.1093/0198235089.001.0001.
+
+Frankish, Keith. 2021. "Panpsychism and the Depsychologization of Consciousness." *Aristotelian Society Supplementary Volume* 95(1): 51–70. https://doi.org/10.1093/arisup/akab012.
 
 French, Steven, and James Ladyman. 2003. "Remodelling Structural Realism: Quantum Physics and the Metaphysics of Structure." *Synthese* 136(1): 31–56. https://doi.org/10.1023/A:1024156116636.
 
@@ -151,6 +163,8 @@ Goff, Philip. 2017. *Consciousness and Fundamental Reality*. Oxford: Oxford Univ
 Goff, Philip. 2017. "The Phenomenal Bonding Solution to the Combination Problem." In *Panpsychism: Contemporary Perspectives*, edited by Godehard Bruntrup and Ludwig Jaskolla, 283-302. Oxford: Oxford University Press.
 
 Goff, Philip. 2019. "Cosmopsychism, Micropsychism, and the Grounding Relation." In *The Routledge Handbook of Panpsychism*, edited by William Seager. New York: Routledge.
+
+Goff, Philip. 2024. "How Exactly Does Panpsychism Help Explain Consciousness?" *Journal of Consciousness Studies* 31(3-4): 56–82. https://doi.org/10.53765/20512201.31.3.056.
 
 Godfrey-Smith, Peter. 2003. *Theory and Reality*. Chicago: University of Chicago Press. ISBN 978-0226300634.
 
@@ -256,6 +270,8 @@ Lewis, John. 1930. *The Quest for Certainty: A Study of the Relation of Knowledg
 
 Li, Y., et al. 2025. "Pragmatics in the Era of Large Language Models: A Survey on Datasets, Evaluation, Opportunities and Challenges." arXiv preprint arXiv:2502.12378.
 
+Lin, Songchi. 2025. "Why Revelation Cannot Favor Panpsychism Over Physicalism." *Ratio* 39(2): 90–97. https://doi.org/10.1111/rati.70015.
+
 Liyanage, Karl J., et al. 2017. "Redox-sensitive reversible self-assembly of amino acid–naphthalene diimide conjugates" *Interface Focus* 7(5): 20160099. https://doi.org/10.1098/rsfs.2016.0099.
 
 Longino, Helen E. 1990. *Science as social knowledge*. Princeton, NJ: Princeton University Press. ISBN 978-0691020518.
@@ -284,6 +300,8 @@ Marquis, Jean-Pierre. 2015. "Category Theory." In *Stanford Encyclopedia of Phil
 
 Meadows, Donella H. 2008. *Thinking in Systems: A Primer*. Edited by Diana Wright. White River Junction, VT: Chelsea Green Publishing. ISBN 978-1603580557.
 
+Mendelovici, Angela. 2019. "Panpsychism's Combination Problem Is a Problem for Everyone." In *The Routledge Handbook of Panpsychism*, edited by William Seager, 303–316. New York: Routledge.
+
 Merricks, Trenton. 2001. *Objects and Persons*. Oxford: Clarendon Press. ISBN 978-0199245369.
 
 Mesoudi, Alex. 2011. *Cultural evolution*. Chicago: University of Chicago Press. ISBN 978-0226520445.
@@ -293,6 +311,12 @@ Mitchell, Sandra D. 2009. *Unsimple truths*. Chicago: University of Chicago Pres
 MLPerf Association. 2023. "MLPerf Training Results." https://mlcommons.org/benchmarks/training/.
 
 Moghaddam, Soroush. 2013. "Confronting the Normativity Objection: W.V. Quine's Engineering Model and Michael A. Bishop and J.D. Trout's Strategic Reliabilism." Master's thesis, University of Victoria. http://hdl.handle.net/1828/4915.
+
+Mørch, Hedda Hassel. 2018. "Does Dispositionalism Entail Panpsychism?" *Topoi* 39(5): 1073–1088. https://doi.org/10.1007/s11245-018-9604-y.
+
+Mørch, Hedda Hassel. 2024. "Does Panpsychism Mean That 'We Are All One'?" *Journal of Consciousness Studies* 31(9-10): 88–112. https://doi.org/10.53765/20512201.31.9.088.
+
+Mørch, Hedda Hassel. Forthcoming. "How Can the Mental Ground the Physical? The Case for Phenomenal Powers Panpsychism." In *Grounding and Consciousness*, edited by Gabriel Rabin. Oxford: Oxford University Press.
 
 Newman, Mark. 2017. *Networks: An Introduction*. Oxford: Oxford University Press. ISBN 978-0199206650.
 
@@ -356,6 +380,8 @@ Quine, W. V. 1969. "3. Epistemology Naturalized" In *Ontological Relativity and 
 
 Railton, Peter. 1986. "Moral Realism." *The Philosophical Review* 95(2): 163–207. https://doi.org/10.2307/2185589.
 
+Ramm, Brentyn J. 2021. "Panpsychism and the First-Person Perspective: The Case for Panpsychist Idealism." *Mind and Matter* 19(1): 75–106.
+
 Rawls, John. 1971. *A Theory of Justice*. Cambridge, MA: Harvard University Press. ISBN 978-0674880108.
 
 Rescher, Nicholas. 1973. *The Coherence Theory of Truth*. Oxford: Clarendon Press. ISBN 978-0198244011.
@@ -367,6 +393,10 @@ Rescher, Nicholas. 2001. *Cognitive Pragmatism*. Pittsburgh, PA: University of P
 Rissanen, Jorma. 1978. "Modeling by Shortest Data Description." *Automatica* 14(5): 465–471. https://doi.org/10.1016/0005-1098(78)90005-5.
 
 Roda, Weston C., Marie B. Varughese, Donglin Han, and Michael Y. Li. 2020. "Why Is It Difficult to Accurately Predict the COVID-19 Epidemic?" *Infectious Disease Modelling* 5: 271–281. https://doi.org/10.1016/j.idm.2020.03.001.
+
+Roelofs, Luke. 2019. *Combining Minds: How to Think about Composite Subjectivity*. Oxford: Oxford University Press. ISBN 9780190859053.
+
+Roelofs, Luke. 2020. "Consciousness, Revelation, and Confusion: Are Constitutive Panpsychists Hoist by Their Own Petard?" *Dialectica* 74(1): 63–96. https://doi.org/10.48106/dial.v74.i1.04.
 
 Rorty, Richard. 1980. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press. ISBN 978-0691020167.
 
@@ -388,6 +418,8 @@ Russell, Bertrand. 1913. "On the Notion of Cause." *Proceedings of the Aristotel
 
 Russell, Bertrand. 2007. *The Principles Of Mathematics V1*. Cambridge: Cambridge University Press. ISBN 978-1430476030.
 
+Saad, Bradford. 2022. "Harmony in a Panpsychist World." *Synthese* 200(6): 497. https://doi.org/10.1007/s11229-022-03974-7.
+
 Schwitzgebel, Eric. 2008. "The Unreliability of Naive Introspection." *The Philosophical Review* 117(2): 245-273. https://doi.org/10.1215/00318108-2007-037.
 
 Schwitzgebel, Eric. 2011. *Perplexities of Consciousness*. Cambridge, MA: MIT Press. ISBN 9780262014908.
@@ -401,6 +433,10 @@ Sevilla, Jaime, Lennart Heim, Anson Ho, Tamay Besiroglu, Marius Hobbhahn, and Pa
 Shalizi, Cosma Rohilla, and James P. Crutchfield. 2001. "Computational Mechanics: Pattern and Prediction, Structure and Simplicity." *Journal of Statistical Physics* 104(3-4): 817–879. https://doi.org/10.1023/A:1010388907793.
 
 Shapiro, Lawrence A. 2000. "Multiple Realizations." *The Journal of Philosophy* 97(12): 635–654. https://doi.org/10.2307/2678460.
+
+Shani, Itay. 2015. "Cosmopsychism: A Holistic Approach to the Metaphysics of Experience." *Philosophical Papers* 44(3): 389–437. https://doi.org/10.1080/05568641.2015.1106709.
+
+Shani, Itay. 2022. "Cosmopsychism, Coherence, and World-Affirming Monism." *The Monist* 105(1): 6–24. https://doi.org/10.1093/monist/onab020.
 
 Shannon, Claude E. 1948. "A Mathematical Theory of Communication." *Bell System Technical Journal* 27(3): 379–423. https://doi.org/10.1002/j.1538-7305.1948.tb01338.x.
 
