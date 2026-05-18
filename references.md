@@ -146,6 +146,8 @@ Goff, Philip. 2017. *Consciousness and Fundamental Reality*. Oxford: Oxford Univ
 
 Goff, Philip. 2017. "The Phenomenal Bonding Solution to the Combination Problem." In *Panpsychism: Contemporary Perspectives*, edited by Godehard Bruntrup and Ludwig Jaskolla, 283-302. Oxford: Oxford University Press.
 
+Goff, Philip. 2019. "Cosmopsychism, Micropsychism, and the Grounding Relation." In *The Routledge Handbook of Panpsychism*, edited by William Seager. New York: Routledge.
+
 Godfrey-Smith, Peter. 2003. *Theory and Reality*. Chicago: University of Chicago Press. ISBN 978-0226300634.
 
 Goldman, Alvin I. 1979. "What Is Justified Belief?" In *Justification and Knowledge: New Studies in Epistemology*, edited by George S. Pappas, 1–23. Dordrecht: D. Reidel. https://doi.org/10.1007/978-94-009-9493-5_1.
