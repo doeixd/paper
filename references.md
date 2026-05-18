@@ -6,6 +6,10 @@ Acemoglu, Daron, and James A. Robinson. 2013. *Why Nations Fail*. New York: Crow
 
 Ainsworth, Peter M. 2009. "Newman's Objection." *The British Journal for the Philosophy of Science* 60(1): 135–171. https://doi.org/10.1093/bjps/axn051.
 
+Albahari, Miri. 2006. *Analytical Buddhism: The Two-Tiered Illusion of Self*. Basingstoke: Palgrave Macmillan. ISBN 9780230007123.
+
+Albahari, Miri. 2009. "Witness-Consciousness: Its Definition, Appearance and Reality." *Journal of Consciousness Studies* 16(1): 62–84.
+
 Albahari, Miri. 2019. "Beyond Cosmopsychism and the Great I Am: How the World Might Be Grounded in Universal 'Advaitic' Consciousness." In *The Routledge Handbook of Panpsychism*, edited by William Seager, 119–130. New York: Routledge.
 
 Anderson, Elizabeth. 1995. "Knowledge, Human Interests, and Objectivity in Feminist Epistemology" *Philosophical Topics* 23(2): 27-58. https://doi.org/10.5840/philtopics199523213.
@@ -144,6 +148,8 @@ Friston, Karl J. 2013. "Life as We Know It." *Journal of the Royal Society Inter
 
 Galavotti, Maria Carla. 2019. "Pragmatism and the Birth of Subjective Probability." *European Journal of Pragmatism and American Philosophy* 11(1). https://doi.org/10.4000/ejpap.1509.
 
+Gamma, Alex, and Thomas Metzinger. 2021. "The Minimal Phenomenal Experience Questionnaire (MPE-92M): Towards a Phenomenological Profile of 'Pure Awareness' Experiences in Meditators." *PLOS ONE* 16(7): e0253694. https://doi.org/10.1371/journal.pone.0253694.
+
 Gottlob Frege, Gottlob. 1884. *Die Grundlagen der Arithmetik: Eine logisch-mathematische Untersuchung über den Begriff der Zahl*. Breslau: Verlag von Wilhelm Koebner. Translated as *The Foundations of Arithmetic* by J.L. Austin (1950). Oxford: Blackwell.
 
 Gadamer, Hans-Georg. 1975. *Truth and Method*. Translated by Joel Weinsheimer and Donald G. Marshall. New York: Continuum (originally Seabury Press; 2nd revised ed.). ISBN 978-0826400161.
@@ -191,6 +197,8 @@ Haugeland, John. 1987. *Derrida*. Cambridge, MA: Harvard University Press. ISBN 
 Haugeland, John. 1998. *Having Thought: Essays in the Metaphysics of Mind*. Cambridge, MA: Harvard University Press. ISBN 978-0674004153.
 
 Henrich, Joseph. 2016. *The secret of our success*. Princeton, NJ: Princeton University Press. ISBN 978-0691178431.
+
+Henry, Aaron, and Evan Thompson. 2011. "Witnessing from Here: Self-Awareness from a Bodily versus Embodied Perspective." In *The Oxford Handbook of the Self*, edited by Shaun Gallagher. Oxford: Oxford University Press. https://doi.org/10.1093/oxfordhb/9780199548019.003.0010.
 
 Henry, Gregory W., Francis C. Fekel, James R. Sowell, and Joel S. Gearhart. 2006. "HD 71636, A Newly Discovered Eclipsing Binary." *The Astronomical Journal* 132(6): 2413–2423. https://doi.org/10.1086/508684.
 
@@ -258,6 +266,8 @@ Laudan, Larry. 1978. *Progress and Its Problems*. Berkeley: University of Califo
 
 Lavoisier, Antoine. 1789. *Elements of Chemistry*. Translated by Robert Kerr. Edinburgh: William Creech.
 
+Laukkonen, Ruben E., Matthew D. Sacchet, Henk Barendregt, Kathryn J. Devaney, Avijit Chowdhury, and Heleen A. Slagter. 2023. "Cessations of Consciousness in Meditation: Advancing a Scientific Understanding of Nirodha Samapatti." In *Neurophysiology of Silence Part B: Theory and Review*, edited by Tal Dotan Ben-Soussan, Joseph Glicksohn, and Narayanan Srinivasan, 61–87. *Progress in Brain Research* 280. Amsterdam: Elsevier. https://doi.org/10.1016/bs.pbr.2022.12.007.
+
 Laukkonen, Ruben, et al. 2025. "A Beautiful Loop: An Active Inference Theory of Consciousness." *Neuroscience & Biobehavioral Reviews* 176: 106296. https://doi.org/10.1016/j.neubiorev.2025.106296.
 
 Lehrer, Keith. 1990. *Theory of Knowledge*. Boulder, CO: Westview Press. ISBN 978-0415054072.
@@ -271,6 +281,8 @@ Lewis, John. 1930. *The Quest for Certainty: A Study of the Relation of Knowledg
 Li, Y., et al. 2025. "Pragmatics in the Era of Large Language Models: A Survey on Datasets, Evaluation, Opportunities and Challenges." arXiv preprint arXiv:2502.12378.
 
 Lin, Songchi. 2025. "Why Revelation Cannot Favor Panpsychism Over Physicalism." *Ratio* 39(2): 90–97. https://doi.org/10.1111/rati.70015.
+
+Lin, Ying-Tung. 2021. "Memory and Retrospective Reports of Totally Selfless States of Consciousness." *Acta Scientiarum. Human and Social Sciences* 43: e60942. https://doi.org/10.4025/actascihumansoc.v43i3.60942.
 
 Liyanage, Karl J., et al. 2017. "Redox-sensitive reversible self-assembly of amino acid–naphthalene diimide conjugates" *Interface Focus* 7(5): 20160099. https://doi.org/10.1098/rsfs.2016.0099.
 
@@ -305,6 +317,8 @@ Mendelovici, Angela. 2019. "Panpsychism's Combination Problem Is a Problem for E
 Merricks, Trenton. 2001. *Objects and Persons*. Oxford: Clarendon Press. ISBN 978-0199245369.
 
 Mesoudi, Alex. 2011. *Cultural evolution*. Chicago: University of Chicago Press. ISBN 978-0226520445.
+
+Metzinger, Thomas. 2020. "Minimal Phenomenal Experience: Meditation, Tonic Alertness, and the Phenomenology of 'Pure' Consciousness." *Philosophy and the Mind Sciences* 1(I): 1–44. https://doi.org/10.33735/phimisci.2020.I.46.
 
 Mitchell, Sandra D. 2009. *Unsimple truths*. Chicago: University of Chicago Press. ISBN 978-0226532622.
 
@@ -478,6 +492,8 @@ Thagard, Paul. 1989. "Explanatory Coherence." *Behavioral and Brain Sciences* 12
 
 Thagard, Paul. 2000. *Coherence in Thought and Action*. Cambridge, MA: MIT Press. ISBN 978-0262201315.
 
+Thompson, Evan. 2014. *Waking, Dreaming, Being: Self and Consciousness in Neuroscience, Meditation, and Philosophy*. New York: Columbia University Press. ISBN 9780231137096.
+
 Tononi, Giulio, Melanie Boly, Marcello Massimini, and Christof Koch. 2016. "Integrated Information Theory: From Consciousness to Its Physical Substrate." *Nature Reviews Neuroscience* 17(7): 450–61. https://doi.org/10.1038/nrn.2016.44.
 
 Turchin, Peter. 2003. *Historical dynamics*. Princeton, NJ: Princeton University Press. ISBN 978-0691116693.
@@ -494,6 +510,8 @@ Wimsatt, William C. 1981. "Robustness, Reliability, and Overdetermination." In *
 
 Wimsatt, William C. 2000. "Emergence as Non-Aggregativity and the Biases of Reductionisms." *Foundations of Science* 5(3): 269–297. https://doi.org/10.1023/A:1011342202830.
 
+Windt, Jennifer M. 2016. "Just in Time: Dreamless Sleep Experience as Pure Subjective Temporality." In *Open MIND: Philosophy and the Mind Sciences in the 21st Century*, edited by Thomas K. Metzinger and Jennifer M. Windt, 1571–1604. Cambridge, MA: MIT Press. https://doi.org/10.15502/9783958571174.
+
 Woodward, James. 2003. *Making Things Happen*. Oxford: Oxford University Press. ISBN 978-0195155273.
 
 Woodward, James. 2015. "Methodology, Ontology, and Interventionism." *Synthese* 192(11): 3577–3599. https://doi.org/10.1007/s11229-014-0479-1.
@@ -507,6 +525,8 @@ Worrall, John. 1989. "Structural Realism: The Best of Both Worlds?" *Dialectica*
 Wright, Sewall. 1932. "The Roles of Mutation, Inbreeding, Crossbreeding and Selection in Evolution." In *Proceedings of the Sixth International Congress of Genetics*, vol. 1, 356–66. Brooklyn, NY: Brooklyn Botanic Garden.
 
 Zagzebski, Linda Trinkaus. 1996. *Virtues of the Mind*. Cambridge: Cambridge University Press. ISBN 978-0521578264. https://doi.org/10.1017/CBO9781139174763.
+
+Zahavi, Dan. 2005. *Subjectivity and Selfhood: Investigating the First-Person Perspective*. Cambridge, MA: MIT Press. ISBN 9780262240505.
 
 Zollman, Kevin J. S. 2010. "The Epistemic Benefit of Transient Diversity." *Erkenntnis* 72(1): 17–35. https://doi.org/10.1007/s10670-009-9194-6. ISSN 0165-0106.
 
