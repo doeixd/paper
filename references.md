@@ -12,6 +12,8 @@ Albahari, Miri. 2009. "Witness-Consciousness: Its Definition, Appearance and Rea
 
 Albahari, Miri. 2019. "Beyond Cosmopsychism and the Great I Am: How the World Might Be Grounded in Universal 'Advaitic' Consciousness." In *The Routledge Handbook of Panpsychism*, edited by William Seager, 119–130. New York: Routledge.
 
+Alter, Torin. 2023. *The Matter of Consciousness: From the Knowledge Argument to Russellian Monism*. Oxford: Oxford University Press. ISBN 9780198840459. https://doi.org/10.1093/oso/9780198840459.001.0001.
+
 Anderson, Elizabeth. 1995. "Knowledge, Human Interests, and Objectivity in Feminist Epistemology" *Philosophical Topics* 23(2): 27-58. https://doi.org/10.5840/philtopics199523213.
 
 Ando, Albert, and Herbert A. Simon. 1961. "Aggregation of Variables in Dynamic Systems." *Econometrica* 29(2): 111–138. https://doi.org/10.2307/1909285.
@@ -29,6 +31,8 @@ Ayvazov, Mahammad. 2025. "Toward a Phase Epistemology: Coherence, Response and t
 Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism and Theories of Emergence." *European Journal of Pragmatism and American Philosophy* XI-2. https://doi.org/10.4000/ejpap.1611.
 
 Bagnoli, Carla, ed. 2013. *Constructivism in Ethics*. New York: Cambridge University Press. ISBN 9781107019218, 9781107540385.
+
+Balog, Katalin. 2012. "In Defense of the Phenomenal Concept Strategy." *Philosophy and Phenomenological Research* 84(1): 1-23. https://doi.org/10.1111/j.1933-1592.2011.00541.x.
 
 Baysan, Umut. 2025. "Emergent Moral Non-naturalism." *Philosophy and Phenomenological Research* 110(1): 1–20. https://doi.org/10.1111/phpr.70057.
 
@@ -75,6 +79,8 @@ Buchanan, Allen, and Russell Powell. 2018. *Evolution of Moral Progress*. New Yo
 Campbell, Donald T. 1974. "The Philosophy of Karl Popper" In *The Philosophy of Karl R. Popper*, The Library of Living Philosophers XIV, edited by Paul Arthur Schilpp, 412-463. La Salle, IL: Open Court. ISBN 0-87548-141-8.
 
 Carlson, Matthew. 2015. "Logic and the Structure of the Web of Belief." *Journal for the History of Analytical Philosophy* 3(5): 1–27. https://doi.org/10.15173/jhap.v3i5.28.
+
+Carruthers, Peter, and Benedicte Veillet. 2007. "The Phenomenal Concept Strategy." *Journal of Consciousness Studies* 14(9-10): 212-236.
 
 Cartwright, Nancy, and Jeremy Hardie. 2012. *Evidence-based policy*. New York: Oxford University Press. ISBN 978-0199841608 (hardcover); 978-0199841622 (paperback).
 
@@ -282,6 +288,8 @@ Lin, Ying-Tung. 2022. "Memory and Retrospective Reports of Totally Selfless Stat
 
 Liyanage, Karl J., et al. 2017. "Redox-sensitive reversible self-assembly of amino acid–naphthalene diimide conjugates" *Interface Focus* 7(5): 20160099. https://doi.org/10.1098/rsfs.2016.0099.
 
+Loar, Brian. 1990. "Phenomenal States." *Philosophical Perspectives* 4: 81-108. https://doi.org/10.2307/2214188.
+
 Longino, Helen E. 1990. *Science as social knowledge*. Princeton, NJ: Princeton University Press. ISBN 978-0691020518.
 
 Longino, Helen E. 2002. *The Fate of Knowledge*. Princeton, NJ: Princeton University Press. ISBN 978-0691088761.
@@ -353,6 +361,8 @@ Patterson, Orlando. 2018. *Slavery and Social Death*. Cambridge, MA: Harvard Uni
 Pearl, Judea. 1988. *Probabilistic Reasoning in Intelligent Systems*. San Mateo, CA: Morgan Kaufmann. ISBN 978-0934613736.
 
 Pearl, Judea. 2009. *Causality: Models, Reasoning, and Inference*. 2nd ed. Cambridge: Cambridge University Press. ISBN 978-0521895606.
+
+Pereboom, Derk. 2011. *Consciousness and the Prospects of Physicalism*. Oxford: Oxford University Press. ISBN 9780199764037. https://doi.org/10.1093/acprof:oso/9780199764037.001.0001.
 
 Peirce, Charles S. 1992. "How to Make Our Ideas Clear." In *The Essential Peirce: Selected Philosophical Writings*, vol. 1 (1867–1893), edited by Nathan Houser and Christian Kloesel, 124–41. Bloomington: Indiana University Press (originally 1878).
 
@@ -463,6 +473,8 @@ Staffel, Julia. 2020. "Reasons Fundamentalism and Rational Uncertainty – Comme
 Staffel, Julia. 2021. "Reasons, Justification, and Defeat" In *Reasons, Justification, and Defeat*, edited by Jessica Brown and Mona Simion, 187–208. Oxford: Oxford University Press. ISBN 9780198847205.
 
 Staffel, Julia. 2025. "Unfinished Business" Oxford: Oxford University Press. ISBN 0198916345, 9780198916345.
+
+Stoljar, Daniel. 2006. *Ignorance and Imagination: The Epistemic Origin of the Problem of Consciousness*. New York: Oxford University Press. ISBN 9780195306583. https://doi.org/10.1093/0195306589.001.0001.
 
 Strawson, Galen. 2006. "Realistic Monism: Why Physicalism Entails Panpsychism." *Journal of Consciousness Studies* 13(10-11): 3-31.
 
