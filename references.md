@@ -336,6 +336,8 @@ Mørch, Hedda Hassel. 2024. "Does Panpsychism Mean That 'We Are All One'?" *Jour
 
 Mørch, Hedda Hassel. Forthcoming. "How Can the Mental Ground the Physical? The Case for Phenomenal Powers Panpsychism." In *Grounding and Consciousness*, edited by Gabriel Rabin. Oxford: Oxford University Press.
 
+Nagel, Thomas. 1979. "Panpsychism." In *Mortal Questions*, 181-195. Cambridge: Cambridge University Press.
+
 Newman, Mark. 2017. *Networks: An Introduction*. Oxford: Oxford University Press. ISBN 978-0199206650.
 
 O'Connor, Cailin, and James Owen Weatherall. 2019. *The misinformation age*. New Haven, CT: Yale University Press. ISBN 978-0300234015.
