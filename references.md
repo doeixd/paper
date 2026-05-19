@@ -278,7 +278,7 @@ Li, Y., et al. 2025. "Pragmatics in the Era of Large Language Models: A Survey o
 
 Lin, Songchi. 2025. "Why Revelation Cannot Favor Panpsychism Over Physicalism." *Ratio* 39(2): 90–97. https://doi.org/10.1111/rati.70015.
 
-Lin, Ying-Tung. 2021. "Memory and Retrospective Reports of Totally Selfless States of Consciousness." *Acta Scientiarum. Human and Social Sciences* 43: e60942. https://doi.org/10.4025/actascihumansoc.v43i3.60942.
+Lin, Ying-Tung. 2022. "Memory and Retrospective Reports of Totally Selfless States of Consciousness." *Acta Scientiarum. Human and Social Sciences* 43(3): e60942. https://doi.org/10.4025/actascihumansoc.v43i3.60942.
 
 Liyanage, Karl J., et al. 2017. "Redox-sensitive reversible self-assembly of amino acid–naphthalene diimide conjugates" *Interface Focus* 7(5): 20160099. https://doi.org/10.1098/rsfs.2016.0099.
 
