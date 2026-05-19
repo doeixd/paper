@@ -1,4 +1,4 @@
-\begin{thebibliography}{41}
+\begin{thebibliography}{39}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -25,8 +25,7 @@ Batterman RW (2002) The Devil in the Details: Asymptotic Reasoning in
 
 \bibitem[{Boyd(1991)}]{boyd1991}
 Boyd R (1991) Realism, anti-foundationalism and the enthusiasm for natural
-  kinds. In: Philosophical Studies, vol~61. p 127--148.
-\newblock \doi{10.1007/BF00385837}
+  kinds. Philosophical Studies 61(1-2):127--148. \doi{10.1007/BF00385837}
 
 \bibitem[{Cover and Thomas(2006)}]{cover2006}
 Cover TM, Thomas JA (2006) Elements of Information Theory, 2nd edn.
@@ -54,7 +53,7 @@ Fodor JA (1974) Special sciences (or: {T}he disunity of science as a working
 \bibitem[{Franklin and Robertson(2024)}]{franklinrobertson2024}
 Franklin A, Robertson K (2024) Emerging into the rainforest: Emergence and
   special science ontology. European Journal for Philosophy of Science
-  14(4):90. \doi{10.1007/s13194-024-00622-4}
+  14(4):61. \doi{10.1007/s13194-024-00622-4}
 
 \bibitem[{Goodman(1983)}]{goodman1955}
 Goodman N (1983) Fact, Fiction, and Forecast, 4th edn. Harvard University
@@ -70,16 +69,13 @@ Hoel EP, Albantakis L, Tononi G (2013) Quantifying causal emergence shows that
   macro can beat micro. Proceedings of the National Academy of Sciences
   110(49):19790--19795. \doi{10.1073/pnas.1314922110}
 
-\bibitem[{van Inwagen(1990)}]{vaninwagen1990}
-van Inwagen P (1990) Material Beings. Cornell University Press, Ithaca, NY
-
 \bibitem[{Jiang(2024)}]{jiang2024}
 Jiang Y (2024) The metaphysics of mechanisms: An ontic structural realist
-  perspective. Synthese 204:32. \doi{10.1007/s11229-024-04684-y}
+  perspective. Synthese 204(1):32. \doi{10.1007/s11229-024-04684-y}
 
 \bibitem[{Jiang(2025)}]{jiang2025}
 Jiang Y (2025) Biological object as real patterns: Reconciling processualism
-  and scientific realism. Synthese 206(4):185. \doi{10.1007/s11229-025-05285-z}
+  and scientific realism. Synthese 206(4):191. \doi{10.1007/s11229-025-05285-z}
 
 \bibitem[{Kemeny and Snell(1960)}]{kemeny1960}
 Kemeny JG, Snell JL (1960) Finite Markov Chains. Van Nostrand, Princeton, NJ.
@@ -121,12 +117,6 @@ Machamer P, Darden L, Craver CF (2000) Thinking about mechanisms. Philosophy of
 \bibitem[{Millhouse(2022)}]{millhouse2022}
 Millhouse T (2022) Really real patterns. Australasian Journal of Philosophy
   100(4):664--678. \doi{10.1080/00048402.2021.1941153}
-
-\bibitem[{Millhouse et~al.(2026)Millhouse, Petersen, and
-  Ross}]{millhouseetal2026}
-Millhouse T, Petersen S, Ross D (eds)  (2026) Dennett's Real Patterns in
-  Science and Nature. MIT Press, Cambridge, MA.
-\newblock \doi{10.7551/mitpress/15550.001.0001}
 
 \bibitem[{Pearl(2009)}]{pearl2000}
 Pearl J (2009) Causality: Models, Reasoning, and Inference, 2nd edn. Cambridge

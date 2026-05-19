@@ -1,0 +1,1225 @@
+=== PAGE 1 ===
+
+Economics and Philosophy
+http://journals.cambridge.org/EAP
+Additional services for Economics and
+Philosophy:
+Email alerts: Click here
+Subscriptions: Click here
+Commercial reprints: Click here
+Terms of use : Click here
+Real Patterns and the Ontological Foundations
+of Microeconomics
+Don Ross
+Economics and Philosophy / Volume 11 / Issue 01 / April 1995, pp 113 - 136
+DOI: 10.1017/S0266267100003242, Published online: 05 December 2008
+Link to this article: http://journals.cambridge.org/abstract_S0266267100003242
+How to cite this article:
+Don Ross (1995). Real Patterns and the Ontological Foundations of
+Microeconomics. Economics and Philosophy, 11, pp 113-136 doi:10.1017/
+S0266267100003242
+Request Permissions : Click here
+Downloaded from http://journals.cambridge.org/EAP, IP address: 138.251.14.35 on 31 Mar 2015
+
+
+=== PAGE 2 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+Economics and Philosphy, 11, (1995), 113-36.
+REAL PATTERNS AND THE
+ONTOLOGICAL FOUNDATIONS OF
+MICROECONOMICS
+DON ROSS
+University of Ottawa
+Most philosophical accounts of the foundations of economics have
+assumed that economics is intended to be an empirical science concerned
+with human behaviour, though they have, of course, differed over the
+extent to which it has been or can be successful as such an enterprise. A
+prominent source of dissent against this consensus is Alexander Rosen-
+berg. In his recent book, Rosenberg summarizes and completes his
+statement of a position that he has been developing for some time
+(Rosenberg, 1992a). He argues that although economists evaluate one
+another's work according to shared and rigorous standards of adequacy,
+these standards are strictly internal, like those of mathematics, instead of
+being derived from discoveries about contingent relationships between
+theoretical statements and empirical facts. Economics, that is to say, is
+essentially conceptual rather than empirical inquiry. In the following
+discussion, I will provide grounds for resisting Rosenberg's conclusion.
+The point of this criticism, however, is not mainly negative. Most of the
+historical preoccupations of the philosophy of economics, like those of the
+philosophy of science in general, have been epistemological. Careful
+attention to Rosenberg's argument, however, redirects our attention to
+ontological questions about the
+ objects of economics, and this redirection,
+I will maintain, is to be welcomed. I will argue that while the majority of
+I would like to thank the following people for their helpful criticisms of earlier drafts of this
+paper: Hilliard Aronovitch, Daniel Hausman, Chantale LaCasse, Robert Nadeau, Wayne
+Norman, Claude Panaccio, Alexander Rosenberg and two anonymous referees for
+ Economics
+and Philosophy. I also profited from the comments of audiences at l'Universite du Quebec a
+Montreal and the University of Waterloo.
+113
+
+
+=== PAGE 3 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+114 DON  Ross
+philosophers of economics is correct, as against Rosenberg, in regarding
+economics as an empirical science, the conventional view as to the
+identity of its empirical objects should be substantially revised under
+the pressure of Rosenberg's criticisms. My critical analysis of the
+implications of Rosenberg's work for the ontological commitments of
+economics is intended to furnish one line of argument towards my own
+conception of the objects of economics. This conception, which is still
+preliminary in many respects, will be briefly sketched toward the end
+of the present paper; a detailed account of it is given in Ross and
+LaCasse (1993).
+One caveat is in order before I proceed. My attention will be largely
+confined to microeconomics. I make no claim that the position I will
+sketch provides foundational support for the theoretical and practical
+structure of macroeconomics. It might appear to be to Rosenberg's
+advantage that he imposes no such restriction on his analysis, offering it
+as a general philosophy of economics that both microeconomists and
+macroeconomists should endorse. In his reach for generality of scope,
+however, Rosenberg exceeds his grasp. It is among the most apparent and
+anecdotally well-attested facts about the sociology of economics that
+microeconomists are frequently uneasy about the foundational integrity
+of macroeconomics, especially macroeconomics based on models which
+do not feature optimizing behaviour. Although the rise of rational
+expectations theory has encouraged, in some quarters, the view that
+microeconomics will provide foundations for macroeconomics,
+1 the fact
+that many economists themselves do not expect unification should lead
+us to be wary of presuming this. Prudent regard for the actual dynamics
+of the discipline makes it wisest to first seek
+ separate foundational theories,
+and then ask whether, and/or how, these pieces can be fitted together into
+a more general interpretation. The following discussion is confined to just
+one of these three tasks.
+The problem of identifying the objects of microeconomics arises from
+the fact that the most obvious candidates for the job face serious
+objections. The most natural, and naive, interpretation of microeconomics
+is to view it as seeking generalizations about the behaviour of actual
+people under idealized conditions which are most closely approximated
+in the competitive marketplace. The appeal of the naive view is obvious:
+1 See Lucas, 1973; representative work on real business cycles (Kydland and Prescott, 1982;
+Long and Plosser, 1983); and recent work on consumption and asset prices. Most of these
+macroeconomic models directly borrow the tools of microeconomic theory by featuring a
+'representative agent' who is infinitely lived and maximizes some utility function. Another
+unifying view, though one which does not necessarily award pride of place to
+microeconomic tools, holds that the two branches of economics are foundarionally bound
+by their common goal of analysing economic systems by means of general equilibrium
+theory. This view seems to be frequently held by economists who study growth, and is
+sometimes hinted at by Rosenberg himself.
+
+
+=== PAGE 4 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+ONTOLOGICAL FOUNDATIONS OF  MICROECONOMICS 115
+according to it, microeconomics studies people (qua rational utility
+maximizers) in just the way that mechanics studies bodies  (qua  packets
+of energy subject to limited ensembles of forces), and economics presents
+no special problems for the philosophy of science. The  defects  of the
+naive view, however, are just about equally obvious. If the conditions
+that define 'Rational Economic Man' are treated as idealizations, then we
+face a battery of well-known problems concerning their empirical
+motivation and limits of application. In general, a science that traffics in
+idealizations after the model of classical physics achieves its predictive
+successes by relaxing the idealizations in particular cases according to
+principles that can be independently justified in terms of the operating
+theory. There was a moment in the history of economics, prior to the
+work of Edgeworth and Pareto, when it might have developed in this
+way, and thereby have become a branch of the emerging science of
+psychology. But Pareto's disdain for motivations as 'metaphysical
+entities' led him to reinterpret utility in a way that foreshadowed
+Samuelson's later project of showing how to assign preference profiles
+without making empirical claims or assumptions about individuals other
+than (apparently) that their demand behaviour could have been
+generated from a utility maximizing model using
+ some fixed set of tastes.
+I say 'apparently' here because, as many writers have objected, the fact
+that tastes must be treated as unchanging throughout an analysis, in
+conjunction with the fact that there is no extra-economic theory of tastes
+to which economists can defer in relaxing their idealizations, means that
+data cannot be used as a basis for revising the rationality conditions
+embedded in a given model; instead, they can only be used to determine
+whether the model applies at all. But in that case the rationality
+conditions cannot be idealizations, since idealizations are  abstractions
+from empirical regularities, not a priori criteria for theory application.
+The rationality conditions resemble idealizations with respect to their
+function, which is to permit generalization and analytical tractability, but
+they do not resemble idealizations with respect to their  justification.  If
+microeconomics does not describe idealized individuals, then the only
+way to try to preserve the naive view is to argue that it describes
+ actual
+individuals, that is, that individual people are in fact rational (at least in
+the marketplace) in the way that revealed preference theory supposes.
+But that economists are not inclined to this response is suggested by
+their general indifference to famous experimental results (Nisbett and
+Ross, 1980; Kahneman et al, 1982) suggesting that most people system-
+atically violate the assumptions of rational choice theory.
+If one concludes that agents are not the objects of empirical study for
+microeconomics, then one may reasonably wonder whether there are any
+such objects, and this clearly amounts to wondering whether microeco-
+nomics is an
+ empirical  science at all. Accounts of microeconomics as
+
+
+=== PAGE 5 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+116 DON  Ross
+nonempirical may be divided into two broad classes: those that under-
+mine its general epistemic legitimacy, and those that decouple it from
+empirical pretensions in order to defend it. Proponents of accounts in the
+first class usually hold economics to be disguised ideology. This is a view
+which I will not take seriously. While it is no doubt true that many
+individual economists have been influenced in their work by their
+personal political persuasions - as is the case in any science - there is no
+attainable critical perspective from which a (pompous) philosopher could
+legitimately convict an entire discipline of bad faith. With less malice
+aforethought, other philosophers have argued that microeconomics is a
+normative enterprise not in the political sense, but rather according to the
+sense in which epistemology is a normative enterprise. On this view,
+microeconomics investigates the conceptual structure of maximizing
+rationality, without pronouncing on the extent to which consumers are
+rational in this way, or ought to be. Just as the epistemologist provides
+practical advice only for those who already place a high relative value on
+truth and belief consistency, so the microeconomist's recommendations
+are conditional on our extrinsically motivated concern with the consis-
+tency of acquisitive actions relative to a well defined set of interests. To
+the extent that one associates this sort of conceptual inquiry with the
+philosopher's task, microeconomics emerges on this view as a kind of
+technically specialized philosophy. If it is not an empirical science, it has
+at least as much epistemic legitimacy as philosophy, which, in the eyes of
+philosophers, is apt to be plenty.
+Attractive though it can be made to seem, this view, I wish to
+maintain, is false; microeconomics is an empirical science that investigates
+real phenomena. My claim, to be defensible, must be importantly
+different from the naive version of it sketched a couple of paragraphs ago,
+which is hopeless. My alternative is not fully developed; what I will offer
+instead is a proposal for further investigation. The motivation for this
+proposal arises from consideration of what is right, and what is wrong,
+with the view of economics as conceptual inquiry. Here I turn gratefully
+to Rosenberg, who, as mentioned above, gives us a sophisticated
+argument to the effect that economics is a legitimate science precisely to
+the extent that it is properly seen as a conceptual one. Although it will
+turn out that Rosenberg is wrong, the way in which he is wrong is the
+best guide we yet have as to what is right.
+According to Rosenberg, economics
+is a branch of
+ mathematics, one devoted to examining the formal properties
+of a set of assumptions about the transitivity of abstract relations: axioms
+that implicitly define a technical notion of 'rationality', just as geometry
+examines the formal properties of abstract points and lines (Rosenberg,
+1992a, p. 247).
+
+
+=== PAGE 6 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+ONTOLOCICAL FOUNDATIONS OF  MICROECONOMICS 117
+The analogy with geometry is developed at some length in Rosenberg's
+discussion, and is essential to understanding his justification for claiming
+that economics is a species of mathematics. Geometry was at one time
+taken to be an empirical science, whose central terms referred directly to
+classes of objects in space. The fact that the methods of geometers were
+uncharacteristic of experimental science, however, generated the pro-
+blems in the epistemology of geometry that found their most acute
+expression in Kant's uncomfortable doctrine of the synthetic a priori.
+Later, the development of non-Euclidean geometries and of relativistic
+physics demonstrated that geometry is not the empirical science of space,
+but is instead the study of patterns of relations among abstract concepts
+defined according to families of axioms.
+ Part of geometry's utility stems
+from the applications that are made of it by physicists, but the epistemic
+integrity of a given piece of geometric inquiry is independent of the
+existence of any such uses. The situation of economics, Rosenberg argues,
+is parallel to this. Economists initially took their central terms to refer
+directly to agents and to some of their psychological properties. Their
+indifference to predictive failures, however, and the apparent willingness
+of early eminences such as Mill to insulate theory indefinitely against the
+possibility of disconfirmation, led methodologically self-conscious econo-
+mists to produce a trail of special epistemologies for their discipline, each
+of which tries implausibly to rationalize the Kantian tension between
+empiricism and a priorism. (For an outline of this history, see Blaug, 1980,
+Part II.) As with the epistemology of geometry, we are best freed from
+such hopeless labours, Rosenberg maintains, when we recognize that the
+objects of economic inquiry are purely abstract relations. To be sure,
+economics has applications - principally, whenever we wish to determine
+the possible range of impacts of some exogenous change in the trading
+environment of agents evolving in a competitive system, or the possible
+qualitative influences upon a particular market of a change in the
+competitive system to which it belongs. That economic arguments usually
+have the form of possibility proofs, however, should alert us to the fact
+that they do not directly concern contingent phenomena. Rosenberg
+concludes that economics, like geometry, is hostage only to standards
+generated by its own historical dynamic of mathematical rigour. Its
+authority as a basis for public and personal policy is necessarily limited
+by this analysis, but, in compensation, systematic predictive imprecision
+need not threaten the integrity of the discipline.
+At least where microeconomics is concerned, the chief merit of this
+account lies in its explanation of two salient features of the discipline: the
+fact that greater prestige and significance is accorded to abstract
+possibility proofs than to elaborations of structural isomorphisms
+between models and phenomena; and the unusual attitude of economists,
+by comparison with other scientists, towards the importance of their
+
+
+=== PAGE 7 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+118 DON  Ross
+discipline's empirical track record. 2 I think that the account also has two
+serious flaws: (1) it depends on a misunderstanding and a misapplication
+of the distinction between the conceptual and the empirical; and (2) it
+requires an implausibly strong identification of scientific theory with
+scientific aims and methods. These mistakes abet one another, and so I
+will seek to substantiate my identification of them together.
+Distinguishing conceptual inquiry from empirical inquiry does not
+require that we revive rigid positivistic distinctions between the a priori
+and the a posteriori or between the analytic and the synthetic. We could
+instead agree to count, say, set theory as a paradigm case of conceptual
+inquiry and terrestrial geology as a paradigm case of empirical inquiry,
+look for methodological characteristics of the two sciences that seem
+crucially related to our intuitions, and then sort other investigative
+enterprises along an intervening spectrum governed by those character-
+istics. One sorting characteristic which will surely emerge as very
+important here is the extent to which a discipline treats predictive success
+as an essential aspect of hypothesis justification. 3 For this reason,
+Rosenberg focuses much of his attention on the predictive efficacy of
+economics.
+In particular, he relies heavily on the distinction between
+ quantitative
+and qualitative prediction. His use of it is inspired by Samuelson's remark
+that
+In the absence of complete quantitative information concerning our
+equilibrium conditions, it is hoped to be able to formulate qualitative
+restrictions on slopes, curvatures, etc., of our equilibrium equations so as to
+be able to derive definite qualitative restrictions upon the responses of our
+system to changes in certain parameters. (Samuelson, 1947, p. 20)
+Samuelson makes clear in a subsequent passage - which Rosenberg
+quotes, though missing the point - that his claim is not that individual
+economists who are skilled in the application of theory and closely
+2 The point here is not just the familiar one that economists are less interested in data than
+most scientists. It is that, in addition, their own view of their discipline's history is
+uncharacteristic of empirical sciences. Economists do not celebrate epochal instances where
+theories faced decisive tests - Lavoisier's jar, Halley's comet, the procession of the
+perihelion of Mercury, etc. Instead, macroeconomists are embarrassed by the crudeness of
+historians of thought who try, for example, to portray the 1929 crash as a turning point in
+the fortunes of neoclassical theory, and I think that most of them are at some level
+ relieved
+that this apparent 'revolt of the facts' could later be interpreted as cancelled out by the
+stagflation of the 1970s. I do not mean to be taking a stand here on the epistemic
+significance of crucial experiments. I take it to be interesting, however, that the mythology
+of the discipline has so little use for them.
+3 It is possible to dissent from this 'predictive empiricism', as an anonymous referee of an
+earlier draft of this paper points out. However, Rosenberg clearly accepts it, and so, at least
+for the purposes of the argument, will I.
+
+
+=== PAGE 8 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+ONTOLOGICAL FOUNDATIONS OF MICROECONOMICS 119
+acquainted, through experience, with a particular system, cannot often
+achieve reliable quantitative predictions about the system in question (pp.
+26-7). Rather, his contention is that economic theory does not by itself
+provide methodological recipes for quantitative prediction. (I will
+henceforth refer to 'specific prediction', of which Samuelson's particular
+notion of 'quantitative prediction' is a special case.) Now, this feature of
+economics is shared with a number of other thriving sciences, including
+evolutionary population ecology, cognitive ethology and paleotaxonomy.
+If this observation is important, it must be because it picks out a class of
+inquiries for which special epistemological problems arise.
+ Call this class a
+class of 'conceptual' inquiries if you like; but this terminological decision
+solves no problems unless these sciences relevantly resemble geometry in
+the way that economics is supposed to. Recall that we are sorting sciences
+along the conceptual-empirical continuum by reflective equilibrium
+against our intuitions. My intuitions are pretty sure of themselves in
+judging that whereas geometry is not about space - even though it can be
+applied to space - evolutionary population ecology is essentially about
+the dynamics of populations, cognitive ethology is essentially about
+animal behaviour, and paleotaxonomy is essentially about evolutionary
+history and relationships. The point is that it would be a mistake to
+identify the boundary between conceptual and empirical inquiry with the
+boundary between sciences whose theories identify strategies for deli-
+vering specific predictions and sciences whose theories do not.
+Rosenberg does not, exactly, make
+ this mistake, since he knows that it
+would be unacceptable to claim that evolutionary biology is not empirical
+inquiry. What he seems to suppose instead is that for a science to be
+empirical it must make predictions that are  relevant to (successful) specific
+predictions, whether or not it directly offers such predictions itself
+(Rosenberg 1992a, p. 70). Evolutionary theory is at least intended to be
+relevant to specific prediction, though Rosenberg appears to be of two
+minds as to whether it succeeds in this. At one point he implies that to the
+extent that evolutionary theory relies on adaptationist assumptions, it is
+failed empirical inquiry (pp. 181-5). Later he suggests that evolutionary
+theory contributes to successful empirical inquiry once it is buttressed by
+molecular genetics (pp. 233-4). Since Rosenberg does not explicitly
+summarize his view of the comparison between evolutionary theory and
+economics, I shall try to do so for him in a way that seems to me to be
+charitable in the light of what he needs for his larger argument. If
+evolutionary theory is committed to adaptationism, then it is irrelevant to
+specific prediction, and so is a species either of conceptual inquiry or of
+failed empirical inquiry.
+4 To the extent that it is not committed to
+4 If one takes the view that evolutionary theory is committed to adaptationism, and that it is
+conceptual inquiry, then it might, in fact, be fairly natural to see evolutionary theory as a
+part of economics!
+
+
+=== PAGE 9 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+120 DON  Ross
+adaptationism, it is relevant to specific predictions by way of its relation-
+ship to molecular genetics. Now, the only science that could stand to
+economics as molecular genetics (presumably) stands to evolutionary
+theory would be a psychological theory that gave ontological substance
+to the motivational and intentional states in which microeconomics
+traffics (pp.
+ 112-51, 235-6). Taking an explicit stand on hot issues in the
+philosophy of cognitive science, Rosenberg asserts that no such theory is,
+or will be, forthcoming. Therefore, economics cannot be vindicated as
+empirical inquiry in the way that evolutionary theory might be; therefore,
+economics is either failed empirical inquiry or it is conceptual inquiry.
+This is intended by Rosenberg as an
+ explanation  of the (putatively)
+independently established claim that, as a matter of fact, the predictive
+success rate of neoclassical economics has failed to show improvement
+over the last century or so (p. 149). From here, he goes on to argue that
+since our intuitions need not revolt at treating economics as conceptual
+inquiry, in the way they do where evolutionary theory is concerned, the
+cross-disciplinary principle of charity that is now a working maxim
+among philosophers of science should lead us to hypothesize that
+economics is conceptual inquiry.
+There are several tendentious assumptions driving this reasoning. Let
+us focus first on the relationships between qualitative predictive efficacy,
+specific predictive efficacy, and the empirical/conceptual dichotomy.
+Rosenberg provides only a sketchy argument for his judgement that
+qualitative predictive efficacy is insufficient for successful empirical
+science, but his basis for it seems to have Lakatosian affinities: he
+supposes that a scientific research programme which cannot push its
+predictive power beyond the qualitative must be regarded as degener-
+ating. This invites two immediate criticisms. First, it fails to address the
+possibility that a science could progressively develop by widening its
+range of qualitative predictions.
+5 Following Dawkins (1986), I believe that
+this is in fact the principal sense in which evolutionary theory has been
+progressive. Second, it glosses over the subtlety in Samuelson's distinc-
+tion, alluded to above, which Rosenberg seems to have missed. One of
+the principal functions of a theory is to organize and systematize
+phenomena. A theory that does a good job of this may play an essential
+role in enabling an individual scientist who is empirically well acquainted
+with a particular system to provide specific predictions about that system.
+The extra-theoretical knowledge and practical experience that, along with
+the theory, constitute necessary conditions for such predictions need not
+always be specifiable as initial conditions by means of parameters
+recognized explicitly by the theory. The point is that there are two ways
+Rosenberg doesn't ignore this possibility. But his sketchy argument against using it as a
+basis for defending the progressiveness of economics (Rosenberg, 1992a, pp. 106-7) begs
+the question. More on this below.
+
+
+=== PAGE 10 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+ONTOLOGICAL FOUNDATIONS OF  MICROECONOMICS 121
+in which a theory can meet Rosenberg's criterion of relevance to specific
+prediction: by spawning a body of specifically predictive theory, or by
+serving as a conceptual organizer that facilitates a range of low-level
+quantitative inferences in the company of particular, system-relative
+empirical facts. Since empirical relevance of this second variety will not
+(necessarily) generate theoretical  progress, we might distinguish it from
+the standard Lakatosian image of progressive science by saying that a
+science which perpetuates itself by being useful in the second way is
+empirically productive. If philosophers of science have given little notice to
+empirical productivity, this may reflect a history of undue emphasis on
+theory as the sole repository of epistemic importance, with which the
+discipline has been persuasively charged by Hacking (1983) and Cart-
+wright (1983).
+The most pressing immediate business of the philosophy of eco-
+nomics, I suggest, is to investigate the question of whether microeco-
+nomics and macroeconomics are (separately) empirically progressive in
+the first sense described above, or empirically productive, or both, or
+neither. This cannot be accomplished just by conceptual reflection and
+through surveys of economists' methodological tracts; what we need are
+close, detailed analyses of particular episodes of economic explanation
+and model-building, of the kind to which we have become accustomed in
+the philosophy of physics. My expectation is that such research would
+find enough clear cases of empirical
+ productivity to explain the continuing
+survival - indeed, institutional flourishing - of economics. But my
+expectation might be wrong, since more overtly sociological, non-
+epistemic factors could conceivably account for the institutional facts.
+There is, I think, little to be gained by staging a war of philosophical
+preconceptions here; we must simply get down to work on cases. On the
+question of qualitative empirical progressiveness, however, there is more
+to be said alongside, or in advance of case-work, since the very concept of
+qualitative empirical progress is unclear, and is implicated in important
+general issues in the philosophy of science.
+One of the chief merits of Rosenberg's work is that it draws our
+attention away from the mere
+ extent to which economic theory can deliver
+specific predictions, in favour of focusing it on the epistemic dynamics of
+a field which demonstrably doesn't care very much, at least by
+comparison with the familiar examples of scientific disciplines, about
+specific predictions, whether it actually produces them or not. As
+discussed, I do not find Rosenberg's diagnosis of economics as conceptual
+inquiry - the cash value of which lies in the appropriateness of his
+analogy between economics and geometry - to be very convincing. He is
+driven to this analysis, however, because he simultaneously wants to be
+charitable towards economics while denying the possibility of a science
+whose empirical progressiveness can consist solely in expanding the
+
+
+=== PAGE 11 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+122 DON  Ross
+range of its qualitative predictions. This is an important mistake, because
+it has consequences that ramify through the philosophy of science. Just as
+it pushes him to an uncomfortable philosophy of economics, it is also
+implicated in his view of evolutionary theory. Recall that, for Rosenberg,
+evolutionary theory, despite its qualitative character, is in better shape
+than economics as an empirical science because, when deployed in
+conjunction with our understanding of the mechanisms of inheritance
+supplied by molecular genetics, it is frequently relevant to specific
+predictions of a kind that it cannot generate on its own. One familiar way
+of understanding this relevance relation might be as follows: molecular
+genetics 'cashes out', in some quasi-reductionistic sense, the fundamental
+causal operators - Mendelian genes - whose qualitatively significant
+properties are described by neo-Darwinian theory; thus neo-Darwinian
+theory conceptually informs, and perhaps heuristically guides, molecular
+genetics, but it is molecular genetics, not neo-Darwinian theory, that
+directly provides specific predictions. This is alright, as far as it goes. But
+the moment one tries to be any more specific than this, Rosenberg's
+conceptual framework begins to chafe. If the 'cashing out' function
+alluded to above is explained by holding that classical genetics really
+reduces to molecular genetics, then neo-Darwinian theory will be assimi-
+lated to molecular genetics, many of its famous qualitative generalizations
+will turn out to be false, and we will not have a case, after all, of a
+qualitative theory that is autonomous from the source of specific
+predictions while being nevertheless relevant to those predictions. On the
+other hand, if one follows Kitcher (1984) in maintaining that Mendelian
+genes are irreducible to any types recognized by molecular genetics, and
+thus that classical genetics is an autonomous special science in the sense
+of Fodor (1974), then the relationship between neo-Darwinian theory and
+the specific predictions to which it contributes will be relevant to the
+former's empirical productivity, but not to its empirical progressiveness.
+Rosenberg had best take the first approach, lest evolutionary theory turn
+out to have an epistemic status just like economics after all, in which case
+he will face the unwelcome choice of either assigning evolutionary theory,
+with economics, to conceptual inquiry, or acknowledging that there can
+be qualitative theories that are empirically progressive. Now, the first
+option is also one which Rosenberg might prefer to resist, since his
+argument about economics is clearly weakened if it turns out to depend
+on taking one side of a controversial issue in the philosophy of biology.
+My suspicion, however, is that Rosenberg's scepticism about qualitatively
+predictive sciences is ultimately motivated by reductionist intuitions. I
+will try to substantiate this suspicion, not for the sake of finding error in
+Rosenberg, but to show how different microeconomics can appear under
+the light of varying attitudes to reductionism.
+When Rosenberg seeks respects in which evolutionary theory is on
+
+
+=== PAGE 12 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+ONTOLOGICAL FOUNDATIONS OF MICROECONOMICS 123
+firmer ground, despite its qualitative character, than economics, his
+emphasis is revealing. He does not cite the notable successes of evolu-
+tionary ethologists at predicting and explaining patterns in foraging
+behaviour, mate selection, reproductive spacing, behavioral thermoregula-
+tion, kin preference, territoriality and so on. Instead, in exact contrast to
+Dawkins' arguments for interpreting the scope of Darwinian theory as
+broadly as possible, Rosenberg writes as if the sole concern of evolutionary
+theory were changes in distributions of population characteristics over
+time, as understood in terms of changes in gene frequencies (Rosenberg,
+1992a, pp. 195-6; 1992b, pp. 176-83).6 One would gather from Rosenberg's
+remarks that in this area evolutionary theory delivers, and explains, a
+single class of qualitative results, namely, the tendency of gene frequencies
+to find and maintain stable equilibria. This, one might suppose, is a rather
+slight base of accomplishments for a successful science. However, Rosen-
+berg uses it to contrast economics, treated as an empirical science,
+unfavourably with evolutionary theory (at least with respect to their use of
+equilibrium concepts; and these concepts, as Hausman (1992) argues, are
+absolutely fundamental to the structure of economics):
+economic equilibrium theory ... lacks the most important feature that
+justifies the same kind of thinking in evolutionary biology: independent
+evidence that there is a stable equilibrium to be explained (Rosenberg,
+1992a,
+ p. 195).
+This is not very convincing. Both populations and exchange relationships
+will seem more or less stable depending on the grain of analysis with
+which they are studied. If someone were surprised that populations are
+stable to any measurable degree, then her surprise could be relieved just by
+describing natural selection, that is, by reciting Darwin's most basic
+insight. Similarly, Adam Smith already has the answer to someone who
+does not understand why exchange relationships are not irremediably
+chaotic. The question, then, is this: what might justify Rosenberg's view
+that the focus on equilibria is justified in the case of evolutionary theory in
+a way that it isn't in the case of neoclassical economic theory? His explicit
+answer is extremely unsatisfying. Evolutionary adaptational problems, he
+claims, are to a suitable degree of approximation parametric, whereas
+6 Rosenberg makes clear that he 'do[es] not endorse the view that the theory of natural
+selection is about gene ratios' (personal communication). This accords with what he says in
+his detailed study of the foundations of biology (Rosenberg, 1985). But note that I have not
+charged him with holding this view, exactly. Rather, what I read Rosenberg as implying, at
+least in his briefer treatment of the nature of biology as it relates to economics, is that what
+makes it possible for evolutionary theory to treat empirically of changes in distributions of
+population characteristics, despite rendering only qualitative predictions about them, is
+that these changes are, so to speak, 'ontologically grounded' in measurable changes in gene
+frequencies.
+
+
+=== PAGE 13 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+124 DON  Ross
+economic relations are fundamentally nonparametric (pp. 195-6)7 The
+first part of this claim is highly questionable. Its acceptance would render
+mysterious the motivations for, and the excitement generated by, evolu-
+tionary game theory, and would undermine some of the most important
+arguments against Panglossian adaptationism in biology, arguments with
+which Rosenberg appears to be in sympathy. Rosenberg may, however,
+have a better answer available to him than this official one - 'available' in
+the sense that it comports naturally with his stated grounds for doubting
+that economics is or can be empirically progressive. // one supposes that
+genes are the basic objects of evolutionary theory, and that molecular
+genetics ostensively, so to speak, substantiates these objects by supplying
+their detailed mechanics, then one can understand how evolutionary
+theory can be in good foundational shape as an empirical science even
+though most of
+ its generalizations are only qualitative. As Rosenberg notes
+(p. 195), specific predictions are hard to come by in population genetics
+due to the complexity of the genetic/environmental causal nexus. But
+there are cases, such as (the philosopher's favourite) that of the hetero-
+zygote superiority that keeps human populations in malarial regions
+polymorphous for the sickle cell allele, where one set of vectors is so
+causally dominant that local equilibria can be specified, predicted and
+tested with great accuracy. Finding some such cases in the field, and being
+able to produce many others in the lab, reassures us that evolutionary
+theory is tracking real phenomena despite its poor output of important
+specific predictions. Its failure to be empirically progressive in the
+conventional sense, then, turns out to be a consequence of the difficulty of
+gathering data, rather than of conceptual problems in the theory.
+My main basis for attributing to Rosenberg the view that it is the
+molecular substantiation of genes and genetic mechanisms that makes
+evolutionary theory empirical, in a way that economics can't be, is that he
+explicitly holds the
+ lack of such a substantiator in economics to provide
+the explanation for the putative failure of economics to satisfy its
+empirical pretensions (p. 149). If economics is interpreted empirically,
+then its basic objects, according to Rosenberg, are types of intentions -
+beliefs, preferences and plans. Microeconomics stands to these entities
+just as Darwinian theory stands to genes. That is, if we take revealed
+7 Rosenberg does not maintain that evolutionary theory is successful just because
+adaptational games are mainly parametric (personal communication). But this  does seem
+to be the basis for his view that biologists can have confidence in equilibrium phenomena in
+a way that economists can't. It should, in general, be borne in mind that we could do better
+justice to Rosenberg's views on biology by availing ourselves of his detailed (1985) study of
+that subject. But the shifts of emphasis between that work and his brief exposition in
+Rosenberg (1992a) are precisely to be explained, I am suggesting, by appeal to the fact that
+placing the sort of weight on the qualitative/specific contrast that Rosenberg does in
+connection with economics complicates and disrupts a sensible philosophy of biology - his
+own included.
+
+
+=== PAGE 14 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+ONTOLOCICAL FOUNDA TIONS OF MICROECONOMICS 125
+preference theory and von Neumann-Morgenstern expected utility
+theory as being among the foundations of microeconomics, then micro-
+economics has nothing to say about what intentions are, about their
+internal dynamics, or about the nature of their realization in agents. It
+begins from whatever assumptions about intentionality are most reason-
+able, in the light of what we know. 8 The source of improvements in the
+empirical progressiveness of economics, on this story, must be improve-
+ments in what we know about intentions; this is (I here conjecture)
+supposed to be analogous to the way in which evolutionary theory is
+made specifically predictively efficacious in principle and, occasionally, in
+fact, by the increases in our knowledge of genes delivered by molecular
+genetics. Leaving aside, for the moment, the question of whether this is
+the right way to view the relationship between neo-Darwinian theory and
+molecular genetics, note that it is a beguiling line on microeconomics.
+While microeconomists' rationality conditions do function like idealiza-
+tions on this account, they function as idealizations
+ should.  The crucial
+difference between this view and that dismissed earlier as naive, is that
+according to the former, our idealizations are not about agents but about
+intentional structures themselves. And, in cognitive science, we  do have a
+thriving empirical inquiry into intentional structures - don't we? Can
+cognitive science play the role for microeconomics that molecular genetics
+(putatively) plays for neo-Darwinian theory?
+Rosenberg's answer to this question is an unequivocal 'no'. Where the
+philosophy of cognitive science is concerned he is, it develops, a kind of
+eliminativist. He does not hold, as Paul Churchland has on occasion (e.g.,
+1979), that intentional attribution and its folk psychological setting will
+disappear from daily life; but he insists on the part of eliminativism that
+matters, namely, the claim that there can be no science of prepositional
+attitudes.9 I will quote Rosenberg at length here, since there are now so
+many shades of opinion on these matters that the mere assignment of
+philosophers to isms is not very informative:
+8 Rosenberg explains economists' unshakeable commitment to rationality as arising from the
+fact that the use of intentional concepts already presupposes general rationality, although it
+can allow for limited departures from any particular set of rationality conditions under
+specifiable circumstances. I think that he is entirely right about this, though I do not think
+that it in any way impugns the empirical integrity of the discipline. For reasons which may
+become clear(er) below, I am unmoved by the arguments of Stich (1990) and others to the
+effect that no proper science can presume agents to be generically rational.
+9 A referee of an earlier draft points out that Rosenberg's scepticism about the prospects for a
+science of the intentional can be justified by appeal to Davidson's arguments for
+anomalism, and thus does not require eliminativism. Note, however, that I am using
+'eliminativism' to denote a position that is a bit less radical than Churchland at his most
+dramatic. By 'eliminativism' 1 refer just to the thesis that no intentional predicates will
+figure in a successful scientific theory. While this is weaker than the thesis that the
+intentional predicates will disappear altogether, it is stronger than anomalism, since it is a
+matter of contention as to whether or not anomalism is compatible with functionalism. (See
+
+
+=== PAGE 15 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+126 DON  Ross
+the real source of trouble for the attempt to find  improvable  laws of
+economic behaviour is something that has only become clear in the
+philosophy of psychology's attempts to understand the intentional vari-
+ables ... '[Beliefs' and 'desires'... do not describe 'natural kinds'. They do
+not divide nature at the
+ joints. They do not label types of discrete states that
+share the same manageably small set of causes and effects and so cannot be
+brought together in causal generalizations that improve on our ordinary
+level of prediction ... let alone attain the sort of continuing improvement
+characteristic of science. We cannot expect to improve our intentional
+explanations of action beyond their present levels of predictive power. But
+the level of predictive power of our intentional theory is no higher than
+Plato's, (p. 235)
+To the extent that Rosenberg's argument depends on eliminativism, it is
+seriously weakened. Far from being a consensual position in the
+philosophy of cognitive science, as the first sentence quoted above
+suggests, eliminativism is a radical, minority view. This is not the place to
+debate the merits of eliminativism; of more interest in the present context
+is Rosenberg's
+ route to eliminativism:
+The more we learn about the way the brain stores information of the sort to
+be represented in our beliefs and desires, the more it becomes apparent that
+there is no fact of the matter about exactly what we want and exactly what
+we believe. That is, the propositional content of these states is misleadingly
+precise in the preferences and expectations it attributes to us. (p. 129)
+While most philosophers, as noted, are not eliminativists, many philoso-
+phers agree with Rosenberg that the context-sensitivity of intentional
+ascription, and the accompanying 'fuzziness' of intentional entities, leads
+toward eliminativism; this, combined with the widespread conviction
+that eliminativism is nevertheless preposterous, is what causes philoso-
+phers such as Fodor (1987) to hold out under increasing strain for
+classical computationalist theories of cognition. However, Dennett (1991),
+in an important paper, argues that eliminativists and their classical
+computationalist arch-foes share a common assumption that fuels the
+above debate: an undermotivated brand of reductionism. Following
+Dennett's case against this reductionism will enable us to understand
+Rosenberg's most interesting mistake, and, in the process, will point the
+way toward an alternative conception of the foundations of micro-
+economics.
+Lycan, 1988, Part 1, for an extended discussion.) Rosenberg's explanation of the failure of
+economics as an empirical science cannot allow for the possibility of a functionalist theory
+of mind, so he  needs  something stronger than anomalism. As the referee notes, what
+Rosenberg actually says in his new book is in fact, more suggestive of eliminativism, as I
+am using the term.
+
+
+=== PAGE 16 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+ONTOLOGICAL FOUNDATIONS OF  MICROECONOMICS 127
+Dennett's argument is difficult to summarize, because its structure is
+entirely inductive. Through reflection on a number of cases, he invites us
+to recognize that our scientific explanatory practices abound with uses of
+and references to irreducible, abstract patterns. Philosophers' attitudes
+toward the ontological status of such patterns have often been highly
+inconclusive, not to say shifty. Consider rates of inflation (my example,
+not Dennett's). Are rates of inflation real? Well, they're not  fictitious;
+they're not unreal in the way that Tarzan is unreal. A popular position
+these days is to say that rates of inflation
+ supervene  upon unnameable
+armies of micro-events that constitute the true bedrock of reality. This
+view revives, in fancy dress, Aristotle's belief in gradations of reality; rates
+of inflation are real, but not as real as, for example, the notice on
+Shopkeeper Smith's front window announcing a 10% price rise. The
+intuitions that support such a metaphysic are as old as philosophy, and
+Dennett is obviously in no position to refute them. He can be read as
+forcefully pointing out, however, that they do not comport easily with the
+prevailing pragmatism about ontology that is almost everybody's official
+position, according to which ontological commitments are determined by
+our scientific practices, rather than the other way around. In any case,
+Dennett's main concern is not to argue directly against reductionism, but
+to assuage worries that an extreme ontological liberalism that sanctions
+abstract patterns as readily as it does micro-particulars necessarily breeds
+instrumentalism, irrealism or idealism. Fears on this score are motivated
+by the fact that patterns are perspective-dependent. What Dennett shows
+is that ontologists can take perspectives seriously without abandoning
+realism, so long as they have well motivated epistemic criteria for
+distinguishing between, on the one hand, patterns which, once recognized
+from a perspective, serve irreplaceable explanatory and predictive
+purposes, and, on the other, patterns which are arbitrarily cobbled
+together under idiosyncratic perspectives to no general epistemic gain.
+It is not possible, in this space, to say enough to convince the reader
+that Dennett is right. I will instead just summarize his conclusion, while
+offering a reminder of its most basic motivation: since atomistic
+reductionism seems to be a gratuitously strong metaphysical view, and
+the currently popular abandonment of ontology urged by Rorty (1979) to
+be an over-reaction to it, some attempt at a compromise position is in
+order. Here, then, is Dennett's. To be a real pattern is to be a type of
+relatively stable, enduring structure that encodes information in a
+compressed form about other types of structures such that that informa-
+tion can be registered by some physically possible perceiver. More
+succinctly, what makes something real is both its stability over time
+under a perspective and its utility as a carrier of information. Two aspects
+of this position prevent it from sliding into idealism or constructivism: (1)
+what determines the range of physically possible perceivers is itself the
+
+
+=== PAGE 17 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+128 DON  Ross
+non-constructed, mind-independent structure of the world; and (2)
+questions about which structures encode information about which others,
+and about whether a given encoding is more compressed than a bit-map
+representation and, hence, epistemically useful in Dennett's required
+sense, can be investigated by the usual objective methods of science. To
+be sure, these ontological criteria are extremely liberal; according to
+Dennett, the world is teeming with real patterns. But, if she is to avoid
+begging the question by appealing to reductionistic intuitions, then an
+opponent owes us an argument as to what is wrong with ontological
+liberalism. (Note that, thanks to the epistemic utility criterion, Dennett's
+view does
+ not violate Ockham's principle.)
+Dennett's own main use of his ontological thesis is against the
+argument that goes from the denial of Fodorian micro-realism about
+prepositional attitude states to eliminativism. That cognitive science has
+railed to find neurophysiological or discrete computational syntactical
+bearers of prepositional content does not imply that the ontology of folk
+psychology is mistaken, or that it cannot serve as the basis for scientific
+elaboration, for folk psychology, according to Dennett, has (imperfectly,
+to be sure) locked onto a set of real patterns. Dennett's conclusion thus
+directly undermines Rosenberg's explanation of the putative empirical
+failure of economics. Its significance in that context runs deeper, however.
+As I have been at pains to show, Rosenberg is consistent in his views of
+the several sciences that fall under his comparative gaze in the course of
+his work on economics. His denial of the possibility of purely qualitative
+empirical progress, his nuanced view of the empirical status of neo-
+Darwinian theory, and his denial of empirical content to microeconomic
+theory can all be explained, I suggest, as resulting from his failure to
+acknowledge the reality of abstract patterns. If there are no real patterns,
+but only, in the end, real particulars, then theories which do not go
+beyond qualitative prediction are theories which are imprecise and
+incomplete, which fail, in an important sense, to be
+ accurate.  Empirical
+progress must depend on  empirical contact with the world; it must involve
+showing that the theory in question says an increasing proportion of true
+things about real entities. Thus the empirical content of neo-Darwinian
+theory can be saved if, contrary to Kitcher (1984), its central entities are
+given 'substance' by molecular genetics. Thus, too, economics could be an
+empirical science only if there were real entities for it to be
+ about. The
+thesis that it is about agents is, as we were reminded at the beginning of
+the paper, a non-starter. A more promising suggestion is that it is about
+the role played by intentional structures in strategic interaction. But these
+structures are not yet themselves bona fide empirical objects, in
+Rosenberg's view. If economics is to have an empirical subject matter,
+then its putative objects must be substantiated by cognitive science. At
+this point, the general failure to acknowledge real patterns arises again in
+
+
+=== PAGE 18 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+ONTOLOGICAL FOUNDA TIONS OF MICROECONOMICS 129
+this more particular context to suggest that cognitive science doesn't
+substantiate intentional structures. And thus we arrive at Rosenberg's
+conclusion: either we must push the analogy between economics and
+geometry, implausible though it may be, in order that economics turns
+out to be respectable conceptual inquiry, or we must consign economics
+to the realms of pseudo-science and propaganda.
+10
+When matters are presented in this light, it emerges that the emphasis
+on prediction was something of a distraction. Emphasis shifts from
+epistemology to ontology: an empirical science needs empirical objects of
+study, and it is not obvious that economics has any. Since this was the
+point made at the beginning of the present paper, it may seem that our
+critical progress through Rosenberg has just led us around a circle. I think
+that something has been accomplished, however. I would argue, though I
+cannot do so here, that the main controversies in the philosophy of
+economics have always been driven, below the surface, by difficulties in
+identifying the subject matter of economics. The nature of Rosenberg's
+mistake now serves to show that we have consistently been looking in the
+wrong place. Having failed to discharge an unwarranted metaphysical
+assumption that abstract patterns cannot be empirical objects, most
+inquirers have searched along the ground, assuming that the objects of
+economics must be 'found' objects, that they must arise from a framework
+extrinsic to the discipline - from our natural ontology, in the cases where
+individuals and intentions have been proposed as the relevant objects. An
+alternative view, to the effect that economic theory
+ creates  a perspective
+from which real patterns emerge that would otherwise be invisible, has
+not been seriously considered. Is such an alternative credible?
+Among the philosophers and economic methodologists who have
+focused most explicitly on the question of the  objects of economic study is
+Sir John Hicks (1939). As Rosenberg (1980, p. 87) notes, Hicks broke with
+his tradition in asserting that economics is not about individual
+behaviour. Of more interest in the present context, his proposed
+alternative objects were
+ abstracta par excellence: economics, he declared, is
+concerned with the properties of markets and whole economies. In his
+view, microeconomics is just a sort of calculus that serves macroeco-
+nomics, and the former's referentia - agents, preferences, etc. - are
+essentially theoretical fictions. Now, this is not a position which I wish in
+any way to endorse. If macroeconomics is a sound empirical science, then
+the phenomena that it tracks are surely abstract real patterns; but, as
+10 I should make clear that this is not intended as a reconstruction of Rosenberg's argument. It
+is supposed to be a  diagnosis of a  mistaken view  of the  relationship between theory
+justification and  ontological commitment which, if attributed to  Rosenberg, explains at a
+single stroke the various, more particular, mistakes that I have discussed. The main point
+of the  discussion of  Rosenberg's eliminativism  was to  provide additional evidence
+licensing this attribution.
+
+
+=== PAGE 19 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+130 DON  Ross
+mentioned earlier, I wish to remain strictly neutral on the question of
+whether macroeconomics and microeconomics have their detailed foun-
+dations in common, and I certainly do not suppose that microeconomics
+derives its justification from its service to macroeconomic ambitions.
+What is interesting about Hicks is that when he poses a direct question
+about ontology in connection with economics, and when, as in his
+account, this question is not complicated by philosophical sophistication
+concerning explanation and prediction, he sees, almost at a glance, that
+economists are concerned with abstract patterns. It is important to note
+that these patterns could not themselves have been detected prior to the
+development of some economic theory. No one in ancient Athens was in
+a position to know that there were rates of inflation and various local
+equilibria of demand and supply. An economic
+ perspective had first to be
+found, from which the information carried in such patterns could be
+recognized. Roman and medieval thinkers went a considerable way
+towards developing such a perspective, and the greatest single contribu-
+tion to its clarification belongs to Adam Smith. But the early economists
+did not construct economic phenomena; there were rates of inflation in
+ancient Athens, which can sometimes be determined in retrospect and
+which can serve in historical explanations. 11 Economic patterns are only
+evident from an economic perspective, and the more sophisticated the
+perspective, the more patterns will turn up. But they are
+ real  patterns
+nevertheless.
+So what about microeconomics? Which real patterns are its objects of
+study? To begin with, the best  general description of the subject matter of
+microeconomics remains Robbins's classic definition of it as 'the science
+which studies the relationship between ends and scarce means which
+have alternative uses' (Robbins, 1932, p. 15). That there is such a
+relationship - that there is a real pattern here to be investigated - is the
+most basic insight of microeconomics. Study of this relationship reveals
+further, deeper patterns: various abstract dilemmas, strategic options and
+motivations for competitive responses reoccur under broad ranges of
+particular conditions. The most appropriate name for these abstract
+phenomena is 'games'. This proposed use of the term is broader than that
+11 An example which helps to make the point involves the Roman emperor Diocletian (284-
+305 AD). He found himself confronted by ruinous inflation that had been triggered by
+generations of extortion on the part of imperial soldiers, who routinely demanded pay
+rises as bribes against fomenting mutiny. The standard response of the imperial
+administration had been to meet the demands by minting additional coin. Diocletian
+recognized that there were inflationary phenomena, in the sense that he saw that money
+was declining in value because of continual increases in prices. But he and his advisors
+had no grasp of the relevant structural relations. Not understanding that failure to control
+the output of the treasury was the cause of the inflation, they fixed prices by edict. As any
+economist would predict, this caused goods to disappear from the market, and resulted in
+famine.
+
+
+=== PAGE 20 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+ONTOLOCICAL FOUNDATIONS OF  MICROECONOMICS 131
+which informs game theory, but it is not in conflict with it. Game theory,
+we may say, studies the most interesting class of games, namely, those in
+which actions by any one player can directly affect the payoffs of the
+others, and where this interdependence is recognized by the agents. The
+decision problems on which neoclassical theory sharpened its analytical
+tools can be represented as games in which any one player's influence on
+the others is not measurable because the number of agents is large, and
+where one player has a stake in the coordination of the market outcome
+(as in the classic example of the auctioneer hammering down the
+Walrasian equilibrium). My claim, then, in summary form, is that
+microeconomics is the study of games, which are real patterns.
+As indicated earlier, I do not have space here to provide a full defense
+of this claim. It is apt to seem intolerably unclear and undermotivated,
+however, in the absence of at least one example. Let me, then, briefly
+provide one. The basic idea here is that the games depicted in abstract
+microeconomic models12 are types of real patterns, which must be tracked
+if their tokens are to be properly explained and predicted. Consider, then,
+as an example of such a type, the game that is well known throughout the
+game theory literature in economics as 'Matching Pennies'. It takes its
+name from its most familiar toy instantiation. Imagine that there are two
+players, who may not communicate with each other. Each independently
+places a coin, showing either heads or tails. The payoff matrix is shown in
+Figure 1.
+Player II
+HEADS
+TAILS
+Player I
+HEADS
+(2,2)
+(0,0)
+TAILS
+(0,0)
+(14)
+FIGURE 1
+By 'Matching Pennies', I will henceforth refer to the class of games
+that share two features of this toy instantiation: there are multiple
+equilibria, and some of them can be Pareto-ranked. Discovering that the
+'Matching Pennies' pattern is instantiated in a strategic interaction can
+thus provide the essential basis for predicting that the interaction may
+12 What counts as a 'microeconomic model', as I here intend the term, is determined by
+properties of the model, not by the subject matter with which it is concerned. So models
+built by biologists doing evolutionary game theory are microeconomic models.
+
+
+=== PAGE 21 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+132 DON  Ross
+yield outcomes that seem to be Pareto-inferior, and for explaining Pareto-
+inferior outcomes should these arise. The mainstream microeconomic
+literature features a number of cases of such explanation (though of types,
+rather than tokens, of interactions; these types, too, are real patterns). In a
+repeated game where a few firms meet each other in a market for a
+homogenous good, any feasible payoff can be attained as a subgame
+perfect Nash equilibrium. Thus there are multiple equilibria and a subset
+of these can be ranked; this is a case of Matching Pennies.
+13 Similarly,
+Howitt and McAfee (1992) show that in a situation where workers search
+for employment and firms search for employees, and where it is optimal
+for both sets of agents to match their intensities of search, there are two
+equilibria. Since one equilibrium features a higher level of unemployment
+than the other, they are Pareto-ranked. Matching Pennies is thus
+instantiated again.
+While examples such as these are the most interesting, citing them
+alone in the present context will not suffice, since seeing the modelled
+types of interactions as empirical phenomena already rests on an appeal to
+the real patterns metaphysic. Let me, then, describe what I take to be a
+token whose individuation requires no theoretical sophistication, but
+which cannot be fully understood unless it is recognized as a token of
+Matching Pennies. Since one of the epistemically important characteristics
+of many real patterns is robustness across conceptual domains, it is
+helpful in any case to find an example which falls outside of the classical
+subject matter of economics. Here, then, is an application drawn from my
+own doorstep. In the city of Ottawa, where I live, an unusually high
+proportion of drivers from out of town get into accidents at intersections.
+Anecdote suggests that they show marked impatience when behind local
+drivers at a light that has just turned green; the locals evidently seem to
+them to be sluggish in getting off the mark. Ottawa motorists might be
+happy to explain these facts by supposing that the visitors are reckless,
+impatient drivers by comparison with themselves. But one other observed
+fact, in conjunction with the recognition that this is a case of Matching
+Pennies, suggests an analysis that is less flattering to the locals. The
+additional fact is that Ottawa drivers
+ never stop on yellow lights; instead,
+they speed up to race through them. Now, consider this as a game of
+Matching Pennies. Suppose the agents in the game are drivers travelling
+in perpendicular directions with respect to each other through an
+intersection whose light is changing. Hoople is the last driver through the
+intersection in his direction; he can either speed up or stop on yellow.
+Ziffel is the first driver through the intersection in the other direction; he
+can delay before going on the green, or proceed at once. The two
+13 This is implied, for the infinitely repeated game with discounting, by results due to
+Fudenberg and Maskin (1986), and, for quantity-picking oligopolies in the case of finitely
+repeated games, by results due to Benoit and Krishna (1985).
+
+
+=== PAGE 22 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+ONTOLOGICAL FOUNDA TIONS OF MICROECONOMICS 133
+equilibria in this game tell us that, for both the case involving only
+Hoople and Ziffel, and the general case involving many drivers, there are
+two stable situations, namely, that in which everyone speeds through
+yellow and all opposing drivers wait, or that in which everyone stops on
+yellow and all opposing drivers proceed. Ottawa drivers have converged
+on the first equilibrium, and this causes difficulties for visitors whose
+communities have converged on the other. Note also that the Ottawa
+equilibrium permits fewer cars to turn left on each light than does the
+other. Since this contributes to gridlock, which inconveniences everyone,
+it is reasonable to claim that the traffic pattern in Ottawa has locked onto
+a Pareto-inferior equilibrium. Understanding the pattern as a case of
+Matching Pennies explains this.
+Microeconomists will be familiar with many analyses of this sort. My
+point in running through one was to provide an 'intuition pump' (to
+borrow a phrase from Dennett) for my main proposal. One does not fully
+understand the unusual traffic behaviour in Ottawa unless one sees it as
+an instance of Matching Pennies (though, of course, to do this one need
+neither conceptualize nor label it using precisely the notation of game
+theory). Matching Pennies thus satisfies the criteria for being a real
+pattern. In this respect, it is a typical microeconomic object.
+Again, I stress that the purpose of the example is to clarify my
+proposal, and not to justify it. In the same motivational spirit, I will
+conclude by reviewing its affinities and differences with Rosenberg's
+view. Like Rosenberg, I claim that microeconomists study abstract
+relationships between elements that are specified by the axioms of their
+own basic theoretical structures. That Rosenberg and I agree on this much
+is a good thing; something would be seriously wrong if we were at odds
+in our capacities as 'journalists' over what microeconomists, as a matter
+of fact, do with their time. But this raises the worry that we disagree only
+over what metaphysical spin to attach to our common description of
+microeconomic practice: I claim that the relationships studied by micro-
+economists are empirical phenomena, whereas Rosenberg claims that
+they're conceptual phenomena. Philosophers of science of a strongly
+empiricist bent, who believe that metaphysical annexes to scientific
+inquiries are epistemically gratuitous, may thus be inclined to dismiss the
+issues with which Rosenberg and I are concerned as pseudo-problems. I
+contend, however, that there will be significant differences over what one
+takes to be the most interesting problems and the most important tasks
+for microeconomics, depending on whether one prefers Rosenberg's
+analysis or mine. On my account, microeconomists should be expected to
+discover new games, new classes of games, and new properties of games
+partly by pure mathematical deduction, but mostly by reflection on the
+sorts of strategic situations, as they arise for real agents, that constitute
+empirical tokens of games. Thus, I take Becker's applications of micro-
+
+
+=== PAGE 23 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+134 DON  Ross
+economic models to non-market phenomena, such as marriage and
+discrimination (Becker, 1957, 1975, 1976), and the fruitful interanimation
+of microeconomics and evolutionary theory launched by the work of
+Maynard Smith (1982),
+14 to be among the most exciting exemplars of
+empirical progress in microeconomics. By contrast, Rosenberg views
+Becker's work, at least, as resting on a philosophical muddle, that is, as
+forcing contingent, essentially historically conditioned phenomena into a
+narrow conceptual space which there is no good reason for expecting
+them to fit (Rosenberg, 1979).
+15 According to Rosenberg, microeconomists
+will be best off if they recognize that they are not empirical scientists and
+are thus freed from the constraints of empirical science to settle into
+happy lives as deductive inquirers exploring an arcane but fascinating
+branch of mathematics. (It should be added that, on Rosenberg's account,
+they also get to contribute to the equally non-empirical investigations of
+normative political philosophers working in the contractarian tradition
+[Rosenberg, 1992a, 215-27]). As I have it, by contrast, microeconomists
+are right to regard themselves as investigating properties of the world,
+and their current confusion over which elements of the world they are
+responsible for is to be explained by the fact that most of them, like most
+philosophers, haven't yet had time to acquire and assimilate Dennett's
+insights concerning real patterns.
+My proposal as to the philosophical foundations of microeconomics
+is, most importantly, intended to motivate a research programme. The
+philosopher of science who seeks to elucidate the foundations of
+microeconomics, and whose working methodology involves presuming
+that there
+ are sound foundations to be elucidated, should first identify the
+real patterns with which microeconomists are concerned. She should then
+try to explain, with reference to particular models and applications, how
+microeconomic methods give epistemic access to those patterns. This will
+often involve her in ontological debates over which classifications of
+games and types of games best respect the sometimes competing
+demands of empirical adequacy and conceptual consistency. She will try
+to settle such issues by working to reflective equilibrium between her
+basic intuitions, as honed by philosophical practice, her understanding of
+the explanatory practices of microeconomists, and the data about well
+established classes of games that microeconomists unearth. This descrip-
+14 Maynard Smith's own work, and that of the evolutionary game theorists who immediately
+followed him, was originally fruitful for biologists, rather than for economists. But recent
+results relating the formal equilibrium concepts of evolutionary game theory to those of
+conventional game theory promise exciting new applications of the former to problems in
+microeconomics. (See Mailath, 1992; Young, 1993a, 1993b.) In particular, the sort of
+attention to the
+ history of games made possible by evolutionary game theory offers some
+promise of taking the sting out of the folk theorem.
+15 Rosenberg has other reasons, rooted in his distrust of adaptationism in biology, that
+should lead him to take a sceptical attitude toward evolutionary game theory.
+
+
+=== PAGE 24 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+ONTOLOCICAL FOUNDATIONS OF  MICROECONOMICS 135
+tion of a research strategy will sound familiar to mainstream philosophers
+of science who have dealt mainly with physics or biology. This should
+further recommend my approach to those who continue to hope, despite
+many decades of philosophical scepticism, that microeconomics can be
+shown to have a place among the sound empirical sciences.
+REFERENCES
+Becker, G. 1957. The  Economics of Discrimination. University of Chicago Press
+Becker, G. 1975. Human Capital. University of Chicago Press
+Becker, G. 1976. The  Economic Approach to Human Behaviour. University of Chicago Press
+Benoit, J., and V. Krishna. 1985, 'Finitely repeated games.'  Econometrica, 53:305-22
+Blaug, M. 1980. The Methodology of  Economics. Cambridge University Press
+Cartwright, N. 1983. How the Laws of Physics Lie. Oxford University Press
+Churchland, P. M. 1979. Scientific Realism and the Plasticity of
+ Mind. Cambridge University
+Press
+Dawkins, R. 1986. The Blind Watchmaker. Longman's
+Dennett, D. 1991. 'Real patterns.' The  Journal of Philosophy, 88:27-51
+Fodor, J. 1974. 'Special sciences, or the disunity of science as a working hypothesis.' Synthese,
+28:77-115
+Fodor, J. 1987. Psychosemantics. MIT Press/Bradford
+Fudenberg, D., and E. Maskin. 1986. "The folk theorem in repeated games with discounting
+or with incomplete information.'
+ Econometrica,  54:533-54
+Hacking, 1.1983. Representing and Intervening. Cambridge University Press
+Hausman, D. 1992. The Inexact and Separate Science of Economics. Cambridge University
+Press.
+Hicks,  Sir J. 1939. Value and Capital. Oxford University Press
+Howitt, P. and R.P McAfee. 1992. 'Animal spirits.' American  Economic Review, 82:493-507
+Kahneman, D., P. Slovic and A. Tversky. 1982. judgement Under Uncertainty: Heuristics and
+Biases. Cambridge University Press
+Kitcher, P. 1984. '1953 and all that: a tale of two sciences.' The Philosophical Review,
+93:335-73
+Kydland, F. and E. Prescott. 1982. Time to build and aggregate fluctuations.' Econometrica,
+50:1345-70
+Long, J. and C. Plosser. 1983. 'Real business cycles.'  Journal of Political Economy, 91:39-69
+Lucas, R. 1973. 'Some international evidence on output-inflation tradeoffs.' American
+Economic Review, 63:326-34
+Lycan, W. 1988. judgement and justification. Cambridge University Press
+Mailath, G. 1992. 'Introduction: symposium on evolutionary game theory.' Journal of
+Economic Theory, 57:259-77
+Maynard Smith, J. 1982. Evolution and the Theory of Games. Cambridge University Press
+Nisbett, R. and L. Ross. 1980. Human  Inference:  Strategies and Shortcomings of  Social Judgement.
+Prentice-Hall
+Robbins, L. 1932. An Essay on the Nature and Significance of  Economic Science. Macmillan
+Rosenberg, A. 1979. 'Can economic theory explain everything?' Philosophy of the Social
+Sciences, 9:509-29
+Rosenberg, A. 1980. 'A sceptical history of microeconomic theory.' Theory and Decision,
+12:79-93
+Rosenberg, A. 1985. The Structure of  Biological Science. Cambridge University Press
+Rosenberg, A. 1992a. Economics: Mathematical Politics or Science of Diminishing Returns?
+University of Chicago Press
+Rosenberg, A. 1992b. 'Neo-classical economics and evolutionary theory: strange bedfellows?'
+
+
+=== PAGE 25 ===
+
+http://journals.cambridge.org Downloaded: 31 Mar 2015 IP address: 138.251.14.35
+136 DON  ROSS
+In Proceedings of the Philosophy of Science Association 1992, Vol. 1, pp.  174-83.  D. Hull, M.
+Forbes and K. Okruhlik, (eds.).
+Ross, D. and C. LaCasse. 1993. 'Toward a new philosophy of positive economies'. Working
+Paper No. 9324, Groupe de Recherche en Epistemologie Comparee, Universite du
+Quebec a Montreal; Working Paper No. 9319E, Department of Economics, University of
+Ottawa
+Rorty, R. 1979.  Philosophy and the Mirror of Nature. Princeton University Press
+Samuelson, P. 1947. Foundations of  Economic Analysis. MIT Press
+Stich, S. 1990. The Fragmentation of Reason. MIT Press/Bradford
+Young, H. 1993a. 'The evolution of conventions.'  Econometrica, 61:57-84
+Young, H. 1993b, 'An evolutionary model of bargaining.' Journal of Economic Theory,
+59:145-68.

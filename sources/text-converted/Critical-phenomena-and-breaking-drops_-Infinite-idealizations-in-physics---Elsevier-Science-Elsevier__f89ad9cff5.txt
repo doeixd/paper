@@ -1,0 +1,845 @@
+=== PAGE 1 ===
+
+Studies in History and Philosophy of
+Modern Physics 36 (2005) 225–244
+Critical phenomena and breaking drops:
+Inﬁnite idealizations in physics
+Robert W. Batterman
+Department of Philosophy, Ohio State University, 350 University Hall, 230 N. Oval Mall,
+Columbus, OH 43210, USA
+Received 23 January 2004; accepted 11 May 2004
+Abstract
+ThermodynamicsandStatisticalMechanicsarerelatedtooneanotherthroughtheso-called
+‘‘thermodynamic limit’’ in which, roughly speaking the number of particles becomes inﬁnite.
+Atcritical points(placesofphysical discontinuity)thislimitfailstoberegular.Asaresult,the
+‘‘reduction’’ of Thermodynamics to Statistical Mechanics fails to hold at such critical phases.
+This fact is key to understanding an argument due to Craig Callender to the effect that the
+thermodynamic limit leads to mistakes in Statistical Mechanics. I discuss this argument and
+argue that the conclusion is misguided. In addition, I discuss an analogous example where a
+genuine physical discontinuity—the breaking of drops—requires the use of inﬁnite
+idealizations.
+r 2005 Elsevier Ltd. All rights reserved.
+Keywords: Thermodynamic limit; Scaling; Theory reduction; Critical phenomena; Idealizations.
+1. Introduction: intertheory relations in physics
+The study of intertheoretic relationships is a prime topic for philosophers of
+science. Typically such studies involve questions about whether one theory reduces
+to another, and if so, what is the best way to characterize this relationship. Most
+contemporary workers in this area pay homage to Ernest Nagel’s seminal discussion
+of theory reduction (Nagel, 1961, Chapter 11). In the crudest form, Nagel and his
+ARTICLE IN PRESS
+www.elsevier.com/locate/shpsb
+1355-2198/$-see front matterr 2005 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.shpsb.2004.05.004
+E-mail address: batterman.1@osu.edu.
+
+
+=== PAGE 2 ===
+
+followers hold that a typically older and coarser theoryTc reduces to a typically
+newer and more reﬁned theoryTf according to the following scheme:
+(N)Tc reduces toTf just in case the laws ofTc arederivable from those ofTf :
+As an example, we can think ofTf as special relativity andTc as the Newtonian
+theory of space and time. Thus the Newtonian theory reduces to the special
+relativistic theory, because some kind of derivational relationship obtains between
+the laws of the two theories. Much work over the years has been devoted to reﬁning
+and elaborating this schema. (Nagel, himself, said nothing remotely so crude.)
+Nevertheless, for our purposes here, I think that this is sufﬁcient to begin with.
+1
+In contrast to this ‘‘philosopher’s conception’’ of reduction, is what I call a
+‘‘physicist’s conception’’. This view was ﬁrst noted and discussed by (Nickles (1973))
+in a paper entitled ‘‘Two Concepts of Intertheoretic Reduction’’. On this view the
+ﬁner theory reduces to the coarser theory in some appropriate limit.
+lim
+/C15! 0
+Tf ¼ Tc. (1)
+Thus, the special theory of relativity reduces to the Newtonian theory of space and
+time in the limit in which the relative velocities of the reference frames are small
+compared with the speed of light.
+Muchofmyrecentworkhasbeenfocusedontheschema(1).
+2 Inparticular,Ihave
+argued that one cannot have interesting philosopher’s reductions, without a
+physicist’s reduction obtaining. Furthermore, and this is the crucial point for the
+current discussion, for most theory pairsT
+f andTc;the physicist’s schema actually
+fails. Thus, most cases of purported reductions between theories will actually fail to
+be reductions at all. The reason for this is really quite simple. The equality in (1) can
+obtain only if the limit is regular. If the solutions of the relevant formulas or
+equationsofthetheoryT
+f aresuchthatforsmallvaluesof/C15theysmoothlyapproach
+the solutions of the corresponding formulas inTc;then the limit is regular and (1)
+will be satisﬁed. For such cases we can say that the ‘‘limiting behavior’’ as/C15! 0
+equals the ‘‘behavior in the limit’’ where/C15¼ 0 :On the other hand, if the behavior in
+the limit is of afundamentally different character than the nearby solutions one
+obtains as/C15! 0 ;then the limit is singular and the schema will fail.
+Examples where the physicist’s schema fails include the short wavelength (l ! 0)
+limit of the wave theory of light and the semiclassical (_ ! 0) limit of quantum
+mechanics. These limits both fail to approach smoothly the solutions to the coarser
+theories—ray optics and classical mechanics, respectively.
+Anotherlimitingrelationshipthatfailstoberegularisthetopicofthispaper—the
+thermodynamic limit of statistical mechanics at critical points. The situation here is
+very subtle indeed and the study of the limiting failures bring much of interest
+physically, mathematically, and philosophically.
+ARTICLE IN PRESS
+1Ontheotherhand,wewillshortlyhavetobecomeabitmoresophisticatedinourunderstandingofthis
+‘‘philosopher’s conception’’ of reduction.
+2In particular, see (Batterman, 2002).
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244226
+
+
+=== PAGE 3 ===
+
+Here, I want to investigate further the consequences of the singular nature of
+schema (1) for understanding the relationships between statistical mechanics and
+thermodynamics. One point I would like to make is that a failure to realize the
+import of this singular relationship has recently led to a mistaken view about the
+role of the thermodynamic limit and the idealizations according to which statisti-
+cal mechanics must treat systems as containing an inﬁnite number of particles.
+In particular, I intend to take issue withCallender’s (2001)claim in ‘‘Taking
+Thermodynamics Too Seriously’’ that such an idealization leads to funda-
+mental mistakes. On the contrary, once we understand that reductive relations
+between thermodynamics and statistical mechanics completely fail at critical points
+and phase transitions, we will see that the inﬁnite idealizations are completely
+justiﬁed.
+The conclusion generalizes. I will consider, by way of further supporting the
+legitimacy of limiting inﬁnite idealizations, a second example. This is the everyday
+phenomenon in which a ﬂuid such as water dripping from a faucet undergoes a
+singular evolution as it breaks apart into drops.Despite obvious differences, the two
+cases are, in fact, quite similar.
+2. The ‘‘received’’ view
+In order for thermodynamics to reduce to statistical mechanics in the
+philosopher’s sense of schema (N), one must be able to derive the thermodynamic
+behavior of a system as captured by the laws of that theory from the statistical
+mechanical laws that take seriously the idea that such a (thermal) system is
+composed of a large number of particles. Quite famously, primarily because of
+Nagel’s presentation, the reduction of thermodynamics to statistical mechanics is
+taken to be the paradigm instance of theory reduction in the physical sciences.
+However, as recent work has shown, this is a mistake.
+3 Many problems arise
+including how one can identify the nonstatistical concepts appearing in thermo-
+dynamics with the statistical/ensemble quantities that play such a crucial role in
+statistical mechanics. Such identiﬁcations or bridge laws are necessary for the
+derivation demanded by schema (N), nevertheless, their validity, to say the least, is
+not at all straightforward.
+Moreseriousisthefactthatatcriticalpoints,itseemsthattherecanbenoschema
+(N)-type derivation whatsoever, even if we were able to solve the various problems
+about bridge laws. This is because the physicist’s schema, (1) is singular at those
+locations in phase. I will say more about this below. For now note that one way in
+which the singular nature of this limit manifests itself is in the failure of so-called
+Mean Field Theory to accurately represent what goes on at criticality. Let me now
+introduce these terms and discuss an important argument leading to what I take to
+be the received view of the relationship between thermodynamics and statistical
+mechanics at critical points.
+ARTICLE IN PRESS
+3See Sklar’sPhysics and chance (Sklar, 1993) for a discussion.
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244 227
+
+
+=== PAGE 4 ===
+
+Consideramagnetmodeledasasystemofspinsonalattice.Themagnetizationof
+the system (in the absence of an external magnetic ﬁeld) is produced by the
+spontaneous alignment of the spins. Such states, again in the absence of an external
+ﬁeld, are degenerate—for every state in which the average magnetizationm of the
+spins points some directionsthere is a thermodynamically equivalent state in which
+it points in the opposite direction. An important quantity for understanding the
+criticalbehaviorofasystemistheso-called‘‘orderparameter’’ whichforthemagnet
+is deﬁned to be average magnetizationm ¼ mðh;TÞwherehis the magnetic ﬁeld and
+T is the temperature. As we see inFig. 1, below the critical temperatureT
+c there are
+two values of the magnetization for every temperatureT, whereas aboveTc the
+magnetization is zero. Therefore, at zero ﬁeld (h ¼ 0) there is a ﬁrst order phase
+transition forToTc and asT ! Tc from below that discontinuity vanishes
+indicating the existence of a second order (or continuous) phase transition at the
+critical point.
+It is well-known that so-called Mean Field Theory gives a qualitatively correct
+characterization of phase transitions in magnetic systems. This theory employs the
+assumption that each spin acts as if it is independent of the others feeling only the
+average (mean ﬁeld) produced by all of the other spins. In making this assumption,
+Mean Field Theory explicitly ignores ﬂuctuations in the ordering of the spins on the
+lattice. This has the unfortunate consequence that Mean Field Theory completely
+failstoreproducetheexperimentallyobserved criticalexponentbthatappears inthe
+scaling law for the magnetization:
+m /jtj
+b, (2)
+where
+t ¼ T /C0Tc
+Tc
+ARTICLE IN PRESS
+TT=Tc
+m
+m=0
+m=ms
+m=-ms
+Fig. 1. Magnetization vs. temperature at zero ﬁeld.
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244228
+
+
+=== PAGE 5 ===
+
+is the reduced temperature describing the deviation of the system from criticality in
+dimensionless units. The Mean Field prediction forb is 1/2, whereas a value much
+closer to .325 is actually observed.
+Mean Field Theory, because it ignores ﬂuctuations, also ignores the fact that near
+criticality the correlation length—roughly, the distance over which signiﬁcant spin
+correlations occur—becomes extremely large and actually diverges at the critical
+point. In fact, though I would not rehearse the argument here, it is possible to use
+MeanFieldTheoryitselftoestimatetheimportanceofsuchﬂuctuations.Asaresult,
+the theory, in effect, predicts its own failure. The argument is due toGinzburg
+(1960).S e eKadanoff (2000, pp. 242–243)andGoldenfeld (1992, pp. 169–172)for
+discussions.
+Instatisticalmechanicseverythermodynamicfunctioncanbedeterminedfromthe
+partition functionZ which is related to the free energyF through the relation
+ZðbÞ¼ e
+/C0bðF ðb;lÞÞ,
+wherel is a some parameter appearing in the system’s Hamiltonian andb is the
+inversetemperature—b ¼ 1 = kT:4 Inparticular,themagnetizationmisdeterminedas
+follows:
+m ¼ q
+qh lnZ.
+For our system ofN spins on a lattice, the partition function is a sum of 2N terms
+representing the different possible conﬁgurations of the spins. Each such term is a
+positive exponential and there is a mathematical result stating that a ﬁnite sum of
+positive exponentials must be an analytic function. It is, therefore,impossible for the
+magnetization to be a nonanalytic function. Phase transitions and, in particular, the
+continuous phase transition at the critical point, are represented in thermodynamics
+asnonanalyticities in the relevant thermodynamic potentials. This leads immediately
+to the conclusion thatfor a system with a ﬁnite number of particles or degrees of
+freedom, there can be no phase transitions . As a result, no derivation of the critical
+behavior described by thermodynamics from statistical mechanical considerations is
+possible. The philosopher’s reduction fails.
+On the other hand, Kadanoff holds that this argument—suggesting as it does that
+nonanalyticities are impossible—is ‘‘spurious’’ (Kadanoff, 2000, p. 238). He believes
+that the theorem is inapplicable since itis possible for nonanalytic behavior to
+appear in systems of inﬁnite size—that is, with inﬁniteN. He says that from this
+argument we must conclude that
+The existence of a phase transition requires an inﬁnite system. No phase
+transitions occur in systems with a ﬁnite number of degrees of freedom.
+(Kadanoff, 2000, p. 238)
+ARTICLE IN PRESS
+4It is an unfortunate convention thatb is also used to represent the exponent in the scaling law for the
+order parameterm. Context should make clear to what it refers.
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244 229
+
+
+=== PAGE 6 ===
+
+Mean Field Theory for inﬁniteN provides aqualitative description of phase
+transitions and critical phenomena in the thermodynamic limit. Quantitatively, it is
+accurate away from critical points but fails at criticality in that (among other things)
+it predicts the incorrect value of 1/2 for the exponentb:The idealization of inﬁnite
+N—the thermodynamic limit—is necessary for the qualitative characterization of
+phase transitions and critical phenomena as Kadanoff’s argument demonstrates, but
+itisinsufﬁcientforanaccuratequantitativedescriptionofwhatgoesonatcriticality.
+Now, I think that it is fair to say that the view of phase transitions and critical
+phenomena as requiring the limit of inﬁniteN is the dominant view among
+physicists.
+5 However, a little reﬂection suggests that this dominant or ‘‘received’’
+view is not quite so straightforward. When pressed with the fact that actual physical
+systems are composed of a ﬁnite number of particles, most people respond by saying
+something along the following lines: ‘‘Well, the thermodynamic limit is really an
+idealization, what we mean is that actual systems approximate in some way this
+idealized limiting case’’.
+6 In other words, they hold that from a purely mathematical
+perspective, we do need the thermodynamic limit. But in the real world of physics,
+our appeal to such a limiting idealization is really a pragmatic move that will help us
+deal with very messy detailed calculations.
+Such a response is clearly at odds with Kadanoff’s conclusion that inﬁnite systems
+arenecessary for phase transitions. I think that this ‘‘elaborated received view’’,
+which endorses Kadanoff’s conclusion while simultaneously appealing to the
+pragmatic need to approximate, is an unstable position. On the one hand, perhaps
+we should take seriously the fact that real systems are ﬁnite and search for an
+account of phase transitions and critical phenomena in terms of the statistical
+mechanical partition function for systems with ﬁniteN. On the other hand, if we do
+this,werunafoulofthetheoremmentionedabovetotheeffectthatphasetransitions
+for ﬁniteN systems are impossible.
+In the next section I will consider an argument to the effect that we ought to look
+for an account of phase transitions that takes seriously the fact of ﬁniteN and
+dismisses the relevance of the theorem.
+3. Taking thermodynamics too seriously?
+Callender (2001), I think, can be understood as reasoning to this effect. He argues
+that when we assert that the thermodynamic limit is essential for characterizing
+phase transitions and critical phenomena, we are ‘‘taking thermodynamics too
+seriously’’—that is, we are taking the thermodynamic representation of phase
+transitions and critical phenomena as nonanalytic behaviors in the various
+thermodynamic potentials too literally.
+ARTICLE IN PRESS
+5There are dissenters, however. See, e.g. (Gross, 2001).
+6I am not saying that this is Kadanoff’s view of the matter.
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244230
+
+
+=== PAGE 7 ===
+
+He recognizes the mathematical theorem we have been discussing:
+The problem is that phase transitions—as understood by statistical mechanics—
+canonlyoccurininﬁnitesystems,yetthephenomenathatwearetryingtoexplain
+clearly occur in ﬁnite systems (Callender, 2001, p. 549).
+Further, after allowing that from apragmatic point of view the statistical
+mechanicalidealizationofrealsystemsashavinganinﬁnitenumberofmoleculesisa
+very good thing—such an idealization enables us to ignore boundary effects, it
+enables us to minimize (in fact eliminate ﬂuctuations), etc.—Callender still insists
+thatthereissomethingphilosophicallymistakenaboutsuchanidealization.Hesays,
+[o]n the other hand, the thermodynamic limit may not be a good approximation
+inamorefoundational,philosophical sense.... [E]venifthethermodynamiclimit
+can be given a full philosophical justiﬁcation, that justiﬁcation cannot turn an
+inﬁnity into a ﬁnite quantity. We can grant that it is often ﬁne to substitute ﬁnite
+NwithinﬁniteNforpurposesofpractical physics.But ifthesystemisreallyﬁnite
+N,whatwehaveuntilwesaymoreisamathematicalproofthatitcannotundergo
+a phase transition. So we ought to grant that, practically speaking, it is often a
+good approximation, but point out that this just does not touch this particular
+problem....
+[T]he fact that thermodynamics treats phase transitions as singularities does not
+imply that statistical mechanics must too. To assume that would be to take
+thermodynamics too seriously.... Thermodynamics represents (for pretty good
+reasons) phase transitions as singularities, and statistical mechanics (for pretty
+good pragmatic reasons) takes this to mean a non-analyticity in the partition
+function. But from a foundational perspective we cannot endorse this knee-jerk
+identiﬁcation of mathematical deﬁnitions across levels (Callender, 2001, p. 550).
+We take thermodynamics too seriously when (from the point of view of statistical
+mechanics) we take seriously the thermodynamic conception of a phase transition as
+mathematically represented by a discontinuity or singularity in a thermodynamic
+potential such as the free energyF. Thus, this must mean that such a mathematical
+representation is somehow to be faulted. In other words, the equations of
+thermodynamics must be physically inadequate. Hence, the inadequacy of the
+thermodynamic equations is ultimately responsible for our (apparently) mistaken
+conviction that the thermodynamic limit is required to ‘‘derive’’ phase transitions
+from fundamental statistical mechanics. To the contrary, Callender insists that
+analytic partition functions must govern the phase transitions we see in real systems
+and must ‘‘in some sense approximate a singularity’’ (Callender, 2001, p. 555).
+I will argue below that this view is inadequate. Thus, I want to champion the
+manifestly outlandish proposal that despite the fact that real systems are ﬁnite, our
+understanding of them and their behavior requires, in a very strong sense, the
+idealization of inﬁnite systems and the thermodynamic limit. Before getting to this,
+let me try to provide another perspective on why one might think that appeal to the
+thermodynamic limit and inﬁniteN is a mistake—why, that is, we might be taking
+thermodynamics too seriously.
+ARTICLE IN PRESS
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244 231
+
+
+=== PAGE 8 ===
+
+3.1. A more sophisticated attempt at reduction
+As I mentioned earlier, schema (N)—the philosopher’s view of reduction—is too
+crude as it stands.7Often in attempting to reduce a theoryTc toTf in the
+philosopher’ssenseweﬁndthatweneedtoamendorcorrectthereducedtheoryTc:8
+Mostphysicists,now,wouldaccepttheideathatourconceptoftemperatureandour
+conception of other ‘‘exact’’ terms that appear in classical thermodynamics such as
+‘‘entropy’’, need to be modiﬁed in light of the alleged reduction to statistical
+mechanics. Textbooks, in fact, typically speak of the theory of ‘‘statistical
+thermodynamics’’ allowing explicitly for ﬂuctuations that one observes in thermo-
+dynamic systems. The very process of ‘‘reduction’’ often leads to a corrected version
+of the reduced theory.
+Schaffner, for instance, has developed a relatively sophisticated version of the
+Nagelian reduction strategy that explicitly takes this fact into consideration
+(Schaffner, 1976, p. 618). Let us call this schema (NN), for ‘‘neoNagelian’’.
+(NN)T
+c reduces toTf if and only if there is a corrected version ofTc (call itT/C3
+c)
+such that
+1. The primitive terms ofT/C3
+c are associated via reduction functions (or bridge laws)
+with various terms ofTf :
+2. T/C3
+c is derivable fromTf when it is supplemented with the reduction functions
+speciﬁed in 1.
+3.T/C3
+c correctsTc in that it makes more accurate predictions than doesTc:
+4. Tc isexplainedbyTf inthatTc andT/C3
+c arestrongly analogoustooneanother,and
+Tf indicates whyTc works as well as it does in its domain of validity.
+Here the idea is that we can have a reduction of thermodynamics to statistical
+mechanics if there is a corrected version of the orthodox thermodynamic theory—
+statisticalthermodynamics—thatplaystheroleofT
+/C3
+c inschema(NN).Therealwork
+to be done is in spelling out what ‘‘strongly analogous’’ means in clause 4. One way
+of attempting to elucidate this notion is by appeal to the existence of a limiting
+relationship between statistical thermodynamics and the orthodox theory along the
+lines suggested by schema (1).
+On the assumption that the relationship between thermodynamics and statistical
+mechanics ﬁts this sophisticated neoNagelian reductionprogram, we can see why we
+would be taking thermodynamics too seriously when we need to appeal to the
+thermodynamic limit of statistical mechanics to explain/reduce the thermodynamic
+theory. In other words, perhaps we can account for the ‘‘apparent’’ necessity of the
+inﬁniteN idealization by noting that we have failed to realize thatorthodox
+thermodynamicstooliterallytreatsphasetransitionsasreal discontinuities. Once we
+ARTICLE IN PRESS
+7Again, Nagel, himself, would take (N) to be a caricature of the position.
+8SeeSklar (1967)andSchaffner (1976).
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244232
+
+
+=== PAGE 9 ===
+
+see that the theory is really corrected in the process of reduction, this literal reading
+will be seen to be too strong. Callender actually suggests something like this in a
+different context: He holds that the statistical mechanical identiﬁcation of a
+stationary probability distribution with thermal equilibrium results from a failure to
+realize that (orthodox) thermodynamics too literally treats equilibrium states as
+completely constant and ﬂuctuation free.
+9 Statistical thermodynamicsðT/C3
+c Þclearly
+does not make this mistake.
+So on the current proposal, the idealization of inﬁniteN is misguided, at least in
+part because the reduced theory—orthodox thermodynamics—needs to be corrected
+and not read at face value. Had theorists a more sophisticated, less naive, view of
+reduction, they would not have taken thermodynamics so seriously and they would
+not have made this mistake. Despite this argument, I still believe that the conclusion
+that the inﬁnite idealization is unwarranted, is mistaken. In the next section I begin
+to argue for this claim.
+4. Taking thermodynamics seriously
+Let me begin by making a distinction between two types of discontinuities,
+broadly construed—‘‘physical discontinuities’’ and ‘‘mathematical discontinuities’’.
+As an instance of a physical discontinuity we can take the phenomenon with which
+we are concerned, namely, the observedqualitative distinctions between the distinct
+phases of a magnet (above and below the critical point) or the distinctions between
+the phases of a ‘‘ﬂuid’’—gaseous, liquid, and solid. Another example of a physical
+discontinuity, to be discussed in detail in the next section, is the obvious
+discontinuity that obtains when a dropletbreaks off from a stream of water coming
+out of a faucet.
+These physical discontinuities are represented mathematically as blow-ups or
+singularities in the equations that purportedly describe the behaviors of the various
+systems. In the former these are mathematical singularities (kinks in the derivatives
+of the thermodynamic potentials) in the (static or quasistatic) thermodynamic
+equations. In the latter case, the phenomenon is dynamical and the mathematical
+discontinuities are singularities in the Navier–Stokes equations of ﬂuid dynamics—
+inﬁnities that develop inﬁnite time in the evolution of the ﬂuid as it drips from a
+faucet.
+The real question is whether the singularities in the mathematical representations
+(the equations) have genuine physical signiﬁcance. Callender, as I understand him,
+answers this question in the negative. He agrees withLiu (1999)that ‘‘[a]ctual
+systems are ﬁnite and phase transitions in them are never real singularities’’
+(Callender, 2001, p. 550, note). I take it, given my distinction above, that this means
+ARTICLE IN PRESS
+9Callender (2001, pp. 545–547)thinks that the identiﬁcation of such Gibbsian ensembles with
+thermodynamical equilibrium states is a mistake. I take it that his reasons for this can be seen as resting
+upon an endorsement of an understanding of reduction as involving the correction of the reduced
+(thermodynamic) theory according to something like schema (NN).
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244 233
+
+
+=== PAGE 10 ===
+
+(i) there are no physical discontinuities and (ii) the mathematical discontinuities are,
+therefore, nonrepresentative.
+Now, perhaps, one might argue that the qualitative distinctions between phases of
+a magnet or of a ﬂuid system are not genuine physical discontinuities. Ido not really
+see how the argument might go other than to appeal to the fact that the equations
+are mathematically singular and this requires, as we have seen, the ‘‘unrealistic’’
+idealization of the thermodynamic limit. But, if the distinction between physical and
+mathematical discontinuities makes sense, this is to beg the question. Besides, it
+surely does seem very plausible to describe the breakup of water into droplets as a
+genuine physical discontinuity. Itis truethat wedo notseethetopological changein
+the phase transition (say when we witness water boiling in a tea kettle) in the same
+wayweseeastreamofﬂuidbreakapart.Butthat,byitself, doesnotshowthat there
+is no genuine physical discontinuity in the thermodynamic system.
+My contention is that thermodynamics is correct to characterize phase transitions
+as real physical discontinuities and it is correct to represent them mathematically as
+singularities. Further, without the thermodynamic limit, statistical mechanics would
+completely fail to capture a genuine feature of the world. Without the
+thermodynamic limit, in fact, statistical mechanics is incapable even of establishing
+the existence of distinct phases of systems .
+If one takes the view that there are no real physical discontinuities (recall
+Callender’s endorsement of Liu’s claim that ‘‘phase transitions [in ﬁnite systems] are
+never real singularities’’), then I suppose there is no reason for statistical mechanics
+to employ the thermodynamic limit. But if thereare genuine physical discontinuities
+and it is a goal of statistical mechanics to describe them and to explain how they are
+possible, then this move simply will not work. In Section 5 I will discuss the case of
+breakingdroplets.Theaimtherewillbe,inpart,toprovidefurtherevidencethatreal
+physical discontinuities do exist, and require inﬁnite idealizations for their
+explanation and understanding. For now, let me continue to examine the
+thermodynamic situation on the assumption that critical phenomena are real
+physical discontinuities.
+One might think of Mean Field Theory as an attempt to realize Schaffner’s more
+sophisticated version (NN) of the philosopher’s reductive derivation of thermo-
+dynamic behavior from statistical mechanical assumptions. As Mean Field Theory
+involves the assumption that a given spin on a lattice behaves as if it were
+independentofitsneighborsandfeelsonlytheaverageﬁeldproducedbyalltheother
+spins, it cannot truly be a realization of the reductive program, since it involves a
+rather fundamental idealization about the reducing theory. However, Mean Field
+Theory is quite accurate in reproducing the noncritical behavior of thermodynamic
+systems and it does, in fact, provide qualitative accounts of phase transitions. It
+succeeds in this, in part, because it employs the limit of inﬁniteN.
+Now, Callender appeals to Mean Field Theory in support of our ‘‘faith’’ in the
+view that statistical mechanics can proceed without the thermodynamic limit. He
+notes that ‘‘[w]e have mean ﬁeld theory, which is very accurate except near some
+critical points’’ (Callender, 2001, p. 551). This is true, but Mean Field Theory does
+employ the thermodynamic limit! So how, exactly can Callender appeal to Mean
+ARTICLE IN PRESS
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244234
+
+
+=== PAGE 11 ===
+
+Field Theory as a (partial) justiﬁcation for our belief that we can derive
+approximations to (orthodox) thermodynamic singularities? Now, I do not
+think that anyone would want to eliminate all idealizations from physics—that
+would be like claiming that we could not speak of frictionless planes, etc. And
+fact, away from those pesky critical points the limit of inﬁniteNi s relatively
+unproblematic. It is similar in certain respects to the idealization of friction-
+less planes. For instance, we can explain ﬂuctuations appearing inactual ﬁnite
+systems, in a way analogous to being able to deal with the introduction of a bit of
+friction that real inclined planes possess. We can make precise predictions about the
+extent of ﬂuctuations in large but ﬁnite systemsaway from criticality despite (in fact,
+becauseof)ouruseoftheinﬁniteNidealization.And,wemaybeabletosayinwhat
+sense our ﬁnite systems actually approximate a singularity atﬁrst order phase
+transitions.
+OnewayofexpressingthisistosaythattheidealizationofinﬁniteNiscontrollable
+in those contexts—away from critical points. The idea that some idealizations are
+controllable and others uncontrollable is prevalent in physics. However it is a
+difﬁcult task indeed to try to make the distinction precise. Very roughly, let us say
+that an idealization is controllable means that it is possible, via appeal to theory, to
+compensate in some way for the idealization. SeeSklar (2000)for an extended
+discussion of this distinction.
+Thus, in some sense, Mean Field Theory enables one to provide something like a
+physicist’s reduction of statistical mechanics to (corrected) thermodynamics
+according to schema (1)at least for systems not at criticality . As a result, away
+fromcriticalpointswemayverywellexpecttosatisfy,withvariouscaveats,themore
+sophisticated philosopher’s model of reduction as well.
+Nevertheless, as we have seen above, and as Callender himself acknowledges,
+Mean Field Theory fails to characterize correctly the detailed thermodynamics of
+critical systems. That theory is completely incapable of dealing with the ﬂuctuations
+that arise in the neighborhood of a critical point. At critical points itdoesn’t even let
+us talk about approximation in the relevant sense . The reason is that at critical points
+the limitN !1 is uncontrollable—that is, it is singular and the behavior asN !
+1 isqualitatively distinctfromthebehavioratN ¼1 :Wemaygetnumericalresults
+for large ﬁniteN that ‘‘look close’’ to the nonanalytic results for inﬁniteN. But
+‘‘closeness’’ in this sense is not relevant: smooth curves are smooth no matter how
+sharp they appear. And, if there exist genuine physical discontinuities, then their
+faithful mathematical representation demands curves with kinks. A sense of
+‘‘approximation’’ that appeals to how similar the smooth curves are to the kinky
+curves is inapposite.
+Let me summarize the discussion of this section. As Callender notes, ‘‘Thermo-
+dynamics represents (for pretty good reasons) phase transitions as singularities, and
+statistical mechanics (for pretty good pragmatic reasons) takes this to mean a non-
+analyticity in the partition function’’ (Callender, 2001, p. 550). Thermodynamics
+represents phase transitions and critical phenomena as singularities for very good
+reasons indeed. It does so becausereal systems exhibitphysical discontinuities. As a
+result, I think we should take thermodynamicsvery seriously on this point. We
+ARTICLE IN PRESS
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244 235
+
+
+=== PAGE 12 ===
+
+should not fault thermodynamics for representing such discontinuities as singula-
+rities.
+One might diagnose the failure of the naive derivational reduction as the result of
+taking (orthodox) thermodynamics too seriously. Instead, perhaps we should look
+for some corrected account whereby we can ﬁnd analytic partition functions
+governing phase transitions that, as Callender says, ‘‘in some sense approximate a
+singularity’’ (Callender, 2001, p. 550).
+But the failure of schema (1) at criticality indicates that eventhis neoNagelian
+reduction strategy must fail. The limit is singular and, as a result, no such corrected,
+approximate account is possible. This manifests itself in the failure of Mean
+Field Theory to correctly produce the exponentb in Eq. (2). The idea that we
+can ﬁnd analytic partition functions that ‘‘approximate’’ singularities is mis-
+taken, because the very notion of approximation required fails to make sense when
+the limit is singular. The behavior at the limit (the physical discontinuity, the phase
+transition) isqualitatively different from the limiting behavior as that limit is
+approached.
+Asweknow,itispossibletoprovideamathematicalproofthatforanyﬁniteNthe
+partitionfunctionZisanalytic.ThelimitN !1 ;therefore,isanecessarycondition
+for obtaining mathematical discontinuity inZ. But the failure of that limit to be
+regular tells us further that Mean Field Theoryeven in the thermodynamic limit
+cannot correctly represent the real physical discontinuities that are accurately
+captured by the thermodynamic equations. New statistical mechanical techniques
+(renormalization group theory) are required to deal with the singularities in the
+thermodynamic limit at critical points. In particular, the renormalization
+group techniques take advantage of the fact that at criticality, there is no
+characteristic length scale. These techniques, in effect, exploit this fact about
+the singularity to develop scaling or similarity solutions that can then be employed
+to explain the observed universal behavior. I would not go into the details here,
+but they are similar (no pun intended) to the techniques to be discussed in the
+next section. Furthermore, it is no accident that the techniques are related to one
+another. The problems of dealing with singularities in these equations are quite
+analogous.
+As a consequence of the singular nature of the thermodynamic limit at critical
+points, I believe that one ought to give up on the goal of reducing one theory to the
+other. The singularnature ofthethermodynamic limit suggests thatmuchofinterest
+remains to be investigated by examining the details of the singular asymptotic
+domain.Ittherefore,suggeststhattheideaofinﬁniteNisnotsoreadilydismissedas
+Callender and others would like it to be.
+Tobemoreprecise,theworryabouttheinﬁniteNidealizationper seisnotthereal
+issue.In some cases that idealizationiscontrollableand provides norealinterpretive
+problems. The real issue is the existence of genuine physical discontinuities—real
+singularities in the physical system. One needs mathematics that will enable one to
+represent these genuine physical discontinuities. As a result, there is something
+deeply right about the thermodynamic representation of the singularities—some-
+thing that needs to be taken very seriously. Callender is right to argue that a ‘‘knee-
+ARTICLE IN PRESS
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244236
+
+
+=== PAGE 13 ===
+
+jerk’’ identiﬁcation of singularities between the theories should be avoided. But, the
+fact that the limit is singular at critical points is really an indication that the
+idealization cannot be dismissed so readily.
+The next section discusses the other example mentioned earlier. This concerns
+understandingofthestructureofbreakingdroplets.Heretoowewillseethatthereis
+something deeply correct about the ‘‘unrealistic’’ idealization that accompanies the
+hydrodynamical equations required for the representation of real singularities. This
+istheidealizationthatwearedealingwithacontinuum,asopposedto,onceagain,a
+ﬁnite collection of molecules governed by molecular dynamical equations.
+5. Breaking droplets
+The problem of describing and explaining the nature of drop formation in ﬂuids
+received its ﬁrst systematic investigation in the 19th century. Despite this, it is fair to
+saythatrealprogressonthisproblemhasbeenachievedonlywithinthelast40years
+or so with much work being accomplished in the last decade. One reason for this is
+the recognition that various linear theories were inadequate, and that a full theory
+would involve the investigation of the nonlinear Navier–Stokes equations for free
+surface ﬂows.
+10
+As water drips from a faucet it undergoes a topological change—a single mass of
+water changes into two or more droplets. This is perhaps the most common example
+of a hydrodynamical discontinuity that arises in a ﬁnite period of time. It was
+recognized early by Lord Rayleigh that drops form as a result of a competition
+betweengravitationalforceandsurfacetension.Hewasabletodeterminethetypical
+size of a droplet and was able to set the time scale upon which a drop would form
+(Eggers, 1997, p. 866).
+Contemporary work has focused on the shape of the ﬂuid interface near the time
+of breakup. As the interface breaks, the thickness of the ﬂuid must become very
+small. In fact, it must necessarily become smaller than any other macro-length scale
+that ﬁgures in the problem, such as the nozzle diameter. This has the consequence
+that the ﬂuid thickness is essentially the only length (prior to reaching atomic scales)
+that can effect the shape of the ﬂuid near the singularity or breakup. In particular, it
+is natural to assume that the shape of the ﬂuid at different times near the breakup
+will differ only by a change in scale. In such a situation it is reasonable to look for a
+similarity solution describing the radius of the drop as a function of the vertical
+lengthz
+0 and the timet0 both measured from the point of breakup atz0 andt0
+(z0 ¼ z /C0z0 andt0 ¼ t /C0t0). (SeeFig. 2.) Such a solution has the form
+hðz0;t0Þ¼ f ðt0ÞaHðzÞ, (3)
+ARTICLE IN PRESS
+10 SeeEggers (1997)for a recent review.
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244 237
+
+
+=== PAGE 14 ===
+
+where11
+z ¼ z0
+f ðt0Þb .
+EggersandDupont(1994)arguethatasimilaritysolutionofthisformdoesindeed
+hold for the problem at hand. In fact they argue that such a solution is in good
+agreementwithsolutionstotheNavier–Stokesequation(orapproximationsthereof)
+for low viscosities.
+12
+This similarity solution must break down as the radius of the ﬂuid neck reaches
+atomic scales. There, surely, microscopic structure becomes relevant for a complete
+description of the breakup. The analogy between this and the thermodynamic
+problematic discussed in the last section is clear: how can a continuum theory
+provide a realistic representation of the breakup when ultimately (from a
+‘‘foundational, philosophical’’ perspective) the particulate makeup of the system
+ARTICLE IN PRESS
+(z0,t0)
+z' = z - z0
+t' = t - t0
+neck radius
+Fig. 2. Neck radiush vs.z.
+11 Thescalingexponentsaandbareconstantstobedetermined,asarethefunctionsfandH.Notealso,
+thatb;here, has no special meaning and is different from both its occurrences earlier in the paper.
+12 Shi, Brenner, and Nagel (1994)argue that Eggers’ and Dupont’s solution needs to be corrected as
+there are perturbations (noise) that play an essential role in determining the character of the ﬂuid shape
+near breakup.
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244238
+
+
+=== PAGE 15 ===
+
+plays a role in its behavior? From such a (microscopic) perspective there can be no
+discontinuity just as there can be no real singularity at criticality from the point of
+view of a theory that takes seriously the fact that statistical systems have ﬁniteN.
+Perhaps we take the hydrodynamic theory too seriously when we useit to represent
+thebreakupoftheﬂuidneckintodroplets.Perhapsweneedtoincludeamicroscopic
+length scale in the full description of the droplet problem.
+Following the breakup, the new surfaces that appear (on the neck side and on the
+droplet side) are again governed by similarity solutions to the Navier–Stokes
+equation. So an important question is whether we need to include a microscopic
+length scale in our attempt to ﬁnd a continuation of the Navier–Stokes equation
+from before breakup to after breakup—that is, across the singularity. If such a scale
+were required, then the hydrodynamic description would not be self-consistent, and
+we would have reason to suspect that wewere taking that theory too seriously.
+However, Eggersshows,forscalessufﬁciently greaterthan themicroscopic,that it
+is possible to continue the solution for the before-the-breakup ﬂuid to that for the
+after-the-breakup formation of drops and satellite droplets (Eggers, 1994)(Eggers,
+1997,pp.894–904).Thus,thehydrodynamictheoryofthebreaking—thetopological
+transition—isself-consistentand‘‘thedynamicsveryquickly‘forget’themicroscopic
+details of breaking’’. (Eggers, 1998, p.306). As long as we are interested in scales
+larger than the microscopic, the hydrodynamic description is completely adequate.
+A couple of caveats are in order here: ﬁrst, it is true (as noted in footnote 12) that
+perturbations disturb the Eggers-Dupont similarity solution. Nevertheless, as
+Brenner, Shi, and Nagel (1994)suggest, thermal ﬂuctuations producing capillary
+waves cause instabilities in the primary similarity solution which themselves lead to
+structures that are self-similar.
+Second, there is the fact that the shape of the breakup region depends upon the
+ratio of the viscosity of the internal ﬂuid,m
+int; to the viscosity of the external
+surroundingmedium,mext:The shape ofwater drippingfrom a faucet surrounded by
+air (Figs. 3and4) in whichmintbmextis different than that of a ﬂuid falling through
+anotherﬂuidofapproximatelythesameviscosity(Fig.5)wheremint/C25mext:13 Despite
+this both are, in fact, robust across a wide range of parameters.14 Interestingly,
+Doshi et al. have recently demonstrated a third regime, characterized bymint5mext
+that fails to exhibit universal behavior (Doshi et al., 2003). The breakup proﬁles in
+this latter regime are nonuniversal and dependupon initial and boundaryconditions
+in a way that the other two regimes do not.
+These caveats aside, the existence of the similarity solution in the variablez
+indicates the universality of the shape of breaking droplets. For instance, compare
+the cone-to-sphere shape inFig. 3with the shape of the interface between the about-
+to-break satellite drop at the top ofFig. 4. This has the same cone-to-sphere shape
+indicating that ‘‘[t]he point of breakup would have looked the same even if it had
+ARTICLE IN PRESS
+13Compare the shapes of the cone at the breakup inFigs. 3and5.(Figs. 3–5are courtesy of Sidney R.
+Nagel).
+14 In particular, they are robust or universal over a fairly wide range of the relative viscosities of inner
+and outer ‘‘ﬂuids’’.
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244 239
+
+
+=== PAGE 16 ===
+
+beenformedfromawavetossedintotheairattheshoresofLakeMichigan’’(Nagel,
+2001, p. 27). Thus, the details of how the drops are formed are essentially irrelevant
+for their character upon breaking. This is a characteristic feature of universality.15
+Physical discontinuities, typically are represented by singularities and divergences
+in their representative equations. Such singularities or divergences are often
+associated with the existence of scaling and, hence, are indicators of universality.
+We see this in the case of breaking droplets and in the case of thermodynamics at
+critical points. The determination of the scaling exponents (e.g.a andb in Eq. (3))
+provides a means to delimit the class of systems that exhibit the same (universal)
+behavior.
+6. Conclusion
+As I noted in the beginning, many physical theories are related to one another by
+limits that are singular—situations in which for some relevant parameter,/C15;schema
+(1) fails. Statistical mechanics and thermodynamics provide an interesting pair in
+thatthelimiting relationshipissingularatcriticalpoints.Yetforotherphases,much
+ARTICLE IN PRESS
+Fig. 3. Water droplet at breakup.
+15See (Batterman, 2002) for an extended discussion.
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244240
+
+
+=== PAGE 17 ===
+
+work has been done to demonstrate the existence of this thermodynamic limit—that
+is, the regularity of schema (1).
+Several interesting things are going on here. First, there are two limits involved:
+/C15The thermodynamic limit:
+1
+N ! 0.
+/C15The limit in which the temperatureT ! Tc from below in the case of a magnet.
+If we take the thermodynamic limit ﬁrst, and then letT ! Tc; we will have
+nonanalyticities in the statistical mechanical equations that mimic the kinks in the
+thermodynamic equations. On the other hand, if we letT ! T
+c ﬁrst, we will not get
+a phase transition for any ﬁniteN no matter how large. This is to say that the two
+limits do not commute.
+Second, it is exactly at critical points (second order phase transitions) where the
+thermodynamic limit is singular. In other words, as we have seen, Mean Field
+ARTICLE IN PRESS
+Fig. 4. Water droplet after breakup.
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244 241
+
+
+=== PAGE 18 ===
+
+Theory fails. The idealization becomes uncontrollable and new techniques are
+required to understand the subtle structures that emerge at those locations in phase.
+Itisherethatweencountersophisticatedattemptstodealwiththesingularnatureof
+the limit. In effect, the success of these attempts provides a vindication of the
+universal thermodynamic representation of the phenomena. But, such a vindication
+is most deﬁnitely not a derivation.
+16
+The analogy with the case of drop breakup is close indeed. The hydrodynamic
+equationsmustblowupasthebreakuppointisapproached.Attemptsmustbemade
+to see if it is possible to justify a ‘‘macroscopic’’ (that is, hydrodynamic) description
+of the physical discontinuity.
+ARTICLE IN PRESS
+Fig. 5. Two ﬂuid drop off.
+16ItisinterestingtonotethatinGibbs’famousworkElementary principles in statistical mechanics(1902)
+nomentionofphasetransitionsorcriticalphenomenaappeardespitethefactthatGibbswasanexperton
+the subject. The book develops, as far as possible, a reductive relationship between thermodynamics and
+statistical mechanics that holds away from lines of phase transition and critical points. One reason for
+Gibbs’ caution in advocating ‘‘thermodynamic analogies’’ as opposed to philosopher’s bridge laws
+connectingconceptsofthe twotheories, wassurelyhis recognitionthatsuch connectionsfail at criticality.
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244242
+
+
+=== PAGE 19 ===
+
+In both situations, as the singularities are approached, there is a loss of a
+characteristic length scale. This leads to the hypothesis of scale invariance and the
+idea that the large scale features of a system are virtually independent of what goes
+on at a microscopic level. In the thermodynamic case we see that the bulk properties
+of the thermodynamic systems are independent of the detailed microscopic,
+molecular constitution of the physical system. Similarly in the case of drop
+formation, the ultimate breakup proﬁle is independent of the microscopic details of
+the breaking.
+Weoughttotakeveryseriouslytheideathatrealphysicalsystems displaygenuine
+physical discontinuities—critical behavior in thermodynamic systems and ﬁnite time
+topological changes in the evolution of hydrodynamic free surface ﬂows. And, we
+ought to take very seriously the idea that the full understanding of such physical
+discontinuities can be achieved only though a detailed investigation of the
+asymptotics of the governing equations. The appeal to asymptotics is essential to
+a foundationally respectable understanding of these physical discontinuities.
+Acknowledgements
+I would like to thank Ge´rard Emch, Malcolm Forster, Leo Kadanoff, Nicholaos
+Jones, Sid Nagel, and Sheldon Smith for helpful comments, criticism, and
+discussion. A version of this paper was presented at the ESF Conference on
+Philosophical and Foundational Issues in Statistical Physics, Utrecht 28–30
+November 2003. (Special thanks to Jos Ufﬁnk and Dennis Dieks for a wonderful
+conference.)
+References
+Batterman, R. W. (2002). The devil in the details: Asymptotic reasoning in explanation, reduction, and
+emergence.Oxford studies in philosophy of science . Oxford: Oxford University Press.
+Brenner, M. P., Shi, X. D., & Nagel, S. R. (1994). Iterated instabilities during droplet ﬁssion.Physical
+Review Letters, 73(25), 3391–3394.
+Callender, C. (2001). Taking thermodynamics too seriously.Studies in History and Philosophy of Modern
+Physics, 32(4), 539–553.
+Doshi, P., Cohen, I., Zhang, W. W., Siegel, M., Howell, P., Basaran, O. A., & Nagel, S. R. (2003).
+Persistence of memory in drop breakup: The breakdown of universality.Science, 302, 1185–1188.
+Eggers, J. (1994). Theory of drop formation.Physics of Fluids, 7, 941–953.
+Eggers, J. (1997). Nonlinear dynamics and breakup of free-surface ﬂows.Reviews of Modern Physics ,
+69(3), 865–929.
+Eggers, J. (1998). Hydrodynamic singularities. In S. C. Mu¨ller, J. Paris, & W. Zimmermann (Eds.),A
+perspective look at nonlinear media: From physics to biology and social sciences (pp. 305–312). Berlin:
+Springer.
+Eggers, J., & Dupont, T. F. (1994). Drop formation in a one-dimensional approximation of the
+Navier–Stokes equation.Journal of Fluid Mechanics, 262, 205–221.
+Gibbs, J. W. (1902).Elementary principles in statistical mechanics: Developed with especial reference to the
+rational foundation of thermodynamics . New York: Yale University Press (also published in 1982 by
+Woodbridge, Connecticut: Ox Bow Press).
+ARTICLE IN PRESS
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244 243
+
+
+=== PAGE 20 ===
+
+Ginzburg,V.L.(1960).Someremarksonphasetransitionsofthesecondkindandthemicroscopictheory
+of ferroelectric materials.Soviet Physics, Solid State, 2, 1824.
+Goldenfeld, N. (1992).Lectures on phase transitions and the renormalization group . Frontiers in Physics.
+Vol. 85. Reading, MA: Addison-Wesley.
+Gross, D. H. E. (2001).Microcanonical thermodynamics: Phase transitions in ‘‘small’’ systems . Singapore:
+World Scientiﬁc.
+Kadanoff, L. P. (2000).Statistical physics: Statics, dynamics, and renormalization . Singapore: World
+Scientiﬁc.
+Liu, C. (1999). Explaining the emergence of cooperative phenomena.Philosophy of Science ,
+66(Proceedings), S92–S106.
+Nagel, E. (1961).The structure of science: Problems in the logic of scientiﬁc explanation . New York:
+Harcourt, Brace, & World.
+Nagel, S. R. (2001). Shadows and ephemera.Critical Inquiry, 28(1), 23–39.
+Nickles, T. (1973). Two concepts of intertheoretic reduction.The Journal of Philosophy, 70(7), 181–201.
+Schaffner,K.(1976).Reductionisminbiology:Prospectsandproblems.InR.S.Cohen,etal.(Eds.),PSA
+1974 (pp. 613–632) (Philosophy of Science Association). Dordrecht: Reidel.
+Shi, X. D., Brenner, M. P., & Nagel, S. R. (1994). A cascade structure in a drop falling from a faucet.
+Science, 265(5169), 219–222.
+Sklar, L. (1967). Types of inter-theoretic reduction.The British Journal for the Philosophy of Science , 18,
+109–124.
+Sklar, L. (1993).Physics and chance: Philosophical issues in the foundations of statistical mechanics .
+Cambridge: Cambridge University Press.
+Sklar, L. (2000).Theory and truth: Philosophical critique within foundational science . Oxford: Oxford
+University Press.
+ARTICLE IN PRESS
+R.W. Batterman / Studies in History and Philosophy of Modern Physics 36 (2005) 225–244244

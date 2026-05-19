@@ -1,0 +1,1252 @@
+=== PAGE 1 ===
+
+Why Equilibrium Statistical Mechanics 
+Works: Universality and the 
+Renormalization Group* 
+Robert W. Battermantl 
+Department of Philosophy, Ohio State University 
+Discussions of the foundations of Classical Equilibrium Statistical Mechanics (SM) 
+typically focus on the problem of justifying the use of a certain probability measure 
+(the microcanonical measure) to compute average values of certain functions. One 
+would like to be able to explain why the equilibrium behavior of a wide variety of 
+distinct systems (different sorts of molecules interacting with different potentials) can 
+be described by the same averaging procedure. A standard approach is to appeal to 
+ergodic theory to justify this choice of measure. A different approach, eschewing ergo- 
+dicity, was initiated by A. I. Khinchin. Both explanatory programs have been subjected 
+to severe criticisms. This paper argues that the Khinchin type program deserves further 
+attention in light of relatively recent results in understanding the physics of universal 
+behavior. 
+1. Introduction. In the introduction to his important book Mathemat- 
+ical Foundations of Statistical Mechanics, A. I. Khinchin (1949) pro- 
+vides a "methodological characterization" of statistical mechanics 
+(SM). He remarks on what many before and many since have noted: 
+namely, that the successes of SM are due in large part to its abstraction 
+from the details of the systems it purports to describe. The aim of SM 
+*Received March 1997. 
+tSend reprint requests to the author. Department of Philosophy, 350 University Hall, 
+Ohio State University, Columbus, OH 43210. 
+:This material is based upon work supported by the National Science Foundation 
+under Award No. SBR-9529052. I would like to thank Roger Jones, David Malament, 
+and Abner Shimony for helpful comments and encouragement. A version of this paper 
+was read at the 1997 APA Central division meetings in Pittsburgh. I would especially 
+like to thank Yuri Balashov for his insightful criticisms as commentator there. I hope 
+I have been able to address some of his worries. 
+Philosophy of Science, 65 (June 1998) pp. 183-208. 0031-8248/98/6502-0001$2.00 
+Copyright 1998 by the Philosophy of Science Association. All rights reserved. 
+183 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 2 ===
+
+ROBERT W. BATTERMAN 
+is to explain the properties and behaviors of a wide class of systems 
+(mechanical systems) by considering only the most fundamental me- 
+chanical properties common to these systems. 
+Those general laws of mechanics which are used in statistical me- 
+chanics are necessary for any motions of material particles, no mat- 
+ter what are the forces causing such motions. It is a complete ab- 
+straction from the nature of these forces, that gives to statistical 
+mechanics its specific features and contributes to its deductions all 
+the necessary flexibility. This is best illustrated by the obvious fact 
+that if we modify our point of view on the nature of the particles 
+of a certain kind of matter and on the character of their interaction, 
+the properties of this kind of matter established by methods of 
+statistical mechanics remain unchanged by these modifications be- 
+cause no special assumption was made in the process of deduction 
+of these properties. (Khinchin 1949, 8) 
+Khinchin's book, in essence, attempts to provide an explanation for 
+why the prescriptions of equilibrium SM (particularly, the so-called 
+Gibbs phase averaging method) work for computing equilibrium val- 
+ues of various thermodynamical quantities. That is, he is concerned to 
+justify the computation of phase averages using Gibbs' method in 
+which observed values for thermodynamic quantities are computed us- 
+ing the microcanonical measure. (To be explained below.) 
+Ergodic theory has been thought by many to play a fundamental 
+role in justifying Gibbs' method. In particular, numerous attempts both 
+before and after Khinchin's work have tried to justify the use of the 
+microcanonical measure for computing phase averages by appealing 
+to the ergodic nature of the dynamical motions of the systems under 
+consideration. 
+On the other hand, it is well-known that Khinchin's program for 
+explaining the success of equilibrium SM largely avoids an appeal to 
+ergodicity. The features of his proposal which do most of the explana- 
+tory work are (i) the special nature of the functions representing themac- 
+roscopic observables and (ii) the large number of degrees of freedom 
+characteristic of systems exhibiting thermodynamic behavior. These two 
+features are primarily responsible for the applicability of the formalism 
+of the theory of probability. In particular, they allow for the use of the 
+Central Limit Theorem (CLT) as a means for determining the disper- 
+sions of values for the macroscopic observables about their average val- 
+ues. Nevertheless, Khinchin's program has been criticized, primarily for 
+failing to justify the use of the microcanonical distribution. 
+My concern in this paper is to re-examine the Khinchin type pro- 
+gram for equilibrium SM. In particular, I want to ask why equilibrium 
+184 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 3 ===
+
+WHY EQUILIBRIUM STATISTICAL MECHANICS WORKS 
+SM should work virtually independently of the details of the micros- 
+tructure of the systems. What accounts for the fact, noted by Khinchin 
+in the passage quoted earlier, that statistical mechanical arguments 
+work because of, and not just in spite of, its "complete abstraction" 
+from the nature of the forces and types of interactions responsible for 
+the actual motions of the systems being studied? These are questions 
+concerning the explanation of a kind of universality. One wants to 
+know why the method of equilibrium SM-the Gibbs' phase averaging 
+method-is so broadly applicable; why, that is, do systems governed 
+by completely different forces and composed of completely different 
+types of molecules succumb to the same method for the calculation of 
+their equilibrium properties. I shall propose a framework within which 
+these explanatory why-questions may profitably be discussed. 
+As I see it, the ergodic accounts and the Khinchin type program 
+both seek to address the question of why equilibrium SM works. How- 
+ever, they differ somewhat in how that question is to be understood. 
+The ergodic approaches construe the question rather narrowly, asking 
+for a justification of the use of the microcanonical measure for com- 
+puting phase averages. On my view Khinchin's program should be seen 
+as providing the beginning of a answer to the question more broadly 
+construed: Why do the prescriptions of equilibrium SM yield proper 
+results virtually without regard for any of the microscopic details of 
+the systems being investigated? As the argument develops, I hope this 
+distinction will come more clearly into focus. 
+In the next section I shall present a few of the details of the ergodic 
+theory "explanation" for why equilibrium SM works, and then briefly 
+consider some powerful objections to the account. Section 3 outlines 
+the essential features of Khinchin's program for SM and discusses its 
+limitations. In particular, Khinchin provides arguments that apply di- 
+rectly only to systems of noninteracting components; whereas, the sys- 
+tems treated in SM are of necessity composed of energetically inter- 
+acting components. I call this the "paradox of interaction." Section 4 
+focuses on two further problems with the proposal. First, thermody- 
+namic systems can undergo phase transitions even with weakly inter- 
+acting components. Second, Khinchin's proposal does not seem to ad- 
+dress the question that is the primary concern of the ergodic approach, 
+namely, justifying the use of the microcanonical measure. In addition, 
+this section presents the details of an objection to the ergodic proposal 
+due to Earman and Redei which has the virtue (or so I shall argue) of 
+indicating an avenue through which one might approach the entire 
+question of accounting for the success of equilibrium SM. This avenue 
+is explored in the final section where I outline the renormalization 
+group framework and the explanation of universality it offers. I argue 
+185 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 4 ===
+
+ROBERT W. BATTERMAN 
+that this framework can fruitfully be employed to investigate the ex- 
+planatory question with which we are concerned. 
+2. The Ergodic Proposal. The traditional approach to explaining why 
+equilibrium SM works appeals to ergodicity. Let me briefly sketch the 
+simplest proposal-one that can be criticized on many different fronts 
+but which nevertheless clearly provides the main motivation for the 
+appeal to ergodicity. To begin we need a definition of this key concept. 
+Consider a dynamical system to be a triple (F, 4, /u). F is a phase 
+space-a space of possible states of the system. 4' : F -- r is a one 
+parameter group of automorphisms (the flow) with time t the param- 
+eter. 4t(x) is the state of the system at time t if the state at t = 0 was 
+x for x E r. Finally, u is a normalized measure on F that is invariant 
+under the flow. Invariance means that for any measurable set A C F, 
+u(ut(A)) = u (A) for all t. 
+One useful characterization of ergodicity is the following: A dynam- 
+ical system is ergodic if and only if it is metrically transitive or metri- 
+cally indecomposable. This means that it is not possible to partition 
+the phase space F into two or more regions A and B of nonzero measure 
+which are invariant under the flow. In other words, the system is met- 
+rically transitive (and hence ergodic) just in case for any two regions 
+A, B such that A n B = 0 and A U B = F which are invariant under 
+the flow (for all t, 4,(A) C A and ,t(B) C B) either u(A) = 0 and u(B) 
+= 1 orju(A) = 1 andt(B) = 0. 
+The so-called ergodic theorem asserts the equality of infinite time 
+averages with phase averages if and only if the system is ergodic. More 
+precisely, we define the infinite time average of a functionf(x),f(x), as 
+follows: 
+f(x)lim 
+1 
+0to+ T 
+f(x) = lim O+f(kt(x))dt. 
+T-> oo T to 
+The phase average off(x) is given by 
+f(x) = ff(x)d(x). 
+The ergodic theorem states the equivalence of the following two claims: 
+(i) For any integrable phase functionfand for almost all x E F, 
+f(x) = f(x). 
+(ii) The system (F, 4), u) is ergodic. 
+For Hamiltonian systems the flow ,t in the phase space F = S22N is 
+generated by Hamilton's equations of motion. If the system is conser- 
+186 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 5 ===
+
+WHY EQUILIBRIUM STATISTICAL MECHANICS WORKS 
+vative, the motion is confined to a 2N - 1 dimensional hypersurface 
+of constant energy, FE. There is a normalized, 0,-invariant measure 
+which corresponds to a uniform distribution over this energy surface 
+called the microcanonical measure. Let this measure be denoted by u. 
+Ergodicity guarantees that the microcanonical measure, ,u, is the unique 
+stationary measure on the energy surface that is absolutely continuous 
+with the Lebesgue measure.' 
+On what I'm calling the "ergodic" proposal, one assumes that equi- 
+librium values of macroscopic thermodynamic quantities can be iden- 
+tified with infinite time averages of appropriate phase functions. One 
+tries to justify this assumption by appeal to the fact that the measure- 
+ment of the thermodynamic quantity will typically take a long time 
+relative to the time scale on which the microscopic processes (e.g., col- 
+lisions between molecules) are occurring; and so macroscopic mea- 
+surements can be nicely approximated by infinite time averages. Since 
+calculating the infinite time averages involves completely solving the 
+equations of motion for an N-component system (where for a typical 
+gas N is on the order of 1023), this, by itself, is a hopeless task. On the 
+other hand, ergodicity guarantees that such time averages f are equal 
+almost always to microcanonical phase averages f, and the latter are 
+easy to calculate. Since ergodicity also guarantees, as we have seen, the 
+uniqueness of the microcanonical measure u, we have the beginning of 
+an explanation for why the Gibbs' averaging method works. Ergodicity 
+clearly plays a central role in this account. 
+As already noted, this explanation can be criticized at a number of 
+points. First, since we do often witness systems that are not in equilib- 
+rium, it is difficult to maintain the identification of thermodynamical 
+values with infinite time averages. Second, there is a serious problem 
+with interpreting the "almost always" or "almost everywhere" quali- 
+fication in the identification of f with f given ergodicity. This is, in 
+effect, equivalent to asking why the measure ji should be taken to rep- 
+resent physical probability. The uniqueness of,u as an invariant mea- 
+sure on FE takes us some way towards answering this question, but the 
+extent to which it succeeds remains a matter of debate.2 
+A recent paper by Earman and Redei (1996) continues the critique 
+of the explanatory efficacy of ergodic theory. They too hold that er- 
+1. A measure, ,u, is absolutely continuous (a.c.) with another u' iff for any measurable 
+set A C r,,u'(A) = 0 [only if t(A) = 0]. In other words, u' agrees with,u on assignments 
+of zero measure to sets in F. 
+2. See Malament and Zabell 1980 for the positive argument and Sklar 1993 for a detailed 
+critique. 
+187 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 6 ===
+
+ROBERT W. BATTERMAN 
+godic theory is irrelevant for explaining the success of equilibrium SM. 
+They offer two main reasons for this claim. First and foremost, they 
+point to the fact that the systems typically treated by SM have not been 
+demonstrated to be ergodic (Earman and Redei 1996, 69-70). Only 
+very idealized models of systems, e.g., an ideal gas modeled as a system 
+of perfectly hard spheres in a box, have been proven to be ergodic. 
+Real gas molecules do not interact as perfectly elastic spheres. As they 
+say, "the evidence for the applicability of ergodicity where it is required 
+is non-existent. Furthermore the evidence against the applicability is 
+strong" (Earman and Redei 1996, 70). This latter evidence comes from 
+the so-called KAM theorem which leads one to expect, for molecules 
+interacting with more realistic potentials, that the systems will not be 
+ergodic: There will be invariant regions in the phase space (for a wide 
+range of energies) where trajectories remain confined. The existence of 
+these regions (called "invariant tori") allow for the decomposition of 
+the system's phase space into disjoint regions in which a trajectory 
+beginning in one such region will remain forever within that region. 
+Such a phase space will not be metrically transitive and, hence, neither 
+will the system be ergodic. Given this fact about most systems treated 
+by SM, it does indeed seem like ergodicity is a red herring. 
+Earman and Redei reiterate an argument of Sklar's to express their 
+second major complaint concerning the explanatory significance of er- 
+godic theory. Even for systems that are ergodic, ergodicity is neither 
+necessary nor sufficient for explaining the success of equilibrium SM. 
+Ergodicity is not sufficient, since a system with few degrees of free- 
+dom-three hard spheres in a box-can be ergodic. But, it is quite clear 
+that it makes no sense to speak of such a system as possessing ther- 
+modynamic properties; in particular, it makes no sense to maintain that 
+it can be in a state of thermodynamic equilibrium. Somehow, the fact 
+that the systems treated by SM possess large numbers of components 
+or many degrees of freedom must play an essential role in the expla- 
+nation we seek. Ergodicity is not necessary according to Earman and 
+Redei because they buy Sklar's argument that there is a correct, full 
+explanation which makes no reference whatsoever to ergodicity. Here, 
+as do Earman and Redei, it is best to quote Sklar himself. 
+Ergodic theory considers the question: Why does the natural prob- 
+ability distribution [the microcanonical measure] work? The an- 
+swer it gives is the proven equality of phase-averages to infinite 
+time averages. But there is a much simpler answer. And it is correct. 
+And it is the full answer. And it is totally independent of any er- 
+godic results. It goes like this: How a gas behaves over time de- 
+pends on (1) its microscopic constitution; (2) the laws governing 
+188 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 7 ===
+
+WHY EQUILIBRIUM STATISTICAL MECHANICS WORKS 
+the interaction of its micro-constituents; (3) the constraints placed 
+upon it; (4) the initial conditions characterizing the microstate of the 
+gas at a given time. (Sklar 1973, 210) 
+Sklar emphasizes the importance of this last clause. 
+The actual distribution of initial states is such that calculations 
+done by the Gibbs method, with the natural probability distribu- 
+tion over the ensemble and the natural reduction to phase average, 
+'works.' This is a matter of fact, not of law. These 'facts' explain 
+the success of the Gibbs method. In a clear sense they are the only 
+legitimate explanation of its success. (Sklar 1973, 210) 
+So the explanatory value of ergodicity, and ergodic theory in gen- 
+eral, has been questioned on two fronts. First, it seems that most sys- 
+tems treated in equilibrium SM fail to be ergodic. This follows from 
+the KAM theorem and is the major criticism by Earman and Redei. 
+Second, even if a system is ergodic, it isn't clear to what extent that 
+property is either necessary or sufficient for explaining the success of 
+the Gibbs' averaging method. This is the main thrust of Sklar's critique. 
+On the one hand, these criticisms both seem to suggest that one 
+should try to explain the success of equilibrium SM without appeal to 
+ergodicity. In this respect they accord with Khinchin's exploration of 
+"[t]he possibility of a formulation without the use of metric indecom- 
+posability [i.e., metric transitivity or ergodicity]" (Khinchin 1949, 62). 
+On the other hand, Sklar's suggestion that the proper explanation of why 
+the Gibbs method works appeals directly to the microscopic constitu- 
+tion of the system, the nature of its interactions, and the actual distri- 
+bution of its initial conditions. In this respect it appears totally at odds 
+with Khinchin's claim that SM works in large part exactly because of its 
+abstraction from these details. Sklar's suggestion about what provides 
+the full and correct explanation for why the Gibbs method works clearly 
+has allegiance to a reductionist, perhaps, Deductive-Nomological(D-N) 
+approach to explanation: A proper explanation of thermodynamic, 
+macroscopic behavior will involve appeal to the exact nature of the sys- 
+tem's microscopic constitution and the laws governing its evolution de- 
+termined by the nature of the forces of interaction among the microcon- 
+stituents, etc. Surely this is at odds with Khinchin's point of view. 
+In what follows, I would like to explore the possibility that a differ- 
+ent kind of explanatory framework is required to account for the suc- 
+cess of equilibrium SM. In particular, I want to address the questions 
+raised earlier in the introduction: What explains the large degree of 
+abstraction from the details to which Khinchin refers. As already 
+noted, this is a request for an explanation of a kind of universal be- 
+189 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 8 ===
+
+ROBERT W. BATTERMAN 
+havior. Khinchin shows how the CLT can be used to calculate disper- 
+sions of phase functions about their microcanonical averages. That is, 
+he uses the Gaussian distribution, which is the limiting distribution in 
+the CLT to provide asymptotic estimates for the values of the ther- 
+modynamic quantities (as the number of components of the systems 
+gets large). The explanatory question we want to answer is why this 
+should work for such a wide variety of systems. 
+3. Khinchin's Proposal. Khinchin proposes to reformulate the problem 
+of justifying the identification of infinite time averages with phase av- 
+erages in the language of probability theory. Suppose, for the phase 
+function of interest, f that its value on the energy surface differs very 
+little from its average value f-suppose, that is, that it is a nearly 
+constant function on FE. More precisely, suppose that the phase 
+dispersion of f relative to the microcanonical measure is small, 
+(f - f)2 _ 8, e small. Given this, it follows that the phase dispersion 
+of the time average, f will be at least as small:3 
+(f - f)2 (f - f)2 (1) 
+The idea then is to employ the CLT to show that as the number of 
+components of the system gets large, (f - f)2 -> 0. Hence, asymp- 
+totically we see that for these functionsf, the probability goes to zero 
+that the time average differs from the phase average by any specified 
+amount. 
+What allows one to employ the CLT in this manner? Here we need 
+to briefly look at what the theorem says. The CLT is a statement about 
+the limiting behavior of the distribution function for sums of random 
+variables as the number of random variables in the sums tends to in- 
+finity. In its simplest form we assume that the individual random vari- 
+ables (Si) are independent and identically distributed. We are interested 
+in the distribution of the sum S(n) = En Si. The CLT states that the 
+3. Equation (1) says that the phase dispersion of the time averagef cannot be greater 
+than the phase dispersion off itself. Equality holds if and only iffis a constant function. 
+A simple proof of this inequality is the following (Truesdell 1961, 47): For h any summ- 
+able function, the Schwartz inequality gives (i )2 h2 . Now take the phase average of 
+both sides: (h)2 < h2. By the Birkhoff ergodic theorem h2 = h2, and so, (h)2 ? h2. Now 
+let h = f - f this yields (1). 
+190 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 9 ===
+
+WHY EQUILIBRIUM STATISTICAL MECHANICS WORKS 
+nim p (S(n) < ) 1 e-t22 dt.4 
+That is, the probability that the normalized sum S(n)lavn has a value 
+less than x converges, as n -> oo, to the Gaussian or normal distribution. 
+The normalization factor is clearly proportional to Jn which expresses 
+the square root law of fluctuations. This means that the typical effect 
+of several random contributions to the sum is of the order of V/n. Since 
+n increases more slowly than n, this tells us that the effect of the 
+random contributions to the collective behavior increases much more 
+slowly than does the number of terms in the sum. 
+Khinchin is able to apply this theorem for the estimation of phase 
+dispersions of functions f representing thermodynamic quantities in 
+part because he assumes that thesef's have a particular structure. They 
+are so-called "sum functions." They have essentially the same form as 
+the sum S(n). As he says, the theorem will apply in part because of 
+"the peculiar properties of mechanical systems treated in statistical 
+physics (breaking up into a large number of components), and partially 
+[because of] the specific properties of the functions with which we are 
+dealing (these are, as a rule, the 'sum-functions', i.e., the sums of func- 
+tions each depending on the dynamical coordinates of only one com- 
+ponent" (Khinchin 1949, 63). In fact, that the functions he considers 
+are sum functions is responsible for his being able to assume their near 
+constancy on the energy surface in the first place. This is an expression 
+of the law of large numbers. 
+It is important to understand exactly how restrictive Khinchin's pro- 
+posal is. By abandoning the goal of showing that a system, (F, 4t, u), 
+is ergodic, Khinchin gives up on showing that time averages equal 
+phase averages for almost all phase functions f Instead, his aim is to 
+argue that certain special functions-sum functions which presumably 
+represent macroscopic or thermodynamic quantities-are "ergodic." 
+That is, that the time averages for these special functions are nearly 
+equal to their phase averages.5 
+Khinchin 1949, Section 23 and Chapter 6, treats in some detail the 
+example of a monatomic ideal gas. This is a system composed of a 
+4. Note that here we have assumed that the expectations of Si, Si equal zero for all i. 
+5. There is a serious worry really about how realistic the restriction to sum functions 
+is. Despite what Khinchin says, many functions of interest in statistical mechanics do 
+not have this special form. At best we must take sum functions to be a proper subclass 
+of functions which exhibit the appropriate "nearly constant" behavior on the energy 
+surface; and hence the explanatory program outlined here would need to be extended 
+to the full class of functions of interest. 
+191 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 10 ===
+
+ROBERT W. BATTERMAN 
+large number of molecules that are treated as point particles. The total 
+energy of this system is simply the sum of the kinetic energies of the 
+individual molecules. That is, there is no mutual potential energy or 
+interaction energy.6 The energy, therefore, is a sum function. 
+An important quantity is the so-called structure function for the 
+system. For a system with Hamiltonian H(x) the structure function is 
+given by: 
+Q(x) = S(E- H)dx2N. 
+It is the "volume" of the surface of constant energy with respect to the 
+Lebesgue measure, and plays the role of the normalizing factor in the 
+definition of the microcanonical distribution: 
+6 (E- H) 
+fr f (E - H)dx2' 
+Therefore, the structure function clearly plays a role in determining the 
+average value of any arbitrary phase function on the energy surface FE: 
+f(x) = f(x)du(x). 
+Khinchin is able to show that the probability distribution for the energy 
+of a given component of a system is determined by the structure func- 
+tions of that component itself, the structure functions for the other 
+components, and the structure function for the entire system. He shows 
+how one can find approximate expressions for the structure function 
+of systems like the ideal monatomic gas that are composed of a large 
+number of similar components. (The components will all have structure 
+functions of the same basic form.) As he says, "[u]sing the methods of 
+the theory of probability we will be able to establish for the structure 
+functions of such [large] systems the approximate expressions which 
+are to a large extent independent of the nature of individual compo- 
+nents" (Khinchin 1949, 75). 
+In effect Khinchin shows how one can treat the energy, say, of each 
+of the components of the ideal gas as independent and identically dis- 
+tributed random variables. Their common structure functions determine 
+their common distribution function. One can then employ the CLT to 
+determine the asymptotic value for the energy of a large component of 
+the system-a component composed of many molecules. The result, of 
+course, is that the energy will be Gaussian distributed and strongly 
+6. The importance and ramifications of this idealization will be discussed below. 
+192 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 11 ===
+
+WHY EQUILIBRIUM STATISTICAL MECHANICS WORKS 
+peaked about the mean with root-mean-square deviation proportional 
+to the square root of the number of components, N, as N -- ?. 
+The entire argument depends on the possibility of treating a large 
+system as being decomposable into components. Furthermore, it is nec- 
+essary that the phase functions representing the thermodynamic quan- 
+tities for the entire system be sums of phase functions of these com- 
+ponents. For example, if the energy E = E(x1, ..., x2N) can be written 
+as the sum E = El(xl, . . ., x) + E2(x,+l, . .., 2N) we say that the 
+system can be decomposed into two components represented by the 
+coordinates (x, . . ., xl) and (xi+, . . ., x2N). These components each 
+have their own phase spaces F1 and F2 whose direct product is the phase 
+space F for the whole system. Likewise each component has a structure 
+function Q2 and Q2. The structure function for the entire system is the 
+convolution of the structure functions of its components: 
+Q(x) = 
+Fn,(QY)2( - y)dy. 
+Of course, for an n component system, the structure function is the n-fold 
+convolution of the structure functions of the components (Khinchin 
+1949, 41). 
+This assumption of decomposability is essential for the program. 
+But it brings with it what Khinchin (1949, 41) takes to be a "meth- 
+odological paradox." We can call this the "paradox of interaction." 
+The decomposability of the system into components in the sense just 
+described excludes the possibility that the components interact with one 
+another energetically. As Khinchin says, 
+[i]ndeed, if the Hamiltonian function, which expresses the energy 
+of our system, is a sum of functions each depending only on the 
+dynamic coordinates of a single particle (and representing the 
+Hamiltonian function of this particle), then, clearly, [Hamilton's 
+system] of equations ... splits into component systems [of equa- 
+tions] each of which describes the motion of some separate particle 
+and is not connected in any way with other particles. Hence the 
+energy of each particle, which is expressed by its Hamiltonian func- 
+tion, appears as an integral of equations of motion, and therefore 
+remains constant. (Khinchin 1949, 42) 
+The paradox arises because it is a presupposition of the applicability 
+of SM that the particles (say, the molecules of a gas) are "in a state of 
+intensive energy interaction, where the energy of one particle is trans- 
+ferred to another (for instance by means of collisions)" (Khinchin 1949, 
+41-42). 
+193 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 12 ===
+
+ROBERT W. BATTERMAN 
+Khinchin's response to the paradox of interaction is to state that we 
+must really think of the particles as "only approximately isolated en- 
+ergetically components." He holds that we must, when being precise, 
+allow for correlations between components which would strictly speak- 
+ing block the kind of decomposition into individual components we 
+have been considering. He says, 
+inasmuch as forces of interaction between the particles manifest 
+themselves only at very small distances, such mixed terms in the 
+expression of energy, representing mutual potential energy of par- 
+ticles, will be (in the great majority of points of the phase space) 
+negligible as compared with the kinetic energy of particles or with 
+the potential energy of external fields. In particular they will con- 
+tribute very little in evaluating various averages.... However, 
+these mixed terms that are neglected, from the point of principle 
+play a very important role, since it is precisely their presence that 
+assures the possibility of an exchange of energy between the par- 
+ticles, on which is based the whole of statistical mechanics (Khin- 
+chin 1949, 42-43) 
+The paradox of interaction is clearly a concern. And, Khinchin's 
+rather handwaving response surely requires deeper justification. Two 
+responses to this problem immediately present themselves. First, 
+one might try to make precise Khinchin's vague claim that the "mixed 
+terms" representing the mutual potential energy will be negligible 
+in comparison with the terms for the kinetic energy of the components 
+and the energies of external fields. C. Truesdell (1961, 55) formulates 
+this as a program for further study: Khinchin's argument has depended 
+on the separability of the Hamiltonian; namely, that H(x) = 
+Z= 1 Hi(x). For a separable Hamiltonian, though, for each component, 
+Hi we know that Hi(xi) = constant is an integral of the motion, and 
+so there is no interaction at all. Truesdell sees Khinchin as imagining 
+that the Hamiltonian for the real system is best expressed in the fol- 
+lowing form: 
+N 
+H(x) = Hi(x,) + 6Hin (xl, x2,. XN), 
+i=1 
+and allowing 6 -> 0. That is, according to Truesdell, Khinchin's results 
+can be represented as holding in the following limit: 
+lim lim. 
+N---o -> 0 
+194 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 13 ===
+
+WHY EQUILIBRIUM STATISTICAL MECHANICS WORKS 
+But, Truesdell argues that "physically adequate theorems should refer 
+to the inverted limit":7 
+lim lim. 
+-- 0 N->oo 
+While this formalizes Khinchin's handwaving, as far as I know, there 
+are no exact results referring to the "inverted limit." Furthermore, 
+while I believe it is clear that the inverted order of the limits is more 
+realistic, it is not so obvious (to me at least) that there is a physical 
+justification for letting a -> 0 after taking the limit of large systems. 
+The second approach to the paradox of interaction is to keep 6 > 0 
+and see if one can still show that the phase dispersion of the appropriate 
+phase functions gets small as the number of components of the system 
+gets large. This is the aim of the so-called "Theory of the Thermody- 
+namic Limit." In other words, the goal is to try to prove limit theorems 
+for systems with interacting components as N -> oo, and the volume 
+V -- oo but where the density N/V remains constant. This program has 
+been quite successful. Work by Ruelle (1969), Lanford (1973), and oth- 
+ers have led to rigorous theorems demonstrating the existence of the 
+thermodynamic limit for systems with more realistic interaction poten- 
+tials. The potentials for which such limits exist must satisfy so-called 
+stability and tempering conditions. The stability condition demands 
+that the potential be bounded "from below." Crudely speaking, this 
+assures that an infinite number of particles will not "collapse" into 
+some bounded spatial region. The tempering condition guarantees that 
+the strength of the interaction between particles falls off sufficiently as 
+their separation increases. 
+Results such as these lead one to expect that even for systems with 
+interacting components we can expect Khinchin-type "Central Limit- 
+ing behavior": For the right sort of phase functions, their values on a 
+surface of constant energy will be peaked around the most probable 
+value with narrow dispersions determined by the Gaussian law-that 
+is, with their dispersions asymptotically proportional to the number of 
+components. Mazur and van der Linden (1963), in fact, explicitly dem- 
+onstrate that Khinchin's asymptotic formula for the structure function 
+of a system of noninteracting components, also holds for systems in- 
+teracting with more realistic potentials. 
+4. Problems with Khinchin's Program. There are two main problems 
+with the program outlined in the last section. First, the limit theorems 
+7. See Truesdell 1961, 55. I have corrected a missprint in the specification of the order 
+of these limits in Truesdell's paper. 
+195 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 14 ===
+
+ROBERT W. BATTERMAN 
+can fail, even for systems with weakly interacting components if the 
+system is undergoing a phase transition. Even "small" interaction 
+terms can combine to realize large effects when a system is at a critical 
+point. This fact is, of course, explicitly recognized by those people in- 
+vestigating the thermodynamic limit. Nevertheless, it would be nice to 
+have a unified account of large systems encompassing systems both 
+near and far from their critical points. I shall have more to say about 
+such a framework in the next section. 
+Second, there is a sense in which the Khinchin type programs com- 
+pletely fail to answer the main question to which the ergodic proposal 
+addressed itself. This failing has been explicitly recognized by Truesdell 
+and Sklar. For instance, Sklar (1993, 163) notes that "the Khinchin 
+theorem only tells us that there is a 'high probability asymptotically 
+going to one' that a system in a given micro-state will have its infinite 
+time average of the appropriate phase function equal to the phase av- 
+erage of that function." Furthermore, he argues that demonstrating 
+this probability one claim is not sufficient. After all, these probabilities 
+are themselves being computed with respect to the microcanonical mea- 
+sure. But it is the justification of the use of the microcanonical measure 
+which is exactly at issue. As we saw earlier in Section 2, ergodicity is 
+invoked in the attempt to justify the use of this measure for computing 
+phase averages. But on the current proposal, we are trying to do with- 
+out having to prove the system to be ergodic. 
+Suppose that we have failed to notice some global constant of mo- 
+tion other than the energy; e.g., suppose angular momentum is also a 
+conserved quantity. This means that the system's actual state is con- 
+fined to a subspace of the energy surface of dimension 2N - 2. The 
+Khinchin type results show that, asymptotically, there is a zero prob- 
+ability that the time average off differs from the phase average off on 
+the 2N - 1 dimensional energy surface. But, relative to the microca- 
+nonical measure on the energy surface, the subspace to which the sys- 
+tem is actually confined has measure zero. In this situation, the result 
+of calculating phase averages with respect to the microcanonical mea- 
+sure on the full energy surface and identifying these with the values for 
+thermodynamic quantities will generally yield completely erroneous re- 
+sults. Of course, if the system is ergodic, then we know there are no 
+global constants of motion that we have missed. But, the entire point 
+of Khinchin's program is to make an "end run" around having to 
+demonstrate ergodicity. It looks like the move to focus on the large 
+number of components of the systems treated by SM, and the special 
+nature of the phase functions typically representing thermodynamic 
+quantities has not helped with the fundamental question addressed by 
+the ergodic proposal outlined in Section 2. 
+196 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 15 ===
+
+WHY EQUILIBRIUM STATISTICAL MECHANICS WORKS 
+Faced with the fact that most systems treated by SM are not ergodic, 
+as the KAM theorem demonstrates, Wightman has made the following 
+proposal. Given the applicability of the KAM theorem we have a sys- 
+tem whose energy surface 1E can be decomposed into at least two in- 
+variant regions of nonzero Lebesgue measure, one of which is ergodic 
+and the other not. Wightman (1983, 20) suggests that perhaps, as N 
+and V get large, the relevant thermodynamic observables are repre- 
+sented by phase functions that are "insensitive to the non-ergodic por- 
+tion of the flow even if its relative phase volume does not go to zero." 
+The focus on large N and V, as well as on particular phase functions 
+exhibits a clear affinity with the Khinchin type, thermodynamic limit 
+proposals.8 
+However, Earman and Redei raise the following objection to Wight- 
+man's proposal. Let us call the ergodic region A and the nonergodic 
+"KAM" region B. In this situation there are many normalized &,- 
+invariant measures that are a.c. with respect to the Lebesgue measure 
+other than the microcanonical measure,u. Earman and Redei construct 
+the following family of measures: 
+u = A + (1 - 8)1 (0 8 e 1). (2) 
+Here ",uA" is the unique (since the flow on A is ergodic) normed invar- 
+iant measure on A a.c. with respect to the Lebesgue measure defined 
+as follows: 9 
+PA() un A) 
+,u(A) 
+And, #j is any normed, a.c., invariant measure whose support is B. By 
+construction, for any e, u, is a normed, &,-invariant, a.c. measure on 
+the entire energy surface FE. 
+If we compute the phase average off with respect to ji we get the 
+following: 
+(A) f t(x) d(x) + (1 - ) f(x)d (x) (A) JTE E 
+B 
+(Recall that u is the microcanonical measure.) 
+The objection is that by adjusting e one can make the phase average 
+of the observable represented byfas insensitive to the ergodic portion 
+of the flow (that is, region A) as one would like. In other words, if e is 
+8. I will suggest below that what one needs to show is that the calculated averages of 
+the functions are insensitive to the nonergodic protion of the flow. 
+9. See Earman and Redei 1996, 72. 
+197 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 16 ===
+
+ROBERT W. BATTERMAN 
+small, then f is dominated by the second term in the equation above. 
+In such a situation, it is surely to be expected that f, will yield incorrect 
+predictions for the actual value of the thermodynamic observable rep- 
+resented by the functionf But, as Earman and Redei (1996, 72) note, 
+"ergodic theory does not explain why this [is to be expected]." It seems 
+to me that we must grant Earman and Redei's conclusion. Ergodic 
+theory does not explain why we should expectf to yield poor values 
+for the thermodynamic quantities when e is sufficiently small. Never- 
+theless, I think that there is some deep merit to Wightman's proposal 
+not considered by Earman and Redei. In the next section, I shall de- 
+scribe a framework that offers us the promise of determining for which 
+values of e we can expect averages with respect to , to yield reasonable 
+results. The idea is to ask to what extent e may be diminished and yet 
+in the limit of large N and V, we can still expect the Gaussian distri- 
+bution to emerge. In effect, what we are asking for is an account of the 
+robustness or universality of the Gaussian distribution or, equivalently, 
+of Central Limiting behavior. 
+5. The Renormalization Group. In the last section, I noted that the limit 
+theorems established in the rigorous theory of the thermodynamic 
+limit, while extending the results of Khinchin, do not hold when the 
+system is at a critical point. Systems undergoing phase transitions re- 
+quire different treatment. At the critical point, components of the sys- 
+tem that are widely separated spatially become strongly correlated. In 
+the language of the thermodynamic limit, this would mean that the 
+tempering condition fails to obtain for such systems. 
+It turns out that systems undergoing phase transitions typically ex- 
+hibit the following property: Their behavior at the critical point is char- 
+acterized by a small set of dimensionless numbers called "critical ex- 
+ponents." What is truly remarkable about these numbers is their 
+universality: It is a well-established experimental fact that systems as 
+diverse as different fluids composed of different kinds of molecules with 
+different forces of interaction between them, and even lattice systems 
+such as ferromagnets, have critical behavior characterized by the same 
+critical exponents. In other words, the critical behavior of systems 
+whose components and interactions are radically different is virtually 
+identical. Hence, such behavior must be largely independent of the 
+details of the microstructures of the various systems. This is known in 
+the literature as the "universality of critical phenomena." 
+Surely one would like to account for this universality. The so-called 
+"renormalization group" provides the desired explanation. Let me give 
+a broad outline of the form this explanation takes. 
+198 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 17 ===
+
+WHY EQUILIBRIUM STATISTICAL MECHANICS WORKS 
+Every system, say each different fluid, is represented by a function- 
+its Hamiltonian. The Hamiltonian characterizes the kinds of interac- 
+tions between the system's components (or degrees of freedom), the 
+effects of external fields acting upon the system, etc. When the system 
+is not in the critical regime, its different components are correlated 
+(because of interactions) only weakly with one another. However, when 
+a system is near its critical point the "length" of the range of correla- 
+tions between the different degrees of freedom increases. In fact, at the 
+critical point, this so-called "correlation length" diverges to infinity. 
+The divergence of the correlation length is intimately associated with 
+the system's critical behavior. It means that correlations at every length 
+scale (between near as well as extremely distant components) contribute 
+to the physics of the system at its critical point. In effect, this constitutes 
+a highly singular mathematical problem, one which is completely in- 
+tractable. While it is relatively easy to deal exactly with correlations 
+that obtain between pairs of particles, the situation is completely hope- 
+less when one must consider correlations between three or more in- 
+deed more than 1023-particles. The guiding idea of the renormaliza- 
+tion group method is to find a way of turning this singular problem 
+into one which is regular and tractable. This miraculous alchemy is 
+effected by transforming the problem into one of analyzing the topo- 
+logical structure of an appropriate abstract space-the space of Ham- 
+iltonians. 
+One introduces a transformation on this space that maps an initial 
+physical Hamiltonian describing a real system to another Hamiltonian 
+in the space. The transformation preserves, to some extent, the form 
+of the original physical Hamiltonian so that when the interaction terms 
+are properly adjusted (renormalized), the new renormalized Hamilto- 
+nian describes a system exhibiting the same or similar thermodynamical 
+behavior. Most importantly, however, the transformation effects a re- 
+duction in the number of coupled components or degrees of freedom 
+within the correlation length. Thus, the new renormalized Hamiltonian 
+describes a system which presents a more tractable problem. It is to be 
+hoped that by repeated application of this renormalization group trans- 
+formation the problem becomes more and more tractable until one can 
+solve the problem by relatively simple methods. In effect, the renor- 
+malization group transformation eliminates those degrees of freedom 
+(those microscopic details) which are inessential or irrelevant for char- 
+acterizing the system's dominant behavior at criticality. 
+In fact, if the initial Hamiltonian describes a system at criticality, 
+then each renormalized Hamiltonian must also be at criticality. The 
+sequence of Hamiltonians thus generated defines a trajectory in the 
+abstract space that, in the limit as the number of transformations goes 
+199 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 18 ===
+
+ROBERT W. BATTERMAN 
+to infinity, ends at a fixed point. The behavior of trajectories in the 
+neighborhood of the fixed point can be determined by an analysis of 
+the stability properties of the fixed point. This analysis also allows for 
+the calculation of the critical exponents characterizing the critical be- 
+havior of the system. It turns out that different physical Hamiltonians 
+can flow to the same fixed point. Thus, their critical behaviors are 
+characterized by the same critical exponents. This is the essence of the 
+explanation for the universality of critical behavior: Hamiltonians de- 
+scribing different physical systems fall into the basin of attraction of 
+the same renormalization group fixed point. This means that if one 
+were to alter, even quite considerably, some of the basic features of a 
+system (say from those of a fluid F to fluid a F' composed of a different 
+kind of molecule and a different interaction potential), the resulting 
+system (F') will exhibit the same critical behavior. This stability under 
+perturbation demonstrates that certain facts about the microconsti- 
+tuents of the systems are individually largely irrelevant for the systems' 
+behaviors at criticality. Instead, their collective properties dominate 
+their critical behavior, and these collective properties are characterized 
+by the fixed points of the renormalization group transformation (and 
+the local properties of the renormalization group flow in the neighbor- 
+hood of those points). We can, through this topological analysis, un- 
+derstand both how universality arises and why the diverse systems dis- 
+play identical behavior. 
+Before returning to the problem of explaining the success of equilib- 
+rium SM, it is important to realize that this type of explanation for 
+universal behavior is ubiquitous.10 Consider the following simple, yet 
+illustrative, example. An engineer is designing a structure such as a 
+bridge. The work is necessarily qualitative in the following sense. Be- 
+cause of the extreme complexity of the materials, the engineer does not 
+really know the exact nature of the equation that governs the behavior 
+of the bridge. Nevertheless, she would like to be assured that the bridge 
+is not going to collapse. Had she the exact equation, she could in prin- 
+ciple determine the "location" of any singularities in the equation 
+which may indicate configurations of materials for which a collapse 
+might be possible. However, since the engineer does not have this exact 
+equation, she is actually concerned with the equation's (structural) sta- 
+bility-roughly, the stability of the topology of its solutions under per- 
+turbation of its form. In other words, since the equation she works 
+with (her dynamical system) is most likely an approximation to the 
+actual equation, it is important to know the extent to which the two 
+dynamical systems have the same singularity structure or will exhibit 
+10. For a detailed discussion see Batterman 1998. 
+200 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 19 ===
+
+WHY EQUILIBRIUM STATISTICAL MECHANICS WORKS 
+the same qualitative behavior. The engineer needs to know that the 
+qualitative conclusions she makes (concerning, for instance, the pos- 
+sibility that the bridge will collapse) on the basis of her dynamical 
+system, will also hold for the actual dynamical system (differential 
+equation) describing the real structure in the world. The stability anal- 
+ysis that provides such information is analogous to that involved in 
+determining the fixed point structure of the space of Hamiltonians just 
+outlined. We get an account of stability of the critical behavior under 
+perturbation of the details of the interactions (Hamiltonians) charac- 
+teristic of the systems. 
+It seems to me that this type of analysis, broadly conceived, does lie 
+behind the explanation and understanding of various instances of uni- 
+versality discussed in the physics and mathematics literature.11 My goal 
+now is to show that the same strategy can be employed to explain the 
+success of the Gibbs method in equilibrium SM. As we have seen, such 
+an explanation requires that we explain the ubiquity of the Gaussian 
+distribution as the limiting distribution for sum functions representing 
+thermodynamic quantities of interest. My suggestion is that the rele- 
+vant explanatory framework is exactly that of the renormalization 
+group method. By translating the problem into the renormalization 
+group framework, we may, in principle at least, have a way of ration- 
+alizing Wightman's suggestion concerning the justification of equilib- 
+rium SM without falling prey to the Earman-Redei objection. In other 
+words, this approach aims to respond to the objections to the Khinchin 
+program in the spirit of the original proposal-without having to ap- 
+peal to ergodicity. 
+A number of papers (Jona-Lasinio 1975; Cassandro and Jona- 
+Lasinio 1978; Gallavotti and Martin-L6f 1975; Bleher and Sinai 1973, 
+1978, 1982) have developed a rigorous connection between renormal- 
+ization group methods dealing with phase transitions and certain as- 
+pects of limit theorems in probability theory. For our purposes it suf- 
+fices to establish the connection only at the most qualitative level. 
+To this end, let us rewrite the CLT in a slightly different form than 
+that presented above in Section 3. Let us assume here that Si can take 
+the value 1 or 0 if the ith toss of a coin is, respectively, heads or tails 
+with probabilities p and 1 - p. Recall that S(n) = E2 1 Si. It is the 
+number of heads in n tosses. Then the CLT says 
+11. Goldenfeld et al. (1989) have argued that renormalization group type analyses are, 
+in fact, necessary for explaining and understanding virtually any macroscopic phenom- 
+enology. Barenblatt's (1996) work on so-called "intermediate asymptotics" takes a simi- 
+lar line. 
+201 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 20 ===
+
+ROBERT W. BATTERMAN 
+lim P (a c S() np < < b = 1 e-t22 dt (3) 
+no GO 
+Joonp(1 - p)7 
+This describes the limiting behavior for sums of independent and iden- 
+tically distributed random variables. 
+We are now concerned with the possibility of limit distributions for 
+sum functions representing thermodynamic quantities in which the 
+summands are functions representing interacting components of real- 
+istic systems. We may still treat the component functions for large sys- 
+tems as random variables; because of the interactions, however, it is 
+surely not the case that they can be treated as independent. 
+The least severe relaxation of the criterion of independence is to 
+assume correlations realized by a simple Markov process. In other 
+words, imagine we are dealing with a sequence of coin tosses in which 
+the probability of a particular outcome on a given trial depends on the 
+result of the previous trial. We can express this dependence in terms of 
+a matrix of transition probabilities: 
+Ka 1- a 
+Say a head occurs on the ith trial. Then the first row states that on the 
+(i + 1)St trial, the probability of heads is a and the probability of tails 
+is 1 - a. According to the second row, if tails occurs on the ith trial, 
+then the probability of heads on the (i + 1)St trial is P and the proba- 
+bility of tails is 1 - /f. Let p be the probability of heads on the first 
+trial and assume that 0 < a, ,/ < 1. Given all of this, it is possible to 
+prove the following limit theorem: 
+lim P a S(n) p <b (4) 
+0 (1 a- /5) / p(1 - P) (1 - 
+a ? /) 
+-= b e-t2/2 dt. 
+The important feature to note here is that the same asymptotic reg- 
+ularity is obtained in the case where there is this Markov dependence 
+or correlation between the trials. (See Jona-Lasinio 1975, 101-102). 
+That is, the right hand sides of the two limit theorems (3) and (4) are 
+identical. The collective behaviors are the same. From this example we 
+learn that there are at least some distributions for sums of dependent 
+or correlated random variables that converge to the Gaussian distri- 
+bution in the limit of a large number of trials. 
+202 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 21 ===
+
+WHY EQUILIBRIUM STATISTICAL MECHANICS WORKS 
+We also know that this Central Limiting behavior fails in the case 
+of phase transitions and critical behavior where the correlation or de- 
+pendence is in some sense strong. In such a case the probabilistic in- 
+terpretation of the renormalization group treats the fixed points of the 
+renormalization group transformation as non-Gaussian limit distri- 
+butions for sums of strongly dependent random variables.12 The uni- 
+versality of critical behavior is explained through the determination of 
+the basins of attraction of these non-Gaussian fixed points. 
+The suggestion now is that we explain the universality of the Gaus- 
+sian distribution in a completely analogous way (see Sinai 1992, Chap- 
+ter 15 for a nice discussion of the strategy). Furthermore, since having 
+the Gaussian distribution emerge in the limit as the number of com- 
+ponents of the system goes to infinity is apparently essential for real- 
+izing Khinchin's nonergodic justification of Gibbs' method, we may 
+thereby explain the success of equilibrium SM. The goal, therefore, is 
+to determine the basin of attraction of the Gaussian fixed point. As the 
+simple examples of the two coin tosses shows, this domain surely can 
+contain distributions that are weakly dependent in an appropriate 
+sense. 
+But what about Wightman's proposal and the objection raised by 
+Earman and Redei? Wightman suggests that at least for some systems 
+to which the KAM theorem applies, that the thermodynamic observ- 
+ables will be insensitive to the nonergodic portion of the phase flow 
+even if the relative measure of that nonergodic portion does not ap- 
+proach zero as the system gets large (that is, as N -> oo and V -> co). 
+Letf(x) = iJf (x) be a sum function representing a thermodynamic 
+quantity of interest on our system. Suppose that the individual com- 
+ponents,f, treated as random variables, are identically distributed with 
+respect to the measure #u(x) for some given e. (u, is defined according 
+to equation (2) above.) To counter Earman's and Redei's objection one 
+would need to show that for the common distribution _,8(x), the dis- 
+E-N tribution function for the sums f(N) = - AN (for suitable 
+BN 
+normalizations BN and displacements AN) converges as N -> oo to the 
+Gaussian. 
+In the renormalization group framework we are now considering, 
+this amounts to showing that the distribution #u6 is in the domain of 
+12. Sinai 1982 has rigorously constructed non-Gaussian limit distributions for block 
+variables (sum functions) for certain lattice systems. The determination of these fixed 
+points involves the so-called e-expansion which plays such a fundamental role in the 
+theory of Wilson (see Wilson and Kogut 1974). The "e" in the expansion is, of course, 
+distinct from the "e" in Earman's and R6dei's example. 
+203 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 22 ===
+
+ROBERT W. BATTERMAN 
+attraction of the Gaussian distribution. Determining the necessary and 
+sufficient conditions for whether a distribution is in this domain of 
+attraction is a completely solved problem in probability theory (at least 
+for the case where independence is assumed)13 (see Jona-Lasinio 1975 
+and Gnedenko and Kolmogorov 1968, 171ff.). If upon investigation 
+for real systems of interest, it turns out that for some range of values 
+for e < 1, the measures ,u are in the domain of attraction of the Gaus- 
+sian distribution, then Wightman's proposal will have been vindicated 
+(at least for those systems and that range of e values). 
+Would this provide an explanation for why Gibb's phase averaging 
+works? I want to claim that the answer is a qualified "yes." It can be 
+argued, I believe, that the topological analysis involved in the renor- 
+malization group provides an acceptable explanation for the univer- 
+sality of critical phenomena.'4 One understands why some one critical 
+exponent characterizes the critical behavior of a vast range of distinct 
+systems in terms of the stability of that behavior under a kind of per- 
+turbation of the microscopic details-kinds of particles, types of inter- 
+actions, etc. This stability, in effect, is represented by the "size" of the 
+domain of attraction of the relevant fixed point of the renormalization 
+group transformation. The renormalization group provides principled 
+reasons for why and to what extent the details of the microconstituents 
+can be ignored. 
+This sort of explanation may be available in the current context, if 
+the following conjecture can be substantiated: We can treat the param- 
+eter e as characterizing (in a sense to be explained) the degree to which 
+certain dynamical details are relevant to the calculation of the system's 
+equilibrium behavior. For small values of e in Earman and Redei's 
+measure, we know that the structure of invariant KAM tori on the 
+phase space matters more and more to the averages calculated with 
+respect to y,. We can think of these tori as responsible for (or at least 
+as descriptive of) correlations among various degrees of freedom of the 
+system. For instance, there is surely strong correlation among degrees 
+of freedom in the invariant KAM regions-the invariant tori. These 
+strong dependencies guarantee the presence of weaker correlations be- 
+tween degrees of freedom in the assumed ergodic regions complemen- 
+tary to the invariant tori on the energy surface: In these regions there 
+is at least weak correlation reflecting the fact that allowed microstates 
+must avoid the KAM tori. Given this it seems that the 1u, distribution 
+of one "component" can be strongly dependent on the distribution of 
+13. Many other results are also known for cases involving dependent random variables. 
+See, for example, Ibraghimov and Linnik 1969. 
+14. See Batterman 1998 for a discussion of this sort of explanation. 
+204 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 23 ===
+
+WHY EQUILIBRIUM STATISTICAL MECHANICS WORKS 
+another "component" of the system.15 The conjecture is that e can be 
+plausibly related to an appropriate conception of strength of depen- 
+dence or of correlation among the relevant components of the system.16 
+The conception of "strength" I have in mind here is the following. 
+It is the weight given to the correlations resulting form the KAM tori 
+in the calculation of average values. One can think of the measures #u, 
+for various values of e, as specifying how much weight different regions 
+on the energy surface receive in the calculation of averages. In other 
+words, the different e values specify the extent to which the strongly 
+correlated degrees of freedom in the KAM tori contribute to the av- 
+erage value of the appropriate (sum) function representing the ther- 
+modynamic equilibrium quantity. For distributions ,u with e small, the 
+"bad" nonergodic regions will dominate the calculated averages more, 
+and one should expect that Central Limiting behavior will fail-- , will 
+not be in the domain of attraction of the Gaussian fixed point. On the 
+other hand, if the distribution is in that domain (ife is sufficiently large), 
+then one might just as well compute phase averages with respect to the 
+microcanonical measure Iu, since the limiting distribution for N -> co will 
+be the same, viz., the Gaussian. The aim is to demonstrate the robust- 
+ness of the Gaussian distribution as the limit distribution for sum func- 
+tions under a variation of the importance or weight of the correlations 
+determined by the existence of the nonergodic regions on the energy 
+surface. 
+Let me put the point another way. We do not seek to justify the 
+microcanonical distribution as the unique appropriate distribution for 
+calculating phase averages. Instead, our goal is to show that if the 
+components of the system are actually weighted according to some 
+measure /u8 # u in the domain of attraction of the Gaussian distribu- 
+tion, then in the limit of large numbers of components the asymptotic 
+formulas for the thermodynamical sum functions will yield results as 
+if the components were weighted according to the microcanonical mea- 
+sure. But of course, many probability measures will be justified on this 
+15. On Khinchin's proposal (1949, 38-39), a component of a system need not be a 
+physically distinct entity (like an individual molecule)-the set of values of a degree of 
+freedom or the phase space subspace representing that set of values counts as a com- 
+ponent. 
+16. In the discussions of the probabilistic version of the renormalization group, strong 
+dependence is explicated in terms of a failure of so-called "strong mixing," where for 
+lattice systems strong mixing holds if one cannot compensate for weakening dependence 
+between components by increasing the spatial distance between them. In ergodic theory, 
+on the other hand, mixing typically refers to the emergence of, or approach to, prob- 
+abilistic independence in the infinite time limit. I am unsure exactly of what connections, 
+if any can be made between these two notions. 
+205 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 24 ===
+
+ROBERT W. BATTERMAN 
+proposal. There is really nothing very special about the microcanonical 
+measure. 
+6. Conclusion. A number of investigators have asked why equilibrium 
+SM works. But what, exactly, is the explanandum? Most interpreters 
+have understood the question rather narrowly, as a demand for justi- 
+fying the computation of phase averages using the microcanonical mea- 
+sure. The majority of responses have involved appeals to ergodicity 
+and other properties in the ergodic hierarchy. As we have seen, though, 
+such appeals are unlikely to work-at least for the majority of systems 
+to which equilibrium SM is supposed to apply. 
+Khinchin's program is a notably different. He tries to show that an 
+appeal to the nature of the sorts of phase functions that typically rep- 
+resent the thermodynamic quantities of interest (their being sum func- 
+tions), together with the fact that such systems are composed of an 
+extremely large number of similar components, suffices to justify the 
+use of Gibbs method in equilibrium SM. This program has been ex- 
+tended and continued in the investigations of the thermodynamic limit 
+by Ruelle, Lanford, and others. As I noted in Section 3, it has had 
+many successes. In particular, what I called the paradox of interaction 
+is dealt with quite effectively. 
+In spite of these successes, it seems that the objections raised in one 
+form or another by Truesdell, Sklar, and Earman and Redei still have 
+some force. If the system is not ergodic, then it is possible to construct 
+a.c. invariant measures of the /u,-variety that are, prima facie, on an 
+equal footing with the microcanonical measure. According to Earman 
+and Redei, this raises the problem of finding a rationale for choosing 
+the microcanonical measure among all of these competitors. Their con- 
+clusion is that ergodic theory seems unable to provide such a rationale. 
+Perhaps, in order to explain why calculating averages with respect to 
+the microcanonical measure yields correct results, one will need to ap- 
+peal explicitly, as Sklar has suggested, to the microscopic details, the 
+nature of the molecular interactions, and the matter of fact distribu- 
+tions of initial conditions in the world. 
+However, an appeal to the detailed nature of the microconstituents 
+and their interactions entails that we give up any attempt to answer 
+the question of why equilibrium SM works, where that question is 
+construed in a broader sense. The broad sense concerns why the pre- 
+scriptions of equilibrium SM yield proper results virtually without re- 
+gard for these microscopic details. That is, it is a question about the 
+universal applicability of the method. Providing the details for each 
+case individually does not give us any explanation for the universality 
+which for many is an essential characteristic of SM. Recall Khinchin's 
+206 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 25 ===
+
+WHY EQUILIBRIUM STATISTICAL MECHANICS WORKS 
+explicit claim that "[i]t is a complete abstraction from the nature of 
+[the molecular] forces, that gives to statistical mechanics its specific 
+features and contributes to its deductions all the necessary flexibility" 
+(Khinchin 1949, 8). 
+My aim in this paper has been to set out a framework within which 
+this broader question of explaining a form of universality can be ad- 
+dressed. Renormalization group analyses have been used to explain, 
+and provide understanding of, the universality of critical phenomena 
+(see Batterman 1998). The probabilistic formulation of the renormal- 
+ization group strategy allows for a direct application of the same sort 
+of analysis to account for the ubiquity of the Gaussian distribution for 
+noncritical systems studied in SM. The suggestion is that we can ex- 
+plain why equilibrium SM works, if we can provide principled reasons 
+for why the details of the microconstituents are by and large inessential 
+for accounting for the thermodynamic or macroscopic behavior ob- 
+served. The statistical mechanical explanation of this behavior appeals 
+essentially to the estimates for phase dispersions guaranteed by the 
+emergence of the Gaussian distribution in the asymptotic limit of a 
+large number of components. In other words, we can understand why 
+equilibrium SM works, if we can characterize the domain of applica- 
+bility of the CLT. The renormalization group argument provides ex- 
+actly this (at least ideally) by exhibiting the stability of the Gaussian 
+distribution (as the limit distribution for the relevant sum functions) 
+under perturbation of certain microscopic details. 
+The possibility of constructing a.c. invariant measures (the /u mea- 
+sures) which are in fact on an equal footing with the microcanonical 
+distribution is, therefore, not a problem. On the contrary, if these dis- 
+tributions are in the domain of attraction of the Gaussian distribution, 
+then their existence only serves to illustrate the extent to which the 
+microscopic details are irrelevant or inessential to the thermodynamical 
+equilibrium behavior we wish to explain. 
+REFERENCES 
+Barenblatt, Grigory. I. (1996), Scaling, Self-similarity, and Intermediate Asymptotics. Cam- 
+bridge: Cambridge University Press. 
+Batterman, Robert. W. (1998), "Universality, Unification, and Understanding", Preprint. 
+Bleher, P. M. and Ya. G. Sinai (1973), "Investigation of the Critical Point in Models of the 
+Type of Dyson's Hierarchical Models", Communications in Mathematical Physics 33: 
+23-42. 
+Cassandro, M. and G. Jona-Lasinio (1978), "Critical Point Behaviour and Probability The- 
+ory", Advances in Physics 27: 913-941. 
+Earman, John. and M. Redei (1996), "Why Ergodic Theory Does Not Explain the Success 
+of Equilibrium Statistical Mechanics", British Journal of the Philosophy of Science 47: 
+63-78. 
+207 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).
+
+
+=== PAGE 26 ===
+
+208 ROBERT W. BATTERMAN 
+Gallavotti, Giovanni. and A. Martinlof (1975), "Block-spin Distributions for Short-range 
+Attractive Ising Models", Il Nuovo Cimento 25 B: 425-441. 
+Gnedenko, Boris. V. and A. N. Kolmogorov ([1949] 1968), Limit Distributions for Sums of 
+Independent Random Variables. Translated by K. L. Chung. Reading MA: Addison- 
+Wesley. 
+Goldenfeld, Nigel, O. Martin, and Y. Oono (1989), "Intermediate Asymptotics and Renor- 
+malization Group Theory", Journal of Scientific Computing 4: 355-372. 
+Ibraghimov, Ildar. A. and Yu. V. Linnik (1969), Independent and Stationary Sequences of 
+Random Variables. Groeningen: Walter Noordhoff Publishing Company. 
+Jona-Lasinio, G. (1975), "The Renormalization Group: A Probabilistic View", II Nuovo 
+Cimento 26 B: 99-119. 
+Khinchin, Alexander. I. (1949), Mathematical Foundations of Statistical Mechanics. Trans- 
+lated by G. Gamow. New York: Dover Publications. 
+Lanford, III, Oscar E. (1973), "Entropy and Equilibrium States in Classical Statistical Me- 
+chanics", in A. Lenard (ed.), Statistical Mechanics and Mathematical Problems Berlin: 
+Springer-Verlag, pp. 1-113. 
+Malament, David and S. Zabell (1980), "Why Gibbs Phase Averages Work-The Role of 
+Ergodic Theory", Philosophy of Science 47: 339-349. 
+Mazur, Peter and J. van der Linden (1963), "Asymptotic Form of the Structure Function 
+for Real Systems", Journal of Mathematical Physics 4: 271-277. 
+Ruelle, David (1969), Statistical Mechanics: Rigorous Results. New York: W. A. Benjamin. 
+Sinai, Yakov G. (1978), "Mathematical Foundations of the Renormalization Group Method 
+in Statistical Physics", in G. Dell'Antonio, S. Doplicher, and G. Jona-Lasinio (eds.), 
+Mathematical Problems in Theoretical Physics. Berlin: Springer-Verlag, pp. 303-311. 
+. (1982), Theory of Phase Transitions: Rigorous Results. Oxford: Pergamon Press. 
+. (1992), Probability Theory: An Introductory Course. Translated by D. Haughton. 
+Berlin: Springer-Verlag. 
+Sklar, Lawrence (1973), "Statistical Explanation and Ergodic Theory", Philosophy of Science 
+40: 194-212. 
+. (1993), Physics and Chance. Philosophical Issues in the Foundations of Statistical 
+Mechanics. Cambridge: Cambridge University Press. 
+Truesdell, Clifford (1961), "Ergodic Theory in Classical Statistical Mechanics", in P. Cal- 
+dirola (ed.), Ergodic Theories, volume 14 of Proceedings of the International School of 
+Physics "Enrico Fermi". New York: Academic Press, pp. 21-56. 
+Wightman, Arthur S. (1983), "Regular and Chaotic Motions in Dynamical Systems: Intro- 
+duction to the Problems", in G. Velo and A. S. Wightman, (eds.), Regular and Chaotic 
+Motions in Dynamic Systems. New York: Plenum Press, pp. 1-26. 
+Wilson, Kenneth G. and J. Kogut (1974), "The Renormalization Group and the c Expan- 
+sion", Physics Reports 12: 75-200. 
+This content downloaded from 131.172.036.029 on July 29, 2016 14:39:16 PM
+All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).

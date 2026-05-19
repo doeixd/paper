@@ -1,0 +1,768 @@
+=== PAGE 1 ===
+
+J Stat Phys
+DOI 10.1007/s10955-016-1659-9
+Philosophical Implications of Kadanoff’s Work on the
+Renormalization Group
+Robert W. Batterman1
+Received: 30 August 2016 / Accepted: 27 October 2016
+© Springer Science+Business Media New Y ork 2016
+Abstract This paper investigates the consequences for our understanding of physical theo-
+ries as a result of the development of the renormalization group. Kadanoff’s assessment of
+these consequences is discussed. What he called the “extended singularity theorem” (that
+phase transitons only can occur in inﬁnite systems) poses serious difﬁculties for philosoph-
+ical interpretation of theories. Several responses are discussed. The resolution demands a
+philosophical rethinking of the role of mathematics in physical theorizing.
+Keywords Kadanoff · Renormalization group · Block transformations · Ising model ·
+Minimal models · Universality · Explanation
+1 Introduction
+I am honored to have been asked to write for this special issue dedicated to the work of Leo
+Kadanoff. The presence of this paper by a philosopher in such a special issue will no doubt
+be surprising to some. However, in my opinion, Leo, in addition to being a superb physicist,
+mathematician, and a wonderful individual, was also a brilliant natural philosopher. By this I
+mean that he was a deep thinker about the nature of reality and about the role mathematics can
+play to allow us better access to the physical world. In this regard, I think it quite reasonable
+to compare Leo’s work to that of the great nineteenth century theorists like George Gabriel
+Stokes, George Green, James Clerk Maxwell, and Lord Kelvin, among others.
+There are very few natural philosophers anymore. The ﬁelds of philosophy and science
+parted company at the end of that century. Philosophers more and more began to turn toward
+the disciplines of logic and the analysis of language, and their examination of the enterprise of
+This article is dedicated to the memory of Leo Kadanoff.
+B Robert W. Batterman
+rbatterm@pitt.edu
+1 Department of Philosophy, University of Pittsburgh, 1001 Cathedral of Learning, Pittsburgh,
+PA 15260, USA
+123
+
+
+=== PAGE 2 ===
+
+R. W. Batterman
+science began to follow a different, less-engaged-with-scientiﬁc-detail, direction. They began
+to try to determine the logic and structure of scientiﬁc theorizing in a way that was much more
+arm-chair and much less concerned with details about individual theories. The aim was to
+construct or reconstruct the proper logical structures of scientiﬁc explanation, conﬁrmation,
+and theory choice. The philosophical reconstructions were, by and large, designed to ﬁt all
+empirical science. For example, an explanation in physics should share the same general
+(logical) form as explanations in biology, chemistry, or sociology. Scientists themselves,
+began to specialize more and more. And as a result, the kind of broad understanding of the
+physical world that Stokes, for example, possessed was distributed in a division of labor.
+Leo Kadanoff may have been born in the wrong century. His interests were broad and
+wide ranging. And, his physical and philosophical intuitions were often prescient. Truesdell
+has said that “[t]he intuitive physicists are the scouts of natural philosophy.” [ 24, p. 90] Leo
+was a remarkable scout and a remarkable philosopher.
+My personal introduction to him was the result of his ﬁnding (on his own) and reading
+my book, The Devil in the Details . I think he was intrigued by the title, especially by the
+appearance of the word “asymptotic” in the descriptive subtitle. It prompted him to write
+me an email and ultimately to invite me to Chicago to meet with him. I have known a few
+physicists in my career and only a handful of them have had much time for philosophers
+of science. Leo was a special case. Though he might not use the jargon of philosophers of
+science, much of Leo’s writing is deeply philosophical. He had an amazing ability to employ
+mathematics to study physical phenomena and to use it to better understand the nature of
+those phenomena.
+I have learned a great deal from him and his work. I thank him for his generosity.
+What follows is a discussion of the impact on philosophical theorizing provided by the
+development of the renormalization group (RG). In the next section I examine various possible
+reactions to what Kadanoff called the “extended singularity theorem.” This is a statement to
+the effect that phase transitions can only occur in systems of inﬁnite extent, with an inﬁnite
+number of constituents. It is a mathematical fact that the function for the free energy of a
+ﬁnite system cannot display the kind of singularities and discontinuities many have associated
+with thermodynamic phase transitions. This fact has been the source of much consternation
+in the philosophy of physics community. In the following sections I argue that those worries
+are largely misplaced and that Kadanoff, himself, had seriously hinted at different kind of
+resolution, one I personally think is correct. It is a resolution that requires a rethinking of
+the role of mathematics in physical theorizing, in that certain features of the mathematics
+itself play explanatory roles. As such it provides an excellent modern example of the kind of
+natural philosophy characteristic of physics in the Victorian age.
+2 Philosophical Perspectives on Theories
+I think it is fair to say that from a philosophy of science point of view, physical theories are
+supposed to reﬂect our best attempts to understand nature. Philosophers are also enamored
+with the idea that theories have a certain logical structure—they can be written down in
+some kind of axiomatic form from which, given certain inputs, various features of physical
+systems (future states, e.g.) can be derived using logic and reasonably straightforward math-
+ematics. Furthermore, philosophers often distinguish fundamental from nonfundamental (or
+“phenomenological”) theories. This latter distinction presupposes the idea that fundamental
+theories are the ones that tell us really what nature is actually like at “bottom.” These presum-
+123
+
+
+=== PAGE 3 ===
+
+Philosophical Implications of Kadanoff’s Work...
+ably include, quantum theory, quantum ﬁeld theory, maybe a theory of quantum gravity, etc.
+Nonfundamental theories such as thermodynamics, continuum mechanics, and ﬂuid dynam-
+ics, on the other hand, while pragmatically useful, are in a certain sense (exactly what sense is
+a matter of serious contention) superﬂuous. We could, in principle, solve problems involving
+the elastic bending of beams by starting from the fundamental atomic and subatomic theories
+of the constituents of the beam.
+Nonfundamental theories don’t get nature right. Steel beams are not really the continua
+whose bending behaviors are described by the Navier–Cauchy equations. Gases are not
+continuous blobs of stuff. The important theories, according to many philosophers and, I
+believe, according to many physicists, are those that get the ontology right. In part, the (often
+unarticulated) reason for preferring fundamental theories over phenomenological theories is
+a realist presupposition that physical theories must accurately describe the world the way
+the world really is. Phenomenological theories are often good for calculating, but they don’t
+accurately describe the world and so must, in a sense, play second ﬁddle to their fundamental
+partners.
+Of course, none of this is to deny that historically we often come to consider fundamental
+theories only after we have constructed and tested sophisticated phenomenological theories.
+1
+Thanks to work by such luminaries as Clausius, van der Waals, and Maxwell, we had quite
+well developed theories of matter in the nineteenth century. In particular, these theories
+were able to provide reasonably accurate accounts of observed behavior of matter in (and in
+transition between) various qualitatively distinct states or phases.
+With the acceptance of work by Boltzmann and Maxwell on kinetic theory, and with data
+coming in about the existence of atoms—the (actual = real) discrete nature of the constituents
+of everyday matter— thermodynamics began to lose its status as a fundamental theory [ 6,
+22]. Theorists continued to develop statistical techniques for describing and (hopefully) for
+explaining the successes of thermodynamics in terms of averages over behaviors of the
+atomic constituents of the systems described by thermodynamics. Thus, there was a shift to
+a more fundamental (statistical mechanical) understanding of the various phases of matter.
+Certain questions became pressing: Can one understand the existence of distinct phases of
+matter in terms of the statistical analysis of the behaviors of large collections of atoms and
+molecules? Can one understand the transitions between these distinct phases of matter in
+statistical mechanical terms?
+Statistical mechanics tells us that if we know the kinds of particles involved (e.g., what
+are their internal degrees of freedom) then we should be able to write down the so-called
+partition function for the collection of particles that make up our system. Once we have the
+partition function, we can derive equations that are analogs of the continuum thermodynamic
+equations of our phenomenological theories.
+2
+It is natural in statistical mechanical discussions of various real systems (real ﬂuids, real
+magnets) to employ simple or “minimal” models.3 The simplest model is the Ising model for
+a region of spins, /Omega1,o na d-dimensional lattice. There are N(/Omega1)lattice sites/spins and since
+the spins σ take values σi =± 1, there are a total of 2 N(/Omega1)possible states. The Hamiltonian
+1 In fact, we most often don’t recognize the theories as phenomenological until long after they become
+well-established.
+2 Much of interest, philosophically, concerns the nature of these analogical derivations. Gibbs, for one, was
+very cautious about claiming to have found identities that would allow one to claim that the thermodynamic
+relations have been reduced to relations of statistical mechanics. See [ 4] for a discussion.
+3 I will have more to say about the justiﬁcation of the use of such models below. For the term “minimal model”
+and discussions concerning their use see [ 5,11,12].
+123
+
+
+=== PAGE 4 ===
+
+R. W. Batterman
+for this system can be written as
+H/Omega1=− J
+∑
+<ij >
+σiσj − h
+∑
+i∈/Omega1
+σi, (1)
+where < ij > signals nearest neighbor pairs on the lattice, J characterizes the spin-spin
+coupling, and h is a (uniform) magnetic ﬁeld.
+One can deﬁne the free energy for this region of spins as follows:
+F/Omega1(T, h, J) =− kB T log
+2N(/Omega1)
+∑
+n=1
+e−βH/Omega1, (2)
+with β = 1/kB T.
+Given the Hamiltonian ( 1) one can write down the partition function
+Z/Omega1=
+2N(/Omega1)
+∑
+n=1
+e−βEn[K], (3)
+where En is the energy of the nth state and is a linear combination of the coupling constants
+[K] (related to J ).
+The partition function is a ﬁnite sum of 2 N(/Omega1)terms each of which is an exponential and
+is positive. Hence the sums in both the free energy F/Omega1and the partition function Z/Omega1are
+also analytic functions. This mathematical fact is at the center of what Kadanoff calls the
+“extended singularity theorem.” [17, pp. 154–156.] The interpretation of this “theorem” has
+been the subject of much philosophical controversy. In what follows, I intend to discuss some
+of this controversy and some further implications of Kadanoff’s work on understanding of
+the consequences of this mathematical fact for the interpretation of theories of phases of
+matter.
+2.1 Idealism?
+In phenomenological thermodynamics, phase transitions are identiﬁed with singularities in
+the derivatives of the free energy. They are places where those derivatives exhibit nonanalytic
+behavior. If one accepts the idea that phase transitions are to be identiﬁed with such singular-
+ities, and if one accepts that something like Eq. ( 2) “corresponds to” or is “analogous to” the
+free energy of thermodynamics, then we have a fundamental problem: Since the free energy
+cannot display nonanalytic behavior for ﬁnite N , there can be no phase transition according
+to the statistical mechanics of ﬁnite systems. In his textStatistical Physics: Statics, Dynamics
+and Renormalization Kadanoff puts the point most forcefully:
+The existence of a phase transition requires an inﬁnite system. No phase transitions
+occur in systems with a ﬁnite number of degrees of freedom. [ 15, p. 238]
+An inﬁnite sum of analytic functions can yield a nonanalytic function. To understand
+the existence and the nature of distinct phases and the transitions between them, therefore
+requires that we consider inﬁnite systems.
+Kadanoff notes that
+[m]atter exists in different thermodynamic “phases”, which are different states of aggre-
+gation with qualitatively different properties. These phases provoked studies that are
+instructive to the history of science. The phases themselves are interesting to modern
+123
+
+
+=== PAGE 5 ===
+
+Philosophical Implications of Kadanoff’s Work...
+physics, and are provocative to modern philosophy. For example, the philosopher might
+wish to note that strictly speaking, no phase transition can ever occur in a ﬁnite system.
+…. [16, p. 778]
+A realist philosopher will be dismayed by this conclusion. After all we see systems undergo
+phase transitions (water in a tea kettle boils) as the temperature changes. And, we correctly
+believe that the number of water molecules in the kettle is ﬁnite. How can matter both “exist
+in different thermodynamic ‘phases’ ” as Kadanoff says, and yet it be the case that transitions
+between the different phases cannot occur in actual(=real) ﬁnite systems?
+There are several responses one can make in the face of this conundrum. Kadanoff, at least
+in one publication, opted for an interpretation that philosophers might call “idealistic.”
+4 He
+expresses this in the very next sentence from the passage quoted above: “Thus in some sense,
+phase transitions are not exactly embedded in the ﬁnite world but, rather, are productions of
+the human imagination.”
+Many would ﬁnd this conclusion to be a hard pill to swallow.
+5 [16, p. 778] To claim that
+a full understanding of phase transitions and the qualitatively different states of matter that
+we experience on a daily basis, requires appeal to the human imagination goes against many
+well-entrenched (realist) beliefs.
+2.2 “Real” Phase Transitions Aren’t Sharp?
+Many philosophers have taken a different position. They challenge the idea that the proper
+understanding of a phase transition requires appeal to any mathematical singularities or non-
+analytic behavior whatsoever.
+6 These philosophers reject the idea that to properly characterize
+the world—a world that genuinely exhibits phase transitions—requires that one make ref-
+erence to inﬁnities or singularities. On their view, mathematical theories that require (either
+implicitly or explicitly) the use of inﬁnite limits are simply convenient computational tools.
+7
+Such theories are short hand for detailed mathematical derivations involving “true” partition
+functions with ﬁnitely many summands. This ﬁts quite well with the view that phenomeno-
+logical, nonfundamental theories are in some sense dispensable. They don’t get the ontology
+right in that they (apparently) assert that real systems like water in a tea kettle contain an
+inﬁnite number of molecules. Fundamental theories, again, are the ones that describe the
+world accurately, the way it really is. Thus, from this point of view, a proper understanding
+of a real phase transition comes from examining the behavior of a system with ﬁnitely many
+(10
+23) molecules. And, of course, it follows from this that thermodynamics does not provide
+a proper account of real phase transitions. This is just another indication that thermodynamics
+is nonfundamental.
+4 Roughly, this involves a claim to the effect that what there is in the world, or perhaps what we can know
+about the world, is a product or function of human thought.
+5 Actually, I’m not completely sure this was his view. In private conversation, the ﬁrst time I met him, Leo
+told me he was a Platonist. This reﬂects a kind of idealism, but not one that particularly ﬁts well with a simple
+reading of this sentence. And, as we will see below, he later argued for what seems to me, a very different
+understanding of the consequences of the extended singularity theorem.
+6 See [9] for an argument that deﬁning phase transitions in terms of nonanalyticities is evidence that we are
+“taking thermodynamics too seriously.” See [ 2] for a response. See also [ 10].
+7 A prominent proponent of this viewpoint is Jeremy Butterﬁeld [ 7,8] (see also, [ 21]) . On his view, the use
+of inﬁnite limits receives a “straightforward justiﬁcation”:
+The use of the inﬁnite limit …is justiﬁed, despite N being actually ﬁnite, by its being mathematically
+convenient and empirically correct (up to the required accuracy). [ 7, p. 1077]
+123
+
+
+=== PAGE 6 ===
+
+R. W. Batterman
+I believe that there is another alternative. It is a point of view that takes the asymptotic
+mathematics apparently required by the extended singularity theorem seriously without at
+the same time committing one to believing the false claim that the contents of our tea kettles
+contain an inﬁnite number of water molecules. I think that this position ﬁts nicely with
+the general argument Kadanoff presents in his contribution to the The Oxford Handbook of
+Philosophy of Physics and it represents a rather radical departure from the philosophers’
+usual way of thinking about physical theories. Kadanoff goes so far as to suggest that the
+modern theory of critical phenomena represents a new theory. Furthermore, he asserts that,
+in the sense of Thomas Kuhn, the development of this theory of critical phenomena provides
+an example of a scientiﬁc revolution [ 19]. In the next section, I explore rather superﬁcially
+how this new theory arose. In Sect. 4 I discuss just how different the kind of coarse-graining
+or upscaling provided by the new (RG) theory is in comparison to the kind of ensemble
+averaging characteristic of orthodox statistical mechanics and mean ﬁeld theory.
+3 The “New” Theory of the Critical Region
+The history of theories of critical phenomena provides an interesting example of the kind of
+conservatism with respect to accepted theory that Kuhn called “normal science.” Physicists,
+starting really with van der Waals, employed what is now called “mean ﬁeld theory” in the
+attempt to describe phase diagrams exhibiting behavior of the type shown in Fig. 1 [17,
+pp. 147–149]. V an der Waals’ equation of state corrected the ideal gas law by including
+parameters relating to average effects of hypothesized molecules. As Kadanoff points out,
+the van der Waals’ equation of state fails to predict the boiling phase transition [ 17, pp. 149–
+150]. Maxwell corrected this and was able to construct the qualitative portrait displayed in
+Fig. 1 with the “ﬂat” isotherms in the boiling region. We can also plot this boiling transition
+as a coexistence curve displaying the density values for the vapor and liquid phases in the
+kettle as a function of temperature. This is represented in Fig. 2.
+One can deﬁne an order parameter to characterize the behavior in this region as the
+difference between the liquid and vapor densities:
+|ρ
+vap − ρliq |∝| t|β, (4)
+where
+t = T − Tc
+Tc
+.
+Mean ﬁeld theory predicts that β takes on the value 1/2 but experiments on many differ-
+ent ﬂuids yield values closer to .35. It is a remarkable fact that different ﬂuids with different
+molecular structures exhibit the same scaling behavior in the neighborhood of their respective
+critical points. A famous ﬁgure from E. A. Guggenheim’s 1945 paper entitled “The Principle
+of Corresponding States” illustrates this universal behavior. When plotted in reduced coor-
+dinates, the coexistence curves for eight different ﬂuids all collapse onto the same curve. See
+Fig. 3.
+Mean ﬁeld theory was able to predict the existence of phase transitions and in particular
+the existence of power law scaling behavior near criticality. But, as noted, it failed to match
+experimental evidence. It worked very well in regions of the phase diagram (Fig. 1)t h a t
+were far from the critical region, but misrepresented the behavior of systems near criticality.
+However, mean ﬁeld theory did (theoretically) lead to the expectation that different systems
+123
+
+
+=== PAGE 7 ===
+
+Philosophical Implications of Kadanoff’s Work...
+P
+Pc
+Tc
+Liquid
+Region
+Liquid-Vapor
+Region
+“Boiling”
+Vapor
+Region
+Ideal Gas
+Region
+Isotherms
+T = Constant
+647 K
+V
+22.9MPa
+Fig. 1 Cartoon PVT diagram for water [ 17, p. 148]
+TTc
+liq uid
+re gion
+vapor
+re gion
+region of
+liquid, vapor
+coexistence
+coexistence
+curve
+ρρ
+liq
+ρ
+vap
+T '
+(T')
+(T')
+Fig. 2 Cartoon coexistence curve
+near criticality should display similar (scaling) behavior. Despite its misrepresentation of
+near critical behavior, theorists to some extent carried on using the mean ﬁeld approach. 8
+Interestingly though, as investigators began to focus on (non-mean ﬁeld theory) behaviors
+near criticality, they noticed similarities in the between different systems.9 That a ferromagnet
+8 This is a hallmark of Kuhn’s characterization of “normal science.”
+9 Kadanoff notes that similarities between different systems were well known to early investigators [ 14,p .
+103]. The idea that the “details of the system undergoing the phase transition might be irrelevant and that
+many different phase transitions problems might be essentially identical” was already noted in Landau and
+Lifshitz in the context of mean ﬁeld theory. I believe that this mean ﬁeld understanding of universality also
+contributed to that theory’s entrenchment in the scientiﬁc community.
+123
+
+
+=== PAGE 8 ===
+
+R. W. Batterman
+Fig. 3 Universality of critical phenomena [ 13]
+with order parameter deﬁned as the net magnetization displays the same behavior in the
+critical region as does a liquid/gas system with the order parameter given in Eq. ( 4)w a sa
+remarkable fact. Kadanoff stated the hypothesis of universality in the following way:
+All phase transition problems can be divided into a small number of different classes
+depending upon the dimensionality of the system and the symmetries of the order state.
+Within each class, all phase transitions have identical behaviour in the critical region,
+only the name of the variables are changed. [ 14, p. 103]
+Given the rather large discrepancy between the mean ﬁeld theory predictions of behavior
+near the critical point and experiment, many experimentalists tried for more accurate assess-
+ments of the values of the critical exponents or critical indices, e.g. β. Kadanoff asserts that
+this work (sometimes subject to mild ridicule) was well worth the effort:
+During the many years in which critical behavior has been a subject of scientiﬁc study,
+many human-years of scientiﬁc effort has been devoted to the accurate determination
+of these indicies. Sometimes scientists complained that this effort was misplaced. After
+all, there is little insight to be obtained from the statement thatβ (the index that describes
+the jump in the liquid–gas phase transition) has the value of 0.31 versus 0.35, or 0.125 or
+0.5. But these various values can be obtained from theories that give a direct calculation
+of critical quantities or related them to one another. Finding the index-values then gave
+an opportunity to check the theory and see whether the underlying ideas were sound.
+Thus, the small industry of evaluating critical indices supports the basic effort devoted
+to understanding critical phenomena. [ 17, p. 160]
+Most importantly there was a shift of emphasis to study the region of the phase diagrams
+in the neighborhood of the critical points. The other regions (reasonably well understood in
+mean ﬁeld theoretic terms) were put to the side. This led to an intense focus on universality
+and scaling. It also led to what Kadanoff takes to be a new specialized theory “intended to
+apply mostly to the region near the critical point.” [ 17, p. 161]
+123
+
+
+=== PAGE 9 ===
+
+Philosophical Implications of Kadanoff’s Work...
+The new theory necessarily must part from the orthodox statistical mechanics that is
+employed in mean ﬁeld approaches. The reason, as we have already noted, has to do with
+the fact expressed by the extended singularity theorem. In order to describe the behavior
+near the critical point one needs an inﬁnite system.
+10 Statistical mechanical averages ignore
+ﬂuctuations and near critical points ﬂuctuations dominate. Kadanoff describes the chaos at
+an (in)famous 1937 meeting celebrating van der Waals’ 100th birthday. At that meeting the
+participants debated whether a (ﬁnite) partition function could or could not explain sharp
+phase transitions. In effect they wondered about the applicability of statistical mechanics.
+With hindsight Kadanoff argues that the participants were right
+to be disquieted by the applicability of statistical mechanics. But they focused upon the
+wrong part of the phase diagram. The liquid region is described correctly by statistical
+mechanics. But this theory does not work well in the two-phase, “boiling”, region of
+Fig. [ 1]. Here the ﬂuctuations entirely dominate and the system sloshes between the
+two phases. The behavior of the interface that separates the phases is determined by
+delicate effects of dynamics and previous history, and by hydrodynamic effects includ-
+ing gravity, surface tension, and the behavior of droplets. Hence, the direct application
+of statistical mechanics is fraught with difﬁculty precisely in the midst of the phase
+transition. Thus the extended singularity theorem suggests that a new theory is required
+to treat all the ﬂuctuations appearing near singularities. [ 17, pp. 163–164]
+Mean ﬁeld theory fails in the critical region because it cannot determine the effect of (spa-
+tial) ﬂuctuations at all length scales on the average behavior of the relevant order parameter.
+Somehow this hard mathematical problem needed to be tamed. At this point, I am going to
+stop following Kadanoff’s historically oriented discussion leading to the development of the
+block scaling techniques that allowed for the construction of effective Hamiltonians, etc. The
+ideas are well-known and Kadanoff’s contributions are crucial for the ﬁnal development of
+the RG transformation.
+I want now to focus on several important ideas that support Kadanoff’s claim that the
+development of the RG really did provide a new theory of critical phenomena and potentially
+a new reason for philosophers to rethink their overly simplistic understanding of the role of
+mathematics in the formulation or construction of physical theories.
+4 The RG Revolution
+Reconsider the view that statistical mechanics is a more fundamental theory than thermody-
+namics. Since it (together with the quantum theory) correctly characterizes the ﬁnitely many
+constituents of ﬂuids and gases, one should expect it to be able to explain the behavior of
+such systems throughout the various regions of the phase diagrams. Statistical mechanics is
+inherently a means for averaging. And the averaging techniques that it engenders allow one
+to “upscale”, “coarse-grain”, or to ﬁnd statistical correlates of thermodynamic functions only
+in certain regimes. A different kind of coarse-graining or upscaling is needed for a theory of
+critical phenomena. And it is a kind of upscaling that requires a different set of mathemat-
+ical tools than are present in orthodox Gibbsian statistical mechanics.
+11 As we’ve seen the
+10 One needs this for ﬁrst order transitions as well, but the singularities are weaker.
+11 It was in part Gibbs’ recognition that his ensembles failed to provide an account of phase transitions that
+he exercised extreme caution in claiming to have identiﬁed statistical mechanical analogs of thermodynamic
+properties like temperature and entropy. See [ 4] for a discussion of Gibbs’ caution and his awareness that
+123
+
+
+=== PAGE 10 ===
+
+R. W. Batterman
+orthodox theory considers the partition function for the actual ﬁnite system. The new theory
+needs to employ mathematical asymptotics and, as the extended singularity theorem asserts,
+must work with inﬁnite systems.
+12
+4.1 Universality as Explanans
+We have seen that one aspect of the theoretical focus on the critical regions was a recognition of
+the importance of universality. Similar scaling behavior by different systems is an empirical
+fact about the world. And, in much of Kadanoff’s work, and the work of others, it was
+something to be appealed to in various explanatory contexts. I will describe what I mean by
+this in a moment. Ultimately, however, I aim to consider the following question:
+– From a theoretical point of view , how is universal behavior possible and how can it be
+explained?
+This takes the existence of universality to be the explanandum (or thing to be explained)
+rather than the explanans (or thing(s) doing the explaining). Kadanoff deﬁnitely had ideas
+about what, physically, was responsible for universality and so, he had a good idea of how
+one might provide the explanation.
+13 But I think the asymptotic techniques employed in the
+Wilson reﬁnement of the block transformation arguments provide the key to the explanation.
+Before addressing the question of how universality can be explained, let me provide an
+example of how universality has been appealed to in order to explain other things. Kadanoff
+shows how “[u]niversality describes the relationship among different phase transitions prob-
+lems.” [14, p. 105] To this end, imagine that another ﬁeld is inserted into the equation for the
+free energy for a ferromagnet. Call that ﬁeld λ and let U be the operator that is its thermo-
+dynamic conjugate. In other words, we redeﬁne the problem by adding λ and U to the free
+energy:
+F = F(ϵ, h, λ),
+with differential
+dF =< M > dh+ < H > dϵ+ < U > dλ. (5)
+Footnote 11 continued
+phase transitions would pose theoretical problems for the statistical mechanical theory he developed. See [ 22,
+Chap. 3] for a discussion of Gibbs’ thermodynamic analogies.
+12 As an interesting aside, Clifford Truesdell, in a lecture entitled “The Ergodic Problem in Classical Statistical
+Mechanics,” discusses Khinchin’s use of asymptotics to try to justify the identiﬁcation of inﬁnite time averages
+of certain functions with phase (or ensemble) averages. The last paragraph reads as follows:
+I should like to be able to say that statistics is unnecessary, that the name “statistical mechanics” is a
+misnomer for “asymptotic mechanics”, as far as equilibrium is concerned. This is almost true, but not
+quite so. [23, p. 82]
+On my understanding, Truesdell is stressing the importance of appealing N →∞ limits in justifying certain
+claims about ﬁnite systems whose observable properties are represented by sum-functions. Actually, I believe
+it is possible to tell an RG story to justify the use of the microcanonical probability distribution for calculating
+equilibrium values for functions of this form. See [ 4]a n d[18, pp. 139–142] for details.
+13 In his 1970 lecture [ 14] Kadanoff says the following:
+The physical origin of this hypothesis [of universality] is the observation that critical phenomena are
+dominated by ﬂuctuations in M [the order parameter] and H [the energy] which appear in a special
+scale which is very long compared to the force range. Then these ﬂuctuations cannot probe all the
+details of the interatomic potential. Rather they only see certain gross features of the potential …. [ 14,
+p. 104]
+123
+
+
+=== PAGE 11 ===
+
+Philosophical Implications of Kadanoff’s Work...
+One then considers a continuous variation fromλ= 0t o λ= 1 to “…represent the change
+in the Hamiltonian which takes us from the Ising model to the Heisenberg model, or from
+Ni to Fe or from a nearest neighbor interaction to a next nearest neighbor interaction.” [ 14,
+p. 105] In effect, this variation “morphs” the atomic/lower scale details of one system into
+those of another. Universality, then
+…implies that the basic thermodynamic functions and correlation functions only
+depend on λ via a trivial change of variables. The functional form is the same as
+at λ= 0. However, the variables in these functions are changed in that h, ϵ,a n d M are
+each multiplied by parameters a, b, c, d which depend upon λ.[ 14, p. 105, Emphasis
+added.]
+Let
+λ= J
+n.n.n.
+Jn.n
+,
+and consider the variation from nearest-neighbor to next-nearest-neighbor coupling. Let ϵ
+and h be deﬁned as follows:
+ϵ = (T − Tc(λ))
+Tc(λ) and h = μβ Hz
+KT c
+.
+For λ= 0 write the order parameter as
+< M >= m0(h,ϵ)
+and the spin-spin correlation function as
+<σ z(0)σz(r)> = g0(h,ϵ, r).
+Then Kadanoff [14, p. 106] asserts that “[u]niversality implies for λ̸= 0”:
+< M >= am 0(¯h, ¯ϵ), < σ z(0)σz(r)> = (ab/d3)g0(¯h, ¯ϵ, ¯r),
+where
+¯h = bh, ¯ϵ = cϵ, ¯r = dr.
+This means that the functional forms of < M > and <σ z(0)σz(r)> do not change as λ
+varies. The point here is that universality is being assumed a n dt h a ti ti sb e i n gappealed to,
+to explain why “the parameters should be materially independent.” [ 14, p. 107]
+The next section of [ 14] is entitled “Scaling derived from universality.” Here again the
+empirically recognized fact of universality plays the role of a premise. It is used in arguments
+aimed to derive theoretical descriptions of observed scaling relations and so is used to explain
+the existence of scaling.
+4.2 Universality as Explanandum
+However, what about the legitimate question, highlighted above, concerning the very exis-
+tence of universality.From a theoretical point of view, why should we expect the data collapse
+displayed in Fig. 3? This question has a different form than, say, the question of why the
+coexistence curve for Xe has the form that it does—a form that ﬁts a scaling law relation
+|ρvap (Xe) − ρliq (Xe)|= kXe|t|β.
+123
+
+
+=== PAGE 12 ===
+
+R. W. Batterman
+Fig. 4 Sierpinski triangle
+Presumably an answer to this question will very much depend upon the details of the inter-
+molecular potential for Xe. Similarly, an explanation for why methane’s order parameter
+exhibits the behavior
+|ρ
+vap (CH4) − ρliq (CH4)|= kCH4 |t|β
+will be some detailed derivation from the detailed quantum Hamiltonian for methane. Neither
+of these individual explanations provide an answer to the question about the general/universal
+pattern displayed across a host of systems. There are two kinds of “why-questions” that one
+might ask about a pattern of behavior.
+– Type I: One might ask why a particular instance of the pattern was realized.
+– Type II: One might ask why the pattern itself exists across its different realizations. [ 1,
+Chap. 3].
+By way of making the difference between these questions clear, consider the outcome of
+what some have called the “chaos game.” Here one marks three vertices of a triangle A, B,
+and C on a plane. Choose a point somewhere on the plane and roll a three sided die labled
+a, b,a n dc. Go half way to the corresponding vertex and put a point. That’s the new starting
+place. Iterate and one gets a Sierpinski triangle (Fig. 4). Why did the particular instance of
+the pattern appear? Answer: We started at point p rolled an a,t h e nm o v e dh a l fw a yt o w a r da,
+rolled a c, and so on. That provides a complete explanation of the appearance of the pattern
+known as the Sierpinski triangle. Why, in general, do we get patterns of this type (with this
+particular fractal dimension, etc.)? The answer provided to the ﬁrst question is essentially
+irrelevant for our response to the second question. Answering the second requires an appeal
+to the strong law of large numbers. In fact, we explain why we should expect this pattern by
+showing it to have probability one in the space of sequences of As, Bs, and Cs generated by
+our die rolls. It also follows that we can lop off any ﬁnite initial sequence of As, Bs, and Cs
+from any sequence of rolls without changing the the fact that we can expect, with measure
+one, that the triangle pattern will emerge. (The details of arbitrarily long ﬁnite sequences are
+irrelevant for the outcome. One can “morph” one sequence into another without affecting the
+emergent pattern.)
+In asking why we should expect universal critical behavior across a wide range of molec-
+ularly distinct systems, we are asking a question of this second type. And the answer is going
+123
+
+
+=== PAGE 13 ===
+
+Philosophical Implications of Kadanoff’s Work...
+to be similar in some respects to the appeal to the strong law of large numbers. We will need
+to appeal to asymptotics. We can explain why we should expect such behavior, if we can
+demonstrate that the lower scale details that genuinely do distinguish the systems from one
+another (those molecular details, for example, that are responsible for the system’s having the
+critical temperature and pressure it actually has), are irrelevant for the behavior expressed
+by the scaling law for the order parameter. If we can tell a story about how these lower scale
+molecular details are irrelevant for the upper scale observed scaling behavior, then we will
+have an explanation for the universality displayed in Guggenheim’s Fig. 3.
+4.3 RG: New Problems and New Solutions
+An important consequence of the focus on the critical region was a better understanding of
+the concept of universality as described above in Sect. 3. Kadanoff understood the idea that
+repeated blocking operations would enable one, in effect, to eliminate irrelevant details about
+the atomic potentials (irrelevant, that is, for describing behavior in the critical region). He
+saw the procedure as a means for constructing a sequence of effective Hamiltonians each of
+which (because of universality) could be assumed to have the same structural form as the
+previous one. Furthermore, each of new (rescaled) parameters in the Hamiltonian would be
+proportional to their old values near criticality.
+However, he did not recognize that this iterative behavior could be understood in terms of
+dynamical systems theory. The idea of an iterated ﬂow on an abstract (dynamical) space to
+a possible ﬁxed point provides the means to answer questions that statistical mechanics with
+its averaging procedures cannot. Crucial, of course, to ﬁnding a ﬁxed point, is the fact that
+at criticality the correlation length diverges.
+14 Unless one has correlations of inﬁnite extent,
+the iterative blocking procedure will get hung up at a given length scale and one will not ﬁnd
+the ﬁxed point.
+Most important is the fact that while the dynamical mathematical analysis necessary to
+reach a ﬁxed point requires inﬁnities and divergences, the topological nature of the RG ﬂow
+in the neighborhood of the ﬁxed point can tell us much about the behavior of near critical
+systems. That is, the RG is not just a theory of the critical point, but rather it is a theory of the
+critical region. And, this covers large but ﬁnite systems. So, contrary to the line of reasoning
+presented in Sect. 2.2 the explanation of the behavior of real ﬁnite systems requires the use
+of mathematical inﬁnities, but it does not require there to be inﬁnite real systems.
+15
+Theories are supposed to provide descriptions and explanations. They enable us to solve
+certain kinds of problems presented to us by the world. Statistical mechanical averaging or
+mean ﬁeld theory failed to solve the problem of characterizing the critical region in part
+because statistical mechanics consider problems to have a certain form. Kadanoff puts this
+particularly nicely:
+14 It is also important to recognize that at the critical point the ﬂuid exhibits fractal-like, self-similarity. It is
+the recognition of this fact that allowed Kadanoff to introduce the blocking operations and Wilson to think
+about ﬁnding ﬁxed points of the RG transformation.
+15 A referee objects to this way of putting things because according to the point of view in Sect. 2.2 the use of
+inﬁnities is merely a matter of mathematical convenience and so, the claim I’m making here is completely in
+line with the claims of those supporting the idea that real phase transitions aren’t sharp. In response, it seems
+to me that if one is going to hold that the use of the inﬁnite limits is a convenience, then one should be able to
+say how (even if inconveniently) one might go about ﬁnding a ﬁxed point of the RG transformation without
+inﬁnite iterations. I have not seen any sketch of how this is to be done. The point is that the ﬁxed point, as just
+noted, determines the behavior of the ﬂow in its neighborhood. If we want to explain the universal behavior of
+ﬁnite but large systems using the RG, then we need to ﬁnd a ﬁxed point and, to my knowledge, this requires
+an inﬁnite system.
+123
+
+
+=== PAGE 14 ===
+
+R. W. Batterman
+Previous work in statistical physics had emphasized ﬁnding the properties of prob-
+lems deﬁned by statistical sums, each sum being based upon a probability distribution
+deﬁned by particular values of coupling constants like K and h. Such sums would
+be called solutions to the problems in question. In the renormalization group work the
+emphasis is on connecting problems by saying that different problems could have iden-
+tical solutions. The method involved ﬁnding different values of couplings that would
+then give identical free energies and other properties. These set of couplings would
+then form a representation of a universality class. All the interactions that ﬂow into a
+given ﬁxed point in the course of an inﬁnite number of renormalizations belong to the
+universality class of that ﬁxed point. [ 17, p. 179]
+The mathematical asymptotics that characterizes the RG allows one to solve different
+problems. Among other things, it allows one to understand and to some extent quantify the
+existence and nature of universal patterns realized by radically different systems.
+4.4 Justifying Minimal Models
+There is another aspect to acknowledging the existence of different kinds of problems that has,
+to my mind, interesting philosophical consequences. In Sect. 2 I described the Ising model
+using the term, borrowed from Goldenfeld, of “minimal model.” [ 11, p. 33] Philosophers
+have long tried to understand the epistemological role of the use of models and idealizations
+in describing and explaining the behavior of relatively complex physical systems. [ 3,20]
+One particularly import question concerns the justiﬁcation for the use of models (minimal
+models) that are not (very) representative of the systems they are used to understand. The
+Ising model is a case in point. A set of discrete spins on a lattice really does not look at all
+like the liquids in our tea kettles or other vessels. How is it that we can, nevertheless, use the
+Ising model and others to explain and understand the behavior of real systems in the world?
+The RG explanation of the existence of universality provides an interesting answer to this
+question. [5] The process of renormalization aims to ﬁnd a ﬁxed point of the renormalization
+group transformation. If it does, then all (critical) Hamiltonians that ﬂow to that ﬁxed point
+are in the same universality class. That is to say, the universality class is the set of systems with
+Hamiltonians in the basin of attraction of the ﬁxed point. By investigating the nature of the RG
+ﬂow in the neighborhood of that point one can describe the shared, universal macroscopic
+behavior for all systems in that class. If an Ising Hamiltonian is a member of that class,
+then we have a justiﬁcation for using that model to investigate the critical and near critical
+behaviors of real systems that are also members of that class. Despite the wild idealizations
+and over simpliﬁcations characteristic of the Ising model (and other lattice models), the
+investigation of their behavior will be guaranteed to tell us about the macroscopic behaviors
+of actual gases, ﬂuids, and magnets. Thus, from an epistemic point of view, the RG theory
+answers pressing philosophical questions about the use of idealizations and models in new
+and interesting ways.
+5 Conclusion
+This paper has aimed to examine the consequences of an RG account of critical phenomena
+and universal behavior for our philosophical understanding of the nature of physical theories.
+One of Kadanoff’s main conclusions is that the RG constitutes a different kind of theory than
+orthodox statistical mechanics. It is not simply a new mathematical tool that gets attached to
+123
+
+
+=== PAGE 15 ===
+
+Philosophical Implications of Kadanoff’s Work...
+the orthodox theory. Instead, it represents a new, and quite revolutionary, development. New
+kinds of questions can be formulated and answered using the mathematics of the RG. The
+content of the theory is informed by the mathematics that it employs.
+This represents a rather dramatic departure from philosophical orthodoxy concerning the
+nature of physical theories. That orthodoxy locates the content of a theory in the axiomatic
+structure and, typically at least, assigns the use of inﬁnite mathematics a more pragmatically
+justiﬁed role. We employ inﬁnities and continua for computational ease. The theories that
+use such mathematics are not fundamental.
+Kadanoff’s understanding of the new RG theory of critical phenomena reﬂects a different
+conception of the role of asymptotics and inﬁnities. The kind of upscaling that leads to an
+understanding of the universal macroscopic behavior of micro-diverse systems is different
+than the upscaling provided in the ensemble averaging of mean ﬁeld theory. He describes
+this new kind of upscaling in the following poetic passage:
+…the extended singularity theorem suggests that phase transitions are triggered by a
+very elegant mathematical juxtaposition put before us by Nature. On the one hand,
+the phase transition is connected with a symmetry operation built into the microscopic
+couplings of the system. For example, the ferromagnetic based upon the breaking of a
+symmetry in the possible directions of spins. On the other hand, the phase transitions
+also make use of the extended topology of [a] system that extends over an effectively
+inﬁnite region of space. This coupling of microscopic with macroscopic has an unex-
+pected and quite breathtaking beauty. [ 17, p. 183]
+Here, Kadanoff displays the hallmark of the natural philosopher. This seems like a good place
+to end.
+Acknowledgements Thanks to Michael Miller for helpful comments.
+References
+1. Batterman, R.W.: The Devil in the Details: Asymptotic Reasoning in Explanation, Reduction, and Emer-
+gence. Oxford Studies in Philosophy of Science. Oxford University Press (2002)
+2. Batterman, R.W.: Critical phenomena and breaking drops: Inﬁnite idealizations in physics. Stud. Hist.
+Philos. Mod. Phys. 36, 225–244 (2005)
+3. Batterman, R.W.: Idealization and modeling. Synthese 169, 427–446 (2009)
+4. Batterman, R.W.: Reduction and renormalization. In: Ernst, G., Hüttemann, A. (eds.) Time, Chance, and
+Reduction: Philosophical Aspects of Statistical Mechanics, chap. 9, pp. 159–179. Cambridge University
+Press (2010)
+5. Batterman, R.W., Rice, C.C.: Minimal model explanations. Philos. Sci. 81(3), 349–376 (2014)
+6. Brush, S.G.: Statistical Physics and the Atomic Theory of Matter, From Boyle and Newton to Landau
+and Onsager. Princeton Series in Physics. Princeton University Press, Princeton (1983)
+7. Butterﬁeld, J.: Less is different: emergence and reduction reconciled. Found. Phys. 41(6), 1065–1135
+(2011)
+8. Butterﬁeld, J., Bouatta, N.: Renormalization for philosophers. In: Bigaj, T., Wüthrich, C. (eds.) Meta-
+physics in Contemporary Physics, vol. 104, pp. 437–485. Poznan Studies in Philosophy of Science (2015)
+9. Callender, C.: Taking thermodynamics too seriously. Stud. Hist. Philos. Mod. Phys.32(4), 533–539 (2001)
+10. Fraser, J.D.: Spontaneous symmetry breaking in ﬁnite systems. Philos. Sci. 83, 585–605 (2016)
+11. Goldenfeld, N.: Lectures on Phase Transitions and the Renormalization Group. Number 85 in Frontiers
+in Physics. Addison-Wesley, Reading (1992)
+12. Goldenfeld, N., Kadanoff, L.P .: Simple lessons from complexity. Science 284, 87–89 (1999)
+13. Guggenheim, E.A.: The principle of corresponding states. J. Chem. Phys. 13(7), 253–261 (1945)
+123
+
+
+=== PAGE 16 ===
+
+R. W. Batterman
+14. Kadanoff, L.P .: Critical behavior. Universality and scaling. In: Green, M.S. (ed.) Proceedings of the
+International School of Physics “Enrico Fermi” Course LI, volume Course LI, pp. 100–117, New Y ork.
+Italian Physical Society, Academic Press (1971)
+15. Kadanoff, L.P .: Statistical Physics: Statics, Dynamics, and Renormalization. World Scientiﬁc, Singapore
+(2000)
+16. Kadanoff, L.P .: More is the same; phase transitions and mean ﬁeld theories. J. Stat. Phys. 137, 777–797
+(2009)
+17. Kadanoff, L.P .: Theories of matter: inﬁnities and renormalization. In: Batterman, R.W. (ed.) The Oxford
+Handbook of Philosophy of Physics, chap. 4, pp. 141–188. Oxford University Press (2013)
+18. Koralov, L., Sinai, Y .G. (2007) Theory of Probability and Random Processes, 2nd edn. Springer (2007)
+19. Kuhn, T.S.: The Structure of Scientiﬁc Revolutions, 2nd edn. The Universtity of Chicago Press, Chicago
+(1970)
+20. Morgan, M.S., Morrison, M. (eds.). Models as Mediators: Perspectives on Natural and Social Science.
+Cambridge University Press (1999)
+21. Norton, J.D.: Approximation and idealization: why the difference matters. Philos. Sci. 79(2), 207–232
+(2012)
+22. Sklar, L.: Physics and Chance: Philosophical Issues in the Foundations of Statstical Mechanics. Cambridge
+University Press, Cambridge (1993)
+23. Truesdell, C.: The ergodic problem in classical statistical mechanics. In: Six Lectures on Modern Natural
+Philosophy, chap. 5, pp. 65–82. Springer, New Y ork (1966)
+24. Truesdell, C.: Method and taste in natural philosophy. In: Six Lectures on Modern Natural Philosophy,
+chap. 6, pp. 83–108. Springer (1966)
+123

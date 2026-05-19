@@ -1,0 +1,834 @@
+=== PAGE 1 ===
+
+Universality and
+RG Explanations
+Robert W. Batterman
+University of Pittsburgh
+I discuss the concept of universality, speci ﬁcally of physical phenomena, and
+even more speciﬁcally of the behavior of critical phenomena. In the philosophical
+literature, I believe, this concept has been widely misunderstood. In particular ,
+a number of recent attempts to formulate what counts as an explanation for the
+possibility of universal behavior are misguided because they fail to properly
+understand what the explanandum is. A proper explanation involves recogniz-
+ing that universality implies a kind of stability of behavior under pertur-
+bation. Furthermore, this stability itself requires explanation. I relate the
+explanation of the stability characteristic of universality to the autonomy of
+certain models or theories at continuu m scales from those and scales of the
+molecular or atomic.
+1. Introduction
+In its broadest sense, “universality” is a technical term for something quite
+ordinary. It refers to the existence of patterns of behavior by physical sys-
+tems that recur and repeat despite the fact that in some sense the situations
+in which these patterns recur and repeat are different. Rainbows, for exam-
+ple, always exhibit the same pattern of spacings and intensities of their
+bows despite the fact that the rain showers are different on each occasion.
+They are different because the shapes of the drops, and their sizes can vary
+quite widely due to differences in temperature, wind direction, etc. There
+are different questions one might ask about such patterns. For instance,
+one might ask why the particular rainbow that I ’m currently seeing ex-
+hibits the spacings and intensities of its bows that it does. Perhaps an
+answer to that question might need to refer to the particular sizes and
+Perspectives on Science 2019, vol. 27, no. 1
+© 2019 by The Massachusetts Institute of Technology doi:10.1162/posc_a_00298
+Thanks to Michael Miller and Porter Williams for helpful comments and discussions.
+26
+
+
+=== PAGE 2 ===
+
+shapes of the drops in the particular rain shower at this time. On the other
+hand, one might ask about how it is possible that despite the differences in
+the lower scale details about the sizes and shapes of drops in different rain
+showers, the spacings and intensities of the bows in the different rainbows
+are the same. This latter question concerns the explanation of the (uni-
+versal) pattern of behavior. It is arguable that the answer to the former
+question (or even answers to the former question for all the different rain-
+bows all taken together) cannot answer the second question (Batterman
+2002a, 2002b).
+This paper examines what is, in the physics literature, the paradigm
+example of universality; namely the so-called universality of critical
+phenomena—certain kinds of phase transitions that systems (e.g., ﬂuids
+and magnets) can undergo. In the next section I describe the phenomena.
+In section 3 I lay out the mathematical and physical ingredients required
+for one to describe this universal pa ttern. These include the introduction
+of a function called an “order parameter ” that serves to represent a surpris-
+ing change of symmetry as a system passes through a so-called critical
+point. Section 4 looks back to some early work on phase transitions to
+see how the concept of universality should be properly de ﬁned. One of
+the most important features, virtual ly ignored in recent philosophical dis-
+cussions, is a kind of stability of macroscopic behavior under changes of
+microscopic details. Any explanation of the possibility of universal behavior
+must account for this type of stability. In section 5 I brie ﬂy discuss how the re-
+normalization group (RG) can explain the existence of universal behavior, in
+part by explaining the existence of this kind of stability. Finally, in section 6
+and in light of the recognition of the importance of the conception of stability
+discussed in section 4, I address some objections to the RG explanation of
+universality that have been raised repeatedly in the philosophical literature.
+2. Universality of Critical Phenomena: A Paradigm Case
+One of the most striking examples of universal behavior concerns the pattern
+displayed by molecularly distinct ﬂuids near their so-called critical points.
+It is worth spending a bit of time examining this paradigmatic example of
+universality.
+Everyone knows that water can exist in three distinct phases: as a liquid,
+as a solid, and as vapor or gas. One can represent these different phases
+graphically using the thermodynamic variables, pressure ( P), volume
+(V ), and temperature ( T ). In ﬁgure 1, the curves show how the pressure
+depends on the volume at different ﬁxed values for the temperature.
+Consider the boiling region. This corresponds to the process that takes
+place when water boils in a kettle. Inside the kettle both vapor and liquid
+27Perspectives on Science
+
+
+=== PAGE 3 ===
+
+coexist. The special point ( Tc, Pc) is called the critical point. It is special in
+the following way. Below the critical temperature ( Tc ¼ 647K) and critical
+pressure ( Pc ¼ 22.9Mpa) one ﬁnds the region of liquid/vapor coexistence.
+Above that critical point, the kettle will no longer contain two distinct
+phases of water. There is an abrupt change in the makeup of the stuff in
+the kettle at that critical temperature and pressure. For carbon dioxide
+(as for many other ﬂuids) the diagram looks exactly the same although there
+will be different values for the critical temperature and pressure.
+1 In saying
+that the diagram looks exactly the same for carbon dioxide as it does for
+water, the important thing is that the shapes of the dotted lines near
+(Tc, Pc)f o rb o t hﬂuids are identical. So, while water and carbon dioxide
+are very different ﬂuids as is evidenced by their very different critical tem-
+peratures and pressures, nevertheless near their critical points ( “near criti-
+cality”) they exhibit identical behavior. This is universal behavior realized
+by molecularly very different ﬂuids.
+A remarkable representation of the experimental fact of universality is
+provided by a ﬁgure in E. A. Guggenheim ’s 1945 paper entitled “The
+Principle of Corresponding States. ” When plotted in reduced coordinates
+1. For carbon dioxide, Tc ¼ 31.1C (¼ 304.3K) and Pc ¼ 7.2MPa. Experimentally, it is
+a lot easier to realize the critical temperature and pressure of CO2 than it is for water.
+Figure 1. Cartoon PVT Diagram for Water (Kadanoff 2013, p. 148).
+28 Universality and RG Explanations
+
+
+=== PAGE 4 ===
+
+(ρ
+ρc
+, T
+Tc
+), the coexistence curves for eight different ﬂuids near criticality all
+collapse onto the same curve. See ﬁgure 2.
+One can quantify the universal behavior by introducing a so-called “order
+parameter.” For the transition between the boiling region with two co-
+existent phases and the region above, de ﬁne the order parameter Ψ to be
+the difference between the densities of the liquid and the vapor in the kettle:
+Ψ ¼j ρl −ρvj:
+Then the relation2
+Ψ ∝ /C15β (1)
+describes the shape of the coexistence curve for a ﬂuid. Universality is also
+expressed by the fact that β i st h es a m ef o rt h ed i f f e r e n tﬂuids. This is just
+what is represented in ﬁgure 2.
+Figure 2. Universality of Critical Phenomena (Guggenheim 1945).
+2. /C15 ¼ |(Tc − T )/T| and is a measure of how close a system is to its critical temperature
+in dimensionless units.
+29Perspectives on Science
+
+
+=== PAGE 5 ===
+
+Guggenheim ’s demonstration of the data collapse is indeed striking.
+But it is even more remarkable that the critical behavior of magnets exhibits
+the identical scaling relation. For a ferromagnet the order parameter is M,
+the net magnetization, and the relation
+M ∝ /C15β (2)
+holds as well with β identical to the value in equation (1).
+3. The Ingredients of Universality
+3.1. Order Parameters and Symmetries
+Exactly what kind of quantities are the order parameters Ψ and M? One
+can think of them as thermodynamic properties that allow us to character-
+ize the qualitative behavior of systems near their critical points. That is,
+one can treat these as thermodynamic properties on a par with pressure,
+temperature, and volume. As thermodynamic properties they describe
+the behavior to be expected as a system is cooled from a temperature above
+T
+c to below Tc. In the case of Ψ we see that as that temperature is crossed,
+there is a spontaneous appearance of two new states of matter (liquid and
+vapor). In the case of M, the magnet exhibits zero net magnetization (it is
+in a so-called paramagnetic phase) and spontaneously gains a net magne-
+tization as the critical temperature is crossed. In both cases, above T
+c there
+exists a symmetry that is broken upon passing through Tc. For example, in
+a magnet in zero external magnetic ﬁeld, there is rotational symmetry (no
+preferred direction) above Tc that is broken upon passing through Tc: All of
+a sudden there is a preferred direction of magnetization.
+The concept of an order parameter was ﬁrst introduced 3 by Landau in
+1937 (Landau 1965, pp. 193 –216). The order parameter, as noted, cap-
+tures the macro or continuum behavior and re ﬂects the symmetry changes
+in a ﬂuid as a parameter (temperature) is varied. But, from the point of
+view of statistical mechanics, one needs to think about Ψ and M in a dif-
+ferent way. What, after all, is responsible for there being non-zero values
+of M below Tc? The answer has to depend on some kind of lower scale/
+microscopic features of the magnet —some fact about the arrangement of
+(magnetic) spins on a lattice. Michael Fisher puts this as follows:
+To assert that there exists an order parameter in essence says:
+“I may not understand the microscopic phenomena at all ” (as was
+historically, the case for super ﬂuid helium), “but I recognize that
+3. Michael Fisher (Fisher 1998, p. 654) says it ’s fair to say Landau invented the order
+parameter.
+30 Universality and RG Explanations
+
+
+=== PAGE 6 ===
+
+there is a microscopic level and I believe it should have certain
+general, overall properties as regards locality and symmetry: those
+then serve to govern the most characteristic behavior on scales greater
+than atomic. ” (Fisher 1998, p. 654)
+Once one sees the order parameter as coding for some feature of the micro-
+structure of the magnet or ﬂuid, one is in the domain of statistical physics.
+Now one needs to treat the order parameters as averages and one needs to
+consider the possibility of ﬂuctuations in the values of the order parameters.
+Furthermore, thinking like this actually requires that one distinguish be-
+tween the macroscopic scale (the scale of the continuum where the order
+parameter is simply a function of thermodynamic macroscopic properties
+like temperature and pressure), a mesoscale where ﬂuctuations in aggregates
+of atomic scale properties may be important, and the atomic scale where
+what matters is the detailed natures of the atoms/molecules and spins.
+The order parameter lives in the intermediate region. Here is Fisher again:
+Signiﬁcantly, in my view, Landau ’s introduction of the order
+parameter exposed a novel and unexpected foliation or level in our
+understanding of the physical world. Traditionally, one characterizes
+statistical mechanics as directly linking the microscopic world of nuclei
+and atoms (on length scales of 10
+−13 to 10 −8 cm) to the macroscopic
+world of say, millimeters to meters. But the order parameter,
+as a dynamic, ﬂuctuating object in many cases intervenes on an
+intermediate or mesoscopic level characterized by scales of tens or
+hundreds of angstroms up to microns (say, 10 −6.5 to 10 −3.5 cm)
+(Fisher 1998, pp. 654).
+It is reasonable to ask why this works. Why is this foliation of the physical
+world successful and appropriate? The answer to this is important for
+understanding both how universal behavior is possible and for understand-
+ing how one can explain such universality. That is to say, the existence of
+meso-scale features of the world captured by the order parameter is a nec-
+essary condition for universality.
+4
+3.2. Length Scales
+Kadanoff describes a “very interesting and fundamental question ” concern-
+ing the fact tlhat the world
+4. Although I cannot argue this point here, I believe that the spatial (and in other cases,
+temporal) foliation into small (short), meso, and large (long) scales is an important feature of
+universality in various sciences. This includes materials science, among others. See the discus-
+sion of intermediate asymptotics in Batterman (2002a). See also Batterman (2018).
+31Perspectives on Science
+
+
+=== PAGE 7 ===
+
+shows an amazing variety of length scales: There is the Hubble
+radius of the universe, 10 10 light years or so and the radius of our
+own solar system, 10 11 meters roughly, and us –two meters perhaps,
+and an atom –10−10 meters in radius, and a proton 10 −16 meters, and
+the characteristic length of quantum gravity —which involves
+another factor of about 10 20.
+How these vastly different lengths arise is a very interesting and
+fundamental question. … However, we can think about how one
+describes the region between these lengths. If one is looking at scales
+between two fundamental lengths, there are no nearby characteristic
+lengths. Similarly in critical phenomena, whenever one looks [at]
+any event which takes place between the scale of the lattice constant
+[the spacing between molecules or spins] and the much larger scale
+of the coherence length, one is in a situation in which there are
+no nearby characteristic lengths (Kadanoff 2000), p. 251).
+This lack of characteristic length scales is crucial for both the existence of
+universal behavior and for its explanation. In the above quote, Kadanoff
+refers to the “coherence length ” sometimes also called the “correlation
+length.” For a system near criticality the correlation length becomes
+enormous and for infinite systems, it diverges to infinity.
+5 For a ﬂuid sys-
+tem like the water in the kettle, the correlation length is a measure of the
+average size of a region of vapor (say) in the kettle. V apor molecules cluster
+with other vapor molecules and liquid molecules cluster with other liquid
+molecules. (The analog of this in a ferromagnet is that the spins on the
+lattice sites want to be next to spins pointing in the same direction. So
+one has “droplets” of up-spins of a certain size and “droplets” of down-
+spins as well.) As the water in the boiling region (or the spins in the mag-
+net) heat up and approach critical temperatures, the size of the different
+droplets get larger and larger. This means that, even though the physical
+forces between the molecules (or spins) remain local, distant molecules
+(spins) become correlated as a result of existing in the different droplets.
+In addition, one has large correlated droplets of vapor inside droplets of
+liquid inside droplets of vapor .... See ﬁgure 3.
+In the phase diagram of ﬁgure 1, the region near critical point inside
+the boiling region corresponds to this “fractal like ” structure of droplets
+within droplets, etc. The reason for this is that near the critical point,
+ﬂuctuations are dominant and average values for the order parameters es-
+sentially lose their meaning. Orthodox statistical mechanics is unable to
+describe the critical behavior because there are ﬂuctuations at all length
+5. I will have more to say about the role of in ﬁnite systems below.
+32 Universality and RG Explanations
+
+
+=== PAGE 8 ===
+
+scales from the macroscopic correlation length equal to the size of the
+system (the kettle), and the microscopic distance of the range of the forces
+between molecules or spins. These ﬂuctuations “cannot probe all the details
+of the interatomic potential. Rather they only see certain gross features of
+the potential: for example the amount of breaking of an exact symmetry… or
+the distance from the critical point. ” (Kadanoff 1971, p. 104)
+Given all these details about what is happening at the micro-, meso-,
+and macro-scales in the neighborhood of a critical point, we can now see
+how properly to de ﬁne the universality of critical phenomena.
+4. How Universality is De ﬁned
+Kadanoff states the “hypothesis of universality ” as follows:
+All phase transition problems can be divided into a small number of
+different classes depending upon the dimensionality of the system
+and the symmetries of the order state. Within each class, all phase
+transitions have identical behaviour in the critical region, only the
+names of the variables are changed (Kadanoff 1971, p. 103).
+Table 1 exhibits different values for the scaling exponent β for different
+phase transitions at criticality.
+6 We can here see how the scaling exponent
+depends upon the dimensionality of the system. The ferromagnetic transi-
+tion for a two dimensional ﬁlm is in a different universality class than the
+6. Table 1 is from data presented in (Kadanoff 1971, p. 102).
+Figure 3. Droplets inside droplets inside droplets (Kadanoff 1976, p. 12).
+33Perspectives on Science
+
+
+=== PAGE 9 ===
+
+three dimensional magnet. Notice also that despite remarkable differences in
+microstructural makeup, the liquid/vapor systems, super ﬂuid helium, and
+the d ¼ 3 ferromagnet are all in the same universality class; that is, the scaling
+exponent β appearing in equations (1) and (2) are the same (within experi-
+mental error).
+A full description of a phase transition typically involves two ﬁeld var-
+iables. Consider the ferromagnetic transition. One can take the external
+magnetic ﬁeld h as a ﬁeld that can drive a system from one coexisting phase
+(up spins) to the other (down spins). The second ﬁeld is provided by the
+reduced temperature, /C15,d e ﬁned above in footnote 2. This ﬁeld drives the
+system closer or away from the critical point. These are the variables to
+which Kadanoff refers in his hypothesis of universality above. In terms
+of these ﬁeld variables, the free energy for the system can be written as
+follows7: F ¼ F(h, /C15) In differential form, this becomes
+dF ¼< M > dhþ < H > d/C15; (3)
+where < H> is an energy. In this differential form we see that the ﬁelds h
+and /C15 are paired with two thermodynamically conjugate variables: < M>
+and < H>, respectively. For the liquid/vapor transition, the corresponding
+pairs of variables are the order parameter Ψ with its conjugate ( μ − μc)
+related to the chemical potential. When Kadanoff says that “only the
+names of the variables change ” for systems in the same universality class
+these are the changes to which he refers:
+M; hðÞ ↔ Ψ ; μ −μcðÞðÞ
+7. The free energy is a measure of the internal energy of the system that is available to
+do work.
+Table 1. Scaling Exponents for Different Transitions
+Phase Transition V alue of β
+Mean Field Theory 1/2
+d ¼ 2 Ising Model Ferromagnet 1/8
+d ¼ 3 Liquid/ V apor CO2, Xe 0.35
+d ¼ 3 Super ﬂuid Helium 4He 0.359
+d ¼ 3 Ising Model Ferromagnet 0.315
+34 Universality and RG Explanations
+
+
+=== PAGE 10 ===
+
+The ferromagnetic/paramagnetic pha se transition and the liquid/vapor
+phase transition are in the same relatively small class.
+4.1. Stability
+Thus there is a relationship between different phase transitions problems
+that leaves invariant various features of those transitions. Here is Kadanoff
+again:
+The theorist can discuss this relation in the following way: He
+imagines that yet another ﬁeld is inserted into the free energy. Call
+that other ﬁeld λ and the operator which is its thermodynamic
+conjugate, U. Here λ represents a parameter in the Hamiltonian.
+Continuous variation from λ ¼ 0t o λ ¼ 1 might represent the
+change in the Hamiltonian which takes us from the Ising model to
+the Heisenberg model, or from Ni to Fe or from a nearest neighbor
+interaction to a next nearest neighbor interaction. Therefore, the
+discussion of λ and its thermodynamic conjugate U is in effect the
+discussion of the relationship among different phase transition
+problems (Kadanoff 1971, p. 105).
+Consider the ferromagnetic transition. Inserting this new parameter into
+the Hamiltonian means that the free energy is now a function, not only of
+the magnetic field h and the ﬁeld /C15, but also of the ﬁeld λ:
+F ¼ F /C15;h; λðÞ :
+In differential form we now have
+dF ¼ < M > dhþ < H > d/C15þ < U > dλ: (4)
+As an example, consider the Hamiltonian for a nearest neighbor Ising
+ferromagnet:
+ℋ
+Ω ¼ −Jn:n:
+X
+<ij>
+σiσj −h
+X
+i2Ω
+σi; (5)
+where Ω is a region of spins on a d-dimensional lattice, < ij> signals near-
+est neighbor pairs on the lattice, Jn.n. characterizes the nearest neighbor
+spin-spin coupling, and h is a (uniform) magnetic ﬁeld.
+Next, let
+λ ¼ Jn:n:n:
+Jn:n:
+;
+be the ratio of the next nearest neighbor spin coupling strength to that
+of nearest neighbor coupling strength. Consider the variation of λ from
+35Perspectives on Science
+
+
+=== PAGE 11 ===
+
+λ ¼ 0t o λ ¼ 1.8 This takes us from the nearest-neighbor to next-nearest-
+neighbor coupling. Let /C15 and h be de ﬁned as follows:
+/C15 ¼ T −Tc λðÞðÞ
+Tc λðÞ and h ¼ μβHz
+KTc
+:
+For λ ¼ 0 write the order parameter as function, m0 of h and /C15:
+< M > ¼ m0 h;/C15ðÞ :
+Similarly introducing the distance r between spins, one can write the spin-
+spin correlation function g0 as follows:
+< σz 0ðÞ σz rðÞ > ¼ g0 h;/C15 ;rðÞ :
+Then Kadanoff (Kadanoff 1971, p. 106) asserts that “[u]niversality implies
+for λ ≠ 0”:
+< M > ¼ am0 /C22h; /C22/C15ðÞ ;< σz 0ðÞ σz rðÞ > ¼ ab=d3ðÞ g0 /C22h; /C22/C15;/C22rðÞ ;
+where
+/C22h ¼ bh; /C22/C15 ¼ c/C15; /C22r ¼ dr:
+This means that the functional forms of <M> and <σz(0)σz(r)> do not change
+as λ varies.
+Universality, then
+… implies that the basic thermodynamic functions and correlation
+functions only depend on λ via a trivial change of variables. The
+functional form is the same as at λ ¼ 0. However, the variables in
+these functions are changed in that h, /C15, and M are each multiplied by
+parameters a, b, c, d which depend upon λ (Kadanoff 1971, p. 105).
+What does this result mean? It means that the Hamiltonians of different
+systems—as different as 9 nickel and iron, or as different as 10 CO2, Xe, and
+4He—can be perturbed into one another without changing the nature of
+the phase transition problem.11 This, in turn, means that the scaling behavior
+8. See also the paper by Robert Grif ﬁths “Dependence of Critical Indices on a Param-
+eter,” Grifﬁths (1970).
+9. See above quote from Kadanoff.
+10. See Table 1 above.
+11. Not all such transitions will preserve the nature of the phase transition problem.
+In fact, a perturbation from an Ising Hamiltonian to a Heisenberg Hamiltonian, will take
+us from one problem to another.
+36 Universality and RG Explanations
+
+
+=== PAGE 12 ===
+
+of the order parameter will remain unchanged as the transformation (by vary-
+ing the value of λ) between Hamiltonians is effected. In other words, many
+of the details that genuinely distinguish a lattice of nickel from that of iron
+(different interatomic strengths, etc.) are irrelevant for the scaling behavior.
+This is best understood as a stability result. The class of systems represented
+by their Hamiltonians between which such λ-transformations can take place
+without effecting the scaling behavior of the order parameter (whether it is
+M,o r Ψ , or whatever) is called a “universality class.” It is deﬁn e da st h a ts e t
+of systems between which such (perturbative) transformations hold.
+This stability under perturbation isthe key propertyof universality. To explain
+how universality is possible, then, requires that one explain two features:
+1. Why are the phase transitions stable under perturbation of the micro-
+scopic details of the systems (as encoded in their Hamiltonians)?
+2. Why are the universality classes dependent
+12 upon the symmetry of the
+order parameter and the dimensionality of the systems 13?
+5. Explaining Universality
+In this section I outline, very brie ﬂy, how the renormalization group allows
+for an explanation of the two key features of universal behavior just men-
+tioned. This explanation has been called into question by a number of
+commentators and I will consider their objections in the following section.
+Recall the ingredients of universalit y. Near criticality, the correlation
+length is enormous and there is a droplets-within-droplets structure that
+exhibits self-similarity (i.e, it behaves like a fractal). As a result there are no
+characteristic scales between the atomic/lattice spacing and the continuum.
+Importantly, as noted, for an in ﬁnite system the correlation length actually
+diverges to in ﬁnity.
+Kadanoff recognized that one could exploit the droplets-within-droplets
+fractal structure to change a Hamiltonian representing a system into a re-
+lated effective Hamiltonian by a kind of coarse-graining procedure. This is
+now known as the Kadanoff block spin method.
+The idea is to group or block spins or molecules and replace them
+with an some kind of average.
+14 In ﬁgure 4 there are nine spins per block
+12. Recall Kadanoff ’s “hypothesis of universality ” quoted at the beginning of this
+section.
+13. It should be clear from the way this question is answered below that the kind of
+dependence on symmetry and dimension is not causal. Nor is the explanation of that de-
+pendence causal in nature.
+14. It almost doesn ’t matter what averaging or coarse-graining scheme is used. This
+fact is just another signature of the stability of phase transitions under perturbation.
+37Perspectives on Science
+
+
+=== PAGE 13 ===
+
+and the “averaging” rule is to let the majority rule: If more spins in a
+block are up-spins (down-spins), re place those nine spins with a single
+“block spin ” that points up (down). Now we have a lattice of block spins
+that looks pretty much like the original lattice but the spacings between
+the block spins is greater. Next one spatially rescales so as to put the new
+spins on the same lattice as the original. Finally one changes the block
+spins so that the exhibit coupling strengths as similar to the original
+coupling as possible.
+15 We now have a new “renormalized ” Hamiltonian
+corresponding to this effective syste m. Continued iteration of this proce-
+dure leads to a ﬂow (the RG ﬂo w )o na na b s t r a c ts p ace of Hamiltonians.
+That is, it induces a dynamics that takes one Hamiltonian into another
+as the blocking procedure is repeated. See ﬁgures 5 and 6.
+One examines the dynamical ﬂow on this abstract space and looks for
+potential ﬁxed points. These are points which when acted upon by the
+transformation yield the same point.
+16 A ﬁxed point is a property of
+15. This part of the procedure is to a certain extent an art. There is no explicit recipe
+that one can follow.
+16. If τ represents the transformation and p*i sa ﬁxed point we will have τ( p*) ¼ p*.
+Figure 4. Blocking and averaging to yield a new (coarse-grained) effective system
+(Kadanoff 2013, p. 172).
+38 Universality and RG Explanations
+
+
+=== PAGE 14 ===
+
+the transformation itself and all details of the systems that ﬂow toward
+that ﬁxed point have been eliminated. Those systems/models (points in
+the space) that ﬂow to the same ﬁxed point are in the same universality
+class—the universality class is delimited —and they will exhibit the same
+macro scaling behavior. 17 That macro-behavior, in particular, the deter-
+mination of the scaling exponent β in equations (1) and (2) can be deter-
+mined by an analysis of the transformation in the neighborhood of the
+ﬁxed point.
+Crucially, those systems that actually ﬂow to a ﬁxed point are at criti-
+cality. This means that they are in ﬁnite systems. As such, those systems are
+idealizations. But the in ﬁnite idealization is necessary if one is to locate the
+ﬁxed points of the RG ﬂow in the abstract space. This is because the cor-
+relation length must diverge to be able to in ﬁnitely iterate the RG trans-
+formation. Nevertheless, systems that are near criticality (real, large ﬁnite
+systems) will start off close to the critical systems and their behavior can be
+understood by examining the topology of the RG ﬂow in the neighbor-
+hood of the ﬁxed point. So, the RG along with the analysis of the topology
+17. To put this another way: The universality class is the basin of attraction of the
+ﬁxed point.
+Figure 5. Fixed Point and Universality Class (Fisher 1998, p. 673).
+39Perspectives on Science
+
+
+=== PAGE 15 ===
+
+in the neighborhood of the ﬁxed point provides the explanation of near
+critical, real systems. 18 It explains what is going on in the neighborhood
+of the critical point in the boiling region of ﬁgure 1.
+So the ﬁxed point delimits the class of systems that all exhibit similar
+behavior near criticality. It also, thereby, justiﬁes the existence of the kind of
+perturbative stability Kadanoff describes in his discussion of what we ’ve
+called the λ-transformations. 19 See, ﬁgure 5. Finally, this analysis also
+demonstrates that the only important or relevant features (other than being
+near criticality) for this common behavior are the dimensionality of the
+system and the symmetry of the order parameter in the critical region.
+6. Objections and Responses
+As noted, a number of philosophers of science have challenged some of
+the claims I have just been making. Let me set up my replies to these ob-
+jections with another quote from Michael Fisher. In “Scaling, Universality,
+and Renormalization Group Theory ” Fisher (1983) expresses what, from
+a contemporary philosophical perspective, is a rather heretical point of
+view.
+18. If it only explained the behavior of idealized in ﬁnite systems, it would not be such
+a big deal. Hardly worthy of a Nobel prize! Note also, contrary to some assertions in the
+literature, that the linearization analysis of the ﬂow in the neighborhood of the ﬁxed point
+is not part of the RG. It is a standard technique in dynamical systems theory for analyzing
+dynamics near attractor states.
+19. The justi ﬁcation of the existence of such transformations lies at the heart of the
+claim that minimal models like the Ising model need not accurately represent the actual
+features of systems in the universality class.
+Figure 6. Fixed Point, Universality Class, and λ-Transformation.
+40 Universality and RG Explanations
+
+
+=== PAGE 16 ===
+
+The traditional approach of theoreticians, going back to the
+foundation of quantum mechanics, is to run to Schrödinger ’s
+equation when confronted by a problem in atomic, molecular or
+solid state physics! One establishes the Hamiltonian, makes some
+(hopefully) sensible approximations and then proceeds to attempt
+to solve for the energy levels, eigenstates and so on. However, for
+truly complicated systems in what, these days, is much better called
+“condensed matter physics, ” this is a hopeless task; furthermore,
+in many ways it is not even a very sensible one!
+The modern attitude is, rather, that the task of the theorist is to
+understand what is going on and to elucidate which are the crucial
+features of the problem. For instance, if it is asserted that the
+exponent [ β ] depends on the dimensionality, d, and on the
+symmetry number, n, but on no other factors, then the theorist ’s job
+is to explain why this is so and subject to what provisos. If one had a
+large enough computer to solve Schrödinger ’s equation and the
+answer came out that way, one would still have no understanding of
+why this was the case! ’ (Fisher 1983, pp. 46 –47).
+It is clear from this quote that for Fisher our understanding of universal
+behavior requires explaining why the pattern depends upon the dimension
+of the system and the symmetry of the order parameter. This, of course, fits
+nicely with Kadanoff ’s definition of universality (section 4) that explicitly
+characterizes phase transition problems as depending upon the dimensionality of
+the system and the symmetries of the order state.
+6.1. Objections: Reutlinger and Lange
+Alexander Reutlinger holds that the RG explanation for the universal be-
+havior of critical phenomena (section 5) proceeds in a completely different,
+intuitive, everyday way. He says RG explanations “are not special and
+quite intuitive in one crucial respect. RG explanations explain the phe-
+nomenon that microscopically different physical systems display the same
+macro-behavior … by referring to features that those physical systems
+have in common , although the physical systems at issue are different in
+many other respects ” (Reutlinger 2017, p. 144). The “common features ”
+that are supposed to explain the universal behavior are the common di-
+mensionality and the common symmetry of the order parameters. To cite
+these features, according to Ruetlinger, just is to explain the universal critical
+behavior of ﬂuids and magnets.
+In a reply to a paper by Collin Rice and me, Lange (2015) argues similarly
+for what Ruetlinger calls the “commonality strategy. ” He holds that our
+justiﬁcation of why minimal models like the Ising model can be used to
+41Perspectives on Science
+
+
+=== PAGE 17 ===
+
+understand the behaviors of actual systems also depends upon citing common
+features. He asserts that “since the model’s explanatory utility arises from its
+having certain features in common with the target system, the model ’s
+explanatory utility arises from its representing accurately enough the target
+system, contrary to B&R ’s [Batterman ’sa n dR i c e’s] view ” (Lange 2015,
+p. 298). Speci ﬁcally, the claim is that a minimal or “toy” model can be
+explanatory if it shares features (dimension and symmetry in the case of
+the Ising model) with the actual target, ﬂuid system.
+In our paper, Rice and I argue that the justi ﬁcation for the applicability
+of minimal models derives from the demonstration that the minimal model
+is in the same universality class as the target system of interest. The discus-
+sion above aims in part to show how the RG demonstrates this very fact.
+Furthermore, and importantly, we have seen that this demonstration also
+provides an account of why dimensionality and symmetry are important
+features characteristic of the universality class.
+But Lange asks why do “B&R insist that a minimal model explanation
+must explain why the common features are necessary for the macrobehavior
+to occur and why these features are present in all members of the uni-
+versality class despite their he terogeneous microdetails? ” (Lange 2015,
+p. 303). The answer to these questions, once one properly understands
+what it is to be a universality class, is that one needs to show that those
+very features (symmetry and dimensionality) are the important common fea-
+tures. This ﬁts with the above discussion of the de ﬁnition of universality
+(section 4) and with the insistence by Fisher (in the quote above) that
+“the theorist ’sj o bi st oe x p l a i nwhy [the common exponent β depends
+upon the dimensionality d and the symmetry number n]” (Fisher 1983,
+pp. 47).
+Lange does appeal to a passage from Fisher that comes just after the one
+quoted above:
+We may well try to simplify the nature of a model to the point where
+it represents a ‘mere caricature ’ of reality. But notice that when one
+looks at a good political cartoon one can recognize the various
+characters even though the artist has portrayed them with but a few
+strokes. … [A] good theoretical model of a complex system should
+be like a good caricature: it should emphasize those features which
+are most important and should downplay the inessential details. ”
+(Fisher 1983, p. 47)
+Lange claims that here Fisher “seems to be supporting a ‘common features
+account’: the minimal model, despite being a caricature of some actual
+system, shares with it ‘those features which are most important ’” (Lange
+2015, p. 299, fn. 3).
+42 Universality and RG Explanations
+
+
+=== PAGE 18 ===
+
+Of course Lange is right about this. But the question is why are those
+the features that are important! Without an answer to that question, we
+neither have a justi ﬁcation for the use of the minimal model, nor an expla-
+nation of universal behavior.
+6.2. Objections: Franklin and Mainwood
+Alexander Franklin has recently argued that the Kadanoff blocking scheme
+(aka “real”-space RG) discussed above, cannot explain the possibility of
+universal behavior. Franklin (2018) He says that
+[b]uilding on Mainwood (2006) I argue that the [real-space RG and
+the ﬁeld-theoretic RG] approaches ought to be distinguished: while
+the ﬁeld-theoretic approach explains universality, the real-space
+approach fails to provide an adequate explanation. (Franklin 2018,
+p.1)
+Without going into too much detail, I want to argue that this claim is
+mistaken. The error is two-fold. First, the claim rests on a mistaken
+characterization of universality (similar to the view held by of Reutlinger
+and Lange). On this mistaken view, one fails to realize that to explain
+universality (as I’ve discussed above) requires that one explain the dependence
+of the macropattern on the symmetry and dimension. Second, Franklin ’s
+assertion rests upon a myth (whose genesis in philosophical discussions, I
+believe, is Mainwood ’s dissertation Mainwood (2006)); namely, that there
+really are two kinds of RG explanations, one given by the real-space (or
+Kadanoff ) approach, the other by a so-called ﬁeld-theoretic (or Wilsonian)
+approach.
+We have seen above how the real-space approach is supposed to work.
+And, it is true that physics textbooks often do refer to the ﬁeld-theoretic
+approach as distinct. In fact, one text upon which Franklin relies makes
+the distinction between the two types of RG explanations quite explicit.
+Binney et al. (1992) I think this distinction (between real-space and ﬁeld-
+theoretic RG) makes some sense and does simplify some calculations.
+However, it begs the important question when it comes to explaining uni-
+versality. That is, the so-called “ﬁeld-theoretic” approach assumes univer-
+sality rather than explaining it.
+The ﬁeld-theoretic “explanation ” starts with what is known as the
+Landau-Ginzburg-Wilson (LGW) Hamiltonian:
+H ¼
+Z
+d
+d x 1
+2 ζ2 ∇ ø xðÞjj 2 þ 1
+2 θ ø xðÞjj 2 þ 1
+4! η ø xðÞjj 4
+/C20/C21
+: (6)
+43Perspectives on Science
+
+
+=== PAGE 19 ===
+
+For my purposes here it suf ﬁces to note two features of this Hamiltonian
+(neither of which is controversial). First, ø( x) is an order parameter (like Ψ
+or M) and that, within the LGW Hamiltonian, only even powers of that
+order parameter appear. Second, the LGW Hamiltonian is an effective
+Hamiltonian. This latt er feature means that the LGW Hamiltonian is
+not a microscopic characterization of the system. In fact, since it makes
+reference to the order parameter ø( x), given the discussion in section 3
+it is a mesoscale Hamiltonian. Thus, unlike the real-space RG explanation
+that starts with microscopic Hamiltonians, the ﬁeld-theoretic approach be-
+gins with a Hamiltonian that already ignores various microscopic details that
+distinguish different systems. Most importantly, the LGW Hamiltonian ’s
+elimination of odd power terms of the order parameter, is a re ﬂection of
+the symmetry of that order parameter .
+In other words, the LGW Hamiltonian is designed to represent systems
+that share the same dimensionality and order parameter symmetry. There-
+fore, it cannot (on pain of circularity) serve to explain why the systems in
+the universality class have those properties as common features. It is surely
+true that condensed matter physicists often start with the effective (meso-
+scopic) LGW Hamiltonian, rather than a more realistic (or at least more
+detailed), microscopic Hamiltonia n. They then use this to investigate
+macroscopic aspects of condensed matter systems captured, for example,
+by the power law scaling relations. It is surely more convenient to start
+with this effective Hamiltonian. But the important question here concerns
+what justiﬁes their starting at this mesoscopic scale? What, that is, justi ﬁes
+the pragmatic use of the LGW Hamiltonian?
+Recall Fisher ’s remarks in Fisher (1998) that Landau ’s introduction of
+an order parameter introduced a novel foliation of the world into micro-
+scopic, mesoscopic, and macrosopic. The LGW Hamiltonian, lives in the
+mesoscopic regime. In that same paper, Fisher argues that work needs to be
+done to justify the use of the LGW Hamiltonian:
+… [O]ne starts from this intermediate level with a physically
+appropriate LGW Hamiltonian in place of a true (or, at least, more
+faithful or realistic) microscopic Hamiltonian; and then one brings
+statistical mechanics to bear in order to understand the macroscopic
+level. The derivation and validity of the many types of initial, LGW
+Hamiltonians may then be the object of separate studies to relate
+them to the atomic level. ” (Fisher 1998, p. 654 –655, emphases
+in original)
+These latter, “separate studies” aim to relate the mesoscale to the atomic
+scale. They include RG investigations of the sort discussed in section 5.
+They involve real-space techniques designed to establish the dependence
+44 Universality and RG Explanations
+
+
+=== PAGE 20 ===
+
+of phase transition problems on dimensionality and symmetry and they
+work by providing in principle demonstrations that near criticality, the
+details that genuinely distinguish the systems (and their respective Ham-
+iltonians) from one another are by and large irrelevant for the upper scale
+behavior of interest. It is only after these demonstrations that one is able to
+justiﬁably appeal to an effective Hamiltonian as representative of a large
+(universality) class of distinct systems.
+7. Conclusion
+As Kadanoff and others (speci ﬁcally Grifﬁths 1970) have emphasized, uni-
+versal behavior re ﬂects a stability of a certain behavior under perturbation
+of particular details. The concept of universality also depends upon a sep-
+aration of scales and the fact that no nearby characteristic length (time)
+scale is present. Finally, it is part of the very concept of universality of
+critical phenomena that the (universality) class of systems depends upon
+the dimensionality of the system and the symmetry of the ordered state.
+Thus, any explanation for how the universality of critical phenomena can
+be possible requires demonstrations that the systems are stable under the appro-
+priate ( λ-)perturbation and that the only system features relevant to the
+behavior are the physical dimensionality and the symmetry of the ordered
+state.
+The renormalization group can provi de these two demonstrations. It
+does so by introducing a transformation on an abstract space of Hamiltonians
+corresponding to actual and possible systems and ﬁnding ﬁxed points of
+that transformation. The Hamiltonians that ﬂow to the same ﬁxed point
+are exactly those between which the perturbative ( λ) stability holds. They
+are also those critical systems that sha re dimensionality and the appropri-
+ate meso-scale symmetry.
+As discussed in section 6 a number of objections have been offered to
+this RG explanation. I answer these by looking back at the historical dis-
+cussions in which the concept “universality” ﬁrst appeared as an expression
+of similar behavior by radically distinct systems. The arguments above
+demonstrate that the the commonality strategy for explaining universality
+just won’t work. In fact, since universality is a statement to the effect that
+the similar behaviors of critical systems depend only on dimensionality and
+symmetry, to explain how universal behavior is possible requires explaining
+the dependence upon dimensionality and symmetry. Simply citing those
+properties as explanans is just to cite part of the explanandum, and hence,
+provides no explanation at all. Finally, appealing to a ﬁeld-theoretic RG
+that starts with an effective Hamiltonian fails to meet the explanatory task.
+The effective (LGW) Hamiltonian requires justi ﬁcation. As it is effective,
+it actually expresses the very universality one seeks to explain.
+45Perspectives on Science
+
+
+=== PAGE 21 ===
+
+References
+Batterman, Robert W. 2002a. “Asymptotics and the Role of Minimal
+Models.” The British Journal for the Philosophy of Science 53: 21 –38.
+Batterman, Robert W. 2002b. The Devil in the Details: Asymptotic Reasoning
+in Explanation, Reduction, and Emergence . Oxford Studies in Philosophy of
+Science. Oxford University Press.
+Batterman, Robert W. 2018. Multiscale modeling in inactive and active
+materials. Unpublished.
+Binney, J. J., N. J. Dowrick, A. J. Fisher, and M. E. J. Newman. 1992.
+The Theory of Critical Phenomena: An Introduction to the Renormalization
+Group. Oxford: Oxford University Press.
+Fisher, Michael E. 1983. “Scaling, Universality and Renormalization
+Group Theory. ” In Critical Phenomena , volume 186 of Lecture Notes in
+Physics. Edited by F. J. W. Hahne. Summer School held at the Univer-
+sity of Stellenbosch, South Africa; January 18–29, 1982. Berlin: Springer-
+V erlag.
+Fisher, Michael E. 1998.“Renormalization group theory: Its basis and formu-
+lation in statistical physics.” Reviews of Modern Physics 70 (2): 653 –681.
+Franklin, Alexander. 2018. “On the Renormalisation Group Explanation
+of Universality.” Philosophy of Science DOI: 10.1086/696812.
+Grifﬁths, Robert B. 1970. “Dependence of Critical Indices on a Param-
+eter.” Physical Review Letters 24 (26): 1479 –1482.
+Guggenheim, E. A. 1945. “The Principle of Corresponding States. ” The
+Journal of Chemical Physics 13 (7): 253 –261.
+Kadanoff, Leo P . 1971. “Critical Behavior. Uni versality and Scaling. ”
+Pp. 100 –117 in Proceedings of the Inter national School of Physics “Enrico
+Fermi” Course LI, volume Course LI. Edited by M. S. Green. New York,
+Italian Physical Society. Cambridge, Mass.: Academic Press.
+Kadanoff, Leo P . 1976. “Scaling, Universality, and Operator Algebras. ” In
+Phase Transitions and Critical Phenomena , volume 5A. Edited by C. Domb
+and M. S. Green. Academic Press.
+Kadanoff, Leo P . 2000. Statistical Physics: Statics, Dynamics, and Renormali-
+zation. Singapore: World Scienti ﬁc.
+Kadanoff, Leo P . 2013. “Theories of Matter: In ﬁnities and Renormaliza-
+tion.” Pp. 141–188 in The Oxford Handbook of Philosophy of Physics. Edited
+by Robert W. Batterman. Oxford: Oxford University Press.
+Landau, L. D. 1965. “On the Theory of Phase Transistions. ” Pp. 193–216
+in Collected Papers of L. D. Landau . Edited by D. Ter Haar. New York:
+Gordon and Breach, Science Publishers.
+Lange, Marc. 2015. On “Minimal model Explanations ”:AR e p l yt o
+Batterman and Rice. Philosophy of Science 82: 292 –305.
+46 Universality and RG Explanations
+
+
+=== PAGE 22 ===
+
+Mainwood, Paul. 2006. Is More Different? Emergent Properties in Physics . PhD
+thesis, Merton College, University of Oxford.
+Reutlinger, Alexander. 2017. “Do Renormalization Group Explanations
+Conform to the Commonality Strategy? ” Journal of General Philosophy
+of Science 48: 143 –150.
+47Perspectives on Science

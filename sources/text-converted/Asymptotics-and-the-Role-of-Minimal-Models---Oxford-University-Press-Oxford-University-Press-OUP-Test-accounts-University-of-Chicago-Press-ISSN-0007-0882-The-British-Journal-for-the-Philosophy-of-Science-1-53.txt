@@ -1,0 +1,770 @@
+=== PAGE 1 ===
+
+Asymptotics and the Role of
+Minimal Models
+1
+Robert W. Batterman
+ABSTRACT
+A traditional view of mathematical modeling holds, roughly, that the more details of
+the phenomenon being modeled that are represented in the model, the better the model
+is. This paper argues that often times this ‘details is better’ approach is misguided. One
+ought, in certain circumstances, to search for an exactly solvable minimal model—one
+which is, essentially, a caricature of the physics of the phenomenon in question.
+1 Introduction
+2 Exactly Solvable Models
+3 Asymptotic Explanation
+4 Conclusion: The Role of Minimal Models
+1 Introduction
+A traditional view about modeling in the physical and applied mathematical
+sciences holds that one should try to ﬁnd the most accurate and detailed
+mathematical representation of the problem at hand. Once this is somehow
+accomplished (there is no recipe here—the process often requires deep
+physical intuitions and much experience), one uses the model to make
+predictions or to try to explain the behavior of interest. If the model fails to
+capture adequately those features of the phenomenon one is trying to
+understand, and if one believes that at base the model is sound, then
+according to this view there are a couple of things one can do. One can try to
+add more detail to the mathematical representation or one can try to adjust
+or tweak the parameters appearing in the model to better reﬂect what is going
+on. The aim here is to e/C128ect a kind of convergence between model and reality.
+One tries, that is, to arrive at a completely accurate (or ‘true’) description of
+the phenomenon of interest. On this view, a model is better the more details
+of the real phenomenon it is actually able to represent mathematically.
+Brit. J. Phil. Sci. 53 (2002), 21–38
+& British Society for the Philosophy of Science 2002
+1 A version of this paper was read at the November 2000 Philosophy of Science meetings in
+Vancouver, British Columbia, Canada.
+
+
+=== PAGE 2 ===
+
+Opposed to this conception of modeling is an approach which holds that a
+good model is one which does not let a lot of these details get in the way. In
+many cases, the ﬁne details will not be needed to characterize the
+phenomenon of interest, and may, in fact, actually detract from an
+understanding of that phenomenon. On this view, what one would like is a
+good minimal model—a model ‘which most economically caricatures the
+essential physics’ (Goldenfeld [1992], p. 33). The adding of details with the
+goal of ‘improving’ the minimal model is self-defeating—such improvement is
+illusory.
+These minimal models typically are highly idealized. But it is because of the
+extreme idealizations involved that they are candidates for exact solutions.
+Other, less idealized models, will often require approximation techniques and
+methods for their ‘solutions’. The question of interest to us here is which
+conception of modeling is better and why. Is there a relationship of
+methodological priority between the di/C128erentapproaches to modeling
+physical phenomena? In what follows I will present some reasons to think
+that the ‘details are better’ approach is often misguided. Much depends, as
+should already be clear, upon what exactly one means by the ‘phenomenon’
+being modeled, as well as on what counts as ‘the essential physics’.
+2 Exactly Solvable Models
+There is something slightly ironic about the distinctions we have just been
+discussing. On the one hand, the ﬁrst view of scientiﬁc models—let us call it
+the ‘traditional approach’—tells us that more details will make for a better
+model. As we have seen, one way of understanding this is that the goal is to
+have a more precise or exact ﬁt between mathematical representation and
+physical phenomenon. Thus, adding details makes for a more exact model.
+On the other hand, the more details that are built into the model, the more
+intractable the mathematical equations representing the behavior of interest
+are likely to be. That is, the more one builds into one’s model—the more
+‘exactly’ it represents the phenomenon—the more likely it will be that
+solutions to the equations will require methods of approximation. In this
+case, of course, the solutions will be, in some sense, less exact.
+In his book Exactly Solved Models in Statistical Mechanics, R. J. Baxter
+notes a common reaction to exactly solvable—highly idealized—models that
+is consonant with the traditional conception of modeling. In particular, the
+models to which he is referring are models of statistical systems as being
+composed of spins on a lattice. He says:
+There are ‘down-to-earth’ physicists and chemists who reject lattice
+models as being unrealistic. In its most extreme form, their argument is
+22 Robert W. Batterman
+
+
+=== PAGE 3 ===
+
+that if a model can be solved exactly, then it must be pathological. I think
+this is defeatist nonsense. (Baxter [1982], p. v]
+The traditional reaction, to which he objects, is that the world is a very
+complicated place and any model that can be solved exactly is surely such an
+obscene caricature that it won’t be able to tell us anything useful about the
+world at all.
+Baxter’s claim that this is nonsense, and his defense of the usefulness of
+exactly solved models, depends on an appeal to universality—the fact that
+distinct systems can in certain cases display the same type of behavior. I need
+to say something about what universality is supposed to be. This requires that
+I also describe, brieﬂy, the sort of phenomena with which Baxter is
+concerned.
+It is a remarkable experimental fact that many systems as diverse as ﬂuids
+and magnets display identical behavior at and near their respective individual
+critical points. This universal behavior is reﬂected in the fact that the same
+dimensionless number called a ‘critical exponent’ characterizes the behavior
+of the system at criticality. Let me explain some of this terminology. See
+Figure 1. The critical point C for a ﬂuid in a container is a point below which
+it is impossible to pass, by increasing pressure at ﬁxed temperature, from the
+gaseous phase to the liquid phase without going through a state in which both
+gas and liquid are simultaneously present in the container; and above which
+such a transition from gas to liquid is possible without passing through a
+regime in which both gas and liquid are simultaneously present. That is, for
+ﬁxed T 4 Tc (the critical temperature) one no longer observes a vapor phase
+Asymptotics and the Role of Minimal Models 23
+Solid Fluid
+Liquid
+Vapor
+Pc
+Tc
+P
+T
+C
+A
+Figure 1. Temperature–pressure phase diagram for a ‘ﬂuid’.
+
+
+=== PAGE 4 ===
+
+followed by a liquid phase as the pressure is increased. Instead there is a
+unique ‘ﬂuid’ phase. In the ﬁgure, the lines represent values of P and T for
+which two phases are simultaneously present. The point A is a ‘triple point’ at
+which all three phases can coexist.
+The critical exponent describes the behavior of the density of the ﬂuid as a
+function of temperature near the critical point. It describes a universal
+property in that the same behavior is observed almost without regard for the
+chemical constitution of the ﬂuid. In the ﬂuid case this universality is
+expressed by the fact that the order parameter C—the di/C128erencebetween
+liquid density and vapor density—vanishes as a power of the reduced
+temperature2 t:
+Cfluid rliqÿ rvap/jtjb (1)
+More remarkable still is the fact that the very same critical exponent b
+apparently describes the behavior of magnets as they undergo a transition
+from the ferromagnetic state with positive net magnetization below the
+critical point, to the paramagnetic phase with zero magnetization above the
+critical point. See Figure 2. Here the order parameter is the net magnetization
+M:
+Cmagnet M/jtjb (2)
+Universality is represented by the fact that the exponent b is the same in both
+cases.
+We can identify two features of universal behavior in this context:
+1. The details of the microstructure of a given ‘ﬂuid’ are largely irrelevant for
+describing the behavior of the particular system of interest.
+2. Many di/C128erentsystems (other ﬂuids and even magnets) with distinct
+microstructures exhibit identical behavior characterized by the same
+critical exponent.
+It turns out that the only things upon which the universality of critical
+phenomena depends are the spatial dimension of the system, certain
+symmetry properties of the Hamiltonian, and the fact that the forces between
+components are short-ranged.
+Now we can return to Baxter’s defense of the usefulness of exactly solved
+models of critical phenomena: one should try to ﬁnd models for which the
+Hamiltonian is
+suciently simple that the partition function can be calculated exactly.
+[Were one to have the partition function for a real system, one could
+calculate all of the thermodynamic quantities possessed by the system.]
+24 Robert W. Batterman
+2 tTÿ Tc=Tc where Tc is the ﬂuid’s critical temperature.
+
+
+=== PAGE 5 ===
+
+This may not give useful information about the values of the
+thermodynamic functions, but it will tell us qualitatively how systems
+behave, in particular near Tc. In fact if we could solve a model with the
+same dimensionality and symmetry as a real system, universality asserts
+that we should obtain the exact critical exponents of the real system.
+(Baxter [1982], p. 11, my emphasis)
+The idea is that such a model is a minimal model for critical behavior.
+Although it is surely a caricature of the actual system, it captures the essential
+physics for the observed phenomenon of interest.
+The assumption of universality is clearly crucial. Without it, there seems to
+be no warrant for formulating and ﬁnding such highly idealized, exactly
+solvable models. Baxter rejects all methods that seek approximate solutions
+to the partition function ([1982], pp. 9–11]. Among these he includes the so-
+called renormalization group. It is interesting and somewhat ironic that the
+renormalization group method is placed in the category of not-so-valuable
+approximation schemes, because it is the method that allows for an
+explanation of the very property of universality that Baxter requires to
+justify the usefulness of his exactly solved models. For Baxter, the assumption
+of universality is based on the surprising experimental results that the critical
+Asymptotics and the Role of Minimal Models 25
+M(T)
+TTc
+0
+1
+Figure 2. Temperature–magnetization phase diagram for a magnet.
+
+
+=== PAGE 6 ===
+
+behavior of distinct systems can be characterized by the same critical
+exponent. But if one of the aims of mathematical modeling is to provide
+explanations of phenomena we observe, then it seems the explanation of this
+observed universality is also something that we should try to capture in our
+modeling. We would like, that is, an account which justiﬁes, from the point of
+view of fundamental theory, the claim that exactly solvable (or computation-
+ally tractable) minimal models can feature in genuine explanatory accounts of
+phenomena we care about. How can these caricatures of real systems play
+explanatory roles? Asymptotic methods such as the renormalization group
+can answer this question.
+3 Asymptotic Explanation
+Let me now say something about the nature of asymptotic methods, how they
+allow both for an explanation of universality and for a justiﬁcation of the use
+of minimal models.
+Suppose we observe the following phenomenon. A sti/C128ribbon of steel—a
+strut—is securely mounted on the ﬂoor in front of us. Someone begins to load
+this strut symmetrically. At some point, after a sucient amount of weight
+has been added, the strut buckles to the left. How can we account for the
+phenomenon we have witnessed? To satisfactorily answer this we need to
+recognize a contextual ambiguity in the term ‘phenomenon’.
+It is true that we have witnessed the buckling of a particular strut, and we
+might only care about this particular event. More likely, though, we might
+care about the general behavior of loaded struts. On the one hand, the
+phenomenon may be the particular event. On the other, the phenomenon of
+interest may be the general fact that struts, upon reaching some critical load,
+will buckle. (Imagine that I wonder if this was a freak event. Then I would set
+about trying to see if it is repeatable. I would mount a similar ribbon of steel
+and see if it, too, buckled under similar circumstances.) If I care about
+building bridges, for example, then it is the general behavior—a pattern—
+that I will take to be the phenomenon of interest. I may further wonder about
+the behavior of struts made of di/C128erentmaterials. Likely these will buckle
+under very di/C128erentloads. Nevertheless, they all buckle and this is the pattern
+of behavior I would like to understand.
+I do not want to claim that we are never interested in particular events.
+There exist why-questions concerning the causal and mechanical details
+leading up to a particular event.3 However, it does seem that the
+mathematical modeler is interested primarily in accounting for repeatable
+26 Robert W. Batterman
+3 See Batterman ([1992]), and Batterman ([2001]) Chapter 3 for a discussion.
+
+
+=== PAGE 7 ===
+
+patterns of behavior. Particular instances that fail to conform to observed
+patterns may require di/C128erentsorts of investigations and di/C128erenttechniques,
+but they really only become interesting as failures of a generally observed
+pattern. I think, therefore, that it is fair to say that most mathematical models
+attempt to represent patterns of behavior.
+The thermodynamics of critical phenomena is a case in point. We care
+about an observed universal macroscopic generalization and we ﬁnd that this
+macroscopic phenomenology is largely insensitive to the underlying micro-
+scopic details. Similarly, our interest in the buckling behavior of struts is also
+a concern about universal phenomena. We ﬁnd, in fact, that there is a
+phenomenological formula, called Euler’s formula, that characterizes the
+buckling behavior:
+Pc p2 EI
+L2 (3)
+Here Pc is the critical buckling load; E is Young’s modulus, which is a
+characteristic of the particular material out of which the strut is made; I is the
+second moment of the strut’s cross-sectional area, and L is the length of the
+strut. The functional form—that the buckling load Pc is proportional to
+I=L2—is universal. System speciﬁc details—that is, details dependent upon
+the microstructural make-up of the individual systems—are absorbed into the
+phenomenological parameter E, which will be di/C128erentfor struts composed
+of di/C128erentmaterials.
+It is generally the case that for universal behavior, the microscopic details
+are in some sense absorbed into a ﬁnite number of phenomenological or
+measurable parameters. The mathematical modeler, as I have said, is often
+concerned to ﬁnd relations that reﬂect observable and repeatable behavior.
+An essential part of the modeler’s method requires the manipulation of a
+proposed set of model equations so as to extract this phenomenology. This
+manipulation often involves what I call asymptotic reasoning. Dimensional
+analysis is one form of this type of reasoning. Let us consider this somewhat
+abstractly at ﬁrst and then turn to a speciﬁc illustrative example.
+The study of a phenomenon of physical interest often takes the form of
+ﬁnding relationships between the quantity of interest and the other
+parameters that govern the behavior of the system being studied. Following
+Barenblatt’s ([1996]) discussion of so-called intermediate asymptotics, let us
+call the quantity of interest a and the governing parameters a1,::: , ak,
+b1,::: , bm.4 The distinction between the ais and the bjs is that the ais have
+dimensions that are independent of the other parameters, whereas the
+Asymptotics and the Role of Minimal Models 27
+4 Sometimes our model will inform us as to the relevant parameters. At other times the best we
+might be able to do is guess about these from empirical study of the phenomenon.
+
+
+=== PAGE 8 ===
+
+dimensions of the bjs are expressible as products of powers of the dimensions
+of the ais.5 The investigator looks for relationships of the form:
+a fa1,::: , ak, b1,::: , bm 4
+One way of (partially) deﬁning such a function would be to provide a table
+of values containing the values for the ais and the bjs and the corresponding
+value for a in each case.6 In the age of modern computers with the ability to
+run impressive numerical calculations, it is often claimed that this is all that is
+required to answer our questions about a—the quantity of interest.
+Barenblatt puts the point as follows:
+Please, it is often said, formulate the problem whose solution you need
+and you will obtain without special e/C128orta set of tables of all the
+numerical values you need with the desired (and, of course, paid for)
+accuracy. To understand this point properly [that is, to see what’s wrong
+with this point of view] we have to recall that the crucial step in any ﬁeld
+of research is to establish what is the minimum amount of information
+that we actually require about the phenomenon being studied. All else
+should be put aside in the study. This is precisely the path taken by the
+natural sciences since Newton. Features that are not repeated from case
+to case and cannot be experimentally recorded are always deliberately
+thrown out. Thus, the researcher is actually not so much interested in a
+table of values of the function f [ . . . ] as in the principal physical laws that
+determine the major features of this relationship. These principal laws,
+the basic features of the phenomena, can often be seen and understood
+when analyzing the intermediate asymptotics. (Barenblatt [1996], pp. 91–2)
+The ‘principal laws’ or ‘basic features’ are the phenomenological general-
+izations we are after. The sort of understanding we want is achieved once we
+are able to elucidate these principle laws. The asymptotic methods required to
+elucidate these laws play an essential role in this understanding. Barenblatt
+notes that these principal laws are often determined by an ‘intermediate
+asymptotic’ analysis of the proposed fundamental governing equation—the
+mathematical model, which typically is a partial di/C128erentialequation.
+We can begin to see what he means by ‘intermediate asymptotics’ if we
+think of an impressionist painting such as Seurat’s pointillist ‘A Sunday
+Afternoon on the Island of La Grande Jatte’. A characteristic of this
+painting, and of the impressionists in general, is the fact that if you are too
+close, you get lost in the details—all you see are the various colored points.
+But also, as with any painting, if you are too far away, you cannot discern the
+image either. The ‘best’ view—the view where one can best appreciate the
+28 Robert W. Batterman
+5 Barenblatt makes this distinction because the study of intermediate asymptotics as he
+understands it both includes, and is a generalization of, dimensional analysis.
+6 There are obviously cardinality problems with this suggestion of which Barenblatt, somehow,
+seems unaware. But the conceptual point is clear enough.
+
+
+=== PAGE 9 ===
+
+image (or ‘understand’ it)—is to be had at some intermediate distance from
+the canvas.7
+Something analogous is involved in ‘any scientiﬁc study’:
+Thus, the primary thing in which the investigator is interested is the
+development of the phenomenon for intermediate times and distances
+away from the boundaries such that the e/C128ectsof random initial features
+or ﬁne details in the spatial structure of the boundaries have disappeared
+but the system is still far from its ﬁnal equilibrium state. This is precisely
+where the underlying laws governing the phenomenon (which are what
+we are in fact primarily interested in) appear most clearly. Therefore
+intermediate asymptotics are of primary interest in every scientiﬁc study.
+(Barenblatt [1996], p. 94)
+This last claim is probably a bit too strong. However, I think that broadly
+construed it is true of much of what gets studied in physics and other sciences
+to which mathematicians have applied their skills.
+Barenblatt formulates a recipe for analyzing the intermediate asymptotics
+of a problem—for discovering the principal laws that govern it. One begins
+with a suggested dependence relation of the form given in (4). One might
+formulate this relation given only basic background empirical knowledge, or
+one might actually have a governing equation—a model—that tells you that
+the quantity of interest will be a function of the various ais and bjs. Next one
+searches for so-called self-similar or scaling solutions to this dependence
+equation. (I will discuss presently why this is important.)
+As a ﬁrst attempt, one employs dimensional analysis to determine the
+functional relationship between a and the other parameters. One expresses
+the dimensions of the dependent parameters bj as products of powers of the
+dimensions of the independent parameters ai. Thus, for each bj we write8:
+bja1rj1 :::airji :::akrjm 5
+To illustrate what is going on here, we can consider one of the simplest of
+examples. Suppose we are interested in ﬁnding the relationship of the form (4)
+for the period of a pendulum y as a function of its length l, its mass m, and the
+gravitational acceleration g. Then we are after the function f such that
+y fl, m, g 6
+The dimension of y is time T:y T;l L (length);m M (mass); and
+g LTÿ2. For this problem a y, and a1 l, a2 m, and a3 g. These
+latter three have independent dimensions—no one of them has a dimension
+Asymptotics and the Role of Minimal Models 29
+7 I am virtually ignorant of theories of art interpretation. So nothing here is meant to deny that
+part of ‘understanding’ the painting is appreciating the details of how it was painted.
+Nevertheless, there does seem to be a range of distances at which the picture is best discerned.
+8 ‘[]’def ‘the dimension of’.
+
+
+=== PAGE 10 ===
+
+that can be expressed as the product of powers of the dimensions of the
+others. Note that this simple example is degenerate in the sense that there are
+no parameters bj.
+Given the assumption that the set of governing parameters is complete, the
+dimension of the quantity a must also be expressible as the product of powers
+of the dimensions of the independent parameters ai (Barenblatt [1996], p. 41):
+aa1r1airiakrk 7
+In our example, this means that
+ym0l1=2gÿ1=2 l
+g
+ 1=2
+8
+Next, one nondimensionalizes the problem by forming the dimensionless
+parameters:
+P a
+ar1
+1  ari
+i  ark
+k
+9
+Pj bj
+a
+rj1
+1  a
+rji
+i  a
+rjm
+k
+,  j2f1,::: , mg 10
+For the pendulum example, this yields only the substitution instance of
+equation (9) for P (since again, there are no bjs):
+P y
+l=g
+ 1=2 11
+One can now rewrite the dependence relation (4) as follows:
+fa1,::: , ak, b1, ::: , bm ar1
+1 ::: ark
+k F P1,::: , Pm  12
+Again, for our example, we rewrite equation (6) as:
+fl, m, g m0l1=2gÿ1=2F constant 13
+Equation (12) is the same as the nondimensionalized:
+P FP1,::: , Pm 14
+Similarly, (13) is the same as the nondimensionalized:
+P F y
+l=g
+ 1=2 constant 15
+Now we have a particularly simple problem to solve. One measurement on a
+pendulum will tell us what the constant is—2p. And so our problem is solved:
+30 Robert W. Batterman
+
+
+=== PAGE 11 ===
+
+y 2p
+
+l
+g
+s
+16
+In the general case, where the dimensions of some parameters (the bjs) can
+be expressed as products of powers of the independent parameters, things are
+more involved. I will discuss such an example shortly. In such cases, the next
+step in the analysis of the intermediate asymptotics of a problem is to
+examine the relative ‘size’ of the dimensionless parameters Pj. Those that are
+not considered too small or too large are deemed to be essential parameters.
+On the other hand, if a parameter, say Pm, can be considered to be small (or
+large) one assumes that its inﬂuence on the problem can be neglected. If this is
+a legitimate assumption, and if F converges suciently rapidly as Pm! 0,
+then F can be replaced by a function F1 of one less argument:
+P F1P1,::: , Pmÿ1 17
+These are, of course, very big ifs. But if they are satisﬁed, then we will be able
+to ﬁnd a self-similar solution to our problem. Barenblatt calls this
+intermediate asymptotics of the ﬁrst kind.
+Self-similar solutions are important. Typically they are solutions to a
+degenerate idealized problem. For example, suppose our problem was to
+determine the temperature distribution in a long bar at a time t t0 after
+which an initial amount of heat had been released into the bar, say by holding
+a lighter under it at some point. Suppose that the actual initial distribution
+was Gaussian of ‘width’ l:
+Tx, 0 M0
+2pl2
+p eÿx2=2l2
+18
+M0 is the ‘mass’ of the initial distribution. That is, M0 is the initial amount of
+heat released into the bar and satisﬁes the following conservation equation:
+M0
+Z1
+ÿ1
+Tx, tdx t50 19
+We are interested in determining the temperature, T, at some point x (a
+distance x from the source assumed to be at x 0). We make the educated
+guess that T at time t should be a function of the time t, the distance x from
+the source, the thermal di/C128usivityk, the width l of the initial distribution, and
+the ‘mass’ or quantity of heat M0:
+T fx, t, k, l, M0 20
+This is just an instance of equation (4). These parameters have the following
+dimensions:
+T Y temperature
+Asymptotics and the Role of Minimal Models 31
+
+
+=== PAGE 12 ===
+
+x L
+t T
+l L
+k L2Tÿ1
+M0 YL
+Given (20), and using the recipe described above (even without knowing that
+the phenomenon was governed by the heat equation), we can arrive at a
+solution having the form:
+Tx, t M0
+2pkt
+p eÿx2=2kt t!1 21
+Note that this solution lacks a parameter that appears as an argument in
+the dependence relation (20)—namely, the width l of the initial distribution.
+In ﬁnding (21), one lets the dimensionless parameter Pl corresponding to the
+width go to zero: Pl! 0. (Recall equation (17).) In other words, the result
+(21) is the solution to the idealized problem in which we keep t ﬁxed and let
+l! 0. The long-time asymptotic behavior of the temperature distribution for
+a wide variety of di/C128erentinitial conditions (initial distributions with di/C128erent
+widths l) is given by the special self-similar degenerate solution in which the
+initial distribution is a delta function:
+Tx, 0 M0dx 22
+The various actual distributions at di/C128erenttimes are shown in Figure 3. We
+can see the self-similarity here by plotting each of these curves in
+dimensionless ‘self-similar coordinates’x=
+
+kt
+p
+, T
+
+kt
+p
+=M0. Each solution
+in Figure 3 is represented by the same curve in these coordinates (see
+Figure 4).
+Self-similarity solutions are important as solutions to the special idealized
+degenerate case in which the initial distribution is a delta function. But they
+clearly have much greater signiﬁcance than this. They are also solutions to
+non-self-similar problems—problems, e.g, where l6 0. The existence of
+intermediate asymptotics of the ﬁrst kind demonstrates that the process
+under investigation has solutions that stabilize in some asymptotic domain.
+And so the idealized (far from actual) self-similar solutions have genuine
+physical signiﬁcance.
+Goldenfeld ([1992], p. 304) o/C128ersa way of understanding this notion of
+stability that has an epistemic ring to it. Let me stress, however, that this
+epistemological characterization is really a consequence of a more funda-
+mental, ontological conception of stability. The idea is that within the
+asymptotic long-time regime it is not possible to retrodict the actual history
+of the temperature evolution. That is, one cannot decide whether
+32 Robert W. Batterman
+
+
+=== PAGE 13 ===
+
+(i) u was a delta function at t 0, or (ii) u was a Gaussian distribution
+with width l at t 0, or (iii) u was a Gaussian distribution with width l at
+t 10. These and many other histories all give rise to the same
+distribution ux [namely, that given by equation (21)] at suciently long
+times, i.e. in the intermediate asymptotic regime.9 (Goldenfeld [1992],
+p. 304)
+The model in which T (or u) is a delta function at t 0 is a minimal model.
+The details of the actual initial distribution are irrelevant, given our interest
+Asymptotics and the Role of Minimal Models 33
+0
+T
+x
+t = t0
+t = 4 t0
+t = 16 t0
+Figure 3. T vs. x.
+T(κt)1/2
+ M0
+_______
+(κt)1/2
+_______x0
+Figure 4. Each curve of Figure 3 in ‘self-similar’ coordinates.
+9 Note that u here is our temperature T.
+
+
+=== PAGE 14 ===
+
+in the long-time phenomenology of the temperature distribution in the bar. In
+other words, given our interest in the universal long-time asymptotic behavior
+of the temperature distribution, we may as well opt for the simplest or most
+convenient model of the short-time, initial behavior of the system. Had we
+other interests—for example, had we cared about the initial transients and the
+details of the approach to the scaling solution for a particular bar—then,
+naturally, such a minimal model would not be appropriate. But then the
+‘phenomenon of interest’ would be not be that of a repeatable pattern of
+behavior.
+The analysis just presented is essentially dimensional analysis. It is the
+simplest form of asymptotic reasoning that can model the principal laws and
+basic features—the similarity solution—that we want to explain. It is clear
+that the traditional view of modeling—the ‘more details the better’ view—will
+fail to capture the emergence of the stable long-time asymptotic behavior that
+we care about.
+Unfortunately, this simplest form of asymptotic analysis often fails. The
+most critical assumption that we made was that the limit Pm! 0 is regular,
+leading to equation (17). Without this, dimensional analysis will completely
+fail. This leaves us with two possibilities: either there still exists a self-similar
+solution, or there is no similarity solution at all. If the latter is the case, then
+there is not much more to be said. The problem will require other methods
+for solution. On the other hand, if we can ﬁnd asymptotic, limiting, self-
+similar solutions despite the singular nature of the limit Pm! 0, then we
+have what Barenblatt calls ‘intermediate asymptotics of the second kind’. In
+this case we assume that as Pm! 0, the function F has a power-type
+asymptotic representation as follows:
+F Pam
+m F1
+P1
+Pa1
+m
+, ::: , Pmÿ1
+Pamÿ1
+m
+ 
+ oPa
+m 23
+(The second summand is arbitrarily small compared with the ﬁrst for
+suciently small Pm.) The exponents fag are certain constants to be
+determined (some of which may very well be zero) and the parameter bm
+(appearing in the original dependence equation of the form (4)) is no longer
+eliminated when one takes the limit Pm! 0. This is a reﬂection of the fact that
+the Pm! 0 limit is singular. The exponentsfag are so-called ‘anomalous
+dimensions’. They are solutions of a nonlinear eigen-value problem.
+This talk of anomalous dimensions may bring to mind renormalization
+group arguments used to determine the anomalous exponents that
+characterize, e.g., universality classes of critical phenomena in statistical
+physics. And, in fact, Goldenfeld et al. ([1989]) and Barenblatt have done
+much to show that the renormalization group approach is essentially
+equivalent to implementing Barenblatt’s recipe for intermediate asymptotics
+34 Robert W. Batterman
+
+
+=== PAGE 15 ===
+
+of the second kind. The only real di/C128erencebetween the renormalization
+group approach and Barenblatt’s intermediate asymptotics is that in the
+statistical case, the asymptotic domain emerges in the large-scale thermo-
+dynamic limit; whereas in the examples of intermediate asymptotics we have
+been discussing, the asymptotic domain emerges in the long-time limit.
+The self-similar or scaling solution (formally represented by equation (23))
+will be, in fact, a ﬁxed point of an appropriate renormalization group
+transformation. Thus, it characterizes a class of ‘phenomenologically’
+equivalent systems—all those exhibiting the same, that is, universal,
+intermediate asymptotic behavior. One then seeks to ﬁnd a minimal model
+within this class of phenomenologically equivalent systems. Such a model will
+often be an exactly solvable model of the sort upon which Baxter focuses.
+4 Conclusion: The Role of Minimal Models
+I believe that the best way to think of the role of asymptotic methods in
+mathematical modeling is that they are a means for extracting stable
+phenomenologies from unknown and, perhaps, unknowable detailed theories.
+(See Goldenfeld et al. [1989] for a discussion of this point of view.) In the
+context of statistical physics, these detailed theories would characterize the
+actual microstructures and the actual intermolecular forces at play in a given
+physical system composed of many interacting particles. In many instances
+we neither know about nor care about these details, but would nevertheless
+like an account of what we observe—the repeatable macro-level phenomena.
+What happens below some level of detail or description is mostly irrelevant
+given our interests.
+The most important feature of the phenomenon of interest is its
+repeatability. Mathematically this manifests itself in terms of a kind of
+stability under perturbation of the microscopic details. This type of stability
+is known as ‘structural stability’.10 Stability guarantees that many di/C128erent
+microscopic models will be compatible with the observed phenomenology. In
+the jargon of the renormalization group, these di/C128erentdetailed models will
+be in the same universality class deﬁned by the stability properties of the
+renormalization group transformation.
+Lest I be accused of buying into the so-called ‘stability dogma’11—the idea
+that all observed phenomena must be modeled by structurally stable
+equations—I need to qualify these remarks somewhat. The sophisticated
+modeler will allow that there are observable behaviors that are not
+repeatable. (Transient behavior is a good example.) A good model will
+Asymptotics and the Role of Minimal Models 35
+10 See Rueger ([2000]) for a nice dicussion of structural stability in a related explanatory context.
+11 See Guckenheimer and Holmes ([1983]), p. 259) for a critique of this dogma.
+
+
+=== PAGE 16 ===
+
+allow for this fact. Therefore, we should require only that repeatable behavior
+is structurally stable. Thus, I advocate the view that what one wants is a
+‘restricted’ sense of structurally stability. In this way, the criticisms of the
+stability dogma can be avoided. Chen et al. put the point as follows:
+[I]f there are unstable or irreproducible aspects in the actual system being
+modeled, then a good mathematical model of the system must have
+features unstable with respect to the perturbation corresponding to that
+causing instability in the actual system. Thus a good model should be
+structurally stable with respect to the reproducibly observable aspects,
+but must be unstable with respect to the hard-to-reproduce aspects of the
+actual system. (Chen et al. [1994], p. 117)
+Let us say that an ideal model is one which captures all of the behaviors—
+repeatable and unrepeatable—of the system of interest. Such a model is the
+aim of the traditional approach to modeling. (Note that ‘ideal’ here does not
+mean ‘idealized’—just the reverse, in fact.) It is, for all but the simplest
+systems, an unattainable goal. On the other hand, we have seen that highly
+idealized minimal models of the universal, repeatable features of a system are
+often obtainable. Asymptotic analyses of the sorts we have been considering
+have their formulation as the primary goal.
+We see also that there is no unique microscopic (or short-time) model
+corresponding to the universal behavior of interest. In our example of the
+spreading of heat through the bar, we saw the diculties involved in
+retrodicting, from the observed long-time phenomenology, the details of the
+initial heat distribution. However, since the heat equation is derived from a
+conservation law, it is the case that the initial ‘mass’ of the distribution can be
+determined from the long-time principal law that we discovered.12 On the
+other hand, in the case of singular intermediate asymptotics of the second
+kind—where the physics is genuinely singular—even this weak retrodiction
+cannot generally be determined. An example I have discussed elsewhere
+involves the superﬁcially similar spreading of a groundwater mass though a
+porous medium such as sandstone.13 For such cases, which are far more
+common in mathematical physics than those involving intermediate
+asymptotics of the ﬁrst kind, the non-uniqueness of a microscopic (or
+short-time) model relative to the phenomenology of interest cannot even be
+given an epistemic gloss. The non-uniqueness is a fundamental consequence
+of the singularities involved in the physics.
+Such situations are completely analogous to problems encountered in
+quantum ﬁeld theory. In fact, the unobservability in principle of the initial
+(groundwater) ‘mass’ given the long-time scaling solution of the form (23) is
+36 Robert W. Batterman
+12 In fact, the ‘mass’ M0 is the same for all times. What we cannot retrodict is how it was initially
+distributed.
+13 See Batterman ([2000]) for a detailed discussion of this example.
+
+
+=== PAGE 17 ===
+
+completely analogous to the unobservability of the ‘bare’ electric charge at
+long distances or low energies in quantum electrodynamics. The philosophy
+behind e/C128ectiveﬁeld theory endorses this unobservability as a virtue. Relative
+to a given energy range or to a given distance, there is no unique physics—no
+unique theory—beyond the relevant cut-o/C128.As a result, with respect to the
+universal behavior such theories attempt to characterize, one ought to search
+for a minimal model—a model for which, if we are lucky, exact solutions will
+be possible.
+Minimal models play crucial computational and explanatory roles. Their
+use is justiﬁed by the asymptotic emergence of stable structures characterized
+by universality classes. In e/C128ect,one might as well calculate universal
+properties using minimal models.14 They are guaranteed by the asymptotic
+methods to yield conclusions that are accurate for any system in that
+universality class.
+Let us return to the question raised at the beginning: is there a kind of
+methodological priority among the di/C128erentapproaches to modeling in
+science? The answer, I believe, is ‘yes’. Given that our primary interest is to
+understand repeatable phenomenological behavior, it seems we ought ﬁrst to
+search for minimal, exactly solvable models of that behavior. The asymptotic
+methods involved in justifying the use of such models to explain universality
+themselves provide the understanding of this type of repeatable phenomena.
+Once we have these minimal models and we have our understanding of the
+universality of the phenomena, we can begin to try to understand
+nonrepeatable behavior displayed in di/C128erentsystems. We can, that is,
+begin to add more and more details to our mathematical models with the
+ultimate aim of ﬁnding an ‘exact’’or ‘ideal’ model. However, the irony that we
+noted earlier remains. The more details one adds, the more likely
+approximative techniques will be required for solving the equations; and, in
+a sense, the less exact will be the solutions we can actually produce.
+Department of Philosophy
+Ohio State University
+350 University Hall
+230 N. Oval Mall
+Columbus, OH 43201, USA
+batterman.1@osu.edu
+References
+Barenblatt, G. I. [1996]: Scaling, Self-similarity, and Intermediate Asymptotics,
+Cambridge: Cambridge University Press.
+Asymptotics and the Role of Minimal Models 37
+14 See Batterman ([1998]) for a discussion of this strategy in a completely di/C128erent context—that
+of justifying Gibbs’ method in equilibrium statistical mechanics.
+
+
+=== PAGE 18 ===
+
+Batterman, R. W. [1992]: ‘Explanatory Instability’, Nous, 26 (3), pp. 325–48.
+Batterman, R. W. [1998]: ‘Why Equilibrium Statistical Mechanics Works: Universality
+and the Renormalization Group’, Philosophy of Science, 65, pp. 183–208.
+Batterman, R. W. [2000]: ‘A ‘‘Modern’’ (Victorian?) Attitude towards Scientiﬁc
+Understanding’, The Monist, 83 (2), pp. 228–57.
+Batterman, R. W. [2002]: The Devil in the Details: Asymptotic Reasoning in
+Explanation, Reduction, and Emergence, New York: Oxford University Press.
+Baxter, R. J. [1982]: Exactly Solved Models in Statistical Mechanics, London:
+Academic Press.
+Chen, L-Y., Goldenfeld, N., Oono, Y., and Paquette, G. [1994]: ‘Selection, stability
+and renormalization’, Physica A, 204, pp. 111–33.
+Goldenfeld, N., Martin, O., and Oono, Y. [1989]: ‘Intermediate Asymptotics and
+Renormalization Group Theory’, Journal of Scientiﬁc Computing, 4 (4), pp. 355–72.
+Goldenfeld, N. [1992]: Lectures on Phase Transitions and the Renormalization Group,
+Reading, MA: Addison-Wesley Publishing Company.
+Guckenheimer, J., and Holmes, P. [1983]: Nonlinear Oscillations, Dynamical Systems,
+and Bifurcations of Vector Fields, volume 42 of Applied Mathematical Sciences, New
+York: Springer-Verlag.
+Rueger, A. [2000]: ‘Robust supervenience and emergence’, Philosophy of Science, 67
+(3), pp. 466–489.
+38 Robert W. Batterman

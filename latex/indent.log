@@ -1,6 +1,6 @@
 INFO:  latexindent.pl version 3.24.7, 2025-08-15, a script to indent .tex files
        latexindent.pl lives here: C:/Users/Patrick/scoop/apps/miktex/current/texmfs/install/scripts/latexindent/
-       Mon Mar  9 09:20:22 2026
+       Tue Apr 14 09:50:12 2026
        Filename: C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.tex
 INFO:  Processing switches:
        -s|--silent: Silent mode active (you have used either -s or --silent)
@@ -65,7 +65,28 @@ INFO:  Backup procedure (-w flag active):
        C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak39 already exists, incrementing by 1 (see maxNumberOfBackUps)
        C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak40 already exists, incrementing by 1 (see maxNumberOfBackUps)
        C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak41 already exists, incrementing by 1 (see maxNumberOfBackUps)
-       Backing up C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.tex to C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak42...
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak42 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak43 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak44 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak45 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak46 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak47 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak48 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak49 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak50 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak51 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak52 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak53 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak54 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak55 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak56 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak57 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak58 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak59 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak60 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak61 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak62 already exists, incrementing by 1 (see maxNumberOfBackUps)
+       Backing up C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.tex to C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.bak63...
        C:\Users\Patrick\paper\latex\real-patterns-need-closure-SYNTHESE-mainbody.tex will be overwritten after indentation
 INFO:  Phase 1: searching for objects
 INFO:  Phase 2: finding surrounding indentation

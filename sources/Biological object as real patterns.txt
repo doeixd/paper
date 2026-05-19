@@ -1,0 +1,30 @@
+Biological object as real patterns: reconciling processualism and scientific realism
+Original Research
+Published: 07 October 2025
+Volume 206, article number 191, (2025)
+Cite this article
+Save article
+
+Synthese
+Aims and scope
+Submit manuscript
+Yihan Jiang 
+361 Accesses
+
+1 Altmetric
+
+Explore all metrics 
+
+Abstract
+In recent years, the philosophy of biology has undergone a significant shift known as the ‘processual turn,’ largely influenced by the works of John Dupré and his collaborators (Dupré (Aristotelian Society Supplementary Volume, 87(1), 19–37, 2023), (Epistemology and Philosophy of Science, 57(2), 96–113, 2020); Nicholson and Dupré (In D. J. Nicholson & J. A. Dupré (Eds.), Everything flows: Towards a processual philosophy of biology. Oxford University Press, 2018); Nicholson (Journal of Theoretical Biology, 477, 108–126, 2019)). Processualism argues that dynamic processes, rather than static objects, form the fundamental ontology of biological reality. This perspective, however, appears to be in tension with scientific realism—at least in its standard form—which is committed to the existence of discrete, mind-independent entities as posited in scientific theories. To reconcile these perspectives, I propose that effective realism, particularly the framework based on the real pattern account (Ladyman & Ross (Every thing must go: Metaphysics naturalized. Oxford University Press, 2007); Wallace (In S. Saunders, J. Barrett, A. Kent, & D. Wallace (Eds.), Many worlds? Everett, quantum theory, & reality (pp. 53–72). Oxford University Press, 2010), offers a promising solution. According to this account, real patterns are defined by their utility—they are patterns that are indispensable for formulating useful generalizations, enabling us to explain and predict phenomena efficiently. These patterns are objective features of the world, but their recognition depends on the stance or perspective we adopt, which is shaped by our explanatory purposes and cognitive tools. By understanding biological objects as patterns of processes—stable, emergent features within the dynamic flux of underlying processes—we can maintain a (minimal) realist commitment to the entities posited by scientific theories without abandoning the processualist ontology. Drawing on the real pattern account, I argue that interpreting objects as patterns of processes resolves the tension between processualism and scientific realism, affirming the reality of biological objects while preserving the primacy of processes. Meanwhile, this paper extends the application of the real patterns framework by demonstrating its utility in addressing specific challenges in the philosophy of biology. In doing so, it highlights how this Dennettian legacy continues to profoundly enhance our understanding of the fundamental reality revealed by the sciences.
+
+DOI:10.1007/s11229-025-05285-zCorpus ID: 281939124
+Biological object as real patterns: reconciling processualism and scientific realism
+Yihan Jiang
+Published in Synthese 1 October 2025
+Philosophy, Biology
+
+TLDR
+It is argued that interpreting objects as patterns of processes resolves the tension between processualism and scientific realism, affirming the reality of biological objects while preserving the primacy of processes.
+Abstract
+In recent years, the philosophy of biology has undergone a significant shift known as the ‘processual turn,’ largely influenced by the works of John Dupré and his collaborators (Dupré (Aristotelian Society Supplementary Volume, 87(1), 19–37, 2023), (Epistemology and Philosophy of Science, 57(2), 96–113, 2020); Nicholson and Dupré (In D. J. Nicholson & J. A. Dupré (Eds.), Everything flows: Towards a processual philosophy of biology. Oxford University Press, 2018); Nicholson (Journal of Theoretical Biology, 477, 108–126, 2019)). Processualism argues that dynamic processes, rather than static objects, form the fundamental ontology of biological reality. This perspective, however, appears to be in tension with scientific realism—at least in its standard form—which is committed to the existence of discrete, mind-independent entities as posited in scientific theories. To reconcile these perspectives, I propose that effective realism, particularly the framework based on the real pattern account (Ladyman & Ross (Every thing must go: Metaphysics naturalized. Oxford University Press, 2007); Wallace (In S. Saunders, J. Barrett, A. Kent, & D. Wallace (Eds.), Many worlds? Everett, quantum theory, & reality (pp. 53–72). Oxford University Press, 2010), offers a promising solution. According to this account, real patterns are defined by their utility—they are patterns that are indispensable for formulating useful generalizations, enabling us to explain and predict phenomena efficiently. These patterns are objective features of the world, but their recognition depends on the stance or perspective we adopt, which is shaped by our explanatory purposes and cognitive tools. By understanding biological objects as patterns of processes—stable, emergent features within the dynamic flux of underlying processes—we can maintain a (minimal) realist commitment to the entities posited by scientific theories without abandoning the processualist ontology. Drawing on the real pattern account, I argue that interpreting objects as patterns of processes resolves the tension between processualism and scientific realism, affirming the reality of biological objects while preserving the primacy of processes. Meanwhile, this paper extends the application of the real patterns framework by demonstrating its utility in addressing specific challenges in the philosophy of biology. In doing so, it highlights how this Dennettian legacy continues to profoundly enhance our understanding of the fundamental reality revealed by the sciences.
