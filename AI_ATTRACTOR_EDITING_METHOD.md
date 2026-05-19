@@ -32,6 +32,26 @@ These patterns are not always wrong. In academic writing, some are necessary. Th
 
 By generating multiple alternatives first, the editor can see what the model keeps doing. That pattern is the thing to avoid.
 
+## Highest-Value Targets
+
+This method is most valuable in parts of a paper where many writers, and many AI systems, are likely to say the same thing in the same way. These are high-convergence zones: the prose is doing common academic work, so default phrasing becomes especially visible.
+
+Use the method especially for:
+
+- abstracts
+- introductions, especially final thesis and contribution paragraphs
+- conclusions
+- section openings and closings
+- transitions between objections and replies
+- hedge clusters and scope disclaimers
+- repeated thesis restatements
+- concessions to rival views
+- literature-positioning paragraphs
+- polished final lines that risk sounding too cute, motto-like, or aphoristic
+- sentences beginning with "the question is," "the result is," "the point is," or "this shows that"
+
+These passages are not automatically bad. They are necessary parts of academic writing. They are just the places where generic phrasing is easiest to predict, easiest to reproduce, and easiest for readers to recognize.
+
 ## Workflow
 
 ### 1. Identify the Target Passage
@@ -237,4 +257,3 @@ When using this method in the repository:
 2. Add a timestamped edit summary in `edits/` after substantial manuscript changes.
 3. Compile the relevant paper if the manuscript is LaTeX or has a release workflow.
 4. Commit only the manuscript, compiled deliverable when requested or expected, and the edit summary.
-
