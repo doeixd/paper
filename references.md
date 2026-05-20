@@ -122,6 +122,8 @@ Dewey, John. 2007. *Logic: The Theory of Inquiry*. New York: Henry Holt and Comp
 
 Dittrich, Christian, and Jennifer Flygare Kinne. "The Information-Theoretic Imperative: Compression and the Epistemic Foundations of Intelligence" Preprint, submitted October 30, 2025. arXiv:2510.25883 [cs.AI]. https://doi.org/10.48550/arXiv.2510.25883.
 
+Dretske, Fred. 1995. *Naturalizing the Mind*. Cambridge, MA: MIT Press. ISBN 9780262041492.
+
 Duflo, Esther. 2012. "Women Empowerment and Economic Development." *Journal of Economic Literature* 50(4): 1051–79. https://doi.org/10.1257/jel.50.4.1051.
 
 El-Hani, Charbel Niño, and Sami Pihlström. 2002. "Emergence Theories and Pragmatic Realism." *Essays in Philosophy* 3(2): article 3. https://doi.org/10.5840/eip2002325.
@@ -507,6 +509,8 @@ Tononi, Giulio, Melanie Boly, Marcello Massimini, and Christof Koch. 2016. "Inte
 Turchin, Peter. 2003. *Historical dynamics*. Princeton, NJ: Princeton University Press. ISBN 978-0691116693.
 
 Turing, Alan M. 1937. "On Computable Numbers, with an Application to the Entscheidungsproblem." *Proceedings of the London Mathematical Society* 2(42): 230–265. https://doi.org/10.1112/plms/s2-42.1.230.
+
+Tye, Michael. 2000. *Consciousness, Color, and Content*. Cambridge, MA: MIT Press. ISBN 9780262201292.
 
 Van Inwagen, Peter. 1990. *Material Beings*. Ithaca, NY: Cornell University Press. ISBN 978-0801419690.
 
