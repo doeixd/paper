@@ -1875,46 +1875,21 @@ realizations and admissible interventions, and which must be downgraded
 once enforcement, settlement, or trust structure no longer sustains the
 relevant macro-transitions.
 
-Organisms give a complementary illustration. In many physiological
-regimes, membrane and regulatory organization screen off large amounts of
-molecular variation for the target transitions, so intervention on
-organ-level variables remains predictively and manipulatively effective.
-When those screening structures fail, for instance under severe systemic
-breakdown, the same macro-description can become leaky and require
-finer-grained tracking. The point is not that organism talk is always
-closed. The point is that closure can be regime-robust without being
-regime-universal.
-
-Across these illustrations, the verdict structure does real
-discriminative work. The monetary example in a well-functioning system
-approaches robust standing in the declared regime: macro-transition
-structure remains stable across heterogeneous realizations and admissible
-interventions. The organism example falls into the qualified range:
-within established physiological regimes, membrane organization and
-regulatory control screen off large amounts of molecular variation,
-making organ-level interventions reliably effective, but leakage appears
-at ecological or pathological boundaries where those screening structures
-degrade. The failed-implementation case
-represents a downgrade: formal representations persist while transition
-autonomy erodes, warranting withdrawal of robust commitment. The three
-cases illustrate the verdict categories in operation, not as abstract
-labels but as outcomes determined by the same diagnostic criteria applied
-to different evidential situations.
-
 The illustration does one job only. It shows that closure tracks
 transition structure, not spatial shape. Nothing in the argument depends
 on taking a stance on broader social ontology.
 
-Taken together, these cases also show what the criterion is expected to
-include, qualify, and exclude. It includes candidates such as stable
-monetary systems when heterogeneous realizers still preserve the same
-macro-transitions under admissible intervention. It supports qualified
-commitment in regime-fragile cases such as organisms, traffic
-partitions, or other wholes whose screening structures hold only across
-bounded horizons or regimes. And it excludes or downgrades cases whose
-apparent stability is merely borrowed, such as projectible proxies,
-gerrymandered composites, or failed posits whose transition autonomy
-collapses once the supporting structure is perturbed or removed.
+The contrast with the monetary case also fixes the shape of the three
+verdicts. Robust standing goes to candidates whose macro-transitions
+survive admissible intervention across heterogeneous realizers.
+Qualified standing goes to regime-fragile candidates, such as organisms,
+whose screening structures hold across bounded horizons but degrade at
+pathological or ecological boundaries, which is why closure can be
+regime-robust without being regime-universal. Downgrade goes to
+candidates whose apparent stability is borrowed, such as the proxies of
+\S\ref{what-the-formal-machinery-alone-does-not-provide}, or whose
+transition autonomy collapses once the supporting structure is
+perturbed, even where the representation persists.
 
 \subsection{Failure Conditions and Downgrade
 	Rules}\label{failure-conditions-and-downgrade-rules}
@@ -2069,93 +2044,25 @@ constraints. \(P_2\) can remain useful as a representation, but its
 dependence on recurring hidden repair counts against robust macro-level
 standing.
 
-A concrete sketch helps. In traffic modeling, one partition may track
-density and flow by lane segment. A rival partition may track flow
-volume indexed to clock-time windows, say five-minute buckets across
-the weekday, calibrated to typical commuter patterns. Both are
-defensible choices a real modeler might propose. In-sample one-step
-fit can be similar. Under admissible perturbations, such as
-ramp-metering changes, incident-response controls, and weather-driven
-rerouting, the lane-flow partition remains stable while the
-time-of-day partition becomes brittle. A given five-minute clock
-bucket now carries different flow depending on whether an incident has
-reshaped bottleneck formation, so within-bucket heterogeneity
-reappears and prediction requires renewed within-class bookkeeping.
-Under modest horizon extension, leakiness for the time-of-day
-partition rises sharply. The verdict is then robust or qualified
-standing for the lane-flow partition and downgrade for the rival.
+The common-cause proxy of
+\S\ref{what-the-formal-machinery-alone-does-not-provide} is the exact
+instance of this contrast, and it is worth reading in that light. There
+the proxy and a transition-autonomous partition are not merely close on
+observational fit: the proxy satisfies strict conditional irrelevance,
+so no observational diagnostic separates them at all, and the verdicts
+diverge only once the admissible intervention class is applied. A
+near-tie in prediction is the general case; identity in prediction with
+divergence in closure is the limiting one.
 
-Under the same disclosure discipline, the contrast can be stated
-compactly:
-
-\begin{enumerate}
-	\item
-	      Target partitions: $P_{lane}$ (lane-segment density and flow)
-	      versus $P_{tod}$ (time-of-day flow buckets).
-	\item
-	      Regime and horizon: weekday commuter traffic in one metropolitan
-	      corridor; horizon set to short-run control windows and one modest
-	      extension beyond calibration.
-	\item
-	      Admissibility class: control channels that traffic operators
-	      actually use in that regime (ramp metering, speed-limit
-	      controls, incident-response routing), excluding interventions that
-	      require implausible vehicle-level actuation.
-	\item
-	      Diagnostics: predictive gain from within-class microfeatures,
-	      within-class transition-profile divergence, and intervention
-	      response invariance under admissible perturbations.
-	\item
-	      Verdict: $P_{lane}$ remains comparatively stable and earns robust
-	      or at least qualified standing in the declared regime; $P_{tod}$
-	      remains instrumentally useful under normal commuter conditions but is
-	      downgraded once perturbation and modest horizon extension are applied.
-	      The mechanism is physical rather than merely statistical. A
-	      ramp-metering change or an incident alters entry rates and
-	      bottleneck formation without respecting clock boundaries.
-	      Lane-segment density and flow remain defined the same way, and
-	      their transition structure adjusts to the new boundary conditions.
-	      The time-of-day partition is calibrated to flow patterns within
-	      the pre-intervention regime; once a perturbation redistributes
-	      those patterns across clock buckets, the bucket labels no longer
-	      track coherent macro-trajectories, and prediction requires
-	      renewed within-bucket bookkeeping. That is the within-class
-	      repair pattern the canonical criterion picks out.
-\end{enumerate}
-
-A second illustration shows the criterion sorting between two
-scientifically rigorous partitions. Consider two ways to divide an
-organism into macroscopic parts. One partition, \(P_{\text{organ}}\),
-follows functional physiological boundaries: heart, lungs, liver. A
-rival partition, \(P_{\text{slice}}\), divides the body into strict
-transverse geometric planes, as used in medical tomography. Under
-resting observation, both achieve comparable short-horizon compression of
-local mass, fluid density, and electrical activity. Under an admissible physical perturbation, such as cardiovascular drug
-administration, electrical pacing, or sudden exertion, their transition
-autonomy diverges. \(P_{\text{organ}}\) preserves its macro-transition
-structure: cardiac electrophysiology has well-characterized
-macro-transitions (sinus rhythm, tachycardia, fibrillation) that are
-predictable from organ-level variables without tracking individual ion
-channel states, and the admissible intervention class (pharmacological,
-electrical) operates at precisely that grain.
-\(P_{\text{slice}}\) fractures, because functional tissues span across
-geometric planes; predicting the macro-future of a given slice now
-requires tracking the specific intercellular signals and fluid volumes
-crossing its boundary. On this view,
-\(P_{\text{organ}}\) earns robust standing in the physiological regime
-because it isolates transition-autonomous parts;
-\(P_{\text{slice}}\) remains a valuable diagnostic tool but its
-recurring dependence on hidden micro-state repair prevents it from
-qualifying for robust macro-level commitment under the declared constraints.
-
-The sortings in both illustrations display how the criterion
-discriminates between candidate partitions. They are not pre-decided
-claims about traffic or physiology, and a reader who disputes a
-specific verdict still inherits the structural point: the criterion
-would then sort that case by the same rules across nearby defensible
-regime and admissibility specifications, and the resulting verdict
-would still be reported under the graded protocol rather than
-stipulated in advance.
+The general pattern is familiar once stated. A partition calibrated to
+regularities that hold within a regime can match a
+transition-autonomous rival while the regime holds, and come apart from
+it under perturbations that redistribute those regularities without
+respecting the partition's boundaries. What separates the two is not
+predictive accuracy but whether the partition's own transition
+structure survives the perturbation or requires renewed within-class
+bookkeeping to be restored. That is the repair signature the criterion
+picks out, and it is why observational fit cannot settle admission.
 
 \subsection{Verdict Rule and Reporting
 	Discipline}\label{reporting-and-evidential-discipline}
