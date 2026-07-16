@@ -1594,18 +1594,82 @@ micro-differences repeatedly matter for macro-transitions across tokens
 under fixed constraints, is what triggers type-level downgrade rather
 than token-level exception.
 
-\subsection{Leakiness as Canonical
-	Target}\label{leakiness-as-canonical-target}
+\subsection{Leakiness and the Distribution It Is Indexed
+	To}\label{leakiness-as-canonical-target}
 
 Leakiness measures how much within-class micro-detail still improves
-macro-future prediction once the current macrostate is fixed. A
-canonical quantity is the conditional mutual information
-\(I(X_t; Z_{t+1} \mid Z_t)\) \citep[eqs.~(2.60)--(2.61)]{cover2006}:
-low values support closure, high values indicate hidden
-transition-relevant heterogeneity. In plain terms, a non-zero value
-means that residual microdetail still helps predict the next macrostate
-even after the present one is fixed. That is the signature of a leaky
-partition.
+macro-future prediction once the current macrostate is fixed. The
+natural quantity is the conditional mutual information
+\(I(X_t; Z_{t+1} \mid Z_t)\) \citep[eqs.~(2.60)--(2.61)]{cover2006}. In
+plain terms, a non-zero value means that residual micro-detail still
+helps predict the next macrostate even after the present one is fixed,
+which is the signature of a leaky partition.
+
+Stated that way the quantity is incomplete, and the reason matters for
+the criterion rather than only for estimation practice. A conditional
+mutual information is defined relative to a joint distribution, and
+nothing in the notation says which distribution over within-class
+realizations is meant. Read against the observed joint, the measure
+inherits exactly the limitation the paper's central argument turns on.
+The common-cause proxy of
+\S\ref{what-the-formal-machinery-alone-does-not-provide} makes the point
+sharply: there, screening off holds strictly, so
+\(I(X_t; Z_{t+1} \mid Z_t)\) is exactly zero under the observed joint,
+while the candidate fails transition autonomy. A measure that returns
+perfect closure for a candidate the criterion must reject cannot be the
+criterion's target quantity.
+
+The repair is to index leakiness to the distribution over within-class
+realizations, which yields two quantities with different evidential
+roles rather than one ambiguous one.
+
+\begin{enumerate}
+	\item
+	      Observational leakiness: \(I(X_t; Z_{t+1} \mid Z_t)\) evaluated
+	      under the observed joint. This is a screening diagnostic. It is
+	      cheap, it requires no interventional access, and a
+	      non-negligible value convicts immediately, since micro-detail
+	      that demonstrably improves macro-prediction within the observed
+	      process is transition-relevant heterogeneity the partition has
+	      failed to absorb. What it cannot do is acquit. A value of zero
+	      shows only that the realizations the process happens to visit
+	      are homogeneous, which is consistent with borrowed autonomy.
+	\item
+	      Admissible leakiness: the same functional evaluated under the
+	      distribution in which \(X_t\) is set by an admissible
+	      intervention ranging over the reachable realizations of the
+	      macrostate. This is the criterion's quantity. It vanishes for
+	      every admissible intervention distribution just in case
+	      within-class micro-differences do not alter the macro-transition
+	      profile, which is transition closure as stated in
+	      \S\ref{formal-statement}.
+\end{enumerate}
+
+The two coincide whenever the observed process already visits the
+reachable realizations of each macrostate with appreciable weight, which
+is why observational diagnostics are so often adequate in practice and
+why the literature has not needed to separate them. They come apart
+exactly in the parasitism cases, where the observed distribution's
+support is confined to a homogeneous subset of a heterogeneous class.
+
+This also puts the exact benchmark in its proper place rather than
+leaving it as a parallel formalism. Strong lumpability is the limiting
+case in which admissible leakiness vanishes for every distribution
+supported on a macroclass, since it requires equal onward
+macro-transitions for every microstate in the class rather than only for
+those the observed distribution happens to weight. Weak lumpability, by
+contrast, is what observational leakiness can certify: the macro-process
+is Markov for the distribution at hand. The proxy is weakly lumpable and
+not strongly lumpable, and the two leakiness quantities separate on it
+for that reason.
+
+The asymmetry between the two is the same one recorded in
+\S\ref{predictive-and-interventional-closure}: predictive adequacy can
+persist where interventional stability fails, so predictive evidence is
+important but not final. Nothing here demotes observational leakiness to
+irrelevance. It remains the first thing to compute and the cheapest way
+to eliminate candidates. The claim is only that it screens rather than
+settles, and that a robust verdict requires the admissible quantity.
 
 Using information-theoretic measures to define ontology might appear to
 assume a computationalist metaphysics, but the justification is
@@ -1624,10 +1688,13 @@ nature. A low-leakage partition is therefore a serious candidate for
 tracking joints where additional micro-bookkeeping stops earning its
 keep.
 
-Leakiness is the default target quantity. Other diagnostics, such as
-within-class transition divergence and predictive gain from added
-micro-features, function as estimators or proxies when direct
-estimation is limited.
+Admissible leakiness is the target quantity, and observational leakiness
+is its most accessible screen. Other diagnostics, such as within-class
+transition divergence and predictive gain from added micro-features,
+function as estimators or proxies when direct estimation is limited, and
+they inherit the same indexing: what they are evidence for depends on
+whether the within-class realizations they range over are those the
+process visits or those an admissible intervention can reach.
 
 Leakiness should therefore be read comparatively and through robustness
 checks, not as a context-free absolute cutoff. Absolute tolerance is
@@ -2288,17 +2355,22 @@ anti-realism remains credible.
 
 The strongest anti-instrumentalist point is structural rather than
 rhetorical. The objection that leakiness is ``only'' predictive error
+has real force against the observational quantity, which is why that
+quantity screens rather than settles
+(\S\ref{leakiness-as-canonical-target}). Directed at admissible
+leakiness the objection
 presupposes a gap between tracking causal structure and describing what
 is real. But under the paper's structural realist commitments, there is
 no further ontological layer for that gap to open onto. Stable
 counterfactual and predictive organization is not evidence for some
 deeper condition left unspecified elsewhere; it is what the
-relevant reality consists in at that grain. A high-leak partition is not
-one where we failed to see the real object hiding underneath. It is one
-where the candidate lacks autonomous transition structure.
-Leakiness therefore measures ontic deficiency in the candidate
-partition, not merely our ignorance. Once the test and the target are
-properly separated, the prediction miss is itself the structural fact.
+relevant reality consists in at that grain. A partition that leaks under
+admissible intervention is not one where we failed to see the real
+object hiding underneath. It is one where the candidate lacks autonomous
+transition structure. Admissible leakiness therefore measures ontic
+deficiency in the candidate partition, not merely our ignorance. Once
+the test and the target are properly separated, the prediction miss is
+itself the structural fact.
 
 The cheap-coding objection fails for the same reason. A
 recoding can improve local fit and still fail closure under admissible
