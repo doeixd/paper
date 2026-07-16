@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  16 JUL 2026 15:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  16 JUL 2026 15:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -790,11 +790,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17]
+ [17{C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/l
+m/lm-mathex.enc}]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18{C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/l
-m/lm-mathex.enc}]
+ [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
@@ -816,10 +816,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [26]
-Underfull \hbox (badness 10000) in paragraph at lines 1639--1644
+Underfull \hbox (badness 10000) in paragraph at lines 1570--1575
 \T1/lmr/m/n/10.03749 for $\OML/lmm/m/it/10.03749 x \OMS/lmsy/m/n/10.03749 2 \OM
 L/lmm/m/it/10.03749 R[]\OT1/lmr/m/n/10.03749 (\OML/lmm/m/it/10.03749 z\OT1/lmr/
 m/n/10.03749 )$\T1/lmr/m/n/10.03749 , and state clo-sure as the require-ment th
@@ -827,6 +824,9 @@ at
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]
@@ -856,14 +856,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [37])
+ [36])
 (real-patterns-need-closure-SYNTHESE-sn.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+ [37]
 Underfull \hbox (badness 1533) in paragraph at lines 93--95
 []\T1/lmr/m/n/10.03749 Millhouse T (2022) Really real pat-terns. Aus-tralasian 
 Jour-nal of Phi-los-o-phy
@@ -872,7 +869,7 @@ Jour-nal of Phi-los-o-phy
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
+ [38]
 Underfull \hbox (badness 5637) in paragraph at lines 133--135
 []\T1/lmr/m/n/10.03749 Woodward J (2015) Method-ol-ogy, ontol-ogy, and inter-ve
 n-tion-ism. Syn-these
@@ -881,7 +878,7 @@ n-tion-ism. Syn-these
 )
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+ [39]
 (real-patterns-need-closure-SYNTHESE-sn.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -889,16 +886,16 @@ L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `real-patterns-need-closure-SYNTHESE-sn.out' 
 has not changed.
-(rerunfilecheck)             Checksum: 163213825AD7A99B73783E3BE5C64678;8740.
+(rerunfilecheck)             Checksum: EF01B1C903C2CD26B74421EFD6EB619D;8614.
  ) 
 Here is how much of TeX's memory you used:
- 12714 strings out of 474486
- 201076 string characters out of 5738073
+ 12713 strings out of 474486
+ 201069 string characters out of 5738073
  1939542 words of memory out of 5000000
  34623 multiletter control sequences out of 15000+600000
  644362 words of font info for 99 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,9n,93p,1829b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,9n,93p,1829b,627s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/
 lm/lmbx12.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/t
 ype1/public/lm/lmbx8.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/inst
@@ -919,10 +916,10 @@ C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/lm/
 lmsy10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type
 1/public/lm/lmsy5.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install
 /fonts/type1/public/lm/lmsy7.pfb>
-Output written on real-patterns-need-closure-SYNTHESE-sn.pdf (40 pages, 532887 
+Output written on real-patterns-need-closure-SYNTHESE-sn.pdf (39 pages, 527685 
 bytes).
 PDF statistics:
- 750 PDF objects out of 1000 (max. 8388607)
- 143 named destinations out of 1000 (max. 500000)
+ 739 PDF objects out of 1000 (max. 8388607)
+ 142 named destinations out of 1000 (max. 500000)
  273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
