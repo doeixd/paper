@@ -38,7 +38,7 @@ should be excluded, while preserving the thought that higher-level
 ontology is earned by stable macro-level dependence rather than by
 intuitive naturalness alone. They explicitly cast the issue as one of
 the ``admittance criteria for the rainforest''
-\citep[p.~3]{franklinrobertson2024}, and they do so in a way meant to
+\citep[\S1]{franklinrobertson2024}, and they do so in a way meant to
 remain compatible with theoretical reducibility rather than to revive a
 strong irreducibility test.
 
@@ -76,13 +76,20 @@ than to displace them.
 The wedge that forces the further step is a class of parasitism cases
 in which observational success masks off-partition dependence. The
 canonical example is the common-cause proxy: a macro-variable
-aggregating two subsystems driven by a shared upstream oscillator can
-satisfy observational screening off because the driver synchronizes
-the subsystems and makes their joint trajectory compressible. Under
-passive observation the proxy looks transition-autonomous. Perturb the
-proxy directly with an admissible intervention while leaving the
-common cause intact, and hidden heterogeneity reappears: within-class
-micro-differences now matter for the ensuing macro-transition. A
+aggregating two subsystems driven by a shared upstream process can
+satisfy observational screening off because the driver is a common
+cause of the proxy's present and its future, so that the proxy's
+current state carries exactly the upstream information its next state
+turns on. Under passive observation the proxy looks
+transition-autonomous. Perturb the proxy directly with an admissible
+intervention while leaving the common cause intact, and hidden
+heterogeneity reappears: within-class micro-differences now matter for
+the ensuing macro-transition.
+Section~\ref{what-the-formal-machinery-alone-does-not-provide} makes
+this case explicit as a countermodel rather than an intuition, since
+the argument turns on the claim that a candidate can satisfy the
+stated admittance conditions in full and still fail transition
+autonomy. A
 structurally distinct case, hidden-feedback parasitism
 (\S\ref{hidden-feedback-case}), shows the same failure signature when
 fast off-partition dynamics rather than a shared upstream driver
@@ -1263,30 +1270,143 @@ criterion to be assessed directly.
 The decisive case is the common-cause proxy, precisely where
 observational screening off cannot discriminate autonomous
 macro-structure from borrowed macro-structure. Consider a composite
-variable that aggregates two subsystems both driven by a shared
-upstream oscillator. Under passive observation, the composite's
-macro-state predicts its own future as well as the full micro-state
-does, because the shared driver synchronizes the subsystems and makes
-their joint trajectory compressible. An \(\varepsilon\)-machine built
-on the composite finds no residual micro-information worth adding, and
-screening-off diagnostics register a clean pass. Can the
-screening-off-plus-novelty package handle this case?
+variable that aggregates two subsystems driven by a shared upstream
+process. The structure that matters is that the driver process is a
+common cause of the proxy's present state and of its future state, so
+that the apparent dependence of the macro-variable on its own past is
+confounded by upstream structure the partition does not track. Under
+passive observation, the composite's macro-state predicts its own
+future as well as the full micro-state does, because the driver pins
+the subsystems and thereby makes the proxy's present state carry
+exactly the upstream information its future turns on. An
+\(\varepsilon\)-machine built on the composite finds no residual
+micro-information worth adding, and screening-off diagnostics register
+a clean pass. Can the screening-off-plus-novelty package handle this
+case?
 
 Franklin and Robertson's criterion asks whether the macro-variable
 enters into a genuine macrodependency that renders some lower-level
 detail conditionally irrelevant while contributing something novel at
-the macro level \citep[p.~1]{franklinrobertson2024}. The common-cause
-proxy satisfies each component of that package under passive
-observation. It is unconditionally relevant because its states track
-target-relevant differences. It is conditionally irrelevant relative
-to the target explanandum because, once the proxy state is fixed,
-further micro-differences in the driven subsystems add no further
-predictive leverage within the observed regime. And it has macro-level
-novelty because the dependence is captured at the proxy grain rather
-than by listing the underlying microconfiguration. The shared driver
-sustains this conditional independence dynamically across time. The
-case is therefore not a verbal trick or a diagnostic failure; it is a
-genuine pressure case.
+the macro level \citep[\S3]{franklinrobertson2024}. Their screening-off
+condition has two parts. The dependence part, \emph{unconditional
+relevance}, requires \(P(A \mid LLD) > P(A)\): the lower-level
+description is relevant to the macro-fact. The independence part,
+\emph{conditional irrelevance}, requires in its strict form that
+\(P(A \mid B \,\&\, LLD) = P(A \mid B)\), so that all the influence of
+the micro-detail is mediated through the macrostate
+\citep[\S3.1]{franklinrobertson2024}. Their novelty condition is
+more demanding than it may first appear, and it is worth stating
+precisely, because a weaker reading would make the case below too easy.
+Novelty requires \emph{distinct} macrodependencies: a binary star
+system screens off the individual stellar trajectories, yet they deny
+it admission, because the dependencies describing it ``are just the
+same nomic dependencies that describe the trajectories of the two
+individual stars'' \citep[\S3.2]{franklinrobertson2024}. Novelty is
+therefore not satisfied merely by a dependence being statable at the
+macro grain. It requires a macrodependency of a different form from
+the micro-dependencies that realize it, and its mark is
+cross-classification, where divisions at the macro level cut across
+divisions below.
+
+That is a real constraint on the pressure case, and it excludes the
+simplest candidates. A macro-variable that is a relabeling of a single
+driver inherits that driver's law and so fails novelty for the same
+reason the binary star does. What follows is therefore not the simplest
+proxy but the simplest one that survives their whole package.
+
+Consider two driver processes \(U^1\) and \(U^2\), independent of each
+other, each a symmetric two-state Markov chain on \(\{0,1\}\) that
+flips with probability \(q\), where \(0 < q < 1/2\). Let \(A\) and \(B\)
+be subsystems that track their respective drivers without lag, so that
+\(A_{t+1} = U^1_{t+1}\) and \(B_{t+1} = U^2_{t+1}\). The micro-state is
+\(X_t = (U^1_t, U^2_t, A_t, B_t)\). The candidate macro-variable is the
+agreement of the two subsystems, \(Z_t = A_t \oplus B_t\), which takes
+the value \(0\) when they agree and \(1\) when they disagree. In the
+observed process the subsystems are synchronized with their drivers, so
+\(A_t = U^1_t\), \(B_t = U^2_t\), and \(Z_t = U^1_t \oplus U^2_t\).
+
+Write \(r = q^2 + (1-q)^2\) for the probability that two drivers
+currently in agreement still agree at the next step, and note that the
+probability that two currently disagreeing drivers come to agree is
+\(2q(1-q) = 1 - r\). The candidate satisfies the whole package.
+
+\begin{enumerate}
+	\item
+	      Unconditional relevance. Given the micro-state, the probability
+	      that \(Z_{t+1} = 0\) is \(r\) when the drivers agree and
+	      \(1 - r\) when they disagree. Since \(Z\) is a symmetric chain
+	      its stationary probability is \(1/2\), and
+	      \(r - 1/2 = 2(q - 1/2)^2 > 0\) for \(q \neq 1/2\). So
+	      \(P(A \mid LLD) > P(A)\) and micro-detail is relevant.
+	\item
+	      Conditional irrelevance, in the strict rather than the
+	      approximate form. When \(Z_t = 0\), the only micro-states the
+	      observed process ever visits are those with
+	      \(U^1_t = U^2_t\), and both of them, \((0,0)\) and \((1,1)\),
+	      yield \(P(Z_{t+1} = 0) = r\). When \(Z_t = 1\), the only
+	      visited realizations are those with \(U^1_t \neq U^2_t\), and
+	      both yield \(1 - r\). Hence
+	      \(P(Z_{t+1} \mid Z_t, X_t) = P(Z_{t+1} \mid Z_t)\) exactly.
+	      The proxy does not merely approximate screening off, in the way
+	      a deviant microstate would degrade it. It satisfies the strict
+	      condition.
+	\item
+	      Novelty. \(Z\) is a symmetric two-state chain with persistence
+	      \(r\), while each driver has persistence \(1 - q\). These differ
+	      whenever \(q \neq 1/2\), since \(r - (1-q) = q(2q - 1)\). The
+	      macro-law is therefore not the driver's law relabeled. And
+	      \(Z\) cross-classifies: the macrostate \(Z = 0\) lumps
+	      \((0,0)\) with \((1,1)\), cutting across the partition induced
+	      by either driver's state. This is novelty in their sense, and
+	      the case is not the binary star.
+\end{enumerate}
+
+So the proxy is admitted to the rainforest. Now consider the
+micro-realizations of \(Z_t = 0\) that the observed process never
+visits: those in which the subsystems agree while their drivers do not.
+Suppose the system is in the observed state \(U^1_t = 0\),
+\(U^2_t = 1\), \(A_t = 0\), \(B_t = 1\), so that \(Z_t = 1\), and apply
+an admissible intervention that sets \(B_t = 0\), leaving both drivers
+untouched. The system now occupies a realization of \(Z_t = 0\). From
+there, \(P(Z_{t+1} = 0) = 1 - r\), because the drivers still disagree,
+whereas every observed realization of \(Z_t = 0\) yields \(r\). Two
+micro-realizations of the same macrostate have different macro-futures,
+and \(r \neq 1 - r\) for \(q \neq 1/2\).
+
+The intervention is minimal in the ways that matter. It targets the
+candidate partition directly rather than the common cause, which is
+left intact, so the case cannot be answered by saying that the
+perturbation simply changed the upstream system. It is
+regime-preserving: the laws are untouched, and at the next step the
+subsystems resynchronize with their drivers, so the perturbation is a
+one-step transient rather than a move to a different dynamical regime.
+And it is independently admissible, since setting a subsystem's state is
+a physically available operation in any regime in which the subsystems
+are separately manipulable at all.
+
+The diagnosis is exact. The proxy's clean macro-law holds only because,
+in the observed process, \(Z_t = 0\) guarantees that the drivers agree.
+The macro-variable never tracks that fact; it borrows it. Screening off
+quantifies over the realizations the process happens to visit, and on
+those realizations there is no heterogeneity to detect. Transition
+closure quantifies over the realizations an admissible intervention can
+reach, and there the heterogeneity is immediate. This is the same
+distinction the exact benchmark already draws: the partition is weakly
+lumpable, since the observed macro-process is genuinely Markov, but not
+strongly lumpable, since strong lumpability demands equal onward
+macro-transitions for every microstate in a class rather than only for
+those the observed distribution happens to weight.
+
+The case is therefore not a verbal trick or a diagnostic failure. It is
+a countermodel: a candidate that satisfies unconditional relevance,
+strict conditional irrelevance, and novelty, and that nonetheless fails
+transition autonomy. Its role is to establish possibility, not
+frequency. Nothing here claims that such candidates are common in the
+special sciences, and the model is an illustration of a structural gap
+rather than evidence about any actual system. What it shows is that the
+gap is real: the stated screening-off test cannot by itself exclude
+borrowed autonomy, because the borrowing is invisible in the
+distribution the test quantifies over.
 
 The natural rejoinder is that screening off, properly understood,
 already excludes the proxy. The reply to that rejoinder, developed in
@@ -1308,7 +1428,8 @@ The same wedge can be reported in five steps.
 \begin{enumerate}
 	\item
 	      Observational success: the proxy fits the observed target
-	      dynamics because the shared driver keeps the subsystems aligned.
+	      dynamics because the driver process keeps the subsystems pinned
+	      to it.
 	\item
 	      Screening off satisfied: once the proxy state is fixed,
 	      additional within-class micro-detail adds no predictive leverage
