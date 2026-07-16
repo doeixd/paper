@@ -1322,51 +1322,74 @@ proxy but the simplest one that survives their whole package.
 Consider an upstream driver process with two components, \(U^1\) and
 \(U^2\), independent of each other, each a symmetric two-state Markov
 chain on \(\{0,1\}\) that flips with probability \(q\), where
-\(0 < q < 1/2\). Let \(A\) and \(B\) be subsystems that track their
-respective components without lag. The system's specified dynamical
-ecology includes one control channel, a reset line on \(B\) carrying a
-value \(C_t\), so that the subsystems' update rule is
-\(A_t = U^1_t\) and
+\(0 < q < 1/2\). Two subsystems \(A\) and \(B\) track their respective
+components. The system's specified dynamical ecology includes one
+control channel, a reset line on \(B\) with indicator \(R_t\) and value
+\(C_t\). The update is simultaneous, and every variable at \(t+1\) is
+fixed by variables at \(t+1\) or \(t\):
 \[
-	B_t =
+	U^i_{t+1} = U^i_t \oplus N^i_{t+1}, \qquad
+	A_{t+1} = U^1_{t+1}, \qquad
+	B_{t+1} =
 	\begin{cases}
-		C_t   & \text{when the reset channel is actuated,} \\
-		U^2_t & \text{otherwise.}
+		C_{t+1}   & \text{if } R_{t+1} = 1, \\
+		U^2_{t+1} & \text{if } R_{t+1} = 0,
 	\end{cases}
 \]
-The micro-state is \(X_t = (U^1_t, U^2_t, A_t, B_t)\). The candidate
-macro-variable is the agreement of the two subsystems,
-\(Z_t = A_t \oplus B_t\), which takes the value \(0\) when they agree
-and \(1\) when they disagree.
+where \(N^1, N^2\) are independent Bernoulli\((q)\) noise terms. The
+micro-state is \(X_t = (U^1_t, U^2_t, A_t, B_t)\), and the reset line is
+an exogenous control input rather than a component of \(X_t\): the
+controlled process is Markov on \(X_t\) once \((R_t, C_t)\) is fixed.
+The candidate macro-variable is the agreement of the two subsystems,
+\(Z_t = A_t \oplus B_t\), taking the value \(0\) when they agree and
+\(1\) when they disagree.
 
 The reset channel is part of the system's specification rather than an
-intervention imagined from outside it. In the observed process it is
-simply never actuated, so the subsystems are pinned to their components,
-\(A_t = U^1_t\) and \(B_t = U^2_t\), and \(Z_t = U^1_t \oplus U^2_t\). The restriction of the observed process
-to the synchronized manifold is therefore a fact about which channels
+intervention imagined from outside it. In the observed process
+\(R_t = 0\) for all \(t\), so the subsystems are pinned to their
+components, \(A_t = U^1_t\) and \(B_t = U^2_t\), and
+\(Z_t = U^1_t \oplus U^2_t\). The restriction of the observed process to
+the synchronized manifold is therefore a fact about which channels
 happen to be exercised, not about what the dynamics permit.
 
-Write \(r = q^2 + (1-q)^2\) for the probability that two drivers
-currently in agreement still agree at the next step, and note that the
-probability that two currently disagreeing drivers come to agree is
-\(2q(1-q) = 1 - r\). The candidate satisfies the whole package.
+Write \(V_t = U^1_t \oplus U^2_t\) for the driver parity and
+\(r = q^2 + (1-q)^2\) for the probability that the two noise terms
+agree. Substituting the update rule gives the identity the whole case
+turns on: with \(R_{t+1} = 0\),
+\[
+	Z_{t+1} = V_t \oplus (N^1_{t+1} \oplus N^2_{t+1}),
+	\qquad\text{so}\qquad
+	P(Z_{t+1} = V_t) = r .
+\]
+The macro-variable's future is fixed by the \emph{driver} parity, not by
+its own current value. The two coincide exactly when the channel is
+dormant, since \(Z_t = V_t\) whenever \(R_t = 0\). Everything below
+follows from that gap.
 
 \begin{enumerate}
 	\item
-	      Unconditional relevance. Given the micro-state, the probability
-	      that \(Z_{t+1} = 0\) is \(r\) when the drivers agree and
-	      \(1 - r\) when they disagree. Since \(Z\) is a symmetric chain
-	      its stationary probability is \(1/2\), and
-	      \(r - 1/2 = 2(q - 1/2)^2 > 0\) for \(q \neq 1/2\). So
-	      \(P(A \mid LLD) > P(A)\) and micro-detail is relevant.
+	      Unconditional relevance, taken with their indexing. Their
+	      condition ranges over the lower-level descriptions that subvene
+	      a given macrostate \(B\) and influence a macro-fact \(A\), which
+	      together form an equivalence class
+	      \citep[\S3.1]{franklinrobertson2024}. Fix \(A\) as
+	      \(Z_{t+1} = 0\) and \(B\) as \(Z_t = 0\). In the observed
+	      process the descriptions subvening \(B\) are exactly those with
+	      \(V_t = 0\), namely \((0,0)\) and \((1,1)\), and each raises the
+	      probability of \(A\) from its unconditional value of \(1/2\) to
+	      \(r\), since \(r - 1/2 = 2(q - 1/2)^2 > 0\) for
+	      \(q \neq 1/2\). So \(P(A \mid LLD) > P(A)\) holds across that
+	      class, which is what their condition asks. Descriptions with
+	      \(V_t = 1\) lower the probability of \(A\) to \(1 - r\), but
+	      they subvene \(Z_t = 1\) and so belong to the class for a
+	      different macrostate.
 	\item
 	      Conditional irrelevance, in the strict rather than the
 	      approximate form. When \(Z_t = 0\), the only micro-states the
-	      observed process ever visits are those with
-	      \(U^1_t = U^2_t\), and both of them, \((0,0)\) and \((1,1)\),
-	      yield \(P(Z_{t+1} = 0) = r\). When \(Z_t = 1\), the only
-	      visited realizations are those with \(U^1_t \neq U^2_t\), and
-	      both yield \(1 - r\). Hence
+	      observed process ever visits are those with \(V_t = 0\), and
+	      both yield \(P(Z_{t+1} = 0) = r\). When \(Z_t = 1\), the only
+	      visited realizations have \(V_t = 1\), and both yield
+	      \(1 - r\). Hence
 	      \(P(Z_{t+1} \mid Z_t, X_t) = P(Z_{t+1} \mid Z_t)\) exactly.
 	      The proxy does not merely approximate screening off, in the way
 	      a deviant microstate would degrade it. It satisfies the strict
@@ -1401,15 +1424,15 @@ intentions would exclude it is exactly the question at issue, and the
 thesis here is underdetermination rather than refutation.
 
 Now consider the micro-realizations of \(Z_t = 0\) that the observed
-process never visits: those in which the subsystems agree while their
-driver components do not. Suppose the system is in the observed state
-\(U^1_t = 0\), \(U^2_t = 1\), \(A_t = 0\), \(B_t = 1\), so that
-\(Z_t = 1\), and actuate the reset channel with \(C_t = 0\), leaving
-both driver components untouched. The system now occupies a realization
-of \(Z_t = 0\). From there, \(P(Z_{t+1} = 0) = 1 - r\), because the
-components still disagree, whereas every observed realization of
-\(Z_t = 0\) yields \(r\). Two micro-realizations of the same macrostate
-have different macro-futures, and \(r \neq 1 - r\) for \(q \neq 1/2\).
+process never visits: those with \(V_t = 1\). Take drivers at
+\(U^1_t = 0\) and \(U^2_t = 1\), and actuate the reset line at \(t\)
+with \(R_t = 1\) and \(C_t = 0\). Then \(B_t = 0\), \(A_t = U^1_t = 0\),
+and \(Z_t = 0\), while the drivers are untouched and \(V_t = 1\). From
+there \(P(Z_{t+1} = 0) = 1 - r\), against \(r\) for every observed
+realization of \(Z_t = 0\), and \(r \neq 1 - r\) for \(q \neq 1/2\). Two
+micro-realizations of one macrostate carry different macro-futures, and
+the update rule shows why: the future tracks \(V_t\), while the
+macrostate tracks \(V_t\) only for as long as the channel stays dormant.
 
 Building the channel into the specification forecloses the natural
 objection, which is that the perturbation forces the system off the
@@ -1650,20 +1673,25 @@ roles rather than one ambiguous one.
 	\item
 	      Admissible leakiness: the same functional evaluated under the
 	      distributions in which \(X_t\) is set by an admissible
-	      intervention ranging over the reachable realizations of the
-	      macrostate. This is the criterion's quantity. Because no single
-	      such distribution is privileged, it is defined as a supremum
-	      over them,
+	      intervention. This is the criterion's quantity, and its domain
+	      has to be stated, since the verdict turns on it. For each
+	      macrostate \(z\), let \(R_I(z)\) be the microstates \(x\) with
+	      \(g(x) = z\) that are reachable by interventions in the
+	      admissible class \(I\) while preserving the regime, and let
+	      \(\mathcal{M}_I(z)\) be the finite-support distributions over
+	      \(R_I(z)\) induced by randomized mixtures of admissible
+	      interventions. No single such distribution is privileged, so the
+	      quantity is a supremum over them and over macrostates:
 	      \[
-		      \Lambda_I(Z) \;=\; \sup_{\mu \in \mathcal{M}_I}
-		      I_\mu\!\left(X_t; Z_{t+1} \mid Z_t\right),
+		      \Lambda_I(Z) \;=\; \sup_{z} \;\;
+		      \sup_{\mu \in \mathcal{M}_I(z)}
+		      I_\mu\!\left(X_t; Z_{t+1}\right),
 	      \]
-	      where \(\mathcal{M}_I\) is the set of distributions over
-	      within-class realizations reachable by interventions in the
-	      admissible class \(I\). The supremum is what makes the quantity a
-	      test of the candidate: under an average, a partition could earn
-	      robust standing by being homogeneous on some convenient
-	      weighting of its realizations.
+	      where conditioning on \(Z_t\) drops out because \(\mu\) is
+	      already confined to one macroclass. The supremum is what makes
+	      the quantity a test of the candidate: under an average, a
+	      partition could earn robust standing by being homogeneous on
+	      some convenient weighting of its realizations.
 	      Equivalently, and often easier to estimate, closure can be
 	      stated pairwise as the requirement that admissibly reachable
 	      \(x, x'\) with \(g(x) = g(x') = z\) induce the same
@@ -1687,15 +1715,19 @@ exactly in the parasitism cases, where the observed distribution's
 support is confined to a homogeneous subset of a heterogeneous class.
 
 This also puts the exact benchmark in its proper place rather than
-leaving it as a parallel formalism. Strong lumpability is the limiting
-case in which admissible leakiness vanishes for every distribution
-supported on a macroclass, since it requires equal onward
-macro-transitions for every microstate in the class rather than only for
-those the observed distribution happens to weight. Weak lumpability, by
-contrast, is what observational leakiness can certify: the macro-process
-is Markov for the distribution at hand. The proxy is weakly lumpable and
-not strongly lumpable, and the two leakiness quantities separate on it
-for that reason.
+leaving it as a parallel formalism. Strong lumpability, in Kemeny and
+Snell's sense, requires that the coarse-grained process be Markov for
+\emph{every} initial distribution, which is equivalent to requiring
+equal onward macro-transitions for every microstate in a class
+\citep{kemeny1960}. That is the limiting case in which admissible
+leakiness vanishes for every distribution supported on a macroclass.
+What observational leakiness can certify is weaker, and the contrast is
+best put without leaning on a term whose formulations vary with the
+initial distribution assumed: the observed process induces a Markov
+macro-process for its actual initial or stationary distribution, while
+the partition fails strong lumpability over the full microstate space.
+The proxy is exactly such a case, and the two leakiness quantities
+separate on it for that reason.
 
 The asymmetry between the two is the same one recorded in
 \S\ref{predictive-and-interventional-closure}: predictive adequacy can
@@ -1705,22 +1737,14 @@ irrelevance. It remains the first thing to compute and the cheapest way
 to eliminate candidates. The claim is only that it screens rather than
 settles, and that a robust verdict requires the admissible quantity.
 
-Using information-theoretic measures to define ontology might appear to
-assume a computationalist metaphysics, but the justification is
-strictly physical. Information processing incurs thermodynamic costs
-\citep{landauer1961}. That point by itself does not show that evolution
-or self-organization always select the least leaky partition, but it
-does block any picture on which finer-grained tracking is costless. A
-system, whether a biological organism or an engineered control
-mechanism, that tracks additional micro-detail without corresponding
-macro-predictive payoff incurs extra physical overhead.
-
-Measuring leakiness amounts to a formal accounting of the physical and
-thermodynamic constraints under which extra information processing is
-not free, rather than an imposition of computer-science metaphors onto
-nature. A low-leakage partition is therefore a serious candidate for
-tracking joints where additional micro-bookkeeping stops earning its
-keep.
+Using information-theoretic measures to state an ontological criterion
+might appear to assume a computationalist metaphysics. It does not. Both
+quantities are functionals of transition kernels, and the conditional
+independencies they measure hold or fail as facts about those kernels,
+whatever anyone computes and whether or not any system in the world
+exploits them (\S\ref{why-closure-carries-ontological-weight}). No claim
+about the cost of tracking micro-detail, thermodynamic or otherwise, is
+needed to make the measure objective.
 
 Admissible leakiness is the target quantity, and observational leakiness
 is its most accessible screen. Other diagnostics, such as within-class

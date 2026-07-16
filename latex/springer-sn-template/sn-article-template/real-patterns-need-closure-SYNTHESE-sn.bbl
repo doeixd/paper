@@ -1,4 +1,4 @@
-\begin{thebibliography}{40}
+\begin{thebibliography}{39}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -101,11 +101,6 @@ Ladyman J, Lorenzetti L (2024) Effective ontic structural realism. The British
 \bibitem[{Ladyman and Ross(2007)}]{ladyman2007}
 Ladyman J, Ross D (2007) Every Thing Must Go: Metaphysics Naturalized. Oxford
   University Press, Oxford
-
-\bibitem[{Landauer(1961)}]{landauer1961}
-Landauer R (1961) Irreversibility and heat generation in the computing process.
-  IBM Journal of Research and Development 5(3):183--191.
-  \doi{10.1147/rd.53.0183}
 
 \bibitem[{Lewis(1986)}]{lewis1986}
 Lewis D (1986) On the Plurality of Worlds. Blackwell, Oxford
