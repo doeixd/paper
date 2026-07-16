@@ -690,18 +690,21 @@ doing its intended work when it refuses robust standing to candidates
 whose apparent autonomy is parasitic on the choice of regime
 characterization.
 
-Take a contested case as a stress test. Major depressive disorder as a
-candidate macro-kind closes differently under independently motivated
-regime characterizations: under a symptom-cluster regime tied to
-diagnostic instruments, intervention evidence on pharmacological and
-psychotherapeutic levers supports partial closure within a bounded
-clinical horizon; under a neurobiological regime indexed to specific
-circuit dysfunctions, the same label fragments across heterogeneous
-mechanisms and closure does not transfer; under a social-functional
-regime indexed to role-impairment trajectories, closure tracks yet a
-different transition profile. The criterion's verdict is qualified
-standing at best, with explicit downgrade for any commitment that
-depends on which regime characterization is accepted upstream. Refusing
+Take a contested case as a stress test, sketched schematically rather
+than settled here. Suppose major depressive disorder is approached under
+three independently motivated regime characterizations: a symptom-cluster
+regime tied to diagnostic instruments, where intervention evidence on
+pharmacological and psychotherapeutic levers might support partial
+closure within a bounded clinical horizon; a neurobiological regime
+indexed to specific circuit dysfunctions, where the same label may
+fragment across heterogeneous mechanisms; and a social-functional regime
+indexed to role-impairment trajectories, tracking a third transition
+profile. If the case has that shape, the criterion returns qualified
+standing, with explicit downgrade for any commitment that depends on
+which characterization is accepted upstream. Whether it has that shape is
+a question for philosophy of psychiatry, and nothing here settles it. The
+point is what the criterion does with a kind whose regime is contested,
+not a verdict on this kind. Refusing
 to launder a contested kind into robust standing is the discipline
 working as intended, not evasion.
 
@@ -1415,6 +1418,19 @@ follows from that gap.
 	      it would still be defined over different relata.
 \end{enumerate}
 
+A defender may resist at the third condition, holding that parity is a
+mere algebraic consequence of two independent processes and so lacks the
+relevant kind of novelty. The reply is not that this reading is
+indefensible. It is that the reading is not the published one. If novelty
+requires more than cross-classification and non-identity of dependency
+profiles, whether organizational integration, explanatory unity, or
+something else, that further requirement has to be stated independently,
+because the probabilistic criterion as given does not supply it. A
+defender who adds it is conceding the paper's point in the currency the
+paper asks for: the stated test underdetermines the verdict, and what
+settles it is a commitment the test does not contain. This is why the
+thesis is underdetermination rather than refutation.
+
 So the stated implementation of the criterion returns a pass. That is
 weaker than saying the proxy belongs in the rainforest, and the weaker
 claim is the one the argument needs. What has been shown is that the
@@ -1446,6 +1462,28 @@ manifold was never a constraint the dynamics imposed. It was a
 restriction on the observed distribution produced by leaving an
 available channel unused, which is precisely the difference the
 criterion is designed to detect.
+
+A harder version of the objection is worth meeting head on, since the
+countermodel invites it: any macro-variable would fail closure if one
+were free to posit enough internal reset channels. That is true, and it
+is why the admissibility constraints of
+\S\ref{admissibility-and-hierarchical-evaluation} do the work they do. A
+channel cannot be introduced after the verdict is seen, must belong to
+the regime's independently specified control ecology, must preserve the
+target regime, and must survive comparison with nearby defensible
+intervention classes. A reset line invented to embarrass a candidate
+fails the first and second of these immediately.
+
+The objection is also a useful reminder of what the countermodel does and
+does not show. It establishes a possibility, that the stated
+observational criterion can certify a candidate whose autonomy is
+borrowed, and it locates the condition under which this happens: some
+admissible channel decouples the candidate from the structure sustaining
+it. It shows nothing about how often that condition is met. Nothing here
+suggests that parasitism is widespread in the special sciences, and the
+argument does not need it to be. The conclusion is that the observational
+criterion is insufficient in principle wherever such channels exist, and
+whether they exist in a given domain is a question for that domain.
 
 The proxy's clean macro-law holds only because,
 in the observed process, \(Z_t = 0\) guarantees that the drivers agree.
@@ -1672,40 +1710,70 @@ roles rather than one ambiguous one.
 	      are homogeneous, which is consistent with borrowed autonomy.
 	\item
 	      Admissible leakiness: the same functional evaluated under the
-	      distributions in which \(X_t\) is set by an admissible
-	      intervention. This is the criterion's quantity, and its domain
-	      has to be stated, since the verdict turns on it. For each
-	      macrostate \(z\), let \(R_I(z)\) be the microstates \(x\) with
-	      \(g(x) = z\) that are reachable by interventions in the
+	      distributions in which the within-class realization is set by an
+	      admissible intervention. This is the criterion's quantity, and
+	      its domain has to be stated, since the verdict turns on it. For
+	      each macrostate \(z\), let \(R_I(z)\) be the microstates \(x\)
+	      with \(g(x) = z\) that are reachable by interventions in the
 	      admissible class \(I\) while preserving the regime, and let
 	      \(\mathcal{M}_I(z)\) be the finite-support distributions over
 	      \(R_I(z)\) induced by randomized mixtures of admissible
 	      interventions. No single such distribution is privileged, so the
-	      quantity is a supremum over them and over macrostates:
+	      quantity is a supremum over them and over macrostates, taken at
+	      the declared horizon \(L\):
 	      \[
-		      \Lambda_I(Z) \;=\; \sup_{z} \;\;
+		      \Lambda^{(L)}_I(Z) \;=\; \sup_{z} \;\;
 		      \sup_{\mu \in \mathcal{M}_I(z)}
-		      I_\mu\!\left(X_t; Z_{t+1}\right),
+		      I_\mu\!\left(X_t; Z_{t+1:t+L}\right),
 	      \]
 	      where conditioning on \(Z_t\) drops out because \(\mu\) is
-	      already confined to one macroclass. The supremum is what makes
-	      the quantity a test of the candidate: under an average, a
+	      already confined to one macroclass, and the target is the
+	      \(L\)-step path rather than the next step alone, matching the
+	      criterion of \S\ref{formal-statement}. The supremum is what
+	      makes the quantity a test of the candidate: under an average, a
 	      partition could earn robust standing by being homogeneous on
 	      some convenient weighting of its realizations.
-	      Equivalently, and often easier to estimate, closure can be
-	      stated pairwise as the requirement that admissibly reachable
-	      \(x, x'\) with \(g(x) = g(x') = z\) induce the same
-	      macro-transition kernel, so that
-	      \(\sup_{x,x'} D\!\left(P(Z_{t+1} \mid do(X_t{=}x)) \,\|\,
-	      P(Z_{t+1} \mid do(X_t{=}x'))\right)\) vanishes for a suitable
-	      divergence \(D\). Either form vanishes just in case
-	      within-class micro-differences do not alter the macro-transition
-	      profile, which is transition closure as stated in
-	      \S\ref{formal-statement}. In the latent-driver proxy the
-	      observational quantity is exactly zero while both admissible
-	      forms are strictly positive, which is the separation the
-	      criterion turns on.
 \end{enumerate}
+
+Two points about that definition need stating, since a reviewer will ask
+about both.
+
+The kernels must be indexed to the interventions that produce them, not
+to a surgery on the whole micro-state. Writing the pairwise condition
+with \(do(X_t = x)\) would misdescribe the admissible class and would sit
+badly with the restriction on Pearl-style surgery in
+\S\ref{admissibility-and-hierarchical-evaluation}: an admissible
+intervention here resets one subsystem and leaves the drivers untouched,
+so it never sets \(X_t\) wholesale, and not every member of \(R_I(z)\)
+need be reachable by setting the micro-state directly. Define instead the
+post-intervention kernel
+\[
+	K_I\!\left(\cdot \mid x\right) \;=\;
+	P\!\left(Z_{t+1:t+L} \in \cdot \;\middle|\;
+	X_t = x,\ \text{admissible controls dormant thereafter}\right),
+\]
+for \(x \in R_I(z)\), and state closure as the requirement that
+\(\sup_{z} \sup_{x, x' \in R_I(z)}
+D\!\left(K_I(\cdot \mid x), K_I(\cdot \mid x')\right) = 0\)
+for a divergence \(D\) separating distinct distributions.
+
+The two formulations agree. If \(\mathcal{M}_I(z)\) contains every binary
+mixture over \(R_I(z)\), then \(\Lambda^{(L)}_I(Z) = 0\) exactly when all
+realizations in \(R_I(z)\) induce the same distribution over
+\(Z_{t+1:t+L}\), for every \(z\). One direction is immediate: if the
+kernels coincide on \(R_I(z)\), then \(Z_{t+1:t+L}\) is independent of
+\(X_t\) under any \(\mu\) supported there, so the mutual information
+vanishes. For the other, suppose \(K_I(\cdot \mid x) \neq
+K_I(\cdot \mid x')\) for some \(x, x' \in R_I(z)\), and let \(\mu\) put
+equal weight on the two. The conditional distribution of
+\(Z_{t+1:t+L}\) then differs from its marginal on a set of positive
+measure, so \(I_\mu(X_t; Z_{t+1:t+L}) > 0\) and the supremum is
+positive. Either form therefore vanishes just in case within-class
+micro-differences do not alter the macro-transition profile, which is
+transition closure as stated in \S\ref{formal-statement}. In the
+latent-driver proxy the observational quantity is exactly zero while both
+admissible forms are strictly positive, which is the separation the
+criterion turns on.
 
 The two coincide whenever the observed process already visits the
 reachable realizations of each macrostate with appreciable weight, which
