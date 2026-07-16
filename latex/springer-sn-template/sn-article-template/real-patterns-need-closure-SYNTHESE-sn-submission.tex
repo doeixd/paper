@@ -104,14 +104,14 @@ than to displace them.
 
 The wedge that forces the further step is a class of parasitism cases
 in which observational success masks off-partition dependence. The
-canonical example is the common-cause proxy: a macro-variable
+canonical example is the latent-driver proxy: a macro-variable
 aggregating two subsystems driven by a shared upstream process can
 satisfy observational screening off because the driver is a common
 cause of the proxy's present and its future, so that the proxy's
 current state carries exactly the upstream information its next state
 turns on. Under passive observation the proxy looks
 transition-autonomous. Perturb the proxy directly with an admissible
-intervention while leaving the common cause intact, and hidden
+intervention while leaving the drivers intact, and hidden
 heterogeneity reappears: within-class micro-differences now matter for
 the ensuing macro-transition.
 Section~\ref{what-the-formal-machinery-alone-does-not-provide} makes
@@ -236,7 +236,7 @@ as diagnostics of structural autonomy rather than as metaphysical
 primitives. One consequence of intervention indexing
 is that the closure criterion can diverge from purely observational
 diagnostics: a macro-variable can achieve predictive sufficiency by
-tracking a common cause rather than by instantiating autonomous
+tracking an off-partition driver rather than by instantiating autonomous
 transition structure
 (\S\ref{what-the-formal-machinery-alone-does-not-provide}).
 
@@ -460,7 +460,7 @@ strong reading by adding the admissible intervention class as a
 parameter of the test. The two readings agree in the central cases and
 diverge when upstream structure lies outside the modeled state space,
 or when admissible interventions target the candidate partition
-directly while leaving that structure intact. The common-cause proxy
+directly while leaving that structure intact. The latent-driver proxy
 developed in \S\ref{what-the-formal-machinery-alone-does-not-provide}
 is the canonical wedge; the hidden-feedback case
 (\S\ref{hidden-feedback-case}) supplies a second wedge whose borrowed
@@ -477,10 +477,10 @@ test discriminates cannot adjudicate admission, and the parasitism
 cases show that the undiscriminated readings return opposite verdicts
 on candidates the debate cares about. The contribution is the test and
 the discipline that goes with it, not the discovery of a new property.
-A defender of screening off who grants the modal reading has thereby
-granted the criterion rather than refuted it, which is why the argument
-is best understood as an explication of rainforest admission from
-within rather than an objection to it.
+The intervention-indexed reading is offered as one principled way of
+making the intended modal content operationally discriminating, which is
+why the argument is best understood as an explication of rainforest
+admission from within rather than an objection to it.
 
 \subsection{Formal Statement}\label{formal-statement}
 
@@ -550,7 +550,7 @@ tractable, and even explanatorily attractive while still remaining
 redundant in the sense that its apparent autonomy depends on continued
 micro-level repair.
 
-The common-cause pressure case brings the point home. A proxy can look
+The latent-driver pressure case brings the point home. A proxy can look
 perfectly projectible under passive observation because upstream
 structure keeps its trajectories aligned, yet turn out to be
 transition-parasitic: perturb the candidate directly with an admissible
@@ -1296,7 +1296,7 @@ intact. That divergence is not a counterexample to their result. It is
 the region their own full-observation proviso exempts: where the
 structure sustaining apparent macro-autonomy lies off-partition, the
 Granger reading is the operative one, and the counterfactual guarantee
-lapses at exactly the point where parasitism becomes possible. The common-cause case developed below is the canonical wedge; the
+lapses at exactly the point where parasitism becomes possible. The latent-driver case developed below is the first wedge; the
 hidden-feedback case (\S\ref{hidden-feedback-case}) shows the same
 failure signature from a structurally different source.
 
@@ -1306,16 +1306,17 @@ where a candidate sits in the space of more and less stable closure
 relations, which is why a downgrade is a claim about the candidate
 rather than about the state of the evidence alone.
 
-\subsubsection{The Common-Cause Proxy as the Decisive Test}
+\subsubsection{A Latent-Driver Proxy}\label{latent-driver-proxy}
 
-The decisive case is the common-cause proxy, precisely where
-observational screening off cannot discriminate autonomous
-macro-structure from borrowed macro-structure. Consider a composite
-variable that aggregates two subsystems driven by a shared upstream
-process. The structure that matters is that the driver process is a
-common cause of the proxy's present state and of its future state, so
-that the apparent dependence of the macro-variable on its own past is
-confounded by upstream structure the partition does not track. Under
+The first case is the latent-driver proxy, where observational
+screening off cannot discriminate autonomous macro-structure from
+borrowed macro-structure. Consider a composite variable over subsystems
+that are pinned by an upstream driver process the partition does not
+track. What matters is not that a single cause synchronizes the
+subsystems, which is only one way the structure can be realized, but
+that the driver process is upstream of both the composite's present
+state and its future state. The apparent dependence of the macro-variable
+on its own past is then underwritten by off-partition structure. Under
 passive observation, the composite's macro-state predicts its own
 future as well as the full micro-state does, because the driver pins
 the subsystems and thereby makes the proxy's present state carry
@@ -1355,16 +1356,33 @@ driver inherits that driver's law and so fails novelty for the same
 reason the binary star does. What follows is therefore not the simplest
 proxy but the simplest one that survives their whole package.
 
-Consider two driver processes \(U^1\) and \(U^2\), independent of each
-other, each a symmetric two-state Markov chain on \(\{0,1\}\) that
-flips with probability \(q\), where \(0 < q < 1/2\). Let \(A\) and \(B\)
-be subsystems that track their respective drivers without lag, so that
-\(A_{t+1} = U^1_{t+1}\) and \(B_{t+1} = U^2_{t+1}\). The micro-state is
-\(X_t = (U^1_t, U^2_t, A_t, B_t)\). The candidate macro-variable is the
-agreement of the two subsystems, \(Z_t = A_t \oplus B_t\), which takes
-the value \(0\) when they agree and \(1\) when they disagree. In the
-observed process the subsystems are synchronized with their drivers, so
-\(A_t = U^1_t\), \(B_t = U^2_t\), and \(Z_t = U^1_t \oplus U^2_t\).
+Consider an upstream driver process with two components, \(U^1\) and
+\(U^2\), independent of each other, each a symmetric two-state Markov
+chain on \(\{0,1\}\) that flips with probability \(q\), where
+\(0 < q < 1/2\). Let \(A\) and \(B\) be subsystems that track their
+respective components without lag. The system's specified dynamical
+ecology includes one control channel, a reset line on \(B\) carrying a
+value \(C_t\), so that the subsystems' update rule is
+\(A_t = U^1_t\) and
+\[
+	B_t =
+	\begin{cases}
+		C_t   & \text{when the reset channel is actuated,} \\
+		U^2_t & \text{otherwise.}
+	\end{cases}
+\]
+The micro-state is \(X_t = (U^1_t, U^2_t, A_t, B_t)\). The candidate
+macro-variable is the agreement of the two subsystems,
+\(Z_t = A_t \oplus B_t\), which takes the value \(0\) when they agree
+and \(1\) when they disagree.
+
+The reset channel is part of the system's specification rather than an
+intervention imagined from outside it. In the observed process it is
+simply never actuated, so the subsystems are pinned to their components,
+\(A_t = U^1_t\) and \(B_t = U^2_t\), and \(Z_t = U^1_t \oplus U^2_t\).
+That is the point of including it. The restriction of the observed
+process to the synchronized manifold is a fact about which channels
+happen to be exercised, not a fact about what the dynamics permit.
 
 Write \(r = q^2 + (1-q)^2\) for the probability that two drivers
 currently in agreement still agree at the next step, and note that the
@@ -1392,38 +1410,57 @@ probability that two currently disagreeing drivers come to agree is
 	      a deviant microstate would degrade it. It satisfies the strict
 	      condition.
 	\item
-	      Novelty. \(Z\) is a symmetric two-state chain with persistence
-	      \(r\), while each driver has persistence \(1 - q\). These differ
-	      whenever \(q \neq 1/2\), since \(r - (1-q) = q(2q - 1)\). The
-	      macro-law is therefore not the driver's law relabeled. And
-	      \(Z\) cross-classifies: the macrostate \(Z = 0\) lumps
-	      \((0,0)\) with \((1,1)\), cutting across the partition induced
-	      by either driver's state. This is novelty in their sense, and
-	      the case is not the binary star.
+	      Novelty. The point is structural rather than numerical. \(Z\)'s
+	      macrodependency relates parity classes to later parity classes,
+	      and neither its relata nor its transition partition coincide
+	      with those of either component process. The macrostate
+	      \(Z = 0\) lumps \((0,0)\) with \((1,1)\), which cuts across the
+	      partition induced by either component's state, so the
+	      equivalence classes over which \(Z\)'s transitions are defined
+	      are not the classes over which \(U^1\)'s or \(U^2\)'s
+	      transitions are defined. This is cross-classification in
+	      Franklin and Robertson's sense, and it is why the case is not
+	      the binary star, whose centre of mass obeys the very
+	      dependencies its components obey. The numerical difference is a
+	      symptom of this rather than the argument for it: \(Z\) is a
+	      symmetric chain with persistence \(r\) against each component's
+	      \(1 - q\), and \(r - (1-q) = q(2q-1) \neq 0\) for
+	      \(q \neq 1/2\). Were the parameters to coincide, the
+	      macrodependency would still not be either component's, because
+	      it would still be defined over different relata.
 \end{enumerate}
 
-So the proxy is admitted to the rainforest. Now consider the
-micro-realizations of \(Z_t = 0\) that the observed process never
-visits: those in which the subsystems agree while their drivers do not.
-Suppose the system is in the observed state \(U^1_t = 0\),
-\(U^2_t = 1\), \(A_t = 0\), \(B_t = 1\), so that \(Z_t = 1\), and apply
-an admissible intervention that sets \(B_t = 0\), leaving both drivers
-untouched. The system now occupies a realization of \(Z_t = 0\). From
-there, \(P(Z_{t+1} = 0) = 1 - r\), because the drivers still disagree,
-whereas every observed realization of \(Z_t = 0\) yields \(r\). Two
-micro-realizations of the same macrostate have different macro-futures,
-and \(r \neq 1 - r\) for \(q \neq 1/2\).
+So the stated implementation of the criterion returns a pass. That is
+weaker than saying the proxy belongs in the rainforest, and the weaker
+claim is the one the argument needs. What has been shown is that the
+conditions as stated, evaluated on the observed distribution, do not
+exclude this candidate. Whether Franklin and Robertson's broader modal
+intentions would exclude it is exactly the question at issue, and the
+thesis here is underdetermination rather than refutation.
 
-The intervention is minimal in the ways that matter. It targets the
-candidate partition directly rather than the common cause, which is
-left intact, so the case cannot be answered by saying that the
-perturbation simply changed the upstream system. It is
-regime-preserving: the laws are untouched, and at the next step the
-subsystems resynchronize with their drivers, so the perturbation is a
-one-step transient rather than a move to a different dynamical regime.
-And it is independently admissible, since setting a subsystem's state is
-a physically available operation in any regime in which the subsystems
-are separately manipulable at all.
+Now consider the micro-realizations of \(Z_t = 0\) that the observed
+process never visits: those in which the subsystems agree while their
+driver components do not. Suppose the system is in the observed state
+\(U^1_t = 0\), \(U^2_t = 1\), \(A_t = 0\), \(B_t = 1\), so that
+\(Z_t = 1\), and actuate the reset channel with \(C_t = 0\), leaving
+both driver components untouched. The system now occupies a realization
+of \(Z_t = 0\). From there, \(P(Z_{t+1} = 0) = 1 - r\), because the
+components still disagree, whereas every observed realization of
+\(Z_t = 0\) yields \(r\). Two micro-realizations of the same macrostate
+have different macro-futures, and \(r \neq 1 - r\) for \(q \neq 1/2\).
+
+Building the channel into the specification forecloses the natural
+objection, which is that the perturbation forces the system off the
+manifold on which the macro-variable was defined and so abandons the
+regime rather than testing it. It does no such thing. Actuating the
+reset line is an ordinary operation of the system's own control ecology,
+the dynamics are unchanged throughout, the channel falls dormant again
+immediately, and the subsystems are repinned to their components at the
+next step, so the deviation is a one-step transient. The synchronized
+manifold was never a constraint the dynamics imposed. It was a
+restriction on the observed distribution produced by leaving an
+available channel unused, which is precisely the difference the
+criterion is designed to detect.
 
 The diagnosis is exact. The proxy's clean macro-law holds only because,
 in the observed process, \(Z_t = 0\) guarantees that the drivers agree.
@@ -1457,7 +1494,7 @@ reading, while the proxy is excluded only on the strong interventional
 reading. The proxy meets the observational reading because the shared
 driver sustains conditional independence across time. It fails the
 interventional reading because an admissible perturbation targeting the
-proxy directly, with the common cause held intact, breaks the apparent
+proxy directly, with the drivers held intact, breaks the apparent
 autonomy and makes within-class micro-differences matter again for the
 ensuing macro-transition. Predictive or screening-off success in the
 proxy case depends on upstream organization that the candidate
@@ -1477,14 +1514,14 @@ The same wedge can be reported in five steps.
 	      for the observed target phenomenon.
 	\item
 	      Admissible perturbation introduced: one subsystem is perturbed
-	      directly while the common cause remains intact.
+	      directly while the drivers remain intact.
 	\item
 	      Hidden heterogeneity reappears: the prior synchronization breaks,
 	      and within-class micro-differences matter for the ensuing
 	      macro-transition structure.
 	\item
 	      Verdict: the candidate was predictively useful but structurally
-	      parasitic. It was borrowing stability from the common cause
+	      parasitic. It was borrowing stability from the drivers
 	      rather than carrying its own transition organization.
 \end{enumerate}
 
@@ -1531,7 +1568,7 @@ leaves the dynamics untouched, and the system re-equilibrates within a
 step, so the regime is preserved and the deviation is a transient.
 
 The two cases differ in the source of the borrowed stability rather
-than in the shape of the failure. The common-cause proxy borrows from a
+than in the shape of the failure. The latent-driver proxy borrows from a
 shared upstream driver that is exogenous and persistent; hidden-feedback
 parasitism borrows from an internal relaxation that is fast and
 endogenous. That they share a formal skeleton is not a defect of the
@@ -1540,7 +1577,7 @@ both is a single structural fact, that the observed process visits only
 a homogeneous subset of a heterogeneous macroclass, and the two sources
 show that this fact does not depend on where the off-partition structure
 happens to sit. A defender of the screening-off-plus-novelty package
-might concede the common-cause proxy as an edge phenomenon while keeping
+might concede the latent-driver proxy as an edge phenomenon while keeping
 the criterion intact. Two sources with the same signature are harder to
 relegate, because what is then at issue is not a peculiar configuration
 but a general category: apparent stability resting on structure the
@@ -1652,7 +1689,7 @@ mutual information is defined relative to a joint distribution, and
 nothing in the notation says which distribution over within-class
 realizations is meant. Read against the observed joint, the measure
 inherits exactly the limitation the paper's central argument turns on.
-The common-cause proxy of
+The latent-driver proxy of
 \S\ref{what-the-formal-machinery-alone-does-not-provide} makes the point
 sharply: there, screening off holds strictly, so
 \(I(X_t; Z_{t+1} \mid Z_t)\) is exactly zero under the observed joint,
@@ -1677,13 +1714,35 @@ roles rather than one ambiguous one.
 	      are homogeneous, which is consistent with borrowed autonomy.
 	\item
 	      Admissible leakiness: the same functional evaluated under the
-	      distribution in which \(X_t\) is set by an admissible
+	      distributions in which \(X_t\) is set by an admissible
 	      intervention ranging over the reachable realizations of the
-	      macrostate. This is the criterion's quantity. It vanishes for
-	      every admissible intervention distribution just in case
+	      macrostate. This is the criterion's quantity. Because no single
+	      such distribution is privileged, it is defined as a supremum
+	      over them,
+	      \[
+		      \Lambda_I(Z) \;=\; \sup_{\mu \in \mathcal{M}_I}
+		      I_\mu\!\left(X_t; Z_{t+1} \mid Z_t\right),
+	      \]
+	      where \(\mathcal{M}_I\) is the set of distributions over
+	      within-class realizations reachable by interventions in the
+	      admissible class \(I\). Taking the supremum rather than an
+	      average is what makes the quantity a test of the candidate
+	      rather than of a sampling policy: a partition does not earn
+	      robust standing by being homogeneous under some convenient
+	      weighting of its realizations.
+	      Equivalently, and often easier to estimate, closure can be
+	      stated pairwise as the requirement that admissibly reachable
+	      \(x, x'\) with \(g(x) = g(x') = z\) induce the same
+	      macro-transition kernel, so that
+	      \(\sup_{x,x'} D\!\left(P(Z_{t+1} \mid do(X_t{=}x)) \,\|\,
+	      P(Z_{t+1} \mid do(X_t{=}x'))\right)\) vanishes for a suitable
+	      divergence \(D\). Either form vanishes just in case
 	      within-class micro-differences do not alter the macro-transition
 	      profile, which is transition closure as stated in
-	      \S\ref{formal-statement}.
+	      \S\ref{formal-statement}. In the latent-driver proxy the
+	      observational quantity is exactly zero while both admissible
+	      forms are strictly positive, which is the separation the
+	      criterion turns on.
 \end{enumerate}
 
 The two coincide whenever the observed process already visits the
@@ -2118,7 +2177,7 @@ constraints. \(P_2\) can remain useful as a representation, but its
 dependence on recurring hidden repair counts against robust macro-level
 standing.
 
-The common-cause proxy of
+The latent-driver proxy of
 \S\ref{what-the-formal-machinery-alone-does-not-provide} is the exact
 instance of this contrast, and it is worth reading in that light. There
 the proxy and a transition-autonomous partition are not merely close on
@@ -2256,9 +2315,10 @@ forcing a favored outcome. The worry that admissibility ``shifts'' the
 hard problem treats intervention-class choice as free; the framework
 treats it as a physically anchored feature of the regime being
 evaluated. Shifting is what happens when one problem is replaced by
-an equally hard one, and here the replacement is by a problem the
-world itself has largely solved. The analyst's role is diagnostic
-rather than constructive.
+an equally hard one. Here the replacement is by a problem that is at
+least partly settled by the regime itself, since which control channels
+exist is not something the analyst decides. That does not make the
+choice automatic, and it is not claimed to.
 
 Residual disagreement can remain. The account does not promise
 universal convergence from one pass. It promises disciplined comparison
@@ -2274,10 +2334,10 @@ closure is too permissive, and closure without ontology understates what
 stable intervention-guiding structure provides. What closure adds is
 commitment discipline, not metaphysical extravagance. If a candidate
 repeatedly supports stable counterfactual control under fixed
-constraints, refusing any ontological standing starts to look like an
-empty verbal policy rather than a substantive alternative. Rather than
-forcing maximal realism, the paper forces explicit criteria for when
-anti-realism remains credible.
+constraints, withholding ontological standing is a position that owes an
+account of what further condition realism was supposed to require.
+Rather than forcing maximal realism, the paper asks for explicit criteria
+for when anti-realism remains credible.
 
 The strongest anti-instrumentalist point is structural rather than
 rhetorical. The objection that leakiness is ``only'' predictive error
@@ -2422,8 +2482,8 @@ restatement. The conceptual difference can be stated directly. Generic
 autonomy claims assert that higher levels matter. Closure specifies
 \emph{when} they matter, \emph{how much} they matter (graded by
 leakiness), and \emph{when the claim should be withdrawn} (explicit
-downgrade conditions). A realism criterion without withdrawal conditions
-is not a criterion at all. It is an assertion.
+downgrade conditions). A realism criterion that specifies no withdrawal conditions is harder to
+assess, since nothing it rules out is stated in advance.
 
 A more specific comparison is worth drawing. The classical arguments for
 the autonomy of the special sciences established that higher-level kinds
@@ -2730,7 +2790,7 @@ the admittance-and-downgrade protocol.
 
 Rainforest realism is compelling, but its admittance criteria remain
 incomplete. Screening off plus novelty remains necessary, but
-observational success can be parasitic: the common-cause proxy and
+observational success can be parasitic: the latent-driver proxy and
 hidden-feedback cases
 (\S\ref{what-the-formal-machinery-alone-does-not-provide},
 \S\ref{hidden-feedback-case}) show that a candidate can satisfy
