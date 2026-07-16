@@ -314,6 +314,8 @@ Meadows, Donella H. 2008. *Thinking in Systems: A Primer*. Edited by Diana Wrigh
 
 Mendelovici, Angela. 2019. "Panpsychism's Combination Problem Is a Problem for Everyone." In *The Routledge Handbook of Panpsychism*, edited by William Seager, 303–316. New York: Routledge.
 
+Meyer, Aiden. 2026. "Dependence, novelty, autonomy and the emergence of spacetime." *Synthese* 207(6): 261. https://doi.org/10.1007/s11229-026-05634-6.
+
 Merricks, Trenton. 2001. *Objects and Persons*. Oxford: Clarendon Press. ISBN 978-0199245369.
 
 Mesoudi, Alex. 2011. *Cultural evolution*. Chicago: University of Chicago Press. ISBN 978-0226520445.
