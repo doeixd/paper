@@ -12,6 +12,8 @@ Albahari, Miri. 2009. "Witness-Consciousness: Its Definition, Appearance and Rea
 
 Albahari, Miri. 2019. "Beyond Cosmopsychism and the Great I Am: How the World Might Be Grounded in Universal 'Advaitic' Consciousness." In *The Routledge Handbook of Panpsychism*, edited by William Seager, 119–130. New York: Routledge.
 
+Andersen, Holly K. 2025. "The density of structure." *Synthese* 206(5): 237. https://doi.org/10.1007/s11229-025-05305-y.
+
 Anderson, Elizabeth. 1995. "Knowledge, Human Interests, and Objectivity in Feminist Epistemology" *Philosophical Topics* 23(2): 27-58. https://doi.org/10.5840/philtopics199523213.
 
 Ando, Albert, and Herbert A. Simon. 1961. "Aggregation of Variables in Dynamic Systems." *Econometrica* 29(2): 111–138. https://doi.org/10.2307/1909285.
@@ -29,6 +31,8 @@ Ayvazov, Mahammad. 2025. "Toward a Phase Epistemology: Coherence, Response and t
 Baggio, Guido, and Andrea Parravicini. 2019. "Introduction to Pragmatism and Theories of Emergence." *European Journal of Pragmatism and American Philosophy* XI-2. https://doi.org/10.4000/ejpap.1611.
 
 Bagnoli, Carla, ed. 2013. *Constructivism in Ethics*. New York: Cambridge University Press. ISBN 9781107019218, 9781107540385.
+
+Batterman, Robert W. 2002. *The Devil in the Details: Asymptotic Reasoning in Explanation, Reduction, and Emergence*. New York: Oxford University Press. ISBN 978-0195146470. https://doi.org/10.1093/0195146476.001.0001.
 
 Baysan, Umut. 2025. "Emergent Moral Non-naturalism." *Philosophy and Phenomenological Research* 110(1): 1–20. https://doi.org/10.1111/phpr.70057.
 
@@ -132,6 +136,8 @@ Foot, Philippa. 2001. *Natural Goodness*. Oxford: Clarendon Press. ISBN 978-0198
 
 Frankish, Keith. 2021. "Panpsychism and the Depsychologization of Consciousness." *Aristotelian Society Supplementary Volume* 95(1): 51–70. https://doi.org/10.1093/arisup/akab012.
 
+Franklin, Alexander, and Katie Robertson. 2024. "Emerging into the rainforest: Emergence and special science ontology." *European Journal for Philosophy of Science* 14(4): 61. https://doi.org/10.1007/s13194-024-00622-4.
+
 French, Steven, and James Ladyman. 2003. "Remodelling Structural Realism: Quantum Physics and the Metaphysics of Structure." *Synthese* 136(1): 31–56. https://doi.org/10.1023/A:1024156116636.
 
 Fricker, Elizabeth. 2006. *EPISTEMOLOGY OF TESTIMONY; ED. BY JENNIFER LACKEY.*. Oxford: Oxford University Press. ISBN 978-0199276011.
@@ -224,6 +230,10 @@ William James, William. 1890. *The Principles of Psychology*. 2 vols. New York: 
 
 Joyce, Richard. 2001. *The Myth of Morality*. Cambridge: Cambridge University Press. ISBN 978-0521808064. https://doi.org/10.1017/CBO9780511487101.
 
+Jiang, Yihan. 2024. "The metaphysics of mechanisms: An ontic structural realist perspective." *Synthese* 204(1): 32. https://doi.org/10.1007/s11229-024-04684-y.
+
+Jiang, Yihan. 2025. "Biological object as real patterns: Reconciling processualism and scientific realism." *Synthese* 206(4): 191. https://doi.org/10.1007/s11229-025-05285-z.
+
 Kahneman, Daniel. 2011. *Thinking, Fast and Slow*. New York: Farrar, Straus and Giroux. ISBN 978-0374275631.
 
 Kemeny, John G., and J. Laurie Snell. 1960. *Finite Markov Chains*. Princeton, NJ: Van Nostrand. Reprinted 1976, New York: Springer. ISBN 978-0387901923.
@@ -253,6 +263,10 @@ Kuhn, Thomas S. 1996. *The Structure of Scientific Revolutions*. 3rd ed. Chicago
 Kvanvig, Jonathan L. 2012. "Coherentism and Justified Inconsistent Beliefs: A Solution." *Southern Journal of Philosophy* 50(1): 21–41. https://doi.org/10.1111/j.2041-6962.2011.00090.x.
 
 KVANVIG, Robert. 2012. "COHERENTISM AND JUSTIFIED INCONSISTENT BELIEFS: A SOLUTION" *Southern Journal of Philosophy* 45(3): 455-472. https://doi.org/10.1111/j.2041-6962.2012.tb00060.x.
+
+Ladyman, James. 2026. "Patterns all the way up: Prolegomena to a future naturalised metaphysics." In *Dennett's Real Patterns in Science and Nature*, edited by Tyler Millhouse, Stephen Petersen, and Don Ross. Cambridge, MA: MIT Press. Preprint circulated 2024.
+
+Ladyman, James, and Luca Lorenzetti. 2024. "Effective ontic structural realism." *The British Journal for the Philosophy of Science*. https://doi.org/10.1086/729061.
 
 Ladyman, James, and Don Ross. 2007. *Every Thing Must Go: Metaphysics Naturalized*. Oxford: Oxford University Press.
 
@@ -321,6 +335,8 @@ Merricks, Trenton. 2001. *Objects and Persons*. Oxford: Clarendon Press. ISBN 97
 Mesoudi, Alex. 2011. *Cultural evolution*. Chicago: University of Chicago Press. ISBN 978-0226520445.
 
 Metzinger, Thomas. 2020. "Minimal Phenomenal Experience: Meditation, Tonic Alertness, and the Phenomenology of 'Pure' Consciousness." *Philosophy and the Mind Sciences* 1(I): 1–44. https://doi.org/10.33735/phimisci.2020.I.46.
+
+Millhouse, Tyler. 2022. "Really real patterns." *Australasian Journal of Philosophy* 100(4): 664–678. https://doi.org/10.1080/00048402.2021.1941153.
 
 Mitchell, Sandra D. 2009. *Unsimple truths*. Chicago: University of Chicago Press. ISBN 978-0226532622.
 
@@ -505,6 +521,8 @@ Turing, Alan M. 1937. "On Computable Numbers, with an Application to the Entsche
 Van Inwagen, Peter. 1990. *Material Beings*. Ithaca, NY: Cornell University Press. ISBN 978-0801419690.
 
 Varley, Thomas F., and Erik Hoel. 2022. "Emergence as the conversion of information: a unifying theory." *Philosophical Transactions of the Royal Society A* 380(2227): 20210150. https://doi.org/10.1098/rsta.2021.0150.
+
+Wallace, David. 2024. "Real patterns in physics and beyond." Preprint. https://philsci-archive.pitt.edu/id/eprint/23888/.
 
 Watson, James D., and Francis H.C. Crick. 1953. "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid." *Nature* 171(4356): 737–738. https://doi.org/10.1038/171737a0.
 

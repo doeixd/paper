@@ -90,10 +90,10 @@ this case explicit as a countermodel rather than an intuition, since
 the argument turns on the claim that a candidate can satisfy the
 stated admittance conditions in full and still fail transition
 autonomy. A
-structurally distinct case, hidden-feedback parasitism
-(\S\ref{hidden-feedback-case}), shows the same failure signature when
-fast off-partition dynamics rather than a shared upstream driver
-sustain the apparent autonomy. The full development in
+second case, hidden-feedback parasitism
+(\S\ref{hidden-feedback-case}), shows the same failure signature from a
+different source, when fast off-partition dynamics rather than a shared
+upstream driver sustain the apparent autonomy. The full development in
 \S\ref{what-the-formal-machinery-alone-does-not-provide} shows why
 these cases decide the criterion.
 
@@ -434,8 +434,9 @@ or when admissible interventions target the candidate partition
 directly while leaving that structure intact. The common-cause proxy
 developed in \S\ref{what-the-formal-machinery-alone-does-not-provide}
 is the canonical wedge; the hidden-feedback case
-(\S\ref{hidden-feedback-case}) supplies a structurally distinct second
-wedge, so the divergence is not tied to one peculiar configuration.
+(\S\ref{hidden-feedback-case}) supplies a second wedge whose borrowed
+stability has a different source, so the divergence is not tied to one
+peculiar configuration.
 
 The reply to the rejoinder is therefore to accept it and press it
 further. Screening off properly understood is modal screening off, and
@@ -662,12 +663,17 @@ specifications draw on quantities characterizable without presupposing
 which candidate partition will succeed. Temporal parameters, energy
 scales, flow rates, and enforcement intensities are typically
 identifiable through physical indicators that competing candidate
-partitions can agree on before either is evaluated. In the traffic
-illustration, ``weekday commuter traffic in one metropolitan corridor''
-is characterized by clock schedules, total vehicle counts, and road
-network topology, all quantities that investigators favoring either the
-lane-flow or time-of-day partition can agree on before either closure
-test is run. Regime specifications of this kind are anchored in
+partitions can agree on before either is evaluated. A running example
+will help here and at two later points, and it can be stated in a line.
+Consider two rival partitions of weekday commuter traffic in a
+metropolitan corridor: \(P_{lane}\), which tracks density and flow by
+lane segment, and \(P_{tod}\), which tracks flow volume in clock-time
+buckets calibrated to typical commuter patterns. Both are choices a real
+modeler might defend, and their in-sample one-step fit can be similar.
+The regime is characterized by clock schedules, total vehicle counts, and
+road network topology, all quantities that investigators favoring either
+partition can agree on before either closure test is run. Regime
+specifications of this kind are anchored in
 lower-level or cross-cutting physical indicators rather than in the
 outcome of the very test they enable. Regime
 specifications should be grain-neutral across competing candidate
@@ -809,12 +815,12 @@ When two intervention classes are both admissible and target the same
 regime, the criterion permits plural testing. Verdicts should report
 which class was used and how sensitive results are across nearby
 defensible classes; sensitivity to a narrowly tuned class is grounds for
-downgrade. In the commuter-corridor traffic illustration, ramp metering
-and speed-limit controls count as admissible because they are physically
+downgrade. In the commuter corridor of
+\S\ref{regime-individuation-and-circularity}, ramp metering and
+speed-limit controls count as admissible because they are physically
 available control channels in the regime, while vehicle-by-vehicle
-remote rewriting does not, not because that would embarrass the
-lane-flow partition but because it is not part of the regime's actual
-control ecology.
+remote rewriting does not, not because that would embarrass \(P_{lane}\)
+but because it is not part of the regime's actual control ecology.
 
 \subsection{Canonical Criterion
 	Statement}\label{canonical-criterion-statement}
@@ -1456,12 +1462,12 @@ The same wedge can be reported in five steps.
 \subsubsection{A Second Pressure Case: Hidden-Feedback Parasitism}
 \label{hidden-feedback-case}
 
-A structurally distinct parasitism case arises when a macro-variable
-appears transition-autonomous because a fast hidden process continually
-relaxes it toward its apparent attractor. The source of the borrowed
-stability is now internal and fast rather than upstream and exogenous,
-but the skeleton of the previous case transfers directly, which is the
-point worth establishing: the gap is not tied to one configuration.
+A second parasitism case arises when a macro-variable appears
+transition-autonomous because a fast hidden process continually relaxes
+it toward its apparent attractor. The source of the borrowed stability
+is now internal and fast rather than upstream and exogenous, but the
+skeleton of the previous case transfers directly, which is the point
+worth establishing: the gap is not tied to one configuration.
 
 Retain the two subsystems \(A\) and \(B\) and the candidate
 \(Z_t = A_t \oplus B_t\), and replace the external drivers with two fast
@@ -2613,17 +2619,17 @@ candidate that passes at horizon $L$ but fails immediately at $L +
 status. Robust standing requires that closure not be razor-thin in
 temporal scope.
 
-A brief worked illustration makes this concrete. Suppose the lane-flow
-partition in the traffic example
-(\S\ref{conceptual-contrast-near-tie-prediction-different-ontology-verdicts}) is
+A brief illustration makes this concrete. Suppose \(P_{lane}\), the
+lane-segment partition of the commuter corridor of
+\S\ref{regime-individuation-and-circularity}, is
 claimed at $L = 15$ minutes, a horizon chosen to cover typical
 control-response windows. The stability check runs the same
 diagnostics at $L = 20$ and $L = 30$ minutes, still within physically
 motivated timescales. Robust standing requires both that the
-comparative ranking against the rival time-of-day partition not flip
+comparative ranking against the rival \(P_{tod}\) not flip
 and that absolute leakiness for the leading candidate remain below the
-declared viability floor across the extended horizons. If the
-lane-flow partition dominates at $L = 15$ but the advantage vanishes
+declared viability floor across the extended horizons. If
+\(P_{lane}\) dominates at $L = 15$ but the advantage vanishes
 at $L = 30$, the right verdict is qualified rather than robust: the
 closure holds within a bounded horizon but does not survive modest
 extension. If ranking and viability are preserved across $L$, $L +
