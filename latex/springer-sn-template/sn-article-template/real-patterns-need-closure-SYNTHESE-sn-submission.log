@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  16 JUL 2026 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  16 JUL 2026 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -839,7 +839,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38]
-Underfull \hbox (badness 1097) in paragraph at lines 2388--2399
+Underfull \hbox (badness 1097) in paragraph at lines 2381--2392
 []\T1/lmr/m/n/10.03749 This reply also han-dles the fat-handedness worry that m
 acro-interventions
  []
@@ -928,7 +928,7 @@ trick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/lm/lmsy10.pfb>
 /lmsy5.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type
 1/public/lm/lmsy7.pfb>
 Output written on real-patterns-need-closure-SYNTHESE-sn-submission.pdf (49 pag
-es, 549974 bytes).
+es, 549694 bytes).
 PDF statistics:
  920 PDF objects out of 1000 (max. 8388607)
  176 named destinations out of 1000 (max. 500000)
