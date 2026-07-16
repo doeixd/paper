@@ -72,6 +72,8 @@ Brenner, Andrew. 2014. "Mereological nihilism and the special arrangement questi
 
 Bruineberg, Jelle, Krzysztof Dołęga, Joe Dewhurst, and Manuel Baltieri. 2021. "The Emperor's New Markov Blankets." *Behavioral and Brain Sciences* 45: e183. https://doi.org/10.1017/S0140525X21002351.
 
+Brüntrup, Godehard. 2017. "Emergent Panpsychism." In *Panpsychism: Contemporary Perspectives*, edited by Godehard Brüntrup and Ludwig Jaskolla, 48–74. New York: Oxford University Press.
+
 Brüntrup, Godehard, and Ludwig Jaskolla, eds. 2017. *Panpsychism: Contemporary Perspectives*. New York: Oxford University Press. ISBN 9780199359943.
 
 Buchanan, Allen, and Russell Powell. 2018. *Evolution of Moral Progress*. New York: Oxford University Press. ISBN 978-0190868413.
@@ -88,7 +90,9 @@ Cartwright, Nancy. 1989. *Nature's Capacities and Their Measurement*. Oxford: Cl
 
 Cartwright, Nancy. 1999. *The dappled world*. Cambridge: Cambridge University Press. ISBN 978-0521644112.
 
-Chalmers, David J. 2006. "The re-emergence of emergence" In *The Re-Emergence of Emergence: The Emergentist Hypothesis from Science to Religion*, edited by Philip Clayton and Paul Davies, 244–54. Oxford: Oxford University Press. ISBN 9780199287147. https://doi.org/10.1093/acprof:oso/9780199287147.003.0011.
+Chalmers, David J. 2006a. "Phenomenal Concepts and the Explanatory Gap." In *Phenomenal Concepts and Phenomenal Knowledge: New Essays on Consciousness and Physicalism*, edited by Torin Alter and Sven Walter, 167–194. New York: Oxford University Press.
+
+Chalmers, David J. 2006b. "The re-emergence of emergence" In *The Re-Emergence of Emergence: The Emergentist Hypothesis from Science to Religion*, edited by Philip Clayton and Paul Davies, 244–54. Oxford: Oxford University Press. ISBN 9780199287147. https://doi.org/10.1093/acprof:oso/9780199287147.003.0011.
 
 Chalmers, David J. 2015. "Panpsychism and Panprotopsychism." In *Consciousness in the Physical World: Perspectives on Russellian Monism*, edited by Torin Alter and Yujin Nagasawa, 246–276. New York: Oxford University Press.
 
@@ -334,9 +338,13 @@ Moghaddam, Soroush. 2013. "Confronting the Normativity Objection: W.V. Quine's E
 
 Mørch, Hedda Hassel. 2018. "Does Dispositionalism Entail Panpsychism?" *Topoi* 39(5): 1073–1088. https://doi.org/10.1007/s11245-018-9604-y.
 
+Mørch, Hedda Hassel. 2020. "The Phenomenal Powers View and the Meta-Problem of Consciousness." *Journal of Consciousness Studies* 27(5–6): 131–142.
+
 Mørch, Hedda Hassel. 2024. "Does Panpsychism Mean That 'We Are All One'?" *Journal of Consciousness Studies* 31(9-10): 88–112. https://doi.org/10.53765/20512201.31.9.088.
 
 Mørch, Hedda Hassel. Forthcoming. "How Can the Mental Ground the Physical? The Case for Phenomenal Powers Panpsychism." In *Grounding and Consciousness*, edited by Gabriel Rabin. Oxford: Oxford University Press.
+
+Nagasawa, Yujin, and Khai Wager. 2017. "Panpsychism and Priority Cosmopsychism." In *Panpsychism: Contemporary Perspectives*, edited by Godehard Brüntrup and Ludwig Jaskolla, 113–129. New York: Oxford University Press.
 
 Nagel, Thomas. 1979. "Panpsychism." In *Mortal Questions*, 181-195. Cambridge: Cambridge University Press.
 
@@ -422,6 +430,8 @@ Roelofs, Luke. 2019. *Combining Minds: How to Think about Composite Subjectivity
 
 Roelofs, Luke. 2020. "Consciousness, Revelation, and Confusion: Are Constitutive Panpsychists Hoist by Their Own Petard?" *Dialectica* 74(1): 63–96. https://doi.org/10.48106/dial.v74.i1.04.
 
+Roelofs, Luke. 2021. "Is Panpsychism at Odds with Science?" *Journal of Consciousness Studies* 28(9–10): 116–128.
+
 Rorty, Richard. 1980. *Philosophy and the Mirror of Nature*. Princeton, NJ: Princeton University Press. ISBN 978-0691020167.
 
 Rorty, Richard. 1989. *Contingency, Irony, and Solidarity*. Cambridge: Cambridge University Press. ISBN 978-0521367813.
@@ -481,6 +491,8 @@ Staffel, Julia. 2025. "Unfinished Business" Oxford: Oxford University Press. ISB
 Stoljar, Daniel. 2006. *Ignorance and Imagination: The Epistemic Origin of the Problem of Consciousness*. New York: Oxford University Press. ISBN 9780195306583. https://doi.org/10.1093/0195306589.001.0001.
 
 Strawson, Galen. 2006. "Realistic Monism: Why Physicalism Entails Panpsychism." *Journal of Consciousness Studies* 13(10-11): 3-31.
+
+Strawson, Galen. 2017. "Mind and Being: The Primacy of Panpsychism." In *Panpsychism: Contemporary Perspectives*, edited by Godehard Brüntrup and Ludwig Jaskolla, 75–112. New York: Oxford University Press.
 
 Street, Sharon. 2006. "A Darwinian Dilemma for Realist Theories of Value." *Philosophical Studies* 127(1): 109–66. https://doi.org/10.1007/s11098-005-1726-6.
 
