@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -17,6 +17,15 @@ Andersen HK (2025) The density of structure. Synthese 206(5):237.
 \bibitem[{Ando and Simon(1961)}]{ando1961}
 Ando A, Simon HA (1961) Aggregation of variables in dynamic systems.
   Econometrica 29(2):111--138. \doi{10.2307/1909285}
+
+\bibitem[{Batterman(2002)}]{batterman2002}
+Batterman RW (2002) The Devil in the Details: Asymptotic Reasoning in
+  Explanation, Reduction, and Emergence. Oxford University Press, New York.
+\newblock \doi{10.1093/0195146476.001.0001}
+
+\bibitem[{Boyd(1991)}]{boyd1991}
+Boyd R (1991) Realism, anti-foundationalism and the enthusiasm for natural
+  kinds. Philosophical Studies 61(1-2):127--148. \doi{10.1007/BF00385837}
 
 \bibitem[{Cover and Thomas(2006)}]{cover2006}
 Cover TM, Thomas JA (2006) Elements of Information Theory, 2nd edn.
@@ -59,9 +68,6 @@ Haugeland J (1998) Having Thought: Essays in the Metaphysics of Mind. Harvard
 Hoel EP, Albantakis L, Tononi G (2013) Quantifying causal emergence shows that
   macro can beat micro. Proceedings of the National Academy of Sciences
   110(49):19790--19795. \doi{10.1073/pnas.1314922110}
-
-\bibitem[{van Inwagen(1990)}]{vaninwagen1990}
-van Inwagen P (1990) Material Beings. Cornell University Press, Ithaca, NY
 
 \bibitem[{Jiang(2024)}]{jiang2024}
 Jiang Y (2024) The metaphysics of mechanisms: An ontic structural realist
@@ -108,15 +114,13 @@ Lewis D (1986) On the Plurality of Worlds. Blackwell, Oxford
 Machamer P, Darden L, Craver CF (2000) Thinking about mechanisms. Philosophy of
   Science 67(1):1--25. \doi{10.1086/392759}
 
+\bibitem[{Meyer(2026)}]{meyer2026}
+Meyer A (2026) Dependence, novelty, autonomy and the emergence of spacetime.
+  Synthese 207(6):261. \doi{10.1007/s11229-026-05634-6}
+
 \bibitem[{Millhouse(2022)}]{millhouse2022}
 Millhouse T (2022) Really real patterns. Australasian Journal of Philosophy
   100(4):664--678. \doi{10.1080/00048402.2021.1941153}
-
-\bibitem[{Millhouse et~al.(2026)Millhouse, Petersen, and
-  Ross}]{millhouseetal2026}
-Millhouse T, Petersen S, Ross D (eds)  (2026) Dennett's Real Patterns in
-  Science and Nature. MIT Press, Cambridge, MA.
-\newblock \doi{10.7551/mitpress/15550.001.0001}
 
 \bibitem[{Pearl(2009)}]{pearl2000}
 Pearl J (2009) Causality: Models, Reasoning, and Inference, 2nd edn. Cambridge

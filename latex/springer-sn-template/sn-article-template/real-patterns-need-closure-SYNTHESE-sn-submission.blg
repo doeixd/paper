@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99e
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: real-patterns-need-closure-SYNTHESE-sn.aux
+The top-level auxiliary file: real-patterns-need-closure-SYNTHESE-sn-submission.aux
 Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: sn-basic.bst
 Reallocating 'name_of_file' (item size: 1) to 36 items.
@@ -9,7 +9,7 @@ sn-basic.bst [2024/07/19 v1.1 bibliography style]
 Reallocating 'wiz_functions' (item size: 4) to 6000 items.
 You've used 40 entries,
             3571 wiz_defined-function locations,
-            972 strings with 10551 characters,
+            972 strings with 10573 characters,
 and the built_in function-call counts, 26152 in all, are:
 = -- 2420
 > -- 611

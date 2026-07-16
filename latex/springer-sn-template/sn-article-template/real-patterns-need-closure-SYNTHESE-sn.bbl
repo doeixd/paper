@@ -1,4 +1,4 @@
-\begin{thebibliography}{39}
+\begin{thebibliography}{40}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -113,6 +113,10 @@ Lewis D (1986) On the Plurality of Worlds. Blackwell, Oxford
 \bibitem[{Machamer et~al.(2000)Machamer, Darden, and Craver}]{machamer2000}
 Machamer P, Darden L, Craver CF (2000) Thinking about mechanisms. Philosophy of
   Science 67(1):1--25. \doi{10.1086/392759}
+
+\bibitem[{Meyer(2026)}]{meyer2026}
+Meyer A (2026) Dependence, novelty, autonomy and the emergence of spacetime.
+  Synthese 207(6):261. \doi{10.1007/s11229-026-05634-6}
 
 \bibitem[{Millhouse(2022)}]{millhouse2022}
 Millhouse T (2022) Really real patterns. Australasian Journal of Philosophy
