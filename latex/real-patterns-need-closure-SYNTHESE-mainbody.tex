@@ -897,11 +897,19 @@ The meta-philosophical stance here follows what Woodward calls the
 methodological path to ontology: causal-interventionist tools are used
 to determine what earns realist commitment, rather than seeking
 independent metaphysical ``truth-makers'' or ``grounds'' that stand
-apart from the practices of manipulation and prediction \citep{woodward2015}. Scientific ontology, disciplined by closure, is the only ontology
-required for commitment verdicts at this grain. The demand for a further
-metaphysical foundation beyond stable dynamical autonomy under
-admissible intervention mistakes a philosophical habit for a substantive
-requirement.
+apart from the practices of manipulation and prediction \citep{woodward2015}. On that path, scientific ontology disciplined by
+closure is the only ontology required for commitment verdicts at this
+grain. This is a consequence of the stated commitments rather than an
+independent argument against those who reject them. A grounding
+theorist who holds that stable dynamical autonomy under admissible
+intervention still stands in need of a further metaphysical foundation
+is not making a mistake by the lights of their own view; they are
+declining the methodological path at the outset, and the disagreement
+is therefore about that path rather than about closure. Readers who
+take it will find that closure settles what commitment requires;
+readers who do not can still take the anti-gerrymandering result of
+\S\ref{what-the-formal-machinery-alone-does-not-provide}, which does
+not depend on the ontological reading.
 
 A persistent worry is that prediction and interventional control are
 merely epistemic lenses, leaving the underlying ontology untouched.
@@ -1450,58 +1458,58 @@ The same wedge can be reported in five steps.
 
 A structurally distinct parasitism case arises when a macro-variable
 appears transition-autonomous because a fast hidden process continually
-relaxes it toward its apparent attractor. Under passive observation,
-the macro-variable shows clean transitions, screening off is satisfied,
-and novelty is present: the hidden relaxation is fast enough that its
-effects register as instantaneous properties of the macro-state rather
-than as a separable dynamical layer. Under an admissible perturbation
-that acts on timescales shorter than the hidden relaxation, however,
-within-class micro-differences determine which trajectory the system
-takes during the transient. The apparent autonomy was borrowed from a
-fast hidden process rather than from an upstream common cause, but the
-test verdict is the same.
+relaxes it toward its apparent attractor. The source of the borrowed
+stability is now internal and fast rather than upstream and exogenous,
+but the skeleton of the previous case transfers directly, which is the
+point worth establishing: the gap is not tied to one configuration.
 
-The five-step template applies again.
+Retain the two subsystems \(A\) and \(B\) and the candidate
+\(Z_t = A_t \oplus B_t\), and replace the external drivers with two fast
+hidden variables \(H^1\) and \(H^2\) that relax toward the subsystems
+they track. The micro-state is \(X_t = (A_t, B_t, H^1_t, H^2_t)\), and
+the dynamics are that each subsystem's next value is its hidden
+variable's current value, flipped with probability \(q\), after which
+the hidden variables re-equilibrate to the subsystems. Because the
+relaxation is fast relative to observation, the observed process never
+leaves the equilibrated manifold on which \(H^1_t = A_t\) and
+\(H^2_t = B_t\).
 
-\begin{enumerate}
-	\item
-	      Observational success: the macro-variable forecasts its own
-	      future because the hidden-fast dynamics relax deviations back
-	      toward the apparent attractor.
-	\item
-	      Screening off satisfied: at timescales longer than the hidden
-	      relaxation, additional within-class micro-detail adds no
-	      predictive leverage for the observed target.
-	\item
-	      Admissible perturbation introduced: the macro-variable is
-	      perturbed on timescales shorter than the hidden relaxation,
-	      using physically available control channels that act on the
-	      candidate partition directly.
-	\item
-	      Hidden heterogeneity reappears: transient trajectories diverge
-	      according to within-class micro-configuration, and the apparent
-	      attractor is not reinstantiated along a partition-internal
-	      path.
-	\item
-	      Verdict: the candidate's apparent autonomy was constituted by a
-	      hidden fast process rather than by its own transition
-	      structure. Structural parasitism, different source.
-\end{enumerate}
+The verdicts are those of the previous case, and for the same reasons.
+On the equilibrated manifold each subsystem performs an independent
+symmetric walk with persistence \(1-q\), so \(Z\) is a symmetric chain
+with persistence \(r = q^2 + (1-q)^2\), which differs from \(1-q\) and
+cross-classifies the subsystem states exactly as before. Novelty is
+therefore satisfied on Franklin and Robertson's condition rather than on
+the weaker reading that a dependence is statable at the macro grain,
+which is the reading their binary star already excludes. Within the
+observed process, each macrostate is realized only by equilibrated
+configurations, and those are homogeneous in their onward profile, so
+conditional irrelevance holds strictly. An admissible perturbation that
+acts faster than the relaxation sets a subsystem while its hidden
+variable is still stale. That reaches a realization of the same
+macrostate in which the hidden variables disagree, and from there
+\(P(Z_{t+1} = 0) = 1 - r\) rather than \(r\). Closure fails.
 
-The two cases share a failure signature but differ in source. The
-common-cause proxy borrows stability from a shared upstream driver;
-hidden-feedback parasitism borrows it from a fast off-partition
-relaxation. Passive conditional independence is sustained in both
-cases by off-partition organization, and admissible perturbation that
-targets the candidate partition directly exposes within-class
-heterogeneity in both cases. That convergence matters. A defender of
-the screening-off-plus-novelty package might concede the common-cause
-proxy as an edge phenomenon while keeping the criterion intact; two
-structurally different parasitism sources with the same failure
-signature are harder to relegate, because the wedge is not then tied
-to one peculiar configuration but to a general pattern: the
-candidate's apparent stability rests on structure the partition itself
-does not preserve under admissible perturbation.
+The perturbation is admissible in the same three respects: it acts on
+the candidate partition through a physically available channel, it
+leaves the dynamics untouched, and the system re-equilibrates within a
+step, so the regime is preserved and the deviation is a transient.
+
+The two cases differ in the source of the borrowed stability rather
+than in the shape of the failure. The common-cause proxy borrows from a
+shared upstream driver that is exogenous and persistent; hidden-feedback
+parasitism borrows from an internal relaxation that is fast and
+endogenous. That they share a formal skeleton is not a defect of the
+presentation but the substance of the claim. What generates the gap in
+both is a single structural fact, that the observed process visits only
+a homogeneous subset of a heterogeneous macroclass, and the two sources
+show that this fact does not depend on where the off-partition structure
+happens to sit. A defender of the screening-off-plus-novelty package
+might concede the common-cause proxy as an edge phenomenon while keeping
+the criterion intact. Two sources with the same signature are harder to
+relegate, because what is then at issue is not a peculiar configuration
+but a general category: apparent stability resting on structure the
+partition itself does not preserve under admissible perturbation.
 
 The intervention test here is accordingly not just standard Woodwardian
 causal testing in new language. Standard interventionist analysis asks
