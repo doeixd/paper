@@ -1157,22 +1157,35 @@ Rosas et al.'s framework distinguishes informational, causal, and
 computational closure as complementary formal diagnostics
 \citep{rosas2024}, and their Theorem 1 establishes that for spatial
 coarse-grainings, under the assumptions specified there, informational
-and causal closure coincide \citep[Thm.~1]{rosas2024}. The notion of
-\emph{causal closure} used in that result is a Granger-style condition
-defined over the observed process: a macro-variable is causally closed
-when its own past screens off micro-level pasts from its own future
-\citep[Sec.~III.B]{rosas2024}. The equivalence the theorem establishes
+and causal closure coincide \citep[Thm.~1]{rosas2024}. In that
+framework \emph{causal closure} is defined as equivalence between the
+coarse-grainings induced by a process's \(\epsilon\)-machine and its
+\(\upsilon\)-machine \citep[Def.~3]{rosas2024}, and \emph{information
+closure} as the vanishing of \(I(\vec{X}_t; \vec{Z}^L_{t+1} \mid
+\vec{Z}_t)\) for all \(L\) \citep[Def.~4]{rosas2024}. Both are defined
+over the observed process. Rosas et al. are themselves explicit about
+what this does and does not license: causal closure as defined there
+provides counterfactual guarantees only if the underlying system is
+fully observed, and otherwise ``ought to be understood in the Granger
+sense, i.e.\ as a best guess given the available knowledge''
+\citep[Sec.~III]{rosas2024}. The equivalence the theorem establishes
 is therefore one between two readings of observational structure, not
 between observational structure and interventional invariance under
 perturbation external to the modeled process. The criterion here is
-downstream of that result rather than in tension with it: it treats
-those observational diagnostics as strong evidence for closure, but
-ties realist commitment to a further admissible-intervention stability
-condition and to the absence of hidden micro-identity bookkeeping. The
-two diagnostics agree in the central cases and can diverge when
-relevant upstream structure lies outside the modeled state space, or
-when admissible interventions target the candidate partition directly
-while leaving such structure intact. The common-cause case developed below is the canonical wedge; the
+downstream of that result rather than in tension with it, and it takes
+their caveat as its point of departure rather than as a technical
+footnote. It treats those observational diagnostics as strong evidence
+for closure, but ties realist commitment to a further
+admissible-intervention stability condition and to the absence of
+hidden micro-identity bookkeeping. The two diagnostics agree in the
+central cases and can diverge when relevant upstream structure lies
+outside the modeled state space, or when admissible interventions
+target the candidate partition directly while leaving such structure
+intact. That divergence is not a counterexample to their result. It is
+the region their own full-observation proviso exempts: where the
+structure sustaining apparent macro-autonomy lies off-partition, the
+Granger reading is the operative one, and the counterfactual guarantee
+lapses at exactly the point where parasitism becomes possible. The common-cause case developed below is the canonical wedge; the
 hidden-feedback case (\S\ref{hidden-feedback-case}) shows the same
 failure signature from a structurally different source.
 
