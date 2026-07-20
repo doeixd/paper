@@ -72,9 +72,10 @@ remain compatible with theoretical reducibility rather than to revive a
 strong irreducibility test.
 
 Screening off plus novelty is indispensable, but admits two readings of
-conditional independence, observational and modal, that existing
-admittance tests do not discriminate. A candidate macro-variable
-deserves robust commitment only under the modal reading: it must carry
+conditional independence, observational and modal. No published test in
+this literature fixes the modal reading, and the two readings return
+opposite verdicts on candidates the debate cares about. A candidate
+macro-variable deserves robust commitment only under the modal reading: it must carry
 its own transition structure under a fixed regime, horizon, and
 admissible intervention class. In exact Markov settings, strong
 lumpability is the benchmark realization of that condition. In
@@ -464,14 +465,15 @@ stability has a different source, so the divergence is not tied to one
 peculiar configuration.
 
 The reply to the rejoinder is therefore to accept it and press it
-further. Screening off properly understood is modal screening off, and
-modal screening off is transition autonomy: there are not two
-properties here but one, described once in the vocabulary of
-conditional independence and once in the vocabulary of dynamics. What
-does not follow is that the criterion is idle. A reading that no stated
+further, and the crux can be stated first: a reading that no stated
 test discriminates cannot adjudicate admission, and the parasitism
 cases show that the undiscriminated readings return opposite verdicts
-on candidates the debate cares about. The contribution is the test and
+on candidates the debate cares about. Screening off properly understood
+is modal screening off, and modal screening off is transition autonomy:
+there are not two properties here but one, described once in the
+vocabulary of conditional independence and once in the vocabulary of
+dynamics. So the concession does not make the criterion idle. The
+contribution is the test and
 the discipline that goes with it, not the discovery of a new property.
 The intervention-indexed reading is offered as one principled way of
 making the intended modal content operationally discriminating, which is
@@ -584,14 +586,11 @@ perturbations the regime can physically sustain, not merely on fit to
 observed trajectories.
 
 This procedural discipline is the framework's main defense against
-gerrymandering. Even when admissibility classes are guided by domain
-interests, a candidate does not earn robust standing simply because one
-carefully chosen intervention class makes it look good. If the verdict
-collapses under nearby defensible admissibility specifications, that
-fragility is itself objective evidence against a strong realist
-commitment. The point is not to pretend that human interests disappear.
-It is to ensure that they cannot silently protect a favored partition
-from downgrade.
+gerrymandering: a candidate does not earn robust standing simply
+because one carefully chosen intervention class makes it look good.
+The point is not to pretend that human interests disappear. It is to
+ensure that they cannot silently protect a favored partition from
+downgrade.
 
 Admissibility is fixed upstream of commitment verdicts by three
 constraints:
@@ -646,9 +645,7 @@ Evaluation order is fixed by the canonical selection discipline
 (\S\ref{procedural-safeguards-in-non-ideal-cases}): intervention
 classes are fixed from independent physical constraints and established
 control practice before closure is scored, and post hoc revisions
-restart the evaluation. If verdicts remain highly sensitive across
-nearby defensible admissibility specifications, commitment should be
-downgraded.
+restart the evaluation.
 
 Taken together, the discipline can be stated as a short acceptability
 test. An admissibility class is acceptable only when:
@@ -782,8 +779,8 @@ molecules. Under molecule-by-molecule rewriting, the same candidate
 fails, because admissibility now permits interventions that reach inside
 the macroclass and exploit within-class differences. The candidate has
 not changed; the admissible control channel has, and the verdict changes
-with it. Admissibility must therefore be declared and justified before
-scoring, not adjusted afterward to protect a preferred outcome.
+with it. That is why admissibility is declared before scoring
+(\S\ref{admissibility-and-hierarchical-evaluation}).
 
 The issue is distinct from regime individuation. Regime individuation
 asks which background dynamics define the target setting; admissibility
@@ -796,9 +793,7 @@ circularity worry here as well.
 Front-end specification of regime, target, and admissible control
 channels is often interest-guided in a perfectly ordinary way. That does
 not make closure verdicts interest-relative once those specifications
-are fixed and openly defended. Where they fail to stabilize across
-defensible alternatives, the right result is downgrade or indeterminacy
-rather than forced realism. A short template grid (boundary nudges,
+are fixed and openly defended. A short template grid (boundary nudges,
 coarse actuator controls, policy levers) can make admissibility
 comparison public and repeatable in domains that lack an established
 control lexicon.
@@ -1251,9 +1246,17 @@ follows from that gap.
 	      visited realizations have \(V_t = 1\), and both yield
 	      \(1 - r\). Hence
 	      \(P(Z_{t+1} \mid Z_t, X_t) = P(Z_{t+1} \mid Z_t)\) exactly.
-	      The proxy does not merely approximate screening off, in the way
-	      a deviant microstate would degrade it. It satisfies the strict
-	      condition.
+	      The unvisited realizations do not disturb this verdict, and it
+	      matters why. The realizations of \(Z_t = 0\) with \(V_t = 1\)
+	      receive probability zero in the observed process, so the
+	      conditional probability is undefined on them and the strict
+	      condition holds over them only vacuously. The condition is not
+	      violated by the heterogeneous realizations; it is silent about
+	      them, and silent about exactly the realizations on which the
+	      closure question turns. The proxy does not merely approximate
+	      screening off, in the way a deviant microstate would degrade
+	      it. It satisfies the strict condition on every realization for
+	      which the condition says anything at all.
 	\item
 	      Novelty, structurally rather than numerically. \(Z\)'s
 	      macrodependency relates parity classes to later parity classes,
@@ -1354,6 +1357,20 @@ lumpable, since the observed macro-process is genuinely Markov, but not
 strongly lumpable, since strong lumpability demands equal onward
 macro-transitions for every microstate in a class rather than only for
 those the observed distribution happens to weight.
+
+There is also a positive way to locate the autonomy the case contains.
+The driver parity \(V_t = U^1_t \oplus U^2_t\) is itself a strongly
+lumpable coarse-graining of the driver pair: since
+\(V_{t+1} = V_t \oplus (N^1_{t+1} \oplus N^2_{t+1})\) whatever the reset
+line does to the subsystems, every realization of \((U^1_t, U^2_t)\)
+with a given parity has the same onward parity distribution, with
+persistence \(r\). The autonomy in the case is therefore real; it is
+just located at the driver partition rather than the candidate. \(Z\)
+borrows \(V\)'s closure for as long as the dormant channel keeps the
+two aligned. Parasitism is then not a metaphor. It names a candidate
+whose apparent transition structure is the closure of a different
+partition, one the candidate neither contains nor preserves under
+admissible perturbation.
 
 The case is therefore not a verbal trick or a diagnostic failure. It is
 a countermodel: a candidate that satisfies unconditional relevance,
@@ -2210,6 +2227,26 @@ utility, and by the availability of multiple valid carvings, without yet
 having shown that lower-level variation is transition-irrelevant in the
 stronger sense used here \citep{jiang2025}. Such utility matters, but it
 does not by itself settle robust standing.
+
+A sharper form of the objection concedes the graded verdicts and
+targets their distribution: the criterion is decisive where it is
+easy, in declared-channel settings like the Markov benchmark, and
+returns qualified or indeterminate verdicts almost everywhere the
+debate matters, so its bite is inversely proportional to its
+applicability. Three points blunt this. First, qualified verdicts are
+comparative results, not silence: they rank candidate partitions,
+locate where leakiness lives, and say what evidence would upgrade the
+verdict, which is more than a permissive criterion says anywhere.
+Second, rival criteria do not perform better where closure verdicts
+are hard; they issue robust verdicts there, and the wedge cases show
+that some of those verdicts certify borrowed autonomy. A criterion
+that withholds robust standing where the evidence cannot support it is
+not weaker than one that grants it there. Third, decisiveness tracks
+the maturity of a domain's control ecology rather than a boundary
+fixed in advance: as intervention practice accumulates, the same
+criterion delivers stronger verdicts, so its reach grows with
+experimental practice instead of being confined to clean cases by
+construction.
 
 The objection therefore proves too much. A criterion that granted robust
 standing to every special-science kind regardless of leakiness would
