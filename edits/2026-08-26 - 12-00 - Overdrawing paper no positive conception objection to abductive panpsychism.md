@@ -13,3 +13,6 @@ The paper already argued that careful panpsychists who retreat to abduction forf
 5. **Conclusion:** one sentence: forfeiture is doubled for the thinnest posits.
 
 No new named concepts, no new references, no em dashes, no footnotes.
+
+## Follow-up: source check against Goff 2017 epub
+The acquaintance-advantage argument is Goff's simplicity argument in ch. 7 (pp. 169-170), not the Revelation chapter (ch. 5, pp. 106-132). Pin cite corrected. Added a paragraph in Sec 5 noting that Goff himself concedes we lack a positive conception of protophenomenal properties (pp. 168-169) and that any combination solution involves "noumenalism" (pp. 186-187); the paper turns that reasoning onto thinned panpsychism.
