@@ -38,6 +38,23 @@ Stronger claims from the correspondence were kept out of the paper because they 
 
 Added to the `.bib` and `references.md`: bishopatmanspacher2006, dupre2018, french2014 (already in references.md), jaworski2016, thomasson2007.
 
+## Second pass: verification and deslop
+
+A re-check of the first pass found three substantive problems, now fixed:
+
+1. **Circularity in §2.1.** "A regime is significant because the world supports autonomous transition structure there" read as defining regimes by closure. The paragraph now says regimes are picked out by candidate-neutral physical features (timescales, energy scales, control channels; see §2.7), and that indexing specifies which modal claim is made, with the ice analogy as its model.
+2. **Environmental-support paragraph covered only fixed background conditions.** It now also treats varying environmental inputs (the swing on the hammer, nutrients on a cell) as exogenous inputs, like the reset line in the model. The criterion that separates support from parasitism is stated exactly: whether the candidate's own macrostate does the predictive work given those inputs. In the proxy, given the drivers, $Z_t$ adds nothing, since $Z_{t+1}$ is fixed by the driver parity. The paragraph is split into three for readability.
+3. **Overreach in the complements paragraph.** The claim that every neighboring account "presupposes" closure was false for artifact theories. It is replaced by the weaker, accurate claim that closure adds a check on whether the entity has dynamics of its own.
+
+Clarity additions aimed at the outside reader's questions:
+- The composition paragraph now states where substantive disagreement remains (with views denying that macro-level transition structure is real) and where it is only verbal.
+- The global-selection paragraph now answers directly whether closure is a "local test". Its verdict is regime-relative, but the regime must be physically identified and hold up under nearby variation.
+- Cross-regime robustness is explicitly not part of closure in a single regime (ice across a phase boundary).
+
+Deslop:
+- Removed correction-rhythm openers ("It is not.", "It does not make the regime"), motto-style closers ("find them without being able to invent them", "their existence is not up to anyone"), repeated "shares... shares" sentence frames, and signposting ("with one distinction kept in view").
+- Fixed a dangling "The objection" that pointed at the wrong paragraph after the insertion.
+
 ## Build
 
 Regenerated the blinded submission file with `scripts/build_blinded_submission.py`. Both `-sn.tex` and `-sn-submission.tex` compile (pdflatex → bibtex → pdflatex ×2) with no undefined references or citations.
