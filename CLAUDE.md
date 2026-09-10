@@ -80,18 +80,58 @@ See `STYLE_GUIDE.md` for comprehensive editorial guidelines including:
 
 After every large edit. write a summary of the changes, and explanation behind it. etc in a document in the edits/ directory, and preface the file name with the date YYYY-MM-DD - HH-MM - SUMMARY OF Edits Title
 
-For the Synthese submission track of `real-patterns-need-closure`, the primary submission source is the LaTeX version, not `paper.md`.
+## The Two Closure Papers (read this before touching `real-patterns-need-closure-*`)
 
-Primary files for this track:
-- Main body source: `latex/real-patterns-need-closure-SYNTHESE-mainbody.tex`
-- Springer wrapper (local build file): `latex/springer-sn-template/sn-article-template/real-patterns-need-closure-SYNTHESE-sn.tex`
-- Inlined blinded submission source (no `\input`; upload this): `latex/springer-sn-template/sn-article-template/real-patterns-need-closure-SYNTHESE-sn-submission.tex`
-- Bibliography database: `latex/springer-sn-template/sn-article-template/real-patterns-need-closure-SYNTHESE.bib`
-- BibTeX style used for this template: `latex/springer-sn-template/sn-article-template/sn-basic.bst`
-- Separate non-blinded title page metadata file: `latex/springer-sn-template/sn-article-template/title-page.tex`
+There are TWO different papers that share the same file paths. Which one you are editing depends on the git branch. Check `git branch --show-current` first, and ask the user if it is unclear which paper they mean (they may refer to either by title).
+
+1. **Synthese paper: "Operationalizing Screening Off for Rainforest Admission"** (blinded, under submission)
+   - Branch: `revision/rainforest-reframing`.
+   - Thesis: Franklin and Robertson's screening-off-plus-novelty test admits an observational and a modal reading; closure under admissible intervention secures the modal one. Key content: latent-driver proxy countermodel, hidden-feedback case, admissible leakiness $\Lambda^{(L)}_I$, closure profile / evidential grade / commitment verdict.
+   - Build file: `real-patterns-need-closure-SYNTHESE-sn.tex`. Upload file: `real-patterns-need-closure-SYNTHESE-sn-submission.tex`, a GENERATED file. Never hand-edit it; after any change to the main body or `-sn.tex`, run `python scripts/build_blinded_submission.py` (it inlines, blinds, and checks for control characters).
+2. **PhilPapers paper: "Real Patterns Need Closure: Transition Autonomy as a Dynamical Criterion for Macro-Objecthood"** (named, public preprint)
+   - Branch: `master`, with revisions on `revision/objecthood-email`. It is often checked out as a separate worktree at `C:\Users\Patrick\paper-objecthood`.
+   - Thesis: under structural realist and interventionist commitments, closure is SUFFICIENT for macro-objecthood in regime (the fallback is a necessary anti-gerrymandering constraint). It includes a composition paragraph and a common-cause oscillator case.
+   - Build with `real-patterns-need-closure-SYNTHESE-sn.tex`, which carries the author and bibliography. `-sn-full.tex` has NO `\bibliography` line, so its references fail. The abstract lives in the wrapper, not the main body; keep the abstracts in `-sn.tex` and `-sn-full.tex` identical.
+
+Shared by both:
+- Main body source: `latex/real-patterns-need-closure-SYNTHESE-mainbody.tex`.
+- Build folder: `latex/springer-sn-template/sn-article-template/`. Bibliography `real-patterns-need-closure-SYNTHESE.bib`; style `sn-basic.bst`; non-blinded metadata `title-page.tex`.
+
+Rules:
+- NEVER merge or cherry-pick the main body between these branches. To work on the other paper, use `git worktree add` rather than switching branches (tracked build artifacts in the working tree block checkouts).
+- Keep the papers distinct. Do not import Franklin and Robertson, "modal screening off", the latent-driver countermodel, or the profile/grade/verdict split into the PhilPapers paper. Do not import the sufficiency-for-objecthood thesis into the Synthese paper, which presents closure as the dynamical component of objecthood.
+- Clarifications both papers now share, from correspondence with an outside reader. Keep them consistent, and do not contradict them:
+  - "test"/"criterion" is epistemic talk; closure itself is a fact about the system;
+  - regimes are picked out by candidate-neutral physical features (timescales, energy scales, control channels), never defined by where closure holds;
+  - robustness across the admissible class is constitutive of closure, while robustness across nearby regimes and horizons is evidence;
+  - closure concerns whether an autonomous macro-level unit exists, not kind, origin, function, naming, or identity, which are left to complementary accounts (contextual emergence, process ontology, hylomorphism, binding accounts, artifact theories);
+  - one substrate can have several closed partitions (the accidental-hammer illustration);
+  - regime-fixed background and varying inputs are not parasitism;
+  - denying the word "object" while granting the transition facts is a verbal dispute.
+- Unverified citations: Roca-Martín's "Global Challenge" and Beni's object-elimination arguments could not be located. Do not cite them without a real reference from the user.
 
 Legacy file note:
-- `latex/real-patterns-need-closure-SYNTHESE-body.tex` is a stale intermediate export and should not be used for submission or new edits unless explicitly requested.
+- `latex/real-patterns-need-closure-SYNTHESE-body.tex`, `real-patterns-need-closure-SYNTHESE-pandoc.tex`, `latex/real-patterns-need-closure-SYNTHESE-main.md`, `real-patterns-need-closure-SYNTHESE.md`, and the `latex/*.bak*` files are stale February exports. Do not use them for submission or new edits unless explicitly requested.
+
+## Revision Workflow That Works Here
+
+- **De-AI / deslop passes:** `pan/AI smells.txt` is the author's checklist (correction rhythm "not X but Y", motto closers, signposting, restatement, repeated stock phrases). Contrasts that pre-empt a specific reviewer misreading (instrumentalism, observer-relativity, circularity, Woodwardian primitivism, eliminativism, "mere restatement") are load-bearing. Keep them, stated once and plainly.
+- **Large passes:** back up the main body to the scratchpad, split it at section boundaries, and revise the chunks in parallel with subagents, each writing a change log that names the qualifications in every changed passage. Reassemble, then ALWAYS:
+  1. run a mechanical invariant check (citation keys and pinpoints, labels, refs, section commands, `\item` counts, inline and display math, brace balance) against the backup;
+  2. run an independent adversarial audit for dropped hedges, strengthened or weakened claims, lost guards, and changed terms of art;
+  3. read the whole result yourself before committing.
+
+  Deslop agents reliably drop words like "robust", "defensible", "not a concession", and "not a human invention", and they turn conditionals into flat claims. The audit is not optional.
+- **Terms of art to preserve verbatim:** explanatory admissibility; robust / qualified / indeterminate; closure profile; evidential grade; high-maintenance; admissible vs observational leakiness; macro-object / objecthood (PhilPapers).
+- **Deliverables:** when asked for a PDF, copy it to `C:\Users\Patrick\Downloads` under a new descriptive name. Do not overwrite the older dated copies there.
+- **Build artifacts:** the `.aux`, `.log`, `.bbl`, `.blg`, and `.pdf` files in the build folder are tracked. Commit the rebuilt ones with the source change.
+
+## Tooling Gotchas On This Machine
+
+- Git Bash heredocs can mangle backslashes in inline Python (e.g. `\ref` becomes a carriage return plus `ef`). Write Python helper scripts with the Write tool, then run them.
+- `grep -P` fails here (locale). Use the Grep tool or Python `re` for regex checks. An empty result from a failed grep is not a pass.
+- MiKTeX prints "you have not checked for MiKTeX updates" on every run. It is harmless.
+- The main-body `.tex` files mix hard-wrapped and long unwrapped lines. Match across line breaks (whitespace-tolerant regex) when scripting replacements, and prefer the Edit tool for single changes.
 
 Use good judgement when integrating specific suggestions. make sure they align with our preferences, and make sense in the paper.
 
@@ -152,8 +192,8 @@ Relation: This is a domain-specific application of the general theory found in f
 ## Project Layout Notes
 
 - `final.md`, `from-beliefs-to-truth.md`, `proc_v7.md`, `The Reality of Wholes.md`, etc., are the current EPC manuscripts. **Ignore `paper.md`; it is an outdated draft kept only for reference.**
-- For the current Synthese workflow for `real-patterns-need-closure`, treat `latex/real-patterns-need-closure-SYNTHESE-mainbody.tex` as the primary prose source.
-- Build and submission files for that paper are under `latex/springer-sn-template/sn-article-template/`.
+- For `real-patterns-need-closure`, the primary prose source is `latex/real-patterns-need-closure-SYNTHESE-mainbody.tex`, but its content depends on the branch (see "The Two Closure Papers" above).
+- Build and submission files for both closure papers are under `latex/springer-sn-template/sn-article-template/`. The same folder also holds `overdrawing-on-experience-sn.tex` (the panpsychism / Goff paper).
 - `real-patterns-as-closure.md` draft on closure/lumpabilty
 - For `real-patterns-as-closure.md`, release via `python scripts/release.py real-patterns-as-closure.md --format typst --output releases/real-patterns-as-closure.pdf`. Citation parser is sensitive to grouped parentheticals, so prefer parser-safe author-year citations in separate parentheses when needed.
 - `pan/` contains the panpsychism paper materials: `pan/pan_notes.txt` is the working notes dump, and `pan/pan_plan.txt` is the current plan for developing those notes into a LaTeX philosophy paper.
@@ -162,7 +202,7 @@ Relation: This is a domain-specific application of the general theory found in f
 - `sources/`, `random/`, `physics/`, `old/`, and `backups/` contain supporting material or archives. Treat them as read-only unless the user explicitly instructs otherwise. You can search them for background info or keywords if you need to. Just make sure to verify the information is correct/up-to-date before using it.
 - `scripts/` and the root `justfile` mediate automation (release prep, citation checks, appendices). Run `just --list` before inventing bespoke tooling. Read the justfile for more info.
 - For Synthese Springer LaTeX builds on this machine, prefer: `"C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\miktex\bin\x64\pdflatex.exe" -interaction=nonstopmode -halt-on-error real-patterns-need-closure-SYNTHESE-sn.tex` (from `latex/springer-sn-template/sn-article-template`). The default `miktex` on `PATH` can fail with format/package inconsistencies.
-- BibTeX workflow for the Synthese files: run `pdflatex -> bibtex -> pdflatex -> pdflatex` in `latex/springer-sn-template/sn-article-template`.
+- BibTeX workflow for the Synthese files: run `pdflatex -> bibtex -> pdflatex -> pdflatex` in `latex/springer-sn-template/sn-article-template`. Call `bibtex.exe` from the same MiKTeX `bin\x64` folder. After building, check the `.log` for `undefined` and the `.blg` for `Warning--` or "no \bibdata".
 - Keep the manuscript double-anonymized. Put identifying metadata, acknowledgements, funding, and declarations on the separate `title-page.tex` for submission metadata.
 - For blinded upload, use `real-patterns-need-closure-SYNTHESE-sn-submission.tex` plus required supporting source files (`.bib`, `.cls`, `.bst`) and its compiled PDF.
 - `releases/` captures deliverables; `backups/` mirrors snapshots. Do not hand-edit files there.
