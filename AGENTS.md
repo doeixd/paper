@@ -1,1 +1,248 @@
-CLAUDE.md
+We are writing an ACADEMPIC PHILOSOPHY PAPER.
+
+Not a hard science paper. and not a manifesto or blog post. 
+
+Things to remember:
+My writing style is simple, but clear & detailed.
+Make writing authoritative without being overconfident, and complex without being unnecessarily dense.
+Use clear, measured, academic tone.
+Don't use unnecessary jargon.
+Pre-empt any misunderstandings or objections.
+Don't have a grandiose tone, maintain humility, but confidence.
+Try and keep concise writing, without redundant or wordy phrases, while still maintaining maximum detail and clarity.
+Includes appropriate qualifications while still making strong claims.
+Be philosophically precise.
+Anticipate reviewer criticism, and address it.
+Dont introduce unneeded named concepts, if it can be avoided.
+Use appropriate citations.
+
+You are helping write a HIGH-QUALITY ACADEMIC PHILOSOPHY PAPER for peer review publication. This is not a hard science paper, manifesto, or blog post.
+
+## Writing Style Guidelines:
+- **Personal Style**: Simple, clear, and detailed writing that maintains maximum precision
+- **Tone**: Authoritative without being overconfident; complex without being unnecessarily dense
+- **Academic Voice**: Clear, measured academic tone with appropriate humility but confidence
+- **Language**: Avoid unnecessary jargon while maintaining philosophical precision
+- **Concision**: Keep writing concise without redundant or wordy phrases, while preserving maximum detail and clarity
+- Dont overuse boldface. Limit it to lists, or pseudo headings aka things like, 1. **Bold pseudo heading: ** prose...
+- Dont use em dashes. use other punctuation instead or restructure sentences.
+- **Math Formatting**: Always use LaTeX math delimiters (`$...$`) for variables (e.g., `$M(t)$`, `$C(t)$`) to ensure correct rendering by the release script. Avoid mixed formatting like "variable P(t)".
+- no footnotes, just explain in writing
+
+## Content Standards:
+- **Anticipatory**: Pre-empt any misunderstandings or objections before they arise
+- **Balanced**: Include appropriate qualifications while still making strong claims
+- **Rigorous**: Be philosophically precise in all conceptual distinctions
+- **Defensive**: Anticipate reviewer criticism and address it proactively
+- **Minimal Terminology**: Don't introduce unneeded named concepts if it can be avoided
+- **Scholarly**: Use appropriate citations to support claims
+
+
+Be careful to always maintain existing qualifications / defenses, important details, and citations, when revising.
+
+## Defensibility and Clarity Principles:
+These papers will face skeptical peer reviewers. The goal is not to sound impressive but to be logically airtight. A paper succeeds when a hostile reader cannot find an unguarded claim, a missing premise, or a silent overreach. Clarity *is* the defense: if the logical chain is explicit and the scope is honestly stated, most objections answer themselves. Qualifications and regime-indexing are load-bearing precision, not hedging. They make claims harder to attack. The most common failure mode in revision is small wording changes that silently drop a qualification, weaken a caveat, or shift a conditional claim to an unconditional one. Guard against that drift. Reviewers come with priors and will pattern-match the paper to positions they already know (instrumentalism, generic autonomy claims, scientism, etc.). Anticipate those misreadings and head them off explicitly. If a sentence could be read as a familiar position the paper does not hold, clarify the difference right there rather than hoping the reader will figure it out from context.
+
+## Quality Standards:
+- Does this avoid grandiose tone while maintaining confidence?
+- Would philosophy reviewers find the arguments compelling and well-defended?
+- Is every claim as strong as the evidence allows without overreach?
+- Does the writing demonstrate mastery while remaining accessible?
+*   **Crucially, does this revision make the core argument *more* resilient to criticism, or does it open up new, unnecessary lines of attack?**
+
+1.  **No Pseudo-Quantification:** Do not assign specific numbers, percentages, or calculated indices to historical or hypothetical examples (e.g., "P(t) ≈ 5.7" or "a ~38-fold increase"). Such claims create an illusion of precision while introducing empirical fragility. The argument becomes about the number, not the idea.
+2.  **Qualitative over Quantitative Descriptions:** When using examples, describe trends and patterns qualitatively.
+    *   **Weak (Vulnerable):** "Complexity doubled from ~40 to ~80 circles."
+    *   **Strong (Resilient):** "The system's initial elegance gave way to a dramatic escalation in complexity."
+3.  **Frame Examples as "Conceptual Illustrations," Not "Worked Examples" or "Case Studies":** The language used to introduce examples must signal their role as explanatory aids, not empirical evidence. This manages reviewer expectations and keeps the focus on the philosophical framework.
+4.  **Abstract Hypothetical Scenarios:** When creating a hypothetical to explain a protocol or concept, keep it abstract and general. Avoid using specific, politically charged, or overly detailed contemporary examples that could introduce confounding variables and distract the reader.
+5.  **Subordinate Formalism to Philosophy:** When presenting mathematical models or formal logic (e.g., in an appendix), explicitly state that they are *provisional, illustrative candidates* for future research. The paper's philosophical integrity must remain independent of any specific mathematical formulation.
+Primary Goal: The paper's strength is its novel philosophical framework. We must prioritize the clarity, coherence, and logical force of its concepts above all else.
+Conceptual Purity over Empirical Vulnerability: Avoid tying the framework's validity to contestable empirical data, specific numbers, or quasi-quantitative claims. An argument from first principles is more resilient than one resting on preliminary or estimated data.
+Scientific vs. Logical: We are not writing a scientific paper that proves a hypothesis with data. We are writing a philosophical paper that guides the reader down a logical path. The goal is persuasion through reason, not demonstration through measurement.
+Illustrate, Don't "Prove": Examples (historical, hypothetical, etc.) should serve as conceptual illustrations that clarify the meaning of a principle. They are tools for teaching, not data points for proving a claim. Their purpose is to make abstract ideas intuitive.
+
+Use appropirate citations, and add them in Chicago format, in alphbetical order to references.md
+
+Focus on creating work that shows sophisticated philosophical thinking through clear, precise academic prose.
+
+## Editorial Style Guide
+
+See `STYLE_GUIDE.md` for comprehensive editorial guidelines including:
+- The "Adversarial Reviewer" heuristic (write for a skeptical peer reviewer)
+- Logical flow principles (the "Logical Baton Pass" - no teleporting between points)
+- The "No Pseudo-Quantification" rule (avoid assigning specific numbers to examples)
+- Qualitative over quantitative descriptions
+- Framing examples as "conceptual illustrations" not empirical evidence
+- Subordinating formalism to philosophy
+- Clause stacking avoidance (break complex sentences into linear steps)
+- Resilience over novelty (build a fortress, not a billboard)
+
+After every large edit. write a summary of the changes, and explanation behind it. etc in a document in the edits/ directory, and preface the file name with the date YYYY-MM-DD - HH-MM - SUMMARY OF Edits Title
+
+## The Two Closure Papers (read this before touching `real-patterns-need-closure-*`)
+
+There are TWO different papers that share the same file paths. Which one you are editing depends on the git branch. Check `git branch --show-current` first, and ask the user if it is unclear which paper they mean (they may refer to either by title).
+
+1. **Synthese paper: "Operationalizing Screening Off for Rainforest Admission"** (blinded, under submission)
+   - Branch: `revision/rainforest-reframing`.
+   - Thesis: Franklin and Robertson's screening-off-plus-novelty test admits an observational and a modal reading; closure under admissible intervention secures the modal one. Key content: latent-driver proxy countermodel, hidden-feedback case, admissible leakiness $\Lambda^{(L)}_I$, closure profile / evidential grade / commitment verdict.
+   - Build file: `real-patterns-need-closure-SYNTHESE-sn.tex`. Upload file: `real-patterns-need-closure-SYNTHESE-sn-submission.tex`, a GENERATED file. Never hand-edit it; after any change to the main body or `-sn.tex`, run `python scripts/build_blinded_submission.py` (it inlines, blinds, and checks for control characters).
+2. **PhilPapers paper: "Real Patterns Need Closure: Transition Autonomy as a Dynamical Criterion for Macro-Objecthood"** (named, public preprint)
+   - Branch: `master`, with revisions on `revision/objecthood-email`. It is often checked out as a separate worktree at `C:\Users\Patrick\paper-objecthood`.
+   - Thesis: under structural realist and interventionist commitments, closure is SUFFICIENT for macro-objecthood in regime (the fallback is a necessary anti-gerrymandering constraint). It includes a composition paragraph and a common-cause oscillator case.
+   - Build with `real-patterns-need-closure-SYNTHESE-sn.tex`, which carries the author and bibliography. `-sn-full.tex` has NO `\bibliography` line, so its references fail. The abstract lives in the wrapper, not the main body; keep the abstracts in `-sn.tex` and `-sn-full.tex` identical.
+
+Shared by both:
+- Main body source: `latex/real-patterns-need-closure-SYNTHESE-mainbody.tex`.
+- Build folder: `latex/springer-sn-template/sn-article-template/`. Bibliography `real-patterns-need-closure-SYNTHESE.bib`; style `sn-basic.bst`; non-blinded metadata `title-page.tex`.
+
+Rules:
+- NEVER merge or cherry-pick the main body between these branches. To work on the other paper, use `git worktree add` rather than switching branches (tracked build artifacts in the working tree block checkouts).
+- Keep the papers distinct. Do not import Franklin and Robertson, "modal screening off", the latent-driver countermodel, or the profile/grade/verdict split into the PhilPapers paper. Do not import the sufficiency-for-objecthood thesis into the Synthese paper, which presents closure as the dynamical component of objecthood.
+- Clarifications both papers now share, from correspondence with an outside reader. Keep them consistent, and do not contradict them:
+  - "test"/"criterion" is epistemic talk; closure itself is a fact about the system;
+  - regimes are picked out by candidate-neutral physical features (timescales, energy scales, control channels), never defined by where closure holds;
+  - robustness across the admissible class is constitutive of closure, while robustness across nearby regimes and horizons is evidence;
+  - closure concerns whether an autonomous macro-level unit exists, not kind, origin, function, naming, or identity, which are left to complementary accounts (contextual emergence, process ontology, hylomorphism, binding accounts, artifact theories);
+  - one substrate can have several closed partitions (the accidental-hammer illustration);
+  - regime-fixed background and varying inputs are not parasitism;
+  - denying the word "object" while granting the transition facts is a verbal dispute.
+- Unverified citations: Roca-Martín's "Global Challenge" and Beni's object-elimination arguments could not be located. Do not cite them without a real reference from the user.
+
+Legacy file note:
+- `latex/real-patterns-need-closure-SYNTHESE-body.tex`, `real-patterns-need-closure-SYNTHESE-pandoc.tex`, `latex/real-patterns-need-closure-SYNTHESE-main.md`, `real-patterns-need-closure-SYNTHESE.md`, and the `latex/*.bak*` files are stale February exports. Do not use them for submission or new edits unless explicitly requested.
+
+## Revision Workflow That Works Here
+
+- **De-AI / deslop passes:** `pan/AI smells.txt` is the author's checklist (correction rhythm "not X but Y", motto closers, signposting, restatement, repeated stock phrases). Contrasts that pre-empt a specific reviewer misreading (instrumentalism, observer-relativity, circularity, Woodwardian primitivism, eliminativism, "mere restatement") are load-bearing. Keep them, stated once and plainly.
+- **Large passes:** back up the main body to the scratchpad, split it at section boundaries, and revise the chunks in parallel with subagents, each writing a change log that names the qualifications in every changed passage. Reassemble, then ALWAYS:
+  1. run a mechanical invariant check (citation keys and pinpoints, labels, refs, section commands, `\item` counts, inline and display math, brace balance) against the backup;
+  2. run an independent adversarial audit for dropped hedges, strengthened or weakened claims, lost guards, and changed terms of art;
+  3. read the whole result yourself before committing.
+
+  Deslop agents reliably drop words like "robust", "defensible", "not a concession", and "not a human invention", and they turn conditionals into flat claims. The audit is not optional.
+- **Terms of art to preserve verbatim:** explanatory admissibility; robust / qualified / indeterminate; closure profile; evidential grade; high-maintenance; admissible vs observational leakiness; macro-object / objecthood (PhilPapers).
+- **Deliverables:** when asked for a PDF, copy it to `C:\Users\Patrick\Downloads` under a new descriptive name. Do not overwrite the older dated copies there.
+- **Build artifacts:** the `.aux`, `.log`, `.bbl`, `.blg`, and `.pdf` files in the build folder are tracked. Commit the rebuilt ones with the source change.
+
+## Tooling Gotchas On This Machine
+
+- Git Bash heredocs can mangle backslashes in inline Python (e.g. `\ref` becomes a carriage return plus `ef`). Write Python helper scripts with the Write tool, then run them.
+- `grep -P` fails here (locale). Use the Grep tool or Python `re` for regex checks. An empty result from a failed grep is not a pass.
+- MiKTeX prints "you have not checked for MiKTeX updates" on every run. It is harmless.
+- The main-body `.tex` files mix hard-wrapped and long unwrapped lines. Match across line breaks (whitespace-tolerant regex) when scripting replacements, and prefer the Edit tool for single changes.
+
+Use good judgement when integrating specific suggestions. make sure they align with our preferences, and make sense in the paper.
+
+
+ALWAYS FIRST CREATE A DETAILED PLAN / TODO LIST
+
+DONT REPEAT YOURSELF. CHECK FOR KEYWORDS / SECTIONS TO MAKE SURE
+
+WE DONT HAVE TO BE SCIENTIFIC, JUST LOGICAL, HOLD THE reader's hand down the logical path, these are our assumptions, then if this, then this
+
+DONT BE SCARED OF NUANCE AND FALIBILITY
+
+BE HUMBLE, CAVEAT, Use plain language where possible
+
+
+git commit with detailed summary / rational, etc after you've complelted everything. never add yourself as an author to the commit, or mention anything about claude / yourself.
+
+if you have sub-agents. dont be scared of using them
+
+if you have any questions about the specifics of the philosophy, or what we're trying to communicate, dont be scared to ask me.
+
+never add yourself as an author to the paper, or on a git commit.
+
+## Automation Shortcuts
+
+All release, citation, cleanup, reference, and appendix tooling is now orchestrated through the repository justfile. Run just help for an opinionated overview, or just --list to see every recipe along with its parameters. Each command wraps the corresponding script under scripts/ with the defaults that were previously documented here.
+
+### Walkthrough
+
+Here is an outline of the provided papers, their subject matter, and how they interconnect to form a unified philosophical framework called Emergent Pragmatic Coherentism (EPC). These files are very long and you cant read them all at once, try just reading beginning or searching for relevant terms. Make sure you dont turn the other, supporting papers into eachother, they should have clearish boundaries, and reference eachother where needed, and not over-re-hash what has already been written beyond what is needed.
+
+1. The Foundational Framework
+File: final.md (The Architecture of Failure)
+This paper establishes the core theory of Emergent Pragmatic Coherentism (EPC). It proposes that knowledge systems are not validated by static correspondence to reality, but by their ability to minimize "Systemic Brittleness"—a measurable cost of misalignment with reality manifested as ad-hoc patches, coercive overhead, and model complexity.
+Relation: This is the "hub" document. It introduces the primary diagnostic tools (brittleness metrics, the concept of the Negative Canon (what has failed), and the Apex Network (the objective structure of viable solutions). All other papers expand upon specific dimensions of this central thesis.
+
+2. The Mechanism of Truth
+File: from-beliefs-to-truth.md
+This paper details the specific evolutionary mechanism by which a tentative hypothesis transforms into a foundational truth. It outlines a "five-stage progression" where a belief migrates from the periphery of a network to its core, eventually becoming a Standing Predicate—a tool used to test other claims. It boldly argues that even Logic itself is not a metaphysical prior, but a Standing Predicate that achieved core status through maximal historical validation.
+Relation: It expands on the "functional transformation" concept introduced in final.md. While final.md describes how to measure the health of a system, this paper explains the lifecycle of the specific concepts (predicates) within that system.
+
+3. The Cognitive and Physical Basis
+File: Computational-Closure-and-the-Architecture-of-Mind.md
+File: notion-appendix.md
+These papers provide the naturalistic, information-theoretic grounding for the epistemology. They argue that "Standing Predicates" are linguistically encoded Markov Blankets—statistical boundaries that compress complex environmental data into manageable variables, achieving Computational Closure. The appendix details how vague "notions" crystallize into explicit beliefs through this compression process.
+Relation: These documents bridge the gap between thermodynamics and epistemology. They explain why the brittleness metrics in final.md exist: brittleness is fundamentally "information leakage" (prediction error) in a physical system trying to minimize free energy.
+
+4. The Metaphysical Status
+File: ontology-and-metaphysics-whats-real.md
+This paper addresses the ontological status of the "Apex Network" (the ultimate structure of truth). It argues for Naturalized Structural Realism, positing that the Apex Network is "real" in the same way the number pi is real: it is not a physical object, but a necessary, constraint-determined structure that any viable system must eventually discover.
+Relation: This serves as the philosophical defense of the framework against charges of relativism. It clarifies that while final.md focuses on the process of discovery (history/pragmatism), the structure being discovered is objective and mind-independent.
+
+5. The Ethical Application
+File: proc_v7.md (A Procedural and Naturalistic Model of Moral Objectivity)
+This paper applies the EPC framework specifically to metaethics. It introduces Pragmatic Procedural Realism, arguing that moral truths (like "slavery is wrong") are discovered empirically through the failure of systems that try to violate them. It uses the brittleness metrics to show that immoral systems (like totalitarians or slave states) inevitably collapse due to high "coercive overhead" and information suppression.
+Relation: This is a domain-specific application of the general theory found in final.md. It demonstrates that the same "Negative Canon" and "brittleness" diagnostics used for scientific theories can be rigorously applied to moral history to establish objective ethical truths.
+
+## Project Layout Notes
+
+- `final.md`, `from-beliefs-to-truth.md`, `proc_v7.md`, `The Reality of Wholes.md`, etc., are the current EPC manuscripts. **Ignore `paper.md`; it is an outdated draft kept only for reference.**
+- For `real-patterns-need-closure`, the primary prose source is `latex/real-patterns-need-closure-SYNTHESE-mainbody.tex`, but its content depends on the branch (see "The Two Closure Papers" above).
+- Build and submission files for both closure papers are under `latex/springer-sn-template/sn-article-template/`. The same folder also holds `overdrawing-on-experience-sn.tex` (the panpsychism / Goff paper).
+- `real-patterns-as-closure.md` draft on closure/lumpabilty
+- For `real-patterns-as-closure.md`, release via `python scripts/release.py real-patterns-as-closure.md --format typst --output releases/real-patterns-as-closure.pdf`. Citation parser is sensitive to grouped parentheticals, so prefer parser-safe author-year citations in separate parentheses when needed.
+- `pan/` contains the panpsychism paper materials: `pan/pan_notes.txt` is the working notes dump, and `pan/pan_plan.txt` is the current plan for developing those notes into a LaTeX philosophy paper.
+- `references.md` stores the Chicago-style bibliography. Append new citations alphabetically and mirror existing formatting exactly.
+- `edits/` houses mandatory timestamped summaries (`YYYY-MM-DD - HH-MM - SUMMARY ...`) after substantial work. 
+- `sources/`, `random/`, `physics/`, `old/`, and `backups/` contain supporting material or archives. Treat them as read-only unless the user explicitly instructs otherwise. You can search them for background info or keywords if you need to. Just make sure to verify the information is correct/up-to-date before using it.
+- `scripts/` and the root `justfile` mediate automation (release prep, citation checks, appendices). Run `just --list` before inventing bespoke tooling. Read the justfile for more info.
+- For Synthese Springer LaTeX builds on this machine, prefer: `"C:\Users\Patrick\scoop\apps\latex\current\texmfs\install\miktex\bin\x64\pdflatex.exe" -interaction=nonstopmode -halt-on-error real-patterns-need-closure-SYNTHESE-sn.tex` (from `latex/springer-sn-template/sn-article-template`). The default `miktex` on `PATH` can fail with format/package inconsistencies.
+- BibTeX workflow for the Synthese files: run `pdflatex -> bibtex -> pdflatex -> pdflatex` in `latex/springer-sn-template/sn-article-template`. Call `bibtex.exe` from the same MiKTeX `bin\x64` folder. After building, check the `.log` for `undefined` and the `.blg` for `Warning--` or "no \bibdata".
+- Keep the manuscript double-anonymized. Put identifying metadata, acknowledgements, funding, and declarations on the separate `title-page.tex` for submission metadata.
+- For blinded upload, use `real-patterns-need-closure-SYNTHESE-sn-submission.tex` plus required supporting source files (`.bib`, `.cls`, `.bst`) and its compiled PDF.
+- `releases/` captures deliverables; `backups/` mirrors snapshots. Do not hand-edit files there.
+- `CLAUDE.md` mirrors `AGENTS.md`. Keep any structural instructions consistent between them when possible.
+
+## Knowledge Modules: The Reality of Wholes Corpus
+
+1. **The Reality of Wholes.md**. Full technical argument against mereological nihilism. Key takeaways to keep consistent:
+   - Reality is graded by **Causal Autonomy**: macro-entities become real once their $\varepsilon$-machine matches their $\upsilon$-machine, so microstate detail adds no predictive power. Link every use of "real" to this closure test rather than loose intuitions.
+   - Macro boundaries are **constraint-determined** consequences of causality, locality, information limits, and thermodynamic costs. Emphasize that Markov blankets and strong lumpability make boundary formation inevitable, not merely convenient.
+   - Maintain the layered criteria (Invariance, Physicality, Substrate Proximity, Causal Autonomy) but privilege causal autonomy when adjudicating disputes about objecthood. Clarify early that the view is structural realist, not task-relative or instrumentalist.
+   - Pre-empt nihilist objections (causal exclusion, overdetermination) by stressing that interventionist causal power is what matters: when macro-level interventions succeed across perturbations, the macro description earns ontic status even if micro-physics remains complete.
+   - Leakiness is measurable as algorithmic complexity influx. Remind readers that closure is a gradient, but the gradient is objective and tied to thermodynamic survival pressures rather than modeling preferences.
+
+2. **The Reality of Wholes - magazine.md**. Accessible exposition and illustration bank. Use it to:
+   - Deploy intuitive illustrations (atrial fibrillation, traffic jams, Shoe-Moon vs hurricane compression, trumpet-light thought experiment) when the main paper needs a quick conceptual hook without adding jargon.
+   - Highlight the **Two-Level Test**: compare best micro-level and macro-level predictions to show when macro descriptions are self-sufficient. This frames closure tests in plain language for audiences outside computational mechanics.
+   - Reinforce the descriptive compression argument: wholes earn ontological status when the description of the whole radically shortens relative to enumerating parts. Keep the contrast with gerrymandered aggregates clear.
+   - Bring in the discussion of **dimensional closure** (legal, culinary, narrative domains) to show how EPC handles social or abstract objects without collapsing into relativism. Stress that each dimension has its own constraint structure that forces convergence.
+
+3. **Appendix-Category-Theory.md**. Formal backing for the wholes paper. Main points to preserve when invoking it:
+   - The lattice of coarse-grainings forms the category $\mathcal{C}_{pred}$; only coarse-grainings satisfying the Markov property count as objects, so "real patterns" are precisely the nodes admitted by the category.
+   - Causal Closure translates into functorial properties: faithful coarse-graining functors preserve distinct causal morphisms, so reality claims turn on whether the macro functor forgets intervention-relevant structure.
+   - Wholes correspond to **Initial Objects** in the subcategory of causally closed, low-complexity models. Any alternative adequate model factors uniquely through the whole, explaining convergence across investigators.
+   - Reductionist "forgetful" functors back to the micro level are not full or faithful, which is why purely micro descriptions fail to recover the counterfactual structure that makes wholes action-guiding.
+   - Keep the tripartite invariance distinction (constitutive constraints, covariant rules, convergent wholes) when mapping EPC claims into formal language, so readers see how constraints generate both the admissible morphisms and the inevitable objects.
+
+4. **toe.md**. Informational-constraint account of gravity, spacetime, and quantum behavior that dovetails with EPC's realism claims.
+   - Treat gravity as a statistical tendency driven by informational cost gradients; use this when linking macro-level autonomy to thermodynamic selection pressures.
+   - Remember spatial distance is reinterpreted as operational cost. Keep references qualitative and highlight how constraint geometry, not fundamental forces, drives behavior.
+   - Quantum states are epistemic summaries constrained by causal graphs. Use this framing to connect EPC's standing predicates to active inference and free-energy arguments without claiming predictive closure the framework does not supply.
+   - When referencing entanglement or lazy evaluation metaphors, emphasize structural adjacency in the causal graph and respect the stated empirical limitations (e.g., dependence on continued null dark matter results).
+
+5. **STYLE_GUIDE.md**. Detailed editorial heuristics that enforce resilience-first prose.
+   - Follow the "Adversarial Reviewer" mindset, linear baton-passing, and clause-stacking bans to keep arguments defensible.
+   - Obey the strict "No Pseudo-Quantification" rule, limited boldface, no em dashes, and LaTeX-only math variables to satisfy script requirements.
+   - Use the checklist phases (logical integrity, clarity, flow, rhetorical resilience, tone, redundancy, mechanics) when validating revisions; cite them explicitly in edit notes if you lean on a specific policy.
+   - Keep the "illustration not evidence" rule in mind whenever adding examples, and avoid introducing new capitalized terminology unless absolutely unavoidable.
+6. **proc_v7.md (Pragmatic Procedural Realism)**. Metaethical deployment of EPC that we must preserve when discussing normative claims.
+   - Moral objectivity is modeled as **systemic debugging**: predicates enter the Negative Canon when their brittleness metrics (bio-social costs, Coercion Ratio $C(t)$, Patch Velocity $P(t)$) show sustained failure. Emphasize cost-tier hierarchy and triangulation (comparative, diachronic, biological baselines).
+   - Keep the replicator/interactor distinction clear: norms persist as informational templates even when particular societies fail. Reference this when analyzing historical cycles (e.g., Confucian bureaucracy) to avoid overclaiming collapse.
+   - When invoking diagnostics, specify that predictions are probabilistic, timescale-calibrated, and that external vulnerability or transition costs can topple even low-brittleness systems. Use this to pre-empt "viable evil" objections.
+   - Remember this paper stakes empirical bets (continued null dark-matter analog would be low C(t) system?). For ethics, stress that EPC applies the same pragmatic filter as science, while acknowledging limits (framework maps viability, not every moral intuition).
