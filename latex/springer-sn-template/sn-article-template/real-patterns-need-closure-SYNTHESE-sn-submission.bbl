@@ -1,4 +1,4 @@
-\begin{thebibliography}{29}
+\begin{thebibliography}{35}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -9,6 +9,11 @@
 \bibitem[{Ando and Simon(1961)}]{ando1961}
 Ando A, Simon HA (1961) Aggregation of variables in dynamic systems.
   Econometrica 29(2):111--138. \doi{10.2307/1909285}
+
+\bibitem[{Bishop and Atmanspacher(2006)}]{bishopatmanspacher2006}
+Bishop RC, Atmanspacher H (2006) Contextual emergence in the description of
+  properties. Foundations of Physics 36(12):1753--1777.
+  \doi{10.1007/s10701-006-9082-8}
 
 \bibitem[{Boyd(1991)}]{boyd1991}
 Boyd R (1991) Realism, anti-foundationalism and the enthusiasm for natural
@@ -33,10 +38,19 @@ Dewhurst J (2021) Causal emergence from effective information: Neither causal
   nor emergent? Thought: A Journal of Philosophy 10(3):158--168.
   \doi{10.1002/tht3.489}
 
+\bibitem[{Dupr{\'e} and Nicholson(2018)}]{dupre2018}
+Dupr{\'e} J, Nicholson DJ (2018) A manifesto for a processual philosophy of
+  biology. In: Nicholson DJ, Dupr{\'e} J (eds) Everything Flows: Towards a
+  Processual Philosophy of Biology. Oxford University Press, Oxford, p 3--45
+
 \bibitem[{Franklin and Robertson(2024)}]{franklinrobertson2024}
 Franklin A, Robertson K (2024) Emerging into the rainforest: Emergence and
   special science ontology. European Journal for Philosophy of Science
   14(4):61. \doi{10.1007/s13194-024-00622-4}
+
+\bibitem[{French(2014)}]{french2014}
+French S (2014) The Structure of the World: Metaphysics and Representation.
+  Oxford University Press, Oxford
 
 \bibitem[{Goodman(1983)}]{goodman1955}
 Goodman N (1983) Fact, Fiction, and Forecast, 4th edn. Harvard University
@@ -51,6 +65,13 @@ Haugeland J (1998) Having Thought: Essays in the Metaphysics of Mind. Harvard
 Hoel EP, Albantakis L, Tononi G (2013) Quantifying causal emergence shows that
   macro can beat micro. Proceedings of the National Academy of Sciences
   110(49):19790--19795. \doi{10.1073/pnas.1314922110}
+
+\bibitem[{van Inwagen(1990)}]{vaninwagen1990}
+van Inwagen P (1990) Material Beings. Cornell University Press, Ithaca, NY
+
+\bibitem[{Jaworski(2016)}]{jaworski2016}
+Jaworski W (2016) Structure and the Metaphysics of Mind: How Hylomorphism
+  Solves the Mind-Body Problem. Oxford University Press, Oxford
 
 \bibitem[{Jiang(2024)}]{jiang2024}
 Jiang Y (2024) The metaphysics of mechanisms: An ontic structural realist
@@ -113,6 +134,11 @@ Shalizi CR, Crutchfield JP (2001) Computational mechanics: Pattern and
 \bibitem[{Simon(1962)}]{simon1962}
 Simon HA (1962) The architecture of complexity. Proceedings of the American
   Philosophical Society 106(6):467--482. \doi{10.2307/985254}
+
+\bibitem[{Thomasson(2007)}]{thomasson2007}
+Thomasson AL (2007) Artifacts and human concepts. In: Margolis E, Laurence S
+  (eds) Creations of the Mind: Theories of Artifacts and Their Representation.
+  Oxford University Press, Oxford, p 52--73
 
 \bibitem[{Wallace(2024)}]{wallace2024}
 Wallace D (2024) Real patterns in physics and beyond.
