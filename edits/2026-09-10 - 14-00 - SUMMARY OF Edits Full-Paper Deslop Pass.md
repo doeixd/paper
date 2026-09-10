@@ -47,3 +47,15 @@ Remove "AI smell" from the whole paper, following `pan/AI smells.txt` and `STYLE
 - No em dashes, no stray control characters.
 - Both `-sn.tex` and `-sn-submission.tex` compile (pdflatex, bibtex, pdflatex twice) with no undefined references or citations.
 - The paper went from 2470 to about 2420 lines. The reduction is repetition and signposting; no argument was removed.
+
+## Final check (full read-through)
+
+Read the whole revised main body end to end. Arguments, qualifications, and formal content are intact. Small fixes:
+- "established that it is is" in the verdict section is now "shown that it is autonomous".
+- Replaced the dangling "as intended" in the regime section with a full clause.
+- Split the ambiguous "which" in the cheap-coding reply into two sentences.
+- The conclusion stated the three-claims structure twice. The second statement is cut, and its programmatic structured-space sentences are kept.
+- The conclusion's first paragraph now cites both commitment sections (§1.2 and §2.10).
+- "stated" is now "declared" constraints in the conclusion's non-redundancy sentence.
+
+Checks: no em dashes, no footnotes, and no identifying names in the blinded file. Both builds compile to 42 pages with no undefined references, citation warnings, or errors.
