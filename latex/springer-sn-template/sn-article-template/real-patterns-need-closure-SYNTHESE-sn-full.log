@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  27 FEB 2026 09:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  10 SEP 2026 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -798,35 +798,52 @@ Package natbib Warning: Citation `kim1998' on page 3 undefined on input line 11
 9.
 
 
-Package natbib Warning: Citation `gladziejewski2025' on page 3 undefined on inp
-ut line 130.
+Package natbib Warning: Citation `simon1962' on page 3 undefined on input line 
+130.
+
+
+Package natbib Warning: Citation `ando1961' on page 3 undefined on input line 1
+30.
+
+
+Package natbib Warning: Citation `wimsatt2000' on page 3 undefined on input lin
+e 140.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
 
-Package natbib Warning: Citation `ladyman2007' on page 4 undefined on input lin
-e 178.
+Package natbib Warning: Citation `machamer2000' on page 4 undefined on input li
+ne 151.
+
+
+Package natbib Warning: Citation `craver2007' on page 4 undefined on input line
+ 151.
+
+
+Package natbib Warning: Citation `gladziejewski2025' on page 4 undefined on inp
+ut line 158.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
+
+Package natbib Warning: Citation `ladyman2007' on page 5 undefined on input lin
+e 206.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
 
 Package natbib Warning: Citation `dennett1991' on page 6 undefined on input lin
-e 293.
+e 321.
 
 
 Package natbib Warning: Citation `ladyman2007' on page 6 undefined on input lin
-e 296.
-
-
-Package natbib Warning: Citation `haugeland1998' on page 6 undefined on input l
-ine 304.
+e 324.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -835,32 +852,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 /lm-mathit.enc}{C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/
 enc/dvips/lm/lm-rm.enc}]
 
+Package natbib Warning: Citation `haugeland1998' on page 7 undefined on input l
+ine 332.
+
+
 Package natbib Warning: Citation `woodward2015' on page 7 undefined on input li
-ne 347.
+ne 375.
 
 
 Package natbib Warning: Citation `woodward2021' on page 7 undefined on input li
-ne 347.
+ne 375.
 
 
 Package natbib Warning: Citation `pearl2000' on page 7 undefined on input line 
-363.
+391.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-
-Package natbib Warning: Citation `goodman1955' on page 8 undefined on input lin
-e 451.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
 
+Package natbib Warning: Citation `goodman1955' on page 9 undefined on input lin
+e 479.
+
+
 Package natbib Warning: Citation `vaninwagen1990' on page 9 undefined on input 
-line 478.
+line 506.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -872,51 +892,59 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 m/lm-mathsy.enc}]
 
 Package natbib Warning: Citation `woodward2015' on page 11 undefined on input l
-ine 583.
-
-
-Package natbib Warning: Citation `pearl2000' on page 11 undefined on input line
- 616.
-
-
-Package natbib Warning: Citation `ainsworth2009' on page 11 undefined on input 
-line 634.
+ine 611.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
+
+Package natbib Warning: Citation `pearl2000' on page 12 undefined on input line
+ 644.
+
+
+Package natbib Warning: Citation `machamer2000' on page 12 undefined on input l
+ine 662.
+
+
+Package natbib Warning: Citation `craver2007' on page 12 undefined on input lin
+e 662.
+
+
+Package natbib Warning: Citation `ainsworth2009' on page 12 undefined on input 
+line 671.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-
-Package natbib Warning: Citation `kemeny1960' on page 13 undefined on input lin
-e 760.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13{C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/l
-m/lm-mathex.enc}]
+ [13]
+
+Package natbib Warning: Citation `kemeny1960' on page 14 undefined on input lin
+e 785.
+
 
 Package natbib Warning: Citation `shalizi2001' on page 14 undefined on input li
-ne 790.
+ne 815.
 
 
 Package natbib Warning: Citation `rosas2024' on page 14 undefined on input line
- 790.
+ 815.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [14{C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/enc/dvips/l
+m/lm-mathex.enc}]
 
 Package natbib Warning: Citation `shalizi2001' on page 15 undefined on input li
-ne 869.
+ne 894.
 
 
 Package natbib Warning: Citation `rosas2024' on page 15 undefined on input line
- 876.
+ 901.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -924,27 +952,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [15]
 
 Package natbib Warning: Citation `hoel2013' on page 16 undefined on input line 
-933.
+958.
 
 
 Package natbib Warning: Citation `dewhurst2021' on page 16 undefined on input l
-ine 933.
-
-
-Package natbib Warning: Citation `ando1961' on page 16 undefined on input line 
-959.
+ine 958.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
 
+Package natbib Warning: Citation `simon1962' on page 17 undefined on input line
+ 985.
+
+
+Package natbib Warning: Citation `ando1961' on page 17 undefined on input line 
+985.
+
+
 Package natbib Warning: Citation `cover2006' on page 17 undefined on input line
- 983.
+ 1009.
 
 
 Package natbib Warning: Citation `landauer1961' on page 17 undefined on input l
-ine 989.
+ine 1015.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -954,20 +986,28 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
 
-Package natbib Warning: Citation `ladyman2007' on page 19 undefined on input li
-ne 1121.
+Package natbib Warning: Citation `wimsatt1981' on page 19 undefined on input li
+ne 1113.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
+
+Package natbib Warning: Citation `ladyman2007' on page 20 undefined on input li
+ne 1156.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-Underfull \hbox (badness 6236) in paragraph at lines 1337--1341
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \hbox (badness 6236) in paragraph at lines 1372--1376
 []\T1/lmr/m/n/10.03749 Diagnostics: pre-dic-tive gain from within-class micro-f
 ea-tures, within-class
  []
@@ -975,75 +1015,79 @@ ea-tures, within-class
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [23]
-
-Package natbib Warning: Citation `dennett1991' on page 24 undefined on input li
-ne 1482.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
 
-Package natbib Warning: Citation `kim1998' on page 25 undefined on input line 1
-529.
+Package natbib Warning: Citation `dennett1991' on page 25 undefined on input li
+ne 1516.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25]
 
+Package natbib Warning: Citation `kim1998' on page 26 undefined on input line 1
+563.
+
+
 Package natbib Warning: Citation `dewhurst2021' on page 26 undefined on input l
-ine 1554.
+ine 1588.
 
 
 Package natbib Warning: Citation `woodward2003' on page 26 undefined on input l
-ine 1559.
+ine 1593.
 
 
 Package natbib Warning: Citation `pearl2000' on page 26 undefined on input line
- 1559.
+ 1593.
 
 
 Package natbib Warning: Citation `hoel2013' on page 26 undefined on input line 
-1559.
+1593.
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 1552--1562
+Underfull \hbox (badness 1097) in paragraph at lines 1586--1596
 []\T1/lmr/m/n/10.03749 This reply also han-dles the fat-handedness worry that m
 acro-interventions
  []
 
 
 Package natbib Warning: Citation `kim1998' on page 26 undefined on input line 1
-571.
+605.
 
 
 Package natbib Warning: Citation `kim2005' on page 26 undefined on input line 1
-571.
-
-
-Package natbib Warning: Citation `hoel2013' on page 26 undefined on input line 
-1602.
+605.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
 
+Package natbib Warning: Citation `hoel2013' on page 27 undefined on input line 
+1636.
+
+
+Package natbib Warning: Citation `machamer2000' on page 27 undefined on input l
+ine 1641.
+
+
+Package natbib Warning: Citation `craver2007' on page 27 undefined on input lin
+e 1641.
+
+
 Package natbib Warning: Citation `putnam1967' on page 27 undefined on input lin
-e 1616.
+e 1659.
 
 
 Package natbib Warning: Citation `fodor1974' on page 27 undefined on input line
- 1616.
+ 1659.
 
 
 Package natbib Warning: Citation `shapiro2000' on page 27 undefined on input li
-ne 1634.
+ne 1677.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1055,45 +1099,44 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
-
-Package natbib Warning: Citation `woodward2021' on page 30 undefined on input l
-ine 1819.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30])
+ [30]
+
+Package natbib Warning: Citation `woodward2021' on page 31 undefined on input l
+ine 1860.
+
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
 
 Package natbib Warning: There were undefined citations.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
+ [33]
 (real-patterns-need-closure-SYNTHESE-sn-full.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `real-patterns-need-closure-SYNTHESE-sn-full.
 out' has not changed.
 (rerunfilecheck)             Checksum: 5365A6B0238411070E99355B5494D202;11236.
  ) 
 Here is how much of TeX's memory you used:
- 12624 strings out of 474486
- 199401 string characters out of 5738073
+ 12622 strings out of 474486
+ 199486 string characters out of 5738073
  1935542 words of memory out of 5000000
  34544 multiletter control sequences out of 15000+600000
  644359 words of font info for 99 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,8n,93p,1284b,559s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,8n,93p,1284b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/
 lm/lmbx10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/t
 ype1/public/lm/lmbx12.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/ins
@@ -1114,10 +1157,10 @@ C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/lm/
 lmri10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type
 1/public/lm/lmsy10.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/instal
 l/fonts/type1/public/lm/lmsy7.pfb>
-Output written on real-patterns-need-closure-SYNTHESE-sn-full.pdf (32 pages, 47
-0510 bytes).
+Output written on real-patterns-need-closure-SYNTHESE-sn-full.pdf (33 pages, 47
+2328 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 134 named destinations out of 1000 (max. 500000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 132 named destinations out of 1000 (max. 500000)
  361 words of extra memory for PDF output out of 10000 (max. 10000000)
 
