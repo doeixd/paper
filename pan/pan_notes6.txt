@@ -1,0 +1,56 @@
+I would still revise four things.
+
+First, the Applications to Panpsychist Views section is probably still too long. It is useful, but it risks becoming the paper’s center of gravity. Your main argument is not about Strawson, Goff, Mørch, Roelofs, or Ramm individually; they are illustrations of a warrant pattern. I would keep Strawson and Goff in the main text, maybe Roelofs because the constitution/acquaintance reply is important, and move Mørch/Ramm into footnotes unless you want to engage them more deeply.
+
+Second, the transparency paragraph in “The Datum” may be more distracting than helpful. The point about perceptual introspection passing through experience to its objects is interesting, but it introduces another debate. Unless transparency becomes important later, I would either cut it or turn it into a footnote. The datum section is strongest when it stays simple: experience gives consciousness and phenomenal character, not metaphysical status.
+
+Third, the target phrase could be tightened slightly. You write that the target is any view whose case depends “even partly” on the special epistemic status of consciousness. That might sound too broad, because almost every theory of consciousness gives some weight to first-person evidence. Maybe say:
+
+The target is first-person-motivated panpsychism: any version of the view whose case for hidden phenomenal ontology depends not merely on consciousness as an explanandum, but on the special first-person warrant consciousness is thought to possess.
+
+That avoids accidentally targeting any view that simply takes consciousness seriously.
+
+Fourth, the cosmopsychism paragraph is good, but the line that boundedness and valence are not “delivered by a unified cosmic experiencer” may invite unnecessary resistance. A cosmopsychist will say they are delivered through localization, partition, dissociation, or derivation. Your better point is epistemic:
+
+Those features may be modeled by a cosmopsychist theory, but they are not disclosed by acquaintance with local experience as features of a cosmic subject.
+
+That keeps the pressure exactly where you want it: warrant, not coherence.
+
+The conclusion is now excellent. The final three sentences are very strong:
+
+Panpsychism can still be defended, but not as the view whose metaphysical base is already given in experience. Once it moves from acquaintance with phenomenal character to claims about fundamental role, it has moved from acquaintance to theory. Its advantage over rival views must be earned, not inherited.
+
+That should remain the ending. It captures the whole paper.
+
+My overall judgment: this version has crossed from “promising draft” into “genuinely coherent article draft.” The main work left is compression and guarding against side debates. Keep the paper centered on one claim: first-person acquaintance gives phenomenal character, not fundamental role. Everything else should either support that claim or go to a footnote.
+
+
+The main tells are:
+
+Very even paragraph rhythm. Nearly every paragraph proceeds by concession, distinction, qualification, conclusion. That is philosophically respectable, but the uniformity can feel machine-polished.
+Repeated hinge formulas. Phrases like “that concession matters,” “the point is,” “the worry is,” “the same limit,” “the same caution,” “the pressure point,” and “the burden shifts” give the paper a slightly templated argumentative cadence.
+High density of balanced qualifications. The paper is extremely careful: “may,” “need not,” “can be granted,” “does not require,” “leaves open,” “if successful,” “to that extent,” “not a defeat.” That is good philosophy, but too much of it can sound generated or over-neutralized.
+Too little idiosyncratic authorial pressure. The argument is yours, but the voice often sounds like a very competent referee report or encyclopedia-style article. It rarely has moments of compression, impatience, surprise, or pointedness.
+Repetition of the core schema. The paper keeps returning to: first-person datum real; hidden phenomenal structure theoretical; warrant must be earned. That is the right thesis, but repeated in the same grammatical shape it can start to feel AI-like. The introduction and conclusion make the schema very clearly.
+
+The easiest way to make it feel more human is not to add slang or loosen the prose. It is to add more intellectual texture: sharper transitions, a few more decisive sentences, and fewer safety-clauses.
+
+For example, this is clean but slightly AI-smooth:
+
+The worry is that, even inside this abduction, the first-person datum can be made to carry more weight than the abduction earns.
+
+A more human, sharper version:
+
+The danger is that the abduction continues to trade on a privilege it has already spent.
+
+Or:
+
+At that point the argument has changed currencies: it began with acquaintance, but it is now paying in theory.
+
+Likewise, the conclusion is strong, but very polished. This sentence is excellent:
+
+Its advantage over rival views must be earned, not inherited.
+
+That kind of line gives the paper human force. I would add a few more sentences with that kind of snap.
+
+I would also cut some repeated “responsible philosopher” scaffolding. For instance, in the burden-shift section, the paper repeatedly says that it does not solve the hard problem, does not refute panpsychism, does not vindicate physicalism, leaves metaphysics open, and grants the panpsychist distinction. All true, but too many disclaimers can make the prose feel automated. The section already says the relevant posits need explanatory work and that the second gap remains open. You can trust the reader a little more.

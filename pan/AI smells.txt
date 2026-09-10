@@ -1,0 +1,62 @@
+AI smells:
+
+Summarizing instead of saying something
+Talking around the issue instead of making the point
+Explaining the frame before giving the claim
+Announcing what the paragraph is about to do
+Writing bridge sentences whose only job is to move to the next section
+Saying “the question is,” “the answer is,” or “the result is” before actually making the argument
+The model talking to itself on the page
+Narrowing itself as it writes, like it is discovering the point sentence by sentence
+Signposting every turn instead of trusting structure to carry the reader
+Spoon-feeding the reader every implication
+Over-explaining what a human reader could infer
+Treating the reader like they need constant handrails
+Using “this matters because” when the sentence itself should make that obvious
+Motto-making
+Being too cute with tidy little closers
+Ending paragraphs with fake-deep lines that sound written for the closer position
+Turning claims into slogans
+Using aphorisms where plain speech would be stronger
+Repeating the same phrase throughout because the draft does not seem to remember itself
+Reusing the same sentence shape again and again
+Writing sentences with suspiciously similar word counts
+Writing paragraphs with suspiciously similar word counts
+Making every paragraph the same size and rhythm
+Creating a metronome effect: medium sentence, medium sentence, medium sentence
+Stacking short factual sentences with no lived rhythm
+Using polished transitions that add no thought
+Saying “moreover,” “furthermore,” or “however” when a normal human would just keep going
+Starting broad and vague before getting specific
+Opening with “as the landscape evolves” energy
+Using abstract nouns instead of names, places, numbers, or examples
+Avoiding a direct position
+Hedging until the claim has no teeth
+Using vague attribution like “some critics argue” or “observers note”
+Balancing both sides so hard that the piece loses a point of view
+Replacing heat with safe, consensus-middle language
+Sounding like a keynote instead of a person
+Sounding like a textbook instead of a smart friend
+Using “not just X, but Y” structures
+Overusing colons
+Overusing em dashes
+Using bold-label bullets where the explanation merely restates the label
+Leaning on hype words like “unlock,” “transform,” “leverage,” “seamless,” or “robust”
+Using brochure language like “rich cultural heritage,” “breathtaking,” or “stands as a testament”
+Performing sincerity with phrases like “honestly,” “genuinely,” or “it’s important to note”
+Closing sections with decorative capping phrases instead of substantive points
+Making the prose too tidy
+Making every turn feel resolved
+Sanding off the author’s weirdness, heat, repetition, or rhythm
+Translating vivid source-note language into neutral corporate prose
+Failing to preserve the writer’s recurring mannerisms
+Staying abstract for too long without a concrete example
+Explaining the moral before showing the mechanism
+Moralizing instead of diagnosing
+Writing like it wants approval from everyone
+Producing a vanilla, hollowed-out vibe
+Negation structures are a major AI smell: “not just X, but Y,” “isn’t merely X,” “no longer X, but Y,” “less about X than Y.”
+Subtle versions count too: “on paper X, in reality Y,” “the promise is X, the result is Y,” “what looks like X is really Y.”
+The smell is the correction rhythm: the prose keeps denying one idea, then revealing the “real” idea.
+It can make simple claims sound fake-profound: every sentence becomes a reframe, pivot, or miniature TED Talk line.
+A big issue is that of restatement, or announcement. 

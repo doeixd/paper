@@ -1,0 +1,292 @@
+The main weakness is that the target sometimes risks becoming slippery. The paper says careful panpsychists do not usually claim that first-person experience alone proves panpsychism; they argue abductively. But once that concession is made, the central charge becomes: panpsychists rhetorically draw more force from first-person privilege than their official arguments justify. I think that is true, but it is harder to prove. The paper would be stronger if it gave one or two very close readings where a named author actually performs that warrant transfer, rather than relying mostly on a general dialectical pattern.
+
+A second issue: the paper sometimes says that if organization explains much of ordinary consciousness, then the hidden phenomenal base has less explanatory work left to do. That is promising, but a panpsychist can reply: “Exactly; organization explains structure, unity, reportability, and temporal grain, while the phenomenal base explains why there is anything it is like at all.” The paper anticipates this, but I would sharpen the response. The real challenge is not merely “what does the base explain?” but “what does its being phenomenal explain that a non-phenomenal categorical base could not?”
+
+A third revision point: the paper could emphasize its positive upshot earlier. It is not saying “first-person evidence is weak.” It is saying first-person evidence is strong but local. That phrase, or something like it, could become the guiding formulation.
+
+
+Here is a critical, academic review of the paper “Overdrawing on Experience: Panpsychism and the Limits of First-Person Warrant.”
+Overview
+This paper offers a surgical, epistemic critique of contemporary panpsychism. In recent years, panpsychism has gained immense traction in the philosophy of mind, largely propelled by a rhetorical and epistemic appeal: unlike physicalism, which struggles to explain consciousness from the "outside," panpsychism takes the first-person "inside" view of consciousness seriously.
+The author of this paper does not attempt to prove that panpsychism is metaphysically false. Instead, they target the justification for the theory. By introducing the Introspective Warrant Constraint (IWC), the author argues that panpsychists illegitimately take the absolute certainty we have about our own ordinary, macro-level experiences and transfer that certainty to highly theoretical, hidden entities—such as "micro-experience," "cosmic subjectivity," or "proto-phenomenal properties." Ultimately, the paper concludes that once panpsychism posits these hidden entities, it loses its special "first-person privilege" and must compete as a standard abductive theory (inference to the best explanation) alongside physicalism and dualism.
+Strengths of the Paper
+1. Dialectical Modesty and Precision:
+The paper is remarkably disciplined. The author explicitly brackets off arguments about the "explanatory gap" or the "impossibility of radical emergence." By refusing to defend physicalism or illusionism, the author avoids taking on unnecessary theoretical baggage. This makes the core critique—that panpsychists are conflating the datum of consciousness with the ontology of consciousness—incredibly difficult for a panpsychist to deflect.
+2. The Dilemma of "Bare Subjectivity":
+One of the most potent arguments in the paper is the dismantling of "minimal" or "proto" experience. Panpsychists often strip away human traits (like memory or complex thought) to make particle-consciousness plausible. The author traps the panpsychist in a dilemma: If this "proto-experience" retains phenomenal character, it is not what we introspect. If it lacks all phenomenal character, it is no longer the "consciousness" that serves as the foundation of their argument.
+3. Masterful Handling of the "Meditation" Counter-argument:
+The author anticipates the strongest objection to their view: reports of "pure awareness" from meditative states (e.g., nirodha samapatti). The author’s rebuttal is brilliant in its simplicity. To be used as philosophical evidence, a meditative state must be remembered and reported. If it is remembered, it possesses temporal grain and a minimal "for-me-ness" (thus, it is structured, not "bare"). If it truly lacks all structure, it cannot be reliably reported. Therefore, "pure awareness" cannot serve as an introspective bridge to cosmic or micro-level panpsychism.
+4. Re-framing the Combination Problem:
+The author makes a devastating point regarding the "Combination Problem" (how micro-minds combine into macro-minds). If a panpsychist argues that biological organization is what combines micro-experiences into human consciousness, the author rightly asks: What unique work is the micro-experience doing? If organization does the heavy lifting of creating structured human thought, panpsychism owes an explanation as to why that same organization couldn't just produce consciousness out of non-conscious matter (as standard physicalism claims).
+Weaknesses and Areas for Pushback
+While the paper is highly effective, a defender of panpsychism could push back on a few fronts:
+1. Does it attack a straw man? (The Abductive Pivot):
+The author acknowledges that careful panpsychists (like Philip Goff) do not claim introspection directly proves conscious electrons; they frame their argument abductively. However, the author insists that panpsychists still implicitly "borrow the authority" of first-person experience to give their theories rhetorical weight. A panpsychist might argue this is an unfair psychological critique of how panpsychism is marketed, rather than a logical critique of how the abductive argument functions. In an abductive framework, taking the first-person datum as a "starting point" for ontological extrapolation is standard metaphysical practice, not an illegitimate "transfer of warrant."
+2. The Nature of the "Vacancy" in Physics:
+In Section 6, the author addresses Russellian Monism (the view that physics only gives us structure, leaving a "vacancy" for intrinsic nature). The author writes, "At most, consciousness supplies a candidate model for intrinsic nature." A panpsychist could reply that consciousness is not just a candidate model; it is the only concept of intrinsic nature available to human epistemology. Therefore, extending it to the micro-level is not an arbitrary theoretical leap, but a theoretical necessity if we are to avoid positing "unknowable" intrinsic natures (Kant's noumena).
+3. Underestimating the "Category Error" of Emergence:
+The author challenges panpsychists to explain why organization can't just yield standard physicalist emergence. A panpsychist would reply that standard emergence involves a logical category error (getting experience from non-experience is like getting extension from non-extension). Panpsychism claims that getting macro-experience from micro-experience avoids this specific category error. The author glosses over this defense, treating the combination problem and the physicalist hard problem as equally burdensome structural issues, which a panpsychist would strongly deny.
+
+The danger is not that the point is too obvious. The danger is that a referee might say:
+
+“Careful panpsychists already know first-person experience alone does not prove panpsychism.”
+
+So the paper needs to keep emphasizing that this is not the objection. The objection is subtler:
+
+Even if panpsychism is officially abductive, its dialectical appeal often depends on letting the first-person datum carry more metaphysical weight than it can bear. “there is an underexamined shift in warrant from acquaintance to theory.”
+
+So Lin is about comparative dialectical advantage.
+
+You are about warrant transfer.
+
+That is a real difference.
+
+The risk is that a referee may say: “This sounds like Lin 2025.” To avoid that, I would make the distinction explicit in the introduction, maybe with a sentence like:
+
+Lin argues that revelation cannot favor panpsychism over physicalism. My argument is not primarily comparative in that sense. I argue that the first-person datum cannot transfer its special warrant to hidden phenomenal ontology at all, whether or not physicalism faces parallel difficulties.
+
+That would help a lot.
+
+I’d also slightly reduce the amount of space spent on Lin-like revelation material and make your own label — the introspective warrant constraint — the central advertised contribution. That is the thing that makes the paper yours.
+
+One of the most potent arguments in the paper is the dismantling of "minimal" or "proto" experience. Panpsychists often strip away human traits (like memory or complex thought) to make particle-consciousness plausible. The author traps the panpsychist in a dilemma: If this "proto-experience" retains phenomenal character, it is not what we introspect. If it lacks all phenomenal character, it is no longer the "consciousness" that serves as the foundation of their argument.
+
+
+While the paper is structurally brilliant, its biggest vulnerability is that it occasionally feels like it is critiquing the general "vibe" or marketing strategy of panpsychism rather than specific textual claims.
+To make the argument truly bulletproof, the author should have engaged more deeply—using direct quotes and exegesis—with a few key sources from their own bibliography. By pinning down exactly where these philosophers make the illicit "leap" from first-person experience to cosmic ontology, the author could prove they aren't attacking a straw man.
+Here are the specific sources and concepts that demand deeper engagement:
+1. Philip Goff & The "Revelation" Thesis (Goff 2017a)
+The author’s primary target for the epistemic leap is Philip Goff, specifically his reliance on the "Revelation thesis" (the idea that introspection reveals the essential nature of conscious states).
+The Missing Engagement: The author summarizes Goff but doesn't quote him making the specific error (transferring the warrant of Revelation to micro-physics). A panpsychist could defend Goff by saying, "Goff never claimed Revelation proves micro-consciousness; he only uses Revelation to prove physicalism is false, and then uses abduction to get to panpsychism."
+What was needed: The author should have pulled direct quotes from Goff’s Consciousness and Fundamental Reality (2017) to demonstrate exactly how Goff’s language blurs this line. The paper needs to explicitly show Goff using the feeling of certainty from Revelation to underwrite the metaphysics of his panpsychism.
+2. Galen Strawson & The "Given" (Strawson 2006)
+Strawson is famous for his "Realistic Monism," and the author rightly notes that Strawson treats experience as "the fundamental given natural fact."
+The Missing Engagement: Strawson is highly aggressive in his rhetoric. He frequently accuses physicalists of being "mad" or denying the only thing we actually know for certain (our own experience).
+What was needed: The author should have quoted Strawson directly to highlight this aggressive epistemic posturing. By quoting Strawson saying things like, "we know exactly what experience is," the author could have then sharply applied their critique: "Yes, Galen, we know what macro-experience is, but you are illegitimately using that certainty to demand that electrons have experiential properties." This would ground the author's critique in Strawson's actual text rather than a paraphrase.
+3. Luke Roelofs & Introspective "Grain" (Roelofs 2019, 2020)
+In Section 7, the author addresses the defense that introspecting a human mind is indirectly introspecting the micro-minds that make it up (the way looking at a painting is looking at brushstrokes). The author cites Roelofs here.
+The Missing Engagement: Roelofs has written extensively (specifically in his 2020 paper Consciousness, revelation, and confusion) on exactly this topic. Roelofs explicitly argues that constitutive panpsychists can accept a moderate Revelation thesis without claiming we transparently see micro-minds.
+What was needed: The author brushes past this a bit too quickly. Roelofs is arguably the panpsychist who has thought most deeply about the exact "warrant constraint" the author is writing about. The author should have spent a full page dissecting Roelofs' 2020 argument, showing exactly why Roelofs' attempt to save introspective warrant for constitutive panpsychism ultimately fails the Introspective Warrant Constraint.
+4. Thomas Metzinger & Minimal Phenomenal Experience (Metzinger 2020)
+The author’s handling of the "meditation/pure awareness" objection is logically sound, but it is phenomenologically thin. They mention Metzinger’s work on "Minimal Phenomenal Experience" (MPE).
+The Missing Engagement: When discussing meditation states (like nirodha samapatti or pure witness consciousness), the author relies on a logical dilemma (if it has structure, it's not "bare"; if it has no structure, you can't report it).
+What was needed: It would have been much stronger to pull actual phenomenological reports or questionnaire data from Metzinger & Gamma (2021) or Albahari (2009). By quoting a meditator saying, "I experienced an empty void of timeless presence," the author could then dissect the quote to prove their point: "Notice the words 'presence' and 'timeless'—these are structural, human phenomenological categories, not the bare proto-subjectivity of a quantum field." This would ground the logical argument in actual cognitive science/meditation literature.
+5. Hedda Hassel Mørch & Phenomenal Powers (Mørch 2020)
+Mørch argues that phenomenal properties (like pain) are not just passive feelings, but actual causal powers that ground physical reality.
+The Missing Engagement: The author notes that Mørch's view requires "theoretical support beyond the authority of acquaintance." But does Mørch actually claim we are acquainted with fundamental phenomenal powers?
+What was needed: The author needs to clarify if Mørch is actually guilty of violating the Introspective Warrant Constraint. If Mørch freely admits her theory is 100% abductive and doesn't rely on the "privilege of the first-person," then she isn't a target of this paper. A quote from Mørch clarifying how she justifies her theory would clarify whether she is a victim of the author's critique or exempt from it.
+Summary
+To elevate this paper from a very good structural critique to an undeniable takedown, the author needed to play "gotcha" a bit more with the texts. They needed to find the exact sentences where Goff, Strawson, or others explicitly use the emotional/epistemic certainty of having a mind to justify the existence of conscious particles. Without those direct quotes, a defender of panpsychism can simply retreat and say, "We never actually made the logical error you are accusing us of; you are just misreading our enthusiasm for human consciousness as a metaphysical proof."
+
+I treated your pasted note as the target list: Goff, Strawson, Roelofs, Metzinger/Gamma, Albahari, Mørch, and Lin.  Here’s a usable quote/identifier bank.
+
+## 1. Philip Goff — Revelation / transparency
+
+**Goff, *Consciousness and Fundamental Reality***
+Good quote for your target:
+
+> “phenomenal concepts reveal the nature of the conscious states they refer to”
+
+This is the cleanest line for the Revelation/Transparency issue. Goff’s book also frames the broader Russellian move: physics gives structure, while consciousness supplies the candidate intrinsic nature. ([PagePlace][1])
+
+**Identifiers:**
+DOI: `10.1093/oso/9780190677015.001.0001`
+ISBNs: `9780190677015`, `0190677015`, `9780190677046`, `0197766390` ([PhilPapers][2])
+
+**Goff, “Revelation, Consciousness+ and the Phenomenal Powers View”**
+Useful short quote:
+
+> “we have introspective access to the essential nature of our conscious states”
+
+This article is useful because Goff explicitly defines Revelation and connects it to anti-physicalist argument. ([Springer][3])
+
+**Identifier:**
+DOI: `10.1007/s11245-018-9594-9` ([Springer][3])
+
+---
+
+## 2. Galen Strawson — experience as “the given”
+
+**Strawson, “Realistic Monism: Why Physicalism Entails Panpsychism”**
+
+Strong quotes:
+
+> “experience is itself the fundamental given natural fact”
+
+and:
+
+> “existence of every real concrete thing involves experiential being”
+
+These are probably the best lines for your paper, because Strawson moves very directly from the certainty/reality of experience to a panpsychist constraint on physical reality. ([Consc.net][4])
+
+**Identifiers:**
+Original: *Journal of Consciousness Studies* 13(10–11):3–31, 2006. I found no DOI for the original JCS article. ([PhilArchive][5])
+Reprinted in *Real Materialism and Other Essays*, Oxford University Press, 2008.
+DOI for reprinted chapter: `10.1093/acprof:oso/9780199267422.003.0003`
+ISBN: `9780199267422` ([PhilPapers][6])
+
+---
+
+## 3. Luke Roelofs — constitutive panpsychism and introspective grain
+
+**Roelofs, “Consciousness, Revelation, and Confusion”**
+
+Important quote:
+
+> “strong enough to bring down physicalism but weak enough to leave constitutive panpsychism standing”
+
+That captures his exact strategy: keep a moderate revelation thesis while denying that introspection must reveal all micro-constitutive structure. ([Philosophie.ch][7])
+
+Another very useful quote:
+
+> “inferring absence of structure from the failure of structure to be manifest”
+
+That is directly relevant to your “grain” point. Roelofs’s reply is basically: introspection may reveal macro-consciousness without revealing the micro-experiences constituting it. ([Philosophie.ch][7])
+
+**Identifier:**
+DOI: `10.48106/dial.v74.i1.04`
+*Dialectica* 74(1):63–96 ([Philosophie.ch][7])
+
+**Roelofs, *Combining Minds***
+
+I did not verify a short quote from the book itself, but the identifier is:
+
+DOI: `10.1093/oso/9780190859053.001.0001` ([Philosophie.ch][7])
+
+---
+
+## 4. Thomas Metzinger / Gamma & Metzinger — pure awareness and MPE
+
+**Metzinger, “Minimal Phenomenal Experience”**
+
+Useful quote:
+
+> “minimal, distinct, and unique phenomenal character sui generis”
+
+Also useful:
+
+> “deliberately leaving aside all the metaphysical interpretations”
+
+That second line is especially helpful for you: Metzinger’s project can support the idea that “pure awareness” is a phenomenological datum, not automatically a metaphysical claim about fundamental subjectivity. ([Philosophie Mainz][8])
+
+**Identifier:**
+DOI: `10.33735/phimisci.2020.I.46` ([Philosophie Mainz][8])
+
+**Gamma & Metzinger, “The Minimal Phenomenal Experience Questionnaire”**
+
+Useful quote:
+
+> “pure awareness is often described as a contentless form of experience”
+
+And their study proposes:
+
+> “a 12-factor model”
+
+for the phenomenal profile of pure-awareness reports. This helps your argument: even “contentless” experience is analyzed through reportable phenomenal dimensions such as time, peace, silence, selfhood, witness consciousness, and wakeful presence. ([PLOS][9])
+
+**Identifier:**
+DOI: `10.1371/journal.pone.0253694` ([PLOS][9])
+
+---
+
+## 5. Miri Albahari — witness consciousness
+
+**Albahari, “Witness-Consciousness: Its Definition, Appearance and Reality”**
+
+Useful short phrase from the abstract:
+
+> “mode-neutral awareness with intrinsic phenomenal character”
+
+That is very useful for your paper because it shows that even witness-consciousness is described as having phenomenal character, not as bare metaphysical subjectivity with no character at all. ([PhilArchive][10])
+
+**Identifier:**
+*Journal of Consciousness Studies* 16(1):62–84, 2009. I found no DOI in the accessible records. ([the UWA Profiles and Research Repository][11])
+
+Related book: Albahari, *Analytical Buddhism*.
+ISBN: `9780230007123` ([the UWA Profiles and Research Repository][12])
+
+---
+
+## 6. Hedda Hassel Mørch — phenomenal powers
+
+**Mørch, “Does Dispositionalism Entail Panpsychism?”**
+
+Very useful quote:
+
+> “the only categorical properties we know are phenomenal properties”
+
+This is directly relevant to your warrant-transfer argument. Mørch’s route is not simply “I introspect, therefore electrons feel”; it is more theoretical. But this quote does use a knowledge claim about phenomenal properties to motivate phenomenal categorical grounds. ([PhilArchive][13])
+
+**Identifier:**
+DOI: `10.1007/s11245-018-9604-y`
+*Topoi* 39:1073–1088 ([PhilArchive][13])
+
+**Mørch, “How Can the Mental Ground the Physical?”**
+
+Useful quote:
+
+> “the physical is grounded in the mental, or more precisely, the phenomenal”
+
+I found this as a forthcoming chapter, so probably treat it cautiously unless you have the final published version. ([PhilPapers][14])
+
+---
+
+## 7. Songchi Lin — closest overlap
+
+**Lin, “Why Revelation Cannot Favor Panpsychism Over Physicalism”**
+
+Best abstract-level quote:
+
+> “the revelation thesis cannot serve as a reliable weapon for panpsychists against physicalism”
+
+This is the closest paper to yours. You should cite it, but distinguish your claim: Lin argues revelation does not give panpsychism a comparative advantage over physicalism; your paper argues that first-person warrant does not transfer to hidden phenomenal ontology in the first place. ([Wiley Online Library][15])
+
+**Identifier:**
+DOI: `10.1111/rati.70015`
+*Ratio* 39(2):90–97, 2025 ([Wiley Online Library][15])
+
+---
+
+## Best ones to use in your paper
+
+For the strongest version of your argument, I’d prioritize these:
+
+1. **Strawson:** “experience is itself the fundamental given natural fact.”
+2. **Goff:** “phenomenal concepts reveal the nature of the conscious states they refer to.”
+3. **Roelofs:** “inferring absence of structure from the failure of structure to be manifest.”
+4. **Mørch:** “the only categorical properties we know are phenomenal properties.”
+5. **Gamma & Metzinger:** “pure awareness is often described as a contentless form of experience.”
+
+Those five give you exactly what your paper needs: direct textual hooks for the move from first-person givenness to broader metaphysical machinery.
+
+[1]: https://api.pageplace.de/preview/DT0400.9780190677022_A30672752/preview-9780190677022_A30672752.pdf "PDF generated by \"Newgen_sugumar\""
+[2]: https://philpapers.org/rec/GOFCAF "Philip Goff, Consciousness and Fundamental Reality - PhilPapers"
+[3]: https://link.springer.com/article/10.1007/s11245-018-9594-9 "Revelation, Consciousness+ and the Phenomenal Powers View | Topoi | Springer Nature Link"
+[4]: https://consc.net/event/reef/strawsonmonism.pdf "book AICR75"
+[5]: https://philarchive.org/rec/STRRM-2 "Galen Strawson, Realistic monism - why physicalism entails panpsychism - PhilArchive"
+[6]: https://philpapers.org/rec/STRRMW-5 "Galen Strawson, Realistic Monism: Why Physicalism Entails Panpsychism - PhilPapers"
+[7]: https://philosophie.ch/roelofs-2020 "Philosophie.ch - Consciousness, Revelation, and Confusion"
+[8]: https://www.philosophie.fb05.uni-mainz.de/files/2020/03/Metzinger_MPE1_PMS_2020.pdf "Minimal phenomenal experience: Meditation, tonic alertness, and the phenomenology of ``pure'' consciousness"
+[9]: https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0253694 "The Minimal Phenomenal Experience questionnaire (MPE-92M): Towards a phenomenological profile of “pure awareness” experiences in meditators | PLOS One"
+[10]: https://philarchive.org/rec/ALBWID?utm_source=chatgpt.com "Miri Albahari, Witness-Consciousness: Its Definition, ..."
+[11]: https://research-repository.uwa.edu.au/en/publications/witness-consciousness-its-definition-appearance-and-reality/?utm_source=chatgpt.com "Witness-Consciousness: Its Definition, Appearance and ..."
+[12]: https://research-repository.uwa.edu.au/en/publications/analytical-buddhism-the-two-tiered-illusion-of-self?utm_source=chatgpt.com "Analytical Buddhism: The Two-Tiered Illusion of Self"
+[13]: https://philarchive.org/rec/MRCDDE-2 "Hedda Hassel Mørch, Does Dispositionalism Entail Panpsychism? - PhilArchive"
+[14]: https://philpapers.org/rec/MRCHCT "Hedda Hassel Mørch, How Can the Mental Ground the Physical? The Case for Phenomenal Powers Panpsychism - PhilPapers"
+[15]: https://onlinelibrary.wiley.com/doi/10.1111/rati.70015?utm_source=chatgpt.com "Why Revelation Cannot Favor Panpsychism Over ..."
+1. David Chalmers and "Direct Familiarity"
+In his foundational 1996 book The Conscious Mind, Chalmers outlines the argument that physics only gives us structural properties, leaving a blank space for the "intrinsic" properties of the universe. To fill that blank space, he writes:
+"There is only one class of intrinsic, nonrelational property with which we have any direct familiarity, and that is the class of phenomenal properties. It is natural to speculate that there may be some relation or even overlap between the uncharacterized intrinsic properties of physical entities, and the familiar intrinsic properties of experience."[1][2]
+Why this matters for the paper: Chalmers explicitly uses the phrase "direct familiarity"[1][2]. The author of the paper can point to this and say, "Yes, we have direct familiarity with human phenomenal properties, but that gives us zero familiarity with the uncharacterized properties of physical entities." Chalmers uses the psychological comfort of our own familiarity to justify a massive metaphysical speculation.
+2. Philip Goff and the "Inside" View
+Philip Goff relies heavily on this exact epistemic pivot. In his writings defending Russellian Monism and panpsychism, he repeatedly leverages our "inside" knowledge of the brain to dictate the intrinsic nature of the rest of the universe:
+"Physical science tells us nothing about the intrinsic nature of matter; indeed arguably the only thing we know about the intrinsic nature of matter is that some of it, i.e. the brains and humans, have a consciousness-involving nature. From this epistemic starting point, the most simple, parsimonious speculation is that the nature of matter outside of brains is continuous with the nature of matter inside of brains, in also being consciousness-involving."[3][4]
+Why this matters for the paper: Goff literally calls the inside view of human brains his "epistemic starting point"[3][4]. The paper you shared is a direct attack on this exact sentence. The author's "Introspective Warrant Constraint" argues that you cannot use the "inside of brains" as an epistemic starting point for the "nature of matter outside of brains" because introspection does not reveal matter as such; it only reveals bounded, human experience.
+3. Arthur Schopenhauer and the "Subterranean Passage"
+This epistemic maneuver is actually centuries old. If the author wanted to show the historical root of this panpsychist/idealist leap, they could look to Arthur Schopenhauer's The World as Will and Representation (1844). Schopenhauer explicitly admits that he uses introspection to "cheat" his way into understanding the physics of the universe:
+"We ourselves are the thing-in-itself. Consequently, a way from within stands open to us as to that real inner nature of things to which we cannot penetrate from without. It is, so to speak, a subterranean passage, a secret alliance, which, as if by treachery, places us all at once in the fortress that could not be taken by attack from without."[5][6]
+Why this matters for the paper: Schopenhauer is saying the quiet part out loud[5][6]. He admits that introspection acts as a "subterranean passage" that lets us bypass objective science to know what the universe is made of[5][6]. The author of the paper is essentially arguing that this subterranean passage is an illusion. Introspection does not lead to a secret tunnel connecting you to the fundamental cosmos; it just leads you back to your own human psychology.
+4. Galen Strawson and "The Given"
+As noted in the paper itself, Galen Strawson is the most aggressive proponent of this view. In Realistic Monism: Why Physicalism Entails Panpsychism (2006), Strawson writes:
+"As a wholly unapologetic realist about experience, I say: the only fundamental stuff that we actually know about is experience."
+Why this matters for the paper: Strawson equates "experience" (the thing we know via introspection) with "fundamental stuff" (the building blocks of reality). The paper pulls this apart, arguing that knowing you are experiencing a toothache does not mean you are directly experiencing the fundamental ontological stuff of the universe.
