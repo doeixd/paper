@@ -40,6 +40,8 @@ Bennett-Hunter, Guy. 2015. "Emergence, Emergentism and Pragmatism." *Theology an
 
 Berlin, Brent, and Paul Kay. 1999. *Basic color terms*. Berkeley: University of California Press. ISBN 978-1575861623
 
+Bishop, Robert C., and Harald Atmanspacher. 2006. "Contextual Emergence in the Description of Properties." *Foundations of Physics* 36(12): 1753–77. https://doi.org/10.1007/s10701-006-9082-8.
+
 Blackburn, Simon. 1993. *Essays in Quasi-Realism*. New York: Oxford University Press. ISBN 978-0195082241.
 
 Block, Ned. 1978. "Troubles with Functionalism" In *Perception and Cognition: Issues in the Foundations of Psychology*, Minnesota Studies in the Philosophy of Science 9, edited by C. Wade Savage, 261-325. Minneapolis: University of Minnesota Press.
@@ -103,6 +105,8 @@ Dewey, John. 2007. *Logic: The Theory of Inquiry*. New York: Henry Holt and Comp
 Dittrich, Christian, and Jennifer Flygare Kinne. "The Information-Theoretic Imperative: Compression and the Epistemic Foundations of Intelligence" Preprint, submitted October 30, 2025. arXiv:2510.25883 [cs.AI]. https://doi.org/10.48550/arXiv.2510.25883.
 
 Duflo, Esther. 2012. "Women Empowerment and Economic Development." *Journal of Economic Literature* 50(4): 1051–79. https://doi.org/10.1257/jel.50.4.1051.
+
+Dupré, John, and Daniel J. Nicholson. 2018. "A Manifesto for a Processual Philosophy of Biology." In *Everything Flows: Towards a Processual Philosophy of Biology*, edited by Daniel J. Nicholson and John Dupré, 3–45. Oxford: Oxford University Press.
 
 El-Hani, Charbel Niño, and Sami Pihlström. 2002. "Emergence Theories and Pragmatic Realism." *Essays in Philosophy* 3(2): article 3. https://doi.org/10.5840/eip2002325.
 
@@ -193,6 +197,8 @@ Lin, Hanti. 2025. "Convergence to the Truth." In *The Blackwell Companion to Epi
 Pils, Raimund. 2026. "Structural Realism in Quinean Philosophy." *Erkenntnis*. https://doi.org/10.1007/s10670-026-01065-4.
 
 William James, William. 1890. *The Principles of Psychology*. 2 vols. New York: Henry Holt and Company.
+
+Jaworski, William. 2016. *Structure and the Metaphysics of Mind: How Hylomorphism Solves the Mind-Body Problem*. Oxford: Oxford University Press.
 
 Joyce, Richard. 2001. *The Myth of Morality*. Cambridge: Cambridge University Press. ISBN 978-0521808064. https://doi.org/10.1017/CBO9780511487101.
 
@@ -425,6 +431,8 @@ Tauriainen, Teemu. 2022. "Quine's Conflicts with Truth Deflationism." *Asian Jou
 Thagard, Paul. 1989. "Explanatory Coherence." *Behavioral and Brain Sciences* 12(3): 435–502. https://doi.org/10.1017/S0140525X00057046.
 
 Thagard, Paul. 2000. *Coherence in Thought and Action*. Cambridge, MA: MIT Press. ISBN 978-0262201315.
+
+Thomasson, Amie L. 2007. "Artifacts and Human Concepts." In *Creations of the Mind: Theories of Artifacts and Their Representation*, edited by Eric Margolis and Stephen Laurence, 52–73. Oxford: Oxford University Press.
 
 Tononi, Giulio, Melanie Boly, Marcello Massimini, and Christof Koch. 2016. "Integrated Information Theory: From Consciousness to Its Physical Substrate." *Nature Reviews Neuroscience* 17(7): 450–61. https://doi.org/10.1038/nrn.2016.44.
 
