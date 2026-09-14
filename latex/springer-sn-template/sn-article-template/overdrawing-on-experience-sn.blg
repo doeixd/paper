@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: overdrawing-on-experience-sn.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: sn-basic.bst
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+Database file #1: ../../../pan/overdrawing-on-experience.bib
+sn-basic.bst [2024/07/19 v1.1 bibliography style]
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+You've used 50 entries,
+            3571 wiz_defined-function locations,
+            1001 strings with 11676 characters,
+and the built_in function-call counts, 32175 in all, are:
+= -- 2933
+> -- 703
+< -- 62
++ -- 292
+- -- 204
+* -- 2274
+:= -- 4783
+add.period$ -- 87
+call.type$ -- 50
+change.case$ -- 327
+chr.to.int$ -- 48
+cite$ -- 50
+duplicate$ -- 2709
+empty$ -- 3090
+format.name$ -- 285
+if$ -- 6871
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 385
+newline$ -- 165
+num.names$ -- 229
+pop$ -- 851
+preamble$ -- 1
+purify$ -- 260
+quote$ -- 0
+skip$ -- 835
+stack$ -- 0
+substring$ -- 2430
+swap$ -- 973
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 411
+warning$ -- 0
+while$ -- 263
+width$ -- 0
+write$ -- 586
