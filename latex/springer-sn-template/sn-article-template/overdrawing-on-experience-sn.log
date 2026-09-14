@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  14 SEP 2026 12:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1 Portable) (preloaded format=pdflatex 2025.10.7)  14 SEP 2026 12:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -810,11 +810,11 @@ anged.
 Here is how much of TeX's memory you used:
  12607 strings out of 474486
  199603 string characters out of 5738073
- 1937542 words of memory out of 5000000
+ 1938542 words of memory out of 5000000
  34589 multiletter control sequences out of 15000+600000
  615048 words of font info for 75 fonts, out of 8000000 for 9000
  1151 hyphenation exceptions out of 8191
- 90i,8n,93p,2530b,673s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,8n,93p,2530b,671s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/
 lm/lmbx12.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/t
 ype1/public/lm/lmbx8.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/inst
@@ -826,7 +826,7 @@ atrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/lm/lmr7.pfb><
 C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/public/lm/
 lmr8.pfb><C:/Users/Patrick/scoop/apps/latex/current/texmfs/install/fonts/type1/
 public/lm/lmr9.pfb>
-Output written on overdrawing-on-experience-sn.pdf (18 pages, 358978 bytes).
+Output written on overdrawing-on-experience-sn.pdf (18 pages, 359183 bytes).
 PDF statistics:
  417 PDF objects out of 1000 (max. 8388607)
  85 named destinations out of 1000 (max. 500000)
